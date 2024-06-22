@@ -279,13 +279,15 @@ class invisionExtractor(ForumExtractor):
     def get_forum_next(self,rq):
         return rq.search('ul .ipsPagination; li .ipsPagination_next -.ipsPagination_inactive; [0] a | "%(href)v"')
 
-    def get_from_url(self,url,**kwargs):
+    def guess(self,url,**kwargs):
         if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*',url):
             return self.get_thread(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/*',url):
+        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/.*',url):
             return self.get_forum(url,**kwargs)
         elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
             return self.get_board(url,**kwargs)
+        else:
+            return None
 
 #ses = Session()
 #x = invisionExtractor(ses)

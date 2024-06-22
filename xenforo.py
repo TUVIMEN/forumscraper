@@ -15,6 +15,20 @@ def url_base(url):
         return ''
     return r[1]
 
+def _guess(self,url,**kwargs):
+    if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*',url):
+        return self.get_thread(url,**kwargs)
+    elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/',url):
+        return self.get_board(url,**kwargs)
+    elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/.*',url):
+        return self.get_forum(url,**kwargs)
+    elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?tags?/.*',url):
+        return self.get_tag(url,**kwargs)
+    elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
+        return self.get_board(url,**kwargs)
+    else:
+        return None
+
 class xenforo2Extractor(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self,session):
@@ -221,21 +235,14 @@ class xenforo2Extractor(ForumExtractor):
         self.forum_threads_expr = reliq.expr(r'* .structItem-title; a href | "%(href)v\n"')
         self.tag_threads_expr = reliq.expr(r'div class=b>contentRow; a href -data-user-id | "%(href)v\n"')
 
+    def guess(self,url,**kwargs):
+        return _guess(self,url,**kwargs)
+
     def get_next(self,rq):
         url = rq.search(r'div .block-outer; [0] a .pageNav-jump .pageNav-jump--next href | "%(href)v"')
         if not re.search(r'/page-[0-9]*(\?.*)?/?(#.*)?$',url):
             return ''
         return url
-
-    def get_from_url(self,url,**kwargs):
-        if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*',url):
-            return self.get_thread(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/.*',url):
-            return self.get_forum(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?tags?/.*',url):
-            return self.get_tag(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
-            return self.get_board(url,**kwargs)
 
 class xenforo1Extractor(ForumExtractor):
     class Thread(ItemExtractor):
@@ -337,6 +344,9 @@ class xenforo1Extractor(ForumExtractor):
         self.forum_forums_expr = self.get_board
         self.forum_threads_expr = reliq.expr(r'li id; div .titleText; h3 .title; a -.prefixLink href | "%(href)v\n"')
 
+    def guess(self,url,**kwargs):
+        return _guess(self,url,**kwargs)
+
     def get_next(self,rq):
         url = rq.search(r'nav; [0] a class href=Be>"/page-[0-9]*" m@B>"^[^0-9]*&gt;" | "%(href)v"')
         if not re.search(r'/page-[0-9]+$',url):
@@ -345,14 +355,6 @@ class xenforo1Extractor(ForumExtractor):
 
     def get_tag(self,url,rq=None,**kwargs):
         return self.get_forum(url,rq,**kwargs)
-
-    def get_from_url(self,url,**kwargs):
-        if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*',url):
-            return self.get_thread(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(forum|tag)s?/.*',url):
-            return self.get_forum(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
-            return self.get_board(url,**kwargs)
 
 class xenforoExtractor(ForumExtractor):
     def __init__(self,session=None,**kwargs):
@@ -367,6 +369,7 @@ class xenforoExtractor(ForumExtractor):
             return True
         return False
 
+    @staticmethod
     def is_version_2(rq):
         if rq.search(r'html #XF | "t"'):
             return True
@@ -377,12 +380,15 @@ class xenforoExtractor(ForumExtractor):
         rq = self.get_first_html(url,rq)
 
         if self.is_version_1(rq):
-            return func1(url,**settings)
+            return func1(url,rq,**settings)
         elif self.is_version_2(rq):
-            return func2(url,**settings)
+            return func2(url,rq,**settings)
         else:
             warnings.warn('url leads to improper forum - "{}"'.format(url))
             return None
+
+    def guess(self,url,**kwargs):
+        return _guess(self,url,**kwargs)
 
     def get_thread(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(

@@ -58,3 +58,47 @@ class Extractor(ForumExtractor):
 
     def get_board(self,url,rq=None,**kwargs):
         return self._get_unknown('get_board',url,rq,**kwargs)
+
+    def guess(self,url,**kwargs):
+        if not re.search(r'^https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+',url):
+            return None
+
+        guesslist = [
+            {
+                'func': self.get_thread,
+                'exprs': [
+                    r'([?/&;]topic[=,]|-t)\d+',
+                    r'/?viewtopic.php.*[\&\?]t=\d+',
+                    r'/viewthread.php\?tid=\d+$',
+                    r'[/?](thread|topic)s?/'
+                ]
+            },{
+                'func': self.get_board,
+                'exprs': [
+                    r'/forums?/$'
+                ]
+            },{
+                'func': self.get_forum,
+                'exprs': [
+                    r'([?/&;]board[=,]|-t)\d+',
+                    r'/viewforum.php',
+                    r'/forumdisplay.php\?fid=\d+$',
+                    r'[/?]forums?/'
+                ]
+            },{
+                'func': self.get_tag,
+                'exprs': [
+                    r'[/?]tags?/'
+                ]
+            }
+        ]
+
+        for i in guesslist:
+            func = i['func']
+            exprs = i['exprs']
+
+            for expr in exprs:
+                if re.search(expr,url):
+                    return func(url,**kwargs)
+
+        return self.get_board(url,**kwargs)

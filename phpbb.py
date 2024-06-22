@@ -103,7 +103,7 @@ class phpbbExtractor(ForumExtractor):
             return ""
         return url
 
-    def get_from_url(self,url,**kwargs):
+    def guess(self,url,**kwargs):
         if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewtopic.php.*[\&\?]t=\d+.*',url):
             return self.get_thread(url,**kwargs)
         elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewforum.php.*',url):
@@ -112,6 +112,8 @@ class phpbbExtractor(ForumExtractor):
             return self.get_forum(url,**kwargs)
         elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
             return self.get_forum(url,**kwargs)
+        else:
+            return None
 
 #ses = Session()
 #x = phpbbExtractor(ses)

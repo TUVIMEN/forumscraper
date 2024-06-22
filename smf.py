@@ -9,15 +9,17 @@ from reliq import reliq
 from utils import dict_add
 from common import ItemExtractor, ForumExtractor
 
-def _get_from_url(self,url,**kwargs):
+def _guess(self,url,**kwargs):
     if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]topic[=,]|-t)+(\d+).*',url):
         return self.get_thread(url,**kwargs)
     elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]board[=,]|-t)+(\d+).*',url):
         return self.get_forum(url,**kwargs)
     elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?index.php.*',url):
         return self.get_forum(url,**kwargs)
-    elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+.*',url):
+    elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
         return self.get_forum(url,**kwargs)
+    else:
+        return None
 
 class smf1Extractor(ForumExtractor):
     class Thread(ItemExtractor):
@@ -76,7 +78,6 @@ class smf1Extractor(ForumExtractor):
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
-        self.get_from_url = _get_from_url
 
         self.forum_forums_expr = reliq.expr(r'td .windowbg2 m@B>"name=\"b[0-9]*\""; b l@[1]; a href l@[1] | "%(href)v\n"')
         self.forum_threads_expr = reliq.expr(r'td .B>"windowbg[0-9]*" m@"<span class=\"smalltext\""; a href l@[1] | "%(href)v\n" / sed "s/[.;]msg[^\/]*#new$//;s/#new$//"')
@@ -85,6 +86,9 @@ class smf1Extractor(ForumExtractor):
         return rq.search(r"""
             * m@B>'.*:.*class="navPages"' [-] | "%i\n" / sed 's#.*<b>[0-9]+</b>##;s#[^<]*<a [^>]*href="([^"]+)".*#\1#;/;all$/d;/^\]/d;/^#/d' "E"
         """)[:-1]
+
+    def guess(self,url,**kwargs):
+        return _guess(self,url,**kwargs)
 
 class smf2Extractor(ForumExtractor):
     class Thread(ItemExtractor):
@@ -167,13 +171,15 @@ class smf2Extractor(ForumExtractor):
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
-        self.get_from_url = _get_from_url
 
         self.forum_forums_expr = reliq.expr(r'{ * #E>board_[0-9]+, td .windowbg2 }; a E>(name|id)=E>b[0-9]+ href | "%(href)v\n"')
         self.forum_threads_expr = reliq.expr(r'span #B>msg_[0-9]*; a href | "%(href)v\n"')
 
     def get_next(self,rq):
         return rq.search(r'div .pagelinks [0]; E>(a|span|strong) m@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"')[:-1]
+
+    def guess(self,url,**kwargs):
+        return _guess(self,url,**kwargs)
 
 class smfExtractor(ForumExtractor):
     def __init__(self,session=None,**kwargs):
@@ -183,7 +189,6 @@ class smfExtractor(ForumExtractor):
 
         self.v1 = smf1Extractor(self.session)
         self.v2 = smf2Extractor(self.session)
-        self.get_from_url = _get_from_url
 
     @staticmethod
     def is_version_1(rq):
@@ -196,9 +201,9 @@ class smfExtractor(ForumExtractor):
         rq = self.get_first_html(url,rq)
 
         if self.is_version_1(rq):
-            return func1(url,**settings)
+            return func1(url,rq,**settings)
         else:
-            return func2(url,**settings)
+            return func2(url,rq,**settings)
 
     def get_thread(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(
@@ -215,6 +220,9 @@ class smfExtractor(ForumExtractor):
                 url,
                 rq,
                 **kwargs)
+
+    def guess(self,url,**kwargs):
+        return _guess(self,url,**kwargs)
 
 #ses = Session()
 #x = smfExtractor(ses)

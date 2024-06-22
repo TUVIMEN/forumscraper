@@ -111,15 +111,17 @@ class xmbExtractor(ForumExtractor):
             return ""
         return url
 
-    def get_from_url(self,url,**kwargs):
+    def guess(self,url,**kwargs):
         if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread.php\?tid=\d+',url):
             return self.get_thread(ur,**kwargsl)
         elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?forumdisplay.php\?fid=\d+',url):
             return self.get_forum(ur,**kwargsl)
         elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?index.php\?gid=\d+',url):
             return self.get_board(ur,**kwargsl)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*',url):
+        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
             return self.get_board(ur,**kwargsl)
+        else:
+            return None
 
 # ses = Session()
 # x = xmbExtractor(ses)

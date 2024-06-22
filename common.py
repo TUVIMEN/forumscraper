@@ -250,7 +250,7 @@ class ForumExtractor():
 
     def get_tag(self,url,rq=None,depth=0,**kwargs):
         if not self.tag_threads_expr:
-            return
+            return None
         return self.go_through_pages(
                 url,
                 self.tag_threads_expr,
@@ -262,7 +262,7 @@ class ForumExtractor():
 
     def get_board(self,url,rq=None,depth=0,**kwargs):
         if not self.board_forums_expr:
-            return
+            return self.get_tag(url,rq,depth,**kwargs)
         return self.go_through_pages(
                 url,
                 None,
@@ -272,5 +272,5 @@ class ForumExtractor():
                 rq,
                 **kwargs)
 
-    def get_from_url(self,url,**kwargs):
+    def guess(self,url,**kwargs):
         pass
