@@ -26,8 +26,9 @@ class smf1Extractor(ForumExtractor):
 
             self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]topic[=,]|-t)(\d+).*'),3]
 
-        def get_contents(self,rq,url,t_id,**kwargs):
+        def get_contents(self,settings,rq,url,t_id):
             ret = {'format_version':'smf-1-thread','url':url,'id':t_id}
+            page = 0
 
             t = json.loads(rq.search(r"""
                 .title td #top_subject | "%i" / sed "s/[^:]*: //;s/([^(]*)//;s/&nbsp;//g;s/ *$//",
@@ -57,6 +58,9 @@ class smf1Extractor(ForumExtractor):
                 t = json.loads(rq.search(expr))
                 posts += t['posts']
 
+                page += 1
+                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                    break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
@@ -90,8 +94,9 @@ class smf2Extractor(ForumExtractor):
             self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]topic[=,])(\d+).*'),3]
             self.trim = True
 
-        def get_contents(self,rq,url,t_id,**kwargs):
+        def get_contents(self,settings,rq,url,t_id):
             ret = {'format_version':'smf-2-thread','url':url,'id':t_id}
+            page = 0
 
             forumposts = rq.filter(r'div #forumposts')
             title = forumposts.search(r'div .cat_bar; h3 .catbg | "%i\n" / sed "s/<[^>]*>//g;s/ &nbsp;/ /;s/ ([^)]*)$//;s/^[^:]*: //"')[:-1]
@@ -134,6 +139,9 @@ class smf2Extractor(ForumExtractor):
                 t = json.loads(rq.search(expr))
                 posts += t['posts']
 
+                page += 1
+                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                    break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
@@ -184,14 +192,15 @@ class smfExtractor(ForumExtractor):
         return False
 
     def version_judge(self,func1,func2,url,rq=None,**kwargs):
+        settings = self.get_settings(**kwargs)
         rq = self.get_first_html(url,rq)
 
         if self.is_version_1(rq):
-            return func1(url,**kwargs)
+            return func1(url,**settings)
         else:
-            return func2(url,**kwargs)
+            return func2(url,**settings)
 
-    def get_thread(self,url,rq=None,**kwargs):
+    def get_thread(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(
                 self.v1.get_thread,
                 self.v2.get_thread,
@@ -199,7 +208,7 @@ class smfExtractor(ForumExtractor):
                 rq,
                 **kwargs)
 
-    def get_forum(self,url,rq=None,**kwargs):
+    def get_forum(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(
                 self.v1.get_forum,
                 self.v2.get_forum,

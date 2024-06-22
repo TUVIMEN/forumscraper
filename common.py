@@ -9,6 +9,7 @@ from reliq import reliq
 
 from utils import strtosha256
 from net import Session
+from enums import Outputs
 
 def get_first_html(extractor,url,rq=None):
     if rq is None:
@@ -24,6 +25,7 @@ class ItemExtractor():
         self.trim = False
 
         self.session = session
+        self.output = Outputs.id
 
     def get_url(self,url):
         return url
@@ -35,7 +37,7 @@ class ItemExtractor():
         warnings.warn('improper url - "{}"'.format(url))
         return [None,0]
 
-    def get(self,url,rq=None,**kwargs):
+    def get(self,settings,url,rq=None,**kwargs):
         r = re.fullmatch(self.match[0],url)
         if r is None:
             rq, t_id = self.get_improper_url(url,rq)
@@ -44,18 +46,30 @@ class ItemExtractor():
         else:
             t_id = int(r[self.match[1]])
 
-        path = self.path_format.format(str(t_id))
+        path = None
 
-        if os.path.exists(path):
+        if settings['output'] == Outputs.id:
+            path = self.path_format.format(str(t_id))
+        elif settings['output'] == Outputs.hash:
+            path = strtosha256(url)
+
+        if path and os.path.exists(path):
             return
 
         url = self.get_url(url)
         rq = self.get_first_html(url,rq)
 
-        with open(path,'x') as f:
-            f.write(json.dumps(self.get_contents(rq,url,t_id,**kwargs)))
+        contents = self.get_contents(settings,rq,url,t_id)
+        if not path:
+            if settings['output'] != Outputs.dict:
+                return None
+            return contents
 
-    def get_contents(self,rq,url,t_id,**kwargs):
+        with open(path,'x') as f:
+            f.write(json.dumps(contents))
+        return path
+
+    def get_contents(self,settings,rq,url,t_id):
         return {}
 
 class ForumExtractor():
@@ -75,16 +89,50 @@ class ForumExtractor():
         else:
             self.session = Session(**kwargs)
 
+        #threads=1
+        #thread_pages_max=0
+        #pages_max=0
+        #pages_maxthreads=0
+        #pages_threads_max=0
+        #output=pages_threads,pages_forums,pages_dict,pages_ids,pages_hashes
+        self.settings = {
+            'threads': 1,
+            'thread_pages_max': 0,
+            'pages_max': 0,
+            'pages_max_depth': 0,
+            'pages_threads_max': 0,
+            'accumulate': False,
+            'output': Outputs.id,
+            'nousers': False,
+            'noreactions': False
+        }
+        self.settings = self.get_settings(**kwargs)
+
+    def get_settings(self,**kwargs):
+        ret = self.settings
+        for i in self.settings.keys():
+            val = kwargs.get(i)
+            if val:
+                ret[i] = val
+
+        if ret['output'] == Outputs.threads or ret['output'] == Outputs.forums or ret['output'] == Outputs.dict:
+            ret['accumulate'] = True
+            ret['nousers'] = True
+
+        return ret
+
     url_base = None #blank function
 
     def get_first_html(self,url,rq=None):
         return get_first_html(self,url,rq)
 
-    def get_thread(self,url,rq=None,**kwargs):
-        return self.thread.get(url,rq,**kwargs)
+    def get_thread(self,url,rq=None,depth=0,**kwargs):
+        settings = self.get_settings(**kwargs)
+        return self.thread.get(settings,url,rq)
 
-    def get_user(self,url,rq=None,**kwargs):
-        return self.user.get(url,rq,**kwargs)
+    def get_user(self,url,rq=None,depth=0,**kwargs):
+        settings = self.get_settings(**kwargs)
+        return self.user.get(settings,url,rq)
 
     @staticmethod
     def url_base_merge(urlbase,url):
@@ -102,78 +150,125 @@ class ForumExtractor():
         pass
 
     def get_forum_next(self,rq):
-        self.get_next(rq)
+        return self.get_next(rq)
 
     def get_tag_next(self,rq):
-        self.get_next(rq)
+        return self.get_next(rq)
 
-    def go_through_page(self,baseurl,rq,func,**kwargs):
-        for i in rq.search(expr).split('\n')[:-1]:
-            url = i
+    def go_through_page(self,settings,baseurl,rq,func_name,expr,depth):
+        ret = []
+        func = getattr(self,func_name)
+
+        thread_count = 0
+
+        for url in rq.search(expr).split('\n')[:-1]:
             if self.url_base:
-                url = self.url_base_merge(urlbase,i)
+                url = self.url_base_merge(baseurl,url)
 
-            func(url,**kwargs)
+            r = None
+            if func_name == 'get_thread':
+                thread_count += 1
+                if settings['output'] == Outputs.threads:
+                    r = url
+                else:
+                    r = func(url,None,depth+1,**settings)
+            elif func_name == 'get_forum':
+                r = []
+                if settings['output'] == Outputs.forums:
+                    r.append(url)
+                if settings['pages_max_depth'] == 0 or settings['pages_max_depth'] > depth+1:
+                    r2 = func(url,None,depth+1,**settings)
+                    if r2:
+                        r += r2
 
-    def go_through_pages(self,url,threads_expr,forums_expr,func_next,rq=None,**kwargs):
+            if r and settings['accumulate']:
+                if isinstance(r,list):
+                    ret += r
+                else:
+                    ret.append(r)
+
+            if settings['pages_threads_max'] != 0 and settings['pages_threads_max'] == thread_count:
+                break
+
+        return ret
+
+    def go_through_pages(self,url,threads_expr,forums_expr,func_next,depth,rq=None,**kwargs):
+        settings = self.get_settings(**kwargs)
         rq = self.get_first_html(url,rq)
 
-        urlbase = None
+        baseurl = None
         if self.url_base:
-            urlbase = self.url_base(url)
+            baseurl = self.url_base(url)
 
-        uses_board = callable(forums_expr)
-        if uses_board:
-            forums_expr(self,url,rq,**kwargs)
+        ret = []
+        page = 0
 
-        while True:
-            if forums_expr and not uses_board:
-                go_through_page(self,baseurl,rq,self.get_thread,**kwargs)
+        if forums_expr:
+            if callable(forums_expr):
+                ret = forums_expr(url,rq,**settings)
+            else:
+                r = self.go_through_page(settings,baseurl,rq,'get_forum',forums_expr,depth)
+                if r:
+                    ret += r
 
-            if threads_expr:
-                go_through_page(self,baseurl,rq,self.get_forum,**kwargs)
+        if settings['output'] != Outputs.forums:
+            while True:
+                r = None
 
-            if not func_next:
-                break
+                if threads_expr:
+                    r = self.go_through_page(settings,baseurl,rq,'get_thread',threads_expr,depth)
 
-            nexturl = func_next(rq)
-            if len(nexturl) == 0:
-                break
-            if urlbase:
-                nexturl = self.url_base_merge(urlbase,nexturl)
-            rq = self.get_first_html(nexturl)
+                if r and settings['accumulate']:
+                    ret += r
 
-    def get_forum(self,url,rq=None,**kwargs):
-        return go_through_pages(
-                self,
+                if not func_next:
+                    break
+
+                page += 1
+                if settings['pages_max'] != 0 and page >= settings['pages_max']:
+                    break
+                nexturl = func_next(rq)
+                if len(nexturl) == 0:
+                    break
+                if baseurl:
+                    nexturl = self.url_base_merge(baseurl,nexturl)
+                rq = self.get_first_html(nexturl)
+
+        if settings['accumulate']:
+            return ret
+        return None
+
+    def get_forum(self,url,rq=None,depth=0,**kwargs):
+        return self.go_through_pages(
                 url,
                 self.forum_threads_expr,
                 self.forum_forums_expr,
                 self.get_forum_next,
+                depth,
                 rq,
                 **kwargs)
 
-    def get_tag(self,url,rq=None,**kwargs):
+    def get_tag(self,url,rq=None,depth=0,**kwargs):
         if not self.tag_threads_expr:
             return
-        return go_through_pages(
-                self,
+        return self.go_through_pages(
                 url,
                 self.tag_threads_expr,
                 None,
                 self.get_tag_next,
+                depth,
                 rq,
                 **kwargs)
 
-    def get_board(self,url,rq=None,**kwargs):
+    def get_board(self,url,rq=None,depth=0,**kwargs):
         if not self.board_forums_expr:
             return
-        return go_through_pages(
-                self,
+        return self.go_through_pages(
                 url,
                 None,
                 self.board_forums_expr,
                 None,
+                depth,
                 rq,
                 **kwargs)
 

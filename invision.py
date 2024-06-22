@@ -28,7 +28,7 @@ class invisionExtractor(ForumExtractor):
         def get_first_html(self,url,rq=None):
             return self.session.get_html(url,self.trim,headers={'X-Requested-With':'XMLHttpRequest'})
 
-        def get_contents(self,rq,url,u_id,**kwargs):
+        def get_contents(self,settings,rq,url,u_id):
             ret = {'format_version':'invision-user','url':url,'id':u_id}
 
             t = json.loads(rq.search(r"""
@@ -128,8 +128,9 @@ class invisionExtractor(ForumExtractor):
                 nexturl=rq.search(r'li .ipsPagination_next -.ipsPagination_inactive; [0] a href | "%(href)v" / sed "s/&amp;/&/; s/&reaction=.*$//;q"')
             return ret
 
-        def get_contents(self,rq,url,t_id,**kwargs):
+        def get_contents(self,settings,rq,url,t_id):
             ret = {'format_version':'invision-thread','url':url,'id':t_id}
+            page = 0
 
             t = json.loads(rq.search(r"""
                 div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
@@ -219,8 +220,8 @@ class invisionExtractor(ForumExtractor):
 
                     post['user_link'] = i.search(r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"')
 
-                    if not kwargs.get('nousers') and len(post['user_link']) > 0:
-                        self.user.get(post['user_link'])
+                    if not settings['nousers'] and len(post['user_link']) > 0:
+                        self.user.get(settings,post['user_link'])
 
                     t = json.loads(i.search(expr))
                     dict_add(post,t)
@@ -245,12 +246,15 @@ class invisionExtractor(ForumExtractor):
                     dict_add(post,t)
 
                     reactions_details = []
-                    if not kwargs.get('noreactions'):
+                    if not settings['noreactions']:
                         reactions_details = self.get_reactions_details(i)
                     post['reactions_details'] = reactions_details
 
                     posts.append(post)
 
+                page += 1
+                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                    break
                 nexturl = rq.search(r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"')
                 if len(nexturl) == 0:
                     break
@@ -271,12 +275,6 @@ class invisionExtractor(ForumExtractor):
         self.board_forums_expr = reliq.expr(r'li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n", div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n"')
         self.forum_forums_expr = self.get_board
         self.forum_threads_expr = reliq.expr(r'ol data-role=tableRows; h4; a class="" href=e>"/" | "%(href)v\n"')
-
-    def get_board(url,rq=None,**kwargs):
-        rq = self.get_first_html(url,rq)
-
-        for i in rq.search(r'li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n", div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n"').split('\n')[:-1]:
-            self.get_forum(i)
 
     def get_forum_next(self,rq):
         return rq.search('ul .ipsPagination; li .ipsPagination_next -.ipsPagination_inactive; [0] a | "%(href)v"')

@@ -24,14 +24,14 @@ class xenforo2Extractor(ForumExtractor):
 
             self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[./])?(\d+)(/.*)?'),3]
 
-        def get_search_user(self,rq,baseurl,first_delim,xfToken):
+        def get_search_user(self,settings,rq,baseurl,first_delim,xfToken):
             user_url = rq.search(r"""
                 {
                     h4 class=b>message-name,
                     div .MessageCard__avatar
                 }; [0] a data-user-id href | "%(href)v"
             """)
-            self.user.get('{}{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json'.format(baseurl,user_url,first_delim,xfToken))
+            self.user.get(settings,'{}{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json'.format(baseurl,user_url,first_delim,xfToken))
 
         @staticmethod
         def get_xfToken(rq):
@@ -64,8 +64,9 @@ class xenforo2Extractor(ForumExtractor):
 
             return ret
 
-        def get_contents(self,rq,url,t_id,**kwargs):
+        def get_contents(self,settings,rq,url,t_id):
             baseurl = self.url_base(url)
+            page = 0
             url_first_delimiter = '?'
             if url.find('?') != -1:
                 url_first_delimiter = '&'
@@ -145,16 +146,19 @@ class xenforo2Extractor(ForumExtractor):
                     reactions = []
 
                     if len(xfToken) > 0:
-                        if not kwargs.get('nousers'):
-                            self.get_search_user(tag,baseurl,url_first_delimiter,xfToken)
+                        if not settings['nousers']:
+                            self.get_search_user(settings,tag,baseurl,url_first_delimiter,xfToken)
 
-                        if not kwargs.get('noreactions'):
+                        if not settings['noreactions']:
                             reactions = self.get_reactions(tag,baseurl,url_first_delimiter,xfToken)
 
                     post['reactions'] = reactions
 
                     posts.append(post)
 
+                page += 1
+                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                    break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
@@ -176,7 +180,7 @@ class xenforo2Extractor(ForumExtractor):
         def get_first_html(self,url,rq=None):
             return reliq(self.session.get_json(url)['html']['content'])
 
-        def get_contents(self,rq,url,u_id,**kwargs):
+        def get_contents(self,settings,rq,url,u_id):
             baseurl = self.url_base(url)
             ret = {'format_version':'xenforo-2-user','url':url,'id':u_id}
 
@@ -242,10 +246,10 @@ class xenforo1Extractor(ForumExtractor):
 
             self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?'),3]
 
-        def get_contents(self,rq,url,t_id,**kwargs):
-            baseurl = self.url_base(url)
-
+        def get_contents(self,settings,rq,url,t_id):
             ret = {'format_version':'xenforo-1-thread','url':url,'id':t_id}
+            page = 0
+            baseurl = self.url_base(url)
 
             t = json.loads(rq.search(r"""
                 .title { div class=b>titleBar; h1 | "%i", div #header; h1 | "%i" / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" },
@@ -308,6 +312,9 @@ class xenforo1Extractor(ForumExtractor):
 
                     posts.append(post)
 
+                page += 1
+                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                    break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
@@ -366,17 +373,18 @@ class xenforoExtractor(ForumExtractor):
         return False
 
     def version_judge(self,url,rq,func1,func2,**kwargs):
+        settings = self.get_settings(**kwargs)
         rq = self.get_first_html(url,rq)
 
         if self.is_version_1(rq):
-            return func1(url,**kwargs)
+            return func1(url,**settings)
         elif self.is_version_2(rq):
-            return func2(url,**kwargs)
+            return func2(url,**settings)
         else:
             warnings.warn('url leads to improper forum - "{}"'.format(url))
             return None
 
-    def get_thread(self,url,rq=None,**kwargs):
+    def get_thread(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(
                 url,
                 rq,
@@ -384,7 +392,7 @@ class xenforoExtractor(ForumExtractor):
                 self.v2.get_thread,
                 **kwargs)
 
-    def get_forum(self,url,rq=None,**kwargs):
+    def get_forum(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(
                 url,
                 rq,
@@ -392,7 +400,7 @@ class xenforoExtractor(ForumExtractor):
                 self.v2.get_forum,
                 **kwargs)
 
-    def get_tag(self,url,rq=None,**kwargs):
+    def get_tag(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(
                 url,
                 rq,
@@ -400,7 +408,7 @@ class xenforoExtractor(ForumExtractor):
                 self.v2.get_tag,
                 **kwargs)
 
-    def get_board(self,url,rq=None,**kwargs):
+    def get_board(self,url,rq=None,depth=0,**kwargs):
         return self.version_judge(
                 url,
                 rq,

@@ -17,8 +17,9 @@ class xmbExtractor(ForumExtractor):
             self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread\.php\?tid=(\d+)'),3]
             self.trim = True
 
-        def get_contents(self,rq,url,t_id,**kwargs):
+        def get_contents(self,settings,rq,url,t_id):
             ret = {'format_version':'xmb-thread','url':url,'id':t_id}
+            page = 0
             baseurl = self.url_base(url)
 
             t = json.loads(rq.search(r"""
@@ -74,6 +75,9 @@ class xmbExtractor(ForumExtractor):
 
                     posts.append(post)
 
+                page += 1
+                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                    break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
