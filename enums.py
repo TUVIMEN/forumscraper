@@ -3,6 +3,7 @@
 
 from enum import Enum, auto
 
+
 class Outputs(Enum):
     threads = auto()
     forums = auto()

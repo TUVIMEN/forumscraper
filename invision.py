@@ -9,29 +9,37 @@ from reliq import reliq
 from utils import dict_add
 from common import ItemExtractor, ForumExtractor
 
+
 class invisionExtractor(ForumExtractor):
     class User(ItemExtractor):
-        def __init__(self,session):
+        def __init__(self, session):
             super().__init__(session)
 
-            self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*/(\d+)(-[^/]*)?/?'),2]
-            self.path_format = 'm-{}'
+            self.match = [
+                re.compile(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*/(\d+)(-[^/]*)?/?"),
+                2,
+            ]
+            self.path_format = "m-{}"
             self.trim = True
 
-        def get_url(self,url):
-            url_delim='?'
-            if url.find('?') != -1:
-                url_delim = '&'
+        def get_url(self, url):
+            url_delim = "?"
+            if url.find("?") != -1:
+                url_delim = "&"
 
-            return '{}{}do=hovercard'.format(url,url_delim)
+            return "{}{}do=hovercard".format(url, url_delim)
 
-        def get_first_html(self,url,rq=None):
-            return self.session.get_html(url,self.trim,headers={'X-Requested-With':'XMLHttpRequest'})
+        def get_first_html(self, url, rq=None):
+            return self.session.get_html(
+                url, self.trim, headers={"X-Requested-With": "XMLHttpRequest"}
+            )
 
-        def get_contents(self,settings,rq,url,u_id):
-            ret = {'format_version':'invision-user','url':url,'id':u_id}
+        def get_contents(self, settings, rq, url, u_id):
+            ret = {"format_version": "invision-user", "url": url, "id": u_id}
 
-            t = json.loads(rq.search(r"""
+            t = json.loads(
+                rq.search(
+                    r"""
                 .name h2 class=b>"ipsType_reset ipsType_"; a | "%i",
                 .background div .ipsCoverPhoto_container; img src | "%(src)v",
                 .avatar img src .ipsUserPhoto | "%(src)v",
@@ -56,63 +64,78 @@ class invisionExtractor(ForumExtractor):
                     .rank_date time datetime | "%(datetime)v",
                 }
                 .badges.a div class=b>"ipsFlex ipsFlex-ai:center "; ul; li; img alt | "%(alt)v\n"
-            """))
-            dict_add(ret,t)
+            """
+                )
+            )
+            dict_add(ret, t)
 
             return ret
 
     class Thread(ItemExtractor):
-        def __init__(self,session):
+        def __init__(self, session):
             super().__init__(session)
 
-            self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*/(\d+)(-[^/]*)?/?'),2]
+            self.match = [
+                re.compile(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*/(\d+)(-[^/]*)?/?"),
+                2,
+            ]
             self.trim = True
 
-        def get_poll_answers(self,rq):
+        def get_poll_answers(self, rq):
             ret = []
-            for i in rq.filter(r'ul; li').children():
+            for i in rq.filter(r"ul; li").children():
                 el = {}
-                el['option'] = i.search(r'div .ipsGrid_span4 | "%i"')
-                el['votes'] = i.search(r'div .ipsGrid_span1; * m@E>"^(<[^>]*>[^<]*</[^>]*>)?[^<]+$" | "%i" / sed "s/^<i.*<\/i> //"')
+                el["option"] = i.search(r'div .ipsGrid_span4 | "%i"')
+                el["votes"] = i.search(
+                    r'div .ipsGrid_span1; * m@E>"^(<[^>]*>[^<]*</[^>]*>)?[^<]+$" | "%i" / sed "s/^<i.*<\/i> //"'
+                )
                 ret.append(el)
             return ret
 
-        def get_poll_questions(self,rq):
+        def get_poll_questions(self, rq):
             ret = []
-            for i in rq.filter(r'ol .ipsList_reset .cPollList; li l@[1]').children():
+            for i in rq.filter(r"ol .ipsList_reset .cPollList; li l@[1]").children():
                 el = {}
-                el['question'] = i.search(r'h3; span | "%i"')
-                el['answers'] = self.get_poll_answers(i)
+                el["question"] = i.search(r'h3; span | "%i"')
+                el["answers"] = self.get_poll_answers(i)
                 ret.append(el)
 
             return ret
 
-        def get_poll(self,rq):
+        def get_poll(self, rq):
             ret = {}
-            controller = rq.filter(r'section data-controller=core.front.core.poll')
+            controller = rq.filter(r"section data-controller=core.front.core.poll")
 
             title = ""
             questions = []
 
             if controller:
-                title = controller.search(r'h2 l@[1]; span l@[1] | "%i" / sed "s/<.*//;s/&nbsp;//g;s/ *$//"')
+                title = controller.search(
+                    r'h2 l@[1]; span l@[1] | "%i" / sed "s/<.*//;s/&nbsp;//g;s/ *$//"'
+                )
                 questions = self.get_poll_questions(controller)
 
-            ret['title'] = title
-            ret['questions'] = questions
+            ret["title"] = title
+            ret["questions"] = questions
             return ret
 
-        def get_reactions_details(self,rq):
+        def get_reactions_details(self, rq):
             ret = []
-            nexturl = rq.search(r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"')
+            nexturl = rq.search(
+                r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"'
+            )
 
             while True:
                 if len(nexturl) == 0:
                     break
 
-                rq = self.session.get_html(nexturl,True,headers={'X-Requested-With':'XMLHttpRequest'})
+                rq = self.session.get_html(
+                    nexturl, True, headers={"X-Requested-With": "XMLHttpRequest"}
+                )
 
-                t = json.loads(rq.search(r"""
+                t = json.loads(
+                    rq.search(
+                        r"""
                     .reactions ol; li; {
                         .avatar a .ipsUserPhoto; img src | "%(src)v",
                         a .ipsType_break href; {
@@ -122,17 +145,23 @@ class invisionExtractor(ForumExtractor):
                         .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
                         .date time datetime | "%(datetime)v"
                     } |
-                """))
-                ret += t['reactions']
+                """
+                    )
+                )
+                ret += t["reactions"]
 
-                nexturl=rq.search(r'li .ipsPagination_next -.ipsPagination_inactive; [0] a href | "%(href)v" / sed "s/&amp;/&/; s/&reaction=.*$//;q"')
+                nexturl = rq.search(
+                    r'li .ipsPagination_next -.ipsPagination_inactive; [0] a href | "%(href)v" / sed "s/&amp;/&/; s/&reaction=.*$//;q"'
+                )
             return ret
 
-        def get_contents(self,settings,rq,url,t_id):
-            ret = {'format_version':'invision-thread','url':url,'id':t_id}
+        def get_contents(self, settings, rq, url, t_id):
+            ret = {"format_version": "invision-thread", "url": url, "id": t_id}
             page = 0
 
-            t = json.loads(rq.search(r"""
+            t = json.loads(
+                rq.search(
+                    r"""
                 div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
                     .title span class="ipsType_break ipsContained"; span -class | "%i",
                     .badges.a span title | "%(title)v\n"
@@ -153,12 +182,16 @@ class invisionExtractor(ForumExtractor):
                 },
 
                 .warning div .cTopicPostArea; span .ipsType_warning | "%i",
-            """))
-            dict_add(ret,t)
+            """
+                )
+            )
+            dict_add(ret, t)
 
-            ret['poll'] = self.get_poll(rq)
+            ret["poll"] = self.get_poll(rq)
 
-            t = json.loads(rq.search(r"""
+            t = json.loads(
+                rq.search(
+                    r"""
                 .recommended div data-role=recommendedComments; div .ipsBox data-commentID; {
                     .id.u div .ipsBox data-commentID | "%(data-commentID)v",
                      div .ipsReactOverview; {
@@ -180,10 +213,13 @@ class invisionExtractor(ForumExtractor):
                         .content div .ipsType_richText | "%i"
                     }
                 }
-            """))
-            dict_add(ret,t)
+            """
+                )
+            )
+            dict_add(ret, t)
 
-            expr = reliq.expr(r"""
+            expr = reliq.expr(
+                r"""
                 .id.u article #B>elComment_[0-9]* | "%(id)v\n" / sed "s/^elComment_//",
                 aside; {
                     .user h3 class=b>"ipsType_sectionHead cAuthorPane_author "; * c@[0] [0] | "%i",
@@ -211,22 +247,27 @@ class invisionExtractor(ForumExtractor):
                 },
                 .content div .cPost_contentWrap; div data-role=commentContent | "%i",
                 .signature div data-role=memberSignature; div data-ipslazyload | "%i",
-            """)
+            """
+            )
             posts = []
 
             while True:
-                for i in rq.filter(r'article #B>elComment_[0-9]*').children():
+                for i in rq.filter(r"article #B>elComment_[0-9]*").children():
                     post = {}
 
-                    post['user_link'] = i.search(r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"')
+                    post["user_link"] = i.search(
+                        r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
+                    )
 
-                    if not settings['nousers'] and len(post['user_link']) > 0:
-                        self.user.get(settings,post['user_link'])
+                    if not settings["nousers"] and len(post["user_link"]) > 0:
+                        self.user.get(settings, post["user_link"])
 
                     t = json.loads(i.search(expr))
-                    dict_add(post,t)
+                    dict_add(post, t)
 
-                    t = json.loads(i.search(r"""
+                    t = json.loads(
+                        i.search(
+                            r"""
                         ul .ipsReact_reactions; {
                             .reactions_users li .ipsReact_overview; a href -href=a>?do= l@[1]; {
                                 .link * l@[0] | "%(href)v",
@@ -234,37 +275,44 @@ class invisionExtractor(ForumExtractor):
                             } | ,
                             .reactions_temp.a li .ipsReact_reactCount; span a@[0] / sed "s/<span><img .* alt=\"//; s/\".*//; N; s/\n/\t/; s/<span>//; s/<\/span>//"
                         }
-                    """))
-                    t['reactions'] = []
-                    for j in t['reactions_temp']:
+                    """
+                        )
+                    )
+                    t["reactions"] = []
+                    for j in t["reactions_temp"]:
                         el = {}
-                        reaction = j.split('\t')
-                        el['name'] = reaction[0]
-                        el['count'] = reaction[1]
-                        t['reactions'].append(el)
-                    t.pop('reactions_temp')
-                    dict_add(post,t)
+                        reaction = j.split("\t")
+                        el["name"] = reaction[0]
+                        el["count"] = reaction[1]
+                        t["reactions"].append(el)
+                    t.pop("reactions_temp")
+                    dict_add(post, t)
 
                     reactions_details = []
-                    if not settings['noreactions']:
+                    if not settings["noreactions"]:
                         reactions_details = self.get_reactions_details(i)
-                    post['reactions_details'] = reactions_details
+                    post["reactions_details"] = reactions_details
 
                     posts.append(post)
 
                 page += 1
-                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                if (
+                    settings["thread_pages_max"] != 0
+                    and page >= settings["thread_pages_max"]
+                ):
                     break
-                nexturl = rq.search(r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"')
+                nexturl = rq.search(
+                    r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"'
+                )
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl,True)
+                rq = self.session.get_html(nexturl, True)
 
-            ret['posts'] = posts
+            ret["posts"] = posts
             return ret
 
-    def __init__(self,session=None,**kwargs):
-        super().__init__(session,**kwargs)
+    def __init__(self, session=None, **kwargs):
+        super().__init__(session, **kwargs)
 
         self.trim = True
 
@@ -272,25 +320,29 @@ class invisionExtractor(ForumExtractor):
         self.user = self.User(self.session)
         self.thread.user = self.user
 
-        self.board_forums_expr = reliq.expr(r'li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n", div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n"')
+        self.board_forums_expr = reliq.expr(
+            r'li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n", div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n"'
+        )
         self.forum_forums_expr = self.get_board
-        self.forum_threads_expr = reliq.expr(r'ol data-role=tableRows; h4; a class="" href=e>"/" | "%(href)v\n"')
+        self.forum_threads_expr = reliq.expr(
+            r'ol data-role=tableRows; h4; a class="" href=e>"/" | "%(href)v\n"'
+        )
 
-    def get_forum_next(self,rq):
-        return rq.search('ul .ipsPagination; li .ipsPagination_next -.ipsPagination_inactive; [0] a | "%(href)v"')
+    def get_forum_next(self, rq):
+        return rq.search(
+            'ul .ipsPagination; li .ipsPagination_next -.ipsPagination_inactive; [0] a | "%(href)v"'
+        )
 
-    def guess(self,url,**kwargs):
-        if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*',url):
-            return self.get_thread(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/.*',url):
-            return self.get_forum(url,**kwargs)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
-            return self.get_board(url,**kwargs)
+    def guess(self, url, **kwargs):
+        if re.fullmatch(
+            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*", url
+        ):
+            return self.get_thread(url, **kwargs)
+        elif re.fullmatch(
+            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/.*", url
+        ):
+            return self.get_forum(url, **kwargs)
+        elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?", url):
+            return self.get_board(url, **kwargs)
         else:
             return None
-
-#ses = Session()
-#x = invisionExtractor(ses)
-#x.get_thread('https://invisioncommunity.com/forums/topic/478369-invision-community-5-tagging-reinvented/')
-#x.get_thread('https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/')
-#x.get_thread('https://linustechtips.com/topic/1197477-policygenius-thoughts/')

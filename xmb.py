@@ -9,27 +9,38 @@ from reliq import reliq
 from utils import dict_add
 from common import ItemExtractor, ForumExtractor
 
+
 class xmbExtractor(ForumExtractor):
     class Thread(ItemExtractor):
-        def __init__(self,session):
+        def __init__(self, session):
             super().__init__(session)
 
-            self.match = [re.compile(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread\.php\?tid=(\d+)'),3]
+            self.match = [
+                re.compile(
+                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread\.php\?tid=(\d+)"
+                ),
+                3,
+            ]
             self.trim = True
 
-        def get_contents(self,settings,rq,url,t_id):
-            ret = {'format_version':'xmb-thread','url':url,'id':t_id}
+        def get_contents(self, settings, rq, url, t_id):
+            ret = {"format_version": "xmb-thread", "url": url, "id": t_id}
             page = 0
             baseurl = self.url_base(url)
 
-            t = json.loads(rq.search(r"""
+            t = json.loads(
+                rq.search(
+                    r"""
                 .title td .nav -style | "%i" / sed "s/.* &raquo; //",
                 .path.a td .nav -style; a | "%i\n"
-            """))
-            dict_add(ret,t)
+            """
+                )
+            )
+            dict_add(ret, t)
 
             posts = []
-            expr = reliq.expr(r"""
+            expr = reliq.expr(
+                r"""
                 .date td -rowspan l@[1]; a m@E>".+ .+ .+" | "%i" / sed "s/^[^ ]\+ [^ ]\+ //",
                 td rowspan l@[1]; {
                     .user font .mediumtxt; * c@[0] | "%i",
@@ -51,44 +62,62 @@ class xmbExtractor(ForumExtractor):
                             '
                     }
                 }
-            """)
+            """
+            )
 
             while True:
-                for i in rq.search(r'tr -class bgcolor / sed "N;N;s/\n/\t/g"').split('\n')[:-1]:
-                    tr = i.split('\t')
+                for i in rq.search(r'tr -class bgcolor / sed "N;N;s/\n/\t/g"').split(
+                    "\n"
+                )[:-1]:
+                    tr = i.split("\t")
                     post = {}
 
                     try:
-                        post['body'] = reliq(tr[1]).search(r'td .tablerow | "%i"')
-                        post['homepage'] = reliq(tr[2]).search(r'a href title=w>homepage | "%(href)v"')
+                        post["body"] = reliq(tr[1]).search(r'td .tablerow | "%i"')
+                        post["homepage"] = reliq(tr[2]).search(
+                            r'a href title=w>homepage | "%(href)v"'
+                        )
                         t = json.loads(reliq(tr[0]).search(expr))
                     except:
                         break
 
-                    for j in ['date','user','postid']:
+                    for j in ["date", "user", "postid"]:
                         post[j] = t[j]
                     try:
-                        for j,g in enumerate(['rank','stars','avatar','posts','registered','location','mood']):
-                            post[g] = t['fields'][j]
+                        for j, g in enumerate(
+                            [
+                                "rank",
+                                "stars",
+                                "avatar",
+                                "posts",
+                                "registered",
+                                "location",
+                                "mood",
+                            ]
+                        ):
+                            post[g] = t["fields"][j]
                     except:
                         pass
 
                     posts.append(post)
 
                 page += 1
-                if settings['thread_pages_max'] != 0 and page >= settings['thread_pages_max']:
+                if (
+                    settings["thread_pages_max"] != 0
+                    and page >= settings["thread_pages_max"]
+                ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
-                nexturl = self.url_base_merge(baseurl,nexturl)
-                rq = self.session.get_html(nexturl,True)
+                nexturl = self.url_base_merge(baseurl, nexturl)
+                rq = self.session.get_html(nexturl, True)
 
-            ret['posts'] = posts
+            ret["posts"] = posts
             return ret
 
-    def __init__(self,session=None,**kwargs):
-        super().__init__(session,**kwargs)
+    def __init__(self, session=None, **kwargs):
+        super().__init__(session, **kwargs)
 
         self.trim = True
 
@@ -97,32 +126,42 @@ class xmbExtractor(ForumExtractor):
         self.thread.url_base = self.url_base
         self.thread.url_base_merge = self.url_base_merge
 
-        self.forum_forums_expr = reliq.expr(r'font .mediumtxt; a href=b>"forumdisplay.php" l@[1] | "%(href)v\n"')
-        self.forum_threads_expr = reliq.expr(r'font .mediumtxt; a href=b>"viewthread.php" l@[1] | "%(href)v\n"')
-        self.board_forums_expr = reliq.expr(r'a href=a>"forumdisplay.php?" | "%(href)v\n" / sed "s#/./#/#"')
+        self.forum_forums_expr = reliq.expr(
+            r'font .mediumtxt; a href=b>"forumdisplay.php" l@[1] | "%(href)v\n"'
+        )
+        self.forum_threads_expr = reliq.expr(
+            r'font .mediumtxt; a href=b>"viewthread.php" l@[1] | "%(href)v\n"'
+        )
+        self.board_forums_expr = reliq.expr(
+            r'a href=a>"forumdisplay.php?" | "%(href)v\n" / sed "s#/./#/#"'
+        )
 
     @staticmethod
     def url_base(url):
-        return re.sub(r'[^/]*$',r'',url)
+        return re.sub(r"[^/]*$", r"", url)
 
-    def get_next(self,rq):
-        url = rq.search(r'td .multi; [0] a href rel=next | "%(href)v" / sed "s/&amp;/\&/g;q"')
-        if not re.search(r'&page=',url):
+    def get_next(self, rq):
+        url = rq.search(
+            r'td .multi; [0] a href rel=next | "%(href)v" / sed "s/&amp;/\&/g;q"'
+        )
+        if not re.search(r"&page=", url):
             return ""
         return url
 
-    def guess(self,url,**kwargs):
-        if re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread.php\?tid=\d+',url):
-            return self.get_thread(ur,**kwargsl)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?forumdisplay.php\?fid=\d+',url):
-            return self.get_forum(ur,**kwargsl)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?index.php\?gid=\d+',url):
-            return self.get_board(ur,**kwargsl)
-        elif re.fullmatch(r'https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?',url):
-            return self.get_board(ur,**kwargsl)
+    def guess(self, url, **kwargs):
+        if re.fullmatch(
+            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread.php\?tid=\d+", url
+        ):
+            return self.get_thread(url, **kwargs)
+        elif re.fullmatch(
+            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?forumdisplay.php\?fid=\d+", url
+        ):
+            return self.get_forum(url, **kwargs)
+        elif re.fullmatch(
+            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?index.php\?gid=\d+", url
+        ):
+            return self.get_board(url, **kwargs)
+        elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?", url):
+            return self.get_board(url, **kwargs)
         else:
             return None
-
-# ses = Session()
-# x = xmbExtractor(ses)
-# x.get_thread('http://www.sciencemadness.org/talk/viewthread.php?tid=6064')
