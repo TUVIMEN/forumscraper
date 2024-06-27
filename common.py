@@ -8,14 +8,35 @@ import warnings
 from concurrent.futures import ThreadPoolExecutor
 from reliq import reliq
 
-from utils import strtosha256
+from utils import strtosha256, get_settings
 from net import Session
 from enums import Outputs
+from exceptions import *
+
+
+def handle_error(self, exception, url, pedantic=False):
+    undisturbed = self.settings["undisturbed"]
+
+    failed = self.session.settings["failed"]
+    msg = "{} {}".format(url, exception.args[0])
+
+    if failed:
+        if isinstance(failed, list):
+            failed.append(msg)
+        else:
+            print(msg, file=failed)
+
+    if not undisturbed and (failed is None or pedantic):
+        if isinstance(exception, RequestError):
+            raise RequestError(msg)
+        raise exception
+    return None
 
 
 def get_first_html(extractor, url, rq=None):
     if rq is None:
         return extractor.session.get_html(url, extractor.trim)
+
     if isinstance(rq, reliq):
         return rq
     return reliq(rq)
@@ -32,6 +53,9 @@ class ItemExtractor:
 
     def get_url(self, url):
         return url
+
+    def handle_error(self, exception, url):
+        return handle_error(self, exception, url)
 
     def get_first_html(self, url, rq=None):
         return get_first_html(self, url, rq)
@@ -59,19 +83,19 @@ class ItemExtractor:
         file = None
         if path:
             if os.path.exists(path):
-                return
+                return None
             try:
                 file = open(path, "x")
-            except:
+            except FileExistsError as ex:
                 return None
 
         url = self.get_url(url)
         try:
             rq = self.get_first_html(url, rq)
-        except:
+        except RequestError as ex:
             if path:
                 file.close()
-            return None
+            raise ex
 
         contents = self.get_contents(settings, rq, url, t_id)
         if not path:
@@ -104,12 +128,6 @@ class ForumExtractor:
         else:
             self.session = Session(**kwargs)
 
-        # threads=1
-        # thread_pages_max=0
-        # pages_max=0
-        # pages_maxthreads=0
-        # pages_threads_max=0
-        # output=pages_threads,pages_forums,pages_dict,pages_ids,pages_hashes
         self.settings = {
             "threads": 1,
             "thread_pages_max": 0,
@@ -121,15 +139,13 @@ class ForumExtractor:
             "nousers": False,
             "noreactions": False,
             "max_workers": 1,
+            "undisturbed": False,
+            "pedantic": False,
         }
         self.settings = self.get_settings(**kwargs)
 
     def get_settings(self, **kwargs):
-        ret = self.settings
-        for i in self.settings.keys():
-            val = kwargs.get(i)
-            if val:
-                ret[i] = val
+        ret = get_settings(self.settings, **kwargs)
 
         if (
             ret["output"] == Outputs.threads
@@ -142,6 +158,9 @@ class ForumExtractor:
         return ret
 
     url_base = None  # blank function
+
+    def handle_error(self, exception, url):
+        return handle_error(self, exception, url)
 
     def get_first_html(self, url, rq=None):
         return get_first_html(self, url, rq)
@@ -159,8 +178,12 @@ class ForumExtractor:
         if len(url) == 0 or len(urlbase) == 0 or re.search(r"^https?://", url):
             return url
 
+        if urlbase[-3:] == "/./":
+            urlbase = urlbase[:-3]
         if urlbase[-1] == "/":
             urlbase = urlbase[:-1]
+        if url[0:2] == "./":
+            url = url[2:]
         if url[0] == "/":
             url = url[1:]
 
@@ -174,6 +197,12 @@ class ForumExtractor:
 
     def get_tag_next(self, rq):
         return self.get_next(rq)
+
+    def go_through_page_thread(self, settings, url, depth):
+        try:
+            return self.get_thread(url, None, depth + 1, **settings)
+        except Exception as ex:
+            return self.handle_error(ex, url)
 
     def go_through_page_threads(self, settings, baseurl, rq, expr, depth):
         thread_count = 0
@@ -194,7 +223,7 @@ class ForumExtractor:
             with ThreadPoolExecutor(max_workers=settings["max_workers"]) as executor:
                 ret = list(
                     executor.map(
-                        lambda x: self.get_thread(x, None, depth + 1, **settings), urls
+                        lambda x: self.go_through_page_thread(settings, x, depth), urls
                     )
                 )
             if not settings["accumulate"]:
@@ -206,7 +235,7 @@ class ForumExtractor:
                 if settings["output"] == Outputs.threads:
                     r = url
                 else:
-                    r = self.get_thread(url, None, depth + 1, **settings)
+                    r = self.go_through_page_thread(settings, url, depth)
 
                 if r and settings["accumulate"]:
                     if isinstance(r, list):
@@ -288,7 +317,10 @@ class ForumExtractor:
                     break
                 if baseurl:
                     nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.get_first_html(nexturl)
+                try:
+                    rq = self.get_first_html(nexturl)
+                except (AttributeError, KeyError, RequestError) as ex:
+                    self.handle_error(ex, nexturl)
 
         if settings["accumulate"]:
             return ret

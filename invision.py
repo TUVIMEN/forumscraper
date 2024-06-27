@@ -8,6 +8,7 @@ from reliq import reliq
 
 from utils import dict_add
 from common import ItemExtractor, ForumExtractor
+from exceptions import RequestError
 
 
 class invisionExtractor(ForumExtractor):
@@ -68,7 +69,6 @@ class invisionExtractor(ForumExtractor):
                 )
             )
             dict_add(ret, t)
-
             return ret
 
     class Thread(ItemExtractor):
@@ -259,8 +259,12 @@ class invisionExtractor(ForumExtractor):
                         r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
                     )
 
-                    if not settings["nousers"] and len(post["user_link"]) > 0:
-                        self.user.get(settings, post["user_link"])
+                    user_link = post["user_link"]
+                    if not settings["nousers"] and len(user_link) > 0:
+                        try:
+                            self.user.get(settings, user_link)
+                        except (AttributeError, IndexError, RequestError) as ex:
+                            return self.handle_error(ex, user_link, True)
 
                     t = json.loads(i.search(expr))
                     dict_add(post, t)
@@ -290,7 +294,10 @@ class invisionExtractor(ForumExtractor):
 
                     reactions_details = []
                     if not settings["noreactions"]:
-                        reactions_details = self.get_reactions_details(i)
+                        try:
+                            reactions_details = self.get_reactions_details(i)
+                        except (AttributeError, IndexError, RequestError) as ex:
+                            return self.handle_error(ex, i, True)
                     post["reactions_details"] = reactions_details
 
                     posts.append(post)

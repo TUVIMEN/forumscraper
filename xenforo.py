@@ -8,6 +8,7 @@ from reliq import reliq
 
 from utils import dict_add
 from common import ItemExtractor, ForumExtractor
+from exceptions import RequestError
 
 
 def url_base(url):
@@ -84,14 +85,11 @@ class xenforo2Extractor(ForumExtractor):
                     baseurl, reactions_url, first_delim, xfToken
                 )
 
-                try:
-                    obj = reliq(
-                        self.session.get_json(reactions_url)["html"][
-                            "content"
-                        ].translate(str.maketrans("", "", "\n\t"))
+                obj = reliq(
+                    self.session.get_json(reactions_url)["html"]["content"].translate(
+                        str.maketrans("", "", "\n\t")
                     )
-                except:
-                    return None
+                )
 
                 t = json.loads(
                     obj.search(
@@ -199,14 +197,21 @@ class xenforo2Extractor(ForumExtractor):
                     reactions = []
 
                     if len(xfToken) > 0:
-                        if not settings["nousers"]:
-                            self.get_search_user(
-                                settings, tag, baseurl, url_first_delimiter, xfToken
-                            )
+                        try:
+                            if not settings["nousers"]:
+                                self.get_search_user(
+                                    settings, tag, baseurl, url_first_delimiter, xfToken
+                                )
 
-                        if not settings["noreactions"]:
-                            reactions = self.get_reactions(
-                                tag, baseurl, url_first_delimiter, xfToken
+                            if not settings["noreactions"]:
+                                reactions = self.get_reactions(
+                                    tag, baseurl, url_first_delimiter, xfToken
+                                )
+                        except (AttributeError, IndexError, RequestError) as ex:
+                            return self.handle_error(
+                                ex,
+                                "{}{}{}".format(baseurl, url_first_delimiter, xfToken),
+                                True,
                             )
 
                     post["reactions"] = reactions

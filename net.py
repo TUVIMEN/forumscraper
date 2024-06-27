@@ -6,6 +6,9 @@ import time
 import requests
 from reliq import reliq
 
+from utils import get_settings
+from exceptions import RequestError
+
 useragents = {
     "mozilla": [
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
@@ -119,25 +122,24 @@ class Session(requests.Session):
     def __init__(self, **kwargs):
         super().__init__()
 
-        self.wait = 0
-        self.wait_random = 0
-        self.timeout = 120
-        self.proxies = {}
-        self.logfile = None
+        self.requests_settings = {
+            "verify": True,
+            "timeout": 120,
+            "proxies": {},
+        }
 
-        if kwargs.get("verify"):
-            self.verify = kwargs.get("verify")
-        if kwargs.get("wait"):
-            self.wait = kwargs.get("wait")
-        if kwargs.get("wait_random"):
-            self.wait = kwargs.get("wait_random")
-        if kwargs.get("proxies"):
-            self.wait = kwargs.get("proxies")
-        if kwargs.get("timeout"):
-            self.timeout = kwargs.get("timeout")
-        if kwargs.get("logfile"):
-            self.logfile = kwargs.get("logfile")
+        self.settings = {
+            "headers": {},
+            "wait": 0,
+            "wait_random": 0,
+            "logger": None,
+            "failed": None,
+            "retries": 3,
+            "retry_wait": 60,
+        }
 
+        self.requests_settings = get_settings(self.requests_settings, **kwargs)
+        self.settings = get_settings(self.settings, **kwargs)
         self.get_renew(False)
 
     @staticmethod
@@ -156,27 +158,53 @@ class Session(requests.Session):
         if clear:
             self.close()
         self.headers.update({"User-Agent": self.new_useragent()})
+        self.headers.update(self.settings["headers"])
+
+    def get_req_try(self, url, retry=False, **kwargs):
+        if not retry:
+            if self.settings["wait"] != 0:
+                time.sleep(self.wait)
+            if self.settings["wait_random"] != 0:
+                time.sleep(random.randint(0, self.settings["wait_random"] + 1) / 1000)
+
+        if self.settings["logger"]:
+            if isinstance(self.settings["logger"], list):
+                self.settings["logger"].append(url)
+            else:
+                print(url, file=self.settings["logger"])
+
+        return self.get(url, **self.requests_settings, **kwargs)
 
     def get_req(self, url, **kwargs):
-        if self.wait != 0:
-            time.sleep(self.wait)
-        if self.wait_random != 0:
-            time.sleep(random.randint(0, self.wait_random + 1) / 1000)
+        tries = self.settings["retries"]
+        retry_wait = self.settings["retry_wait"]
 
-        if self.logfile:
-            print(url, file=self.logfile)
-        resp = self.get(url, timeout=self.timeout, proxies=self.proxies, **kwargs)
+        instant_end_code = [400, 401, 402, 403, 404, 410, 412, 414, 421, 505]
 
-        if resp.status_code != 200:
-            None.space()
-            return None
+        i = 0
+        while True:
+            try:
+                resp = self.get_req_try(url, **kwargs)
+            except RequestError:
+                resp = None
 
-        return resp
+            if resp is None or not (
+                resp.status_code >= 200 and resp.status_code <= 299
+            ):
+                if resp and resp.status_code in instant_end_code:
+                    raise RequestError(
+                        "failed completely {} {}".format(resp.status_code, url)
+                    )
+                if i >= tries:
+                    raise RequestError("failed {} {}".format(resp.status_code, url))
+                i += 1
+                if retry_wait != 0:
+                    time.sleep(retry_wait)
+            else:
+                return resp
 
     def get_html(self, url, trim=False, **kwargs):
         resp = self.get_req(url, **kwargs)
-        if resp == None:
-            return None
 
         r = resp.text
         if trim:
@@ -186,7 +214,4 @@ class Session(requests.Session):
 
     def get_json(self, url):
         resp = self.get_req(url)
-        if resp == None:
-            return None
-
         return resp.json()

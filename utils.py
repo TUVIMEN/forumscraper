@@ -14,3 +14,12 @@ def strtosha256(string):
         string = string.encode()
 
     return hashlib.sha256(string).hexdigest()
+
+
+def get_settings(settings, **kwargs):
+    ret = settings
+    for i in settings.keys():
+        val = kwargs.get(i)
+        if val:
+            ret[i] = val
+    return ret
