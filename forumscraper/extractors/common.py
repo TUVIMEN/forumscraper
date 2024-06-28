@@ -8,10 +8,10 @@ import warnings
 from concurrent.futures import ThreadPoolExecutor
 from reliq import reliq
 
-from utils import strtosha256, get_settings
-from net import Session
-from enums import Outputs
-from exceptions import *
+from ..utils import strtosha256, get_settings
+from ..net import Session
+from ..enums import Outputs
+from ..exceptions import *
 
 common_exceptions = (
     AttributeError,

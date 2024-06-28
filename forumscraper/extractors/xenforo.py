@@ -6,9 +6,9 @@ import re
 import json
 from reliq import reliq
 
-from utils import dict_add
-from common import ItemExtractor, ForumExtractor
-from exceptions import RequestError
+from ..exceptions import RequestError
+from ..utils import dict_add
+from .common import ItemExtractor, ForumExtractor
 
 
 def url_base(url):

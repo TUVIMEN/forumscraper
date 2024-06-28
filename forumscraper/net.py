@@ -7,8 +7,8 @@ import requests
 from threading import Lock
 from reliq import reliq
 
-from utils import get_settings
-from exceptions import RequestError, AlreadyVisitedError
+from .utils import get_settings
+from .exceptions import RequestError, AlreadyVisitedError
 
 useragents = {
     "mozilla": [

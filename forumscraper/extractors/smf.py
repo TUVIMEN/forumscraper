@@ -6,8 +6,8 @@ import re
 import json
 from reliq import reliq
 
-from utils import dict_add
-from common import ItemExtractor, ForumExtractor
+from ..utils import dict_add
+from .common import ItemExtractor, ForumExtractor
 
 
 def _guess(self, url, **kwargs):

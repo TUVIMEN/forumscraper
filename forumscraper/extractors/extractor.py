@@ -3,15 +3,14 @@
 
 import re
 
-from common import ForumExtractor
-from identify import ForumIdentify
+from .common import ForumExtractor
+from .identify import ForumIdentify
 
-from smf import smfExtractor as smf
-from phpbb import phpbbExtractor as phpbb
-from xmb import xmbExtractor as xmb
-from xenforo import xenforoExtractor as xenforo
-from invision import invisionExtractor as invision
-from enums import Outputs
+from .smf import smfExtractor as smf
+from .phpbb import phpbbExtractor as phpbb
+from .xmb import xmbExtractor as xmb
+from .xenforo import xenforoExtractor as xenforo
+from .invision import invisionExtractor as invision
 
 
 class Extractor(ForumExtractor):
