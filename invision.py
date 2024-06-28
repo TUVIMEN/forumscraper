@@ -1,7 +1,6 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
-import warnings
 import re
 import json
 from reliq import reliq
@@ -263,8 +262,8 @@ class invisionExtractor(ForumExtractor):
                     if not settings["nousers"] and len(user_link) > 0:
                         try:
                             self.user.get(settings, user_link)
-                        except (AttributeError, IndexError, RequestError) as ex:
-                            return self.handle_error(ex, user_link, True)
+                        except self.common_exceptions as ex:
+                            self.handle_error(ex, user_link, True)
 
                     t = json.loads(i.search(expr))
                     dict_add(post, t)
@@ -296,8 +295,8 @@ class invisionExtractor(ForumExtractor):
                     if not settings["noreactions"]:
                         try:
                             reactions_details = self.get_reactions_details(i)
-                        except (AttributeError, IndexError, RequestError) as ex:
-                            return self.handle_error(ex, i, True)
+                        except self.common_exceptions as ex:
+                            self.handle_error(ex, i, True)
                     post["reactions_details"] = reactions_details
 
                     posts.append(post)

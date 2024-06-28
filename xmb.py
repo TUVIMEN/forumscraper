@@ -1,7 +1,6 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
-import warnings
 import re
 import json
 from reliq import reliq
@@ -78,7 +77,7 @@ class xmbExtractor(ForumExtractor):
                             r'a href title=w>homepage | "%(href)v"'
                         )
                         t = json.loads(reliq(tr[0]).search(expr))
-                    except:
+                    except (IndexError, AttributeError):
                         break
 
                     for j in ["date", "user", "postid"]:
@@ -96,7 +95,7 @@ class xmbExtractor(ForumExtractor):
                             ]
                         ):
                             post[g] = t["fields"][j]
-                    except:
+                    except IndexError:
                         pass
 
                     posts.append(post)

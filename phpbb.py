@@ -2,7 +2,6 @@
 # License: GNU GPLv3
 
 import os
-import warnings
 import re
 import json
 from reliq import reliq

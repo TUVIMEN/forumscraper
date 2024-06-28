@@ -13,8 +13,20 @@ from net import Session
 from enums import Outputs
 from exceptions import *
 
+common_exceptions = (
+    AttributeError,
+    ValueError,
+    IndexError,
+    KeyError,
+    RequestError,
+    AlreadyVisitedError,
+)
+
 
 def handle_error(self, exception, url, pedantic=False):
+    if isinstance(exception, AlreadyVisitedError):
+        return None
+
     undisturbed = self.settings["undisturbed"]
 
     failed = self.session.settings["failed"]
@@ -50,12 +62,13 @@ class ItemExtractor:
 
         self.session = session
         self.output = Outputs.id
+        self.common_exceptions = common_exceptions
 
     def get_url(self, url):
         return url
 
-    def handle_error(self, exception, url):
-        return handle_error(self, exception, url)
+    def handle_error(self, exception, url, pedantic=False):
+        return handle_error(self, exception, url, pedantic)
 
     def get_first_html(self, url, rq=None):
         return get_first_html(self, url, rq)
@@ -81,30 +94,29 @@ class ItemExtractor:
             path = strtosha256(url)
 
         file = None
-        if path:
-            if os.path.exists(path):
-                return None
-            try:
-                file = open(path, "x")
-            except FileExistsError as ex:
-                return None
+        if (
+            path
+            and not settings["force"]
+            and os.path.exists(path)
+            and os.path.getsize(path) == 0
+        ):
+            return None
 
         url = self.get_url(url)
-        try:
-            rq = self.get_first_html(url, rq)
-        except RequestError as ex:
-            if path:
-                file.close()
-            raise ex
+        rq = self.get_first_html(url, rq)
 
         contents = self.get_contents(settings, rq, url, t_id)
+        if not contents:
+            return None
+
         if not path:
             if settings["output"] != Outputs.dict:
                 return None
             return contents
 
-        file.write(json.dumps(contents))
-        file.close()
+        with open(path, "w") as file:
+            file.write(json.dumps(contents))
+            file.close()
         return path
 
     def get_contents(self, settings, rq, url, t_id):
@@ -128,6 +140,8 @@ class ForumExtractor:
         else:
             self.session = Session(**kwargs)
 
+        self.common_exceptions = common_exceptions
+
         self.settings = {
             "threads": 1,
             "thread_pages_max": 0,
@@ -141,6 +155,7 @@ class ForumExtractor:
             "max_workers": 1,
             "undisturbed": False,
             "pedantic": False,
+            "force": False,
         }
         self.settings = self.get_settings(**kwargs)
 
@@ -159,8 +174,8 @@ class ForumExtractor:
 
     url_base = None  # blank function
 
-    def handle_error(self, exception, url):
-        return handle_error(self, exception, url)
+    def handle_error(self, exception, url, pedantic=False):
+        return handle_error(self, exception, url, pedantic)
 
     def get_first_html(self, url, rq=None):
         return get_first_html(self, url, rq)
@@ -201,7 +216,7 @@ class ForumExtractor:
     def go_through_page_thread(self, settings, url, depth):
         try:
             return self.get_thread(url, None, depth + 1, **settings)
-        except Exception as ex:
+        except self.common_exceptions as ex:
             return self.handle_error(ex, url)
 
     def go_through_page_threads(self, settings, baseurl, rq, expr, depth):
@@ -259,7 +274,10 @@ class ForumExtractor:
                 settings["pages_max_depth"] == 0
                 or settings["pages_max_depth"] > depth + 1
             ):
-                r2 = self.get_forum(url, None, depth + 1, **settings)
+                try:
+                    r2 = self.get_forum(url, None, depth + 1, **settings)
+                except (RequestError, AlreadyVisitedError):
+                    continue
                 if r2:
                     r += r2
 
@@ -319,7 +337,7 @@ class ForumExtractor:
                     nexturl = self.url_base_merge(baseurl, nexturl)
                 try:
                     rq = self.get_first_html(nexturl)
-                except (AttributeError, KeyError, RequestError) as ex:
+                except RequestError as ex:
                     self.handle_error(ex, nexturl)
 
         if settings["accumulate"]:

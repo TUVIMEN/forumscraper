@@ -209,7 +209,7 @@ class smf2Extractor(ForumExtractor):
 
             try:
                 t_id = int(rq.search('input name=sd_topic value | "%(value)v"'))
-            except:
+            except ValueError:
                 warnings.warn('url leads to improper forum - "{}"'.format(url))
                 return [None, 0]
 

@@ -4,3 +4,7 @@ class ForumScraperException(Exception):
 
 class RequestError(ForumScraperException):
     pass
+
+
+class AlreadyVisitedError(ForumScraperException):
+    pass

@@ -207,8 +207,8 @@ class xenforo2Extractor(ForumExtractor):
                                 reactions = self.get_reactions(
                                     tag, baseurl, url_first_delimiter, xfToken
                                 )
-                        except (AttributeError, IndexError, RequestError) as ex:
-                            return self.handle_error(
+                        except self.common_exceptions as ex:
+                            self.handle_error(
                                 ex,
                                 "{}{}{}".format(baseurl, url_first_delimiter, xfToken),
                                 True,

@@ -4,10 +4,11 @@
 import random
 import time
 import requests
+from threading import Lock
 from reliq import reliq
 
 from utils import get_settings
-from exceptions import RequestError
+from exceptions import RequestError, AlreadyVisitedError
 
 useragents = {
     "mozilla": [
@@ -122,6 +123,9 @@ class Session(requests.Session):
     def __init__(self, **kwargs):
         super().__init__()
 
+        self.visited = set()
+        self.lock = Lock()
+
         self.requests_settings = {
             "verify": True,
             "timeout": 120,
@@ -136,6 +140,7 @@ class Session(requests.Session):
             "failed": None,
             "retries": 3,
             "retry_wait": 60,
+            "force": False,
         }
 
         self.requests_settings = get_settings(self.requests_settings, **kwargs)
@@ -176,6 +181,12 @@ class Session(requests.Session):
         return self.get(url, **self.requests_settings, **kwargs)
 
     def get_req(self, url, **kwargs):
+        with self.lock:
+            if not self.settings["force"] and url in self.visited:
+                raise AlreadyVisitedError(url)
+
+            self.visited.add(url)
+
         tries = self.settings["retries"]
         retry_wait = self.settings["retry_wait"]
 
