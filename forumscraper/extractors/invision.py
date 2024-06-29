@@ -6,17 +6,16 @@ import json
 from reliq import reliq
 
 from ..utils import dict_add
-from ..exceptions import RequestError
 from .common import ItemExtractor, ForumExtractor
 
 
-class invisionExtractor(ForumExtractor):
+class invision(ForumExtractor):
     class User(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*/(\d+)(-[^/]*)?/?"),
+                re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
                 2,
             ]
             self.path_format = "m-{}"
@@ -75,7 +74,7 @@ class invisionExtractor(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*/(\d+)(-[^/]*)?/?"),
+                re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
                 2,
             ]
             self.trim = True
@@ -329,26 +328,23 @@ class invisionExtractor(ForumExtractor):
         self.board_forums_expr = reliq.expr(
             r'li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n", div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n"'
         )
-        self.forum_forums_expr = self.get_board
+        self.forum_forums_expr = self.board_forums_expr
         self.forum_threads_expr = reliq.expr(
             r'ol data-role=tableRows; h4; a class="" href=e>"/" | "%(href)v\n"'
         )
+        self.guesslist = [
+            {
+                "func": "get_thread",
+                "exprs": [r"^/(.*[/?])?(thread|topic)s?/"],
+            },
+            {
+                "func": "get_forum",
+                "exprs": [r"^/(.*[/?])?forums?/"],
+            },
+            {"func": "get_board", "exprs": None},
+        ]
 
     def get_forum_next(self, rq):
         return rq.search(
             'ul .ipsPagination; li .ipsPagination_next -.ipsPagination_inactive; [0] a | "%(href)v"'
         )
-
-    def guess(self, url, **kwargs):
-        if re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*", url
-        ):
-            return self.get_thread(url, **kwargs)
-        elif re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/.*", url
-        ):
-            return self.get_forum(url, **kwargs)
-        elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?", url):
-            return self.get_board(url, **kwargs)
-        else:
-            return None

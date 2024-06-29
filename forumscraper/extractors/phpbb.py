@@ -6,20 +6,18 @@ import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add
+from ..utils import dict_add, url_valid
 from .common import ItemExtractor, ForumExtractor
 
 
-class phpbbExtractor(ForumExtractor):
+class phpbb(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
 
             self.match = [
-                re.compile(
-                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewtopic\.php(.*)[\&\?]t=(\d+).*"
-                ),
-                4,
+                r"^/(.*/)?viewtopic\.php(.*)[\&\?]t=(\d+)",
+                3,
             ]
             self.trim = True
 
@@ -103,11 +101,27 @@ class phpbbExtractor(ForumExtractor):
         self.forum_threads_expr = reliq.expr(
             r'li; a .topictitle href | "%(href)v\n" / sed "s/^\.\///;s/&amp;/\&/g"'
         )
+        self.board_forums_expr = self.forum_forums_expr
+        self.guesslist = [
+            {
+                "func": "get_thread",
+                "exprs": [r"^/(.*/)?viewtopic.php.*[\&\?]t=\d+"],
+            },
+            {
+                "func": "get_forum",
+                "exprs": [r"^/(.*/)?viewforum.php"],
+            },
+            {
+                "func": "get_board",
+                "exprs": [r"^/(.*/)?index.php"],
+            },
+            {"func": "get_board", "exprs": None},
+        ]
 
     @staticmethod
     def url_base(url):
         base = os.path.dirname(url)
-        if re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/?", base):
+        if url_valid(base, "^/?$"):
             return re.sub(r"/$", r"", url)
         return base
 
@@ -123,22 +137,3 @@ class phpbbExtractor(ForumExtractor):
         if not re.search(r"&start=[0-9]+$", url):
             return ""
         return url
-
-    def guess(self, url, **kwargs):
-        if re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewtopic.php.*[\&\?]t=\d+.*",
-            url,
-        ):
-            return self.get_thread(url, **kwargs)
-        elif re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewforum.php.*", url
-        ):
-            return self.get_forum(url, **kwargs)
-        elif re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?index.php.*", url
-        ):
-            return self.get_forum(url, **kwargs)
-        elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?", url):
-            return self.get_forum(url, **kwargs)
-        else:
-            return None

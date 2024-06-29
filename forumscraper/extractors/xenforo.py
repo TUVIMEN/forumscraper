@@ -7,35 +7,37 @@ import json
 from reliq import reliq
 
 from ..exceptions import RequestError
-from ..utils import dict_add
-from .common import ItemExtractor, ForumExtractor
+from ..utils import dict_add, url_valid
+from .identify import xenforoIdentify
+from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 
 
 def url_base(url):
-    r = re.fullmatch(r"(https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+)(/.*)?", url)
+    r = url_valid(url, None, True)
     if r is None:
         return ""
-    return r[1]
+    return r[0]
 
 
-def _guess(self, url, **kwargs):
-    if re.fullmatch(
-        r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?(thread|topic)s?/.*", url
-    ):
-        return self.get_thread(url, **kwargs)
-    elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/", url):
-        return self.get_board(url, **kwargs)
-    elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?forums?/.*", url):
-        return self.get_forum(url, **kwargs)
-    elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[/?])?tags?/.*", url):
-        return self.get_tag(url, **kwargs)
-    elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?", url):
-        return self.get_board(url, **kwargs)
-    else:
-        return None
+guesslist = [
+    {
+        "func": "get_thread",
+        "exprs": [r"^/(.*[/?])?(thread|topic)s?/"],
+    },
+    {"func": "get_board", "exprs": [r"^/(.*[/?])?forums?/$"]},
+    {
+        "func": "get_forum",
+        "exprs": [r"^/(.*[/?])?forums?/"],
+    },
+    {
+        "func": "get_tag",
+        "exprs": [r"^/(.*[/?])?tags?/"],
+    },
+    {"func": "get_board", "exprs": None},
+]
 
 
-class xenforo2Extractor(ForumExtractor):
+class xenforo2(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
@@ -43,10 +45,8 @@ class xenforo2Extractor(ForumExtractor):
             self.url_base = url_base
 
             self.match = [
-                re.compile(
-                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[./])?(\d+)(/.*)?"
-                ),
-                3,
+                re.compile(r"^/(.*[./])?(\d+)(/.*)?$"),
+                2,
             ]
 
         def get_search_user(self, settings, rq, baseurl, first_delim, xfToken):
@@ -240,10 +240,8 @@ class xenforo2Extractor(ForumExtractor):
             self.url_base = url_base
 
             self.match = [
-                re.compile(
-                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[./])?(\d+)/[\&?]tooltip=true\&.*"
-                ),
-                3,
+                re.compile(r"^/(.*[./])?(\d+)/[\&?]tooltip=true\&"),
+                2,
             ]
             self.path_format = "m-{}"
 
@@ -293,16 +291,14 @@ class xenforo2Extractor(ForumExtractor):
         self.board_forums_expr = reliq.expr(
             r'* .node-title; a href -href=b>/link-forums/ | "%(href)v\n"'
         )
-        self.forum_forums_expr = self.get_board
+        self.forum_forums_expr = self.board_forums_expr
         self.forum_threads_expr = reliq.expr(
-            r'* .structItem-title; a href | "%(href)v\n"'
+            r'* .structItem-title; a -.labelLink href | "%(href)v\n"'
         )
         self.tag_threads_expr = reliq.expr(
-            r'div class=b>contentRow; a href -data-user-id | "%(href)v\n"'
+            r'div class=b>contentRow; a -.labelLink href -data-user-id | "%(href)v\n"'
         )
-
-    def guess(self, url, **kwargs):
-        return _guess(self, url, **kwargs)
+        self.guesslist = guesslist
 
     def get_next(self, rq):
         url = rq.search(
@@ -313,7 +309,7 @@ class xenforo2Extractor(ForumExtractor):
         return url
 
 
-class xenforo1Extractor(ForumExtractor):
+class xenforo1(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
@@ -321,10 +317,8 @@ class xenforo1Extractor(ForumExtractor):
             self.url_base = url_base
 
             self.match = [
-                re.compile(
-                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?"
-                ),
-                3,
+                re.compile(r"^/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?$"),
+                2,
             ]
 
         def get_contents(self, settings, rq, url, t_id):
@@ -438,13 +432,11 @@ class xenforo1Extractor(ForumExtractor):
         self.board_forums_expr = reliq.expr(
             r'h3 .nodeTitle; a -href=a>"#" href | "%(href)v\n"'
         )
-        self.forum_forums_expr = self.get_board
+        self.forum_forums_expr = self.board_forums_expr
         self.forum_threads_expr = reliq.expr(
             r'li id; div .titleText; h3 .title; a -.prefixLink href | "%(href)v\n"'
         )
-
-    def guess(self, url, **kwargs):
-        return _guess(self, url, **kwargs)
+        self.guesslist = guesslist
 
     def get_next(self, rq):
         url = rq.search(
@@ -458,54 +450,14 @@ class xenforo1Extractor(ForumExtractor):
         return self.get_forum(url, rq, **kwargs)
 
 
-class xenforoExtractor(ForumExtractor):
+class xenforo(ForumExtractorIdentify):
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
 
-        self.v1 = xenforo1Extractor(self.session)
-        self.v2 = xenforo2Extractor(self.session)
+        self.v1 = xenforo1(self.session)
+        self.v2 = xenforo2(self.session)
 
-    @staticmethod
-    def is_version_1(rq):
-        if rq.search(r'html #XenForo | "t"'):
-            return True
-        return False
+        self.guesslist = guesslist
 
-    @staticmethod
-    def is_version_2(rq):
-        if rq.search(r'html #XF | "t"'):
-            return True
-        return False
-
-    def version_judge(self, url, rq, func1, func2, **kwargs):
-        settings = self.get_settings(**kwargs)
-        rq = self.get_first_html(url, rq)
-
-        if self.is_version_1(rq):
-            return func1(url, rq, **settings)
-        elif self.is_version_2(rq):
-            return func2(url, rq, **settings)
-        else:
-            warnings.warn('url leads to improper forum - "{}"'.format(url))
-            return None
-
-    def guess(self, url, **kwargs):
-        return _guess(self, url, **kwargs)
-
-    def get_thread(self, url, rq=None, depth=0, **kwargs):
-        return self.version_judge(
-            url, rq, self.v1.get_thread, self.v2.get_thread, **kwargs
-        )
-
-    def get_forum(self, url, rq=None, depth=0, **kwargs):
-        return self.version_judge(
-            url, rq, self.v1.get_forum, self.v2.get_forum, **kwargs
-        )
-
-    def get_tag(self, url, rq=None, depth=0, **kwargs):
-        return self.version_judge(url, rq, self.v1.get_tag, self.v2.get_tag, **kwargs)
-
-    def get_board(self, url, rq=None, depth=0, **kwargs):
-        return self.version_judge(
-            url, rq, self.v1.get_board, self.v2.get_board, **kwargs
-        )
+    def identify(self, rq):
+        return xenforoIdentify(self, rq)

@@ -8,7 +8,7 @@ import warnings
 from concurrent.futures import ThreadPoolExecutor
 from reliq import reliq
 
-from ..utils import strtosha256, get_settings
+from ..utils import strtosha256, get_settings, url_valid
 from ..net import Session
 from ..enums import Outputs
 from ..exceptions import *
@@ -78,13 +78,13 @@ class ItemExtractor:
         return [None, 0]
 
     def get(self, settings, url, rq=None, **kwargs):
-        r = re.fullmatch(self.match[0], url)
-        if r is None:
+        r = url_valid(url, self.match[0], True)
+        if not r:
             rq, t_id = self.get_improper_url(url, rq)
             if not rq:
                 return None
         else:
-            t_id = int(r[self.match[1]])
+            t_id = int(r[1][self.match[1]])
 
         path = None
 
@@ -132,6 +132,7 @@ class ForumExtractor:
         self.forum_forums_expr = None
         self.tag_threads_expr = None
         self.board_forums_expr = None
+        self.guesslist = []
 
         self.trim = False
 
@@ -143,7 +144,6 @@ class ForumExtractor:
         self.common_exceptions = common_exceptions
 
         self.settings = {
-            "threads": 1,
             "thread_pages_max": 0,
             "pages_max": 0,
             "pages_max_depth": 0,
@@ -190,7 +190,7 @@ class ForumExtractor:
 
     @staticmethod
     def url_base_merge(urlbase, url):
-        if len(url) == 0 or len(urlbase) == 0 or re.search(r"^https?://", url):
+        if len(url) == 0 or len(urlbase) == 0 or url_valid(url):
             return url
 
         if urlbase[-3:] == "/./":
@@ -303,23 +303,15 @@ class ForumExtractor:
         page = 0
 
         if forums_expr:
-            if callable(forums_expr):
-                ret = forums_expr(url, rq, **settings)
-            else:
-                r = self.go_through_page_forums(
-                    settings, baseurl, rq, forums_expr, depth
-                )
-                if r:
-                    ret += r
+            r = self.go_through_page_forums(settings, baseurl, rq, forums_expr, depth)
+            if r:
+                ret += r
 
-        if settings["output"] != Outputs.forums:
+        if threads_expr and settings["output"] != Outputs.forums:
             while True:
-                r = None
-
-                if threads_expr:
-                    r = self.go_through_page_threads(
-                        settings, baseurl, rq, threads_expr, depth
-                    )
+                r = self.go_through_page_threads(
+                    settings, baseurl, rq, threads_expr, depth
+                )
 
                 if r and settings["accumulate"]:
                     ret += r
@@ -352,7 +344,7 @@ class ForumExtractor:
             self.get_forum_next,
             depth,
             rq,
-            **kwargs
+            **kwargs,
         )
 
     def get_tag(self, url, rq=None, depth=0, **kwargs):
@@ -370,4 +362,49 @@ class ForumExtractor:
         )
 
     def guess(self, url, **kwargs):
+        rest = url_valid(url)
+        if not rest:
+            return None
+
+        for i in self.guesslist:
+            func = getattr(self, i["func"])
+            exprs = i["exprs"]
+
+            if exprs:
+                for expr in exprs:
+                    if re.search(expr, rest):
+                        return func(url, **kwargs)
+            else:
+                return func(url, **kwargs)
+
+        return None
+
+
+class ForumExtractorIdentify(ForumExtractor):
+    def identify(self, rq):
         pass
+
+    def get_unknown(self, func_name, url, rq=None, **kwargs):
+        settings = self.get_settings(**kwargs)
+        rq = self.get_first_html(url, rq)
+        forum = self.identify(rq)
+        if not forum:
+            return
+
+        func = getattr(forum, func_name)
+        return func(url, rq, **settings)
+
+    def get_thread(self, url, rq=None, **kwargs):
+        return self.get_unknown("get_thread", url, rq, **kwargs)
+
+    def get_user(self, url, rq=None, **kwargs):
+        return self.get_unknown("get_user", url, rq, **kwargs)
+
+    def get_forum(self, url, rq=None, **kwargs):
+        return self.get_unknown("get_forum", url, rq, **kwargs)
+
+    def get_tag(self, url, rq=None, **kwargs):
+        return self.get_unknown("get_tag", url, rq, **kwargs)
+
+    def get_board(self, url, rq=None, **kwargs):
+        return self.get_unknown("get_board", url, rq, **kwargs)

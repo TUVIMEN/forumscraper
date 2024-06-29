@@ -2,6 +2,9 @@
 # License: GNU GPLv3
 
 from enum import Enum, auto
+from importlib.metadata import version
+
+__version__ = version(__package__ or __name__)
 
 
 class Outputs(Enum):

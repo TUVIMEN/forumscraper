@@ -1,0 +1,250 @@
+import os
+import sys
+import argparse
+import ast
+
+from .utils import url_valid
+from .enums import Outputs, __version__
+from .extractors.extractor import *
+
+
+def valid_directory(directory):
+    try:
+        return os.chdir(directory)
+    except:
+        raise argparse.ArgumentTypeError(
+            'couldn\'t change directory to "{}"'.format(directory)
+        )
+
+
+def valid_names(name):
+    if name == "id":
+        return Outputs.id
+    elif name == "hash":
+        return Outputs.hash
+    else:
+        raise KeyError(f'"{name}" is neither id nor hash')
+
+
+def valid_type(type_name):
+    if url_valid(type_name):
+        return type_name
+
+    ret = [Extractor, "guess"]
+
+    forums = {
+        "all": Extractor,
+        "smf": smf,
+        "smf1": smf1,
+        "smf2": smf2,
+        "phpbb": phpbb,
+        "xenforo": xenforo,
+        "xenforo1": xenforo1,
+        "xenforo2": xenforo2,
+        "invision": invision,
+        "xmb": xmb,
+    }
+    funcs = ["guess", "thread", "forum", "tag", "board"]
+
+    names = type_name.split(".")
+    namesl = len(names)
+
+    if (namesl == 1 and len(names[0]) == 0) or namesl > 2:
+        raise KeyError(f"{type_name} is not a valid scraper type")
+
+    if namesl == 2 and len(names[0]) == 0 and len(names[1]) == 0:
+        return ret
+
+    if len(names[0]) > 0:
+        r = forums.get(names[0])
+        if not r:
+            raise KeyError(f'"{names[0]}" forum scraper does not exists')
+        ret[0] = r
+
+    if namesl == 2 and len(names[1]) > 0:
+        if names[1] in funcs:
+            if names[1] != "guess":
+                names[1] = "get_" + names[1]
+            ret[1] = names[1]
+        else:
+            raise KeyError(f'"{names[1]}" type does not exists')
+    return ret
+
+
+def argparser():
+    parser = argparse.ArgumentParser(description="Forum scraper", add_help=False)
+
+    parser.add_argument(
+        "urls",
+        metavar="URL|TYPE",
+        type=valid_type,
+        nargs="*",
+        help="url pointing to source. Specifying type changes scraper for all next urls. Type consists of forum name which can be all, invision, phpbb, smf, smf1, smf2, xenforo, xenforo1, xenforo2, xmb and it can by followed by a '.' and function name which can be guess, thread, forum, tag, board. By default set to all.guess equivalent to .guess and .",
+    )
+
+    general = parser.add_argument_group("General")
+    general.add_argument(
+        "-h",
+        "--help",
+        action="help",
+        help="Show this help message and exit",
+    )
+    general.add_argument(
+        "-v",
+        "--version",
+        action="version",
+        version=__version__,
+        help="Print program version and exit",
+    )
+    general.add_argument(
+        "-t",
+        "--threads",
+        metavar="NUM",
+        type=int,
+        help="run tasks using NUM of threads",
+        default=1,
+    )
+    general.add_argument(
+        "-p",
+        "--pedantic",
+        action="store_true",
+        help="Exit if anything fails",
+    )
+
+    files = parser.add_argument_group("Files")
+    files.add_argument(
+        "-d",
+        "--directory",
+        metavar="DIR",
+        type=valid_directory,
+        help="Change directory to DIR",
+    )
+    files.add_argument(
+        "-f",
+        "--force",
+        action="store_true",
+        help="forcefully overwrite files, may cause redownloading if found urls are not unique",
+    )
+    files.add_argument(
+        "--names",
+        metavar="NAME",
+        type=valid_names,
+        help="Change naming convention of created files to NAME, which can be either id or hash",
+        default=Outputs.id,
+    )
+    files.add_argument(
+        "-l",
+        "--log",
+        metavar="FILE",
+        type=lambda x: open(x, "r"),
+        help="log results to FILE (by default set to stdout)",
+        default=sys.stdout,
+    )
+    files.add_argument(
+        "-F",
+        "--failures",
+        metavar="FILE",
+        type=lambda x: open(x, "r"),
+        help="log failures to FILE (by default set to stderr)",
+        default=sys.stderr,
+    )
+
+    settings = parser.add_argument_group("Settings")
+    settings.add_argument(
+        "--nousers",
+        action="store_true",
+        help="do not download users",
+    )
+    settings.add_argument(
+        "--noreactions",
+        action="store_true",
+        help="do not download reactions",
+    )
+    settings.add_argument(
+        "--thread-pages-max",
+        metavar="NUM",
+        type=int,
+        default=0,
+        help="set max number of pages traversed in threads",
+    )
+    settings.add_argument(
+        "--pages-max",
+        metavar="NUM",
+        type=int,
+        default=0,
+        help="set max number of pages traversed in pages amassing threads e.g. forums, tags, boards",
+    )
+    settings.add_argument(
+        "--pages-max-depth",
+        metavar="NUM",
+        type=int,
+        default=0,
+        help="set max recursion depth",
+    )
+    settings.add_argument(
+        "--pages-threads-max",
+        metavar="NUM",
+        type=int,
+        default=0,
+        help="set max number of threads to be processed in every page",
+    )
+
+    request_set = parser.add_argument_group("Request settings")
+    request_set.add_argument(
+        "-w",
+        "--wait",
+        metavar="SECONDS",
+        type=float,
+        default=0,
+        help="Sets waiting time for each request to SECONDS",
+    )
+    request_set.add_argument(
+        "-W",
+        "--random-wait",
+        metavar="MILISECONDS",
+        type=int,
+        default=0,
+        help="Sets random waiting time for each request to be at max MILISECONDS",
+    )
+    request_set.add_argument(
+        "-r",
+        "--retries",
+        metavar="RETRIES",
+        type=int,
+        default=3,
+        help="Sets number of retries for failed request to RETRIES",
+    )
+    request_set.add_argument(
+        "--retry-wait",
+        metavar="SECONDS",
+        type=float,
+        default=60,
+        help="Sets interval between each retry",
+    )
+    request_set.add_argument(
+        "--timeout",
+        metavar="SECONDS",
+        type=float,
+        default=120,
+        help="Sets request timeout",
+    )
+    request_set.add_argument(
+        "-k",
+        "--insecure",
+        action="store_true",
+        help="Ignore ssl errors",
+    )
+    request_set.add_argument(
+        "--proxies",
+        metavar="DICT",
+        type=lambda x: dict(ast.literal.eval(x)),
+        help="Set requests proxies dictionary",
+    )
+    request_set.add_argument(
+        "--headers",
+        metavar="DICT",
+        type=lambda x: dict(ast.literal.eval(x)),
+        help="Set requests headers dictionary",
+    )
+
+    return parser

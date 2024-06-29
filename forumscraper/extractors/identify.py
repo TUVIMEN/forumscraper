@@ -78,10 +78,34 @@ def identify_invision(rq, cookies):
     )
 
 
-def ForumIdentify(extractor, rq):
+def listIdentify(extractor, rq, ilist):
     cookies = extractor.session.cookies.get_dict().items()
 
-    identifylist = [
+    for i in ilist:
+        if i[0](rq, cookies):
+            return i[1]
+
+    return None
+
+
+def xenforoIdentify(extractor, rq):
+    ilist = [
+        (identify_xenforo1, extractor.v1),
+        (identify_xenforo2, extractor.v2),
+    ]
+    return listIdentify(extractor, rq, ilist)
+
+
+def smfIdentify(extractor, rq):
+    ilist = [
+        (identify_smf1, extractor.v1),
+        (identify_smf2, extractor.v2),
+    ]
+    return listIdentify(extractor, rq, ilist)
+
+
+def ForumIdentify(extractor, rq):
+    ilist = [
         (identify_phpbb, extractor.phpbb),
         (identify_invision, extractor.invision),
         (identify_xmb, extractor.xmb),
@@ -90,9 +114,4 @@ def ForumIdentify(extractor, rq):
         (identify_smf1, extractor.smf.v1),
         (identify_smf2, extractor.smf.v2),
     ]
-
-    for i in identifylist:
-        if i[0](rq, cookies):
-            return i[1]
-
-    return None
+    return listIdentify(extractor, rq, ilist)

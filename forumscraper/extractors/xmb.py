@@ -9,16 +9,14 @@ from ..utils import dict_add
 from .common import ItemExtractor, ForumExtractor
 
 
-class xmbExtractor(ForumExtractor):
+class xmb(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
 
             self.match = [
-                re.compile(
-                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread\.php\?tid=(\d+)"
-                ),
-                3,
+                re.compile(r"^/(.*/)?viewthread\.php\?tid=(\d+)$"),
+                2,
             ]
             self.trim = True
 
@@ -134,6 +132,21 @@ class xmbExtractor(ForumExtractor):
         self.board_forums_expr = reliq.expr(
             r'a href=a>"forumdisplay.php?" | "%(href)v\n" / sed "s#/./#/#"'
         )
+        self.guesslist = [
+            {
+                "func": "get_thread",
+                "exprs": [r"^/(.*/)?viewthread.php\?tid=\d+$"],
+            },
+            {
+                "func": "get_forum",
+                "exprs": [r"^/(.*/)?forumdisplay.php\?fid=\d+$"],
+            },
+            {
+                "func": "get_board",
+                "exprs": [r"^/(.*/)?index.php\?gid=\d+$"],
+            },
+            {"func": "get_board", "exprs": None},
+        ]
 
     @staticmethod
     def url_base(url):
@@ -146,21 +159,3 @@ class xmbExtractor(ForumExtractor):
         if not re.search(r"&page=", url):
             return ""
         return url
-
-    def guess(self, url, **kwargs):
-        if re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?viewthread.php\?tid=\d+", url
-        ):
-            return self.get_thread(url, **kwargs)
-        elif re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?forumdisplay.php\?fid=\d+", url
-        ):
-            return self.get_forum(url, **kwargs)
-        elif re.fullmatch(
-            r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?index.php\?gid=\d+", url
-        ):
-            return self.get_board(url, **kwargs)
-        elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?", url):
-            return self.get_board(url, **kwargs)
-        else:
-            return None

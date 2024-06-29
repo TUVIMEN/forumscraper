@@ -7,36 +7,35 @@ import json
 from reliq import reliq
 
 from ..utils import dict_add
-from .common import ItemExtractor, ForumExtractor
+from .identify import smfIdentify
+from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 
 
-def _guess(self, url, **kwargs):
-    if re.fullmatch(
-        r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]topic[=,]|-t)+(\d+).*", url
-    ):
-        return self.get_thread(url, **kwargs)
-    elif re.fullmatch(
-        r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]board[=,]|-t)+(\d+).*", url
-    ):
-        return self.get_forum(url, **kwargs)
-    elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/(.*/)?index.php.*", url):
-        return self.get_forum(url, **kwargs)
-    elif re.fullmatch(r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+(/.*)?", url):
-        return self.get_forum(url, **kwargs)
-    else:
-        return None
+guesslist = [
+    {
+        "func": "get_thread",
+        "exprs": [r"^/.*([?/&;]topic[=,]|-t)+(\d+)"],
+    },
+    {
+        "func": "get_forum",
+        "exprs": [r"^/.*([?/&;]board[=,]|-t)+(\d+)"],
+    },
+    {
+        "func": "get_board",
+        "exprs": [r"^/(.*/)?index.php"],
+    },
+    {"func": "get_board", "exprs": None},
+]
 
 
-class smf1Extractor(ForumExtractor):
+class smf1(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
 
             self.match = [
-                re.compile(
-                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]topic[=,]|-t)(\d+).*"
-                ),
-                3,
+                re.compile(r"^/.*([?/&;]topic[=,]|-t)(\d+)"),
+                2,
             ]
 
         def get_contents(self, settings, rq, url, t_id):
@@ -105,6 +104,8 @@ class smf1Extractor(ForumExtractor):
         self.forum_threads_expr = reliq.expr(
             r'td .B>"windowbg[0-9]*" m@"<span class=\"smalltext\""; a href l@[1] | "%(href)v\n" / sed "s/[.;]msg[^\/]*#new$//;s/#new$//"'
         )
+        self.board_forums_expr = self.forum_forums_expr
+        self.guesslist = guesslist
 
     def get_next(self, rq):
         return rq.search(
@@ -113,20 +114,15 @@ class smf1Extractor(ForumExtractor):
         """
         )[:-1]
 
-    def guess(self, url, **kwargs):
-        return _guess(self, url, **kwargs)
 
-
-class smf2Extractor(ForumExtractor):
+class smf2(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
 
             self.match = [
-                re.compile(
-                    r"https?://([a-zA-Z0-9-]+\.)+[a-zA-Z]+/.*([?/&;]topic[=,])(\d+).*"
-                ),
-                3,
+                re.compile(r"^/.*([?/&;]topic[=,])(\d+)"),
+                2,
             ]
             self.trim = True
 
@@ -227,49 +223,25 @@ class smf2Extractor(ForumExtractor):
         self.forum_threads_expr = reliq.expr(
             r'span #B>msg_[0-9]*; a href | "%(href)v\n"'
         )
+        self.board_forums_expr = self.forum_forums_expr
+        self.guesslist = guesslist
 
     def get_next(self, rq):
         return rq.search(
             r'div .pagelinks [0]; E>(a|span|strong) m@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"'
         )[:-1]
 
-    def guess(self, url, **kwargs):
-        return _guess(self, url, **kwargs)
 
-
-class smfExtractor(ForumExtractor):
+class smf(ForumExtractorIdentify):
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
 
         self.trim = True
 
-        self.v1 = smf1Extractor(self.session)
-        self.v2 = smf2Extractor(self.session)
+        self.v1 = smf1(self.session)
+        self.v2 = smf2(self.session)
 
-    @staticmethod
-    def is_version_1(rq):
-        if rq.search(r'* l@[1] m@E>"Powered by SMF 1\.[^<]*<" | "t"'):
-            return True
-        return False
+        self.guesslist = guesslist
 
-    def version_judge(self, func1, func2, url, rq=None, **kwargs):
-        settings = self.get_settings(**kwargs)
-        rq = self.get_first_html(url, rq)
-
-        if self.is_version_1(rq):
-            return func1(url, rq, **settings)
-        else:
-            return func2(url, rq, **settings)
-
-    def get_thread(self, url, rq=None, depth=0, **kwargs):
-        return self.version_judge(
-            self.v1.get_thread, self.v2.get_thread, url, rq, **kwargs
-        )
-
-    def get_forum(self, url, rq=None, depth=0, **kwargs):
-        return self.version_judge(
-            self.v1.get_forum, self.v2.get_forum, url, rq, **kwargs
-        )
-
-    def guess(self, url, **kwargs):
-        return _guess(self, url, **kwargs)
+    def identify(self, rq):
+        return smfIdentify(self, rq)
