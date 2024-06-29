@@ -72,7 +72,10 @@ def valid_type(type_name):
 
 
 def argparser():
-    parser = argparse.ArgumentParser(description="Forum scraper", add_help=False)
+    parser = argparse.ArgumentParser(
+        description="Forum scraper that aims to be an universal, automatic and extensive.",
+        add_help=False,
+    )
 
     parser.add_argument(
         "urls",
@@ -203,9 +206,9 @@ def argparser():
     request_set.add_argument(
         "-r",
         "--retries",
-        metavar="RETRIES",
+        metavar="NUM",
         type=int,
-        help="Sets number of retries for failed request to RETRIES",
+        help="Sets number of retries for failed request to NUM",
     )
     request_set.add_argument(
         "--retry-wait",
@@ -228,7 +231,7 @@ def argparser():
     request_set.add_argument(
         "-A",
         "--user-agent",
-        metavar="SECONDS",
+        metavar="UA",
         type=str,
         help="Sets custom user agent",
     )
