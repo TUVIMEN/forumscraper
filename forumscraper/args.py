@@ -164,28 +164,24 @@ def argparser():
         "--thread-pages-max",
         metavar="NUM",
         type=int,
-        default=0,
         help="set max number of pages traversed in threads",
     )
     settings.add_argument(
         "--pages-max",
         metavar="NUM",
         type=int,
-        default=0,
         help="set max number of pages traversed in pages amassing threads e.g. forums, tags, boards",
     )
     settings.add_argument(
         "--pages-max-depth",
         metavar="NUM",
         type=int,
-        default=0,
         help="set max recursion depth",
     )
     settings.add_argument(
         "--pages-threads-max",
         metavar="NUM",
         type=int,
-        default=0,
         help="set max number of threads to be processed in every page",
     )
 
@@ -195,7 +191,6 @@ def argparser():
         "--wait",
         metavar="SECONDS",
         type=float,
-        default=0,
         help="Sets waiting time for each request to SECONDS",
     )
     request_set.add_argument(
@@ -203,7 +198,6 @@ def argparser():
         "--random-wait",
         metavar="MILISECONDS",
         type=int,
-        default=0,
         help="Sets random waiting time for each request to be at max MILISECONDS",
     )
     request_set.add_argument(
@@ -211,21 +205,18 @@ def argparser():
         "--retries",
         metavar="RETRIES",
         type=int,
-        default=3,
         help="Sets number of retries for failed request to RETRIES",
     )
     request_set.add_argument(
         "--retry-wait",
         metavar="SECONDS",
         type=float,
-        default=60,
         help="Sets interval between each retry",
     )
     request_set.add_argument(
         "--timeout",
         metavar="SECONDS",
         type=float,
-        default=120,
         help="Sets request timeout",
     )
     request_set.add_argument(
@@ -235,16 +226,29 @@ def argparser():
         help="Ignore ssl errors",
     )
     request_set.add_argument(
+        "-A",
+        "--user-agent",
+        metavar="SECONDS",
+        type=str,
+        help="Sets custom user agent",
+    )
+    request_set.add_argument(
         "--proxies",
         metavar="DICT",
-        type=lambda x: dict(ast.literal.eval(x)),
+        type=lambda x: dict(ast.literal_eval(x)),
         help="Set requests proxies dictionary",
     )
     request_set.add_argument(
         "--headers",
         metavar="DICT",
-        type=lambda x: dict(ast.literal.eval(x)),
+        type=lambda x: dict(ast.literal_eval(x)),
         help="Set requests headers dictionary",
+    )
+    request_set.add_argument(
+        "--cookies",
+        metavar="DICT",
+        type=lambda x: dict(ast.literal_eval(x)),
+        help="Set requests cookies dictionary",
     )
 
     return parser

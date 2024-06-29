@@ -134,6 +134,8 @@ class Session(requests.Session):
 
         self.settings = {
             "headers": {},
+            "cookies": {},
+            "user-agent": None,
             "wait": 0,
             "wait_random": 0,
             "logger": None,
@@ -162,8 +164,15 @@ class Session(requests.Session):
     def get_renew(self, clear=True):
         if clear:
             self.close()
-        self.headers.update({"User-Agent": self.new_useragent()})
+
+        self.headers.update(
+            {"User-Agent": self.settings["user-agent"]}
+            if self.settings["user-agent"]
+            else {"User-Agent": self.new_useragent()}
+        )
+
         self.headers.update(self.settings["headers"])
+        self.cookies.update(self.settings["cookies"])
 
     def get_req_try(self, url, retry=False, **kwargs):
         if not retry:

@@ -51,9 +51,11 @@ def main():
         "retries": args.retries,
         "retry_wait": args.retry_wait,
         "timeout": args.timeout,
+        "user-agent": args.user_agent,
         "verify": args.insecure,
         "proxies": args.proxies,
         "headers": args.headers,
+        "cookies": args.cookies,
     }
 
     ex = Extractor(**settings)
