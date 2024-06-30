@@ -38,7 +38,7 @@ class smf1(ForumExtractor):
                 2,
             ]
 
-        def get_contents(self, settings, rq, url, t_id):
+        def get_contents(self, rq, url, t_id, **kwargs):
             ret = {"format_version": "smf-1-thread", "url": url, "id": t_id}
             page = 0
 
@@ -78,14 +78,14 @@ class smf1(ForumExtractor):
 
                 page += 1
                 if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
+                    kwargs["thread_pages_max"] != 0
+                    and page >= kwargs["thread_pages_max"]
                 ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl)
+                rq = self.session.get_html(nexturl, **kwargs)
 
             ret["posts"] = posts
             return ret
@@ -126,7 +126,7 @@ class smf2(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, settings, rq, url, t_id):
+        def get_contents(self, rq, url, t_id, **kwargs):
             ret = {"format_version": "smf-2-thread", "url": url, "id": t_id}
             page = 0
 
@@ -187,21 +187,21 @@ class smf2(ForumExtractor):
 
                 page += 1
                 if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
+                    kwargs["thread_pages_max"] != 0
+                    and page >= kwargs["thread_pages_max"]
                 ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl, self.trim)
+                rq = self.session.get_html(nexturl, self.trim, **kwargs)
 
             ret["posts"] = posts
             return ret
 
-        def get_improper_url(self, url, rq):
+        def get_improper_url(self, url, rq, **kwargs):
             if rq is None:
-                rq = self.session.get_html(url, self.trim)
+                rq = self.session.get_html(url, self.trim, **kwargs)
 
             try:
                 t_id = int(rq.search('input name=sd_topic value | "%(value)v"'))

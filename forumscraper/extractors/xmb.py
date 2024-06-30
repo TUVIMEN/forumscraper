@@ -20,7 +20,7 @@ class xmb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, settings, rq, url, t_id):
+        def get_contents(self, rq, url, t_id, **kwargs):
             ret = {"format_version": "xmb-thread", "url": url, "id": t_id}
             page = 0
             baseurl = self.url_base(url)
@@ -100,15 +100,15 @@ class xmb(ForumExtractor):
 
                 page += 1
                 if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
+                    kwargs["thread_pages_max"] != 0
+                    and page >= kwargs["thread_pages_max"]
                 ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
                 nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.session.get_html(nexturl, True)
+                rq = self.session.get_html(nexturl, True, **kwargs)
 
             ret["posts"] = posts
             return ret

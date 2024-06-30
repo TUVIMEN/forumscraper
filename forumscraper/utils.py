@@ -22,7 +22,10 @@ def get_settings(settings, **kwargs):
     for i in settings.keys():
         val = kwargs.get(i)
         if val:
-            ret[i] = val
+            if isinstance(ret[i], dict) and isinstance(val, dict):
+                ret[i].update(val)
+            else:
+                ret[i] = val
     return ret
 
 
