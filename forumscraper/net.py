@@ -204,14 +204,18 @@ class Session(requests.Session):
             else:
                 return resp
 
-    def get_html(self, url, trim=False, **kwargs):
+    def get_html(self, url, trim=False, return_cookies=False, **kwargs):
         resp = self.get_req(url, **kwargs)
 
         r = resp.text
         if trim:
             r = r.translate(str.maketrans("", "", "\t\n\r\a"))
 
-        return reliq(r)
+        rq = reliq(r)
+
+        if return_cookies:
+            return [rq, resp.cookies.get_dict()]
+        return rq
 
     def get_json(self, url, **kwargs):
         resp = self.get_req(url, **kwargs)

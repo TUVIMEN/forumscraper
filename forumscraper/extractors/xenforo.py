@@ -47,7 +47,7 @@ class xenforo2(ForumExtractor):
                 2,
             ]
 
-        def get_search_user(self, rq, baseurl, first_delim, xfToken, **kwargs):
+        def get_search_user(self, rq, state, baseurl, first_delim, xfToken, **kwargs):
             user_url = rq.search(
                 r"""
                 {
@@ -58,9 +58,11 @@ class xenforo2(ForumExtractor):
             )
             if len(user_url) > 0:
                 self.user.get(
+                    "users",
                     "{}{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
                         baseurl, user_url, first_delim, xfToken
                     ),
+                    state,
                     **kwargs,
                 )
 
@@ -73,7 +75,7 @@ class xenforo2(ForumExtractor):
 
             return xfToken
 
-        def get_reactions(self, rq, baseurl, first_delim, xfToken, **kwargs):
+        def get_reactions(self, rq, state, baseurl, first_delim, xfToken, **kwargs):
             ret = []
             reactions_url = rq.search(r'a .reactionsBar-link href | "%(href)v"')
 
@@ -102,9 +104,11 @@ class xenforo2(ForumExtractor):
                 )
                 ret = t["reactions"]
 
+                self.state_add_url("reactions", reactions_url, state, **kwargs)
+
             return ret
 
-        def get_contents(self, rq, url, t_id, **kwargs):
+        def get_contents(self, rq, state, url, t_id, **kwargs):
             baseurl = self.url_base(url)
             page = 0
             url_first_delimiter = "?"
@@ -197,12 +201,22 @@ class xenforo2(ForumExtractor):
                         try:
                             if not kwargs["nousers"]:
                                 self.get_search_user(
-                                    tag, baseurl, url_first_delimiter, xfToken, **kwargs
+                                    tag,
+                                    state,
+                                    baseurl,
+                                    url_first_delimiter,
+                                    xfToken,
+                                    **kwargs,
                                 )
 
                             if not kwargs["noreactions"]:
                                 reactions = self.get_reactions(
-                                    tag, baseurl, url_first_delimiter, xfToken, **kwargs
+                                    tag,
+                                    state,
+                                    baseurl,
+                                    url_first_delimiter,
+                                    xfToken,
+                                    **kwargs,
                                 )
                         except self.common_exceptions as ex:
                             self.handle_error(
@@ -246,7 +260,7 @@ class xenforo2(ForumExtractor):
         def get_first_html(self, url, rq=None, **kwargs):
             return reliq(self.session.get_json(url, **kwargs)["html"]["content"])
 
-        def get_contents(self, rq, url, u_id, **kwargs):
+        def get_contents(self, rq, state, url, u_id, **kwargs):
             baseurl = self.url_base(url)
             ret = {"format_version": "xenforo-2-user", "url": url, "id": u_id}
 
@@ -319,7 +333,7 @@ class xenforo1(ForumExtractor):
                 2,
             ]
 
-        def get_contents(self, rq, url, t_id, **kwargs):
+        def get_contents(self, rq, state, url, t_id, **kwargs):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": t_id}
             page = 0
             baseurl = self.url_base(url)
@@ -457,5 +471,5 @@ class xenforo(ForumExtractorIdentify):
 
         self.guesslist = guesslist
 
-    def identify(self, rq):
-        return xenforoIdentify(self, rq)
+    def identify(self, url, rq, cookies):
+        return xenforoIdentify(self, url, rq, cookies)

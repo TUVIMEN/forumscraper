@@ -32,7 +32,7 @@ class invision(ForumExtractor):
             kwargs["headers"].update({"X-Requested-With": "XMLHttpRequest"})
             return self.session.get_html(url, self.trim, **kwargs)
 
-        def get_contents(self, rq, url, u_id, **kwargs):
+        def get_contents(self, rq, state, url, u_id, **kwargs):
             ret = {"format_version": "invision-user", "url": url, "id": u_id}
 
             t = json.loads(
@@ -116,7 +116,7 @@ class invision(ForumExtractor):
             ret["questions"] = questions
             return ret
 
-        def get_reactions_details(self, rq, **kwargs):
+        def get_reactions_details(self, rq, state, **kwargs):
             ret = []
             nexturl = rq.search(
                 r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"'
@@ -148,14 +148,19 @@ class invision(ForumExtractor):
                 """
                     )
                 )
+
+                if len(ret) == 0:
+                    self.state_add_url("reactions", nexturl, state, **kwargs)
+
                 ret += t["reactions"]
 
                 nexturl = rq.search(
                     r'li .ipsPagination_next -.ipsPagination_inactive; [0] a href | "%(href)v" / sed "s/&amp;/&/; s/&reaction=.*$//;q"'
                 )
+
             return ret
 
-        def get_contents(self, rq, url, t_id, **kwargs):
+        def get_contents(self, rq, state, url, t_id, **kwargs):
             ret = {"format_version": "invision-thread", "url": url, "id": t_id}
             page = 0
 
@@ -262,7 +267,7 @@ class invision(ForumExtractor):
                     user_link = post["user_link"]
                     if not kwargs["nousers"] and len(user_link) > 0:
                         try:
-                            self.user.get(user_link, **kwargs)
+                            self.user.get("users", user_link, state, **kwargs)
                         except self.common_exceptions as ex:
                             self.handle_error(ex, user_link, True, **kwargs)
 
@@ -295,7 +300,9 @@ class invision(ForumExtractor):
                     reactions_details = []
                     if not kwargs["noreactions"]:
                         try:
-                            reactions_details = self.get_reactions_details(i)
+                            reactions_details = self.get_reactions_details(
+                                i, state, **kwargs
+                            )
                         except self.common_exceptions as ex:
                             self.handle_error(ex, i, True, **kwargs)
                     post["reactions_details"] = reactions_details

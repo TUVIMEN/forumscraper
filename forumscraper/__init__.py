@@ -37,7 +37,7 @@ def main():
         "output": args.names,
         "max_workers": args.threads,
         "logger": args.log,
-        "failed": args.failures,
+        "failed": args.failed,
         "nousers": args.nousers,
         "noreactions": args.noreactions,
         "force": args.force,
@@ -71,5 +71,5 @@ def main():
 
     if args.log != sys.stdout:
         args.log.close()
-    if args.failures != sys.stderr:
-        args.failures.close()
+    if args.failed != sys.stderr:
+        args.failed.close()

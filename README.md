@@ -30,7 +30,7 @@ Above behaviour is set by default(`--names id`), and can be changed with `--name
 
 By default if files to be created are found and are not empty function exits not overwriting them. This can be changed using `--force` option.
 
-forumscraper output logging information to `stdout` (can be changed with `--log FILE`) and information about failures to `stderr` (can be changed with `--failures FILE`)
+forumscraper output logging information to `stdout` (can be changed with `--log FILE`) and information about failures to `stderr` (can be changed with `--failed FILE`)
 
 Failures are generally ignored but setting `--pedantic` flag stops the execution if any failure is encountered.
 
@@ -95,5 +95,3 @@ Combining some of the above you get:
     forumscraper --nousers --thread-pages-max 1 --pages-max 1 --pages-threads-max 1 URL1 URL2 URL3
 
 which downloads only one page in one thread for all forums found from every `URL` which is very useful for debugging.
-
-## Library

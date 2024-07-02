@@ -19,9 +19,9 @@ def valid_directory(directory):
 
 def valid_names(name):
     if name == "id":
-        return Outputs.id
+        return Outputs.write_by_id
     elif name == "hash":
-        return Outputs.hash
+        return Outputs.write_by_hash
     else:
         raise KeyError(f'"{name}" is neither id nor hash')
 
@@ -133,7 +133,7 @@ def argparser():
         metavar="NAME",
         type=valid_names,
         help="Change naming convention of created files to NAME, which can be either id or hash",
-        default=Outputs.id,
+        default=Outputs.write_by_id,
     )
     files.add_argument(
         "-l",
@@ -145,7 +145,7 @@ def argparser():
     )
     files.add_argument(
         "-F",
-        "--failures",
+        "--failed",
         metavar="FILE",
         type=lambda x: open(x, "r"),
         help="log failures to FILE (by default set to stderr)",

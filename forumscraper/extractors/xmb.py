@@ -20,7 +20,7 @@ class xmb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, url, t_id, **kwargs):
+        def get_contents(self, rq, state, url, t_id, **kwargs):
             ret = {"format_version": "xmb-thread", "url": url, "id": t_id}
             page = 0
             baseurl = self.url_base(url)

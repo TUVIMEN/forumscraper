@@ -45,16 +45,43 @@ def handle_error(self, exception, url, for_pedantic=False, **kwargs):
         if isinstance(exception, RequestError):
             raise RequestError(msg)
         raise exception
-    return None
+    return
 
 
-def get_first_html(extractor, url, rq=None, **kwargs):
+def get_first_html(extractor, url, rq=None, return_cookies=False, **kwargs):
     if rq is None:
-        return extractor.session.get_html(url, extractor.trim, **kwargs)
+        return extractor.session.get_html(url, extractor.trim, return_cookies, **kwargs)
 
     if isinstance(rq, reliq):
         return rq
     return reliq(rq)
+
+
+def create_state(state):
+    if state:
+        return state
+    return {
+        "files": {
+            "threads": [],
+            "users": [],
+        },
+        "urls": {
+            "threads": [],
+            "users": [],
+            "reactions": [],
+            "forums": [],
+            "tags": [],
+            "boards": [],
+        },
+        "data": {"threads": [], "users": []},
+        "scraper": None,
+        "scraper-method": None,
+    }
+
+
+def state_add_url(typekey, url, state, **kwargs):
+    if kwargs["output"] | Outputs.save_urls:
+        state["urls"][typekey].append(url)
 
 
 class ItemExtractor:
@@ -64,8 +91,10 @@ class ItemExtractor:
         self.trim = False
 
         self.session = session
-        self.output = Outputs.id
         self.common_exceptions = common_exceptions
+
+    def state_add_url(self, keytype, url, state, **kwargs):
+        return state_add_url(keytype, url, state, **kwargs)
 
     def get_url(self, url):
         return url
@@ -73,28 +102,35 @@ class ItemExtractor:
     def handle_error(self, exception, url, for_pedantic=False, **kwargs):
         return handle_error(self, exception, url, for_pedantic, **kwargs)
 
-    def get_first_html(self, url, rq=None, **kwargs):
-        return get_first_html(self, url, rq, **kwargs)
+    def get_first_html(self, url, rq=None, return_cookies=False, **kwargs):
+        return get_first_html(self, url, rq, return_cookies, **kwargs)
 
     def get_improper_url(self, url, rq, **kwargs):
         warnings.warn('improper url - "{}"'.format(url))
         return [None, 0]
 
-    def get(self, url, rq=None, **kwargs):
+    def get(self, typekey, url, state, rq=None, **kwargs):
         r = url_valid(url, self.match[0], True)
+
+        if Outputs.only_urls_threads in kwargs["output"]:
+            self.state_add_url(typekey, url, state, **kwargs)
+            return state
+
         if not r:
             rq, t_id = self.get_improper_url(url, rq, **kwargs)
             if not rq:
-                return None
+                return
         else:
             t_id = int(r[1][self.match[1]])
 
         path = None
 
-        if kwargs["output"] == Outputs.id:
+        if Outputs.write_by_id in kwargs["output"]:
             path = self.path_format.format(str(t_id))
-        elif kwargs["output"] == Outputs.hash:
+        elif Outputs.write_by_hash in kwargs["output"]:
             path = strtosha256(url)
+        elif Outputs.data not in kwargs["output"]:
+            return state
 
         file = None
         if (
@@ -103,27 +139,31 @@ class ItemExtractor:
             and os.path.exists(path)
             and os.path.getsize(path) != 0
         ):
-            return None
+            return
 
         url = self.get_url(url)
         rq = self.get_first_html(url, rq, **kwargs)
 
-        contents = self.get_contents(rq, url, t_id, **kwargs)
+        contents = self.get_contents(rq, state, url, t_id, **kwargs)
         if not contents:
-            return None
+            return
 
-        if not path:
-            if kwargs["output"] != Outputs.dict:
-                return None
-            return contents
+        if Outputs.data in kwargs["output"]:
+            self.state_add_url(typekey, url, state, **kwargs)
+            state["data"][typekey].append(contents)
 
-        with open(path, "w") as file:
-            file.write(json.dumps(contents))
-            file.close()
-        return path
+        if path:
+            with open(path, "w") as file:
+                file.write(json.dumps(contents))
+                file.close()
 
-    def get_contents(self, rq, url, t_id, **kwargs):
-        return {}
+                self.state_add_url(typekey, url, state, **kwargs)
+                state["files"][typekey].append(path)
+
+        return state
+
+    def get_contents(self, rq, state, url, t_id, **kwargs):
+        pass
 
 
 class ForumExtractor:
@@ -146,8 +186,7 @@ class ForumExtractor:
             "pages_max": 0,
             "pages_max_depth": 0,
             "pages_threads_max": 0,
-            "accumulate": False,
-            "output": Outputs.id,
+            "output": Outputs.write_by_id | Outputs.urls,
             "nousers": False,
             "noreactions": False,
             "max_workers": 1,
@@ -181,13 +220,10 @@ class ForumExtractor:
         ret = get_settings(self.settings, **kwargs)
 
         if (
-            ret["output"] == Outputs.threads
-            or ret["output"] == Outputs.forums
-            or ret["output"] == Outputs.dict
+            Outputs.only_urls_threads in ret["output"]
+            or Outputs.only_urls_forums in ret["output"]
         ):
             ret["force"] = True
-            ret["accumulate"] = True
-            ret["nousers"] = True
 
         if ret["user-agent"]:
             ret["headers"].update({"User-Agent": ret["user-agent"]})
@@ -199,16 +235,18 @@ class ForumExtractor:
     def handle_error(self, exception, url, for_pedantic=False, **kwargs):
         return handle_error(self, exception, url, for_pedantic, **kwargs)
 
-    def get_first_html(self, url, rq=None, **kwargs):
-        return get_first_html(self, url, rq, **kwargs)
+    def get_first_html(self, url, rq=None, return_cookies=False, **kwargs):
+        return get_first_html(self, url, rq, return_cookies, **kwargs)
 
-    def get_thread(self, url, rq=None, depth=0, **kwargs):
+    def get_thread(self, url, rq=None, state=None, depth=0, **kwargs):
         settings = self.get_settings(**kwargs)
-        return self.thread.get(url, rq, **settings)
+        state = create_state(state)
+        return self.thread.get("threads", url, state, rq, **settings)
 
-    def get_user(self, url, rq=None, depth=0, **kwargs):
+    def get_user(self, url, rq=None, state=None, depth=0, **kwargs):
         settings = self.get_settings(**kwargs)
-        return self.user.get(url, rq, **settings)
+        state = create_state(state)
+        return self.user.get("users", url, state, rq, **settings)
 
     @staticmethod
     def url_base_merge(urlbase, url):
@@ -235,16 +273,17 @@ class ForumExtractor:
     def get_tag_next(self, rq):
         return self.get_next(rq)
 
-    def go_through_page_thread(self, url, depth, **kwargs):
+    def go_through_page_thread(self, url, state, depth, **kwargs):
         try:
-            return self.get_thread(url, None, depth + 1, **kwargs)
+            return self.get_thread(url, None, state, depth + 1, **kwargs)
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, **kwargs)
 
-    def go_through_page_threads(self, baseurl, rq, expr, depth, **kwargs):
+    def go_through_page_threads(self, baseurl, rq, state, expr, depth, **kwargs):
         thread_count = 0
 
         urls = rq.search(expr).split("\n")[:-1]
+        urls_len = len(urls)
         if kwargs["pages_threads_max"] > 0 and urls_len >= kwargs["pages_threads_max"]:
             urls = urls[:urls_len]
 
@@ -252,85 +291,65 @@ class ForumExtractor:
         if self.url_base:
             urls = list(map(lambda x: self.url_base_merge(baseurl, x), urls))
 
-        ret = []
         if kwargs["max_workers"] > 1 and urls_len > 0:
             with ThreadPoolExecutor(max_workers=kwargs["max_workers"]) as executor:
-                ret = list(
+                list(
                     executor.map(
-                        lambda x: self.go_through_page_thread(x, depth, **kwargs), urls
+                        lambda x: self.go_through_page_thread(
+                            x, state, depth, **kwargs
+                        ),
+                        urls,
                     )
                 )
-            if not kwargs["accumulate"]:
-                ret = []
         else:
             for url in urls:
-                r = None
                 thread_count += 1
-                if kwargs["output"] == Outputs.threads:
-                    r = url
-                else:
-                    r = self.go_through_page_thread(url, depth, **kwargs)
+                self.go_through_page_thread(url, state, depth, **kwargs)
 
-                if r and kwargs["accumulate"]:
-                    if isinstance(r, list):
-                        ret += r
-                    else:
-                        ret.append(r)
-
-        return ret
-
-    def go_through_page_forums(self, baseurl, rq, expr, depth, **kwargs):
-        ret = []
-
+    def go_through_page_forums(self, baseurl, rq, state, expr, depth, **kwargs):
         for url in rq.search(expr).split("\n")[:-1]:
             if self.url_base:
                 url = self.url_base_merge(baseurl, url)
 
-            r = []
-            if kwargs["output"] == Outputs.forums:
-                r.append(url)
             if kwargs["pages_max_depth"] == 0 or kwargs["pages_max_depth"] > depth + 1:
                 try:
-                    r2 = self.get_forum(url, None, depth + 1, **kwargs)
+                    self.get_forum(url, None, state, depth + 1, **kwargs)
                 except (RequestError, AlreadyVisitedError):
                     continue
-                if r2:
-                    r += r2
-
-            if r and kwargs["accumulate"]:
-                if isinstance(r, list):
-                    ret += r
-                else:
-                    ret.append(r)
-
-        return ret
 
     def go_through_pages(
-        self, url, threads_expr, forums_expr, func_next, depth, rq=None, **kwargs
+        self,
+        typekey,
+        url,
+        threads_expr,
+        forums_expr,
+        func_next,
+        depth,
+        rq=None,
+        state=None,
+        **kwargs,
     ):
         settings = self.get_settings(**kwargs)
+        state = create_state(state)
         rq = self.get_first_html(url, rq, **settings)
 
         baseurl = None
         if self.url_base:
             baseurl = self.url_base(url)
 
-        ret = []
         page = 0
+        state_add_url(typekey, url, state, **settings)
 
         if forums_expr:
-            r = self.go_through_page_forums(baseurl, rq, forums_expr, depth, **settings)
-            if r:
-                ret += r
+            self.go_through_page_forums(
+                baseurl, rq, state, forums_expr, depth, **settings
+            )
 
-        if threads_expr and settings["output"] != Outputs.forums:
+        if threads_expr and Outputs.only_urls_forums not in settings["output"]:
             while True:
-                r = self.go_through_page_threads(
-                    baseurl, rq, threads_expr, depth, **settings
+                self.go_through_page_threads(
+                    baseurl, rq, state, threads_expr, depth, **settings
                 )
-
-                if r and settings["accumulate"]:
-                    ret += r
 
                 if not func_next:
                     break
@@ -347,80 +366,107 @@ class ForumExtractor:
                     rq = self.get_first_html(nexturl, **settings)
                 except RequestError as ex:
                     self.handle_error(ex, nexturl, **settings)
+        return state
 
-        if settings["accumulate"]:
-            return ret
-        return None
-
-    def get_forum(self, url, rq=None, depth=0, **kwargs):
+    def get_forum(self, url, rq=None, state=None, depth=0, **kwargs):
         return self.go_through_pages(
+            "forums",
             url,
             self.forum_threads_expr,
             self.forum_forums_expr,
             self.get_forum_next,
             depth,
             rq,
+            state,
             **kwargs,
         )
 
-    def get_tag(self, url, rq=None, depth=0, **kwargs):
+    def get_tag(self, url, rq=None, state=None, depth=0, **kwargs):
         if not self.tag_threads_expr:
             return None
         return self.go_through_pages(
-            url, self.tag_threads_expr, None, self.get_tag_next, depth, rq, **kwargs
+            "tags",
+            url,
+            self.tag_threads_expr,
+            None,
+            self.get_tag_next,
+            depth,
+            rq,
+            state,
+            **kwargs,
         )
 
-    def get_board(self, url, rq=None, depth=0, **kwargs):
+    def get_board(self, url, rq=None, state=None, depth=0, **kwargs):
         if not self.board_forums_expr:
-            return self.get_tag(url, rq, depth, **kwargs)
+            return self.get_tag(url, rq, state, depth, **kwargs)
         return self.go_through_pages(
-            url, None, self.board_forums_expr, None, depth, rq, **kwargs
+            "boards",
+            url,
+            None,
+            self.board_forums_expr,
+            None,
+            depth,
+            rq,
+            state,
+            **kwargs,
         )
 
-    def guess(self, url, **kwargs):
-        rest = url_valid(url)
-        if not rest:
-            return None
-
+    def guess_search(self, url):
+        func = None
         for i in self.guesslist:
             func = getattr(self, i["func"])
             exprs = i["exprs"]
 
             if exprs:
                 for expr in exprs:
-                    if re.search(expr, rest):
-                        return func(url, **kwargs)
+                    if re.search(expr, url):
+                        return func
             else:
-                return func(url, **kwargs)
+                return func
 
+    def guess(self, url, state=None, **kwargs):
+        rest = url_valid(url)
+        if not rest:
+            return None
+
+        state = create_state(state)
+        func = self.guess_search(rest)
+
+        if func:
+            state["scraper-method"] = func
+            return func(url, state=state, **kwargs)
         return None
 
 
 class ForumExtractorIdentify(ForumExtractor):
-    def identify(self, url, rq):
+    def identify(self, url, rq, cookies):
         pass
 
-    def get_unknown(self, func_name, url, rq=None, **kwargs):
+    def get_unknown(self, func_name, url, rq=None, state=None, **kwargs):
         settings = self.get_settings(**kwargs)
-        rq = self.get_first_html(url, rq, **settings)
-        forum = self.identify(rq)
+        state = create_state(state)
+
+        rq, cookies = self.get_first_html(url, rq, True, **settings)
+        forum = self.identify(url, rq, cookies)
         if not forum:
             return
+        state["scraper"] = forum
 
         func = getattr(forum, func_name)
-        return func(url, rq, **settings)
+        state["scraper-method"] = func
+        return func(url, rq, state, **settings)
 
-    def get_thread(self, url, rq=None, **kwargs):
-        return self.get_unknown("get_thread", url, rq, **kwargs)
+    def get_thread(self, url, rq=None, state=None, **kwargs):
+        return self.get_unknown("get_thread", url, rq, state, **kwargs)
 
-    def get_user(self, url, rq=None, **kwargs):
-        return self.get_unknown("get_user", url, rq, **kwargs)
+    def get_user(self, url, rq=None, state=None, **kwargs):
+        return self.get_unknown("get_user", url, rq, state, **kwargs)
 
-    def get_forum(self, url, rq=None, **kwargs):
-        return self.get_unknown("get_forum", url, rq, **kwargs)
+    def get_forum(self, url, rq=None, state=None, **kwargs):
+        return self.get_unknown("get_forum", url, rq, state, **kwargs)
 
-    def get_tag(self, url, rq=None, **kwargs):
-        return self.get_unknown("get_tag", url, rq, **kwargs)
+    def get_tag(self, url, rq=None, state=None, **kwargs):
+        return self.get_unknown("get_tag", url, rq, state, **kwargs)
 
-    def get_board(self, url, rq=None, **kwargs):
-        return self.get_unknown("get_board", url, rq, **kwargs)
+    def get_board(self, url, rq=None, state=None, **kwargs):
+        return self.get_unknown("get_board", url, rq, state, **kwargs)

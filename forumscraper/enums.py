@@ -1,15 +1,21 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
-from enum import Enum, auto
+from enum import Flag, auto
 from importlib.metadata import version
 
 __version__ = version(__package__ or __name__)
 
 
-class Outputs(Enum):
-    threads = auto()
-    forums = auto()
-    dict = auto()
-    id = auto()
-    hash = auto()
+class Outputs(Flag):
+    write_by_id = auto()
+    write_by_hash = auto()
+    writers = write_by_id | write_by_hash
+
+    data = auto()
+
+    only_urls_threads = auto()
+    only_urls_users = auto()
+    only_urls_forums = auto()
+    urls = auto()
+    save_urls = only_urls_threads | only_urls_users | only_urls_forums | urls
