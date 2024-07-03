@@ -15,7 +15,6 @@ class Outputs(Flag):
     data = auto()
 
     only_urls_threads = auto()
-    only_urls_users = auto()
     only_urls_forums = auto()
     urls = auto()
-    save_urls = only_urls_threads | only_urls_users | only_urls_forums | urls
+    save_urls = only_urls_threads | only_urls_forums | urls

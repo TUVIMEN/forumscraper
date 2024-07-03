@@ -86,7 +86,7 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 `--thread-pages-max NUM` and `--pages-max NUM` set max number of pages traversed in each thread and forum respectively.
 
-`--pages-max-depth NUM` limits recursion limit for forums.
+`--pages-max-depth NUM` sets recursion limit for forums.
 
 `--pages-threads-max NUM` limits number of threads that are processed from every page in forum.
 
@@ -95,3 +95,226 @@ Combining some of the above you get:
     forumscraper --nousers --thread-pages-max 1 --pages-max 1 --pages-threads-max 1 URL1 URL2 URL3
 
 which downloads only one page in one thread for all forums found from every `URL` which is very useful for debugging.
+
+## Library
+
+### Code
+
+```python
+import os
+import sys
+import forumscraper
+
+ex = forumscraper.Extractor(timeout=90)
+
+thread = ex.guess('https://xenforo.com/community/threads/forum-data-breach.180995/',output=forumscraper.Outputs.data,timeout=60,retries=0) #automatically identify forum and type of page and save results
+thread['data']['threads'][0] #access the result
+thread['data']['users'] #found users are also saved into an array
+
+forum = ex.get_forum('https://xenforo.com/community/forums/off-topic.7/',output=forumscraper.Outputs.data|forumscraper.Outputs.urls,retries=0)  #get list of all threads and  urls from forum
+forum['data']['threads'] #access the results
+forums['urls']['threads'] #list of urls to found threads
+forums['urls']['users'] #list of urls to found users
+forums['urls']['forums'] #list of urls to found forums
+
+threads = ex.smf.get_forum('https://www.simplemachines.org/community/index.php?board=1.0',output=forumscraper.Outputs.only_urls_threads) #gather only urls to threads without scraping data
+threads['urls']['threads']
+threads['urls']['forums'] #is also created
+
+forums = ex.smf.get_board('https://www.simplemachines.org/community/index.php',output=forumscraper.Outputs.only_urls_forums) #only get a list of urls to all forums
+threads['urls']['forums']
+threads['urls']['boards']
+threads['urls']['tags'] #tags and boards are also gathered
+
+ex.smf.get_thread('https://www.simplemachines.org/community/index.php?topic=578496.0',output=forumscraper.Outputs.only_urls_forums) #returns None
+
+os.mkdir('xenforo')
+os.chdir('xenforo')
+
+xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_id)
+#specifies global config, writes output in files by their id (beginning with m- in case of users) in current directory
+#ex.xenforo.v2 is an initialized instance of forumscraper.xenforo2 with the same settings as ex
+#output by default is set to forumscraper.Outputs.write_by_id anyway
+
+failures = []
+files = xen.guess('https://xenforo.com/community/',nousers=True,logger=sys.stdout,failed=failures, undisturbed=True)
+#failed=failures writes all the failed requests to be saved in failures array or file
+
+for i in failures: #try to download failed one last time
+    x = i.split(' ')
+    if len(x) == 4 and x[1] == 'failed':
+        xen.get_thread(x[0],state=files) #append results
+
+files['files']['threads']
+files['files']['users'] #lists of created files
+
+#the above uses scraper that is an instance of ForumExtractor
+#if the instance of ForumExtractorIdentify before checking if the files already exist based on url the page has to be downloaded to be indentified. Because of that any getters from this class returns results with 'scraper' field pointing to the indentified scraper type and further requests should be done through that object.
+
+xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_id,undisturbed=True)
+#specifies global config, writes output in files by sha256 hash of their url in current directory
+#ex.xenforo is also an initialized forumscraper.xenforo
+
+failures = []
+files = xen.guess('https://xenforo.com/community/',nousers=True,logger=sys.stdout,failed=failures)
+scraper = files['scraper'] #identified ForumScraper instance
+
+for i in failures: #try to download failed one last time
+    x = i.split(' ')
+    if len(x) == 4 and x[1] == 'failed':
+        scraper.get_thread(x[0],state=files) #use of already identified class
+
+os.chdir('..')
+```
+
+### Scrapers
+
+forumscraper defines:
+
+    invision
+    phpbb
+    smf1
+    smf2
+    xenforo1
+    xenforo2
+    xmb
+
+scrapers that are instances of `ForumExtractor` class and also:
+
+    Extractor
+    smf
+    xenforo
+
+that are instances of `ForumExtractorIdentify`.
+
+Instances of `ForumExtractorIdentify` identify and pass requests to `ForumExtractor` instances in them. This means that content from the first link is downloaded regardless if files with finished work exist. (So running `get_thread` method on failures using these scrapers will cause needless redownloading)
+
+`Extractor` scraper has `invision`, `phpbb`, `smf`, `xenforo`, `xmb` fields that are already initialized scrapers of declared type.
+
+`xenforo` and `smf` have `v1` and `v2` fields that are already initialized scrapers of declared versions.
+
+Initialization of scrapers allows to specify `**kwargs` as settings that are kept for requests made from these scrapers.
+
+All scrapers have the following methods:
+
+    guess
+    get_thread
+    get_user
+    get_forum
+    get_tag
+    get_board
+
+which take as argument url, optionally already downloaded html either as `str`, `bytes` or `reliq` and state which allows to append output to previous results, and the same type of settings used on initialization of class, e.g.
+
+```python
+    ex = forumscraper.Extractor(headers={"Referer":"https://xenforo.com/community/"},timeout=20)
+    state = ex.guess('https://xenforo.com/community/threads/selling-and-buying-second-hand-licenses.131205/',timeout=90)
+
+    html = requests.get('https://xenforo.com/community/threads/is-it-possible-to-set-up-three-websites-with-a-second-hand-xenforo-license.222507/').text
+    ex.guess('https://xenforo.com/community/threads/is-it-possible-to-set-up-three-websites-with-a-second-hand-xenforo-license.222507/',html,state,timeout=40)
+```
+`guess` method identifies based only on the url what kind of page is being passed and calls other methods so other methods are needed mostly for exceptions.
+
+For most cases using `Extractor` and `guess` is preferred since they work really well. The only exceptions are if site has irregular urls so that `guess` doesn't work, or if you make a lot of calls to the same site e.g. trying to scraper failed urls.
+
+`guess` method creates `scraper-method` field in output that is pointing to function used.
+
+Methods called from instances of `ForumExtractorIdentify` do the same, but also create `scraper` field pointing to instance of `ForumExtractor` used. This allows to circumvent the need of redownloading for each call just for identification.
+
+```python
+failures = []
+results = ex.guess('https://www.simplemachines.org/community/index.php',output=forumscraper.Outputs.urls|forumscraper.Outputs.data,failed=failures,undisturbed=True)
+#results['scraper-method'] points to ex.smf.v2.get_board
+
+scraper = results['scraper'] #points to ex.smf.v2
+
+for i in failures: #try to download failed one last time
+    x = i.split(' ')
+    if len(x) == 4 and x[1] == 'failed':
+        scraper.get_thread(x[0],state=results) #save results in 'results'
+```
+
+The get functions return `None` in case of failure or `dict` defined as
+
+    {
+       'data': {
+            'threads': [],
+            'users': []
+        },
+        'urls': {
+            'threads': [],
+            'users': [],
+            'reactions':[]
+            'forums': [],
+            'tags': [],
+            'boards': []
+        }
+       'files': {
+            'threads': [],
+            'users': []
+        },
+    }
+
+### Settings
+
+At initialization of scrapers and use of get methods you can specify the same settings.
+
+`output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.urls` changes behaviour of scraper and results returned by id. It takes flags from `forumscraper.Outputs`:
+
+ - `write_by_id` - write results in json in files named by their id (beginning with `m-` in case of users)
+ - `write_by_hash` - write results in json in files named by hash of their source url
+ - `only_urls_threads` - do not scrape, just get urls to threads and things above them
+ - `only_urls_forums` - ignore everything logging only urls to found forums, tags and boards
+ - `urls`  - save url from which resources were scraped
+ - `data` - save results in python dictionary
+
+`logger=None`, `failed=None` can be set to list or file to which information will be logged.
+
+`logger` logs only urls that are downloaded.
+
+`failed` logs failures in format:
+
+   RESOURCE_URL failed STATUS_CODE FAILED_URL
+   RESOURCE_URL failed completely STATUS_CODE FAILED_URL
+
+Resource fails completely only because of `STATUS_CODE` e.g. `404`.
+
+`undisturbed=False` if set scraper doesn't care about standard errors.
+
+`pedantic=False` if set scraper fails because of errors in scraping resources related to currently scraped e.g. if getting users of reactions fails
+
+`nousers=False` if set do not scrape users, greatly speeds up getting `xenforo` and `invision` pages
+
+`noreactions=False` same as above but for reactions
+
+`force=False` if set scraper always scrapes the urls, even if it was previously downloaded
+
+`max_workers=1` set number of threads used for scraping
+
+`verify=True` if set to `False` ignore ssl errors
+
+`timeout=120` request timeout
+
+`proxies={}` requests proxies dictionary
+
+`headers={}` requests headers dictionary
+
+`cookies={}` requests cookies dictionary
+
+`user_agent=None` custom user-agent
+
+`wait=0` waiting time for each request
+
+`wait_random=0` random waiting time up to specified miliseconds
+
+`retries=3` number of retries attempted in case of failure
+
+`retry_wait=60` waiting time between retries
+
+`thread_pages_max=0` if greater than `0` limits number of pages traversed in threads
+
+`pages_max=0` limits number of pages traversed in each forum, tag or board
+
+`pages_max_depth=0` sets recursion limit for forums, tags and boards
+
+`pages_threads_max=0` limits number of threads that are processed from every page in forum or tag

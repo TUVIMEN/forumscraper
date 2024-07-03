@@ -110,9 +110,13 @@ class ItemExtractor:
         return [None, 0]
 
     def get(self, typekey, url, state, rq=None, **kwargs):
+        outtype = kwargs["output"]
+        if Outputs.only_urls_forums in outtype:
+            return
+
         r = url_valid(url, self.match[0], True)
 
-        if Outputs.only_urls_threads in kwargs["output"]:
+        if Outputs.only_urls_threads in outtype:
             self.state_add_url(typekey, url, state, **kwargs)
             return state
 
@@ -125,11 +129,11 @@ class ItemExtractor:
 
         path = None
 
-        if Outputs.write_by_id in kwargs["output"]:
+        if Outputs.write_by_id in outtype:
             path = self.path_format.format(str(t_id))
-        elif Outputs.write_by_hash in kwargs["output"]:
+        elif Outputs.write_by_hash in outtype:
             path = strtosha256(url)
-        elif Outputs.data not in kwargs["output"]:
+        elif Outputs.data not in outtype:
             return state
 
         file = None
@@ -148,7 +152,7 @@ class ItemExtractor:
         if not contents:
             return
 
-        if Outputs.data in kwargs["output"]:
+        if Outputs.data in outtype:
             self.state_add_url(typekey, url, state, **kwargs)
             state["data"][typekey].append(contents)
 
