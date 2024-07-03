@@ -20,11 +20,11 @@ forumscraper aims to be an universal, automatic and extensive scraper for forums
 
 ### General
 
-Download any kind of supported forums from `URL`s into `DIR`, creating json files for threads named by their id's, same for users but beginning with `m-`.
+Download any kind of supported forums from `URL`s into `DIR`, creating json files for threads named by their id's, same for users but beginning with `m-` e.g. `24` `29` `m-89` `m-125`.
 
     forumscraper --directory DIR URL1 URL2 URL3
 
-Above behaviour is set by default(`--names id`), and can be changed with `--names hash` which names files by sha256 sum of their source urls.
+Above behaviour is set by default `--names id`, and can be changed with `--names hash` which names files by sha256 sum of their source urls.
 
     forumscraper --names hash --directory DIR URL
 
@@ -42,7 +42,7 @@ Download `URL`s with different scrapers
 
     forumscraper URL1 smf URL2 URL3 .thread URL4 xenforo2.forum URL5 URL6
 
-Type of scrapers can be defined inbetween `URL`s, where all following `URL`s are assigned to previous type i.e. URL1 to default, URL2 and URL3 to smf URL4 and so on.
+Type of scrapers can be defined inbetween `URL`s, where all following `URL`s are assigned to previous type i.e. URL1 to default, URL2 and URL3 to smf and so on.
 
 Type consists of `scraper_name` followed by `.` and `function_name`.
 
@@ -78,7 +78,7 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
     forumscraper --insecure --timeout 60 --user-agent 'why are we still here?'
 
-`--proxies DICT`, `--headers DICT` and `--cookies DICT` (where `DICT` is python stringified dictionary) are directly passed to requests.
+`--proxies DICT`, `--headers DICT` and `--cookies DICT` (where `DICT` is python stringified dictionary) are directly passed to requests library.
 
 ### Settings
 
@@ -261,8 +261,8 @@ At initialization of scrapers and use of get methods you can specify the same se
 
 `output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.urls` changes behaviour of scraper and results returned by id. It takes flags from `forumscraper.Outputs`:
 
- - `write_by_id` - write results in json in files named by their id (beginning with `m-` in case of users)
- - `write_by_hash` - write results in json in files named by hash of their source url
+ - `write_by_id` - write results in json in files named by their id (beginning with `m-` in case of users) e.g `21` `29` `m-24` `m-281`
+ - `write_by_hash` - write results in json in files named by sha256 hash of their source url
  - `only_urls_threads` - do not scrape, just get urls to threads and things above them
  - `only_urls_forums` - ignore everything logging only urls to found forums, tags and boards
  - `urls`  - save url from which resources were scraped
@@ -274,20 +274,22 @@ At initialization of scrapers and use of get methods you can specify the same se
 
 `failed` logs failures in format:
 
-   RESOURCE_URL failed STATUS_CODE FAILED_URL
-   RESOURCE_URL failed completely STATUS_CODE FAILED_URL
+```
+RESOURCE_URL failed STATUS_CODE FAILED_URL
+RESOURCE_URL failed completely STATUS_CODE FAILED_URL
+```
 
 Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 
-`undisturbed=False` if set scraper doesn't care about standard errors.
+`undisturbed=False` if set, scraper doesn't care about standard errors.
 
-`pedantic=False` if set scraper fails because of errors in scraping resources related to currently scraped e.g. if getting users of reactions fails
+`pedantic=False` if set, scraper fails because of errors in scraping resources related to currently scraped e.g. if getting users of reactions fails
 
-`nousers=False` if set do not scrape users, greatly speeds up getting `xenforo` and `invision` pages
+`nousers=False` if set, do not scrape users, greatly speeds up getting `xenforo` and `invision` pages
 
 `noreactions=False` same as above but for reactions
 
-`force=False` if set scraper always scrapes the urls, even if it was previously downloaded
+`force=False` if set, scraper always scrapes the urls, even if it was previously downloaded
 
 `max_workers=1` set number of threads used for scraping
 
@@ -295,11 +297,11 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 
 `timeout=120` request timeout
 
-`proxies={}` requests proxies dictionary
+`proxies={}` requests library proxies dictionary
 
-`headers={}` requests headers dictionary
+`headers={}` requests library headers dictionary
 
-`cookies={}` requests cookies dictionary
+`cookies={}` requests library cookies dictionary
 
 `user_agent=None` custom user-agent
 
