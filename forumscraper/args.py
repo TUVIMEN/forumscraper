@@ -182,6 +182,12 @@ def argparser():
         help="set max recursion depth",
     )
     settings.add_argument(
+        "--pages-forums-max",
+        metavar="NUM",
+        type=int,
+        help="set max number of forums to be processed in every page",
+    )
+    settings.add_argument(
         "--pages-threads-max",
         metavar="NUM",
         type=int,

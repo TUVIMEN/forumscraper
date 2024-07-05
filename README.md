@@ -88,13 +88,15 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 `--pages-max-depth NUM` sets recursion limit for forums.
 
+`--pages-forums-max NUM` limits number of forums that are processed from every page in forum.
+
 `--pages-threads-max NUM` limits number of threads that are processed from every page in forum.
 
 Combining some of the above you get:
 
-    forumscraper --nousers --thread-pages-max 1 --pages-max 1 --pages-threads-max 1 URL1 URL2 URL3
+    forumscraper --nousers --thread-pages-max 1 --pages-max 1 --pages-forums-max 1 --pages-threads-max 1 URL1 URL2 URL3
 
-which downloads only one page in one thread for all forums found from every `URL` which is very useful for debugging.
+which downloads only one page in one thread from one forum found from every `URL` which is very useful for debugging.
 
 ## Library
 
@@ -327,5 +329,7 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 `pages_max=0` limits number of pages traversed in each forum, tag or board
 
 `pages_max_depth=0` sets recursion limit for forums, tags and boards
+
+`pages_forums_max=0` limits number of forums that are processed from every page in forum or board
 
 `pages_threads_max=0` limits number of threads that are processed from every page in forum or tag

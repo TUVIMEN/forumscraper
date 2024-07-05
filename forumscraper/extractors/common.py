@@ -193,6 +193,7 @@ class ForumExtractor:
             "pages_max": 0,
             "pages_max_depth": 0,
             "pages_threads_max": 0,
+            "pages_forums_max": 0,
             "output": Outputs.write_by_id | Outputs.urls,
             "nousers": False,
             "noreactions": False,
@@ -293,14 +294,13 @@ class ForumExtractor:
             return self.handle_error(ex, url, settings)
 
     def go_through_page_threads(self, baseurl, rq, settings, state, expr, depth):
-        thread_count = 0
-
         urls = rq.search(expr).split("\n")[:-1]
         urls_len = len(urls)
         if (
             settings["pages_threads_max"] > 0
             and urls_len >= settings["pages_threads_max"]
         ):
+            urls_len = settings["pages_threads_max"]
             urls = urls[:urls_len]
 
         urls_len = len(urls)
@@ -319,11 +319,15 @@ class ForumExtractor:
                 )
         else:
             for url in urls:
-                thread_count += 1
                 self.go_through_page_thread(url, settings, state, depth)
 
     def go_through_page_forums(self, baseurl, rq, settings, state, expr, depth):
-        for url in rq.search(expr).split("\n")[:-1]:
+        max_forums = settings["pages_forums_max"]
+
+        for num, url in enumerate(rq.search(expr).split("\n")[:-1]):
+            if max_forums > 0 and num >= max_forums:
+                break
+
             if self.url_base:
                 url = self.url_base_merge(baseurl, url)
 
