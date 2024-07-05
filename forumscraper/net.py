@@ -134,7 +134,7 @@ class Session(requests.Session):
         self.visited = set()
         self.lock = Lock()
 
-        self.get_renew(False, **kwargs)
+        self.get_renew(False, kwargs["user-agent"] is None)
 
     @staticmethod
     def new_useragent():
@@ -148,44 +148,44 @@ class Session(requests.Session):
 
         return agents[random.randint(0, len(agents) - 1)]
 
-    def get_renew(self, clear=True, **kwargs):
+    def get_renew(self, clear=True, user_agent=True):
         if clear:
             self.close()
 
-        if not kwargs["user-agent"]:
+        if user_agent:
             self.headers.update({"User-Agent": self.new_useragent()})
 
-    def get_req_try(self, url, retry=False, **kwargs):
+    def get_req_try(self, url, settings, retry=False):
         if not retry:
-            if kwargs["wait"] != 0:
+            if settings["wait"] != 0:
                 time.sleep(self.wait)
-            if kwargs["wait_random"] != 0:
-                time.sleep(random.randint(0, kwargs["wait_random"] + 1) / 1000)
+            if settings["wait_random"] != 0:
+                time.sleep(random.randint(0, settings["wait_random"] + 1) / 1000)
 
-        if kwargs["logger"]:
-            if isinstance(kwargs["logger"], list):
-                kwargs["logger"].append(url)
+        if settings["logger"]:
+            if isinstance(settings["logger"], list):
+                settings["logger"].append(url)
             else:
-                print(url, file=kwargs["logger"])
+                print(url, file=settings["logger"])
 
-        return self.get(url, **to_requests_settings(kwargs))
+        return self.get(url, **to_requests_settings(settings))
 
-    def get_req(self, url, **kwargs):
+    def get_req(self, url, settings):
         with self.lock:
-            if not kwargs["force"] and url in self.visited:
+            if not settings["force"] and url in self.visited:
                 raise AlreadyVisitedError(url)
 
             self.visited.add(url)
 
-        tries = kwargs["retries"]
-        retry_wait = kwargs["retry_wait"]
+        tries = settings["retries"]
+        retry_wait = settings["retry_wait"]
 
         instant_end_code = [400, 401, 402, 403, 404, 410, 412, 414, 421, 505]
 
         i = 0
         while True:
             try:
-                resp = self.get_req_try(url, **kwargs)
+                resp = self.get_req_try(url, settings, i != 0)
             except RequestError:
                 resp = None
 
@@ -204,8 +204,8 @@ class Session(requests.Session):
             else:
                 return resp
 
-    def get_html(self, url, trim=False, return_cookies=False, **kwargs):
-        resp = self.get_req(url, **kwargs)
+    def get_html(self, url, settings, trim=False, return_cookies=False):
+        resp = self.get_req(url, settings)
 
         r = resp.text
         if trim:
@@ -217,6 +217,6 @@ class Session(requests.Session):
             return [rq, resp.cookies.get_dict()]
         return rq
 
-    def get_json(self, url, **kwargs):
-        resp = self.get_req(url, **kwargs)
+    def get_json(self, url, settings):
+        resp = self.get_req(url, settings)
         return resp.json()

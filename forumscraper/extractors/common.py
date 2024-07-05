@@ -23,16 +23,16 @@ common_exceptions = (
 )
 
 
-def handle_error(self, exception, url, for_pedantic=False, **kwargs):
+def handle_error(self, exception, url, settings, for_pedantic=False):
     if isinstance(exception, AlreadyVisitedError):
         return None
 
-    undisturbed = kwargs["undisturbed"]
+    undisturbed = settings["undisturbed"]
     pedantic = False
-    if for_pedantic and kwargs["pedantic"]:
+    if for_pedantic and settings["pedantic"]:
         pedantic = True
 
-    failed = kwargs["failed"]
+    failed = settings["failed"]
     msg = "{} {}".format(url, exception.args[0])
 
     if failed:
@@ -48,9 +48,9 @@ def handle_error(self, exception, url, for_pedantic=False, **kwargs):
     return
 
 
-def get_first_html(extractor, url, rq=None, return_cookies=False, **kwargs):
+def get_first_html(extractor, url, settings, rq=None, return_cookies=False):
     if rq is None:
-        return extractor.session.get_html(url, extractor.trim, return_cookies, **kwargs)
+        return extractor.session.get_html(url, settings, extractor.trim, return_cookies)
 
     if isinstance(rq, reliq):
         return rq
@@ -74,13 +74,14 @@ def create_state(state):
             "boards": [],
         },
         "data": {"threads": [], "users": []},
+        "visited": set(),
         "scraper": None,
         "scraper-method": None,
     }
 
 
-def state_add_url(typekey, url, state, **kwargs):
-    if kwargs["output"] | Outputs.save_urls:
+def state_add_url(typekey, url, state, settings):
+    if settings["output"] | Outputs.save_urls:
         state["urls"][typekey].append(url)
 
 
@@ -93,35 +94,35 @@ class ItemExtractor:
         self.session = session
         self.common_exceptions = common_exceptions
 
-    def state_add_url(self, keytype, url, state, **kwargs):
-        return state_add_url(keytype, url, state, **kwargs)
+    def state_add_url(self, keytype, url, state, settings):
+        return state_add_url(keytype, url, state, settings)
 
     def get_url(self, url):
         return url
 
-    def handle_error(self, exception, url, for_pedantic=False, **kwargs):
-        return handle_error(self, exception, url, for_pedantic, **kwargs)
+    def handle_error(self, exception, url, settings, for_pedantic=False):
+        return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(self, url, rq=None, return_cookies=False, **kwargs):
-        return get_first_html(self, url, rq, return_cookies, **kwargs)
+    def get_first_html(self, url, settings, rq=None, return_cookies=False):
+        return get_first_html(self, url, settings, rq, return_cookies)
 
-    def get_improper_url(self, url, rq, **kwargs):
+    def get_improper_url(self, url, rq, settings):
         warnings.warn('improper url - "{}"'.format(url))
         return [None, 0]
 
-    def get(self, typekey, url, state, rq=None, **kwargs):
-        outtype = kwargs["output"]
+    def get(self, typekey, url, settings, state, rq=None):
+        outtype = settings["output"]
         if Outputs.only_urls_forums in outtype:
             return
 
         r = url_valid(url, self.match[0], True)
 
         if Outputs.only_urls_threads in outtype:
-            self.state_add_url(typekey, url, state, **kwargs)
+            self.state_add_url(typekey, url, state, settings)
             return state
 
         if not r:
-            rq, t_id = self.get_improper_url(url, rq, **kwargs)
+            rq, t_id = self.get_improper_url(url, rq, settings)
             if not rq:
                 return
         else:
@@ -139,21 +140,21 @@ class ItemExtractor:
         file = None
         if (
             path
-            and not kwargs["force"]
+            and not settings["force"]
             and os.path.exists(path)
             and os.path.getsize(path) != 0
         ):
             return
 
         url = self.get_url(url)
-        rq = self.get_first_html(url, rq, **kwargs)
+        rq = self.get_first_html(url, settings, rq)
 
-        contents = self.get_contents(rq, state, url, t_id, **kwargs)
+        contents = self.get_contents(rq, settings, state, url, t_id)
         if not contents:
             return
 
         if Outputs.data in outtype:
-            self.state_add_url(typekey, url, state, **kwargs)
+            self.state_add_url(typekey, url, state, settings)
             state["data"][typekey].append(contents)
 
         if path:
@@ -161,12 +162,12 @@ class ItemExtractor:
                 file.write(json.dumps(contents))
                 file.close()
 
-                self.state_add_url(typekey, url, state, **kwargs)
+                self.state_add_url(typekey, url, state, settings)
                 state["files"][typekey].append(path)
 
         return state
 
-    def get_contents(self, rq, state, url, t_id, **kwargs):
+    def get_contents(self, rq, settings, state, url, t_id):
         pass
 
 
@@ -213,15 +214,15 @@ class ForumExtractor:
             "retry_wait": 60,
             "force": False,
         }
-        self.settings = self.get_settings(**kwargs)
+        self.settings = self.get_settings(kwargs)
 
         if session:
             self.session = session
         else:
             self.session = Session(**self.settings)
 
-    def get_settings(self, **kwargs):
-        ret = get_settings(self.settings, **kwargs)
+    def get_settings(self, settings):
+        ret = get_settings(self.settings, settings)
 
         if (
             Outputs.only_urls_threads in ret["output"]
@@ -236,21 +237,21 @@ class ForumExtractor:
 
     url_base = None  # blank function
 
-    def handle_error(self, exception, url, for_pedantic=False, **kwargs):
-        return handle_error(self, exception, url, for_pedantic, **kwargs)
+    def handle_error(self, exception, url, settings, for_pedantic=False):
+        return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(self, url, rq=None, return_cookies=False, **kwargs):
-        return get_first_html(self, url, rq, return_cookies, **kwargs)
+    def get_first_html(self, url, settings, rq=None, return_cookies=False):
+        return get_first_html(self, url, settings, rq, return_cookies)
 
     def get_thread(self, url, rq=None, state=None, depth=0, **kwargs):
-        settings = self.get_settings(**kwargs)
+        settings = self.get_settings(kwargs)
         state = create_state(state)
-        return self.thread.get("threads", url, state, rq, **settings)
+        return self.thread.get("threads", url, settings, state, rq)
 
     def get_user(self, url, rq=None, state=None, depth=0, **kwargs):
-        settings = self.get_settings(**kwargs)
+        settings = self.get_settings(kwargs)
         state = create_state(state)
-        return self.user.get("users", url, state, rq, **settings)
+        return self.user.get("users", url, settings, state, rq)
 
     @staticmethod
     def url_base_merge(urlbase, url):
@@ -277,30 +278,33 @@ class ForumExtractor:
     def get_tag_next(self, rq):
         return self.get_next(rq)
 
-    def go_through_page_thread(self, url, state, depth, **kwargs):
+    def go_through_page_thread(self, url, settings, state, depth):
         try:
-            return self.get_thread(url, None, state, depth + 1, **kwargs)
+            return self.get_thread(url, None, state, depth + 1, **settings)
         except self.common_exceptions as ex:
-            return self.handle_error(ex, url, **kwargs)
+            return self.handle_error(ex, url, settings)
 
-    def go_through_page_threads(self, baseurl, rq, state, expr, depth, **kwargs):
+    def go_through_page_threads(self, baseurl, rq, settings, state, expr, depth):
         thread_count = 0
 
         urls = rq.search(expr).split("\n")[:-1]
         urls_len = len(urls)
-        if kwargs["pages_threads_max"] > 0 and urls_len >= kwargs["pages_threads_max"]:
+        if (
+            settings["pages_threads_max"] > 0
+            and urls_len >= settings["pages_threads_max"]
+        ):
             urls = urls[:urls_len]
 
         urls_len = len(urls)
         if self.url_base:
             urls = list(map(lambda x: self.url_base_merge(baseurl, x), urls))
 
-        if kwargs["max_workers"] > 1 and urls_len > 0:
-            with ThreadPoolExecutor(max_workers=kwargs["max_workers"]) as executor:
+        if settings["max_workers"] > 1 and urls_len > 0:
+            with ThreadPoolExecutor(max_workers=settings["max_workers"]) as executor:
                 list(
                     executor.map(
                         lambda x: self.go_through_page_thread(
-                            x, state, depth, **kwargs
+                            x, settings, state, depth
                         ),
                         urls,
                     )
@@ -308,16 +312,19 @@ class ForumExtractor:
         else:
             for url in urls:
                 thread_count += 1
-                self.go_through_page_thread(url, state, depth, **kwargs)
+                self.go_through_page_thread(url, settings, state, depth)
 
-    def go_through_page_forums(self, baseurl, rq, state, expr, depth, **kwargs):
+    def go_through_page_forums(self, baseurl, rq, settings, state, expr, depth):
         for url in rq.search(expr).split("\n")[:-1]:
             if self.url_base:
                 url = self.url_base_merge(baseurl, url)
 
-            if kwargs["pages_max_depth"] == 0 or kwargs["pages_max_depth"] > depth + 1:
+            if (
+                settings["pages_max_depth"] == 0
+                or settings["pages_max_depth"] > depth + 1
+            ):
                 try:
-                    self.get_forum(url, None, state, depth + 1, **kwargs)
+                    self.get_forum(url, None, state, depth + 1, **settings)
                 except (RequestError, AlreadyVisitedError):
                     continue
 
@@ -333,26 +340,26 @@ class ForumExtractor:
         state=None,
         **kwargs,
     ):
-        settings = self.get_settings(**kwargs)
+        settings = self.get_settings(kwargs)
         state = create_state(state)
-        rq = self.get_first_html(url, rq, **settings)
+        rq = self.get_first_html(url, settings, rq)
 
         baseurl = None
         if self.url_base:
             baseurl = self.url_base(url)
 
         page = 0
-        state_add_url(typekey, url, state, **settings)
+        state_add_url(typekey, url, state, settings)
 
         if forums_expr:
             self.go_through_page_forums(
-                baseurl, rq, state, forums_expr, depth, **settings
+                baseurl, rq, settings, state, forums_expr, depth
             )
 
         if threads_expr and Outputs.only_urls_forums not in settings["output"]:
             while True:
                 self.go_through_page_threads(
-                    baseurl, rq, state, threads_expr, depth, **settings
+                    baseurl, rq, settings, state, threads_expr, depth
                 )
 
                 if not func_next:
@@ -367,9 +374,9 @@ class ForumExtractor:
                 if baseurl:
                     nexturl = self.url_base_merge(baseurl, nexturl)
                 try:
-                    rq = self.get_first_html(nexturl, **settings)
+                    rq = self.get_first_html(nexturl, settings)
                 except RequestError as ex:
-                    self.handle_error(ex, nexturl, **settings)
+                    self.handle_error(ex, nexturl, settings)
         return state
 
     def get_forum(self, url, rq=None, state=None, depth=0, **kwargs):
@@ -402,7 +409,7 @@ class ForumExtractor:
 
     def get_board(self, url, rq=None, state=None, depth=0, **kwargs):
         if not self.board_forums_expr:
-            return self.get_tag(url, rq, state, depth, **kwargs)
+            return self.get_forum(url, rq, state, depth, **kwargs)
         return self.go_through_pages(
             "boards",
             url,
@@ -427,11 +434,12 @@ class ForumExtractor:
                         return func
             else:
                 return func
+        return
 
     def guess(self, url, state=None, **kwargs):
         rest = url_valid(url)
         if not rest:
-            return None
+            return
 
         state = create_state(state)
         func = self.guess_search(rest)
@@ -439,7 +447,7 @@ class ForumExtractor:
         if func:
             state["scraper-method"] = func
             return func(url, state=state, **kwargs)
-        return None
+        return
 
 
 class ForumExtractorIdentify(ForumExtractor):
@@ -447,10 +455,10 @@ class ForumExtractorIdentify(ForumExtractor):
         pass
 
     def get_unknown(self, func_name, url, rq=None, state=None, **kwargs):
-        settings = self.get_settings(**kwargs)
+        settings = self.get_settings(kwargs)
         state = create_state(state)
 
-        rq, cookies = self.get_first_html(url, rq, True, **settings)
+        rq, cookies = self.get_first_html(url, settings, rq, True)
         forum = self.identify(url, rq, cookies)
         if not forum:
             return

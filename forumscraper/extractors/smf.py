@@ -38,7 +38,7 @@ class smf1(ForumExtractor):
                 2,
             ]
 
-        def get_contents(self, rq, state, url, t_id, **kwargs):
+        def get_contents(self, rq, settings, state, url, t_id):
             ret = {"format_version": "smf-1-thread", "url": url, "id": t_id}
             page = 0
 
@@ -78,14 +78,14 @@ class smf1(ForumExtractor):
 
                 page += 1
                 if (
-                    kwargs["thread_pages_max"] != 0
-                    and page >= kwargs["thread_pages_max"]
+                    settings["thread_pages_max"] != 0
+                    and page >= settings["thread_pages_max"]
                 ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl, **kwargs)
+                rq = self.session.get_html(nexturl, settings)
 
             ret["posts"] = posts
             return ret
@@ -126,7 +126,7 @@ class smf2(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, state, url, t_id, **kwargs):
+        def get_contents(self, rq, settings, state, url, t_id):
             ret = {"format_version": "smf-2-thread", "url": url, "id": t_id}
             page = 0
 
@@ -187,21 +187,21 @@ class smf2(ForumExtractor):
 
                 page += 1
                 if (
-                    kwargs["thread_pages_max"] != 0
-                    and page >= kwargs["thread_pages_max"]
+                    settings["thread_pages_max"] != 0
+                    and page >= settings["thread_pages_max"]
                 ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl, self.trim, **kwargs)
+                rq = self.session.get_html(nexturl, settings, self.trim)
 
             ret["posts"] = posts
             return ret
 
-        def get_improper_url(self, url, rq, **kwargs):
+        def get_improper_url(self, url, rq, settings):
             if rq is None:
-                rq = self.session.get_html(url, self.trim, **kwargs)
+                rq = self.session.get_html(url, settings, self.trim)
 
             try:
                 t_id = int(rq.search('input name=sd_topic value | "%(value)v"'))
@@ -238,8 +238,8 @@ class smf(ForumExtractorIdentify):
 
         self.trim = True
 
-        self.v1 = smf1(self.session)
-        self.v2 = smf2(self.session)
+        self.v1 = smf1(self.session, **kwargs)
+        self.v2 = smf2(self.session, **kwargs)
 
         self.guesslist = guesslist
 

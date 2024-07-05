@@ -28,11 +28,11 @@ class invision(ForumExtractor):
 
             return "{}{}do=hovercard".format(url, url_delim)
 
-        def get_first_html(self, url, rq=None, **kwargs):
-            kwargs["headers"].update({"X-Requested-With": "XMLHttpRequest"})
-            return self.session.get_html(url, self.trim, **kwargs)
+        def get_first_html(self, url, settings, rq=None, return_cookies=False):
+            settings["headers"].update({"X-Requested-With": "XMLHttpRequest"})
+            return self.session.get_html(url, settings, self.trim, return_cookies)
 
-        def get_contents(self, rq, state, url, u_id, **kwargs):
+        def get_contents(self, rq, settings, state, url, u_id):
             ret = {"format_version": "invision-user", "url": url, "id": u_id}
 
             t = json.loads(
@@ -116,7 +116,7 @@ class invision(ForumExtractor):
             ret["questions"] = questions
             return ret
 
-        def get_reactions_details(self, rq, state, **kwargs):
+        def get_reactions_details(self, rq, state, settings):
             ret = []
             nexturl = rq.search(
                 r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"'
@@ -128,9 +128,9 @@ class invision(ForumExtractor):
 
                 rq = self.session.get_html(
                     nexturl,
+                    settings,
                     True,
                     headers={"X-Requested-With": "XMLHttpRequest"},
-                    **kwargs,
                 )
 
                 t = json.loads(
@@ -150,7 +150,7 @@ class invision(ForumExtractor):
                 )
 
                 if len(ret) == 0:
-                    self.state_add_url("reactions", nexturl, state, **kwargs)
+                    self.state_add_url("reactions", nexturl, state, settings)
 
                 ret += t["reactions"]
 
@@ -160,7 +160,7 @@ class invision(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, state, url, t_id, **kwargs):
+        def get_contents(self, rq, settings, state, url, t_id):
             ret = {"format_version": "invision-thread", "url": url, "id": t_id}
             page = 0
 
@@ -265,11 +265,11 @@ class invision(ForumExtractor):
                     )
 
                     user_link = post["user_link"]
-                    if not kwargs["nousers"] and len(user_link) > 0:
+                    if not settings["nousers"] and len(user_link) > 0:
                         try:
-                            self.user.get("users", user_link, state, **kwargs)
+                            self.user.get("users", user_link, settings, state)
                         except self.common_exceptions as ex:
-                            self.handle_error(ex, user_link, True, **kwargs)
+                            self.handle_error(ex, user_link, settings, True)
 
                     t = json.loads(i.search(expr))
                     dict_add(post, t)
@@ -298,21 +298,21 @@ class invision(ForumExtractor):
                     dict_add(post, t)
 
                     reactions_details = []
-                    if not kwargs["noreactions"]:
+                    if not settings["noreactions"]:
                         try:
                             reactions_details = self.get_reactions_details(
-                                i, state, **kwargs
+                                i, state, settings
                             )
                         except self.common_exceptions as ex:
-                            self.handle_error(ex, i, True, **kwargs)
+                            self.handle_error(ex, i, settings, True)
                     post["reactions_details"] = reactions_details
 
                     posts.append(post)
 
                 page += 1
                 if (
-                    kwargs["thread_pages_max"] != 0
-                    and page >= kwargs["thread_pages_max"]
+                    settings["thread_pages_max"] != 0
+                    and page >= settings["thread_pages_max"]
                 ):
                     break
                 nexturl = rq.search(
@@ -320,7 +320,7 @@ class invision(ForumExtractor):
                 )
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl, True, **kwargs)
+                rq = self.session.get_html(nexturl, settings, True)
 
             ret["posts"] = posts
             return ret

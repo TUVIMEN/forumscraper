@@ -47,7 +47,7 @@ class xenforo2(ForumExtractor):
                 2,
             ]
 
-        def get_search_user(self, rq, state, baseurl, first_delim, xfToken, **kwargs):
+        def get_search_user(self, rq, state, baseurl, first_delim, xfToken, settings):
             user_url = rq.search(
                 r"""
                 {
@@ -62,8 +62,8 @@ class xenforo2(ForumExtractor):
                     "{}{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
                         baseurl, user_url, first_delim, xfToken
                     ),
+                    settings,
                     state,
-                    **kwargs,
                 )
 
         def get_xfToken(self, rq):
@@ -75,7 +75,7 @@ class xenforo2(ForumExtractor):
 
             return xfToken
 
-        def get_reactions(self, rq, state, baseurl, first_delim, xfToken, **kwargs):
+        def get_reactions(self, rq, state, baseurl, first_delim, xfToken, settings):
             ret = []
             reactions_url = rq.search(r'a .reactionsBar-link href | "%(href)v"')
 
@@ -85,7 +85,7 @@ class xenforo2(ForumExtractor):
                 )
 
                 obj = reliq(
-                    self.session.get_json(reactions_url, **kwargs)["html"][
+                    self.session.get_json(reactions_url, settings)["html"][
                         "content"
                     ].translate(str.maketrans("", "", "\n\t"))
                 )
@@ -104,11 +104,11 @@ class xenforo2(ForumExtractor):
                 )
                 ret = t["reactions"]
 
-                self.state_add_url("reactions", reactions_url, state, **kwargs)
+                self.state_add_url("reactions", reactions_url, state, settings)
 
             return ret
 
-        def get_contents(self, rq, state, url, t_id, **kwargs):
+        def get_contents(self, rq, settings, state, url, t_id):
             baseurl = self.url_base(url)
             page = 0
             url_first_delimiter = "?"
@@ -199,31 +199,31 @@ class xenforo2(ForumExtractor):
 
                     if len(xfToken) > 0:
                         try:
-                            if not kwargs["nousers"]:
+                            if not settings["nousers"]:
                                 self.get_search_user(
                                     tag,
                                     state,
                                     baseurl,
                                     url_first_delimiter,
                                     xfToken,
-                                    **kwargs,
+                                    settings,
                                 )
 
-                            if not kwargs["noreactions"]:
+                            if not settings["noreactions"]:
                                 reactions = self.get_reactions(
                                     tag,
                                     state,
                                     baseurl,
                                     url_first_delimiter,
                                     xfToken,
-                                    **kwargs,
+                                    settings,
                                 )
                         except self.common_exceptions as ex:
                             self.handle_error(
                                 ex,
                                 "{}{}{}".format(baseurl, url_first_delimiter, xfToken),
+                                settings,
                                 True,
-                                **kwargs,
                             )
 
                     post["reactions"] = reactions
@@ -232,15 +232,15 @@ class xenforo2(ForumExtractor):
 
                 page += 1
                 if (
-                    kwargs["thread_pages_max"] != 0
-                    and page >= kwargs["thread_pages_max"]
+                    settings["thread_pages_max"] != 0
+                    and page >= settings["thread_pages_max"]
                 ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
                 nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.session.get_html(nexturl, True, **kwargs)
+                rq = self.session.get_html(nexturl, settings, True)
 
             ret["posts"] = posts
             return ret
@@ -257,10 +257,10 @@ class xenforo2(ForumExtractor):
             ]
             self.path_format = "m-{}"
 
-        def get_first_html(self, url, rq=None, **kwargs):
-            return reliq(self.session.get_json(url, **kwargs)["html"]["content"])
+        def get_first_html(self, url, settings, rq=None):
+            return reliq(self.session.get_json(url, settings)["html"]["content"])
 
-        def get_contents(self, rq, state, url, u_id, **kwargs):
+        def get_contents(self, rq, settings, state, url, u_id):
             baseurl = self.url_base(url)
             ret = {"format_version": "xenforo-2-user", "url": url, "id": u_id}
 
@@ -333,7 +333,7 @@ class xenforo1(ForumExtractor):
                 2,
             ]
 
-        def get_contents(self, rq, state, url, t_id, **kwargs):
+        def get_contents(self, rq, settings, state, url, t_id):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": t_id}
             page = 0
             baseurl = self.url_base(url)
@@ -419,15 +419,15 @@ class xenforo1(ForumExtractor):
 
                 page += 1
                 if (
-                    kwargs["thread_pages_max"] != 0
-                    and page >= kwargs["thread_pages_max"]
+                    settings["thread_pages_max"] != 0
+                    and page >= settings["thread_pages_max"]
                 ):
                     break
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
                 nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.session.get_html(nexturl, True, **kwargs)
+                rq = self.session.get_html(nexturl, settings, True)
 
             ret["posts"] = posts
             return ret
@@ -466,8 +466,8 @@ class xenforo(ForumExtractorIdentify):
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
 
-        self.v1 = xenforo1(self.session)
-        self.v2 = xenforo2(self.session)
+        self.v1 = xenforo1(self.session, **kwargs)
+        self.v2 = xenforo2(self.session, **kwargs)
 
         self.guesslist = guesslist
 

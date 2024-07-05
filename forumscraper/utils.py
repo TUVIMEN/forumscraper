@@ -17,7 +17,7 @@ def strtosha256(string):
     return hashlib.sha256(string).hexdigest()
 
 
-def get_settings(settings, **kwargs):
+def get_settings(settings, kwargs):
     ret = settings
     for i in settings.keys():
         val = kwargs.get(i)
