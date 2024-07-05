@@ -85,7 +85,7 @@ class smf1(ForumExtractor):
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl, settings)
+                rq = self.session.get_html(nexturl, settings, state)
 
             ret["posts"] = posts
             return ret
@@ -194,14 +194,14 @@ class smf2(ForumExtractor):
                 nexturl = self.get_next(rq)
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl, settings, self.trim)
+                rq = self.session.get_html(nexturl, settings, state, self.trim)
 
             ret["posts"] = posts
             return ret
 
-        def get_improper_url(self, url, rq, settings):
+        def get_improper_url(self, url, rq, settings, state):
             if rq is None:
-                rq = self.session.get_html(url, settings, self.trim)
+                rq = self.session.get_html(url, settings, state, self.trim)
 
             try:
                 t_id = int(rq.search('input name=sd_topic value | "%(value)v"'))

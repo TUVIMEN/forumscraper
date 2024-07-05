@@ -75,7 +75,7 @@ class xenforo2(ForumExtractor):
 
             return xfToken
 
-        def get_reactions(self, rq, state, baseurl, first_delim, xfToken, settings):
+        def get_reactions(self, rq, baseurl, first_delim, xfToken, settings, state):
             ret = []
             reactions_url = rq.search(r'a .reactionsBar-link href | "%(href)v"')
 
@@ -85,7 +85,7 @@ class xenforo2(ForumExtractor):
                 )
 
                 obj = reliq(
-                    self.session.get_json(reactions_url, settings)["html"][
+                    self.session.get_json(reactions_url, settings, state)["html"][
                         "content"
                     ].translate(str.maketrans("", "", "\n\t"))
                 )
@@ -212,11 +212,11 @@ class xenforo2(ForumExtractor):
                             if not settings["noreactions"]:
                                 reactions = self.get_reactions(
                                     tag,
-                                    state,
                                     baseurl,
                                     url_first_delimiter,
                                     xfToken,
                                     settings,
+                                    state,
                                 )
                         except self.common_exceptions as ex:
                             self.handle_error(
@@ -240,7 +240,7 @@ class xenforo2(ForumExtractor):
                 if len(nexturl) == 0:
                     break
                 nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.session.get_html(nexturl, settings, True)
+                rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret
@@ -257,8 +257,8 @@ class xenforo2(ForumExtractor):
             ]
             self.path_format = "m-{}"
 
-        def get_first_html(self, url, settings, rq=None):
-            return reliq(self.session.get_json(url, settings)["html"]["content"])
+        def get_first_html(self, url, settings, state, rq=None):
+            return reliq(self.session.get_json(url, settings, state)["html"]["content"])
 
         def get_contents(self, rq, settings, state, url, u_id):
             baseurl = self.url_base(url)
@@ -427,7 +427,7 @@ class xenforo1(ForumExtractor):
                 if len(nexturl) == 0:
                     break
                 nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.session.get_html(nexturl, settings, True)
+                rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret

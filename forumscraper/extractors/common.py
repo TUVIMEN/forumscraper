@@ -48,9 +48,11 @@ def handle_error(self, exception, url, settings, for_pedantic=False):
     return
 
 
-def get_first_html(extractor, url, settings, rq=None, return_cookies=False):
+def get_first_html(extractor, url, settings, state, rq=None, return_cookies=False):
     if rq is None:
-        return extractor.session.get_html(url, settings, extractor.trim, return_cookies)
+        return extractor.session.get_html(
+            url, settings, state, extractor.trim, return_cookies
+        )
 
     if isinstance(rq, reliq):
         return rq
@@ -103,10 +105,10 @@ class ItemExtractor:
     def handle_error(self, exception, url, settings, for_pedantic=False):
         return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(self, url, settings, rq=None, return_cookies=False):
-        return get_first_html(self, url, settings, rq, return_cookies)
+    def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
+        return get_first_html(self, url, settings, state, rq, return_cookies)
 
-    def get_improper_url(self, url, rq, settings):
+    def get_improper_url(self, url, rq, settings, state):
         warnings.warn('improper url - "{}"'.format(url))
         return [None, 0]
 
@@ -147,7 +149,7 @@ class ItemExtractor:
             return
 
         url = self.get_url(url)
-        rq = self.get_first_html(url, settings, rq)
+        rq = self.get_first_html(url, settings, state, rq)
 
         contents = self.get_contents(rq, settings, state, url, t_id)
         if not contents:
@@ -240,18 +242,24 @@ class ForumExtractor:
     def handle_error(self, exception, url, settings, for_pedantic=False):
         return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(self, url, settings, rq=None, return_cookies=False):
-        return get_first_html(self, url, settings, rq, return_cookies)
+    def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
+        return get_first_html(self, url, settings, state, rq, return_cookies)
 
     def get_thread(self, url, rq=None, state=None, depth=0, **kwargs):
         settings = self.get_settings(kwargs)
         state = create_state(state)
-        return self.thread.get("threads", url, settings, state, rq)
+        try:
+            return self.thread.get("threads", url, settings, state, rq)
+        except self.common_exceptions as ex:
+            return self.handle_error(ex, url, settings)
 
     def get_user(self, url, rq=None, state=None, depth=0, **kwargs):
         settings = self.get_settings(kwargs)
         state = create_state(state)
-        return self.user.get("users", url, settings, state, rq)
+        try:
+            return self.user.get("users", url, settings, state, rq)
+        except self.common_exceptions as ex:
+            return self.handle_error(ex, url, settings)
 
     @staticmethod
     def url_base_merge(urlbase, url):
@@ -342,7 +350,7 @@ class ForumExtractor:
     ):
         settings = self.get_settings(kwargs)
         state = create_state(state)
-        rq = self.get_first_html(url, settings, rq)
+        rq = self.get_first_html(url, settings, state, rq)
 
         baseurl = None
         if self.url_base:
@@ -374,7 +382,7 @@ class ForumExtractor:
                 if baseurl:
                     nexturl = self.url_base_merge(baseurl, nexturl)
                 try:
-                    rq = self.get_first_html(nexturl, settings)
+                    rq = self.get_first_html(nexturl, settings, state)
                 except RequestError as ex:
                     self.handle_error(ex, nexturl, settings)
         return state
@@ -458,7 +466,11 @@ class ForumExtractorIdentify(ForumExtractor):
         settings = self.get_settings(kwargs)
         state = create_state(state)
 
-        rq, cookies = self.get_first_html(url, settings, rq, True)
+        try:
+            rq, cookies = self.get_first_html(url, settings, state, rq, True)
+        except self.common_exceptions as ex:
+            return self.handle_error(ex, url, settings)
+
         forum = self.identify(url, rq, cookies)
         if not forum:
             return

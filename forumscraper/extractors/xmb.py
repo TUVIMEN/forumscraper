@@ -108,7 +108,7 @@ class xmb(ForumExtractor):
                 if len(nexturl) == 0:
                     break
                 nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.session.get_html(nexturl, settings, True)
+                rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret

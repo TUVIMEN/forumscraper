@@ -131,7 +131,6 @@ class Session(requests.Session):
     def __init__(self, **kwargs):
         super().__init__()
 
-        self.visited = set()
         self.lock = Lock()
 
         self.get_renew(False, kwargs["user-agent"] is None)
@@ -170,12 +169,12 @@ class Session(requests.Session):
 
         return self.get(url, **to_requests_settings(settings))
 
-    def get_req(self, url, settings):
+    def get_req(self, url, settings, state):
         with self.lock:
-            if not settings["force"] and url in self.visited:
+            if url in state["visited"]:
                 raise AlreadyVisitedError(url)
 
-            self.visited.add(url)
+            state["visited"].add(url)
 
         tries = settings["retries"]
         retry_wait = settings["retry_wait"]
@@ -204,8 +203,8 @@ class Session(requests.Session):
             else:
                 return resp
 
-    def get_html(self, url, settings, trim=False, return_cookies=False):
-        resp = self.get_req(url, settings)
+    def get_html(self, url, settings, state, trim=False, return_cookies=False):
+        resp = self.get_req(url, settings, state)
 
         r = resp.text
         if trim:
@@ -217,6 +216,6 @@ class Session(requests.Session):
             return [rq, resp.cookies.get_dict()]
         return rq
 
-    def get_json(self, url, settings):
-        resp = self.get_req(url, settings)
+    def get_json(self, url, settings, state):
+        resp = self.get_req(url, settings, state)
         return resp.json()

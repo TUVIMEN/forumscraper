@@ -28,9 +28,11 @@ class invision(ForumExtractor):
 
             return "{}{}do=hovercard".format(url, url_delim)
 
-        def get_first_html(self, url, settings, rq=None, return_cookies=False):
+        def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
             settings["headers"].update({"X-Requested-With": "XMLHttpRequest"})
-            return self.session.get_html(url, settings, self.trim, return_cookies)
+            return self.session.get_html(
+                url, settings, state, self.trim, return_cookies
+            )
 
         def get_contents(self, rq, settings, state, url, u_id):
             ret = {"format_version": "invision-user", "url": url, "id": u_id}
@@ -116,7 +118,7 @@ class invision(ForumExtractor):
             ret["questions"] = questions
             return ret
 
-        def get_reactions_details(self, rq, state, settings):
+        def get_reactions_details(self, rq, settings, state):
             ret = []
             nexturl = rq.search(
                 r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"'
@@ -129,6 +131,7 @@ class invision(ForumExtractor):
                 rq = self.session.get_html(
                     nexturl,
                     settings,
+                    state,
                     True,
                     headers={"X-Requested-With": "XMLHttpRequest"},
                 )
@@ -301,7 +304,7 @@ class invision(ForumExtractor):
                     if not settings["noreactions"]:
                         try:
                             reactions_details = self.get_reactions_details(
-                                i, state, settings
+                                i, settings, state
                             )
                         except self.common_exceptions as ex:
                             self.handle_error(ex, i, settings, True)
@@ -320,7 +323,7 @@ class invision(ForumExtractor):
                 )
                 if len(nexturl) == 0:
                     break
-                rq = self.session.get_html(nexturl, settings, True)
+                rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret

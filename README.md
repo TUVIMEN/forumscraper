@@ -253,7 +253,16 @@ The get functions return `None` in case of failure or `dict` defined as
             'threads': [],
             'users': []
         },
+        'visited': set(),
     }
+
+Where `data` field contains resulting dictionaries of data.
+
+`urls` field contains found urls of specific type.
+
+`file` field contains created files with results.
+
+`visited` field contains every url visited by scraper, and will refuse to visit them again, see `force` setting for more info.
 
 ### Settings
 
@@ -289,7 +298,7 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 
 `noreactions=False` same as above but for reactions
 
-`force=False` if set, scraper always scrapes the urls, even if it was previously downloaded
+`force=False` if set, scraper overwrites files, but will still refuse to scrape urls found in `visited` field of state, if you are passing state between functions and you want to redownload them you will have to set it to empty set e.g. `state['visited'] = set()` before every function call.
 
 `max_workers=1` set number of threads used for scraping
 

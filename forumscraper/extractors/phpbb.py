@@ -73,7 +73,7 @@ class phpbb(ForumExtractor):
                 if len(nexturl) == 0:
                     break
                 nexturl = self.url_base_merge(baseurl, nexturl)
-                rq = self.session.get_html(nexturl, settings)
+                rq = self.session.get_html(nexturl, settings, state)
 
             for i in posts:
                 i["userinfo"] = []
