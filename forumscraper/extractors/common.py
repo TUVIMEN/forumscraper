@@ -231,7 +231,7 @@ class ForumExtractor:
             self.session = Session(**self.settings)
 
     def get_settings(self, settings):
-        ret = get_settings(self.settings, settings)
+        ret = get_settings(self.settings, **settings)
 
         if (
             Outputs.only_urls_threads in ret["output"]

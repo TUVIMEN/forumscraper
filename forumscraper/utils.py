@@ -1,6 +1,7 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
+import copy
 import hashlib
 import re
 
@@ -17,8 +18,21 @@ def strtosha256(string):
     return hashlib.sha256(string).hexdigest()
 
 
-def get_settings(settings, kwargs):
-    ret = settings
+def settings_copy(
+    settings,
+):  # function necessary because copy.deepcopy is too stupid to handle TextIOWrapper
+    ret = copy.copy(settings)
+
+    for i in settings.keys():
+        if isinstance(i, (dict, list, set)):
+            ret[i] = copy.deepcopy(ret[i])
+
+    return ret
+
+
+def get_settings(settings, **kwargs):
+    ret = settings_copy(settings)
+
     for i in settings.keys():
         val = kwargs.get(i)
         if val:

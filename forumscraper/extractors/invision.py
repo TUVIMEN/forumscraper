@@ -5,7 +5,7 @@ import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add
+from ..utils import dict_add, get_settings
 from .common import ItemExtractor, ForumExtractor
 
 
@@ -29,7 +29,9 @@ class invision(ForumExtractor):
             return "{}{}do=hovercard".format(url, url_delim)
 
         def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
-            settings["headers"].update({"X-Requested-With": "XMLHttpRequest"})
+            settings = get_settings(
+                settings, headers={"x-Requested-With": "XMLHttpRequest"}
+            )
             return self.session.get_html(
                 url, settings, state, self.trim, return_cookies
             )
@@ -124,16 +126,19 @@ class invision(ForumExtractor):
                 r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"'
             )
 
+            nsettings = get_settings(
+                settings, headers={"x-Requested-With": "XMLHttpRequest"}
+            )
+
             while True:
                 if len(nexturl) == 0:
                     break
 
                 rq = self.session.get_html(
                     nexturl,
-                    settings,
+                    nsettings,
                     state,
                     True,
-                    headers={"X-Requested-With": "XMLHttpRequest"},
                 )
 
                 t = json.loads(
