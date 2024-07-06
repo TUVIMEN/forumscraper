@@ -82,6 +82,9 @@ class xmb(ForumExtractor):
 
                     for j in ["date", "user", "postid"]:
                         post[j] = t[j]
+
+                    fields = t["fields"]
+
                     for j, g in enumerate(
                         [
                             "rank",
@@ -94,7 +97,15 @@ class xmb(ForumExtractor):
                         ]
                     ):
                         try:
-                            post[g] = t["fields"][j]
+                            if g == "stars":
+                                post[g] = len(fields[j])
+                            elif g == "posts":
+                                try:
+                                    post[g] = int(fields[j])
+                                except ValueError:
+                                    post[g] = fields[j]
+                            else:
+                                post[g] = fields[j]
                         except IndexError:
                             pass
 
