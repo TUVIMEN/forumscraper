@@ -50,7 +50,7 @@ Type consists of `scraper_name` followed by `.` and `function_name`.
 
 `function_name` can be: `guess`, `thread`, `forum`, `tag`, `board` (`board` being the main page of the forum where subforums are listed, and `guess` guesses the other types based on the `URL`s alone, other names are self explainatory).
 
-Default type is set to `all.guess` and it is so efective that the only reason to not use it is to avoid redownloading from running the same command many times which is caused by identification process.
+Default type is set to `all.guess` and it is so efective that the only reason to not use it is to avoid redownloading from running the same command many times which is caused by identification process when using `--names id`.
 
 Types can also be shortened e.g. `.` is equivalent to `all.guess`, `.thread` is equivalent to `all.thread` and `xenforo` is equivalent to `xenforo.guess`.
 
@@ -217,7 +217,7 @@ which take as argument url, optionally already downloaded html either as `str`, 
 ```
 `guess` method identifies based only on the url what kind of page is being passed and calls other methods so other methods are needed mostly for exceptions.
 
-For most cases using `Extractor` and `guess` is preferred since they work really well. The only exceptions are if site has irregular urls so that `guess` doesn't work, or if you make a lot of calls to the same site e.g. trying to scraper failed urls.
+For most cases using `Extractor` and `guess` is preferred since they work really well. The only exceptions are if site has irregular urls so that `guess` doesn't work, or if you make a lot of calls to the same site with `output=forumscraper.Outputs.write_by_id` e.g. trying to scraper failed urls.
 
 `guess` method creates `scraper-method` field in output that is pointing to function used.
 

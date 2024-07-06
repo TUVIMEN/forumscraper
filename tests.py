@@ -108,6 +108,17 @@ def test_forums_identify():
     ex2.guess("https://processwire.com/talk/")  # invision
 
 
+def test_ignoring_hashed_before_identify():
+    ex.get_thread(
+        "https://kh-vids.net/threads/story-time-with-jube-nagatoro-and-senpai.126609/",
+        output=forumscraper.Outputs.write_by_hash,
+    )  # xenforo1
+    ex.get_thread(
+        "https://kh-vids.net/threads/story-time-with-jube-nagatoro-and-senpai.126609/",
+        output=forumscraper.Outputs.write_by_hash,
+    )  # xenforo1
+
+
 # http://www.sciencemadness.org/talk/viewthread.php?tid=6064
 # https://www.forumhouse.ru/threads/409354/
 # https://xenforo.com/community/threads/can-not-search-chinese.2049/
@@ -117,8 +128,6 @@ def test_forums_identify():
 # https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/
 # https://linustechtips.com/topic/1197477-policygenius-thoughts/
 
-# ex.get_thread("https://kh-vids.net/threads/story-time-with-jube-nagatoro-and-senpai.126609/") #xenforo1
-# ex.get_thread("https://kh-vids.net/threads/story-time-with-jube-nagatoro-and-senpai.126609/") #xenforo1
 
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
@@ -129,3 +138,4 @@ def test_forums_identify():
 # test_threads_scrapers()
 # test_forums_identify()
 # test_forums_scrapers
+# test_ignoring_hashed_before_identify()

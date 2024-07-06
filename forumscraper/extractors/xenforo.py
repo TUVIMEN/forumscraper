@@ -108,13 +108,13 @@ class xenforo2(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, t_id):
+        def get_contents(self, rq, settings, state, url, i_id):
             baseurl = self.url_base(url)
             page = 0
             url_first_delimiter = "?"
             if url.find("?") != -1:
                 url_first_delimiter = "&"
-            ret = {"format_version": "xenforo-2-thread", "url": url, "id": t_id}
+            ret = {"format_version": "xenforo-2-thread", "url": url, "id": i_id}
 
             t = json.loads(
                 rq.search(
@@ -260,9 +260,9 @@ class xenforo2(ForumExtractor):
         def get_first_html(self, url, settings, state, rq=None):
             return reliq(self.session.get_json(url, settings, state)["html"]["content"])
 
-        def get_contents(self, rq, settings, state, url, u_id):
+        def get_contents(self, rq, settings, state, url, i_id):
             baseurl = self.url_base(url)
-            ret = {"format_version": "xenforo-2-user", "url": url, "id": u_id}
+            ret = {"format_version": "xenforo-2-user", "url": url, "id": i_id}
 
             t = json.loads(
                 rq.search(
@@ -333,8 +333,8 @@ class xenforo1(ForumExtractor):
                 2,
             ]
 
-        def get_contents(self, rq, settings, state, url, t_id):
-            ret = {"format_version": "xenforo-1-thread", "url": url, "id": t_id}
+        def get_contents(self, rq, settings, state, url, i_id):
+            ret = {"format_version": "xenforo-1-thread", "url": url, "id": i_id}
             page = 0
             baseurl = self.url_base(url)
 

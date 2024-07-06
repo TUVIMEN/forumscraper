@@ -34,8 +34,8 @@ class invision(ForumExtractor):
                 url, settings, state, self.trim, return_cookies
             )
 
-        def get_contents(self, rq, settings, state, url, u_id):
-            ret = {"format_version": "invision-user", "url": url, "id": u_id}
+        def get_contents(self, rq, settings, state, url, i_id):
+            ret = {"format_version": "invision-user", "url": url, "id": i_id}
 
             t = json.loads(
                 rq.search(
@@ -163,8 +163,8 @@ class invision(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, t_id):
-            ret = {"format_version": "invision-thread", "url": url, "id": t_id}
+        def get_contents(self, rq, settings, state, url, i_id):
+            ret = {"format_version": "invision-thread", "url": url, "id": i_id}
             page = 0
 
             t = json.loads(

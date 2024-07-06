@@ -21,8 +21,8 @@ class phpbb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, t_id):
-            ret = {"format_version": "phpbb-2+-thread", "url": url, "id": t_id}
+        def get_contents(self, rq, settings, state, url, i_id):
+            ret = {"format_version": "phpbb-2+-thread", "url": url, "id": i_id}
             page = 0
             baseurl = self.url_base(url)
 

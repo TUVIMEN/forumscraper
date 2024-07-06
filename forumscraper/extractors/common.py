@@ -87,6 +87,25 @@ def state_add_url(typekey, url, state, settings):
         state["urls"][typekey].append(url)
 
 
+def item_file_check(url, path_format, i_id, settings):
+    path = None
+    outtype = settings["output"]
+
+    if path_format and Outputs.write_by_id in outtype:
+        path = path_format.format(str(i_id))
+    elif Outputs.write_by_hash in outtype:
+        path = strtosha256(url)
+
+    if (
+        path
+        and not settings["force"]
+        and os.path.exists(path)
+        and os.path.getsize(path) != 0
+    ):
+        return
+    return path
+
+
 class ItemExtractor:
     def __init__(self, session):
         self.path_format = "{}"
@@ -124,34 +143,21 @@ class ItemExtractor:
             return state
 
         if not r:
-            rq, t_id = self.get_improper_url(url, rq, settings)
+            rq, i_id = self.get_improper_url(url, rq, settings)
             if not rq:
                 return
         else:
-            t_id = int(r[1][self.match[1]])
+            i_id = int(r[1][self.match[1]])
 
-        path = None
+        path = item_file_check(url, self.path_format, i_id, settings)
 
-        if Outputs.write_by_id in outtype:
-            path = self.path_format.format(str(t_id))
-        elif Outputs.write_by_hash in outtype:
-            path = strtosha256(url)
-        elif Outputs.data not in outtype:
+        if not path and Outputs.data not in outtype:
             return state
-
-        file = None
-        if (
-            path
-            and not settings["force"]
-            and os.path.exists(path)
-            and os.path.getsize(path) != 0
-        ):
-            return
 
         url = self.get_url(url)
         rq = self.get_first_html(url, settings, state, rq)
 
-        contents = self.get_contents(rq, settings, state, url, t_id)
+        contents = self.get_contents(rq, settings, state, url, i_id)
         if not contents:
             return
 
@@ -169,7 +175,7 @@ class ItemExtractor:
 
         return state
 
-    def get_contents(self, rq, settings, state, url, t_id):
+    def get_contents(self, rq, settings, state, url, i_id):
         pass
 
 
@@ -468,6 +474,13 @@ class ForumExtractorIdentify(ForumExtractor):
 
     def get_unknown(self, func_name, url, rq=None, state=None, **kwargs):
         settings = self.get_settings(kwargs)
+
+        if Outputs.write_by_hash in settings["output"] and (
+            func_name == "get_thread" or func_name == "get_user"
+        ):
+            if not item_file_check(url, None, None, settings):
+                return
+
         state = create_state(state)
 
         try:

@@ -38,8 +38,8 @@ class smf1(ForumExtractor):
                 2,
             ]
 
-        def get_contents(self, rq, settings, state, url, t_id):
-            ret = {"format_version": "smf-1-thread", "url": url, "id": t_id}
+        def get_contents(self, rq, settings, state, url, i_id):
+            ret = {"format_version": "smf-1-thread", "url": url, "id": i_id}
             page = 0
 
             t = json.loads(
@@ -126,8 +126,8 @@ class smf2(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, t_id):
-            ret = {"format_version": "smf-2-thread", "url": url, "id": t_id}
+        def get_contents(self, rq, settings, state, url, i_id):
+            ret = {"format_version": "smf-2-thread", "url": url, "id": i_id}
             page = 0
 
             forumposts = rq.filter(r"div #forumposts")
@@ -204,12 +204,12 @@ class smf2(ForumExtractor):
                 rq = self.session.get_html(url, settings, state, self.trim)
 
             try:
-                t_id = int(rq.search('input name=sd_topic value | "%(value)v"'))
+                i_id = int(rq.search('input name=sd_topic value | "%(value)v"'))
             except ValueError:
                 warnings.warn('url leads to improper forum - "{}"'.format(url))
                 return [None, 0]
 
-            return [rq, t_id]
+            return [rq, i_id]
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
