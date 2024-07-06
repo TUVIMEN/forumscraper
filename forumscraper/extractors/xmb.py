@@ -55,7 +55,9 @@ class xmb(ForumExtractor):
                             s/<br \/>[^:]*: \(<div [^>]*><img [^>]* alt="\([^"]*\)"[^>]*\/><\/div><br \/>\([^<]*\)\)\?/\n\3/
                             s/<br \/>[^<]*<br \/>/\n/;
                             s/<br \/>//;
-                            s/<strong>.*<\/strong> //;
+                            s/<strong>[^<]*:<\/strong> //g;
+                            s/<strong>//g;
+                            s/<\/strong>//g
                             '
                     }
                 }
@@ -76,25 +78,25 @@ class xmb(ForumExtractor):
                         )
                         t = json.loads(reliq(tr[0]).search(expr))
                     except (IndexError, AttributeError):
-                        break
+                        continue
 
                     for j in ["date", "user", "postid"]:
                         post[j] = t[j]
-                    try:
-                        for j, g in enumerate(
-                            [
-                                "rank",
-                                "stars",
-                                "avatar",
-                                "posts",
-                                "registered",
-                                "location",
-                                "mood",
-                            ]
-                        ):
+                    for j, g in enumerate(
+                        [
+                            "rank",
+                            "stars",
+                            "avatar",
+                            "posts",
+                            "registered",
+                            "location",
+                            "mood",
+                        ]
+                    ):
+                        try:
                             post[g] = t["fields"][j]
-                    except IndexError:
-                        pass
+                        except IndexError:
+                            pass
 
                     posts.append(post)
 
@@ -154,7 +156,10 @@ class xmb(ForumExtractor):
 
     def get_next(self, rq):
         url = rq.search(
-            r'td .multi; [0] a href rel=next | "%(href)v" / sed "s/&amp;/\&/g;q"'
+            r'''td .multi; {
+                [0] a href rel=next | "%(href)v\n",
+                [0] strong ~[0] u; a href | "%(href)v\n"
+            } / sed "s/&amp;/\&/g;q" tr "\n"'''
         )
         if not re.search(r"&page=", url):
             return ""
