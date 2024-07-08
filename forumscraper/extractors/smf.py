@@ -108,11 +108,7 @@ class smf1(ForumExtractor):
         self.guesslist = guesslist
 
     def get_next(self, rq):
-        return rq.search(
-            r"""
-            * m@B>'.*:.*class="navPages"' [-] | "%i\n" / sed 's#.*<b>[0-9]+</b>##;s#[^<]*<a [^>]*href="([^"]+)".*#\1#;/;all$/d;/^\]/d;/^#/d' "E"
-        """
-        )[:-1]
+        return rq.search(r'[0] b ~[0] a .navPages href | "%(href)v"')
 
 
 class smf2(ForumExtractor):
@@ -139,15 +135,18 @@ class smf2(ForumExtractor):
                     r'div .cat_bar; h3 .catbg | "%i\n" / sed "s/<[^>]*>//g;s/ &nbsp;/ /;s/.* (\([^)]*\))$/\1/;s/.* \([0-9]*\) .*/\1/"'
                 )[:-1]
             else:
-                title = forumposts.search(
-                    'h1 | "%i\n", B>h[0-9] .display_title; span #top_subject | "%i"'
+                title = forumposts.search(r'h1 | "%i"') + rq.search(
+                    r'B>h[0-9] .display_title; span #top_subject | "%i"'
                 )
                 viewed = forumposts.search(
-                    'div .display-info;  li m@v>"comments" | "%i\n" / sed "s/<[^>]*>//g; s/ .*//"'
+                    r'div .display-info;  li m@v>"comments" | "%i\n" / sed "s/<[^>]*>//g; s/ .*//"'
                 )[:-1]
 
             ret["title"] = title
-            ret["viewed"] = viewed
+            try:
+                ret["viewed"] = int(viewed)
+            except ValueError:
+                ret["viewed"] = viewed
 
             ret["path"] = json.loads(
                 rq.search(
@@ -172,7 +171,7 @@ class smf2(ForumExtractor):
                     .attachments.a div .attached; div .attachments_top; a href | "%(href)v\n",
                     .user div .poster; h4; a l@[1] | "%i",
                     .userid.u div .poster; h4; a href l@[1] | "%(href)v" / sed "s/^.*;u=//",
-                    .avatar div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li .avatar; img src | "%(src)v\n",
+                    .avatar div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li .avatar; img src | "%(src)v",
                     .userinfo div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li -.avatar class; {
                         .key * l@[0] | "%(class)v",
                         .value * l@[0] | "%i"

@@ -77,7 +77,9 @@ class xenforo2(ForumExtractor):
 
         def get_reactions(self, rq, baseurl, first_delim, xfToken, settings, state):
             ret = []
-            reactions_url = rq.search(r'a .reactionsBar-link href | "%(href)v"')
+            reactions_url = rq.search(
+                r'{ a .reactionsBar-link href | "%(href)v\n", div #b>reactions-bar-; a .list-reacts href | "%(href)v\n" } / line [1] tr "\n"'
+            )
 
             if len(reactions_url) > 0:
                 reactions_url = "{}{}{}_xfRequestUri=&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
@@ -133,8 +135,8 @@ class xenforo2(ForumExtractor):
                 .path.a ul .p-breadcrumbs -.p-breadcrumbs--bottom; span | "%i\n",
                 .tags.a("|") a class=b>tagItem | "%i\n" / sed ":x; s/\t//g; /^$/d; $!{N;s/\n/|/;bx}; s/|$//; s/|\+/|/g" tr "\n",
                 .poll form data-xf-init="poll-block ajax-submit"; {
-                    .title h2 .block-header | "%i\n" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d;",
-                    .answers li; {
+                    .title h2 .block-header | "%i" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d;",
+                    .answers [:-1] li; {
                         .option h3 .pollResult-response | "%i",
                         .votes.u span .pollResult-votes | "%i" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d; s/^.* //"
                     } |
@@ -149,14 +151,48 @@ class xenforo2(ForumExtractor):
             posts = []
             expr = reliq.expr(
                 r"""
-                .user_id.u {
-                    h4 class=b>message-name; * data-user-id | "%(data-user-id)v",
-                    div .MessageCard__avatar; a data-user-id | "%(data-user-id)v"
+                {
+                    h4 class=b>message-name,
+                    * .MessageCard__user-info__name
+                }; {
+                    .user [0] * c@[0] | "%i",
+                    .user_link [0] a class href | "%(href)v",
+                    .user_id.u [0] * data-user-id | "%(data-user-id)v"
                 },
 
-                .user {
-                    h4 class=b>message-name; * c@[0] | "%i",
-                    * .MessageCard__user-info__name; * c@[0] | "%i"
+                .user_avatar {
+                    div .message-avatar,
+                    div .MessageCard__avatar
+                }; img src | "%(src)v",
+
+                .user_title h5 .userTitle | "%i",
+
+                .user_banners.a div .userBanner; strong | "%i\n",
+
+                .user_extras {
+                    .pairs1 div .message-userExtras; dl l@[1]; {
+                        .key dt; {
+                            * title | "%(title)v\a",
+                            * l@[0] | "%i"
+                        } / sed "s/^\a*//;s/\a.*//",
+                        .value dd | "%i",
+                    } | ,
+
+                    .pairs2 div .message-userExtras; div .pairs; span title; {
+                        .key * l@[0] | "%(title)v",
+                        .value * l@[0] | "%i",
+                    } | ,
+
+                    .pairs3 div .MessageCard__user-details; span class -.MessageCard__dot-separator; {
+                        .key * l@[0] | "%(class)v" / sed 's/^MessageCard__//',
+                        .value * l@[0] | "%i"
+                    } | ,
+
+                    div .message-userExtras; {
+                        .stars.a ul .reputation-star-container; li .eB>"[a-z]star" | "%(class)v\n" / sed "s/.* //",
+
+                        .bar.a ul .reputation-bar-container; li .reputation-bar | "%(class)v\n" / sed "s/.* //"
+                    }
                 },
 
                 .id.u E>(span|div) #B>post-[0-9]* | "%(id)v" / sed "s/^post-//;q",
@@ -167,14 +203,13 @@ class xenforo2(ForumExtractor):
                 },
 
                 .text {
-                    article class=b>message-body; div .bbWrapper | "%i",
-                    div .MessageCard__content-inner; div .bbWrapper | "%i"
-                },
+                    article class=b>message-body,
+                    div .MessageCard__content-inner
+                }; div .bbWrapper | "%i",
 
-                .attachments.a {
-                    ul .attachmentList | "%i\n",
-                    div #signature-content-wrapper; div .bbWrapper | "%i\n"
-                }
+                .attachments.a ul .attachmentList; a,
+
+                .signature div #signature-content-wrapper; div .bbWrapper | "%i"
             """
             )
 
@@ -194,6 +229,20 @@ class xenforo2(ForumExtractor):
                     tag = reliq(i)
 
                     post = json.loads(tag.search(expr))
+
+                    if post["user_link"][:1] == "/":
+                        post["user_link"] = baseurl + post["user_link"]
+                    if post["user_avatar"][:1] == "/":
+                        post["user_avatar"] = baseurl + post["user_avatar"]
+                        post["user_avatar"] = re.sub(
+                            r"\?[0-9]+$", r"", post["user_avatar"]
+                        )
+
+                    uext = post["user_extras"]
+                    uext["pairs"] = uext["pairs1"] + uext["pairs2"] + uext["pairs3"]
+                    uext.pop("pairs1")
+                    uext.pop("pairs2")
+                    uext.pop("pairs3")
 
                     reactions = []
 
@@ -270,21 +319,25 @@ class xenforo2(ForumExtractor):
                 .background div class=B>"memberProfileBanner memberTooltip-header.*" style=a>"url(" | "%(style)v" / sed "s#.*url(##;s#^//#https://#;s/?.*//;p;q" "n",
                 .location a href=b>/misc/location-info | "%i",
                 .avatar img src | "%(src)v" / sed "s#^//#https://#;s/?.*//; q",
-                .joined dl .pairs .pairs--inline m@">Joined<"; time datetime | "%(datetime)v",
-                .lastseen dl .pairs .pairs--inline m@">Last seen<"; time datetime | "%(datetime)v",
                 .title span .userTitle | "%i",
+                .banners.a * .userBanner; strong | "%i\n",
                 .name h4 .memberTooltip-name; a; * c@[0] | "%i",
                 .forum em; a href | "%(href)v",
-                .messages dl m@"<dt>Messages</dt>"; dd; * c@[0] | "%i\n" / sed "/[0-9]/{s/[,\t ]//g;p;q}" "n" tr "\n",
-                .reactionscore dl m@B>"<dt.*>Reaction.*</dt>"; dd; * c@[0] | "%i\n" / sed "/[0-9]/{s/[,\t ]//g;p;q}" "n" tr "\n",
-                .points dl m@B>"<dt .*title=\".*\">Points</dt>"; dd; * c@[0] | "%i\n" / sed "/[0-9]/{s/[,\t ]//g;p;q}" tr "\n"
+                .extras dl .pairs c@[!0]; {
+                    .key dt | "%i",
+                    .value dd; {
+                        time datetime | "%(datetime)v\a",
+                        a m@v>"<" | "%i\a",
+                        * l@[0] | "%i"
+                    } / tr '\n' sed "s/^\a*//;s/\a.*//"
+                } |
             """
                 )
             )
-            if len(t["background"]) > 0:
-                t["background"] = "{}{}".format(baseurl, t["background"])
-            if len(t["avatar"]) > 0:
-                t["avatar"] = "{}{}".format(baseurl, t["avatar"])
+            if t["background"][:1] == "/":
+                t["background"] = baseurl + t["background"]
+            if t["avatar"][:1] == "/":
+                t["avatar"] = baseurl + t["avatar"]
             dict_add(ret, t)
 
             return ret
@@ -333,6 +386,40 @@ class xenforo1(ForumExtractor):
                 2,
             ]
 
+        def get_avatar_and_userid(self, baseurl, messageUB):
+            user_id = "0"
+            avatar = messageUB.search(r'* class=b>avatar; [0] img src | "%(src)v"')
+            if len(avatar) == 0:
+                user_id = messageUB.search(
+                    r'span class="img m" style | "%(style)v" / sed "s#^.*/avatars/m/[0-9]*/##; s#\..*##"'
+                )
+                avatar = messageUB.search(
+                    r"""span class="img m" style | "%(style)v" / sed "s/?[0-9]*')//; s/background-image: url('/\//; s/')$//" """
+                )
+            else:
+                r = re.search(r"/(\d+)\.[a-zA-Z]*(\?.*)?$", avatar)
+                if r:
+                    user_id = r[1]
+
+            avatar = re.sub(r"\?[0-9]+$", r"", avatar)
+
+            if avatar[:2] == "//":
+                protocol = baseurl[: (baseurl.index(":") + 1)]
+                avatar = protocol + avatar
+            elif avatar[:5] != "http:" and avatar[:6] != "https:":
+                avatar = baseurl + avatar
+
+            if user_id == "0":
+                user_id = messageUB.search(
+                    r'[0] * .userText; a .username href | "%(href)v" / sed "s#/$##;s/.*\.//"'
+                )
+            try:
+                user_id = int(user_id)
+            except ValueError:
+                user_id = 0
+
+            return avatar, user_id
+
         def get_contents(self, rq, settings, state, url, i_id):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": i_id}
             page = 0
@@ -376,30 +463,9 @@ class xenforo1(ForumExtractor):
                     post = {}
                     messageUB = i.filter(r"div class=b>messageUserBlock")
 
-                    user_id = "0"
-                    avatar = messageUB.search(
-                        r'* class=b>avatar; [0] img src | "/%(src)v"'
-                    )
-                    if len(avatar) == 0:
-                        user_id = messageUB.search(
-                            r'span class="img m" style | "%(style)v" / sed "s#^.*/avatars/m/[0-9]*/##; s#\..*##"'
-                        )
-                        avatar = messageUB.search(
-                            r"""span class="img m" style | "%(style)v" / sed "s/?[0-9]*')//; s/background-image: url('/\//; s/')$//" """
-                        )
-                    else:
-                        r = re.search(r"/(\d+)\.[a-zA-Z]*(\?.*)?$", url)
-                        if r:
-                            user_id = r[1]
-
-                    if len(avatar) > 0:
-                        avatar = "{}{}".format(baseurl, url)
-
+                    avatar, user_id = self.get_avatar_and_userid(baseurl, messageUB)
                     post["avatar"] = avatar
-                    try:
-                        post["user_id"] = int(user_id)
-                    except ValueError:
-                        post["user_id"] = 0
+                    post["user_id"] = user_id
 
                     t = json.loads(messageUB.search(expr))
                     dict_add(post, t)
@@ -407,6 +473,10 @@ class xenforo1(ForumExtractor):
                     t = json.loads(
                         i.search(
                             r"""
+                        .date div .messageMeta; span .item; * .DateTime; {
+                            * l@[0] title | "%(title)v",
+                            * l@[0] -title | "%i"
+                        },
                         .user li data-author l@[0] | "%(data-author)v",
                         .id.u li data-author l@[0] #B>post-[0-9]* | "%(id)v" / sed "s/^post-//",
                         .text div .messageContent; article | "%i"

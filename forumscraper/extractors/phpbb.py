@@ -44,16 +44,16 @@ class phpbb(ForumExtractor):
                 r"""
                 .posts div #page-body; div #B>"p[0-9]*"; {
                     .postid.u div #B>"p[0-9]*" l@[0] | "%(id)v" / sed "s/^p//",
-                    .date p .author | "%i" / sed "s/<\/time>$//;s/.*>//; s/.*;//; s/^ *//; s/^([a-z]* )+//" "E",
+                    .date p .author | "%i" / sed "s/<\/time>$//;s/.*>//; s/.*;//; s/^ *//; s/^([a-z]* )+//; /^$/d" "E",
                     .content div .content | "%i",
                     .signature div .signature #B>sig[0-9]* | "%i",
                     dl .postprofile #B>profile[0-9]*; {
                         dt l@[1]; {
                             .avatar img src | "%(src)v",
                             .user a c@[0] | "%i",
-                            .userid a href c@[0] | "%(href)v" / sed "s/.*[&;]u=([0-9]+).*/\1/" "E",
+                            .userid.u a href c@[0] | "%(href)v" / sed "s/.*[&;]u=([0-9]+).*/\1/" "E",
                         },
-                        .userinfo_temp.a dd l@[1] m@vf>"&nbsp;" | "%i\n" / sed "s/<strong>([^<]*)<\/strong>/\1/g; s/ +:/:/; /<ul [^>]*class=\"profile-icons\">/{s/.*<a href=\"([^\"]*)\" title=\"Site [^\"]*\".*/Site\t\1/;t;d}; /^[^<>]+:/!{s/^/Rank:/};s/: */\t/" "E"
+                        .userinfo_temp.a("\a") dd l@[1] m@vf>"&nbsp;" | "%i\a" / tr '\n\t' sed "s/<strong>([^<]*)<\/strong>/\1/g; s/ +:/:/; /<ul [^>]*class=\"profile-icons\">/{s/.*<a href=\"([^\"]*)\" title=\"Site [^\"]*\".*/Site\t\1/;t;d}; /^[^<>]+:/!{s/^/Rank:/};s/: */\t/" "E" "\a"
                     }
                 } |
             """
@@ -79,7 +79,10 @@ class phpbb(ForumExtractor):
                 i["userinfo"] = []
                 for j in i["userinfo_temp"]:
                     t = j.split("\t")
-                    if len(t) < 2:
+                    t_len = len(t)
+                    if t_len > 2 or (t_len == 0 and len(t[0]) == 0):
+                        continue
+                    if t_len < 2:
                         t.append("")
                     i["userinfo"].append({"key": t[0], "value": t[1]})
                 i.pop("userinfo_temp")
