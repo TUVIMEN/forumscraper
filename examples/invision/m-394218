@@ -1,1 +1,25 @@
-{"format_version": "invision-user", "url": "https://linustechtips.com/profile/394218-spaceghostc2c/?do=hovercard", "id": 394218, "name": "SpaceGhostC2C", "background": "//pbs-prod.linustechtips.com/monthly_2020_07/RTFM5.png.b3a791513be9fbb40ff5bc42624ef366.png", "avatar": "//pbs-prod.linustechtips.com/monthly_2020_12/SGparrot4.thumb.gif.7ffe80207db76f29927991027e0de45a.gif", "group": "Member", "joined": "2016-08-01T12:54:26Z", "lastseen": "2024-07-07T23:48:05Z", "info": [{"name": "Posts", "value": "5.7k"}, {"name": "Reputation", "value": "3.9k"}, {"name": "Badges", "value": "0"}]}
+{
+  "format_version": "invision-user",
+  "url": "https://linustechtips.com/profile/394218-spaceghostc2c/?do=hovercard",
+  "id": 394218,
+  "name": "SpaceGhostC2C",
+  "background": "//pbs-prod.linustechtips.com/monthly_2020_07/RTFM5.png.b3a791513be9fbb40ff5bc42624ef366.png",
+  "avatar": "//pbs-prod.linustechtips.com/monthly_2020_12/SGparrot4.thumb.gif.7ffe80207db76f29927991027e0de45a.gif",
+  "group": "Member",
+  "joined": "2016-08-01T12:54:26Z",
+  "lastseen": "2024-07-07T23:48:05Z",
+  "info": [
+    {
+      "name": "Posts",
+      "value": "5.7k"
+    },
+    {
+      "name": "Reputation",
+      "value": "3.9k"
+    },
+    {
+      "name": "Badges",
+      "value": "0"
+    }
+  ]
+}

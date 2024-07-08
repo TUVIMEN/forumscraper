@@ -1,1 +1,38 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/solstice258.343269/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 343269, "background": "", "location": "neverland", "avatar": "https://forums.mangadex.org/community/avatars/m/343/343269.jpg", "title": "Dex-chan lover", "banners": [], "name": "solstice258", "forum": "", "extras": [{"key": "Joined", "value": "2020-06-22T20:13:08+0100"}, {"key": "Last seen", "value": "2024-07-08T13:44:20+0100"}, {"key": "Messages", "value": "473"}, {"key": "Solutions", "value": "9"}, {"key": "Reaction score", "value": "869"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/solstice258.343269/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 343269,
+  "background": "",
+  "location": "neverland",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/343/343269.jpg",
+  "title": "Dex-chan lover",
+  "banners": [],
+  "name": "solstice258",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2020-06-22T20:13:08+0100"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-07-08T13:44:20+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "473"
+    },
+    {
+      "key": "Solutions",
+      "value": "9"
+    },
+    {
+      "key": "Reaction score",
+      "value": "869"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

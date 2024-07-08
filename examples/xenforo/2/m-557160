@@ -1,1 +1,30 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/gregorybrisk.557160/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 557160, "background": "", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/557/557160.jpg", "title": "", "banners": [], "name": "gregorybrisk", "forum": "", "extras": [{"key": "Joined", "value": "2023-01-17T16:44:28+0000"}, {"key": "Messages", "value": "1"}, {"key": "Reaction score", "value": "2"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/gregorybrisk.557160/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 557160,
+  "background": "",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/557/557160.jpg",
+  "title": "",
+  "banners": [],
+  "name": "gregorybrisk",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2023-01-17T16:44:28+0000"
+    },
+    {
+      "key": "Messages",
+      "value": "1"
+    },
+    {
+      "key": "Reaction score",
+      "value": "2"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

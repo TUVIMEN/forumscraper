@@ -1,1 +1,37 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/tristan__.387489/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 387489, "background": "https://forums.mangadex.org/community/profile_banners/m/387/387489.jpg", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/387/387489.jpg", "title": "Dex-chan lover", "banners": ["Staff", "Super Moderator"], "name": "Tristan__", "forum": "", "extras": [{"key": "Joined", "value": "2020-08-19T16:21:28+0100"}, {"key": "Messages", "value": "788"}, {"key": "Solutions", "value": "4"}, {"key": "Reaction score", "value": "1,671"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/tristan__.387489/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 387489,
+  "background": "https://forums.mangadex.org/community/profile_banners/m/387/387489.jpg",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/387/387489.jpg",
+  "title": "Dex-chan lover",
+  "banners": [
+    "Staff",
+    "Super Moderator"
+  ],
+  "name": "Tristan__",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2020-08-19T16:21:28+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "788"
+    },
+    {
+      "key": "Solutions",
+      "value": "4"
+    },
+    {
+      "key": "Reaction score",
+      "value": "1,671"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

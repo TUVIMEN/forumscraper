@@ -1,1 +1,36 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/readeronthedot.441816/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 441816, "background": "", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/441/441816.jpg", "title": "Member", "banners": ["Group Leader"], "name": "readeronthedot", "forum": "", "extras": [{"key": "Joined", "value": "2020-11-09T12:47:36+0000"}, {"key": "Last seen", "value": "2023-02-02T00:01:14+0000"}, {"key": "Messages", "value": "7"}, {"key": "Reaction score", "value": "7"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/readeronthedot.441816/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 441816,
+  "background": "",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/441/441816.jpg",
+  "title": "Member",
+  "banners": [
+    "Group Leader"
+  ],
+  "name": "readeronthedot",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2020-11-09T12:47:36+0000"
+    },
+    {
+      "key": "Last seen",
+      "value": "2023-02-02T00:01:14+0000"
+    },
+    {
+      "key": "Messages",
+      "value": "7"
+    },
+    {
+      "key": "Reaction score",
+      "value": "7"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

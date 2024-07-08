@@ -1,1 +1,25 @@
-{"format_version": "invision-user", "url": "https://processwire.com/talk/profile/88-diogo/?do=hovercard", "id": 88, "name": "diogo", "background": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2017_04/1500x500.jpeg.34e9518d1be4661267a64b1e4cf52b26.jpeg", "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png", "group": "Moderators", "joined": "2011-06-03T22:32:29Z", "lastseen": "2024-07-07T21:53:59Z", "info": [{"name": "Posts", "value": "4.3k"}, {"name": "Reputation", "value": "4.9k"}, {"name": "Badges", "value": "0"}]}
+{
+  "format_version": "invision-user",
+  "url": "https://processwire.com/talk/profile/88-diogo/?do=hovercard",
+  "id": 88,
+  "name": "diogo",
+  "background": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2017_04/1500x500.jpeg.34e9518d1be4661267a64b1e4cf52b26.jpeg",
+  "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+  "group": "Moderators",
+  "joined": "2011-06-03T22:32:29Z",
+  "lastseen": "2024-07-07T21:53:59Z",
+  "info": [
+    {
+      "name": "Posts",
+      "value": "4.3k"
+    },
+    {
+      "name": "Reputation",
+      "value": "4.9k"
+    },
+    {
+      "name": "Badges",
+      "value": "0"
+    }
+  ]
+}

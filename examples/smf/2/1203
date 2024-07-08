@@ -1,1 +1,1185 @@
-{"format_version": "smf-2-thread", "url": "https://forum.nasm.us/index.php?topic=1203.0", "id": 1203, "title": "What flavor of Linux do you recommend for 64 bit coding? ", "viewed": 37949, "path": ["NASM - The Netwide Assembler", "NASM Forum", "Using NASM"], "posts": [{"postid": 4670, "date": "August 08, 2011, 05:57:10 PM", "body": "I'm trying to use the 64 bit beta of Gnome 3 / OpenSUSE, but it's giving my 585 a lot of trouble - especially with the date and time.&nbsp; I had some kind of a file system error this morning - twice - while trying to get the clock set correctly.&nbsp; It's just not ready for prime time yet.&nbsp; I'm sure it will all be worked out by the anticipated release date - next month.<br /><br />What's your preference?", "signature": "", "edited": "", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4671, "date": "August 08, 2011, 06:55:02 PM", "body": "By &quot;flavor&quot; you mean distro, right? Actually it doesn't differ, you can use any distro to assemble and link, even on a 64 bit system(for coding also). I use Fedora, with GNOME 3, <strong>Frank Kotler,</strong> he is a command-line man, so he uses Slackware Linux, so he doesn't have a GUI, unlike us noobs <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /> and he likes using Slackware (I think <img src=\"http://forum.nasm.us/Smileys/default/huh.gif\" alt=\"???\" title=\"Huh\" class=\"smiley\" />)<br /><br />Choose the one you feel comfortable with, but keep an eye on if it updates recently or not, since it is recommended to use the latest GCC with its Linker ld, the distro should update gcc frequently.<br /><br />Best,<br />Mahmoud", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4672, "date": "August 08, 2011, 07:28:07 PM", "body": "Thanks.&nbsp; I have the Gnome 3 / Fedora release, too.&nbsp; You're not having any trouble with it?<br /><br />I'll try the Slackware, too.&nbsp; I started out as a DOS man, so that would be almost full circle.&nbsp; hehe.<br /><br />I definitely want to write pure 64 bit code.&nbsp; I'm all about that right now.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />Addendum:&nbsp; I'm downloading the slackware64-13.37 iso presently.", "signature": "", "edited": "&#171; <em>Last Edit: August 08, 2011, 08:08:33 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4676, "date": "August 09, 2011, 02:28:22 AM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4672#msg4672\">Quote from: Eccentro on August 08, 2011, 07:28:07 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Thanks.&nbsp; I have the Gnome 3 / Fedora release, too.&nbsp; You're not having any trouble with it?<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No, not any trouble <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4672#msg4672\">Quote from: Eccentro on August 08, 2011, 07:28:07 PM</a></div></div><blockquote class=\"bbc_standard_quote\">I'll try the Slackware, too.&nbsp; I started out as a DOS man, so that would be almost full circle.&nbsp; hehe.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Good for you&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /> And it is always positive to try something new <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4672#msg4672\">Quote from: Eccentro on August 08, 2011, 07:28:07 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Addendum:&nbsp; I'm downloading the slackware64-13.37 iso presently.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />You may know that, but... be sure you have a 64 bit system for Slackware 64 to work, and please notice that the system type doesn't differ in programming, the code only differs if you are coding in 64 bit assembly, so you can compile a 64 bit code on a 32 bit Operating System, but ofcourse you can't execute the output.<br /><br />I know that you knew that, but just in case you didn't, a human can make mistakes <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /><br /><br />Slackware's size is large <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /> But it worth it <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /><br />Command-Line = x10 times faster than any GUI system, if not more than 10 times...<br /><br />Best,<br />Mahmoud", "signature": "", "edited": "&#171; <em>Last Edit: August 09, 2011, 02:30:11 AM by MJaoune</em> &#187;", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4680, "date": "August 09, 2011, 05:57:03 AM", "body": "Yeah - I knew that.&nbsp; hehe.&nbsp; Although you bring up a good point.&nbsp; I could write the code on one of my other machines and test it on my Intel 585.<br /><br />Someday, I'll get a faster computer than this Celeron, but, as you said, command-line operation is much faster than GUI and speed is good.&nbsp; Especially in my field of interest, which is cognitive modeling.<br /><br />I've got a lot of back burners going, so getting things done is becoming a priority.&nbsp; hehe.<br /><br />Thanks again for the help.", "signature": "", "edited": "", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4684, "date": "August 09, 2011, 02:30:53 PM", "body": "I'm stoked about the SlackWare.&nbsp; I'm running the install now and I see that the iso came complete with the tools I'll need.&nbsp; I can just add NASM go to it.<br /><br />Good recommendation!&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" />", "signature": "", "edited": "", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4687, "date": "August 09, 2011, 03:30:28 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4684#msg4684\">Quote from: Eccentro on August 09, 2011, 02:30:53 PM</a></div></div><blockquote class=\"bbc_standard_quote\">I'm stoked about the SlackWare.&nbsp; I'm running the install now and I see that the iso came complete with the tools I'll need.&nbsp; I can just add NASM go to it.<br /><br />Good recommendation!&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Nice <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /> But which Software Set have you downloaded?? or did you download the whole 4 GB Image!? I just want to know, since it works good for you. And actually Frank recommended Slackware for me <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4684#msg4684\">Quote from: Eccentro on August 09, 2011, 02:30:53 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Someday, I'll get a faster computer than this Celeron, but, as you said, command-line operation is much faster than GUI and speed is good.&nbsp; Especially in my field of interest, which is cognitive modeling.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />If you use your computer for programming only, and no gaming, then you don't have to buy a fast PC.<br /><br />I use my computer for programming only, no gaming and here is my system specs:<br />-Pentium 4 with Hyperthreading enabled.<br />-2 GB of Ram.<br />-Overclocked ATi Radeon 9550. (used to be 256 mb of vram without overclocking)<br /><br />It is a desktop, and can run Pro evolution soccer 2010 smoothly <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /> But I don't play it.<br /><br />Best,<br />Mahmoud", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4689, "date": "August 09, 2011, 04:05:31 PM", "body": "Yep.&nbsp; I downloaded the 4+GB SlackWare 64bit iso and used a temporary install of Knoppix to burn it to a DVD.&nbsp; Then I repartitioned the drive, using GParted, and ran the setup from the newly burned iso.<br /><br />I'm currently looking for some quick tutorials to make the transition from the MSWorld easier.<br /><br />I know that the writing of code is not that demanding, but the code that I write tends to be very much so - not that it's inefficient - quite the contrary - but a lot of it is heavy on real-time computation.&nbsp; I'm always bumping up against the limits of the hardware and spend a lot of time and effort finding faster ways to do things, all the while maintaining the highest quality standards.<br /><br />That's why I want to go 64bit.&nbsp; Working with large tables of data and performing dsp ops on them is something that the 64bit instruction and register set is excellent at.&nbsp; I got this computer on the cheap, but I got what I paid for.&nbsp; A Celeron tends to come hobbled.&nbsp; I'm wondering if I can upgrade the CPU.&nbsp; I'll make due for now.<br /><br />One reason that I needed NASM is that I can't add to the higher level languages in the MSWorld.&nbsp; I tried their inline assembler and it sucked.<br /><br />In the Linux environment, with this assembler and various languages and compilers, I can really work without proprietary limits.&nbsp; I'll be free.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; I can make my own tools.&nbsp; I can make an OS.&nbsp; I can make a language.&nbsp; I can make a file system - or whatever.&nbsp; It's my secret laboratory.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />Your PC's not bad at all.<br /><br />I am a gamer, but I have another computer for that.&nbsp; It's fast, but it's not portable.&nbsp; I play Fallout 3, Fallout Vegas and Oblivion on it.&nbsp; Skyrim's coming out soon.&nbsp; I can't wait for that.<br /><br />Wow.&nbsp; I'm really rambling.&nbsp; hehe.&nbsp; Peace.", "signature": "", "edited": "&#171; <em>Last Edit: August 09, 2011, 04:08:45 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4690, "date": "August 09, 2011, 04:36:52 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4689#msg4689\">Quote from: Eccentro on August 09, 2011, 04:05:31 PM</a></div></div><blockquote class=\"bbc_standard_quote\">I got this computer on the cheap, but I got what I paid for.&nbsp; A Celeron tends to come hobbled.&nbsp; I'm wondering if I can upgrade the CPU.&nbsp; I'll make due for now.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />If you're trying to do computation-heavy operations on a celeron there's a bridge in san francisco I want to sell you&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4689#msg4689\">Quote from: Eccentro on August 09, 2011, 04:05:31 PM</a></div></div><blockquote class=\"bbc_standard_quote\">One reason that I needed NASM is that I can't add to the higher level languages in the MSWorld.&nbsp; I tried their inline assembler and it sucked.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Forget inline assembly for x64 using VisualStudio.&nbsp; MS killed that idea years ago.<br />&nbsp; <br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4689#msg4689\">Quote from: Eccentro on August 09, 2011, 04:05:31 PM</a></div></div><blockquote class=\"bbc_standard_quote\">In the Linux environment, with this assembler and various languages and compilers, I can really work without proprietary limits.&nbsp; I'll be free.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; I can make my own tools.&nbsp; I can make an OS.&nbsp; I can make a language.&nbsp; I can make a file system - or whatever.&nbsp; It's my secret laboratory.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Take all those excellent ideas and apply that energy to any one ( or more ) of the current open source projects that could probably benefit from having you on board.<br /><br />As for Linux distros, I'm fond of Fedora.&nbsp; I even like the striped down look of Gnome 3.<br />I've been playing around with Scientific Linux ( a distro of RedHat's Enterprise Linux ) lately.<br /><br />Oh, and welcome to our little family, sounds like you'll be here a while&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br />", "signature": "", "edited": "", "attachments": [], "user": "Rob Neff", "userid": 351, "avatar": "https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;action=dlattach;attach=38;type=avatar", "userinfo": [{"key": "membergroup", "value": "Forum Moderator"}, {"key": "postgroup", "value": "Full Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 429"}, {"key": "gender", "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4691, "date": "August 09, 2011, 05:09:06 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4690#msg4690\">Quote from: Rob Neff on August 09, 2011, 04:36:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\"><br />Forget inline assembly for x64 using VisualStudio.&nbsp; MS killed that idea years ago.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />MingW and all GCC compilers have the __asm(const char*) command, DJGPP uses AMD Syntax. Mingw uses Intel Syntax I think. And GCC Compilers are free and compatible with Linux!&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4690#msg4690\">Quote from: Rob Neff on August 09, 2011, 04:36:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Oh, and welcome to our little family, sounds like you'll be here a while&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yup, welcome Eccentro, we have the greatest family, right, brother Rob?<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span>", "signature": "", "edited": "&#171; <em>Last Edit: August 21, 2011, 09:33:56 PM by Keith Kanios</em> &#187;", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4692, "date": "August 09, 2011, 06:05:43 PM", "body": "Rob Neff,<br /><br />&nbsp; Actually, I was working in the 32bit domain when I was using that inline assembler and yes, that was years ago.&nbsp; I'm still using VB6 32bit.&nbsp; Why?&nbsp; Because it still works.&nbsp; hehe.&nbsp; I'm switching to 64bit at the same time that I'm switching to Linux.<br /><br />&nbsp; I'll need to get a feel for things first, but then I'll be happy to contribute.&nbsp; I've been working on a suite of apps for music and am leaning toward the idea of a Linux only release.&nbsp; I need to see what audio services are provided by the kernel, but if I can, I probably will.&nbsp; I'm currently working with DirectX on that.<br /><br />MJaoune,<br /><br />&nbsp; I hope to get familiar with those tools, but I came up via Dos, Basic, QBasic, Windows and VB route.&nbsp; It's like growing up in a different country.&nbsp; I'll assimilate.&nbsp; hehe.<br /><br />Thank you both for the warm welcome.&nbsp; That's something Microsoft never gave me.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />", "signature": "", "edited": "&#171; <em>Last Edit: August 10, 2011, 03:40:44 AM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4693, "date": "August 09, 2011, 06:27:45 PM", "body": "That reminds me.&nbsp; I was wondering if anyone has made an app that can convert the source code over from a MS VS project (VB or VC++) to something convenient in the Linux dimension.<br /><br />I'll eventually be able to do it by hand, but I wrote a lot of code.&nbsp; It'll be a big job.&nbsp; Maybe there's a short cut.&nbsp; Besides, comparing the before and after would be a quick way to learn the conventions.", "signature": "", "edited": "", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4694, "date": "August 09, 2011, 06:59:35 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">That reminds me.&nbsp; I was wondering if anyone has made an app that can convert the source code over from a MS VS project (VB or VC++) to something convenient in the Linux dimension.</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />umm... Last time I checked, I didn't find a software that does this type of convertion, C++ is C++ and C is C, so you don't have to change the code, since all C and C++ compilers use the same syntax, you may only have to order and modify the VS files that&nbsp; were created when the project was created, and you can also modify the makefiles if there were any. <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /><br /><br />Best,<br />MJaoune<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span>", "signature": "", "edited": "&#171; <em>Last Edit: August 21, 2011, 09:33:13 PM by Keith Kanios</em> &#187;", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4695, "date": "August 09, 2011, 07:44:18 PM", "body": "Yeah, the functions/modules will be that way, but I'm sure there will be differences between COM and whatever form of OOP is used in the Linux domain.&nbsp; There are the API functions which will have to be replaced.&nbsp; The more I think about it, the more I realize that I'll probably have to do a lot of it by hand.&nbsp; It's ok.&nbsp; I'm overhauling it all anyway.", "signature": "", "edited": "", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4699, "date": "August 09, 2011, 09:23:31 PM", "body": "For a temporary test you can try running your win32 apps in <a href=\"http://www.winehq.org/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Wine</a>.<br />Trying to convert apps from Win32 to Linux is not the way to go.<br />Very little code will port from Windows to native Linux.<br />I too used to use VisualStudio products up to and including VS2005 with inlined assembly.<br />That is until I ran into the x64 issues, the horrible mess that masm is, and my newfound love affair with Nasm began.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br />", "signature": "", "edited": "", "attachments": [], "user": "Rob Neff", "userid": 351, "avatar": "https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;action=dlattach;attach=38;type=avatar", "userinfo": [{"key": "membergroup", "value": "Forum Moderator"}, {"key": "postgroup", "value": "Full Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 429"}, {"key": "gender", "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4702, "date": "August 09, 2011, 11:57:58 PM", "body": "I would recommend you to use WXWidgets to create your next projects, since it is compatible with all Operating Systems, and it also have better functions, and the best documentation, but YMMV.<br /><br />Best,<br />MJaoune", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4708, "date": "August 10, 2011, 05:34:13 AM", "body": "Wine: I'll learn what I can from it.&nbsp; Ultimately, the more code that is under my direct creative control, the better anyway.<br /><br />WXWidgets:&nbsp; I'm checking it out.&nbsp; It looks pretty handy.<br /><br />Is there something like DirectX for Linux that I should work with in to order to make my apps cooperate with other apps that use audio buffer IO and plug-in capabilities?&nbsp; Oh, maybe there's a VST for Linux.&nbsp; I'll look for that now.", "signature": "", "edited": "&#171; <em>Last Edit: August 10, 2011, 06:16:36 AM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4709, "date": "August 10, 2011, 06:47:03 AM", "body": "OpenGL/OpenAL is probably about the closest thing to DX on Linux. If you're going to be using OOP heavy wrappers like wxWidgets, you might also want to look into the Ogre framework which provides a platform independent wrapper to OpenGL/OpenAL/DirectX/etc.", "signature": "<div align=\"center\"><img src=\"http://www.asmcommunity.net/~bkeller/BKellerSig.jpg\" alt=\"\" class=\"bbc_img\" /><br /><a href=\"http://about.me/bkeller\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">About Bryant Keller</a><br />bkeller@about.me</div>", "edited": "", "attachments": [], "user": "Bryant Keller", "userid": 2, "avatar": "https://forum.nasm.us/index.php?action=dlattach;attach=33;type=avatar", "userinfo": [{"key": "membergroup", "value": "Forum Moderator"}, {"key": "postgroup", "value": "Full Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 360"}, {"key": "gender", "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"}, {"key": "profile", "value": "<ul><li><a href=\"http://about.me/bkeller\" title=\"About Bryant Keller\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"new_win\"><img src=\"https://forum.nasm.us/Themes/default/images/www_sm.gif\" alt=\"About Bryant Keller\" /></a></li></ul>"}]}, {"postid": 4710, "date": "August 10, 2011, 08:06:36 AM", "body": "Sweet.&nbsp; My search for this kind of info had me banging up against broken links and misdirection for the last hour.&nbsp; I knew about OpenGL, but not about OpenAL.<br /><br />I've got some ideas for standards that might find a home in the Linux audio niche, but I should see what's already happening to avoid stepping on toes.<br /><br />Over on the Windows side, I stripped my main app forms down to the minimum and created my own light weight consolidated control system for them.&nbsp; It uses a lot less memory and greatly reduces the number of objects and messages that need to be managed.&nbsp; It's actually pretty sweet.&nbsp; Perhaps I can continue in that mode with Ogre - or maybe I should work directly with OpenGL.&nbsp; I'll look at the pros and cons.<br /><br />Thanks for the tips.", "signature": "", "edited": "&#171; <em>Last Edit: August 10, 2011, 08:09:29 AM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4711, "date": "August 10, 2011, 08:44:32 AM", "body": "OpenAL looks very similar to one of the many projects that I have half done.&nbsp; I probably shouldn't&nbsp; describe it in a public forum.&nbsp; There are sufficient differences to make mine worth finishing.&nbsp; My dev history is documented, so there's no intellectual property issue.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" />", "signature": "", "edited": "", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4713, "date": "August 10, 2011, 12:49:01 PM", "body": "I use OpenGL on both, Windows, and Linux, so OpenGL is not for linux only, it is for all Operating Systems.<br /><br />Best,<br />MJaoune<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span>", "signature": "", "edited": "&#171; <em>Last Edit: August 21, 2011, 09:32:42 PM by Keith Kanios</em> &#187;", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4714, "date": "August 10, 2011, 01:28:08 PM", "body": "Yep.&nbsp; I bought a really big book a few years back.&nbsp; I think it was called the OpenGL Bible.&nbsp; I&#039;ve intended to get into it.&nbsp; I&#039;ve always liked the idea of OpenGL.<br /><br />I see in some docs, though, that, in order to draw a window, code still needs to access the API.&nbsp; It then paints on it using OpenGL functions.&nbsp; I want to incorporate my consolidated control system into my windows.<br /><br />Anyway, I&#039;m reading this:&nbsp; <a href=\"http://www.aboutdebian.com/linux.htm\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.aboutdebian.com/linux.htm</a><br /><br />It makes me think that maybe I should gather up all of my audio ideas and bring them together to form a new shell, dedicated to the tasks that my applications facilitate.&nbsp; The shell could support other people&#039;s software.&nbsp; I would document the shell&#039;s systems, standards and libraries in an SDK.<br /><br />What do you think of that idea?&nbsp; It would be an audio production shell for Linux.&nbsp; It could be expanded for video production and gaming.&nbsp; Then, in the future, when I&#039;m producing video games and cognitive models, I could target them to run under this shell.<br /><br />Is this a good direction to go in?&nbsp; Why or why not?&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" />", "signature": "", "edited": "&#171; <em>Last Edit: August 10, 2011, 01:30:55 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4715, "date": "August 10, 2011, 02:14:52 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4714#msg4714\">Quote from: Eccentro on August 10, 2011, 01:28:08 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Yep.&nbsp; I bought a really big book a few years back.&nbsp; I think it was called the OpenGL Bible.&nbsp; I've intended to get into it.&nbsp; I've always liked the idea of OpenGL.<br /><br />I see in some docs, though, that, in order to draw a window, code still needs to access the API.&nbsp; It then paints on it using OpenGL functions.&nbsp; I want to incorporate my consolidated control system into my windows.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />You can draw a window using WXWidgets, and you can control input using WXwidgets or <a href=\"http://www.sfml-dev.org/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">SFML</a>.<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4714#msg4714\">Quote from: Eccentro on August 10, 2011, 01:28:08 PM</a></div></div><blockquote class=\"bbc_standard_quote\">It makes me think that maybe I should gather up all of my audio ideas and bring them together to form a new shell, dedicated to the tasks that my applications facilitate.&nbsp; The shell could support other people's software.&nbsp; I would document the shell's systems, standards and libraries in an SDK.<br /><br />Is this a good direction to go in?&nbsp; Why or why not?&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I don't know, you can ask Cyrill about that, he is experienced in Linux, but I think you need an extra hand(s) for this idea. If you want a reference, you can always take a look at Linux's source codes.<br /><br />Best,<br />MJaoune", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4716, "date": "August 10, 2011, 02:22:51 PM", "body": "Thanks.&nbsp; I'm in brainstorming mode and am receptive to input.<br /><br />BTW:&nbsp; How does one make a living at this?&nbsp; It would be nice to buy a better computer and a few cases of Ramen.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" />", "signature": "", "edited": "&#171; <em>Last Edit: August 10, 2011, 02:28:16 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4717, "date": "August 10, 2011, 02:35:58 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4716#msg4716\">Quote from: Eccentro on August 10, 2011, 02:22:51 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Thanks.&nbsp; I'm in brainstorming mode and am receptive to input.<br /><br />BTW:&nbsp; How does one make a living at this?&nbsp; It would be nice to buy a better computer and a few cases of Ramen.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Is your computer that bad? Can you give me your system Specs? And ofcourse, ramen is always important <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /><br /><br />Best,<br />MJaoune", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4718, "date": "August 10, 2011, 02:41:58 PM", "body": "No.&nbsp; It's not that bad.&nbsp; I just like the idea of using those 64bit functions that are probably disabled on this one.&nbsp; You know, the batch instructions targeted at dsp.&nbsp; I think I'll find that they don't work.&nbsp; I could be wrong though.<br /><br />I'm like Tim Taylor.&nbsp; I always want more power.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />It's actually good to have limits, though.&nbsp; I don't want to write code that nobody else can run.<br /><br />I would love to turn this into a gig that produces a modest income.&nbsp; I need to get a bit of sleep. cu<br />", "signature": "", "edited": "&#171; <em>Last Edit: August 10, 2011, 02:45:31 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4719, "date": "August 10, 2011, 02:52:33 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4718#msg4718\">Quote from: Eccentro on August 10, 2011, 02:41:58 PM</a></div></div><blockquote class=\"bbc_standard_quote\">No.&nbsp; It's not that bad.&nbsp; I just like the idea of using those 64bit functions that are probably disabled on this one.&nbsp; You know, the batch instructions targeted at dsp.&nbsp; I think I'll find that they don't work.&nbsp; I could be wrong though.<br /><br />I'm like Tim Taylor.&nbsp; I always want more power.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />It's actually good to have limits, though.&nbsp; I don't want to write code that nobody else can run.<br /><br />I would love to turn this into a gig that produces a modest income.&nbsp; I need to get a bit of sleep. cu<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />You can write a code for many systems on your own single computer, and ask someone to test it, like if you don't have a x86(32) computer you can ask someone that has this type of a computer to test it for you.<br /><br />Good Night <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" />,<br />MJaoune", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4747, "date": "August 14, 2011, 10:01:38 AM", "body": "I've decided on a first program to write with NASM.<br /><br />Back in 1995, I came up with a method to validate the accuracy of a given sine function with absolute precision out to n bits.&nbsp; The test works perfectly, but I haven't yet been able to figure out how to modify it to generate perfect sine values, from scratch, in a timely manner.&nbsp; I do hope to nail that one soon.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />I'll recreate the validation algorithm as a function that takes q (quadrant 0-3) and n (bits) as arguments and returns a true or false result to indicate whether or not the sine function is accurate out to n bits for the quadrant being tested.<br /><br />If I build that shell we talked about, then I'll include this code in there somewhere.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br />", "signature": "", "edited": "&#171; <em>Last Edit: August 14, 2011, 02:05:16 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4760, "date": "August 16, 2011, 01:18:45 AM", "body": "Good luck <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /> And if you need any help or support, NASM Forum is always ready <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /><br />Best,<br />Mahmoud", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4774, "date": "August 16, 2011, 08:02:48 AM", "body": "Thanks.&nbsp; I'm sure that I will and that any such help will be acknowledged with a special thanks in the shell &quot;credits.&quot;<br /><br />I've been familiarizing myself with gcc on Slackware and tonight, I'll install NASM from the command line.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; &lt;-- grasshopper<br /><br />BTW:&nbsp; Get the champagne ready.&nbsp; I think I just solved the old sine problem in way that makes it a very useful algorithm.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /> &lt;--&nbsp; I'm soooo stoked right now.", "signature": "", "edited": "&#171; <em>Last Edit: August 16, 2011, 09:14:42 AM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4775, "date": "August 16, 2011, 10:56:10 AM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4774#msg4774\">Quote from: Eccentro on August 16, 2011, 08:02:48 AM</a></div></div><blockquote class=\"bbc_standard_quote\">Thanks.&nbsp; I'm sure that I will and that any such help will be acknowledged with a special thanks in the shell &quot;credits.&quot;<br /><br />I've been familiarizing myself with gcc on Slackware and tonight, I'll install NASM from the command line.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; &lt;-- grasshopper<br /><br />BTW:&nbsp; Get the champagne ready.&nbsp; I think I just solved the old sine problem in way that makes it a very useful algorithm.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /> &lt;--&nbsp; I'm soooo stoked right now.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I have never drank such things and never will <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" />. Anyway, it seems like you like Slackware? When you think you are ready, give it a go <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /> ! It is not bad to use more than one programming language, since this will make it more portable.<br /><br />Best,<br />MJaoune", "signature": "", "edited": "", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4780, "date": "August 16, 2011, 02:08:52 PM", "body": "Champagne's not for me either.&nbsp; That was just allegorical.&nbsp; I am super close to the solution, though. <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />And, yeppers - I will definitely end up using a combination of languages and tools.&nbsp; I'm grateful for those threads illustrating how to use C and NASM together.", "signature": "", "edited": "&#171; <em>Last Edit: August 16, 2011, 02:37:43 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4782, "date": "August 16, 2011, 05:11:07 PM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4780#msg4780\">Quote from: Eccentro on August 16, 2011, 02:08:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Champagne's not for me either.&nbsp; That was just allegorical.&nbsp; I am super close to the solution, though. <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />LOL! <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4780#msg4780\">Quote from: Eccentro on August 16, 2011, 02:08:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\">And, yeppers - I will definitely end up using a combination of languages and tools.&nbsp; I'm grateful for those threads illustrating how to use C and NASM together.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes I agree with you, if you want more information, you can get PCASM pdf book at <a href=\"http://www.drpaulcarter.com/pcasm/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.drpaulcarter.com/pcasm/</a> which was created by a Doctor who studied computer science, he included NASM as the main assembler in this book.<br /><br /><br />Just a quick note for your compilation:<br />-DJGPP is for compiling and linking to create a DOS file.<br />-MingW is for compiling and linking to create Windows Executables (.exe)<br />-Cygwin is like MingW<br />-Linux GCC is for compiling and linking to create a Linux file.<br /><br />Just to help you in compiling.<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span><br />", "signature": "", "edited": "&#171; <em>Last Edit: August 21, 2011, 09:31:28 PM by Keith Kanios</em> &#187;", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4784, "date": "August 16, 2011, 07:29:38 PM", "body": "That all looks like good advice.&nbsp; Thanks.<br /><br />When you say don't use MS, do you mean don't publish a product made with a MS product or do you mean don't even agree to the EULA?<br /><br />I just downloaded PCASM.&nbsp; I'll check it out tonight.&nbsp; Thanks again.", "signature": "", "edited": "&#171; <em>Last Edit: August 16, 2011, 07:38:15 PM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4787, "date": "August 16, 2011, 08:38:04 PM", "body": "The &quot;don't use MS&quot; is merely Mahmoud's opinion. I happen to agree with him, but it's just a &quot;matter of opinion&quot;. Some people apparently think that their compilers are &quot;better&quot;.<br /><br />If you're planning to &quot;publish a product&quot;, the EULA may be relevant. I understand they're not all the same. Some of 'em allow using tools for &quot;drivers and apps for Windows, among other things&quot; Some, with the &quot;free&quot; versions, leave out the &quot;among other things&quot; and are legal &quot;for Windows&quot; only... so I understand.<br /><br />I am not a lawyer and this is not legal advice. If it's an issue for you, check it out yourself! &quot;Don't use MS&quot; is not a &quot;rule&quot; with Nasm or this forum, it's merely a suggestion - a pretty good one, IMO. YMMV.<br /><br />Best,<br />Frank<br /><br />", "signature": "", "edited": "", "attachments": [], "user": "Frank Kotler", "userid": 3, "avatar": "", "userinfo": [{"key": "membergroup", "value": "NASM Developer"}, {"key": "postgroup", "value": "Hero Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 2667"}, {"key": "gender", "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4794, "date": "August 17, 2011, 05:25:35 AM", "body": "I hear ya.&nbsp; Thanks.", "signature": "", "edited": "&#171; <em>Last Edit: August 17, 2011, 11:18:19 AM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4801, "date": "August 18, 2011, 12:47:58 AM", "body": "When I'm programming on a windows system, I like Pelles C. It's a really good C compiler (no C++ support) that has an awesome development environment and really nice back-end assembler. It's also a really good substitute for Windows Mobile Device programming if you don't want to use MSVC.<br />", "signature": "<div align=\"center\"><img src=\"http://www.asmcommunity.net/~bkeller/BKellerSig.jpg\" alt=\"\" class=\"bbc_img\" /><br /><a href=\"http://about.me/bkeller\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">About Bryant Keller</a><br />bkeller@about.me</div>", "edited": "", "attachments": [], "user": "Bryant Keller", "userid": 2, "avatar": "https://forum.nasm.us/index.php?action=dlattach;attach=33;type=avatar", "userinfo": [{"key": "membergroup", "value": "Forum Moderator"}, {"key": "postgroup", "value": "Full Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 360"}, {"key": "gender", "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"}, {"key": "profile", "value": "<ul><li><a href=\"http://about.me/bkeller\" title=\"About Bryant Keller\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"new_win\"><img src=\"https://forum.nasm.us/Themes/default/images/www_sm.gif\" alt=\"About Bryant Keller\" /></a></li></ul>"}]}, {"postid": 4802, "date": "August 18, 2011, 01:25:41 AM", "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4801#msg4801\">Quote from: Bryant Keller on August 18, 2011, 12:47:58 AM</a></div></div><blockquote class=\"bbc_standard_quote\">When I'm programming on a windows system, I like Pelles C. It's a really good C compiler (no C++ support) that has an awesome development environment and really nice back-end assembler. It's also a really good substitute for Windows Mobile Device programming if you don't want to use MSVC.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes, I agree with Bryant on this one. Pelles C is a great IDE and compiler, I used it to create The Netwide Linker for Windows (But on Linux I used a normal Text Editor (VIM and EMACS) and GCC Linux compiler). But I think that some C++ libraries work with Pelle's C (Last time I tried), but ofcourse iostream might not work.<br /><br />Best,<br />Mahmoud<br /><br /><span style=\"font-size: 10pt;\" class=\"bbc_size\"><em>Edit: Link to The Netwide Linker removed due to licensing issues.</em></span>", "signature": "", "edited": "&#171; <em>Last Edit: August 21, 2011, 06:45:10 PM by Keith Kanios</em> &#187;", "attachments": [], "user": "MJaoune", "userid": 1509, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 94"}, {"key": "profile", "value": "<ul></ul>"}]}, {"postid": 4803, "date": "August 18, 2011, 03:33:16 AM", "body": "&nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /> Pelles C Thanks.&nbsp; I just downloaded both the 32b and the 64b versions.&nbsp; It's nice to have tools.", "signature": "", "edited": "&#171; <em>Last Edit: August 18, 2011, 04:13:36 AM by Eccentro</em> &#187;", "attachments": [], "user": "Eccentro", "userid": 3834, "avatar": "", "userinfo": [{"key": "postgroup", "value": "Jr. Member"}, {"key": "stars", "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"}, {"key": "postcount", "value": "Posts: 25"}, {"key": "profile", "value": "<ul></ul>"}]}]}
+{
+  "format_version": "smf-2-thread",
+  "url": "https://forum.nasm.us/index.php?topic=1203.0",
+  "id": 1203,
+  "title": "What flavor of Linux do you recommend for 64 bit coding? ",
+  "viewed": 37949,
+  "path": [
+    "NASM - The Netwide Assembler",
+    "NASM Forum",
+    "Using NASM"
+  ],
+  "posts": [
+    {
+      "postid": 4670,
+      "date": "August 08, 2011, 05:57:10 PM",
+      "body": "I'm trying to use the 64 bit beta of Gnome 3 / OpenSUSE, but it's giving my 585 a lot of trouble - especially with the date and time.&nbsp; I had some kind of a file system error this morning - twice - while trying to get the clock set correctly.&nbsp; It's just not ready for prime time yet.&nbsp; I'm sure it will all be worked out by the anticipated release date - next month.<br /><br />What's your preference?",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4671,
+      "date": "August 08, 2011, 06:55:02 PM",
+      "body": "By &quot;flavor&quot; you mean distro, right? Actually it doesn't differ, you can use any distro to assemble and link, even on a 64 bit system(for coding also). I use Fedora, with GNOME 3, <strong>Frank Kotler,</strong> he is a command-line man, so he uses Slackware Linux, so he doesn't have a GUI, unlike us noobs <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /> and he likes using Slackware (I think <img src=\"http://forum.nasm.us/Smileys/default/huh.gif\" alt=\"???\" title=\"Huh\" class=\"smiley\" />)<br /><br />Choose the one you feel comfortable with, but keep an eye on if it updates recently or not, since it is recommended to use the latest GCC with its Linker ld, the distro should update gcc frequently.<br /><br />Best,<br />Mahmoud",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4672,
+      "date": "August 08, 2011, 07:28:07 PM",
+      "body": "Thanks.&nbsp; I have the Gnome 3 / Fedora release, too.&nbsp; You're not having any trouble with it?<br /><br />I'll try the Slackware, too.&nbsp; I started out as a DOS man, so that would be almost full circle.&nbsp; hehe.<br /><br />I definitely want to write pure 64 bit code.&nbsp; I'm all about that right now.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />Addendum:&nbsp; I'm downloading the slackware64-13.37 iso presently.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 08, 2011, 08:08:33 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4676,
+      "date": "August 09, 2011, 02:28:22 AM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4672#msg4672\">Quote from: Eccentro on August 08, 2011, 07:28:07 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Thanks.&nbsp; I have the Gnome 3 / Fedora release, too.&nbsp; You're not having any trouble with it?<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No, not any trouble <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4672#msg4672\">Quote from: Eccentro on August 08, 2011, 07:28:07 PM</a></div></div><blockquote class=\"bbc_standard_quote\">I'll try the Slackware, too.&nbsp; I started out as a DOS man, so that would be almost full circle.&nbsp; hehe.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Good for you&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /> And it is always positive to try something new <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4672#msg4672\">Quote from: Eccentro on August 08, 2011, 07:28:07 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Addendum:&nbsp; I'm downloading the slackware64-13.37 iso presently.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />You may know that, but... be sure you have a 64 bit system for Slackware 64 to work, and please notice that the system type doesn't differ in programming, the code only differs if you are coding in 64 bit assembly, so you can compile a 64 bit code on a 32 bit Operating System, but ofcourse you can't execute the output.<br /><br />I know that you knew that, but just in case you didn't, a human can make mistakes <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /><br /><br />Slackware's size is large <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /> But it worth it <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /><br />Command-Line = x10 times faster than any GUI system, if not more than 10 times...<br /><br />Best,<br />Mahmoud",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 09, 2011, 02:30:11 AM by MJaoune</em> &#187;",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4680,
+      "date": "August 09, 2011, 05:57:03 AM",
+      "body": "Yeah - I knew that.&nbsp; hehe.&nbsp; Although you bring up a good point.&nbsp; I could write the code on one of my other machines and test it on my Intel 585.<br /><br />Someday, I'll get a faster computer than this Celeron, but, as you said, command-line operation is much faster than GUI and speed is good.&nbsp; Especially in my field of interest, which is cognitive modeling.<br /><br />I've got a lot of back burners going, so getting things done is becoming a priority.&nbsp; hehe.<br /><br />Thanks again for the help.",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4684,
+      "date": "August 09, 2011, 02:30:53 PM",
+      "body": "I'm stoked about the SlackWare.&nbsp; I'm running the install now and I see that the iso came complete with the tools I'll need.&nbsp; I can just add NASM go to it.<br /><br />Good recommendation!&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" />",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4687,
+      "date": "August 09, 2011, 03:30:28 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4684#msg4684\">Quote from: Eccentro on August 09, 2011, 02:30:53 PM</a></div></div><blockquote class=\"bbc_standard_quote\">I'm stoked about the SlackWare.&nbsp; I'm running the install now and I see that the iso came complete with the tools I'll need.&nbsp; I can just add NASM go to it.<br /><br />Good recommendation!&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Nice <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /> But which Software Set have you downloaded?? or did you download the whole 4 GB Image!? I just want to know, since it works good for you. And actually Frank recommended Slackware for me <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4684#msg4684\">Quote from: Eccentro on August 09, 2011, 02:30:53 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Someday, I'll get a faster computer than this Celeron, but, as you said, command-line operation is much faster than GUI and speed is good.&nbsp; Especially in my field of interest, which is cognitive modeling.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />If you use your computer for programming only, and no gaming, then you don't have to buy a fast PC.<br /><br />I use my computer for programming only, no gaming and here is my system specs:<br />-Pentium 4 with Hyperthreading enabled.<br />-2 GB of Ram.<br />-Overclocked ATi Radeon 9550. (used to be 256 mb of vram without overclocking)<br /><br />It is a desktop, and can run Pro evolution soccer 2010 smoothly <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /> But I don't play it.<br /><br />Best,<br />Mahmoud",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4689,
+      "date": "August 09, 2011, 04:05:31 PM",
+      "body": "Yep.&nbsp; I downloaded the 4+GB SlackWare 64bit iso and used a temporary install of Knoppix to burn it to a DVD.&nbsp; Then I repartitioned the drive, using GParted, and ran the setup from the newly burned iso.<br /><br />I'm currently looking for some quick tutorials to make the transition from the MSWorld easier.<br /><br />I know that the writing of code is not that demanding, but the code that I write tends to be very much so - not that it's inefficient - quite the contrary - but a lot of it is heavy on real-time computation.&nbsp; I'm always bumping up against the limits of the hardware and spend a lot of time and effort finding faster ways to do things, all the while maintaining the highest quality standards.<br /><br />That's why I want to go 64bit.&nbsp; Working with large tables of data and performing dsp ops on them is something that the 64bit instruction and register set is excellent at.&nbsp; I got this computer on the cheap, but I got what I paid for.&nbsp; A Celeron tends to come hobbled.&nbsp; I'm wondering if I can upgrade the CPU.&nbsp; I'll make due for now.<br /><br />One reason that I needed NASM is that I can't add to the higher level languages in the MSWorld.&nbsp; I tried their inline assembler and it sucked.<br /><br />In the Linux environment, with this assembler and various languages and compilers, I can really work without proprietary limits.&nbsp; I'll be free.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; I can make my own tools.&nbsp; I can make an OS.&nbsp; I can make a language.&nbsp; I can make a file system - or whatever.&nbsp; It's my secret laboratory.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />Your PC's not bad at all.<br /><br />I am a gamer, but I have another computer for that.&nbsp; It's fast, but it's not portable.&nbsp; I play Fallout 3, Fallout Vegas and Oblivion on it.&nbsp; Skyrim's coming out soon.&nbsp; I can't wait for that.<br /><br />Wow.&nbsp; I'm really rambling.&nbsp; hehe.&nbsp; Peace.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 09, 2011, 04:08:45 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4690,
+      "date": "August 09, 2011, 04:36:52 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4689#msg4689\">Quote from: Eccentro on August 09, 2011, 04:05:31 PM</a></div></div><blockquote class=\"bbc_standard_quote\">I got this computer on the cheap, but I got what I paid for.&nbsp; A Celeron tends to come hobbled.&nbsp; I'm wondering if I can upgrade the CPU.&nbsp; I'll make due for now.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />If you're trying to do computation-heavy operations on a celeron there's a bridge in san francisco I want to sell you&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4689#msg4689\">Quote from: Eccentro on August 09, 2011, 04:05:31 PM</a></div></div><blockquote class=\"bbc_standard_quote\">One reason that I needed NASM is that I can't add to the higher level languages in the MSWorld.&nbsp; I tried their inline assembler and it sucked.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Forget inline assembly for x64 using VisualStudio.&nbsp; MS killed that idea years ago.<br />&nbsp; <br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4689#msg4689\">Quote from: Eccentro on August 09, 2011, 04:05:31 PM</a></div></div><blockquote class=\"bbc_standard_quote\">In the Linux environment, with this assembler and various languages and compilers, I can really work without proprietary limits.&nbsp; I'll be free.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; I can make my own tools.&nbsp; I can make an OS.&nbsp; I can make a language.&nbsp; I can make a file system - or whatever.&nbsp; It's my secret laboratory.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Take all those excellent ideas and apply that energy to any one ( or more ) of the current open source projects that could probably benefit from having you on board.<br /><br />As for Linux distros, I'm fond of Fedora.&nbsp; I even like the striped down look of Gnome 3.<br />I've been playing around with Scientific Linux ( a distro of RedHat's Enterprise Linux ) lately.<br /><br />Oh, and welcome to our little family, sounds like you'll be here a while&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br />",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Rob Neff",
+      "userid": 351,
+      "avatar": "https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;action=dlattach;attach=38;type=avatar",
+      "userinfo": [
+        {
+          "key": "membergroup",
+          "value": "Forum Moderator"
+        },
+        {
+          "key": "postgroup",
+          "value": "Full Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 429"
+        },
+        {
+          "key": "gender",
+          "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4691,
+      "date": "August 09, 2011, 05:09:06 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4690#msg4690\">Quote from: Rob Neff on August 09, 2011, 04:36:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\"><br />Forget inline assembly for x64 using VisualStudio.&nbsp; MS killed that idea years ago.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />MingW and all GCC compilers have the __asm(const char*) command, DJGPP uses AMD Syntax. Mingw uses Intel Syntax I think. And GCC Compilers are free and compatible with Linux!&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;topic=1203.msg4690#msg4690\">Quote from: Rob Neff on August 09, 2011, 04:36:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Oh, and welcome to our little family, sounds like you'll be here a while&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yup, welcome Eccentro, we have the greatest family, right, brother Rob?<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span>",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 21, 2011, 09:33:56 PM by Keith Kanios</em> &#187;",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4692,
+      "date": "August 09, 2011, 06:05:43 PM",
+      "body": "Rob Neff,<br /><br />&nbsp; Actually, I was working in the 32bit domain when I was using that inline assembler and yes, that was years ago.&nbsp; I'm still using VB6 32bit.&nbsp; Why?&nbsp; Because it still works.&nbsp; hehe.&nbsp; I'm switching to 64bit at the same time that I'm switching to Linux.<br /><br />&nbsp; I'll need to get a feel for things first, but then I'll be happy to contribute.&nbsp; I've been working on a suite of apps for music and am leaning toward the idea of a Linux only release.&nbsp; I need to see what audio services are provided by the kernel, but if I can, I probably will.&nbsp; I'm currently working with DirectX on that.<br /><br />MJaoune,<br /><br />&nbsp; I hope to get familiar with those tools, but I came up via Dos, Basic, QBasic, Windows and VB route.&nbsp; It's like growing up in a different country.&nbsp; I'll assimilate.&nbsp; hehe.<br /><br />Thank you both for the warm welcome.&nbsp; That's something Microsoft never gave me.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 10, 2011, 03:40:44 AM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4693,
+      "date": "August 09, 2011, 06:27:45 PM",
+      "body": "That reminds me.&nbsp; I was wondering if anyone has made an app that can convert the source code over from a MS VS project (VB or VC++) to something convenient in the Linux dimension.<br /><br />I'll eventually be able to do it by hand, but I wrote a lot of code.&nbsp; It'll be a big job.&nbsp; Maybe there's a short cut.&nbsp; Besides, comparing the before and after would be a quick way to learn the conventions.",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4694,
+      "date": "August 09, 2011, 06:59:35 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">That reminds me.&nbsp; I was wondering if anyone has made an app that can convert the source code over from a MS VS project (VB or VC++) to something convenient in the Linux dimension.</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />umm... Last time I checked, I didn't find a software that does this type of convertion, C++ is C++ and C is C, so you don't have to change the code, since all C and C++ compilers use the same syntax, you may only have to order and modify the VS files that&nbsp; were created when the project was created, and you can also modify the makefiles if there were any. <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /><br /><br />Best,<br />MJaoune<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span>",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 21, 2011, 09:33:13 PM by Keith Kanios</em> &#187;",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4695,
+      "date": "August 09, 2011, 07:44:18 PM",
+      "body": "Yeah, the functions/modules will be that way, but I'm sure there will be differences between COM and whatever form of OOP is used in the Linux domain.&nbsp; There are the API functions which will have to be replaced.&nbsp; The more I think about it, the more I realize that I'll probably have to do a lot of it by hand.&nbsp; It's ok.&nbsp; I'm overhauling it all anyway.",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4699,
+      "date": "August 09, 2011, 09:23:31 PM",
+      "body": "For a temporary test you can try running your win32 apps in <a href=\"http://www.winehq.org/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Wine</a>.<br />Trying to convert apps from Win32 to Linux is not the way to go.<br />Very little code will port from Windows to native Linux.<br />I too used to use VisualStudio products up to and including VS2005 with inlined assembly.<br />That is until I ran into the x64 issues, the horrible mess that masm is, and my newfound love affair with Nasm began.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br />",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Rob Neff",
+      "userid": 351,
+      "avatar": "https://forum.nasm.us/index.php?PHPSESSID=nj0jdf8k8ji7dvr5kj0deqj88q&amp;action=dlattach;attach=38;type=avatar",
+      "userinfo": [
+        {
+          "key": "membergroup",
+          "value": "Forum Moderator"
+        },
+        {
+          "key": "postgroup",
+          "value": "Full Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 429"
+        },
+        {
+          "key": "gender",
+          "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4702,
+      "date": "August 09, 2011, 11:57:58 PM",
+      "body": "I would recommend you to use WXWidgets to create your next projects, since it is compatible with all Operating Systems, and it also have better functions, and the best documentation, but YMMV.<br /><br />Best,<br />MJaoune",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4708,
+      "date": "August 10, 2011, 05:34:13 AM",
+      "body": "Wine: I'll learn what I can from it.&nbsp; Ultimately, the more code that is under my direct creative control, the better anyway.<br /><br />WXWidgets:&nbsp; I'm checking it out.&nbsp; It looks pretty handy.<br /><br />Is there something like DirectX for Linux that I should work with in to order to make my apps cooperate with other apps that use audio buffer IO and plug-in capabilities?&nbsp; Oh, maybe there's a VST for Linux.&nbsp; I'll look for that now.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 10, 2011, 06:16:36 AM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4709,
+      "date": "August 10, 2011, 06:47:03 AM",
+      "body": "OpenGL/OpenAL is probably about the closest thing to DX on Linux. If you're going to be using OOP heavy wrappers like wxWidgets, you might also want to look into the Ogre framework which provides a platform independent wrapper to OpenGL/OpenAL/DirectX/etc.",
+      "signature": "<div align=\"center\"><img src=\"http://www.asmcommunity.net/~bkeller/BKellerSig.jpg\" alt=\"\" class=\"bbc_img\" /><br /><a href=\"http://about.me/bkeller\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">About Bryant Keller</a><br />bkeller@about.me</div>",
+      "edited": "",
+      "attachments": [],
+      "user": "Bryant Keller",
+      "userid": 2,
+      "avatar": "https://forum.nasm.us/index.php?action=dlattach;attach=33;type=avatar",
+      "userinfo": [
+        {
+          "key": "membergroup",
+          "value": "Forum Moderator"
+        },
+        {
+          "key": "postgroup",
+          "value": "Full Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 360"
+        },
+        {
+          "key": "gender",
+          "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"
+        },
+        {
+          "key": "profile",
+          "value": "<ul><li><a href=\"http://about.me/bkeller\" title=\"About Bryant Keller\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"new_win\"><img src=\"https://forum.nasm.us/Themes/default/images/www_sm.gif\" alt=\"About Bryant Keller\" /></a></li></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4710,
+      "date": "August 10, 2011, 08:06:36 AM",
+      "body": "Sweet.&nbsp; My search for this kind of info had me banging up against broken links and misdirection for the last hour.&nbsp; I knew about OpenGL, but not about OpenAL.<br /><br />I've got some ideas for standards that might find a home in the Linux audio niche, but I should see what's already happening to avoid stepping on toes.<br /><br />Over on the Windows side, I stripped my main app forms down to the minimum and created my own light weight consolidated control system for them.&nbsp; It uses a lot less memory and greatly reduces the number of objects and messages that need to be managed.&nbsp; It's actually pretty sweet.&nbsp; Perhaps I can continue in that mode with Ogre - or maybe I should work directly with OpenGL.&nbsp; I'll look at the pros and cons.<br /><br />Thanks for the tips.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 10, 2011, 08:09:29 AM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4711,
+      "date": "August 10, 2011, 08:44:32 AM",
+      "body": "OpenAL looks very similar to one of the many projects that I have half done.&nbsp; I probably shouldn't&nbsp; describe it in a public forum.&nbsp; There are sufficient differences to make mine worth finishing.&nbsp; My dev history is documented, so there's no intellectual property issue.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" />",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4713,
+      "date": "August 10, 2011, 12:49:01 PM",
+      "body": "I use OpenGL on both, Windows, and Linux, so OpenGL is not for linux only, it is for all Operating Systems.<br /><br />Best,<br />MJaoune<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span>",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 21, 2011, 09:32:42 PM by Keith Kanios</em> &#187;",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4714,
+      "date": "August 10, 2011, 01:28:08 PM",
+      "body": "Yep.&nbsp; I bought a really big book a few years back.&nbsp; I think it was called the OpenGL Bible.&nbsp; I&#039;ve intended to get into it.&nbsp; I&#039;ve always liked the idea of OpenGL.<br /><br />I see in some docs, though, that, in order to draw a window, code still needs to access the API.&nbsp; It then paints on it using OpenGL functions.&nbsp; I want to incorporate my consolidated control system into my windows.<br /><br />Anyway, I&#039;m reading this:&nbsp; <a href=\"http://www.aboutdebian.com/linux.htm\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.aboutdebian.com/linux.htm</a><br /><br />It makes me think that maybe I should gather up all of my audio ideas and bring them together to form a new shell, dedicated to the tasks that my applications facilitate.&nbsp; The shell could support other people&#039;s software.&nbsp; I would document the shell&#039;s systems, standards and libraries in an SDK.<br /><br />What do you think of that idea?&nbsp; It would be an audio production shell for Linux.&nbsp; It could be expanded for video production and gaming.&nbsp; Then, in the future, when I&#039;m producing video games and cognitive models, I could target them to run under this shell.<br /><br />Is this a good direction to go in?&nbsp; Why or why not?&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" />",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 10, 2011, 01:30:55 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4715,
+      "date": "August 10, 2011, 02:14:52 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4714#msg4714\">Quote from: Eccentro on August 10, 2011, 01:28:08 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Yep.&nbsp; I bought a really big book a few years back.&nbsp; I think it was called the OpenGL Bible.&nbsp; I've intended to get into it.&nbsp; I've always liked the idea of OpenGL.<br /><br />I see in some docs, though, that, in order to draw a window, code still needs to access the API.&nbsp; It then paints on it using OpenGL functions.&nbsp; I want to incorporate my consolidated control system into my windows.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />You can draw a window using WXWidgets, and you can control input using WXwidgets or <a href=\"http://www.sfml-dev.org/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">SFML</a>.<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4714#msg4714\">Quote from: Eccentro on August 10, 2011, 01:28:08 PM</a></div></div><blockquote class=\"bbc_standard_quote\">It makes me think that maybe I should gather up all of my audio ideas and bring them together to form a new shell, dedicated to the tasks that my applications facilitate.&nbsp; The shell could support other people's software.&nbsp; I would document the shell's systems, standards and libraries in an SDK.<br /><br />Is this a good direction to go in?&nbsp; Why or why not?&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I don't know, you can ask Cyrill about that, he is experienced in Linux, but I think you need an extra hand(s) for this idea. If you want a reference, you can always take a look at Linux's source codes.<br /><br />Best,<br />MJaoune",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4716,
+      "date": "August 10, 2011, 02:22:51 PM",
+      "body": "Thanks.&nbsp; I'm in brainstorming mode and am receptive to input.<br /><br />BTW:&nbsp; How does one make a living at this?&nbsp; It would be nice to buy a better computer and a few cases of Ramen.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" />",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 10, 2011, 02:28:16 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4717,
+      "date": "August 10, 2011, 02:35:58 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4716#msg4716\">Quote from: Eccentro on August 10, 2011, 02:22:51 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Thanks.&nbsp; I'm in brainstorming mode and am receptive to input.<br /><br />BTW:&nbsp; How does one make a living at this?&nbsp; It would be nice to buy a better computer and a few cases of Ramen.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Is your computer that bad? Can you give me your system Specs? And ofcourse, ramen is always important <img src=\"http://forum.nasm.us/Smileys/default/tongue.gif\" alt=\"&#58;P\" title=\"Tongue\" class=\"smiley\" /><br /><br />Best,<br />MJaoune",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4718,
+      "date": "August 10, 2011, 02:41:58 PM",
+      "body": "No.&nbsp; It's not that bad.&nbsp; I just like the idea of using those 64bit functions that are probably disabled on this one.&nbsp; You know, the batch instructions targeted at dsp.&nbsp; I think I'll find that they don't work.&nbsp; I could be wrong though.<br /><br />I'm like Tim Taylor.&nbsp; I always want more power.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />It's actually good to have limits, though.&nbsp; I don't want to write code that nobody else can run.<br /><br />I would love to turn this into a gig that produces a modest income.&nbsp; I need to get a bit of sleep. cu<br />",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 10, 2011, 02:45:31 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4719,
+      "date": "August 10, 2011, 02:52:33 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4718#msg4718\">Quote from: Eccentro on August 10, 2011, 02:41:58 PM</a></div></div><blockquote class=\"bbc_standard_quote\">No.&nbsp; It's not that bad.&nbsp; I just like the idea of using those 64bit functions that are probably disabled on this one.&nbsp; You know, the batch instructions targeted at dsp.&nbsp; I think I'll find that they don't work.&nbsp; I could be wrong though.<br /><br />I'm like Tim Taylor.&nbsp; I always want more power.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />It's actually good to have limits, though.&nbsp; I don't want to write code that nobody else can run.<br /><br />I would love to turn this into a gig that produces a modest income.&nbsp; I need to get a bit of sleep. cu<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />You can write a code for many systems on your own single computer, and ask someone to test it, like if you don't have a x86(32) computer you can ask someone that has this type of a computer to test it for you.<br /><br />Good Night <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" />,<br />MJaoune",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4747,
+      "date": "August 14, 2011, 10:01:38 AM",
+      "body": "I've decided on a first program to write with NASM.<br /><br />Back in 1995, I came up with a method to validate the accuracy of a given sine function with absolute precision out to n bits.&nbsp; The test works perfectly, but I haven't yet been able to figure out how to modify it to generate perfect sine values, from scratch, in a timely manner.&nbsp; I do hope to nail that one soon.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />I'll recreate the validation algorithm as a function that takes q (quadrant 0-3) and n (bits) as arguments and returns a true or false result to indicate whether or not the sine function is accurate out to n bits for the quadrant being tested.<br /><br />If I build that shell we talked about, then I'll include this code in there somewhere.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /><br />",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 14, 2011, 02:05:16 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4760,
+      "date": "August 16, 2011, 01:18:45 AM",
+      "body": "Good luck <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" /> And if you need any help or support, NASM Forum is always ready <img src=\"http://forum.nasm.us/Smileys/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" /><br /><br />Best,<br />Mahmoud",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4774,
+      "date": "August 16, 2011, 08:02:48 AM",
+      "body": "Thanks.&nbsp; I'm sure that I will and that any such help will be acknowledged with a special thanks in the shell &quot;credits.&quot;<br /><br />I've been familiarizing myself with gcc on Slackware and tonight, I'll install NASM from the command line.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; &lt;-- grasshopper<br /><br />BTW:&nbsp; Get the champagne ready.&nbsp; I think I just solved the old sine problem in way that makes it a very useful algorithm.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /> &lt;--&nbsp; I'm soooo stoked right now.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 16, 2011, 09:14:42 AM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4775,
+      "date": "August 16, 2011, 10:56:10 AM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4774#msg4774\">Quote from: Eccentro on August 16, 2011, 08:02:48 AM</a></div></div><blockquote class=\"bbc_standard_quote\">Thanks.&nbsp; I'm sure that I will and that any such help will be acknowledged with a special thanks in the shell &quot;credits.&quot;<br /><br />I've been familiarizing myself with gcc on Slackware and tonight, I'll install NASM from the command line.&nbsp; &nbsp;<img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" />&nbsp; &lt;-- grasshopper<br /><br />BTW:&nbsp; Get the champagne ready.&nbsp; I think I just solved the old sine problem in way that makes it a very useful algorithm.&nbsp; <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /> &lt;--&nbsp; I'm soooo stoked right now.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I have never drank such things and never will <img src=\"http://forum.nasm.us/Smileys/default/wink.gif\" alt=\";&#41;\" title=\"Wink\" class=\"smiley\" />. Anyway, it seems like you like Slackware? When you think you are ready, give it a go <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /> ! It is not bad to use more than one programming language, since this will make it more portable.<br /><br />Best,<br />MJaoune",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4780,
+      "date": "August 16, 2011, 02:08:52 PM",
+      "body": "Champagne's not for me either.&nbsp; That was just allegorical.&nbsp; I am super close to the solution, though. <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /><br />And, yeppers - I will definitely end up using a combination of languages and tools.&nbsp; I'm grateful for those threads illustrating how to use C and NASM together.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 16, 2011, 02:37:43 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4782,
+      "date": "August 16, 2011, 05:11:07 PM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4780#msg4780\">Quote from: Eccentro on August 16, 2011, 02:08:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Champagne's not for me either.&nbsp; That was just allegorical.&nbsp; I am super close to the solution, though. <img src=\"http://forum.nasm.us/Smileys/default/grin.gif\" alt=\";D\" title=\"Grin\" class=\"smiley\" /><br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />LOL! <img src=\"http://forum.nasm.us/Smileys/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\" /><br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4780#msg4780\">Quote from: Eccentro on August 16, 2011, 02:08:52 PM</a></div></div><blockquote class=\"bbc_standard_quote\">And, yeppers - I will definitely end up using a combination of languages and tools.&nbsp; I'm grateful for those threads illustrating how to use C and NASM together.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes I agree with you, if you want more information, you can get PCASM pdf book at <a href=\"http://www.drpaulcarter.com/pcasm/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.drpaulcarter.com/pcasm/</a> which was created by a Doctor who studied computer science, he included NASM as the main assembler in this book.<br /><br /><br />Just a quick note for your compilation:<br />-DJGPP is for compiling and linking to create a DOS file.<br />-MingW is for compiling and linking to create Windows Executables (.exe)<br />-Cygwin is like MingW<br />-Linux GCC is for compiling and linking to create a Linux file.<br /><br />Just to help you in compiling.<br /><br /><span style=\"font-size: 8pt;\" class=\"bbc_size\"><em>Edit: Inappropriate content removed by forum moderation.</em></span><br />",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 21, 2011, 09:31:28 PM by Keith Kanios</em> &#187;",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4784,
+      "date": "August 16, 2011, 07:29:38 PM",
+      "body": "That all looks like good advice.&nbsp; Thanks.<br /><br />When you say don't use MS, do you mean don't publish a product made with a MS product or do you mean don't even agree to the EULA?<br /><br />I just downloaded PCASM.&nbsp; I'll check it out tonight.&nbsp; Thanks again.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 16, 2011, 07:38:15 PM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4787,
+      "date": "August 16, 2011, 08:38:04 PM",
+      "body": "The &quot;don't use MS&quot; is merely Mahmoud's opinion. I happen to agree with him, but it's just a &quot;matter of opinion&quot;. Some people apparently think that their compilers are &quot;better&quot;.<br /><br />If you're planning to &quot;publish a product&quot;, the EULA may be relevant. I understand they're not all the same. Some of 'em allow using tools for &quot;drivers and apps for Windows, among other things&quot; Some, with the &quot;free&quot; versions, leave out the &quot;among other things&quot; and are legal &quot;for Windows&quot; only... so I understand.<br /><br />I am not a lawyer and this is not legal advice. If it's an issue for you, check it out yourself! &quot;Don't use MS&quot; is not a &quot;rule&quot; with Nasm or this forum, it's merely a suggestion - a pretty good one, IMO. YMMV.<br /><br />Best,<br />Frank<br /><br />",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Frank Kotler",
+      "userid": 3,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "membergroup",
+          "value": "NASM Developer"
+        },
+        {
+          "key": "postgroup",
+          "value": "Hero Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/starmod.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 2667"
+        },
+        {
+          "key": "gender",
+          "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4794,
+      "date": "August 17, 2011, 05:25:35 AM",
+      "body": "I hear ya.&nbsp; Thanks.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 17, 2011, 11:18:19 AM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4801,
+      "date": "August 18, 2011, 12:47:58 AM",
+      "body": "When I'm programming on a windows system, I like Pelles C. It's a really good C compiler (no C++ support) that has an awesome development environment and really nice back-end assembler. It's also a really good substitute for Windows Mobile Device programming if you don't want to use MSVC.<br />",
+      "signature": "<div align=\"center\"><img src=\"http://www.asmcommunity.net/~bkeller/BKellerSig.jpg\" alt=\"\" class=\"bbc_img\" /><br /><a href=\"http://about.me/bkeller\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">About Bryant Keller</a><br />bkeller@about.me</div>",
+      "edited": "",
+      "attachments": [],
+      "user": "Bryant Keller",
+      "userid": 2,
+      "avatar": "https://forum.nasm.us/index.php?action=dlattach;attach=33;type=avatar",
+      "userinfo": [
+        {
+          "key": "membergroup",
+          "value": "Forum Moderator"
+        },
+        {
+          "key": "postgroup",
+          "value": "Full Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" /><img src=\"https://forum.nasm.us/Themes/default/images/stargmod.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 360"
+        },
+        {
+          "key": "gender",
+          "value": "Country: <img src=\"https://forum.nasm.us/Themes/default/images/flags/us.png\" alt=\"us\" title=\"United States\" />"
+        },
+        {
+          "key": "profile",
+          "value": "<ul><li><a href=\"http://about.me/bkeller\" title=\"About Bryant Keller\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"new_win\"><img src=\"https://forum.nasm.us/Themes/default/images/www_sm.gif\" alt=\"About Bryant Keller\" /></a></li></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4802,
+      "date": "August 18, 2011, 01:25:41 AM",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://forum.nasm.us/index.php?topic=1203.msg4801#msg4801\">Quote from: Bryant Keller on August 18, 2011, 12:47:58 AM</a></div></div><blockquote class=\"bbc_standard_quote\">When I'm programming on a windows system, I like Pelles C. It's a really good C compiler (no C++ support) that has an awesome development environment and really nice back-end assembler. It's also a really good substitute for Windows Mobile Device programming if you don't want to use MSVC.<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes, I agree with Bryant on this one. Pelles C is a great IDE and compiler, I used it to create The Netwide Linker for Windows (But on Linux I used a normal Text Editor (VIM and EMACS) and GCC Linux compiler). But I think that some C++ libraries work with Pelle's C (Last time I tried), but ofcourse iostream might not work.<br /><br />Best,<br />Mahmoud<br /><br /><span style=\"font-size: 10pt;\" class=\"bbc_size\"><em>Edit: Link to The Netwide Linker removed due to licensing issues.</em></span>",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 21, 2011, 06:45:10 PM by Keith Kanios</em> &#187;",
+      "attachments": [],
+      "user": "MJaoune",
+      "userid": 1509,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 94"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    },
+    {
+      "postid": 4803,
+      "date": "August 18, 2011, 03:33:16 AM",
+      "body": "&nbsp;<img src=\"http://forum.nasm.us/Smileys/default/cool.gif\" alt=\"8&#41;\" title=\"Cool\" class=\"smiley\" /> Pelles C Thanks.&nbsp; I just downloaded both the 32b and the 64b versions.&nbsp; It's nice to have tools.",
+      "signature": "",
+      "edited": "&#171; <em>Last Edit: August 18, 2011, 04:13:36 AM by Eccentro</em> &#187;",
+      "attachments": [],
+      "user": "Eccentro",
+      "userid": 3834,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "Jr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://forum.nasm.us/Themes/default/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 25"
+        },
+        {
+          "key": "profile",
+          "value": "<ul></ul>"
+        }
+      ]
+    }
+  ]
+}

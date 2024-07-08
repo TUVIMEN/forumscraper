@@ -1,1 +1,41 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/tristan9.270717/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 270717, "background": "https://forums.mangadex.org/community/profile_banners/m/270/270717.jpg", "location": "Yuritopia", "avatar": "https://forums.mangadex.org/community/avatars/m/270/270717.jpg", "title": "Yuri Enjoyer", "banners": ["Staff", "Developer"], "name": "tristan9", "forum": "", "extras": [{"key": "Joined", "value": "2020-02-16T16:54:00+0000"}, {"key": "Last seen", "value": "2024-07-06T09:39:07+0100"}, {"key": "Messages", "value": "458"}, {"key": "Solutions", "value": "21"}, {"key": "Reaction score", "value": "1,056"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/tristan9.270717/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 270717,
+  "background": "https://forums.mangadex.org/community/profile_banners/m/270/270717.jpg",
+  "location": "Yuritopia",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/270/270717.jpg",
+  "title": "Yuri Enjoyer",
+  "banners": [
+    "Staff",
+    "Developer"
+  ],
+  "name": "tristan9",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2020-02-16T16:54:00+0000"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-07-06T09:39:07+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "458"
+    },
+    {
+      "key": "Solutions",
+      "value": "21"
+    },
+    {
+      "key": "Reaction score",
+      "value": "1,056"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

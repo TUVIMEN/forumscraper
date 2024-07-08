@@ -1,1 +1,36 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/pandascepter.188610/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 188610, "background": "https://forums.mangadex.org/community/profile_banners/m/188/188610.jpg", "location": "Doing a habit so my habit won&#039;t be habit.", "avatar": "https://forums.mangadex.org/community/avatars/m/188/188610.jpg", "title": "Dex-chan lover", "banners": ["Group Leader"], "name": "pandascepter", "forum": "", "extras": [{"key": "Joined", "value": "2019-07-15T05:53:29+0100"}, {"key": "Last seen", "value": "2024-07-08T12:22:30+0100"}, {"key": "Messages", "value": "6,675"}, {"key": "Reaction score", "value": "1,815"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/pandascepter.188610/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 188610,
+  "background": "https://forums.mangadex.org/community/profile_banners/m/188/188610.jpg",
+  "location": "Doing a habit so my habit won&#039;t be habit.",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/188/188610.jpg",
+  "title": "Dex-chan lover",
+  "banners": [
+    "Group Leader"
+  ],
+  "name": "pandascepter",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2019-07-15T05:53:29+0100"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-07-08T12:22:30+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "6,675"
+    },
+    {
+      "key": "Reaction score",
+      "value": "1,815"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

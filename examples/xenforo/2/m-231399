@@ -1,1 +1,36 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/rikuwu.231399/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 231399, "background": "https://forums.mangadex.org/community/profile_banners/m/231/231399.jpg", "location": "Singapore", "avatar": "https://forums.mangadex.org/community/avatars/m/231/231399.jpg", "title": "Fed-Kun's army", "banners": ["VIP"], "name": "rikuwu", "forum": "", "extras": [{"key": "Joined", "value": "2019-11-12T06:24:27+0000"}, {"key": "Last seen", "value": "2024-06-04T08:59:55+0100"}, {"key": "Messages", "value": "49"}, {"key": "Reaction score", "value": "65"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/rikuwu.231399/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 231399,
+  "background": "https://forums.mangadex.org/community/profile_banners/m/231/231399.jpg",
+  "location": "Singapore",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/231/231399.jpg",
+  "title": "Fed-Kun's army",
+  "banners": [
+    "VIP"
+  ],
+  "name": "rikuwu",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2019-11-12T06:24:27+0000"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-06-04T08:59:55+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "49"
+    },
+    {
+      "key": "Reaction score",
+      "value": "65"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

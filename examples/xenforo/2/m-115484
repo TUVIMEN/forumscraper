@@ -1,1 +1,38 @@
-{"format_version": "xenforo-2-user", "url": "https://rune-server.org/members/benjamin.115484/?tooltip=true&_xfWithData=1&_xfToken=1720442673,7319b25c554edf5e5a2ac1f58ee13fb2&_xfResponseType=json", "id": 115484, "background": "", "location": "", "avatar": "", "title": "", "banners": [], "name": "Benjamin", "forum": "", "extras": [{"key": "Joined", "value": "2009-10-21T15:24:01+0100"}, {"key": "Last seen", "value": "2012-02-12T23:39:36+0000"}, {"key": "Messages", "value": "391"}, {"key": "Reputation score", "value": "31,610 (86%)"}, {"key": "Reaction score", "value": "17"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://rune-server.org/members/benjamin.115484/?tooltip=true&_xfWithData=1&_xfToken=1720442673,7319b25c554edf5e5a2ac1f58ee13fb2&_xfResponseType=json",
+  "id": 115484,
+  "background": "",
+  "location": "",
+  "avatar": "",
+  "title": "",
+  "banners": [],
+  "name": "Benjamin",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2009-10-21T15:24:01+0100"
+    },
+    {
+      "key": "Last seen",
+      "value": "2012-02-12T23:39:36+0000"
+    },
+    {
+      "key": "Messages",
+      "value": "391"
+    },
+    {
+      "key": "Reputation score",
+      "value": "31,610 (86%)"
+    },
+    {
+      "key": "Reaction score",
+      "value": "17"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

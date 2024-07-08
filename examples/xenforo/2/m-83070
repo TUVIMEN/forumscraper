@@ -1,1 +1,36 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/cybernatus.83070/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 83070, "background": "https://forums.mangadex.org/community/profile_banners/m/83/83070.jpg", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/83/83070.jpg", "title": "Fed-Kun's army", "banners": ["MD@Home"], "name": "Cybernatus", "forum": "", "extras": [{"key": "Joined", "value": "2018-09-12T13:14:04+0100"}, {"key": "Last seen", "value": "2024-07-07T18:51:53+0100"}, {"key": "Messages", "value": "111"}, {"key": "Reaction score", "value": "65"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/cybernatus.83070/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 83070,
+  "background": "https://forums.mangadex.org/community/profile_banners/m/83/83070.jpg",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/83/83070.jpg",
+  "title": "Fed-Kun's army",
+  "banners": [
+    "MD@Home"
+  ],
+  "name": "Cybernatus",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2018-09-12T13:14:04+0100"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-07-07T18:51:53+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "111"
+    },
+    {
+      "key": "Reaction score",
+      "value": "65"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

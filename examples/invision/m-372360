@@ -1,1 +1,25 @@
-{"format_version": "invision-user", "url": "https://invisioncommunity.com/profile/372360-joel-r/?do=hovercard", "id": 372360, "name": "Joel R", "background": "//content.invisioncic.com/a319035/monthly_2023_08/shutterstock_1673562877.jpg.f4601752671f824f9104b79de7e14945.jpg", "avatar": "//content.invisioncic.com/a319035/monthly_2023_08/icon2.thumb.png.f66fc1f997422f314ff71dfece8effc4.png", "group": "Clients", "joined": "2012-09-29T21:05:56Z", "lastseen": "2024-07-08T04:11:48Z", "info": [{"name": "Posts", "value": "6.7k"}, {"name": "Reputation", "value": "6.1k"}, {"name": "Badges", "value": "16"}]}
+{
+  "format_version": "invision-user",
+  "url": "https://invisioncommunity.com/profile/372360-joel-r/?do=hovercard",
+  "id": 372360,
+  "name": "Joel R",
+  "background": "//content.invisioncic.com/a319035/monthly_2023_08/shutterstock_1673562877.jpg.f4601752671f824f9104b79de7e14945.jpg",
+  "avatar": "//content.invisioncic.com/a319035/monthly_2023_08/icon2.thumb.png.f66fc1f997422f314ff71dfece8effc4.png",
+  "group": "Clients",
+  "joined": "2012-09-29T21:05:56Z",
+  "lastseen": "2024-07-08T04:11:48Z",
+  "info": [
+    {
+      "name": "Posts",
+      "value": "6.7k"
+    },
+    {
+      "name": "Reputation",
+      "value": "6.1k"
+    },
+    {
+      "name": "Badges",
+      "value": "16"
+    }
+  ]
+}

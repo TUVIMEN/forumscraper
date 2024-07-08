@@ -1,1 +1,25 @@
-{"format_version": "invision-user", "url": "https://processwire.com/talk/profile/1302-mass-harry/?do=hovercard", "id": 1302, "name": "Mass Harry", "background": "//processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png", "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2018_05/imported-photo-1302.thumb.jpeg.25b78361b63a3a306b4c5f7b1cab77df.jpeg", "group": "Members", "joined": "2013-04-23T07:17:34Z", "lastseen": "2015-11-16T09:53:45Z", "info": [{"name": "Posts", "value": "16"}, {"name": "Reputation", "value": "0"}, {"name": "Badges", "value": "0"}]}
+{
+  "format_version": "invision-user",
+  "url": "https://processwire.com/talk/profile/1302-mass-harry/?do=hovercard",
+  "id": 1302,
+  "name": "Mass Harry",
+  "background": "//processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2018_05/imported-photo-1302.thumb.jpeg.25b78361b63a3a306b4c5f7b1cab77df.jpeg",
+  "group": "Members",
+  "joined": "2013-04-23T07:17:34Z",
+  "lastseen": "2015-11-16T09:53:45Z",
+  "info": [
+    {
+      "name": "Posts",
+      "value": "16"
+    },
+    {
+      "name": "Reputation",
+      "value": "0"
+    },
+    {
+      "name": "Badges",
+      "value": "0"
+    }
+  ]
+}

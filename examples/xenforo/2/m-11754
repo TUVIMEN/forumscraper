@@ -1,1 +1,34 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/bestboy.11754/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 11754, "background": "", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/11/11754.jpg", "title": "Dex-chan lover", "banners": [], "name": "BestBoy", "forum": "", "extras": [{"key": "Joined", "value": "2018-01-19T23:03:51+0000"}, {"key": "Last seen", "value": "2024-07-08T01:41:45+0100"}, {"key": "Messages", "value": "1,431"}, {"key": "Reaction score", "value": "452"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/bestboy.11754/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 11754,
+  "background": "",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/11/11754.jpg",
+  "title": "Dex-chan lover",
+  "banners": [],
+  "name": "BestBoy",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2018-01-19T23:03:51+0000"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-07-08T01:41:45+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "1,431"
+    },
+    {
+      "key": "Reaction score",
+      "value": "452"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

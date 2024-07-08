@@ -1,1 +1,36 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/bocchi.4719/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json", "id": 4719, "background": "", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/4/4719.jpg", "title": "Dex-chan lover", "banners": ["VIP"], "name": "bocchi", "forum": "", "extras": [{"key": "Joined", "value": "2018-01-24T21:58:03+0000"}, {"key": "Last seen", "value": "2024-07-08T04:22:00+0100"}, {"key": "Messages", "value": "371"}, {"key": "Reaction score", "value": "228"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/bocchi.4719/?tooltip=true&_xfWithData=1&_xfToken=1720442676,b45442b40c2587d890d94c6ec1843737&_xfResponseType=json",
+  "id": 4719,
+  "background": "",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/4/4719.jpg",
+  "title": "Dex-chan lover",
+  "banners": [
+    "VIP"
+  ],
+  "name": "bocchi",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2018-01-24T21:58:03+0000"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-07-08T04:22:00+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "371"
+    },
+    {
+      "key": "Reaction score",
+      "value": "228"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}
