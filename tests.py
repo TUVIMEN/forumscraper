@@ -119,16 +119,6 @@ def test_ignoring_hashed_before_identify():
     )  # xenforo1
 
 
-# http://www.sciencemadness.org/talk/viewthread.php?tid=6064
-# https://www.forumhouse.ru/threads/409354/
-# https://xenforo.com/community/threads/can-not-search-chinese.2049/
-# http://750mm.pl/index.php?topic=5559.0
-# https://forum.anime-ultime.net/phpBB3/viewtopic.php?f=28&t=18253
-# https://invisioncommunity.com/forums/topic/478369-invision-community-5-tagging-reinvented/
-# https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/
-# https://linustechtips.com/topic/1197477-policygenius-thoughts/
-
-
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
