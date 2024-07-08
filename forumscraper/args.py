@@ -204,7 +204,7 @@ def argparser():
     )
     request_set.add_argument(
         "-W",
-        "--random-wait",
+        "--wait-random",
         metavar="MILISECONDS",
         type=int,
         help="Sets random waiting time for each request to be at max MILISECONDS",

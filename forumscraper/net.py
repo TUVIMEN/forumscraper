@@ -157,7 +157,7 @@ class Session(requests.Session):
     def get_req_try(self, url, settings, retry=False):
         if not retry:
             if settings["wait"] != 0:
-                time.sleep(self.wait)
+                time.sleep(settings["wait"])
             if settings["wait_random"] != 0:
                 time.sleep(random.randint(0, settings["wait_random"] + 1) / 1000)
 
@@ -191,7 +191,7 @@ class Session(requests.Session):
             if resp is None or not (
                 resp.status_code >= 200 and resp.status_code <= 299
             ):
-                if resp and resp.status_code in instant_end_code:
+                if resp is not None and resp.status_code in instant_end_code:
                     raise RequestError(
                         "failed completely {} {}".format(resp.status_code, url)
                     )

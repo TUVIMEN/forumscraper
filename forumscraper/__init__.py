@@ -47,7 +47,7 @@ def main():
         "pages_max_depth": args.pages_max_depth,
         "pages_threads_max": args.pages_threads_max,
         "wait": args.wait,
-        "random_wait": args.random_wait,
+        "wait_random": args.wait_random,
         "retries": args.retries,
         "retry_wait": args.retry_wait,
         "timeout": args.timeout,
