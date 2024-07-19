@@ -44,6 +44,7 @@ def valid_type(type_name):
         "invision": invision,
         "xmb": xmb,
     }
+    forums_identifiers = ["all", "smf", "xenforo"]
     funcs = ["guess", "identify", "findroot", "thread", "forum", "tag", "board"]
 
     names = type_name.split(".")
@@ -63,6 +64,12 @@ def valid_type(type_name):
 
     if namesl == 2 and len(names[1]) > 0:
         if names[1] in funcs:
+            if (
+                names[1] == "identify"
+                and len(names[0])
+                and names[0] not in forums_identifiers
+            ):
+                raise (f'{names[0]} does not have function "identify"')
             if names[1] not in ["guess", "identify", "findroot"]:
                 names[1] = "get_" + names[1]
             ret[1] = names[1]
