@@ -254,7 +254,7 @@ class smf2(ForumExtractor):
             {
                 * #E>(menu|site_menu|main_menu|nav|navigation|navigation-root|header|kwick|button_home|toolbar-l); li,
                 div #submenu,
-                ul .E>(si[td]ebar-menu|main-navigation),
+                ul .E>(si[td]ebar-menu|main-navigation|topnav),
             }; a href | "%(href)v\n" / sed "
                 /[;&?]action=/{/=forum$/!bskip}
                 \#(/((board|forum|foro)s?|community)(\.([a-zA-Z0-9_-]+\.)+[a-zA-Z]+)?(/(index\.(html|php))?|\.(html|php))?(\?[^/]*)?|[;&?]action=forum)$#{p;q}
