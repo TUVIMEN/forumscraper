@@ -1,5 +1,5 @@
 {
-  "format_version": "invision-thread",
+  "format_version": "invision-4-thread",
   "url": "https://linustechtips.com/topic/1197477-policygenius-thoughts/",
   "id": 1197477,
   "title": "PolicyGenius - Thoughts?",
@@ -7,7 +7,7 @@
   "rating": false,
   "user_link": "https://linustechtips.com/profile/592205-jonot/",
   "user": "JonoT",
-  "user_avatar": "//pbs-prod.linustechtips.com/monthly_2019_04/D3GVJ5oUwAA9haN.thumb.jpg.9014702ffd740871461cefa9a9de0dc4.jpg",
+  "user_avatar": "https://pbs-prod.linustechtips.com/monthly_2019_04/D3GVJ5oUwAA9haN.thumb.jpg.9014702ffd740871461cefa9a9de0dc4.jpg",
   "user_followers": "1",
   "date": "2020-05-20T19:55:02Z",
   "path": [
@@ -100,7 +100,7 @@
       "user_link": "https://linustechtips.com/profile/592205-jonot/",
       "id": 13624664,
       "user": "JonoT",
-      "user_avatar": "//pbs-prod.linustechtips.com/monthly_2019_04/D3GVJ5oUwAA9haN.thumb.jpg.9014702ffd740871461cefa9a9de0dc4.jpg",
+      "user_avatar": "https://pbs-prod.linustechtips.com/monthly_2019_04/D3GVJ5oUwAA9haN.thumb.jpg.9014702ffd740871461cefa9a9de0dc4.jpg",
       "badges": [
         "Collaborator"
       ],
@@ -127,7 +127,7 @@
       "user_link": "https://linustechtips.com/profile/4931-tetrasky/",
       "id": 13624778,
       "user": "TetraSky",
-      "user_avatar": "//pbs-prod.linustechtips.com/monthly_2023_10/OIG.Ll8fAypAmEH5EK65eES8.thumb.jpg.527fb8aa755051ed26203d2a48c9f65a.jpg",
+      "user_avatar": "https://pbs-prod.linustechtips.com/monthly_2023_10/OIG.Ll8fAypAmEH5EK65eES8.thumb.jpg.527fb8aa755051ed26203d2a48c9f65a.jpg",
       "badges": [
         "Mentor"
       ],
@@ -140,7 +140,7 @@
       "custom": "<span class=\"ipsType_light\">Nyaasu</span>",
       "user_info": [
         "165 solutions",
-        "9,287 posts"
+        "9,308 posts"
       ],
       "top_badges": [],
       "date": "2020-05-20T20:21:34Z",
@@ -154,7 +154,7 @@
       "user_link": "https://linustechtips.com/profile/711526-windows9/",
       "id": 13632484,
       "user": "Windows9",
-      "user_avatar": "//pbs-prod.linustechtips.com/monthly_2020_04/1958356201_Parrot(Windows1).gif.f32bfda56020e2189ef659cc3efdd357.thumb.gif.02fa3870b4ed0d75e5e999c2e816c7bf.gif",
+      "user_avatar": "https://pbs-prod.linustechtips.com/monthly_2020_04/1958356201_Parrot(Windows1).gif.f32bfda56020e2189ef659cc3efdd357.thumb.gif.02fa3870b4ed0d75e5e999c2e816c7bf.gif",
       "badges": [
         "Collaborator"
       ],
@@ -181,7 +181,7 @@
       "user_link": "https://linustechtips.com/profile/394218-spaceghostc2c/",
       "id": 13632707,
       "user": "SpaceGhostC2C",
-      "user_avatar": "//pbs-prod.linustechtips.com/monthly_2020_12/SGparrot4.thumb.gif.7ffe80207db76f29927991027e0de45a.gif",
+      "user_avatar": "https://pbs-prod.linustechtips.com/monthly_2020_12/SGparrot4.thumb.gif.7ffe80207db76f29927991027e0de45a.gif",
       "badges": [
         "Experienced"
       ],
@@ -193,7 +193,7 @@
       "posts": "",
       "custom": "<span class=\"ipsType_light\">Techonomist</span>",
       "user_info": [
-        "5,707 posts",
+        "5,714 posts",
         "82 solutions"
       ],
       "top_badges": [],
@@ -214,7 +214,7 @@
       ],
       "reactions_details": [
         {
-          "avatar": "//pbs-prod.linustechtips.com/monthly_2023_04/200.thumb.gif.a74233a1b33ef922e731cff0c7556eb2.gif",
+          "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_04/200.thumb.gif.a74233a1b33ef922e731cff0c7556eb2.gif",
           "user_link": "https://linustechtips.com/profile/479699-lewdicrous/",
           "user": "lewdicrous",
           "reaction": "agree-transparent",

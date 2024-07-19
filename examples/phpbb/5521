@@ -14,13 +14,13 @@
       "date": "Fri Apr 19, 2013 4:45 am",
       "content": "I have been away from AO for a couple years and had uninstalled the game from my system. I am back again now starting from scratch and I remember there being a map that I downloaded and installed which was much better than the game map.. I cant seem to remember where I got it from or if it even exists anymore. Does anyone know where I may find a map I can download ?? Thanks!",
       "signature": "MP Nanomage-Omni",
-      "avatar": "./download/file.php?avatar=4025.jpg",
+      "avatar": "https://www.ao-universe.com/forum/download/file.php?avatar=4025.jpg",
       "user": "Eveali",
       "userid": 4025,
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4025&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">6</a>"
+          "value": "<a href=\"./search.php?author_id=4025&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">6</a>"
         },
         {
           "key": "Joined",
@@ -41,17 +41,17 @@
       "date": "Fri Apr 19, 2013 4:48 am",
       "content": "If you check the Downloads link in the navigation bar (on the left) then select Maps, they are in there.",
       "signature": "<img src=\"https://i.imgur.com/X7c8gyV.jpg\" class=\"postimage\" alt=\"Image\">",
-      "avatar": "./download/file.php?avatar=4384_1592935826.jpg",
+      "avatar": "https://www.ao-universe.com/forum/download/file.php?avatar=4384_1592935826.jpg",
       "user": "Silvana",
       "userid": 4384,
       "userinfo": [
         {
-          "key": "AOU Site Manager",
-          "value": ""
+          "key": "Rank",
+          "value": "AOU Site Manager"
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">1695</a>"
+          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">1695</a>"
         },
         {
           "key": "Joined",
@@ -72,13 +72,13 @@
       "date": "Fri Apr 19, 2013 4:55 am",
       "content": "Thank you Silvana! <img class=\"smilies\" src=\"./images/smilies/icon_smile.gif\" width=\"15\" height=\"15\" alt=\":)\" title=\"Smile\">",
       "signature": "MP Nanomage-Omni",
-      "avatar": "./download/file.php?avatar=4025.jpg",
+      "avatar": "https://www.ao-universe.com/forum/download/file.php?avatar=4025.jpg",
       "user": "Eveali",
       "userid": 4025,
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4025&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">6</a>"
+          "value": "<a href=\"./search.php?author_id=4025&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">6</a>"
         },
         {
           "key": "Joined",
@@ -105,7 +105,7 @@
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=5036&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">17</a>"
+          "value": "<a href=\"./search.php?author_id=5036&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">17</a>"
         },
         {
           "key": "Joined",
@@ -128,7 +128,7 @@
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2955&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">198</a>"
+          "value": "<a href=\"./search.php?author_id=2955&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">198</a>"
         },
         {
           "key": "Joined",
@@ -145,17 +145,17 @@
       "date": "Sun Feb 02, 2014 6:21 am",
       "content": "Make sure you are putting them in the proper location in your install folder, replacing mapname with a folder named for the map which is where the files will go.<br><br>cd_image\\textures\\PlanetMap\\mapname\\<br><br>eg for adding AoRK as a map:<br>cd_image\\textures\\PlanetMap\\AoRK\\<br><br>You can then use the I on the map window in the game to change it.<br><br>If you still can't use them and you are using an old installation of AO (installed prior to June 2012) you need to install a clean gui from <a href=\"http://forums.anarchy-online.com/showthread.php?t=599789\" class=\"postlink\">HERE</a>.",
       "signature": "<img src=\"https://i.imgur.com/X7c8gyV.jpg\" class=\"postimage\" alt=\"Image\">",
-      "avatar": "./download/file.php?avatar=4384_1592935826.jpg",
+      "avatar": "https://www.ao-universe.com/forum/download/file.php?avatar=4384_1592935826.jpg",
       "user": "Silvana",
       "userid": 4384,
       "userinfo": [
         {
-          "key": "AOU Site Manager",
-          "value": ""
+          "key": "Rank",
+          "value": "AOU Site Manager"
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">1695</a>"
+          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">1695</a>"
         },
         {
           "key": "Joined",
@@ -182,7 +182,7 @@
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2955&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">198</a>"
+          "value": "<a href=\"./search.php?author_id=2955&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">198</a>"
         },
         {
           "key": "Joined",
@@ -199,17 +199,17 @@
       "date": "Sun Feb 02, 2014 12:43 pm",
       "content": "Depending on your Windows version, if you have AO in Program Files, there may be access restrictions.",
       "signature": "<img src=\"https://i.imgur.com/X7c8gyV.jpg\" class=\"postimage\" alt=\"Image\">",
-      "avatar": "./download/file.php?avatar=4384_1592935826.jpg",
+      "avatar": "https://www.ao-universe.com/forum/download/file.php?avatar=4384_1592935826.jpg",
       "user": "Silvana",
       "userid": 4384,
       "userinfo": [
         {
-          "key": "AOU Site Manager",
-          "value": ""
+          "key": "Rank",
+          "value": "AOU Site Manager"
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">1695</a>"
+          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">1695</a>"
         },
         {
           "key": "Joined",
@@ -236,7 +236,7 @@
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2955&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">198</a>"
+          "value": "<a href=\"./search.php?author_id=2955&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">198</a>"
         },
         {
           "key": "Joined",
@@ -258,12 +258,12 @@
       "userid": 5,
       "userinfo": [
         {
-          "key": "AOU Forum Moderator",
-          "value": ""
+          "key": "Rank",
+          "value": "AOU Forum Moderator"
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=5&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">3292</a>"
+          "value": "<a href=\"./search.php?author_id=5&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">3292</a>"
         },
         {
           "key": "Joined",
@@ -280,17 +280,17 @@
       "date": "Mon Feb 03, 2014 1:38 pm",
       "content": "It seems to be a thing depending on how long ago your main install was, I think. So it will either work in the install directory, or through the users\\&lt;name&gt;\\app data\\local\\Funcom\\Anarchy Online\\&lt;random number&gt; directory. One folder in there if you just have the main install, two if you have testlive as well. I'm not sure of the specifics on the later one since mine works using the main install directory.",
       "signature": "<img src=\"https://i.imgur.com/X7c8gyV.jpg\" class=\"postimage\" alt=\"Image\">",
-      "avatar": "./download/file.php?avatar=4384_1592935826.jpg",
+      "avatar": "https://www.ao-universe.com/forum/download/file.php?avatar=4384_1592935826.jpg",
       "user": "Silvana",
       "userid": 4384,
       "userinfo": [
         {
-          "key": "AOU Site Manager",
-          "value": ""
+          "key": "Rank",
+          "value": "AOU Site Manager"
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">1695</a>"
+          "value": "<a href=\"./search.php?author_id=4384&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">1695</a>"
         },
         {
           "key": "Joined",
@@ -317,7 +317,7 @@
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4260&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">214</a>"
+          "value": "<a href=\"./search.php?author_id=4260&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">214</a>"
         },
         {
           "key": "Joined",
@@ -336,7 +336,7 @@
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4260&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">214</a>"
+          "value": "<a href=\"./search.php?author_id=4260&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">214</a>"
         },
         {
           "key": "Joined",
@@ -355,7 +355,7 @@
       "userinfo": [
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=4260&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">214</a>"
+          "value": "<a href=\"./search.php?author_id=4260&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">214</a>"
         },
         {
           "key": "Joined",
@@ -373,12 +373,12 @@
       "userid": 27,
       "userinfo": [
         {
-          "key": "AOU Programmer/Coder",
-          "value": ""
+          "key": "Rank",
+          "value": "AOU Programmer/Coder"
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=27&amp;sr=posts&amp;sid=21b8eccc20720470326085186f64efc2\">1759</a>"
+          "value": "<a href=\"./search.php?author_id=27&amp;sr=posts&amp;sid=4a865497ebb284638a82789b1dbecff3\">1759</a>"
         },
         {
           "key": "Joined",

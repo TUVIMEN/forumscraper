@@ -1,6 +1,6 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://rune-server.org/members/jesse.113206/?tooltip=true&_xfWithData=1&_xfToken=1720442673,7319b25c554edf5e5a2ac1f58ee13fb2&_xfResponseType=json",
+  "url": "https://rune-server.org/members/jesse.113206/?tooltip=true&_xfWithData=1&_xfToken=1721397658,ce7fe68c49e7e6feafa8504e88a94120&_xfResponseType=json",
   "id": 113206,
   "background": "",
   "location": "",
@@ -16,11 +16,11 @@
     },
     {
       "key": "Last seen",
-      "value": "2024-07-08T09:29:39+0100"
+      "value": "2024-07-15T02:47:31+0100"
     },
     {
       "key": "Messages",
-      "value": "5,113"
+      "value": "5,114"
     },
     {
       "key": "Reputation score",
@@ -28,7 +28,7 @@
     },
     {
       "key": "Reaction score",
-      "value": "886"
+      "value": "888"
     },
     {
       "key": "Points",

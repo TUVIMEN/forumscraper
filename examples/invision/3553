@@ -1,5 +1,5 @@
 {
-  "format_version": "invision-thread",
+  "format_version": "invision-4-thread",
   "url": "https://processwire.com/talk/topic/3553-handling-categories-on-a-product-catalogue/",
   "id": 3553,
   "title": "Handling Categories on a Product Catalogue",
@@ -9,7 +9,7 @@
   "rating": false,
   "user_link": "https://processwire.com/talk/profile/1172-zyon/",
   "user": "zyON",
-  "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+  "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
   "user_followers": "11",
   "date": "2013-05-14T18:41:31Z",
   "path": [
@@ -41,7 +41,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 34903,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -67,7 +67,7 @@
       "user_link": "https://processwire.com/talk/profile/100-soma/",
       "id": 34910,
       "user": "Soma",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_03/5745143c1e8de4c4292fb18cd69c117b.thumb.png.bfed135e0e1e705bfd8aea4798d35c37.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_03/5745143c1e8de4c4292fb18cd69c117b.thumb.png.bfed135e0e1e705bfd8aea4798d35c37.png",
       "badges": [
         "Hero Member"
       ],
@@ -93,7 +93,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 34911,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -103,9 +103,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-14T19:40:10Z",
@@ -119,7 +119,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 34942,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -150,7 +150,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 34970,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -160,9 +160,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T09:56:33Z",
@@ -181,7 +181,7 @@
       "user_link": "https://processwire.com/talk/profile/481-nik/",
       "id": 34988,
       "user": "nik",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-481.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-481.png",
       "badges": [
         "Sr. Member"
       ],
@@ -212,7 +212,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 34994,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -238,7 +238,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 34996,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -248,9 +248,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T14:15:24Z",
@@ -264,7 +264,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 34997,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -276,7 +276,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T14:36:40Z",
@@ -290,7 +290,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 34998,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -300,9 +300,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T14:38:57Z",
@@ -316,7 +316,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 34999,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -328,7 +328,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T14:46:08Z",
@@ -342,7 +342,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 35000,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -352,9 +352,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T14:56:32Z",
@@ -368,7 +368,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 35001,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -380,7 +380,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T14:58:20Z",
@@ -394,7 +394,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 35002,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -404,9 +404,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T14:59:11Z",
@@ -420,7 +420,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 35003,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -432,7 +432,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T15:00:54Z",
@@ -446,7 +446,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35004,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -477,7 +477,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 35007,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -487,9 +487,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-15T15:45:29Z",
@@ -508,7 +508,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35037,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -534,7 +534,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 35082,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -562,7 +562,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 35102,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -590,7 +590,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35104,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -621,7 +621,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 35105,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -631,9 +631,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-16T18:35:04Z",
@@ -652,7 +652,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35106,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -678,7 +678,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35107,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -709,7 +709,7 @@
       "user_link": "https://processwire.com/talk/profile/88-diogo/",
       "id": 35108,
       "user": "diogo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_11/me2.thumb.png.561463d415cb143be7c9992f194d351e.png",
       "badges": [
         "Hero Member"
       ],
@@ -719,9 +719,9 @@
       "rank_image": "",
       "reputation_badge": "",
       "posts": "",
-      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg 🏴‍☠️, Germany</span>",
+      "custom": "<span class='ft'>Location</span><span class='fc'>Portuguese in Hamburg ?‍☠️, Germany</span>",
       "user_info": [
-        "4,288 posts"
+        "4,289 posts"
       ],
       "top_badges": [],
       "date": "2013-05-16T19:26:07Z",
@@ -735,7 +735,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35109,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -766,7 +766,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 35119,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -794,7 +794,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35120,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -825,7 +825,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 35121,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -853,7 +853,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35122,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -879,7 +879,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35123,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -910,7 +910,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 35124,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -938,7 +938,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35125,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -964,7 +964,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35126,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -990,7 +990,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35130,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1025,7 +1025,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 35188,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1058,7 +1058,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 35191,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1084,7 +1084,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 35197,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1112,7 +1112,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 37766,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1140,7 +1140,7 @@
       "user_link": "https://processwire.com/talk/profile/2-ryan/",
       "id": 37833,
       "user": "ryan",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1152,7 +1152,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>Atlanta, GA</span>",
       "user_info": [
-        "16,571 posts"
+        "16,588 posts"
       ],
       "top_badges": [],
       "date": "2013-06-18T16:57:26Z",
@@ -1171,7 +1171,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 37835,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -1183,7 +1183,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-06-18T17:05:24Z",
@@ -1197,7 +1197,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 37889,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1225,7 +1225,7 @@
       "user_link": "https://processwire.com/talk/profile/2-ryan/",
       "id": 38039,
       "user": "ryan",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1237,7 +1237,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>Atlanta, GA</span>",
       "user_info": [
-        "16,571 posts"
+        "16,588 posts"
       ],
       "top_badges": [],
       "date": "2013-06-20T12:01:03Z",
@@ -1256,7 +1256,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 38318,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1284,7 +1284,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 38688,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1312,7 +1312,7 @@
       "user_link": "https://processwire.com/talk/profile/2-ryan/",
       "id": 38792,
       "user": "ryan",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1324,7 +1324,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>Atlanta, GA</span>",
       "user_info": [
-        "16,571 posts"
+        "16,588 posts"
       ],
       "top_badges": [],
       "date": "2013-06-29T11:19:18Z",
@@ -1338,7 +1338,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 38829,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1366,7 +1366,7 @@
       "user_link": "https://processwire.com/talk/profile/100-soma/",
       "id": 38831,
       "user": "Soma",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_03/5745143c1e8de4c4292fb18cd69c117b.thumb.png.bfed135e0e1e705bfd8aea4798d35c37.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_03/5745143c1e8de4c4292fb18cd69c117b.thumb.png.bfed135e0e1e705bfd8aea4798d35c37.png",
       "badges": [
         "Hero Member"
       ],
@@ -1392,7 +1392,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 38843,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1420,7 +1420,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 38844,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -1432,7 +1432,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-06-29T23:03:43Z",
@@ -1451,7 +1451,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 38845,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1479,7 +1479,7 @@
       "user_link": "https://processwire.com/talk/profile/18-apeisa/",
       "id": 38853,
       "user": "apeisa",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-18.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-18.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1505,7 +1505,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 38861,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1533,7 +1533,7 @@
       "user_link": "https://processwire.com/talk/profile/2-ryan/",
       "id": 39074,
       "user": "ryan",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1545,7 +1545,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>Atlanta, GA</span>",
       "user_info": [
-        "16,571 posts"
+        "16,588 posts"
       ],
       "top_badges": [],
       "date": "2013-07-03T09:57:58Z",
@@ -1559,7 +1559,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 39077,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1587,7 +1587,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 39081,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -1599,7 +1599,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-07-03T10:34:35Z",
@@ -1613,7 +1613,7 @@
       "user_link": "https://processwire.com/talk/profile/1172-zyon/",
       "id": 39084,
       "user": "zyON",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_05/Enlight3.thumb.jpg.c686a54f4300d76c586fb1b37c891699.jpg",
       "badges": [
         "Full Member"
       ],
@@ -1641,7 +1641,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 39101,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -1653,7 +1653,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-07-03T12:31:18Z",
@@ -1667,7 +1667,7 @@
       "user_link": "https://processwire.com/talk/profile/100-soma/",
       "id": 39108,
       "user": "Soma",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_03/5745143c1e8de4c4292fb18cd69c117b.thumb.png.bfed135e0e1e705bfd8aea4798d35c37.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2019_03/5745143c1e8de4c4292fb18cd69c117b.thumb.png.bfed135e0e1e705bfd8aea4798d35c37.png",
       "badges": [
         "Hero Member"
       ],
@@ -1698,7 +1698,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 39109,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -1710,7 +1710,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2013-07-03T15:35:35Z",
@@ -1724,7 +1724,7 @@
       "user_link": "https://processwire.com/talk/profile/2-ryan/",
       "id": 39273,
       "user": "ryan",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1736,7 +1736,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>Atlanta, GA</span>",
       "user_info": [
-        "16,571 posts"
+        "16,588 posts"
       ],
       "top_badges": [],
       "date": "2013-07-06T10:26:55Z",
@@ -1755,7 +1755,7 @@
       "user_link": "https://processwire.com/talk/profile/1739-buckhorn/",
       "id": 45081,
       "user": "BUCKHORN",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_08/favicon.png.ae9abd2c0e6324cdcb6dba04e94aa4af.thumb.png.815d786ca35d968343a72202b856eb0e.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_08/favicon.png.ae9abd2c0e6324cdcb6dba04e94aa4af.thumb.png.815d786ca35d968343a72202b856eb0e.png",
       "badges": [
         "Full Member"
       ],
@@ -1786,7 +1786,7 @@
       "user_link": "https://processwire.com/talk/profile/1712-peterfoeng/",
       "id": 51856,
       "user": "peterfoeng",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_10/imported-photo-1712.thumb.jpeg.0086ce76ed4976ed2f04e8e97f4644af.jpeg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_10/imported-photo-1712.thumb.jpeg.0086ce76ed4976ed2f04e8e97f4644af.jpeg",
       "badges": [
         "Full Member"
       ],
@@ -1838,7 +1838,7 @@
       "user_link": "https://processwire.com/talk/profile/1302-mass-harry/",
       "id": 86897,
       "user": "Mass Harry",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2018_05/imported-photo-1302.thumb.jpeg.25b78361b63a3a306b4c5f7b1cab77df.jpeg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2018_05/imported-photo-1302.thumb.jpeg.25b78361b63a3a306b4c5f7b1cab77df.jpeg",
       "badges": [
         "Jr. Member"
       ],
@@ -1864,7 +1864,7 @@
       "user_link": "https://processwire.com/talk/profile/894-kongondo/",
       "id": 86899,
       "user": "kongondo",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
       "badges": [
         "Hero Member"
       ],
@@ -1876,7 +1876,7 @@
       "posts": "",
       "custom": "<span class='ft'>Location</span><span class='fc'>UK</span>",
       "user_info": [
-        "7,422 posts"
+        "7,423 posts"
       ],
       "top_badges": [],
       "date": "2015-02-03T16:42:30Z",
@@ -1890,7 +1890,7 @@
       "user_link": "https://processwire.com/talk/profile/2272-adrianmak/",
       "id": 87793,
       "user": "adrianmak",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-2272.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-2272.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1916,7 +1916,7 @@
       "user_link": "https://processwire.com/talk/profile/474-renobird/",
       "id": 87795,
       "user": "renobird",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
       "badges": [
         "Hero Member"
       ],
@@ -1942,7 +1942,7 @@
       "user_link": "https://processwire.com/talk/profile/2272-adrianmak/",
       "id": 87816,
       "user": "adrianmak",
-      "user_avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-2272.jpg",
+      "user_avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-2272.jpg",
       "badges": [
         "Hero Member"
       ],

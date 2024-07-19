@@ -1,10 +1,10 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://processwire.com/talk/profile/481-nik/?do=hovercard",
   "id": 481,
   "name": "nik",
-  "background": "//processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-481.png",
+  "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-481.png",
   "group": "PW-Moderators",
   "joined": "2012-03-25T11:45:48Z",
   "lastseen": "2019-07-04T08:25:27Z",

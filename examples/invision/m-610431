@@ -1,13 +1,13 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://invisioncommunity.com/profile/610431-david-n/?do=hovercard",
   "id": 610431,
   "name": "David N.",
-  "background": "//content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//content.invisioncic.com/a319035/monthly_2022_12/DN.thumb.jpg.2b90da303c0ccb9c36fc51b77649c845.jpg",
+  "background": "https://content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://content.invisioncic.com/a319035/monthly_2022_12/DN.thumb.jpg.2b90da303c0ccb9c36fc51b77649c845.jpg",
   "group": "Clients",
   "joined": "2020-08-29T13:45:02Z",
-  "lastseen": "2024-07-08T12:15:25Z",
+  "lastseen": "2024-07-19T13:08:26Z",
   "info": [
     {
       "name": "Posts",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Reputation",
-      "value": "441"
+      "value": "443"
     },
     {
       "name": "Badges",

@@ -40,7 +40,7 @@ fsc -d examples/xenforo/2 'https://forums.freddyshouse.com/threads/uthgard-guild
 fsc -d examples/xenforo/2 'https://www.overtake.gg/threads/prosimu-racing-and-motion-simulator-since-2009.177663/'
 fsc -d examples/xenforo/2 'https://xenforo.com/community/threads/vbulletin-xenforo.4888/'
 fsc -d examples/xenforo/2 'https://rune-server.org/threads/the-player-updating-procedure.125681/'
-fsc -d examples/xenforo/2 'https://forums.mangadex.org/threads/mangadex-s5e5-anniversary-staff-ama.1106676/'
+fsc -w 0.2 -d examples/xenforo/2 'https://forums.mangadex.org/threads/mangadex-s5e5-anniversary-staff-ama.1106676/'
 
 fsc -d examples/xmb 'http://www.sciencemadness.org/talk/viewthread.php?tid=6064'
 fsc -d examples/xmb 'https://forum.postcrossing.com/viewthread.php?tid=119946'

@@ -1,10 +1,10 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://processwire.com/talk/profile/2272-adrianmak/?do=hovercard",
   "id": 2272,
   "name": "adrianmak",
-  "background": "//processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-2272.jpg",
+  "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-2272.jpg",
   "group": "Members",
   "joined": "2014-05-01T00:14:06Z",
   "lastseen": "2021-07-07T08:58:25Z",

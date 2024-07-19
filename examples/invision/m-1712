@@ -1,10 +1,10 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://processwire.com/talk/profile/1712-peterfoeng/?do=hovercard",
   "id": 1712,
   "name": "peterfoeng",
-  "background": "//processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_10/imported-photo-1712.thumb.jpeg.0086ce76ed4976ed2f04e8e97f4644af.jpeg",
+  "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_10/imported-photo-1712.thumb.jpeg.0086ce76ed4976ed2f04e8e97f4644af.jpeg",
   "group": "Members",
   "joined": "2013-08-19T01:18:34Z",
   "lastseen": "2020-11-18T23:10:44Z",

@@ -1,10 +1,10 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://processwire.com/talk/profile/474-renobird/?do=hovercard",
   "id": 474,
   "name": "renobird",
-  "background": "//processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
+  "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_09/renobird-profile-3.jpg.d6ca7ad4f678319ceb7178d74efa6564.thumb.jpg.fd858056065ec9a634343d46289a1b47.jpg",
   "group": "PW-Moderators",
   "joined": "2012-03-19T14:57:54Z",
   "lastseen": "2023-04-14T21:22:15Z",

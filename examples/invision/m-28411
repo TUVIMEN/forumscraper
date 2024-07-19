@@ -1,13 +1,13 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://invisioncommunity.com/profile/28411-myr/?do=hovercard",
   "id": 28411,
   "name": "Myr",
-  "background": "//content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//content.invisioncic.com/a319035/profile/photo-thumb-28411.gif",
+  "background": "https://content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://content.invisioncic.com/a319035/profile/photo-thumb-28411.gif",
   "group": "Clients",
   "joined": "2003-08-08T23:11:48Z",
-  "lastseen": "2024-07-07T01:56:35Z",
+  "lastseen": "2024-07-19T03:12:20Z",
   "info": [
     {
       "name": "Posts",

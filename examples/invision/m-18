@@ -1,10 +1,10 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://processwire.com/talk/profile/18-apeisa/?do=hovercard",
   "id": 18,
   "name": "apeisa",
-  "background": "//processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-18.jpg",
+  "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/profile/photo-thumb-18.jpg",
   "group": "Moderators",
   "joined": "2011-01-20T18:39:32Z",
   "lastseen": "2024-06-01T04:52:39Z",

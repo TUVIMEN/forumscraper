@@ -1,6 +1,6 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forum.modelarstwo.info/members/qwertas.1009/?tooltip=true&_xfWithData=1&_xfToken=1720442902,6de90004c64630af99e5ed58019d8177&_xfResponseType=json",
+  "url": "https://forum.modelarstwo.info/members/qwertas.1009/?tooltip=true&_xfWithData=1&_xfToken=1721397883,44dd210f2f565ddbf4a319c2ebe90501&_xfResponseType=json",
   "id": 1009,
   "background": "",
   "location": "",
@@ -18,11 +18,11 @@
     },
     {
       "key": "Wpisy",
-      "value": "1.006"
+      "value": "1.021"
     },
     {
       "key": "Oceny",
-      "value": "451"
+      "value": "456"
     },
     {
       "key": "Punkty",

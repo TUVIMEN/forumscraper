@@ -1,10 +1,10 @@
 {
-  "format_version": "invision-user",
+  "format_version": "invision-4-user",
   "url": "https://linustechtips.com/profile/711526-windows9/?do=hovercard",
   "id": 711526,
   "name": "Windows9",
   "background": "https://linustechtips.com/uploads/set_resources_4/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "//pbs-prod.linustechtips.com/monthly_2020_04/1958356201_Parrot(Windows1).gif.f32bfda56020e2189ef659cc3efdd357.thumb.gif.02fa3870b4ed0d75e5e999c2e816c7bf.gif",
+  "avatar": "https://pbs-prod.linustechtips.com/monthly_2020_04/1958356201_Parrot(Windows1).gif.f32bfda56020e2189ef659cc3efdd357.thumb.gif.02fa3870b4ed0d75e5e999c2e816c7bf.gif",
   "group": "Member",
   "joined": "2020-04-01T08:33:43Z",
   "lastseen": "2020-08-22T19:22:25Z",
