@@ -27,7 +27,7 @@ def valid_names(name):
 
 
 def valid_type(type_name):
-    if url_valid(type_name):
+    if url_valid(type_name) is not None:
         return type_name
 
     ret = [Extractor, "guess"]
@@ -44,7 +44,7 @@ def valid_type(type_name):
         "invision": invision,
         "xmb": xmb,
     }
-    funcs = ["guess", "thread", "forum", "tag", "board"]
+    funcs = ["guess", "identify", "findroot", "thread", "forum", "tag", "board"]
 
     names = type_name.split(".")
     namesl = len(names)
@@ -63,7 +63,7 @@ def valid_type(type_name):
 
     if namesl == 2 and len(names[1]) > 0:
         if names[1] in funcs:
-            if names[1] != "guess":
+            if names[1] not in ["guess", "identify", "findroot"]:
                 names[1] = "get_" + names[1]
             ret[1] = names[1]
         else:
@@ -139,7 +139,7 @@ def argparser():
         "-l",
         "--log",
         metavar="FILE",
-        type=lambda x: open(x, "r"),
+        type=lambda x: open(x, "w"),
         help="log results to FILE (by default set to stdout)",
         default=sys.stdout,
     )
@@ -147,8 +147,16 @@ def argparser():
         "-F",
         "--failed",
         metavar="FILE",
-        type=lambda x: open(x, "r"),
+        type=lambda x: open(x, "w"),
         help="log failures to FILE (by default set to stderr)",
+        default=sys.stderr,
+    )
+    files.add_argument(
+        "-o",
+        "--output",
+        metavar="FILE",
+        type=lambda x: open(x, "w"),
+        help="store results to FILE (by default set to stdout), work only for identify and findroot functions",
         default=sys.stderr,
     )
 
@@ -231,7 +239,7 @@ def argparser():
     request_set.add_argument(
         "-k",
         "--insecure",
-        action="store_true",
+        action="store_false",
         help="Ignore ssl errors",
     )
     request_set.add_argument(

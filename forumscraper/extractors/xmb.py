@@ -23,14 +23,13 @@ class xmb(ForumExtractor):
         def get_contents(self, rq, settings, state, url, i_id):
             ret = {"format_version": "xmb-thread", "url": url, "id": i_id}
             page = 0
-            baseurl = self.url_base(url)
 
             t = json.loads(
                 rq.search(
                     r"""
                 .title td .nav -style | "%i" / sed "s/.* &raquo; //",
                 .path.a td .nav -style; a | "%i\n"
-            """
+                """
                 )
             )
             dict_add(ret, t)
@@ -117,10 +116,9 @@ class xmb(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(rq)
-                if len(nexturl) == 0:
+                nexturl = self.get_next(url, rq)
+                if nexturl is None:
                     break
-                nexturl = self.url_base_merge(baseurl, nexturl)
                 rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
@@ -133,8 +131,6 @@ class xmb(ForumExtractor):
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
-        self.thread.url_base = self.url_base
-        self.thread.url_base_merge = self.url_base_merge
 
         self.forum_forums_expr = reliq.expr(
             r'font .mediumtxt; a href=b>"forumdisplay.php" l@[1] | "%(href)v\n"'
@@ -161,11 +157,13 @@ class xmb(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-    @staticmethod
-    def url_base(url):
-        return re.sub(r"[^/]*$", r"", url)
+        self.findroot_expr = reliq.expr(
+            r'td .nav -style; a href | "%(href)v\n" / sed "/\/$/p" "n" line [-] tr "\n"'
+        )
+        self.findroot_board = False
+        self.findroot_board_expr = None
 
-    def get_next(self, rq):
+    def get_next_page(self, rq):
         url = rq.search(
             r'''td .multi; {
                 [0] a href rel=next | "%(href)v\n",

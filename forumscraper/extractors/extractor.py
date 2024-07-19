@@ -51,5 +51,5 @@ class Extractor(ForumExtractorIdentify):
             {"func": "get_board", "exprs": None},
         ]
 
-    def identify(self, url, rq, cookies):
+    def identify_page(self, url, rq, cookies):
         return ForumIdentify(self, url, rq, cookies)

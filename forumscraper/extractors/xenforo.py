@@ -5,16 +5,9 @@ import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add, url_valid
+from ..utils import dict_add, url_merge, url_merge_r
 from .identify import xenforoIdentify
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
-
-
-def url_base(url):
-    r = url_valid(url, None, True)
-    if r is None:
-        return ""
-    return r[0]
 
 
 guesslist = [
@@ -40,14 +33,12 @@ class xenforo2(ForumExtractor):
         def __init__(self, session):
             super().__init__(session)
 
-            self.url_base = url_base
-
             self.match = [
                 re.compile(r"^/(.*[./])?(\d+)(/.*)?$"),
                 2,
             ]
 
-        def get_search_user(self, rq, state, baseurl, first_delim, xfToken, settings):
+        def get_search_user(self, rq, state, refurl, first_delim, xfToken, settings):
             user_url = rq.search(
                 r"""
                 {
@@ -59,8 +50,8 @@ class xenforo2(ForumExtractor):
             if len(user_url) > 0:
                 self.user.get(
                     "users",
-                    "{}{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
-                        baseurl, user_url, first_delim, xfToken
+                    "{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
+                        url_merge(refurl, user_url), first_delim, xfToken
                     ),
                     settings,
                     state,
@@ -75,15 +66,15 @@ class xenforo2(ForumExtractor):
 
             return xfToken
 
-        def get_reactions(self, rq, baseurl, first_delim, xfToken, settings, state):
+        def get_reactions(self, rq, refurl, first_delim, xfToken, settings, state):
             ret = []
             reactions_url = rq.search(
                 r'{ a .reactionsBar-link href | "%(href)v\n", div #b>reactions-bar-; a .list-reacts href | "%(href)v\n" } / line [1] tr "\n"'
             )
 
             if len(reactions_url) > 0:
-                reactions_url = "{}{}{}_xfRequestUri=&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
-                    baseurl, reactions_url, first_delim, xfToken
+                reactions_url = "{}{}_xfRequestUri=&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
+                    url_merge(refurl, reactions_url), first_delim, xfToken
                 )
 
                 obj = reliq(
@@ -111,7 +102,6 @@ class xenforo2(ForumExtractor):
             return ret
 
         def get_contents(self, rq, settings, state, url, i_id):
-            baseurl = self.url_base(url)
             page = 0
             url_first_delimiter = "?"
             if url.find("?") != -1:
@@ -230,13 +220,12 @@ class xenforo2(ForumExtractor):
 
                     post = json.loads(tag.search(expr))
 
-                    if post["user_link"][:1] == "/":
-                        post["user_link"] = baseurl + post["user_link"]
+                    post["user_link"] = url_merge_r(url, post["user_link"])
                     if post["user_avatar"][:1] == "/":
-                        post["user_avatar"] = baseurl + post["user_avatar"]
                         post["user_avatar"] = re.sub(
                             r"\?[0-9]+$", r"", post["user_avatar"]
                         )
+                    post["user_avatar"] = url_merge_r(url, post["user_avatar"])
 
                     uext = post["user_extras"]
                     uext["pairs"] = uext["pairs1"] + uext["pairs2"] + uext["pairs3"]
@@ -252,7 +241,7 @@ class xenforo2(ForumExtractor):
                                 self.get_search_user(
                                     tag,
                                     state,
-                                    baseurl,
+                                    url,
                                     url_first_delimiter,
                                     xfToken,
                                     settings,
@@ -261,7 +250,7 @@ class xenforo2(ForumExtractor):
                             if not settings["noreactions"]:
                                 reactions = self.get_reactions(
                                     tag,
-                                    baseurl,
+                                    url,
                                     url_first_delimiter,
                                     xfToken,
                                     settings,
@@ -270,7 +259,7 @@ class xenforo2(ForumExtractor):
                         except self.common_exceptions as ex:
                             self.handle_error(
                                 ex,
-                                "{}{}{}".format(baseurl, url_first_delimiter, xfToken),
+                                "{}{}{}".format(url, url_first_delimiter, xfToken),
                                 settings,
                                 True,
                             )
@@ -285,10 +274,9 @@ class xenforo2(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(rq)
-                if len(nexturl) == 0:
+                nexturl = self.get_next(url, rq)
+                if nexturl is None:
                     break
-                nexturl = self.url_base_merge(baseurl, nexturl)
                 rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
@@ -297,8 +285,6 @@ class xenforo2(ForumExtractor):
     class User(ItemExtractor):
         def __init__(self, session):
             super().__init__(session)
-
-            self.url_base = url_base
 
             self.match = [
                 re.compile(r"^/(.*[./])?(\d+)/[\&?]tooltip=true\&"),
@@ -310,7 +296,6 @@ class xenforo2(ForumExtractor):
             return reliq(self.session.get_json(url, settings, state)["html"]["content"])
 
         def get_contents(self, rq, settings, state, url, i_id):
-            baseurl = self.url_base(url)
             ret = {"format_version": "xenforo-2-user", "url": url, "id": i_id}
 
             t = json.loads(
@@ -318,7 +303,7 @@ class xenforo2(ForumExtractor):
                     r"""
                 .background div class=B>"memberProfileBanner memberTooltip-header.*" style=a>"url(" | "%(style)v" / sed "s#.*url(##;s#^//#https://#;s/?.*//;p;q" "n",
                 .location a href=b>/misc/location-info | "%i",
-                .avatar img src | "%(src)v" / sed "s#^//#https://#;s/?.*//; q",
+                .avatar img src | "%(src)v" / sed "s/?.*//; q",
                 .title span .userTitle | "%i",
                 .banners.a * .userBanner; strong | "%i\n",
                 .name h4 .memberTooltip-name; a; * c@[0] | "%i",
@@ -334,10 +319,8 @@ class xenforo2(ForumExtractor):
             """
                 )
             )
-            if t["background"][:1] == "/":
-                t["background"] = baseurl + t["background"]
-            if t["avatar"][:1] == "/":
-                t["avatar"] = baseurl + t["avatar"]
+            t["background"] = url_merge_r(url, t["background"])
+            t["avatar"] = url_merge_r(url, t["avatar"])
             dict_add(ret, t)
 
             return ret
@@ -345,11 +328,8 @@ class xenforo2(ForumExtractor):
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
 
-        self.url_base = url_base
-
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
-        self.thread.url_base_merge = self.url_base_merge
         self.user = self.User(self.session)
         self.thread.user = self.user
 
@@ -365,7 +345,20 @@ class xenforo2(ForumExtractor):
         )
         self.guesslist = guesslist
 
-    def get_next(self, rq):
+        self.findroot_expr = reliq.expr(
+            r"""
+            {
+                * .p-nav; [0] a href | "%(href)v\n",
+                * #header-forum-listing href | "%(href)v\n"
+            } / line [1] tr "\n"
+            """
+        )
+        self.findroot_board = True
+        self.findroot_board_expr = re.compile(
+            r"^(/[^\.-])?/((forum|foro|board)s?|index\.php|community|communaute|comunidad)/?$",
+        )
+
+    def get_next_page(self, rq):
         url = rq.search(
             r'div .block-outer; [0] a .pageNav-jump .pageNav-jump--next href | "%(href)v"'
         )
@@ -379,14 +372,12 @@ class xenforo1(ForumExtractor):
         def __init__(self, session):
             super().__init__(session)
 
-            self.url_base = url_base
-
             self.match = [
                 re.compile(r"^/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?$"),
                 2,
             ]
 
-        def get_avatar_and_userid(self, baseurl, messageUB):
+        def get_avatar_and_userid(self, refurl, messageUB):
             user_id = "0"
             avatar = messageUB.search(r'* class=b>avatar; [0] img src | "%(src)v"')
             if len(avatar) == 0:
@@ -402,12 +393,7 @@ class xenforo1(ForumExtractor):
                     user_id = r[1]
 
             avatar = re.sub(r"\?[0-9]+$", r"", avatar)
-
-            if avatar[:2] == "//":
-                protocol = baseurl[: (baseurl.index(":") + 1)]
-                avatar = protocol + avatar
-            elif avatar[:5] != "http:" and avatar[:6] != "https:":
-                avatar = baseurl + avatar
+            avatar = url_merge_r(refurl, avatar)
 
             if user_id == "0":
                 user_id = messageUB.search(
@@ -423,7 +409,6 @@ class xenforo1(ForumExtractor):
         def get_contents(self, rq, settings, state, url, i_id):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": i_id}
             page = 0
-            baseurl = self.url_base(url)
 
             t = json.loads(
                 rq.search(
@@ -463,7 +448,7 @@ class xenforo1(ForumExtractor):
                     post = {}
                     messageUB = i.filter(r"div class=b>messageUserBlock")
 
-                    avatar, user_id = self.get_avatar_and_userid(baseurl, messageUB)
+                    avatar, user_id = self.get_avatar_and_userid(url, messageUB)
                     post["avatar"] = avatar
                     post["user_id"] = user_id
 
@@ -493,10 +478,9 @@ class xenforo1(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(rq)
-                if len(nexturl) == 0:
+                nexturl = self.get_next(url, rq)
+                if nexturl is None:
                     break
-                nexturl = self.url_base_merge(baseurl, nexturl)
                 rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
@@ -505,11 +489,8 @@ class xenforo1(ForumExtractor):
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
 
-        self.url_base = url_base
-
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
-        self.thread.url_base_merge = self.url_base_merge
 
         self.board_forums_expr = reliq.expr(
             r'h3 .nodeTitle; a -href=a>"#" href | "%(href)v\n"'
@@ -520,7 +501,24 @@ class xenforo1(ForumExtractor):
         )
         self.guesslist = guesslist
 
-    def get_next(self, rq):
+        self.findroot_expr = reliq.expr(
+            r"""
+            {
+                div #navigation; {
+                    * .navTab .forums,
+                    * .navTab .home
+                }; [0] a href | "%(href)v\n",
+                fieldset .breadcrumb; a .crumb href; {
+                    [0] a C@'span itemprop="title" m@i>"forums"' | '%(href)v\n',
+                    [0] a | "%(href)v\n"
+                }
+            } / line [1] tr "\n"
+            """
+        )
+        self.findroot_board = True
+        self.findroot_board_expr = None
+
+    def get_next_page(self, rq):
         url = rq.search(
             r'nav; [0] a class href=Be>"/page-[0-9]*" m@B>"^[^0-9]*&gt;" | "%(href)v"'
         )
@@ -541,5 +539,5 @@ class xenforo(ForumExtractorIdentify):
 
         self.guesslist = guesslist
 
-    def identify(self, url, rq, cookies):
+    def identify_page(self, url, rq, cookies):
         return xenforoIdentify(self, url, rq, cookies)

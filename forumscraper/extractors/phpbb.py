@@ -1,12 +1,11 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
-import os
 import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add, url_valid
+from ..utils import dict_add, url_merge_r
 from .common import ItemExtractor, ForumExtractor
 
 
@@ -16,15 +15,14 @@ class phpbb(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                r"^/(.*/)?viewtopic\.php(.*)[\&\?]t=(\d+)",
-                3,
+                r"^/((.*)?viewtopic\.php(.*)[\&\?]t=|.*-t)(\d+)",
+                4,
             ]
             self.trim = True
 
         def get_contents(self, rq, settings, state, url, i_id):
             ret = {"format_version": "phpbb-2+-thread", "url": url, "id": i_id}
             page = 0
-            baseurl = self.url_base(url)
 
             t = json.loads(
                 rq.search(
@@ -69,13 +67,13 @@ class phpbb(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(rq)
-                if len(nexturl) == 0:
+                nexturl = self.get_next(url, rq)
+                if nexturl is None:
                     break
-                nexturl = self.url_base_merge(baseurl, nexturl)
                 rq = self.session.get_html(nexturl, settings, state)
 
             for i in posts:
+                i["avatar"] = url_merge_r(url, i["avatar"])
                 i["userinfo"] = []
                 for j in i["userinfo_temp"]:
                     t = j.split("\t")
@@ -95,8 +93,6 @@ class phpbb(ForumExtractor):
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
-        self.thread.url_base = self.url_base
-        self.thread.url_base_merge = self.url_base_merge
 
         self.forum_forums_expr = reliq.expr(
             r'li; a .forumtitle href | "%(href)v\n" / sed "s/^\.\///;s/&amp;/\&/g"'
@@ -121,14 +117,20 @@ class phpbb(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-    @staticmethod
-    def url_base(url):
-        base = os.path.dirname(url)
-        if url_valid(base, "^/?$"):
-            return re.sub(r"/$", r"", url)
-        return base
+        self.findroot_expr = reliq.expr(
+            r"""
+                {
+                    div #page-footer,
+                    div .f_footer,
+                }; [0] a href | "%(href)v\n" / line [1] sed "s/&amp;/\&/g" tr "\n"
+            """
+        )
+        self.findroot_board = True
+        self.findroot_board_expr = re.compile(
+            r"^(/[^\.-])?/((board|forum|foro)s?|index\.(php|html)|community|communaute|comunidad)(/|\?[^/]*)?$",
+        )
 
-    def get_next(self, rq):
+    def get_next_page(self, rq):
         url = rq.search(
             r'a href rel=next | "%(href)v" / sed "s/^\.\///;s/&amp;/\&/g;q"'
         )

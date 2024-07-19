@@ -59,17 +59,25 @@ def main():
     }
 
     ex = Extractor(**settings)
-    func = getattr(ex, "guess")
+    func_name = "guess"
+    func = getattr(ex, func_name)
 
     for url in args.urls:
         if isinstance(url, list):
             ex = url[0](**settings)
-            func = getattr(ex, url[1])
+            func_name = url[1]
+            func = getattr(ex, func_name)
             continue
 
-        func(url)
+        ret = func(url, **settings)
+        if func_name == "findroot":
+            print(f"{ret}\t{url}", file=args.output)
+        elif func_name == "identify":
+            print(
+                "{}\t{}".format(ret["scraper"].__class__.__name__, url),
+                file=args.output,
+            )
 
-    if args.log != sys.stdout:
-        args.log.close()
-    if args.failed != sys.stderr:
-        args.failed.close()
+    for i in [args.log, args.failed, args.output]:
+        if i not in [sys.stdout, sys.stderr]:
+            i.close()

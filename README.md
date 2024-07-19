@@ -8,7 +8,7 @@ forumscraper aims to be an universal, automatic and extensive scraper for forums
 
 # Supported forums
 
-    invision
+    invision (only 4.x version)
     phpbb (currently excluding 1.x version)
     smf
     xenforo

@@ -5,7 +5,7 @@ import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add, get_settings
+from ..utils import dict_add, get_settings, url_merge_r
 from .common import ItemExtractor, ForumExtractor
 
 
@@ -37,7 +37,7 @@ class invision(ForumExtractor):
             )
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "invision-user", "url": url, "id": i_id}
+            ret = {"format_version": "invision-4-user", "url": url, "id": i_id}
 
             t = json.loads(
                 rq.search(
@@ -69,6 +69,10 @@ class invision(ForumExtractor):
             """
                 )
             )
+
+            t["avatar"] = url_merge_r(url, t["avatar"])
+            t["background"] = url_merge_r(url, t["background"])
+
             dict_add(ret, t)
             return ret
 
@@ -144,21 +148,25 @@ class invision(ForumExtractor):
                 t = json.loads(
                     rq.search(
                         r"""
-                    .reactions ol; li; {
-                        .avatar a .ipsUserPhoto; img src | "%(src)v",
-                        a .ipsType_break href; {
-                            .user_link * l@[0] | "%(href)v",
-                            .user * l@[0] | "%i"
-                        },
-                        .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
-                        .date time datetime | "%(datetime)v"
-                    } |
-                """
+                        .reactions ol; li; {
+                            .avatar a .ipsUserPhoto; img src | "%(src)v",
+                            a .ipsType_break href; {
+                                .user_link * l@[0] | "%(href)v",
+                                .user * l@[0] | "%i"
+                            },
+                            .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
+                            .date time datetime | "%(datetime)v"
+                        } |
+                        """
                     )
                 )
 
                 if len(ret) == 0:
                     self.state_add_url("reactions", nexturl, state, settings)
+
+                for i in t["reactions"]:
+                    i["avatar"] = url_merge_r(nexturl, i["avatar"])
+                    i["user_link"] = url_merge_r(nexturl, i["user_link"])
 
                 ret += t["reactions"]
 
@@ -169,7 +177,7 @@ class invision(ForumExtractor):
             return ret
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "invision-thread", "url": url, "id": i_id}
+            ret = {"format_version": "invision-4-thread", "url": url, "id": i_id}
             page = 0
 
             t = json.loads(
@@ -201,6 +209,8 @@ class invision(ForumExtractor):
             dict_add(ret, t)
 
             ret["poll"] = self.get_poll(rq)
+            ret["user_link"] = url_merge_r(url, ret["user_link"])
+            ret["user_avatar"] = url_merge_r(url, ret["user_avatar"])
 
             t = json.loads(
                 rq.search(
@@ -229,6 +239,11 @@ class invision(ForumExtractor):
             """
                 )
             )
+            rec = t["recommended"]
+            rec["user_avatar"] = url_merge_r(url, rec["user_avatar"])
+            rec["user_link"] = url_merge_r(url, rec["user_link"])
+            rec["link"] = url_merge_r(url, rec["link"])
+            rec["ruser_link"] = url_merge_r(url, rec["ruser_link"])
             dict_add(ret, t)
 
             expr = reliq.expr(
@@ -268,8 +283,11 @@ class invision(ForumExtractor):
                 for i in rq.filter(r"article #B>elComment_[0-9]*").children():
                     post = {}
 
-                    post["user_link"] = i.search(
-                        r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
+                    post["user_link"] = url_merge_r(
+                        url,
+                        i.search(
+                            r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
+                        ),
                     )
 
                     user_link = post["user_link"]
@@ -280,6 +298,9 @@ class invision(ForumExtractor):
                             self.handle_error(ex, user_link, settings, True)
 
                     t = json.loads(i.search(expr))
+                    t["user_avatar"] = url_merge_r(url, t["user_avatar"])
+                    t["group_icon"] = url_merge_r(url, t["group_icon"])
+                    t["rank_image"] = url_merge_r(url, t["rank_image"])
                     dict_add(post, t)
 
                     t = json.loads(
@@ -295,6 +316,8 @@ class invision(ForumExtractor):
                     """
                         )
                     )
+                    for j in t["reactions_users"]:
+                        j["link"] = url_merge_r(url, j["link"])
                     t["reactions"] = []
                     for j in t["reactions_temp"]:
                         el = {}
@@ -323,11 +346,10 @@ class invision(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = rq.search(
-                    r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"'
-                )
-                if len(nexturl) == 0:
+                nexturl = self.get_next(url, rq)
+                if nexturl is None:
                     break
+
                 rq = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
@@ -341,6 +363,7 @@ class invision(ForumExtractor):
         self.thread = self.Thread(self.session)
         self.user = self.User(self.session)
         self.thread.user = self.user
+        self.thread.get_next = self.get_next
 
         self.board_forums_expr = reliq.expr(
             r'li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n", div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n"'
@@ -361,7 +384,33 @@ class invision(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-    def get_forum_next(self, rq):
+        self.findroot_expr = reliq.expr(
+            r"""
+            {
+                [0] ul data-role=breadcrumbList; a href | "%(href)v\n" / sed "
+                    1!G
+                    h
+                    \#/(((forum|foro|board)s?|community)/?|index\.php)$#{p;q}
+                   $p" "En" line [-],
+               li #b>elNavSecondary_ i>data-navapp=i>forums; [0] a href | "%(href)v",
+               li #b>lmgNavSub_; [0] a href m@i>"forums" | "%(href)v\n",
+               nav; li .ipsMenu_item; [0] a m@i>forums href | "%(href)v\n",
+               [0] a href=Ea>"(/|^)((forum|foro)s?|community|communaute|comunidad|ipb)(\.([a-zA-Z0-9.-]\.)*[a-zA-Z]/?|/?$)" | "%(href)v\n",
+               [0] a href=Ea>"(/|^)(index|index\.php)/?$" | "%(href)v\n"
+            } / line [1] tr "\n"
+           """
+        )
+        self.findroot_board = True
+        self.findroot_board_expr = re.compile(
+            r"^(/[^\.-])?/((forum|foro|board)s?|index\.php|community|communaute|comunidad|ipb)/?$"
+        )
+
+    def get_forum_next_page(self, rq):
         return rq.search(
             'ul .ipsPagination; li .ipsPagination_next -.ipsPagination_inactive; [0] a | "%(href)v"'
+        )
+
+    def get_next_page(self, rq):
+        return rq.search(
+            r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"'
         )

@@ -6,7 +6,7 @@ import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add
+from ..utils import dict_add, url_merge_r
 from .identify import smfIdentify
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 
@@ -74,6 +74,8 @@ class smf1(ForumExtractor):
 
             while True:
                 t = json.loads(rq.search(expr))
+                for i in t["posts"]:
+                    i["avatar"] = url_merge_r(url, i["avatar"])
                 posts += t["posts"]
 
                 page += 1
@@ -82,8 +84,8 @@ class smf1(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(rq)
-                if len(nexturl) == 0:
+                nexturl = self.get_next(url, rq)
+                if nexturl is None:
                     break
                 rq = self.session.get_html(nexturl, settings, state)
 
@@ -107,7 +109,27 @@ class smf1(ForumExtractor):
         self.board_forums_expr = self.forum_forums_expr
         self.guesslist = guesslist
 
-    def get_next(self, rq):
+        self.findroot_expr = reliq.expr(
+            r"""
+            {
+                * .E>"maintab(_active)?_back",
+                div #toolbar; div .tabs; * role=menuitem; a l@[1],
+                div #headerarea; a l@[1],
+                div #E>(myNavbar|toolbar[0-9]|topmenu|menu|nav); li,
+                body; [0] * l@[1]; table l@[0]; tr .B>windowbg[123]; td; a l@[1] C@"img" c@[1],
+            }; a href | "%(href)v\n" / sed "
+                \#(/((board|forum|foro)s?|community)(/(index\.(html|php))?|\.(html|php))?(\?[^/]*)?|[;&?]action=forum)$#{p;q}
+                1!G; h
+                $p
+            " "En" line [-] sed "s/&amp;/\&/g" tr "\n"
+            """
+        )
+        self.findroot_board = True
+        self.findroot_board_expr = re.compile(
+            r"^(/[^\.-])?/((forum|foro|board)s?|index\.(php|html)|community|communaute|comunidad)(/|\?[^/]*)?$",
+        )
+
+    def get_next_page(self, rq):
         return rq.search(r'[0] b ~[0] a .navPages href | "%(href)v"')
 
 
@@ -182,6 +204,8 @@ class smf2(ForumExtractor):
 
             while True:
                 t = json.loads(rq.search(expr))
+                for i in t["posts"]:
+                    i["avatar"] = url_merge_r(url, i["avatar"])
                 posts += t["posts"]
 
                 page += 1
@@ -190,8 +214,8 @@ class smf2(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(rq)
-                if len(nexturl) == 0:
+                nexturl = self.get_next(url, rq)
+                if nexturl is None:
                     break
                 rq = self.session.get_html(nexturl, settings, state, self.trim)
 
@@ -225,7 +249,27 @@ class smf2(ForumExtractor):
         self.board_forums_expr = self.forum_forums_expr
         self.guesslist = guesslist
 
-    def get_next(self, rq):
+        self.findroot_expr = reliq.expr(
+            r"""
+            {
+                * #E>(menu|site_menu|main_menu|nav|navigation|navigation-root|header|kwick|button_home|toolbar-l); li,
+                div #submenu,
+                ul .E>(si[td]ebar-menu|main-navigation),
+            }; a href | "%(href)v\n" / sed "
+                /[;&?]action=/{/=forum$/!bskip}
+                \#(/((board|forum|foro)s?|community)(\.([a-zA-Z0-9_-]+\.)+[a-zA-Z]+)?(/(index\.(html|php))?|\.(html|php))?(\?[^/]*)?|[;&?]action=forum)$#{p;q}
+                :skip
+                1!G; h
+                $p
+            " "En" line [-] sed "s/&amp;/\&/g" tr "\n"
+            """
+        )
+        self.findroot_board = True
+        self.findroot_board_expr = re.compile(
+            r"^(/[^\.-])?/((board|forum|foro)s?|index\.(php|html)|community|communaute|comunidad)(/|\?[^/]*)?$",
+        )
+
+    def get_next_page(self, rq):
         return rq.search(
             r'div .pagelinks [0]; E>(a|span|strong) m@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"'
         )[:-1]
@@ -242,5 +286,5 @@ class smf(ForumExtractorIdentify):
 
         self.guesslist = guesslist
 
-    def identify(self, url, rq, cookies):
+    def identify_page(self, url, rq, cookies):
         return smfIdentify(self, url, rq, cookies)
