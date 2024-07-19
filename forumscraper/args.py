@@ -164,7 +164,7 @@ def argparser():
         metavar="FILE",
         type=lambda x: open(x, "w"),
         help="store results to FILE (by default set to stdout), work only for identify and findroot functions",
-        default=sys.stderr,
+        default=sys.stdout,
     )
 
     settings = parser.add_argument_group("Settings")

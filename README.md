@@ -52,7 +52,11 @@ Type consists of `scraper_name` followed by `.` and `function_name`.
 
 `scraper_name` can be: `all`, `invision`, `phpbb`, `smf`, `smf1`, `smf2`, `xenforo`, `xenforo1`, `xenforo2`, `xmb` where `all`, `xenforo` and `smf` are instances of identification class meaning that they have to download the `URL` to identify its type which may cause redownloading of existing content if many `URL`s are passed as arguments i.e. all resources extracted from once identified type are assumed to have the same type, but passing thousands of thread `URL`s as arguments will always download them before scraping. `smf1`, `smf2`, `xenforo1`, `xenforo2` are just scrapers with assumed version.
 
-`function_name` can be: `guess`, `thread`, `forum`, `tag`, `board` (`board` being the main page of the forum where subforums are listed, and `guess` guesses the other types based on the `URL`s alone, other names are self explainatory).
+`function_name` can be: `guess`, `findroot`, `thread`, `forum`, `tag`, `board` (`board` being the main page of the forum where subforums are listed). `guess` guesses the other types based on the `URL`s alone, `findroot` find the main page of forum from any link on site (useful for downloading the whole forum from random urls), other names are self explainatory.
+
+`all`, `xenforo` and `smf` have also `identify` function that identifies site type.
+
+`findroot` and `identify` write results to file specified by the `--output` (by default set to `stdout`) option which is made specifically for these functions. `findroot` return url to board and url from which it was found, separated by `\t`. `identify` return name of scraper and url from which it was identified, separated by `\t`.
 
 Default type is set to `all.guess` and it is so efective that the only reason to not use it is to avoid redownloading from running the same command many times which is caused by identification process when using `--names id`.
 
@@ -193,7 +197,7 @@ scrapers that are instances of `ForumExtractor` class and also:
 
 that are instances of `ForumExtractorIdentify`.
 
-Instances of `ForumExtractorIdentify` identify and pass requests to `ForumExtractor` instances in them. This means that content from the first link is downloaded regardless if files with finished work exist. (So running `get_thread` method on failures using these scrapers will cause needless redownloading)
+Instances of `ForumExtractorIdentify` identify and pass requests to `ForumExtractor` instances in them. This means that content from the first link is downloaded regardless if files with finished work exist. (So running `get_thread` method on failures using these scrapers will cause needless redownloading, unless `forumscraper.Outputs.write_by_hash` is used)
 
 `Extractor` scraper has `invision`, `phpbb`, `smf`, `xenforo`, `xmb` fields that are already initialized scrapers of declared type.
 
@@ -204,11 +208,14 @@ Initialization of scrapers allows to specify `**kwargs` as settings that are kep
 All scrapers have the following methods:
 
     guess
+    findroot
     get_thread
     get_user
     get_forum
     get_tag
     get_board
+
+`ForumExtractorIdentify` scrapers additionally have `identify` method.
 
 which take as argument url, optionally already downloaded html either as `str`, `bytes` or `reliq` and state which allows to append output to previous results, and the same type of settings used on initialization of class, e.g.
 
@@ -240,7 +247,13 @@ for i in failures: #try to download failed one last time
         scraper.get_thread(x[0],state=results) #save results in 'results'
 ```
 
-The get functions return `None` in case of failure or `dict` defined as
+`identify` and `findroot` methods ignore state, even though they can take it as argument.
+
+`findroot` method returns `None` on failure or url to the root of the site (i.e. board) from any link of site, that is very useful when having some random urls and wanting to automatically download the whole forum.
+
+`identify` methods returns `None` on failure or initialized `ForumExtractor` that can scrape given url.
+
+The get functions and `guess` return `None` in case of failure or `dict` defined as
 
     {
        'data': {
