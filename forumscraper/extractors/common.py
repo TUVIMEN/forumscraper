@@ -535,7 +535,10 @@ class ForumExtractorIdentify(ForumExtractor):
         return self.get_unknown("get_board", url, rq, state, **kwargs)
 
     def identify(self, url, rq=None, state=None, **kwargs):
-        return self.get_unknown(None, url, rq, state, **kwargs)
+        r = self.get_unknown(None, url, rq, None, **kwargs)
+        if r is None:
+            return
+        return r["scraper"]
 
     def findroot(self, url, rq=None, state=None, **kwargs):
         return self.get_unknown("findroot", url, rq, None, **kwargs)

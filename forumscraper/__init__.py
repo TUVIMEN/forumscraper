@@ -74,9 +74,7 @@ def main():
             print(f"{ret}\t{url}", file=args.output)
         elif func_name == "identify":
             print(
-                "{}\t{}".format(
-                    ret if ret is None else ret["scraper"].__class__.__name__, url
-                ),
+                "{}\t{}".format(ret if ret is None else ret.__class__.__name__, url),
                 file=args.output,
             )
 
