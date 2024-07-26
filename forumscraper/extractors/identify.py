@@ -10,7 +10,7 @@ def search_cookies(func, arg, cookies):
 
 
 def identify_forum(expr, func, arg, rq, cookies):
-    if expr and rq:
+    if expr is not None and rq is not None:
         t = rq.search(expr)
         if len(t) != 0:
             return True

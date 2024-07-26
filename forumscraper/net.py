@@ -185,7 +185,12 @@ class Session(requests.Session):
         while True:
             try:
                 resp = self.get_req_try(url, settings, i != 0)
-            except RequestError:
+            except (
+                requests.ConnectTimeout,
+                requests.ConnectionError,
+                requests.ReadTimeout,
+                RequestError,
+            ):
                 resp = None
 
             if resp is None or not (
@@ -196,7 +201,11 @@ class Session(requests.Session):
                         "failed completely {} {}".format(resp.status_code, url)
                     )
                 if i >= tries:
-                    raise RequestError("failed {} {}".format(resp.status_code, url))
+                    raise RequestError(
+                        "failed {} {}".format(
+                            "connection" if resp is None else resp.status_code, url
+                        )
+                    )
                 i += 1
                 if retry_wait != 0:
                     time.sleep(retry_wait)

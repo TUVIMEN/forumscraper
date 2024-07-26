@@ -135,7 +135,7 @@ class ItemExtractor:
         rq = self.get_first_html(url, settings, state, rq)
 
         contents = self.get_contents(rq, settings, state, url, i_id)
-        if not contents:
+        if contents is None:
             return
 
         if Outputs.data in outtype:
@@ -508,11 +508,11 @@ class ForumExtractorIdentify(ForumExtractor):
             return self.handle_error(ex, url, settings)
 
         forum = self.identify_page(url, rq, cookies)
-        if not forum:
+        if forum is None:
             return
         state["scraper"] = forum
 
-        if not func_name:
+        if func_name is None:
             return state
 
         func = getattr(forum, func_name)
