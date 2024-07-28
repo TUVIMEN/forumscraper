@@ -94,7 +94,8 @@ def url_merge(ref, url):
         ref = ref[:-2]
 
     if (url[:1] != "/" and ref[-1:] != "/") or url[:2] == "./":
-        ref = re.sub(r"[^/]*$", r"", ref)
+        if ref.count("/") > 2:
+            ref = re.sub(r"[^/]*$", r"", ref)
         if url[:1] == ".":
             url = url[2:]
     else:

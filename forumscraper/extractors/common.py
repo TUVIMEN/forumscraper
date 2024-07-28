@@ -352,7 +352,10 @@ class ForumExtractor:
     ):
         settings = self.get_settings(kwargs)
         state = self.create_state(state)
-        rq = self.get_first_html(url, settings, state, rq)
+        try:
+            rq = self.get_first_html(url, settings, state, rq)
+        except self.common_exceptions as ex:
+            return self.handle_error(ex, url, settings)
 
         page = 0
         state_add_url(typekey, url, state, settings)
@@ -377,8 +380,9 @@ class ForumExtractor:
                     break
                 try:
                     rq = self.get_first_html(nexturl, settings, state)
-                except RequestError as ex:
+                except self.common_exceptions as ex:
                     self.handle_error(ex, nexturl, settings)
+                    break
         return state
 
     def get_forum(self, url, rq=None, state=None, depth=0, **kwargs):
@@ -451,15 +455,10 @@ class ForumExtractor:
             return func(url, state=state, **kwargs)
         return
 
-    def findroot(self, url, rq=None, state=None, **kwargs):
-        settings = self.get_settings(kwargs)
-        teststate = self.create_state(None)
-
+    def findroot_r(self, url, rq, teststate, settings):
         rest = url_valid(url, base=True)
         if rest is None:
             return
-
-        rq = self.get_first_html(url, settings, teststate, rq)
 
         if self.findroot_board:
             settings["output"] = Outputs.only_urls_forums
@@ -485,6 +484,29 @@ class ForumExtractor:
 
         newurl = rq.search(self.findroot_expr)
         return url_merge(url, newurl)
+
+    def findroot(self, url, rq=None, state=None, **kwargs):
+        settings = self.get_settings(kwargs)
+        teststate = self.create_state(None)
+
+        try:
+            rq = self.get_first_html(url, settings, teststate, rq)
+        except self.common_exceptions as ex:
+            return self.handle_error(ex, url, settings)
+
+        url = self.findroot_r(url, rq, teststate, settings)
+        if url is None:
+            return
+
+        url = re.sub(r"[?&](sid|PHPSESSID)=[a-zA-Z0-9]+", r"", url)
+        index1 = url.find("?")
+        index2 = url.find("&")
+        if index1 == -1 and index2 != -1:
+            url = url[:index2] + "?" + url[(index2 + 1) :]
+        url = re.sub(r"&", r"?", url, count=1)
+        if url[-1] == "?":
+            url = url[:-1]
+        return url
 
 
 class ForumExtractorIdentify(ForumExtractor):

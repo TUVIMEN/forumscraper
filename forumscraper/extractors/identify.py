@@ -45,7 +45,11 @@ def identify_xenforo2(rq, cookies):
 
 def identify_smf1(rq, cookies):
     return identify_forum(
-        r'* l@[1] m@E>"Powered by SMF 1\.[^<]*<" | "t"', None, None, rq, cookies
+        r'* title="Simple Machines Forum" m@>"Powered by SMF 1." | "t"',
+        None,
+        None,
+        rq,
+        cookies,
     )
 
 

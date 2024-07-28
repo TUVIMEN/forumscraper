@@ -120,6 +120,7 @@ class phpbb(ForumExtractor):
         self.findroot_expr = reliq.expr(
             r"""
                 {
+                    div .nav-tabs; li .tab .forums; a .nav-link,
                     div #page-footer,
                     div .f_footer,
                 }; [0] a href | "%(href)v\n" / line [1] sed "s/&amp;/\&/g" tr "\n"
