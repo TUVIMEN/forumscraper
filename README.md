@@ -8,11 +8,11 @@ forumscraper aims to be an universal, automatic and extensive scraper for forums
 
 # Supported forums
 
-    invision (only 4.x version)
-    phpbb (currently excluding 1.x version)
-    smf
-    xenforo
-    xmb
+- Invision Power Board (only 4.x version)
+- PhpBB (currently excluding 1.x version)
+- Simple Machines Forum
+- XenForo
+- XMB
 
 # Output examples
 
