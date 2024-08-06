@@ -5,6 +5,7 @@ import re
 import json
 from reliq import reliq
 
+from ..enums import Outputs
 from ..utils import dict_add, url_merge, url_merge_r
 from .identify import xenforoIdentify
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
@@ -237,7 +238,7 @@ class xenforo2(ForumExtractor):
 
                     if len(xfToken) > 0:
                         try:
-                            if not settings["nousers"]:
+                            if Outputs.users in settings["output"]:
                                 self.get_search_user(
                                     tag,
                                     state,

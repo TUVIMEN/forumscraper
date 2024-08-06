@@ -14,6 +14,12 @@ class Outputs(Flag):
 
     data = auto()
 
+    boards = auto()
+    tags = auto()
+    forums = auto()
+    threads = auto()
+    users = auto()
+
     only_urls_threads = auto()
     only_urls_forums = auto()
     urls = auto()

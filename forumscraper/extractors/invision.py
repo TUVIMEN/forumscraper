@@ -5,6 +5,7 @@ import re
 import json
 from reliq import reliq
 
+from ..enums import Outputs
 from ..utils import dict_add, get_settings, url_merge_r
 from .common import ItemExtractor, ForumExtractor
 
@@ -291,7 +292,7 @@ class invision(ForumExtractor):
                     )
 
                     user_link = post["user_link"]
-                    if not settings["nousers"] and len(user_link) > 0:
+                    if Outputs.users in settings["output"] and len(user_link) > 0:
                         try:
                             self.user.get("users", user_link, settings, state)
                         except self.common_exceptions as ex:

@@ -13,7 +13,11 @@ sys.settrace(trace)
 os.chdir("j")
 
 ex = forumscraper.Extractor(
-    output=forumscraper.Outputs.write_by_id, logger=sys.stdout, failed=sys.stderr
+    output=forumscraper.Outputs.write_by_id
+    | forumscraper.Outputs.users
+    | forumscraper.Outputs.threads,
+    logger=sys.stdout,
+    failed=sys.stderr,
 )
 
 # print(ex.get_board("https://kh-vids.net/forums/discussion.25/",output=forumscraper.Outputs.forums,accumulate=True))
@@ -95,7 +99,9 @@ def test_urls(ex, print_func, func_name, identify, *args):
 
 
 ex2 = forumscraper.Extractor(
-    output=forumscraper.Outputs.write_by_id,
+    output=forumscraper.Outputs.write_by_id
+    | forumscraper.Outputs.users
+    | forumscraper.Outputs.threads,
     logger=sys.stdout,
     failed=sys.stderr,
     max_workers=8,
@@ -177,6 +183,62 @@ def test_ignoring_hashed_before_identify():
     )  # xenforo1
 
 
+xmb_forums_list = {
+    "https://locostbuilders.co.uk/forum/2/",
+    "https://div-arena.co.uk/forum2/forumdisplay.php?fid=3",
+    "https://forum.postcrossing.com/forumdisplay.php?fid=180",
+    "https://forum.solbu.net/forumdisplay.php?fid=74",
+    "https://forums.bajanomad.com/forumdisplay.php?fid=38",
+    "https://forums.xmbforum2.com/forumdisplay.php?fid=29",
+    "https://www.sciencemadness.org/whisper/forumdisplay.php?fid=10",
+    "http://www.club-k.co.nz/Forums/forumdisplay.php?fid=111",
+    "https://forum.wendishresearch.org/forumdisplay.php?fid=413",
+    "https://www.slotracinglemans.com/newforum/forumdisplay.php?fid=21",
+    "https://forum.kapital3.org/forumdisplay.php?fid=25",
+    # "https://www.alfapower.nu/forumdisplay.php?fid=6",
+}
+
+xmb_boards_list = {
+    "https://locostbuilders.co.uk/forum/",
+    "https://div-arena.co.uk/forum2/",
+    "https://forum.postcrossing.com/",
+    "https://forum.solbu.net/",
+    "https://forums.bajanomad.com/",
+    "https://forums.xmbforum2.com/",
+    "https://www.sciencemadness.org/whisper/",
+    "https://akeet.com",
+    "http://www.club-k.co.nz/Forums/",
+    "https://computernostalgiaheaven.co.uk/",
+    "https://forum.kapital3.org/",
+    "https://forum.wendishresearch.org/",
+    "https://www.slotracinglemans.com/newforum/",
+    # "https://www.alfapower.nu/forum.php",
+}
+
+ex4 = forumscraper.Extractor(
+    output=forumscraper.Outputs.write_by_id
+    | forumscraper.Outputs.forums
+    | forumscraper.Outputs.tags
+    | forumscraper.Outputs.boards,
+    thread_pages_max=1,
+    pages_max=1,
+    pages_forums_max=1,
+    pages_threads_max=1,
+    logger=sys.stderr,
+    failed=sys.stderr,
+)
+
+
+def test_xmb_page_forums():
+    for i in xmb_forums_list:
+        ex4.xmb.get_forum(i)
+
+
+def test_xmb_page_boards():
+    for i in xmb_boards_list:
+        ex4.xmb.get_board(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
@@ -189,6 +251,8 @@ def test_ignoring_hashed_before_identify():
 # test_boards_identify()
 # test_boards_scrapers()
 # test_ignoring_hashed_before_identify()
+# test_xmb_page_forums()
+# test_xmb_page_boards()
 
 # test_identify()
 # test_findroot()

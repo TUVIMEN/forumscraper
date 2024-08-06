@@ -1,5 +1,4 @@
 import sys
-import os
 
 from .enums import Outputs, __version__
 from .extractors.extractor import *
@@ -32,6 +31,9 @@ def main():
     disturbed = {"undisturbed": True, "pedantic": False}
     if args.pedantic:
         disturbed = {"undisturbed": False, "pedantic": True}
+
+    if args.nousers:
+        args.names &= ~Outputs.users
 
     settings = {
         "output": args.names,

@@ -72,6 +72,9 @@ def url_merge(ref, url):
     if url is None or len(url) == 0:
         return
 
+    url = url.replace("&amp;", "&")
+    ref = ref.replace("&amp;", "&")
+
     if ref[:2] == "//":
         ref = "https:" + ref
 

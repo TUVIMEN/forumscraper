@@ -189,6 +189,7 @@ class Session(requests.Session):
                 requests.ConnectTimeout,
                 requests.ConnectionError,
                 requests.ReadTimeout,
+                requests.exceptions.ChunkedEncodingError,
                 RequestError,
             ):
                 resp = None

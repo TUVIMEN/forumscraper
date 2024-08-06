@@ -64,23 +64,23 @@ def state_add_url(typekey, url, state, settings):
         state["urls"][typekey].append(url)
 
 
-def item_file_check(url, path_format, i_id, settings):
+def item_file_check_r(url, path_format, i_id, output, force):
     path = None
-    outtype = settings["output"]
 
-    if path_format and Outputs.write_by_id in outtype:
+    if path_format and Outputs.write_by_id in output:
         path = path_format.format(str(i_id))
-    elif Outputs.write_by_hash in outtype:
+    elif Outputs.write_by_hash in output:
         path = strtosha256(url)
 
-    if (
-        path
-        and not settings["force"]
-        and os.path.exists(path)
-        and os.path.getsize(path) != 0
-    ):
+    if path and not force and os.path.exists(path) and os.path.getsize(path) != 0:
         return
     return path
+
+
+def item_file_check(url, path_format, i_id, settings):
+    return item_file_check_r(
+        url, path_format, i_id, settings["output"], settings["force"]
+    )
 
 
 class ItemExtractor:
@@ -145,10 +145,8 @@ class ItemExtractor:
         if path:
             with open(path, "w") as file:
                 file.write(json.dumps(contents))
-                file.close()
-
-                self.state_add_url(typekey, url, state, settings)
-                state["files"][typekey].append(path)
+            self.state_add_url(typekey, url, state, settings)
+            state["files"][typekey].append(path)
 
         return state
 
@@ -177,8 +175,10 @@ class ForumExtractor:
             "pages_max_depth": 0,
             "pages_threads_max": 0,
             "pages_forums_max": 0,
-            "output": Outputs.write_by_id | Outputs.urls,
-            "nousers": False,
+            "output": Outputs.write_by_id
+            | Outputs.urls
+            | Outputs.threads
+            | Outputs.users,
             "noreactions": False,
             "max_workers": 1,
             "undisturbed": False,
@@ -231,6 +231,9 @@ class ForumExtractor:
             return state
         return {
             "files": {
+                "boards": [],
+                "tags": [],
+                "forums": [],
                 "threads": [],
                 "users": [],
             },
@@ -242,7 +245,13 @@ class ForumExtractor:
                 "tags": [],
                 "boards": [],
             },
-            "data": {"threads": [], "users": []},
+            "data": {
+                "boards": [],
+                "tags": [],
+                "forums": [],
+                "threads": [],
+                "users": [],
+            },
             "visited": set(),
             "scraper": None,
             "scraper-method": None,
@@ -294,6 +303,8 @@ class ForumExtractor:
             return self.handle_error(ex, url, settings)
 
     def go_through_page_threads(self, refurl, rq, settings, state, expr, depth):
+        if Outputs.threads not in settings["output"]:
+            return
         urls = rq.search(expr).split("\n")[:-1]
         urls_len = len(urls)
         if (
@@ -348,6 +359,7 @@ class ForumExtractor:
         depth,
         rq=None,
         state=None,
+        process_func=None,
         **kwargs,
     ):
         settings = self.get_settings(kwargs)
@@ -360,10 +372,21 @@ class ForumExtractor:
         page = 0
         state_add_url(typekey, url, state, settings)
 
+        if process_func:
+            process_func(url, rq, settings, state)
+
         if forums_expr:
             self.go_through_page_forums(url, rq, settings, state, forums_expr, depth)
 
-        if threads_expr and Outputs.only_urls_forums not in settings["output"]:
+        if (
+            threads_expr
+            and (
+                Outputs.threads in settings["output"]
+                or Outputs.forums in settings["output"]
+                or Outputs.tags
+            )
+            and Outputs.only_urls_forums not in settings["output"]
+        ):
             while True:
                 self.go_through_page_threads(
                     url, rq, settings, state, threads_expr, depth
@@ -383,9 +406,88 @@ class ForumExtractor:
                 except self.common_exceptions as ex:
                     self.handle_error(ex, nexturl, settings)
                     break
+
+                if process_func:
+                    process_func(url, rq, settings, state)
+
         return state
 
-    def get_forum(self, url, rq=None, state=None, depth=0, **kwargs):
+    def process_forum_r(self, url, rq, settings, state):
+        pass
+
+    def process_tag_r(self, url, rq, settings, state):
+        pass
+
+    def process_board_r(self, url, rq, settings, state):
+        pass
+
+    def process_page(
+        self, url, rq, settings, state, prefix, typekey, process_func, otype
+    ):
+        output = settings["output"]
+        if otype not in output or (
+            output & Outputs.writers == 0 and Outputs.data not in output
+        ):
+            return
+
+        path = None
+
+        if output & Outputs.writers != 0:
+            path = item_file_check_r(
+                url, "", 0, Outputs.write_by_hash, settings["force"]
+            )
+            if path is None:
+                return
+            path = "{}-{}".format(prefix, path)
+
+        data = process_func(url, rq, settings, state)
+
+        if Outputs.data in output:
+            state["data"][typekey].append(data)
+        if path:
+            with open(path, "w") as file:
+                file.write(json.dumps(data))
+            state["files"][typekey].append(path)
+
+    def process_forum(self, url, rq, settings, state):
+        return self.process_page(
+            url,
+            rq,
+            settings,
+            state,
+            "f",
+            "forums",
+            self.process_forum_r,
+            Outputs.forums,
+        )
+
+    def process_tag(self, url, rq, settings, state):
+        return self.process_page(
+            url,
+            rq,
+            settings,
+            state,
+            "t",
+            "tags",
+            self.process_tag_r,
+            Outputs.tags,
+        )
+
+    def process_board(self, url, rq, settings, state):
+        return self.process_page(
+            url,
+            rq,
+            settings,
+            state,
+            "b",
+            "boards",
+            self.process_board_r,
+            Outputs.boards,
+        )
+
+    def get_forum(self, url, rq=None, state=None, depth=0, process_func=None, **kwargs):
+        if process_func is None:
+            process_func = self.process_forum
         return self.go_through_pages(
             "forums",
             url,
@@ -395,6 +497,7 @@ class ForumExtractor:
             depth,
             rq,
             state,
+            process_func,
             **kwargs,
         )
 
@@ -410,12 +513,13 @@ class ForumExtractor:
             depth,
             rq,
             state,
+            self.process_tag,
             **kwargs,
         )
 
     def get_board(self, url, rq=None, state=None, depth=0, **kwargs):
         if not self.board_forums_expr:
-            return self.get_forum(url, rq, state, depth, **kwargs)
+            return self.get_forum(url, rq, state, depth, self.process_board, **kwargs)
         return self.go_through_pages(
             "boards",
             url,
@@ -425,6 +529,7 @@ class ForumExtractor:
             depth,
             rq,
             state,
+            self.process_board,
             **kwargs,
         )
 

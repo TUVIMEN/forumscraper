@@ -5,8 +5,16 @@ import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add
+from ..utils import dict_add, url_merge
 from .common import ItemExtractor, ForumExtractor
+
+
+def dict_url_merge(url, data, fields):
+    for j in fields:
+        if len(j) == 1:
+            data[j[0]] = url_merge(url, data[j[0]])
+        else:
+            data[j[0]][j[1]] = url_merge(url, data[j[0]][j[1]])
 
 
 class xmb(ForumExtractor):
@@ -27,8 +35,8 @@ class xmb(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                .title td .nav -style | "%i" / sed "s/.* &raquo; //",
-                .path.a td .nav -style; a | "%i\n"
+                    .title td .nav -style | "%i" / sed "s/.* &raquo; //",
+                    .path.a td .nav -style; a | "%i\n"
                 """
                 )
             )
@@ -173,3 +181,187 @@ class xmb(ForumExtractor):
         if not re.search(r"&page=", url):
             return ""
         return url
+
+    def process_board_r(self, url, rq, settings, state):
+        t = json.loads(
+            rq.search(
+                r"""
+            .categories table C@"td .tablerow l@[2]"; tr -.header l@[1]; {
+                .category td .category; * c@[0] | "%i",
+                .category_link [0] a href | "%(href)v",
+
+                .state [0] td l@[1]; img src | "%(src)v",
+                [1] td l@[1]; {
+                    .description [1:2] font | "%i\a" / sed "/^&nbsp;$/d" "" "\a" tr "\a",
+                    a href; {
+                        .link [-] * l@[0] | "%(href)v",
+                        .name * c@[0] | "%i"
+                    }
+                },
+                .topics.u [2] td l@[1]; font | "%i",
+                .posts.u [3] td l@[1]; font | "%i",
+                .lastpost [4] td l@[1]; tr; {
+                    [0] td; {
+                        .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
+                        a href; {
+                            .user * l@[0] | "%i" / sed "s/.*>//;s/^by //",
+                            .user_link * l@[0] | "%(href)v"
+                        }
+                    },
+                    .link [1] td; [0] a href | "%(href)v"
+                }
+            } | """
+            )
+        )
+
+        groups = []
+        group_name = None
+        group_link = None
+        group_forums = []
+        isfirst = True
+        for i in t["categories"]:
+            if len(i["category"]):
+                if not isfirst:
+                    if group_link is None or not group_link.endswith(
+                        "misc.php?action=online"
+                    ):
+                        groups.append(
+                            {
+                                "name": group_name,
+                                "link": group_link,
+                                "forums": group_forums,
+                            }
+                        )
+                    group_forums = []
+                group_name = i["category"]
+                group_link = url_merge(url, i["category_link"])
+                continue
+
+            if len(i["name"]) == 0:
+                continue
+
+            i["link"] = url_merge(url, i["link"])
+            i["state"] = url_merge(url, i["state"])
+
+            lastpost = i["lastpost"]
+            if lastpost["user_link"] == lastpost["link"]:
+                lastpost["user_link"] = None
+            else:
+                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+            lastpost["link"] = url_merge(url, lastpost["link"])
+
+            i.pop("category")
+            i.pop("category_link")
+
+            group_forums.append(i)
+
+            isfirst = False
+
+        if len(group_forums) != 0 and (
+            group_link is None or not group_link.endswith("misc.php?action=online")
+        ):
+            groups.append(
+                {"name": group_name, "link": group_link, "forums": group_forums}
+            )
+
+        return {"format_version": "xmb-board", "url": url, "groups": groups}
+
+    def process_forum_r(self, url, rq, settings, state):
+        t = json.loads(
+            rq.search(
+                r"""
+                .threads table C@"font .mediumtxt; a href=b>\"viewthread.php?\" l@[1]"; tr -class l@[1]; {
+                    .state [0] td l@[1]; img src | "%(src)v",
+                    .icon [1] td l@[1]; img src | "%(src)v",
+                    [2] td l@[1]; {
+                        .sticky.b img | "t",
+                        [0] a href; {
+                             .link * l@[0] | "%(href)v",
+                             .title * l@[0] | "%i"
+                        },
+                        .lastpage.u u; [-] a | "%i"
+                    },
+                    [3] td l@[1]; a href; {
+                        .user * l@[0] | "%i",
+                        .user_link * l@[0] | "%(href)v"
+                    },
+                    .replies.u [4] td l@[1]; font | "%i",
+                    .views.u [5] td l@[1]; font | "%i",
+                    .lastpost [-] td l@[1]; [0] td l@[1:]; {
+                        .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
+                        a href; {
+                            .user_link * l@[0] | "%(href)v",
+                            .user * l@[0] | "%i" / sed "s/.*>//;s/^by //"
+                        }
+                    }
+                } | """
+            )
+        )
+
+        threads = []
+
+        for i in t["threads"]:
+            if len(i["link"]) == 0:
+                continue
+            if i["lastpost"]["user_link"].startswith("viewthread.php?goto=lastpost&"):
+                i["lastpost"]["user_link"] = ""
+
+            dict_url_merge(
+                url,
+                i,
+                [
+                    ["state"],
+                    ["icon"],
+                    ["link"],
+                    ["user_link"],
+                    ["lastpost", "user_link"],
+                ],
+            )
+            threads.append(i)
+
+        forums = []
+
+        f = json.loads(
+            rq.search(
+                r"""
+            .forums table C@"td .ctrtablerow l@[2]" C@"font .mediumtxt; a href=b>\"forumdisplay.php?\" l@[1]"; tr -class l@[1]; {
+                .state [0] td l@[1]; img src | "%(src)v",
+                [1] td l@[1]; {
+                    [0] a href; {
+                         .link * l@[0] | "%(href)v",
+                         .name * l@[0] | "%i"
+                    },
+                    .description [-] font | "%i"
+                },
+                .threads.u [2] td l@[1]; font | "%i",
+                .posts.u [3] td l@[1]; font | "%i",
+                .lastpost [4] td l@[1]; [0] td l@[1:]; {
+                    .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
+                    a href; {
+                        .user_link * l@[0] | "%(href)v",
+                        .user * l@[0] | "%i" / sed "s/.*>//;s/^by //"
+                    }
+                }
+            } | """
+            )
+        )
+
+        for i in f["forums"]:
+            dict_url_merge(
+                url,
+                i,
+                [
+                    ["state"],
+                    ["link"],
+                    ["lastpost", "user_link"],
+                ],
+            )
+
+            forums.append(i)
+
+        return {
+            "format_version": "xmb-forum",
+            "url": url,
+            "forums": forums,
+            "threads": threads,
+        }
