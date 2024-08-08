@@ -183,7 +183,7 @@ def test_ignoring_hashed_before_identify():
     )  # xenforo1
 
 
-xmb_forums_list = {
+xmb_forums_list = [
     "https://locostbuilders.co.uk/forum/2/",
     "https://div-arena.co.uk/forum2/forumdisplay.php?fid=3",
     "https://forum.postcrossing.com/forumdisplay.php?fid=180",
@@ -196,9 +196,9 @@ xmb_forums_list = {
     "https://www.slotracinglemans.com/newforum/forumdisplay.php?fid=21",
     "https://forum.kapital3.org/forumdisplay.php?fid=25",
     # "https://www.alfapower.nu/forumdisplay.php?fid=6",
-}
+]
 
-xmb_boards_list = {
+xmb_boards_list = [
     "https://locostbuilders.co.uk/forum/",
     "https://div-arena.co.uk/forum2/",
     "https://forum.postcrossing.com/",
@@ -213,7 +213,35 @@ xmb_boards_list = {
     "https://forum.wendishresearch.org/",
     "https://www.slotracinglemans.com/newforum/",
     # "https://www.alfapower.nu/forum.php",
-}
+]
+
+smf1_boards_list = [
+    "http://750mm.pl/index.php",
+    "http://www.saberforum.com/index.php",
+    # "https://3inchforum.nl/index.php",
+    "https://bitcointalk.org/index.php",
+    "https://councilofexmuslims.com/index.php?action=forum",
+    "https://forum.ipfon.pl/index.php",
+    "https://forum.jac.or.id/index.php",
+    "https://forum.uqm.stack.nl/index.php",
+    "https://forums.zeldaspeedruns.com/index.php",
+    "https://forumszkolne.pl/index.php",
+    "https://wiird.gamehacking.org/forum/index.php",
+]
+
+smf1_forums_list = [
+    "http://750mm.pl/index.php?board=11.0",
+    "http://www.saberforum.com/index.php?board=18.0",
+    # https://3inchforum.nl/index.php?board=88.0
+    "https://bitcointalk.org/index.php?board=5.0",
+    "https://councilofexmuslims.com/index.php?board=8.0",
+    "https://forum.ipfon.pl/index.php?board=1.0",
+    "https://forum.jac.or.id/index.php?board=9.0",
+    "https://forum.uqm.stack.nl/index.php?board=2.0",
+    "https://forums.zeldaspeedruns.com/index.php?board=2.0",
+    "https://forumszkolne.pl/szkola-ogolnie-b13.0/",
+    "https://wiird.gamehacking.org/forum/index.php?board=4.0",
+]
 
 ex4 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
@@ -239,6 +267,16 @@ def test_xmb_page_boards():
         ex4.xmb.get_board(i)
 
 
+def test_smf1_page_forums():
+    for i in smf1_forums_list:
+        ex4.smf.v1.get_forum(i)
+
+
+def test_smf1_page_boards():
+    for i in smf1_boards_list:
+        ex4.smf.v1.get_board(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
@@ -253,6 +291,8 @@ def test_xmb_page_boards():
 # test_ignoring_hashed_before_identify()
 # test_xmb_page_forums()
 # test_xmb_page_boards()
+# test_smf1_page_forums()
+# test_smf1_page_boards()
 
 # test_identify()
 # test_findroot()
