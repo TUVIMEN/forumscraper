@@ -300,7 +300,6 @@ class smf1(ForumExtractor):
             prev_index = None
             for index, j in enumerate(i["forums"]):
                 for g in j["childboards"]:
-                    prev_index = None
                     g["link"] = url_merge(url, g["link"])
 
                 if len(j["link"]) == 0 or j["link"].find(";sort=") != -1:
