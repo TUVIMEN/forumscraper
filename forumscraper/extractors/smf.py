@@ -130,7 +130,7 @@ class smf1(ForumExtractor):
         )
 
     def get_next_page(self, rq):
-        return rq.search(r'[0] b ~[0] a .navPages href | "%(href)v"')
+        return rq.search(r'b m@B>"[0-9]"; [0] a .navPages href ssub@ | "%(href)v"')
 
     def process_board_r(self, url, rq, settings, state):
         return self.process_forum_r(url, rq, settings, state)

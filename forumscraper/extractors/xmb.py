@@ -175,7 +175,7 @@ class xmb(ForumExtractor):
         url = rq.search(
             r'''td .multi; {
                 [0] a href rel=next | "%(href)v\n",
-                [0] strong ~[0] u; a href | "%(href)v\n"
+                strong; [0] u ssub@; a href | "%(href)v\n"
             } / sed "s/&amp;/\&/g;q" tr "\n"'''
         )
         if not re.search(r"&page=", url):
