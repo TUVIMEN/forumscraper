@@ -510,6 +510,251 @@ class smf2(ForumExtractor):
             r'div .pagelinks [0]; E>(a|span|strong) m@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"'
         )[:-1]
 
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
+
+    def process_forum_r(self, url, rq, settings, state):
+        t = json.loads(
+            rq.search(
+                r"""
+                    .categories {
+                        div #boardindex_table; * #b>category_,
+                        div #bodyarea; div .categoryframe child@,
+                        div #E>board_[0-9]+_childboards,
+                        div #childboards; table .boardsframe child@
+                    }; {
+                        {
+                            * #E>category_[0-9]+,
+                            div .categoryframe self@,
+                            div #E>board_[0-9]+_childboards self@,
+                            table .boardsframe self@; [0] tr child@
+                        }; [0] ( h3 )( td ) .catbg; {
+                            .name * self@ | "%t" trim,
+                            .description [0] div .desc ssub@ | "%i"
+                        },
+                        .forums {
+                            {
+                                * #E>category_[0-9]+_boards,
+                                div .categoryframe self@; table .boardsframe child@
+                            } ( tr )( div ) -style child@,
+                            table .boardsframe self@; [1:] tr child@,
+                            div #E>board_[0-9]+_childboards self@; * #E>board_[0-9]+,
+                        }; {
+                            .status [0] * ( .b>icon )( .board_icon ); [0] ( a )( img )( span ) title | "%(title)v",
+                            * .info child@; {
+                                [0] a href; {
+                                    .link * self@ | "%(href)v",
+                                    .name * self@ | "%i"
+                                },
+                                .description [0] ( p -id -.moderators )( div .board_description ) child@ | "%i",
+                            },
+                            .childboards * .children; a; {
+                                .link * self@ | "%(href)v",
+                                .name * self@ | "%i",
+                                .status * self@ | "%(title)v" sed "s/ (.*//",
+                                .topics.u * self@ | "%(title)v" sed "s/.* (//; s/,.*//",
+                                .posts.u * self@ | "%(title)v" sed "s/.*,//"
+                            } | ,
+                            .moderators * .moderators; a href; {
+                                .user_link * self@ | "%(href)v",
+                                .user * self@ | "%i"
+                            } | ,
+                            * .e>stats child@; { p child@, * self@ }; [0] * self@; {
+                                .posts.u * self@ | "%i" sed 's/<.*//;s/,//g',
+                                .topics.u * self@ | "%i" sed 's/.*>//;s/,//g'
+                            },
+                            .posts2.u [0] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
+                            .topics2.u [1] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
+                            .s * .lastpost child@; { p child@, * self@ }; [0] * self@; {
+                                .lastpost * self@ -C@"[0] span .postby"; {
+                                    [0] a href; {
+                                        .user * self@ | "%i",
+                                        .user_link * self@ | "%(href)v"
+                                    },
+                                    [1] a href; {
+                                        .title * self@ | "%(title)v",
+                                        .link * self@ | "%(href)v"
+                                    },
+                                    .date * self@ | "%t" tr "\n\t\r" trim sed "s/.*>//; s/([^ ]* ){3}//; s/^ *at //" "E"
+                                },
+                                .lastpost2 * self@ C@"[0] span .postby"; {
+                                    [0] a href; {
+                                        .title * self@ | "%(title)v",
+                                        .link * self@ | "%(href)v"
+                                    },
+                                    [1] a href; {
+                                        .user * self@ | "%i",
+                                        .user_link * self@ | "%(href)v"
+                                    },
+                                    .date * self@ | "%t" trim sed "s/^at //"
+                                }
+                            }
+                        } |
+                    } | ,
+                    .threads.u div #messageindex; {
+                        table ( .table_grid )( .boardsframe ) child@; tbody child@; tr c@[4:] child@,
+                        div #topic_container child@; div child@
+                    }; {
+                        .type1 * ( .icon1 )( .board_icon ) child@; img src | "%(src)v",
+                        .type2 * .icon2 child@; img src | "%(src)v",
+                        * ( .subject )( .info ) child@; {
+                            [0] a href; {
+                                .title * self@ | "%i",
+                                .link * self@ | "%(href)v"
+                            },
+                            [1] a href; {
+                                .user * self@ | "%t" trim,
+                                .user_link * self@ | "%(href)v"
+                            },
+                            .lastpage.u [-] a ( .navPages )( .nav_page ) c@[0] m@v>"All" | "%i",
+                            .icons.a {
+                                * class self@,
+                                div .icons; span .main_icons
+                            }; * self@ | "%(class)v" / trim tr " " "\n" sed "/^subject$/d; /^windowbg/d; /^info$/d; /^info_block$/d; /^main_icons$/d; /^info_blockmain_icons$/d; /^lockmain_icons$/d",
+                            .icons2.a img id child@ | "%(src)v\n" sed 's/.*\///; s/\..*//'
+                        },
+                        td .starter child@; a; {
+                            .user2 | "%i",
+                            .user_link2 * self@ | "%(href)v"
+                        },
+                        {
+                            td .stats child@,
+                            * .board_stats child@; p
+                        }; {
+                            .replies.u * self@ | "%i" sed "s/<.*//;s/,//g;q",
+                            .views.u * self@ | "%i" tr "\n\t\r," sed "s/.*>//"
+                        },
+                        .replies2.u td .replies c@[0] child@ | "%i" tr ",",
+                        .views2.u td .views c@[0] child@ | "%i" tr ",",
+                        .s * .lastpost child@; {
+                            .lastpost [0] v>p child@; * rparent@; {
+                                .link [0] a href | "%(href)v",
+                                [1] a href; {
+                                    .user * self@ | "%i",
+                                    .user_link * self@ | "%(href)v"
+                                },
+                                .date {
+                                    span .smalltext child@,
+                                    * self@
+                                }; [0] * self@ | "%i" tr "\n\t\r" sed "s/<br.*//; s/.*<\/a>//; s/<[^>]*>//g; s/ by //" trim
+                            },
+                            .lastpost2 p child@; {
+                                [0] a href; {
+                                    .date * self@ | "%T" trim,
+                                    .link * self@ | "%(href)v"
+                                },
+                                [1] a href; {
+                                    .user * self@ | "%i",
+                                    .user_link * self@ | "%(href)v"
+                                }
+                            }
+                        }
+                    } |
+                """
+            )
+        )
+
+        categories = []
+
+        prev_category_index = None
+        prev_forums_index = None
+
+        for i in t["categories"]:
+            forums = i["forums"]
+
+            if len(i["name"]) != 0:
+                categories.append(i)
+                prev_category_index = len(categories) - 1
+                prev_forums_index = None
+                i["forums"] = []
+
+            if len(forums) == 0 or prev_category_index is None:
+                continue
+
+            out_forums = []
+
+            for j in forums:
+                for g in j["childboards"]:
+                    g["link"] = url_merge(url, g["link"])
+
+                if len(j["link"]) == 0:
+                    if prev_forums_index is not None and len(j["childboards"]) != 0:
+                        out_forums[prev_forums_index]["childboards"] += j["childboards"]
+                    continue
+
+                j["link"] = url_merge(url, j["link"])
+                for g in j["moderators"]:
+                    g["user_link"] = url_merge(url, g["user_link"])
+
+                redirects = 0
+
+                lastpost = j["s"]["lastpost"]
+                if len(lastpost["user_link"]) == 0 and len(lastpost["link"]) == 0:
+                    lastpost = j["s"]["lastpost2"]
+                j.pop("s")
+
+                if len(lastpost["user_link"]) == 0 and len(lastpost["link"]) == 0:
+                    redirects = j["posts"]
+                    j["posts"] = 0
+                    j["topics"] = 0
+                j["redirects"] = redirects
+
+                lastpost["link"] = url_merge(url, lastpost["link"])
+                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+                j["lastpost"] = lastpost
+
+                if j["posts"] == 0:
+                    j["posts"] = j["posts2"]
+                if j["topics"] == 0:
+                    j["topics"] = j["topics"]
+                j.pop("posts2")
+                j.pop("topics2")
+
+                out_forums.append(j)
+                prev_forums_index = len(out_forums) - 1
+
+            categories[prev_category_index]["forums"] += out_forums
+
+        threads = t["threads"]
+
+        for i in threads:
+            if len(i["link"]) == 0:
+                continue
+            i["link"] = url_merge(url, i["link"])
+            i["type1"] = url_merge(url, i["type1"])
+            i["type2"] = url_merge(url, i["type2"])
+
+            if len(i["user_link"]) == 0:
+                i["user"] = i["user2"]
+                i["user_link"] = i["user_link2"]
+            i.pop("user2")
+            i.pop("user_link2")
+            i["user_link"] = url_merge(url, i["user_link"])
+
+            i["icons"] += i["icons2"]
+            i.pop("icons2")
+
+            if i["replies"] == 0:
+                i["replies"] = i["replies2"]
+                i["views"] = i["views2"]
+            i.pop("replies2")
+            i.pop("views2")
+
+            lastpost = i["s"]["lastpost"]
+            if len(lastpost["link"]) == 0 and len(lastpost["user_link"]) == 0:
+                lastpost = i["s"]["lastpost2"]
+            i.pop("s")
+            lastpost["link"] = url_merge(url, lastpost["link"])
+            lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+            i["lastpost"] = lastpost
+
+        return {
+            "format_version": "smf2-board",
+            "url": url,
+            "categories": categories,
+            "threads": threads,
+        }
+
 
 class smf(ForumExtractorIdentify):
     def __init__(self, session=None, **kwargs):

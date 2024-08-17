@@ -243,6 +243,56 @@ smf1_forums_list = [
     "https://wiird.gamehacking.org/forum/index.php?board=4.0",
 ]
 
+smf2_boards_list = [
+    "https://forums.soldat.pl/index.php?action=forum",
+    "https://www.chemicalforums.com/index.php",
+    "https://www.nukeworker.com/forum/index.php",
+    "https://forum.nasm.us/",
+    "https://forum.coppermine-gallery.net/",
+    "https://www.norotors.com/index.php",
+    "https://forums.camerabits.com/",
+    "https://czfirearms.us",
+    "https://www.theflatearthsociety.org/forum/index.php",
+    "https://www.tropicalfishforums.co.uk/index.php?action=forum",
+    "https://forum.kuntsevo.com/",
+    "https://naijacrux.com/index.php",
+    "https://arizonagunowners.com/",
+    # "http://bagnasadobre.org.pl/",
+    "http://forum.33cats.ru/",
+    "https://www.simplemachines.org/community/index.php",
+    "https://forums.cadillaclasalle.club/",
+    "https://tardisbuilders.com/",
+    "https://forums.cyotek.com/",
+    "https://tigerpedia.tigertms.com/",
+    "https://forums.2000ad.com/",
+    "https://aleforum.pl/",
+]
+
+smf2_forums_list = [
+    "https://forums.soldat.pl/index.php?board=4.0",
+    "https://www.chemicalforums.com/index.php?board=3.0",
+    "https://www.nukeworker.com/forum/index.php/board,138.0.html",
+    "https://forum.nasm.us/index.php?board=2.0",
+    "https://forum.coppermine-gallery.net/index.php/board,90.0.html",
+    "https://www.norotors.com/index.php?board=8.0",
+    "https://forums.camerabits.com/index.php?board=4.0",
+    "https://czfirearms.us/index.php?board=28.0",
+    "https://www.theflatearthsociety.org/forum/index.php?board=18.0",
+    "https://www.tropicalfishforums.co.uk/index.php/board,62.0.html",
+    "https://forum.kuntsevo.com/index.php?board=1.0",
+    "https://naijacrux.com/index.php?board=5.0",
+    "https://arizonagunowners.com/index.php/board,2.0.html",
+    # "http://bagnasadobre.org.pl/index.php?board=13.0",
+    "http://forum.33cats.ru/index.php?board=3.0",
+    "https://www.simplemachines.org/community/index.php?board=254.0",
+    "https://forums.cadillaclasalle.club/index.php?board=10.0",
+    "https://tardisbuilders.com/index.php?board=20.0",
+    "https://forums.cyotek.com/cyotek-palette-editor/",
+    "https://tigerpedia.tigertms.com/index.php?board=4.0",
+    "https://forums.2000ad.com/index.php?board=3.0",
+    "https://aleforum.pl/index.php?board=4.0",
+]
+
 ex4 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.forums
@@ -277,6 +327,16 @@ def test_smf1_page_boards():
         ex4.smf.v1.get_board(i)
 
 
+def test_smf2_page_forums():
+    for i in smf2_forums_list:
+        ex4.smf.v2.get_forum(i)
+
+
+def test_smf2_page_boards():
+    for i in smf2_boards_list:
+        ex4.smf.v2.get_board(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
@@ -289,10 +349,13 @@ def test_smf1_page_boards():
 # test_boards_identify()
 # test_boards_scrapers()
 # test_ignoring_hashed_before_identify()
+
 # test_xmb_page_forums()
 # test_xmb_page_boards()
 # test_smf1_page_forums()
 # test_smf1_page_boards()
+# test_smf2_page_forums()
+# test_smf2_page_boards()
 
 # test_identify()
 # test_findroot()
