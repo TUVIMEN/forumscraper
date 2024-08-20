@@ -5,7 +5,7 @@ import re
 import json
 from reliq import reliq
 
-from ..utils import dict_add, url_merge_r
+from ..utils import dict_add, url_merge_r, url_merge
 from .common import ItemExtractor, ForumExtractor
 
 
@@ -143,3 +143,152 @@ class phpbb(ForumExtractor):
         if not re.search(r"&start=[0-9]+$", url):
             return ""
         return url
+
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
+
+    def process_forum_r(self, url, rq, settings, state):
+        t = json.loads(
+            rq.search(
+                r"""
+                * #page-body; {
+                    .categories div .forabg; {
+                        [0] ul -.forums .topiclist; dt; { a, * self@ }; [0] * self@; {
+                            .name * self@ | "%t",
+                            .link * self@ | "%(href)v"
+                        },
+                        .forums ul .forums .topiclist; li child@; dl child@; {
+                            .state {
+                                * title self@ | "%(title)v\a",
+                                * style=b>background-image: self@ | "%(style)v" sed "s/.*url(//;s/);.*//; s/.*\///; s/\..*//",
+                                * class self@ | "%(class)v" tr ' ' '\n' sed '/^icon$/d; /^row-item$/d; /^elegant-row$/d'
+                            } / sed "s/\a.*//" trim,
+                            dt child@; {
+                                [0] a href; {
+                                    .name * self@ | "%i",
+                                    .link * self@ | "%(href)v"
+                                },
+                                .icon span .forum-image; img src | "%(src)v",
+                                .description * self@ | "%i" tr "\n\t\r" sed "/<br *\/>/!d; s/.*-->//; s/[^<]*(<br *\/?>(.*)|<)/\2/g; s/<strong>.*//; s/<br *\/?>/\n/g; s/<span[^>]*>([^<]*)<\/span>/\1/g; s/<div.*//" "E" trim,
+                                .childboards a .subforum; {
+                                    .state * self@ | "%(title)v",
+                                    .name * self@ | "%t" trim,
+                                    .link * self@ | "%(href)v"
+                                } | ,
+                                .moderators strong c@[0] m@b>Mod m@e>: l@[1:2]; a -.subforum ssub@; {
+                                    .user * self@ | "%i",
+                                    .user_link * self@ | "%(href)v"
+                                } | ,
+                                div .forum-statistics; {
+                                    .topics2.u [0] span .value | "%i",
+                                    .posts2.u [1] span .value | "%i",
+                                }
+                            },
+                            .topics.u dd .b>topics child@ | "%t" tr " ,",
+                            .posts.u dd .b>posts child@ | "%t" tr " ,",
+                            .redirects.u dd .redirect | "%T",
+                            .lastpost dd .b>lastpost child@; span child@; {
+                                a ( .b>username )( -class ) c@[0]; {
+                                    .user * self@ | "%i",
+                                    .user_link * self@ | "%(href)v"
+                                },
+                                [0] a ( .lastsubject )( c@[1:] ); {
+                                    .title * self@ | "%(title)v",
+                                    .link * self@ | "%(href)v"
+                                },
+                                .date {
+                                    time datetime | "%(datetime)v\a",
+                                    * self@ | "%i" tr "\n\t\r" sed "/<br/!d; s/.*<br *\/?>//; s/^on //; s/&nbsp;//g" "E"
+                                } / sed "s/\a.*//" trim
+                            }
+                        } |
+                    } | ,
+                    .threads div .forumbg; {
+                        .name ul .topiclist -.topics; [0] dt | "%T" trim,
+                        .threads ul .topiclist .topics; li child@; dl child@; {
+                            .state {
+                                * title self@ | "%(title)v\a",
+                                * style=b>background-image: self@ | "%(style)v" sed "s/.*url(//;s/);.*//; s/.*\///; s/\..*//",
+                                * class self@ | "%(class)v" tr ' ' '\n' sed '/^icon$/d; /^row-item$/d; /^elegant-row$/d'
+                            } / sed "s/\a.*//" trim,
+                            dt child@; {
+                                [0] a href; {
+                                    .title * self@ | "%i",
+                                    .link * self@ | "%(href)v"
+                                },
+                                .lastpage.u * .pagination; [-] a c@[0] m@B>"[0-9]" | "%i",
+                                [-] a href c@[0]; {
+                                    .user * self@ | "%i",
+                                    .user_link * self@ | "%(href)v"
+                                },
+                                .date {
+                                    time datetime | "%(datetime)v\a",
+                                    {
+                                        * self@ | "%i",
+                                        div .topic-poster | "%t"
+                                    } / tr "\n\t\r" sed "s/.*>//; s/^on //; s/&nbsp;//g; s/.*&raquo;//" "E"
+                                } / sed "s/\a.*//" trim
+                            },
+                            .posts.u dd .posts | "%i",
+                            .views.u dd .views | "%i",
+                            .lastpost dd .b>lastpost child@; span child@; {
+                                a ( .b>username )( -class ) c@[0]; {
+                                    .user * self@ | "%i",
+                                    .user_link * self@ | "%(href)v"
+                                },
+                                .link [0] a ( .lastsubject )( c@[1:] ) | "%(href)v",
+                                .date {
+                                    time datetime | "%(datetime)v\a",
+                                    * self@ | "%i" tr "\n\t\r" sed "/<br/!d; s/.*<br *\/?>//; s/^on //; s/&nbsp;//g" "E"
+                                } / sed "s/\a.*//" trim
+                            }
+                        } |
+                    } |
+                }
+                """
+            )
+        )
+
+        categories = t["categories"]
+
+        for i in t["categories"]:
+            i["link"] = url_merge(url, i["link"])
+
+            for j in i["forums"]:
+                for g in j["childboards"]:
+                    g["link"] = url_merge(url, g["link"])
+
+                j["link"] = url_merge(url, j["link"])
+                for g in j["moderators"]:
+                    g["user_link"] = url_merge(url, g["user_link"])
+
+                lastpost = j["lastpost"]
+                lastpost["link"] = url_merge(url, lastpost["link"])
+                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+
+                if j["posts"] == 0:
+                    j["posts"] = j["posts2"]
+                if j["topics"] == 0:
+                    j["topics"] = j["topics"]
+                j.pop("posts2")
+                j.pop("topics2")
+
+                j["icon"] = url_merge(url, j["icon"])
+
+        threads = t["threads"]
+
+        for i in threads:
+            for j in i["threads"]:
+                j["link"] = url_merge(url, j["link"])
+                j["user_link"] = url_merge(url, j["user_link"])
+
+                lastpost = j["lastpost"]
+                lastpost["link"] = url_merge(url, lastpost["link"])
+                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+
+        return {
+            "format_version": "phpbb-2+-board",
+            "url": url,
+            "categories": categories,
+            "threads": threads,
+        }

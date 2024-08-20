@@ -362,7 +362,7 @@ class smf1(ForumExtractor):
                 icons[j] = url_merge(url, g)
 
         return {
-            "format_version": "smf1-board",
+            "format_version": "smf-1-board",
             "url": url,
             "categories": categories,
             "threads": threads,
@@ -749,7 +749,7 @@ class smf2(ForumExtractor):
             i["lastpost"] = lastpost
 
         return {
-            "format_version": "smf2-board",
+            "format_version": "smf-2-board",
             "url": url,
             "categories": categories,
             "threads": threads,

@@ -293,6 +293,39 @@ smf2_forums_list = [
     "https://aleforum.pl/index.php?board=4.0",
 ]
 
+phpbb_forums_list = [
+    "http://askcodeman.com/viewforum.php?f=19",
+    "https://forum.anime-ultime.net/phpBB3/viewforum.php?f=48",
+    "https://forum.asustor.com/viewforum.php?f=33",
+    "https://forum.avmania.zive.cz/forum-1713/Dalsi-zarizeni-a-komponenty.html",
+    "https://forum.mobilmania.zive.cz/forum-10/Dalsi-znacky-mobilnich-telefonu.html",
+    "https://forum.motec.com.au/viewforum.php?f=11",
+    "https://fungi.pl/forum/viewforum.php?f=34",
+    "https://garaz.autorevue.cz/forum-818/O-Garazi-a-AutoRevue-cz.html",
+    "https://stilldcf.com/forums/viewforum.php?f=3",
+    "https://www.ao-universe.com/forum/viewforum.php?f=25",
+    "https://www.eldemore.com/viewforum.php?f=25",
+    "https://www.eurobabeforum.com/viewforum.php?f=48",
+    "https://www.phpbb.pl/viewforum.php?f=156",
+    "https://forum.asustor.com/viewforum.php?f=42",
+]
+
+phpbb_boards_list = [
+    "http://askcodeman.com/index.php",
+    "http://forum.anime-ultime.net/phpBB3/index.php",
+    "https://forum.asustor.com/index.php",
+    "https://forum.avmania.zive.cz/index.php",
+    "https://forum.mobilmania.zive.cz/index.php",
+    "https://forum.motec.com.au/index.php",
+    "https://fungi.pl/forum/index.php",
+    "https://garaz.autorevue.cz/index.php",
+    "https://stilldcf.com/forums/index.php",
+    "https://www.ao-universe.com/forum/index.php",
+    "https://www.eldemore.com/index.php",
+    "https://www.eurobabeforum.com/index.php",
+    "http://www.phpbb.pl/index.php",
+]
+
 ex4 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.forums
@@ -337,6 +370,16 @@ def test_smf2_page_boards():
         ex4.smf.v2.get_board(i)
 
 
+def test_phpbb_page_forums():
+    for i in phpbb_forums_list:
+        ex4.phpbb.get_forum(i)
+
+
+def test_phpbb_page_boards():
+    for i in phpbb_boards_list:
+        ex4.phpbb.get_board(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
@@ -356,6 +399,8 @@ def test_smf2_page_boards():
 # test_smf1_page_boards()
 # test_smf2_page_forums()
 # test_smf2_page_boards()
+# test_phpbb_page_forums()
+# test_phpbb_page_boards()
 
 # test_identify()
 # test_findroot()
