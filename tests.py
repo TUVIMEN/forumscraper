@@ -326,6 +326,48 @@ phpbb_boards_list = [
     "http://www.phpbb.pl/index.php",
 ]
 
+xenforo1_boards_list = [
+    "https://bmwfaq.org/",
+    "https://boards.theforce.net/",
+    "https://bukkit.org/forums/",
+    "https://fanficslandia.com/",
+    "https://forum.xnxx.com/",
+    "https://forums.digitalpoint.com/",
+    "https://forums.stevehoffman.tv/",
+    "https://kh-vids.net/forums/",
+    "https://www.bigsoccer.com/forums/",
+    "https://www.hipforums.com/forum/",
+    "https://www.jalopyjournal.com/forum/",
+    "https://www.nucastle.co.uk/",
+    "https://www.the-mainboard.com/index.php",
+    "https://www.tigerfan.com/",
+    "https://www.forumhouse.ru/forums",
+    "https://xxx-files.org/",
+    "https://audiosex.pro/",
+    "https://damskiiclub.ru/",
+]
+
+xenforo1_forums_list = [
+    "https://bmwfaq.org/forums/moteros-bmw-faq-club.74/",
+    "https://boards.theforce.net/forums/rules-announcements.10719/",
+    "https://bukkit.org/forums/plugin-development.5/",
+    "https://fanficslandia.com/foro/actividades-y-concursos.19/",
+    "https://forum.xnxx.com/forums/sex-stories.6/",
+    "https://forums.digitalpoint.com/forums/google.5/",
+    "https://forums.stevehoffman.tv/forums/music-corner.2/",
+    "https://kh-vids.net/forums/introductions-departures.23/",
+    "https://www.bigsoccer.com/forums/concacaf.23/",
+    "https://www.hipforums.com/forum/forum/38-politics/",
+    "https://www.jalopyjournal.com/forum/forums/classifieds.45/",
+    "https://www.nucastle.co.uk/forums/music.7/",
+    "https://www.the-mainboard.com/index.php?forums/the-mainboard.4/",
+    "https://www.tigerfan.com/forums/lsu-recruiting.6/",
+    "https://www.forumhouse.ru/forums/25/",
+    "https://xxx-files.org/forums/pissing-and-squirting.33/",
+    "https://audiosex.pro/forums/dj.68/",
+    "https://damskiiclub.ru/forums/mir-zhenschiny.154/",
+]
+
 ex4 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.forums
@@ -380,6 +422,16 @@ def test_phpbb_page_boards():
         ex4.phpbb.get_board(i)
 
 
+def test_xenforo1_page_forums():
+    for i in xenforo1_forums_list:
+        ex4.xenforo.v1.get_forum(i)
+
+
+def test_xenforo1_page_boards():
+    for i in xenforo1_boards_list:
+        ex4.xenforo.v1.get_board(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
@@ -401,6 +453,8 @@ def test_phpbb_page_boards():
 # test_smf2_page_boards()
 # test_phpbb_page_forums()
 # test_phpbb_page_boards()
+# test_xenforo1_page_forums()
+# test_xenforo1_page_boards()
 
 # test_identify()
 # test_findroot()

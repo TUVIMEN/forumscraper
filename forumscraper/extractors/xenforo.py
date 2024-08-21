@@ -530,6 +530,125 @@ class xenforo1(ForumExtractor):
     def get_tag(self, url, rq=None, **kwargs):
         return self.get_forum(url, rq, **kwargs)
 
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
+
+    def process_forum_r(self, url, rq, settings, state):
+        t = json.loads(
+            rq.search(
+                r"""
+                .categories ol #forums; li child@; {
+                    [0] div .nodeInfo child@; div .categoryText; {
+                        * .nodeTitle; a; {
+                            .name * self@ | "%i",
+                            .link * self@ | "%(href)v"
+                        },
+                        .description * .nodeDescription | "%i",
+                    },
+                    .forums {
+                        ol .nodeList l@[1:2]; li child@,
+                        * self@ -C@"[0] ol .nodeList l@[1:2]"
+                    }; div .nodeInfo [0] child@; {
+                        .state span .nodeIcon title child@ | "%(title)v",
+                        .icon span .nodeIcons; [0] img | "%(src)v",
+                        div .nodeText child@; {
+                            * .nodeTitle; [0] a; {
+                                .name * self@ | "%i",
+                                .link * self@ | "%(href)v"
+                            },
+                            .description * #b>nodeDescription child@ | "%i",
+                            div .nodeStats; dd; {
+                                .topics.u [0] * self@ | "%i" tr ",. ",
+                                .posts.u [1] * self@ | "%i" tr ",. "
+                            },
+                        },
+                        .feed div .nodeControls; a .feedIcon | "%(href)v",
+                        .childboards li .node .level-n; a; {
+                            .name * self@ | "%i",
+                            .link * self@ | "%(href)v"
+                        } | ,
+                        .lastpost div .nodeLastPost; {
+                            * .lastThreadTitle; [0] a; {
+                                .title * self@ | "%i",
+                                .link * self@ | "%(href)v"
+                            },
+                            * .lastThreadMeta; {
+                                * .lastThreadUser; [0] a; {
+                                    .user * self@ | "%i",
+                                    .user_link * self@ | "%(href)v"
+                                },
+                                .date * .DateTime | "%(title)v\a%(data-time)v" sed "s/^\a//g; s/\a.*//;"
+                            }
+                        }
+                    } |
+                } | ,
+                .threads ol .discussionListItems; li id=b>thread-; {
+                    .avatar div .posterAvatar; [0] img | "%(src)v",
+                    div .main child@; div .titleText child@; {
+                        .icons.a div .iconKey child@; span class child@ | "%(class)v\n" / tr " " "\n",
+                        * .title child@; {
+                            .label [0] a .prefixLink; * c@[0] | "%i",
+                            [0] a -.prefixLink; {
+                                .title * self@ | "%i",
+                                .link * self@ | "%(href)v"
+                            }
+                        },
+                        [0] a .username; {
+                            .user * self@; [0] * c@[0] | "%i",
+                            .user_link * self@ | "%(href)v"
+                        },
+                        .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;",
+                        .lastpage.u * .itemPageNav; [-] a href | "%i"
+                    },
+                    div .stats child@; {
+                        .replies.u [0] dd | "%i" tr "., ",
+                        .views.u [1] dd | "%i" tr "., "
+                    },
+                    .lastpost div .lastPost child@; {
+                        [0] a .username; {
+                            .user * self@; * c@[0] | "%i",
+                            .user_link * self@ | "%(href)v"
+                        },
+                        .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;"
+                    }
+                } |
+                """
+            )
+        )
+
+        categories = t["categories"]
+
+        for i in t["categories"]:
+            i["link"] = url_merge(url, i["link"])
+
+            for j in i["forums"]:
+                for g in j["childboards"]:
+                    g["link"] = url_merge(url, g["link"])
+
+                j["link"] = url_merge(url, j["link"])
+
+                lastpost = j["lastpost"]
+                lastpost["link"] = url_merge(url, lastpost["link"])
+                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+
+                j["icon"] = url_merge(url, j["icon"])
+
+        threads = t["threads"]
+
+        for i in threads:
+            i["link"] = url_merge(url, i["link"])
+            i["user_link"] = url_merge(url, i["user_link"])
+
+            lastpost = i["lastpost"]
+            lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+
+        return {
+            "format_version": "xenforo-1-board",
+            "url": url,
+            "categories": categories,
+            "threads": threads,
+        }
+
 
 class xenforo(ForumExtractorIdentify):
     def __init__(self, session=None, **kwargs):

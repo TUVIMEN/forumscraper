@@ -86,7 +86,7 @@ def url_merge(ref, url):
         refprotocol = refbase[: refbase.index(":")]
 
     if url[:2] == "//":
-        url = refprotocol + ":" + url
+        return refprotocol + ":" + url
     if url_valid(url) is not None or url[:11] == "data:image/":
         return url
 
