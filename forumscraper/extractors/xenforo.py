@@ -29,6 +29,23 @@ guesslist = [
 ]
 
 
+def conv_short_size(string):
+    letter = string[-1:]
+    num = 0
+    try:
+        if letter.isdigit():
+            num = float(string)
+        else:
+            num = float(string[:-1])
+            if letter == "M":
+                num *= 1000000
+            elif letter == "K":
+                num *= 1000
+    except ValueError:
+        pass
+    return int(num)
+
+
 class xenforo2(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
@@ -367,6 +384,173 @@ class xenforo2(ForumExtractor):
             return ""
         return url
 
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
+
+    def process_tag_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
+
+    def process_forum_r(self, url, rq, settings, state):
+        t = json.loads(
+            rq.search(
+                r"""
+                .categories div .block -b>data-widget- -.thNodes__nodeList -data-type=thread; {
+                    [0] * ( .block-header )( .section-header ); [0] * c@[0]; {
+                        .name * self@ | "%i",
+                        .link * self@ | "%(href)v"
+                    },
+                    .forums [0] div ( .block-body )( .node-list ); div .node l@[1:2]; {
+                        .icon [0] span .node-icon; {
+                            i | "%(class)v" sed "s/.* //",
+                            span .icon | "%(class)v" tr " " "\n" sed "/^icon$/d;/^forum$/d;s/node--//" trim,
+                        },
+                        * .node-main; {
+                            * .node-title; [0] a; {
+                                .name * self@ | "%i",
+                                .link * self@ | "%(href)v"
+                            },
+                            .description div .node-description | "%i",
+                            .childboards [0] ol ( .node-subNodeFlatList )( .subNodeMenu ); a .subNodeLink; {
+                                .icon {
+                                    * self@ | "%(class)v\a" sed "s/.*--//; /^subNodeLink/d",
+                                    i | "%(class)v" sed "s/ subNodeLink-icon//; s/.* //"
+                                } / sed "s/\a.*//",
+                                .name * self@ | "%t" trim,
+                                .link * self@ | "%(href)v"
+                            } |
+                        },
+                        div ( .node-meta )( .node-stats ); {
+                            dd; {
+                                .topics [0] * self@ | "%i",
+                                .posts [1] * self@ | "%i"
+                            },
+                            span title; {
+                                .posts2.u [0] * self@ | "%(title)v" tr ",. ",
+                                .views.u [1] * self@ | "%(title)v" tr ",. "
+                            }
+                        },
+                        .placeholder [0] * .node-extra-placeholder | "%i",
+                        .lastpost div .node-extra; {
+                            .avatar div .node-extra-icon; [0] img | "%(src)v",
+                            * .node-extra-title; [0] a; {
+                                .title * self@ | "%(title)v",
+                                .link * self@ | "%(href)v",
+                                .label [0] span .label | "%i"
+                            },
+                            .date time .node-extra-date datetime | "%(datetime)v",
+                            * .node-extra-user; [0] a; {
+                                .user [0] * c@[0] | "%i",
+                                .user_link * self@ | "%(href)v"
+                            }
+                        },
+                        .date2 [0] * .last-time; time datetime | "%(datetime)v"
+                    } |
+                } | ,
+                .threads div .structItem--thread; {
+                    .votes.u span .contentVote-score | "%i",
+                    .avatar div .structItem-iconContainer; [0] img src | "%(src)v",
+                    div .structItem-cell--main; {
+                        .icons.a {
+                            ul .structItem-statuses; span; {
+                                img title | "%(title)v\n",
+                                * self@ | "%t\n" sed "/^$/d",
+                            },
+                            svg title | "%(title)v\n"
+                        },
+                        .label span .label | "%t",
+                        * .structItem-title; [-] a -.labelLink; {
+                            .title * self@ | "%i",
+                            .link * self@ | "%(href)v"
+                        },
+                        [0] a .username; {
+                            .user * c@[0] | "%i",
+                            .user_link * self@ | "%(href)v"
+                        },
+                        .date [0] time datetime | "%(datetime)v",
+                        .lastpage.u * .structItem-pageJump; [-] a | "%i"
+                    },
+                    div .structItem-cell--meta; {
+                        dt m@B>"^[0-9]",
+                        dd
+                    }; {
+                        .replies [0] * c@[0] | "%i",
+                        .views [1] * c@[0] | "%i"
+                    },
+                    .replies2.u [0] div .reply-count title | "%(title)v" tr ",. ",
+                    .views2.u [0] div .view-count title | "%(title)v" tr ",. ",
+                    .lastpost div ( .structItem-cell--latest )( .last-post-cell ); {
+                        .date [0] time datetime | "%(datetime)v",
+                        [0] a .username; {
+                            .user * c@[0] | "%i",
+                            .user_link * self@ | "%(href)v"
+                        },
+                    },
+                    .lp-avatar div .structItem-cell--iconEnd; [0] img src | "%(src)v"
+                } |
+                """
+            )
+        )
+
+        categories = []
+
+        for i in t["categories"]:
+            if len(i["name"]) == 0 and len(i["forums"]) == 0:
+                continue
+
+            i["link"] = url_merge(url, i["link"])
+
+            for j in i["forums"]:
+                for g in j["childboards"]:
+                    g["link"] = url_merge(url, g["link"])
+
+                j["link"] = url_merge(url, j["link"])
+
+                lastpost = j["lastpost"]
+                lastpost["link"] = url_merge(url, lastpost["link"])
+                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+                lastpost["avatar"] = url_merge(url, lastpost["avatar"])
+                if len(lastpost["date"]) == 0:
+                    lastpost["date"] = j["date2"]
+                j.pop("date2")
+
+                if len(j["posts"]) == 0:
+                    j["topics"] = 0
+                    j["posts"] = j["posts2"]
+                else:
+                    j["topics"] = conv_short_size(j["topics"])
+                    j["posts"] = conv_short_size(j["posts"])
+                j.pop("posts2")
+
+            categories.append(i)
+
+        threads = t["threads"]
+
+        for i in threads:
+            i["link"] = url_merge(url, i["link"])
+            i["avatar"] = url_merge(url, i["avatar"])
+            i["user_link"] = url_merge(url, i["user_link"])
+
+            if len(i["replies"]) == 0:
+                i["replies"] = i["replies2"]
+                i["views"] = i["views2"]
+            else:
+                i["replies"] = conv_short_size(i["replies"])
+                i["views"] = conv_short_size(i["views"])
+            i.pop("replies2")
+            i.pop("views2")
+
+            lastpost = i["lastpost"]
+            lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+            lastpost["avatar"] = url_merge(url, i["lp-avatar"])
+            i.pop("lp-avatar")
+
+        return {
+            "format_version": "xenforo-2-board",
+            "url": url,
+            "categories": categories,
+            "threads": threads,
+        }
+
 
 class xenforo1(ForumExtractor):
     class Thread(ItemExtractor):
@@ -618,7 +802,7 @@ class xenforo1(ForumExtractor):
 
         categories = t["categories"]
 
-        for i in t["categories"]:
+        for i in categories:
             i["link"] = url_merge(url, i["link"])
 
             for j in i["forums"]:

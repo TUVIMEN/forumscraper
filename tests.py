@@ -368,6 +368,58 @@ xenforo1_forums_list = [
     "https://damskiiclub.ru/forums/mir-zhenschiny.154/",
 ]
 
+xenforo2_boards_list = [
+    "https://www.mothering.com/forums/",
+    "https://xenforo.com/community/",
+    "https://www.veganforum.org/",
+    # "https://www.ignboards.com/",
+    "https://www.bigcricket.com/community/",
+    "https://www.bigfooty.com/forum/",
+    "https://www.blackhatworld.com/forums/",
+    "https://www.kia-forums.com/forums/",
+    "https://www.lexusrxowners.com/forums/",
+    "https://www.mazda6club.com/forums/",
+    "https://www.reptileforums.co.uk/forums/",
+    "https://www.se7ensins.com/forums/",
+    "https://rune-server.org/forums/",
+    "https://www.woodworkingtalk.com/forums/",
+    "https://www.shotgunworld.com/forums/",
+    "https://www.watchuseek.com/forums/",
+    "https://www.wranglerforum.com/forums/",
+    "https://www.diychatroom.com/forums/",
+    "https://www.dogforums.com/forums/",
+    "https://longhaircareforums.com/forums/",
+    "https://kenhsinhvien.vn",
+    "https://forums.mangadex.org/",
+]
+
+xenforo2_forums_list = [
+    "https://www.mothering.com/forums/fertility.68/",
+    "https://xenforo.com/community/forums/xenforo-suggestions.18/",
+    "https://www.veganforum.org/forums/vegan-by-location.105/",
+    # "https://www.ignboards.com/forums/movies.8275/",
+    "https://www.bigcricket.com/community/forums/club-chat.15/",
+    "https://www.bigfooty.com/forum/forums/drafts-trading-free-agency.61/",
+    "https://www.blackhatworld.com/forums/forum-suggestions-feedback.26/",
+    "https://www.kia-forums.com/forums/amanti-opirus-forum-post-in-sub-section-only.221/",
+    "https://www.lexusrxowners.com/forums/new-member-introductions.7/",
+    "https://www.mazda6club.com/forums/mazda6-atenza.160/",
+    "https://www.reptileforums.co.uk/forums/spiders-and-inverts.26/",
+    "https://www.se7ensins.com/forums/forums/programming-scripting.62/",
+    "https://rune-server.org/forums/forum-support-center.227/",
+    "https://www.woodworkingtalk.com/forums/general-woodworking-discussions.2/",
+    "https://www.shotgunworld.com/forums/the-fringe.52/",
+    "https://www.watchuseek.com/forums/watch-fairs-and-events.919/",
+    "https://www.wranglerforum.com/forums/general-jeep-discussion.19/",
+    "https://www.diychatroom.com/forums/cook-it-yourself.195/",
+    "https://www.dogforums.com/forums/general-dog-forum.2/",
+    "https://longhaircareforums.com/forums/hair-care-tips-product-review-discussion.6/",
+    "https://kenhsinhvien.vn/f/phong-truyen.213/",
+    "https://forums.mangadex.org/forums/scanlator-discussions.63/",
+    "https://rune-server.org/forums/defects.751/",
+    "https://kenhsinhvien.vn/f/truyen-dai.301/",
+]
+
 ex4 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.forums
@@ -432,6 +484,16 @@ def test_xenforo1_page_boards():
         ex4.xenforo.v1.get_board(i)
 
 
+def test_xenforo2_page_forums():
+    for i in xenforo2_forums_list:
+        ex4.xenforo.v2.get_forum(i)
+
+
+def test_xenforo2_page_boards():
+    for i in xenforo2_boards_list:
+        ex4.xenforo.v2.get_board(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
@@ -455,6 +517,8 @@ def test_xenforo1_page_boards():
 # test_phpbb_page_boards()
 # test_xenforo1_page_forums()
 # test_xenforo1_page_boards()
+# test_xenforo2_page_forums()
+# test_xenforo2_page_boards()
 
 # test_identify()
 # test_findroot()
