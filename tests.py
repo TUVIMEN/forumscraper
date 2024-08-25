@@ -420,6 +420,45 @@ xenforo2_forums_list = [
     "https://kenhsinhvien.vn/f/truyen-dai.301/",
 ]
 
+invision_forums_list = [
+    "https://invisioncommunity.com/forums/forum/497-technical-problems/",
+    "https://linustechtips.com/forum/13-tech-news/",
+    "https://aslain.com/index.php?/forum/1-multilingual-section/",
+    "https://aslain.com/index.php?/forum/11-issues-bug-reporting/",
+    "https://forums.cgarchitect.com/forum/9-general-discussions/",
+    "https://forum.davidicke.com/index.php?/forum/32-general-chat/",
+    "https://forum.fishingplanet.com/index.php?/forum/52-general-discussion-of-fishing-planet/",
+    "https://forum.frogcommunity.com/index.php?/forum/7-general-chat/",
+    "https://forum.htc.com/forum/23-vive-community-forums/",
+    "https://forum.htc.com/forum/28-general-vive-discussion/",
+    "https://forum.invisionize.pl/forum/3-informacje-i-og%C5%82oszenia/",
+    "https://www.ipsfocus.com/forums/forum/9-news/",
+    "https://community.ironcad.com/index.php?/forum/12-general-discussion/",
+    "https://community.jaggedalliance.com/forums/forum/7-general-discussion/",
+    "https://processwire.com/talk/forum/4-modulesplugins/",
+    "https://www.seeq.org/forum/25-seeq-developer-club/",
+    "https://www.thehuntinglife.com/forums/forum/72-living-off-the-land-amp-game-cooking/",
+    "https://invisioncommunity.com/forums/forum/528-invision-community-insider/",
+]
+
+invision_boards_list = [
+    "https://invisioncommunity.com/forums/",
+    "https://linustechtips.com/",
+    "https://aslain.com/",
+    "https://forums.cgarchitect.com/",
+    "https://forum.davidicke.com/",
+    "https://forum.fishingplanet.com/",
+    "https://forum.frogcommunity.com/",
+    "https://forum.htc.com/",
+    "https://forum.invisionize.pl/",
+    "https://www.ipsfocus.com/forums/",
+    "https://community.ironcad.com/",
+    "https://community.jaggedalliance.com/",
+    "https://processwire.com/talk/",
+    "https://www.seeq.org/",
+    "https://www.thehuntinglife.com/forums/",
+]
+
 ex4 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.forums
@@ -494,6 +533,16 @@ def test_xenforo2_page_boards():
         ex4.xenforo.v2.get_board(i)
 
 
+def test_invision_page_forums():
+    for i in invision_forums_list:
+        ex4.invision.get_forum(i)
+
+
+def test_invision_page_boards():
+    for i in invision_boards_list:
+        ex4.invision.get_board(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
@@ -519,6 +568,8 @@ def test_xenforo2_page_boards():
 # test_xenforo1_page_boards()
 # test_xenforo2_page_forums()
 # test_xenforo2_page_boards()
+# test_invision_page_forums()
+# test_invision_page_boards()
 
 # test_identify()
 # test_findroot()

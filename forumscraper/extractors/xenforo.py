@@ -6,7 +6,7 @@ import json
 from reliq import reliq
 
 from ..enums import Outputs
-from ..utils import dict_add, url_merge, url_merge_r
+from ..utils import dict_add, url_merge, url_merge_r, conv_short_size
 from .identify import xenforoIdentify
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 
@@ -27,23 +27,6 @@ guesslist = [
     },
     {"func": "get_board", "exprs": None},
 ]
-
-
-def conv_short_size(string):
-    letter = string[-1:]
-    num = 0
-    try:
-        if letter.isdigit():
-            num = float(string)
-        else:
-            num = float(string[:-1])
-            if letter == "M":
-                num *= 1000000
-            elif letter == "K":
-                num *= 1000
-    except ValueError:
-        pass
-    return int(num)
 
 
 class xenforo2(ForumExtractor):
