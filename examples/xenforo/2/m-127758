@@ -1,1 +1,30 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/redred.127758/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json", "id": 127758, "background": "https://forums.mangadex.org/community/profile_banners/m/127/127758.jpg", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/127/127758.jpg", "title": "Dex-chan lover", "banners": [], "name": "REDRED", "forum": "", "extras": [{"key": "Joined", "value": "2019-03-10T19:38:36+0000"}, {"key": "Messages", "value": "1,373"}, {"key": "Reaction score", "value": "619"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/redred.127758/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json",
+  "id": 127758,
+  "background": "https://forums.mangadex.org/community/profile_banners/m/127/127758.jpg",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/127/127758.jpg",
+  "title": "Dex-chan lover",
+  "banners": [],
+  "name": "REDRED",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2019-03-10T19:38:36+0000"
+    },
+    {
+      "key": "Messages",
+      "value": "1,373"
+    },
+    {
+      "key": "Reaction score",
+      "value": "619"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

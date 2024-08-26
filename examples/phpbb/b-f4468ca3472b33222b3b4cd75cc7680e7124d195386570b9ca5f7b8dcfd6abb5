@@ -1,1 +1,529 @@
-{"format_version": "phpbb-2+-forum", "url": "http://askcodeman.com/index.php", "categories": [{"name": "Forum", "link": null, "forums": [{"state": "forum_unread_locked", "name": "When Posting New Questions and Posting Photos", "link": "http://askcodeman.com/viewforum.php?f=37&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "IMPORTANT NOTICE FOR UPLOADING FILES: MAXIMUM FILE SIZE IS 256KB. IF YOUR FILE IS LARGER THAN 256 KB - YOUR FILE WILL NOT UPLOAD - YOU WILL NEED TO REDUCE THE FILE SIZE DOWN TO 256 KB BEFORE THE FILE WILL UPLOAD.\n\nDo not post new topics or questions here - &quot;When Posting New Questions and Posting Photos&quot; - post in a forum which covers your topic or question.", "childboards": [], "moderators": [], "topics": 1, "posts": 1, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=37&p=2617&sid=f70f1c11cbd684374fc92d15c93ca36a#p2617", "date": "Tue Jun 20, 2017 10:15 pm"}}, {"state": "forum_unread_subforum", "name": "Important information from other sources", "link": "http://askcodeman.com/viewforum.php?f=19&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [{"state": "New posts", "name": "Major Construction Issues (Chinese Drywall)", "link": "http://askcodeman.com/viewforum.php?f=25&sid=f70f1c11cbd684374fc92d15c93ca36a"}, {"state": "New posts", "name": "Product Approval information", "link": "http://askcodeman.com/viewforum.php?f=21&sid=f70f1c11cbd684374fc92d15c93ca36a"}, {"state": "New posts", "name": "Recalls and Class-Action lawsuits", "link": "http://askcodeman.com/viewforum.php?f=20&sid=f70f1c11cbd684374fc92d15c93ca36a"}], "moderators": [], "topics": 10, "posts": 19, "redirects": 0, "lastpost": {"user": "aaronm", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=54&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=20&p=1768&sid=f70f1c11cbd684374fc92d15c93ca36a#p1768", "date": "Fri Oct 21, 2011 6:27 pm"}}, {"state": "forum_unread", "name": "Roof coverings: Shingles, tile, slate, built-up roofs, single ply, modified, TPO-EPDM-PVC, metal, etc.", "link": "http://askcodeman.com/viewforum.php?f=11&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 18, "posts": 60, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=11&p=2944&sid=f70f1c11cbd684374fc92d15c93ca36a#p2944", "date": "Fri Feb 09, 2024 2:18 pm"}}, {"state": "forum_unread", "name": "Structure: Footings, foundation walls, floor framing, wall framing, ceiling framing, roof framing (rafters &amp; engineered trusses)", "link": "http://askcodeman.com/viewforum.php?f=14&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 51, "posts": 191, "redirects": 0, "lastpost": {"user": "aaronm", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=54&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=14&p=2958&sid=f70f1c11cbd684374fc92d15c93ca36a#p2958", "date": "Sun Mar 31, 2024 12:14 pm"}}, {"state": "forum_unread", "name": "Exterior Clading: brick veneer; stucco; siding - vinyl, wood, cementitious (such as HardiePlank), hardboard (such as Masonite siding); EIFS", "link": "http://askcodeman.com/viewforum.php?f=7&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 19, "posts": 70, "redirects": 0, "lastpost": {"user": "FredSly", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13114&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=7&p=2859&sid=f70f1c11cbd684374fc92d15c93ca36a#p2859", "date": "Fri May 14, 2021 7:04 am"}}, {"state": "forum_unread", "name": "Windows &amp; Doors: Safety glazing, leaks, single and multiple glazing", "link": "http://askcodeman.com/viewforum.php?f=15&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 24, "posts": 89, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=15&p=2774&sid=f70f1c11cbd684374fc92d15c93ca36a#p2774", "date": "Wed Mar 06, 2019 2:34 pm"}}, {"state": "forum_unread", "name": "Plumbing: Water heaters, fixtures, traps, hose bibbs, water pressure, supply &amp; DWV piping", "link": "http://askcodeman.com/viewforum.php?f=9&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 55, "posts": 176, "redirects": 0, "lastpost": {"user": "bigdog", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=3485&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=9&p=2885&sid=f70f1c11cbd684374fc92d15c93ca36a#p2885", "date": "Wed Aug 18, 2021 4:54 pm"}}, {"state": "forum_unread", "name": "Mechanical: Heating and cooling equipment, duct work, ventilation and exhaust fans", "link": "http://askcodeman.com/viewforum.php?f=8&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 56, "posts": 175, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=8&p=2953&sid=f70f1c11cbd684374fc92d15c93ca36a#p2953", "date": "Wed Mar 06, 2024 10:49 am"}}, {"state": "forum_unread", "name": "Electrical: Service Equipment, electrical panels, wiring, lighting, switches, receptacles, etc.", "link": "http://askcodeman.com/viewforum.php?f=3&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 168, "posts": 578, "redirects": 0, "lastpost": {"user": "GunnarAlquist", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13253&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=3&p=2934&sid=f70f1c11cbd684374fc92d15c93ca36a#p2934", "date": "Sun Jun 25, 2023 11:05 am"}}, {"state": "forum_unread", "name": "Insulation and structural ventilation (crawlspaces and attics)", "link": "http://askcodeman.com/viewforum.php?f=6&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 13, "posts": 44, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=6&p=2776&sid=f70f1c11cbd684374fc92d15c93ca36a#p2776", "date": "Tue Mar 26, 2019 8:25 pm"}}, {"state": "forum_unread_subforum", "name": "Drywall / gypsum board: non-fire resistance rated; Type X fire-resistance rated; plaster board (blue board); rock lath (for plastering); exterior gypsum sheathing", "link": "http://askcodeman.com/viewforum.php?f=22&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [{"state": "New posts", "name": "Chinese Drywall", "link": "http://askcodeman.com/viewforum.php?f=26&sid=f70f1c11cbd684374fc92d15c93ca36a"}], "moderators": [], "topics": 24, "posts": 70, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=22&p=2783&sid=f70f1c11cbd684374fc92d15c93ca36a#p2783", "date": "Mon Jun 24, 2019 8:29 pm"}}, {"state": "forum_unread", "name": "Fire-rated assemblies: Fire walls, fire partitions, smoke barriers, ceiling-floor, ceiling-attic; Separation of garages from dwelling unit; Separation between structure's exterior walls and property line", "link": "http://askcodeman.com/viewforum.php?f=12&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 48, "posts": 191, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=12&p=2948&sid=f70f1c11cbd684374fc92d15c93ca36a#p2948", "date": "Sun Feb 25, 2024 5:52 pm"}}, {"state": "forum_unread", "name": "Fire Protection - Fire Sprinkler Systems", "link": "http://askcodeman.com/viewforum.php?f=39&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 3, "posts": 11, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=39&p=2948&sid=f70f1c11cbd684374fc92d15c93ca36a#p2948", "date": "Sun Feb 25, 2024 5:52 pm"}}, {"state": "forum_unread", "name": "Fireplaces and Chimneys: masonry fireplaces, factory built fireplaces, wood burning fireplaces, gas fireplaces, solid fuel burning stoves &amp; inserts, combustion air, chimneys", "link": "http://askcodeman.com/viewforum.php?f=4&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 14, "posts": 49, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=4&p=2438&sid=f70f1c11cbd684374fc92d15c93ca36a#p2438", "date": "Sat Oct 10, 2015 9:39 pm"}}, {"state": "forum_unread", "name": "Fuel Gas: Gas appliances (except Fireplaces, see Fireplaces), gas furnaces, fuel oil appliances, combustion air", "link": "http://askcodeman.com/viewforum.php?f=5&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 33, "posts": 136, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=5&p=2920&sid=f70f1c11cbd684374fc92d15c93ca36a#p2920", "date": "Sat Sep 17, 2022 5:54 pm"}}, {"state": "forum_unread", "name": "Interior Environment: Light, ventilation, ceiling height, etc.", "link": "http://askcodeman.com/viewforum.php?f=36&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 12, "posts": 39, "redirects": 0, "lastpost": {"user": "GunnarAlquist", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13253&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=36&p=2937&sid=f70f1c11cbd684374fc92d15c93ca36a#p2937", "date": "Tue Jul 25, 2023 4:40 pm"}}, {"state": "forum_unread", "name": "Egress: Means of Egress (other than stairways, see 'Stairways' below)", "link": "http://askcodeman.com/viewforum.php?f=17&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 37, "posts": 141, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=17&p=2924&sid=f70f1c11cbd684374fc92d15c93ca36a#p2924", "date": "Tue Oct 18, 2022 8:10 pm"}}, {"state": "forum_unread", "name": "Stairways, Ramps, Handrails and Guards: Stairways, ramps, handrails, guardrails, landings, entry stoops/porches, recessed floor areas", "link": "http://askcodeman.com/viewforum.php?f=13&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 43, "posts": 148, "redirects": 0, "lastpost": {"user": "wagurto", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13105&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=13&p=2927&sid=f70f1c11cbd684374fc92d15c93ca36a#p2927", "date": "Thu Nov 17, 2022 5:08 pm"}}, {"state": "forum_unread", "name": "Pools and Spas: Swimming pools, spas, hot tubs, child safety protection, entrapment protection", "link": "http://askcodeman.com/viewforum.php?f=10&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 17, "posts": 67, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=10&p=2839&sid=f70f1c11cbd684374fc92d15c93ca36a#p2839", "date": "Sun Jan 17, 2021 9:33 pm"}}, {"state": "forum_unread", "name": "Termite and Wood Destroying Inspects and Organisms", "link": "http://askcodeman.com/viewforum.php?f=23&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 3, "posts": 8, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=23&p=994&sid=f70f1c11cbd684374fc92d15c93ca36a#p994", "date": "Fri Apr 16, 2010 9:24 pm"}}, {"state": "forum_unread", "name": "Fuel - Liquid Fuels: Fuel Oil, Diesel, Storage, Dispensing, Etc.", "link": "http://askcodeman.com/viewforum.php?f=27&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 2, "posts": 4, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=27&p=2635&sid=f70f1c11cbd684374fc92d15c93ca36a#p2635", "date": "Wed Jun 28, 2017 8:59 pm"}}, {"state": "forum_unread", "name": "Energy: Energy code questions", "link": "http://askcodeman.com/viewforum.php?f=18&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 7, "posts": 17, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=18&p=2481&sid=f70f1c11cbd684374fc92d15c93ca36a#p2481", "date": "Tue Mar 08, 2016 8:29 pm"}}, {"state": "forum_unread", "name": "Occupancy Questions", "link": "http://askcodeman.com/viewforum.php?f=38&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 2, "posts": 6, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=38&p=2795&sid=f70f1c11cbd684374fc92d15c93ca36a#p2795", "date": "Tue Nov 26, 2019 4:18 pm"}}, {"state": "forum_unread", "name": "General Questions: When there is no category which applies to the question", "link": "http://askcodeman.com/viewforum.php?f=16&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 59, "posts": 194, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=16&p=2929&sid=f70f1c11cbd684374fc92d15c93ca36a#p2929", "date": "Mon Feb 27, 2023 6:31 pm"}}, {"state": "forum_unread", "name": "Definitions - Regardless of what other forum a defintion might fall under, place definition questions here", "link": "http://askcodeman.com/viewforum.php?f=29&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 9, "posts": 21, "redirects": 0, "lastpost": {"user": "Jerry Peck - Codeman", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=29&p=2685&sid=f70f1c11cbd684374fc92d15c93ca36a#p2685", "date": "Fri Feb 23, 2018 9:19 pm"}}, {"state": "forum_unread", "name": "What on earth where they thinking when they did this?", "link": "http://askcodeman.com/viewforum.php?f=28&sid=f70f1c11cbd684374fc92d15c93ca36a", "icon": null, "description": "", "childboards": [], "moderators": [], "topics": 13, "posts": 18, "redirects": 0, "lastpost": {"user": "loubob", "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13446&sid=f70f1c11cbd684374fc92d15c93ca36a", "title": "", "link": "http://askcodeman.com/viewtopic.php?f=28&p=2738&sid=f70f1c11cbd684374fc92d15c93ca36a#p2738", "date": "Tue Sep 04, 2018 10:03 pm"}}]}], "threads": []}
+{
+  "format_version": "phpbb-2+-forum",
+  "url": "http://askcodeman.com/index.php",
+  "categories": [
+    {
+      "name": "Forum",
+      "link": null,
+      "forums": [
+        {
+          "state": "forum_unread_locked",
+          "name": "When Posting New Questions and Posting Photos",
+          "link": "http://askcodeman.com/viewforum.php?f=37&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "IMPORTANT NOTICE FOR UPLOADING FILES: MAXIMUM FILE SIZE IS 256KB. IF YOUR FILE IS LARGER THAN 256 KB - YOUR FILE WILL NOT UPLOAD - YOU WILL NEED TO REDUCE THE FILE SIZE DOWN TO 256 KB BEFORE THE FILE WILL UPLOAD.\n\nDo not post new topics or questions here - &quot;When Posting New Questions and Posting Photos&quot; - post in a forum which covers your topic or question.",
+          "childboards": [],
+          "moderators": [],
+          "topics": 1,
+          "posts": 1,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=37&p=2617&sid=f70f1c11cbd684374fc92d15c93ca36a#p2617",
+            "date": "Tue Jun 20, 2017 10:15 pm"
+          }
+        },
+        {
+          "state": "forum_unread_subforum",
+          "name": "Important information from other sources",
+          "link": "http://askcodeman.com/viewforum.php?f=19&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [
+            {
+              "state": "New posts",
+              "name": "Major Construction Issues (Chinese Drywall)",
+              "link": "http://askcodeman.com/viewforum.php?f=25&sid=f70f1c11cbd684374fc92d15c93ca36a"
+            },
+            {
+              "state": "New posts",
+              "name": "Product Approval information",
+              "link": "http://askcodeman.com/viewforum.php?f=21&sid=f70f1c11cbd684374fc92d15c93ca36a"
+            },
+            {
+              "state": "New posts",
+              "name": "Recalls and Class-Action lawsuits",
+              "link": "http://askcodeman.com/viewforum.php?f=20&sid=f70f1c11cbd684374fc92d15c93ca36a"
+            }
+          ],
+          "moderators": [],
+          "topics": 10,
+          "posts": 19,
+          "redirects": 0,
+          "lastpost": {
+            "user": "aaronm",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=54&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=20&p=1768&sid=f70f1c11cbd684374fc92d15c93ca36a#p1768",
+            "date": "Fri Oct 21, 2011 6:27 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Roof coverings: Shingles, tile, slate, built-up roofs, single ply, modified, TPO-EPDM-PVC, metal, etc.",
+          "link": "http://askcodeman.com/viewforum.php?f=11&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 18,
+          "posts": 60,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=11&p=2944&sid=f70f1c11cbd684374fc92d15c93ca36a#p2944",
+            "date": "Fri Feb 09, 2024 2:18 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Structure: Footings, foundation walls, floor framing, wall framing, ceiling framing, roof framing (rafters &amp; engineered trusses)",
+          "link": "http://askcodeman.com/viewforum.php?f=14&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 51,
+          "posts": 191,
+          "redirects": 0,
+          "lastpost": {
+            "user": "aaronm",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=54&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=14&p=2958&sid=f70f1c11cbd684374fc92d15c93ca36a#p2958",
+            "date": "Sun Mar 31, 2024 12:14 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Exterior Clading: brick veneer; stucco; siding - vinyl, wood, cementitious (such as HardiePlank), hardboard (such as Masonite siding); EIFS",
+          "link": "http://askcodeman.com/viewforum.php?f=7&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 19,
+          "posts": 70,
+          "redirects": 0,
+          "lastpost": {
+            "user": "FredSly",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13114&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=7&p=2859&sid=f70f1c11cbd684374fc92d15c93ca36a#p2859",
+            "date": "Fri May 14, 2021 7:04 am"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Windows &amp; Doors: Safety glazing, leaks, single and multiple glazing",
+          "link": "http://askcodeman.com/viewforum.php?f=15&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 24,
+          "posts": 89,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=15&p=2774&sid=f70f1c11cbd684374fc92d15c93ca36a#p2774",
+            "date": "Wed Mar 06, 2019 2:34 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Plumbing: Water heaters, fixtures, traps, hose bibbs, water pressure, supply &amp; DWV piping",
+          "link": "http://askcodeman.com/viewforum.php?f=9&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 55,
+          "posts": 176,
+          "redirects": 0,
+          "lastpost": {
+            "user": "bigdog",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=3485&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=9&p=2885&sid=f70f1c11cbd684374fc92d15c93ca36a#p2885",
+            "date": "Wed Aug 18, 2021 4:54 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Mechanical: Heating and cooling equipment, duct work, ventilation and exhaust fans",
+          "link": "http://askcodeman.com/viewforum.php?f=8&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 56,
+          "posts": 175,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=8&p=2953&sid=f70f1c11cbd684374fc92d15c93ca36a#p2953",
+            "date": "Wed Mar 06, 2024 10:49 am"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Electrical: Service Equipment, electrical panels, wiring, lighting, switches, receptacles, etc.",
+          "link": "http://askcodeman.com/viewforum.php?f=3&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 168,
+          "posts": 578,
+          "redirects": 0,
+          "lastpost": {
+            "user": "GunnarAlquist",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13253&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=3&p=2934&sid=f70f1c11cbd684374fc92d15c93ca36a#p2934",
+            "date": "Sun Jun 25, 2023 11:05 am"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Insulation and structural ventilation (crawlspaces and attics)",
+          "link": "http://askcodeman.com/viewforum.php?f=6&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 13,
+          "posts": 44,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=6&p=2776&sid=f70f1c11cbd684374fc92d15c93ca36a#p2776",
+            "date": "Tue Mar 26, 2019 8:25 pm"
+          }
+        },
+        {
+          "state": "forum_unread_subforum",
+          "name": "Drywall / gypsum board: non-fire resistance rated; Type X fire-resistance rated; plaster board (blue board); rock lath (for plastering); exterior gypsum sheathing",
+          "link": "http://askcodeman.com/viewforum.php?f=22&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [
+            {
+              "state": "New posts",
+              "name": "Chinese Drywall",
+              "link": "http://askcodeman.com/viewforum.php?f=26&sid=f70f1c11cbd684374fc92d15c93ca36a"
+            }
+          ],
+          "moderators": [],
+          "topics": 24,
+          "posts": 70,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=22&p=2783&sid=f70f1c11cbd684374fc92d15c93ca36a#p2783",
+            "date": "Mon Jun 24, 2019 8:29 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Fire-rated assemblies: Fire walls, fire partitions, smoke barriers, ceiling-floor, ceiling-attic; Separation of garages from dwelling unit; Separation between structure's exterior walls and property line",
+          "link": "http://askcodeman.com/viewforum.php?f=12&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 48,
+          "posts": 191,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=12&p=2948&sid=f70f1c11cbd684374fc92d15c93ca36a#p2948",
+            "date": "Sun Feb 25, 2024 5:52 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Fire Protection - Fire Sprinkler Systems",
+          "link": "http://askcodeman.com/viewforum.php?f=39&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 3,
+          "posts": 11,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=39&p=2948&sid=f70f1c11cbd684374fc92d15c93ca36a#p2948",
+            "date": "Sun Feb 25, 2024 5:52 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Fireplaces and Chimneys: masonry fireplaces, factory built fireplaces, wood burning fireplaces, gas fireplaces, solid fuel burning stoves &amp; inserts, combustion air, chimneys",
+          "link": "http://askcodeman.com/viewforum.php?f=4&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 14,
+          "posts": 49,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=4&p=2438&sid=f70f1c11cbd684374fc92d15c93ca36a#p2438",
+            "date": "Sat Oct 10, 2015 9:39 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Fuel Gas: Gas appliances (except Fireplaces, see Fireplaces), gas furnaces, fuel oil appliances, combustion air",
+          "link": "http://askcodeman.com/viewforum.php?f=5&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 33,
+          "posts": 136,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=5&p=2920&sid=f70f1c11cbd684374fc92d15c93ca36a#p2920",
+            "date": "Sat Sep 17, 2022 5:54 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Interior Environment: Light, ventilation, ceiling height, etc.",
+          "link": "http://askcodeman.com/viewforum.php?f=36&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 12,
+          "posts": 39,
+          "redirects": 0,
+          "lastpost": {
+            "user": "GunnarAlquist",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13253&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=36&p=2937&sid=f70f1c11cbd684374fc92d15c93ca36a#p2937",
+            "date": "Tue Jul 25, 2023 4:40 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Egress: Means of Egress (other than stairways, see 'Stairways' below)",
+          "link": "http://askcodeman.com/viewforum.php?f=17&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 37,
+          "posts": 141,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=17&p=2924&sid=f70f1c11cbd684374fc92d15c93ca36a#p2924",
+            "date": "Tue Oct 18, 2022 8:10 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Stairways, Ramps, Handrails and Guards: Stairways, ramps, handrails, guardrails, landings, entry stoops/porches, recessed floor areas",
+          "link": "http://askcodeman.com/viewforum.php?f=13&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 43,
+          "posts": 148,
+          "redirects": 0,
+          "lastpost": {
+            "user": "wagurto",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13105&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=13&p=2927&sid=f70f1c11cbd684374fc92d15c93ca36a#p2927",
+            "date": "Thu Nov 17, 2022 5:08 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Pools and Spas: Swimming pools, spas, hot tubs, child safety protection, entrapment protection",
+          "link": "http://askcodeman.com/viewforum.php?f=10&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 17,
+          "posts": 67,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=10&p=2839&sid=f70f1c11cbd684374fc92d15c93ca36a#p2839",
+            "date": "Sun Jan 17, 2021 9:33 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Termite and Wood Destroying Inspects and Organisms",
+          "link": "http://askcodeman.com/viewforum.php?f=23&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 3,
+          "posts": 8,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=23&p=994&sid=f70f1c11cbd684374fc92d15c93ca36a#p994",
+            "date": "Fri Apr 16, 2010 9:24 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Fuel - Liquid Fuels: Fuel Oil, Diesel, Storage, Dispensing, Etc.",
+          "link": "http://askcodeman.com/viewforum.php?f=27&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 2,
+          "posts": 4,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=27&p=2635&sid=f70f1c11cbd684374fc92d15c93ca36a#p2635",
+            "date": "Wed Jun 28, 2017 8:59 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Energy: Energy code questions",
+          "link": "http://askcodeman.com/viewforum.php?f=18&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 7,
+          "posts": 17,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=18&p=2481&sid=f70f1c11cbd684374fc92d15c93ca36a#p2481",
+            "date": "Tue Mar 08, 2016 8:29 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Occupancy Questions",
+          "link": "http://askcodeman.com/viewforum.php?f=38&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 2,
+          "posts": 6,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=38&p=2795&sid=f70f1c11cbd684374fc92d15c93ca36a#p2795",
+            "date": "Tue Nov 26, 2019 4:18 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "General Questions: When there is no category which applies to the question",
+          "link": "http://askcodeman.com/viewforum.php?f=16&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 59,
+          "posts": 194,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=16&p=2929&sid=f70f1c11cbd684374fc92d15c93ca36a#p2929",
+            "date": "Mon Feb 27, 2023 6:31 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "Definitions - Regardless of what other forum a defintion might fall under, place definition questions here",
+          "link": "http://askcodeman.com/viewforum.php?f=29&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 9,
+          "posts": 21,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Jerry Peck - Codeman",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=2&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=29&p=2685&sid=f70f1c11cbd684374fc92d15c93ca36a#p2685",
+            "date": "Fri Feb 23, 2018 9:19 pm"
+          }
+        },
+        {
+          "state": "forum_unread",
+          "name": "What on earth where they thinking when they did this?",
+          "link": "http://askcodeman.com/viewforum.php?f=28&sid=f70f1c11cbd684374fc92d15c93ca36a",
+          "icon": null,
+          "description": "",
+          "childboards": [],
+          "moderators": [],
+          "topics": 13,
+          "posts": 18,
+          "redirects": 0,
+          "lastpost": {
+            "user": "loubob",
+            "user_link": "http://askcodeman.com/memberlist.php?mode=viewprofile&u=13446&sid=f70f1c11cbd684374fc92d15c93ca36a",
+            "title": "",
+            "link": "http://askcodeman.com/viewtopic.php?f=28&p=2738&sid=f70f1c11cbd684374fc92d15c93ca36a#p2738",
+            "date": "Tue Sep 04, 2018 10:03 pm"
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

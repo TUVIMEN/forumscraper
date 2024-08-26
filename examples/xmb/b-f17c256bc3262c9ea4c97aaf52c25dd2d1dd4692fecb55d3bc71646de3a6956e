@@ -1,1 +1,516 @@
-{"format_version": "xmb-board", "url": "https://forum.wendishresearch.org/", "groups": [{"name": "&nbsp;", "link": "https://forum.wendishresearch.org/javascript:tickertoggle();", "forums": [{"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "This is your starting point for forum use.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=1", "name": "Forum Basics And NewsThis is your starting point for forum use.", "topics": 2, "posts": 2, "lastpost": {"date": "8-7-2011 at 02:14 PM", "user": "webmaster", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=1"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Links to various interesting sites related to Wendishness.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=413", "name": "Interesting LinksLinks to various interesting sites related to Wendishness.", "topics": 106, "posts": 114, "lastpost": {"date": "5-27-2024 at 09:06 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=413"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Ask or comment here regarding the WHKE which was held March 16th, 2013 in Serbin, Texas.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=3", "name": "2013 Wendish History and Knowledge ExtravaganzaAsk or comment here regarding the WHKE which was held March 16th, 2013 in Serbin, Texas.", "topics": 11, "posts": 13, "lastpost": {"date": "3-18-2015 at 12:28 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=3"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Ask or comment here regarding the WHKE which was held March 14th, 2015 in Serbin, Texas.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=412", "name": "2015 Wendish History and Knowledge ExtravaganzaAsk or comment here regarding the WHKE which was held March 14th, 2015 in Serbin, Texas.", "topics": 10, "posts": 10, "lastpost": {"date": "3-25-2015 at 12:02 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=412"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Original letters and documents that may shed light on the Texas Wendish experience.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=415", "name": "Texas Wends: Letters and DocumentsOriginal letters and documents that may shed light on the Texas Wendish experience.", "topics": 532, "posts": 533, "lastpost": {"date": "8-18-2018 at 08:46 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=415"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=437", "name": "The Bells of St. Paul, Serbin", "topics": 2, "posts": 2, "lastpost": {"date": "3-14-2017 at 09:17 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=437"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=438", "name": "The Bautzen Townsmen's Oath", "topics": 1, "posts": 1, "lastpost": {"date": "5-10-2017 at 08:53 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=438"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Letters and papers documenting the origins of Lee County, Texas.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=416", "name": "Lee County: Letters and DocumentsLetters and papers documenting the origins of Lee County, Texas.", "topics": 31, "posts": 32, "lastpost": {"date": "2-6-2017 at 02:57 PM", "user": "ThorndaleWend", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=416"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "The Texas Lutheran Messenger is a publication started in 1921 to keep members of the Texas District of the Lutheran Church - Missouri Synod (LCMS) aware of and interested in the spread of the LCMS in Texas caused in large part, but not entirely, by the migration of Wends from Lee County, Texas to other towns and counties in Texas.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=422", "name": "The Texas Lutheran MessengerThe Texas Lutheran Messenger is a publication started in 1921 to keep members of the Texas District of the Lutheran Church - Missouri Synod (LCMS) aware of and interested in the spread of the LCMS in Texas caused in large part, but not entirely, by the migration of Wends from Lee County, Texas to other towns and counties in Texas.", "topics": 4, "posts": 4, "lastpost": {"date": "12-15-2015 at 10:27 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=422"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Diaries helpful to our understanding of the Wendish experience.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=434", "name": "The Ben Nevis DiariesDiaries helpful to our understanding of the Wendish experience.", "topics": 3, "posts": 4, "lastpost": {"date": "8-9-2016 at 11:49 AM", "user": "Dan Bednarski", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=434"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "L&#283;topis is the yearbook of scholarly thought about Sorbian/Wendish language, history and culture that is released twice a year by the Sorbian institute in Bautzen. Dr. Peter Barker translated the abstracts for each article.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=435", "name": "L&#283;topis AbstractsL&#283;topis is the yearbook of scholarly thought about Sorbian/Wendish language, history and culture that is released twice a year by the Sorbian institute in Bautzen. Dr. Peter Barker translated the abstracts for each article.", "topics": 233, "posts": 234, "lastpost": {"date": "12-6-2023 at 11:11 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=435"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=423", "name": "Celebrations", "topics": 14, "posts": 14, "lastpost": {"date": "1-9-2016 at 10:04 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=423"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Wends who served during the American Civil War.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=433", "name": "Wends And The Civil WarWends who served during the American Civil War.", "topics": 88, "posts": 88, "lastpost": {"date": "1-27-2024 at 11:16 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=433"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "General information about World War I and lists of World War I soldiers.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=439", "name": "World War IGeneral information about World War I and lists of World War I soldiers.", "topics": 208, "posts": 208, "lastpost": {"date": "6-13-2017 at 03:46 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=439"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Contemporary news about the Australian and Texas Wends in the English language.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=430", "name": "Wendish NewspapersContemporary news about the Australian and Texas Wends in the English language.", "topics": 34, "posts": 34, "lastpost": {"date": "8-3-2016 at 05:14 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=430"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "This is a collection of nineteen Sorbian songs in the following classifications: Evening, Choral, Eternity, Spring, Friendship, Home, Autumn, Children's, Nature, Easter, Summer, and Christmas.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=436", "name": "Sorbian Songs For A Trombone ChoirThis is a collection of nineteen Sorbian songs in the following classifications: Evening, Choral, Eternity, Spring, Friendship, Home, Autumn, Children's, Nature, Easter, Summer, and Christmas.", "topics": 19, "posts": 19, "lastpost": {"date": "10-19-2016 at 01:28 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=436"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=417", "name": "Texas Wends and Reconstruction", "topics": 13, "posts": 13, "lastpost": {"date": "3-17-2016 at 10:17 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=417"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Indexes for several Wendish books. Books sorted by name - click on book name to view book.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=432", "name": "Wendish Book IndexesIndexes for several Wendish books. Books sorted by name - click on book name to view book.", "topics": 10, "posts": 11, "lastpost": {"date": "5-17-2016 at 01:17 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=432"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "This forum contains the translations and music of the folksongs of the Wends in Upper and Lower Lusatia that were collected by Leopold Haupt and Jan Arnost Smoler during the middle 1800s and are a part of the book listed above.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=405", "name": "Wendish Folk SongsThis forum contains the translations and music of the folksongs of the Wends in Upper and Lower Lusatia that were collected by Leopold Haupt and Jan Arnost Smoler during the middle 1800s and are a part of the book listed above.", "topics": 530, "posts": 531, "lastpost": {"date": "9-5-2015 at 07:08 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=405"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "By Leopold Haupt and Jan Arnost Smoler.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=410", "name": "Folksongs of the Wends in Upper and Lower LusatiaBy Leopold Haupt and Jan Arnost Smoler.", "topics": 4, "posts": 4, "lastpost": {"date": "12-7-2014 at 10:46 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=410"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Sorbian Blasmusik is a collection of Lower Sorbian polkas and songs for a brass band put together by the Stiftung fuer das Sorbische Volk. The translations into English were done by Dr. Charles Wukasch of Austin, Texas and Martin Strauch of Bautzen, Germany.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=420", "name": "Sorbian BlasmusikSorbian Blasmusik is a collection of Lower Sorbian polkas and songs for a brass band put together by the Stiftung fuer das Sorbische Volk. The translations into English were done by Dr. Charles Wukasch of Austin, Texas and Martin Strauch of Bautzen, Germany.", "topics": 16, "posts": 16, "lastpost": {"date": "8-23-2015 at 07:56 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=420"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=11", "name": "Wendish Folklore Portfolio", "topics": 17, "posts": 17, "lastpost": {"date": "10-18-2017 at 09:32 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=11"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "The Religious Leader of The Wends Who Settled in Serbin, Texas in 1855.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=414", "name": "Rev. Jan KilianThe Religious Leader of The Wends Who Settled in Serbin, Texas in 1855.", "topics": 8, "posts": 10, "lastpost": {"date": "10-19-2016 at 09:10 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=414"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "First Pastor of the Second St. Peter Congregation at Serbin.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=421", "name": "Rev. Johann PallmerFirst Pastor of the Second St. Peter Congregation at Serbin.", "topics": 1, "posts": 1, "lastpost": {"date": "8-22-2015 at 10:05 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=421"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "From various sources. Do you have any to add? Please participate!", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=409", "name": "Texas Wendish CustomsFrom various sources. Do you have any to add? Please participate!", "topics": 4, "posts": 4, "lastpost": {"date": "12-9-2016 at 08:26 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=409"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "by Edmund Schneeweis", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=411", "name": "Festivals and Folk Customs of the Sorbsby Edmund Schneeweis", "topics": 0, "posts": 0, "lastpost": {"date": "", "user": "", "user_link": null, "link": null}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "A Description of Churches of Upper Lusatia in 1846.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=431", "name": "Kirchen GalerieA Description of Churches of Upper Lusatia in 1846.", "topics": 9, "posts": 9, "lastpost": {"date": "2-15-2017 at 11:17 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=431"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Translations of books about Lusatian towns and churches, definitions.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=407", "name": "Lusatian TownsTranslations of books about Lusatian towns and churches, definitions.", "topics": 150, "posts": 150, "lastpost": {"date": "10-25-2016 at 11:24 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=407"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=418", "name": "Cadastral Maps", "topics": 2, "posts": 2, "lastpost": {"date": "6-2-2015 at 12:36 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=418"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Texas Wendish-related Towns and Places", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=408", "name": "Texas Place NamesTexas Wendish-related Towns and Places", "topics": 119, "posts": 125, "lastpost": {"date": "5-15-2018 at 04:50 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=408"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Wendish surnames identified by Dr. George Nielsen during his extensive research. A tool that may help you find your ancestral family. Wendish names, plus names which married into Wendish families. Help others, and discover more about your Wendish family. 388 names to begin. More may be added.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=6", "name": "Texas Family NamesWendish surnames identified by Dr. George Nielsen during his extensive research. A tool that may help you find your ancestral family. Wendish names, plus names which married into Wendish families. Help others, and discover more about your Wendish family. 388 names to begin. More may be added.", "topics": 64, "posts": 97, "lastpost": {"date": "8-28-2023 at 11:17 AM", "user": "fhwissel", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=6"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Discussion and presentation of church registers and their translations; other church-related topics.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=399", "name": "ChurchesDiscussion and presentation of church registers and their translations; other church-related topics.", "topics": 4, "posts": 13, "lastpost": {"date": "7-22-2014 at 08:11 AM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=399"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=403", "name": "General Wendish Discussion", "topics": 4, "posts": 14, "lastpost": {"date": "6-6-2014 at 01:19 PM", "user": "thettler", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=403"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Please consider signing up as a Subject Matter Expert (SME) to make yourself available to assist others as your time permits.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=402", "name": "Researcher RegistryPlease consider signing up as a Subject Matter Expert (SME) to make yourself available to assist others as your time permits.", "topics": 2, "posts": 6, "lastpost": {"date": "10-29-2018 at 08:14 PM", "user": "mersiowsky", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=402"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "The fascinating science of DNA and tracking family travels across the globe.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=4", "name": "Wendish DNA ProjectThe fascinating science of DNA and tracking family travels across the globe.", "topics": 2, "posts": 14, "lastpost": {"date": "11-29-2018 at 11:42 AM", "user": "Roger.Bagula", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=4"}}, {"state": "https://forum.wendishresearch.org/images/davis/folder.gif", "description": "Feel free to assist in or comment on any or all projects. Have a project for consideration? Just add it as a new Topic.", "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=2", "name": "ProjectsFeel free to assist in or comment on any or all projects. Have a project for consideration? Just add it as a new Topic.", "topics": 24, "posts": 33, "lastpost": {"date": "7-1-2014 at 11:06 AM", "user": "thettler", "user_link": null, "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=2"}}]}]}
+{
+  "format_version": "xmb-board",
+  "url": "https://forum.wendishresearch.org/",
+  "groups": [
+    {
+      "name": "&nbsp;",
+      "link": "https://forum.wendishresearch.org/javascript:tickertoggle();",
+      "forums": [
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "This is your starting point for forum use.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=1",
+          "name": "Forum Basics And NewsThis is your starting point for forum use.",
+          "topics": 2,
+          "posts": 2,
+          "lastpost": {
+            "date": "8-7-2011 at 02:14 PM",
+            "user": "webmaster",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=1"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Links to various interesting sites related to Wendishness.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=413",
+          "name": "Interesting LinksLinks to various interesting sites related to Wendishness.",
+          "topics": 106,
+          "posts": 114,
+          "lastpost": {
+            "date": "5-27-2024 at 09:06 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=413"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Ask or comment here regarding the WHKE which was held March 16th, 2013 in Serbin, Texas.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=3",
+          "name": "2013 Wendish History and Knowledge ExtravaganzaAsk or comment here regarding the WHKE which was held March 16th, 2013 in Serbin, Texas.",
+          "topics": 11,
+          "posts": 13,
+          "lastpost": {
+            "date": "3-18-2015 at 12:28 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=3"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Ask or comment here regarding the WHKE which was held March 14th, 2015 in Serbin, Texas.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=412",
+          "name": "2015 Wendish History and Knowledge ExtravaganzaAsk or comment here regarding the WHKE which was held March 14th, 2015 in Serbin, Texas.",
+          "topics": 10,
+          "posts": 10,
+          "lastpost": {
+            "date": "3-25-2015 at 12:02 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=412"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Original letters and documents that may shed light on the Texas Wendish experience.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=415",
+          "name": "Texas Wends: Letters and DocumentsOriginal letters and documents that may shed light on the Texas Wendish experience.",
+          "topics": 532,
+          "posts": 533,
+          "lastpost": {
+            "date": "8-18-2018 at 08:46 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=415"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=437",
+          "name": "The Bells of St. Paul, Serbin",
+          "topics": 2,
+          "posts": 2,
+          "lastpost": {
+            "date": "3-14-2017 at 09:17 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=437"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=438",
+          "name": "The Bautzen Townsmen's Oath",
+          "topics": 1,
+          "posts": 1,
+          "lastpost": {
+            "date": "5-10-2017 at 08:53 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=438"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Letters and papers documenting the origins of Lee County, Texas.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=416",
+          "name": "Lee County: Letters and DocumentsLetters and papers documenting the origins of Lee County, Texas.",
+          "topics": 31,
+          "posts": 32,
+          "lastpost": {
+            "date": "2-6-2017 at 02:57 PM",
+            "user": "ThorndaleWend",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=416"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "The Texas Lutheran Messenger is a publication started in 1921 to keep members of the Texas District of the Lutheran Church - Missouri Synod (LCMS) aware of and interested in the spread of the LCMS in Texas caused in large part, but not entirely, by the migration of Wends from Lee County, Texas to other towns and counties in Texas.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=422",
+          "name": "The Texas Lutheran MessengerThe Texas Lutheran Messenger is a publication started in 1921 to keep members of the Texas District of the Lutheran Church - Missouri Synod (LCMS) aware of and interested in the spread of the LCMS in Texas caused in large part, but not entirely, by the migration of Wends from Lee County, Texas to other towns and counties in Texas.",
+          "topics": 4,
+          "posts": 4,
+          "lastpost": {
+            "date": "12-15-2015 at 10:27 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=422"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Diaries helpful to our understanding of the Wendish experience.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=434",
+          "name": "The Ben Nevis DiariesDiaries helpful to our understanding of the Wendish experience.",
+          "topics": 3,
+          "posts": 4,
+          "lastpost": {
+            "date": "8-9-2016 at 11:49 AM",
+            "user": "Dan Bednarski",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=434"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "L&#283;topis is the yearbook of scholarly thought about Sorbian/Wendish language, history and culture that is released twice a year by the Sorbian institute in Bautzen. Dr. Peter Barker translated the abstracts for each article.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=435",
+          "name": "L&#283;topis AbstractsL&#283;topis is the yearbook of scholarly thought about Sorbian/Wendish language, history and culture that is released twice a year by the Sorbian institute in Bautzen. Dr. Peter Barker translated the abstracts for each article.",
+          "topics": 233,
+          "posts": 234,
+          "lastpost": {
+            "date": "12-6-2023 at 11:11 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=435"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=423",
+          "name": "Celebrations",
+          "topics": 14,
+          "posts": 14,
+          "lastpost": {
+            "date": "1-9-2016 at 10:04 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=423"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Wends who served during the American Civil War.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=433",
+          "name": "Wends And The Civil WarWends who served during the American Civil War.",
+          "topics": 88,
+          "posts": 88,
+          "lastpost": {
+            "date": "1-27-2024 at 11:16 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=433"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "General information about World War I and lists of World War I soldiers.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=439",
+          "name": "World War IGeneral information about World War I and lists of World War I soldiers.",
+          "topics": 208,
+          "posts": 208,
+          "lastpost": {
+            "date": "6-13-2017 at 03:46 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=439"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Contemporary news about the Australian and Texas Wends in the English language.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=430",
+          "name": "Wendish NewspapersContemporary news about the Australian and Texas Wends in the English language.",
+          "topics": 34,
+          "posts": 34,
+          "lastpost": {
+            "date": "8-3-2016 at 05:14 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=430"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "This is a collection of nineteen Sorbian songs in the following classifications: Evening, Choral, Eternity, Spring, Friendship, Home, Autumn, Children's, Nature, Easter, Summer, and Christmas.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=436",
+          "name": "Sorbian Songs For A Trombone ChoirThis is a collection of nineteen Sorbian songs in the following classifications: Evening, Choral, Eternity, Spring, Friendship, Home, Autumn, Children's, Nature, Easter, Summer, and Christmas.",
+          "topics": 19,
+          "posts": 19,
+          "lastpost": {
+            "date": "10-19-2016 at 01:28 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=436"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=417",
+          "name": "Texas Wends and Reconstruction",
+          "topics": 13,
+          "posts": 13,
+          "lastpost": {
+            "date": "3-17-2016 at 10:17 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=417"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Indexes for several Wendish books. Books sorted by name - click on book name to view book.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=432",
+          "name": "Wendish Book IndexesIndexes for several Wendish books. Books sorted by name - click on book name to view book.",
+          "topics": 10,
+          "posts": 11,
+          "lastpost": {
+            "date": "5-17-2016 at 01:17 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=432"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "This forum contains the translations and music of the folksongs of the Wends in Upper and Lower Lusatia that were collected by Leopold Haupt and Jan Arnost Smoler during the middle 1800s and are a part of the book listed above.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=405",
+          "name": "Wendish Folk SongsThis forum contains the translations and music of the folksongs of the Wends in Upper and Lower Lusatia that were collected by Leopold Haupt and Jan Arnost Smoler during the middle 1800s and are a part of the book listed above.",
+          "topics": 530,
+          "posts": 531,
+          "lastpost": {
+            "date": "9-5-2015 at 07:08 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=405"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "By Leopold Haupt and Jan Arnost Smoler.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=410",
+          "name": "Folksongs of the Wends in Upper and Lower LusatiaBy Leopold Haupt and Jan Arnost Smoler.",
+          "topics": 4,
+          "posts": 4,
+          "lastpost": {
+            "date": "12-7-2014 at 10:46 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=410"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Sorbian Blasmusik is a collection of Lower Sorbian polkas and songs for a brass band put together by the Stiftung fuer das Sorbische Volk. The translations into English were done by Dr. Charles Wukasch of Austin, Texas and Martin Strauch of Bautzen, Germany.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=420",
+          "name": "Sorbian BlasmusikSorbian Blasmusik is a collection of Lower Sorbian polkas and songs for a brass band put together by the Stiftung fuer das Sorbische Volk. The translations into English were done by Dr. Charles Wukasch of Austin, Texas and Martin Strauch of Bautzen, Germany.",
+          "topics": 16,
+          "posts": 16,
+          "lastpost": {
+            "date": "8-23-2015 at 07:56 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=420"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=11",
+          "name": "Wendish Folklore Portfolio",
+          "topics": 17,
+          "posts": 17,
+          "lastpost": {
+            "date": "10-18-2017 at 09:32 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=11"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "The Religious Leader of The Wends Who Settled in Serbin, Texas in 1855.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=414",
+          "name": "Rev. Jan KilianThe Religious Leader of The Wends Who Settled in Serbin, Texas in 1855.",
+          "topics": 8,
+          "posts": 10,
+          "lastpost": {
+            "date": "10-19-2016 at 09:10 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=414"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "First Pastor of the Second St. Peter Congregation at Serbin.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=421",
+          "name": "Rev. Johann PallmerFirst Pastor of the Second St. Peter Congregation at Serbin.",
+          "topics": 1,
+          "posts": 1,
+          "lastpost": {
+            "date": "8-22-2015 at 10:05 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=421"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "From various sources. Do you have any to add? Please participate!",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=409",
+          "name": "Texas Wendish CustomsFrom various sources. Do you have any to add? Please participate!",
+          "topics": 4,
+          "posts": 4,
+          "lastpost": {
+            "date": "12-9-2016 at 08:26 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=409"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "by Edmund Schneeweis",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=411",
+          "name": "Festivals and Folk Customs of the Sorbsby Edmund Schneeweis",
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "date": "",
+            "user": "",
+            "user_link": null,
+            "link": null
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "A Description of Churches of Upper Lusatia in 1846.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=431",
+          "name": "Kirchen GalerieA Description of Churches of Upper Lusatia in 1846.",
+          "topics": 9,
+          "posts": 9,
+          "lastpost": {
+            "date": "2-15-2017 at 11:17 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=431"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Translations of books about Lusatian towns and churches, definitions.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=407",
+          "name": "Lusatian TownsTranslations of books about Lusatian towns and churches, definitions.",
+          "topics": 150,
+          "posts": 150,
+          "lastpost": {
+            "date": "10-25-2016 at 11:24 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=407"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=418",
+          "name": "Cadastral Maps",
+          "topics": 2,
+          "posts": 2,
+          "lastpost": {
+            "date": "6-2-2015 at 12:36 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=418"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Texas Wendish-related Towns and Places",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=408",
+          "name": "Texas Place NamesTexas Wendish-related Towns and Places",
+          "topics": 119,
+          "posts": 125,
+          "lastpost": {
+            "date": "5-15-2018 at 04:50 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=408"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Wendish surnames identified by Dr. George Nielsen during his extensive research. A tool that may help you find your ancestral family. Wendish names, plus names which married into Wendish families. Help others, and discover more about your Wendish family. 388 names to begin. More may be added.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=6",
+          "name": "Texas Family NamesWendish surnames identified by Dr. George Nielsen during his extensive research. A tool that may help you find your ancestral family. Wendish names, plus names which married into Wendish families. Help others, and discover more about your Wendish family. 388 names to begin. More may be added.",
+          "topics": 64,
+          "posts": 97,
+          "lastpost": {
+            "date": "8-28-2023 at 11:17 AM",
+            "user": "fhwissel",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=6"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Discussion and presentation of church registers and their translations; other church-related topics.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=399",
+          "name": "ChurchesDiscussion and presentation of church registers and their translations; other church-related topics.",
+          "topics": 4,
+          "posts": 13,
+          "lastpost": {
+            "date": "7-22-2014 at 08:11 AM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=399"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=403",
+          "name": "General Wendish Discussion",
+          "topics": 4,
+          "posts": 14,
+          "lastpost": {
+            "date": "6-6-2014 at 01:19 PM",
+            "user": "thettler",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=403"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Please consider signing up as a Subject Matter Expert (SME) to make yourself available to assist others as your time permits.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=402",
+          "name": "Researcher RegistryPlease consider signing up as a Subject Matter Expert (SME) to make yourself available to assist others as your time permits.",
+          "topics": 2,
+          "posts": 6,
+          "lastpost": {
+            "date": "10-29-2018 at 08:14 PM",
+            "user": "mersiowsky",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=402"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "The fascinating science of DNA and tracking family travels across the globe.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=4",
+          "name": "Wendish DNA ProjectThe fascinating science of DNA and tracking family travels across the globe.",
+          "topics": 2,
+          "posts": 14,
+          "lastpost": {
+            "date": "11-29-2018 at 11:42 AM",
+            "user": "Roger.Bagula",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=4"
+          }
+        },
+        {
+          "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
+          "description": "Feel free to assist in or comment on any or all projects. Have a project for consideration? Just add it as a new Topic.",
+          "link": "https://forum.wendishresearch.org/forumdisplay.php?fid=2",
+          "name": "ProjectsFeel free to assist in or comment on any or all projects. Have a project for consideration? Just add it as a new Topic.",
+          "topics": 24,
+          "posts": 33,
+          "lastpost": {
+            "date": "7-1-2014 at 11:06 AM",
+            "user": "thettler",
+            "user_link": null,
+            "link": "https://forum.wendishresearch.org/viewthread.php?goto=lastpost&fid=2"
+          }
+        }
+      ]
+    }
+  ]
+}

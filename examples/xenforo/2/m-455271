@@ -1,1 +1,34 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/popo53414.455271/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json", "id": 455271, "background": "https://forums.mangadex.org/community/profile_banners/m/455/455271.jpg", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/455/455271.jpg", "title": "Dex-chan lover", "banners": [], "name": "popo53414", "forum": "", "extras": [{"key": "Joined", "value": "2020-12-08T06:08:53+0000"}, {"key": "Last seen", "value": "2024-07-18T15:19:20+0100"}, {"key": "Messages", "value": "6,058"}, {"key": "Reaction score", "value": "15,489"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/popo53414.455271/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json",
+  "id": 455271,
+  "background": "https://forums.mangadex.org/community/profile_banners/m/455/455271.jpg",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/455/455271.jpg",
+  "title": "Dex-chan lover",
+  "banners": [],
+  "name": "popo53414",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2020-12-08T06:08:53+0000"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-07-18T15:19:20+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "6,058"
+    },
+    {
+      "key": "Reaction score",
+      "value": "15,489"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

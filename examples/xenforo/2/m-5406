@@ -1,1 +1,36 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/caprisun.5406/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json", "id": 5406, "background": "", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/5/5406.jpg", "title": "Member", "banners": ["VIP"], "name": "caprisun", "forum": "", "extras": [{"key": "Joined", "value": "2018-01-29T03:16:24+0000"}, {"key": "Last seen", "value": "2024-06-21T05:41:08+0100"}, {"key": "Messages", "value": "52"}, {"key": "Reaction score", "value": "9"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/caprisun.5406/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json",
+  "id": 5406,
+  "background": "",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/5/5406.jpg",
+  "title": "Member",
+  "banners": [
+    "VIP"
+  ],
+  "name": "caprisun",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2018-01-29T03:16:24+0000"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-06-21T05:41:08+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "52"
+    },
+    {
+      "key": "Reaction score",
+      "value": "9"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

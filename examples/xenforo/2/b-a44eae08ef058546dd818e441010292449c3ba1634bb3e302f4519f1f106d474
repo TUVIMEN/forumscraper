@@ -1,1 +1,1192 @@
-{"format_version": "xenforo-2-forum", "url": "https://www.kia-forums.com/forums/", "categories": [{"name": "Kia News &amp; Polls", "link": null, "forums": [{"icon": "unread", "name": "Kia News", "link": "https://www.kia-forums.com/forums/kia-news.277/", "description": "Kia News & Kia-Forums.com News", "childboards": [], "topics": 0, "posts": 2264, "views": 3554894, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-21T21:04:23-0400", "user": "", "user_link": null}}]}, {"name": "Welcome", "link": null, "forums": [{"icon": "read", "name": "Community Rules", "link": "https://www.kia-forums.com/forums/community-rules.485/", "description": "Please read before posting.", "childboards": [], "topics": 0, "posts": 1, "views": 5367, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2022-03-15T10:22:58-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "New Member Area/Introduction", "link": "https://www.kia-forums.com/forums/new-member-area-introduction.218/", "description": "New to the forums?? This is the best place to start. Go ahead introduce yourself to the community.", "childboards": [], "topics": 0, "posts": 15426, "views": 11308357, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-06-15T12:46:32-0400", "user": "", "user_link": null}}]}, {"name": "KIA Models", "link": null, "forums": [{"icon": "unread", "name": "Kia EV9 Crossover", "link": "https://www.kia-forums.com/forums/kia-ev9-crossover.491/", "description": "", "childboards": [], "topics": 0, "posts": 1, "views": 330, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-05-08T22:09:41-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia K5 Forum", "link": "https://www.kia-forums.com/forums/kia-k5-forum.479/", "description": "Forum for 2021+ Kia K5 general discussion", "childboards": [], "topics": 0, "posts": 456, "views": 704124, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-23T12:15:53-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Forte/Cerato and Koup (post in sub-section only)", "link": "https://www.kia-forums.com/forums/forte-cerato-and-koup-post-in-sub-section-only.294/", "description": "The forum for the discussion of the new Kia Forte/Cerato (TD) and Koup", "childboards": [{"icon": "unread", "name": "2003 - 2013 Kia Forte/Cerato", "link": "https://www.kia-forums.com/forums/2003-2013-kia-forte-cerato.488/"}, {"icon": "unread", "name": "2014 - 2018 Kia Forte/Cerato", "link": "https://www.kia-forums.com/forums/2014-2018-kia-forte-cerato.489/"}, {"icon": "unread", "name": "2019 - 2024 Kia Forte/Cerato", "link": "https://www.kia-forums.com/forums/2019-2024-kia-forte-cerato.490/"}], "topics": 0, "posts": 10231, "views": 9121679, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-22T13:24:11-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Cadenza Forum", "link": "https://www.kia-forums.com/forums/kia-cadenza-forum.308/", "description": "Discussion area for the new Kia Cadenza", "childboards": [], "topics": 0, "posts": 1183, "views": 1597435, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-05-15T15:05:04-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Amanti &amp; Opirus Forum (post in sub-section only)", "link": "https://www.kia-forums.com/forums/amanti-opirus-forum-post-in-sub-section-only.221/", "description": "Discussion area for Kia Amanti and Kia Opirus!", "childboards": [{"icon": "unread", "name": "1G Kia Amanti &amp; Opirus Forum (2004 - 2010)", "link": "https://www.kia-forums.com/forums/1g-kia-amanti-opirus-forum-2004-2010.305/"}], "topics": 0, "posts": 133, "views": 5001317, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-22T16:26:34-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Cee&#039;d Forum", "link": "https://www.kia-forums.com/forums/kia-ceed-forum.281/", "description": "Discussion area for every generation Kia cee'd.", "childboards": [], "topics": 0, "posts": 33951, "views": 24065461, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-08T21:51:00-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Carens &amp; Rondo Forum", "link": "https://www.kia-forums.com/forums/kia-carens-rondo-forum.222/", "description": "A good bargain for a superb street-performer.", "childboards": [], "topics": 0, "posts": 29018, "views": 21647089, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-26T10:38:17-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Carnival &amp; Sedona Forum (post in sub-section only)", "link": "https://www.kia-forums.com/forums/carnival-sedona-forum-post-in-sub-section-only.226/", "description": "Discussion area for every generation Kia Carnival and Kia Sedona.", "childboards": [{"icon": "unread", "name": "Kia Carnival &amp; Sedona (2002 - 2005)", "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2002-2005.271/"}, {"icon": "unread", "name": "Kia Carnival  &amp; Sedona 2006+", "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2006.270/"}, {"icon": "unread", "name": "Kia Carnival &amp; Sedona 2015+", "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2015.346/"}, {"icon": "unread", "name": "Kia Carnival &amp; Sedona 2022+", "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2022.480/"}], "topics": 0, "posts": 7722, "views": 41805780, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-26T00:22:29-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Cerato, Shuma &amp; Spectra (post in sub-section only)", "link": "https://www.kia-forums.com/forums/cerato-shuma-spectra-post-in-sub-section-only.228/", "description": "Discussion area for every generation Kia Cerato, Kia Shuma and Kia Spectra.", "childboards": [{"icon": "", "name": "Shuma &amp; Spectra (1997-2003) 1st Gen", "link": "https://www.kia-forums.com/forums/shuma-spectra-1997-2003-1st-gen.264/"}, {"icon": "unread", "name": "Cerato &amp; Spectra5 (2004 - 2009) 2nd Gen", "link": "https://www.kia-forums.com/forums/cerato-spectra5-2004-2009-2nd-gen.265/"}], "topics": 0, "posts": 10731, "views": 25216010, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-22T11:55:22-0400", "user": "", "user_link": null}}, {"icon": "read", "name": "Kia EV6 Crossover", "link": "https://www.kia-forums.com/forums/kia-ev6-crossover.481/", "description": "Discussion area for the 2022 Kia EV6", "childboards": [], "topics": 0, "posts": 200, "views": 422834, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-02-25T22:28:41-0500", "user": "", "user_link": null}}, {"icon": "unread", "name": "Magentis &amp; Optima Forum (post in sub-section only)", "link": "https://www.kia-forums.com/forums/magentis-optima-forum-post-in-sub-section-only.223/", "description": "Discussion area for every generation Kia Magentis and Kia Optima.", "childboards": [{"icon": "unread", "name": "1G/2G (2001-2006) Magentis &amp; Optima", "link": "https://www.kia-forums.com/forums/1g-2g-2001-2006-magentis-optima.272/"}, {"icon": "unread", "name": "3G (2006.5+) Magentis &amp; Optima", "link": "https://www.kia-forums.com/forums/3g-2006-5-magentis-optima.273/"}, {"icon": "unread", "name": "4G (2011+)  Optima", "link": "https://www.kia-forums.com/forums/4g-2011-optima.307/"}], "topics": 0, "posts": 3470, "views": 30787734, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-23T20:59:11-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Mohave &amp; Borrego", "link": "https://www.kia-forums.com/forums/kia-mohave-borrego.285/", "description": "Discussion area for every generation Kia Mohave and Kia Borrego.", "childboards": [], "topics": 0, "posts": 5892, "views": 5606046, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-20T08:40:18-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Niro", "link": "https://www.kia-forums.com/forums/kia-niro.441/", "description": "Discussion area for the new Kia Niro", "childboards": [], "topics": 0, "posts": 2173, "views": 2588784, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-15T11:18:14-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Picanto Forum", "link": "https://www.kia-forums.com/forums/kia-picanto-forum.224/", "description": "Life is more colourful with Picanto", "childboards": [], "topics": 0, "posts": 9450, "views": 10198945, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-08T10:58:30-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Rio Forum (post in sub-section only)", "link": "https://www.kia-forums.com/forums/kia-rio-forum-post-in-sub-section-only.225/", "description": "A great first car, offering practical transportation and great fuel economy. Discussion area for every generation Kia Rio.", "childboards": [{"icon": "unread", "name": "1G (2001-2005) Rio", "link": "https://www.kia-forums.com/forums/1g-2001-2005-rio.267/"}, {"icon": "unread", "name": "2G (2006 - 2011) Rio &amp; Rio5", "link": "https://www.kia-forums.com/forums/2g-2006-2011-rio-rio5.266/"}, {"icon": "unread", "name": "3G (2012 - 2017)  Rio", "link": "https://www.kia-forums.com/forums/3g-2012-2017-rio.319/"}, {"icon": "unread", "name": "4G (2018- Present) Rio", "link": "https://www.kia-forums.com/forums/4g-2018-present-rio.460/"}], "topics": 0, "posts": 0, "views": 51724967, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-25T23:43:45-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Seltos", "link": "https://www.kia-forums.com/forums/kia-seltos.477/", "description": "Discussion area for every generation Kia Seltos.", "childboards": [], "topics": 0, "posts": 636, "views": 895674, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-22T19:35:15-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Sephia Forum (post in sub-section only)", "link": "https://www.kia-forums.com/forums/kia-sephia-forum-post-in-sub-section-only.239/", "description": "Discussion area for every generation Kia Sephia.", "childboards": [{"icon": "", "name": "1G (1993 - 1997) Sephia", "link": "https://www.kia-forums.com/forums/1g-1993-1997-sephia.268/"}, {"icon": "unread", "name": "2G (1998 - 2001) Sephia", "link": "https://www.kia-forums.com/forums/2g-1998-2001-sephia.269/"}], "topics": 0, "posts": 1158, "views": 13098818, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-07-12T20:17:31-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Sorento Forum (post in sub-section only)", "link": "https://www.kia-forums.com/forums/kia-sorento-forum-post-in-sub-section-only.227/", "description": "The mid-size SUV with all the sleek styling, comfort and rugged ability to take you wherever you want to go in life.", "childboards": [{"icon": "unread", "name": "2003-2010 Sorento Forum", "link": "https://www.kia-forums.com/forums/2003-2010-sorento-forum.302/"}, {"icon": "unread", "name": "2011 - 2013 (XM) Sorento Forum", "link": "https://www.kia-forums.com/forums/2011-2013-xm-sorento-forum.303/"}, {"icon": "unread", "name": "2014 - 2015 Sorento Forum", "link": "https://www.kia-forums.com/forums/2014-2015-sorento-forum.338/"}, {"icon": "unread", "name": "2016 - 2020 Sorento Forum", "link": "https://www.kia-forums.com/forums/2016-2020-sorento-forum.370/"}, {"icon": "unread", "name": "2021+ Sorento Forum", "link": "https://www.kia-forums.com/forums/2021-sorento-forum.476/"}], "topics": 0, "posts": 0, "views": 131731707, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-26T10:40:16-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Soul Forum", "link": "https://www.kia-forums.com/forums/kia-soul-forum.284/", "description": "A compact crossover vehicle combining features of a small SUV and a small minivan.", "childboards": [], "topics": 0, "posts": 10379, "views": 9798733, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-24T13:03:36-0400", "user": "", "user_link": null}}, {"icon": "read", "name": "Kia Stinger Forum", "link": "https://www.kia-forums.com/forums/kia-stinger-forum.449/", "description": "Discussion area for the all-new Kia Stinger.", "childboards": [], "topics": 0, "posts": 245, "views": 544527, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-02-06T02:28:00-0500", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Sportage Forum (post in sub-section only)", "link": "https://www.kia-forums.com/forums/kia-sportage-forum-post-in-sub-section-only.238/", "description": "Discussion area for every generation Kia Sportage.", "childboards": [{"icon": "unread", "name": "1G (1993 - 2002) Sportage", "link": "https://www.kia-forums.com/forums/1g-1993-2002-sportage.262/"}, {"icon": "unread", "name": "2G (2003-2010) Sportage", "link": "https://www.kia-forums.com/forums/2g-2003-2010-sportage.263/"}, {"icon": "unread", "name": "3G 2011 - 2016 Sportage", "link": "https://www.kia-forums.com/forums/3g-2011-2016-sportage.304/"}, {"icon": "unread", "name": "4G 2016-2018+ Sportage", "link": "https://www.kia-forums.com/forums/4g-2016-2018-sportage.385/"}, {"icon": "unread", "name": "5G 2022+ Sportage", "link": "https://www.kia-forums.com/forums/5g-2022-sportage.482/"}], "topics": 0, "posts": 2576, "views": 91133262, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-26T10:15:16-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Kia Telluride Forum", "link": "https://www.kia-forums.com/forums/kia-telluride-forum.458/", "description": "Discussion area for the Kia Telluride.", "childboards": [], "topics": 0, "posts": 712, "views": 783885, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-24T22:24:07-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Other Kia Models", "link": "https://www.kia-forums.com/forums/other-kia-models.229/", "description": "", "childboards": [], "topics": 0, "posts": 1930, "views": 3650366, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-20T03:10:01-0400", "user": "", "user_link": null}}]}, {"name": "General", "link": null, "forums": [{"icon": "unread", "name": "General KIA Non-Model Specific Discussion", "link": "https://www.kia-forums.com/forums/general-kia-non-model-specific-discussion.232/", "description": "Forum for discussions regarding KIA in general (ie. dealers, news, etc.).Sponsored by: <a href=\"https://www.carid.com/kia-accessories/?utm_source=kia-forums.com&utm_medium=sponsoredbylink&utm_campaign=VSForums\" rel=\"Nofollow Sponsored\" Target=\"_blank\">CARiD</a>", "childboards": [], "topics": 0, "posts": 4480, "views": 5255833, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-14T12:15:52-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Other Cars", "link": "https://www.kia-forums.com/forums/other-cars.241/", "description": "Talk about other car makes here.", "childboards": [], "topics": 0, "posts": 478, "views": 935938, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-06-11T14:11:41-0400", "user": "", "user_link": null}}, {"icon": "read", "name": "Image and Video Gallery", "link": "https://www.kia-forums.com/forums/image-and-video-gallery.233/", "description": "Post images, videos and sound clips here.", "childboards": [], "topics": 0, "posts": 964, "views": 1258568, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2023-11-29T11:07:32-0500", "user": "", "user_link": null}}, {"icon": "read", "name": "Member&#039;s Garage", "link": "https://www.kia-forums.com/forums/members-garage.260/", "description": "Get your Kia listed in the Garage Today, for FREE, to share with the world what you drive and what toys and modifications you have. The Garage can be a useful tool for finding vehicles and mods and getting some valuable insight!", "childboards": [], "topics": 0, "posts": 294, "views": 570204, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2023-03-28T09:46:30-0400", "user": "", "user_link": null}}]}, {"name": "Technical", "link": null, "forums": [{"icon": "read", "name": "Car Audio, Video &amp; Electronics", "link": "https://www.kia-forums.com/forums/car-audio-video-electronics.234/", "description": "Discuss all car audio, video and electronic related issues here.", "childboards": [], "topics": 0, "posts": 2312, "views": 3518782, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2023-10-04T15:03:27-0400", "user": "", "user_link": null}}, {"icon": "read", "name": "Interiors and Exteriors", "link": "https://www.kia-forums.com/forums/interiors-and-exteriors.235/", "description": "Discuss Interior and Exterior related issues here.", "childboards": [], "topics": 0, "posts": 821, "views": 1511371, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2021-06-08T17:01:00-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Performance, modifications and upgrades etc.", "link": "https://www.kia-forums.com/forums/performance-modifications-and-upgrades-etc.236/", "description": "Discuss your performance related issues here.", "childboards": [], "topics": 0, "posts": 1277, "views": 1624594, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-26T08:28:03-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Suspension, Wheels and Tires", "link": "https://www.kia-forums.com/forums/suspension-wheels-and-tires.237/", "description": "Discuss all suspension, wheels and tire related topics in here.", "childboards": [], "topics": 0, "posts": 1035, "views": 1840297, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-06-24T12:09:44-0400", "user": "", "user_link": null}}, {"icon": "read", "name": "Do it Yourself", "link": "https://www.kia-forums.com/forums/do-it-yourself.258/", "description": "Share those Do-It-Yourself projects and money saving tips here.", "childboards": [], "topics": 0, "posts": 1259, "views": 3954527, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2022-10-19T07:10:28-0400", "user": "", "user_link": null}}]}, {"name": "Marketplace", "link": null, "forums": [{"icon": "read", "name": "Great Deals", "link": "https://www.kia-forums.com/forums/great-deals.483/", "description": "Have you found a Great Deal? This forum is created to share and find discounts, sales, and other deals found online. (No Commercial Vendor or Private Party postings allowed)", "childboards": [], "topics": 0, "posts": 86, "views": 312491, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2023-12-23T09:44:27-0500", "user": "", "user_link": null}}, {"icon": "unread", "name": "Parts For Sale / Trade", "link": "https://www.kia-forums.com/forums/parts-for-sale-trade.219/", "description": "Post up your parts for sale or trade in this forum.", "childboards": [], "topics": 0, "posts": 3010, "views": 2065612, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-11T17:13:53-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Vehicles For Sale", "link": "https://www.kia-forums.com/forums/vehicles-for-sale.311/", "description": "Post up your vehicles for sale in this forum.", "childboards": [], "topics": 0, "posts": 314, "views": 429872, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-12T12:48:14-0400", "user": "", "user_link": null}}, {"icon": "read", "name": "Classifieds - Private &quot;Wanted&quot; Classifieds", "link": "https://www.kia-forums.com/forums/classifieds-private-wanted-classifieds.220/", "description": "", "childboards": [], "topics": 0, "posts": 754, "views": 640908, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-01-16T12:06:07-0500", "user": "", "user_link": null}}, {"icon": "read", "name": "Good Guy/Bad Guy", "link": "https://www.kia-forums.com/forums/good-guy-bad-guy.274/", "description": "Talk about your buying & selling experiences with other individuals.", "childboards": [], "topics": 0, "posts": 353, "views": 610227, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2023-09-10T03:55:30-0400", "user": "", "user_link": null}}]}, {"name": "Learn more", "link": "https://www.kia-forums.com/business", "forums": [{"icon": "unread", "name": "Vendor Spotlight! Great Deals for Members", "link": "https://www.kia-forums.com/forums/vendor-spotlight-great-deals-for-members.354/", "description": "Our vendors not only help support our community, but they also offer amazing deals to our members. Check this forum often for all the specials, deals, and announcements.", "childboards": [], "topics": 0, "posts": 123, "views": 340953, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-20T05:15:18-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "CARiD.com", "link": "https://www.kia-forums.com/forums/carid-com.295/", "description": "", "childboards": [], "topics": 0, "posts": 235, "views": 306975, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-15T10:17:21-0400", "user": "", "user_link": null}}]}, {"name": "Off Topic Discussions", "link": null, "forums": []}, {"name": "Regional", "link": null, "forums": [{"icon": "unread", "name": "USA", "link": "https://www.kia-forums.com/forums/usa.242/", "description": "", "childboards": [{"icon": "unread", "name": "US - North East", "link": "https://www.kia-forums.com/forums/us-north-east.246/"}, {"icon": "", "name": "US - Central", "link": "https://www.kia-forums.com/forums/us-central.247/"}, {"icon": "unread", "name": "US - South West", "link": "https://www.kia-forums.com/forums/us-south-west.248/"}, {"icon": "unread", "name": "US - West", "link": "https://www.kia-forums.com/forums/us-west.249/"}, {"icon": "", "name": "US - Mid West", "link": "https://www.kia-forums.com/forums/us-mid-west.250/"}, {"icon": "unread", "name": "US - South", "link": "https://www.kia-forums.com/forums/us-south.251/"}], "topics": 0, "posts": 72, "views": 1186851, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-19T13:41:05-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Canada", "link": "https://www.kia-forums.com/forums/canada.245/", "description": "", "childboards": [], "topics": 0, "posts": 973, "views": 1791187, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-21T14:08:06-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Asia Pacific", "link": "https://www.kia-forums.com/forums/asia-pacific.243/", "description": "", "childboards": [{"icon": "unread", "name": "Australia", "link": "https://www.kia-forums.com/forums/australia.252/"}, {"icon": "", "name": "Malaysia", "link": "https://www.kia-forums.com/forums/malaysia.253/"}, {"icon": "", "name": "Philippines", "link": "https://www.kia-forums.com/forums/philippines.254/"}, {"icon": "", "name": "Singapore", "link": "https://www.kia-forums.com/forums/singapore.255/"}], "topics": 0, "posts": 2, "views": 3014829, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-08-26T05:13:29-0400", "user": "", "user_link": null}}, {"icon": "unread", "name": "Europe", "link": "https://www.kia-forums.com/forums/europe.244/", "description": "", "childboards": [{"icon": "unread", "name": "UK", "link": "https://www.kia-forums.com/forums/uk.256/"}], "topics": 0, "posts": 62, "views": 913367, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "2024-05-26T14:42:45-0400", "user": "", "user_link": null}}]}], "threads": []}
+{
+  "format_version": "xenforo-2-forum",
+  "url": "https://www.kia-forums.com/forums/",
+  "categories": [
+    {
+      "name": "Kia News &amp; Polls",
+      "link": null,
+      "forums": [
+        {
+          "icon": "unread",
+          "name": "Kia News",
+          "link": "https://www.kia-forums.com/forums/kia-news.277/",
+          "description": "Kia News & Kia-Forums.com News",
+          "childboards": [],
+          "topics": 0,
+          "posts": 2264,
+          "views": 3554894,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-21T21:04:23-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Welcome",
+      "link": null,
+      "forums": [
+        {
+          "icon": "read",
+          "name": "Community Rules",
+          "link": "https://www.kia-forums.com/forums/community-rules.485/",
+          "description": "Please read before posting.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 1,
+          "views": 5367,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2022-03-15T10:22:58-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "New Member Area/Introduction",
+          "link": "https://www.kia-forums.com/forums/new-member-area-introduction.218/",
+          "description": "New to the forums?? This is the best place to start. Go ahead introduce yourself to the community.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 15426,
+          "views": 11308357,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-06-15T12:46:32-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "KIA Models",
+      "link": null,
+      "forums": [
+        {
+          "icon": "unread",
+          "name": "Kia EV9 Crossover",
+          "link": "https://www.kia-forums.com/forums/kia-ev9-crossover.491/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 1,
+          "views": 330,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-05-08T22:09:41-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia K5 Forum",
+          "link": "https://www.kia-forums.com/forums/kia-k5-forum.479/",
+          "description": "Forum for 2021+ Kia K5 general discussion",
+          "childboards": [],
+          "topics": 0,
+          "posts": 456,
+          "views": 704124,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-23T12:15:53-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Forte/Cerato and Koup (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/forte-cerato-and-koup-post-in-sub-section-only.294/",
+          "description": "The forum for the discussion of the new Kia Forte/Cerato (TD) and Koup",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "2003 - 2013 Kia Forte/Cerato",
+              "link": "https://www.kia-forums.com/forums/2003-2013-kia-forte-cerato.488/"
+            },
+            {
+              "icon": "unread",
+              "name": "2014 - 2018 Kia Forte/Cerato",
+              "link": "https://www.kia-forums.com/forums/2014-2018-kia-forte-cerato.489/"
+            },
+            {
+              "icon": "unread",
+              "name": "2019 - 2024 Kia Forte/Cerato",
+              "link": "https://www.kia-forums.com/forums/2019-2024-kia-forte-cerato.490/"
+            }
+          ],
+          "topics": 0,
+          "posts": 10231,
+          "views": 9121679,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-22T13:24:11-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Cadenza Forum",
+          "link": "https://www.kia-forums.com/forums/kia-cadenza-forum.308/",
+          "description": "Discussion area for the new Kia Cadenza",
+          "childboards": [],
+          "topics": 0,
+          "posts": 1183,
+          "views": 1597435,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-05-15T15:05:04-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Amanti &amp; Opirus Forum (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/amanti-opirus-forum-post-in-sub-section-only.221/",
+          "description": "Discussion area for Kia Amanti and Kia Opirus!",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "1G Kia Amanti &amp; Opirus Forum (2004 - 2010)",
+              "link": "https://www.kia-forums.com/forums/1g-kia-amanti-opirus-forum-2004-2010.305/"
+            }
+          ],
+          "topics": 0,
+          "posts": 133,
+          "views": 5001317,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-22T16:26:34-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Cee&#039;d Forum",
+          "link": "https://www.kia-forums.com/forums/kia-ceed-forum.281/",
+          "description": "Discussion area for every generation Kia cee'd.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 33951,
+          "views": 24065461,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-08T21:51:00-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Carens &amp; Rondo Forum",
+          "link": "https://www.kia-forums.com/forums/kia-carens-rondo-forum.222/",
+          "description": "A good bargain for a superb street-performer.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 29018,
+          "views": 21647089,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-26T10:38:17-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Carnival &amp; Sedona Forum (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/carnival-sedona-forum-post-in-sub-section-only.226/",
+          "description": "Discussion area for every generation Kia Carnival and Kia Sedona.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Kia Carnival &amp; Sedona (2002 - 2005)",
+              "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2002-2005.271/"
+            },
+            {
+              "icon": "unread",
+              "name": "Kia Carnival  &amp; Sedona 2006+",
+              "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2006.270/"
+            },
+            {
+              "icon": "unread",
+              "name": "Kia Carnival &amp; Sedona 2015+",
+              "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2015.346/"
+            },
+            {
+              "icon": "unread",
+              "name": "Kia Carnival &amp; Sedona 2022+",
+              "link": "https://www.kia-forums.com/forums/kia-carnival-sedona-2022.480/"
+            }
+          ],
+          "topics": 0,
+          "posts": 7722,
+          "views": 41805780,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-26T00:22:29-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Cerato, Shuma &amp; Spectra (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/cerato-shuma-spectra-post-in-sub-section-only.228/",
+          "description": "Discussion area for every generation Kia Cerato, Kia Shuma and Kia Spectra.",
+          "childboards": [
+            {
+              "icon": "",
+              "name": "Shuma &amp; Spectra (1997-2003) 1st Gen",
+              "link": "https://www.kia-forums.com/forums/shuma-spectra-1997-2003-1st-gen.264/"
+            },
+            {
+              "icon": "unread",
+              "name": "Cerato &amp; Spectra5 (2004 - 2009) 2nd Gen",
+              "link": "https://www.kia-forums.com/forums/cerato-spectra5-2004-2009-2nd-gen.265/"
+            }
+          ],
+          "topics": 0,
+          "posts": 10731,
+          "views": 25216010,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-22T11:55:22-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Kia EV6 Crossover",
+          "link": "https://www.kia-forums.com/forums/kia-ev6-crossover.481/",
+          "description": "Discussion area for the 2022 Kia EV6",
+          "childboards": [],
+          "topics": 0,
+          "posts": 200,
+          "views": 422834,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-02-25T22:28:41-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Magentis &amp; Optima Forum (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/magentis-optima-forum-post-in-sub-section-only.223/",
+          "description": "Discussion area for every generation Kia Magentis and Kia Optima.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "1G/2G (2001-2006) Magentis &amp; Optima",
+              "link": "https://www.kia-forums.com/forums/1g-2g-2001-2006-magentis-optima.272/"
+            },
+            {
+              "icon": "unread",
+              "name": "3G (2006.5+) Magentis &amp; Optima",
+              "link": "https://www.kia-forums.com/forums/3g-2006-5-magentis-optima.273/"
+            },
+            {
+              "icon": "unread",
+              "name": "4G (2011+)  Optima",
+              "link": "https://www.kia-forums.com/forums/4g-2011-optima.307/"
+            }
+          ],
+          "topics": 0,
+          "posts": 3470,
+          "views": 30787734,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-23T20:59:11-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Mohave &amp; Borrego",
+          "link": "https://www.kia-forums.com/forums/kia-mohave-borrego.285/",
+          "description": "Discussion area for every generation Kia Mohave and Kia Borrego.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 5892,
+          "views": 5606046,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-20T08:40:18-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Niro",
+          "link": "https://www.kia-forums.com/forums/kia-niro.441/",
+          "description": "Discussion area for the new Kia Niro",
+          "childboards": [],
+          "topics": 0,
+          "posts": 2173,
+          "views": 2588784,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-15T11:18:14-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Picanto Forum",
+          "link": "https://www.kia-forums.com/forums/kia-picanto-forum.224/",
+          "description": "Life is more colourful with Picanto",
+          "childboards": [],
+          "topics": 0,
+          "posts": 9450,
+          "views": 10198945,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-08T10:58:30-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Rio Forum (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/kia-rio-forum-post-in-sub-section-only.225/",
+          "description": "A great first car, offering practical transportation and great fuel economy. Discussion area for every generation Kia Rio.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "1G (2001-2005) Rio",
+              "link": "https://www.kia-forums.com/forums/1g-2001-2005-rio.267/"
+            },
+            {
+              "icon": "unread",
+              "name": "2G (2006 - 2011) Rio &amp; Rio5",
+              "link": "https://www.kia-forums.com/forums/2g-2006-2011-rio-rio5.266/"
+            },
+            {
+              "icon": "unread",
+              "name": "3G (2012 - 2017)  Rio",
+              "link": "https://www.kia-forums.com/forums/3g-2012-2017-rio.319/"
+            },
+            {
+              "icon": "unread",
+              "name": "4G (2018- Present) Rio",
+              "link": "https://www.kia-forums.com/forums/4g-2018-present-rio.460/"
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "views": 51724967,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-25T23:43:45-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Seltos",
+          "link": "https://www.kia-forums.com/forums/kia-seltos.477/",
+          "description": "Discussion area for every generation Kia Seltos.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 636,
+          "views": 895674,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-22T19:35:15-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Sephia Forum (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/kia-sephia-forum-post-in-sub-section-only.239/",
+          "description": "Discussion area for every generation Kia Sephia.",
+          "childboards": [
+            {
+              "icon": "",
+              "name": "1G (1993 - 1997) Sephia",
+              "link": "https://www.kia-forums.com/forums/1g-1993-1997-sephia.268/"
+            },
+            {
+              "icon": "unread",
+              "name": "2G (1998 - 2001) Sephia",
+              "link": "https://www.kia-forums.com/forums/2g-1998-2001-sephia.269/"
+            }
+          ],
+          "topics": 0,
+          "posts": 1158,
+          "views": 13098818,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-07-12T20:17:31-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Sorento Forum (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/kia-sorento-forum-post-in-sub-section-only.227/",
+          "description": "The mid-size SUV with all the sleek styling, comfort and rugged ability to take you wherever you want to go in life.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "2003-2010 Sorento Forum",
+              "link": "https://www.kia-forums.com/forums/2003-2010-sorento-forum.302/"
+            },
+            {
+              "icon": "unread",
+              "name": "2011 - 2013 (XM) Sorento Forum",
+              "link": "https://www.kia-forums.com/forums/2011-2013-xm-sorento-forum.303/"
+            },
+            {
+              "icon": "unread",
+              "name": "2014 - 2015 Sorento Forum",
+              "link": "https://www.kia-forums.com/forums/2014-2015-sorento-forum.338/"
+            },
+            {
+              "icon": "unread",
+              "name": "2016 - 2020 Sorento Forum",
+              "link": "https://www.kia-forums.com/forums/2016-2020-sorento-forum.370/"
+            },
+            {
+              "icon": "unread",
+              "name": "2021+ Sorento Forum",
+              "link": "https://www.kia-forums.com/forums/2021-sorento-forum.476/"
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "views": 131731707,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-26T10:40:16-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Soul Forum",
+          "link": "https://www.kia-forums.com/forums/kia-soul-forum.284/",
+          "description": "A compact crossover vehicle combining features of a small SUV and a small minivan.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 10379,
+          "views": 9798733,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-24T13:03:36-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Kia Stinger Forum",
+          "link": "https://www.kia-forums.com/forums/kia-stinger-forum.449/",
+          "description": "Discussion area for the all-new Kia Stinger.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 245,
+          "views": 544527,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-02-06T02:28:00-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Sportage Forum (post in sub-section only)",
+          "link": "https://www.kia-forums.com/forums/kia-sportage-forum-post-in-sub-section-only.238/",
+          "description": "Discussion area for every generation Kia Sportage.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "1G (1993 - 2002) Sportage",
+              "link": "https://www.kia-forums.com/forums/1g-1993-2002-sportage.262/"
+            },
+            {
+              "icon": "unread",
+              "name": "2G (2003-2010) Sportage",
+              "link": "https://www.kia-forums.com/forums/2g-2003-2010-sportage.263/"
+            },
+            {
+              "icon": "unread",
+              "name": "3G 2011 - 2016 Sportage",
+              "link": "https://www.kia-forums.com/forums/3g-2011-2016-sportage.304/"
+            },
+            {
+              "icon": "unread",
+              "name": "4G 2016-2018+ Sportage",
+              "link": "https://www.kia-forums.com/forums/4g-2016-2018-sportage.385/"
+            },
+            {
+              "icon": "unread",
+              "name": "5G 2022+ Sportage",
+              "link": "https://www.kia-forums.com/forums/5g-2022-sportage.482/"
+            }
+          ],
+          "topics": 0,
+          "posts": 2576,
+          "views": 91133262,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-26T10:15:16-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Kia Telluride Forum",
+          "link": "https://www.kia-forums.com/forums/kia-telluride-forum.458/",
+          "description": "Discussion area for the Kia Telluride.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 712,
+          "views": 783885,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-24T22:24:07-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Other Kia Models",
+          "link": "https://www.kia-forums.com/forums/other-kia-models.229/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 1930,
+          "views": 3650366,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-20T03:10:01-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "General",
+      "link": null,
+      "forums": [
+        {
+          "icon": "unread",
+          "name": "General KIA Non-Model Specific Discussion",
+          "link": "https://www.kia-forums.com/forums/general-kia-non-model-specific-discussion.232/",
+          "description": "Forum for discussions regarding KIA in general (ie. dealers, news, etc.).Sponsored by: <a href=\"https://www.carid.com/kia-accessories/?utm_source=kia-forums.com&utm_medium=sponsoredbylink&utm_campaign=VSForums\" rel=\"Nofollow Sponsored\" Target=\"_blank\">CARiD</a>",
+          "childboards": [],
+          "topics": 0,
+          "posts": 4480,
+          "views": 5255833,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-14T12:15:52-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Other Cars",
+          "link": "https://www.kia-forums.com/forums/other-cars.241/",
+          "description": "Talk about other car makes here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 478,
+          "views": 935938,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-06-11T14:11:41-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Image and Video Gallery",
+          "link": "https://www.kia-forums.com/forums/image-and-video-gallery.233/",
+          "description": "Post images, videos and sound clips here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 964,
+          "views": 1258568,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2023-11-29T11:07:32-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Member&#039;s Garage",
+          "link": "https://www.kia-forums.com/forums/members-garage.260/",
+          "description": "Get your Kia listed in the Garage Today, for FREE, to share with the world what you drive and what toys and modifications you have. The Garage can be a useful tool for finding vehicles and mods and getting some valuable insight!",
+          "childboards": [],
+          "topics": 0,
+          "posts": 294,
+          "views": 570204,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2023-03-28T09:46:30-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Technical",
+      "link": null,
+      "forums": [
+        {
+          "icon": "read",
+          "name": "Car Audio, Video &amp; Electronics",
+          "link": "https://www.kia-forums.com/forums/car-audio-video-electronics.234/",
+          "description": "Discuss all car audio, video and electronic related issues here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 2312,
+          "views": 3518782,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2023-10-04T15:03:27-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Interiors and Exteriors",
+          "link": "https://www.kia-forums.com/forums/interiors-and-exteriors.235/",
+          "description": "Discuss Interior and Exterior related issues here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 821,
+          "views": 1511371,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2021-06-08T17:01:00-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Performance, modifications and upgrades etc.",
+          "link": "https://www.kia-forums.com/forums/performance-modifications-and-upgrades-etc.236/",
+          "description": "Discuss your performance related issues here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 1277,
+          "views": 1624594,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-26T08:28:03-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Suspension, Wheels and Tires",
+          "link": "https://www.kia-forums.com/forums/suspension-wheels-and-tires.237/",
+          "description": "Discuss all suspension, wheels and tire related topics in here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 1035,
+          "views": 1840297,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-06-24T12:09:44-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Do it Yourself",
+          "link": "https://www.kia-forums.com/forums/do-it-yourself.258/",
+          "description": "Share those Do-It-Yourself projects and money saving tips here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 1259,
+          "views": 3954527,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2022-10-19T07:10:28-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Marketplace",
+      "link": null,
+      "forums": [
+        {
+          "icon": "read",
+          "name": "Great Deals",
+          "link": "https://www.kia-forums.com/forums/great-deals.483/",
+          "description": "Have you found a Great Deal? This forum is created to share and find discounts, sales, and other deals found online. (No Commercial Vendor or Private Party postings allowed)",
+          "childboards": [],
+          "topics": 0,
+          "posts": 86,
+          "views": 312491,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2023-12-23T09:44:27-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Parts For Sale / Trade",
+          "link": "https://www.kia-forums.com/forums/parts-for-sale-trade.219/",
+          "description": "Post up your parts for sale or trade in this forum.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 3010,
+          "views": 2065612,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-11T17:13:53-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Vehicles For Sale",
+          "link": "https://www.kia-forums.com/forums/vehicles-for-sale.311/",
+          "description": "Post up your vehicles for sale in this forum.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 314,
+          "views": 429872,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-12T12:48:14-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Classifieds - Private &quot;Wanted&quot; Classifieds",
+          "link": "https://www.kia-forums.com/forums/classifieds-private-wanted-classifieds.220/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 754,
+          "views": 640908,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-01-16T12:06:07-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "read",
+          "name": "Good Guy/Bad Guy",
+          "link": "https://www.kia-forums.com/forums/good-guy-bad-guy.274/",
+          "description": "Talk about your buying & selling experiences with other individuals.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 353,
+          "views": 610227,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2023-09-10T03:55:30-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Learn more",
+      "link": "https://www.kia-forums.com/business",
+      "forums": [
+        {
+          "icon": "unread",
+          "name": "Vendor Spotlight! Great Deals for Members",
+          "link": "https://www.kia-forums.com/forums/vendor-spotlight-great-deals-for-members.354/",
+          "description": "Our vendors not only help support our community, but they also offer amazing deals to our members. Check this forum often for all the specials, deals, and announcements.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 123,
+          "views": 340953,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-20T05:15:18-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "CARiD.com",
+          "link": "https://www.kia-forums.com/forums/carid-com.295/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 235,
+          "views": 306975,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-15T10:17:21-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Off Topic Discussions",
+      "link": null,
+      "forums": []
+    },
+    {
+      "name": "Regional",
+      "link": null,
+      "forums": [
+        {
+          "icon": "unread",
+          "name": "USA",
+          "link": "https://www.kia-forums.com/forums/usa.242/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "US - North East",
+              "link": "https://www.kia-forums.com/forums/us-north-east.246/"
+            },
+            {
+              "icon": "",
+              "name": "US - Central",
+              "link": "https://www.kia-forums.com/forums/us-central.247/"
+            },
+            {
+              "icon": "unread",
+              "name": "US - South West",
+              "link": "https://www.kia-forums.com/forums/us-south-west.248/"
+            },
+            {
+              "icon": "unread",
+              "name": "US - West",
+              "link": "https://www.kia-forums.com/forums/us-west.249/"
+            },
+            {
+              "icon": "",
+              "name": "US - Mid West",
+              "link": "https://www.kia-forums.com/forums/us-mid-west.250/"
+            },
+            {
+              "icon": "unread",
+              "name": "US - South",
+              "link": "https://www.kia-forums.com/forums/us-south.251/"
+            }
+          ],
+          "topics": 0,
+          "posts": 72,
+          "views": 1186851,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-19T13:41:05-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Canada",
+          "link": "https://www.kia-forums.com/forums/canada.245/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 973,
+          "views": 1791187,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-21T14:08:06-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Asia Pacific",
+          "link": "https://www.kia-forums.com/forums/asia-pacific.243/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Australia",
+              "link": "https://www.kia-forums.com/forums/australia.252/"
+            },
+            {
+              "icon": "",
+              "name": "Malaysia",
+              "link": "https://www.kia-forums.com/forums/malaysia.253/"
+            },
+            {
+              "icon": "",
+              "name": "Philippines",
+              "link": "https://www.kia-forums.com/forums/philippines.254/"
+            },
+            {
+              "icon": "",
+              "name": "Singapore",
+              "link": "https://www.kia-forums.com/forums/singapore.255/"
+            }
+          ],
+          "topics": 0,
+          "posts": 2,
+          "views": 3014829,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-08-26T05:13:29-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "unread",
+          "name": "Europe",
+          "link": "https://www.kia-forums.com/forums/europe.244/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "UK",
+              "link": "https://www.kia-forums.com/forums/uk.256/"
+            }
+          ],
+          "topics": 0,
+          "posts": 62,
+          "views": 913367,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "2024-05-26T14:42:45-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

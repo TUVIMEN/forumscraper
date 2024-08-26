@@ -1,1 +1,1163 @@
-{"format_version": "xenforo-2-forum", "url": "https://xenforo.com/community/", "categories": [{"name": "Official forums", "link": "https://xenforo.com/community/#official-forums.1", "forums": [{"icon": "fa-file-alt", "name": "Announcements", "link": "https://xenforo.com/community/forums/announcements/", "description": "Get the latest news and announcements about XenForo, including new releases and development updates.", "childboards": [], "topics": 341, "posts": 589, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/11/11388.jpg?1701366656", "title": "XenForo 2.3.2 &amp; Add-ons Released", "link": "https://xenforo.com/community/threads/xenforo-2-3-2-add-ons-released.223805/post-1697076", "label": "", "date": "2024-07-31T15:43:03+0100", "user": "Chris D", "user_link": "https://xenforo.com/community/members/chris-d.11388/"}}, {"icon": "fa-file-alt", "name": "Have you seen...?", "link": "https://xenforo.com/community/forums/have-you-seen/", "description": "This forum spotlights some of XenForo's interesting features. Spotlights on features in upcoming releases will be posted here.", "childboards": [], "topics": 143, "posts": 20200, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/0/450.jpg?1701362629", "title": "Image optimization, enhanced image resizing, and more!", "link": "https://xenforo.com/community/threads/image-optimization-enhanced-image-resizing-and-more.217014/post-1702136", "label": "XF 2.3", "date": "2024-08-20T20:15:48+0100", "user": "Jeremy P", "user_link": "https://xenforo.com/community/members/jeremy-p.450/"}}, {"icon": "fa-link", "name": "Frequently asked questions", "link": "https://xenforo.com/community/link-forums/frequently-asked-questions.19/", "description": "Answers to various questions you may have. Frequently updated.", "childboards": [], "topics": 0, "posts": 0, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "", "user": "", "user_link": null}}]}, {"name": "Public forums", "link": "https://xenforo.com/community/#public-forums.17", "forums": [{"icon": "fa-question-circle", "name": "XenForo pre-sales questions", "link": "https://xenforo.com/community/forums/xenforo-pre-sales-questions.5/", "description": "If you are investigating XenForo as a solution for your needs and have some questions, please post them here.", "childboards": [], "topics": 7500, "posts": 79900, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/1/1121.jpg?1701362644", "title": "Journaling and User Blogs", "link": "https://xenforo.com/community/threads/journaling-and-user-blogs.222082/post-1703066", "label": "", "date": "2024-08-25T19:30:46+0100", "user": "Digital Doctor", "user_link": "https://xenforo.com/community/members/digital-doctor.1121/"}}, {"icon": "fa-lightbulb-on", "name": "XenForo suggestions", "link": "https://xenforo.com/community/forums/xenforo-suggestions.18/", "description": "Please post any suggestion that you'd like to see as part of XenForo here. If you have a suggestion for an official add-on, please use the correct add-on suggestion forum. If you have a suggestion for a third-party add-on, please post it in the add-on's thread.", "childboards": [{"icon": "unread", "name": "Closed suggestions", "link": "https://xenforo.com/community/forums/closed-suggestions.15/"}], "topics": 10300, "posts": 71700, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Show Font Awesome icons for the BBCodes", "link": "https://xenforo.com/community/threads/show-font-awesome-icons-for-the-bbcodes.224582/post-1703244", "label": "", "date": "2024-08-26T15:43:19+0100", "user": "Robert9", "user_link": "https://xenforo.com/community/members/robert9.66012/"}}]}, {"name": "XenForo bug reports", "link": "https://xenforo.com/community/#xenforo-bug-reports.46", "forums": [{"icon": "fa-comments", "name": "Bug reports", "link": "https://xenforo.com/community/forums/bugs/", "description": "If you find an error or something that looks out of place in XenForo 2.x, please let us know here. A developer will look into your report as soon as possible. Please do not report bugs in add-ons here. Official add-ons have their own bug forums.", "childboards": [], "topics": 613, "posts": 2200, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/0/981.jpg?1701362644", "title": "Adsense ad appears with white background in dark mode", "link": "https://xenforo.com/community/threads/adsense-ad-appears-with-white-background-in-dark-mode.224790/post-1703248", "label": "", "date": "2024-08-26T15:52:48+0100", "user": "soloarquitectura", "user_link": "https://xenforo.com/community/members/soloarquitectura.981/"}}, {"icon": "fa-comments", "name": "Importer bug reports", "link": "https://xenforo.com/community/forums/importer-bugs/", "description": "", "childboards": [], "topics": 45, "posts": 128, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/211/211844.jpg?1701365411", "title": "I just updated to 2.3.2 with the command line but can&#039;t figure out how to make the upgrade message go away", "link": "https://xenforo.com/community/threads/i-just-updated-to-2-3-2-with-the-command-line-but-cant-figure-out-how-to-make-the-upgrade-message-go-away.224129/post-1699230", "label": "", "date": "2024-08-07T23:52:11+0100", "user": "HowardC", "user_link": "https://xenforo.com/community/members/howardc.211844/"}}, {"icon": "fa-comments", "name": "Resolved bug reports", "link": "https://xenforo.com/community/forums/resolved-bugs/", "description": "", "childboards": [], "topics": 12700, "posts": 65900, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/0/450.jpg?1701362629", "title": "Incorrect color mixing in 2.3", "link": "https://xenforo.com/community/threads/incorrect-color-mixing-in-2-3.224776/post-1703146", "label": "Won&#039;t fix", "date": "2024-08-26T02:07:27+0100", "user": "Jeremy P", "user_link": "https://xenforo.com/community/members/jeremy-p.450/"}}, {"icon": "fa-comments", "name": "Future-fix bug reports", "link": "https://xenforo.com/community/forums/future-fix-bug-reports.43/", "description": "This forum contains bug reports that have been triaged and allocated for resolution in a future version.", "childboards": [], "topics": 16, "posts": 144, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/0/450.jpg?1701362629", "title": "ViewableInterface class isn&#039;t used as much as it should be", "link": "https://xenforo.com/community/threads/viewableinterface-class-isnt-used-as-much-as-it-should-be.221304/post-1680201", "label": "Future fix", "date": "2024-04-30T22:58:54+0100", "user": "Jeremy P", "user_link": "https://xenforo.com/community/members/jeremy-p.450/"}}]}, {"name": "Customer forums", "link": "https://xenforo.com/community/#customer-forums.22", "forums": [{"icon": "fa-question-circle", "name": "Installation, upgrade, and import support", "link": "https://xenforo.com/community/forums/installation-upgrade-and-import-support.23/", "description": "If you have problems or enquiries relating to XenForo installation, upgrades, and imports, please post them here. Please do not post problems with add-ons here. Official add-ons have their own <a href=\"/community/#official-xenforo-add-ons.54\">support forums</a> as well.", "childboards": [], "topics": 5300, "posts": 36000, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/219/219947.jpg?1723988704", "title": "2.3.2 upgrade error - not writable", "link": "https://xenforo.com/community/threads/2-3-2-upgrade-error-not-writable.223814/post-1703189", "label": "XF 2.3", "date": "2024-08-26T08:56:40+0100", "user": "javakhir", "user_link": "https://xenforo.com/community/members/javakhir.219947/"}}, {"icon": "fa-question-circle", "name": "Troubleshooting and problems", "link": "https://xenforo.com/community/forums/troubleshooting-and-problems.24/", "description": "If you are receiving errors, encountering features that do not work correctly or are running into other problems, post them here so that the community can help find a solution. Please do not post problems with add-ons here. Official add-ons have their own <a href=\"/community/#official-xenforo-add-ons.54\">support forums</a> as well.", "childboards": [], "topics": 15600, "posts": 99000, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/161/161572.jpg?1701364699", "title": "Overlay/pop ups don&#039;t resize on mobile", "link": "https://xenforo.com/community/threads/overlay-pop-ups-dont-resize-on-mobile.224788/post-1703238", "label": "XF 2.2", "date": "2024-08-26T15:06:24+0100", "user": "dtrumbower", "user_link": "https://xenforo.com/community/members/dtrumbower.161572/"}}, {"icon": "fa-question-circle", "name": "XenForo questions and support", "link": "https://xenforo.com/community/forums/xenforo-questions-and-support.25/", "description": "This forum holds questions and support requests related to your XenForo installation, such as configuring XenForo to fit your needs. Please do not post questions about add-ons here. Official add-ons have their own <a href=\"/community/#official-xenforo-add-ons.54\">support forums</a> as well. If you have particular problems, please post in <a href=\"/community/forums/troubleshooting-and-problems.24/\">troubleshooting</a>. For styling and templating questions, please post in <a href=\"/community/forums/styling-and-customization-questions.47/\">styling questions</a>.", "childboards": [], "topics": 27900, "posts": 147900, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/12/12475.jpg?1701362818", "title": "Display Condition to show a Widget in a specific node", "link": "https://xenforo.com/community/threads/display-condition-to-show-a-widget-in-a-specific-node.217011/post-1703215", "label": "XF 2.2", "date": "2024-08-26T12:37:41+0100", "user": "Thanh Thai", "user_link": "https://xenforo.com/community/members/thanh-thai.12475/"}}, {"icon": "fa-question-circle", "name": "Styling and customization questions", "link": "https://xenforo.com/community/forums/styling-and-customization-questions.47/", "description": "If you are trying to customize the look and feel of your XenForo forum, post your styling and customization questions here.", "childboards": [], "topics": 15100, "posts": 74000, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/126/126652.jpg?1701364119", "title": "Show multiple items at once in slider / carousel", "link": "https://xenforo.com/community/threads/show-multiple-items-at-once-in-slider-carousel.169478/post-1703247", "label": "XF 2.1", "date": "2024-08-26T15:52:32+0100", "user": "JohnLogar", "user_link": "https://xenforo.com/community/members/johnlogar.126652/"}}, {"icon": "fa-comments", "name": "Server configuration and hosting", "link": "https://xenforo.com/community/forums/server-configuration-and-hosting.48/", "description": "This forum is for questions about configuring your server for XenForo and how to meet your XenForo hosting needs.", "childboards": [], "topics": 2700, "posts": 31200, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/13/13860.jpg?1701362833", "title": "What is your self-hosted SMTP solution? We are testing Postal at the moment, with speed issues", "link": "https://xenforo.com/community/threads/what-is-your-self-hosted-smtp-solution-we-are-testing-postal-at-the-moment-with-speed-issues.221295/post-1703242", "label": "", "date": "2024-08-26T15:39:18+0100", "user": "fly", "user_link": "https://xenforo.com/community/members/fly.13860/"}}, {"icon": "fa-comments", "name": "Forum management", "link": "https://xenforo.com/community/forums/forum-management.84/", "description": "Use this forum to discuss issues that relate to running or managing a XenForo forum but do not specifically involve questions or problems relating to XenForo. Some potential topics involve how to grow a forum, handling problematic members, mitigating spam, moderator techniques, advertising, etc. Only licensed customers may post here.", "childboards": [], "topics": 3100, "posts": 32299, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/60/60988.jpg?1712827357", "title": "Have most forums lost traffic from Google since April 2024?", "link": "https://xenforo.com/community/threads/have-most-forums-lost-traffic-from-google-since-april-2024.224669/post-1703249", "label": "", "date": "2024-08-26T15:58:58+0100", "user": "Mr Lucky", "user_link": "https://xenforo.com/community/members/mr-lucky.60988/"}}, {"icon": "fa-comments", "name": "Tips and guides [1.x]", "link": "https://xenforo.com/community/forums/tips-and-guides-1-x.79/", "description": "Get ideas for how to use XenForo more effectively and creatively. These threads have been automatically created by the <a href=\"/community/resources/\">resource manager</a>.", "childboards": [{"icon": "forum", "name": "Tips and guides [archive]", "link": "https://xenforo.com/community/forums/tips-and-guides-archive.36/"}], "topics": 348, "posts": 7100, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Robots.txt", "link": "https://xenforo.com/community/threads/robots-txt.16735/post-1669980", "label": "", "date": "2024-02-29T01:22:13+0000", "user": "mc nabulsy", "user_link": "https://xenforo.com/community/members/mc-nabulsy.228888/"}}, {"icon": "fa-comments", "name": "Tips and guides [2.x]", "link": "https://xenforo.com/community/forums/tips-and-guides-2-x.94/", "description": "", "childboards": [], "topics": 134, "posts": 4000, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Using DigitalOcean Spaces or Amazon S3 for file storage in XF 2.1 &amp; XF 2.2", "link": "https://xenforo.com/community/threads/using-digitalocean-spaces-or-amazon-s3-for-file-storage-in-xf-2-1-xf-2-2.156282/post-1702951", "label": "", "date": "2024-08-25T00:24:06+0100", "user": "RenegadeMonster", "user_link": "https://xenforo.com/community/members/renegademonster.199561/"}}, {"icon": "fa-comments", "name": "Other XenForo discussions and feedback", "link": "https://xenforo.com/community/forums/other-xenforo-discussions-and-feedback.45/", "description": "Non-support-related discussion and feedback for XenForo. Support questions should be directed to the correct forum. Questions about running a XenForo forum should be posted in \"Forum management\".", "childboards": [], "topics": 3700, "posts": 57600, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/20/20345.jpg?1724060827", "title": "XF3 General Information &amp; Discussion", "link": "https://xenforo.com/community/threads/xf3-general-information-discussion.217928/post-1702124", "label": "", "date": "2024-08-20T17:53:49+0100", "user": "Suzanne O", "user_link": "https://xenforo.com/community/members/suzanne-o.20345/"}}, {"icon": "fa-link", "name": "XenForo help and manual", "link": "https://xenforo.com/community/link-forums/xenforo-help-and-manual.49/", "description": "", "childboards": [], "topics": 0, "posts": 0, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "", "user": "", "user_link": null}}]}, {"name": "Official XenForo add-ons", "link": "https://xenforo.com/community/#official-xenforo-add-ons.54", "forums": [{"icon": "fa-lightbulb-on", "name": "Media Gallery suggestions", "link": "https://xenforo.com/community/forums/media-gallery-suggestions.86/", "description": "", "childboards": [{"icon": "forum", "name": "Media Gallery closed suggestions", "link": "https://xenforo.com/community/forums/media-gallery-closed-suggestions.90/"}], "topics": 691, "posts": 2600, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/2/2597.jpg?1701362674", "title": "Support tiff files", "link": "https://xenforo.com/community/threads/support-tiff-files.224318/post-1700438", "label": "", "date": "2024-08-13T00:27:21+0100", "user": "Arantor", "user_link": "https://xenforo.com/community/members/arantor.2597/"}}, {"icon": "fa-question-circle", "name": "Media Gallery support", "link": "https://xenforo.com/community/forums/media-gallery-support.87/", "description": "", "childboards": [], "topics": 1700, "posts": 8500, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/269/269217.jpg?1707324437", "title": "MG not producing thumbnails for uploaded videos?!", "link": "https://xenforo.com/community/threads/mg-not-producing-thumbnails-for-uploaded-videos.208894/post-1703166", "label": "MG 2.2", "date": "2024-08-26T04:54:32+0100", "user": "SeaWolf", "user_link": "https://xenforo.com/community/members/seawolf.269217/"}}, {"icon": "fa-comments", "name": "Media Gallery bug reports", "link": "https://xenforo.com/community/forums/media-gallery-bug-reports.88/", "description": "", "childboards": [{"icon": "unread", "name": "Media Gallery resolved bugs", "link": "https://xenforo.com/community/forums/media-gallery-resolved-bugs.89/"}], "topics": 833, "posts": 3700, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/187/187211.jpg?1701365051", "title": "X on lightbox too far right (XFMG)", "link": "https://xenforo.com/community/threads/x-on-lightbox-too-far-right-xfmg.224759/post-1703117", "label": "", "date": "2024-08-26T00:12:22+0100", "user": "frm", "user_link": "https://xenforo.com/community/members/frm.187211/"}}, {"icon": "fa-lightbulb-on", "name": "Resource Manager suggestions", "link": "https://xenforo.com/community/forums/resource-manager-suggestions.65/", "description": "", "childboards": [{"icon": "forum", "name": "Resource Manager closed suggestions", "link": "https://xenforo.com/community/forums/resource-manager-closed-suggestions.83/"}], "topics": 698, "posts": 2900, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Allow Searching Resource Tags by Category", "link": "https://xenforo.com/community/threads/allow-searching-resource-tags-by-category.224438/post-1701181", "label": "", "date": "2024-08-15T23:10:47+0100", "user": "Quintillus", "user_link": "https://xenforo.com/community/members/quintillus.259661/"}}, {"icon": "fa-question-circle", "name": "Resource Manager support", "link": "https://xenforo.com/community/forums/resource-manager-support.82/", "description": "You must be a XenForo customer to post in these forums. Ensure your account is listed in your customer area <a href=\"https://xenforo.com/customers/forum-users\" style=\"text-decoration: underline\">Forum users page</a>.", "childboards": [], "topics": 1200, "posts": 5800, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/126/126652.jpg?1701364119", "title": "featured resources slider", "link": "https://xenforo.com/community/threads/featured-resources-slider.166478/post-1702655", "label": "RM 2.1", "date": "2024-08-23T14:47:14+0100", "user": "JohnLogar", "user_link": "https://xenforo.com/community/members/johnlogar.126652/"}}, {"icon": "fa-comments", "name": "Resource Manager bug reports", "link": "https://xenforo.com/community/forums/resource-manager-bug-reports.66/", "description": "", "childboards": [{"icon": "unread", "name": "Resource Manager resolved bugs", "link": "https://xenforo.com/community/forums/resource-manager-resolved-bugs.67/"}], "topics": 503, "posts": 1800, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/187/187211.jpg?1701365051", "title": "X on lightbox too far right (RM)", "link": "https://xenforo.com/community/threads/x-on-lightbox-too-far-right-rm.224760/post-1703037", "label": "", "date": "2024-08-25T16:19:19+0100", "user": "frm", "user_link": "https://xenforo.com/community/members/frm.187211/"}}, {"icon": "fa-lightbulb-on", "name": "Enhanced Search suggestions", "link": "https://xenforo.com/community/forums/enhanced-search-suggestions.55/", "description": "", "childboards": [], "topics": 61, "posts": 285, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/271/271120.jpg?1706918735", "title": "Auto Suggestion for Searchbox", "link": "https://xenforo.com/community/threads/auto-suggestion-for-searchbox.183187/post-1680553", "label": "Implemented", "date": "2024-05-04T01:39:07+0100", "user": "Opus X", "user_link": "https://xenforo.com/community/members/opus-x.271120/"}}, {"icon": "fa-question-circle", "name": "Enhanced Search support", "link": "https://xenforo.com/community/forums/enhanced-search-support.56/", "description": "You must be a XenForo customer to post in these forums. Ensure your account is listed in your customer area <a href=\"https://xenforo.com/customers/forum-users\" style=\"text-decoration: underline\">Forum users page</a>.", "childboards": [], "topics": 445, "posts": 3600, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/54/54487.jpg?1716955639", "title": "Elasticsearch full _source", "link": "https://xenforo.com/community/threads/elasticsearch-full-_source.223991/post-1703183", "label": "", "date": "2024-08-26T08:14:37+0100", "user": "Mike Fara", "user_link": "https://xenforo.com/community/members/mike-fara.54487/"}}, {"icon": "fa-comments", "name": "Enhanced Search bug reports", "link": "https://xenforo.com/community/forums/enhanced-search-bug-reports.57/", "description": "", "childboards": [{"icon": "unread", "name": "Enhanced Search resolved bugs", "link": "https://xenforo.com/community/forums/enhanced-search-resolved-bugs.58/"}], "topics": 113, "posts": 601, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "ES 2.3.2 Auto Complete crashes when dynamic avatar disabled", "link": "https://xenforo.com/community/threads/es-2-3-2-auto-complete-crashes-when-dynamic-avatar-disabled.224767/post-1703057", "label": "", "date": "2024-08-25T18:32:44+0100", "user": "Andy.N", "user_link": "https://xenforo.com/community/members/andy-n.698/"}}]}, {"name": "XenForo resources and add-ons", "link": "https://xenforo.com/community/#xenforo-resources-and-add-ons.60", "forums": [{"icon": "fa-link", "name": "Resources and add-ons", "link": "https://xenforo.com/community/link-forums/resources-and-add-ons.70/", "description": "Resources and add-ons can now be browsed and downloaded from the resource manager.", "childboards": [], "topics": 0, "posts": 0, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Resource and add-on releases [1.x]", "link": "https://xenforo.com/community/categories/resource-and-add-on-releases-1-x.71/", "description": "These threads are automatically created discussions for releases in the <a href=\"/community/resources\">resource manager</a>.", "childboards": [{"icon": "unread", "name": "Add-on releases", "link": "https://xenforo.com/community/forums/add-on-releases.72/"}, {"icon": "forum", "name": "Add-on tips and guides", "link": "https://xenforo.com/community/forums/add-on-tips-and-guides.64/"}, {"icon": "forum", "name": "Code modifications", "link": "https://xenforo.com/community/forums/code-modifications.78/"}, {"icon": "forum", "name": "Style releases", "link": "https://xenforo.com/community/forums/style-releases.73/"}, {"icon": "forum", "name": "Template modifications", "link": "https://xenforo.com/community/forums/template-modifications.77/"}, {"icon": "forum", "name": "Graphic releases", "link": "https://xenforo.com/community/forums/graphic-releases.74/"}, {"icon": "forum", "name": "Translation releases", "link": "https://xenforo.com/community/forums/translation-releases.75/"}, {"icon": "forum", "name": "Other releases", "link": "https://xenforo.com/community/forums/other-releases.76/"}], "topics": 5100, "posts": 304000, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/92/92813.jpg?1701363626", "title": "Ads Manager by Siropu [Paid]", "link": "https://xenforo.com/community/threads/ads-manager-by-siropu-paid.94168/post-1702822", "label": "", "date": "", "user": "Siropu", "user_link": "https://xenforo.com/community/members/siropu.92813/"}}, {"icon": "fa-comments", "name": "Resource and add-on releases [2.x]", "link": "https://xenforo.com/community/categories/resource-and-add-on-releases-2-x.93/", "description": "", "childboards": [{"icon": "unread", "name": "Add-on releases [2.x]", "link": "https://xenforo.com/community/forums/add-on-releases-2-x.95/"}, {"icon": "unread", "name": "Style releases [2.x]", "link": "https://xenforo.com/community/forums/style-releases-2-x.96/"}, {"icon": "unread", "name": "Template modifications [2.x]", "link": "https://xenforo.com/community/forums/template-modifications-2-x.97/"}, {"icon": "forum", "name": "Graphic releases [2.x]", "link": "https://xenforo.com/community/forums/graphic-releases-2-x.98/"}, {"icon": "unread", "name": "Translation releases [2.x]", "link": "https://xenforo.com/community/forums/translation-releases-2-x.99/"}, {"icon": "unread", "name": "Other releases [2.x]", "link": "https://xenforo.com/community/forums/other-releases-2-x.100/"}], "topics": 3700, "posts": 152500, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "[XenConcept] HowTo forum [Paid]", "link": "https://xenforo.com/community/threads/xenconcept-howto-forum-paid.218096/post-1703250", "label": "", "date": "", "user": "Robert9", "user_link": "https://xenforo.com/community/members/robert9.66012/"}}, {"icon": "fa-comments", "name": "Resource and add-on requests", "link": "https://xenforo.com/community/forums/resource-and-add-on-requests.68/", "description": "If you are looking for an add-on that does something in particular or you are hoping a developer will create a resource with particular functionality, you may post your request here.", "childboards": [], "topics": 4800, "posts": 24000, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/1/1121.jpg?1701362644", "title": "Hot linked to attachments (2.3)", "link": "https://xenforo.com/community/threads/hot-linked-to-attachments-2-3.224570/post-1701970", "label": "", "date": "2024-08-19T20:19:39+0100", "user": "Digital Doctor", "user_link": "https://xenforo.com/community/members/digital-doctor.1121/"}}, {"icon": "fa-comments", "name": "Resource and add-on discussions", "link": "https://xenforo.com/community/forums/resource-and-add-on-discussions.63/", "description": "Non-release-related resource and add-on discussions. Covers things such as general suggestion/feedback gathering, sneak peaks and early previews, and general discussion about the state of the resource/add-on community. Please do not post support requests in this forum.", "childboards": [], "topics": 1500, "posts": 20500, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/0/521.jpg?1723018890", "title": "Add-on actions pending notice: how to resolve", "link": "https://xenforo.com/community/threads/add-on-actions-pending-notice-how-to-resolve.224081/post-1698943", "label": "", "date": "2024-08-06T21:52:22+0100", "user": "Paul B", "user_link": "https://xenforo.com/community/members/paul-b.521/"}}, {"icon": "fa-comments", "name": "Custom service/development requests", "link": "https://xenforo.com/community/forums/custom-service-development-requests.69/", "description": "If you are looking for someone to provide custom services or development to fit your needs, post your requests here.", "childboards": [], "topics": 3200, "posts": 12200, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/278/278609.jpg?1724543391", "title": "Big customization job", "link": "https://xenforo.com/community/threads/big-customization-job.224741/post-1703239", "label": "XF 2", "date": "2024-08-26T15:14:28+0100", "user": "unproperlypropagated", "user_link": "https://xenforo.com/community/members/unproperlypropagated.278609/"}}, {"icon": "fa-comments", "name": "Third-party services &amp; offers", "link": "https://xenforo.com/community/forums/third-party-services-offers.42/", "description": "This forum is to be used for announcing and discussing <strong>XenForo-related services or special offers</strong> only. Its purpose is <strong>not</strong> the general buying, selling and exchange of property, software licenses or domain names. The services announced in this forum are in no way affiliated with or endorsed by XenForo Ltd. You may only post one thread per type of service.", "childboards": [], "topics": 169, "posts": 5500, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://gravatar.com/avatar/08966a1d6c090d58d8655a0d6ee60a2eafcb9cf35db80377c32108f800f36a2f?s=48", "title": "DohTheme Coupons", "link": "https://xenforo.com/community/threads/dohtheme-coupons.201687/post-1703204", "label": "", "date": "2024-08-26T10:59:48+0100", "user": "DohTheme", "user_link": "https://xenforo.com/community/members/dohtheme.47770/"}}, {"icon": "fa-comments", "name": "Resource and add-on archive", "link": "https://xenforo.com/community/forums/resource-and-add-on-archive.62/", "description": "These forums have been superseded by the  <a href=\"/community/resources\">resource manager</a> or new forums.", "childboards": [{"icon": "forum", "name": "Add-on releases [Archive]", "link": "https://xenforo.com/community/forums/add-on-releases-archive.32/"}, {"icon": "forum", "name": "Styles [Archive]", "link": "https://xenforo.com/community/forums/styles/"}, {"icon": "forum", "name": "Graphics [Archive]", "link": "https://xenforo.com/community/forums/graphics/"}, {"icon": "forum", "name": "Languages [Archive]", "link": "https://xenforo.com/community/forums/languages/"}, {"icon": "forum", "name": "Template modifications [Archive]", "link": "https://xenforo.com/community/forums/template-modifications-archive.37/"}, {"icon": "forum", "name": "Other resources [Archive]", "link": "https://xenforo.com/community/forums/other-resources-archive.21/"}, {"icon": "forum", "name": "Code modifications [Archive]", "link": "https://xenforo.com/community/forums/code-modifications-archive.50/"}, {"icon": "forum", "name": "Commercial resources and add-ons [Archive]", "link": "https://xenforo.com/community/forums/commercial-resources-and-add-ons-archive.61/"}, {"icon": "forum", "name": "Add-on requests [Archive]", "link": "https://xenforo.com/community/forums/add-on-requests-archive.35/"}, {"icon": "forum", "name": "Resource discussions [Archive]", "link": "https://xenforo.com/community/forums/resource-discussions-archive.38/"}, {"icon": "forum", "name": "Resource requests [Archive]", "link": "https://xenforo.com/community/forums/resource-requests-archive.39/"}], "topics": 1700, "posts": 48300, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://gravatar.com/avatar/6dbc5c1e139873c167fd883977351e085700db2b9e6c210c9f875d0a9bb7b0bd?s=48", "title": "[bd] Banking", "link": "https://xenforo.com/community/threads/bd-banking.5853/post-332446", "label": "", "date": "2012-03-01T10:28:06+0000", "user": "xpl0iter", "user_link": "https://xenforo.com/community/members/xpl0iter.15314/"}}]}, {"name": "Development help", "link": "https://xenforo.com/community/#development-help.51", "forums": [{"icon": "fa-link", "name": "Resource standards", "link": "https://xenforo.com/community/link-forums/resource-standards.106/", "description": "The guidelines within are the minimum expected standards to be adhered to when releasing products in the Resource Manager here.", "childboards": [], "topics": 0, "posts": 0, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Development tutorials and resources [1.x]", "link": "https://xenforo.com/community/forums/development-tutorials-and-resources-1-x.80/", "description": "These threads have been automatically created by the <a href=\"/community/resources/\">resource manager</a>.", "childboards": [{"icon": "forum", "name": "Development tutorials [Archive]", "link": "https://xenforo.com/community/forums/development-tutorials-archive.33/"}], "topics": 141, "posts": 2500, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "XenForo AJAX Tutorial", "link": "https://xenforo.com/community/threads/xenforo-ajax-tutorial.8091/post-1616623", "label": "", "date": "2023-02-28T20:09:26+0000", "user": "Newsman", "user_link": "https://xenforo.com/community/members/newsman.259876/"}}, {"icon": "fa-comments", "name": "Development tutorials [2.x]", "link": "https://xenforo.com/community/forums/development-tutorials-2-x.101/", "description": "", "childboards": [], "topics": 17, "posts": 209, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/62/62784.jpg?1701363247", "title": "Unit testing XenForo addons - tutorial", "link": "https://xenforo.com/community/threads/unit-testing-xenforo-addons-tutorial.172504/post-1703214", "label": "", "date": "2024-08-26T12:30:21+0100", "user": "Earl", "user_link": "https://xenforo.com/community/members/earl.62784/"}}, {"icon": "fa-comments", "name": "XenForo development discussions", "link": "https://xenforo.com/community/forums/xenforo-development-discussions.34/", "description": "Questions and discussions about developing for XenForo.", "childboards": [{"icon": "page", "name": "REST API endpoints (2.2)", "link": "https://xenforo.com/community/pages/api-endpoints/"}], "topics": 7800, "posts": 40200, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "How to configure carousel speed?", "link": "https://xenforo.com/community/threads/how-to-configure-carousel-speed.224784/post-1703206", "label": "XF 2.3", "date": "2024-08-26T11:09:57+0100", "user": "Kirby", "user_link": "https://xenforo.com/community/members/kirby.1059/"}}, {"icon": "fa-comments", "name": "General PHP and MySQL discussions", "link": "https://xenforo.com/community/forums/general-php-and-mysql-discussions.52/", "description": "If you have general, non-XenForo-specific development questions or discussions, please use this forum.", "childboards": [], "topics": 450, "posts": 2600, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/174/174747.jpg?1701364881", "title": "MYIASM and INNODB", "link": "https://xenforo.com/community/threads/myiasm-and-innodb.224161/post-1699525", "label": "", "date": "2024-08-09T06:09:58+0100", "user": "webbouk", "user_link": "https://xenforo.com/community/members/webbouk.174747/"}}]}, {"name": "General discussions", "link": "https://xenforo.com/community/#general-discussions.4", "forums": [{"icon": "fa-comments", "name": "Forum showcase and critiques", "link": "https://xenforo.com/community/forums/forum-showcase-and-critiques.53/", "description": "Get feedback on your XenForo forum. XenForo forum showcasing and critiques only. You must be a customer to start a thread in this forum. Threads about forums with non-business-appropriate topics will be removed.", "childboards": [], "topics": 1400, "posts": 20900, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Agora - Digital Marketplace &amp; Freelancer Community", "link": "https://xenforo.com/community/threads/agora-digital-marketplace-freelancer-community.223453/post-1702887", "label": "", "date": "2024-08-24T14:33:25+0100", "user": "colenot", "user_link": "https://xenforo.com/community/members/colenot.277903/"}}, {"icon": "fa-comments", "name": "Off topic", "link": "https://xenforo.com/community/forums/off-topic.7/", "description": "For those discussions that are not XenForo related. This is still part of a business forum, so be aware of what you're discussing. Posts bashing competitors are not welcome. Highly charged topics (such as religion and politics) may be closed or deleted. Leave your shoes by the door and come on in.", "childboards": [], "topics": 8300, "posts": 178600, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/2/2894.jpg?1701362682", "title": "Rant about WordPress", "link": "https://xenforo.com/community/threads/rant-about-wordpress.212371/post-1703230", "label": "", "date": "2024-08-26T14:25:39+0100", "user": "Wildcat Media", "user_link": "https://xenforo.com/community/members/wildcat-media.2894/"}}]}, {"name": "Tests and examples", "link": "https://xenforo.com/community/#tests-and-examples.14", "forums": [{"icon": "fa-search", "name": "", "link": null, "description": "An example search forum where you can see all recently fixed bugs.", "childboards": [], "topics": 200, "posts": 1100, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/0/6.jpg?1701362621", "title": "Problem getting PayPal product", "link": "https://xenforo.com/community/threads/problem-getting-paypal-product.222950/post-1702555", "label": "Fixed", "date": "2024-08-23T05:31:14+0100", "user": "XF Bug Bot", "user_link": "https://xenforo.com/community/members/xf-bug-bot.6/"}}, {"icon": "fa-search", "name": "", "link": null, "description": "An example search forum where you can see all recently implemented suggestions.", "childboards": [], "topics": 3, "posts": 157, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://xenforo.com/community/data/avatars/s/7/7771.jpg?1701362756", "title": "Real weekly and monthly statistics", "link": "https://xenforo.com/community/threads/real-weekly-and-monthly-statistics.224072/post-1698939", "label": "Implemented", "date": "2024-08-06T21:35:16+0100", "user": "Ricsca", "user_link": "https://xenforo.com/community/members/ricsca.7771/"}}, {"icon": "fa-file-alt", "name": "Example page", "link": "https://xenforo.com/community/pages/example-page/", "description": "This is an example page, which sits in the tree structure along with your forums and categories.<br />We call this the 'node tree', as it's not focused on forums.", "childboards": [], "topics": 0, "posts": 0, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "", "user": "", "user_link": null}}]}], "threads": []}
+{
+  "format_version": "xenforo-2-forum",
+  "url": "https://xenforo.com/community/",
+  "categories": [
+    {
+      "name": "Official forums",
+      "link": "https://xenforo.com/community/#official-forums.1",
+      "forums": [
+        {
+          "icon": "fa-file-alt",
+          "name": "Announcements",
+          "link": "https://xenforo.com/community/forums/announcements/",
+          "description": "Get the latest news and announcements about XenForo, including new releases and development updates.",
+          "childboards": [],
+          "topics": 341,
+          "posts": 589,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/11/11388.jpg?1701366656",
+            "title": "XenForo 2.3.2 &amp; Add-ons Released",
+            "link": "https://xenforo.com/community/threads/xenforo-2-3-2-add-ons-released.223805/post-1697076",
+            "label": "",
+            "date": "2024-07-31T15:43:03+0100",
+            "user": "Chris D",
+            "user_link": "https://xenforo.com/community/members/chris-d.11388/"
+          }
+        },
+        {
+          "icon": "fa-file-alt",
+          "name": "Have you seen...?",
+          "link": "https://xenforo.com/community/forums/have-you-seen/",
+          "description": "This forum spotlights some of XenForo's interesting features. Spotlights on features in upcoming releases will be posted here.",
+          "childboards": [],
+          "topics": 143,
+          "posts": 20200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/0/450.jpg?1701362629",
+            "title": "Image optimization, enhanced image resizing, and more!",
+            "link": "https://xenforo.com/community/threads/image-optimization-enhanced-image-resizing-and-more.217014/post-1702136",
+            "label": "XF 2.3",
+            "date": "2024-08-20T20:15:48+0100",
+            "user": "Jeremy P",
+            "user_link": "https://xenforo.com/community/members/jeremy-p.450/"
+          }
+        },
+        {
+          "icon": "fa-link",
+          "name": "Frequently asked questions",
+          "link": "https://xenforo.com/community/link-forums/frequently-asked-questions.19/",
+          "description": "Answers to various questions you may have. Frequently updated.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Public forums",
+      "link": "https://xenforo.com/community/#public-forums.17",
+      "forums": [
+        {
+          "icon": "fa-question-circle",
+          "name": "XenForo pre-sales questions",
+          "link": "https://xenforo.com/community/forums/xenforo-pre-sales-questions.5/",
+          "description": "If you are investigating XenForo as a solution for your needs and have some questions, please post them here.",
+          "childboards": [],
+          "topics": 7500,
+          "posts": 79900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/1/1121.jpg?1701362644",
+            "title": "Journaling and User Blogs",
+            "link": "https://xenforo.com/community/threads/journaling-and-user-blogs.222082/post-1703066",
+            "label": "",
+            "date": "2024-08-25T19:30:46+0100",
+            "user": "Digital Doctor",
+            "user_link": "https://xenforo.com/community/members/digital-doctor.1121/"
+          }
+        },
+        {
+          "icon": "fa-lightbulb-on",
+          "name": "XenForo suggestions",
+          "link": "https://xenforo.com/community/forums/xenforo-suggestions.18/",
+          "description": "Please post any suggestion that you'd like to see as part of XenForo here. If you have a suggestion for an official add-on, please use the correct add-on suggestion forum. If you have a suggestion for a third-party add-on, please post it in the add-on's thread.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Closed suggestions",
+              "link": "https://xenforo.com/community/forums/closed-suggestions.15/"
+            }
+          ],
+          "topics": 10300,
+          "posts": 71700,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Show Font Awesome icons for the BBCodes",
+            "link": "https://xenforo.com/community/threads/show-font-awesome-icons-for-the-bbcodes.224582/post-1703244",
+            "label": "",
+            "date": "2024-08-26T15:43:19+0100",
+            "user": "Robert9",
+            "user_link": "https://xenforo.com/community/members/robert9.66012/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "XenForo bug reports",
+      "link": "https://xenforo.com/community/#xenforo-bug-reports.46",
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Bug reports",
+          "link": "https://xenforo.com/community/forums/bugs/",
+          "description": "If you find an error or something that looks out of place in XenForo 2.x, please let us know here. A developer will look into your report as soon as possible. Please do not report bugs in add-ons here. Official add-ons have their own bug forums.",
+          "childboards": [],
+          "topics": 613,
+          "posts": 2200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/0/981.jpg?1701362644",
+            "title": "Adsense ad appears with white background in dark mode",
+            "link": "https://xenforo.com/community/threads/adsense-ad-appears-with-white-background-in-dark-mode.224790/post-1703248",
+            "label": "",
+            "date": "2024-08-26T15:52:48+0100",
+            "user": "soloarquitectura",
+            "user_link": "https://xenforo.com/community/members/soloarquitectura.981/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Importer bug reports",
+          "link": "https://xenforo.com/community/forums/importer-bugs/",
+          "description": "",
+          "childboards": [],
+          "topics": 45,
+          "posts": 128,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/211/211844.jpg?1701365411",
+            "title": "I just updated to 2.3.2 with the command line but can&#039;t figure out how to make the upgrade message go away",
+            "link": "https://xenforo.com/community/threads/i-just-updated-to-2-3-2-with-the-command-line-but-cant-figure-out-how-to-make-the-upgrade-message-go-away.224129/post-1699230",
+            "label": "",
+            "date": "2024-08-07T23:52:11+0100",
+            "user": "HowardC",
+            "user_link": "https://xenforo.com/community/members/howardc.211844/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Resolved bug reports",
+          "link": "https://xenforo.com/community/forums/resolved-bugs/",
+          "description": "",
+          "childboards": [],
+          "topics": 12700,
+          "posts": 65900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/0/450.jpg?1701362629",
+            "title": "Incorrect color mixing in 2.3",
+            "link": "https://xenforo.com/community/threads/incorrect-color-mixing-in-2-3.224776/post-1703146",
+            "label": "Won&#039;t fix",
+            "date": "2024-08-26T02:07:27+0100",
+            "user": "Jeremy P",
+            "user_link": "https://xenforo.com/community/members/jeremy-p.450/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Future-fix bug reports",
+          "link": "https://xenforo.com/community/forums/future-fix-bug-reports.43/",
+          "description": "This forum contains bug reports that have been triaged and allocated for resolution in a future version.",
+          "childboards": [],
+          "topics": 16,
+          "posts": 144,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/0/450.jpg?1701362629",
+            "title": "ViewableInterface class isn&#039;t used as much as it should be",
+            "link": "https://xenforo.com/community/threads/viewableinterface-class-isnt-used-as-much-as-it-should-be.221304/post-1680201",
+            "label": "Future fix",
+            "date": "2024-04-30T22:58:54+0100",
+            "user": "Jeremy P",
+            "user_link": "https://xenforo.com/community/members/jeremy-p.450/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Customer forums",
+      "link": "https://xenforo.com/community/#customer-forums.22",
+      "forums": [
+        {
+          "icon": "fa-question-circle",
+          "name": "Installation, upgrade, and import support",
+          "link": "https://xenforo.com/community/forums/installation-upgrade-and-import-support.23/",
+          "description": "If you have problems or enquiries relating to XenForo installation, upgrades, and imports, please post them here. Please do not post problems with add-ons here. Official add-ons have their own <a href=\"/community/#official-xenforo-add-ons.54\">support forums</a> as well.",
+          "childboards": [],
+          "topics": 5300,
+          "posts": 36000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/219/219947.jpg?1723988704",
+            "title": "2.3.2 upgrade error - not writable",
+            "link": "https://xenforo.com/community/threads/2-3-2-upgrade-error-not-writable.223814/post-1703189",
+            "label": "XF 2.3",
+            "date": "2024-08-26T08:56:40+0100",
+            "user": "javakhir",
+            "user_link": "https://xenforo.com/community/members/javakhir.219947/"
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Troubleshooting and problems",
+          "link": "https://xenforo.com/community/forums/troubleshooting-and-problems.24/",
+          "description": "If you are receiving errors, encountering features that do not work correctly or are running into other problems, post them here so that the community can help find a solution. Please do not post problems with add-ons here. Official add-ons have their own <a href=\"/community/#official-xenforo-add-ons.54\">support forums</a> as well.",
+          "childboards": [],
+          "topics": 15600,
+          "posts": 99000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/161/161572.jpg?1701364699",
+            "title": "Overlay/pop ups don&#039;t resize on mobile",
+            "link": "https://xenforo.com/community/threads/overlay-pop-ups-dont-resize-on-mobile.224788/post-1703238",
+            "label": "XF 2.2",
+            "date": "2024-08-26T15:06:24+0100",
+            "user": "dtrumbower",
+            "user_link": "https://xenforo.com/community/members/dtrumbower.161572/"
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "XenForo questions and support",
+          "link": "https://xenforo.com/community/forums/xenforo-questions-and-support.25/",
+          "description": "This forum holds questions and support requests related to your XenForo installation, such as configuring XenForo to fit your needs. Please do not post questions about add-ons here. Official add-ons have their own <a href=\"/community/#official-xenforo-add-ons.54\">support forums</a> as well. If you have particular problems, please post in <a href=\"/community/forums/troubleshooting-and-problems.24/\">troubleshooting</a>. For styling and templating questions, please post in <a href=\"/community/forums/styling-and-customization-questions.47/\">styling questions</a>.",
+          "childboards": [],
+          "topics": 27900,
+          "posts": 147900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/12/12475.jpg?1701362818",
+            "title": "Display Condition to show a Widget in a specific node",
+            "link": "https://xenforo.com/community/threads/display-condition-to-show-a-widget-in-a-specific-node.217011/post-1703215",
+            "label": "XF 2.2",
+            "date": "2024-08-26T12:37:41+0100",
+            "user": "Thanh Thai",
+            "user_link": "https://xenforo.com/community/members/thanh-thai.12475/"
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Styling and customization questions",
+          "link": "https://xenforo.com/community/forums/styling-and-customization-questions.47/",
+          "description": "If you are trying to customize the look and feel of your XenForo forum, post your styling and customization questions here.",
+          "childboards": [],
+          "topics": 15100,
+          "posts": 74000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/126/126652.jpg?1701364119",
+            "title": "Show multiple items at once in slider / carousel",
+            "link": "https://xenforo.com/community/threads/show-multiple-items-at-once-in-slider-carousel.169478/post-1703247",
+            "label": "XF 2.1",
+            "date": "2024-08-26T15:52:32+0100",
+            "user": "JohnLogar",
+            "user_link": "https://xenforo.com/community/members/johnlogar.126652/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Server configuration and hosting",
+          "link": "https://xenforo.com/community/forums/server-configuration-and-hosting.48/",
+          "description": "This forum is for questions about configuring your server for XenForo and how to meet your XenForo hosting needs.",
+          "childboards": [],
+          "topics": 2700,
+          "posts": 31200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/13/13860.jpg?1701362833",
+            "title": "What is your self-hosted SMTP solution? We are testing Postal at the moment, with speed issues",
+            "link": "https://xenforo.com/community/threads/what-is-your-self-hosted-smtp-solution-we-are-testing-postal-at-the-moment-with-speed-issues.221295/post-1703242",
+            "label": "",
+            "date": "2024-08-26T15:39:18+0100",
+            "user": "fly",
+            "user_link": "https://xenforo.com/community/members/fly.13860/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Forum management",
+          "link": "https://xenforo.com/community/forums/forum-management.84/",
+          "description": "Use this forum to discuss issues that relate to running or managing a XenForo forum but do not specifically involve questions or problems relating to XenForo. Some potential topics involve how to grow a forum, handling problematic members, mitigating spam, moderator techniques, advertising, etc. Only licensed customers may post here.",
+          "childboards": [],
+          "topics": 3100,
+          "posts": 32299,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/60/60988.jpg?1712827357",
+            "title": "Have most forums lost traffic from Google since April 2024?",
+            "link": "https://xenforo.com/community/threads/have-most-forums-lost-traffic-from-google-since-april-2024.224669/post-1703249",
+            "label": "",
+            "date": "2024-08-26T15:58:58+0100",
+            "user": "Mr Lucky",
+            "user_link": "https://xenforo.com/community/members/mr-lucky.60988/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Tips and guides [1.x]",
+          "link": "https://xenforo.com/community/forums/tips-and-guides-1-x.79/",
+          "description": "Get ideas for how to use XenForo more effectively and creatively. These threads have been automatically created by the <a href=\"/community/resources/\">resource manager</a>.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Tips and guides [archive]",
+              "link": "https://xenforo.com/community/forums/tips-and-guides-archive.36/"
+            }
+          ],
+          "topics": 348,
+          "posts": 7100,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Robots.txt",
+            "link": "https://xenforo.com/community/threads/robots-txt.16735/post-1669980",
+            "label": "",
+            "date": "2024-02-29T01:22:13+0000",
+            "user": "mc nabulsy",
+            "user_link": "https://xenforo.com/community/members/mc-nabulsy.228888/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Tips and guides [2.x]",
+          "link": "https://xenforo.com/community/forums/tips-and-guides-2-x.94/",
+          "description": "",
+          "childboards": [],
+          "topics": 134,
+          "posts": 4000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Using DigitalOcean Spaces or Amazon S3 for file storage in XF 2.1 &amp; XF 2.2",
+            "link": "https://xenforo.com/community/threads/using-digitalocean-spaces-or-amazon-s3-for-file-storage-in-xf-2-1-xf-2-2.156282/post-1702951",
+            "label": "",
+            "date": "2024-08-25T00:24:06+0100",
+            "user": "RenegadeMonster",
+            "user_link": "https://xenforo.com/community/members/renegademonster.199561/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Other XenForo discussions and feedback",
+          "link": "https://xenforo.com/community/forums/other-xenforo-discussions-and-feedback.45/",
+          "description": "Non-support-related discussion and feedback for XenForo. Support questions should be directed to the correct forum. Questions about running a XenForo forum should be posted in \"Forum management\".",
+          "childboards": [],
+          "topics": 3700,
+          "posts": 57600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/20/20345.jpg?1724060827",
+            "title": "XF3 General Information &amp; Discussion",
+            "link": "https://xenforo.com/community/threads/xf3-general-information-discussion.217928/post-1702124",
+            "label": "",
+            "date": "2024-08-20T17:53:49+0100",
+            "user": "Suzanne O",
+            "user_link": "https://xenforo.com/community/members/suzanne-o.20345/"
+          }
+        },
+        {
+          "icon": "fa-link",
+          "name": "XenForo help and manual",
+          "link": "https://xenforo.com/community/link-forums/xenforo-help-and-manual.49/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Official XenForo add-ons",
+      "link": "https://xenforo.com/community/#official-xenforo-add-ons.54",
+      "forums": [
+        {
+          "icon": "fa-lightbulb-on",
+          "name": "Media Gallery suggestions",
+          "link": "https://xenforo.com/community/forums/media-gallery-suggestions.86/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Media Gallery closed suggestions",
+              "link": "https://xenforo.com/community/forums/media-gallery-closed-suggestions.90/"
+            }
+          ],
+          "topics": 691,
+          "posts": 2600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/2/2597.jpg?1701362674",
+            "title": "Support tiff files",
+            "link": "https://xenforo.com/community/threads/support-tiff-files.224318/post-1700438",
+            "label": "",
+            "date": "2024-08-13T00:27:21+0100",
+            "user": "Arantor",
+            "user_link": "https://xenforo.com/community/members/arantor.2597/"
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Media Gallery support",
+          "link": "https://xenforo.com/community/forums/media-gallery-support.87/",
+          "description": "",
+          "childboards": [],
+          "topics": 1700,
+          "posts": 8500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/269/269217.jpg?1707324437",
+            "title": "MG not producing thumbnails for uploaded videos?!",
+            "link": "https://xenforo.com/community/threads/mg-not-producing-thumbnails-for-uploaded-videos.208894/post-1703166",
+            "label": "MG 2.2",
+            "date": "2024-08-26T04:54:32+0100",
+            "user": "SeaWolf",
+            "user_link": "https://xenforo.com/community/members/seawolf.269217/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Media Gallery bug reports",
+          "link": "https://xenforo.com/community/forums/media-gallery-bug-reports.88/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Media Gallery resolved bugs",
+              "link": "https://xenforo.com/community/forums/media-gallery-resolved-bugs.89/"
+            }
+          ],
+          "topics": 833,
+          "posts": 3700,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/187/187211.jpg?1701365051",
+            "title": "X on lightbox too far right (XFMG)",
+            "link": "https://xenforo.com/community/threads/x-on-lightbox-too-far-right-xfmg.224759/post-1703117",
+            "label": "",
+            "date": "2024-08-26T00:12:22+0100",
+            "user": "frm",
+            "user_link": "https://xenforo.com/community/members/frm.187211/"
+          }
+        },
+        {
+          "icon": "fa-lightbulb-on",
+          "name": "Resource Manager suggestions",
+          "link": "https://xenforo.com/community/forums/resource-manager-suggestions.65/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Resource Manager closed suggestions",
+              "link": "https://xenforo.com/community/forums/resource-manager-closed-suggestions.83/"
+            }
+          ],
+          "topics": 698,
+          "posts": 2900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Allow Searching Resource Tags by Category",
+            "link": "https://xenforo.com/community/threads/allow-searching-resource-tags-by-category.224438/post-1701181",
+            "label": "",
+            "date": "2024-08-15T23:10:47+0100",
+            "user": "Quintillus",
+            "user_link": "https://xenforo.com/community/members/quintillus.259661/"
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Resource Manager support",
+          "link": "https://xenforo.com/community/forums/resource-manager-support.82/",
+          "description": "You must be a XenForo customer to post in these forums. Ensure your account is listed in your customer area <a href=\"https://xenforo.com/customers/forum-users\" style=\"text-decoration: underline\">Forum users page</a>.",
+          "childboards": [],
+          "topics": 1200,
+          "posts": 5800,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/126/126652.jpg?1701364119",
+            "title": "featured resources slider",
+            "link": "https://xenforo.com/community/threads/featured-resources-slider.166478/post-1702655",
+            "label": "RM 2.1",
+            "date": "2024-08-23T14:47:14+0100",
+            "user": "JohnLogar",
+            "user_link": "https://xenforo.com/community/members/johnlogar.126652/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Resource Manager bug reports",
+          "link": "https://xenforo.com/community/forums/resource-manager-bug-reports.66/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Resource Manager resolved bugs",
+              "link": "https://xenforo.com/community/forums/resource-manager-resolved-bugs.67/"
+            }
+          ],
+          "topics": 503,
+          "posts": 1800,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/187/187211.jpg?1701365051",
+            "title": "X on lightbox too far right (RM)",
+            "link": "https://xenforo.com/community/threads/x-on-lightbox-too-far-right-rm.224760/post-1703037",
+            "label": "",
+            "date": "2024-08-25T16:19:19+0100",
+            "user": "frm",
+            "user_link": "https://xenforo.com/community/members/frm.187211/"
+          }
+        },
+        {
+          "icon": "fa-lightbulb-on",
+          "name": "Enhanced Search suggestions",
+          "link": "https://xenforo.com/community/forums/enhanced-search-suggestions.55/",
+          "description": "",
+          "childboards": [],
+          "topics": 61,
+          "posts": 285,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/271/271120.jpg?1706918735",
+            "title": "Auto Suggestion for Searchbox",
+            "link": "https://xenforo.com/community/threads/auto-suggestion-for-searchbox.183187/post-1680553",
+            "label": "Implemented",
+            "date": "2024-05-04T01:39:07+0100",
+            "user": "Opus X",
+            "user_link": "https://xenforo.com/community/members/opus-x.271120/"
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Enhanced Search support",
+          "link": "https://xenforo.com/community/forums/enhanced-search-support.56/",
+          "description": "You must be a XenForo customer to post in these forums. Ensure your account is listed in your customer area <a href=\"https://xenforo.com/customers/forum-users\" style=\"text-decoration: underline\">Forum users page</a>.",
+          "childboards": [],
+          "topics": 445,
+          "posts": 3600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/54/54487.jpg?1716955639",
+            "title": "Elasticsearch full _source",
+            "link": "https://xenforo.com/community/threads/elasticsearch-full-_source.223991/post-1703183",
+            "label": "",
+            "date": "2024-08-26T08:14:37+0100",
+            "user": "Mike Fara",
+            "user_link": "https://xenforo.com/community/members/mike-fara.54487/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Enhanced Search bug reports",
+          "link": "https://xenforo.com/community/forums/enhanced-search-bug-reports.57/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Enhanced Search resolved bugs",
+              "link": "https://xenforo.com/community/forums/enhanced-search-resolved-bugs.58/"
+            }
+          ],
+          "topics": 113,
+          "posts": 601,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "ES 2.3.2 Auto Complete crashes when dynamic avatar disabled",
+            "link": "https://xenforo.com/community/threads/es-2-3-2-auto-complete-crashes-when-dynamic-avatar-disabled.224767/post-1703057",
+            "label": "",
+            "date": "2024-08-25T18:32:44+0100",
+            "user": "Andy.N",
+            "user_link": "https://xenforo.com/community/members/andy-n.698/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "XenForo resources and add-ons",
+      "link": "https://xenforo.com/community/#xenforo-resources-and-add-ons.60",
+      "forums": [
+        {
+          "icon": "fa-link",
+          "name": "Resources and add-ons",
+          "link": "https://xenforo.com/community/link-forums/resources-and-add-ons.70/",
+          "description": "Resources and add-ons can now be browsed and downloaded from the resource manager.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Resource and add-on releases [1.x]",
+          "link": "https://xenforo.com/community/categories/resource-and-add-on-releases-1-x.71/",
+          "description": "These threads are automatically created discussions for releases in the <a href=\"/community/resources\">resource manager</a>.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Add-on releases",
+              "link": "https://xenforo.com/community/forums/add-on-releases.72/"
+            },
+            {
+              "icon": "forum",
+              "name": "Add-on tips and guides",
+              "link": "https://xenforo.com/community/forums/add-on-tips-and-guides.64/"
+            },
+            {
+              "icon": "forum",
+              "name": "Code modifications",
+              "link": "https://xenforo.com/community/forums/code-modifications.78/"
+            },
+            {
+              "icon": "forum",
+              "name": "Style releases",
+              "link": "https://xenforo.com/community/forums/style-releases.73/"
+            },
+            {
+              "icon": "forum",
+              "name": "Template modifications",
+              "link": "https://xenforo.com/community/forums/template-modifications.77/"
+            },
+            {
+              "icon": "forum",
+              "name": "Graphic releases",
+              "link": "https://xenforo.com/community/forums/graphic-releases.74/"
+            },
+            {
+              "icon": "forum",
+              "name": "Translation releases",
+              "link": "https://xenforo.com/community/forums/translation-releases.75/"
+            },
+            {
+              "icon": "forum",
+              "name": "Other releases",
+              "link": "https://xenforo.com/community/forums/other-releases.76/"
+            }
+          ],
+          "topics": 5100,
+          "posts": 304000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/92/92813.jpg?1701363626",
+            "title": "Ads Manager by Siropu [Paid]",
+            "link": "https://xenforo.com/community/threads/ads-manager-by-siropu-paid.94168/post-1702822",
+            "label": "",
+            "date": "",
+            "user": "Siropu",
+            "user_link": "https://xenforo.com/community/members/siropu.92813/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Resource and add-on releases [2.x]",
+          "link": "https://xenforo.com/community/categories/resource-and-add-on-releases-2-x.93/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Add-on releases [2.x]",
+              "link": "https://xenforo.com/community/forums/add-on-releases-2-x.95/"
+            },
+            {
+              "icon": "unread",
+              "name": "Style releases [2.x]",
+              "link": "https://xenforo.com/community/forums/style-releases-2-x.96/"
+            },
+            {
+              "icon": "unread",
+              "name": "Template modifications [2.x]",
+              "link": "https://xenforo.com/community/forums/template-modifications-2-x.97/"
+            },
+            {
+              "icon": "forum",
+              "name": "Graphic releases [2.x]",
+              "link": "https://xenforo.com/community/forums/graphic-releases-2-x.98/"
+            },
+            {
+              "icon": "unread",
+              "name": "Translation releases [2.x]",
+              "link": "https://xenforo.com/community/forums/translation-releases-2-x.99/"
+            },
+            {
+              "icon": "unread",
+              "name": "Other releases [2.x]",
+              "link": "https://xenforo.com/community/forums/other-releases-2-x.100/"
+            }
+          ],
+          "topics": 3700,
+          "posts": 152500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "[XenConcept] HowTo forum [Paid]",
+            "link": "https://xenforo.com/community/threads/xenconcept-howto-forum-paid.218096/post-1703250",
+            "label": "",
+            "date": "",
+            "user": "Robert9",
+            "user_link": "https://xenforo.com/community/members/robert9.66012/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Resource and add-on requests",
+          "link": "https://xenforo.com/community/forums/resource-and-add-on-requests.68/",
+          "description": "If you are looking for an add-on that does something in particular or you are hoping a developer will create a resource with particular functionality, you may post your request here.",
+          "childboards": [],
+          "topics": 4800,
+          "posts": 24000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/1/1121.jpg?1701362644",
+            "title": "Hot linked to attachments (2.3)",
+            "link": "https://xenforo.com/community/threads/hot-linked-to-attachments-2-3.224570/post-1701970",
+            "label": "",
+            "date": "2024-08-19T20:19:39+0100",
+            "user": "Digital Doctor",
+            "user_link": "https://xenforo.com/community/members/digital-doctor.1121/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Resource and add-on discussions",
+          "link": "https://xenforo.com/community/forums/resource-and-add-on-discussions.63/",
+          "description": "Non-release-related resource and add-on discussions. Covers things such as general suggestion/feedback gathering, sneak peaks and early previews, and general discussion about the state of the resource/add-on community. Please do not post support requests in this forum.",
+          "childboards": [],
+          "topics": 1500,
+          "posts": 20500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/0/521.jpg?1723018890",
+            "title": "Add-on actions pending notice: how to resolve",
+            "link": "https://xenforo.com/community/threads/add-on-actions-pending-notice-how-to-resolve.224081/post-1698943",
+            "label": "",
+            "date": "2024-08-06T21:52:22+0100",
+            "user": "Paul B",
+            "user_link": "https://xenforo.com/community/members/paul-b.521/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Custom service/development requests",
+          "link": "https://xenforo.com/community/forums/custom-service-development-requests.69/",
+          "description": "If you are looking for someone to provide custom services or development to fit your needs, post your requests here.",
+          "childboards": [],
+          "topics": 3200,
+          "posts": 12200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/278/278609.jpg?1724543391",
+            "title": "Big customization job",
+            "link": "https://xenforo.com/community/threads/big-customization-job.224741/post-1703239",
+            "label": "XF 2",
+            "date": "2024-08-26T15:14:28+0100",
+            "user": "unproperlypropagated",
+            "user_link": "https://xenforo.com/community/members/unproperlypropagated.278609/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Third-party services &amp; offers",
+          "link": "https://xenforo.com/community/forums/third-party-services-offers.42/",
+          "description": "This forum is to be used for announcing and discussing <strong>XenForo-related services or special offers</strong> only. Its purpose is <strong>not</strong> the general buying, selling and exchange of property, software licenses or domain names. The services announced in this forum are in no way affiliated with or endorsed by XenForo Ltd. You may only post one thread per type of service.",
+          "childboards": [],
+          "topics": 169,
+          "posts": 5500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://gravatar.com/avatar/08966a1d6c090d58d8655a0d6ee60a2eafcb9cf35db80377c32108f800f36a2f?s=48",
+            "title": "DohTheme Coupons",
+            "link": "https://xenforo.com/community/threads/dohtheme-coupons.201687/post-1703204",
+            "label": "",
+            "date": "2024-08-26T10:59:48+0100",
+            "user": "DohTheme",
+            "user_link": "https://xenforo.com/community/members/dohtheme.47770/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Resource and add-on archive",
+          "link": "https://xenforo.com/community/forums/resource-and-add-on-archive.62/",
+          "description": "These forums have been superseded by the  <a href=\"/community/resources\">resource manager</a> or new forums.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Add-on releases [Archive]",
+              "link": "https://xenforo.com/community/forums/add-on-releases-archive.32/"
+            },
+            {
+              "icon": "forum",
+              "name": "Styles [Archive]",
+              "link": "https://xenforo.com/community/forums/styles/"
+            },
+            {
+              "icon": "forum",
+              "name": "Graphics [Archive]",
+              "link": "https://xenforo.com/community/forums/graphics/"
+            },
+            {
+              "icon": "forum",
+              "name": "Languages [Archive]",
+              "link": "https://xenforo.com/community/forums/languages/"
+            },
+            {
+              "icon": "forum",
+              "name": "Template modifications [Archive]",
+              "link": "https://xenforo.com/community/forums/template-modifications-archive.37/"
+            },
+            {
+              "icon": "forum",
+              "name": "Other resources [Archive]",
+              "link": "https://xenforo.com/community/forums/other-resources-archive.21/"
+            },
+            {
+              "icon": "forum",
+              "name": "Code modifications [Archive]",
+              "link": "https://xenforo.com/community/forums/code-modifications-archive.50/"
+            },
+            {
+              "icon": "forum",
+              "name": "Commercial resources and add-ons [Archive]",
+              "link": "https://xenforo.com/community/forums/commercial-resources-and-add-ons-archive.61/"
+            },
+            {
+              "icon": "forum",
+              "name": "Add-on requests [Archive]",
+              "link": "https://xenforo.com/community/forums/add-on-requests-archive.35/"
+            },
+            {
+              "icon": "forum",
+              "name": "Resource discussions [Archive]",
+              "link": "https://xenforo.com/community/forums/resource-discussions-archive.38/"
+            },
+            {
+              "icon": "forum",
+              "name": "Resource requests [Archive]",
+              "link": "https://xenforo.com/community/forums/resource-requests-archive.39/"
+            }
+          ],
+          "topics": 1700,
+          "posts": 48300,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://gravatar.com/avatar/6dbc5c1e139873c167fd883977351e085700db2b9e6c210c9f875d0a9bb7b0bd?s=48",
+            "title": "[bd] Banking",
+            "link": "https://xenforo.com/community/threads/bd-banking.5853/post-332446",
+            "label": "",
+            "date": "2012-03-01T10:28:06+0000",
+            "user": "xpl0iter",
+            "user_link": "https://xenforo.com/community/members/xpl0iter.15314/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Development help",
+      "link": "https://xenforo.com/community/#development-help.51",
+      "forums": [
+        {
+          "icon": "fa-link",
+          "name": "Resource standards",
+          "link": "https://xenforo.com/community/link-forums/resource-standards.106/",
+          "description": "The guidelines within are the minimum expected standards to be adhered to when releasing products in the Resource Manager here.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Development tutorials and resources [1.x]",
+          "link": "https://xenforo.com/community/forums/development-tutorials-and-resources-1-x.80/",
+          "description": "These threads have been automatically created by the <a href=\"/community/resources/\">resource manager</a>.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Development tutorials [Archive]",
+              "link": "https://xenforo.com/community/forums/development-tutorials-archive.33/"
+            }
+          ],
+          "topics": 141,
+          "posts": 2500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "XenForo AJAX Tutorial",
+            "link": "https://xenforo.com/community/threads/xenforo-ajax-tutorial.8091/post-1616623",
+            "label": "",
+            "date": "2023-02-28T20:09:26+0000",
+            "user": "Newsman",
+            "user_link": "https://xenforo.com/community/members/newsman.259876/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Development tutorials [2.x]",
+          "link": "https://xenforo.com/community/forums/development-tutorials-2-x.101/",
+          "description": "",
+          "childboards": [],
+          "topics": 17,
+          "posts": 209,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/62/62784.jpg?1701363247",
+            "title": "Unit testing XenForo addons - tutorial",
+            "link": "https://xenforo.com/community/threads/unit-testing-xenforo-addons-tutorial.172504/post-1703214",
+            "label": "",
+            "date": "2024-08-26T12:30:21+0100",
+            "user": "Earl",
+            "user_link": "https://xenforo.com/community/members/earl.62784/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "XenForo development discussions",
+          "link": "https://xenforo.com/community/forums/xenforo-development-discussions.34/",
+          "description": "Questions and discussions about developing for XenForo.",
+          "childboards": [
+            {
+              "icon": "page",
+              "name": "REST API endpoints (2.2)",
+              "link": "https://xenforo.com/community/pages/api-endpoints/"
+            }
+          ],
+          "topics": 7800,
+          "posts": 40200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "How to configure carousel speed?",
+            "link": "https://xenforo.com/community/threads/how-to-configure-carousel-speed.224784/post-1703206",
+            "label": "XF 2.3",
+            "date": "2024-08-26T11:09:57+0100",
+            "user": "Kirby",
+            "user_link": "https://xenforo.com/community/members/kirby.1059/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "General PHP and MySQL discussions",
+          "link": "https://xenforo.com/community/forums/general-php-and-mysql-discussions.52/",
+          "description": "If you have general, non-XenForo-specific development questions or discussions, please use this forum.",
+          "childboards": [],
+          "topics": 450,
+          "posts": 2600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/174/174747.jpg?1701364881",
+            "title": "MYIASM and INNODB",
+            "link": "https://xenforo.com/community/threads/myiasm-and-innodb.224161/post-1699525",
+            "label": "",
+            "date": "2024-08-09T06:09:58+0100",
+            "user": "webbouk",
+            "user_link": "https://xenforo.com/community/members/webbouk.174747/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "General discussions",
+      "link": "https://xenforo.com/community/#general-discussions.4",
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Forum showcase and critiques",
+          "link": "https://xenforo.com/community/forums/forum-showcase-and-critiques.53/",
+          "description": "Get feedback on your XenForo forum. XenForo forum showcasing and critiques only. You must be a customer to start a thread in this forum. Threads about forums with non-business-appropriate topics will be removed.",
+          "childboards": [],
+          "topics": 1400,
+          "posts": 20900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Agora - Digital Marketplace &amp; Freelancer Community",
+            "link": "https://xenforo.com/community/threads/agora-digital-marketplace-freelancer-community.223453/post-1702887",
+            "label": "",
+            "date": "2024-08-24T14:33:25+0100",
+            "user": "colenot",
+            "user_link": "https://xenforo.com/community/members/colenot.277903/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Off topic",
+          "link": "https://xenforo.com/community/forums/off-topic.7/",
+          "description": "For those discussions that are not XenForo related. This is still part of a business forum, so be aware of what you're discussing. Posts bashing competitors are not welcome. Highly charged topics (such as religion and politics) may be closed or deleted. Leave your shoes by the door and come on in.",
+          "childboards": [],
+          "topics": 8300,
+          "posts": 178600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/2/2894.jpg?1701362682",
+            "title": "Rant about WordPress",
+            "link": "https://xenforo.com/community/threads/rant-about-wordpress.212371/post-1703230",
+            "label": "",
+            "date": "2024-08-26T14:25:39+0100",
+            "user": "Wildcat Media",
+            "user_link": "https://xenforo.com/community/members/wildcat-media.2894/"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Tests and examples",
+      "link": "https://xenforo.com/community/#tests-and-examples.14",
+      "forums": [
+        {
+          "icon": "fa-search",
+          "name": "",
+          "link": null,
+          "description": "An example search forum where you can see all recently fixed bugs.",
+          "childboards": [],
+          "topics": 200,
+          "posts": 1100,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/0/6.jpg?1701362621",
+            "title": "Problem getting PayPal product",
+            "link": "https://xenforo.com/community/threads/problem-getting-paypal-product.222950/post-1702555",
+            "label": "Fixed",
+            "date": "2024-08-23T05:31:14+0100",
+            "user": "XF Bug Bot",
+            "user_link": "https://xenforo.com/community/members/xf-bug-bot.6/"
+          }
+        },
+        {
+          "icon": "fa-search",
+          "name": "",
+          "link": null,
+          "description": "An example search forum where you can see all recently implemented suggestions.",
+          "childboards": [],
+          "topics": 3,
+          "posts": 157,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://xenforo.com/community/data/avatars/s/7/7771.jpg?1701362756",
+            "title": "Real weekly and monthly statistics",
+            "link": "https://xenforo.com/community/threads/real-weekly-and-monthly-statistics.224072/post-1698939",
+            "label": "Implemented",
+            "date": "2024-08-06T21:35:16+0100",
+            "user": "Ricsca",
+            "user_link": "https://xenforo.com/community/members/ricsca.7771/"
+          }
+        },
+        {
+          "icon": "fa-file-alt",
+          "name": "Example page",
+          "link": "https://xenforo.com/community/pages/example-page/",
+          "description": "This is an example page, which sits in the tree structure along with your forums and categories.<br />We call this the 'node tree', as it's not focused on forums.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

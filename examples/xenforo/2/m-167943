@@ -1,1 +1,34 @@
-{"format_version": "xenforo-2-user", "url": "https://forums.mangadex.org/members/hikarikun.167943/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json", "id": 167943, "background": "", "location": "", "avatar": "https://forums.mangadex.org/community/avatars/m/167/167943.jpg", "title": "", "banners": [], "name": "hikarikun", "forum": "", "extras": [{"key": "Joined", "value": "2019-05-11T12:34:57+0100"}, {"key": "Last seen", "value": "2024-05-24T03:56:56+0100"}, {"key": "Messages", "value": "4"}, {"key": "Reaction score", "value": "0"}, {"key": "Points", "value": "0"}]}
+{
+  "format_version": "xenforo-2-user",
+  "url": "https://forums.mangadex.org/members/hikarikun.167943/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json",
+  "id": 167943,
+  "background": "",
+  "location": "",
+  "avatar": "https://forums.mangadex.org/community/avatars/m/167/167943.jpg",
+  "title": "",
+  "banners": [],
+  "name": "hikarikun",
+  "forum": "",
+  "extras": [
+    {
+      "key": "Joined",
+      "value": "2019-05-11T12:34:57+0100"
+    },
+    {
+      "key": "Last seen",
+      "value": "2024-05-24T03:56:56+0100"
+    },
+    {
+      "key": "Messages",
+      "value": "4"
+    },
+    {
+      "key": "Reaction score",
+      "value": "0"
+    },
+    {
+      "key": "Points",
+      "value": "0"
+    }
+  ]
+}

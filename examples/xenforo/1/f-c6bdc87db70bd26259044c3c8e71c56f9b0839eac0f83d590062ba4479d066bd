@@ -1,1 +1,961 @@
-{"format_version": "xenforo-1-forum", "url": "https://bukkit.org/forums/plugin-development.5/", "categories": [{"name": "", "link": null, "description": "", "forums": [{"state": "Unread messages", "icon": null, "name": "Resources", "link": "https://bukkit.org/forums/resources.60/", "description": "Useful resources for developers, like tutorials and guides, etc.", "topics": 1524, "posts": 30060, "feed": "forums/resources.60/index.rss", "childboards": [], "lastpost": {"title": "Create Custom Items and Textures", "link": "https://bukkit.org/posts/3652690/", "user": "lil_kho", "user_link": "https://bukkit.org/members/lil_kho.91519116/", "date": "Oct 5, 2023 at 5:07 AM"}}]}, {"name": "", "link": null, "description": "", "forums": [{"state": "Unread messages", "icon": null, "name": "WIP and Development Status", "link": "https://bukkit.org/forums/wip-and-development-status.61/", "description": "Works in progress and status of plugins being ported can be found here.", "topics": 995, "posts": 15458, "feed": "forums/wip-and-development-status.61/index.rss", "childboards": [], "lastpost": {"title": "Work in Progress Plugins", "link": "https://bukkit.org/posts/3580803/", "user": "CodeVyxis", "user_link": "https://bukkit.org/members/codevyxis.90866435/", "date": "Mar 21, 2018 at 5:27 AM"}}]}], "threads": [{"avatar": "data/avatars/s/90927/90927090.jpg?1533744774", "icons": ["locked", "sticky"], "label": "", "title": "Marking threads as Solved/Filled", "link": "https://bukkit.org/threads/marking-threads-as-solved-filled.350059/", "user": "Forge_User_45064837", "user_link": "https://bukkit.org/members/forge_user_45064837.90927090/", "date": "Mar 22, 2015", "lastpage": 2, "replies": 42, "views": 19906, "lastpost": {"user": "I Al Istannen", "user_link": "https://bukkit.org/members/i-al-istannen.91064682/", "date": "Sep 17, 2016 at 3:43 PM"}}, {"avatar": "data/avatars/s/90867/90867807.jpg?1695583410", "icons": ["locked", "sticky"], "label": "", "title": "[READ ME FIRST] How to make a Plugin Development Thread", "link": "https://bukkit.org/threads/read-me-first-how-to-make-a-plugin-development-thread.395844/", "user": "Zombie_Striker", "user_link": "https://bukkit.org/members/zombie_striker.90867807/", "date": "Nov 30, 2015", "lastpage": 2, "replies": 30, "views": 22811, "lastpost": {"user": "MasterDoctor", "user_link": "https://bukkit.org/members/masterdoctor.90979094/", "date": "Mar 18, 2016 at 1:39 PM"}}, {"avatar": "https://secure.gravatar.com/avatar/d091b55c519d8207cd397ca67f07c9a7?s=48&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_s.png", "icons": ["locked", "sticky"], "label": "", "title": "On namespaces - please do NOT use *.bukkit in your plugins.", "link": "https://bukkit.org/threads/on-namespaces-please-do-not-use-bukkit-in-your-plugins.3732/", "user": "EvilSeph", "user_link": "https://bukkit.org/members/evilseph.1/", "date": "Feb 8, 2011", "lastpage": 4, "replies": 99, "views": 60172, "lastpost": {"user": "Dudemister1999", "user_link": "https://bukkit.org/members/dudemister1999.90926487/", "date": "Oct 27, 2014 at 2:20 PM"}}, {"avatar": "data/avatars/s/0/766.jpg?1420046695", "icons": ["locked", "sticky"], "label": "", "title": "Common Mistakes", "link": "https://bukkit.org/threads/common-mistakes.100544/", "user": "mbaxter", "user_link": "https://bukkit.org/members/mbaxter.766/", "date": "Sep 12, 2012", "lastpage": 7, "replies": 192, "views": 70818, "lastpost": {"user": "bdubz4552", "user_link": "https://bukkit.org/members/bdubz4552.90860633/", "date": "Sep 17, 2014 at 5:16 AM"}}, {"avatar": "data/avatars/s/36/36753.jpg?1354853008", "icons": ["locked", "sticky"], "label": "", "title": "How to read stack-traces, and troubleshoot your own plugins (by yourself)", "link": "https://bukkit.org/threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/", "user": "DrBowe", "user_link": "https://bukkit.org/members/drbowe.36753/", "date": "Aug 19, 2011", "lastpage": 3, "replies": 74, "views": 138740, "lastpost": {"user": "XzKNIGHTzX", "user_link": "https://bukkit.org/members/xzknightzx.90971544/", "date": "Aug 13, 2014 at 10:49 PM"}}, {"avatar": "https://secure.gravatar.com/avatar/e5770fdf7c887878654caa894257200a?s=48&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_s.png", "icons": ["locked", "sticky"], "label": "", "title": "ChunkGenerators &amp; BlockPopulators FAQ", "link": "https://bukkit.org/threads/chunkgenerators-blockpopulators-faq.22795/", "user": "Dinnerbone", "user_link": "https://bukkit.org/members/dinnerbone.14/", "date": "Jun 23, 2011", "lastpage": 5, "replies": 145, "views": 109682, "lastpost": {"user": "minelazz", "user_link": "https://bukkit.org/members/minelazz.90874685/", "date": "Jul 25, 2014 at 12:32 PM"}}, {"avatar": "https://secure.gravatar.com/avatar/d091b55c519d8207cd397ca67f07c9a7?s=48&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_s.png", "icons": ["locked", "sticky"], "label": "", "title": "Oops, I didn't break your plugins - ambiguous getHealth()", "link": "https://bukkit.org/threads/oops-i-didnt-break-your-plugins-ambiguous-gethealth.156975/", "user": "EvilSeph", "user_link": "https://bukkit.org/members/evilseph.1/", "date": "Jul 1, 2013", "lastpage": 2, "replies": 58, "views": 59201, "lastpost": {"user": "ChipDev", "user_link": "https://bukkit.org/members/chipdev.90955057/", "date": "Jul 11, 2014 at 11:22 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "&quot;How to Load and Use Custom YAML Files in a Bukkit Plugin?&quot;", "link": "https://bukkit.org/threads/how-to-load-and-use-custom-yaml-files-in-a-bukkit-plugin.504291/", "user": "zozo1404", "user_link": "https://bukkit.org/members/zozo1404.91543733/", "date": "1724578672", "lastpage": 0, "replies": 3, "views": 1634, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "1724600340"}}, {"avatar": "data/avatars/s/91541/91541368.jpg?1721156193", "icons": [], "label": "", "title": "Libraries ideas", "link": "https://bukkit.org/threads/libraries-ideas.504290/", "user": "JudgeMan", "user_link": "https://bukkit.org/members/judgeman.91541368/", "date": "1724515757", "lastpage": 0, "replies": 3, "views": 2240, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "1724527148"}}, {"avatar": "data/avatars/s/91397/91397632.jpg?1641854084", "icons": [], "label": "Solved", "title": "Listen for Interaction with Block Display", "link": "https://bukkit.org/threads/listen-for-interaction-with-block-display.504192/", "user": "Smeary_Subset", "user_link": "https://bukkit.org/members/smeary_subset.91397632/", "date": "Aug 3, 2024", "lastpage": 0, "replies": 5, "views": 10869, "lastpost": {"user": "Hellborn5456", "user_link": "https://bukkit.org/members/hellborn5456.90859967/", "date": "1724168662"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_s.png", "icons": [], "label": "", "title": "how to despawn animals", "link": "https://bukkit.org/threads/how-to-despawn-animals.504251/", "user": "klm8787", "user_link": "https://bukkit.org/members/klm8787.91543440/", "date": "Aug 18, 2024", "lastpage": 0, "replies": 1, "views": 4187, "lastpost": {"user": "Evonoucono", "user_link": "https://bukkit.org/members/evonoucono.91111245/", "date": "Aug 19, 2024 at 10:35 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Errors", "link": "https://bukkit.org/threads/errors.504250/", "user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Aug 18, 2024", "lastpage": 0, "replies": 2, "views": 2922, "lastpost": {"user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Aug 18, 2024 at 7:48 AM"}}, {"avatar": "data/avatars/s/91397/91397632.jpg?1641854084", "icons": [], "label": "Solved", "title": "Lock BlockDisplay To Grid", "link": "https://bukkit.org/threads/lock-blockdisplay-to-grid.504190/", "user": "Smeary_Subset", "user_link": "https://bukkit.org/members/smeary_subset.91397632/", "date": "Aug 3, 2024", "lastpage": 0, "replies": 6, "views": 5575, "lastpost": {"user": "Smeary_Subset", "user_link": "https://bukkit.org/members/smeary_subset.91397632/", "date": "Aug 16, 2024 at 1:44 PM"}}, {"avatar": "data/avatars/s/91381/91381201.jpg?1630923243", "icons": [], "label": "", "title": "semi-invisible player", "link": "https://bukkit.org/threads/semi-invisible-player.504218/", "user": "Eternal544547451", "user_link": "https://bukkit.org/members/eternal544547451.91381201/", "date": "Aug 9, 2024", "lastpage": 0, "replies": 1, "views": 7967, "lastpost": {"user": "KarimAKL", "user_link": "https://bukkit.org/members/karimakl.91357836/", "date": "Aug 10, 2024 at 2:19 AM"}}, {"avatar": "data/avatars/s/91344/91344407.jpg?1596768266", "icons": [], "label": "", "title": "[1.18.2] Item Frame Packet Problems", "link": "https://bukkit.org/threads/1-18-2-item-frame-packet-problems.504191/", "user": "BaddCamden", "user_link": "https://bukkit.org/members/baddcamden.91344407/", "date": "Aug 3, 2024", "lastpage": 0, "replies": 0, "views": 5345, "lastpost": {"user": "BaddCamden", "user_link": "https://bukkit.org/members/baddcamden.91344407/", "date": "Aug 3, 2024 at 4:00 PM"}}, {"avatar": "data/avatars/s/91397/91397632.jpg?1641854084", "icons": [], "label": "Solved", "title": "New Paper API - Explosion_Huge Particle", "link": "https://bukkit.org/threads/new-paper-api-explosion_huge-particle.504165/", "user": "Smeary_Subset", "user_link": "https://bukkit.org/members/smeary_subset.91397632/", "date": "Jul 23, 2024", "lastpage": 0, "replies": 2, "views": 9962, "lastpost": {"user": "Smeary_Subset", "user_link": "https://bukkit.org/members/smeary_subset.91397632/", "date": "Aug 3, 2024 at 11:47 AM"}}, {"avatar": "data/avatars/s/91397/91397632.jpg?1641854084", "icons": [], "label": "Solved", "title": "Getting Location of Nether Portal", "link": "https://bukkit.org/threads/getting-location-of-nether-portal.504161/", "user": "Smeary_Subset", "user_link": "https://bukkit.org/members/smeary_subset.91397632/", "date": "Jul 22, 2024", "lastpage": 0, "replies": 2, "views": 9328, "lastpost": {"user": "Smeary_Subset", "user_link": "https://bukkit.org/members/smeary_subset.91397632/", "date": "Aug 3, 2024 at 11:40 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Event", "link": "https://bukkit.org/threads/event.504176/", "user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 28, 2024", "lastpage": 0, "replies": 12, "views": 12714, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Jul 29, 2024 at 10:46 PM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "set biome in chunk", "link": "https://bukkit.org/threads/set-biome-in-chunk.504174/", "user": "TfNautica", "user_link": "https://bukkit.org/members/tfnautica.91542066/", "date": "Jul 27, 2024", "lastpage": 0, "replies": 5, "views": 10607, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Jul 27, 2024 at 5:43 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Helix to player vector", "link": "https://bukkit.org/threads/helix-to-player-vector.504151/", "user": "TheSwell", "user_link": "https://bukkit.org/members/theswell.91289819/", "date": "Jul 21, 2024", "lastpage": 0, "replies": 3, "views": 14939, "lastpost": {"user": "KarimAKL", "user_link": "https://bukkit.org/members/karimakl.91357836/", "date": "Jul 22, 2024 at 4:21 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_s.png", "icons": [], "label": "", "title": "OpenInventory is not working", "link": "https://bukkit.org/threads/openinventory-is-not-working.504152/", "user": "ordu34", "user_link": "https://bukkit.org/members/ordu34.91374822/", "date": "Jul 21, 2024", "lastpage": 0, "replies": 1, "views": 14188, "lastpost": {"user": "KarimAKL", "user_link": "https://bukkit.org/members/karimakl.91357836/", "date": "Jul 22, 2024 at 12:57 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Issue with Relogging", "link": "https://bukkit.org/threads/issue-with-relogging.504133/", "user": "Aegislock", "user_link": "https://bukkit.org/members/aegislock.91541454/", "date": "Jul 17, 2024", "lastpage": 0, "replies": 0, "views": 242, "lastpost": {"user": "Aegislock", "user_link": "https://bukkit.org/members/aegislock.91541454/", "date": "Jul 17, 2024 at 11:38 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Reload problem", "link": "https://bukkit.org/threads/reload-problem.504122/", "user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 16, 2024", "lastpage": 0, "replies": 4, "views": 8614, "lastpost": {"user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 16, 2024 at 11:58 PM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Text Display", "link": "https://bukkit.org/threads/text-display.504102/", "user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 11, 2024", "lastpage": 0, "replies": 2, "views": 14574, "lastpost": {"user": "KarimAKL", "user_link": "https://bukkit.org/members/karimakl.91357836/", "date": "Jul 14, 2024 at 6:55 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Delete Data From Config", "link": "https://bukkit.org/threads/delete-data-from-config.504083/", "user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 8, 2024", "lastpage": 0, "replies": 1, "views": 13527, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Jul 9, 2024 at 12:22 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Local jar file dependency error", "link": "https://bukkit.org/threads/local-jar-file-dependency-error.504075/", "user": "12Imix34", "user_link": "https://bukkit.org/members/12imix34.91540733/", "date": "Jul 7, 2024", "lastpage": 0, "replies": 0, "views": 12079, "lastpost": {"user": "12Imix34", "user_link": "https://bukkit.org/members/12imix34.91540733/", "date": "Jul 7, 2024 at 6:43 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Error in a console", "link": "https://bukkit.org/threads/error-in-a-console.504013/", "user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jun 27, 2024", "lastpage": 0, "replies": 15, "views": 23144, "lastpost": {"user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 4, 2024 at 2:23 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Minecraft 1.21   setlocation world", "link": "https://bukkit.org/threads/minecraft-1-21-setlocation-world.504048/", "user": "Kleinz1971", "user_link": "https://bukkit.org/members/kleinz1971.91540455/", "date": "Jul 3, 2024", "lastpage": 0, "replies": 1, "views": 10260, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Jul 3, 2024 at 10:38 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": [], "label": "", "title": "Whitelisted players", "link": "https://bukkit.org/threads/whitelisted-players.504029/", "user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 1, 2024", "lastpage": 0, "replies": 6, "views": 11848, "lastpost": {"user": "RikiMaus", "user_link": "https://bukkit.org/members/rikimaus.91540006/", "date": "Jul 2, 2024 at 2:05 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "what is my issue", "link": "https://bukkit.org/threads/what-is-my-issue.504011/", "user": "NegativeIQ", "user_link": "https://bukkit.org/members/negativeiq.91539984/", "date": "Jun 27, 2024", "lastpage": 0, "replies": 4, "views": 11382, "lastpost": {"user": "NegativeIQ", "user_link": "https://bukkit.org/members/negativeiq.91539984/", "date": "Jun 27, 2024 at 3:08 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "Invalid Plugin.yml problem", "link": "https://bukkit.org/threads/invalid-plugin-yml-problem.503997/", "user": "RkD64", "user_link": "https://bukkit.org/members/rkd64.91399125/", "date": "Jun 25, 2024", "lastpage": 0, "replies": 5, "views": 12315, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Jun 25, 2024 at 12:40 PM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_s.png", "icons": ["locked"], "label": "Solved", "title": "Difference between MemorySection and ConfigurableSection ?", "link": "https://bukkit.org/threads/difference-between-memorysection-and-configurablesection.503938/", "user": "Minecraft Zealot", "user_link": "https://bukkit.org/members/minecraft-zealot.91524236/", "date": "Jun 16, 2024", "lastpage": 0, "replies": 9, "views": 22996, "lastpost": {"user": "KarimAKL", "user_link": "https://bukkit.org/members/karimakl.91357836/", "date": "Jun 20, 2024 at 12:51 AM"}}, {"avatar": "data/avatars/s/91534/91534333.jpg?1716050752", "icons": ["locked"], "label": "", "title": "Log Filter not working !", "link": "https://bukkit.org/threads/log-filter-not-working.503768/", "user": "Trading69", "user_link": "https://bukkit.org/members/trading69.91534333/", "date": "May 17, 2024", "lastpage": 0, "replies": 2, "views": 18930, "lastpost": {"user": "Trading69", "user_link": "https://bukkit.org/members/trading69.91534333/", "date": "May 25, 2024 at 12:52 AM"}}, {"avatar": "data/avatars/s/91344/91344407.jpg?1596768266", "icons": ["locked"], "label": "", "title": "Sound Capabilities Limited", "link": "https://bukkit.org/threads/sound-capabilities-limited.503795/", "user": "BaddCamden", "user_link": "https://bukkit.org/members/baddcamden.91344407/", "date": "May 22, 2024", "lastpage": 0, "replies": 1, "views": 13987, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "May 22, 2024 at 1:18 PM"}}, {"avatar": "data/avatars/s/91523/91523964.jpg?1702570593", "icons": ["locked"], "label": "", "title": "Check if player cancels drawing bow", "link": "https://bukkit.org/threads/check-if-player-cancels-drawing-bow.503761/", "user": "slav egg", "user_link": "https://bukkit.org/members/slav-egg.91523964/", "date": "May 16, 2024", "lastpage": 0, "replies": 0, "views": 15187, "lastpost": {"user": "slav egg", "user_link": "https://bukkit.org/members/slav-egg.91523964/", "date": "May 16, 2024 at 8:36 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "Placeholders in config.yml", "link": "https://bukkit.org/threads/placeholders-in-config-yml.503716/", "user": "Kiriller256", "user_link": "https://bukkit.org/members/kiriller256.91536356/", "date": "May 9, 2024", "lastpage": 0, "replies": 10, "views": 15864, "lastpost": {"user": "KarimAKL", "user_link": "https://bukkit.org/members/karimakl.91357836/", "date": "May 10, 2024 at 9:06 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "Mute Plugin", "link": "https://bukkit.org/threads/mute-plugin.503718/", "user": "lucascividini", "user_link": "https://bukkit.org/members/lucascividini.91536416/", "date": "May 9, 2024", "lastpage": 0, "replies": 1, "views": 15293, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "May 9, 2024 at 10:59 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "Database Problems", "link": "https://bukkit.org/threads/database-problems.503686/", "user": "Zunynz", "user_link": "https://bukkit.org/members/zunynz.91533987/", "date": "May 5, 2024", "lastpage": 0, "replies": 3, "views": 21817, "lastpost": {"user": "0-o", "user_link": "https://bukkit.org/members/0-o.91313732/", "date": "May 8, 2024 at 8:23 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "NBT tag to ItemMeta", "link": "https://bukkit.org/threads/nbt-tag-to-itemmeta.503651/", "user": "YalpYasis", "user_link": "https://bukkit.org/members/yalpyasis.91535776/", "date": "Apr 30, 2024", "lastpage": 0, "replies": 4, "views": 17479, "lastpost": {"user": "Machine Maker", "user_link": "https://bukkit.org/members/machine-maker.91072382/", "date": "May 2, 2024 at 5:45 PM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_female_s.png", "icons": ["locked"], "label": "", "title": "Setting/Removing Metadata from OfflinePlayer s", "link": "https://bukkit.org/threads/setting-removing-metadata-from-offlineplayer-s.503656/", "user": "SomeoneOrderedATransfem", "user_link": "https://bukkit.org/members/someoneorderedatransfem.91535865/", "date": "May 1, 2024", "lastpage": 0, "replies": 1, "views": 19063, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "May 1, 2024 at 9:32 PM"}}, {"avatar": "data/avatars/s/91533/91533516.jpg?1711958769", "icons": ["locked"], "label": "Solved", "title": "Player right click item event", "link": "https://bukkit.org/threads/player-right-click-item-event.503548/", "user": "Greeniousity", "user_link": "https://bukkit.org/members/greeniousity.91533516/", "date": "Apr 14, 2024", "lastpage": 2, "replies": 54, "views": 46959, "lastpost": {"user": "Greeniousity", "user_link": "https://bukkit.org/members/greeniousity.91533516/", "date": "Apr 29, 2024 at 1:45 PM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_s.png", "icons": ["locked"], "label": "", "title": "Kill players on log", "link": "https://bukkit.org/threads/kill-players-on-log.503643/", "user": "lavabucket273428", "user_link": "https://bukkit.org/members/lavabucket273428.91535660/", "date": "Apr 29, 2024", "lastpage": 0, "replies": 1, "views": 15394, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Apr 29, 2024 at 10:59 AM"}}, {"avatar": "data/avatars/s/91533/91533376.jpg?1711733558", "icons": ["locked"], "label": "", "title": "Remove Reloading Screen", "link": "https://bukkit.org/threads/remove-reloading-screen.503642/", "user": "tomasalias", "user_link": "https://bukkit.org/members/tomasalias.91533376/", "date": "Apr 29, 2024", "lastpage": 0, "replies": 1, "views": 15626, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Apr 29, 2024 at 10:58 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "Getting value from chat", "link": "https://bukkit.org/threads/getting-value-from-chat.503547/", "user": "Rival54548545", "user_link": "https://bukkit.org/members/rival54548545.91533810/", "date": "Apr 14, 2024", "lastpage": 0, "replies": 2, "views": 12449, "lastpost": {"user": "KarimAKL", "user_link": "https://bukkit.org/members/karimakl.91357836/", "date": "Apr 14, 2024 at 11:07 AM"}}, {"avatar": "data/avatars/s/91534/91534333.jpg?1716050752", "icons": ["locked"], "label": "Solved", "title": "Changing gamemode resets player.setAllowFlight(true)", "link": "https://bukkit.org/threads/changing-gamemode-resets-player-setallowflight-true.503529/", "user": "Trading69", "user_link": "https://bukkit.org/members/trading69.91534333/", "date": "Apr 11, 2024", "lastpage": 0, "replies": 8, "views": 15284, "lastpost": {"user": "Trading69", "user_link": "https://bukkit.org/members/trading69.91534333/", "date": "Apr 14, 2024 at 8:59 AM"}}, {"avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png", "icons": ["locked"], "label": "", "title": "Remove npc", "link": "https://bukkit.org/threads/remove-npc.503499/", "user": "Rival54548545", "user_link": "https://bukkit.org/members/rival54548545.91533810/", "date": "Apr 8, 2024", "lastpage": 0, "replies": 7, "views": 13641, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Apr 14, 2024 at 5:44 AM"}}, {"avatar": "data/avatars/s/91297/91297744.jpg?1708387948", "icons": ["locked"], "label": "Solved", "title": "Posting plugins to BukkitDev", "link": "https://bukkit.org/threads/posting-plugins-to-bukkitdev.503537/", "user": "Remigio07_", "user_link": "https://bukkit.org/members/remigio07_.91297744/", "date": "Apr 12, 2024", "lastpage": 0, "replies": 3, "views": 11510, "lastpost": {"user": "timtower", "user_link": "https://bukkit.org/members/timtower.87695/", "date": "Apr 13, 2024 at 12:49 AM"}}]}
+{
+  "format_version": "xenforo-1-forum",
+  "url": "https://bukkit.org/forums/plugin-development.5/",
+  "categories": [
+    {
+      "name": "",
+      "link": null,
+      "description": "",
+      "forums": [
+        {
+          "state": "Unread messages",
+          "icon": null,
+          "name": "Resources",
+          "link": "https://bukkit.org/forums/resources.60/",
+          "description": "Useful resources for developers, like tutorials and guides, etc.",
+          "topics": 1524,
+          "posts": 30060,
+          "feed": "forums/resources.60/index.rss",
+          "childboards": [],
+          "lastpost": {
+            "title": "Create Custom Items and Textures",
+            "link": "https://bukkit.org/posts/3652690/",
+            "user": "lil_kho",
+            "user_link": "https://bukkit.org/members/lil_kho.91519116/",
+            "date": "Oct 5, 2023 at 5:07 AM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "description": "",
+      "forums": [
+        {
+          "state": "Unread messages",
+          "icon": null,
+          "name": "WIP and Development Status",
+          "link": "https://bukkit.org/forums/wip-and-development-status.61/",
+          "description": "Works in progress and status of plugins being ported can be found here.",
+          "topics": 995,
+          "posts": 15458,
+          "feed": "forums/wip-and-development-status.61/index.rss",
+          "childboards": [],
+          "lastpost": {
+            "title": "Work in Progress Plugins",
+            "link": "https://bukkit.org/posts/3580803/",
+            "user": "CodeVyxis",
+            "user_link": "https://bukkit.org/members/codevyxis.90866435/",
+            "date": "Mar 21, 2018 at 5:27 AM"
+          }
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "avatar": "data/avatars/s/90927/90927090.jpg?1533744774",
+      "icons": [
+        "locked",
+        "sticky"
+      ],
+      "label": "",
+      "title": "Marking threads as Solved/Filled",
+      "link": "https://bukkit.org/threads/marking-threads-as-solved-filled.350059/",
+      "user": "Forge_User_45064837",
+      "user_link": "https://bukkit.org/members/forge_user_45064837.90927090/",
+      "date": "Mar 22, 2015",
+      "lastpage": 2,
+      "replies": 42,
+      "views": 19906,
+      "lastpost": {
+        "user": "I Al Istannen",
+        "user_link": "https://bukkit.org/members/i-al-istannen.91064682/",
+        "date": "Sep 17, 2016 at 3:43 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/90867/90867807.jpg?1695583410",
+      "icons": [
+        "locked",
+        "sticky"
+      ],
+      "label": "",
+      "title": "[READ ME FIRST] How to make a Plugin Development Thread",
+      "link": "https://bukkit.org/threads/read-me-first-how-to-make-a-plugin-development-thread.395844/",
+      "user": "Zombie_Striker",
+      "user_link": "https://bukkit.org/members/zombie_striker.90867807/",
+      "date": "Nov 30, 2015",
+      "lastpage": 2,
+      "replies": 30,
+      "views": 22811,
+      "lastpost": {
+        "user": "MasterDoctor",
+        "user_link": "https://bukkit.org/members/masterdoctor.90979094/",
+        "date": "Mar 18, 2016 at 1:39 PM"
+      }
+    },
+    {
+      "avatar": "https://secure.gravatar.com/avatar/d091b55c519d8207cd397ca67f07c9a7?s=48&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_s.png",
+      "icons": [
+        "locked",
+        "sticky"
+      ],
+      "label": "",
+      "title": "On namespaces - please do NOT use *.bukkit in your plugins.",
+      "link": "https://bukkit.org/threads/on-namespaces-please-do-not-use-bukkit-in-your-plugins.3732/",
+      "user": "EvilSeph",
+      "user_link": "https://bukkit.org/members/evilseph.1/",
+      "date": "Feb 8, 2011",
+      "lastpage": 4,
+      "replies": 99,
+      "views": 60172,
+      "lastpost": {
+        "user": "Dudemister1999",
+        "user_link": "https://bukkit.org/members/dudemister1999.90926487/",
+        "date": "Oct 27, 2014 at 2:20 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/0/766.jpg?1420046695",
+      "icons": [
+        "locked",
+        "sticky"
+      ],
+      "label": "",
+      "title": "Common Mistakes",
+      "link": "https://bukkit.org/threads/common-mistakes.100544/",
+      "user": "mbaxter",
+      "user_link": "https://bukkit.org/members/mbaxter.766/",
+      "date": "Sep 12, 2012",
+      "lastpage": 7,
+      "replies": 192,
+      "views": 70818,
+      "lastpost": {
+        "user": "bdubz4552",
+        "user_link": "https://bukkit.org/members/bdubz4552.90860633/",
+        "date": "Sep 17, 2014 at 5:16 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/36/36753.jpg?1354853008",
+      "icons": [
+        "locked",
+        "sticky"
+      ],
+      "label": "",
+      "title": "How to read stack-traces, and troubleshoot your own plugins (by yourself)",
+      "link": "https://bukkit.org/threads/how-to-read-stack-traces-and-troubleshoot-your-own-plugins-by-yourself.32457/",
+      "user": "DrBowe",
+      "user_link": "https://bukkit.org/members/drbowe.36753/",
+      "date": "Aug 19, 2011",
+      "lastpage": 3,
+      "replies": 74,
+      "views": 138740,
+      "lastpost": {
+        "user": "XzKNIGHTzX",
+        "user_link": "https://bukkit.org/members/xzknightzx.90971544/",
+        "date": "Aug 13, 2014 at 10:49 PM"
+      }
+    },
+    {
+      "avatar": "https://secure.gravatar.com/avatar/e5770fdf7c887878654caa894257200a?s=48&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_s.png",
+      "icons": [
+        "locked",
+        "sticky"
+      ],
+      "label": "",
+      "title": "ChunkGenerators &amp; BlockPopulators FAQ",
+      "link": "https://bukkit.org/threads/chunkgenerators-blockpopulators-faq.22795/",
+      "user": "Dinnerbone",
+      "user_link": "https://bukkit.org/members/dinnerbone.14/",
+      "date": "Jun 23, 2011",
+      "lastpage": 5,
+      "replies": 145,
+      "views": 109682,
+      "lastpost": {
+        "user": "minelazz",
+        "user_link": "https://bukkit.org/members/minelazz.90874685/",
+        "date": "Jul 25, 2014 at 12:32 PM"
+      }
+    },
+    {
+      "avatar": "https://secure.gravatar.com/avatar/d091b55c519d8207cd397ca67f07c9a7?s=48&amp;d=https%3A%2F%2Fbukkit.org%2Fstyles%2Fflexile%2Fxenforo%2Favatars%2Favatar_male_s.png",
+      "icons": [
+        "locked",
+        "sticky"
+      ],
+      "label": "",
+      "title": "Oops, I didn't break your plugins - ambiguous getHealth()",
+      "link": "https://bukkit.org/threads/oops-i-didnt-break-your-plugins-ambiguous-gethealth.156975/",
+      "user": "EvilSeph",
+      "user_link": "https://bukkit.org/members/evilseph.1/",
+      "date": "Jul 1, 2013",
+      "lastpage": 2,
+      "replies": 58,
+      "views": 59201,
+      "lastpost": {
+        "user": "ChipDev",
+        "user_link": "https://bukkit.org/members/chipdev.90955057/",
+        "date": "Jul 11, 2014 at 11:22 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "&quot;How to Load and Use Custom YAML Files in a Bukkit Plugin?&quot;",
+      "link": "https://bukkit.org/threads/how-to-load-and-use-custom-yaml-files-in-a-bukkit-plugin.504291/",
+      "user": "zozo1404",
+      "user_link": "https://bukkit.org/members/zozo1404.91543733/",
+      "date": "1724578672",
+      "lastpage": 0,
+      "replies": 3,
+      "views": 1634,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "1724600340"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91541/91541368.jpg?1721156193",
+      "icons": [],
+      "label": "",
+      "title": "Libraries ideas",
+      "link": "https://bukkit.org/threads/libraries-ideas.504290/",
+      "user": "JudgeMan",
+      "user_link": "https://bukkit.org/members/judgeman.91541368/",
+      "date": "1724515757",
+      "lastpage": 0,
+      "replies": 3,
+      "views": 2240,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "1724527148"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91397/91397632.jpg?1641854084",
+      "icons": [],
+      "label": "Solved",
+      "title": "Listen for Interaction with Block Display",
+      "link": "https://bukkit.org/threads/listen-for-interaction-with-block-display.504192/",
+      "user": "Smeary_Subset",
+      "user_link": "https://bukkit.org/members/smeary_subset.91397632/",
+      "date": "Aug 3, 2024",
+      "lastpage": 0,
+      "replies": 5,
+      "views": 10869,
+      "lastpost": {
+        "user": "Hellborn5456",
+        "user_link": "https://bukkit.org/members/hellborn5456.90859967/",
+        "date": "1724168662"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_s.png",
+      "icons": [],
+      "label": "",
+      "title": "how to despawn animals",
+      "link": "https://bukkit.org/threads/how-to-despawn-animals.504251/",
+      "user": "klm8787",
+      "user_link": "https://bukkit.org/members/klm8787.91543440/",
+      "date": "Aug 18, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 4187,
+      "lastpost": {
+        "user": "Evonoucono",
+        "user_link": "https://bukkit.org/members/evonoucono.91111245/",
+        "date": "Aug 19, 2024 at 10:35 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Errors",
+      "link": "https://bukkit.org/threads/errors.504250/",
+      "user": "RikiMaus",
+      "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+      "date": "Aug 18, 2024",
+      "lastpage": 0,
+      "replies": 2,
+      "views": 2922,
+      "lastpost": {
+        "user": "RikiMaus",
+        "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+        "date": "Aug 18, 2024 at 7:48 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91397/91397632.jpg?1641854084",
+      "icons": [],
+      "label": "Solved",
+      "title": "Lock BlockDisplay To Grid",
+      "link": "https://bukkit.org/threads/lock-blockdisplay-to-grid.504190/",
+      "user": "Smeary_Subset",
+      "user_link": "https://bukkit.org/members/smeary_subset.91397632/",
+      "date": "Aug 3, 2024",
+      "lastpage": 0,
+      "replies": 6,
+      "views": 5575,
+      "lastpost": {
+        "user": "Smeary_Subset",
+        "user_link": "https://bukkit.org/members/smeary_subset.91397632/",
+        "date": "Aug 16, 2024 at 1:44 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91381/91381201.jpg?1630923243",
+      "icons": [],
+      "label": "",
+      "title": "semi-invisible player",
+      "link": "https://bukkit.org/threads/semi-invisible-player.504218/",
+      "user": "Eternal544547451",
+      "user_link": "https://bukkit.org/members/eternal544547451.91381201/",
+      "date": "Aug 9, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 7967,
+      "lastpost": {
+        "user": "KarimAKL",
+        "user_link": "https://bukkit.org/members/karimakl.91357836/",
+        "date": "Aug 10, 2024 at 2:19 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91344/91344407.jpg?1596768266",
+      "icons": [],
+      "label": "",
+      "title": "[1.18.2] Item Frame Packet Problems",
+      "link": "https://bukkit.org/threads/1-18-2-item-frame-packet-problems.504191/",
+      "user": "BaddCamden",
+      "user_link": "https://bukkit.org/members/baddcamden.91344407/",
+      "date": "Aug 3, 2024",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 5345,
+      "lastpost": {
+        "user": "BaddCamden",
+        "user_link": "https://bukkit.org/members/baddcamden.91344407/",
+        "date": "Aug 3, 2024 at 4:00 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91397/91397632.jpg?1641854084",
+      "icons": [],
+      "label": "Solved",
+      "title": "New Paper API - Explosion_Huge Particle",
+      "link": "https://bukkit.org/threads/new-paper-api-explosion_huge-particle.504165/",
+      "user": "Smeary_Subset",
+      "user_link": "https://bukkit.org/members/smeary_subset.91397632/",
+      "date": "Jul 23, 2024",
+      "lastpage": 0,
+      "replies": 2,
+      "views": 9962,
+      "lastpost": {
+        "user": "Smeary_Subset",
+        "user_link": "https://bukkit.org/members/smeary_subset.91397632/",
+        "date": "Aug 3, 2024 at 11:47 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91397/91397632.jpg?1641854084",
+      "icons": [],
+      "label": "Solved",
+      "title": "Getting Location of Nether Portal",
+      "link": "https://bukkit.org/threads/getting-location-of-nether-portal.504161/",
+      "user": "Smeary_Subset",
+      "user_link": "https://bukkit.org/members/smeary_subset.91397632/",
+      "date": "Jul 22, 2024",
+      "lastpage": 0,
+      "replies": 2,
+      "views": 9328,
+      "lastpost": {
+        "user": "Smeary_Subset",
+        "user_link": "https://bukkit.org/members/smeary_subset.91397632/",
+        "date": "Aug 3, 2024 at 11:40 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Event",
+      "link": "https://bukkit.org/threads/event.504176/",
+      "user": "RikiMaus",
+      "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+      "date": "Jul 28, 2024",
+      "lastpage": 0,
+      "replies": 12,
+      "views": 12714,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Jul 29, 2024 at 10:46 PM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "set biome in chunk",
+      "link": "https://bukkit.org/threads/set-biome-in-chunk.504174/",
+      "user": "TfNautica",
+      "user_link": "https://bukkit.org/members/tfnautica.91542066/",
+      "date": "Jul 27, 2024",
+      "lastpage": 0,
+      "replies": 5,
+      "views": 10607,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Jul 27, 2024 at 5:43 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Helix to player vector",
+      "link": "https://bukkit.org/threads/helix-to-player-vector.504151/",
+      "user": "TheSwell",
+      "user_link": "https://bukkit.org/members/theswell.91289819/",
+      "date": "Jul 21, 2024",
+      "lastpage": 0,
+      "replies": 3,
+      "views": 14939,
+      "lastpost": {
+        "user": "KarimAKL",
+        "user_link": "https://bukkit.org/members/karimakl.91357836/",
+        "date": "Jul 22, 2024 at 4:21 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_s.png",
+      "icons": [],
+      "label": "",
+      "title": "OpenInventory is not working",
+      "link": "https://bukkit.org/threads/openinventory-is-not-working.504152/",
+      "user": "ordu34",
+      "user_link": "https://bukkit.org/members/ordu34.91374822/",
+      "date": "Jul 21, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 14188,
+      "lastpost": {
+        "user": "KarimAKL",
+        "user_link": "https://bukkit.org/members/karimakl.91357836/",
+        "date": "Jul 22, 2024 at 12:57 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Issue with Relogging",
+      "link": "https://bukkit.org/threads/issue-with-relogging.504133/",
+      "user": "Aegislock",
+      "user_link": "https://bukkit.org/members/aegislock.91541454/",
+      "date": "Jul 17, 2024",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 242,
+      "lastpost": {
+        "user": "Aegislock",
+        "user_link": "https://bukkit.org/members/aegislock.91541454/",
+        "date": "Jul 17, 2024 at 11:38 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Reload problem",
+      "link": "https://bukkit.org/threads/reload-problem.504122/",
+      "user": "RikiMaus",
+      "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+      "date": "Jul 16, 2024",
+      "lastpage": 0,
+      "replies": 4,
+      "views": 8614,
+      "lastpost": {
+        "user": "RikiMaus",
+        "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+        "date": "Jul 16, 2024 at 11:58 PM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Text Display",
+      "link": "https://bukkit.org/threads/text-display.504102/",
+      "user": "RikiMaus",
+      "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+      "date": "Jul 11, 2024",
+      "lastpage": 0,
+      "replies": 2,
+      "views": 14574,
+      "lastpost": {
+        "user": "KarimAKL",
+        "user_link": "https://bukkit.org/members/karimakl.91357836/",
+        "date": "Jul 14, 2024 at 6:55 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Delete Data From Config",
+      "link": "https://bukkit.org/threads/delete-data-from-config.504083/",
+      "user": "RikiMaus",
+      "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+      "date": "Jul 8, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 13527,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Jul 9, 2024 at 12:22 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Local jar file dependency error",
+      "link": "https://bukkit.org/threads/local-jar-file-dependency-error.504075/",
+      "user": "12Imix34",
+      "user_link": "https://bukkit.org/members/12imix34.91540733/",
+      "date": "Jul 7, 2024",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 12079,
+      "lastpost": {
+        "user": "12Imix34",
+        "user_link": "https://bukkit.org/members/12imix34.91540733/",
+        "date": "Jul 7, 2024 at 6:43 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Error in a console",
+      "link": "https://bukkit.org/threads/error-in-a-console.504013/",
+      "user": "RikiMaus",
+      "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+      "date": "Jun 27, 2024",
+      "lastpage": 0,
+      "replies": 15,
+      "views": 23144,
+      "lastpost": {
+        "user": "RikiMaus",
+        "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+        "date": "Jul 4, 2024 at 2:23 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Minecraft 1.21   setlocation world",
+      "link": "https://bukkit.org/threads/minecraft-1-21-setlocation-world.504048/",
+      "user": "Kleinz1971",
+      "user_link": "https://bukkit.org/members/kleinz1971.91540455/",
+      "date": "Jul 3, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 10260,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Jul 3, 2024 at 10:38 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [],
+      "label": "",
+      "title": "Whitelisted players",
+      "link": "https://bukkit.org/threads/whitelisted-players.504029/",
+      "user": "RikiMaus",
+      "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+      "date": "Jul 1, 2024",
+      "lastpage": 0,
+      "replies": 6,
+      "views": 11848,
+      "lastpost": {
+        "user": "RikiMaus",
+        "user_link": "https://bukkit.org/members/rikimaus.91540006/",
+        "date": "Jul 2, 2024 at 2:05 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "what is my issue",
+      "link": "https://bukkit.org/threads/what-is-my-issue.504011/",
+      "user": "NegativeIQ",
+      "user_link": "https://bukkit.org/members/negativeiq.91539984/",
+      "date": "Jun 27, 2024",
+      "lastpage": 0,
+      "replies": 4,
+      "views": 11382,
+      "lastpost": {
+        "user": "NegativeIQ",
+        "user_link": "https://bukkit.org/members/negativeiq.91539984/",
+        "date": "Jun 27, 2024 at 3:08 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Invalid Plugin.yml problem",
+      "link": "https://bukkit.org/threads/invalid-plugin-yml-problem.503997/",
+      "user": "RkD64",
+      "user_link": "https://bukkit.org/members/rkd64.91399125/",
+      "date": "Jun 25, 2024",
+      "lastpage": 0,
+      "replies": 5,
+      "views": 12315,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Jun 25, 2024 at 12:40 PM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "Solved",
+      "title": "Difference between MemorySection and ConfigurableSection ?",
+      "link": "https://bukkit.org/threads/difference-between-memorysection-and-configurablesection.503938/",
+      "user": "Minecraft Zealot",
+      "user_link": "https://bukkit.org/members/minecraft-zealot.91524236/",
+      "date": "Jun 16, 2024",
+      "lastpage": 0,
+      "replies": 9,
+      "views": 22996,
+      "lastpost": {
+        "user": "KarimAKL",
+        "user_link": "https://bukkit.org/members/karimakl.91357836/",
+        "date": "Jun 20, 2024 at 12:51 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91534/91534333.jpg?1716050752",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Log Filter not working !",
+      "link": "https://bukkit.org/threads/log-filter-not-working.503768/",
+      "user": "Trading69",
+      "user_link": "https://bukkit.org/members/trading69.91534333/",
+      "date": "May 17, 2024",
+      "lastpage": 0,
+      "replies": 2,
+      "views": 18930,
+      "lastpost": {
+        "user": "Trading69",
+        "user_link": "https://bukkit.org/members/trading69.91534333/",
+        "date": "May 25, 2024 at 12:52 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91344/91344407.jpg?1596768266",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Sound Capabilities Limited",
+      "link": "https://bukkit.org/threads/sound-capabilities-limited.503795/",
+      "user": "BaddCamden",
+      "user_link": "https://bukkit.org/members/baddcamden.91344407/",
+      "date": "May 22, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 13987,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "May 22, 2024 at 1:18 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91523/91523964.jpg?1702570593",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Check if player cancels drawing bow",
+      "link": "https://bukkit.org/threads/check-if-player-cancels-drawing-bow.503761/",
+      "user": "slav egg",
+      "user_link": "https://bukkit.org/members/slav-egg.91523964/",
+      "date": "May 16, 2024",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 15187,
+      "lastpost": {
+        "user": "slav egg",
+        "user_link": "https://bukkit.org/members/slav-egg.91523964/",
+        "date": "May 16, 2024 at 8:36 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Placeholders in config.yml",
+      "link": "https://bukkit.org/threads/placeholders-in-config-yml.503716/",
+      "user": "Kiriller256",
+      "user_link": "https://bukkit.org/members/kiriller256.91536356/",
+      "date": "May 9, 2024",
+      "lastpage": 0,
+      "replies": 10,
+      "views": 15864,
+      "lastpost": {
+        "user": "KarimAKL",
+        "user_link": "https://bukkit.org/members/karimakl.91357836/",
+        "date": "May 10, 2024 at 9:06 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Mute Plugin",
+      "link": "https://bukkit.org/threads/mute-plugin.503718/",
+      "user": "lucascividini",
+      "user_link": "https://bukkit.org/members/lucascividini.91536416/",
+      "date": "May 9, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 15293,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "May 9, 2024 at 10:59 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Database Problems",
+      "link": "https://bukkit.org/threads/database-problems.503686/",
+      "user": "Zunynz",
+      "user_link": "https://bukkit.org/members/zunynz.91533987/",
+      "date": "May 5, 2024",
+      "lastpage": 0,
+      "replies": 3,
+      "views": 21817,
+      "lastpost": {
+        "user": "0-o",
+        "user_link": "https://bukkit.org/members/0-o.91313732/",
+        "date": "May 8, 2024 at 8:23 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "NBT tag to ItemMeta",
+      "link": "https://bukkit.org/threads/nbt-tag-to-itemmeta.503651/",
+      "user": "YalpYasis",
+      "user_link": "https://bukkit.org/members/yalpyasis.91535776/",
+      "date": "Apr 30, 2024",
+      "lastpage": 0,
+      "replies": 4,
+      "views": 17479,
+      "lastpost": {
+        "user": "Machine Maker",
+        "user_link": "https://bukkit.org/members/machine-maker.91072382/",
+        "date": "May 2, 2024 at 5:45 PM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_female_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Setting/Removing Metadata from OfflinePlayer s",
+      "link": "https://bukkit.org/threads/setting-removing-metadata-from-offlineplayer-s.503656/",
+      "user": "SomeoneOrderedATransfem",
+      "user_link": "https://bukkit.org/members/someoneorderedatransfem.91535865/",
+      "date": "May 1, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 19063,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "May 1, 2024 at 9:32 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91533/91533516.jpg?1711958769",
+      "icons": [
+        "locked"
+      ],
+      "label": "Solved",
+      "title": "Player right click item event",
+      "link": "https://bukkit.org/threads/player-right-click-item-event.503548/",
+      "user": "Greeniousity",
+      "user_link": "https://bukkit.org/members/greeniousity.91533516/",
+      "date": "Apr 14, 2024",
+      "lastpage": 2,
+      "replies": 54,
+      "views": 46959,
+      "lastpost": {
+        "user": "Greeniousity",
+        "user_link": "https://bukkit.org/members/greeniousity.91533516/",
+        "date": "Apr 29, 2024 at 1:45 PM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Kill players on log",
+      "link": "https://bukkit.org/threads/kill-players-on-log.503643/",
+      "user": "lavabucket273428",
+      "user_link": "https://bukkit.org/members/lavabucket273428.91535660/",
+      "date": "Apr 29, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 15394,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Apr 29, 2024 at 10:59 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91533/91533376.jpg?1711733558",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Remove Reloading Screen",
+      "link": "https://bukkit.org/threads/remove-reloading-screen.503642/",
+      "user": "tomasalias",
+      "user_link": "https://bukkit.org/members/tomasalias.91533376/",
+      "date": "Apr 29, 2024",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 15626,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Apr 29, 2024 at 10:58 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Getting value from chat",
+      "link": "https://bukkit.org/threads/getting-value-from-chat.503547/",
+      "user": "Rival54548545",
+      "user_link": "https://bukkit.org/members/rival54548545.91533810/",
+      "date": "Apr 14, 2024",
+      "lastpage": 0,
+      "replies": 2,
+      "views": 12449,
+      "lastpost": {
+        "user": "KarimAKL",
+        "user_link": "https://bukkit.org/members/karimakl.91357836/",
+        "date": "Apr 14, 2024 at 11:07 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91534/91534333.jpg?1716050752",
+      "icons": [
+        "locked"
+      ],
+      "label": "Solved",
+      "title": "Changing gamemode resets player.setAllowFlight(true)",
+      "link": "https://bukkit.org/threads/changing-gamemode-resets-player-setallowflight-true.503529/",
+      "user": "Trading69",
+      "user_link": "https://bukkit.org/members/trading69.91534333/",
+      "date": "Apr 11, 2024",
+      "lastpage": 0,
+      "replies": 8,
+      "views": 15284,
+      "lastpost": {
+        "user": "Trading69",
+        "user_link": "https://bukkit.org/members/trading69.91534333/",
+        "date": "Apr 14, 2024 at 8:59 AM"
+      }
+    },
+    {
+      "avatar": "styles/flexile/xenforo/avatars/avatar_male_s.png",
+      "icons": [
+        "locked"
+      ],
+      "label": "",
+      "title": "Remove npc",
+      "link": "https://bukkit.org/threads/remove-npc.503499/",
+      "user": "Rival54548545",
+      "user_link": "https://bukkit.org/members/rival54548545.91533810/",
+      "date": "Apr 8, 2024",
+      "lastpage": 0,
+      "replies": 7,
+      "views": 13641,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Apr 14, 2024 at 5:44 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/91297/91297744.jpg?1708387948",
+      "icons": [
+        "locked"
+      ],
+      "label": "Solved",
+      "title": "Posting plugins to BukkitDev",
+      "link": "https://bukkit.org/threads/posting-plugins-to-bukkitdev.503537/",
+      "user": "Remigio07_",
+      "user_link": "https://bukkit.org/members/remigio07_.91297744/",
+      "date": "Apr 12, 2024",
+      "lastpage": 0,
+      "replies": 3,
+      "views": 11510,
+      "lastpost": {
+        "user": "timtower",
+        "user_link": "https://bukkit.org/members/timtower.87695/",
+        "date": "Apr 13, 2024 at 12:49 AM"
+      }
+    }
+  ]
+}

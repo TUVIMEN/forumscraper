@@ -1,1 +1,935 @@
-{"format_version": "xenforo-2-forum", "url": "https://www.se7ensins.com/forums/", "categories": [{"name": "", "link": null, "forums": [{"icon": "fa-comments", "name": "Se7enSins Announcements", "link": "https://www.se7ensins.com/forums/forums/se7ensins-announcements.36/", "description": "All server, site maintenance, and important site news.", "childboards": [], "topics": 1200, "posts": 84000, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/95/95540.jpg?1699868473", "title": "Updating the site soon", "link": "https://www.se7ensins.com/forums/threads/updating-the-site-soon.1856869/post-14522214", "label": "", "date": "2024-07-18T13:27:14-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "The Suggestion Box", "link": "https://www.se7ensins.com/forums/forums/the-suggestion-box.122/", "description": "Discuss ideas you or others may have to improve Se7enSins.", "childboards": [{"icon": "forum", "name": "Closed Suggestions", "link": "https://www.se7ensins.com/forums/forums/closed-suggestions.467/"}], "topics": 14200, "posts": 153200, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/694/694591.jpg?1721449986", "title": "User who\u2019ve viewed your profile", "link": "https://www.se7ensins.com/forums/threads/user-who%E2%80%99ve-viewed-your-profile.1841729/post-14523731", "label": "Bugs", "date": "2024-08-02T01:11:03-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Se7enSins Contests", "link": "https://www.se7ensins.com/forums/forums/se7ensins-contests.163/", "description": "Contest haven. Here's your chance to snag some brilliant prizes provided by the members for the members.", "childboards": [{"icon": "forum", "name": "Se7ensins Prize Donations", "link": "https://www.se7ensins.com/forums/forums/se7ensins-prize-donations.746/"}, {"icon": "forum", "name": "Donation Archives", "link": "https://www.se7ensins.com/forums/forums/donation-archives.748/"}], "topics": 74, "posts": 386, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/1289/1289284.jpg?1633661810", "title": "$50 PLAYSTATION GIFT CARD GIVEAWAY", "link": "https://www.se7ensins.com/forums/threads/50-playstation-gift-card-giveaway.1837320/post-14476989", "label": "Digital", "date": "2023-06-06T16:31:05-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Community Events", "link": "https://www.se7ensins.com/forums/forums/community-events.952/", "description": "Limited time events hosted by the Se7enSins staff team for the members. Enter for slick loot and awards!", "childboards": [], "topics": 15, "posts": 183, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/765/765425.jpg?1636944925", "title": "November Member of the Month: Nominations", "link": "https://www.se7ensins.com/forums/threads/november-member-of-the-month-nominations.1832576/post-14469228", "label": "MoTM", "date": "2023-01-10T08:43:26-0500", "user": "", "user_link": null}}]}, {"name": "", "link": null, "forums": [{"icon": "fa-comments", "name": "Game Discussion", "link": "https://www.se7ensins.com/forums/forums/game-discussion.930/", "description": "Game discussion, news, and guides.", "childboards": [{"icon": "unread", "name": "Gaming News Articles", "link": "https://www.se7ensins.com/forums/forums/gaming-news-articles.972/"}, {"icon": "unread", "name": "Archive", "link": "https://www.se7ensins.com/categories/archive.943/"}, {"icon": "forum", "name": "Call of Duty Clans", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-clans.786/"}, {"icon": "forum", "name": "Clans Archive", "link": "https://www.se7ensins.com/forums/forums/clans-archive.792/"}, {"icon": "unread", "name": "Call of Duty Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-zombies.944/"}, {"icon": "forum", "name": "Call of Duty: BO3 Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-zombies.684/"}, {"icon": "forum", "name": "Call of Duty: IW Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-iw-zombies.768/"}, {"icon": "forum", "name": "Call of Duty: AW Exo Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-exo-zombies.612/"}, {"icon": "forum", "name": "Call of Duty: Ghosts Extinction", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-extinction.450/"}, {"icon": "forum", "name": "Call of Duty: BO4 Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo4-zombies.891/"}, {"icon": "forum", "name": "Call of Duty: BO2 Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-zombies.388/"}, {"icon": "unread", "name": "Call of Duty: WaW Nazi Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-nazi-zombies.178/"}, {"icon": "forum", "name": "Call of Duty: BO Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-zombies.244/"}, {"icon": "forum", "name": "Call of Duty: WWII Zombies", "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii-zombies.844/"}, {"icon": "forum", "name": "Grand Theft Auto V Crews", "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-crews.427/"}, {"icon": "forum", "name": "Halo Reach Forge", "link": "https://www.se7ensins.com/forums/forums/halo-reach-forge.230/"}, {"icon": "forum", "name": "Destiny 2 Clans", "link": "https://www.se7ensins.com/forums/forums/destiny-2-clans.825/"}, {"icon": "forum", "name": "Minecraft", "link": "https://www.se7ensins.com/forums/forums/minecraft.236/"}, {"icon": "forum", "name": "Minecraft Servers", "link": "https://www.se7ensins.com/forums/forums/minecraft-servers.265/"}, {"icon": "forum", "name": "Minecraft Party Up", "link": "https://www.se7ensins.com/forums/forums/minecraft-party-up.566/"}, {"icon": "forum", "name": "Minecraft Mods", "link": "https://www.se7ensins.com/forums/forums/minecraft-mods.521/"}, {"icon": "forum", "name": "Minecraft Support", "link": "https://www.se7ensins.com/forums/forums/minecraft-support.266/"}, {"icon": "forum", "name": "Minecraft Tutorials", "link": "https://www.se7ensins.com/forums/forums/minecraft-tutorials.267/"}, {"icon": "forum", "name": "World, Seed, and Resource Pack Sharing", "link": "https://www.se7ensins.com/forums/forums/world-seed-and-resource-pack-sharing.522/"}, {"icon": "forum", "name": "Screenshots &amp; Videos", "link": "https://www.se7ensins.com/forums/forums/screenshots-videos.311/"}, {"icon": "forum", "name": "Pok\u00e9mon", "link": "https://www.se7ensins.com/forums/forums/pok%C3%A9mon.272/"}, {"icon": "forum", "name": "Battles/Trades", "link": "https://www.se7ensins.com/forums/forums/battles-trades.516/"}, {"icon": "forum", "name": "Sports Center", "link": "https://www.se7ensins.com/forums/forums/sports-center.735/"}, {"icon": "forum", "name": "FIFA Franchise", "link": "https://www.se7ensins.com/forums/forums/fifa-franchise.288/"}, {"icon": "forum", "name": "FIFA Matches", "link": "https://www.se7ensins.com/forums/forums/fifa-matches.547/"}, {"icon": "link", "name": "FIFA Videos", "link": "https://www.se7ensins.com/link-forums/fifa-videos.674/"}, {"icon": "forum", "name": "AutoBuyer", "link": "https://www.se7ensins.com/forums/forums/autobuyer.517/"}, {"icon": "forum", "name": "NBA Franchise", "link": "https://www.se7ensins.com/forums/forums/nba-franchise.500/"}, {"icon": "unread", "name": "Miscellaneous Gaming", "link": "https://www.se7ensins.com/forums/forums/miscellaneous-gaming.221/"}, {"icon": "forum", "name": "Gaming Videos", "link": "https://www.se7ensins.com/forums/forums/gaming-videos.220/"}, {"icon": "unread", "name": "Miscellaneous Game Modding", "link": "https://www.se7ensins.com/forums/forums/miscellaneous-game-modding.248/"}, {"icon": "forum", "name": "Party Up", "link": "https://www.se7ensins.com/forums/forums/party-up.632/"}, {"icon": "forum", "name": "Party Up Archive", "link": "https://www.se7ensins.com/forums/forums/party-up-archive.751/"}, {"icon": "forum", "name": "Gaming Archive", "link": "https://www.se7ensins.com/forums/forums/gaming-archive.623/"}], "topics": 191000, "posts": 1700000, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Removing large amounts of money off a modded account", "link": "https://www.se7ensins.com/forums/threads/removing-large-amounts-of-money-off-a-modded-account.1869692/post-14525939", "label": "Discussion", "date": "2024-08-26T02:21:50-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Game Support", "link": "https://www.se7ensins.com/forums/forums/game-support.931/", "description": "", "childboards": [], "topics": 65500, "posts": 360200, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "How do I recover a deleted custom plate?", "link": "https://www.se7ensins.com/forums/threads/how-do-i-recover-a-deleted-custom-plate.1678518/post-14525769", "label": "Solved", "date": "2024-08-22T21:59:21-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Game Glitches", "link": "https://www.se7ensins.com/forums/forums/game-glitches.932/", "description": "Find the latest unpatched glitches for all your games here. Have a glitch that hasn't been discovered? Post it here.", "childboards": [], "topics": 25100, "posts": 748900, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Full Car To Car + Special Vehicles Merge New Workaround V2", "link": "https://www.se7ensins.com/forums/threads/full-car-to-car-special-vehicles-merge-new-workaround-v2.1867786/post-14525954", "label": "Working", "date": "2024-08-26T08:42:51-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Game Boosting", "link": "https://www.se7ensins.com/forums/forums/game-boosting.933/", "description": "Find others that are looking to boost in your favorite game or post your own thread looking for other boosters.", "childboards": [], "topics": 212500, "posts": 853400, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/1679/1679882.jpg?1724652273", "title": "MWR 2nd controller boosting?", "link": "https://www.se7ensins.com/forums/threads/mwr-2nd-controller-boosting.1869702/post-14525938", "label": "", "date": "2024-08-26T02:20:07-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Game Modding", "link": "https://www.se7ensins.com/forums/forums/game-modding.934/", "description": "Post your discussions, tutorials, tools, and other information regarding modifying your game files here.", "childboards": [], "topics": 40300, "posts": 788900, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://secure.gravatar.com/avatar/cafcef92312cb337e2536f154d739d15?s=48", "title": "Looking for a reupload of Console Trainer 2.1 Final for GTA IV PS3 and Xbox 360", "link": "https://www.se7ensins.com/forums/threads/looking-for-a-reupload-of-console-trainer-2-1-final-for-gta-iv-ps3-and-xbox-360.1866568/post-14525949", "label": "Game Mods", "date": "2024-08-26T06:37:33-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Modded Lobbies", "link": "https://www.se7ensins.com/forums/forums/modded-lobbies.935/", "description": "Modded lobbies, infections, etc. can be found here.", "childboards": [], "topics": 53100, "posts": 1600000, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/856/856626.jpg?1590942045", "title": "#1 One Stop Cod Shop X360 All code FREE", "link": "https://www.se7ensins.com/forums/threads/1-one-stop-cod-shop-x360-all-code-free.1838876/post-14525957", "label": "", "date": "2024-08-26T10:06:57-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Game Modding Support", "link": "https://www.se7ensins.com/forums/forums/game-modding-support.936/", "description": "Need help modifying a game? Post your question here or search through our Answered support threads here to help you find your answers.", "childboards": [], "topics": 15000, "posts": 82700, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "How Would I go About Making Minecraft Xbox 360 work Online with TU0", "link": "https://www.se7ensins.com/forums/threads/how-would-i-go-about-making-minecraft-xbox-360-work-online-with-tu0.1869683/post-14525904", "label": "Question", "date": "2024-08-25T10:08:11-0400", "user": "", "user_link": null}}]}, {"name": "", "link": null, "forums": [{"icon": "fa-comments", "name": "Consoles &amp; Platforms", "link": "https://www.se7ensins.com/forums/forums/consoles-platforms.938/", "description": "Find discussions, tutorials, and news for new and old consoles and platforms.", "childboards": [], "topics": 47400, "posts": 530300, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Grand Theft Auto IV Singleplayer Mod Menu for JTAG?", "link": "https://www.se7ensins.com/forums/threads/grand-theft-auto-iv-singleplayer-mod-menu-for-jtag.1800898/post-14525089", "label": "Discussion", "date": "2024-08-16T17:03:56-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Consoles &amp; Platform Support", "link": "https://www.se7ensins.com/forums/forums/consoles-platform-support.939/", "description": "Receive support for general questions regarding your consoles and/or platform you use to game.", "childboards": [], "topics": 43800, "posts": 258399, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/111/111605.jpg?1723849354", "title": "OG Xbox titles not playing on Xbox 360", "link": "https://www.se7ensins.com/forums/threads/og-xbox-titles-not-playing-on-xbox-360.1868242/post-14525133", "label": "Question", "date": "2024-08-17T22:56:56-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Console Modding", "link": "https://www.se7ensins.com/forums/forums/console-modding.940/", "description": "Learn how to modify your consoles, find tools to mod your console, and news regarding the advancements of modding.", "childboards": [], "topics": 9600, "posts": 151400, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/569/569934.jpg?1709374580", "title": "DMONET 3.0 RELEASE", "link": "https://www.se7ensins.com/forums/threads/dmonet-3-0-release.1869689/post-14525915", "label": "Tools", "date": "2024-08-25T16:27:41-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Console Modding Support", "link": "https://www.se7ensins.com/forums/forums/console-modding-support.941/", "description": "Get help with your console or PC platforms. If you have questions about modding your console, they will go here.", "childboards": [], "topics": 32000, "posts": 216500, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/425/425798.jpg?1590942045", "title": "Revert rgh3 to original", "link": "https://www.se7ensins.com/forums/threads/revert-rgh3-to-original.1869686/post-14525911", "label": "Question", "date": "2024-08-25T14:20:53-0400", "user": "", "user_link": null}}]}, {"name": "", "link": null, "forums": [{"icon": "fa-comments", "name": "Operating Systems", "link": "https://www.se7ensins.com/forums/forums/operating-systems.492/", "description": "All the news, tutorials, and discussions based around Windows, Mac OS, iOS, Linux, and Android operating systems.", "childboards": [{"icon": "forum", "name": "Operating System Support", "link": "https://www.se7ensins.com/forums/forums/operating-system-support.912/"}, {"icon": "forum", "name": "Apple iOS", "link": "https://www.se7ensins.com/forums/forums/apple-ios.140/"}, {"icon": "forum", "name": "Android", "link": "https://www.se7ensins.com/forums/forums/android.234/"}, {"icon": "forum", "name": "Google Support", "link": "https://www.se7ensins.com/forums/forums/google-support.296/"}], "topics": 15600, "posts": 119700, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Doogee S80 - Powerful gaming smartphone", "link": "https://www.se7ensins.com/forums/threads/doogee-s80-powerful-gaming-smartphone.1745871/post-14522163", "label": "Discussion", "date": "2024-07-18T09:20:32-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Computer Hardware &amp; Builds", "link": "https://www.se7ensins.com/forums/forums/computer-hardware-builds.65/", "description": "Learn how to build a computer and how to pick out your hardware.", "childboards": [{"icon": "forum", "name": "Computer Hardware Support", "link": "https://www.se7ensins.com/forums/forums/computer-hardware-support.487/"}, {"icon": "forum", "name": "Computer Build Support", "link": "https://www.se7ensins.com/forums/forums/computer-build-support.453/"}, {"icon": "forum", "name": "Computer Showoff", "link": "https://www.se7ensins.com/forums/forums/computer-showoff.93/"}], "topics": 10200, "posts": 117100, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/1651/1651604.jpg?1663437636", "title": "~~DET SCHOOL LAPTOPS~~", "link": "https://www.se7ensins.com/forums/threads/det-school-laptops.689975/post-14501554", "label": "Discussion", "date": "2024-01-14T16:07:41-0500", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Programming &amp; Scripting", "link": "https://www.se7ensins.com/forums/forums/programming-scripting.62/", "description": "Learn or receive help on Visual Basic, C#, C++, etc. Great learning grounds for beginners!", "childboards": [{"icon": "forum", "name": "Releases", "link": "https://www.se7ensins.com/forums/forums/releases.297/"}, {"icon": "forum", "name": "Source Code &amp; Tutorial Database", "link": "https://www.se7ensins.com/forums/forums/source-code-tutorial-database.298/"}, {"icon": "forum", "name": "Support and Debugging", "link": "https://www.se7ensins.com/forums/forums/support-and-debugging.299/"}, {"icon": "forum", "name": "Game Development", "link": "https://www.se7ensins.com/forums/forums/game-development.532/"}], "topics": 6700, "posts": 51200, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "I&#039;m trying to decompress .csc files, but I can&#039;t find programs to do this decompression (MOD MENU RED DEAD REDEMPTION PS3)", "link": "https://www.se7ensins.com/forums/threads/im-trying-to-decompress-csc-files-but-i-cant-find-programs-to-do-this-decompression-mod-menu-red-dead-redemption-ps3.1853396/post-14525877", "label": "Discussion", "date": "2024-08-24T10:58:43-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "PC Gaming Discussion", "link": "https://www.se7ensins.com/forums/forums/pc-gaming-discussion.813/", "description": "PC gamers unite! All PC gaming related discussions go here.", "childboards": [{"icon": "forum", "name": "PC Gaming Mods", "link": "https://www.se7ensins.com/forums/forums/pc-gaming-mods.814/"}, {"icon": "forum", "name": "PC Gaming Party Up", "link": "https://www.se7ensins.com/forums/forums/pc-gaming-party-up.815/"}, {"icon": "forum", "name": "PC Gaming Support", "link": "https://www.se7ensins.com/forums/forums/pc-gaming-support.816/"}, {"icon": "forum", "name": "PC Gaming Support Archive", "link": "https://www.se7ensins.com/forums/forums/pc-gaming-support-archive.817/"}], "topics": 236, "posts": 1500, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Looking for people to play League of Legends", "link": "https://www.se7ensins.com/forums/threads/looking-for-people-to-play-league-of-legends.1789479/post-14516836", "label": "", "date": "2024-05-30T07:59:04-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Mobile Center", "link": "https://www.se7ensins.com/forums/forums/mobile-center.496/", "description": "One stop center for all your mobile device needs!", "childboards": [], "topics": 248, "posts": 1800, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/1677/1677912.jpg?1721629957", "title": "Does anyone know how to customize Apple ios Glance wallpapers?", "link": "https://www.se7ensins.com/forums/threads/does-anyone-know-how-to-customize-apple-ios-glance-wallpapers.1869708/post-14525948", "label": "Discussion", "date": "2024-08-26T06:19:36-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Tech Support", "link": "https://www.se7ensins.com/forums/forums/tech-support.45/", "description": "Sometimes you don't know everything, get some help in here.", "childboards": [{"icon": "forum", "name": "PC Support Archive", "link": "https://www.se7ensins.com/forums/forums/pc-support-archive.556/"}], "topics": 9000, "posts": 54200, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/1289/1289284.jpg?1633661810", "title": "ned help [csx2 emulator missing ini file", "link": "https://www.se7ensins.com/forums/threads/ned-help-csx2-emulator-missing-ini-file.1855905/post-14508746", "label": "Question", "date": "2024-03-12T19:02:58-0400", "user": "", "user_link": null}}]}, {"name": "", "link": null, "forums": [{"icon": "fa-comments", "name": "Graphics", "link": "https://www.se7ensins.com/forums/forums/graphics.172/", "description": "Learn how to make sigs, avatars, large art, and more! Post tutorials to help others get on their way to learning how to make graphics.", "childboards": [{"icon": "forum", "name": "Graphics Showoff", "link": "https://www.se7ensins.com/forums/forums/graphics-showoff.12/"}, {"icon": "forum", "name": "The Graveyard", "link": "https://www.se7ensins.com/forums/forums/the-graveyard.570/"}, {"icon": "forum", "name": "Graphics Requests/Pickup", "link": "https://www.se7ensins.com/forums/forums/graphics-requests-pickup.7/"}, {"icon": "forum", "name": "Archive", "link": "https://www.se7ensins.com/forums/forums/archive.546/"}, {"icon": "forum", "name": "Graphics Resources", "link": "https://www.se7ensins.com/forums/forums/graphics-resources.174/"}], "topics": 17300, "posts": 134600, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/535/535803.jpg?1707290479", "title": "Looking for a nice avatar and banner for 7s", "link": "https://www.se7ensins.com/forums/threads/looking-for-a-nice-avatar-and-banner-for-7s.1854482/post-14506895", "label": "Request", "date": "2024-02-26T02:34:00-0500", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Video", "link": "https://www.se7ensins.com/forums/forums/video.263/", "description": "Post your editing and animation tutorials or show off your newest motion graphics.", "childboards": [{"icon": "forum", "name": "Motion Graphics Resources", "link": "https://www.se7ensins.com/forums/forums/motion-graphics-resources.264/"}, {"icon": "forum", "name": "Motion Graphics Tutorials", "link": "https://www.se7ensins.com/forums/forums/motion-graphics-tutorials.292/"}, {"icon": "forum", "name": "Motion Graphics Request", "link": "https://www.se7ensins.com/forums/forums/motion-graphics-request.305/"}], "topics": 3100, "posts": 13500, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "The Untapped Potential of Halo Infinite Marines", "link": "https://www.se7ensins.com/forums/threads/the-untapped-potential-of-halo-infinite-marines.1843165/post-14522145", "label": "Streaming / Video", "date": "2024-07-18T02:55:39-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Media Support", "link": "https://www.se7ensins.com/forums/forums/media-support.921/", "description": "Get help for your social media graphics, video editing, and promotion!", "childboards": [], "topics": 63, "posts": 478, "views": 0, "placeholder": "", "lastpost": {"avatar": null, "title": "Spotify does not start and shows \u201cOops! Something went wrong\u201d error.", "link": "https://www.se7ensins.com/forums/threads/spotify-does-not-start-and-shows-%E2%80%9Coops-something-went-wrong%E2%80%9D-error.1822013/post-14525537", "label": "Solved", "date": "2024-08-21T06:37:44-0400", "user": "", "user_link": null}}]}, {"name": "", "link": null, "forums": [{"icon": "fa-comments", "name": "Deals", "link": "https://www.se7ensins.com/forums/forums/deals.367/", "description": "Post any deals to share here. (No B/S/T deals)", "childboards": [{"icon": "forum", "name": "Deals Archive", "link": "https://www.se7ensins.com/forums/forums/deals-archive.625/"}], "topics": 10200, "posts": 31300, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/607/607665.jpg?1590942045", "title": "Skull and Bones Limited Edition (PS5 or Xbox Series X) $10 + Free Shipping@BB", "link": "https://www.se7ensins.com/forums/threads/skull-and-bones-limited-edition-ps5-or-xbox-series-x-10-free-shipping-bb.1868531/post-14524546", "label": "USA", "date": "2024-08-11T07:16:25-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "eBay &amp; Amazon Listings", "link": "https://www.se7ensins.com/forums/forums/ebay-amazon-listings.378/", "description": "Post links to your eBay and Amazon listings here.", "childboards": [{"icon": "forum", "name": "Listings Archive", "link": "https://www.se7ensins.com/forums/forums/listings-archive.470/"}], "topics": 1400, "posts": 4100, "views": 0, "placeholder": "", "lastpost": {"avatar": "https://www.se7ensins.com/data/avatars/s/510/510664.jpg?1590942045", "title": "Anyone bought from compell gaming?", "link": "https://www.se7ensins.com/forums/threads/anyone-bought-from-compell-gaming.1838523/post-14479268", "label": "", "date": "2023-07-14T15:24:58-0400", "user": "", "user_link": null}}, {"icon": "fa-comments", "name": "Verified Services", "link": "https://www.se7ensins.com/forums/forums/verified-services.883/", "description": "All Se7enSins verified services will be listed within this forum", "childboards": [], "topics": 0, "posts": 0, "views": 0, "placeholder": "None", "lastpost": {"avatar": null, "title": "", "link": null, "label": "", "date": "", "user": "", "user_link": null}}]}], "threads": []}
+{
+  "format_version": "xenforo-2-forum",
+  "url": "https://www.se7ensins.com/forums/",
+  "categories": [
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Se7enSins Announcements",
+          "link": "https://www.se7ensins.com/forums/forums/se7ensins-announcements.36/",
+          "description": "All server, site maintenance, and important site news.",
+          "childboards": [],
+          "topics": 1200,
+          "posts": 84000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/95/95540.jpg?1699868473",
+            "title": "Updating the site soon",
+            "link": "https://www.se7ensins.com/forums/threads/updating-the-site-soon.1856869/post-14522214",
+            "label": "",
+            "date": "2024-07-18T13:27:14-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "The Suggestion Box",
+          "link": "https://www.se7ensins.com/forums/forums/the-suggestion-box.122/",
+          "description": "Discuss ideas you or others may have to improve Se7enSins.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Closed Suggestions",
+              "link": "https://www.se7ensins.com/forums/forums/closed-suggestions.467/"
+            }
+          ],
+          "topics": 14200,
+          "posts": 153200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/694/694591.jpg?1721449986",
+            "title": "User who’ve viewed your profile",
+            "link": "https://www.se7ensins.com/forums/threads/user-who%E2%80%99ve-viewed-your-profile.1841729/post-14523731",
+            "label": "Bugs",
+            "date": "2024-08-02T01:11:03-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Se7enSins Contests",
+          "link": "https://www.se7ensins.com/forums/forums/se7ensins-contests.163/",
+          "description": "Contest haven. Here's your chance to snag some brilliant prizes provided by the members for the members.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Se7ensins Prize Donations",
+              "link": "https://www.se7ensins.com/forums/forums/se7ensins-prize-donations.746/"
+            },
+            {
+              "icon": "forum",
+              "name": "Donation Archives",
+              "link": "https://www.se7ensins.com/forums/forums/donation-archives.748/"
+            }
+          ],
+          "topics": 74,
+          "posts": 386,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1289/1289284.jpg?1633661810",
+            "title": "$50 PLAYSTATION GIFT CARD GIVEAWAY",
+            "link": "https://www.se7ensins.com/forums/threads/50-playstation-gift-card-giveaway.1837320/post-14476989",
+            "label": "Digital",
+            "date": "2023-06-06T16:31:05-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Community Events",
+          "link": "https://www.se7ensins.com/forums/forums/community-events.952/",
+          "description": "Limited time events hosted by the Se7enSins staff team for the members. Enter for slick loot and awards!",
+          "childboards": [],
+          "topics": 15,
+          "posts": 183,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/765/765425.jpg?1636944925",
+            "title": "November Member of the Month: Nominations",
+            "link": "https://www.se7ensins.com/forums/threads/november-member-of-the-month-nominations.1832576/post-14469228",
+            "label": "MoTM",
+            "date": "2023-01-10T08:43:26-0500",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Game Discussion",
+          "link": "https://www.se7ensins.com/forums/forums/game-discussion.930/",
+          "description": "Game discussion, news, and guides.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Gaming News Articles",
+              "link": "https://www.se7ensins.com/forums/forums/gaming-news-articles.972/"
+            },
+            {
+              "icon": "unread",
+              "name": "Archive",
+              "link": "https://www.se7ensins.com/categories/archive.943/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-clans.786/"
+            },
+            {
+              "icon": "forum",
+              "name": "Clans Archive",
+              "link": "https://www.se7ensins.com/forums/forums/clans-archive.792/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-zombies.944/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-zombies.684/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: IW Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-iw-zombies.768/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Exo Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-exo-zombies.612/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Extinction",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-extinction.450/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO4 Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo4-zombies.891/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO2 Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-zombies.388/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: WaW Nazi Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-nazi-zombies.178/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-zombies.244/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WWII Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii-zombies.844/"
+            },
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto V Crews",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-crews.427/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Reach Forge",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-forge.230/"
+            },
+            {
+              "icon": "forum",
+              "name": "Destiny 2 Clans",
+              "link": "https://www.se7ensins.com/forums/forums/destiny-2-clans.825/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft.236/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Servers",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-servers.265/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Party Up",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-party-up.566/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Mods",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-mods.521/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Support",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-support.266/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Tutorials",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-tutorials.267/"
+            },
+            {
+              "icon": "forum",
+              "name": "World, Seed, and Resource Pack Sharing",
+              "link": "https://www.se7ensins.com/forums/forums/world-seed-and-resource-pack-sharing.522/"
+            },
+            {
+              "icon": "forum",
+              "name": "Screenshots &amp; Videos",
+              "link": "https://www.se7ensins.com/forums/forums/screenshots-videos.311/"
+            },
+            {
+              "icon": "forum",
+              "name": "Pokémon",
+              "link": "https://www.se7ensins.com/forums/forums/pok%C3%A9mon.272/"
+            },
+            {
+              "icon": "forum",
+              "name": "Battles/Trades",
+              "link": "https://www.se7ensins.com/forums/forums/battles-trades.516/"
+            },
+            {
+              "icon": "forum",
+              "name": "Sports Center",
+              "link": "https://www.se7ensins.com/forums/forums/sports-center.735/"
+            },
+            {
+              "icon": "forum",
+              "name": "FIFA Franchise",
+              "link": "https://www.se7ensins.com/forums/forums/fifa-franchise.288/"
+            },
+            {
+              "icon": "forum",
+              "name": "FIFA Matches",
+              "link": "https://www.se7ensins.com/forums/forums/fifa-matches.547/"
+            },
+            {
+              "icon": "link",
+              "name": "FIFA Videos",
+              "link": "https://www.se7ensins.com/link-forums/fifa-videos.674/"
+            },
+            {
+              "icon": "forum",
+              "name": "AutoBuyer",
+              "link": "https://www.se7ensins.com/forums/forums/autobuyer.517/"
+            },
+            {
+              "icon": "forum",
+              "name": "NBA Franchise",
+              "link": "https://www.se7ensins.com/forums/forums/nba-franchise.500/"
+            },
+            {
+              "icon": "unread",
+              "name": "Miscellaneous Gaming",
+              "link": "https://www.se7ensins.com/forums/forums/miscellaneous-gaming.221/"
+            },
+            {
+              "icon": "forum",
+              "name": "Gaming Videos",
+              "link": "https://www.se7ensins.com/forums/forums/gaming-videos.220/"
+            },
+            {
+              "icon": "unread",
+              "name": "Miscellaneous Game Modding",
+              "link": "https://www.se7ensins.com/forums/forums/miscellaneous-game-modding.248/"
+            },
+            {
+              "icon": "forum",
+              "name": "Party Up",
+              "link": "https://www.se7ensins.com/forums/forums/party-up.632/"
+            },
+            {
+              "icon": "forum",
+              "name": "Party Up Archive",
+              "link": "https://www.se7ensins.com/forums/forums/party-up-archive.751/"
+            },
+            {
+              "icon": "forum",
+              "name": "Gaming Archive",
+              "link": "https://www.se7ensins.com/forums/forums/gaming-archive.623/"
+            }
+          ],
+          "topics": 191000,
+          "posts": 1700000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Removing large amounts of money off a modded account",
+            "link": "https://www.se7ensins.com/forums/threads/removing-large-amounts-of-money-off-a-modded-account.1869692/post-14525939",
+            "label": "Discussion",
+            "date": "2024-08-26T02:21:50-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Support",
+          "link": "https://www.se7ensins.com/forums/forums/game-support.931/",
+          "description": "",
+          "childboards": [],
+          "topics": 65500,
+          "posts": 360200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "How do I recover a deleted custom plate?",
+            "link": "https://www.se7ensins.com/forums/threads/how-do-i-recover-a-deleted-custom-plate.1678518/post-14525769",
+            "label": "Solved",
+            "date": "2024-08-22T21:59:21-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Glitches",
+          "link": "https://www.se7ensins.com/forums/forums/game-glitches.932/",
+          "description": "Find the latest unpatched glitches for all your games here. Have a glitch that hasn't been discovered? Post it here.",
+          "childboards": [],
+          "topics": 25100,
+          "posts": 748900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Full Car To Car + Special Vehicles Merge New Workaround V2",
+            "link": "https://www.se7ensins.com/forums/threads/full-car-to-car-special-vehicles-merge-new-workaround-v2.1867786/post-14525954",
+            "label": "Working",
+            "date": "2024-08-26T08:42:51-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Boosting",
+          "link": "https://www.se7ensins.com/forums/forums/game-boosting.933/",
+          "description": "Find others that are looking to boost in your favorite game or post your own thread looking for other boosters.",
+          "childboards": [],
+          "topics": 212500,
+          "posts": 853400,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1679/1679882.jpg?1724652273",
+            "title": "MWR 2nd controller boosting?",
+            "link": "https://www.se7ensins.com/forums/threads/mwr-2nd-controller-boosting.1869702/post-14525938",
+            "label": "",
+            "date": "2024-08-26T02:20:07-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Modding",
+          "link": "https://www.se7ensins.com/forums/forums/game-modding.934/",
+          "description": "Post your discussions, tutorials, tools, and other information regarding modifying your game files here.",
+          "childboards": [],
+          "topics": 40300,
+          "posts": 788900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://secure.gravatar.com/avatar/cafcef92312cb337e2536f154d739d15?s=48",
+            "title": "Looking for a reupload of Console Trainer 2.1 Final for GTA IV PS3 and Xbox 360",
+            "link": "https://www.se7ensins.com/forums/threads/looking-for-a-reupload-of-console-trainer-2-1-final-for-gta-iv-ps3-and-xbox-360.1866568/post-14525949",
+            "label": "Game Mods",
+            "date": "2024-08-26T06:37:33-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Modded Lobbies",
+          "link": "https://www.se7ensins.com/forums/forums/modded-lobbies.935/",
+          "description": "Modded lobbies, infections, etc. can be found here.",
+          "childboards": [],
+          "topics": 53100,
+          "posts": 1600000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/856/856626.jpg?1590942045",
+            "title": "#1 One Stop Cod Shop X360 All code FREE",
+            "link": "https://www.se7ensins.com/forums/threads/1-one-stop-cod-shop-x360-all-code-free.1838876/post-14525957",
+            "label": "",
+            "date": "2024-08-26T10:06:57-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Modding Support",
+          "link": "https://www.se7ensins.com/forums/forums/game-modding-support.936/",
+          "description": "Need help modifying a game? Post your question here or search through our Answered support threads here to help you find your answers.",
+          "childboards": [],
+          "topics": 15000,
+          "posts": 82700,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "How Would I go About Making Minecraft Xbox 360 work Online with TU0",
+            "link": "https://www.se7ensins.com/forums/threads/how-would-i-go-about-making-minecraft-xbox-360-work-online-with-tu0.1869683/post-14525904",
+            "label": "Question",
+            "date": "2024-08-25T10:08:11-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Consoles &amp; Platforms",
+          "link": "https://www.se7ensins.com/forums/forums/consoles-platforms.938/",
+          "description": "Find discussions, tutorials, and news for new and old consoles and platforms.",
+          "childboards": [],
+          "topics": 47400,
+          "posts": 530300,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Grand Theft Auto IV Singleplayer Mod Menu for JTAG?",
+            "link": "https://www.se7ensins.com/forums/threads/grand-theft-auto-iv-singleplayer-mod-menu-for-jtag.1800898/post-14525089",
+            "label": "Discussion",
+            "date": "2024-08-16T17:03:56-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Consoles &amp; Platform Support",
+          "link": "https://www.se7ensins.com/forums/forums/consoles-platform-support.939/",
+          "description": "Receive support for general questions regarding your consoles and/or platform you use to game.",
+          "childboards": [],
+          "topics": 43800,
+          "posts": 258399,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/111/111605.jpg?1723849354",
+            "title": "OG Xbox titles not playing on Xbox 360",
+            "link": "https://www.se7ensins.com/forums/threads/og-xbox-titles-not-playing-on-xbox-360.1868242/post-14525133",
+            "label": "Question",
+            "date": "2024-08-17T22:56:56-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Console Modding",
+          "link": "https://www.se7ensins.com/forums/forums/console-modding.940/",
+          "description": "Learn how to modify your consoles, find tools to mod your console, and news regarding the advancements of modding.",
+          "childboards": [],
+          "topics": 9600,
+          "posts": 151400,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/569/569934.jpg?1709374580",
+            "title": "DMONET 3.0 RELEASE",
+            "link": "https://www.se7ensins.com/forums/threads/dmonet-3-0-release.1869689/post-14525915",
+            "label": "Tools",
+            "date": "2024-08-25T16:27:41-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Console Modding Support",
+          "link": "https://www.se7ensins.com/forums/forums/console-modding-support.941/",
+          "description": "Get help with your console or PC platforms. If you have questions about modding your console, they will go here.",
+          "childboards": [],
+          "topics": 32000,
+          "posts": 216500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/425/425798.jpg?1590942045",
+            "title": "Revert rgh3 to original",
+            "link": "https://www.se7ensins.com/forums/threads/revert-rgh3-to-original.1869686/post-14525911",
+            "label": "Question",
+            "date": "2024-08-25T14:20:53-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Operating Systems",
+          "link": "https://www.se7ensins.com/forums/forums/operating-systems.492/",
+          "description": "All the news, tutorials, and discussions based around Windows, Mac OS, iOS, Linux, and Android operating systems.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Operating System Support",
+              "link": "https://www.se7ensins.com/forums/forums/operating-system-support.912/"
+            },
+            {
+              "icon": "forum",
+              "name": "Apple iOS",
+              "link": "https://www.se7ensins.com/forums/forums/apple-ios.140/"
+            },
+            {
+              "icon": "forum",
+              "name": "Android",
+              "link": "https://www.se7ensins.com/forums/forums/android.234/"
+            },
+            {
+              "icon": "forum",
+              "name": "Google Support",
+              "link": "https://www.se7ensins.com/forums/forums/google-support.296/"
+            }
+          ],
+          "topics": 15600,
+          "posts": 119700,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Doogee S80 - Powerful gaming smartphone",
+            "link": "https://www.se7ensins.com/forums/threads/doogee-s80-powerful-gaming-smartphone.1745871/post-14522163",
+            "label": "Discussion",
+            "date": "2024-07-18T09:20:32-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Computer Hardware &amp; Builds",
+          "link": "https://www.se7ensins.com/forums/forums/computer-hardware-builds.65/",
+          "description": "Learn how to build a computer and how to pick out your hardware.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Computer Hardware Support",
+              "link": "https://www.se7ensins.com/forums/forums/computer-hardware-support.487/"
+            },
+            {
+              "icon": "forum",
+              "name": "Computer Build Support",
+              "link": "https://www.se7ensins.com/forums/forums/computer-build-support.453/"
+            },
+            {
+              "icon": "forum",
+              "name": "Computer Showoff",
+              "link": "https://www.se7ensins.com/forums/forums/computer-showoff.93/"
+            }
+          ],
+          "topics": 10200,
+          "posts": 117100,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1651/1651604.jpg?1663437636",
+            "title": "~~DET SCHOOL LAPTOPS~~",
+            "link": "https://www.se7ensins.com/forums/threads/det-school-laptops.689975/post-14501554",
+            "label": "Discussion",
+            "date": "2024-01-14T16:07:41-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Programming &amp; Scripting",
+          "link": "https://www.se7ensins.com/forums/forums/programming-scripting.62/",
+          "description": "Learn or receive help on Visual Basic, C#, C++, etc. Great learning grounds for beginners!",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Releases",
+              "link": "https://www.se7ensins.com/forums/forums/releases.297/"
+            },
+            {
+              "icon": "forum",
+              "name": "Source Code &amp; Tutorial Database",
+              "link": "https://www.se7ensins.com/forums/forums/source-code-tutorial-database.298/"
+            },
+            {
+              "icon": "forum",
+              "name": "Support and Debugging",
+              "link": "https://www.se7ensins.com/forums/forums/support-and-debugging.299/"
+            },
+            {
+              "icon": "forum",
+              "name": "Game Development",
+              "link": "https://www.se7ensins.com/forums/forums/game-development.532/"
+            }
+          ],
+          "topics": 6700,
+          "posts": 51200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "I&#039;m trying to decompress .csc files, but I can&#039;t find programs to do this decompression (MOD MENU RED DEAD REDEMPTION PS3)",
+            "link": "https://www.se7ensins.com/forums/threads/im-trying-to-decompress-csc-files-but-i-cant-find-programs-to-do-this-decompression-mod-menu-red-dead-redemption-ps3.1853396/post-14525877",
+            "label": "Discussion",
+            "date": "2024-08-24T10:58:43-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "PC Gaming Discussion",
+          "link": "https://www.se7ensins.com/forums/forums/pc-gaming-discussion.813/",
+          "description": "PC gamers unite! All PC gaming related discussions go here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "PC Gaming Mods",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-mods.814/"
+            },
+            {
+              "icon": "forum",
+              "name": "PC Gaming Party Up",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-party-up.815/"
+            },
+            {
+              "icon": "forum",
+              "name": "PC Gaming Support",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-support.816/"
+            },
+            {
+              "icon": "forum",
+              "name": "PC Gaming Support Archive",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-support-archive.817/"
+            }
+          ],
+          "topics": 236,
+          "posts": 1500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Looking for people to play League of Legends",
+            "link": "https://www.se7ensins.com/forums/threads/looking-for-people-to-play-league-of-legends.1789479/post-14516836",
+            "label": "",
+            "date": "2024-05-30T07:59:04-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Mobile Center",
+          "link": "https://www.se7ensins.com/forums/forums/mobile-center.496/",
+          "description": "One stop center for all your mobile device needs!",
+          "childboards": [],
+          "topics": 248,
+          "posts": 1800,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1677/1677912.jpg?1721629957",
+            "title": "Does anyone know how to customize Apple ios Glance wallpapers?",
+            "link": "https://www.se7ensins.com/forums/threads/does-anyone-know-how-to-customize-apple-ios-glance-wallpapers.1869708/post-14525948",
+            "label": "Discussion",
+            "date": "2024-08-26T06:19:36-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Tech Support",
+          "link": "https://www.se7ensins.com/forums/forums/tech-support.45/",
+          "description": "Sometimes you don't know everything, get some help in here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "PC Support Archive",
+              "link": "https://www.se7ensins.com/forums/forums/pc-support-archive.556/"
+            }
+          ],
+          "topics": 9000,
+          "posts": 54200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1289/1289284.jpg?1633661810",
+            "title": "ned help [csx2 emulator missing ini file",
+            "link": "https://www.se7ensins.com/forums/threads/ned-help-csx2-emulator-missing-ini-file.1855905/post-14508746",
+            "label": "Question",
+            "date": "2024-03-12T19:02:58-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Graphics",
+          "link": "https://www.se7ensins.com/forums/forums/graphics.172/",
+          "description": "Learn how to make sigs, avatars, large art, and more! Post tutorials to help others get on their way to learning how to make graphics.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Graphics Showoff",
+              "link": "https://www.se7ensins.com/forums/forums/graphics-showoff.12/"
+            },
+            {
+              "icon": "forum",
+              "name": "The Graveyard",
+              "link": "https://www.se7ensins.com/forums/forums/the-graveyard.570/"
+            },
+            {
+              "icon": "forum",
+              "name": "Graphics Requests/Pickup",
+              "link": "https://www.se7ensins.com/forums/forums/graphics-requests-pickup.7/"
+            },
+            {
+              "icon": "forum",
+              "name": "Archive",
+              "link": "https://www.se7ensins.com/forums/forums/archive.546/"
+            },
+            {
+              "icon": "forum",
+              "name": "Graphics Resources",
+              "link": "https://www.se7ensins.com/forums/forums/graphics-resources.174/"
+            }
+          ],
+          "topics": 17300,
+          "posts": 134600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/535/535803.jpg?1707290479",
+            "title": "Looking for a nice avatar and banner for 7s",
+            "link": "https://www.se7ensins.com/forums/threads/looking-for-a-nice-avatar-and-banner-for-7s.1854482/post-14506895",
+            "label": "Request",
+            "date": "2024-02-26T02:34:00-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Video",
+          "link": "https://www.se7ensins.com/forums/forums/video.263/",
+          "description": "Post your editing and animation tutorials or show off your newest motion graphics.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Motion Graphics Resources",
+              "link": "https://www.se7ensins.com/forums/forums/motion-graphics-resources.264/"
+            },
+            {
+              "icon": "forum",
+              "name": "Motion Graphics Tutorials",
+              "link": "https://www.se7ensins.com/forums/forums/motion-graphics-tutorials.292/"
+            },
+            {
+              "icon": "forum",
+              "name": "Motion Graphics Request",
+              "link": "https://www.se7ensins.com/forums/forums/motion-graphics-request.305/"
+            }
+          ],
+          "topics": 3100,
+          "posts": 13500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "The Untapped Potential of Halo Infinite Marines",
+            "link": "https://www.se7ensins.com/forums/threads/the-untapped-potential-of-halo-infinite-marines.1843165/post-14522145",
+            "label": "Streaming / Video",
+            "date": "2024-07-18T02:55:39-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Media Support",
+          "link": "https://www.se7ensins.com/forums/forums/media-support.921/",
+          "description": "Get help for your social media graphics, video editing, and promotion!",
+          "childboards": [],
+          "topics": 63,
+          "posts": 478,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Spotify does not start and shows “Oops! Something went wrong” error.",
+            "link": "https://www.se7ensins.com/forums/threads/spotify-does-not-start-and-shows-%E2%80%9Coops-something-went-wrong%E2%80%9D-error.1822013/post-14525537",
+            "label": "Solved",
+            "date": "2024-08-21T06:37:44-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Deals",
+          "link": "https://www.se7ensins.com/forums/forums/deals.367/",
+          "description": "Post any deals to share here. (No B/S/T deals)",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Deals Archive",
+              "link": "https://www.se7ensins.com/forums/forums/deals-archive.625/"
+            }
+          ],
+          "topics": 10200,
+          "posts": 31300,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/607/607665.jpg?1590942045",
+            "title": "Skull and Bones Limited Edition (PS5 or Xbox Series X) $10 + Free Shipping@BB",
+            "link": "https://www.se7ensins.com/forums/threads/skull-and-bones-limited-edition-ps5-or-xbox-series-x-10-free-shipping-bb.1868531/post-14524546",
+            "label": "USA",
+            "date": "2024-08-11T07:16:25-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "eBay &amp; Amazon Listings",
+          "link": "https://www.se7ensins.com/forums/forums/ebay-amazon-listings.378/",
+          "description": "Post links to your eBay and Amazon listings here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Listings Archive",
+              "link": "https://www.se7ensins.com/forums/forums/listings-archive.470/"
+            }
+          ],
+          "topics": 1400,
+          "posts": 4100,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/510/510664.jpg?1590942045",
+            "title": "Anyone bought from compell gaming?",
+            "link": "https://www.se7ensins.com/forums/threads/anyone-bought-from-compell-gaming.1838523/post-14479268",
+            "label": "",
+            "date": "2023-07-14T15:24:58-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Verified Services",
+          "link": "https://www.se7ensins.com/forums/forums/verified-services.883/",
+          "description": "All Se7enSins verified services will be listed within this forum",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "None",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

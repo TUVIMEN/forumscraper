@@ -1,1 +1,485 @@
-{"format_version": "phpbb-2+-forum", "url": "https://garaz.autorevue.cz/forum-818/O-Garazi-a-AutoRevue-cz.html", "categories": [{"name": "F\u00f3rum", "link": null, "forums": [{"state": "forum_read", "name": "Srazy", "link": "https://garaz.autorevue.cz/forum-1850/Srazy.html?sid=7e7a69d7cb33ceb43c139645949b8f55", "icon": null, "description": "Srazy \u010dlen\u016f f\u00f3ra Gar\u00e1\u017e AutoRevue.cz", "childboards": [], "moderators": [], "topics": 214, "posts": 102578, "redirects": 0, "lastpost": {"user": "Goesson", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=199554&sid=7e7a69d7cb33ceb43c139645949b8f55", "title": "", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=1850&p=13773564&sid=7e7a69d7cb33ceb43c139645949b8f55#p13773564", "date": "26. 8. 2024 13:20"}}]}], "threads": [{"name": "Ozn\u00e1men\u00ed", "threads": [{"state": "announce_read_locked", "title": "FAQ - Pr\u016fvodce po SuperF\u00f3ru: D\u016fle\u017eit\u00e9 informace, rady, tipy", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1044152&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 2, "user": "SuperF\u00f3rum.cz", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=79495&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "29. 7. 2008 01:10", "posts": 15, "views": 11587314, "lastpost": {"user": "SuperF\u00f3rum.cz", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=79495&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1044152&sid=7e7a69d7cb33ceb43c139645949b8f55&p=7528154#p7528154", "date": "2. 7. 2010 23:21"}}]}, {"name": "T\u00e9mata", "threads": [{"state": "sticky_read", "title": "Konkurs na moder\u00e1tory Gar\u00e1\u017ee", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320925&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 20, "user": "salam01", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=6254&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "22. 12. 2021 16:23", "posts": 299, "views": 22057, "lastpost": {"user": "", "user_link": null, "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320925&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13329486#p13329486", "date": "20. 9. 2022 22:01"}}, {"state": "sticky_read_locked", "title": "Galerie.AutoRevue.cz \u2013 Pravidla a \u010dasto kladen\u00e9 ot\u00e1zky", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=805458&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 0, "user": "pjanda", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=2121&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "13. 6. 2006 10:14", "posts": 0, "views": 62310, "lastpost": {"user": "pjanda", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=2121&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=805458&sid=7e7a69d7cb33ceb43c139645949b8f55&p=3118466#p3118466", "date": "13. 6. 2006 10:14"}}, {"state": "topic_read_hot", "title": "Vzpominka na padle garazniky...", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1063693&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 365, "user": "Major Kure", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=88729&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "18. 1. 2009 15:49", "posts": 5472, "views": 393191, "lastpost": {"user": "burty s krenem", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=20527&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1063693&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13764443#p13764443", "date": "9. 8. 2024 07:52"}}, {"state": "topic_read_hot", "title": "General Error", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1055329&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 138, "user": "138", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1055329&sid=7e7a69d7cb33ceb43c139645949b8f55&start=2055", "date": "od anonymni  4. 11. 2008 18:23", "posts": 2061, "views": 185407, "lastpost": {"user": "eetk", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=205721&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1055329&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13757242#p13757242", "date": "28. 7. 2024 21:09"}}, {"state": "topic_read_hot", "title": "Nove prihlaseni", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1324414&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 10, "user": "10", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1324414&sid=7e7a69d7cb33ceb43c139645949b8f55&start=135", "date": "od anonymni  27. 6. 2022 13:30", "posts": 138, "views": 14179, "lastpost": {"user": "MgX", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=32179&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1324414&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13692848#p13692848", "date": "13. 3. 2024 19:41"}}, {"state": "topic_read_hot", "title": "Powerball", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1333293&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 7, "user": "Majkl", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=148670&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "31. 10. 2023 19:32", "posts": 92, "views": 12483, "lastpost": {"user": "GeneHawkins", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=92285&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1333293&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13658806#p13658806", "date": "18. 1. 2024 14:52"}}, {"state": "topic_read", "title": "Mil\u00fd Mikul\u00e1\u0161i", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1334191&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 0, "user": "Jouda.III", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=179995&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "5. 12. 2023 11:49", "posts": 13, "views": 840, "lastpost": {"user": "Tomas B", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=27239&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1334191&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13627811#p13627811", "date": "5. 12. 2023 14:14"}}, {"state": "topic_read_hot", "title": "Reklama", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1167632&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 46, "user": "antek II", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=61507&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "16. 5. 2012 17:51", "posts": 677, "views": 82664, "lastpost": {"user": "MgX", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=32179&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1167632&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13612702#p13612702", "date": "13. 11. 2023 19:42"}}, {"state": "topic_read", "title": "Jak\u00e9 je va\u0161e MBTI?", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332952&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 2, "user": "tslany", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=183108&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "10. 10. 2023 12:17", "posts": 16, "views": 1965, "lastpost": {"user": "MELLO", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=8612&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332952&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13586126#p13586126", "date": "10. 10. 2023 14:31"}}, {"state": "topic_read_hot", "title": "Jak\u00e9 je va\u0161e BMI?", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332203&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 5, "user": "tslany", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=183108&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "30. 8. 2023 12:53", "posts": 65, "views": 4201, "lastpost": {"user": "Tomas B", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=27239&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332203&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13555556#p13555556", "date": "31. 8. 2023 15:30"}}, {"state": "topic_read", "title": "Mobiln\u00ed verze AutoRevue", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152513&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 3, "user": "pzelenka00", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=130842&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "12. 10. 2011 13:55", "posts": 34, "views": 35475, "lastpost": {"user": "Arnie J", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=1732&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152513&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13342452#p13342452", "date": "6. 10. 2022 22:13"}}, {"state": "topic_read_locked", "title": "Ban na SARS-CoV-2", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320944&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 0, "user": "tslany", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=183108&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "23. 12. 2021 12:04", "posts": 4, "views": 1463, "lastpost": {"user": "salam01", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=6254&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320944&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13081359#p13081359", "date": "23. 12. 2021 12:12"}}, {"state": "topic_read_hot", "title": "Nejobl\u00edben\u011bj\u0161\u00ed postava gar\u00e1\u017ee", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1229702&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 15, "user": "15", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1229702&sid=7e7a69d7cb33ceb43c139645949b8f55&start=210", "date": "od anonymni  27. 2. 2015 00:00", "posts": 222, "views": 56410, "lastpost": {"user": "orgasmic", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=67195&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1229702&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13021443#p13021443", "date": "26. 10. 2021 14:40"}}, {"state": "topic_read_hot", "title": "Novy design 2021", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1314370&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 18, "user": "Moucha", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=685&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "18. 2. 2021 11:08", "posts": 261, "views": 14436, "lastpost": {"user": "Moucha", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=685&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1314370&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12888877#p12888877", "date": "29. 4. 2021 12:07"}}, {"state": "topic_read_hot", "title": "Nov\u00e9 AutoRevue.cz: betaverze", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152560&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 8, "user": "Marek Lutonsk\u00fd", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=3&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "13. 10. 2011 12:08", "posts": 110, "views": 16560, "lastpost": {"user": "Arnie J", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=1732&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152560&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12844959#p12844959", "date": "8. 3. 2021 15:11"}}, {"state": "topic_read_hot", "title": "vase povolani a proc chodite na garaz...", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1073203&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 20, "user": "brabus", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=55382&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "26. 4. 2009 09:46", "posts": 290, "views": 34670, "lastpost": {"user": "hobitt", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=54070&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1073203&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12617794#p12617794", "date": "21. 6. 2020 02:48"}}, {"state": "topic_read_hot", "title": "Vypr\u0161ela platnost hesla", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1303399&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 5, "user": "aikoN2", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=184955&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "8. 12. 2019 15:04", "posts": 71, "views": 24700, "lastpost": {"user": "Majkl", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=148670&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1303399&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12482800#p12482800", "date": "5. 2. 2020 08:56"}}, {"state": "topic_read_hot", "title": "Tip kam na dovolenou", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296442&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 5, "user": "#", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296442&sid=7e7a69d7cb33ceb43c139645949b8f55&all=1", "date": "od anonymni  24. 2. 2019 21:05", "posts": 66, "views": 25557, "lastpost": {"user": "metyn", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=93086&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296442&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12453471#p12453471", "date": "2. 1. 2020 16:17"}}, {"state": "topic_read_hot", "title": "Hledaj\u00ed se admini a modi", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1293076&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 9, "user": "salam01", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=6254&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "29. 10. 2018 20:08", "posts": 125, "views": 28429, "lastpost": {"user": "Jean ViC", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=5434&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1293076&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12443057#p12443057", "date": "18. 12. 2019 06:12"}}, {"state": "topic_read_hot", "title": "Vypadek superfora", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298700&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 28, "user": "28", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298700&sid=7e7a69d7cb33ceb43c139645949b8f55&start=405", "date": "od anonymni  27. 5. 2019 12:36", "posts": 417, "views": 41973, "lastpost": {"user": "Pajjoun", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=48795&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298700&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12318073#p12318073", "date": "18. 7. 2019 00:15"}}, {"state": "topic_read_hot", "title": "Aleternativni garaz", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1299639&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 9, "user": "9", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1299639&sid=7e7a69d7cb33ceb43c139645949b8f55&start=120", "date": "od anonymni  11. 7. 2019 14:41", "posts": 124, "views": 21041, "lastpost": {"user": "robbert", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=80060&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1299639&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12314320#p12314320", "date": "13. 7. 2019 20:08"}}, {"state": "topic_read", "title": "Star\u00e9 \u010dl\u00e1nky \u2013 velk\u00e9 obr\u00e1zky", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298881&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 0, "user": "Irbis9", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=140763&sid=7e7a69d7cb33ceb43c139645949b8f55", "date": "5. 6. 2019 12:49", "posts": 1, "views": 5946, "lastpost": {"user": "", "user_link": null, "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298881&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12283572#p12283572", "date": "5. 6. 2019 12:52"}}, {"state": "topic_read_hot", "title": "16", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296751&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 5, "user": "#", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296751&sid=7e7a69d7cb33ceb43c139645949b8f55&all=1", "date": "od anonymni  6. 3. 2019 00:08", "posts": 62, "views": 25491, "lastpost": {"user": "agathodaimon", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=129013&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296751&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12207019#p12207019", "date": "8. 3. 2019 13:03"}}, {"state": "topic_read", "title": "Pr\u016fm\u011brn\u00fd v\u00fdkon Gar\u00e1\u017ee 2018", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294863&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 3, "user": "#", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294863&sid=7e7a69d7cb33ceb43c139645949b8f55&all=1", "date": "od anonymni  30. 12. 2018 22:36", "posts": 42, "views": 21752, "lastpost": {"user": "Prochaine", "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=1973&sid=7e7a69d7cb33ceb43c139645949b8f55", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294863&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12198460#p12198460", "date": "26. 2. 2019 13:00"}}, {"state": "topic_read_hot", "title": "Rodinna dovolena s malymi detmi a garazniky", "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294763&sid=7e7a69d7cb33ceb43c139645949b8f55", "lastpage": 6, "user": "6", "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294763&sid=7e7a69d7cb33ceb43c139645949b8f55&start=75", "date": "od anonymni  27. 12. 2018 10:44", "posts": 84, "views": 21265, "lastpost": {"user": "", "user_link": null, "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294763&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12174484#p12174484", "date": "1. 2. 2019 00:24"}}]}]}
+{
+  "format_version": "phpbb-2+-forum",
+  "url": "https://garaz.autorevue.cz/forum-818/O-Garazi-a-AutoRevue-cz.html",
+  "categories": [
+    {
+      "name": "Fórum",
+      "link": null,
+      "forums": [
+        {
+          "state": "forum_read",
+          "name": "Srazy",
+          "link": "https://garaz.autorevue.cz/forum-1850/Srazy.html?sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "icon": null,
+          "description": "Srazy členů fóra Garáž AutoRevue.cz",
+          "childboards": [],
+          "moderators": [],
+          "topics": 214,
+          "posts": 102578,
+          "redirects": 0,
+          "lastpost": {
+            "user": "Goesson",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=199554&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "title": "",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=1850&p=13773564&sid=7e7a69d7cb33ceb43c139645949b8f55#p13773564",
+            "date": "26. 8. 2024 13:20"
+          }
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "name": "Oznámení",
+      "threads": [
+        {
+          "state": "announce_read_locked",
+          "title": "FAQ - Průvodce po SuperFóru: Důležité informace, rady, tipy",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1044152&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 2,
+          "user": "SuperFórum.cz",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=79495&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "29. 7. 2008 01:10",
+          "posts": 15,
+          "views": 11587314,
+          "lastpost": {
+            "user": "SuperFórum.cz",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=79495&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1044152&sid=7e7a69d7cb33ceb43c139645949b8f55&p=7528154#p7528154",
+            "date": "2. 7. 2010 23:21"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Témata",
+      "threads": [
+        {
+          "state": "sticky_read",
+          "title": "Konkurs na moderátory Garáže",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320925&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 20,
+          "user": "salam01",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=6254&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "22. 12. 2021 16:23",
+          "posts": 299,
+          "views": 22057,
+          "lastpost": {
+            "user": "",
+            "user_link": null,
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320925&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13329486#p13329486",
+            "date": "20. 9. 2022 22:01"
+          }
+        },
+        {
+          "state": "sticky_read_locked",
+          "title": "Galerie.AutoRevue.cz – Pravidla a často kladené otázky",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=805458&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 0,
+          "user": "pjanda",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=2121&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "13. 6. 2006 10:14",
+          "posts": 0,
+          "views": 62310,
+          "lastpost": {
+            "user": "pjanda",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=2121&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=805458&sid=7e7a69d7cb33ceb43c139645949b8f55&p=3118466#p3118466",
+            "date": "13. 6. 2006 10:14"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Vzpominka na padle garazniky...",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1063693&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 365,
+          "user": "Major Kure",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=88729&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "18. 1. 2009 15:49",
+          "posts": 5472,
+          "views": 393191,
+          "lastpost": {
+            "user": "burty s krenem",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=20527&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1063693&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13764443#p13764443",
+            "date": "9. 8. 2024 07:52"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "General Error",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1055329&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 138,
+          "user": "138",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1055329&sid=7e7a69d7cb33ceb43c139645949b8f55&start=2055",
+          "date": "od anonymni  4. 11. 2008 18:23",
+          "posts": 2061,
+          "views": 185407,
+          "lastpost": {
+            "user": "eetk",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=205721&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1055329&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13757242#p13757242",
+            "date": "28. 7. 2024 21:09"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Nove prihlaseni",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1324414&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 10,
+          "user": "10",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1324414&sid=7e7a69d7cb33ceb43c139645949b8f55&start=135",
+          "date": "od anonymni  27. 6. 2022 13:30",
+          "posts": 138,
+          "views": 14179,
+          "lastpost": {
+            "user": "MgX",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=32179&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1324414&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13692848#p13692848",
+            "date": "13. 3. 2024 19:41"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Powerball",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1333293&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 7,
+          "user": "Majkl",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=148670&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "31. 10. 2023 19:32",
+          "posts": 92,
+          "views": 12483,
+          "lastpost": {
+            "user": "GeneHawkins",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=92285&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1333293&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13658806#p13658806",
+            "date": "18. 1. 2024 14:52"
+          }
+        },
+        {
+          "state": "topic_read",
+          "title": "Milý Mikuláši",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1334191&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 0,
+          "user": "Jouda.III",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=179995&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "5. 12. 2023 11:49",
+          "posts": 13,
+          "views": 840,
+          "lastpost": {
+            "user": "Tomas B",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=27239&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1334191&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13627811#p13627811",
+            "date": "5. 12. 2023 14:14"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Reklama",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1167632&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 46,
+          "user": "antek II",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=61507&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "16. 5. 2012 17:51",
+          "posts": 677,
+          "views": 82664,
+          "lastpost": {
+            "user": "MgX",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=32179&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1167632&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13612702#p13612702",
+            "date": "13. 11. 2023 19:42"
+          }
+        },
+        {
+          "state": "topic_read",
+          "title": "Jaké je vaše MBTI?",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332952&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 2,
+          "user": "tslany",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=183108&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "10. 10. 2023 12:17",
+          "posts": 16,
+          "views": 1965,
+          "lastpost": {
+            "user": "MELLO",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=8612&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332952&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13586126#p13586126",
+            "date": "10. 10. 2023 14:31"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Jaké je vaše BMI?",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332203&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 5,
+          "user": "tslany",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=183108&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "30. 8. 2023 12:53",
+          "posts": 65,
+          "views": 4201,
+          "lastpost": {
+            "user": "Tomas B",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=27239&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1332203&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13555556#p13555556",
+            "date": "31. 8. 2023 15:30"
+          }
+        },
+        {
+          "state": "topic_read",
+          "title": "Mobilní verze AutoRevue",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152513&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 3,
+          "user": "pzelenka00",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=130842&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "12. 10. 2011 13:55",
+          "posts": 34,
+          "views": 35475,
+          "lastpost": {
+            "user": "Arnie J",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=1732&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152513&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13342452#p13342452",
+            "date": "6. 10. 2022 22:13"
+          }
+        },
+        {
+          "state": "topic_read_locked",
+          "title": "Ban na SARS-CoV-2",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320944&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 0,
+          "user": "tslany",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=183108&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "23. 12. 2021 12:04",
+          "posts": 4,
+          "views": 1463,
+          "lastpost": {
+            "user": "salam01",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=6254&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1320944&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13081359#p13081359",
+            "date": "23. 12. 2021 12:12"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Nejoblíbenější postava garáže",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1229702&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 15,
+          "user": "15",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1229702&sid=7e7a69d7cb33ceb43c139645949b8f55&start=210",
+          "date": "od anonymni  27. 2. 2015 00:00",
+          "posts": 222,
+          "views": 56410,
+          "lastpost": {
+            "user": "orgasmic",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=67195&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1229702&sid=7e7a69d7cb33ceb43c139645949b8f55&p=13021443#p13021443",
+            "date": "26. 10. 2021 14:40"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Novy design 2021",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1314370&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 18,
+          "user": "Moucha",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=685&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "18. 2. 2021 11:08",
+          "posts": 261,
+          "views": 14436,
+          "lastpost": {
+            "user": "Moucha",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=685&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1314370&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12888877#p12888877",
+            "date": "29. 4. 2021 12:07"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Nové AutoRevue.cz: betaverze",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152560&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 8,
+          "user": "Marek Lutonský",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=3&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "13. 10. 2011 12:08",
+          "posts": 110,
+          "views": 16560,
+          "lastpost": {
+            "user": "Arnie J",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=1732&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1152560&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12844959#p12844959",
+            "date": "8. 3. 2021 15:11"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "vase povolani a proc chodite na garaz...",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1073203&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 20,
+          "user": "brabus",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=55382&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "26. 4. 2009 09:46",
+          "posts": 290,
+          "views": 34670,
+          "lastpost": {
+            "user": "hobitt",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=54070&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1073203&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12617794#p12617794",
+            "date": "21. 6. 2020 02:48"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Vypršela platnost hesla",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1303399&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 5,
+          "user": "aikoN2",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=184955&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "8. 12. 2019 15:04",
+          "posts": 71,
+          "views": 24700,
+          "lastpost": {
+            "user": "Majkl",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=148670&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1303399&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12482800#p12482800",
+            "date": "5. 2. 2020 08:56"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Tip kam na dovolenou",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296442&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 5,
+          "user": "#",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296442&sid=7e7a69d7cb33ceb43c139645949b8f55&all=1",
+          "date": "od anonymni  24. 2. 2019 21:05",
+          "posts": 66,
+          "views": 25557,
+          "lastpost": {
+            "user": "metyn",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=93086&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296442&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12453471#p12453471",
+            "date": "2. 1. 2020 16:17"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Hledají se admini a modi",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1293076&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 9,
+          "user": "salam01",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=6254&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "29. 10. 2018 20:08",
+          "posts": 125,
+          "views": 28429,
+          "lastpost": {
+            "user": "Jean ViC",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=5434&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1293076&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12443057#p12443057",
+            "date": "18. 12. 2019 06:12"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Vypadek superfora",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298700&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 28,
+          "user": "28",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298700&sid=7e7a69d7cb33ceb43c139645949b8f55&start=405",
+          "date": "od anonymni  27. 5. 2019 12:36",
+          "posts": 417,
+          "views": 41973,
+          "lastpost": {
+            "user": "Pajjoun",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=48795&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298700&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12318073#p12318073",
+            "date": "18. 7. 2019 00:15"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Aleternativni garaz",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1299639&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 9,
+          "user": "9",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1299639&sid=7e7a69d7cb33ceb43c139645949b8f55&start=120",
+          "date": "od anonymni  11. 7. 2019 14:41",
+          "posts": 124,
+          "views": 21041,
+          "lastpost": {
+            "user": "robbert",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=80060&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1299639&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12314320#p12314320",
+            "date": "13. 7. 2019 20:08"
+          }
+        },
+        {
+          "state": "topic_read",
+          "title": "Staré články – velké obrázky",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298881&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 0,
+          "user": "Irbis9",
+          "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=140763&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "date": "5. 6. 2019 12:49",
+          "posts": 1,
+          "views": 5946,
+          "lastpost": {
+            "user": "",
+            "user_link": null,
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1298881&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12283572#p12283572",
+            "date": "5. 6. 2019 12:52"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "16",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296751&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 5,
+          "user": "#",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296751&sid=7e7a69d7cb33ceb43c139645949b8f55&all=1",
+          "date": "od anonymni  6. 3. 2019 00:08",
+          "posts": 62,
+          "views": 25491,
+          "lastpost": {
+            "user": "agathodaimon",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=129013&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1296751&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12207019#p12207019",
+            "date": "8. 3. 2019 13:03"
+          }
+        },
+        {
+          "state": "topic_read",
+          "title": "Průměrný výkon Garáže 2018",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294863&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 3,
+          "user": "#",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294863&sid=7e7a69d7cb33ceb43c139645949b8f55&all=1",
+          "date": "od anonymni  30. 12. 2018 22:36",
+          "posts": 42,
+          "views": 21752,
+          "lastpost": {
+            "user": "Prochaine",
+            "user_link": "https://garaz.autorevue.cz/forum-818/memberlist.php?mode=viewprofile&u=1973&sid=7e7a69d7cb33ceb43c139645949b8f55",
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294863&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12198460#p12198460",
+            "date": "26. 2. 2019 13:00"
+          }
+        },
+        {
+          "state": "topic_read_hot",
+          "title": "Rodinna dovolena s malymi detmi a garazniky",
+          "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294763&sid=7e7a69d7cb33ceb43c139645949b8f55",
+          "lastpage": 6,
+          "user": "6",
+          "user_link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294763&sid=7e7a69d7cb33ceb43c139645949b8f55&start=75",
+          "date": "od anonymni  27. 12. 2018 10:44",
+          "posts": 84,
+          "views": 21265,
+          "lastpost": {
+            "user": "",
+            "user_link": null,
+            "link": "https://garaz.autorevue.cz/forum-818/viewtopic.php?f=818&t=1294763&sid=7e7a69d7cb33ceb43c139645949b8f55&p=12174484#p12174484",
+            "date": "1. 2. 2019 00:24"
+          }
+        }
+      ]
+    }
+  ]
+}

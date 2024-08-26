@@ -1,1 +1,169 @@
-{"format_version": "invision-4-forum", "url": "https://forum.frogcommunity.com/", "categories": [{"name": "Support", "link": "https://forum.frogcommunity.com/index.php?/forum/18-support/", "forums": [{"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Support.png.f8683c18354e6edeb2e35c7a16487b61.png", "title": "Support", "link": "https://forum.frogcommunity.com/index.php?/forum/19-support/", "description": "Having a problem? Got a question about using Frog? We're here to help!", "posts": 1200, "followers": 0, "childboards": [], "lastpost": {"avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png", "title": "Signage Widget", "link": "https://forum.frogcommunity.com/index.php?/topic/13748-signage-widget/", "user": "Graham Quince", "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/", "date": "2023-10-31T10:46:37Z"}}, {"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-QA.png.524c4d3d5839a03b6666c2324e4605e1.png", "title": "Common Questions", "link": "https://forum.frogcommunity.com/index.php?/forum/24-common-questions/", "description": "Frequently asked \"how do I\"s and mini-tutorials", "posts": 130, "followers": 0, "childboards": [], "lastpost": {"avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png", "title": "How do I make my Frog festive? - (now includes Winter, Autumn)", "link": "https://forum.frogcommunity.com/index.php?/topic/3813-how-do-i-make-my-frog-festive-now-includes-winter-autumn/", "user": "Graham Quince", "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/", "date": "2022-12-12T10:48:10Z"}}]}, {"name": "General", "link": "https://forum.frogcommunity.com/index.php?/forum/5-general/", "forums": [{"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2018_11/Academy-Forum-Tile.png.480daf4c53a5d799e7c9cb972da803cd.png", "title": "The Frog Academy", "link": "https://forum.frogcommunity.com/index.php?/forum/27-the-frog-academy/", "description": "Let\u2019s work together\u00a0to create practical solutions for the benefit of every school!", "posts": 71, "followers": 0, "childboards": [], "lastpost": {"avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png", "title": "Frog Forms - matrix and star rating", "link": "https://forum.frogcommunity.com/index.php?/topic/4449-frog-forms-matrix-and-star-rating/", "user": "Graham Quince", "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/", "date": "2021-03-19T11:36:22Z"}}, {"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Chatter.png.640b0221924cf19c6aa35d8b6ff2eb80.png", "title": "General chat", "link": "https://forum.frogcommunity.com/index.php?/forum/7-general-chat/", "description": "Take a break and join the conversation", "posts": 1100, "followers": 0, "childboards": [], "lastpost": {"avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%236cc462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EK%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E", "title": "Happy Summer Break!", "link": "https://forum.frogcommunity.com/index.php?/topic/13766-happy-summer-break/", "user": "K.Ermit", "user_link": "https://forum.frogcommunity.com/index.php?/profile/1339-kermit/", "date": "2024-07-16T07:45:00Z"}}, {"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Showcase.png.70037b0bf5dd83821f887aaaaabe7b46.png", "title": "Showcase", "link": "https://forum.frogcommunity.com/index.php?/forum/8-showcase/", "description": "Created something in Frog you're particularly proud of, share it here to inspire others", "posts": 754, "followers": 0, "childboards": [], "lastpost": {"avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png", "title": "FrogCode widget - Image button", "link": "https://forum.frogcommunity.com/index.php?/topic/13762-frogcode-widget-image-button/", "user": "Graham Quince", "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/", "date": "2024-07-12T09:13:13Z"}}, {"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2018_03/Forum-Webinar.png.a933abe0613df80574d7534bb26fe742.png", "title": "Webinars", "link": "https://forum.frogcommunity.com/index.php?/forum/26-webinars/", "description": "All our webinars, upcoming and previous", "posts": 18, "followers": 0, "childboards": [], "lastpost": {"avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png", "title": "Virtual Workshop", "link": "https://forum.frogcommunity.com/index.php?/topic/4061-virtual-workshop/", "user": "Graham Quince", "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/", "date": "2021-01-13T09:00:42Z"}}]}, {"name": "Technical Forums (How do I...?)", "link": "https://forum.frogcommunity.com/index.php?/forum/1-technical-forums-how-do-i/", "forums": [{"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Learn.png.83d39c1a441b2479a6051bca23b0ada1.png", "title": "Learn / Play / Progress", "link": "https://forum.frogcommunity.com/index.php?/forum/2-learn-play-progress/", "description": "Post your questions about your learning platform here", "posts": 1400, "followers": 0, "childboards": [], "lastpost": {"avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png", "title": "Quizzes for staff", "link": "https://forum.frogcommunity.com/index.php?/topic/13765-quizzes-for-staff/", "user": "Graham Quince", "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/", "date": "2024-07-23T07:32:09Z"}}, {"status": "", "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-HTML.png.5dfbd1f72f065da671f67be0d4759323.png", "title": "Coding", "link": "https://forum.frogcommunity.com/index.php?/forum/6-coding/", "description": "Help and tips for the HTML widget, code viewer and FrogCode IDE", "posts": 1600, "followers": 0, "childboards": [], "lastpost": {"avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png", "title": "Displaying a form submission using HTML", "link": "https://forum.frogcommunity.com/index.php?/topic/7031-displaying-a-form-submission-using-html/", "user": "Graham Quince", "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/", "date": "2024-06-14T08:55:48Z"}}]}], "threads": []}
+{
+  "format_version": "invision-4-forum",
+  "url": "https://forum.frogcommunity.com/",
+  "categories": [
+    {
+      "name": "Support",
+      "link": "https://forum.frogcommunity.com/index.php?/forum/18-support/",
+      "forums": [
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Support.png.f8683c18354e6edeb2e35c7a16487b61.png",
+          "title": "Support",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/19-support/",
+          "description": "Having a problem? Got a question about using Frog? We're here to help!",
+          "posts": 1200,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png",
+            "title": "Signage Widget",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/13748-signage-widget/",
+            "user": "Graham Quince",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/",
+            "date": "2023-10-31T10:46:37Z"
+          }
+        },
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-QA.png.524c4d3d5839a03b6666c2324e4605e1.png",
+          "title": "Common Questions",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/24-common-questions/",
+          "description": "Frequently asked \"how do I\"s and mini-tutorials",
+          "posts": 130,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png",
+            "title": "How do I make my Frog festive? - (now includes Winter, Autumn)",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/3813-how-do-i-make-my-frog-festive-now-includes-winter-autumn/",
+            "user": "Graham Quince",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/",
+            "date": "2022-12-12T10:48:10Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "General",
+      "link": "https://forum.frogcommunity.com/index.php?/forum/5-general/",
+      "forums": [
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2018_11/Academy-Forum-Tile.png.480daf4c53a5d799e7c9cb972da803cd.png",
+          "title": "The Frog Academy",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/27-the-frog-academy/",
+          "description": "Let’s work together to create practical solutions for the benefit of every school!",
+          "posts": 71,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png",
+            "title": "Frog Forms - matrix and star rating",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/4449-frog-forms-matrix-and-star-rating/",
+            "user": "Graham Quince",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/",
+            "date": "2021-03-19T11:36:22Z"
+          }
+        },
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Chatter.png.640b0221924cf19c6aa35d8b6ff2eb80.png",
+          "title": "General chat",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/7-general-chat/",
+          "description": "Take a break and join the conversation",
+          "posts": 1100,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%236cc462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EK%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+            "title": "Happy Summer Break!",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/13766-happy-summer-break/",
+            "user": "K.Ermit",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/1339-kermit/",
+            "date": "2024-07-16T07:45:00Z"
+          }
+        },
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Showcase.png.70037b0bf5dd83821f887aaaaabe7b46.png",
+          "title": "Showcase",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/8-showcase/",
+          "description": "Created something in Frog you're particularly proud of, share it here to inspire others",
+          "posts": 754,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png",
+            "title": "FrogCode widget - Image button",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/13762-frogcode-widget-image-button/",
+            "user": "Graham Quince",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/",
+            "date": "2024-07-12T09:13:13Z"
+          }
+        },
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2018_03/Forum-Webinar.png.a933abe0613df80574d7534bb26fe742.png",
+          "title": "Webinars",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/26-webinars/",
+          "description": "All our webinars, upcoming and previous",
+          "posts": 18,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png",
+            "title": "Virtual Workshop",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/4061-virtual-workshop/",
+            "user": "Graham Quince",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/",
+            "date": "2021-01-13T09:00:42Z"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Technical Forums (How do I...?)",
+      "link": "https://forum.frogcommunity.com/index.php?/forum/1-technical-forums-how-do-i/",
+      "forums": [
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-Learn.png.83d39c1a441b2479a6051bca23b0ada1.png",
+          "title": "Learn / Play / Progress",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/2-learn-play-progress/",
+          "description": "Post your questions about your learning platform here",
+          "posts": 1400,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png",
+            "title": "Quizzes for staff",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/13765-quizzes-for-staff/",
+            "user": "Graham Quince",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/",
+            "date": "2024-07-23T07:32:09Z"
+          }
+        },
+        {
+          "status": "",
+          "icon": "https://forum.frogcommunity.com/uploads/monthly_2017_10/Forum-HTML.png.5dfbd1f72f065da671f67be0d4759323.png",
+          "title": "Coding",
+          "link": "https://forum.frogcommunity.com/index.php?/forum/6-coding/",
+          "description": "Help and tips for the HTML widget, code viewer and FrogCode IDE",
+          "posts": 1600,
+          "followers": 0,
+          "childboards": [],
+          "lastpost": {
+            "avatar": "https://forum.frogcommunity.com/uploads/monthly_2017_09/59b154712af4c_Frog260.thumb.png.053759db695a1a4841b4f9cc98a5408b.png",
+            "title": "Displaying a form submission using HTML",
+            "link": "https://forum.frogcommunity.com/index.php?/topic/7031-displaying-a-form-submission-using-html/",
+            "user": "Graham Quince",
+            "user_link": "https://forum.frogcommunity.com/index.php?/profile/2-graham-quince/",
+            "date": "2024-06-14T08:55:48Z"
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}
