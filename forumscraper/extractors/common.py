@@ -179,7 +179,6 @@ class ForumExtractor:
             | Outputs.urls
             | Outputs.threads
             | Outputs.users,
-            "noreactions": False,
             "max_workers": 1,
             "undisturbed": False,
             "pedantic": False,
@@ -303,7 +302,10 @@ class ForumExtractor:
             return self.handle_error(ex, url, settings)
 
     def go_through_page_threads(self, refurl, rq, settings, state, expr, depth):
-        if Outputs.threads not in settings["output"]:
+        if (
+            Outputs.threads not in settings["output"]
+            and Outputs.only_urls_threads not in settings["output"]
+        ):
             return
         urls = rq.search(expr).split("\n")[:-1]
         urls_len = len(urls)
@@ -382,6 +384,7 @@ class ForumExtractor:
             threads_expr
             and (
                 Outputs.threads in settings["output"]
+                or Outputs.only_urls_threads in settings["output"]
                 or Outputs.forums in settings["output"]
                 or Outputs.tags
             )
@@ -408,7 +411,7 @@ class ForumExtractor:
                     break
 
                 if process_func:
-                    process_func(url, rq, settings, state)
+                    process_func(nexturl, rq, settings, state)
 
         return state
 

@@ -287,7 +287,7 @@ class phpbb(ForumExtractor):
                 lastpost["user_link"] = url_merge(url, lastpost["user_link"])
 
         return {
-            "format_version": "phpbb-2+-board",
+            "format_version": "phpbb-2+-forum",
             "url": url,
             "categories": categories,
             "threads": threads,

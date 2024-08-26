@@ -576,3 +576,10 @@ def test_invision_page_boards():
 
 # https://www.hornetowners.com/threads/dead-battery.523/ #would need to add badge field and view more replies
 # https://www.diychatroom.com/threads/diy-tip-of-the-day.204702/
+
+# python -m forumscraper -d j --noreactions 'https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/'
+# python -m forumscraper -d j --nousers --noreactions 'https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/'
+# python -m forumscraper -d j --nothreads --nousers --noreactions 'https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/'
+# python -m forumscraper --only-urls-forums  'https://kh-vids.net/forums/discussion.25/'
+# python -m forumscraper --only-urls-threads -o kk 'https://kh-vids.net/forums/help-with-life.101/'
+# python -m forumscraper -d j --boards --forums --nothreads   'https://kh-vids.net/forums/help-with-life.101/'

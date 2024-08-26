@@ -330,7 +330,7 @@ class invision(ForumExtractor):
                     dict_add(post, t)
 
                     reactions_details = []
-                    if not settings["noreactions"]:
+                    if Outputs.reactions in settings["output"]:
                         try:
                             reactions_details = self.get_reactions_details(
                                 i, settings, state
@@ -555,7 +555,7 @@ class invision(ForumExtractor):
             lastpost["avatar"] = url_merge(url, lastpost["avatar"])
 
         return {
-            "format_version": "invision-4-board",
+            "format_version": "invision-4-forum",
             "url": url,
             "categories": categories,
             "threads": threads,

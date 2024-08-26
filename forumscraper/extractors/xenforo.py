@@ -248,7 +248,7 @@ class xenforo2(ForumExtractor):
                                     settings,
                                 )
 
-                            if not settings["noreactions"]:
+                            if Outputs.reactions in settings["output"]:
                                 reactions = self.get_reactions(
                                     tag,
                                     url,
@@ -528,7 +528,7 @@ class xenforo2(ForumExtractor):
             i.pop("lp-avatar")
 
         return {
-            "format_version": "xenforo-2-board",
+            "format_version": "xenforo-2-forum",
             "url": url,
             "categories": categories,
             "threads": threads,
@@ -810,7 +810,7 @@ class xenforo1(ForumExtractor):
             lastpost["user_link"] = url_merge(url, lastpost["user_link"])
 
         return {
-            "format_version": "xenforo-1-board",
+            "format_version": "xenforo-1-forum",
             "url": url,
             "categories": categories,
             "threads": threads,

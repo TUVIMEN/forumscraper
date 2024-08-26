@@ -163,11 +163,16 @@ def argparser():
         "--output",
         metavar="FILE",
         type=lambda x: open(x, "w"),
-        help="store results to FILE (by default set to stdout), work only for identify and findroot functions",
+        help="store results to FILE (by default set to stdout), work only for identify and findroot functions and --only-urls- options",
         default=sys.stdout,
     )
 
     settings = parser.add_argument_group("Settings")
+    settings.add_argument(
+        "--nothreads",
+        action="store_true",
+        help="do not download threads (works only when page passed is not a thread)",
+    )
     settings.add_argument(
         "--nousers",
         action="store_true",
@@ -177,6 +182,31 @@ def argparser():
         "--noreactions",
         action="store_true",
         help="do not download reactions",
+    )
+    settings.add_argument(
+        "--boards",
+        action="store_true",
+        help="create boards files",
+    )
+    settings.add_argument(
+        "--tags",
+        action="store_true",
+        help="create tags files",
+    )
+    settings.add_argument(
+        "--forums",
+        action="store_true",
+        help="create forums files",
+    )
+    settings.add_argument(
+        "--only-urls-forums",
+        action="store_true",
+        help="output urls to found forums to output file without scraping",
+    )
+    settings.add_argument(
+        "--only-urls-threads",
+        action="store_true",
+        help="output urls to found threads to output file without scraping",
     )
     settings.add_argument(
         "--thread-pages-max",
@@ -238,6 +268,7 @@ def argparser():
         help="Sets interval between each retry",
     )
     request_set.add_argument(
+        "-m",
         "--timeout",
         metavar="SECONDS",
         type=float,
@@ -257,18 +288,21 @@ def argparser():
         help="Sets custom user agent",
     )
     request_set.add_argument(
+        "-x",
         "--proxies",
         metavar="DICT",
         type=lambda x: dict(ast.literal_eval(x)),
         help="Set requests proxies dictionary",
     )
     request_set.add_argument(
+        "-H",
         "--headers",
         metavar="DICT",
         type=lambda x: dict(ast.literal_eval(x)),
         help="Set requests headers dictionary",
     )
     request_set.add_argument(
+        "-b",
         "--cookies",
         metavar="DICT",
         type=lambda x: dict(ast.literal_eval(x)),

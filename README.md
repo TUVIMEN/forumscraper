@@ -32,7 +32,7 @@ Above behaviour is set by default `--names id`, and can be changed with `--names
 
     forumscraper --names hash --directory DIR URL
 
-By default if files to be created are found and are not empty function exits not overwriting them. This can be changed using `--force` option.
+By default if files to be created are found and are not empty, function exits not overwriting them. This can be changed using `--force` option.
 
 forumscraper output logging information to `stdout` (can be changed with `--log FILE`) and information about failures to `stderr` (can be changed with `--failed FILE`)
 
@@ -91,6 +91,18 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 ### Settings
 
 `--nousers` and `--noreactions` (working only on `xenforo2` and `invision` scrapers) cause ignoring users and reactions respectively, which greatly increases speed of scraping, if you have no use for them you SHOULD consider using these flags (they are not set by default because of choosing extensivity by default).
+
+`--nothreads` doesn't download threads (makes `--nousers` and `--noreactions` meaningless since these can be only found in threads) unless url passed is a thread.
+
+`--boards` creates board files.
+
+`--tags` creates tags files.
+
+`--forums` creates forums files.
+
+`--only-urls-forums` writes found forum urls to `output`, doesn't scrape.
+
+`--only-urls-threads` writes found thread urls to `output`, doesn't scrape.
 
 `--thread-pages-max NUM` and `--pages-max NUM` set max number of pages traversed in each thread and forum respectively.
 
@@ -257,6 +269,9 @@ The get functions and `guess` return `None` in case of failure or `dict` defined
 
     {
        'data': {
+            "boards": [],
+            "tags": [],
+            "forums": [],
             'threads': [],
             'users': []
         },
@@ -269,10 +284,15 @@ The get functions and `guess` return `None` in case of failure or `dict` defined
             'boards': []
         }
        'files': {
+            "boards": [],
+            "tags": [],
+            "forums": [],
             'threads': [],
             'users': []
         },
         'visited': set(),
+        "scraper": None,
+        "scraper-method": None,
     }
 
 Where `data` field contains resulting dictionaries of data.
@@ -281,13 +301,13 @@ Where `data` field contains resulting dictionaries of data.
 
 `file` field contains created files with results.
 
-`visited` field contains every url visited by scraper, and will refuse to visit them again, see `force` setting for more info.
+`visited` field contains every url visited by scraper, which will refuse to visit them again, see `force` setting for more info.
 
 ### Settings
 
-At initialization of scrapers and use of get methods you can specify the same settings.
+At initialization of scrapers and use of `get_` methods you can specify the same settings.
 
-`output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.urls` changes behaviour of scraper and results returned by id. It takes flags from `forumscraper.Outputs`:
+`output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.urls|forumscraper.Outputs.threads|forumscraper.Outputs.users|forumscraper.Outputs.reactions` changes behaviour of scraper and results returned by id. It takes flags from `forumscraper.Outputs`:
 
  - `write_by_id` - write results in json in files named by their id (beginning with `m-` in case of users) e.g `21` `29` `m-24` `m-281`
  - `write_by_hash` - write results in json in files named by sha256 hash of their source url
@@ -295,6 +315,16 @@ At initialization of scrapers and use of get methods you can specify the same se
  - `only_urls_forums` - ignore everything logging only urls to found forums, tags and boards
  - `urls`  - save url from which resources were scraped
  - `data` - save results in python dictionary
+ - `threads` - scrape threads
+ - `users` - scrape users
+ - `reactions` - scrape reactions in threads
+ - `boards` - scrape boards
+ - `forums` - scrape forums
+ - `tags` - scrape tags
+
+Disabling `users` and `reactions` greatly speeds up getting `xenforo` and `invision` threads.
+
+`boards` `forums` and `tags` create files with names beginning with respectively `b-`, `f-`, `t-` followed by sha256 hash of source url. These options may be useful for getting basic information about threads without downloading them.
 
 `logger=None`, `failed=None` can be set to list or file to which information will be logged.
 
@@ -312,10 +342,6 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 `undisturbed=False` if set, scraper doesn't care about standard errors.
 
 `pedantic=False` if set, scraper fails because of errors in scraping resources related to currently scraped e.g. if getting users of reactions fails
-
-`nousers=False` if set, do not scrape users, greatly speeds up getting `xenforo` and `invision` pages
-
-`noreactions=False` same as above but for reactions
 
 `force=False` if set, scraper overwrites files, but will still refuse to scrape urls found in `visited` field of state, if you are passing state between functions and you want to redownload them you will have to set it to empty set e.g. `state['visited'] = set()` before every function call.
 

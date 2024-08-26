@@ -32,16 +32,38 @@ def main():
     if args.pedantic:
         disturbed = {"undisturbed": False, "pedantic": True}
 
+    output = args.names | Outputs.threads | Outputs.users | Outputs.reactions
+
+    if args.nothreads:
+        output &= ~Outputs.threads
     if args.nousers:
-        args.names &= ~Outputs.users
+        output &= ~Outputs.users
+    if args.noreactions:
+        output &= ~Outputs.reactions
+    if args.boards:
+        output |= Outputs.boards
+    if args.tags:
+        output |= Outputs.tags
+    if args.forums:
+        output |= Outputs.forums
+    if args.only_urls_threads:
+        output = args.names | Outputs.only_urls_threads
+    if args.only_urls_forums:
+        output = args.names | Outputs.only_urls_forums
+
+    if output == args.names:
+        print(
+            "Error: Nothing can be downloaded, remove --nothreads option",
+            file=sys.stderr,
+        )
+        return
 
     settings = {
-        "output": args.names,
+        "output": output,
         "max_workers": args.threads,
         "logger": args.log,
         "failed": args.failed,
         "nousers": args.nousers,
-        "noreactions": args.noreactions,
         "force": args.force,
         **disturbed,
         "thread_pages_max": args.thread_pages_max,
@@ -79,6 +101,12 @@ def main():
                 "{}\t{}".format(ret if ret is None else ret.__class__.__name__, url),
                 file=args.output,
             )
+        elif args.only_urls_forums:
+            for i in ret["urls"]["forums"]:
+                print(i, file=args.output)
+        elif args.only_urls_threads:
+            for i in ret["urls"]["threads"]:
+                print(i, file=args.output)
 
     for i in [args.log, args.failed, args.output]:
         if i not in [sys.stdout, sys.stderr]:
