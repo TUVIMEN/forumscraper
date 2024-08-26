@@ -1,7 +1,11 @@
 #!/bin/bash
 
 fsc() {
-    python -m forumscraper "$@"
+    python -m forumscraper -k "$@"
+}
+
+fscb() {
+    fsc --nothreads --boards --forums --tags --pages-max 1 --pages-max-depth 1 "$@"
 }
 
 mkdir -p examples/{{xenforo,smf}/{1,2},invision,xmb,phpbb}
@@ -11,15 +15,36 @@ fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/476881-ic5-
 fsc -d examples/invision 'https://linustechtips.com/topic/1197477-policygenius-thoughts/'
 fsc -d examples/invision 'https://processwire.com/talk/topic/3553-handling-categories-on-a-product-catalogue/'
 
+fscb -d examples/invision 'https://invisioncommunity.com/forums/forum/497-technical-problems/'
+fscb -d examples/invision 'https://linustechtips.com/forum/13-tech-news/'
+fscb -d examples/invision 'https://processwire.com/talk/forum/4-modulesplugins/'
+fscb -d examples/invision 'https://www.seeq.org/'
+fscb -d examples/invision 'https://forum.frogcommunity.com/'
+fscb -d examples/invision 'https://forum.invisionize.pl/'
+
 fsc -d examples/phpbb 'https://forum.anime-ultime.net/phpBB3/viewtopic.php?f=28&t=18253'
 fsc -d examples/phpbb 'https://fungi.pl/forum/viewtopic.php?f=14&t=10057'
 fsc -d examples/phpbb 'https://garaz.autorevue.cz/viewtopic.php?f=810&t=810442'
 fsc -d examples/phpbb 'https://www.ao-universe.com/forum/viewtopic.php?f=1&t=5521'
 fsc -d examples/phpbb 'https://www.phpbb.com/community/viewtopic.php?t=2654665'
 
+fscb -d examples/phpbb 'http://askcodeman.com/index.php'
+fscb -d examples/phpbb 'https://forum.motec.com.au/index.php'
+fscb -d examples/phpbb 'https://fungi.pl/forum/index.php'
+fscb -d examples/phpbb 'https://www.phpbb.pl/viewforum.php?f=156'
+fscb -d examples/phpbb 'https://garaz.autorevue.cz/forum-818/O-Garazi-a-AutoRevue-cz.html'
+fscb -d examples/phpbb 'https://forum.anime-ultime.net/phpBB3/viewforum.php?f=48'
+
 fsc -d examples/smf/1 'http://750mm.pl/index.php?topic=4001.0'
 fsc -d examples/smf/1 'https://bitcointalk.org/index.php?topic=5452300.0'
 fsc -d examples/smf/1 'https://forumszkolne.pl/domy-z-drewna-orientacyjny-czas-budowy-t5358.0.html'
+
+fscb -d examples/smf/1 'http://750mm.pl/index.php'
+fscb -d examples/smf/1 'https://bitcointalk.org/index.php'
+fscb -d examples/smf/1 'https://councilofexmuslims.com/index.php?action=forum'
+fscb -d examples/smf/1 'https://forum.jac.or.id/index.php?board=9.0'
+fscb -d examples/smf/1 'https://forum.ipfon.pl/index.php?board=1.0'
+fscb -d examples/smf/1 'https://forum.uqm.stack.nl/index.php?board=2.0'
 
 fsc -d examples/smf/2 'https://arizonagunowners.com/index.php/topic,16.0.html'
 fsc -d examples/smf/2 'https://www.chemicalforums.com/index.php?topic=90079.0'
@@ -28,11 +53,25 @@ fsc -d examples/smf/2 'https://forum.nasm.us/index.php?topic=1203.0'
 fsc -d examples/smf/2 'https://www.nukeworker.com/forum/index.php/topic,38497.0.html'
 fsc -d examples/smf/2 'https://www.simplemachines.org/community/index.php?topic=557176.0'
 
+fscb -d examples/smf/2 'https://tardisbuilders.com/'
+fscb -d examples/smf/2 'https://coppermine-gallery.com/forum/'
+fscb -d examples/smf/2 'https://www.norotors.com/index.php'
+fscb -d examples/smf/2 'https://www.simplemachines.org/community/index.php?board=254.0'
+fscb -d examples/smf/2 'http://forum.33cats.ru/index.php?board=3.0'
+fscb -d examples/smf/2 'https://naijacrux.com/index.php?board=5.0'
+
 fsc -d examples/xenforo/1 'https://kh-vids.net/threads/story-time-with-jube-nagatoro-and-senpai.126609/'
 fsc -d examples/xenforo/1 'https://www.forumhouse.ru/threads/409354/'
 fsc -d examples/xenforo/1 'https://forums.digitalpoint.com/threads/how-to-index-the-website.2878243/'
 fsc -d examples/xenforo/1 'https://forums.stevehoffman.tv/threads/metal-music-sounds-messy-amp.1204885/'
 fsc -d examples/xenforo/1 'https://www.zoochat.com/community/threads/ultimate-zoo-in-animal-planet.21354/'
+
+fscb -d examples/xenforo/1 'https://www.bigsoccer.com/forums/'
+fscb -d examples/xenforo/1 'https://forums.digitalpoint.com/'
+fscb -d examples/xenforo/1 'https://damskiiclub.ru/'
+fscb -d examples/xenforo/1 'https://bukkit.org/forums/plugin-development.5/'
+fscb -d examples/xenforo/1 'https://www.nucastle.co.uk/forums/music.7/'
+fscb -d examples/xenforo/1 'https://fanficslandia.com/foro/actividades-y-concursos.19/'
 
 fsc -d examples/xenforo/2 'https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/'
 fsc -d examples/xenforo/2 'https://www.mothering.com/threads/link-to-moe-statement.67736/'
@@ -42,9 +81,24 @@ fsc -d examples/xenforo/2 'https://xenforo.com/community/threads/vbulletin-xenfo
 fsc -d examples/xenforo/2 'https://rune-server.org/threads/the-player-updating-procedure.125681/'
 fsc -w 0.2 -d examples/xenforo/2 'https://forums.mangadex.org/threads/mangadex-s5e5-anniversary-staff-ama.1106676/'
 
+fscb -d examples/xenforo/2 'https://xenforo.com/community/'
+fscb -d examples/xenforo/2 'https://www.se7ensins.com/forums/'
+fscb -d examples/xenforo/2 'https://www.kia-forums.com/forums/'
+fscb -d examples/xenforo/2 'https://www.bigfooty.com/forum/forums/drafts-trading-free-agency.61/'
+fscb -d examples/xenforo/2 'https://kenhsinhvien.vn/f/phong-truyen.213/'
+fscb -d examples/xenforo/2 'https://rune-server.org/forums/defects.751/'
+fscb -d examples/xenforo/2 'https://forums.mangadex.org/forums/scanlator-discussions.63/'
+
 fsc -d examples/xmb 'http://www.sciencemadness.org/talk/viewthread.php?tid=6064'
 fsc -d examples/xmb 'https://forum.postcrossing.com/viewthread.php?tid=119946'
 fsc -d examples/xmb 'https://forums.xmbforum2.com/viewthread.php?tid=777001'
 fsc -d examples/xmb 'https://forum.solbu.net/viewthread.php?tid=2517'
+
+fscb -d examples/xmb 'https://www.sciencemadness.org/whisper/'
+fscb -d examples/xmb 'https://forum.wendishresearch.org/'
+fscb -d examples/xmb 'https://forum.solbu.net/'
+fscb -d examples/xmb 'https://div-arena.co.uk/forum2/forumdisplay.php?fid=3'
+fscb -d examples/xmb 'https://locostbuilders.co.uk/forum/2/'
+fscb -d examples/xmb 'https://forums.xmbforum2.com/forumdisplay.php?fid=29'
 
 find examples -type f | parallel 'jq . {} | sponge {}'
