@@ -72,7 +72,7 @@ class xmb(ForumExtractor):
             )
 
             while True:
-                for i in rq.search(r'tr -class bgcolor / sed "N;N;s/\n/\t/g"').split(
+                for i in rq.search(r'tr -class bgcolor | "%C\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"').split(
                     "\n"
                 )[:-1]:
                     tr = i.split("\t")

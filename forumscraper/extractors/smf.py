@@ -536,7 +536,7 @@ class smf2(ForumExtractor):
                             {
                                 * #E>category_[0-9]+_boards,
                                 div .categoryframe self@; table .boardsframe child@
-                            } ( tr )( div ) -style child@,
+                            }; ( tr )( div ) -style child@,
                             table .boardsframe self@; [1:] tr child@,
                             div #E>board_[0-9]+_childboards self@; * #E>board_[0-9]+,
                         }; {

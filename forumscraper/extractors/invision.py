@@ -65,7 +65,7 @@ class invision(ForumExtractor):
                 div class=b>"ipsFlex ipsFlex-ai:center "; div class="ipsFlex ipsFlex-ai:center"; {
                     .rank img title | "%(title)v",
                     .rank_date time datetime | "%(datetime)v",
-                }
+                },
                 .badges.a div class=b>"ipsFlex ipsFlex-ai:center "; ul; li; img alt | "%(alt)v\n"
             """
                 )
@@ -252,7 +252,7 @@ class invision(ForumExtractor):
                 .id.u article #B>elComment_[0-9]* | "%(id)v\n" / sed "s/^elComment_//",
                 aside; {
                     .user h3 class=b>"ipsType_sectionHead cAuthorPane_author "; * c@[0] [0] | "%i",
-                    * .cAuthorPane_photo data-role=photo {
+                    * .cAuthorPane_photo data-role=photo; {
                         .user_avatar a .ipsUserPhoto; img src | "%(src)v",
                         .badges.a {
                             img title alt | "%(alt)v\n",
@@ -440,7 +440,7 @@ class invision(ForumExtractor):
                             .icon [0] img src | "%(src)v"
                         },
                         .icon2 [0] span .cForumGrid__hero-image data-background-src | "%(data-background-src)v",
-                        div ( .ipsDataItem_main )( .cForumGrid__content ) {
+                        div ( .ipsDataItem_main )( .cForumGrid__content ); {
                             * ( .ipsDataItem_title )( .cForumGrid__title ); [0] a; {
                                 .title * self@ |"%i",
                                 .link * self@ | "%(href)v"
@@ -491,7 +491,7 @@ class invision(ForumExtractor):
                         .name * c@[0] | "%i",
                         .link * self@ | "%(href)v"
                     } | ,
-                    [0] * ( .ipsDataItem_stats )( .ipsTopicSnippet__stats ) {
+                    [0] * ( .ipsDataItem_stats )( .ipsTopicSnippet__stats ); {
                         .group-indicator [0] img .cGroupIndicator src | "%(src)v",
                         span .ipsDataItem_stats_number; {
                             .replies [0] * self@ | "%i",

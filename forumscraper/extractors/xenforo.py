@@ -112,7 +112,7 @@ class xenforo2(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                .title h1 {
+                .title h1; {
                     h1 .p-title-value | "%i",
                     h1 qid="page-header" | "%i",
                     h1 .MessageCard__thread-title | "%i"
