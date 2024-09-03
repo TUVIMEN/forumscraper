@@ -14,16 +14,16 @@ from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 guesslist = [
     {
         "func": "get_thread",
-        "exprs": [r"^/(.*[/?])?(thread|topic)s?/"],
+        "exprs": [r"/(.*[/?])?(thread|topic)s?/"],
     },
     {"func": "get_board", "exprs": [r"^/(.*[/?])?forums?/$"]},
     {
         "func": "get_forum",
-        "exprs": [r"^/(.*[/?])?forums?/"],
+        "exprs": [r"/(.*[/?])?forums?/"],
     },
     {
         "func": "get_tag",
-        "exprs": [r"^/(.*[/?])?tags?/"],
+        "exprs": [r"/(.*[/?])?tags?/"],
     },
     {"func": "get_board", "exprs": None},
 ]
@@ -107,7 +107,7 @@ class xenforo2(ForumExtractor):
             url_first_delimiter = "?"
             if url.find("?") != -1:
                 url_first_delimiter = "&"
-            ret = {"format_version": "xenforo-2-thread", "url": url, "id": i_id}
+            ret = {"format_version": "xenforo-2-thread", "url": url, "id": int(i_id)}
 
             t = json.loads(
                 rq.search(
@@ -297,7 +297,7 @@ class xenforo2(ForumExtractor):
             return reliq(self.session.get_json(url, settings, state)["html"]["content"])
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "xenforo-2-user", "url": url, "id": i_id}
+            ret = {"format_version": "xenforo-2-user", "url": url, "id": int(i_id)}
 
             t = json.loads(
                 rq.search(
@@ -575,7 +575,7 @@ class xenforo1(ForumExtractor):
             return avatar, user_id
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "xenforo-1-thread", "url": url, "id": i_id}
+            ret = {"format_version": "xenforo-1-thread", "url": url, "id": int(i_id)}
             page = 0
 
             t = json.loads(

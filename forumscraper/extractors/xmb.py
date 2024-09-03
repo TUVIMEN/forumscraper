@@ -29,7 +29,7 @@ class xmb(ForumExtractor):
             self.trim = True
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "xmb-thread", "url": url, "id": i_id}
+            ret = {"format_version": "xmb-thread", "url": url, "id": int(i_id)}
             page = 0
 
             t = json.loads(
@@ -72,9 +72,9 @@ class xmb(ForumExtractor):
             )
 
             while True:
-                for i in rq.search(r'tr -class bgcolor | "%C\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"').split(
-                    "\n"
-                )[:-1]:
+                for i in rq.search(
+                    r'tr -class bgcolor | "%C\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"'
+                ).split("\n")[:-1]:
                     tr = i.split("\t")
                     post = {}
 
@@ -152,15 +152,15 @@ class xmb(ForumExtractor):
         self.guesslist = [
             {
                 "func": "get_thread",
-                "exprs": [r"^/(.*/)?viewthread.php\?tid=\d+$"],
+                "exprs": [r"/(.*/)?viewthread.php\?tid=\d+$"],
             },
             {
                 "func": "get_forum",
-                "exprs": [r"^/(.*/)?forumdisplay.php\?fid=\d+$"],
+                "exprs": [r"/(.*/)?forumdisplay.php\?fid=\d+$"],
             },
             {
                 "func": "get_board",
-                "exprs": [r"^/(.*/)?index.php\?gid=\d+$"],
+                "exprs": [r"/(.*/)?index.php\?gid=\d+$"],
             },
             {"func": "get_board", "exprs": None},
         ]

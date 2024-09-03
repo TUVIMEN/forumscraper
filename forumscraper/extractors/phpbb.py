@@ -21,7 +21,7 @@ class phpbb(ForumExtractor):
             self.trim = True
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "phpbb-2+-thread", "url": url, "id": i_id}
+            ret = {"format_version": "phpbb-2+-thread", "url": url, "id": int(i_id)}
             page = 0
 
             t = json.loads(
@@ -104,15 +104,15 @@ class phpbb(ForumExtractor):
         self.guesslist = [
             {
                 "func": "get_thread",
-                "exprs": [r"^/(.*/)?viewtopic.php.*[\&\?]t=\d+"],
+                "exprs": [r"/(.*/)?viewtopic.php.*[\&\?]t=\d+"],
             },
             {
                 "func": "get_forum",
-                "exprs": [r"^/(.*/)?viewforum.php"],
+                "exprs": [r"/(.*/)?viewforum.php"],
             },
             {
                 "func": "get_board",
-                "exprs": [r"^/(.*/)?index.php"],
+                "exprs": [r"/(.*/)?index.php"],
             },
             {"func": "get_board", "exprs": None},
         ]

@@ -68,7 +68,7 @@ def item_file_check_r(url, path_format, i_id, output, force):
     path = None
 
     if path_format and Outputs.write_by_id in output:
-        path = path_format.format(str(i_id))
+        path = path_format.format(i_id)
     elif Outputs.write_by_hash in output:
         path = strtosha256(url)
 
@@ -113,7 +113,7 @@ class ItemExtractor:
         if Outputs.only_urls_forums in outtype:
             return
 
-        r = url_valid(url, regex=self.match[0], base=True)
+        r = url_valid(url, regex=self.match[0], base=True, matchwhole=True)
 
         if Outputs.only_urls_threads in outtype:
             self.state_add_url(typekey, url, state, settings)
@@ -124,7 +124,7 @@ class ItemExtractor:
             if not rq:
                 return
         else:
-            i_id = int(r[1][self.match[1]])
+            i_id = r[1][self.match[1]]
 
         path = item_file_check(url, self.path_format, i_id, settings)
 
@@ -437,7 +437,7 @@ class ForumExtractor:
 
         if output & Outputs.writers != 0:
             path = item_file_check_r(
-                url, "", 0, Outputs.write_by_hash, settings["force"]
+                url, "", "0", Outputs.write_by_hash, settings["force"]
             )
             if path is None:
                 return
@@ -556,7 +556,7 @@ class ForumExtractor:
             return
 
         state = self.create_state(state)
-        func = self.guess_search(rest)
+        func = self.guess_search(url)
 
         if func:
             state["scraper-method"] = func
@@ -589,6 +589,9 @@ class ForumExtractor:
                 )
             ):
                 return url
+
+        if self.findroot_expr is None:
+            return
 
         newurl = rq.search(self.findroot_expr)
         return url_merge(url, newurl)

@@ -13,6 +13,7 @@ from .xenforo import (
     xenforo2,
 )
 from .invision import invision
+from .hackernews import hackernews
 
 
 class Extractor(ForumExtractorIdentify):
@@ -26,6 +27,7 @@ class Extractor(ForumExtractorIdentify):
         self.xmb = xmb(self.session, **self.settings)
         self.xenforo = xenforo(self.session, **self.settings)
         self.invision = invision(self.session, **self.settings)
+        self.hackernews = hackernews(self.session, **self.settings)
 
         self.guesslist = [
             {
@@ -35,6 +37,7 @@ class Extractor(ForumExtractorIdentify):
                     r"/?viewtopic.php.*[\&\?]t=\d+",
                     r"/viewthread.php\?tid=\d+$",
                     r"[/?](thread|topic)s?/",
+                    r"^https://news.ycombinator.com/item\?id=",
                 ],
             },
             {"func": "get_board", "exprs": [r"/forums?/$"]},
@@ -45,8 +48,11 @@ class Extractor(ForumExtractorIdentify):
                     r"/viewforum.php",
                     r"/forumdisplay.php\?fid=\d+$",
                     r"[/?]forums?/",
+                    r"^https://news.ycombinator.com(/?|/(news|newest|front|show|ask|jobs))($|\?p=)",
+                    r"^https://news.ycombinator.com/(favorites|submitted)\?id=",
                 ],
             },
+            {"func": "get_user", "exprs": [r"^https://news.ycombinator.com/user\?id="]},
             {"func": "get_tag", "exprs": [r"[/?]tags?/"]},
             {"func": "get_board", "exprs": None},
         ]

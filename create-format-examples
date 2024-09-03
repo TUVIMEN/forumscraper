@@ -8,7 +8,7 @@ fscb() {
     fsc --nothreads --boards --forums --tags --pages-max 1 --pages-max-depth 1 "$@"
 }
 
-mkdir -p examples/{{xenforo,smf}/{1,2},invision,xmb,phpbb}
+mkdir -p examples/{{xenforo,smf}/{1,2},invision,xmb,phpbb,hackernews}
 
 fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/478369-invision-community-5-tagging-reinvented/'
 fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/'
@@ -100,5 +100,17 @@ fscb -d examples/xmb 'https://forum.solbu.net/'
 fscb -d examples/xmb 'https://div-arena.co.uk/forum2/forumdisplay.php?fid=3'
 fscb -d examples/xmb 'https://locostbuilders.co.uk/forum/2/'
 fscb -d examples/xmb 'https://forums.xmbforum2.com/forumdisplay.php?fid=29'
+
+fsc -d examples/hackernews 'https://news.ycombinator.com/user?id=jchw'
+fsc -d examples/hackernews 'https://news.ycombinator.com/user?id=kragen'
+fsc -d examples/hackernews 'https://news.ycombinator.com/user?id=lelanthran'
+fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41427563'
+fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41425150'
+fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41434637'
+fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41425910'
+fscb -d examples/hackernews 'https://news.ycombinator.com/news'
+fscb -d examples/hackernews 'https://news.ycombinator.com/front'
+fscb -d examples/hackernews 'https://news.ycombinator.com/ask'
+fscb -d examples/hackernews 'https://news.ycombinator.com/show'
 
 find examples -type f | parallel 'jq . {} | sponge {}'

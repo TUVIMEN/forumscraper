@@ -1,0 +1,1810 @@
+{
+  "format_version": "hackernews-thread",
+  "url": "https://news.ycombinator.com/item?id=41434637",
+  "id": 41434637,
+  "link": "https://blog.jgc.org/2024/09/steve-ballmers-binary-search-interview.html",
+  "title": "Steve Ballmer&#x27;s incorrect binary search interview question",
+  "score": 149,
+  "date": "2024-09-03T13:12:51",
+  "user": {
+    "link": "https://news.ycombinator.com/user?id=jgrahamc",
+    "name": "jgrahamc"
+  },
+  "comments_count": 128,
+  "comments_link": "https://news.ycombinator.com/item?id=41434637",
+  "text": "",
+  "comments": [
+    {
+      "id": 41436905,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=throwaway_1more",
+        "name": "throwaway_1more"
+      },
+      "date": "2024-09-03T17:05:36",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I recently interviewed for a senior level role for a complex domain (payments), this is an area I have more than a decade of experience. The interviews went flawlessly because I know payments inside out, not just in US but in UK and most EU jurisdictions. The funny bit is that the role being senior, influencing, soft communication skills and managing conflict are even more important than the subject matter expertise and I nailed those areas as well (they threw an obnoxious senior manager that kept interrupting me as I calmly answered the questions, the follow up was that my performance was a masterclass in handling conflict). The final round was with a business person who fancied himself the defacto subject matter expert and kept throwing trivia questions about payments. His plan was to go through as much trivia as he could until he could find something to justify a no. His last question (he literally stopped as soon as he got his way after this question), the question was, have you got personal experience working on real-time payments? I do, in more than one countries (US introduced this very recently as part of fednow), he pushed me about the fednow and obviously this is so new that I only have read the specifications and evaluated a few vendors to decide whether to build or buy. He used this as justification to make a negative reommendation, claiming I don&#x27;t have real-time payments experience.<p>Honestly, I don&#x27;t want to work in an environment like that, it was a large US bank and where their biggest problems are not product innovation or focusing on customer but production failures! An area I have rescued several large companies in, apart from payments expertise and made sure I communicated this. But sometimes you get lucky and don&#x27;t have to find out the hard way that this place is not pleasant."
+    },
+    {
+      "id": 41437312,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=potamic",
+        "name": "potamic"
+      },
+      "date": "2024-09-03T17:52:39",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; they threw an obnoxious senior manager that kept interrupting me as I calmly answered the questions<p>This is a red flag. To me this signals that a company not only has a toxic culture, but embraces it. Such places attract personalities who love conflict and once there are enough people, they set the culture.<p>What doesn&#x27;t get said often is that conflict is a failure of leadership. Often all it takes to resolve conflict is for one very senior leader to snap their fingers and say, &quot;Guys, I want you two to make this happen&quot;. But what happens is that leadership is either far too disconnected from the ground to align their teams, or they constitutionally advocate conflict within their teams in the name of competitiveness. Either way, such places can be hell to work in."
+    },
+    {
+      "id": 41437129,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=AmericanChopper",
+        "name": "AmericanChopper"
+      },
+      "date": "2024-09-03T17:27:27",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That SME guy sounds like an asshole, but I used to have an interview technique where I’d ask increasingly specific and low level questions about the candidates area of expertise until it got to the point where I’d be pretty confident they wouldn’t know the answer off the top of their head. I wasn’t adversarial or rude about it, I just wanted to find out if they were comfortable saying “I don’t know”, because not knowing something is an everyday part of technical work, but not being comfortable saying it can be big source of issues.<p>The candidates who were otherwise the most competent tended to be the most comfortable with the I don’t know answer. Getting defensive about it I always considered to be a red flag."
+    },
+    {
+      "id": 41437224,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rocketbop",
+        "name": "rocketbop"
+      },
+      "date": "2024-09-03T17:40:41",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I always say I don’t know in interviews when I really don’t, rather than try to bluff. Some interviewers don’t like this though. As with the parent, perhaps that’s actually a good thing as you avoid having to work in a bad environment. Other times though, you may be being interviewed with a bad egg who you’ll never actually need to work with in the actual job."
+    },
+    {
+      "id": 41437297,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kgla",
+        "name": "<font color=\"#3c963c\">kgla</font>"
+      },
+      "date": "2024-09-03T17:50:03",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "They don&#x27;t know what the interviewer wants to hear. There are places where every admission of not knowing something is held against you."
+    },
+    {
+      "id": 41435018,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kibwen",
+        "name": "kibwen"
+      },
+      "date": "2024-09-03T13:58:36",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The article implies that the interviewee <i>assumes</i> that the number is being chosen randomly, when Ballmer could actually be choosing adversarially.<p>However, if the interviewee assumes that Ballmer is being adversarial, then you can pick a different value as your initial guess, which causes the probabilities to shift. Even the OP assumes that the interviewee will start guessing with 50, but, because of the way binary search works, you can select an initial guess that is offset from 50 (with a randomized offset each time) to defeat trivial adversarial attacks that attempt to game the heuristic, while still mostly reaping the benefits of binary search.<p>I&#x27;d be interested to see someone do the analysis of what the optimal random-offset-selection algorithm would be to counter trivial adversarial choices."
+    },
+    {
+      "id": 41437380,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=auselen",
+        "name": "auselen"
+      },
+      "date": "2024-09-03T17:58:19",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Genuinely asking - not directly to OP of course, wasn’t this how people were playing the game when you were kids? Not as rigorous, but you intuitively try offsets to get lucky and find the number in fewer tries?"
+    },
+    {
+      "id": 41435292,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mrgoldenbrown",
+        "name": "mrgoldenbrown"
+      },
+      "date": "2024-09-03T14:24:38",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It would not be shocking to find out a cocky interviewer posed a brainteaser while leaving out a fundamental assumption, then judged an answer as incorrect because it violated that unspoken assumption - I can imagine Ballmer saying &quot;no actually, you have to start with a guess of 50, everyone knows that.&quot;"
+    },
+    {
+      "id": 41435715,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tasty_freeze",
+        "name": "tasty_freeze"
+      },
+      "date": "2024-09-03T15:10:46",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I worked with a guy like this. He told me this story to impress me with how incisive he is. Instead it told me he is an egomaniac. His story went something like this, I don&#x27;t recall the exact details:<p>&quot;I was interviewing a candidate who said he had experience programming on an IBM&#x2F;370. So I asked him if you perform a character edit format instruction in EBCDIC mode with the leading zero specifier and the numeric value is too great to fit into the allocated field, after the instruction completes, what is the state of the program status word overflow field?&quot;  Then trounced the guy for not knowing. The thing is the guy asking the question happened to have worked on that instruction when he worked at Amdahl.<p>One thing to know is the IBM 360 and descendant family had a commercial instruction set option that, in a single instruction, could take a format value and generate a string output that followed some format specification, kind of like sprintf but with even more options."
+    },
+    {
+      "id": 41436686,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jareklupinski",
+        "name": "jareklupinski"
+      },
+      "date": "2024-09-03T16:45:04",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; if you perform a character edit format instruction in EBCDIC mode with the leading zero specifier and the numeric value is too great to fit into the allocated field, after the instruction completes, what is the state of the program status word overflow field?<p>&quot;Is the computer operating on American electricity, or European?&quot;"
+    },
+    {
+      "id": 41436714,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cbsmith",
+        "name": "cbsmith"
+      },
+      "date": "2024-09-03T16:48:10",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<i>African</i> or European. Everyone knows that."
+    },
+    {
+      "id": 41437152,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jb3689",
+        "name": "jb3689"
+      },
+      "date": "2024-09-03T17:30:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Ah, the B type developer. Knows enough to find exciting and interesting problems but doesn’t know how to distinctly separate a type C (who can’t solve the problem at all) from a type A ( who knows the problem in and out and knows “it depends”). Not all that different to me from midlevel dev who learns about concurrency&#x2F;metaprogramming&#x2F;etc and starts using it as a tool for everything. Just enough to be dangerous."
+    },
+    {
+      "id": 41435366,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=enneff",
+        "name": "enneff"
+      },
+      "date": "2024-09-03T14:33:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Unless the interviewer has totally lost sight of the purpose of the interview, they’d recognise a candidate starting at an offset from 50 as an instant pass."
+    },
+    {
+      "id": 41435428,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ozim",
+        "name": "ozim"
+      },
+      "date": "2024-09-03T14:41:13",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "What was the last time you were on the interview?<p>I think like 70% of interviews I ever had were like they were there to prove how smart they are and how stupid I am. I suppose most likely to make me feel stupid and accept lowball offer."
+    },
+    {
+      "id": 41435744,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=NickC25",
+        "name": "NickC25"
+      },
+      "date": "2024-09-03T15:13:47",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "One of the worst interviews I ever had was just like that.<p>Often times, the &quot;gotcha&quot; part is just dumb and nonsensical, yet gives the interviewer(s) a sense of misguided (false) superiority, and wastes everyone&#x27;s time.  I would venture to say that 99% of the time it&#x27;s complete un-indicative of how effective the candidate would be in the role.<p>Referring to my aforementioned bad interview - the question, after all the technical stuff had been cleared (this was for a junior frontend dev role) - they asked &quot;imagine a car is broken and not running.  how would you go about figuring out how to fix it?&quot;.  Being someone whose brother and father enjoyed fixing cars, I asked every question about the problem with the car - how it was used, what sort of car it was, what the issue with the car was, what prior problems the car had, etc.  I got a bunch of useless answers.  After I exhausted all my questions, the interviewers told me I had failed.  Why?  One interview brought out a tiny hotwheels car with a missing wheel out of his pocket, and proclaimed to say &quot;you didn&#x27;t ask if it was a real car, it&#x27;s a toy car, of fucking course it&#x27;s not supposed to run like a real car!&quot; while laughing hysterically.  How on earth does that indicate if a junior frontend dev can do their job or not?  Stupid."
+    },
+    {
+      "id": 41435949,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=moritonal",
+        "name": "moritonal"
+      },
+      "date": "2024-09-03T15:31:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Great interview from a certain perspective. You knew for sure (if you had a choice) that you didn&#x27;t want to work for this specific person."
+    },
+    {
+      "id": 41436472,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=crazygringo",
+        "name": "crazygringo"
+      },
+      "date": "2024-09-03T16:21:58",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I had an interview at a major tech company with a similar thing, for a more managerial role.<p>The question was to estimate how many vacuum cleaners there were in the city we were in.<p>Fine, I did some estimation of how many vacuum cleaners per household and per office, across how many households and offices. Standard stuff.<p>Then the guy starts laughing and saying I&#x27;d failed because I didn&#x27;t include discarded vacuum cleaners in landfills. Or the vacuum suction devices they put in your mouth at the dentist&#x27;s office. And so forth. And then had to spend the next five minutes listening to him &quot;teach me&quot; how not to make assumptions. So I acted all polite and tried to fake &quot;oh gosh thank you so much for enlightening me!&quot;<p>Shockingly, I got the job, which required unanimous approval from all interviewers. Never met him again, and to this day I still have no idea whether this was supposed to be a test of estimation (which was easy to pass), a test of not making assumptions (which is dumb, but OK fine I failed), or a test of being appropriately professional and smiling in the face of complete bullshit (which I&#x27;d say I passed with flying colors).<p>I mean, in my professional life I&#x27;ve certainly had my fair share of customers and managers and coworkers who spout bullshit and you really do just have to lie with a smile and say &quot;oh my gosh you&#x27;re so right thank you for explaining that, I appreciate you so much!&quot; Where you need to make them feel smart.<p>On the other hand, I just don&#x27;t think he was thinking that far ahead."
+    },
+    {
+      "id": 41436663,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mgkimsal",
+        "name": "mgkimsal"
+      },
+      "date": "2024-09-03T16:42:25",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Is the landfill actually &#x27;in&#x27; the city, or in a rural area outside the city limits?<p>I had a similar interview years ago - something like &quot;how many windows are there on houses in our town?&quot;.  Wasn&#x27;t quite that, but I asked up front if &quot;houses&quot; meant just physical standalone houses, or if they meant living spaces, including apartments&#x2F;dorms, etc.  I got clarification, gave some estimate with some reasoning, and was then told I was the only person of the 8 they&#x27;d interviewed that had asked any clarifying question at all, which apparently impressed them enough to make an offer."
+    },
+    {
+      "id": 41436125,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=amarcheschi",
+        "name": "amarcheschi"
+      },
+      "date": "2024-09-03T15:50:19",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That just feels like playing chess with a pigeon"
+    },
+    {
+      "id": 41436109,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dllthomas",
+        "name": "dllthomas"
+      },
+      "date": "2024-09-03T15:48:24",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; How on earth does that indicate if a junior frontend dev can do their job or not?<p>Playing devil&#x27;s advocate, maybe a junior frontend dev that doesn&#x27;t trust that they understand what someone is asking for and pushes back on bits that should be obvious will perform better (in some contexts?) than one that doesn&#x27;t.<p>For a junior role in particular, though, it really doesn&#x27;t seem like that should be the threshold and it sounds like it was delivered poorly on top of that."
+    },
+    {
+      "id": 41436343,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=JackFr",
+        "name": "JackFr"
+      },
+      "date": "2024-09-03T16:09:08",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Might be good as an exercise in a workshop on requirements gathering, as part of an interview absolutely stupid."
+    },
+    {
+      "id": 41436829,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=enneff",
+        "name": "enneff"
+      },
+      "date": "2024-09-03T16:58:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It’s been a long long time since I was interviewed for a job, but I have conducted a lot of interviews since then and any signal that the candidate has engaged with the question and has interesting thoughts about it is a huge plus.<p>FWIW I would never ask these kinds of gotcha questions. I just give simple programming problems and talk through solutions with the candidates, and then throw in complications to the questions to make them more interesting and test more areas of the candidates knowledge and problem solving abilities. Yknow, like what happens on the job every day."
+    },
+    {
+      "id": 41437235,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ozim",
+        "name": "ozim"
+      },
+      "date": "2024-09-03T17:42:42",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Good for you, as you look for someone to work with, not someone to cut down their offer.<p>I am basically doing the same as I also interview people - but I also check the market from time to time as I am not company owner.<p>But I basically don&#x27;t care about the offer if company pays guy much or not it is not my money and I only win if I get a smart, nice person who knows his job to work with."
+    },
+    {
+      "id": 41435924,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=EricE",
+        "name": "EricE"
+      },
+      "date": "2024-09-03T15:30:16",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It goes both ways - one interview turned into an acronym gotcha session.  I quickly figured out that was not a place I would want to work; another friend that ended up working their later confirmed my suspicions."
+    },
+    {
+      "id": 41436800,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jliptzin",
+        "name": "jliptzin"
+      },
+      "date": "2024-09-03T16:56:49",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yea, they’re pointless. The amount of time someone spends on a truly difficult and important problem is maybe 0.1% of their job. And usually it’s better to just call in a domain expert anyway if it’s something that important. The other 99.9% - do they show up on time and work hard, do they care about the company, do they fit in with the rest of the team, etc, mostly can’t be determined in a short interview anyway."
+    },
+    {
+      "id": 41436725,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cbsmith",
+        "name": "cbsmith"
+      },
+      "date": "2024-09-03T16:49:04",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "This is why successful organizations shadow interviews."
+    },
+    {
+      "id": 41435520,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=HarryHirsch",
+        "name": "HarryHirsch"
+      },
+      "date": "2024-09-03T14:51:07",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Like this one: <a href=\"https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;2011&#x2F;07&#x2F;27&#x2F;ohreally&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;rachelbythebay.com&#x2F;w&#x2F;2011&#x2F;07&#x2F;27&#x2F;ohreally&#x2F;</a><p>Yes, that happens, and elsewhere she goes on about culture in tech."
+    },
+    {
+      "id": 41435687,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wisemang",
+        "name": "wisemang"
+      },
+      "date": "2024-09-03T15:08:30",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I don’t doubt this happens but seems like a poor example. She effectively rooted out a bullshitter. No worries if you don’t know how a tool works, but just say I don’t know.  That answer was nonsensical."
+    },
+    {
+      "id": 41435809,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=HarryHirsch",
+        "name": "HarryHirsch"
+      },
+      "date": "2024-09-03T15:19:22",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The purpose of an interview is not to root out a bullshitter but to find someone you can work with. If that guy doesn&#x27;t know about TCP&#x2F;IP, move on to the next topic. If the guy has poor attitude, be polite. Just don&#x27;t waste time with making fun of the candidate, it does not reflect well on interviewer and company.<p>For what we know, the guy may well have been employing &quot;test-taking strategies&quot;, and he may have been led down the garden path by the interviewer.<p>There&#x27;s far too many posts in Rachel&#x27;s blog where she goes on about &quot;the one&quot;, who knows much better already, and here she channels the asshat that she complains about when she encounters him at work."
+    },
+    {
+      "id": 41436792,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rpdillon",
+        "name": "rpdillon"
+      },
+      "date": "2024-09-03T16:56:16",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I strongly agree with the sibling comment that this is a perfectly valid interview question.<p>One of the biggest red flags in an interview is if I ask a question and the person doesn&#x27;t know how to say &#x27;I don&#x27;t know&#x27;, because it suggests there&#x27;s a big risk that if I assign them a task in their day-to-day work, they won&#x27;t tell me if they feel unprepared to tackle it. That&#x27;s a far bigger issue than not knowing that traceroute uses variable TTLs to figure out the timing along the route."
+    },
+    {
+      "id": 41436145,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=treatmesubj",
+        "name": "treatmesubj"
+      },
+      "date": "2024-09-03T15:52:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Is the guy&#x27;s response really that far off?<p>Each router checks its table for the destination, and if it doesn&#x27;t know it, queries the next upstream router, its default route, the next hop. Each router likely ultimately informs you of the hand-off via a packet of some sort, and your then traceroute sends a ping&#x2F;ICMP to each hop to learn how far away they are.<p>He maybe could&#x27;ve been pushed to expand on what he did know in more detail, but it seems like she just threw out SNMP as misleading bait, and he maybe mixed up ICMP and SNMP. She is right to call herself a troll, but wow, that&#x27;s crazy to say she caught the guy in a lie of insanity."
+    },
+    {
+      "id": 41437089,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=stickfigure",
+        "name": "stickfigure"
+      },
+      "date": "2024-09-03T17:23:15",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The stepwise increasing TTL is the fundamental mechanism that makes traceroute work. Any answer that omits this is so vacuously incomplete that it might as well be considered wrong."
+    },
+    {
+      "id": 41436508,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=HarryHirsch",
+        "name": "HarryHirsch"
+      },
+      "date": "2024-09-03T16:26:23",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<i>Is the guy&#x27;s response really that far off?</i><p>When you think about it, the candidate isn&#x27;t even that wrong. Back then, at university, a certain professor would explain the oral exam to the candidate at the beginning. He would explain that he would incrementally increase the difficulty and skip from area to area. The goal would be to find the limits of the student&#x27;s knowledge, the student would walk away feeling terrible, and he, the professor, didn&#x27;t enjoy the experience.<p>That&#x27;s how it ought to be, but here? OK, candidate doesn&#x27;t know ICMP well, next topic, no need to waste time and dig in.<p>Here&#x27;s another unfavourable thought: some people with abusive childhoods react very badly to dominance displays, and here is Rachel engaging in just that. One wonders what had happened before."
+    },
+    {
+      "id": 41435613,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hamburglar",
+        "name": "hamburglar"
+      },
+      "date": "2024-09-03T15:00:44",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "And in particular, this was rampant at Microsoft in the Ballmer days."
+    },
+    {
+      "id": 41436277,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jncfhnb",
+        "name": "jncfhnb"
+      },
+      "date": "2024-09-03T16:03:30",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; I see you passed this guy after a single guess. Why was that?<p>&gt; Well, he guessed 69, sir, so I assumed he was doing some serious game theoretic calculations"
+    },
+    {
+      "id": 41436777,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=enneff",
+        "name": "enneff"
+      },
+      "date": "2024-09-03T16:55:13",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I didn’t mean he passes the entire interview, just that he saw through the question and it’s probably best to move on to something else."
+    },
+    {
+      "id": 41436289,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=krisoft",
+        "name": "krisoft"
+      },
+      "date": "2024-09-03T16:04:26",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Not really. The question was &quot;Should you accept to play this game?&quot; That is not a question where a number is an expected answer."
+    },
+    {
+      "id": 41436787,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=enneff",
+        "name": "enneff"
+      },
+      "date": "2024-09-03T16:55:52",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I’m assuming the context of making the guess is explaining the thought process. Otherwise how would that even come up?"
+    },
+    {
+      "id": 41437296,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Someone",
+        "name": "Someone"
+      },
+      "date": "2024-09-03T17:49:55",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; I&#x27;d be interested to see someone do the analysis of what the optimal random-offset-selection algorithm would be to counter trivial adversarial choice<p>If you know your opponent picks a number uniformly from all numbers that lead to a maximum of guesses, the optimum strategy is a binary search between those numbers, making sure to pick one of those numbers at each turn.<p>The problem stays completely symmetric under this condition, so there would be two (maybe four due to edge conditions) optimal first guesses summing to 101.<p>In general, I think the trick still is a binary search where each guess splits the range of options in halves of equal expected&#x2F;min&#x2F;max cost (depending on whether you want to optimize for expected&#x2F;min&#x2F;max cost)."
+    },
+    {
+      "id": 41435274,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=thedavibob",
+        "name": "<font color=\"#3c963c\">thedavibob</font>"
+      },
+      "date": "2024-09-03T14:22:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; you can select an initial guess that is offset from 50<p>Given that 7 guesses covers 128 numbers, you can offset by +&#x2F;- 14 without actually affecting the &quot;worst case&quot; of the algorithm (i.e. provided you have at most 64 either side of your guess). As you say, randomly selecting this offset would neuter most adversarial examples (purposefully chosen to fall into the gaps of binary search) and would possibly completely remove the benefits from adversarial choice (though a tailored distribution on offset might be required there).<p>I&#x27;d be interested in such an analysis too."
+    },
+    {
+      "id": 41435377,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hulium",
+        "name": "hulium"
+      },
+      "date": "2024-09-03T14:34:06",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Given that 7 guesses covers 128 numbers<p>I might be confused, but don&#x27;t 7 guesses actually cover 255 numbers? I think you have to count all nodes in the search tree, not only the leafs, because you can get the correct number before reaching a leaf node.<p>Or more generally k guesses cover 2^(k+1)-1 numbers,e.g. with one guess you get the answers correct&#x2F;high&#x2F;low, which can cover 3 numbers)<p>Maybe there is a mistake in my thinking, because this would mean you can cover 127 numbers with 6 guesses so you could not lose the original game.<p>Edit: My mistake is that you still have to explicitly guess even if you know the precise answer already, so you cannot cover 3 numbers with 1 guess. This means 7 guesses cover 127 numbers."
+    },
+    {
+      "id": 41435547,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sltkr",
+        "name": "sltkr"
+      },
+      "date": "2024-09-03T14:53:35",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Your logic is correct but you are off-by-one. 1 guess gets you 1 number, so the formula is 2^k - 1, and 7 guesses thus covers 127 numbers.<p>You can also view it as a recurrence:<p><pre><code>  f(1) = 1  f(n) = 2*f(n - 1) + 1 = 2^n - 1</code></pre>But your binary search tree example is more intuitive."
+    },
+    {
+      "id": 41435622,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hulium",
+        "name": "hulium"
+      },
+      "date": "2024-09-03T15:01:37",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yes, you are right. In this game, you can know the answer after 6 guesses, but then you also have to tell him, which counts as the 7th guess."
+    },
+    {
+      "id": 41435641,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hamburglar",
+        "name": "hamburglar"
+      },
+      "date": "2024-09-03T15:02:55",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You are correct that you can know the answer in 6, but actually winning requires you to “guess” that one last time once you know it."
+    },
+    {
+      "id": 41436658,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wrvn",
+        "name": "wrvn"
+      },
+      "date": "2024-09-03T16:42:02",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That approach would still leave you weak to always picking 1 or 100.Without proof, I believe the optimal guessing strategy would perform equal (on average) for every number, to not give the opponent any standout choice (common for optimal strategies, but not always the case). If my math serves me right, that would be an average of log2(100) = 6.64 guesses for any number, which would make you lose 0.64$ on average."
+    },
+    {
+      "id": 41436697,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wrvn",
+        "name": "wrvn"
+      },
+      "date": "2024-09-03T16:46:49",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Although upon further thinking, you could then sprinkle in some binomial searches to abuse the uniformity. So the -0.64$ is merely a lower bound."
+    },
+    {
+      "id": 41436713,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=furyofantares",
+        "name": "furyofantares"
+      },
+      "date": "2024-09-03T16:48:08",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I don&#x27;t think you have to put your random offset all in the first guess either. Maybe you could random offset +&#x2F;- 7 on the first guess, +&#x2F;- 3 or 4 on the next, something like that."
+    },
+    {
+      "id": 41435056,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jgrahamc",
+        "name": "jgrahamc"
+      },
+      "date": "2024-09-03T14:01:52",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "And then if Ballmer assumes the other party assumes he&#x27;s being adversarial we get into game theory."
+    },
+    {
+      "id": 41435107,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=TeMPOraL",
+        "name": "TeMPOraL"
+      },
+      "date": "2024-09-03T14:06:26",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The way forward is to make Ballmer pay with time for screwing with you, which gets us into geopolitics, and then using the resulting MAD dynamics to make the game fair again. That&#x27;s how adults with keys to the nukes do it :)."
+    },
+    {
+      "id": 41435200,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=InDubioProRubio",
+        "name": "InDubioProRubio"
+      },
+      "date": "2024-09-03T14:15:37",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "And then everyone gets nukes, or at least anti-matter mined in some vacuum chamber copperstatue configuration."
+    },
+    {
+      "id": 41435104,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kibwen",
+        "name": "kibwen"
+      },
+      "date": "2024-09-03T14:06:06",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The ultimate conclusion of which is likely that both parties will decay to picking the secret value&#x2F;first guess randomly (although I&#x27;m not sure if the optimal distribution is perfectly flat?), which is also something that we can model."
+    },
+    {
+      "id": 41436064,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gcanyon",
+        "name": "gcanyon"
+      },
+      "date": "2024-09-03T15:44:10",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Seems like the distribution definitely won’t be flat since the guesser can randomly choose any of the numbers from 37 to 64 as a first guess without losing anything on the large side, so Ballmer starting with any of those increases his chance of having to pay out the $5. Likewise for other numbers there are nuances to what can be guessed."
+    },
+    {
+      "id": 41435139,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=massung",
+        "name": "massung"
+      },
+      "date": "2024-09-03T14:09:54",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Never go in against a Sicilian when death is on the line!"
+    },
+    {
+      "id": 41435131,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=1123581321",
+        "name": "1123581321"
+      },
+      "date": "2024-09-03T14:08:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I’d pay $5 to watch a short film of Ballmer asking this question to Wallace Shawn’s Vizzini."
+    },
+    {
+      "id": 41435335,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cjfd",
+        "name": "cjfd"
+      },
+      "date": "2024-09-03T14:30:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I have not really studied this but maybe choosing the guess randomly when the number of possibilities is even is already enough to counter an adversarial opponent. Note that 50 is not the only &#x27;optimal&#x27; guess in the beginning. 51 is just as good."
+    },
+    {
+      "id": 41436532,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Bognar",
+        "name": "Bognar"
+      },
+      "date": "2024-09-03T16:29:07",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Any number between 36 and 64 should be as good!"
+    },
+    {
+      "id": 41436611,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=leni536",
+        "name": "leni536"
+      },
+      "date": "2024-09-03T16:37:39",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yes, this is a Nash equilibrium question."
+    },
+    {
+      "id": 41436082,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=aldanor",
+        "name": "aldanor"
+      },
+      "date": "2024-09-03T15:45:58",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "So the <i>actual</i> problem here is to find Nash equilibrium."
+    },
+    {
+      "id": 41435303,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=corecirculator",
+        "name": "corecirculator"
+      },
+      "date": "2024-09-03T14:26:30",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Other commenters are wrong in saying that the payout is different for an adversarial choice.The crux of the payout derivation is: we can only cover 1 number in step 1, 2 in step 2, 4 in step 3, 8 in step 4, and so on. You can choose your initial number in binary search randomly, and as long as you meet the above condition is met (# of possible numbers covered in each step), payout should be same as 0.2"
+    },
+    {
+      "id": 41435736,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dagw",
+        "name": "dagw"
+      },
+      "date": "2024-09-03T15:13:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "If I &#x27;know&#x27; that my opponent is adversarial, then I might assume that he&#x27;s not picking from the set of 100 possible numbers, but actually from a smaller set of &#x27;adversarial&#x27; numbers, like the set that will always take 6 or 7 guesses using the naive binary search approach, and I can adjust my strategy accordingly."
+    },
+    {
+      "id": 41435535,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=alexey-salmin",
+        "name": "alexey-salmin"
+      },
+      "date": "2024-09-03T14:52:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Your calculation assumes that probability of each number is the same which is not true for adversarial choice."
+    },
+    {
+      "id": 41436406,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=layer8",
+        "name": "layer8"
+      },
+      "date": "2024-09-03T16:15:49",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "If Ballmer is being adversarial, he won’t pick the number at the start, and always win.<p>Of course you can set up the game such that Ballmer has to commit on a number at the start of the game (by sealing it in an envelope or whatever), but that wasn’t specified."
+    },
+    {
+      "id": 41436649,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jefftk",
+        "name": "jefftk"
+      },
+      "date": "2024-09-03T16:41:21",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Ballmer opens with &quot;I&#x27;m thinking of a number between 1 and 100&quot;.  If he uses your strategy instead that&#x27;s a different scenario."
+    },
+    {
+      "id": 41436449,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whimsicalism",
+        "name": "whimsicalism"
+      },
+      "date": "2024-09-03T16:19:50",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "they’re being adversarial within the framed rules of the game, not breaking the rules of the game?"
+    },
+    {
+      "id": 41435081,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=paxys",
+        "name": "paxys"
+      },
+      "date": "2024-09-03T14:04:24",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "As an interviewee my first question would be – are you going to play fair, and how can I verify it?"
+    },
+    {
+      "id": 41435212,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dannyw",
+        "name": "dannyw"
+      },
+      "date": "2024-09-03T14:16:51",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "“As a SWE, I seek to understand important context first, before jumping to build or code. First, I’d like to ask if you’ll guess randomly and fairly, or adversarially?”<p>“Secondly, when significant money is involved, I make sure to verify any inputs. I’m considering the situation, not you personally, untrusted. How can I verify it, or do you want me to proceed assuming that’s verified?”<p>Those are great questions, but it’s also about how you ask it. SWE is not pure engineering. Communications is vitally important."
+    },
+    {
+      "id": 41435606,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mupuff1234",
+        "name": "mupuff1234"
+      },
+      "date": "2024-09-03T15:00:03",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&quot;as you, my interviewer, are a capable SWE I assume you gave me all the context needed to solve the problem&quot;.<p>The interviewing game of asking clarification questions is silly and should stop. In the system design portion I can understand it, but not when asked a direct technical question.<p>It&#x27;s perfectly fine to ask followup questions with added constraints or just directly say that the specification is fuzzy and needs to be clarified first, but having that dance around the basic specs in nonsense (as if you wouldn&#x27;t know if you&#x27;re dealing with a 10PB array or 1kb at work)."
+    },
+    {
+      "id": 41436253,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=krisoft",
+        "name": "krisoft"
+      },
+      "date": "2024-09-03T16:01:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt;  but not when asked a direct technical question.<p>This is anything but a direct technical question though.<p>&gt; It&#x27;s perfectly fine to ask followup questions with added constraints, but having the guessing game to figure out those constraints is nonsense.<p>You say that. I say people being able to ask the right question is one of the most important skills to be a productive developer. So of course as an interviewer I want to know if they can do it.<p>I don&#x27;t know how it works where you are, but we don&#x27;t have a big book of perfectly defined specifications for our work. I guess if we could get one of those that would improve our productivity. But until we obtain one we will keep testing candidates on their ability to ask questions."
+    },
+    {
+      "id": 41436632,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mupuff1234",
+        "name": "mupuff1234"
+      },
+      "date": "2024-09-03T16:39:38",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Sure, and there&#x27;s a way to test the ability to ask questions that isn&#x27;t some &quot;gotcha&quot; type question.As in interviewer you can just say &quot;the specifications aren&#x27;t clear, what questions would you might want to ask to clarify them?&quot;.<p>It&#x27;s not like in the day to day work you go around defining specifications for every tiny function - the default specification are clear from the work environment.<p>Let&#x27;s say you had to implement a &quot;find dups in this array&quot; at work, you probably won&#x27;t go around collecting requirements for that, so asking that in an interview and having the silly dance of &quot;Oh, the interviewee didn&#x27;t ask if the array fits in memory or not&quot; is silly imo - and doesn&#x27;t show anything other than whether the candidate memorized the need to ask that or not.<p>and like I said before, fuzzy specification are more suitable for the system&#x2F;product design part, and can also be part of the coding part, but they shouldn&#x27;t appear as some &quot;gotcha&quot;."
+    },
+    {
+      "id": 41435430,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ibbih",
+        "name": "ibbih"
+      },
+      "date": "2024-09-03T14:41:17",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "wat"
+    },
+    {
+      "id": 41435422,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=csmpltn",
+        "name": "csmpltn"
+      },
+      "date": "2024-09-03T14:40:49",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I guess you could just ask him to write the number down on a piece of paper, and reveal you the number at the end of the interview :)"
+    },
+    {
+      "id": 41435486,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kccqzy",
+        "name": "kccqzy"
+      },
+      "date": "2024-09-03T14:47:11",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The candidate who can ask that is already better than the candidate that jumps straight into a solution. If I&#x27;m the interviewer, I&#x27;d be impressed with such a candidate.<p>And frankly this is a needed skill. Candidates who automatically think about adversarial scenarios tend to write more defensive code, not to mention fewer vulnerabilities."
+    },
+    {
+      "id": 41435529,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=justusthane",
+        "name": "justusthane"
+      },
+      "date": "2024-09-03T14:51:49",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Is there a name for the fallacy where you attribute your success in life to your own intelligence, and thus assume that you are smarter than everyone else, and that you therefor must be right about everything?<p>Sort of an opposite impostor syndrome?"
+    },
+    {
+      "id": 41436141,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=caster_cp",
+        "name": "caster_cp"
+      },
+      "date": "2024-09-03T15:52:31",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Fundamental attribution error <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Fundamental_attribution_error\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Fundamental_attribution_error</a>"
+    },
+    {
+      "id": 41436293,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cranium",
+        "name": "cranium"
+      },
+      "date": "2024-09-03T16:04:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The &quot;fundamental attribution error&quot; is a bias where people attribute their own success to their inner abilities and other people success to external circumstances. (It&#x27;s the reverse when thinking about failure)<p>For the second part of &quot;I&#x27;m superior and know-it-all&quot;, I&#x27;d say it&#x27;s good ol&#x27; jerk-ery?"
+    },
+    {
+      "id": 41437408,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=greenavocado",
+        "name": "greenavocado"
+      },
+      "date": "2024-09-03T18:00:31",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Main character syndrome<p>Narcissistic Personality Disorder"
+    },
+    {
+      "id": 41435617,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jarito",
+        "name": "jarito"
+      },
+      "date": "2024-09-03T15:01:07",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Narrative Bias: <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Narrative_bias\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Narrative_bias</a> is pretty close."
+    },
+    {
+      "id": 41435563,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tcgv",
+        "name": "tcgv"
+      },
+      "date": "2024-09-03T14:55:31",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; an opposite impostor syndrome?<p>Dunning–Kruger effect<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Dunning%E2%80%93Kruger_effect\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Dunning%E2%80%93Kruger_effect</a>"
+    },
+    {
+      "id": 41436556,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dustincoates",
+        "name": "dustincoates"
+      },
+      "date": "2024-09-03T16:31:43",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Just because it&#x27;s one of my pet peeves, this is not what Dunning Kruger says. What it says is that people who are poorly skilled in a task will overestimate their skill and those highly skilled will underestimate, but not that the poorly skilled estimate themselves to be better than the highly skilled.<p>From the wikipedia article you link:<p>&gt; Among laypeople, the Dunning–Kruger effect is often misunderstood as the claim that people with low intelligence are more confident in their knowledge and skills than people with high intelligence."
+    },
+    {
+      "id": 41437289,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tcgv",
+        "name": "tcgv"
+      },
+      "date": "2024-09-03T17:48:42",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "My response was directed specifically at the OP&#x27;s second question, about the &quot;opposite&quot; of impostor syndrome, and not the first one.<p>The dunning krugger effect is widely regarded as the polar opposite of it:<p>- &quot;If the Dunning-Kruger effect is being overconfident in one&#x27;s knowledge or performance, its polar opposite is imposter syndrome or the feeling that one is undeserving of success. People who have imposter syndrome are plagued by self-doubts and constantly feel like frauds who will be unmasked any second.&quot; [1]<p>- &quot;This is the opposite to the Dunning-Kruger effect. The Imposter Syndrome is a cognitive bias where someone is unable to acknowledge their own competence. Even when they may havemultiple successes they struggle to attribute their success to internal factors.&quot; [2]<p>- &quot;The opposite of the Peter Principle and Dunning-Kruger effect is the imposter syndrome. This is when smart, capable people underestimate their (...)&quot; [3]<p>[1] <a href=\"https:&#x2F;&#x2F;www.psychologytoday.com&#x2F;intl&#x2F;basics&#x2F;dunning-kruger-effect#:~:text=If%20the%20Dunning%2DKruger%20effect,will%20be%20unmasked%20any%20second\" rel=\"nofollow\">https:&#x2F;&#x2F;www.psychologytoday.com&#x2F;intl&#x2F;basics&#x2F;dunning-kruger-e...</a>.<p>[2] <a href=\"https:&#x2F;&#x2F;www.leedsforlearning.co.uk&#x2F;Pages&#x2F;Download&#x2F;28541a2c-32d9-4c4f-9923-3bd774df5ad8&#x2F;PageSectionDocuments#:~:text=Imposter%20Syndrome-,This%20is%20the%20opposite%20to%20the%20Dunning%2DKruger%20effect.,their%20success%20to%20internal%20factors\" rel=\"nofollow\">https:&#x2F;&#x2F;www.leedsforlearning.co.uk&#x2F;Pages&#x2F;Download&#x2F;28541a2c-3...</a>.<p>[3] <a href=\"https:&#x2F;&#x2F;www.forbes.com&#x2F;sites&#x2F;jackkelly&#x2F;2022&#x2F;07&#x2F;12&#x2F;what-the-peter-principle-dunning-kruger-effect-and-imposter-syndrome-look-like-in-the-workplace&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.forbes.com&#x2F;sites&#x2F;jackkelly&#x2F;2022&#x2F;07&#x2F;12&#x2F;what-the-p...</a>"
+    },
+    {
+      "id": 41436516,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mekoka",
+        "name": "mekoka"
+      },
+      "date": "2024-09-03T16:27:40",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "How you end up hiring a mathematician while looking for a programmer."
+    },
+    {
+      "id": 41436280,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eterevsky",
+        "name": "eterevsky"
+      },
+      "date": "2024-09-03T16:03:50",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "This is a game with imperfect information, and the optimal strategy for each player is probably different from &quot;pick any number at random&quot; and &quot;run off-the shelf binary search&quot;."
+    },
+    {
+      "id": 41435160,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dannyw",
+        "name": "dannyw"
+      },
+      "date": "2024-09-03T14:11:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "As with most interview questions, I’d expect this to be about how you think through it and show your work. If an interviewer asked this question and you found a mistake, that probably helps you get the job."
+    },
+    {
+      "id": 41435583,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jkaptur",
+        "name": "jkaptur"
+      },
+      "date": "2024-09-03T14:58:04",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Some other interesting points here: Ballmer works hard to de-emphasize and diplomatically move away from discussing this exact question once it becomes clear that Chang&#x27;s not approaching it by thinking explicitly about binary search and expected value.<p>Which is not surprising, because she&#x27;s a professional journalist! It&#x27;s amazing that Ballmer (like so many technical interviewers) is so pleased with this question that he couldn&#x27;t <i>help</i> bringing it up, even though it&#x27;s not really that relevant to Chang&#x27;s question."
+    },
+    {
+      "id": 41435435,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=krisoft",
+        "name": "krisoft"
+      },
+      "date": "2024-09-03T14:41:49",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It is also unclear if one has to keep playing. The expected value is very different if after the fifth guess one can thank Balmer for the opportunity and walk away."
+    },
+    {
+      "id": 41435487,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tantalor",
+        "name": "tantalor"
+      },
+      "date": "2024-09-03T14:47:13",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Good one!<p>Reminds me of the viral video, goes something like &quot;I&#x27;ll pay you $20 if I can pour 2 cups of water on your head&quot; and then only pour 1 cup and walk away."
+    },
+    {
+      "id": 41437116,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=netmare",
+        "name": "netmare"
+      },
+      "date": "2024-09-03T17:25:50",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "IANAL, but they either have to honor the verbal contract (pour an additional cup AND pay $20) OR the contract is void and therefore they can be sued for assault. Of course, the &quot;can&quot; in &quot;if I can&quot; may be construed as &quot;being able to&quot;, but that&#x27;s up to the jury I guess."
+    },
+    {
+      "id": 41437077,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=elromulous",
+        "name": "elromulous"
+      },
+      "date": "2024-09-03T17:21:24",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Given that the number is not being picked randomly, this is more a game theory problem than a software problem."
+    },
+    {
+      "id": 41436441,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hennell",
+        "name": "hennell"
+      },
+      "date": "2024-09-03T16:19:15",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; The question is &quot;Should you accept to play this game?&quot;<p>Absolutely. Best case I can tell everyone I beat Steve Ballmer in a bet. Worst case I tell him to take his winning dollars out my first paycheck..."
+    },
+    {
+      "id": 41434995,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=coldpie",
+        "name": "coldpie"
+      },
+      "date": "2024-09-03T13:56:45",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;m so glad I&#x27;ve managed my career such that I&#x27;ve never had to answer bullshit interview questions like this. The only purpose of these is to stroke the asker&#x27;s ego, they tell you nothing at all about the candidate. What a waste of time."
+    },
+    {
+      "id": 41435106,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=white_beach",
+        "name": "white_beach"
+      },
+      "date": "2024-09-03T14:06:14",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "correct answer"
+    },
+    {
+      "id": 41435387,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zeroonetwothree",
+        "name": "zeroonetwothree"
+      },
+      "date": "2024-09-03T14:35:21",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I believe you’d have to do a game theory analysis to actually get the answer (compute the mixed strategy that produces a Nash equilibrium). My intuition is that this yields &lt;0 EV (because it’s already so small against a uniformly random strategy, which can’t be optimal) but I didn’t do the calculation."
+    },
+    {
+      "id": 41435158,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pbiggar",
+        "name": "pbiggar"
+      },
+      "date": "2024-09-03T14:11:14",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&quot;Should you accept to play this game?&quot;<p>Absolutely yes. I like games. The purpose of games is to have fun. This seems like a fun game for like the first $20, a sum I can afford to play a fun game for 10 minutes.<p>Then at the end, I get to say &quot;I once lost $20 to Steve Balmer playing binary search&quot;, which is a fun sentence I can dine out on, and is worth more than $20 to me.<p>I feel like perhaps this is why MS under Balmer lost relevance. Too busy looking at the technical and not the human."
+    },
+    {
+      "id": 41435246,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=23B1",
+        "name": "23B1"
+      },
+      "date": "2024-09-03T14:20:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Underrated comment. His point was to see how they approached the problem regardless of the answer, which is a much different criteria than having the right answer."
+    },
+    {
+      "id": 41435223,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=IshKebab",
+        "name": "IshKebab"
+      },
+      "date": "2024-09-03T14:18:37",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I don&#x27;t know why you&#x27;d make this comment... I find it hard to believe you&#x27;re actually stupid enough to not understand the implicit &quot;(i.e. is your expected profit greater than 0)&quot;.<p>If you answered like this in an interview I would definitely not give you the job. I did actually interview someone once who was like this - &quot;How would you do this?&quot; &quot;Well you shouldn&#x27;t do it. I think you should do this other thing.&quot;. He did not get the job."
+    },
+    {
+      "id": 41434909,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=toolz",
+        "name": "toolz"
+      },
+      "date": "2024-09-03T13:48:31",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Title is wrong in implying Balmer is incorrect and the article shows that the title is wrong. If clickbait is misleading, then this is worse than clickbait, no?<p>&gt; Ballmer states that the answer is &quot;No&quot; for two reasons: firstly, because he can pick numbers that&#x27;ll be the most difficult for you...<p>The article goes on to show that there are numbers where a binary search always has the guesser paying $1"
+    },
+    {
+      "id": 41435067,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Closi",
+        "name": "Closi"
+      },
+      "date": "2024-09-03T14:02:50",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Although Ballmer could still be incorrect, because a &#x27;sufficiently logical&#x27; player would also presumably know that he could pick numbers that&#x27;ll be the most difficult to find via binary-search, so by the same logic you could also meta-game it, and assume any number that can be found in 5 steps with a binary search is immediately out. This would narrow the search space to only 37 numbers, which can then easily be found within 5 guesses.<p>But he also knows that you know that he could pick numbers that will be the most difficult... So could then pick one of the numbers that actually are guessable within 5 guesses to trick you.<p>But then you also know that he knows that you know that he could pick difficult numbers too.<p>I&#x27;m not entirely sure if this invalidates Ballmer&#x27;s advantage, but I would be interested to know what the &#x27;perfect&#x27; strategy would be for this game considering the meta-game."
+    },
+    {
+      "id": 41435279,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Karliss",
+        "name": "Karliss"
+      },
+      "date": "2024-09-03T14:23:37",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "There isn&#x27;t much of metagame if number is only in Ballmers mind. No matter what guesses you choose he can force you to make at least log_2(100) guesses. Doing anything except splitting in half will only increase amount of guesses. There are two things that can change the game, requiring Baller to write the number on a piece of paper before the start.  Other thing you could do is writing a number on piece of paper yourself halfway during the game. If  opponent is changing the number adversarially with goal of maximizing guesses you can force them to &quot;pick&quot; a specific number. Afterwards you can open the piece of paper and claim that you actually guessed the number with the first attempt."
+    },
+    {
+      "id": 41436058,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Closi",
+        "name": "Closi"
+      },
+      "date": "2024-09-03T15:43:42",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "This assumes Ballmer is cheating, rather than just behaving adversarially but within the rules.<p>If we accept cheating is allowed, we can also potentially accept other &#x27;cheating&#x27; scenarios where the player repeatedly punches Ballmer in the face until he discloses the number, thus winning. Or where the player just refuses to pay at the end.<p>IMO the problem is only interesting if we assume any form of cheating isn&#x27;t allowed."
+    },
+    {
+      "id": 41436126,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=uncanneyvalley",
+        "name": "uncanneyvalley"
+      },
+      "date": "2024-09-03T15:50:34",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Do you want to catch a chair to the side of the head? Because this is how you catch a chair to the side of the head."
+    },
+    {
+      "id": 41435059,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=michaelt",
+        "name": "michaelt"
+      },
+      "date": "2024-09-03T14:02:04",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Also the number only exists in Ballmer&#x27;s mind, so if he wanted to, he could change it to be unfavourable should you make a lucky guess.<p>Here, you can play the game with me. Higher. Lower. Higher. Higher. Lower. Correct. Six guesses, you owe me $1."
+    },
+    {
+      "id": 41435236,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dannyw",
+        "name": "dannyw"
+      },
+      "date": "2024-09-03T14:19:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yes, and a SWE should consider external inputs untrusted until proven otherwise."
+    },
+    {
+      "id": 41436402,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=FabHK",
+        "name": "FabHK"
+      },
+      "date": "2024-09-03T16:15:12",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "0$, as posed."
+    },
+    {
+      "id": 41435352,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pxx",
+        "name": "pxx"
+      },
+      "date": "2024-09-03T14:31:25",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "your point is valid but you cannot have a static answer list.<p>if I started off by guessing 50 twice you&#x27;re cooked. or 50 and 52."
+    },
+    {
+      "id": 41435222,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cwmma",
+        "name": "cwmma"
+      },
+      "date": "2024-09-03T14:18:19",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "the article focuses on the next part of that sentence<p>&gt;  secondly because the expected value of the game (assuming Ballmer chooses randomly) is negative: you end up paying Ballmer"
+    },
+    {
+      "id": 41435281,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=toolz",
+        "name": "toolz"
+      },
+      "date": "2024-09-03T14:23:44",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "and given that the first rule still holds where he chooses hard numbers, then the expected value of the game is negative (aside from meta-gaming this, which is out of scope for a technical problem)"
+    },
+    {
+      "id": 41435012,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kevincox",
+        "name": "kevincox"
+      },
+      "date": "2024-09-03T13:58:02",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "But if you know the number picker is going to choose these numbers you can optimize your algorithm."
+    },
+    {
+      "id": 41435040,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=toolz",
+        "name": "toolz"
+      },
+      "date": "2024-09-03T14:00:04",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "but you don&#x27;t know.  Only he knows that he&#x27;s going to pick numbers the binary search will fail on and he states as much as his reason that you shouldn&#x27;t play the game."
+    },
+    {
+      "id": 41435036,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=paxys",
+        "name": "paxys"
+      },
+      "date": "2024-09-03T13:59:34",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "How do you know that?"
+    },
+    {
+      "id": 41434910,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=routerl",
+        "name": "routerl"
+      },
+      "date": "2024-09-03T13:48:50",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "This write-up makes the erroneous assumption that he&#x27;s choosing randomly. He himself says, in this same write-up, that he&#x27;s choosing adversarially.<p>Nice write-up anyway, and yes, Ballmer is wrong."
+    },
+    {
+      "id": 41434889,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Eumenes",
+        "name": "Eumenes"
+      },
+      "date": "2024-09-03T13:45:48",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Didn&#x27;t Steve Ballmer start off at MSFT essentially in a biz ops role, supporting execs when the company was super small? Interesting how he became technical as the company grew. Pretty rare."
+    },
+    {
+      "id": 41434996,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sudo_bang_bang",
+        "name": "sudo_bang_bang"
+      },
+      "date": "2024-09-03T13:56:47",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "He graduated with a mathematics degree from Harvard so the concept of binary search would have likely been familiar to him. But you’re right, as far as I can tell, he never did any technical work like programming in his career."
+    },
+    {
+      "id": 41435058,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ezero",
+        "name": "ezero"
+      },
+      "date": "2024-09-03T14:02:00",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Not only that, he was also better than Gates at math. From the acquired podcast episode on Microsoft:<p>&gt; Ben: He&#x27;s gregarious. Anyone who&#x27;s ever met Steve or seen a video of Steve, you are well aware that this man has a presence. But the thing that people don&#x27;t know about him is he is so unbelievably analytical. Steve is the guy that outscored Bill Gates on the Putnam exam.<p>source: <a href=\"https:&#x2F;&#x2F;www.acquired.fm&#x2F;episodes&#x2F;microsoft\" rel=\"nofollow\">https:&#x2F;&#x2F;www.acquired.fm&#x2F;episodes&#x2F;microsoft</a>"
+    },
+    {
+      "id": 41435237,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=__coaxialcabal",
+        "name": "__coaxialcabal"
+      },
+      "date": "2024-09-03T14:19:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It&#x27;s surprising the extent to which the tech community overfits towards classifying intelligent individuals as either exclusively technical or nontechnical. Recruiters are especially weak in this regard, e.g., if you&#x27;ve ever been effective at sales or people leadership, you are likely ineffective at swe or data science or vice versa. The most intelligent folks I&#x27;ve worked with are very diverse in their interests and abilities. You can see this in an elementary school GT classroom. Why does the tech community believe this is always an either&#x2F;or proposition?"
+    },
+    {
+      "id": 41436376,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hi-v-rocknroll",
+        "name": "hi-v-rocknroll"
+      },
+      "date": "2024-09-03T16:12:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yep. Pigeonholing by narrow thinking individuals who aren&#x27;t accustomed to ambiguity or lateral thinking, especially when exhibit talents in more than just technical areas, a person becomes &quot;nontechnical&quot; to a nonzero proportion of technical people while remaining &quot;too technical&quot; for a large fraction of business people.<p>PS: Recruiters generally come from the same cloth as car sales and sports, so they&#x27;re not usually going to be the sharpest pencils in the drawer."
+    },
+    {
+      "id": 41435365,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=aeonik",
+        "name": "aeonik"
+      },
+      "date": "2024-09-03T14:32:58",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Technical is just a code word for &quot;having a detailed understanding of something&quot;.<p>Almost everything is technical if you focus on it long enough, because almost everything is complicated.<p>This is because almost everything interacts with the real world, which is hellishly complicated and detailed."
+    },
+    {
+      "id": 41435639,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=andrewflnr",
+        "name": "andrewflnr"
+      },
+      "date": "2024-09-03T15:02:39",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That&#x27;s a (potentially) good perspective, but not how people use &quot;technical&quot; in the wild."
+    },
+    {
+      "id": 41436529,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=thaumasiotes",
+        "name": "thaumasiotes"
+      },
+      "date": "2024-09-03T16:28:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; You can see this in an elementary school GT classroom.<p>GT?"
+    },
+    {
+      "id": 41437320,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=shepherdjerred",
+        "name": "shepherdjerred"
+      },
+      "date": "2024-09-03T17:53:33",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Gifted_education\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Gifted_education</a>"
+    },
+    {
+      "id": 41435315,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Eumenes",
+        "name": "Eumenes"
+      },
+      "date": "2024-09-03T14:27:45",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Because we live in an era of specialization. Look at a companies job page - even startups have silos. I don&#x27;t think this is strange or unusual. Its hard to be good at everything. If I&#x27;m spending 8+ hours per day doing sales, where am I going to find the time to be good at other things? Most people are working for the weekend or to spend time with their families. Diving into far off subjects related to work isn&#x27;t always exciting."
+    },
+    {
+      "id": 41435277,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=re-thc",
+        "name": "re-thc"
+      },
+      "date": "2024-09-03T14:23:34",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; The most intelligent folks I&#x27;ve worked with are very diverse in their interests and abilities.<p>&gt; as either exclusively technical or nontechnical<p>This applies outside of tech or generally in any role e.g. if you&#x27;re a backend engineer they assume you don&#x27;t know frontend or if you&#x27;re a marketing specialist you&#x27;re not good at sales.<p>I never get it either. We&#x27;re people not machines but most people have this assumption like we&#x27;re a game character - you get a job &#x2F; trait and that&#x27;s it."
+    },
+    {
+      "id": 41434973,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=re-thc",
+        "name": "re-thc"
+      },
+      "date": "2024-09-03T13:55:10",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Didn&#x27;t Steve Ballmer start off at MSFT essentially in a biz ops role<p>Yes, business manager.<p>&gt; Interesting how he became technical as the company grew.<p>That&#x27;s not clear from this. This shows he knew some concepts as part of managing different teams in the company."
+    },
+    {
+      "id": 41436393,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hi-v-rocknroll",
+        "name": "hi-v-rocknroll"
+      },
+      "date": "2024-09-03T16:14:27",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Ballmer was good at riding coat-tails of others as a supporting figure but eventually started running MSFT into the ground. He demanded to personally evaluate every M&amp;A activity &gt;$10M. No bueno."
+    },
+    {
+      "id": 41435070,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cushpush",
+        "name": "cushpush"
+      },
+      "date": "2024-09-03T14:02:57",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Nice, you played the game and you earned $0.20 [twenty cents].  Definitely a bad choice.  But then you got viral on HN, and made good on your investment."
+    },
+    {
+      "id": 41435573,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=alexey-salmin",
+        "name": "alexey-salmin"
+      },
+      "date": "2024-09-03T14:56:30",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Disappointing to see the Nash equilibrium missing from the analysis."
+    },
+    {
+      "id": 41435885,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sobellian",
+        "name": "sobellian"
+      },
+      "date": "2024-09-03T15:26:29",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "For reasons given in the comments, both players probably choose a mixed strategy at equilibrium. If someone actually managed to find &#x2F; prove a mixed strategy equilibrium for this game right there in the interview you probably couldn&#x27;t go wrong hiring them on the spot."
+    },
+    {
+      "id": 41435007,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dvt",
+        "name": "dvt"
+      },
+      "date": "2024-09-03T13:57:55",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The (TV) interview is kind of funny because the journalist asks him, after he goes through the idiotic song and dance of this brain teaser: &quot;so what did you learn about me?&quot; This is actually a very insightful question. What <i>did</i> you learn, Mr Ballmer?<p>To which he literally has no answer: &quot;I learned you need to step back and really ask if you&#x27;re going to make money on this thing&quot;.. uh, okay Steve. Cool. Thanks for your contribution to possibly the worst technical hiring practices in just about any professional field. The technicals are less interesting than seeing even he himself has no real justification for this kind of intellectual hazing."
+    },
+    {
+      "id": 41435109,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=seaprune",
+        "name": "seaprune"
+      },
+      "date": "2024-09-03T14:06:46",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I have opened the article in question. I have NOT worked through the technical problem, the complications and interpretation surrounding Ballmer, nor have I digested the contention being presented. I am capable of these things but I am on the clock and I do not value performing the work required for this particular article.<p>With that said, I wanted to share the following. Perhaps it will spur discussion.<p>Our leadership -- whether in our professional circumstances, in our sovereign and communal circumstances, or in our choice to lead ourselves; perhaps it is in these leaders that a view, or a decision, or a proclamation -- perhaps it is in these impulses that the world is changed.<p>Can you assign truth to an impulse? Is it a communication for consideration? Is it a demand for compliance?<p>I assert that you can do so. The words were spoken. Thus, the impulse was true.<p>If you desire to do so, please consider."
+    }
+  ]
+}

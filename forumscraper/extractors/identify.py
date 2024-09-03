@@ -1,6 +1,8 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
+from ..utils import url_valid
+
 
 def search_cookies(func, arg, cookies):
     for i in cookies:
@@ -21,7 +23,7 @@ def identify_forum(expr, func, arg, rq, cookies):
     return False
 
 
-def identify_phpbb(rq, cookies):
+def identify_phpbb(url, rq, cookies):
     return identify_forum(
         r"""
         i>body #i>phpbb | "t",
@@ -35,15 +37,15 @@ def identify_phpbb(rq, cookies):
     )
 
 
-def identify_xenforo1(rq, cookies):
+def identify_xenforo1(url, rq, cookies):
     return identify_forum(r'html #XenForo | "t"', None, None, rq, cookies)
 
 
-def identify_xenforo2(rq, cookies):
+def identify_xenforo2(url, rq, cookies):
     return identify_forum(r'html #XF | "t"', None, None, rq, cookies)
 
 
-def identify_smf1(rq, cookies):
+def identify_smf1(url, rq, cookies):
     return identify_forum(
         r'* title="Simple Machines Forum" m@>"Powered by SMF 1." | "t"',
         None,
@@ -53,7 +55,7 @@ def identify_smf1(rq, cookies):
     )
 
 
-def identify_smf2(rq, cookies):
+def identify_smf2(url, rq, cookies):
     return identify_forum(
         r"""
         * title=E>"Simple Machines( Forum)?" | "t",
@@ -66,11 +68,11 @@ def identify_smf2(rq, cookies):
     )
 
 
-def identify_xmb(rq, cookies):
+def identify_xmb(url, rq, cookies):
     return identify_forum(None, str.__eq__, "xmblva", rq, cookies)
 
 
-def identify_invision(rq, cookies):
+def identify_invision(url, rq, cookies):
     return identify_forum(
         r"""
         * Ei>(class|id)=iE>(el)?copyright m@iE>"(invision|IP\.Board)" | "t"
@@ -82,10 +84,17 @@ def identify_invision(rq, cookies):
     )
 
 
-def listIdentify(extractor, rq, cookies, ilist):
+def identify_hackernews(url, rq, cookies):
+    base, rest = url_valid(url, base=True)
+    if base == "https://news.ycombinator.com":
+        return True
+    return False
+
+
+def listIdentify(extractor, url, rq, cookies, ilist):
     items = cookies.items()
     for i in ilist:
-        if i[0](rq, items):
+        if i[0](url, rq, items):
             return i[1]
 
     return None
@@ -96,7 +105,7 @@ def xenforoIdentify(extractor, url, rq, cookies):
         (identify_xenforo1, extractor.v1),
         (identify_xenforo2, extractor.v2),
     ]
-    return listIdentify(extractor, rq, cookies, ilist)
+    return listIdentify(extractor, url, rq, cookies, ilist)
 
 
 def smfIdentify(extractor, url, rq, cookies):
@@ -104,11 +113,12 @@ def smfIdentify(extractor, url, rq, cookies):
         (identify_smf1, extractor.v1),
         (identify_smf2, extractor.v2),
     ]
-    return listIdentify(extractor, rq, cookies, ilist)
+    return listIdentify(extractor, url, rq, cookies, ilist)
 
 
 def ForumIdentify(extractor, url, rq, cookies):
     ilist = [
+        (identify_hackernews, extractor.hackernews),
         (identify_phpbb, extractor.phpbb),
         (identify_invision, extractor.invision),
         (identify_xmb, extractor.xmb),
@@ -117,4 +127,4 @@ def ForumIdentify(extractor, url, rq, cookies):
         (identify_smf1, extractor.smf.v1),
         (identify_smf2, extractor.smf.v2),
     ]
-    return listIdentify(extractor, rq, cookies, ilist)
+    return listIdentify(extractor, url, rq, cookies, ilist)

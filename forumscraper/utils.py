@@ -43,7 +43,7 @@ def get_settings(settings, **kwargs):
     return ret
 
 
-def url_valid(url, regex=None, base=False):
+def url_valid(url, regex=None, base=False, matchwhole=False):
     if url is None or len(url) == 0:
         return
 
@@ -60,7 +60,7 @@ def url_valid(url, regex=None, base=False):
         else:
             return rest
 
-    groups = re.search(regex, rest)
+    groups = re.search(regex, rest if not matchwhole else url)
     if not groups:
         return
     if base:

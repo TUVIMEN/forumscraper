@@ -1,0 +1,1096 @@
+{
+  "format_version": "hackernews-thread",
+  "url": "https://news.ycombinator.com/item?id=41427563",
+  "id": 41427563,
+  "link": "https://github.com/pythonbrad/afrim",
+  "title": "Show HN: A modern way to type in African languages",
+  "score": 181,
+  "date": "2024-09-02T18:10:20",
+  "user": {
+    "link": "https://news.ycombinator.com/user?id=pythonbrad",
+    "name": "pythonbrad"
+  },
+  "comments_count": 77,
+  "comments_link": "https://news.ycombinator.com/item?id=41427563",
+  "text": "Hello HN, I&#x27;m pythonbrad and a core maintainer of Afrim - an input method engine for African languages.<p>Afrim want to simplify the typing in African languages and also digitalize the African typing systems. Basically, it wants to solve the problems encountered with current solutions:- slow typing- not easily configurable- keyboard layout dependent- constant bugs<p>Additionally, Afrim offers the following features [1]:- Dataset easily customizable- Keyboard layout independent- Auto completion, autocorrection and autosuggestion- Support all sequential codes<p>Technical details [2]:Afrim is written in Rust and his architecture is inspired of RIME.<p>What&#x27;s next?- Offer an android frontend of the Afrim (in development) [3]- Support more African input methods as possible<p>I would like to have your opinions about this project. I have been working on it so far, and I would like to know how I can improve it.<p>--------------[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim?tab=readme-ov-file#features\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim?tab=readme-ov-file#featu...</a>[2] <a href=\"https:&#x2F;&#x2F;pythonbrad.github.io&#x2F;afrim-man&#x2F;for_developers\" rel=\"nofollow\">https:&#x2F;&#x2F;pythonbrad.github.io&#x2F;afrim-man&#x2F;for_developers</a>[3] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;</a>",
+  "comments": [
+    {
+      "id": 41428890,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=crazygringo",
+        "name": "crazygringo"
+      },
+      "date": "2024-09-02T21:15:45",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;ve visited all the links and honestly still don&#x27;t have the slightest idea what this input method does, or exactly what problem it&#x27;s trying to solve, or why it&#x27;s a good solution to the problem. I found the video [1] but it has no audio or explanations at all.<p>I also don&#x27;t understand why you&#x27;d want phonetic input methods, rather than wanting to input your desired character directly. For languages like Chinese I understand because there are thousands of characters, but aren&#x27;t most or all African writing systems based on small alphabets? I shudder to think of having to learn to input English phonetically.<p>So if you&#x27;re looking for opinions, my first one is that your pages need to do a better job at explaining what current problems are (with multiple clear examples for each), where current solutions fail (with clear examples of how), and how your solution is different and better (again, with clear examples).<p>Good luck!<p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;?tab=readme-ov-file#afrim-keyboard\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;?tab=readme-ov-...</a>"
+    },
+    {
+      "id": 41434426,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kragen",
+        "name": "kragen"
+      },
+      "date": "2024-09-03T12:44:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; <i>aren&#x27;t most or all African writing systems based on small alphabets?</i><p>well, perhaps the most famous african writing system has a fairly large inventory of over 1000 characters, but it hasn&#x27;t been widely used for about 2000 years due to religious persecution<p>the writing systems that are most widely used in africa are the latin alphabet and the arabic abjad, but as i tiresomely repeat every time the subject comes up, africa is immensely diverse, to the point that generalizations about africa are only slightly more useful than generalizations about non-elephant mammals"
+    },
+    {
+      "id": 41435042,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MisterTea",
+        "name": "MisterTea"
+      },
+      "date": "2024-09-03T14:00:11",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; well, perhaps the most famous african writing system has a fairly large inventory of over 1000 characters, but it hasn&#x27;t been widely used for about 2000 years due to religious persecution<p>Which is ...?"
+    },
+    {
+      "id": 41435412,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MrJohz",
+        "name": "MrJohz"
+      },
+      "date": "2024-09-03T14:38:14",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I believe they&#x27;re referring to hieroglyphics, although I didn&#x27;t know the story about religious persecution and would be interested in some context there."
+    },
+    {
+      "id": 41428987,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=saylisteins",
+        "name": "saylisteins"
+      },
+      "date": "2024-09-02T21:36:58",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; I also don&#x27;t understand why you&#x27;d want phonetic input methods<p>I&#x27;m from Morocco, and most people here (myself included) are accustomed to typing on an AZERTY (or QWERTY) keyboard. Typing in Arabic using a standard keyboard layout can be quite cumbersome and slow for us (Most people never took the time to learn it), using latin alphabet for us is just more practical, and doesn&#x27;t require you to learn a new way to type.<p>In our daily communication, when we text, whether with friends or family, we often switch between English, French, or Moroccan dialects. When writing in Moroccan dialect, we frequently use a phonetic system (read in french way) that combines the Latin alphabet with numbers to represent specific sounds or letters that don’t have a direct equivalent in the Latin script.<p>For example:<p><pre><code>    ق is replaced by &quot;q&quot;    ع is replaced by &quot;3&quot;    خ is replaced by &quot;5&quot; (though &quot;kh&quot; is more common)    غ is replaced by &quot;4&quot; (or &quot;gh&quot;)    The rest is just a 1 to 1 conversion to how the letter sounds in french    </code></pre>Example phrase :<p>Bro, I woke up and had a sick breakfast.<p>Sat, 3ad fe9t o drabt wa7d ftor khatir."
+    },
+    {
+      "id": 41435931,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=crackalamoo",
+        "name": "crackalamoo"
+      },
+      "date": "2024-09-03T15:30:45",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Urdu uses a QWERTY-based layout (so ق is where Q normally is, etc.), and adapts the shift key for additional characters. I find this much easier than the Arabic keyboard layout. I think non-Latin script alphabets should try to match QWERTY as much as possible."
+    },
+    {
+      "id": 41434383,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kragen",
+        "name": "kragen"
+      },
+      "date": "2024-09-03T12:39:04",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "this was the inspiration for <a href=\"http:&#x2F;&#x2F;canonical.org&#x2F;~kragen&#x2F;alphanumerenglish\" rel=\"nofollow\">http:&#x2F;&#x2F;canonical.org&#x2F;~kragen&#x2F;alphanumerenglish</a>, in which i would write &#x27;bro, ai dj7st wok 7p en h4d e s1k br3kfest&#x27;, because it turns out that english also has a lot of specific sounds that don&#x27;t have a direct equivalent in the latin script, and i think the solution people have been using for 1000 years in english is a lot worse than the solution arabic-speakers commonly use<p>(unfortunately i don&#x27;t even speak enough arabic to know if you&#x27;re actually writing in arabic or in a berber language like tamazight here)<p>(ai 4m ev k0rs w3l ew3r qet ref0rmi6 i6gl1c sp3l16 1z e fulz 3rend, qe d4wnfal ev m3ni en eks3ntr1k over qe sentceriz)"
+    },
+    {
+      "id": 41432620,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rldjbpin",
+        "name": "rldjbpin"
+      },
+      "date": "2024-09-03T08:29:39",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "very interesting approach! in south asia, due to similar exposure to tech (through qwerty), we too use a phonetic approach, but without touching the visual aspect of the script.<p>it gets a little ambiguous, however, because we have ~2x the symbols that latin allows (before you get into accents). the workaround is to combine multiple symbols to replicate the phonetic sound the target character is meant to capture.<p>curious to see if the tooling can be combined to use across languages that can work with similar approach as the OP."
+    },
+    {
+      "id": 41429571,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rafram",
+        "name": "rafram"
+      },
+      "date": "2024-09-02T23:14:47",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Really? That’s surprising to me. The Arabic keyboard layout is very simple to learn, and people in the Eastern Arabic-speaking world (Egypt, Jordan, etc.) seem to use it pretty universally. Obviously people write online with the “chat alphabet,” but I’ve never heard of anyone in the Levant actually using it to input Arabic characters."
+    },
+    {
+      "id": 41431053,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lifthrasiir",
+        "name": "lifthrasiir"
+      },
+      "date": "2024-09-03T03:46:40",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The existence of direct keyboard layouts doesn&#x27;t always imply that they would be popular though. I think this happens fairly regularly around the world and the only major exception I&#x27;m aware of is Korean where no phonetic input methods were widespread at any moment."
+    },
+    {
+      "id": 41436331,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=j16sdiz",
+        "name": "j16sdiz"
+      },
+      "date": "2024-09-03T16:08:21",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Korean <i>is</i> phonetic."
+    },
+    {
+      "id": 41432069,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=the_g0d_f4ther",
+        "name": "the_g0d_f4ther"
+      },
+      "date": "2024-09-03T06:58:49",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It’s also related to the the layout of the first phone’s keyboards, where you had to type up to three times to select a letter ( it also was latin characters only)"
+    },
+    {
+      "id": 41435937,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mtalantikite",
+        "name": "mtalantikite"
+      },
+      "date": "2024-09-03T15:31:02",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yeah, it&#x27;s the same in Algeria and Tunisa. I was working with a derja tutor for a while and on day one she gave me the phonetic map like the parent comment pointed out, as it&#x27;s ubiquitous."
+    },
+    {
+      "id": 41429423,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=delfinom",
+        "name": "delfinom"
+      },
+      "date": "2024-09-02T22:47:48",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "ah so leet speak."
+    },
+    {
+      "id": 41431499,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=snthpy",
+        "name": "snthpy"
+      },
+      "date": "2024-09-03T05:14:05",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Great to see more support for African communities!<p>I have to concur with the previous comment though that I&#x27;m unclear as to what this adds."
+    },
+    {
+      "id": 41428444,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=beAbU",
+        "name": "beAbU"
+      },
+      "date": "2024-09-02T20:13:58",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It&#x27;s interesting, having grown up in Africa, and lived there almost 35 years, reading, writing and speaking an African language, being surrounfed by at least 10 other African languages and seeing them written, that I have never ever in my entire life encountered this writing system.<p>I think the product is a great technological achievement, but...<p>I would warn against the generalisation of &quot;African&quot; in this context. It does not tell the full picture, and simplifies the rather complex and very ancient reality that is language on the continent of Africa."
+    },
+    {
+      "id": 41430345,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T01:34:37",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "FWIW, the only languages supported appear to be Amharic (modern Ethiopian), Ge&#x27;ez (classic Ethiopian, basically only used in church liturgy today), and one rather obscure language (Nufi&#x2F;Fefe, ~140k speakers) spoken in a small part of Cameroon.  This is indeed a pretty long way from being a pan-African solution."
+    },
+    {
+      "id": 41430522,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T02:03:16",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It’s true that we currently have few languages in our dataset, but by supporting Nufi, we are supporting all Cameroonian languages since their alphabets have been standardized under the General Alphabet of Cameroonian Languages (GACL). Additionally, we support the CLAFRICA code, which allows for typing in GACL. This GACL indirectly supports other African languages as well.<p>Regarding Geez and Amharic, the objective was to support a language distinct from Latin. Its implementation allows us to avoid being limited to Latin-based languages."
+    },
+    {
+      "id": 41430823,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=geenkeuse",
+        "name": "geenkeuse"
+      },
+      "date": "2024-09-03T02:59:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Can&#x27;t wait for you to get started with the oldest languages on the planet, as spoken by the oldest people on Earth, the Khoisan languages. Hope that is in the pipeline, as the Khoi and San is almost eradicated in all of Africa and many of their languages are now extinct.<p>Khoekhoe is a nice start.<p>I think people will lose their minds if they see how it is written.<p>Fun fact - The Khoisan gave all the Bantu languages that have it, the click sound.<p>There are a lot of different clicks in the Khoisan languages. So many that they need exclamation marks and every other symbol on the keyboard to accommodate them."
+    },
+    {
+      "id": 41434285,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=beAbU",
+        "name": "beAbU"
+      },
+      "date": "2024-09-03T12:27:17",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Khoekhoe is one of the languages I referred to in my GP.<p>I&#x27;ve seen it written in ascii, is there an alternative alphabet?"
+    },
+    {
+      "id": 41436674,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=samatman",
+        "name": "samatman"
+      },
+      "date": "2024-09-03T16:43:08",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; <i>the oldest languages on the planet, as spoken by the oldest people</i><p>Begging your pardon, this is a nonsensical thing to say.  One people are not older than another, and nor are their languages.<p>As it happens, the Khoisan show greater genetic divergence from the rest of the human race, indicating that as a population they have been relatively more isolated, for longer.  This does <i>not in any sense</i> imply that they are in some way basal, such that it would be intelligible to call them older than other branches of the family tree.<p>This same objection applies to characterizing their languages in that way, we have no way of knowing if their languages are less or more prone to mutation than any other. We have rather less to work with, in fact, as the absence of literacy in their societies until modern times leaves us with no evidence at all. But it would be <i>astonishing</i> if their languages had no drift to them, and even &quot;less drift&quot; is a major and unsupportable claim, and these are the only ways in which it would be intelligible to say that those languages are older than another."
+    },
+    {
+      "id": 41429493,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=max_",
+        "name": "max_"
+      },
+      "date": "2024-09-02T23:00:31",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You haven&#x27;t seen Amharic on Ethiopian Airline planes?<p>The project supports many other languages which justifies the use of &quot;African&quot;."
+    },
+    {
+      "id": 41433510,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=marci",
+        "name": "marci"
+      },
+      "date": "2024-09-03T10:53:34",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The issue might be in the &quot;About&quot; section:<p>&quot;This application allows you to type most of the characters in the african language in any text field.&quot;<p>Maybe it should say &quot;in AN african language&quot;, rather than &quot;in THE african language&quot;."
+    },
+    {
+      "id": 41428884,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=chungy",
+        "name": "chungy"
+      },
+      "date": "2024-09-02T21:14:15",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Africa is a very very big place. :)"
+    },
+    {
+      "id": 41428654,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T20:43:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks for your feedback, i will take it in account."
+    },
+    {
+      "id": 41432884,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whatjadat2",
+        "name": "whatjadat2"
+      },
+      "date": "2024-09-03T09:11:25",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "As a &quot;african&quot; myself, living and working in africa for the last 46 years, and speaking 4 different african languages. I am struggling to understand what &quot;problem&quot; this is trying to solve? It&#x27;s never been an issue to type in an &quot;african&quot; language. And what is meant by &quot;african&quot; There is a big difference between for example zulu from south africa and arabic in morocco. And then we are not even touching on the thousands of languages in between that in the rest of africa."
+    },
+    {
+      "id": 41428081,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=azernik",
+        "name": "azernik"
+      },
+      "date": "2024-09-02T19:20:18",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Comment on the documentation&#x2F;README more than anything - I couldn&#x27;t find anywhere a list of specific languages supported. That&#x27;s a pretty important data point for any speaker of an African language hoping to use this IME. If the library supports only Amhari and Ge&#x27;ez (the only two languages mentioned specifically) it&#x27;s extremely important to a Wolof or Swahili speaker to know that when evaluating if the IME is in a usable state for them."
+    },
+    {
+      "id": 41428133,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=valdez",
+        "name": "valdez"
+      },
+      "date": "2024-09-02T19:26:36",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It looks like it is an a distinct repository, see <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-data\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-data</a>"
+    },
+    {
+      "id": 41428256,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=numpad0",
+        "name": "numpad0"
+      },
+      "date": "2024-09-02T19:47:57",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "repo for Android keyboard implementation[1] says below, but feels strange this don&#x27;t seem to be stated anywhere else:<p><pre><code>  ### What african languages (and layouts) are supported ?    - Amharic Keyboard - Transliteration    - Clafrica Keyboard - Transliteration    - Geez Keyboard - Transliteration    - Nufi Keyboard (Fe&#x27;efe&#x27;e) - Transliteration</code></pre>1: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard</a>"
+    },
+    {
+      "id": 41428676,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T20:46:44",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I understand your point, we should do a big work at the level of the documentation."
+    },
+    {
+      "id": 41428315,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=umanwizard",
+        "name": "umanwizard"
+      },
+      "date": "2024-09-02T19:58:15",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Isn’t Swahili compatible with ASCII (just like English)? Why would you need a special IME to write it?"
+    },
+    {
+      "id": 41428667,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=azernik",
+        "name": "azernik"
+      },
+      "date": "2024-09-02T20:45:42",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Depends on location and time period. There&#x27;s lots of historical stuff written in a customized Arabic script with unique characters."
+    },
+    {
+      "id": 41428384,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=andsoitis",
+        "name": "andsoitis"
+      },
+      "date": "2024-09-02T20:07:09",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yes, Swahili is now written using the Latin script."
+    },
+    {
+      "id": 41428301,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=avodonosov",
+        "name": "avodonosov"
+      },
+      "date": "2024-09-02T19:56:02",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Similar to other commenters, I am curious to know what is the problem with african languages? Can&#x27;t you just make a button for each character in the alphabet? (The readme mentions it is a phonetic-based input method, so I assume African languages use alphabets, not some logograms, right?)<p>What is common for African languages that allows solving the problem for all of them together in one software package? (How meaningful, for example, whould be a software package for Eurasian languages?)<p>I watched the video - <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;</a> - but don&#x27;t understand. A latin keyboard is used, but it produces some other characters."
+    },
+    {
+      "id": 41428514,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ppseafield",
+        "name": "ppseafield"
+      },
+      "date": "2024-09-02T20:24:17",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Ge&#x27;ez and its adaptations are abugidas, which means one symbol is a full syllable. For Amharic there are over 200 individual symbols. [0] That would be a big keyboard! It does seem that most in-use languages in Africa are alphabets or abjads, which could be adapted to keyboards. [1]<p>[0] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Ge%CA%BDez_script#Ge%CA%BDez_writing_system\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Ge%CA%BDez_script#Ge%CA%BDez_w...</a><p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Writing_systems_of_Africa\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Writing_systems_of_Africa</a>"
+    },
+    {
+      "id": 41431889,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=presentation",
+        "name": "presentation"
+      },
+      "date": "2024-09-03T06:29:14",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Would these African abugidas be served well with a keyboard like the mobile 10-key Japanese swipe keyboards? [1] Japanese has much fewer sounds so it all fits in a pretty small package but it works so much better and faster than romaji in that context. Maybe it could be adapted with slightly more keys and complex swipe patterns, like up then right&#x2F;left etc (it looks like for ge’ez at least, such patterns might actually be intuitive eyeballing the patterns in the characters, but someone native would know best).<p>[1] <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;Q204SYyfEJY?si=KWe1sny93MeBScuT\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;Q204SYyfEJY?si=KWe1sny93MeBScuT</a>"
+    },
+    {
+      "id": 41437136,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zhengyi13",
+        "name": "zhengyi13"
+      },
+      "date": "2024-09-03T17:28:27",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It&#x27;d be nice, but I don&#x27;t think that model would be workable here.<p>Somewhat oversimplified, but the two Japanese syllabaries hiragana and katakana are around 50 distinct characters each, so that a core 3x4 board of &quot;keys&quot; responding to tap(-and-maybe-swipe (up|down|left|right)) will give you roughly the full set of each. Generally, tapping the key designates the consonant; swiping (or not) gives you the vowel. There are 5 vowels, and roughly 10 consonants. There&#x27;s a couple of other symbols added on as modifiers for voicing, etc. Again, oversimplified, but that&#x27;s roughly it.<p>(Side note, and I&#x27;m guessing here, but I suspect this model probably evolved from T9 texting)<p>From a brief inspection of <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Ge%CA%BDez_script\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Ge%CA%BDez_script</a>, the Ge&#x27;ez syllabary&#x2F;abugida (used e.g. for Amharic) needs 6-8 vowels across <i>at least</i> 26 consonants, and then some more combinations for labialization&#x2F;velarization, and then some <i>more</i> for application in specific other languages.<p>Following the Japanese model, that&#x27;d be a pretty big grid :) Phonetic input seems a more workable model to me at least."
+    },
+    {
+      "id": 41429325,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=avodonosov",
+        "name": "avodonosov"
+      },
+      "date": "2024-09-02T22:32:39",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks.<p>So probably the user on the video types in a phonetic approximation of the words using the latin alphabet, and the software translates it to the abugida symbols?<p>Seems plausable, especially because he types several latin characters to get one symbol.<p>Interesting to note that sometimes he also uses digits."
+    },
+    {
+      "id": 41430420,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T01:46:43",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The demo video appears to show typing in Fe&#x27;fe&#x27;, which uses a Latin alphabet.<p>The library apparently also supports Amharic&#x2F;Ge&#x27;ez, which does use an abugida, but I can&#x27;t find any videos of this."
+    },
+    {
+      "id": 41432004,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T06:47:40",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I added a FAQ[1] to answer some common questions.<p>For more reading, there is an article[2] who have similarities with what we want to achieve.<p>Disclaimer: We discovered the article 01 year after the development.<p>[1]<a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;blob&#x2F;main&#x2F;FAQ.md\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;blob&#x2F;main&#x2F;FAQ.md</a><p>[2]<a href=\"https:&#x2F;&#x2F;hughandbecky.us&#x2F;Hugh-CV&#x2F;talk&#x2F;2015-africa-assessing-the-difficulty-of-text-input&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hughandbecky.us&#x2F;Hugh-CV&#x2F;talk&#x2F;2015-africa-assessing-t...</a>"
+    },
+    {
+      "id": 41428142,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=trompetenaccoun",
+        "name": "trompetenaccoun"
+      },
+      "date": "2024-09-02T19:28:32",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Apart from Ethiopia, are there any places where they don&#x27;t use either Latin or Arabic scripts in everyday life? There are technically a whole bunch of alphabets of course but they aren&#x27;t used much afaik. Maybe the Tuareg script? Is that used by people in North Africa beyond bilingual signs?"
+    },
+    {
+      "id": 41428496,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=firefoxd",
+        "name": "firefoxd"
+      },
+      "date": "2024-09-02T20:21:17",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "There is Adlam for Fulani [1]. Widely spoken in west Africa. However, I&#x27;m still trying to familiarize myself with the writing system. The word for &quot;yes&quot; in fulani does not translate in writing. The best way I can write it is HIiiII. Imagine the lowercase i goes down in tone. Then the last two uppercase i shoots up. I don&#x27;t know if any writing system supports this.<p>[1]: <a href=\"https:&#x2F;&#x2F;en.m.wikipedia.org&#x2F;wiki&#x2F;Adlam_script\" rel=\"nofollow\">https:&#x2F;&#x2F;en.m.wikipedia.org&#x2F;wiki&#x2F;Adlam_script</a>"
+    },
+    {
+      "id": 41430379,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T01:39:55",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; <i>While they were teenagers in the late 1980s, brothers Ibrahima and Abdoulaye Barry devised the alphabetic script to transcribe the Fulani language.[3][6] One method they used involved them closing their eyes and drawing lines. After looking at their drawn shapes, they would pick which ones would look the most to them like a good glyph for a letter, and associate it with whatever sound they felt it would represent.</i><p>I&#x27;m not sure if I should be impressed that this has turned into an actual script, or disappointed that so many people thought this was a good idea.<p>Hot take: artificially creating new scripts that need to be taught from scratch to everybody and require new fonts, layout engines, etc hinders language adoption&#x2F;preservation instead of helping it."
+    },
+    {
+      "id": 41430830,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pcdandy",
+        "name": "pcdandy"
+      },
+      "date": "2024-09-03T02:59:50",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; disappointed that so many people thought this was a good idea<p>Perhaps it&#x27;s more that Fulani speakers truly appreciated having an alphabetic script that is able to adequately represent the distinct sounds of their language without ambiguities, which had not been the case with the Latin or Arabic scripts. Cultural pride also would have played a factor, there&#x27;s a reason South Korea has a special holiday to commemorate the creation of Hangul script: <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hangul_Day\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Hangul_Day</a>"
+    },
+    {
+      "id": 41430876,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T03:09:28",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Hangul and the corresponding Japanese syllabaries made sense because Chinese characters are very poorly suited to writing Korean and Japanese.<p>Latin and Arabic, on the other hand, have a long history of being used for other languages and can be adapted to represent basically anything."
+    },
+    {
+      "id": 41431563,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-09-03T05:26:36",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Hot take<p>Uh yeah it is. A writing system needs a flat surface, a writing implement, and a mind prepared to learn. If enough people think that the new alphabet is a good idea, fonts and layout engines will follow. For Adlam, they did. (Another invented system which took off indigenously: Cherokee syllabary[1].)<p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Cherokee_syllabary\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Cherokee_syllabary</a>"
+    },
+    {
+      "id": 41428783,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:00:47",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Using the phonetic representation (IPA), you can obtain a writing system similar to the pinyin.<p>Hanyu Pinyin Hànyǔ Pīnyīn Fāng&#x27;àn<p>Bopomofo ㄏㄢˋ ㄩˇ ㄆㄧㄣ ㄧㄣ ㄈㄤ ㄢˋ<p>IPA [xân.ỳ pʰín.ín fáŋ.ân]<p>Cameroonian dialect are written using the GACL who is similar to the IPA.<p>Clafrica:               Pookai2t peu2nze2e2 n*kut !<p>Shʉ̄pāpə̀m (Bamoun):      Pookɛ́t pә́nzéé ŋkut !"
+    },
+    {
+      "id": 41430313,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notamy",
+        "name": "notamy"
+      },
+      "date": "2024-09-03T01:27:54",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Cameroonian dialect are written using the GACL who is similar to the IPA.<p>What exactly is the GACL? Trying to find information on it returns this HN comment as the top result, and a bunch of language-unrelated results after that."
+    },
+    {
+      "id": 41430431,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T01:48:19",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "From another comment, it&#x27;s the General Alphabet of Cameroon Languages.<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;General_Alphabet_of_Cameroon_Languages\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;General_Alphabet_of_Cameroon_L...</a>"
+    },
+    {
+      "id": 41428736,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=yorwba",
+        "name": "yorwba"
+      },
+      "date": "2024-09-02T20:55:34",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "If there are no two words that are only distinguished by tone, it might be unnecessary to mark it in writing, except as a learning aid for people who&#x27;re not fluent enough in the language to predict this information from context.<p>E.g. in English, questions are marked by rising pitch, but that intonation is not indicated in writing."
+    },
+    {
+      "id": 41430406,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T01:44:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "FWIW, Japanese has tonal minimal pairs (ha&#x27;shi chopsticks, hashi&#x27; bridge, hashi edge), but doesn&#x27;t bother marking them in (kana) writing.  Although the Chinese characters are obviously different."
+    },
+    {
+      "id": 41431692,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=vintermann",
+        "name": "vintermann"
+      },
+      "date": "2024-09-03T05:49:41",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; but that intonation is not indicated in writing<p>Oh?"
+    },
+    {
+      "id": 41428773,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jiggawatts",
+        "name": "jiggawatts"
+      },
+      "date": "2024-09-02T20:59:53",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "?"
+    },
+    {
+      "id": 41428895,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ks2048",
+        "name": "ks2048"
+      },
+      "date": "2024-09-02T21:16:25",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Writing_systems_of_Africa\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Writing_systems_of_Africa</a><p>I don&#x27;t think any have very widespread use outside of Ge&#x27;ez (Ethiopian, etc). Maybe Tifinagh.<p>I do notice that iOS has built-in keyboards for N&#x27;Ko and Tamazight (Tifinagh) - pretty cool to try out if you have an iphone."
+    },
+    {
+      "id": 41429038,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=saylisteins",
+        "name": "saylisteins"
+      },
+      "date": "2024-09-02T21:43:20",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "North african here! For Moroccan arabic dialect, we mostly use latin alphabets and some numbers to replace some sounds&#x2F;letters"
+    },
+    {
+      "id": 41429410,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T22:45:48",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It looks a little bit similar to the working of the clafrica code to type in General Alphabet of Cameroonian languages.<p>Clafrica: Pookai2t peu2nze2e2 n*kut !<p>Shʉ̄pāpə̀m (Bamoun): Pookɛ́t pә́nzéé ŋkut !"
+    },
+    {
+      "id": 41429186,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lelanthran",
+        "name": "lelanthran"
+      },
+      "date": "2024-09-02T22:09:44",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;m wondering what problem you experienced that this is a solution for.<p>&quot;African languages&quot; is not, in my experience, a single class of languages. There are large differences between the languages, with most of the northern languages borrowing heavily from Arabic, most of the central African&#x2F;West African languages borrowing from French and the rest are different enough that they can&#x27;t be considered dialects."
+    },
+    {
+      "id": 41430220,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=filleduchaos",
+        "name": "filleduchaos"
+      },
+      "date": "2024-09-03T01:10:08",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "What does that have to do with an IME library&#x2F;project?"
+    },
+    {
+      "id": 41430413,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T01:45:27",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "IMEs are usually very narrowly targeted at a single language or script. Claiming that this one is somehow superior to existing solutions for an entire continent&#x27;s worth of languages with wildly different phonologies is unusual."
+    },
+    {
+      "id": 41430622,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T02:17:18",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "`afrim` is not just an IME. It can be used as a library to develop another IME. It&#x27;s an important point that I neglected in the README."
+    },
+    {
+      "id": 41431774,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lelanthran",
+        "name": "lelanthran"
+      },
+      "date": "2024-09-03T06:08:17",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; `afrim` is not just an IME. It can be used as a library to develop another IME. It&#x27;s an important point that I neglected in the README.<p>That&#x27;s all good, but I am very curious about the use-case that motivated the creation of this project."
+    },
+    {
+      "id": 41428542,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kreyenborgi",
+        "name": "kreyenborgi"
+      },
+      "date": "2024-09-02T20:29:16",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Writing_systems_of_Africa\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Writing_systems_of_Africa</a> is dangerously interesting"
+    },
+    {
+      "id": 41428359,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cyph3rpvnk",
+        "name": "cyph3rpvnk"
+      },
+      "date": "2024-09-02T20:04:08",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Amahric, Ge&#x27;ez and &quot;Ethiopic&quot; are all the same alphabets, am I missing something?Ge&#x27;ez encompasses all of them including Tigrinya. Why not just have an expanded Ge&#x27;ez library?"
+    },
+    {
+      "id": 41429235,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=juxtapose",
+        "name": "juxtapose"
+      },
+      "date": "2024-09-02T22:18:02",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It&#x27;s interesting to see African input methods taking inspiration from a Chinese IME, RIME. Would like to know more about this!"
+    },
+    {
+      "id": 41428942,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zaik",
+        "name": "zaik"
+      },
+      "date": "2024-09-02T21:27:31",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "How does this compare to IBus or Fcitx?"
+    },
+    {
+      "id": 41428963,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=vfclists",
+        "name": "vfclists"
+      },
+      "date": "2024-09-02T21:31:42",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Is this being done in collaboration with the Linguistics faculties of African universities?"
+    },
+    {
+      "id": 41428462,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-02T20:16:36",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Cool. Do you have plans for Windows and macOS frontends?"
+    },
+    {
+      "id": 41428821,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:05:58",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Windows is supported through <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish</a>"
+    },
+    {
+      "id": 41428950,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-02T21:29:25",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Oh, didn&#x27;t realize that. How does it handle key input in Windows? Text Services Framework or something else?"
+    },
+    {
+      "id": 41428988,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:37:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The initial work was a prototype, we are currently working on the usage of text service for windows, and IBUS for Linux (mainly Wayland environment).<p>But the next release, will take a time, since we are not familiar with these technologies.<a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242</a>"
+    },
+    {
+      "id": 41429863,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pentamassiv",
+        "name": "pentamassiv"
+      },
+      "date": "2024-09-03T00:06:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You could update the dependency &quot;enigo&quot; to the current version. I&#x27;ve implemented experimental support for Wayland. It can use Wayland protocols or libei. There will probably be bugs that&#x27;s why it&#x27;s hidden behind feature flags.<p>I&#x27;m the maintainer, so if you need anything, please let me know"
+    },
+    {
+      "id": 41429994,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T00:29:59",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks, currently I am using Debian (Wayland) and it will be great to test this enigo feature."
+    },
+    {
+      "id": 41429875,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pentamassiv",
+        "name": "pentamassiv"
+      },
+      "date": "2024-09-03T00:08:00",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I didn&#x27;t look at the code but the Cargo.toml file says it&#x27;s using enigo as it&#x27;s dependency. You can use that to simulate input an Windows, macOS and Linux"
+    },
+    {
+      "id": 41428193,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=DazWilkin",
+        "name": "DazWilkin"
+      },
+      "date": "2024-09-02T19:36:50",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I was intrigued by this and looked through the README for examples of Afrim being used and learn more about the problem it&#x27;s solving and how but didn&#x27;t find these."
+    },
+    {
+      "id": 41428320,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=avodonosov",
+        "name": "avodonosov"
+      },
+      "date": "2024-09-02T19:58:37",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "This video linked from the HN post is an example, although I did&#x27;t understand yet how it works. They type on a latin keyboard but get some other symbols in result.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-keyboard&#x2F;</a>"
+    },
+    {
+      "id": 41433375,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=specialist",
+        "name": "specialist"
+      },
+      "date": "2024-09-03T10:32:02",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Well spotted, I somehow missed that, thanks.<p>Noob me has no idea how editing is done. Delete and re-enter?<p>Have you ever used WordPerfect&#x27;s reveal codes mode? It&#x27;d show both the actual input stream (characters you typed) and the formatted (rendered) output at the same time. (Here&#x27;s the top hit showing the feature on Windows. <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;LQOYYi2IHIY\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;LQOYYi2IHIY</a> I used the DOS version, back when dinosaurs roamed the earth; I loved it.)<p>Should&#x2F;Could there be a &quot;reveal codes&quot; mode for text input?<p>I&#x27;ve never used an IME, so please disregard this notion if it&#x27;s not even wrong. :)"
+    },
+    {
+      "id": 41428371,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fsndz",
+        "name": "fsndz"
+      },
+      "date": "2024-09-02T20:05:01",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I couldn&#x27;t understand what this is for and why it is useful. Gotta work on that documentation to make it more clear."
+    }
+  ]
+}

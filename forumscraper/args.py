@@ -43,9 +43,10 @@ def valid_type(type_name):
         "xenforo2": xenforo2,
         "invision": invision,
         "xmb": xmb,
+        "hackernews": hackernews,
     }
     forums_identifiers = ["all", "smf", "xenforo"]
-    funcs = ["guess", "identify", "findroot", "thread", "forum", "tag", "board"]
+    funcs = ["guess", "identify", "findroot", "thread", "user", "forum", "tag", "board"]
 
     names = type_name.split(".")
     namesl = len(names)

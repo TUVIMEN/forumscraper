@@ -1,0 +1,426 @@
+{
+  "format_version": "hackernews-forum",
+  "url": "https://news.ycombinator.com/front",
+  "threads": [
+    {
+      "id": 41428705,
+      "link": "https://www.bytedrum.com/posts/art-of-finishing/",
+      "title": "The Art of Finishing",
+      "score": 596,
+      "date": "2024-09-02T20:51:00",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=emmorts",
+        "name": "emmorts"
+      },
+      "comments_count": 146,
+      "comments_link": "https://news.ycombinator.com/item?id=41428705",
+      "text": ""
+    },
+    {
+      "id": 41425563,
+      "link": "https://news.yale.edu/2024/08/14/sleep-it-how-brain-processes-many-experiences-even-when-offline",
+      "title": "Sleep on it: How the brain processes many experiences, even when &#x27;offline&#x27;",
+      "score": 394,
+      "date": "2024-09-02T14:17:08",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=PaulHoule",
+        "name": "PaulHoule"
+      },
+      "comments_count": 129,
+      "comments_link": "https://news.ycombinator.com/item?id=41425563",
+      "text": ""
+    },
+    {
+      "id": 41425259,
+      "link": "https://github.com/SuperIlu/DOjS",
+      "title": "DOjS – A DOS JavaScript Canvas with Sound",
+      "score": 183,
+      "date": "2024-09-02T13:33:09",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=AlexeyBrin",
+        "name": "AlexeyBrin"
+      },
+      "comments_count": 27,
+      "comments_link": "https://news.ycombinator.com/item?id=41425259",
+      "text": ""
+    },
+    {
+      "id": 41418301,
+      "link": "https://www.righto.com/2024/08/pentium-navajo-fairchild-shiprock.html",
+      "title": "The Pentium as a Navajo Weaving",
+      "score": 467,
+      "date": "2024-09-01T16:46:07",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=GavinAnderegg",
+        "name": "GavinAnderegg"
+      },
+      "comments_count": 83,
+      "comments_link": "https://news.ycombinator.com/item?id=41418301",
+      "text": ""
+    },
+    {
+      "id": 41427563,
+      "link": "https://github.com/pythonbrad/afrim",
+      "title": "Show HN: A modern way to type in African languages",
+      "score": 181,
+      "date": "2024-09-02T18:10:20",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "comments_count": 77,
+      "comments_link": "https://news.ycombinator.com/item?id=41427563",
+      "text": ""
+    },
+    {
+      "id": 41425910,
+      "link": "https://news.ycombinator.com/item?id=41425910",
+      "title": "Ask HN: Who is hiring? (September 2024)",
+      "score": 303,
+      "date": "2024-09-02T15:00:06",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whoishiring",
+        "name": "whoishiring"
+      },
+      "comments_count": 275,
+      "comments_link": "https://news.ycombinator.com/item?id=41425910",
+      "text": ""
+    },
+    {
+      "id": 41427185,
+      "link": "https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/",
+      "title": "Notes on Distributed Systems for Young Bloods",
+      "score": 329,
+      "date": "2024-09-02T17:23:26",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=doesntmeananyth",
+        "name": "doesntmeananyth"
+      },
+      "comments_count": 51,
+      "comments_link": "https://news.ycombinator.com/item?id=41427185",
+      "text": ""
+    },
+    {
+      "id": 41422311,
+      "link": "https://blog.spacehey.com/entry?id=1245177",
+      "title": "1M Users",
+      "score": 756,
+      "date": "2024-09-02T03:13:08",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=theneedful",
+        "name": "theneedful"
+      },
+      "comments_count": 177,
+      "comments_link": "https://news.ycombinator.com/item?id=41422311",
+      "text": ""
+    },
+    {
+      "id": 41424371,
+      "link": "https://defrag-game.com",
+      "title": "Show HN: Defrag the Game",
+      "score": 317,
+      "date": "2024-09-02T11:08:22",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=v_b",
+        "name": "v_b"
+      },
+      "comments_count": 106,
+      "comments_link": "https://news.ycombinator.com/item?id=41424371",
+      "text": ""
+    },
+    {
+      "id": 41425085,
+      "link": "https://www.dogesec.com/blog/full_text_rss_atom_blog_feeds/",
+      "title": "Show HN: Full Text, Full Archive RSS Feeds for Any Blog",
+      "score": 144,
+      "date": "2024-09-02T13:06:02",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=panoramas4good",
+        "name": "panoramas4good"
+      },
+      "comments_count": 43,
+      "comments_link": "https://news.ycombinator.com/item?id=41425085",
+      "text": ""
+    },
+    {
+      "id": 41425150,
+      "link": "https://govukvue.org/",
+      "title": "Show HN: Gov.uk Vue, a Vue Component Library for the Gov.uk Design System",
+      "score": 211,
+      "date": "2024-09-02T13:15:45",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=matteason",
+        "name": "matteason"
+      },
+      "comments_count": 57,
+      "comments_link": "https://news.ycombinator.com/item?id=41425150",
+      "text": ""
+    },
+    {
+      "id": 41426982,
+      "link": "https://krebsonsecurity.com/2024/09/owners-of-1-time-passcode-theft-service-plead-guilty/",
+      "title": "Owners of 1-Time Passcode Theft Service Plead Guilty",
+      "score": 174,
+      "date": "2024-09-02T16:56:33",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
+        "name": "todsacerdoti"
+      },
+      "comments_count": 103,
+      "comments_link": "https://news.ycombinator.com/item?id=41426982",
+      "text": ""
+    },
+    {
+      "id": 41428274,
+      "link": "https://blancas.io/blog/ai-web-scraper/",
+      "title": "Web scraping with GPT-4o: powerful but expensive",
+      "score": 315,
+      "date": "2024-09-02T19:50:53",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=edublancas",
+        "name": "edublancas"
+      },
+      "comments_count": 153,
+      "comments_link": "https://news.ycombinator.com/item?id=41428274",
+      "text": ""
+    },
+    {
+      "id": 41425908,
+      "link": "https://news.ycombinator.com/item?id=41425908",
+      "title": "Ask HN: Who wants to be hired? (September 2024)",
+      "score": 142,
+      "date": "2024-09-02T15:00:05",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whoishiring",
+        "name": "whoishiring"
+      },
+      "comments_count": 327,
+      "comments_link": "https://news.ycombinator.com/item?id=41425908",
+      "text": ""
+    },
+    {
+      "id": 41421650,
+      "link": "https://git.peppe.rs/languages/tbsp/",
+      "title": "Tbsp – treesitter-based source processing language",
+      "score": 206,
+      "date": "2024-09-02T01:04:16",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hiyer",
+        "name": "hiyer"
+      },
+      "comments_count": 38,
+      "comments_link": "https://news.ycombinator.com/item?id=41421650",
+      "text": ""
+    },
+    {
+      "id": 41422126,
+      "link": "https://www.openculture.com/2024/08/how-the-oldest-company-in-the-world-has-survived-nearly-1500-years.html",
+      "title": "Japan’s Temple-Builder Kongō Gumi, Has Survived Nearly 1,500 Years",
+      "score": 228,
+      "date": "2024-09-02T02:25:19",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dangtony98",
+        "name": "dangtony98"
+      },
+      "comments_count": 187,
+      "comments_link": "https://news.ycombinator.com/item?id=41422126",
+      "text": ""
+    },
+    {
+      "id": 41421846,
+      "link": "https://orbstack.dev/",
+      "title": "OrbStack: The fast, light, and easy way to run Docker containers and Linux",
+      "score": 291,
+      "date": "2024-09-02T01:35:56",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rpgbr",
+        "name": "rpgbr"
+      },
+      "comments_count": 149,
+      "comments_link": "https://news.ycombinator.com/item?id=41421846",
+      "text": ""
+    },
+    {
+      "id": 41423303,
+      "link": "http://cityinfrastructure.com/single.php?d=RuralOutsidePlant&t=Rural%20Outside%20Plant",
+      "title": "Telephone Line Rural Outside Plant",
+      "score": 197,
+      "date": "2024-09-02T07:21:28",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Bluestein",
+        "name": "Bluestein"
+      },
+      "comments_count": 82,
+      "comments_link": "https://news.ycombinator.com/item?id=41423303",
+      "text": ""
+    },
+    {
+      "id": 41423577,
+      "link": "https://syscall.eu/blog/2024/08/28/toshiba_hdd_firmware/",
+      "title": "Upgrading a Toshiba NAS HDD Firmware on Linux",
+      "score": 162,
+      "date": "2024-09-02T08:20:46",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pabs3",
+        "name": "pabs3"
+      },
+      "comments_count": 54,
+      "comments_link": "https://news.ycombinator.com/item?id=41423577",
+      "text": ""
+    },
+    {
+      "id": 41425446,
+      "link": "https://www.newyorker.com/culture/open-questions/what-does-it-really-mean-to-learn",
+      "title": "What Does It Mean to Learn?",
+      "score": 134,
+      "date": "2024-09-02T14:00:58",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wallflower",
+        "name": "wallflower"
+      },
+      "comments_count": 77,
+      "comments_link": "https://news.ycombinator.com/item?id=41425446",
+      "text": ""
+    },
+    {
+      "id": 41426998,
+      "link": "https://news.ycombinator.com/item?id=41426998",
+      "title": "Launch HN: Fortress (YC S24) – Database platform for multi-tenant SaaS",
+      "score": 114,
+      "date": "2024-09-02T16:58:40",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dchu17",
+        "name": "dchu17"
+      },
+      "comments_count": 76,
+      "comments_link": "https://news.ycombinator.com/item?id=41426998",
+      "text": ""
+    },
+    {
+      "id": 41421325,
+      "link": "https://www.thisdaysportion.com/posts/dublin-core-what-is-it-good-for",
+      "title": "Dublin Core, what is it good for?",
+      "score": 96,
+      "date": "2024-09-01T23:55:04",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MrVandemar",
+        "name": "MrVandemar"
+      },
+      "comments_count": 31,
+      "comments_link": "https://news.ycombinator.com/item?id=41421325",
+      "text": ""
+    },
+    {
+      "id": 41427994,
+      "link": "https://www.media.mit.edu/projects/ai-false-memories/overview/",
+      "title": "AI-Implanted False Memories",
+      "score": 99,
+      "date": "2024-09-02T19:08:33",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=XzetaU8",
+        "name": "XzetaU8"
+      },
+      "comments_count": 28,
+      "comments_link": "https://news.ycombinator.com/item?id=41427994",
+      "text": ""
+    },
+    {
+      "id": 41415280,
+      "link": "https://tris.fyi/blog/mbta-cab-signaling-indicator.html",
+      "title": "Massachusetts Bodged Transistor Authority",
+      "score": 102,
+      "date": "2024-09-01T08:40:54",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=karagenit",
+        "name": "karagenit"
+      },
+      "comments_count": 17,
+      "comments_link": "https://news.ycombinator.com/item?id=41415280",
+      "text": ""
+    },
+    {
+      "id": 41422378,
+      "link": "https://www.theguardian.com/science/article/2024/sep/01/amazing-viking-age-treasure-travelled-half-the-world-to-scotland-analysis-finds",
+      "title": "&#x27;Amazing&#x27; Viking-age treasure travelled half the world to Scotland",
+      "score": 79,
+      "date": "2024-09-02T03:34:25",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=diodorus",
+        "name": "diodorus"
+      },
+      "comments_count": 14,
+      "comments_link": "https://news.ycombinator.com/item?id=41422378",
+      "text": ""
+    },
+    {
+      "id": 41400639,
+      "link": "https://github.com/readme/featured/vintage-computing",
+      "title": "What we can learn from vintage computing",
+      "score": 83,
+      "date": "2024-08-30T13:42:44",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ibobev",
+        "name": "ibobev"
+      },
+      "comments_count": 36,
+      "comments_link": "https://news.ycombinator.com/item?id=41400639",
+      "text": ""
+    },
+    {
+      "id": 41425646,
+      "link": "https://github.com/syncliteio/SyncLite",
+      "title": "Show HN: Replicate App-Embedded DuckDBs into PostgreSQL with SyncLite OSS",
+      "score": 66,
+      "date": "2024-09-02T14:30:01",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=syncliteio",
+        "name": "syncliteio"
+      },
+      "comments_count": 19,
+      "comments_link": "https://news.ycombinator.com/item?id=41425646",
+      "text": ""
+    },
+    {
+      "id": 41422283,
+      "link": "https://www.raygard.net/awkdoc/pages/awk_parsing_is_tricky.html",
+      "title": "Parsing Awk Is Tricky",
+      "score": 106,
+      "date": "2024-09-02T03:04:36",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=oliverkwebb",
+        "name": "oliverkwebb"
+      },
+      "comments_count": 90,
+      "comments_link": "https://news.ycombinator.com/item?id=41422283",
+      "text": ""
+    },
+    {
+      "id": 41416327,
+      "link": "https://www.archcloudlabs.com/projects/5-years-of-homelab/",
+      "title": "5 Years of InfoSec Focused Homelabbing",
+      "score": 68,
+      "date": "2024-09-01T12:13:52",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=DLLCoolJ",
+        "name": "DLLCoolJ"
+      },
+      "comments_count": 2,
+      "comments_link": "https://news.ycombinator.com/item?id=41416327",
+      "text": ""
+    },
+    {
+      "id": 41415634,
+      "link": "https://artem.krylysov.com/blog/2024/06/28/timeseries-indexing-at-scale/",
+      "title": "Timeseries Indexing at Scale",
+      "score": 91,
+      "date": "2024-09-01T10:07:43",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gsky",
+        "name": "gsky"
+      },
+      "comments_count": 14,
+      "comments_link": "https://news.ycombinator.com/item?id=41415634",
+      "text": ""
+    }
+  ]
+}

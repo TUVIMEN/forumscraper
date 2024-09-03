@@ -38,7 +38,7 @@ class invision(ForumExtractor):
             )
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "invision-4-user", "url": url, "id": i_id}
+            ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
 
             t = json.loads(
                 rq.search(
@@ -178,7 +178,7 @@ class invision(ForumExtractor):
             return ret
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "invision-4-thread", "url": url, "id": i_id}
+            ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
             page = 0
 
             t = json.loads(
@@ -376,11 +376,11 @@ class invision(ForumExtractor):
         self.guesslist = [
             {
                 "func": "get_thread",
-                "exprs": [r"^/(.*[/?])?(thread|topic)s?/"],
+                "exprs": [r"/(.*[/?])?(thread|topic)s?/"],
             },
             {
                 "func": "get_forum",
-                "exprs": [r"^/(.*[/?])?forums?/"],
+                "exprs": [r"/(.*[/?])?forums?/"],
             },
             {"func": "get_board", "exprs": None},
         ]

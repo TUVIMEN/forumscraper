@@ -14,15 +14,15 @@ from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 guesslist = [
     {
         "func": "get_thread",
-        "exprs": [r"^/.*([?/&;]topic[=,]|-t)+(\d+)"],
+        "exprs": [r"/.*([?/&;]topic[=,]|-t)+(\d+)"],
     },
     {
         "func": "get_forum",
-        "exprs": [r"^/.*([?/&;]board[=,]|-t)+(\d+)"],
+        "exprs": [r"/.*([?/&;]board[=,]|-t)+(\d+)"],
     },
     {
         "func": "get_board",
-        "exprs": [r"^/(.*/)?index.php"],
+        "exprs": [r"/(.*/)?index.php"],
     },
     {"func": "get_board", "exprs": None},
 ]
@@ -39,7 +39,7 @@ class smf1(ForumExtractor):
             ]
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "smf-1-thread", "url": url, "id": i_id}
+            ret = {"format_version": "smf-1-thread", "url": url, "id": int(i_id)}
             page = 0
 
             t = json.loads(
@@ -381,7 +381,7 @@ class smf2(ForumExtractor):
             self.trim = True
 
         def get_contents(self, rq, settings, state, url, i_id):
-            ret = {"format_version": "smf-2-thread", "url": url, "id": i_id}
+            ret = {"format_version": "smf-2-thread", "url": url, "id": int(i_id)}
             page = 0
 
             forumposts = rq.filter(r"div #forumposts")
@@ -463,7 +463,7 @@ class smf2(ForumExtractor):
                 rq = self.session.get_html(url, settings, state, self.trim)
 
             try:
-                i_id = int(rq.search('input name=sd_topic value | "%(value)v"'))
+                i_id = str(int(rq.search('input name=sd_topic value | "%(value)v"')))
             except ValueError:
                 warnings.warn('url leads to improper forum - "{}"'.format(url))
                 return [None, 0]
