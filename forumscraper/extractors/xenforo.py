@@ -35,7 +35,7 @@ class xenforo2(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^/(.*[./])?(\d+)(/.*)?$"),
+                re.compile(r"/(.*[./])?(\d+)(/.*)?$"),
                 2,
             ]
 
@@ -288,7 +288,7 @@ class xenforo2(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^/(.*[./])?(\d+)/[\&?]tooltip=true\&"),
+                re.compile(r"/(.*[./])?(\d+)/[\&?]tooltip=true\&"),
                 2,
             ]
             self.path_format = "m-{}"
@@ -541,7 +541,7 @@ class xenforo1(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?$"),
+                re.compile(r"/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?$"),
                 2,
             ]
 
@@ -585,7 +585,7 @@ class xenforo1(ForumExtractor):
                 p #pageDescription; {
                     .user_id.u a .username href | "%(href)v" / sed "s/^.*[\/.]\([0-9]\+\)/\1/; s/[^0-9]$//",
                     .user a .username | "%i",
-                    .date * .DateTime | "%i"
+                    .date [0] * .DateTime | "%i"
                 },
                 .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%i\n",
                 .tags.a("|") ul .tagList; a .tag | "%i|" / sed "s/<[^>]*>[^<]*<\/[^>]*>//g; s/|$//"
@@ -626,7 +626,7 @@ class xenforo1(ForumExtractor):
                     t = json.loads(
                         i.search(
                             r"""
-                        .date div .messageMeta; span .item; * .DateTime; {
+                        .date div .messageMeta; span .item; [0] * .DateTime; {
                             * l@[0] title | "%(title)v",
                             * l@[0] -title | "%i"
                         },

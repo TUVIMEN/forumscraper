@@ -34,7 +34,7 @@ class smf1(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^/.*([?/&;]topic[=,]|-t)(\d+)"),
+                re.compile(r"/.*([?/&;]topic[=,]|-t)(\d+)"),
                 2,
             ]
 
@@ -375,7 +375,7 @@ class smf2(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^/.*([?/&;]topic[=,])(\d+)"),
+                re.compile(r"/.*([?/&;]topic[=,])(\d+)"),
                 2,
             ]
             self.trim = True

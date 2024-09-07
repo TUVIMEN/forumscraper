@@ -80,6 +80,7 @@ def main():
         "proxies": args.proxies,
         "headers": args.headers,
         "cookies": args.cookies,
+        "compress_func": args.compression,
     }
 
     ex = Extractor(**settings)

@@ -15,7 +15,7 @@ class phpbb(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                r"^/((.*)?viewtopic\.php(.*)[\&\?]t=|.*-t)(\d+)",
+                r"/((.*)?viewtopic\.php(.*)[\&\?]t=|.*-t)(\d+)",
                 4,
             ]
             self.trim = True

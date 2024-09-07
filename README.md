@@ -101,6 +101,8 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 `--forums` creates forums files.
 
+`--compression ALGO` compresses created files with ALGO, that can be `none`, `gzip`, `bzip2`, `lzma`.
+
 `--only-urls-forums` writes found forum urls to `output`, doesn't scrape.
 
 `--only-urls-threads` writes found thread urls to `output`, doesn't scrape.
@@ -343,38 +345,40 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 
 `undisturbed=False` if set, scraper doesn't care about standard errors.
 
-`pedantic=False` if set, scraper fails because of errors in scraping resources related to currently scraped e.g. if getting users of reactions fails
+`pedantic=False` if set, scraper fails because of errors in scraping resources related to currently scraped e.g. if getting users of reactions fails.
 
 `force=False` if set, scraper overwrites files, but will still refuse to scrape urls found in `visited` field of state, if you are passing state between functions and you want to redownload them you will have to set it to empty set e.g. `state['visited'] = set()` before every function call.
 
-`max_workers=1` set number of threads used for scraping
+`max_workers=1` set number of threads used for scraping.
 
-`verify=True` if set to `False` ignore ssl errors
+`compress_func=None` set compression function that will be called when writing to files, function should accept data in `bytes` as the first argument, e.g. `gzip.compress`.
 
-`timeout=120` request timeout
+`verify=True` if set to `False` ignore ssl errors.
 
-`proxies={}` requests library proxies dictionary
+`timeout=120` request timeout.
 
-`headers={}` requests library headers dictionary
+`proxies={}` requests library proxies dictionary.
 
-`cookies={}` requests library cookies dictionary
+`headers={}` requests library headers dictionary.
 
-`user_agent=None` custom user-agent
+`cookies={}` requests library cookies dictionary.
 
-`wait=0` waiting time for each request
+`user_agent=None` custom user-agent.
 
-`wait_random=0` random waiting time up to specified miliseconds
+`wait=0` waiting time for each request.
 
-`retries=3` number of retries attempted in case of failure
+`wait_random=0` random waiting time up to specified miliseconds.
 
-`retry_wait=60` waiting time between retries
+`retries=3` number of retries attempted in case of failure.
 
-`thread_pages_max=0` if greater than `0` limits number of pages traversed in threads
+`retry_wait=60` waiting time between retries.
 
-`pages_max=0` limits number of pages traversed in each forum, tag or board
+`thread_pages_max=0` if greater than `0` limits number of pages traversed in threads.
 
-`pages_max_depth=0` sets recursion limit for forums, tags and boards
+`pages_max=0` limits number of pages traversed in each forum, tag or board.
 
-`pages_forums_max=0` limits number of forums that are processed from every page in forum or board
+`pages_max_depth=0` sets recursion limit for forums, tags and boards.
 
-`pages_threads_max=0` limits number of threads that are processed from every page in forum or tag
+`pages_forums_max=0` limits number of forums that are processed from every page in forum or board.
+
+`pages_threads_max=0` limits number of threads that are processed from every page in forum or tag.

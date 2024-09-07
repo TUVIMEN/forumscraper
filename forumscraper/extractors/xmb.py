@@ -23,7 +23,7 @@ class xmb(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^/(.*/)?viewthread\.php\?tid=(\d+)$"),
+                re.compile(r"/(.*/)?viewthread\.php\?tid=(\d+)$"),
                 2,
             ]
             self.trim = True

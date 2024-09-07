@@ -23,6 +23,16 @@ common_exceptions = (
 )
 
 
+def write_json(path, data, settings):
+    if settings["compress_func"] is None:
+        with open(path, "w") as file:
+            file.write(json.dumps(data))
+    else:
+        with open(path, "wb") as file:
+            out = settings["compress_func"](json.dumps(data).encode())
+            file.write(out)
+
+
 def handle_error(self, exception, url, settings, for_pedantic=False):
     if isinstance(exception, AlreadyVisitedError):
         return None
@@ -143,8 +153,7 @@ class ItemExtractor:
             state["data"][typekey].append(contents)
 
         if path:
-            with open(path, "w") as file:
-                file.write(json.dumps(contents))
+            write_json(path, contents, settings)
             self.state_add_url(typekey, url, state, settings)
             state["files"][typekey].append(path)
 
@@ -198,6 +207,7 @@ class ForumExtractor:
             "retries": 3,
             "retry_wait": 60,
             "force": False,
+            "compress_func": None,
         }
         self.settings = self.get_settings(kwargs)
 
@@ -448,8 +458,7 @@ class ForumExtractor:
         if Outputs.data in output:
             state["data"][typekey].append(data)
         if path:
-            with open(path, "w") as file:
-                file.write(json.dumps(data))
+            write_json(path, data, settings)
             state["files"][typekey].append(path)
 
     def process_forum(self, url, rq, settings, state):

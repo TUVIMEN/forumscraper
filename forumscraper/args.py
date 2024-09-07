@@ -2,6 +2,9 @@ import os
 import sys
 import argparse
 import ast
+import gzip
+import bz2
+import lzma
 
 from .utils import url_valid
 from .enums import Outputs, __version__
@@ -79,6 +82,19 @@ def valid_type(type_name):
     return ret
 
 
+def valid_compression_type(type_name):
+    types = {
+        "lzma": lzma.compress,
+        "bzip2": bz2.compress,
+        "gzip": gzip.compress,
+        "none": None,
+    }
+
+    if type_name not in types.keys():
+        raise KeyError(f"{type_name} is not a valid compression type")
+    return types.get(type_name)
+
+
 def argparser():
     parser = argparse.ArgumentParser(
         description="Forum scraper that aims to be an universal, automatic and extensive.",
@@ -142,6 +158,13 @@ def argparser():
         type=valid_names,
         help="Change naming convention of created files to NAME, which can be either id or hash",
         default=Outputs.write_by_id,
+    )
+    files.add_argument(
+        "--compression",
+        metavar="ALGO",
+        type=valid_compression_type,
+        help="Compress created files using set algorithm, that can be none, gzip, bzip2, lzma",
+        default=None,
     )
     files.add_argument(
         "-l",
