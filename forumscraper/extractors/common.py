@@ -34,7 +34,6 @@ def write_json(path, data, settings):
 
 
 def handle_error(self, exception, url, settings, for_pedantic=False):
-    raise exception
     if isinstance(exception, AlreadyVisitedError):
         return None
 

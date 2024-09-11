@@ -612,7 +612,7 @@ class xenforo1(ForumExtractor):
             while True:
                 for i in rq.filter(
                     r"ol #messageList; li #E>post-[0-9]* data-author l@[1]"
-                ).children():
+                ).self():
                     post = {}
                     messageUB = i.filter(r"div class=b>messageUserBlock")
 

@@ -89,7 +89,7 @@ class invision(ForumExtractor):
 
         def get_poll_answers(self, rq):
             ret = []
-            for i in rq.filter(r"ul; li").children():
+            for i in rq.filter(r"ul; li").self():
                 el = {}
                 el["option"] = i.search(r'div .ipsGrid_span4 | "%i"')
                 el["votes"] = i.search(
@@ -100,7 +100,7 @@ class invision(ForumExtractor):
 
         def get_poll_questions(self, rq):
             ret = []
-            for i in rq.filter(r"ol .ipsList_reset .cPollList; li l@[1]").children():
+            for i in rq.filter(r"ol .ipsList_reset .cPollList; li l@[1]").self():
                 el = {}
                 el["question"] = i.search(r'h3; span | "%i"')
                 el["answers"] = self.get_poll_answers(i)
@@ -281,7 +281,7 @@ class invision(ForumExtractor):
             posts = []
 
             while True:
-                for i in rq.filter(r"article #B>elComment_[0-9]*").children():
+                for i in rq.filter(r"article #B>elComment_[0-9]*").self():
                     post = {}
 
                     post["user_link"] = url_merge_r(
