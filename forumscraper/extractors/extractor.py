@@ -38,6 +38,7 @@ class Extractor(ForumExtractorIdentify):
                     r"/viewthread.php\?tid=\d+$",
                     r"[/?](thread|topic)s?/",
                     r"^https://news.ycombinator.com/item\?id=",
+                    r"/questions/(\d+)",
                 ],
             },
             {"func": "get_board", "exprs": [r"/forums?/$"]},
@@ -52,7 +53,10 @@ class Extractor(ForumExtractorIdentify):
                     r"^https://news.ycombinator.com/(favorites|submitted)\?id=",
                 ],
             },
-            {"func": "get_user", "exprs": [r"^https://news.ycombinator.com/user\?id="]},
+            {
+                "func": "get_user",
+                "exprs": [r"^https://news.ycombinator.com/user\?id=", r"/users/(\d+)"],
+            },
             {"func": "get_tag", "exprs": [r"[/?]tags?/"]},
             {"func": "get_board", "exprs": None},
         ]

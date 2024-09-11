@@ -15,6 +15,7 @@ os.chdir("j")
 ex = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.users
+    | forumscraper.Outputs.reactions
     | forumscraper.Outputs.threads,
     logger=sys.stdout,
     failed=sys.stderr,
@@ -101,6 +102,7 @@ def test_urls(ex, print_func, func_name, identify, *args):
 ex2 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.users
+    | forumscraper.Outputs.reactions
     | forumscraper.Outputs.threads,
     logger=sys.stdout,
     failed=sys.stderr,
@@ -145,7 +147,15 @@ def print_state_scraper(state):
         print(state["scraper"])
 
 
-ex3 = forumscraper.Extractor(logger=sys.stderr, failed=sys.stderr)
+ex3 = forumscraper.Extractor(
+    logger=sys.stderr,
+    failed=sys.stderr,
+    output=forumscraper.Outputs.threads
+    | forumscraper.Outputs.write_by_id
+    | forumscraper.Outputs.users
+    | forumscraper.Outputs.reactions
+    | forumscraper.Outputs.threads,
+)
 
 
 def test_identify():

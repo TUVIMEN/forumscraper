@@ -91,9 +91,11 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 ### Settings
 
-`--nousers` and `--noreactions` (working only on `xenforo2` and `invision` scrapers) cause ignoring users and reactions respectively, which greatly increases speed of scraping, if you have no use for them you SHOULD consider using these flags (they are not set by default because of choosing extensivity by default).
+`--nothreads` doesn't download threads unless url passed is a thread.
 
-`--nothreads` doesn't download threads (makes `--nousers` and `--noreactions` meaningless since these can be only found in threads) unless url passed is a thread.
+`--users` download users.
+
+`--reactions` download reactions.
 
 `--boards` creates board files.
 
@@ -101,7 +103,7 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 `--forums` creates forums files.
 
-`--compression ALGO` compresses created files with ALGO, that can be `none`, `gzip`, `bzip2`, `lzma`.
+`--compression ALGO` compresses created files with `ALGO`, that can be `none`, `gzip`, `bzip2`, `lzma`.
 
 `--only-urls-forums` writes found forum urls to `output`, doesn't scrape.
 
@@ -117,7 +119,7 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 Combining some of the above you get:
 
-    forumscraper --nousers --thread-pages-max 1 --pages-max 1 --pages-forums-max 1 --pages-threads-max 1 URL1 URL2 URL3
+    forumscraper --thread-pages-max 1 --pages-max 1 --pages-forums-max 1 --pages-threads-max 1 URL1 URL2 URL3
 
 which downloads only one page in one thread from one forum found from every `URL` which is very useful for debugging.
 
@@ -132,14 +134,13 @@ import forumscraper
 
 ex = forumscraper.Extractor(timeout=90)
 
-thread = ex.guess('https://xenforo.com/community/threads/forum-data-breach.180995/',output=forumscraper.Outputs.data,timeout=60,retries=0) #automatically identify forum and type of page and save results
+thread = ex.guess('https://xenforo.com/community/threads/forum-data-breach.180995/',output=forumscraper.Outputs.data|forumscraper.Outputs.threads,timeout=60,retries=0) #automatically identify forum and type of page and save results
 thread['data']['threads'][0] #access the result
 thread['data']['users'] #found users are also saved into an array
 
-forum = ex.get_forum('https://xenforo.com/community/forums/off-topic.7/',output=forumscraper.Outputs.data|forumscraper.Outputs.urls,retries=0)  #get list of all threads and  urls from forum
+forum = ex.get_forum('https://xenforo.com/community/forums/off-topic.7/',output=forumscraper.Outputs.data|forumscraper.Outputs.urls|forumscraper.Outputs.threads,retries=0)  #get list of all threads and  urls from forum
 forum['data']['threads'] #access the results
 forums['urls']['threads'] #list of urls to found threads
-forums['urls']['users'] #list of urls to found users
 forums['urls']['forums'] #list of urls to found forums
 
 threads = ex.smf.get_forum('https://www.simplemachines.org/community/index.php?board=1.0',output=forumscraper.Outputs.only_urls_threads) #gather only urls to threads without scraping data
@@ -156,13 +157,13 @@ ex.smf.get_thread('https://www.simplemachines.org/community/index.php?topic=5784
 os.mkdir('xenforo')
 os.chdir('xenforo')
 
-xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_id)
+xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.threads)
 #specifies global config, writes output in files by their id (beginning with m- in case of users) in current directory
 #ex.xenforo.v2 is an initialized instance of forumscraper.xenforo2 with the same settings as ex
-#output by default is set to forumscraper.Outputs.write_by_id anyway
+#output by default is set to forumscraper.Outputs.write_by_id|forumscraper.Outputs.threads anyway
 
 failures = []
-files = xen.guess('https://xenforo.com/community/',nousers=True,logger=sys.stdout,failed=failures, undisturbed=True)
+files = xen.guess('https://xenforo.com/community/',logger=sys.stdout,failed=failures, undisturbed=True)
 #failed=failures writes all the failed requests to be saved in failures array or file
 
 for i in failures: #try to download failed one last time
@@ -176,12 +177,12 @@ files['files']['users'] #lists of created files
 #the above uses scraper that is an instance of ForumExtractor
 #if the instance of ForumExtractorIdentify before checking if the files already exist based on url the page has to be downloaded to be indentified. Because of that any getters from this class returns results with 'scraper' field pointing to the indentified scraper type and further requests should be done through that object.
 
-xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_id,undisturbed=True)
+xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_hash|forumscraper.Outputs.threads,undisturbed=True)
 #specifies global config, writes output in files by sha256 hash of their url in current directory
 #ex.xenforo is also an initialized forumscraper.xenforo
 
 failures = []
-files = xen.guess('https://xenforo.com/community/',nousers=True,logger=sys.stdout,failed=failures)
+files = xen.guess('https://xenforo.com/community/',logger=sys.stdout,failed=failures)
 scraper = files['scraper'] #identified ForumScraper instance
 
 for i in failures: #try to download failed one last time
@@ -311,7 +312,7 @@ Where `data` field contains resulting dictionaries of data.
 
 At initialization of scrapers and use of `get_` methods you can specify the same settings.
 
-`output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.urls|forumscraper.Outputs.threads|forumscraper.Outputs.users|forumscraper.Outputs.reactions` changes behaviour of scraper and results returned by id. It takes flags from `forumscraper.Outputs`:
+`output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.urls|forumscraper.Outputs.threads` changes behaviour of scraper and results returned by id. It takes flags from `forumscraper.Outputs`:
 
  - `write_by_id` - write results in json in files named by their id (beginning with `m-` in case of users) e.g `21` `29` `m-24` `m-281`
  - `write_by_hash` - write results in json in files named by sha256 hash of their source url

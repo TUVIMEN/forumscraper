@@ -34,6 +34,7 @@ def write_json(path, data, settings):
 
 
 def handle_error(self, exception, url, settings, for_pedantic=False):
+    raise exception
     if isinstance(exception, AlreadyVisitedError):
         return None
 
@@ -184,10 +185,7 @@ class ForumExtractor:
             "pages_max_depth": 0,
             "pages_threads_max": 0,
             "pages_forums_max": 0,
-            "output": Outputs.write_by_id
-            | Outputs.urls
-            | Outputs.threads
-            | Outputs.users,
+            "output": Outputs.write_by_id | Outputs.urls | Outputs.threads,
             "max_workers": 1,
             "undisturbed": False,
             "pedantic": False,

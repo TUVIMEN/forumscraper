@@ -36,10 +36,10 @@ def main():
 
     if args.nothreads:
         output &= ~Outputs.threads
-    if args.nousers:
-        output &= ~Outputs.users
-    if args.noreactions:
-        output &= ~Outputs.reactions
+    if args.users:
+        output |= Outputs.users
+    if args.reactions:
+        output |= Outputs.reactions
     if args.boards:
         output |= Outputs.boards
     if args.tags:
@@ -63,7 +63,6 @@ def main():
         "max_workers": args.threads,
         "logger": args.log,
         "failed": args.failed,
-        "nousers": args.nousers,
         "force": args.force,
         **disturbed,
         "thread_pages_max": args.thread_pages_max,

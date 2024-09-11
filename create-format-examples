@@ -1,7 +1,7 @@
 #!/bin/bash
 
 fsc() {
-    python -m forumscraper -m 10 -r 0 -k "$@"
+    python -m forumscraper -m 10 -r 0 -k --reactions --users "$@"
 }
 
 fscb() {

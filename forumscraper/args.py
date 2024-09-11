@@ -198,14 +198,14 @@ def argparser():
         help="do not download threads (works only when page passed is not a thread)",
     )
     settings.add_argument(
-        "--nousers",
+        "--users",
         action="store_true",
-        help="do not download users",
+        help="download users",
     )
     settings.add_argument(
-        "--noreactions",
+        "--reactions",
         action="store_true",
-        help="do not download reactions",
+        help="download reactions",
     )
     settings.add_argument(
         "--boards",
