@@ -32,7 +32,7 @@ def main():
     if args.pedantic:
         disturbed = {"undisturbed": False, "pedantic": True}
 
-    output = args.names | Outputs.threads | Outputs.users | Outputs.reactions
+    output = args.names | Outputs.threads
 
     if args.nothreads:
         output &= ~Outputs.threads
