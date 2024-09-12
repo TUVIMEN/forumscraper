@@ -121,7 +121,7 @@ class xenforo2(ForumExtractor):
                 div .p-description; {
                     .user_id.u * data-user-id | "%(data-user-id)v",
                     .user * data-user-id; * c@[0] | "%i",
-                    .date time datetime | "%(datetime)v",
+                    .date [0] time datetime | "%(datetime)v",
                 },
                 .path.a ul .p-breadcrumbs -.p-breadcrumbs--bottom; span | "%i\n",
                 .tags.a("|") a class=b>tagItem | "%i\n" / sed ":x; s/\t//g; /^$/d; $!{N;s/\n/|/;bx}; s/|$//; s/|\+/|/g" tr "\n",
@@ -189,9 +189,9 @@ class xenforo2(ForumExtractor):
                 .id.u E>(span|div) #B>post-[0-9]* | "%(id)v" / sed "s/^post-//;q",
 
                 .date {
-                    * class=b>message-attribution-main; time datetime | "%(datetime)v",
+                    * class=b>message-attribution-main; time datetime | "%(datetime)v\t",
                     * .MessageCard__date-created; [0] time datetime .u-dt | "%(datetime)v"
-                },
+                } / sed "s/\t.*//",
 
                 .text {
                     article class=b>message-body,
