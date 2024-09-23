@@ -106,6 +106,8 @@ class xmb(ForumExtractor):
                         try:
                             if g == "stars":
                                 post[g] = len(fields[j])
+                            elif g == "avatar":
+                                post[g] = url_merge(url, fields[j])
                             elif g == "posts":
                                 try:
                                     post[g] = int(fields[j])
