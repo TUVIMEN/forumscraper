@@ -614,7 +614,7 @@ class smf2(ForumExtractor):
                             .icons2.a img id child@ | "%(src)v\n" sed 's/.*\///; s/\..*//'
                         },
                         td .starter child@; a; {
-                            .user2 | "%i",
+                            .user2 * self@ | "%i",
                             .user_link2 * self@ | "%(href)v"
                         },
                         {
