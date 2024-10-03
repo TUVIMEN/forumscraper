@@ -1,0 +1,249 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://skeptics.stackexchange.com/users/35049/spraff",
+  "id": 35049,
+  "avatar": "https://www.gravatar.com/avatar/ee0a7599f30c29076a3c9a2c022e473b?s=256&d=identicon&r=PG",
+  "user": "spraff",
+  "unregistered": false,
+  "created": "2016-07-27 14:52:21Z",
+  "lastseen": "more than a week ago",
+  "location": "London, United Kingdom",
+  "social": [
+    "https://github.com/spraff/"
+  ],
+  "meta-profile": "",
+  "network-profile": "https://stackexchange.com/users/208333/spraff",
+  "reputation": 529,
+  "reached": 12000,
+  "answers": 0,
+  "questions": 3,
+  "communities-all": "https://stackexchange.com/users/208333/spraff?tab=accounts",
+  "communities": [
+    {
+      "profile": "https://stackoverflow.com/users/458742/",
+      "reputation": 33100
+    },
+    {
+      "profile": "https://physics.stackexchange.com/users/9070/",
+      "reputation": 5200
+    },
+    {
+      "profile": "https://worldbuilding.stackexchange.com/users/6409/",
+      "reputation": 2300
+    },
+    {
+      "profile": "https://superuser.com/users/117589/",
+      "reputation": 2300
+    },
+    {
+      "profile": "https://math.stackexchange.com/users/23229/",
+      "reputation": 1600
+    }
+  ],
+  "about": "<p></p>",
+  "badges-all": "https://skeptics.stackexchange.com/users/35049/spraff?tab=badges",
+  "badges": [
+    {
+      "amount": 1,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/28/famous-question?userid=35049",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 1,
+          "date": "Sep 30"
+        }
+      ]
+    },
+    {
+      "amount": 4,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/21/good-question?userid=35049",
+          "action": "Question score of 25 or more",
+          "name": "Good Question",
+          "amount": 1,
+          "date": "Sep 24"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/27/notable-question?userid=35049",
+          "action": "Question with 2,500 views",
+          "name": "Notable Question",
+          "amount": 1,
+          "date": "Sep 23"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/13/yearling?userid=35049",
+          "action": "Active member for a year, earning at least 200 reputation",
+          "name": "Yearling",
+          "amount": 2,
+          "date": "Sep 23"
+        }
+      ]
+    },
+    {
+      "amount": 6,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/10/scholar?userid=35049",
+          "action": "Ask a question and accept an answer",
+          "name": "Scholar",
+          "amount": 1,
+          "date": "Jan 13, 2018"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/2/student?userid=35049",
+          "action": "First question with score of 1 or more",
+          "name": "Student",
+          "amount": 1,
+          "date": "Jul 27, 2016"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/3/editor?userid=35049",
+          "action": "First edit",
+          "name": "Editor",
+          "amount": 1,
+          "date": "Aug 12, 2019"
+        }
+      ]
+    }
+  ],
+  "tags-all": "",
+  "tags": [
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:35049+[hygiene]",
+      "name": "hygiene",
+      "badge": "",
+      "score": 0,
+      "posts": 2,
+      "posts-percent": 67,
+      "answered": 0,
+      "ansked": 2,
+      "asked-score": 6
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:35049+[electronics]",
+      "name": "electronics",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 33,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 35
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:35049+[economics]",
+      "name": "economics",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 33,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 35
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:35049+[energy]",
+      "name": "energy",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 33,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 35
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:35049+[computers]",
+      "name": "computers",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 33,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 35
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:35049+[dentistry]",
+      "name": "dentistry",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 33,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 1
+    }
+  ],
+  "posts-answers-all": "",
+  "posts-questions-all": "",
+  "posts": [
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 35,
+      "link": "https://skeptics.stackexchange.com/questions/57326/does-ai-use-lots-of-water",
+      "title": "Does AI use lots of water?",
+      "date": "2024-09-21 12:11:31Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 7,
+      "link": "https://skeptics.stackexchange.com/questions/34667/does-washing-salad-remove-e-coli",
+      "title": "Does washing salad remove E-coli?",
+      "date": "2016-07-19 23:32:25Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 1,
+      "link": "https://skeptics.stackexchange.com/questions/44683/home-made-vs-commercial-toothpaste",
+      "title": "Home-made vs. commercial toothpaste?",
+      "date": "2019-08-12 08:42:44Z"
+    }
+  ],
+  "network-posts-all": "https://stackexchange.com/users/208333/spraff?tab=top",
+  "network-posts": [
+    {
+      "votes": 468,
+      "link": "https://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportionhttps://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion",
+      "title": "CSS background image to fit width, height should auto-scale in proportion"
+    },
+    {
+      "votes": 115,
+      "link": "https://history.stackexchange.com/questions/14325/why-bother-attacking-castles-at-all-why-not-go-aroundhttps://history.stackexchange.com/questions/14325/why-bother-attacking-castles-at-all-why-not-go-around",
+      "title": "Why bother attacking castles at all? Why not go around?"
+    },
+    {
+      "votes": 94,
+      "link": "https://stackoverflow.com/questions/20858587/width-and-height-doesnt-seem-to-work-on-before-pseudo-elementhttps://stackoverflow.com/questions/20858587/width-and-height-doesnt-seem-to-work-on-before-pseudo-element",
+      "title": "width and height doesn&#x27;t seem to work on :before pseudo-element"
+    },
+    {
+      "votes": 67,
+      "link": "https://stackoverflow.com/questions/9116267/how-can-i-use-an-enumeration-as-a-template-parameter/9116349#9116349https://stackoverflow.com/questions/9116267/how-can-i-use-an-enumeration-as-a-template-parameter/9116349#9116349",
+      "title": "How can I use an enumeration as a template parameter?"
+    },
+    {
+      "votes": 60,
+      "link": "https://stackoverflow.com/questions/53581744/how-can-i-intentionally-discard-a-nodiscard-return-valuehttps://stackoverflow.com/questions/53581744/how-can-i-intentionally-discard-a-nodiscard-return-value",
+      "title": "How can I intentionally discard a [[nodiscard]] return value?"
+    }
+  ],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

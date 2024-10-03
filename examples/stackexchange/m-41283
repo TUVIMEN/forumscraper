@@ -1,0 +1,311 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://skeptics.stackexchange.com/users/41283/keshav-srinivasan",
+  "id": 41283,
+  "avatar": "https://i.sstatic.net/Y6yHO.png?s=256",
+  "user": "Keshav Srinivasan",
+  "unregistered": false,
+  "created": "2017-07-25 21:23:15Z",
+  "lastseen": "this week",
+  "location": "",
+  "social": [],
+  "meta-profile": "https://skeptics.meta.stackexchange.com/users/41283/keshav-srinivasan",
+  "network-profile": "https://stackexchange.com/users/2614901/keshav-srinivasan",
+  "reputation": 4385,
+  "reached": 81000,
+  "answers": 3,
+  "questions": 37,
+  "communities-all": "https://stackexchange.com/users/2614901/keshav-srinivasan?tab=accounts",
+  "communities": [
+    {
+      "profile": "https://hinduism.stackexchange.com/users/36/",
+      "reputation": 0
+    },
+    {
+      "profile": "https://math.stackexchange.com/users/71829/",
+      "reputation": 10500
+    },
+    {
+      "profile": "https://politics.stackexchange.com/users/1953/",
+      "reputation": 9300
+    },
+    {
+      "profile": "https://mathoverflow.net/users/5017/",
+      "reputation": 4600
+    },
+    {
+      "profile": "https://skeptics.stackexchange.com/users/41283/",
+      "reputation": 4400
+    }
+  ],
+  "about": "",
+  "badges-all": "https://skeptics.stackexchange.com/users/41283/keshav-srinivasan?tab=badges",
+  "badges": [
+    {
+      "amount": 4,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/22/great-question?userid=41283",
+          "action": "Question score of 100 or more",
+          "name": "Great Question",
+          "amount": 1,
+          "date": "Sep 20, 2018"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/28/famous-question?userid=41283",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 3,
+          "date": "Feb 19, 2019"
+        }
+      ]
+    },
+    {
+      "amount": 19,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/97/inquisitive?userid=41283",
+          "action": "Ask a well-received question on 30 separate days, and maintain a positive question record",
+          "name": "Inquisitive",
+          "amount": 1,
+          "date": "Jan 23"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/21/good-question?userid=41283",
+          "action": "Question score of 25 or more",
+          "name": "Good Question",
+          "amount": 5,
+          "date": "Mar 16, 2020"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/27/notable-question?userid=41283",
+          "action": "Question with 2,500 views",
+          "name": "Notable Question",
+          "amount": 6,
+          "date": "Feb 18, 2019"
+        }
+      ]
+    },
+    {
+      "amount": 38,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/14/self-learner?userid=41283",
+          "action": "Answer your own question with score of 3 or more",
+          "name": "Self-Learner",
+          "amount": 1,
+          "date": "Dec 13, 2019"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/46/promoter?userid=41283",
+          "action": "First bounty you offer on your own question",
+          "name": "Promoter",
+          "amount": 1,
+          "date": "Sep 12, 2020"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/65/talkative?userid=41283",
+          "action": "Post 10 messages, with 1 or more starred, in chat",
+          "name": "Talkative",
+          "amount": 1,
+          "date": "Dec 14, 2019"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://skeptics.stackexchange.com/users/41283/keshav-srinivasan?tab=tags",
+  "tags": [
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:41283+[united-states]",
+      "name": "united-states",
+      "badge": "",
+      "score": 14,
+      "posts": 38,
+      "posts-percent": 95,
+      "answered": 3,
+      "ansked": 35,
+      "asked-score": 372
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:41283+[politics]",
+      "name": "politics",
+      "badge": "",
+      "score": 14,
+      "posts": 37,
+      "posts-percent": 92,
+      "answered": 3,
+      "ansked": 34,
+      "asked-score": 354
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:41283+[hillary-clinton]",
+      "name": "hillary-clinton",
+      "badge": "",
+      "score": 11,
+      "posts": 3,
+      "posts-percent": 8,
+      "answered": 1,
+      "ansked": 2,
+      "asked-score": 25
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:41283+[donald-trump]",
+      "name": "donald-trump",
+      "badge": "",
+      "score": 3,
+      "posts": 16,
+      "posts-percent": 40,
+      "answered": 2,
+      "ansked": 14,
+      "asked-score": 130
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:41283+[criminology]",
+      "name": "criminology",
+      "badge": "",
+      "score": 2,
+      "posts": 3,
+      "posts-percent": 8,
+      "answered": 1,
+      "ansked": 2,
+      "asked-score": 2
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:41283+[law]",
+      "name": "law",
+      "badge": "",
+      "score": 1,
+      "posts": 9,
+      "posts-percent": 22,
+      "answered": 1,
+      "ansked": 8,
+      "asked-score": 120
+    }
+  ],
+  "posts-answers-all": "https://skeptics.stackexchange.com/users/41283?tab=answers",
+  "posts-questions-all": "https://skeptics.stackexchange.com/users/41283?tab=questions",
+  "posts": [
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 109,
+      "link": "https://skeptics.stackexchange.com/questions/42268/did-close-to-3-000-puerto-ricans-die-in-hurricane-maria",
+      "title": "Did close to 3,000 Puerto Ricans die in Hurricane Maria?",
+      "date": "2018-09-13 13:12:07Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 48,
+      "link": "https://skeptics.stackexchange.com/questions/41889/was-paul-manafort-exonerated-for-the-crimes-he-s-now-charged-with",
+      "title": "Was Paul Manafort exonerated for the crimes he’s now charged with?",
+      "date": "2018-08-02 04:16:18Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 47,
+      "link": "https://skeptics.stackexchange.com/questions/43490/did-president-obama-state-he-was-close-to-starting-a-war-with-north-korea",
+      "title": "Did President Obama state he was close to starting a war with North Korea?",
+      "date": "2019-02-17 16:04:36Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 28,
+      "link": "https://skeptics.stackexchange.com/questions/40312/did-millions-sign-up-for-association-health-plans-after-president-trumps-execut",
+      "title": "Did millions sign up for association health plans after President Trump&#39;s executive order?",
+      "date": "2017-12-30 14:12:17Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 25,
+      "link": "https://skeptics.stackexchange.com/questions/43000/is-the-clinton-foundation-currently-under-investigation",
+      "title": "Is the Clinton Foundation currently under investigation?",
+      "date": "2018-12-19 00:34:11Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 19,
+      "link": "https://skeptics.stackexchange.com/questions/48378/has-trump-built-just-5-miles-of-wall-where-no-barrier-existed",
+      "title": "Has Trump built just 5 miles of wall where no barrier existed?",
+      "date": "2020-08-28 04:31:06Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 18,
+      "link": "https://skeptics.stackexchange.com/questions/41245/did-mueller-indict-a-russian-company-that-didnt-exist",
+      "title": "Did Mueller indict a Russian company that didn&#39;t exist?",
+      "date": "2018-05-13 23:50:50Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 12,
+      "link": "https://skeptics.stackexchange.com/questions/39586/does-the-jones-act-double-import-prices-in-puerto-rico",
+      "title": "Does the Jones Act double import prices in Puerto Rico?",
+      "date": "2017-09-28 04:23:19Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 12,
+      "link": "https://skeptics.stackexchange.com/questions/40239/did-trump-predict-gillespie-would-lose",
+      "title": "Did Trump predict Gillespie would lose?",
+      "date": "2017-12-18 15:15:01Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 11,
+      "link": "https://skeptics.stackexchange.com/questions/45556/was-hillary-clinton-personally-involved-in-approving-the-uranium-one-purchase/45557#45557",
+      "title": "Was Hillary Clinton personally involved in approving the Uranium One purchase?",
+      "date": "2019-12-13 02:13:34Z"
+    }
+  ],
+  "network-posts-all": "https://stackexchange.com/users/2614901/keshav-srinivasan?tab=top",
+  "network-posts": [
+    {
+      "votes": 122,
+      "link": "https://physics.stackexchange.com/questions/80856/does-the-frac43-problem-of-classical-electromagnetism-remain-in-quantum-mhttps://physics.stackexchange.com/questions/80856/does-the-frac43-problem-of-classical-electromagnetism-remain-in-quantum-m",
+      "title": "Does the $\\frac{4}{3}$ problem of classical electromagnetism remain in quantum mechanics?"
+    },
+    {
+      "votes": 106,
+      "link": "https://mathoverflow.net/questions/311280/what-is-the-definition-of-the-function-t-used-in-atiyahs-attempted-proof-of-thehttps://mathoverflow.net/questions/311280/what-is-the-definition-of-the-function-t-used-in-atiyahs-attempted-proof-of-the",
+      "title": "What is the definition of the function T used in Atiyah&#x27;s attempted proof of the Riemann Hypothesis?"
+    },
+    {
+      "votes": 65,
+      "link": "https://math.stackexchange.com/questions/527248/refuting-the-anti-cantor-crankshttps://math.stackexchange.com/questions/527248/refuting-the-anti-cantor-cranks",
+      "title": "Refuting the Anti-Cantor Cranks"
+    },
+    {
+      "votes": 65,
+      "link": "https://hinduism.stackexchange.com/questions/2875/what-exactly-happens-at-end-of-kali-yuga-will-the-world-be-destroyed/2876#2876https://hinduism.stackexchange.com/questions/2875/what-exactly-happens-at-end-of-kali-yuga-will-the-world-be-destroyed/2876#2876",
+      "title": "What exactly happens at end of Kali Yuga? Will the world be destroyed?"
+    },
+    {
+      "votes": 63,
+      "link": "https://hinduism.stackexchange.com/questions/916/does-hinduism-forbid-sexual-intercourse-before-marriage/924#924https://hinduism.stackexchange.com/questions/916/does-hinduism-forbid-sexual-intercourse-before-marriage/924#924",
+      "title": "Does Hinduism forbid sexual intercourse before marriage?"
+    }
+  ],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

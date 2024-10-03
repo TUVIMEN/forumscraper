@@ -1,0 +1,345 @@
+{
+  "format_version": "stackexchange-forum",
+  "url": "https://stackoverflow.com/questions?tab=Bounties",
+  "threads": [
+    {
+      "score": 1,
+      "views": 41,
+      "answers": 0,
+      "solved": false,
+      "bounty": 100,
+      "title": "JSF OCPSoft automatically redirect request of unwritten URL to rewritten one",
+      "link": "https://stackoverflow.com/questions/78974879/jsf-ocpsoft-automatically-redirect-request-of-unwritten-url-to-rewritten-one",
+      "excerp": "we are using OCPSoft Rewrite library to create pretty rewritten URLs. This works great and as expected but we now want to redirect the original unwritten URL to its rewritten since the same resource ...",
+      "tags": [
+        "java",
+        "jsf",
+        "jakarta-ee",
+        "prettyfaces",
+        "ocpsoft-rewrite"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/1085958/djmj",
+        "name": "djmj",
+        "link": "https://stackoverflow.com/users/1085958/djmj",
+        "reputation": 5524
+      },
+      "date": "2024-09-11 16:38:02Z"
+    },
+    {
+      "score": 2,
+      "views": 161,
+      "answers": 0,
+      "solved": false,
+      "bounty": 100,
+      "title": "Activity selection problem with reserve activities",
+      "link": "https://stackoverflow.com/questions/79020099/activity-selection-problem-with-reserve-activities",
+      "excerp": "How can we solve Activity Selection Problem with reserve activities?Let's say we have chosen some set u of non-overlapping activities. Now, for every u_i activity, we need to choose reserve activity ...",
+      "tags": [
+        "c++",
+        "algorithm",
+        "greedy"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/14329228/szyszka947",
+        "name": "Szyszka947",
+        "link": "https://stackoverflow.com/users/14329228/szyszka947",
+        "reputation": 734
+      },
+      "date": "2024-09-24 19:32:40Z"
+    },
+    {
+      "score": 0,
+      "views": 89,
+      "answers": 0,
+      "solved": false,
+      "bounty": 100,
+      "title": "Instance &#39;&lt;Ttz at 0x1142ac9d0&gt;&#39; is not persistent within this Session",
+      "link": "https://stackoverflow.com/questions/79020201/instance-ttz-at-0x1142ac9d0-is-not-persistent-within-this-session",
+      "excerp": "I have some FastAPI application code:engine = create_async_engine(settings.DB.async_dns, **settings.DB.OPTIONS)Session = async_sessionmaker(bind=engine, expire_on_commit=False)metadata = MetaData()...",
+      "tags": [
+        "sqlalchemy",
+        "pytest",
+        "fastapi"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/9112151/%d0%90%d0%bb%d1%8c%d0%b1%d0%b5%d1%80%d1%82-%d0%90%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80%d0%be%d0%b2",
+        "name": "Альберт Александров",
+        "link": "https://stackoverflow.com/users/9112151/%d0%90%d0%bb%d1%8c%d0%b1%d0%b5%d1%80%d1%82-%d0%90%d0%bb%d0%b5%d0%ba%d1%81%d0%b0%d0%bd%d0%b4%d1%80%d0%be%d0%b2",
+        "reputation": 813
+      },
+      "date": "2024-09-24 20:09:46Z"
+    },
+    {
+      "score": 2,
+      "views": 130,
+      "answers": 2,
+      "solved": false,
+      "bounty": 200,
+      "title": "How to delay collecting personal information from Stripe Express connected accounts?",
+      "link": "https://stackoverflow.com/questions/78986469/how-to-delay-collecting-personal-information-from-stripe-express-connected-accou",
+      "excerp": "I have a platform where teachers provide online lessons, and I’m using Stripe Express connected accounts to pay teachers when users subscribe to their lessons. The problem is that many of the ...",
+      "tags": [
+        "javascript",
+        "stripe-payments"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/12855341/new-reactjs",
+        "name": "new_reactjs",
+        "link": "https://stackoverflow.com/users/12855341/new-reactjs",
+        "reputation": 228
+      },
+      "date": "2024-09-15 01:44:05Z"
+    },
+    {
+      "score": 2,
+      "views": 705,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "Invoke an Azure CLI command that I&#39;ve created using az vmss run-command create",
+      "link": "https://stackoverflow.com/questions/72007653/invoke-an-azure-cli-command-that-ive-created-using-az-vmss-run-command-create",
+      "excerp": "I've created a command using the Azure CLI like this, that I want to use to pull docker logs from a container running in an Azure Virtual Machine ScaleSet (VMSS):az vmss run-command create --resource-...",
+      "tags": [
+        "azure",
+        "devops",
+        "azure-cli"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/1549918/chris-halcrow",
+        "name": "Chris Halcrow",
+        "link": "https://stackoverflow.com/users/1549918/chris-halcrow",
+        "reputation": 31544
+      },
+      "date": "2022-04-26 02:14:43Z"
+    },
+    {
+      "score": 3,
+      "views": 206,
+      "answers": 2,
+      "solved": false,
+      "bounty": 150,
+      "title": "Is there easily achievable debugging from Visual Studio with multiple symbols (stripped vs full)?",
+      "link": "https://stackoverflow.com/questions/79014950/is-there-easily-achievable-debugging-from-visual-studio-with-multiple-symbols-s",
+      "excerp": "We're releasing an application to public, in which we don't want to include full symbols. So we're stripping them as mentioned in official docs (Debugging with symbols, PDBstripped). Both full and ...",
+      "tags": [
+        "c#",
+        "c++",
+        "visual-studio",
+        "debugging"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/7167572/tatranskymedved",
+        "name": "Tatranskymedved",
+        "link": "https://stackoverflow.com/users/7167572/tatranskymedved",
+        "reputation": 4314
+      },
+      "date": "2024-09-23 14:00:20Z"
+    },
+    {
+      "score": 6,
+      "views": 980,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "Listening for changes in HTMLCollection (or achieving a similar effect)",
+      "link": "https://stackoverflow.com/questions/55046093/listening-for-changes-in-htmlcollection-or-achieving-a-similar-effect",
+      "excerp": "I need to create a simple tooltip library that works like this:every DOM element with a specific attribute combination (like class=\"tooltip\", data-tooltip-text=\"some text\") automatically displays a ...",
+      "tags": [
+        "javascript",
+        "performance",
+        "tooltip",
+        "watch",
+        "mutation-observers"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/10467064/michal-kurz",
+        "name": "Michal Kurz",
+        "link": "https://stackoverflow.com/users/10467064/michal-kurz",
+        "reputation": 2045
+      },
+      "date": "2019-03-07 14:24:02Z"
+    },
+    {
+      "score": 2,
+      "views": 142,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "Publish javadoc with gradle on github package",
+      "link": "https://stackoverflow.com/questions/78959832/publish-javadoc-with-gradle-on-github-package",
+      "excerp": "I have a gradle project which is used as an API. This API is published on github package, but without javadoc, even if the comment are well present on github's repository.The main build.gradle is ...",
+      "tags": [
+        "java",
+        "gradle",
+        "github-actions",
+        "build.gradle",
+        "github-packages"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/10952503/elikill58",
+        "name": "Elikill58",
+        "link": "https://stackoverflow.com/users/10952503/elikill58",
+        "reputation": 4805
+      },
+      "date": "2024-09-07 09:37:45Z"
+    },
+    {
+      "score": 0,
+      "views": 21,
+      "answers": 0,
+      "solved": false,
+      "bounty": 250,
+      "title": "How to implement the view layer for a custom Akeneo PIM bundle?",
+      "link": "https://stackoverflow.com/questions/78995984/how-to-implement-the-view-layer-for-a-custom-akeneo-pim-bundle",
+      "excerp": "I'm writing a (Symfony 4) bundle for Akeneo PIM Community Edition v5.It's supposed to retrieve product stock data from an external instance (via REST API) and to display this data in the products ...",
+      "tags": [
+        "requirejs",
+        "symfony4",
+        "akeneo"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/2019043/automatix",
+        "name": "automatix",
+        "link": "https://stackoverflow.com/users/2019043/automatix",
+        "reputation": 14756
+      },
+      "date": "2024-09-17 22:28:01Z"
+    },
+    {
+      "score": 0,
+      "views": 126,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": ".NET MAUI - ObjectDisposed_Generic ObjectDisposed_ObjectName_Name, Microsoft.Maui.Platform.LayoutViewGroup",
+      "link": "https://stackoverflow.com/questions/79020799/net-maui-objectdisposed-generic-objectdisposed-objectname-name-microsoft-mau",
+      "excerp": "I am currently developing an application using .NET MAUI (v8.0.90) and the CommunityToolKit.Mvvm and no matter what I try, I can't resolve the following issue.The application (Android 14, API 34) ...",
+      "tags": [
+        "android",
+        "maui",
+        "maui-community-toolkit",
+        "community-toolkit-mvvm"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/693972/overmars",
+        "name": "OverMars",
+        "link": "https://stackoverflow.com/users/693972/overmars",
+        "reputation": 1049
+      },
+      "date": "2024-09-25 00:52:38Z"
+    },
+    {
+      "score": 1,
+      "views": 80,
+      "answers": 0,
+      "solved": false,
+      "bounty": 500,
+      "title": "Spring JPA: Entity with embedded key is not deleted",
+      "link": "https://stackoverflow.com/questions/78995965/spring-jpa-entity-with-embedded-key-is-not-deleted",
+      "excerp": "I'm learning Spring Boot as I go and everything was fine so far using Spring JPA to manage database until I tried deleting an entity that has an embedded key.The relevant entity is as follows:@...",
+      "tags": [
+        "spring-boot",
+        "spring-data-jpa"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/198108/javydreamercsw",
+        "name": "javydreamercsw",
+        "link": "https://stackoverflow.com/users/198108/javydreamercsw",
+        "reputation": 5069
+      },
+      "date": "2024-09-17 22:17:46Z"
+    },
+    {
+      "score": 1,
+      "views": 66,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "Cookies sent from server local:3000 saved on client localhost:5273",
+      "link": "https://stackoverflow.com/questions/79019804/cookies-sent-from-server-local3000-saved-on-client-localhost5273",
+      "excerp": "i have a NestJS server on localhost:3000 and a react+vite client on localhost:5173.From the client, when my user auth himself, the server send a jwt cookie. When i check the POST request for the ...",
+      "tags": [
+        "reactjs",
+        "express",
+        "nestjs",
+        "vite",
+        "openapi"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/11705888/vongosandi",
+        "name": "VongoSanDi",
+        "link": "https://stackoverflow.com/users/11705888/vongosandi",
+        "reputation": 40
+      },
+      "date": "2024-09-24 17:53:58Z"
+    },
+    {
+      "score": 2,
+      "views": 79,
+      "answers": 0,
+      "solved": false,
+      "bounty": 200,
+      "title": "How to find the file causing Cypress Webpack Compilation Error &quot;Unexpected character &#39;�&#39;&quot; [closed]",
+      "link": "https://stackoverflow.com/questions/79023544/how-to-find-the-file-causing-cypress-webpack-compilation-error-unexpected-chara",
+      "excerp": "I've migrated a react-scripts web-app from React 17 to 18 over the last 3 weeks. Everything works, including the Cypress component tests, only the Cypress E2E tests won't execute.Error:Error: ...",
+      "tags": [
+        "webpack",
+        "cypress"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/5815054/hb0",
+        "name": "hb0",
+        "link": "https://stackoverflow.com/users/5815054/hb0",
+        "reputation": 3671
+      },
+      "date": "2024-09-25 14:50:19Z"
+    },
+    {
+      "score": 0,
+      "views": 63,
+      "answers": 0,
+      "solved": false,
+      "bounty": 100,
+      "title": "DeviceActivityCenter startMonitoring hangs intermittently in iOS 18",
+      "link": "https://stackoverflow.com/questions/79020407/deviceactivitycenter-startmonitoring-hangs-intermittently-in-ios-18",
+      "excerp": "I'm encountering an issue with DeviceActivityCenter where my app sometimes gets hung up on the following lines:center.stopMonitoring()center.startMonitoring(.locked, during: defaultSchedule, events: ...",
+      "tags": [
+        "ios",
+        "swift",
+        "xcode",
+        "swiftui",
+        "ios18"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/12422823/helloworld12345",
+        "name": "helloworld12345",
+        "link": "https://stackoverflow.com/users/12422823/helloworld12345",
+        "reputation": 76
+      },
+      "date": "2024-09-24 21:26:28Z"
+    },
+    {
+      "score": 1,
+      "views": 39,
+      "answers": 0,
+      "solved": false,
+      "bounty": 100,
+      "title": "How to restore original size of multi-selected rescaled objects in Fabric.js?",
+      "link": "https://stackoverflow.com/questions/79023078/how-to-restore-original-size-of-multi-selected-rescaled-objects-in-fabric-js",
+      "excerp": "I'm trying to implement an undo function with Fabric.js. I have this code:    let groupObjects = lastAction.before._objects;    if (groupObjects) {      let selectionGroup = new fabric....",
+      "tags": [
+        "javascript",
+        "canvas",
+        "fabricjs"
+      ],
+      "author": {
+        "avatar": "https://stackoverflow.com/users/4593795/threefatcat",
+        "name": "threeFatCat",
+        "link": "https://stackoverflow.com/users/4593795/threefatcat",
+        "reputation": 798
+      },
+      "date": "2024-09-25 13:11:16Z"
+    }
+  ]
+}

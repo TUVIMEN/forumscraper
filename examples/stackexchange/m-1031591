@@ -1,0 +1,308 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://stackoverflow.com/users/1031591/atlaste",
+  "id": 1031591,
+  "avatar": "https://i.sstatic.net/s3MiH.jpg?s=256",
+  "user": "atlaste",
+  "unregistered": false,
+  "created": "2011-11-05 21:50:33Z",
+  "lastseen": "this week",
+  "location": "Netherlands",
+  "social": [
+    "http://www.nubilosoft.com"
+  ],
+  "meta-profile": "https://meta.stackoverflow.com/users/1031591/atlaste",
+  "network-profile": "https://stackexchange.com/users/1021317/atlaste",
+  "reputation": 30986,
+  "reached": 10600000,
+  "answers": 237,
+  "questions": 50,
+  "communities-all": "https://stackexchange.com/users/1021317/atlaste?tab=accounts",
+  "communities": [
+    {
+      "profile": "https://stackoverflow.com/users/1031591/",
+      "reputation": 31000
+    },
+    {
+      "profile": "https://superuser.com/users/177613/",
+      "reputation": 423
+    },
+    {
+      "profile": "https://electronics.stackexchange.com/users/351774/",
+      "reputation": 143
+    },
+    {
+      "profile": "https://serverfault.com/users/299086/",
+      "reputation": 133
+    },
+    {
+      "profile": "https://patents.stackexchange.com/users/14817/",
+      "reputation": 131
+    }
+  ],
+  "about": "<p>Entrepreneur, Architect, Geek. Been a software developer for over 25 years now, both for fun and professionally.</p><p><strong>For fun:</strong></p><ul><li>Worked on hundreds of projects including 3D rendering, compression technology, machine translation, speech to text alignment, multi-agent systems, NLP, web crawlers, search engines, etc.</li><li>Participated in multiple country-wide programming competitions, usually ended up in the top 10 somewhere;</li><li>Extensive knowledge of over 10 programming languages, including C++, C# and Java;</li><li>Been operator in #c++, covering both software design and in-depth questions about the C++ standard;</li><li>Interested in alternative management styles, complex software puzzles, how complex stuff like machine translation, high performance and search technology works (or could work)</li></ul><p><strong>Professionally:</strong></p><ul><li>Started my own company in 2012, building high-quality, professional software components.</li><li>Been Lead architect/CTO at Teezir, a high-tech search company that delivers SAAS in a B2B setting;</li><li>Worked for a lot of leading companies on dozens of high-tech projects in different roles (usually leading when it comes to technology);</li><li>Extensive management skills in the IT industry;</li><li>Have a masters degree in computer science (information retrieval), also did a couple of years of psychology, just for fun.</li></ul><p>Oh and I'm definitely not the guy you want for user interfaces.</p><p>If you'd like to contact me, my e-mail address is info-at-sdebruijn-dot-nl.</p><h1>SOreadytohelp</h1>",
+  "badges-all": "https://stackoverflow.com/users/1031591/atlaste?tab=badges",
+  "badges": [
+    {
+      "amount": 3,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/25/great-answer?userid=1031591",
+          "action": "Answer score of 100 or more",
+          "name": "Great Answer",
+          "amount": 2,
+          "date": "Dec 22, 2017"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/28/famous-question?userid=1031591",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 1,
+          "date": "Jul 16, 2020"
+        }
+      ]
+    },
+    {
+      "amount": 60,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": true,
+          "link": "https://stackoverflow.com/help/badges/39/c-sharp?userid=1031591",
+          "action": "Earn at least 400 total score for at least 80 non-community wiki answers in the c# tag",
+          "name": "c#",
+          "amount": 1,
+          "date": "May 17, 2016"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/94/pundit?userid=1031591",
+          "action": "Leave 10 comments with score of 5 or more",
+          "name": "Pundit",
+          "amount": 1,
+          "date": "Sep 8, 2017"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/4128/inquisitive?userid=1031591",
+          "action": "Ask a well-received question on 30 separate days, and maintain a positive question record",
+          "name": "Inquisitive",
+          "amount": 1,
+          "date": "Dec 12, 2015"
+        }
+      ]
+    },
+    {
+      "amount": 90,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": true,
+          "link": "https://stackoverflow.com/help/badges/283/net?userid=1031591",
+          "action": "Earn at least 100 total score for at least 20 non-community wiki answers in the .net tag",
+          "name": ".net",
+          "amount": 1,
+          "date": "Dec 7, 2015"
+        },
+        {
+          "tag": true,
+          "link": "https://stackoverflow.com/help/badges/286/c?userid=1031591",
+          "action": "Earn at least 100 total score for at least 20 non-community wiki answers in the c++ tag",
+          "name": "c++",
+          "amount": 1,
+          "date": "Feb 7, 2017"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/144/mortarboard?userid=1031591",
+          "action": "Earn at least 200 reputation (the daily maximum) in a single day",
+          "name": "Mortarboard",
+          "amount": 1,
+          "date": "Mar 4, 2015"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://stackoverflow.com/users/1031591/atlaste?tab=tags",
+  "tags": [
+    {
+      "link": "https://stackoverflow.com/search?q=user:1031591+[c%2b%2b]",
+      "name": "c++",
+      "badge": "Bronze",
+      "score": 1721,
+      "posts": 36,
+      "posts-percent": 13,
+      "answered": 28,
+      "ansked": 8,
+      "asked-score": 23
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1031591+[performance]",
+      "name": "performance",
+      "badge": "",
+      "score": 1680,
+      "posts": 19,
+      "posts-percent": 7,
+      "answered": 17,
+      "ansked": 2,
+      "asked-score": 43
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1031591+[c%23]",
+      "name": "c#",
+      "badge": "Silver",
+      "score": 932,
+      "posts": 215,
+      "posts-percent": 75,
+      "answered": 182,
+      "ansked": 29,
+      "asked-score": 182
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1031591+[.net]",
+      "name": ".net",
+      "badge": "Bronze",
+      "score": 221,
+      "posts": 74,
+      "posts-percent": 26,
+      "answered": 53,
+      "ansked": 21,
+      "asked-score": 136
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1031591+[optimization]",
+      "name": "optimization",
+      "badge": "",
+      "score": 74,
+      "posts": 12,
+      "posts-percent": 4,
+      "answered": 11,
+      "ansked": 1,
+      "asked-score": 2
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1031591+[generics]",
+      "name": "generics",
+      "badge": "",
+      "score": 56,
+      "posts": 14,
+      "posts-percent": 5,
+      "answered": 11,
+      "ansked": 3,
+      "asked-score": 43
+    }
+  ],
+  "posts-answers-all": "https://stackoverflow.com/users/1031591?tab=answers",
+  "posts-questions-all": "https://stackoverflow.com/users/1031591?tab=questions",
+  "posts": [
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 1615,
+      "link": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array/16184827#16184827",
+      "title": "Why is processing a sorted array faster than processing an unsorted array?",
+      "date": "2013-04-24 06:26:28Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 222,
+      "link": "https://stackoverflow.com/questions/29482/how-do-i-cast-int-to-enum-in-c/22830894#22830894",
+      "title": "How do I cast int to enum in C#?",
+      "date": "2014-04-03 07:39:44Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 52,
+      "link": "https://stackoverflow.com/questions/14828271/can-a-static-method-be-overridden-in-c/14828401#14828401",
+      "title": "Can a static method be overridden in C#?",
+      "date": "2013-02-12 08:30:10Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 50,
+      "link": "https://stackoverflow.com/questions/2550925/singleton-by-jon-skeet-clarification/14404690#14404690",
+      "title": "Singleton by Jon Skeet clarification",
+      "date": "2013-01-18 17:51:17Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 45,
+      "link": "https://stackoverflow.com/questions/30327674/how-is-a-stackoverflowexception-detected/30327998#30327998",
+      "title": "How is a StackOverflowException detected?",
+      "date": "2015-05-19 14:06:33Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 39,
+      "link": "https://stackoverflow.com/questions/966451/fastest-way-to-do-shallow-copy-in-c-sharp/31512347#31512347",
+      "title": "Fastest Way to do Shallow Copy in C#",
+      "date": "2015-07-20 08:53:59Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 36,
+      "link": "https://stackoverflow.com/questions/16306206/what-optimization-hints-can-i-give-to-the-compiler-jit/16415256#16415256",
+      "title": "What optimization hints can I give to the compiler/JIT?",
+      "date": "2013-05-07 09:08:13Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 31,
+      "link": "https://stackoverflow.com/questions/206820/how-do-i-prevent-and-or-handle-a-stackoverflowexception/30681031#30681031",
+      "title": "How do I prevent and/or handle a StackOverflowException?",
+      "date": "2015-06-06 09:13:31Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 29,
+      "link": "https://stackoverflow.com/questions/15967240/fastest-implementation-of-log2int-and-log2float",
+      "title": "Fastest implementation of log2(int) and log2(float)",
+      "date": "2013-04-12 09:06:27Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 29,
+      "link": "https://stackoverflow.com/questions/2815366/cannot-import-the-keyfile-blah-pfx-error-the-keyfile-may-be-password-protec/14644793#14644793",
+      "title": "Cannot import the keyfile &#39;blah.pfx&#39; - error &#39;The keyfile may be password protected&#39;",
+      "date": "2013-02-01 10:58:14Z"
+    }
+  ],
+  "network-posts-all": "https://stackexchange.com/users/1021317/atlaste?tab=top",
+  "network-posts": [
+    {
+      "votes": 23,
+      "link": "https://superuser.com/questions/947802/windows-10-shortcuts-onenote-vs-cortanahttps://superuser.com/questions/947802/windows-10-shortcuts-onenote-vs-cortana",
+      "title": "Windows 10 shortcuts - onenote vs cortana"
+    },
+    {
+      "votes": 12,
+      "link": "https://patents.stackexchange.com/questions/13411/how-to-build-software-if-youre-unaware-of-which-parts-can-contain-potential-pathttps://patents.stackexchange.com/questions/13411/how-to-build-software-if-youre-unaware-of-which-parts-can-contain-potential-pat",
+      "title": "How to build software if you&#x27;re unaware of which parts can contain potential patent infringements"
+    },
+    {
+      "votes": 9,
+      "link": "https://superuser.com/questions/922190/windows-8-ethernet-traffic-blocks-mousehttps://superuser.com/questions/922190/windows-8-ethernet-traffic-blocks-mouse",
+      "title": "Windows 8: Ethernet traffic blocks mouse"
+    },
+    {
+      "votes": 5,
+      "link": "https://superuser.com/questions/947642/black-screen-without-cursor-after-upgrading-to-windows-10https://superuser.com/questions/947642/black-screen-without-cursor-after-upgrading-to-windows-10",
+      "title": "Black screen without cursor after upgrading to Windows 10"
+    }
+  ],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

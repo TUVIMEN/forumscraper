@@ -84,6 +84,16 @@ def identify_invision(url, rq, cookies):
     )
 
 
+def identify_stackexchange(url, rq, cookies):
+    return identify_forum(
+        r'div .header; h3; [0] a href="https://stackexchange.com/sites" m@f>"more stack exchange communities" | "t"',
+        None,
+        None,
+        rq,
+        cookies,
+    )
+
+
 def identify_hackernews(url, rq, cookies):
     base, rest = url_valid(url, base=True)
     if base == "https://news.ycombinator.com":
@@ -126,5 +136,6 @@ def ForumIdentify(extractor, url, rq, cookies):
         (identify_xenforo2, extractor.xenforo.v2),
         (identify_smf1, extractor.smf.v1),
         (identify_smf2, extractor.smf.v2),
+        (identify_stackexchange, extractor.stackexchange),
     ]
     return listIdentify(extractor, url, rq, cookies, ilist)

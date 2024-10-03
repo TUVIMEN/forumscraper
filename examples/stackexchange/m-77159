@@ -1,0 +1,279 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://serverfault.com/users/77159/kernel",
+  "id": 77159,
+  "avatar": "https://www.gravatar.com/avatar/797373163f7a877f6ab78dbc91e41bd8?s=256&d=identicon&r=PG",
+  "user": "kernel",
+  "unregistered": true,
+  "created": "2011-04-05 02:44:40Z",
+  "lastseen": "more than 13 years ago",
+  "location": "",
+  "social": [
+    "https://stackexchange.com/users/816974/kernel"
+  ],
+  "meta-profile": "",
+  "network-profile": "https://stackexchange.com/users/816974/kernel",
+  "reputation": 8751,
+  "reached": 1300000,
+  "answers": 0,
+  "questions": 12,
+  "communities-all": "",
+  "communities": [
+    {
+      "profile": "https://serverfault.com/users/77159/",
+      "reputation": 8800
+    }
+  ],
+  "about": "",
+  "badges-all": "https://serverfault.com/users/77159/kernel?tab=badges",
+  "badges": [
+    {
+      "amount": 6,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/36/stellar-question?userid=77159",
+          "action": "Question saved by 100 users",
+          "name": "Stellar Question",
+          "amount": 1,
+          "date": "Sep 22, 2017"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/22/great-question?userid=77159",
+          "action": "Question score of 100 or more",
+          "name": "Great Question",
+          "amount": 1,
+          "date": "Jan 27, 2015"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/28/famous-question?userid=77159",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 4,
+          "date": "Dec 5, 2022"
+        }
+      ]
+    },
+    {
+      "amount": 21,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/33/favorite-question?userid=77159",
+          "action": "Question saved by 25 users",
+          "name": "Favorite Question",
+          "amount": 1,
+          "date": "Jan 14, 2014"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/21/good-question?userid=77159",
+          "action": "Question score of 25 or more",
+          "name": "Good Question",
+          "amount": 2,
+          "date": "Nov 28, 2018"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/13/yearling?userid=77159",
+          "action": "Active member for a year, earning at least 200 reputation",
+          "name": "Yearling",
+          "amount": 13,
+          "date": "Apr 5"
+        }
+      ]
+    },
+    {
+      "amount": 14,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/282/curious?userid=77159",
+          "action": "Ask a well-received question on 5 separate days, and maintain a positive question record",
+          "name": "Curious",
+          "amount": 1,
+          "date": "Jul 2, 2014"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/20/nice-question?userid=77159",
+          "action": "Question score of 10 or more",
+          "name": "Nice Question",
+          "amount": 2,
+          "date": "Feb 18, 2013"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/31/commentator?userid=77159",
+          "action": "Leave 10 comments",
+          "name": "Commentator",
+          "amount": 1,
+          "date": "Apr 17, 2011"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://serverfault.com/users/77159/kernel?tab=tags",
+  "tags": [
+    {
+      "link": "https://serverfault.com/search?q=user:77159+[linux]",
+      "name": "linux",
+      "badge": "",
+      "score": 0,
+      "posts": 3,
+      "posts-percent": 25,
+      "answered": 0,
+      "ansked": 3,
+      "asked-score": 809
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:77159+[netstat]",
+      "name": "netstat",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 8,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 3
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:77159+[nginx]",
+      "name": "nginx",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 8,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 2
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:77159+[nic]",
+      "name": "nic",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 8,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 44
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:77159+[pattern-matching]",
+      "name": "pattern-matching",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 8,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 2
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:77159+[shell]",
+      "name": "shell",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 8,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 2
+    }
+  ],
+  "posts-answers-all": "https://serverfault.com/users/77159?tab=answers",
+  "posts-questions-all": "https://serverfault.com/users/77159?tab=questions",
+  "posts": [
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 797,
+      "link": "https://serverfault.com/questions/264595/can-scp-copy-directories-recursively",
+      "title": "Can scp copy directories recursively?",
+      "date": "2011-04-29 04:24:45Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 44,
+      "link": "https://serverfault.com/questions/312221/can-a-single-network-card-have-2-ip-addresses",
+      "title": "Can a single network card have 2 IP addresses?",
+      "date": "2011-09-16 15:06:39Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 8,
+      "link": "https://serverfault.com/questions/306772/how-to-do-du-on-all-files-under-a-directory-in-linux",
+      "title": "How to do &quot;du&quot; on all files under a directory in linux?",
+      "date": "2011-08-31 11:08:48Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 4,
+      "link": "https://serverfault.com/questions/281931/how-to-get-sockets-which-are-listening-on-a-specific-port-in-linux",
+      "title": "How to get sockets which are listening on a specific port in linux?",
+      "date": "2011-06-19 12:43:45Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 3,
+      "link": "https://serverfault.com/questions/271581/what-does-each-field-of-netstat-ano-mean",
+      "title": "What does each field of netstat -ano mean?",
+      "date": "2011-05-19 16:25:59Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 2,
+      "link": "https://serverfault.com/questions/256914/how-to-install-hd-on-centos",
+      "title": "How to install hd on centos?",
+      "date": "2011-04-07 15:26:20Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 2,
+      "link": "https://serverfault.com/questions/274752/how-does-nginx-support-cgi",
+      "title": "How does nginx support cgi?",
+      "date": "2011-05-28 04:10:10Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 2,
+      "link": "https://serverfault.com/questions/276960/processors-with-the-same-id-why",
+      "title": "Processors with the same id,why?",
+      "date": "2011-06-04 11:05:51Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 2,
+      "link": "https://serverfault.com/questions/290347/how-to-find-h-c-and-cc-files-under-current-directory-in-linux",
+      "title": "How to find .h,.c and .cc files under current directory in linux?",
+      "date": "2011-07-14 13:51:33Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 1,
+      "link": "https://serverfault.com/questions/260595/how-to-interpret-this-command-chaining",
+      "title": "How to interpret this command chaining?",
+      "date": "2011-04-17 08:37:07Z"
+    }
+  ],
+  "network-posts-all": "",
+  "network-posts": [],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

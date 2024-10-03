@@ -1,0 +1,319 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://stackoverflow.com/users/1718632/delphirules",
+  "id": 1718632,
+  "avatar": "https://i.sstatic.net/q6iDn.jpg?s=256",
+  "user": "delphirules",
+  "unregistered": false,
+  "created": "2012-10-03 23:32:52Z",
+  "lastseen": "this week",
+  "location": "",
+  "social": [],
+  "meta-profile": "https://meta.stackoverflow.com/users/1718632/delphirules",
+  "network-profile": "https://stackexchange.com/users/1903230/delphirules",
+  "reputation": 7038,
+  "reached": 1400000,
+  "answers": 47,
+  "questions": 250,
+  "communities-all": "https://stackexchange.com/users/1903230/delphirules?tab=accounts",
+  "communities": [
+    {
+      "profile": "https://stackoverflow.com/users/1718632/",
+      "reputation": 7000
+    },
+    {
+      "profile": "https://superuser.com/users/476779/",
+      "reputation": 895
+    },
+    {
+      "profile": "https://apple.stackexchange.com/users/123562/",
+      "reputation": 712
+    },
+    {
+      "profile": "https://webmasters.stackexchange.com/users/63688/",
+      "reputation": 129
+    },
+    {
+      "profile": "https://webapps.stackexchange.com/users/158868/",
+      "reputation": 103
+    }
+  ],
+  "about": "<p>Delphi is dead but still rocks.</p>",
+  "badges-all": "https://stackoverflow.com/users/1718632/delphirules?tab=badges",
+  "badges": [
+    {
+      "amount": 18,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/155/electorate?userid=1718632",
+          "action": "Vote on 600 questions and 25% or more of total votes are on questions",
+          "name": "Electorate",
+          "amount": 1,
+          "date": "Jun 8, 2017"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/22/great-question?userid=1718632",
+          "action": "Question score of 100 or more",
+          "name": "Great Question",
+          "amount": 1,
+          "date": "Jan 7, 2022"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/28/famous-question?userid=1718632",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 16,
+          "date": "Apr 6"
+        }
+      ]
+    },
+    {
+      "amount": 67,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/33/favorite-question?userid=1718632",
+          "action": "Question saved by 25 users",
+          "name": "Favorite Question",
+          "amount": 1,
+          "date": "Oct 17, 2019"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/32/civic-duty?userid=1718632",
+          "action": "Vote 300 or more times",
+          "name": "Civic Duty",
+          "amount": 1,
+          "date": "Sep 10, 2015"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/21/good-question?userid=1718632",
+          "action": "Question score of 25 or more",
+          "name": "Good Question",
+          "amount": 2,
+          "date": "Jul 16, 2020"
+        }
+      ]
+    },
+    {
+      "amount": 125,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/220/promoter?userid=1718632",
+          "action": "First bounty you offer on your own question",
+          "name": "Promoter",
+          "amount": 1,
+          "date": "Dec 21, 2015"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/14/self-learner?userid=1718632",
+          "action": "Answer your own question with score of 3 or more",
+          "name": "Self-Learner",
+          "amount": 1,
+          "date": "Aug 2, 2015"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/38/peer-pressure?userid=1718632",
+          "action": "Delete own post with score of -3 or lower",
+          "name": "Peer Pressure",
+          "amount": 1,
+          "date": "Jul 29, 2016"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://stackoverflow.com/users/1718632/delphirules?tab=tags",
+  "tags": [
+    {
+      "link": "https://stackoverflow.com/search?q=user:1718632+[delphi]",
+      "name": "delphi",
+      "badge": "",
+      "score": 78,
+      "posts": 163,
+      "posts-percent": 55,
+      "answered": 34,
+      "ansked": 129,
+      "asked-score": 99
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1718632+[delphi-2007]",
+      "name": "delphi-2007",
+      "badge": "",
+      "score": 47,
+      "posts": 38,
+      "posts-percent": 13,
+      "answered": 6,
+      "ansked": 32,
+      "asked-score": 52
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1718632+[apache]",
+      "name": "apache",
+      "badge": "",
+      "score": 19,
+      "posts": 19,
+      "posts-percent": 6,
+      "answered": 3,
+      "ansked": 16,
+      "asked-score": 50
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1718632+[tchromium]",
+      "name": "tchromium",
+      "badge": "",
+      "score": 10,
+      "posts": 18,
+      "posts-percent": 6,
+      "answered": 6,
+      "ansked": 12,
+      "asked-score": 11
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1718632+[indy]",
+      "name": "indy",
+      "badge": "",
+      "score": 9,
+      "posts": 34,
+      "posts-percent": 11,
+      "answered": 6,
+      "ansked": 28,
+      "asked-score": 6
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:1718632+[indy10]",
+      "name": "indy10",
+      "badge": "",
+      "score": 8,
+      "posts": 29,
+      "posts-percent": 10,
+      "answered": 5,
+      "ansked": 24,
+      "asked-score": 4
+    }
+  ],
+  "posts-answers-all": "https://stackoverflow.com/users/1718632?tab=answers",
+  "posts-questions-all": "https://stackoverflow.com/users/1718632?tab=questions",
+  "posts": [
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 113,
+      "link": "https://stackoverflow.com/questions/22506930/how-to-query-datetime-field-using-only-date-in-microsoft-sql-server",
+      "title": "How to query DATETIME field using only date in Microsoft SQL Server?",
+      "date": "2014-03-19 13:10:56Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 44,
+      "link": "https://stackoverflow.com/questions/31745712/delphi-2007-x-windows-10-error-on-opening-project/31745908#31745908",
+      "title": "Delphi 2007 x Windows 10 - Error on opening project",
+      "date": "2015-07-31 12:12:28Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 26,
+      "link": "https://stackoverflow.com/questions/74851227/code-helper-process-by-vs-code-eating-my-cpu/74863147#74863147",
+      "title": "Code Helper process by VS Code eating my cpu",
+      "date": "2022-12-20 12:32:17Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 26,
+      "link": "https://stackoverflow.com/questions/52592548/unable-to-use-phpize-after-update-to-macos-mojave",
+      "title": "Unable to use PHPIZE after update to MacOS Mojave",
+      "date": "2018-10-01 13:45:34Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 23,
+      "link": "https://stackoverflow.com/questions/31745712/delphi-2007-x-windows-10-error-on-opening-project",
+      "title": "Delphi 2007 x Windows 10 - Error on opening project",
+      "date": "2015-07-31 12:02:13Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 18,
+      "link": "https://stackoverflow.com/questions/32078987/bootstrap-tab-active-class-not-working-on-page-loading",
+      "title": "Bootstrap tab - active class not working on page loading",
+      "date": "2015-08-18 17:31:38Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 18,
+      "link": "https://stackoverflow.com/questions/32892117/osx-el-capitan-apache-403-forbidden/32892329#32892329",
+      "title": "OSX El Capitan - Apache 403 Forbidden",
+      "date": "2015-10-01 16:19:22Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 17,
+      "link": "https://stackoverflow.com/questions/32892117/osx-el-capitan-apache-403-forbidden",
+      "title": "OSX El Capitan - Apache 403 Forbidden",
+      "date": "2015-10-01 16:07:21Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 16,
+      "link": "https://stackoverflow.com/questions/34133125/php-ini-location-on-el-capitan",
+      "title": "PHP.ini location on El Capitan",
+      "date": "2015-12-07 12:03:34Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 16,
+      "link": "https://stackoverflow.com/questions/74851227/code-helper-process-by-vs-code-eating-my-cpu",
+      "title": "Code Helper process by VS Code eating my cpu",
+      "date": "2022-12-19 13:29:22Z"
+    }
+  ],
+  "network-posts-all": "https://stackexchange.com/users/1903230/delphirules?tab=top",
+  "network-posts": [
+    {
+      "votes": 35,
+      "link": "https://apple.stackexchange.com/questions/311072/macos-high-sierra-restarting-by-itself-during-sleephttps://apple.stackexchange.com/questions/311072/macos-high-sierra-restarting-by-itself-during-sleep",
+      "title": "macOS High Sierra restarting by itself during sleep"
+    },
+    {
+      "votes": 14,
+      "link": "https://apple.stackexchange.com/questions/351761/vs-code-code-helper-process-using-more-than-100-cpu-on-macos/452125#452125https://apple.stackexchange.com/questions/351761/vs-code-code-helper-process-using-more-than-100-cpu-on-macos/452125#452125",
+      "title": "VS Code - Code Helper process using more than 100% CPU on macOS"
+    },
+    {
+      "votes": 11,
+      "link": "https://superuser.com/questions/1156971/text-substitutions-not-working-on-macos-sierra-10-12-2https://superuser.com/questions/1156971/text-substitutions-not-working-on-macos-sierra-10-12-2",
+      "title": "Text substitutions not working on MacOS Sierra 10.12.2"
+    },
+    {
+      "votes": 11,
+      "link": "https://superuser.com/questions/1816604/is-it-possible-to-make-a-full-image-backup-of-an-ssd-on-windowshttps://superuser.com/questions/1816604/is-it-possible-to-make-a-full-image-backup-of-an-ssd-on-windows",
+      "title": "Is it possible to make a full image backup of an SSD on Windows?"
+    },
+    {
+      "votes": 10,
+      "link": "https://apple.stackexchange.com/questions/372063/is-selective-sync-possible-with-icloudhttps://apple.stackexchange.com/questions/372063/is-selective-sync-possible-with-icloud",
+      "title": "Is selective sync possible with iCloud?"
+    }
+  ],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

@@ -565,7 +565,7 @@ class smf2(ForumExtractor):
                             },
                             .posts2.u [0] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
                             .topics2.u [1] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
-                            .s * .lastpost child@; { p child@, * self@ }; [0] * self@; {
+                            * .lastpost child@; { p child@, * self@ }; [0] * self@; {
                                 .lastpost * self@ -C@"[0] span .postby"; {
                                     [0] a href; {
                                         .user * self@ | "%i",
@@ -626,7 +626,7 @@ class smf2(ForumExtractor):
                         },
                         .replies2.u td .replies c@[0] child@ | "%i" tr ",",
                         .views2.u td .views c@[0] child@ | "%i" tr ",",
-                        .s * .lastpost child@; {
+                        * .lastpost child@; {
                             .lastpost [0] v>p child@; * rparent@; {
                                 .link [0] a href | "%(href)v",
                                 [1] a href; {
@@ -688,10 +688,10 @@ class smf2(ForumExtractor):
 
                 redirects = 0
 
-                lastpost = j["s"]["lastpost"]
+                lastpost = j["lastpost"]
                 if len(lastpost["user_link"]) == 0 and len(lastpost["link"]) == 0:
-                    lastpost = j["s"]["lastpost2"]
-                j.pop("s")
+                    lastpost = j["lastpost2"]
+                j.pop("lastpost2")
 
                 if len(lastpost["user_link"]) == 0 and len(lastpost["link"]) == 0:
                     redirects = j["posts"]
@@ -740,10 +740,10 @@ class smf2(ForumExtractor):
             i.pop("replies2")
             i.pop("views2")
 
-            lastpost = i["s"]["lastpost"]
+            lastpost = i["lastpost"]
             if len(lastpost["link"]) == 0 and len(lastpost["user_link"]) == 0:
-                lastpost = i["s"]["lastpost2"]
-            i.pop("s")
+                lastpost = i["lastpost2"]
+            i.pop("lastpost2")
             lastpost["link"] = url_merge(url, lastpost["link"])
             lastpost["user_link"] = url_merge(url, lastpost["user_link"])
             i["lastpost"] = lastpost

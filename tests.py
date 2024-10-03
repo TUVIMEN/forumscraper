@@ -57,6 +57,10 @@ tested_threads = [
         "https://processwire.com/talk/topic/3553-handling-categories-on-a-product-catalogue/",
         "invision",
     ),
+    (
+        "https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git",
+        "stackexchange",
+    ),
 ]
 
 tested_forums = [
@@ -469,6 +473,26 @@ invision_boards_list = [
     "https://www.thehuntinglife.com/forums/",
 ]
 
+stackexchange_forums_list = [
+    "https://stackoverflow.com/questions?tab=votes&pagesize=50",
+    "https://skeptics.stackexchange.com/questions",
+    "https://stackoverflow.com/questions?tab=Bounties",
+    "https://serverfault.com/questions?tab=Votes",
+]
+
+stackexchange_users_list = [
+    "https://stackoverflow.com/users/17311253/djimenez",
+    "https://stackoverflow.com/users/1031591/atlaste",
+    "https://skeptics.stackexchange.com/users/41283/keshav-srinivasan",
+    "https://skeptics.stackexchange.com/users/35049/spraff",
+    "https://skeptics.stackexchange.com/users/56721/pinegulf",
+    "https://stackoverflow.com/users/1718632/delphirules",
+    "https://stackoverflow.com/users/1608796/apple",
+    "https://serverfault.com/users/46527/eonil",
+    "https://serverfault.com/users/2882/noah-goodrich",
+    "https://serverfault.com/users/77159/kernel",
+]
+
 ex4 = forumscraper.Extractor(
     output=forumscraper.Outputs.write_by_id
     | forumscraper.Outputs.forums
@@ -553,12 +577,22 @@ def test_invision_page_boards():
         ex4.invision.get_board(i)
 
 
+def test_stackexchange_page_forums():
+    for i in stackexchange_forums_list:
+        ex4.stackexchange.get_forum(i)
+
+
+def test_stackexchange_users():
+    for i in stackexchange_users_list:
+        ex.stackexchange.get_user(i)
+
+
 # state = ex.get_thread(
 # "https://forum.modelarstwo.info/threads/sosnowiec-festiwal-kolej-w-miniaturze-viii-edycja-16-17-marca-2024-r.60974/"
 # )  # xenforo2
 # print(state["visited"])
 
-# test_threads_identify()
+test_threads_identify()
 # test_threads_scrapers()
 # test_forums_identify()
 # test_forums_scrapers()
@@ -580,6 +614,9 @@ def test_invision_page_boards():
 # test_xenforo2_page_boards()
 # test_invision_page_forums()
 # test_invision_page_boards()
+# test_stackexchange_page_forums()
+
+# test_stackexchange_users()
 
 # test_identify()
 # test_findroot()

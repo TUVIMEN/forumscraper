@@ -1,0 +1,3080 @@
+{
+  "format_version": "stackexchange-thread",
+  "url": "https://serverfault.com/questions/293217/our-security-auditor-is-an-idiot-how-do-i-give-him-the-information-he-wants",
+  "id": 293217,
+  "title": "Our security auditor is an idiot. How do I give him the information he wants?",
+  "views": 557477,
+  "asked": "2011-07-22T22:44:34",
+  "modified": "2021-10-12 20:04:09Z",
+  "tags": [
+    "security",
+    "pci-dss"
+  ],
+  "posts": [
+    {
+      "id": 293217,
+      "rating": 2496,
+      "checkmark": false,
+      "bounty": 0,
+      "content": "<p>A security auditor for our servers has demanded the following within two weeks:</p><ul><li>A list of current usernames and plain-text passwords for all user accounts on all servers</li><li>A list of all password changes for the past six months, again in plain-text</li><li>A list of \"every file added to the server from remote devices\" in the past six months</li><li>The public and private keys of any SSH keys</li><li>An email sent to him every time a user changes their password, containing the plain text password</li></ul><p>We're running Red Hat Linux 5/6 and CentOS 5 boxes with LDAP authentication.</p><p>As far as I'm aware, everything on that list is either impossible or incredibly difficult to get, but if I don't provide this information we face losing access to our payments platform and losing income during a transition period as we move to a new service. Any suggestions for how I can solve or fake this information?</p><p>The only way I can think to get all the plain text passwords, is to get everyone to reset their password and make a note of what they set it to. That doesn't solve the problem of the past six months of password changes, because I can't retroactively log that sort of stuff, the same goes for logging all the remote files.</p><p>Getting all of the public and private SSH keys is possible (though annoying), since we have just a few users and computers. Unless I've missed an easier way to do this?</p><p>I have explained to him many times that the things he's asking for are impossible. In response to my concerns, he responded with the following email:</p><blockquote>  <p>I have over 10 years experience in security auditing and a full  understanding of the redhat security methods, so I suggest you check  your facts about what is and isn't possible. You say no company could  possibly have this information but I have performed hundreds of audits  where this information has been readily available. All [generic credit  card processing provider] clients are required to conform with our new  security policies and this audit is intended to ensure those policies  have been implemented* correctly.</p></blockquote><p>*The \"new security policies\" were introduced two weeks before our audit, and the six months historical logging was not required before the policy changes.</p><p>In short, I need;</p><ul><li>A way to \"fake\" six months worth of password changes and make it look valid</li><li>A way to \"fake\" six months of inbound file transfers</li><li>An easy way to collect all the SSH public and private keys being used</li></ul><p>If we fail the security audit we lose access to our card processing platform (a critical part of our system) and it would take a good two weeks to move somewhere else. How screwed am I?</p><h1>Update 1 (Sat 23rd)</h1><p>Thanks for all your responses, It gives me great relief to know this isn't standard practice.</p><p>I'm currently planning out my email response to him explaining the situation. As many of you pointed out, we have to comply with PCI which explicitly states we shouldn't have any way to access plain-text passwords. I'll post the email when I've finished writing it. Unfortunately I don't think he's just testing us; these things are in the company's official security policy now. I have, however, set the wheels in motion to move away from them and onto PayPal for the time being.</p><h1>Update 2 (Sat 23rd)</h1><p>This is the email I've drafted out, any suggestions for stuff to add/remove/change?</p><blockquote>  <p>Hi [name],</p>    <p>Unfortunately there is no way for us to provide you with some  of the information requested, mainly plain-text passwords, password  history, SSH keys and remote file logs. Not only are these things  technically impossible, but also being able to provide this  information would be both a against PCI Standards, and a breach of the  data protection act.<br>  To quote the PCI requirements,</p>    <p>8.4 Render all passwords unreadable during transmission and storage on  all system components using strong cryptography.</p>    <p>I can provide you  with a list of usernames and hashed passwords used on our system,  copies of the SSH public keys and authorized hosts file (This will  give you enough information to determine the number of unique users  can connect to our servers, and the encryption methods used),  information about our password security requirements and our LDAP  server but this information may not be taken off site. I strongly  suggest you review your audit requirements as there is currently no way  for us to pass this audit while remaining in compliance of PCI and the  Data Protection act.</p>    <p>Regards,<br>  [me]</p></blockquote><p>I will be CC'ing in the company's CTO and our account manager, and I'm hoping the CTO can confirm this information is not available. I will also be contacting the PCI Security Standards Council to explain what he's requiring from us.</p><h1>Update 3 (26th)</h1><p>Here are some emails we exchanged;</p><p>RE: my first email;</p><blockquote>  <p>As explained, this information should be easily available on any well  maintained system to any competent administrator. Your failure to be  able to provide this information leads me to believe you are aware of  security flaws in your system and are not prepared to reveal them. Our  requests line up with the PCI guidelines and both can be met. Strong  cryptography only means the passwords must be encrypted while the user  is inputting them but then they should be moved to a recoverable format  for later use.</p>    <p>I see no data protection issues for these requests, data protection only  applies to consumers not businesses so there should be no issues with this  information.</p></blockquote><p>Just, what, I, can't, even...</p><blockquote>  <p>\"Strong cryptography only means the passwords must be encrypted while  the user is inputting them but then they should be moved to a  recoverable format for later use.\"</p></blockquote><p>I'm going to frame that and put it on my wall.</p><p>I got fed up being diplomatic and directed him to this thread to show him the response I got:</p><blockquote>  <p>Providing this information DIRECTLY contradicts several requirements  of the PCI guidelines. The section I quoted even says <code>storage</code>  (Implying to where we store the data on the disk). I started a  discussion on ServerFault.com (An on-line community for sys-admin  professionals) which has created a huge response, all suggesting this  information cannot be provided. Feel free to read through yourself</p>    <p><a href=\"https://serverfault.com/questions/293217/\">https&colon;//serverfault.com/questions/293217/</a></p>    <p>We have finished moving over our system to a new platform and will be  cancelling our account with you within the next day or so but I want  you to realize how ridiculous these requests are, and no company  correctly implementing the PCI guidelines will, or should, be able to  provide this information. I strongly suggest you re-think your  security requirements as none of your customers should be able to  conform to this.</p></blockquote><p>(I'd actually forgotten I'd called him an idiot in the title, but as mentioned we'd already moved away from their platform so no real loss.)  </p><p>And in his response, he states that apparently none of you know what you're talking about:</p><blockquote>  <p>I read in detail through those responses and your original post, the  responders all need to get their facts right. I have been in this  industry longer than anyone on that site, getting a list of user  account passwords is incredibly basic, it should be one of the first  things you do when learning how to secure your system and is essential  to the operation of any secure server. If you genuinely lack the  skills to do something this simple I'm going to assume you do not have  PCI installed on your servers as being able to recover this  information is a basic requirement of the software. When dealing with  something such as security you should not be asking these questions on  a public forum if you have no basic knowledge of how it works.</p>    <p>I would also like to suggest that any attempt to reveal me, or  [company name] will be considered libel and appropriate legal action  will be taken</p></blockquote><p>Key idiotic points if you missed them:</p><ul><li>He's been a security auditor longer than anyone else on here has (He's either guessing, or stalking you)</li><li>Being able to get a list of passwords on a UNIX system is 'basic'</li><li>PCI is now software</li><li>People shouldn't use forums when they're not sure of security</li><li>Posing factual information (to which I have email proof) online is libel</li></ul><p>Excellent.</p><p>PCI SSC have responded and are investigating him and the company. Our software has now moved onto PayPal so we know it's safe. I'm going to wait for PCI to get back to me first but I'm getting a little worried that they might have been using these security practices internally. If so, I think it is a major concern for us as all our card processing ran through them. If they were doing this internally I think the only responsible thing to do would be to inform our customers. </p><p>I'm hoping when PCI realize how bad it is they will investigate the entire company and system but I'm not sure.</p><p>So now we've moved away from their platform, and assuming it will be at least a few days before PCI get back to me, any inventive suggestions for how to troll him a bit? =)</p><p>Once I've got clearance from my legal guy (I highly doubt any of this is actually libel but I wanted to double check) I'll publish the company name, his name and email, and if you wish you can contact him and explain why you don't understand the basics of Linux security like how to get a list of all the LDAP users passwords.</p><h3>Little update:</h3><p>My \"legal guy\" has suggested revealing the company would probably cause more problems than needed. I can say though, this is not a major provider, they have less 100 clients using this service. We originally started using them when the site was tiny and running on a little VPS, and we didn't want to go through all the effort of getting PCI (We used to redirect to their frontend, like PayPal Standard). But when we moved to directly processing cards (including getting PCI, and common sense), the devs decided to keep using the same company just a different API. The company is based in the Birmingham, UK area so I'd highly doubt anyone here will be affected.</p>",
+      "edited": "2017-07-12 02:50:55Z",
+      "editor": {
+        "avatar": "https://www.gravatar.com/avatar/c85487802cc06d71bf6b7d739685f4bd?s=64&d=identicon&r=PG",
+        "name": "tom",
+        "link": "https://serverfault.com/users/424265/tom",
+        "reputation": 107,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 3
+      },
+      "date": "2011-07-22 22:44:34Z",
+      "author": {
+        "avatar": null,
+        "name": "user80776",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": [
+        {
+          "id": 277113,
+          "score": 529,
+          "content": "You have two weeks to deliver him the information, and it takes two weeks to move to somewhere else who can process credit cards.  Don&#39;t bother - make the decision to move now and abandon the audit.",
+          "date": "2011-07-22 22:54:47Z",
+          "user": "Scrivener",
+          "user_link": "https://serverfault.com/users/65041/scrivener",
+          "reputation": 3066
+        },
+        {
+          "id": 277117,
+          "score": 2,
+          "content": "@Scrivener Not that simple, the guy who owns the company I work for wants us to stay with this provider because they&#39;re cheap. I&#39;ve already spoken to him about moving, even somewhere like PayPal would do as a stable ground while we figured something better out, but he says he only wants to use it as a last resort. I would never have personally chosen this provider but the decision was made before I arrived :( Also our programmer is unavailable so we&#39;d have to bring someone new in",
+          "date": "2011-07-22 23:00:50Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 277128,
+          "score": 182,
+          "content": "Please, update us on what happens with this. I&#39;ve got it favorited to see how the auditor gets spanked. =) If I know you, email me at the address in my profile.",
+          "date": "2011-07-22 23:30:30Z",
+          "user": "Wesley",
+          "user_link": "https://serverfault.com/users/9770/wesley",
+          "reputation": 32940
+        },
+        {
+          "id": 277130,
+          "score": 5,
+          "content": "@A. Throwaway: A &quot;last resort&quot; is <i>exactly</i> what you use when you honestly fail this so-called &quot;audit&quot;, no?  Explain to the owner that you will simply fail this audit, and will have to prepare to move.",
+          "date": "2011-07-22 23:37:01Z",
+          "user": "Teddy",
+          "user_link": "https://serverfault.com/users/11492/teddy",
+          "reputation": 5344
+        },
+        {
+          "id": 277136,
+          "score": 167,
+          "content": "He must be testing you to see if you&#39;re really that stupid. Right? I hope so...",
+          "date": "2011-07-23 00:05:01Z",
+          "user": "Joe Phillips",
+          "user_link": "https://serverfault.com/users/745/joe-phillips",
+          "reputation": 320
+        },
+        {
+          "id": 277145,
+          "score": 62,
+          "content": "I find it incredibly suspicious that everything he asked for is either designed to be impossible or somewhere on the security scale between <code>telnet</code> and a Post-It with a password stuck to the monitor.",
+          "date": "2011-07-23 00:49:30Z",
+          "user": "Bacon Bits",
+          "user_link": "https://serverfault.com/users/77656/bacon-bits",
+          "reputation": 1530
+        },
+        {
+          "id": 277148,
+          "score": 216,
+          "content": "I&#39;d want to know some references for other companies he&#39;s audited. If for no other reason than to know who to <i>avoid</i>. Plaintext passwords...really? Are you sure this guy&#39;s really not a black hat and social engineering stupid companies into handing over their user passwords for months? Because if there are companies doing this with him this is a GREAT way to just hand the keys over...",
+          "date": "2011-07-23 00:56:31Z",
+          "user": "Bart Silverstrim",
+          "user_link": "https://serverfault.com/users/13647/bart-silverstrim",
+          "reputation": 31278
+        },
+        {
+          "id": 277159,
+          "score": 12,
+          "content": "@A. Throwaway: I&#39;m so glad people like you put up the effort to question requests.  It reassures me that logical reasoning will prevail!",
+          "date": "2011-07-23 01:51:56Z",
+          "user": "surfasb",
+          "user_link": "https://serverfault.com/users/71272/surfasb",
+          "reputation": 457
+        },
+        {
+          "id": 277163,
+          "score": 9,
+          "content": "Rant over: Please, please let us know how this pans out. I, along with the other 20 people who have favourited this question, are intrigued.",
+          "date": "2011-07-23 02:23:27Z",
+          "user": "Mark Henderson",
+          "user_link": "https://serverfault.com/users/7709/mark-henderson",
+          "reputation": 69222
+        },
+        {
+          "id": 277179,
+          "score": 11,
+          "content": "I&#39;d like to know which payment processor is sending you this auditor so that I can avoid them in future projects.",
+          "date": "2011-07-23 04:02:47Z",
+          "user": "JasonTrue",
+          "user_link": "https://serverfault.com/users/6441/jasontrue",
+          "reputation": 101
+        },
+        {
+          "id": 277186,
+          "score": 23,
+          "content": "DUh. send him the encrypted passwords.  Just tell him all your users follow the password policy very, very carefully, and pick random passwords :)",
+          "date": "2011-07-23 05:36:20Z",
+          "user": "Brian",
+          "user_link": "https://serverfault.com/users/63503/brian",
+          "reputation": 1253
+        },
+        {
+          "id": 277199,
+          "score": 15,
+          "content": "As @bacon bits hints at, I wonder if he&#39;s intentionally being obtuse just to see how you handle it, and the way you fail this audit is by <i>not</i> pointing at him and laughing until you pass out. In all seriousness, I suggest telling him that he can either revise his request to something sensible or get lost. Either way at that point you either past his first &#39;test&#39; or you &#39;fire&#39; a dangerous lunatic. I&#39;m all about the win-win.",
+          "date": "2011-07-23 07:48:07Z",
+          "user": "Rob Moir",
+          "user_link": "https://serverfault.com/users/7783/rob-moir",
+          "reputation": 32064
+        },
+        {
+          "id": 279358,
+          "score": 4,
+          "content": "this is similar to how mtgox got hacked. that gave a security consultant a bunch of hashed passwords and he lost them and someone was able to break the passwords and compromise the system. giving someone plaintext passwords and SSH private keys is incredibly irresponsible.",
+          "date": "2011-07-23 10:06:03Z",
+          "user": "benmmurphy",
+          "user_link": "https://serverfault.com/users/40958/benmmurphy",
+          "reputation": 835
+        },
+        {
+          "id": 277212,
+          "score": 11,
+          "content": "As some have said, passwords in plain text = stupid. Emailing ANYONE with plain text passwords = stupid. Sending them private keys!? Correct me if I&#39;m wrong, but private keys should remain JUST THAT!?",
+          "date": "2011-07-23 10:22:43Z",
+          "user": "Relequestual",
+          "user_link": "https://serverfault.com/users/31175/relequestual",
+          "reputation": 247
+        },
+        {
+          "id": 277223,
+          "score": 15,
+          "content": "Please do not ever give everyone your SSH private key(s).",
+          "date": "2011-07-23 11:19:12Z",
+          "user": "middus",
+          "user_link": "https://serverfault.com/users/21407/middus",
+          "reputation": 101
+        },
+        {
+          "id": 277230,
+          "score": 13,
+          "content": "It&#39;s fine to give someone your SSH private key; just stick a random string the length of <i>War and Peace</i> on as the passphrase first.  &lt;grin&gt;",
+          "date": "2011-07-23 11:45:25Z",
+          "user": "womble",
+          "user_link": "https://serverfault.com/users/1375/womble",
+          "reputation": 97585
+        },
+        {
+          "id": 277245,
+          "score": 72,
+          "content": "This guy is dangerous and should be run out of the industry. Please name and shame him so nobody else ends up in this situation. Tell him that it is impossible because it SHOULD be impossible. Plain text passwords shouldn&#39;t exist outside grey matter. SSH private keys belong to the user not to the server. Any firm that can satisfy his requests is insecure. Any firm that fails his audit is secure.",
+          "date": "2011-07-23 12:10:00Z",
+          "user": "Rincewind42",
+          "user_link": "https://serverfault.com/users/86310/rincewind42",
+          "reputation": 133
+        },
+        {
+          "id": 279357,
+          "score": 5,
+          "content": "You clearly did the right thing - posting this to well known Q&amp;A site. We can only hope that the auditor and/or his peers see this. Now you need to get a second opinion - check the set of requirements with another auditor firm.",
+          "date": "2011-07-23 12:13:38Z",
+          "user": "Peter Knego",
+          "user_link": "https://serverfault.com/users/88567/peter-knego",
+          "reputation": 101
+        },
+        {
+          "id": 277248,
+          "score": 56,
+          "content": "If your story is true, I support naming and shaming this individual and the company he works for.",
+          "date": "2011-07-23 12:17:26Z",
+          "user": "Sebastiano Pilla",
+          "user_link": "https://serverfault.com/users/32335/sebastiano-pilla",
+          "reputation": 728
+        },
+        {
+          "id": 277250,
+          "score": 14,
+          "content": "Others have chimed in with much more intelligent comments and answers then I&#39;m likely to provide, but I might suggest that you abandon your attempt at anonimity and show your boss this post so he can see for himself what real, working IT professionals think of the auditor&#39;s requests. You&#39;ve gotten some very good answers here from people who are the best in the profession.",
+          "date": "2011-07-23 12:26:09Z",
+          "user": "joeqwerty",
+          "user_link": "https://serverfault.com/users/19152/joeqwerty",
+          "reputation": 111333
+        },
+        {
+          "id": 277251,
+          "score": 18,
+          "content": "In addition, each of the things the auditor is asking for is a security breach in and of itself. You shouldn&#39;t disclose the information he&#39;s requesting to anyone and I&#39;m at a loss to understand any technical or legal reason for his wanting that information. You don&#39;t know this guy from Jack Black, why would you ever provide this information to him? Providing this information to him puts your entire organization at risk. I&#39;m no legal or security expert but the first thing I would do would be to convince my boss that he needs to get a lawyer with compliance experience involved in this.",
+          "date": "2011-07-23 12:33:22Z",
+          "user": "joeqwerty",
+          "user_link": "https://serverfault.com/users/19152/joeqwerty",
+          "reputation": 111333
+        },
+        {
+          "id": 277259,
+          "score": 5,
+          "content": "You have a run on sentence. Otherwise, it&#39;s pretty much what I&#39;d write.  &quot;I strongly suggest you review your audit requirements, there is currently no way for us to pass this audit while remaining in compliance of PCI and the Data Protection act.&quot;  You should have an &quot;as&quot; after the first comma. Also, BCC your supervisor. I think they&#39;ll find his request.. interesting.",
+          "date": "2011-07-23 13:45:28Z",
+          "user": "wjl",
+          "user_link": "https://serverfault.com/users/66123/wjl",
+          "reputation": 171
+        },
+        {
+          "id": 277261,
+          "score": 5,
+          "content": "Nitpicking here, but &quot;strong encryption&quot; doesn&#39;t have to be a one-way hash. It could be reversible. That doesn&#39;t make his request any less ludicrous.",
+          "date": "2011-07-23 13:50:34Z",
+          "user": "troelskn",
+          "user_link": "https://serverfault.com/users/11003/troelskn",
+          "reputation": 229
+        },
+        {
+          "id": 277269,
+          "score": 2,
+          "content": "If you really want to look water-tight, fix the misused comma in the last sentence of your draft.",
+          "date": "2011-07-23 14:15:54Z",
+          "user": "Lightness Races in Orbit",
+          "user_link": "https://serverfault.com/users/72833/lightness-races-in-orbit",
+          "reputation": 418
+        },
+        {
+          "id": 277287,
+          "score": 5,
+          "content": "After being asked for only one of those things I would just laugh in the face of the guy. <i>Private</i> SSH keys?!",
+          "date": "2011-07-23 16:50:04Z",
+          "user": "Hubert Kario",
+          "user_link": "https://serverfault.com/users/55663/hubert-kario",
+          "reputation": 6419
+        },
+        {
+          "id": 277288,
+          "score": 36,
+          "content": "You need to escalate up the chain, both yours, and his (payment provider). My guess is either black hat, or incredibly dumb. Escalate on the basis of security breach -- if we ever tried to give this to anyone, it would be an automatic security breach.",
+          "date": "2011-07-23 16:51:09Z",
+          "user": "Jon Watte",
+          "user_link": "https://serverfault.com/users/63297/jon-watte",
+          "reputation": 270
+        },
+        {
+          "id": 277302,
+          "score": 4,
+          "content": "Will you please stop spelling &#39;lose&#39; incorrectly?",
+          "date": "2011-07-23 18:12:50Z",
+          "user": "Mark Snidovich",
+          "user_link": "https://serverfault.com/users/53448/mark-snidovich",
+          "reputation": 133
+        },
+        {
+          "id": 277303,
+          "score": 9,
+          "content": "Don&#39;t e-mail him anymore. Even to send that last e-mail you&#39;ve edited into your question. The guy is bonkers and you should only communicate with him, at this point, if you are <i>specifically directed to</i> by your boss.",
+          "date": "2011-07-23 18:19:53Z",
+          "user": "Shaggy Frog",
+          "user_link": "https://serverfault.com/users/47352/shaggy-frog",
+          "reputation": 171
+        },
+        {
+          "id": 277321,
+          "score": 2,
+          "content": "there is no reason for the auditor to ever have copies of private keys, they are just that, private not distributed data. In fact, if I was the auditor someone gave me private ssh keys as part of the audit I would fail them on it if only I could find the right check box to check on the form. For weak password checking, the best usually done is let jacktheripper run with a nice dictionary on the database and attempt to crack. |Reporting a failure for each one, however one would expect validation limits when password is set enyway.",
+          "date": "2011-07-23 19:54:45Z",
+          "user": "ewanm89",
+          "user_link": "https://serverfault.com/users/14406/ewanm89",
+          "reputation": 101
+        },
+        {
+          "id": 277355,
+          "score": 8,
+          "content": "Would you be able to post the security firm&#39;s name? I think this transcends issues of ethicality on posting firms/individual names on the big scary &#39;Internet&#39; - This is a direct and immediate danger to any firm whom he &#39;audits&#39;, can you supply this information in the interest of protecting the innocent?",
+          "date": "2011-07-24 00:37:26Z",
+          "user": "zetavolt",
+          "user_link": "https://serverfault.com/users/34347/zetavolt",
+          "reputation": 1352
+        },
+        {
+          "id": 277400,
+          "score": 0,
+          "content": "Are you quite sure this isn&#39;t a very <i>clever</i> auditor trying to see if your system is either insecure enough or you are stupid enough to give him this information?",
+          "date": "2011-07-24 04:59:29Z",
+          "user": "crasic",
+          "user_link": "https://serverfault.com/users/85409/crasic",
+          "reputation": 101
+        },
+        {
+          "id": 277406,
+          "score": 0,
+          "content": "@crasic, I think the OP covered that one in his first update.",
+          "date": "2011-07-24 05:18:42Z",
+          "user": "womble",
+          "user_link": "https://serverfault.com/users/1375/womble",
+          "reputation": 97585
+        },
+        {
+          "id": 277464,
+          "score": 341,
+          "content": "Any sufficiently advanced incompetence is indistinguishable from malice",
+          "date": "2011-07-24 10:11:03Z",
+          "user": "Jeremy French",
+          "user_link": "https://serverfault.com/users/536/jeremy-french",
+          "reputation": 675
+        },
+        {
+          "id": 277478,
+          "score": 0,
+          "content": "@geteipordietryin I will do once we&#39;ve finished moving over to PayPal, they&#39;re a very small local company (&lt;100 clients) so I&#39;d guess they use Google Alerts etc. and could easily find this post if I named them",
+          "date": "2011-07-24 10:43:12Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 277501,
+          "score": 7,
+          "content": "On the topic of how to respond to the auditor, you might want to ask on <a href=\"https://security.stackexchange.com\">Information Security</a>, where there are plenty of people with PCI experience.",
+          "date": "2011-07-24 12:38:03Z",
+          "user": "Gilles &#x27;SO- stop being evil&#x27;",
+          "user_link": "https://serverfault.com/users/48279/gilles-so-stop-being-evil",
+          "reputation": 9531
+        },
+        {
+          "id": 277553,
+          "score": 0,
+          "content": "You may also be personally liable for some breaches of EU Data Protection legislation. I can&#39;t find a definitive reference at the moment, but I was clearly explained to me as an employee a few years ago. I found a summary at <a href=\"http://www.out-law.com/page-413\" rel=\"nofollow noreferrer\">out-law.com/page-413</a> - search for &quot;Employees may also incur criminal liability&quot;",
+          "date": "2011-07-24 16:17:15Z",
+          "user": "edoloughlin",
+          "user_link": "https://serverfault.com/users/3434/edoloughlin",
+          "reputation": 135
+        },
+        {
+          "id": 277559,
+          "score": 0,
+          "content": "Have a look here <a href=\"http://www.symantec.com/connect/articles/social-engineering-fundamentals-part-i-hacker-tactics\" rel=\"nofollow noreferrer\">symantec.com/connect/articles/&hellip;</a> sounds like that story.",
+          "date": "2011-07-24 16:50:03Z",
+          "user": "Jacob",
+          "user_link": "https://serverfault.com/users/60820/jacob",
+          "reputation": 9242
+        },
+        {
+          "id": 277601,
+          "score": 25,
+          "content": "A throwaway name with nearly 500 rep and 3 gold badges. :P",
+          "date": "2011-07-24 21:23:00Z",
+          "user": "Reid",
+          "user_link": "https://serverfault.com/users/70213/reid",
+          "reputation": 146
+        },
+        {
+          "id": 279356,
+          "score": 0,
+          "content": "Any chance it&#39;s a trick. Sounds to me like a situation where if you do give him what he wants, you fail the audit.",
+          "date": "2011-07-25 05:06:39Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 277804,
+          "score": 1,
+          "content": "That response is really great, firm but professional. So many people would have been craven or sarcastic! Please keep that tone for the body of the email, though you may want to follow up with some specific offers of what you can show him so in the unlikley event he&#39;s serious about this idiocy but willing to see reason, you still come off as helpful.",
+          "date": "2011-07-25 08:55:58Z",
+          "user": "Jack V.",
+          "user_link": "https://serverfault.com/users/88795/jack-v",
+          "reputation": 101
+        },
+        {
+          "id": 278009,
+          "score": 1,
+          "content": "@Reid Oh no, what a waste of the digitals!  All those tubes!",
+          "date": "2011-07-25 16:43:33Z",
+          "user": "Kzqai",
+          "user_link": "https://serverfault.com/users/17925/kzqai",
+          "reputation": 1298
+        },
+        {
+          "id": 278045,
+          "score": 12,
+          "content": "Of all the ludicrous parts of his request, giving your private SSH key is the worst. That&#39;s like &quot;please give me the ability to sign your name and fake your fingerprints.&quot; He is either crazy, hacking you, or a moron. Giving that up would be worse for you than getting fired for not doing it; at least you won&#39;t be in the news when the company goes down in flames.",
+          "date": "2011-07-25 17:39:19Z",
+          "user": "Nathan Long",
+          "user_link": "https://serverfault.com/users/2343/nathan-long",
+          "reputation": 1565
+        },
+        {
+          "id": 278116,
+          "score": 6,
+          "content": "Wow...I&#39;m right out of school after studying Computer Science.  I don&#39;t even dabble with security and I can tell you this looks shady.",
+          "date": "2011-07-25 20:21:25Z",
+          "user": "MGZero",
+          "user_link": "https://serverfault.com/users/88895/mgzero",
+          "reputation": 101
+        },
+        {
+          "id": 278194,
+          "score": 40,
+          "content": "For the benefit of humanity, PLEASE tell us his name and what company he works for.  They absolutely MUST be publicly exposed.",
+          "date": "2011-07-26 03:14:43Z",
+          "user": "iconoclast",
+          "user_link": "https://serverfault.com/users/40159/iconoclast",
+          "reputation": 1850
+        },
+        {
+          "id": 278245,
+          "score": 1,
+          "content": "Regardless of whether you follow joekwerty&#39;s advice and making your identity known, it couldn&#39;t hurt to show your boss this post and the dramatic response.",
+          "date": "2011-07-26 06:35:46Z",
+          "user": "Lisa",
+          "user_link": "https://serverfault.com/users/88936/lisa",
+          "reputation": 101
+        },
+        {
+          "id": 278531,
+          "score": 0,
+          "content": "Any updates? It&#39;s been 3 days.",
+          "date": "2011-07-26 19:00:05Z",
+          "user": "Mircea Chirea",
+          "user_link": "https://serverfault.com/users/34304/mircea-chirea",
+          "reputation": 404
+        },
+        {
+          "id": 278537,
+          "score": 0,
+          "content": "I would give you 1337 medals for this.. haha, hilarious.",
+          "date": "2011-07-26 19:28:29Z",
+          "user": "pauska",
+          "user_link": "https://serverfault.com/users/9140/pauska",
+          "reputation": 19708
+        },
+        {
+          "id": 278539,
+          "score": 6,
+          "content": "Well done, A. Throwaway. I applaud your persistence. My suggestion now would be to create a regular serverfault account for yourself and ask the serverfault admins to merge it with this one.",
+          "date": "2011-07-26 19:29:53Z",
+          "user": "joeqwerty",
+          "user_link": "https://serverfault.com/users/19152/joeqwerty",
+          "reputation": 111333
+        },
+        {
+          "id": 278541,
+          "score": 7,
+          "content": "Libel. If it&#39;s written it&#39;s libel, as I recall. Not liable. Or slander.",
+          "date": "2011-07-26 19:33:02Z",
+          "user": "Bart Silverstrim",
+          "user_link": "https://serverfault.com/users/13647/bart-silverstrim",
+          "reputation": 31278
+        },
+        {
+          "id": 278542,
+          "score": 7,
+          "content": "@Bart - It&#39;s only Libel if it&#39;s not true (at least in the US, and I believe under English law).  If the lawyers agree I believe it would be a public service to name-and-shame this auditor/audit company.",
+          "date": "2011-07-26 19:36:29Z",
+          "user": "voretaq7",
+          "user_link": "https://serverfault.com/users/32986/voretaq7",
+          "reputation": 80491
+        },
+        {
+          "id": 278544,
+          "score": 18,
+          "content": "Posting his e-mail address is probably a bad idea. You&#39;re aware people are not happy with him and providing explicit means to contact/harass him is ethically dubious and legally questionable at best. His name and company name; that would be highly relevant (note you called him a <i>idiot</i>, best to separate opinion from fact if you&#39;re going to post those sorts of details). IANAL, this is not a legal opinion.",
+          "date": "2011-07-26 19:39:29Z",
+          "user": "Chris S",
+          "user_link": "https://serverfault.com/users/33417/chris-s",
+          "reputation": 78295
+        },
+        {
+          "id": 278545,
+          "score": 11,
+          "content": "The UK has some pretty strong libel laws so I&#39;d be wary of that before posting the name of the person/company.",
+          "date": "2011-07-26 19:39:50Z",
+          "user": "ErnieTheGeek",
+          "user_link": "https://serverfault.com/users/62482/erniethegeek",
+          "reputation": 2027
+        },
+        {
+          "id": 278549,
+          "score": 1,
+          "content": "I want to thank you for having the balls to stand up to this guy!",
+          "date": "2011-07-26 19:50:20Z",
+          "user": "funkymushroom",
+          "user_link": "https://serverfault.com/users/48616/funkymushroom",
+          "reputation": 101
+        },
+        {
+          "id": 278550,
+          "score": 0,
+          "content": "@voretaq7: True, I was just referring to the entire threat made in the messages that it would be liable(sic) if OP published information.",
+          "date": "2011-07-26 19:58:26Z",
+          "user": "Bart Silverstrim",
+          "user_link": "https://serverfault.com/users/13647/bart-silverstrim",
+          "reputation": 31278
+        },
+        {
+          "id": 278552,
+          "score": 0,
+          "content": "I see no data protection issues for these requests, data protection only applies to consumers not businesses so there should be no issues with this information. --&gt; Yup. The businesses&#39; data isn&#39;t worth anything if it gets in the hands of competitors or criminals. LMAO @ whole stack of email.",
+          "date": "2011-07-26 20:03:54Z",
+          "user": "Mircea Chirea",
+          "user_link": "https://serverfault.com/users/34304/mircea-chirea",
+          "reputation": 404
+        },
+        {
+          "id": 278555,
+          "score": 0,
+          "content": "Glad to see a good ending, and thanks for keeping us updated in the meantime.",
+          "date": "2011-07-26 20:12:54Z",
+          "user": "lccarrasco",
+          "user_link": "https://serverfault.com/users/88660/lccarrasco",
+          "reputation": 101
+        },
+        {
+          "id": 278556,
+          "score": 0,
+          "content": "Upvoted for an even 400... and there is no way that guy can be a real security auditor, unless they let you do that when you have an iq under 50.",
+          "date": "2011-07-26 20:16:10Z",
+          "user": "MirroredFate",
+          "user_link": "https://serverfault.com/users/89049/mirroredfate",
+          "reputation": 469
+        },
+        {
+          "id": 278557,
+          "score": 3,
+          "content": "Sounds like you&#39;ve done all the right things. To this, however: <code>if they were doing this internally I think the only responsible thing to do would be to inform our customers...</code> I&#39;m not sure about the UK, but in the US, when a vendor knows there has been a breach, we are required to inform the customers. As I understand the UK laws are tighter than the US, this might be good insurance.",
+          "date": "2011-07-26 20:37:37Z",
+          "user": "Adrien",
+          "user_link": "https://serverfault.com/users/15833/adrien",
+          "reputation": 431
+        },
+        {
+          "id": 278559,
+          "score": 4,
+          "content": "I genuinely smiled when I read that pci was not installed ;) anyhow if you want to keep this we can merge your two accounts together? (we can see your dupes, normally we&#39;d merge them but these were... Extenuating circumstances)",
+          "date": "2011-07-26 20:51:09Z",
+          "user": "Mark Henderson",
+          "user_link": "https://serverfault.com/users/7709/mark-henderson",
+          "reputation": 69222
+        },
+        {
+          "id": 278563,
+          "score": 2,
+          "content": "@Adrien Yeah restrictions are very tight in the UK, but my legal guy has told me we&#39;re currently taking the right steps by informing PCI SSC but we don&#39;t have to do anything until they get back to us and say yes or no.",
+          "date": "2011-07-26 21:05:08Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 278570,
+          "score": 12,
+          "content": "For the benefit of MANKIND, PLEASE reveal that GUY.",
+          "date": "2011-07-26 21:21:13Z",
+          "user": "prusswan",
+          "user_link": "https://serverfault.com/users/88534/prusswan",
+          "reputation": 101
+        },
+        {
+          "id": 278571,
+          "score": 0,
+          "content": "@sam I think you should just accept Chopper&#39;s answer for suggesting a curbstomping and call it a day.",
+          "date": "2011-07-26 21:22:44Z",
+          "user": "MDMarra",
+          "user_link": "https://serverfault.com/users/10472/mdmarra",
+          "reputation": 101053
+        },
+        {
+          "id": 278578,
+          "score": 4,
+          "content": "@MarkM curbstomping is so abrupt, I&#39;d rather do something longer term. He wants us to email him when we change a password. Well what if I set up a script to email him 5000 random passwords a day, we&#39;re sticking as closely as possible to his guidelines =)",
+          "date": "2011-07-26 21:32:48Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 278593,
+          "score": 1,
+          "content": "@Chris S - posting his name, phone, company, email, and company address is all quite legit so long as that information is already available on the company&#39;s website",
+          "date": "2011-07-26 21:59:35Z",
+          "user": "warren",
+          "user_link": "https://serverfault.com/users/2321/warren",
+          "reputation": 19017
+        },
+        {
+          "id": 278604,
+          "score": 47,
+          "content": "This is one of the most entertaining posts I&#39;ve ever read on the Stack Exchange network",
+          "date": "2011-07-26 22:16:02Z",
+          "user": "Earlz",
+          "user_link": "https://serverfault.com/users/9711/earlz",
+          "reputation": 1049
+        },
+        {
+          "id": 278606,
+          "score": 1,
+          "content": "Glad you basically have it sorted.  I looked at PCI compliance when implementing a payment system one time and decided it was too risky.  So we went with a payments gateway who are PCI compliant and then we didn&#39;t have to worry about the security aspect since the payments were not taken by our website... similar to the way paypal works. Much easier!",
+          "date": "2011-07-26 22:18:33Z",
+          "user": "hookenz",
+          "user_link": "https://serverfault.com/users/14631/hookenz",
+          "reputation": 14752
+        },
+        {
+          "id": 278625,
+          "score": 12,
+          "content": "Also, congratulations on breaking quite a few SF records. I&#39;m fairly sure this question has the most upvotes, the most views, the most favourites, and its answers have the highest votes of any other question on server fault. It also sat on the top of the Stack Exchange hot questions for three days straight (now dropped the 2nd place, awww). And all in 4 days!",
+          "date": "2011-07-26 23:06:59Z",
+          "user": "Mark Henderson",
+          "user_link": "https://serverfault.com/users/7709/mark-henderson",
+          "reputation": 69222
+        },
+        {
+          "id": 278663,
+          "score": 2,
+          "content": "Wow, I LOLed so hard. Congrats on the teasing title (and also your handling of the situation :)",
+          "date": "2011-07-27 01:20:07Z",
+          "user": "mousio",
+          "user_link": "https://serverfault.com/users/79348/mousio",
+          "reputation": 736
+        },
+        {
+          "id": 278667,
+          "score": 0,
+          "content": "Not sure if there is something like the Better Business Bureau in the UK but if there is that guy needs a serious reporting.  That will be a bit more official and probably more acceptable to your legal guy than ratting him out on an Internet Q&amp;A site.",
+          "date": "2011-07-27 01:27:30Z",
+          "user": "squillman",
+          "user_link": "https://serverfault.com/users/1054/squillman",
+          "reputation": 38043
+        },
+        {
+          "id": 278677,
+          "score": 0,
+          "content": "side question: does PCI SSC actually put up a list of known offender(s)?",
+          "date": "2011-07-27 02:34:44Z",
+          "user": "prusswan",
+          "user_link": "https://serverfault.com/users/88534/prusswan",
+          "reputation": 101
+        },
+        {
+          "id": 278683,
+          "score": 1,
+          "content": "@prusswan Probably just a revocation of.. well.. any accreditation that they can.",
+          "date": "2011-07-27 02:56:07Z",
+          "user": "Shane Madden",
+          "user_link": "https://serverfault.com/users/72586/shane-madden",
+          "reputation": 115686
+        },
+        {
+          "id": 278788,
+          "score": 0,
+          "content": "I signed up to ServerFault just so I could favourite this question. I&#39;m glad to see reason has prevailed. I&#39;ve suffered the misdirected pedantry and bullish facade from &quot;expert&quot; consultants on various software projects and I&#39;m glad to see you weathered the waves of blathering in the right way.",
+          "date": "2011-07-27 08:49:13Z",
+          "user": "Jodrell",
+          "user_link": "https://serverfault.com/users/89023/jodrell",
+          "reputation": 101
+        },
+        {
+          "id": 278838,
+          "score": 49,
+          "content": "A quote from LulzSec themselves: &quot;What’s worse is that every bit of data we took wasn’t encrypted. Sony stored over 1,000,000 passwords of its customers in plaintext, which means it’s just a matter of taking it. This is disgraceful and insecure: they were asking for it.&quot;",
+          "date": "2011-07-27 10:38:13Z",
+          "user": "Chris Burt-Brown",
+          "user_link": "https://serverfault.com/users/88828/chris-burt-brown",
+          "reputation": 101
+        },
+        {
+          "id": 278921,
+          "score": 0,
+          "content": "Remember, its only liable if its NOT TRUE!",
+          "date": "2011-07-27 13:24:13Z",
+          "user": "Andy",
+          "user_link": "https://serverfault.com/users/89161/andy",
+          "reputation": 593
+        },
+        {
+          "id": 278926,
+          "score": 1,
+          "content": "Looks like you have a problem with these kinds of people: <a href=\"http://serverfault.com/questions/268542/hardware-firewall-vs-software-firewall-ip-tables-rhel\" title=\"hardware firewall vs software firewall ip tables rhel\">serverfault.com/questions/268542/&hellip;</a>",
+          "date": "2011-07-27 13:41:57Z",
+          "user": "CesarB",
+          "user_link": "https://serverfault.com/users/8357/cesarb",
+          "reputation": 2528
+        },
+        {
+          "id": 278944,
+          "score": 7,
+          "content": "Note that in the UK, although truth is an absolute defence to libel, the burden is on the <i>defendant</i> to prove that it is true. Almost certainly more trouble than it&#39;s worth.",
+          "date": "2011-07-27 14:12:03Z",
+          "user": "Daniel Roseman",
+          "user_link": "https://serverfault.com/users/8059/daniel-roseman",
+          "reputation": 111
+        },
+        {
+          "id": 279099,
+          "score": 3,
+          "content": "Even though you can&#39;t reveal the guy&#39;s name or the company he works for, I hope you can update on whether he loses his auditing status.",
+          "date": "2011-07-27 18:47:08Z",
+          "user": "inTide",
+          "user_link": "https://serverfault.com/users/89250/intide",
+          "reputation": 101
+        },
+        {
+          "id": 279137,
+          "score": 2,
+          "content": "@al I gave him my bank details, he says he&#39;s going to send me a billion $ but there&#39;s a small processing fee I have to pay, seems reasonable and there doesn&#39;t seem to be anything against it in the PCI guidelines =)",
+          "date": "2011-07-27 19:30:50Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 279138,
+          "score": 3,
+          "content": "@inTide I&#39;ll try and keep in touch with the situation, not sure how long PCI will take to investigate, and even if they&#39;ll get back to me but if I hear anything I&#39;ll update the thread",
+          "date": "2011-07-27 19:31:54Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 279140,
+          "score": 0,
+          "content": "@CesarB Yeah I seem to attract idiots (Not sure if that should tell me something ha). That was a seperate company and just a webserver, if I remember correctly PCI reccomends use of a seperate device as a firewall, and wherever budget/requirement permit I like to use a separate firewall device (and was with these servers)",
+          "date": "2011-07-27 19:34:05Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 279170,
+          "score": 40,
+          "content": "<code>I&#39;m going to assume you do not have PCI installed on your servers</code> Sounds like he&#39;s right about something.",
+          "date": "2011-07-27 21:00:04Z",
+          "user": "theycallmemorty",
+          "user_link": "https://serverfault.com/users/13026/theycallmemorty",
+          "reputation": 113
+        },
+        {
+          "id": 279310,
+          "score": 6,
+          "content": "lol at you accidentally telling him that he&#39;s an idiot. :)",
+          "date": "2011-07-28 06:33:25Z",
+          "user": "Mateen Ulhaq",
+          "user_link": "https://serverfault.com/users/58253/mateen-ulhaq",
+          "reputation": 135
+        },
+        {
+          "id": 279331,
+          "score": 8,
+          "content": "if I were your boss, I&#39;d give you a raise",
+          "date": "2011-07-28 07:26:58Z",
+          "user": "tkit",
+          "user_link": "https://serverfault.com/users/51705/tkit",
+          "reputation": 121
+        },
+        {
+          "id": 279532,
+          "score": 2,
+          "content": "The people on the I.T. Security Stack Exchange really need to see this (maybe most of them are users here too).  Good job calling B.S. on this &quot;expert.&quot;",
+          "date": "2011-07-28 15:26:51Z",
+          "user": "Bratch",
+          "user_link": "https://serverfault.com/users/4840/bratch",
+          "reputation": 432
+        },
+        {
+          "id": 279573,
+          "score": 2,
+          "content": "@pootzko If I was my boss I&#39;d give me a raise =) Wait does that work?",
+          "date": "2011-07-28 16:31:07Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 280139,
+          "score": 1,
+          "content": "I&#39;m not even in security and I know all the things he&#39;s asking for are bad ideas.  What a dumbass.",
+          "date": "2011-07-29 19:11:26Z",
+          "user": "kekekela",
+          "user_link": "https://serverfault.com/users/50457/kekekela",
+          "reputation": 101
+        },
+        {
+          "id": 280250,
+          "score": 0,
+          "content": "I&#39;m interested how revealing a <i>true</i> experience with a provider is any different than providing a review of a business, offline OR online. You probably shouldn&#39;t reveal his name, but I think you are absolutely in the clear to post his companies name and would be a little irresponsible not to - he is dangerously deceiving people that could have serious consequences, I&#39;d hope that you would reveal the identity of a serial killer regardless of legal consequences, I don&#39;t know why the ethical principle would be different regarding incompetence and potentially millions of dollars of loss.",
+          "date": "2011-07-29 23:16:03Z",
+          "user": "zetavolt",
+          "user_link": "https://serverfault.com/users/34347/zetavolt",
+          "reputation": 1352
+        },
+        {
+          "id": 304919,
+          "score": 2,
+          "content": "@Sam Any chance of an update? This novel could do with an ending if you have one",
+          "date": "2011-09-26 21:50:14Z",
+          "user": "KCD",
+          "user_link": "https://serverfault.com/users/76757/kcd",
+          "reputation": 978
+        },
+        {
+          "id": 305076,
+          "score": 26,
+          "content": "@KCD Alas no, I have tried to stay in contact with the company and keep up with what&#39;s going on, but understandably they don&#39;t really seem to want me around any more now we&#39;ve moved away. I do know they have got rid of the auditor, they also contacted the few customers using this service to make sure they didn&#39;t follow any of his advise, and have offered to pay any costs associated with this whole saga (There weren&#39;t any, apart from the few things I broke getting frustrated). I don&#39;t think they intended any of this to happen, they just weren&#39;t paying attention to their customers",
+          "date": "2011-09-27 08:41:28Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 369589,
+          "score": 7,
+          "content": "One of the most awesome question on the whole StackExchange network :)",
+          "date": "2012-02-29 17:40:50Z",
+          "user": "haylem",
+          "user_link": "https://serverfault.com/users/54826/haylem",
+          "reputation": 101
+        },
+        {
+          "id": 397196,
+          "score": 1,
+          "content": "Reading this has made me so mad!  I can&#39;t stand when people are so blind and they refuse to listen and do their research.  I wish you would expose the company (maybe the BBB?) .. I can understand that even frivolous legal trouble can be costly though I&#39;m sure the First Amendment would protect you assuming none of the above is forged.  I find it very interesting that PCI talks about <b>strong cryptography</b> for password protection as opposed to digest.",
+          "date": "2012-05-02 14:39:36Z",
+          "user": "Explosion Pills",
+          "user_link": "https://serverfault.com/users/84310/explosion-pills",
+          "reputation": 221
+        },
+        {
+          "id": 405602,
+          "score": 3,
+          "content": "@ExplosionPills - the first amendment only applies to America, and the op is from the UK. The UK has <i>very</i> strong Libel laws. In fact, America is one of the only countries in the world to protect free speach; it&#39;s something the vast majority of the rest of the world (developed and undeveloped) doesn&#39;t have.",
+          "date": "2012-05-22 09:07:52Z",
+          "user": "Mark Henderson",
+          "user_link": "https://serverfault.com/users/7709/mark-henderson",
+          "reputation": 69222
+        },
+        {
+          "id": 443507,
+          "score": 1,
+          "content": "I just hope his boss reads this thread...",
+          "date": "2012-08-15 18:23:21Z",
+          "user": "frnhr",
+          "user_link": "https://serverfault.com/users/69718/frnhr",
+          "reputation": 125
+        },
+        {
+          "id": 470866,
+          "score": 3,
+          "content": "@MarkHenderson Woah there! Freedom of speech is e.g. among the <a href=\"http://www.iuscomp.org/gla/statutes/GG.htm#5\" rel=\"nofollow noreferrer\">Fundamental Rights in the German Constitution</a>. It&#39;s just appreciated not being a dick about it, e.g. by asking you to respect &quot;the right to personal honor&quot;. And even in the US (which is not the <i>entire</i> America FYI) you <i>do</i> think twice before using your freedom of speech to state something stupid like &quot;you don&#39;t even have PCI installed&quot;. Or <a href=\"http://en.wikipedia.org/wiki/Threatening_the_President_of_the_United_States\" rel=\"nofollow noreferrer\">Threatening the President</a>.",
+          "date": "2012-10-11 06:56:06Z",
+          "user": "Tobias Kienzler",
+          "user_link": "https://serverfault.com/users/45248/tobias-kienzler",
+          "reputation": 388
+        },
+        {
+          "id": 470867,
+          "score": 0,
+          "content": "@Cek His boss will probably just ask him not to waste time reading such &quot;misinformed crap&quot; and obtain more passwords :-P",
+          "date": "2012-10-11 06:57:58Z",
+          "user": "Tobias Kienzler",
+          "user_link": "https://serverfault.com/users/45248/tobias-kienzler",
+          "reputation": 388
+        },
+        {
+          "id": 470869,
+          "score": 2,
+          "content": "@sam Any updates on the investiation? You should accept an answer btw...",
+          "date": "2012-10-11 07:01:31Z",
+          "user": "Tobias Kienzler",
+          "user_link": "https://serverfault.com/users/45248/tobias-kienzler",
+          "reputation": 388
+        },
+        {
+          "id": 518747,
+          "score": 2,
+          "content": "I love when people who don&#39;t know jack think that because they&#39;ve been &quot;doing&quot; something a long time that it means they&#39;ve been doing it well or correctly. Time can very rarely act as a substitute for intelligence as this (hopefully ex-) auditor proves.",
+          "date": "2013-01-17 19:35:06Z",
+          "user": "ColinM",
+          "user_link": "https://serverfault.com/users/45918/colinm",
+          "reputation": 721
+        },
+        {
+          "id": 523303,
+          "score": 2,
+          "content": "This just screams &quot;Dunning-Kruger&quot;...",
+          "date": "2013-01-29 09:23:30Z",
+          "user": "J&#xFC;rgen A. Erhard",
+          "user_link": "https://serverfault.com/users/30098/j%c3%bcrgen-a-erhard",
+          "reputation": 263
+        },
+        {
+          "id": 937138,
+          "score": 3,
+          "content": "@sam Did you ever heard back something regarding the investigation? If so, could you share it?",
+          "date": "2016-01-08 08:15:16Z",
+          "user": "gxx",
+          "user_link": "https://serverfault.com/users/269679/gxx",
+          "reputation": 5671
+        },
+        {
+          "id": 1012996,
+          "score": 12,
+          "content": "What happened after you reported him to PCI? Please update...! Don&#39;t leave a cliffhanger!",
+          "date": "2016-08-28 06:41:23Z",
+          "user": "Hendy Irawan",
+          "user_link": "https://serverfault.com/users/45405/hendy-irawan",
+          "reputation": 345
+        },
+        {
+          "id": 1014074,
+          "score": 3,
+          "content": "I like how he thinks libel is spelt &quot;liable&quot;.",
+          "date": "2016-08-31 22:24:18Z",
+          "user": "Lightness Races in Orbit",
+          "user_link": "https://serverfault.com/users/72833/lightness-races-in-orbit",
+          "reputation": 418
+        },
+        {
+          "id": 1015346,
+          "score": 1,
+          "content": "Send him a link to &quot;password hashing&quot;.",
+          "date": "2016-09-05 14:35:03Z",
+          "user": "no&#x265;&#x287;&#x28E;&#x500;&#x28E;z&#x250;&#x279;&#x186;",
+          "user_link": "https://serverfault.com/users/366147/no%c9%a5%ca%87%ca%8e%d4%80%ca%8ez%c9%90%c9%b9%c6%86",
+          "reputation": 101
+        },
+        {
+          "id": 1015439,
+          "score": 1,
+          "content": "Curious as to how their company got PCI compliant to begin with.  Wow.",
+          "date": "2016-09-05 20:32:51Z",
+          "user": "Rob",
+          "user_link": "https://serverfault.com/users/133494/rob",
+          "reputation": 163
+        },
+        {
+          "id": 1015715,
+          "score": 0,
+          "content": "&quot;I have been in this industry longer than anyone on that site, getting a list of user account passwords is incredibly basic,&quot; Unless his first computer used tubes, I can guarantee that he&#39;s wrong. I think he was testing you, since keeping the passwords is expressly forbidden.",
+          "date": "2016-09-06 18:10:50Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 1017089,
+          "score": 0,
+          "content": "This sounds exactly like a particular manager at City of Virginia Beach.  Except that he can&#39;t spell &quot;Linux&quot; so it can&#39;t be him.",
+          "date": "2016-09-10 23:34:15Z",
+          "user": "Skatterbrainz",
+          "user_link": "https://serverfault.com/users/282064/skatterbrainz",
+          "reputation": 151
+        },
+        {
+          "id": 1017090,
+          "score": 0,
+          "content": "Seriously:  If your company has internal legal counsel, schedule a meeting with them asap. Find out your options w/rt to your company policies and what your options are.  If they are bad, start updating your resume.",
+          "date": "2016-09-10 23:36:07Z",
+          "user": "Skatterbrainz",
+          "user_link": "https://serverfault.com/users/282064/skatterbrainz",
+          "reputation": 151
+        },
+        {
+          "id": 1017481,
+          "score": 1,
+          "content": "Hoping this is some kind of social engineering test and if you say now you pass?",
+          "date": "2016-09-12 11:13:51Z",
+          "user": "RoguePlanetoid",
+          "user_link": "https://serverfault.com/users/273475/rogueplanetoid",
+          "reputation": 101
+        },
+        {
+          "id": 1038347,
+          "score": 0,
+          "content": "@Wedge &quot;Fire yourself&quot;? Er, what did OP do wrong?",
+          "date": "2016-11-21 21:49:46Z",
+          "user": "Kyle Strand",
+          "user_link": "https://serverfault.com/users/207703/kyle-strand",
+          "reputation": 113
+        },
+        {
+          "id": 1048620,
+          "score": 0,
+          "content": "One of the major decision anyone will face soon is to remove any payment option other than Bitcoin. Your customers will evolve to pay using Bitcoin instead PayPal etc.",
+          "date": "2016-12-28 15:26:30Z",
+          "user": "opengrid",
+          "user_link": "https://serverfault.com/users/363779/opengrid",
+          "reputation": 101
+        },
+        {
+          "id": 1067719,
+          "score": 0,
+          "content": "Wow.  Looking at his &#39;auditing demands&#39;, one thing came to mind - he&#39;s basically asking for all of your customer&#39;s data!    That&#39;s one big privacy breach... and I think your decision to move to another payment processing service was the right move.",
+          "date": "2017-02-28 17:36:14Z",
+          "user": "George Erhard",
+          "user_link": "https://serverfault.com/users/143704/george-erhard",
+          "reputation": 844
+        },
+        {
+          "id": 1071466,
+          "score": 2,
+          "content": "To be clear, &quot;I would also like to suggest that any attempt to reveal me, or [company name] will be considered liable and appropriate legal action will be taken&quot; is an absolute indication that the &quot;auditor&quot; knows he&#39;s doing something that would get him and his company in a lot of trouble. Given his demands I would suspect that he&#39;s actually either an attacker attempting to social engineer you, or he&#39;s a legit employee that&#39;s conducting unapproved information gathering. Have your legal council directly contact their legal council with the information, describe it as &quot;responsible disclosure&quot; ;)",
+          "date": "2017-03-12 21:54:02Z",
+          "user": "Kaithar",
+          "user_link": "https://serverfault.com/users/283882/kaithar",
+          "reputation": 1045
+        },
+        {
+          "id": 1071487,
+          "score": 28,
+          "content": "<code>I&#39;d actually forgotten I&#39;d called him an idiot in the title</code> — I wish I could give another upvote just for that mishap.",
+          "date": "2017-03-12 23:50:52Z",
+          "user": "Mark K Cowan",
+          "user_link": "https://serverfault.com/users/185896/mark-k-cowan",
+          "reputation": 101
+        },
+        {
+          "id": 1071882,
+          "score": 4,
+          "content": "Was the name of the company ever revealed?",
+          "date": "2017-03-14 11:22:28Z",
+          "user": "Darren H",
+          "user_link": "https://serverfault.com/users/307584/darren-h",
+          "reputation": 101
+        },
+        {
+          "id": 1072908,
+          "score": 1,
+          "content": "I laughed so hard that I snorted milk out of my nose !",
+          "date": "2017-03-17 09:19:39Z",
+          "user": "Mawg",
+          "user_link": "https://serverfault.com/users/42152/mawg",
+          "reputation": 111
+        },
+        {
+          "id": 1072909,
+          "score": 2,
+          "content": "And then I scrolled back to the top of the page to check if this was posted on the first of April",
+          "date": "2017-03-17 09:20:38Z",
+          "user": "Mawg",
+          "user_link": "https://serverfault.com/users/42152/mawg",
+          "reputation": 111
+        },
+        {
+          "id": 1103217,
+          "score": 4,
+          "content": "I&#39;ve observed that its quite common for people who or either incompetent or dishonest (or both) to assert how long they&#39;ve been in their profession if you disagree with them. In fact, I not too long ago had this experience with a plumber.",
+          "date": "2017-06-27 14:22:07Z",
+          "user": "orodbhen",
+          "user_link": "https://serverfault.com/users/277575/orodbhen",
+          "reputation": 191
+        },
+        {
+          "id": 1134750,
+          "score": 1,
+          "content": "@orodbhen Incompetent people usually lack the skills needed to see that they are incompetente to begin with.",
+          "date": "2017-10-27 11:12:42Z",
+          "user": "T. Sar",
+          "user_link": "https://serverfault.com/users/330105/t-sar",
+          "reputation": 101
+        },
+        {
+          "id": 1134789,
+          "score": 0,
+          "content": "I love how you gave him the link to this question where you called him an idiot in a 24px font. That was amazingly (if unintentionally) savage.",
+          "date": "2017-10-27 14:14:56Z",
+          "user": "Hankrecords",
+          "user_link": "https://serverfault.com/users/422049/hankrecords",
+          "reputation": 101
+        },
+        {
+          "id": 1134790,
+          "score": 2,
+          "content": "At least the individual knew the different between libel and slander.  Of course as pointed out, factual information isn&#39;t libel, and cannot be libel since libel is is publishing false information (and you must know it&#39;s false when it&#39;s published at least in the US).",
+          "date": "2017-10-27 14:17:50Z",
+          "user": "Ramhound",
+          "user_link": "https://serverfault.com/users/195066/ramhound",
+          "reputation": 111
+        },
+        {
+          "id": 1136413,
+          "score": 3,
+          "content": "OP you should suggest that the auditor sign up and write his own answer if he thinks we don&#39;t know what we&#39;re talking about. I would LOVE to see that",
+          "date": "2017-11-03 19:16:23Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 1205630,
+          "score": 7,
+          "content": "Any more updates? I think the community would enjoy hearing how PCI responded.",
+          "date": "2018-09-07 15:41:18Z",
+          "user": "Dessa Simpson",
+          "user_link": "https://serverfault.com/users/295551/dessa-simpson",
+          "reputation": 568
+        },
+        {
+          "id": 1214689,
+          "score": 4,
+          "content": "Please MD5-hash the company name and &quot;accidentally&quot; leak it somewhere :)  For &quot;security&quot; purposes, only the first name (preferably less than 8 characters).",
+          "date": "2018-10-18 21:04:32Z",
+          "user": "Eric Wu",
+          "user_link": "https://serverfault.com/users/492632/eric-wu",
+          "reputation": 101
+        },
+        {
+          "id": 1275932,
+          "score": 0,
+          "content": "I&#39;d be curious how you actually got involved with this company. I doubt he was an idiot, but he also was not an actual security auditor. It sounds like you almost fell prey to a bogus criminal organisation.",
+          "date": "2019-08-23 02:39:20Z",
+          "user": "user1751825",
+          "user_link": "https://serverfault.com/users/323864/user1751825",
+          "reputation": 405
+        },
+        {
+          "id": 1302567,
+          "score": 1,
+          "content": "Well at least now I know he doesn&#39;t work for Paypal.  Thank God.",
+          "date": "2020-02-05 20:07:42Z",
+          "user": "cowlinator",
+          "user_link": "https://serverfault.com/users/247063/cowlinator",
+          "reputation": 197
+        },
+        {
+          "id": 1308633,
+          "score": 0,
+          "content": "Maybe the company&#39;s on another company, or another country payroll and is using this technique to get into their preys&#39; systems. Honestly, this is too obvious to be stupidity. There could really be the will to collect sensitive data behind such requests.",
+          "date": "2020-03-14 10:58:15Z",
+          "user": "FarO",
+          "user_link": "https://serverfault.com/users/147163/faro",
+          "reputation": 485
+        },
+        {
+          "id": 1327930,
+          "score": 0,
+          "content": "Finally I found the ultimate question on all stack exchange sites!! XDD",
+          "date": "2020-06-23 16:46:24Z",
+          "user": "Sven",
+          "user_link": "https://serverfault.com/users/580086/sven",
+          "reputation": 135
+        },
+        {
+          "id": 1345778,
+          "score": 0,
+          "content": "He keeps emphasizing how long he has been in the industry. He doesn&#39;t seem to be emphasizing how up to date his knowledge is. Perhaps it isn&#39;t very up to date? Perhaps public key cryptography wasn&#39;t in much use back in the day?",
+          "date": "2020-09-17 13:57:10Z",
+          "user": "Szczepan Ho&#x142;yszewski",
+          "user_link": "https://serverfault.com/users/190942/szczepan-ho%c5%82yszewski",
+          "reputation": 145
+        },
+        {
+          "id": 1356188,
+          "score": 0,
+          "content": "The twist is: He really has been given plaintext password by hundreds of companies and he&#39;s also the best at social engineering on the planet earth.",
+          "date": "2020-11-09 08:16:23Z",
+          "user": "iPherian",
+          "user_link": "https://serverfault.com/users/348474/ipherian",
+          "reputation": 163
+        },
+        {
+          "id": 1363699,
+          "score": 0,
+          "content": "&quot;An email sent to him every time a user changes their password, containing the plain text password&quot; So basically, it&#39;s a demand to publish in the NY Times all your passwords in plain text. Very secure minded this auditor is as Yoda would comment.",
+          "date": "2020-12-24 19:10:51Z",
+          "user": "boardrider",
+          "user_link": "https://serverfault.com/users/246747/boardrider",
+          "reputation": 1019
+        },
+        {
+          "id": 1417415,
+          "score": 0,
+          "content": "This is my favoruite post of the month, and the month has only just started. :))",
+          "date": "2021-12-07 10:13:10Z",
+          "user": "Dark Star1",
+          "user_link": "https://serverfault.com/users/67144/dark-star1",
+          "reputation": 1445
+        },
+        {
+          "id": 1429546,
+          "score": 0,
+          "content": "Wow! What an extremely entertaining story! Too bad you had to live though that! I would hire the auditor as a consultat to do the incredibly easy tasks he wanted you to do. Since it&#39;s so easy, he&#39;d probably not have a problem with a fixed rate. :-)",
+          "date": "2022-03-05 16:31:21Z",
+          "user": "Ted Lyngmo",
+          "user_link": "https://serverfault.com/users/542714/ted-lyngmo",
+          "reputation": 73
+        },
+        {
+          "id": 1455680,
+          "score": 0,
+          "content": "I have more than two decades of forensics experience. I have also been a PCI member for years. His comment about having more experience than anyone here demonstrates his lack of wisdom and experience. His demands are dangerous and demonstrate a lack of understanding modern technology. It is also possible that he is a bad actor looking to complete or sell a later break-in attempt.",
+          "date": "2022-11-01 08:27:01Z",
+          "user": "John Hanley",
+          "user_link": "https://serverfault.com/users/437769/john-hanley",
+          "reputation": 5034
+        }
+      ]
+    },
+    {
+      "id": 293228,
+      "rating": 1344,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>First, DON'T capitulate. He is not only an idiot but DANGEROUSLY wrong. In fact, releasing this information would <em>violate</em> the PCI standard  (which is what I'm assuming the audit is for since it's a payment processor) along with every other standard out there and just plain common sense. It would also expose your company to all sorts of liabilities. </p><p>The next thing I would do is send an email to your boss saying he needs to get corporate counsel involved to determine the legal exposure the company would be facing by proceeding with this action. </p><p>This last bit is up to you, but <em>I</em> would contact VISA with this information and get his PCI auditor status pulled. </p>",
+      "edited": "2013-03-18 17:12:57Z",
+      "editor": {
+        "avatar": "https://www.gravatar.com/avatar/88753efb648678b6c14d64fe715b216b?s=64&d=identicon&r=PG",
+        "name": "yoozer8",
+        "link": "https://serverfault.com/users/135969/yoozer8",
+        "reputation": 322,
+        "gbadge": 0,
+        "sbadge": 2,
+        "bbadge": 12
+      },
+      "date": "2011-07-22 23:27:34Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/f5c76d03cc5328c978653e04bd8ef4d0?s=64&d=identicon&r=PG",
+        "name": "Zypher",
+        "link": "https://serverfault.com/users/5880/zypher",
+        "reputation": 37681,
+        "gbadge": 5,
+        "sbadge": 54,
+        "bbadge": 95
+      },
+      "comments": [
+        {
+          "id": 277127,
+          "score": 325,
+          "content": "You beat me to it! This is an illegal request. Get a PCI QSA to audit the processor&#39;s request. Get him on a phone call. Circle the wagons. &quot;Charge for the guns!&quot;",
+          "date": "2011-07-22 23:29:34Z",
+          "user": "Wesley",
+          "user_link": "https://serverfault.com/users/9770/wesley",
+          "reputation": 32940
+        },
+        {
+          "id": 277146,
+          "score": 111,
+          "content": "&quot;get his PCI auditor status pulled&quot; I don&#39;t know what that means... but whatever authority this clown has (the auditor) obviously came from a wet cracker jack box and needs to get revoked. +1",
+          "date": "2011-07-23 00:53:45Z",
+          "user": "WernerCD",
+          "user_link": "https://serverfault.com/users/53719/wernercd",
+          "reputation": 334
+        },
+        {
+          "id": 277154,
+          "score": 157,
+          "content": "This is all assuming that this fellow is actually a legitimate auditor... he sounds awfully suspicious to me.",
+          "date": "2011-07-23 01:30:19Z",
+          "user": "Reid",
+          "user_link": "https://serverfault.com/users/70213/reid",
+          "reputation": 146
+        },
+        {
+          "id": 277170,
+          "score": 37,
+          "content": "I agree -- <code>suspicious auditor</code>, or he&#39;s a legitimate auditor seeing if you&#39;re stupid enough to do any of these things.  Ask why he needs this information.  Just consider the password, which should never be plain text, but should be behind some one way encryption (hash).  Maybe he has some legitimate reason, but with all his &quot;experience&quot; he should be able to help you get the necessary information.",
+          "date": "2011-07-23 03:09:34Z",
+          "user": "vol7ron",
+          "user_link": "https://serverfault.com/users/56359/vol7ron",
+          "reputation": 121
+        },
+        {
+          "id": 277184,
+          "score": 28,
+          "content": "Why is this dangerous? A list of all plain text passwords - there should be none. If the list is not empty, he has a valid point. Same goes on for msot things. If you dont have them because they are not there say. Remote files added - that is part of auditiing. Dont know - start putting in a system that knows.",
+          "date": "2011-07-23 05:17:35Z",
+          "user": "TomTom",
+          "user_link": "https://serverfault.com/users/37059/tomtom",
+          "reputation": 52016
+        },
+        {
+          "id": 279802,
+          "score": 1,
+          "content": "Thanks for the update - The response you received sais more about the auditor than anyone on here",
+          "date": "2011-07-29 02:12:41Z",
+          "user": "jamesc",
+          "user_link": "https://serverfault.com/users/88537/jamesc",
+          "reputation": 159
+        },
+        {
+          "id": 1092745,
+          "score": 0,
+          "content": "Yeah, he has GOT to push back on this hard.",
+          "date": "2017-05-19 20:35:23Z",
+          "user": "figtrap",
+          "user_link": "https://serverfault.com/users/270123/figtrap",
+          "reputation": 963
+        },
+        {
+          "id": 1125714,
+          "score": 1,
+          "content": "@Wesley and all the other one are right. Who is so fool to provide all information like users, password in plain text, credit card information and so on so forth. Why we use crypto salt and more stuff to protect data? To grant access in plain text to someone? Something or someone is wrong. And i suppose that who is wrong is this &quot;audit&quot;. He/She has to make a long long long travel do Sahara Desert :D LOL",
+          "date": "2017-09-19 15:44:05Z",
+          "user": "makemoney2010",
+          "user_link": "https://serverfault.com/users/283201/makemoney2010",
+          "reputation": 101
+        },
+        {
+          "id": 1275933,
+          "score": 1,
+          "content": "@TomTom The plain text passwords would be impossible, but the SSH Keys are not. It&#39;s lucky the OP wised up before providing any of this information.",
+          "date": "2019-08-23 02:41:28Z",
+          "user": "user1751825",
+          "user_link": "https://serverfault.com/users/323864/user1751825",
+          "reputation": 405
+        },
+        {
+          "id": 1302568,
+          "score": 1,
+          "content": "As a user of websites, I would be very upset if a company could provide my plaintext password to anybody.",
+          "date": "2020-02-05 20:13:43Z",
+          "user": "cowlinator",
+          "user_link": "https://serverfault.com/users/247063/cowlinator",
+          "reputation": 197
+        }
+      ]
+    },
+    {
+      "id": 293254,
+      "rating": 931,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>As someone who has been through the audit procedure with <a href=\"http://www.pwc.com.au/\" rel=\"noreferrer\">Price Waterhouse Coopers</a> for a classified government contract, I can assure you, this is totally out of the question and this guy is insane.</p><p>When PwC wanted to check our password strength they:</p><ul><li>Asked to see our password strength algorithms</li><li>Ran test units against our algorithms to check that they would deny poor passwords</li><li>Asked to see our encryption algorithms to ensure that they couldn't be reversed or un-encrypted (even by rainbow tables), even by someone who had full access to every aspect of the system</li><li>Checked to see that previous passwords were cached to ensure that they couldn't be re-used</li><li>Asked us for permission (which we granted) for them to attempt to break into the network and related systems using non-social engineering techniques (things like xss and non-0 day exploits)</li></ul><p>If I had even hinted that I could show them what the users passwords were over the last 6 months, they would have shut us out of the contract immediately.</p><p>If it <em>were possible</em> to provide these requirements, you would <em>instantly fail</em> every single audit worth having.</p><hr><p>Update: Your response email looks good. Far more professional than anything I would have written.</p>",
+      "edited": "2017-11-03 16:34:14Z",
+      "editor": {
+        "avatar": "https://www.gravatar.com/avatar/b1a413ea490f70dc5d27f3d7eba6b4f6?s=64&d=identicon&r=PG",
+        "name": "Kalle Richter",
+        "link": "https://serverfault.com/users/208661/kalle-richter",
+        "reputation": 287,
+        "gbadge": 0,
+        "sbadge": 6,
+        "bbadge": 18
+      },
+      "date": "2011-07-23 02:34:14Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/3fe1ab2f3897d8e3931c5b297c29e994?s=64&d=identicon&r=PG",
+        "name": "Mark Henderson",
+        "link": "https://serverfault.com/users/7709/mark-henderson",
+        "reputation": 69222,
+        "gbadge": 32,
+        "sbadge": 189,
+        "bbadge": 266
+      },
+      "comments": [
+        {
+          "id": 277185,
+          "score": 130,
+          "content": "+1. Looks like sensible quesstions that should NOT BE ANSWERABLE. If you can answer them you have a stupid security issue at hand.",
+          "date": "2011-07-23 05:18:59Z",
+          "user": "TomTom",
+          "user_link": "https://serverfault.com/users/37059/tomtom",
+          "reputation": 52016
+        },
+        {
+          "id": 277286,
+          "score": 9,
+          "content": "<code>even by rainbow tables</code> doesn&#39;t that rule out NTLM? I mean, it&#39;s not salted... AFAICR MIT Kerberos didn&#39;t encrypt or hash the active passwords, don&#39;t know what&#39;s current status",
+          "date": "2011-07-23 16:45:33Z",
+          "user": "Hubert Kario",
+          "user_link": "https://serverfault.com/users/55663/hubert-kario",
+          "reputation": 6419
+        },
+        {
+          "id": 277343,
+          "score": 9,
+          "content": "@Hubert - we weren&#39;t using NTLM or Kerberos as pass-through authentication methods were banned and the service wasn&#39;t integrated with active directory anyway. Otherwise we also couldn&#39;t show them our algorithms either (they&#39;re built into the OS). Should have mentioned - this was application-level security, not an OS level audit.",
+          "date": "2011-07-23 21:59:19Z",
+          "user": "Mark Henderson",
+          "user_link": "https://serverfault.com/users/7709/mark-henderson",
+          "reputation": 69222
+        },
+        {
+          "id": 277571,
+          "score": 0,
+          "content": "@Mark: I know the algorithms are not available, the settings are important then. If you weren&#39;t integrated to AD or Kerberos then it would look OK.",
+          "date": "2011-07-24 18:29:42Z",
+          "user": "Hubert Kario",
+          "user_link": "https://serverfault.com/users/55663/hubert-kario",
+          "reputation": 6419
+        },
+        {
+          "id": 278162,
+          "score": 0,
+          "content": "You&#39;re not supposed to let a user use a previous password (i.e. if they change their password back to the old one again)?",
+          "date": "2011-07-25 23:20:17Z",
+          "user": "Explosion Pills",
+          "user_link": "https://serverfault.com/users/84310/explosion-pills",
+          "reputation": 221
+        },
+        {
+          "id": 278164,
+          "score": 4,
+          "content": "@tandu - that&#39;s what the specifications for the level of classification stated. It&#39;s also fairly common to stop people from re-using their last <i>n</i> passwords, because it stops people from just cycling through two or three commonly used passwords, which is just as insecure as using the same common password.",
+          "date": "2011-07-25 23:39:16Z",
+          "user": "Mark Henderson",
+          "user_link": "https://serverfault.com/users/7709/mark-henderson",
+          "reputation": 69222
+        },
+        {
+          "id": 278914,
+          "score": 0,
+          "content": "Yep, you can&#39;t use your last 10 in my company.",
+          "date": "2011-07-27 13:05:17Z",
+          "user": "cularis",
+          "user_link": "https://serverfault.com/users/89106/cularis",
+          "reputation": 101
+        },
+        {
+          "id": 279219,
+          "score": 0,
+          "content": "Oddly, when I saw the &#39;user passwords over the last 6 months&#39;, my mind went to the password history that prevents re-use.  Typically that history is count-based though, not time-period based, but other than that it would serve to address the need.",
+          "date": "2011-07-28 00:04:16Z",
+          "user": "Slartibartfast",
+          "user_link": "https://serverfault.com/users/46122/slartibartfast",
+          "reputation": 3335
+        },
+        {
+          "id": 279564,
+          "score": 0,
+          "content": "While I don&#39;t question this statement it&#39;s true &quot;As someone who has been through the audit procedure with Price Waterhouse Coopers for a classified government contract&quot; I think you&#39;ll be better walking away from the Appeal to authorithy falacy &quot;<a href=\"http://www.nizkor.org/features/fallacies/appeal-to-authority.html\" rel=\"nofollow noreferrer\">nizkor.org/features/fallacies/appeal-to-authority.html</a>&quot; and focus more in the really good points and ideas you explained in your answer.",
+          "date": "2011-07-28 16:10:20Z",
+          "user": "MexicanHacker",
+          "user_link": "https://serverfault.com/users/55677/mexicanhacker",
+          "reputation": 101
+        },
+        {
+          "id": 279783,
+          "score": 0,
+          "content": "The company&#39;s correspondence with the OP has all the hallmarks of an actual scam.  I&#39;d consider reporting it to law enforcement.",
+          "date": "2011-07-29 00:37:46Z",
+          "user": "thomasrutter",
+          "user_link": "https://serverfault.com/users/1950/thomasrutter",
+          "reputation": 2616
+        },
+        {
+          "id": 280739,
+          "score": 3,
+          "content": "@Slartibartfast: you don&#39;t need to have the passwords in plain text to prevent reuse of password in the last six month, all you need is a database table that stores the hash, the salt (if applicable), and the date of password.",
+          "date": "2011-07-31 22:15:25Z",
+          "user": "Lie Ryan",
+          "user_link": "https://serverfault.com/users/55408/lie-ryan",
+          "reputation": 438
+        },
+        {
+          "id": 281255,
+          "score": 0,
+          "content": "@Lie Ryan: Not if you also have to protect against using similar passwords, e.g. mypassword-08-2011 as compared to mypassword-07-2011 last month.  (in anticipation of a specific response, yes, you could brute-force some comparisons, but that becomes computationally infeasible for a defender who has to evaluate a password choice in real-time, whereas the attacker has time on their hands)",
+          "date": "2011-08-02 04:48:46Z",
+          "user": "Slartibartfast",
+          "user_link": "https://serverfault.com/users/46122/slartibartfast",
+          "reputation": 3335
+        },
+        {
+          "id": 281425,
+          "score": 13,
+          "content": "@Slartibartfast: but having a mean to know the plain text of the password means the attacker could just as well break into your database and retrieves everything in plain sight. As for protection against using similar password, that can be done in javascript in the client side, when the user is attempting to change password, also ask the old password and do similarity comparison with the old password before posting the new password to the server. Granted, it can only prevent reuse from 1 last password, but IMO the risk of storing password in plaintext is much more.",
+          "date": "2011-08-02 14:15:40Z",
+          "user": "Lie Ryan",
+          "user_link": "https://serverfault.com/users/55408/lie-ryan",
+          "reputation": 438
+        },
+        {
+          "id": 1070941,
+          "score": 0,
+          "content": "Sorry, I&#39;m confused about something -- you say you cached recent passwords, but if there&#39;d been a hint of being able to show recent passwords, you&#39;d have lost the contract. Did you mean that you cache the hashes of recent passwords (and then, presumably, compare against those)?",
+          "date": "2017-03-10 15:34:55Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        },
+        {
+          "id": 1070959,
+          "score": 0,
+          "content": "@QPaysTaxes this project in question was about 6 or 7 years ago, so I don&#39;t remember the exact details, but yes - it would have been the salted hashes of the passwords that were stored, not the passwords themselves. Wow actually I just realised it&#39;s been 6 years since I <i>wrote</i> this answer, so that project was probably more like 8 or 9 years ago.",
+          "date": "2017-03-10 16:10:45Z",
+          "user": "Mark Henderson",
+          "user_link": "https://serverfault.com/users/7709/mark-henderson",
+          "reputation": 69222
+        },
+        {
+          "id": 1345777,
+          "score": 0,
+          "content": "Funny idea: maybe whoever at your company ordered the audit checked the &quot;social engineering attacks&quot; checkbox by accident, and this guy was testing YOU (and you passed in spades)?",
+          "date": "2020-09-17 13:49:14Z",
+          "user": "Szczepan Ho&#x142;yszewski",
+          "user_link": "https://serverfault.com/users/190942/szczepan-ho%c5%82yszewski",
+          "reputation": 145
+        }
+      ]
+    },
+    {
+      "id": 293232,
+      "rating": 507,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Honestly, it sounds like this guy (the auditor) is setting you up. If you give him the information he's asking for, you've just proven to him that you can be socially engineered to give up critical internal information. Fail.</p>",
+      "edited": "2011-07-23 00:25:32Z",
+      "editor": {
+        "avatar": "https://www.gravatar.com/avatar/78a0a4bb106d07b6c6f33a51988155e3?s=64&d=identicon&r=PG",
+        "name": "Peter Mortensen",
+        "link": "https://serverfault.com/users/5144/peter-mortensen",
+        "reputation": 2318,
+        "gbadge": 6,
+        "sbadge": 23,
+        "bbadge": 24
+      },
+      "date": "2011-07-22 23:40:03Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/e57984babf05857bb8e88b11892093ea?s=64&d=identicon&r=PG",
+        "name": "anastrophe",
+        "link": "https://serverfault.com/users/79846/anastrophe",
+        "reputation": 5548,
+        "gbadge": 2,
+        "sbadge": 17,
+        "bbadge": 16
+      },
+      "comments": [
+        {
+          "id": 277131,
+          "score": 13,
+          "content": "also, have you considered a third-party payment processor, like authorize.net? the company i work for does very large amounts of credit card transactions through them. we don&#39;t have to store any of the customer payment info - authorize.net manages that - so there&#39;s no audit of our systems to complicate things.",
+          "date": "2011-07-22 23:42:36Z",
+          "user": "anastrophe",
+          "user_link": "https://serverfault.com/users/79846/anastrophe",
+          "reputation": 5548
+        },
+        {
+          "id": 277137,
+          "score": 199,
+          "content": "this is exactly what I thought was happening. Social engineering is probably the easiest way to get this info and I think he&#39;s testing that loophole. This guy is either very intelligent or very dumb",
+          "date": "2011-07-23 00:08:44Z",
+          "user": "Joe Phillips",
+          "user_link": "https://serverfault.com/users/745/joe-phillips",
+          "reputation": 320
+        },
+        {
+          "id": 277169,
+          "score": 5,
+          "content": "This position is at least the most reasonable first step. Tell him you would be breaking laws/rules/whatever by doing any of it, but that you appreciate his guile.",
+          "date": "2011-07-23 02:59:01Z",
+          "user": "michael",
+          "user_link": "https://serverfault.com/users/53376/michael",
+          "reputation": 317
+        },
+        {
+          "id": 277192,
+          "score": 3,
+          "content": "@ Joe: Given the overkill amount of insanely insecure information he&#39;s asking for, i&#39;d putting my money on very dumb",
+          "date": "2011-07-23 06:15:54Z",
+          "user": "Sirex",
+          "user_link": "https://serverfault.com/users/46792/sirex",
+          "reputation": 5577
+        },
+        {
+          "id": 277336,
+          "score": 52,
+          "content": "Dumb question: is “setting up” acceptable in this situation? Common logic tells me an audit process should not be made of “tricks”.",
+          "date": "2011-07-23 21:04:57Z",
+          "user": "Agos",
+          "user_link": "https://serverfault.com/users/2680/agos",
+          "reputation": 103
+        },
+        {
+          "id": 277778,
+          "score": 2,
+          "content": "@Agos: from a moral standpoint it may be problematic, but from a practial standpoint, facts, however they are discovered, tend to have a higher weight for the people who enforced the audit.",
+          "date": "2011-07-25 07:31:03Z",
+          "user": "keppla",
+          "user_link": "https://serverfault.com/users/76108/keppla",
+          "reputation": 133
+        },
+        {
+          "id": 277907,
+          "score": 0,
+          "content": "But just as a police interrogation must respect certain rules, I would expect that violations that are <i>asked for</i> in the process are not considerable “real” violations.",
+          "date": "2011-07-25 14:01:38Z",
+          "user": "Agos",
+          "user_link": "https://serverfault.com/users/2680/agos",
+          "reputation": 103
+        },
+        {
+          "id": 279394,
+          "score": 25,
+          "content": "@Agos: I worked at a place a few years ago that hired an agency to do an audit.  Part of the audit included calling random people in the company with the &quot;&lt;CIO&gt; asked me to call you and get your login credentials so that I can &lt;do something&gt;.&quot;  Not only were they checking to see that you wouldn&#39;t actually give up credentials, but once you hung up on them you were supposed to immediately call &lt;CIO&gt; or &lt;Security Admin&gt; and report the interchange.",
+          "date": "2011-07-28 12:04:24Z",
+          "user": "Toby",
+          "user_link": "https://serverfault.com/users/85267/toby",
+          "reputation": 101
+        },
+        {
+          "id": 279883,
+          "score": 3,
+          "content": "...and as always the old adage turned out true: “do not ascribe to malice that which can be adequately explained by incompetence” ;)",
+          "date": "2011-07-29 08:17:15Z",
+          "user": "Agos",
+          "user_link": "https://serverfault.com/users/2680/agos",
+          "reputation": 103
+        },
+        {
+          "id": 1061555,
+          "score": 1,
+          "content": "Besides, you shouldn&#39;t even have access to most of the information (i.e. pain text passwords O_o) he&#39;s asking for.",
+          "date": "2017-02-08 16:04:47Z",
+          "user": "juanmf",
+          "user_link": "https://serverfault.com/users/384302/juanmf",
+          "reputation": 101
+        },
+        {
+          "id": 1211114,
+          "score": 1,
+          "content": "@Toby These sorts of faux social engineering attacks are common, but they can only be done <i>with permission and knowledge of people within the company</i>. What the OP describes seems to be involvement in a normal audit process where they know the company they are dealing with. You also wouldn&#39;t expect such a test to be this brazen and outrageous, asking for plain text passwords and demanding e-mails be sent to them every time a password changes. If the latter actually happened, they&#39;d probably expose themselves to liability asking for it. No, a test would be more sensible and routine sounding.",
+          "date": "2018-10-02 20:39:58Z",
+          "user": "jpmc26",
+          "user_link": "https://serverfault.com/users/172060/jpmc26",
+          "reputation": 141
+        },
+        {
+          "id": 1275931,
+          "score": 1,
+          "content": "This could be the case. He could have been testing you. Nobody with even a rudimentary understanding of IT security could genuinely believe that passwords are stored using reversible encryption. Also the &quot;only applies to consumers&quot; bit also seems like a test. You&#39;ve provided the correct answers to him, and despite his responses, your answers were likely exactly what he was hoping to receive.",
+          "date": "2019-08-23 02:29:23Z",
+          "user": "user1751825",
+          "user_link": "https://serverfault.com/users/323864/user1751825",
+          "reputation": 405
+        }
+      ]
+    },
+    {
+      "id": 293284,
+      "rating": 381,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>I've just spotted you're in the UK, which means that what he's asking you to do is to break the law (the Data Protection Act in fact). I'm in the UK too, work for a large heavily-audited company and know the law and common practices around this area. I'm also a very nasty piece of work who will happily curb-stamp this guy for you if you like just for the fun of it, let me know if you'd like help ok.</p>",
+      "edited": "2011-07-29 23:39:20Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2011-07-23 07:01:20Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/9607d45c8fedcce07e2abee65fe1f442?s=64&d=identicon&r=PG",
+        "name": "Chopper3",
+        "link": "https://serverfault.com/users/1435/chopper3",
+        "reputation": 101661,
+        "gbadge": 9,
+        "sbadge": 109,
+        "bbadge": 240
+      },
+      "comments": [
+        {
+          "id": 277268,
+          "score": 1,
+          "content": "This has nothing to do with the data protection act, which is purely related to personally identifiable information. From the sound of it, this is a PCI audit.",
+          "date": "2011-07-23 14:06:21Z",
+          "user": "Jimmy",
+          "user_link": "https://serverfault.com/users/88547/jimmy",
+          "reputation": 1909
+        },
+        {
+          "id": 277274,
+          "score": 36,
+          "content": "Assuming there&#39;s any personal information on those servers, I think  handing over /all/ of the credentials for access in plain text to someone with this level of demonstrated incompetence would be a clear breach of Principle 7... (&quot;Appropriate technical and organisational measures shall be taken against unauthorised or unlawful processing of personal data and against accidental loss or destruction of, or damage to, personal data.&quot;)",
+          "date": "2011-07-23 15:18:07Z",
+          "user": "Stephen Veiss",
+          "user_link": "https://serverfault.com/users/9428/stephen-veiss",
+          "reputation": 486
+        },
+        {
+          "id": 277282,
+          "score": 1,
+          "content": "Assuming there&#39;s any personal information on those servers, yes. But it&#39;s far from clear there is. Are you suggesting it would be ok if he passed over the plain text passwords of all servers not holding personal data? The main issues are that this is a) against policy, and b) against PCI. You don&#39;t need to bring distractions into it.",
+          "date": "2011-07-23 16:17:58Z",
+          "user": "Jimmy",
+          "user_link": "https://serverfault.com/users/88547/jimmy",
+          "reputation": 1909
+        },
+        {
+          "id": 277284,
+          "score": 1,
+          "content": "To be fair, though, (as I can&#39;t edit the answer above) I&#39;d just like to add that your answer is correct. If the server holds personal data, anything that weakens that server or the system accessing it is technically in scope of principle 7.",
+          "date": "2011-07-23 16:33:00Z",
+          "user": "Jimmy",
+          "user_link": "https://serverfault.com/users/88547/jimmy",
+          "reputation": 1909
+        },
+        {
+          "id": 277304,
+          "score": 6,
+          "content": "I think it&#39;s a fair assumption -- if you&#39;re storing payment information, you&#39;re probably also storing contact information for your users. If I were in the OP&#39;s position, I&#39;d see &quot;what you&#39;re asking me to do not only breaks policy and contractual obligations [to comply with PCI], but is also illegal&quot; as a stronger argument than just mentioning policy and PCI.",
+          "date": "2011-07-23 18:25:15Z",
+          "user": "Stephen Veiss",
+          "user_link": "https://serverfault.com/users/9428/stephen-veiss",
+          "reputation": 486
+        },
+        {
+          "id": 277594,
+          "score": 4,
+          "content": "@Jimmy why would a password not be personal data?",
+          "date": "2011-07-24 20:45:54Z",
+          "user": "robertc",
+          "user_link": "https://serverfault.com/users/9686/robertc",
+          "reputation": 408
+        },
+        {
+          "id": 279359,
+          "score": 11,
+          "content": "@Richard, you do know it was a metaphor right?",
+          "date": "2011-07-28 09:34:53Z",
+          "user": "Chopper3",
+          "user_link": "https://serverfault.com/users/1435/chopper3",
+          "reputation": 101661
+        },
+        {
+          "id": 279360,
+          "score": 9,
+          "content": "@Chopper3 Yes, I still think that it&#39;s inappropriate.  Plus, I&#39;m countering AviD.",
+          "date": "2011-07-28 09:38:12Z",
+          "user": "Richard Gadsden",
+          "user_link": "https://serverfault.com/users/247/richard-gadsden",
+          "reputation": 3716
+        },
+        {
+          "id": 284189,
+          "score": 0,
+          "content": "@robertc; i wouldnt consider it personal. Its private, secret, or whatever, but not personal (like your age, weight, sex, name, address). A password does not identify you specifically as a person (unless your password really sucks :-)",
+          "date": "2011-08-08 12:38:26Z",
+          "user": "Sirex",
+          "user_link": "https://serverfault.com/users/46792/sirex",
+          "reputation": 5577
+        },
+        {
+          "id": 1134785,
+          "score": 1,
+          "content": "@Richars +1 for countering AviD?",
+          "date": "2017-10-27 13:58:17Z",
+          "user": "",
+          "user_link": null,
+          "reputation": 0
+        }
+      ]
+    },
+    {
+      "id": 293304,
+      "rating": 331,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>You are being socially engineered. Either its to 'test you' or its a hacker posing as a auditor to get some very useful data.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 09:20:21Z' class='relativetime'>Jul 23, 2011 at 9:20</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/Mr Tired",
+        "reputation": 0,
+        "gbadge": 1,
+        "sbadge": 14,
+        "bbadge": 3
+      },
+      "comments": [
+        {
+          "id": 278612,
+          "score": 8,
+          "content": "Why isn&#39;t this the top answer? Does that say something about the community, the ease of social engineering, or am I missing something fundamental?",
+          "date": "2011-07-26 22:31:06Z",
+          "user": "Paul",
+          "user_link": "https://serverfault.com/users/33903/paul",
+          "reputation": 1634
+        },
+        {
+          "id": 278637,
+          "score": 191,
+          "content": "never attribute to malice what can be attributed to ignorance",
+          "date": "2011-07-26 23:52:11Z",
+          "user": "aldrinleal",
+          "user_link": "https://serverfault.com/users/21943/aldrinleal",
+          "reputation": 101
+        },
+        {
+          "id": 279032,
+          "score": 15,
+          "content": "Attributing all those requests to ignorance when the auditor claims to be a professional, though, stretches the imagination a little.",
+          "date": "2011-07-27 16:24:36Z",
+          "user": "Thomas K",
+          "user_link": "https://serverfault.com/users/89213/thomas-k",
+          "reputation": 101
+        },
+        {
+          "id": 279238,
+          "score": 14,
+          "content": "The problem with this theory is that, even if he &quot;fell for it&quot; or &quot;failed the test,&quot; he <b>couldn&#39;t</b> give him the information because it&#39;s <b>impossible</b>.....",
+          "date": "2011-07-28 01:03:31Z",
+          "user": "eds",
+          "user_link": "https://serverfault.com/users/89333/eds",
+          "reputation": 101
+        },
+        {
+          "id": 279479,
+          "score": 4,
+          "content": "My best guess is &#39;serious social engineering&#39; too (is it a coincidence the new Kevin Mitnick book is coming out soon?), in which case your payment firm will be surprised (have you checked with them about this &#39;audit&#39; yet?). The other option is a very rookie auditor with no linux knowledge who tried bluffing and is now digging her/himself in deeper, deeper and deeper.",
+          "date": "2011-07-28 13:57:53Z",
+          "user": "Koos van den Hout",
+          "user_link": "https://serverfault.com/users/52286/koos-van-den-hout",
+          "reputation": 1096
+        },
+        {
+          "id": 280964,
+          "score": 0,
+          "content": "Companies that do PCI auditing also offer ancillary services, among which is to report on their success in trying to socially engineer you.  This smells very much like what is happening to you.  You are on solid ground to simply not provide the information.",
+          "date": "2011-08-01 14:50:22Z",
+          "user": "Brian Deacon",
+          "user_link": "https://serverfault.com/users/90081/brian-deacon",
+          "reputation": 161
+        },
+        {
+          "id": 281956,
+          "score": 0,
+          "content": "I must admit that I&#39;d be inclined to think this is a scam too. Laying on the pressure, making illogical demands (6 months compliance with a 2-week-old policy), and persisting in the face of all evidence to the contrary. Are you sure this guy is even known to your provider? @eds it <i>would</i> be possible if the OP <i>was</i> storing plain text, in which case the scammer would be all win.",
+          "date": "2011-08-03 13:56:15Z",
+          "user": "Benjol",
+          "user_link": "https://serverfault.com/users/1772/benjol",
+          "reputation": 202
+        },
+        {
+          "id": 283244,
+          "score": 3,
+          "content": "@Benjol In that rare case, yes, but still, I think by the point that the security guy saw this thread, surely the OP would have &quot;passed the test&quot; or the scammer would realize it&#39;s not going to happen... but he just kept truckin&#39; along",
+          "date": "2011-08-05 15:01:41Z",
+          "user": "eds",
+          "user_link": "https://serverfault.com/users/89333/eds",
+          "reputation": 101
+        },
+        {
+          "id": 1070777,
+          "score": 0,
+          "content": "@aldrinleal Malice is actually the more generous assumption in this rare case.",
+          "date": "2017-03-10 04:34:19Z",
+          "user": "jpmc26",
+          "user_link": "https://serverfault.com/users/172060/jpmc26",
+          "reputation": 141
+        }
+      ]
+    },
+    {
+      "id": 293604,
+      "rating": 306,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>I am seriously concerned about OPs lack of ethical problem solving skills <em>and</em> the server fault community ignoring this blatant breach of ethical conduct.</p><blockquote><p>In short, I need;</p><ul><li>A way to 'fake' six months worth of password changes and make it look valid</li><li>A way to 'fake' six months of inbound file transfers</li></ul></blockquote><p>Let me be clear on two points:</p><ol><li><strong>It is never appropriate to falsify data during the course of normal business.</strong></li><li><strong>You should never divulge this kind of information to anyone. Ever.</strong></li></ol><p><strong>It is not your job to falsify records. It is your job to make sure that any necessary records are available, accurate, and secure.</strong></p><p>The community here at Server Fault <em>must</em> treat these kinds of questions as the stackoverflow site treats &quot;homework&quot; questions. You can not address these issues with only a technical response or ignore the violation of ethical responsibility.</p><p>Seeing so many high-rep users replies here in this thread and no mention of the ethical implications of the question saddens me.</p><p><strong>I would encourage everyone to read the <a href=\"https://www.usenix.org/lisa/system-administrators-code-ethics\" rel=\"noreferrer\">SAGE System Administrators' Code of Ethics</a>.</strong></p><p>BTW, your security auditor is an idiot, but that does not mean you need to feel pressure to be unethical in your work.</p><p>Edit: Your updates are priceless. Keep your head down, your powder dry, and don't take (or give) any wooden nickels.</p>",
+      "edited": "2020-06-11 10:02:37Z",
+      "editor": {
+        "avatar": "https://www.gravatar.com/avatar/a007be5a61f6aa8f3e85ae2fc18dd66e?s=64&d=identicon&r=PG",
+        "name": "Community",
+        "link": "https://serverfault.com/users/-1/community",
+        "reputation": 1,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2011-07-24 20:05:05Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/b4bc237bed991e960f43a16ca91ce098?s=64&d=identicon&r=PG",
+        "name": "Joseph Kern",
+        "link": "https://serverfault.com/users/9332/joseph-kern",
+        "reputation": 9939,
+        "gbadge": 4,
+        "sbadge": 33,
+        "bbadge": 56
+      },
+      "comments": [
+        {
+          "id": 277949,
+          "score": 54,
+          "content": "I disagree.  The &quot;auditor&quot; was bullying OP into divulging information that would undermine the entire IT security of the organization.  Under no circumstances should OP generate those records and provide them to anyone.  OP should not fake records; they can easily be seen to be fake. OP should explain to higher-ups why the security auditors demands are a threat either through malicious intentions or utter incompetence (email passwords in plaintext).  OP should recommend immediate termination of the security auditor and a full investigation into other activities of the former auditor.",
+          "date": "2011-07-25 15:01:35Z",
+          "user": "dr jimbob",
+          "user_link": "https://serverfault.com/users/81303/dr-jimbob",
+          "reputation": 409
+        },
+        {
+          "id": 277965,
+          "score": 24,
+          "content": "dr jimbob, I think you are missing the point: &quot;OP should not fake records; they can easily be seen to be fake.&quot; is still an unethical position as you are suggesting he should only falsify data when it cannot be distinguished from true data. Sending false data is unethical. Sending passwords of your users to a third party is negligent. So we agree that something needs to be done about this situation. I am commenting on the lack of critical ethical thinking in solving this problem.",
+          "date": "2011-07-25 15:22:28Z",
+          "user": "Joseph Kern",
+          "user_link": "https://serverfault.com/users/9332/joseph-kern",
+          "reputation": 9939
+        },
+        {
+          "id": 278027,
+          "score": 1,
+          "content": "I agree sending fake data is unethical and undermines the entire auditing system -- if people rely on your data being accurate and you send false data then the audit is broken.  I edited my post to get it under the char limit; and on reread that point got edited out.  I wanted to also say that its downright stupid to fake this data (e.g., passwords) as its easily checked and once found that its faked, responsibility falls solely on you.  (Its like how murder is unethical on its own; but its even stupider to do it in a manner where you will get caught.)",
+          "date": "2011-07-25 17:03:07Z",
+          "user": "dr jimbob",
+          "user_link": "https://serverfault.com/users/81303/dr-jimbob",
+          "reputation": 409
+        },
+        {
+          "id": 278029,
+          "score": 19,
+          "content": "I disagreed with the &quot;It is your job to make sure those records are available, accurate, and secure.&quot;  You have an obligation to keep your system secure; unreasonable requests (like store &amp; share plaintext passwords) should not be done if they compromise the system.   Storing, recording, and sharing plaintext passwords is a major breach of trust with your users.  It is a big red flag security threat.  The security audit can and should be done without exposing plaintext passwords/ssh private keys; and you should let the higher ups know and resolve the issue.",
+          "date": "2011-07-25 17:06:28Z",
+          "user": "dr jimbob",
+          "user_link": "https://serverfault.com/users/81303/dr-jimbob",
+          "reputation": 409
+        },
+        {
+          "id": 278569,
+          "score": 14,
+          "content": "dr jimbob, I feel that we are two ships passing in the night. I agree with everything you are saying; I must not have articulated these points clearly enough. I will revise my initial response above. I relied too heavily on the context of the thread.",
+          "date": "2011-07-26 21:17:48Z",
+          "user": "Joseph Kern",
+          "user_link": "https://serverfault.com/users/9332/joseph-kern",
+          "reputation": 9939
+        },
+        {
+          "id": 280019,
+          "score": 1,
+          "content": "sometimes, you just have to get through the day.",
+          "date": "2011-07-29 15:02:04Z",
+          "user": "AJ.",
+          "user_link": "https://serverfault.com/users/1372/aj",
+          "reputation": 363
+        },
+        {
+          "id": 280310,
+          "score": 1,
+          "content": "I really think it&#39;s wrong to use the argument &quot;I have be in this industry for X amount of year&quot; as the only argument to prove oneself. One can be in an industry for X amount of years but never learn new things. The auditor may still be living in his dream world.",
+          "date": "2011-07-30 03:40:56Z",
+          "user": "Alvin",
+          "user_link": "https://serverfault.com/users/89835/alvin",
+          "reputation": 103
+        },
+        {
+          "id": 280748,
+          "score": 4,
+          "content": "@Joseph Kern, I didn’t read the OP in the same manner as yourself. I read it more as how can I produce six months of data we never kept. Certainly, I agree, that most ways of trying to meet this requirement would be fraudulent. However, were I to take my password database and extract timestamps for the last 6 months I could create a record of what changes were still preserved. I consider that ‘faking’ data as some data has been lost.",
+          "date": "2011-07-31 23:30:18Z",
+          "user": "user179700",
+          "user_link": "https://serverfault.com/users/89988/user179700",
+          "reputation": 133
+        },
+        {
+          "id": 514956,
+          "score": 3,
+          "content": "Kudos for injecting that.  I think OP had already crossed into the realm of impossibility and was simply writing carelessly.  However carelessly walking off a cliff is still walking off a cliff.  Wonder what ever happened with this.",
+          "date": "2013-01-11 18:54:55Z",
+          "user": "T.Rob",
+          "user_link": "https://serverfault.com/users/41656/t-rob",
+          "reputation": 226
+        }
+      ]
+    },
+    {
+      "id": 293220,
+      "rating": 256,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>You can't give him what you want, and attempts to \"fake\" it are likely to come back to bite you in the arse (possibly in legal ways).  You either need to appeal up the chain of command (it's possible this auditor's gone rogue, although security audits are notoriously idiotic -- ask me about the auditor that wanted to be able to access an AS/400 via SMB), or get the hell out from underneath these onorous requirements.</p><p>They're not even good security -- a list of all plaintext passwords is an <em>incredibly</em> dangerous thing to <em>ever</em> produce, regardless of the methods used to safeguard them, and I'll bet this bloke will want them e-mailed in plain-text.  (I'm sure you know this already, I just have to vent a little).</p><p>For shits and giggles, ask him directly how to execute his requirements -- admit you don't know how, and would like to leverage his experience.  Once you're out and gone, a response to his \"I have over 10 years experience in security auditing\" would be \"no, you have 5 minutes of experience repeated hundreds of times\".</p>",
+      "edited": "2011-07-22 23:05:13Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2011-07-22 23:00:04Z",
+      "author": {
+        "avatar": "https://i.sstatic.net/FsbC4.jpg?s=64",
+        "name": "womble",
+        "link": "https://serverfault.com/users/1375/womble",
+        "reputation": 97585,
+        "gbadge": 29,
+        "sbadge": 177,
+        "bbadge": 233
+      },
+      "comments": [
+        {
+          "id": 277140,
+          "score": 11,
+          "content": "...an auditor that wanted access to an AS/400 via SMB?...why?",
+          "date": "2011-07-23 00:27:09Z",
+          "user": "Bart Silverstrim",
+          "user_link": "https://serverfault.com/users/13647/bart-silverstrim",
+          "reputation": 31278
+        },
+        {
+          "id": 277151,
+          "score": 4,
+          "content": "Because his auditing procedure required him to check that the default access permissions (allowing anonymous users to get the share/printer lists) had been turned off.  Until his tool could verify to him that this had been done, he couldn&#39;t sign off on the audit.",
+          "date": "2011-07-23 01:06:03Z",
+          "user": "womble",
+          "user_link": "https://serverfault.com/users/1375/womble",
+          "reputation": 97585
+        },
+        {
+          "id": 277165,
+          "score": 12,
+          "content": "A much repeated hassle I&#39;ve had with PCI compliance companies is arguing against blanket ICMP filtering, and only blocking echo.  ICMP is there for a very good reason, but it&#39;s next to impossible to explain that to the numerous &#39;working from a script&#39; auditors.",
+          "date": "2011-07-23 02:38:50Z",
+          "user": "Twirrim",
+          "user_link": "https://serverfault.com/users/21338/twirrim",
+          "reputation": 672
+        },
+        {
+          "id": 277167,
+          "score": 53,
+          "content": "@BartSilverstrim Probably a case of check-list auditing. As an auditor once told me -- Why did the auditor cross the road? Because that&#39;s what they did last year.",
+          "date": "2011-07-23 02:44:47Z",
+          "user": "Scott Pack",
+          "user_link": "https://serverfault.com/users/3356/scott-pack",
+          "reputation": 15007
+        },
+        {
+          "id": 277171,
+          "score": 2,
+          "content": "I&#39;ve heard it called GWAT -- &quot;Goober With Auditing Tool&quot;.",
+          "date": "2011-07-23 03:11:59Z",
+          "user": "womble",
+          "user_link": "https://serverfault.com/users/1375/womble",
+          "reputation": 97585
+        },
+        {
+          "id": 277216,
+          "score": 2,
+          "content": "Actually, not just older passwords in plain-text, but also new ones: &quot;An email sent to him every time a user changes their password, containing the plain text password&quot;",
+          "date": "2011-07-23 10:49:10Z",
+          "user": "James Skemp",
+          "user_link": "https://serverfault.com/users/19870/james-skemp",
+          "reputation": 872
+        },
+        {
+          "id": 277273,
+          "score": 0,
+          "content": "In some sense, I have access to an AS/400 via SMB. It is a single directory that is exported to a Windows server (I don&#39;t know via what means) and is accessible via SMB because it is then shared again by the Windows server.",
+          "date": "2011-07-23 15:10:21Z",
+          "user": "Confusion",
+          "user_link": "https://serverfault.com/users/88590/confusion",
+          "reputation": 191
+        },
+        {
+          "id": 277347,
+          "score": 13,
+          "content": "I know it&#39;s doable, the real &quot;WTF?&quot; was the fact that the auditor considered that the machine was vulnerable to attacks via SMB until he could connect via SMB...",
+          "date": "2011-07-23 23:03:22Z",
+          "user": "womble",
+          "user_link": "https://serverfault.com/users/1375/womble",
+          "reputation": 97585
+        },
+        {
+          "id": 1014014,
+          "score": 21,
+          "content": "&quot;You have 5 minutes of experience repeated hundreds of times&quot; --- ooooh, that&#39;s going straight into my quote collection! :D",
+          "date": "2016-08-31 18:56:18Z",
+          "user": "Tasos Papastylianou",
+          "user_link": "https://serverfault.com/users/373342/tasos-papastylianou",
+          "reputation": 101
+        }
+      ]
+    },
+    {
+      "id": 293308,
+      "rating": 190,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>No auditor should fail you if they find a historical problem that you've now fixed. In fact, that's evidence of good behaviour. With that in mind, I suggest two things:</p><p>a) Do not lie or make stuff up.b) Read your policies.</p><p>The key statement for me is this one:</p><blockquote>  <p>All [generic credit card processing provider] clients are required to conform with our new security policies</p></blockquote><p>I bet that there's a statement in those policies saying passwords cannot be written down and cannot be passed to anyone other than the user. If there is, then apply those policies to his requests. I suggest handling it like this:</p><blockquote>  <ul>  <li>A list of current usernames and plain-text passwords for all user accounts on all servers</li>  </ul></blockquote><p>Show him a list of usernames, but do not allow them to be taken away. Explain that giving plain text passwords is a) impossible as it's one-way, and b) against policy, which he is auditing you against, so therefore you won't obey.</p><blockquote>  <ul>  <li>A list of all password changes for the past six months, again in plain-text</li>  </ul></blockquote><p>Explain that this was not historically available. Give him a list of recent password change times to show that this is now being done. Explain, as above, that passwords will not be provided.</p><blockquote>  <ul>  <li>A list of \"every file added to the server from remote devices\" in the past six months</li>  </ul></blockquote><p>Explain what is and is not being logged. Provide what you can. Do not provide anything confidential, and explain by policy why not. Ask if your logging needs to be improved.</p><blockquote>  <ul>  <li>The public and private keys of any SSH keys</li>  </ul></blockquote><p>Look at your key management policy. It should state that private keys are not allowed out of their container and have strict conditions of access. Apply that policy, and do not allow access. Public keys are happily public and can be shared.</p><blockquote>  <ul>  <li>An email sent to him every time a user changes their password, containing the plain text password</li>  </ul></blockquote><p>Just say no. If you have a local secure log server, allow him to see that this is being logged in situ.</p><p>Basically, and I'm sorry to say this, but you have to play hardball with this guy. Follow your policy exactly, do not deviate. Do not lie. And if he fails you for anything that is not in policy, complain to his seniors at the company who sent him. Collect a paper trail of all this to prove that you have been reasonable. If you break your policy you are at his mercy. If you follow them to the letter, he will end up being sacked.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 10:15:49Z' class='relativetime'>Jul 23, 2011 at 10:15</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/Jimmy",
+        "reputation": 0,
+        "gbadge": 1,
+        "sbadge": 10,
+        "bbadge": 2
+      },
+      "comments": [
+        {
+          "id": 277213,
+          "score": 30,
+          "content": "Agreed, this is like one of those crazy reality shows, where a car service guy drives your car off a cliff or something equally unbelievable. I would say to the OP, prepare your resum&#233; and leave, if the actions above don&#39;t work out for you. This is clearly a ridiculous and terrible situation.",
+          "date": "2011-07-23 10:30:13Z",
+          "user": "Jonathan Watmough",
+          "user_link": "https://serverfault.com/users/88549/jonathan-watmough",
+          "reputation": 101
+        },
+        {
+          "id": 277584,
+          "score": 7,
+          "content": "Wish I could up-vote this +1,000,000.  While most of the answers here pretty much say the same thing, this one is much more thorough.  Great work, @Jimmy!",
+          "date": "2011-07-24 19:42:12Z",
+          "user": "Iszi",
+          "user_link": "https://serverfault.com/users/54923/iszi",
+          "reputation": 2546
+        }
+      ]
+    },
+    {
+      "id": 293222,
+      "rating": 149,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Yes, the auditor <em>is</em> an idiot. However, as you know, sometimes idiots are placed in positions of power. This is one of those cases.</p><p>The information he requested has <em>zero</em> bearing on the current security of the system. Explain to the auditor that you're using LDAP for authentication and that the passwords are stored using a one-way hash. Short of doing a brute-force script against the password hashes (which could take weeks (or years), you will not be able to provide the passwords.</p><p>Likewise the remote files - I'd like to hear, perchance, how he thinks you ought to be able differentiate between files created directly on the server and a file that is SCPed to the server.</p><p>As @womble said, don't fake anything. That will do no good. Either ditch this audit and fine another broker, or find a way to convince this \"professional\" that his cheese has slid off of his cracker.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-22 23:05:16Z' class='relativetime'>Jul 22, 2011 at 23:05</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/EEAA",
+        "reputation": 0,
+        "gbadge": 18,
+        "sbadge": 178,
+        "bbadge": 246
+      },
+      "comments": [
+        {
+          "id": 277340,
+          "score": 68,
+          "content": "+1 for &quot;...that his cheese has slid off of his cracker.&quot; That&#39;s a new one to me!",
+          "date": "2011-07-23 21:36:00Z",
+          "user": "Collin Allen",
+          "user_link": "https://serverfault.com/users/10175/collin-allen",
+          "reputation": 594
+        },
+        {
+          "id": 278690,
+          "score": 3,
+          "content": "&quot;The information he requested has zero bearing on the current security of the system.&quot; &lt;- I&#39;d actually say it has lots of bearing on the security.  :P",
+          "date": "2011-07-27 03:39:31Z",
+          "user": "Ishpeck",
+          "user_link": "https://serverfault.com/users/67563/ishpeck",
+          "reputation": 224
+        },
+        {
+          "id": 279828,
+          "score": 2,
+          "content": "<code>(which could take weeks (or years)</code> I forget where, but I found this app online that would estimate how long it&#39;d take to brute-force your password. I don&#39;t know what the brute-force or hashing algorithms it assumed were, but it estimated something like 17 trillion years for most of my passwords... :)",
+          "date": "2011-07-29 05:11:24Z",
+          "user": "Carson Myers",
+          "user_link": "https://serverfault.com/users/13518/carson-myers",
+          "reputation": 158
+        },
+        {
+          "id": 279832,
+          "score": 69,
+          "content": "@Carson: the online app I found to estimate password strength had a different (and possibly more accurate) approach:  for every password, it returned &quot;Your password is insecure - you just typed it into an untrusted web page!&quot;",
+          "date": "2011-07-29 05:49:13Z",
+          "user": "Jason Owen",
+          "user_link": "https://serverfault.com/users/2932/jason-owen",
+          "reputation": 473
+        },
+        {
+          "id": 279834,
+          "score": 3,
+          "content": "@Jason oh no, you&#39;re right!",
+          "date": "2011-07-29 06:03:54Z",
+          "user": "Carson Myers",
+          "user_link": "https://serverfault.com/users/13518/carson-myers",
+          "reputation": 158
+        }
+      ]
+    },
+    {
+      "id": 293224,
+      "rating": 92,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Have your \"security auditor\" point to any text from any of <a href=\"https://www.pcisecuritystandards.org/security_standards/documents.php\">these documents</a> that have his requirements and watch as he struggles to come up with an excuse and eventually excuses himself to never be heard from again.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-22 23:15:45Z' class='relativetime'>Jul 22, 2011 at 23:15</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/ablackhat",
+        "reputation": 0,
+        "gbadge": 2,
+        "sbadge": 14,
+        "bbadge": 19
+      },
+      "comments": [
+        {
+          "id": 278928,
+          "score": 12,
+          "content": "Agree. Why? is a valid question is a circumstance like this. The auditor should be able to provide documentation of the business/operational case for his requests.  You can say to him &quot;Put yourself in my position.  This is the sort of request I would expect of someone attempting to set up an intrusion.&quot;.",
+          "date": "2011-07-27 13:46:11Z",
+          "user": "jl.",
+          "user_link": "https://serverfault.com/users/16208/jl",
+          "reputation": 1076
+        }
+      ]
+    },
+    {
+      "id": 293237,
+      "rating": 80,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>WTF!Sorry but that's my only reaction to this.  There are no audit requirements I have ever heard of that require a plaintext password, let alone feeding them the passwords as they change.</p><p>1st, ask him to show you the requirement that you provide that.</p><p>2nd, if this is for PCI (which we all assume since it's a payment system question) go here: <a href=\"https://www.pcisecuritystandards.org/approved_companies_providers/qsa_companies.php\">https://www.pcisecuritystandards.org/approved_companies_providers/qsa_companies.php</a> and get a new auditor.</p><p>3rd, follow what they said above, contact your management and have them contact the QSA company he is working with.  Then immediately get another auditor.</p><p>Auditors audit system states, standards, processes, etc.  They have no need to have any information that provides them access to systems.</p><p>If you would like any recommended auditors or alternate colo's that work closely with auditors contact me and I'd be happy to provide references.</p><p>Good luck! Trust your gut, if something seems wrong it probably is.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-22 23:55:38Z' class='relativetime'>Jul 22, 2011 at 23:55</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/dmz006",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 5,
+        "bbadge": 2
+      },
+      "comments": []
+    },
+    {
+      "id": 293269,
+      "rating": 73,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>There is no legitimate reason for him to know the password and have access to the private keys. What he requested would give him the ability to impersonate any of your clients at any point in time and siphon as much money as he wants, without any way to detect it as a possible fraudulent transaction. It'll be exactly the type of security threats he's supposed to audit you for.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 04:05:13Z' class='relativetime'>Jul 23, 2011 at 4:05</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/Franci Penov",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 7,
+        "bbadge": 7
+      },
+      "comments": [
+        {
+          "id": 279880,
+          "score": 2,
+          "content": "Come on, surely this is the point of the audit, social engineering??? 21 up-votes for this?!?",
+          "date": "2011-07-29 08:10:00Z",
+          "user": "ozz",
+          "user_link": "https://serverfault.com/users/89655/ozz",
+          "reputation": 101
+        },
+        {
+          "id": 280309,
+          "score": 20,
+          "content": "An audit consist of an official inspection of the security procedures and whether they are according to the established rules. It would be like the fire inspector coming to verify that you have all the necessary fire extinguishers, and the doors and windows or your restaurant can be opened according to the fire code. You wouldn&#39;t expect the fire inspector to try putting the restaurant on fire, would you?",
+          "date": "2011-07-30 03:20:30Z",
+          "user": "Franci Penov",
+          "user_link": "https://serverfault.com/users/57267/franci-penov",
+          "reputation": 1148
+        },
+        {
+          "id": 378574,
+          "score": 10,
+          "content": "This sounds more like setting up incendiary devices around the restaurant and giving the auditor remote triggers to them and promising to keep them up to date.",
+          "date": "2012-03-20 13:50:25Z",
+          "user": "XTL",
+          "user_link": "https://serverfault.com/users/72219/xtl",
+          "reputation": 101
+        }
+      ]
+    },
+    {
+      "id": 293341,
+      "rating": 68,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Notify management that the Auditor has requested that you breech your security policies, and that the request is illegal.  Suggest that they may want to dump the present auditing firm and find a legitimate one.  Call the police and turn the auditor in for requesting illegal information (in the UK). Then call the PCI and turn in the Auditor for their request.</p><p>The request is akin to asking you do go murder someone at random and hand over the body.  Would you do that?  or would you call the cops and turn them in?</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 13:35:29Z' class='relativetime'>Jul 23, 2011 at 13:35</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/oii",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 4,
+        "bbadge": 2
+      },
+      "comments": [
+        {
+          "id": 277260,
+          "score": 8,
+          "content": "Why not just say you can&#39;t provide the information because it violates you security policy. Get your tick in the box and pass the audit ?",
+          "date": "2011-07-23 13:49:49Z",
+          "user": "user9517",
+          "user_link": "https://serverfault.com/users/9517/user9517",
+          "reputation": 116596
+        },
+        {
+          "id": 279047,
+          "score": 10,
+          "content": "Although the murder analogy might be a bit too far, you are correct that this &quot;auditor&quot; is breaking the law, and should be reported to your boss, the police and PCI",
+          "date": "2011-07-27 16:48:21Z",
+          "user": "Amandasaurus",
+          "user_link": "https://serverfault.com/users/8950/amandasaurus",
+          "reputation": 32781
+        }
+      ]
+    },
+    {
+      "id": 293309,
+      "rating": 66,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Respond with a <strong>lawsuit</strong>. If an auditor is asking for plain-text passwords (come on now, it's not that hard to bruteforce or crack weak password hashes), they probably lied to you about their credentials.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 10:25:10Z' class='relativetime'>Jul 23, 2011 at 10:25</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/postmodern",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 4,
+        "bbadge": 2
+      },
+      "comments": [
+        {
+          "id": 278773,
+          "score": 10,
+          "content": "I would also see it as malpractice, depending on the locale there are probably laws around this too.",
+          "date": "2011-07-27 08:23:09Z",
+          "user": "AviD",
+          "user_link": "https://serverfault.com/users/41401/avid",
+          "reputation": 159
+        }
+      ]
+    },
+    {
+      "id": 293395,
+      "rating": 61,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Just a tip with regards to how you word your response:</p><blockquote>  <p>Unfortunately there is no way for us to provide you with some of the  information requested, mainly plain-text passwords, password history,  SSH keys and remote file logs. <strong>Not only are these things technically  impossible</strong>...</p></blockquote><p>I would rephrase this to avoid getting into a discussion about technical feasibility. Reading the awful initial e-mail sent by the auditor, it looks like this is someone who can pick on details that are not related to the main problem, and he might argue that you <em>could</em> save passwords, log logins, etc. So either say:</p><blockquote>  <p>... Due to our strict security policies, we have never logged  passwords in plain text. Therefore, it will be technically impossible  to provide this data.</p></blockquote><p>Or</p><blockquote>  <p>... Not only would we be significantly lowering our internal security  level by complying to your request, ...</p></blockquote><p>Good luck, and keep us posted how this ends! </p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "community wiki",
+        "link": "https://serverfault.com/posts/293395/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2011-07-23 19:19:21Z",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": []
+    },
+    {
+      "id": 293244,
+      "rating": 42,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>At the risk of  continuing the rush of high-rep users jumping in on this question, here are my thoughts.</p><p>I can kind of vaguely see why he wants the plaintext passwords, and that's to judge the quality of the passwords in use. It's a crap way to go about that, most auditors I know will accept the crypted hashes and run a cracker to see what kind of low-hanging fruit they can pull out. All of 'em will go over the password-complexity policy and review what safeguards are in place to enforce that.</p><p>But you have to deliver some passwords. I suggest (though I think you may have already done this) asking him what the goal of the plaintext password delivery is. He said it is to validate your compliance versus security policy, so get him to give you that policy. Ask him if he'll accept that your password complexity regime is robust enough to prevent users from setting their password to <code>P@55w0rd</code> and have provably been in place for the 6 months in question. </p><p>If he pushes it, you may have to admit that you can't deliver plaintext passwords since you're not set up to record them (what with it being a major security failing), but can endeavor to so in the future if he requires direct verification that your password policies are working. And if he wants to prove it, you'll happily provide the crypted password database for him (or you! Show willing! It helps!) to run a cracking pass over.</p><p>The \"remote files\" can likely be pulled out of the SSH logs for SFTP sessions, which is what I suspect he's talking about. If you don't have 6 months worth of syslogging, this'll be hard to produce. Is using wget to pull a file from a remote server while logged in via SSH considered a 'remote file transfer'? Are HTTP PUTs? Files created from clipboard text in the remote-user's terminal window? If anything, you can pester him with these edge-cases to get a better feel for his concerns in this area and perhaps instil the \"I know more about this than you do\" feeling, as well as what specific technologies he's thinking about. Then extract what you can out of logs and archived logs on backups.</p><p>I got nothing on the SSH keys. The only thing I can think of is that he's checking for passwordless keys for some reason, and <em>maybe</em> crypto strength. Otherwise, I got nothing.</p><p>As for getting those keys, harvesting at least the public keys is easy enough; just troll the .ssh folders looking for them. Getting the private keys will involve donning your BOFH hat and harumping at your users to the tune of, \"Send me your public and private SSH key-pairs. Anything I don't get will be purged from the servers in 13 days,\" and if anyone squawks (I would) point 'em at the security audit. Scripting is your friend here. At minimum it'll cause a bunch of password-less keypairs to get passwords.</p><p>If he still insists on \"plain-text passwords in email\" at least subject those emails to GPG/PGP encryption with his own key. Any security auditor worth his salt should be able to handle something like that. That way if the passwords leak, it'll be because he let 'em out, not you. Yet another litmus test for competence.</p><hr><p>I have to agree with both Zypher and Womble on this one. Dangerous idiot with dangerous consequences.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 00:41:54Z' class='relativetime'>Jul 23, 2011 at 0:41</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/sysadmin1138",
+        "reputation": 0,
+        "gbadge": 19,
+        "sbadge": 181,
+        "bbadge": 303
+      },
+      "comments": [
+        {
+          "id": 277254,
+          "score": 1,
+          "content": "No evidence of idiocy. No evidence that the OP has <i>formally</i> said no I cannot provide this information. Surely if you can provide this information you will fail the audit.",
+          "date": "2011-07-23 13:04:17Z",
+          "user": "user9517",
+          "user_link": "https://serverfault.com/users/9517/user9517",
+          "reputation": 116596
+        },
+        {
+          "id": 277256,
+          "score": 2,
+          "content": "@Iain Which is why socially engineering the security auditor to extract what he&#39;s really after is so important at this juncture.",
+          "date": "2011-07-23 13:28:14Z",
+          "user": "sysadmin1138",
+          "user_link": "https://serverfault.com/users/3038/sysadmin1138",
+          "reputation": 134919
+        },
+        {
+          "id": 277350,
+          "score": 13,
+          "content": "I disagree with giving anything to this clearly unsecure individual.",
+          "date": "2011-07-23 23:17:52Z",
+          "user": "Kzqai",
+          "user_link": "https://serverfault.com/users/17925/kzqai",
+          "reputation": 1298
+        },
+        {
+          "id": 277459,
+          "score": 0,
+          "content": "@Tchalvak: no evidence of &#39;unsecure&#39; or &#39;idiot&#39;.",
+          "date": "2011-07-24 09:19:41Z",
+          "user": "user9517",
+          "user_link": "https://serverfault.com/users/9517/user9517",
+          "reputation": 116596
+        },
+        {
+          "id": 285152,
+          "score": 2,
+          "content": "Not a high rep user, but my personal feeling for your answer is: give my password to a third party and I&#39;ll see if I can&#39;t sue.  As someone in the IT field, I&#39;d agree with the high rep users you mention and say that you aren&#39;t supposed to store a password.  The user is trusting your system, giving their password to a third party is a violation of that trust more extreme than giving all of their information to someone.  As a professional I would never do that.",
+          "date": "2011-08-10 03:15:36Z",
+          "user": "jmoreno",
+          "user_link": "https://serverfault.com/users/29613/jmoreno",
+          "reputation": 109
+        }
+      ]
+    },
+    {
+      "id": 293290,
+      "rating": 38,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>He is probably testing you to see if you are a security risk.If you provide these details to him then you will probably be instantly dismissed.Take this to your immediate boss and pass the buck. Let your boss know that you will involve the relevant authorities if this arse comes anywhere near you again.</p><p>That's what bosses are paid for.</p><p>I have a vision of a piece of paper left in the back of a taxi cab that has a list of passwords, SSH keys and user names on it! Hhhmmm! Can see the newspaper headlines right now!</p><p><strong>Update</strong></p><p>In response to the 2 comments below I guess you both have good points to make. There is no way of really finding out the truth and the fact the question was posted at all shows a little naiveté on the part of the poster as well as courage to face an adverse situation with potential career consequences where others would stick their head in the sand and run away.</p><p>My conclusion for what it's worth is that this is a thoroughly interesting debate that has probably got most readers wondering what they would do in this situation regardless of whether or not the auditor or the auditors policies are competent. Most people will face this kind of dilemma in some shape or form in their working lives and this really isn't the kind of responsibility that should be shoved onto one single persons shoulders. It's a business decision rather than an individuals decision as to how to deal with this.</p>",
+      "edited": "2011-08-03 16:14:07Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/posts/293290/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": [
+        {
+          "id": 279878,
+          "score": 1,
+          "content": "I&#39;m surprised this hasn&#39;t got higher votes. I just don&#39;t believe the auditor is &quot;stupid&quot;. As others have said in comments, but not many as answers, this reeks of social engineering. And when the first thing the OP does is post on here and suggest he may fake the data, and then sends the link to the auditor, the guy must be laughing his ass off, and continuing to ask based on this. SURELY?!?!",
+          "date": "2011-07-29 08:08:32Z",
+          "user": "ozz",
+          "user_link": "https://serverfault.com/users/89655/ozz",
+          "reputation": 101
+        },
+        {
+          "id": 281987,
+          "score": 3,
+          "content": "Given that he&#39;s lost his company the OPs business as a result, it doesn&#39;t seem like a very good audit technique if that was the case. At least I&#39;d have expected him to &#39;come clean&#39; when it became obvious they were losing the business, and explain that it was part of the audit approach in use, rather than continuing to insist on it.  I can understand if you bring in &#39;ethical hackers&#39; you might expect a &#39;social engineering&#39; approach such as this to be taken, but not for an audit (which is aimed at checking that all appropriate checks and procedures are in place)",
+          "date": "2011-08-03 15:18:35Z",
+          "user": "Kris C",
+          "user_link": "https://serverfault.com/users/64260/kris-c",
+          "reputation": 145
+        },
+        {
+          "id": 282114,
+          "score": 2,
+          "content": "Given the further emails from the auditor, I no longer think this is true.  <code>the responders all need to get their facts right. I have been in this industry longer than anyone on that site</code> – priceless",
+          "date": "2011-08-03 19:00:18Z",
+          "user": "SLaks",
+          "user_link": "https://serverfault.com/users/11896/slaks",
+          "reputation": 483
+        },
+        {
+          "id": 1334275,
+          "score": 0,
+          "content": "Exactly, I&#39;m glad someone mentioned it. Escalation to your manager/boss is first instance and mark the auditor behavior as suspicious and suggest the escalation to authorities is first step. I just can&#39;t believe this wasn&#39;t first answer. If the boss and boss of the boss wouldn&#39;t care, I&#39;d just cc or bcc the authorities and the boss of the auditor&#39;s company.",
+          "date": "2020-07-24 17:28:05Z",
+          "user": "Geeky Masters",
+          "user_link": "https://serverfault.com/users/584306/geeky-masters",
+          "reputation": 727
+        }
+      ]
+    },
+    {
+      "id": 294380,
+      "rating": 32,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Clearly there is a lot of good info here, but allow me to add my 2c, as someone who writes software which is sold worldwide by my employer to large enterprises primarily to assist people in complying with account management security policies and passing audits; for what that is worth.</p><p>First, this sounds very suspicious, as you (and others) have noted. Either the auditor is just following a procedure he doesn't understand (possible), or testing you for vulnerability so social engineering (unlikely after followup exchanges), or a fraud social engineering you (also possible), or just a generic idiot (probably most likely). As far as advice, I'd offer that you should speak to your management, and/or find a new auditing company, and/or report this one to the appropriate oversight agency.</p><p>As for notes, a couple things:</p><ul><li>It is <em>possible</em> (under specific conditions) to provide the information he requested, if your system is set up to allow it. It is not, however, in any sense a \"best practice\" for security, nor would it be at all common.</li><li>Generally, audits are concerned with validating practices, not examining actual secure information. I'd be highly suspicious of anyone asking for actual plain-text passwords or certificates, rather than the methods used to ensure they are \"good\" and secured properly.</li></ul><p>Hope that helps, even if it's mostly reiterating what other people have advised. Like you, I'm not going to name my company, in my case because I'm not speaking for them (personal account/opinions and all); apologies if that detracts from credibility, but so be it. Good luck.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-26 22:44:26Z' class='relativetime'>Jul 26, 2011 at 22:44</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/Nick",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 3,
+        "bbadge": 3
+      },
+      "comments": []
+    },
+    {
+      "id": 298799,
+      "rating": 28,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>This could and should be posted to the <a href=\"https://security.stackexchange.com/\">IT Security - Stack Exchange</a>.</p><p>I'm not an expert in security auditing, but the first thing I've learned about security policy is <code>\"NEVER GIVE PASSWORDS AWAY\"</code>. This guy maybe has been in this business for 10 years, but like Womble said <code>\"no, you have 5 minutes of experience repeated hundreds of times\"</code></p><p>I've been working with banking IT people for some time, and when I saw you post, I showed it to them... They were laughing so hard.  They told me that guy looks like a scam. They used to deal with this kind of thing for the security of the bank customer.</p><p>Asking for clear password, SSH keys, password logs, is clearly a serious professional misconduct. This guy is dangerous. </p><p>I hope everything is alright now, and that you don't have any problem with the fact they can have kept log of your previous transaction with them.</p>",
+      "edited": "2018-08-17 15:34:33Z",
+      "editor": {
+        "avatar": "https://i.sstatic.net/JfeF9.png?s=64",
+        "name": "wythagoras",
+        "link": "https://serverfault.com/users/348040/wythagoras",
+        "reputation": 111,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 5
+      },
+      "date": "2011-08-08 11:08:26Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/0a87abfe0837310cf4fc9f15201d8bac?s=64&d=identicon&r=PG",
+        "name": "Anarko_Bizounours",
+        "link": "https://serverfault.com/users/84063/anarko-bizounours",
+        "reputation": 976,
+        "gbadge": 0,
+        "sbadge": 8,
+        "bbadge": 20
+      },
+      "comments": []
+    },
+    {
+      "id": 293297,
+      "rating": 21,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>If you can provide any of the information (with the possible exception of the public keys) requested in points 1,2,4, and 5 you should expect to fail the audit.</p><p>Formally respond to points 1,2 and 5 saying you cannot comply as your security policy requires that you do not keep plain text passwords and that passwords are encrypted using a non reversible algorithm. To point 4, again, you cannot supply the private keys as it would violate your security policy. </p><p>As to point 3. If you have the data provide it. If you don't because you didn't have to collect it then say so and demonstrate how you are now (working towards) meeting the new requirement. </p>",
+      "edited": "2011-07-23 11:51:42Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2011-07-23 08:27:56Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/a13831ff98dcefa7ccd15f24e219e23d?s=64&d=identicon&r=PG&f=y&so-version=2",
+        "name": "user9517",
+        "link": "https://serverfault.com/users/9517/user9517",
+        "reputation": 116596,
+        "gbadge": 20,
+        "sbadge": 222,
+        "bbadge": 304
+      },
+      "comments": []
+    },
+    {
+      "id": 294975,
+      "rating": 19,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>As oli said: the person in question is trying to get you to break the law (Data Protection/EU confidentiality directives)/internal regulations/PCI standards.Not only should you have to notify management (as you already did I think), but you can call the police as suggested.</p><p>If the person in question holds some kind of accreditation/certification, e.g. CISA (Certified Information Systems Auditor), or the UK equivalent of US CPA (a public accountant designation), you could also inform the accrediting organisations to investigate him for this. Not only is that person trying to get you to break the law, it's also extremely incompetent \"auditing\" and probably in contravention of every ethical audit standard by which accredited auditors must abide on pain of loss of accreditation.</p><p>Additionally, if the person in question is member of a larger company, forementioned auditing organisations often require some kind of QA department that oversees quality of audits and audit filing and investigates complaints. So you may also have a go at complaining to the audit company in question.</p>",
+      "edited": "2011-07-28 12:34:03Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2011-07-28 11:34:07Z",
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/29690e3cd2a9d623313f8fb5d668d7b0?s=64&d=identicon&r=PG",
+        "name": "reiniero",
+        "link": "https://serverfault.com/users/74677/reiniero",
+        "reputation": 374,
+        "gbadge": 0,
+        "sbadge": 1,
+        "bbadge": 7
+      },
+      "comments": []
+    },
+    {
+      "id": 293303,
+      "rating": 18,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p><em>A security auditor for our servers has demanded the following <strong>within two weeks</strong>:</em></p><p><em>...</em></p><p><em>If we fail the security audit we loose access to our card processing platform (a critical part of our system) and <strong>it would take a good two weeks to move somewhere else</strong>. How screwed am I?</em></p><p>It appears as though you have answered your own question.  (See bolded text for hints.)</p><p>Only one solution comes to mind: get everyone to write down their last and current password and then immediately change it to a new one.  If he's wanting to test password quality (and the quality of transitions from password to password, e.g. to make sure nobody uses <em>rfvujn125</em> and then <em>rfvujn126</em> as their next password,) that list of old passwords should be sufficient.</p><p>If that is not deemed acceptable, then I'd suspect the guy is a member of Anonymous/LulzSec... at which point you should ask him what his handle is and tell him to quit being such a scrub!</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 09:09:56Z' class='relativetime'>Jul 23, 2011 at 9:09</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/Michael",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 1,
+        "bbadge": 2
+      },
+      "comments": [
+        {
+          "id": 277377,
+          "score": 22,
+          "content": "People shouldn&#39;t be asked to provide their own passwords to anyone.",
+          "date": "2011-07-24 02:45:17Z",
+          "user": "Chris Farmer",
+          "user_link": "https://serverfault.com/users/2409/chris-farmer",
+          "reputation": 194
+        },
+        {
+          "id": 278037,
+          "score": 0,
+          "content": "Develop good password change functions, rather than record users current passwords and force a change.  E.g., on the password change screen the user types inputs both old_pass &amp; new_pass.  Develop a series of automated checks; e.g., that no more than two characters in old_pass are in new_pass in the same location; or that in any order there no more than 4 characters are reused in any location.  Furthermore, check that new_pass wouldn&#39;t work as any of the old pw.  Yes, one  could get away a series of unsecured passwords like rfvujn125 / jgwoei125 / rfvujn126, but that should be acceptable.",
+          "date": "2011-07-25 17:24:27Z",
+          "user": "dr jimbob",
+          "user_link": "https://serverfault.com/users/81303/dr-jimbob",
+          "reputation": 409
+        }
+      ]
+    },
+    {
+      "id": 293574,
+      "rating": 18,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>I'm still studying and the first thing I learned when setting up servers is that if you make it possible to log plaintext passwords, you already endanger yourself for a giant breach. No password should be known except to the user that employs it.</p><p>If this guy is a serious auditor he shouldn't be asking you these things. To me he kind of sounds like a <a href=\"http://en.wiktionary.org/wiki/misfeasance\">misfeasor</a>. I'd check with the regulating organ because this guy sounds like a complete idiot.</p><p><strong>Update</strong></p><p>Hold on, he believes you should use a symmetric encryption just to transmit the password, but then store them plaintext in your database, or provide a way to decrypt them. So basically, after all the anonymous attacks on databases, where they showed plain text user passwords, he STILL believes this is a good way of \"securing\" an environment.</p><p>He is a dinosaur stuck in the 1960s...</p>",
+      "edited": "2011-07-31 22:26:03Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/posts/293574/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": [
+        {
+          "id": 278917,
+          "score": 10,
+          "content": "&quot;He is a dinosaur stuck in the 90&#39;s&quot; - I&#39;d guess in the 70&#39;s, actually. 1870&#39;s to be precise. God bless Auguste Kerckhoffs. :)",
+          "date": "2011-07-27 13:10:05Z",
+          "user": "Martin Sojka",
+          "user_link": "https://serverfault.com/users/89156/martin-sojka",
+          "reputation": 101
+        },
+        {
+          "id": 279049,
+          "score": 5,
+          "content": "90s? I believe unix used hashed &amp; salted passwords in the 1970s...",
+          "date": "2011-07-27 16:50:39Z",
+          "user": "Amandasaurus",
+          "user_link": "https://serverfault.com/users/8950/amandasaurus",
+          "reputation": 32781
+        },
+        {
+          "id": 282486,
+          "score": 7,
+          "content": "I love the fact Lucas changed it to 1960s now :)",
+          "date": "2011-08-04 11:11:39Z",
+          "user": "rickyduck",
+          "user_link": "https://serverfault.com/users/90091/rickyduck",
+          "reputation": 139
+        },
+        {
+          "id": 378577,
+          "score": 1,
+          "content": "Did any computer (excepting BASIC tutorials for home micro) system ever have serious passwords and store them in plaintext?",
+          "date": "2012-03-20 13:54:09Z",
+          "user": "XTL",
+          "user_link": "https://serverfault.com/users/72219/xtl",
+          "reputation": 101
+        },
+        {
+          "id": 378583,
+          "score": 0,
+          "content": "maybe a very long time ago... can&#39;t point you to any tutorials. But this site is not really suited for home systems, I suggest you have a look at superuser.com. Why on earth would you store credit card details/passwords plain text anyway? Only poorly designed systems do.",
+          "date": "2012-03-20 13:59:07Z",
+          "user": "Lucas Kauffman",
+          "user_link": "https://serverfault.com/users/86280/lucas-kauffman",
+          "reputation": 16930
+        },
+        {
+          "id": 1015614,
+          "score": 0,
+          "content": "Well, it would explain why he has been <i>in this industry longer than anyone on [this] site</i> ;) ... with more than fifty years of &quot;experience&quot;.",
+          "date": "2016-09-06 11:02:25Z",
+          "user": "0xC0000022L",
+          "user_link": "https://serverfault.com/users/71790/0xc0000022l",
+          "reputation": 1566
+        },
+        {
+          "id": 1194733,
+          "score": 0,
+          "content": "system ever have serious passwords and store them in plaintext? yes: see <a href=\"https://serverfault.com/questions/116281/in-linux-debian-did-the-passwords-etc-passwd-ever-been-stored-as-plain-text\" title=\"in linux debian did the passwords etc passwd ever been stored as plain text\">serverfault.com/questions/116281/&hellip;</a> looks like around 1979 Unix did store the passwords in plain text, though according to the link in the mentioned questions it seems to have been at least hashed on linux all the time.",
+          "date": "2018-07-19 11:00:27Z",
+          "user": "Dennis Nolte",
+          "user_link": "https://serverfault.com/users/157970/dennis-nolte",
+          "reputation": 2908
+        }
+      ]
+    },
+    {
+      "id": 293867,
+      "rating": 14,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<ul><li>A list of current usernames and plain-text passwords for all user accounts on all servers<ul><li>Current usernames MAY be within scope of \"we can release this\" and should be within scope of \"we can show you this, but you may not take it off-site\".</li><li>Plain-text passwords should not exist for longer than it takes to one-way hash them and they should certainly never leave memory (not even to go across wires), so their existence in permanent storage is a no-no.</li></ul></li><li>A list of all password changes for the past six months, again in plain-text<ul><li>See \"permanent storage is a no-no\".</li></ul></li><li>A list of \"every file added to the server from remote devices\" in the past six months<ul><li>This may be to ensure that you log file transfers to/from payment-processing server(s), if you have the logs it should be OK to pass on. If you don't have teh logs, check what the relevant security policies say about logging that info.</li></ul></li><li>The public and private keys of any SSH keys<ul><li>Maybe an attempt to check that 'SSH keys must have a pass-phrase' is in the policy and followed. You do want pass-phrases on all private keys.</li></ul></li><li>An email sent to him every time a user changes their password, containing the plain text password<ul><li>This is most definitely a no-no.</li></ul></li></ul><p>I'd respond with something along the lines of my answers, backed up by PCI-compliance, SOX_compliance and internal security policy documents as needed.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "community wiki",
+        "link": "https://serverfault.com/posts/293867/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2011-07-25 14:55:51Z",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": []
+    },
+    {
+      "id": 293359,
+      "rating": 12,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>This guys request reeks to high heaven, and I'd agree that any correspondence from here on out should be going through the CTO. Either he's trying to make you the fall guy for not being able to meet said request, for releasing confidential information, or is grossly incompetent. Hopefully your CTO/manager will do a double take on this guys request and positive action will be done, and if they're gung ho behind this guy's actions....well, good sys admins are always in demand on the classifieds, as ti sounds like it's time to start looking for some place out if that happens.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-23 15:03:59Z' class='relativetime'>Jul 23, 2011 at 15:03</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/canadiancreed",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 1,
+        "bbadge": 11
+      },
+      "comments": []
+    },
+    {
+      "id": 294780,
+      "rating": 11,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>I would tell him that it takes time, effort and money to build the cracking infrastructure for the passwords, but because you use strong hashing like SHA256 or whatever, it might not be possible to provide the passwords within 2 weeks. On the top of that, I would tell that I contacted legal department to confirm if it is lawful to share this data with anybody. PCI DSS also a good idea to mention as you did. :)</p><p>My colleagues are shocked by reading this post.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-27 20:53:05Z' class='relativetime'>Jul 27, 2011 at 20:53</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/Istvan",
+        "reputation": 0,
+        "gbadge": 3,
+        "sbadge": 23,
+        "bbadge": 29
+      },
+      "comments": []
+    },
+    {
+      "id": 801974,
+      "rating": 11,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>I would be strongly tempted to give him a list of username/passwords/private keys for honeypot accounts then if he ever tests the logins for these accounts do him for unauthorised access to a computer system. Though, unfortunately this probably exposes you to at a minimum some kind of civil tort for making a fraudulent representation.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2016-09-08 21:48:45Z' class='relativetime'>Sep 8, 2016 at 21:48</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/benmmurphy",
+        "reputation": 0,
+        "gbadge": 1,
+        "sbadge": 8,
+        "bbadge": 8
+      },
+      "comments": []
+    },
+    {
+      "id": 293312,
+      "rating": 10,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Simply decline revealing the information, stating that you can not pass on the passwords as you do not have access to them. Being an auditor myself, he must be representing some institution. Such institutions generally publish guidelines for such an audit. See if such a request conforms to those guidelines. You can even complain to such associations. Also make it clear to the auditor that in case of any wrongdoings the blame may come back to him (the auditor) as he has all the passwords.</p>",
+      "edited": "2011-07-31 22:21:26Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/posts/293312/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": []
+    },
+    {
+      "id": 293541,
+      "rating": 9,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>I would say that there is no way for you to provide him with ANY of the information requested.</p><ul><li>Usernames provide him with an insight into the accounts that have access to your systems, a security risk</li><li>Password history would provide an insight into password patterns used giving him a possible avenue of attack by guessing the next password in the chain</li><li>Files transferred to the system may contain confidential information that could be used in an attack against your systems, as well as giving them an insight into your file system structure</li><li>Public and private keys, what the hell would be the point in having them if you were to give them out to someone other than the intended user?</li><li>An email sent every time a user changes a password would give him up to date passwords for every user account.</li></ul><p>This guy is pulling your plonker mate! You need to get in touch with either his manager or some other auditor in the company to confirm his outrageous demands. And move away ASAP.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2011-07-24 12:50:29Z' class='relativetime'>Jul 24, 2011 at 12:50</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/93196.93",
+        "reputation": 0,
+        "gbadge": 1,
+        "sbadge": 4,
+        "bbadge": 13
+      },
+      "comments": []
+    },
+    {
+      "id": 929981,
+      "rating": 3,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Problem solved by now, but for the benefit of future readers ...</p><p>Considering that:</p><ul><li><p>You seem to have spent more than an hour on this.</p></li><li><p>You've had to consult the company's legal counsel.</p></li><li><p>They're asking for a lot of work after altering your agreement.</p></li><li><p>You'll be out money and more time switching over.</p></li></ul><p>You should explain that you'll need a lot of money up front and there's a four hour minimum.</p><p>Last few times I told someone that they suddenly weren't so needy.</p><p>You can still bill them for any loss incurred during switchover and for the time taken, since they changed your agreement. I'm not saying that they'll pay within two weeks, much as they thought you would comply within that time - they'll be one-sided, I have no doubt. </p><p>It will rattle them if your lawyer's office sends the collection notice. It should attract the attention of the owner of the auditor's company.</p><p>I would advise against any further dealings with them, just to further discuss the matter will entail a deposit for the work required. Then you can be paid for telling them off. </p><p>It's odd that you have an agreement in effect and then someone at the other end would go off the rails - if it's not a test of security or intelligence it's certainly a test of your patience.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2018-09-07 23:01:44Z' class='relativetime'>Sep 7, 2018 at 23:01</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/Rob",
+        "reputation": 0,
+        "gbadge": 1,
+        "sbadge": 3,
+        "bbadge": 9
+      },
+      "comments": []
+    },
+    {
+      "id": 1080352,
+      "rating": 0,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Short Answer : The stuff tested was you. Would you provide such critical data upon the mindset that you can trust someone with authority.</p>\n<p>You could have laughed right upon the request.</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "<span title='2021-10-12 20:04:09Z' class='relativetime'>Oct 12, 2021 at 20:04</span>\n",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": "https://serverfault.com/questions/293217/jmary",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 5
+      },
+      "comments": []
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://skeptics.stackexchange.com/users/56721/pinegulf",
+  "id": 56721,
+  "avatar": "https://www.gravatar.com/avatar/711cfc0bb87dee45a7a000c00eec67b1?s=256&d=identicon&r=PG&f=y&so-version=2",
+  "user": "pinegulf",
+  "unregistered": false,
+  "created": "2020-07-28 07:25:11Z",
+  "lastseen": "this week",
+  "location": "Finland",
+  "social": [
+    "https://twitter.com/Pinegulf",
+    "https://github.com/Pinegulf"
+  ],
+  "meta-profile": "https://skeptics.meta.stackexchange.com/users/56721/pinegulf",
+  "network-profile": "https://stackexchange.com/users/8523095/pinegulf",
+  "reputation": 7753,
+  "reached": 267000,
+  "answers": 12,
+  "questions": 32,
+  "communities-all": "https://stackexchange.com/users/8523095/pinegulf?tab=accounts",
+  "communities": [
+    {
+      "profile": "https://skeptics.stackexchange.com/users/56721/",
+      "reputation": 7800
+    },
+    {
+      "profile": "https://stackoverflow.com/users/6389268/",
+      "reputation": 1400
+    },
+    {
+      "profile": "https://worldbuilding.stackexchange.com/users/76037/",
+      "reputation": 446
+    },
+    {
+      "profile": "https://superuser.com/users/870939/",
+      "reputation": 101
+    },
+    {
+      "profile": "https://codereview.stackexchange.com/users/231752/",
+      "reputation": 101
+    }
+  ],
+  "about": "<p>Wanted to do Data analysis. Learned R, small scripts and python. Found heaps of legacy code.</p><p>Woe is me.</p>",
+  "badges-all": "https://skeptics.stackexchange.com/users/56721/pinegulf?tab=badges",
+  "badges": [
+    {
+      "amount": 5,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/28/famous-question?userid=56721",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 5,
+          "date": "Jun 16, 2023"
+        }
+      ]
+    },
+    {
+      "amount": 38,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/56/pundit?userid=56721",
+          "action": "Leave 10 comments with score of 5 or more",
+          "name": "Pundit",
+          "amount": 1,
+          "date": "Nov 3, 2022"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/54/enthusiast?userid=56721",
+          "action": "Visit the site each day for 30 consecutive days. (Days are counted in UTC.)",
+          "name": "Enthusiast",
+          "amount": 1,
+          "date": "Jul 25, 2023"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/18/guru?userid=56721",
+          "action": "Accepted answer and score of 40 or more",
+          "name": "Guru",
+          "amount": 3,
+          "date": "1d ago"
+        }
+      ]
+    },
+    {
+      "amount": 63,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/47/benefactor?userid=56721",
+          "action": "First bounty you manually award on your own question",
+          "name": "Benefactor",
+          "amount": 1,
+          "date": "May 23, 2023"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/46/promoter?userid=56721",
+          "action": "First bounty you offer on your own question",
+          "name": "Promoter",
+          "amount": 1,
+          "date": "May 17, 2023"
+        },
+        {
+          "tag": false,
+          "link": "https://skeptics.stackexchange.com/help/badges/65/talkative?userid=56721",
+          "action": "Post 10 messages, with 1 or more starred, in chat",
+          "name": "Talkative",
+          "amount": 1,
+          "date": "Sep 14, 2023"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://skeptics.stackexchange.com/users/56721/pinegulf?tab=tags",
+  "tags": [
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[public-health]",
+      "name": "public-health",
+      "badge": "",
+      "score": 125,
+      "posts": 4,
+      "posts-percent": 9,
+      "answered": 2,
+      "ansked": 2,
+      "asked-score": 9
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[psychology]",
+      "name": "psychology",
+      "badge": "",
+      "score": 79,
+      "posts": 3,
+      "posts-percent": 7,
+      "answered": 1,
+      "ansked": 2,
+      "asked-score": 35
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[united-states]",
+      "name": "united-states",
+      "badge": "",
+      "score": 5,
+      "posts": 9,
+      "posts-percent": 20,
+      "answered": 1,
+      "ansked": 8,
+      "asked-score": 159
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[gender]",
+      "name": "gender",
+      "badge": "",
+      "score": 5,
+      "posts": 3,
+      "posts-percent": 7,
+      "answered": 1,
+      "ansked": 2,
+      "asked-score": 18
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[racism]",
+      "name": "racism",
+      "badge": "",
+      "score": 0,
+      "posts": 5,
+      "posts-percent": 11,
+      "answered": 0,
+      "ansked": 5,
+      "asked-score": 92
+    },
+    {
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[education]",
+      "name": "education",
+      "badge": "",
+      "score": 0,
+      "posts": 4,
+      "posts-percent": 9,
+      "answered": 0,
+      "ansked": 4,
+      "asked-score": 40
+    }
+  ],
+  "posts-answers-all": "https://skeptics.stackexchange.com/users/56721?tab=answers",
+  "posts-questions-all": "https://skeptics.stackexchange.com/users/56721?tab=questions",
+  "posts": [
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 91,
+      "link": "https://skeptics.stackexchange.com/questions/53186/did-henry-kissinger-say-this-about-forced-vaccinations/53187#53187",
+      "title": "Did Henry Kissinger say this about forced vaccinations?",
+      "date": "2022-04-13 06:21:10Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 81,
+      "link": "https://skeptics.stackexchange.com/questions/57355/did-steven-pinker-test-or-propose-testing-if-adhd-patients-could-sit-still-for/57359#57359",
+      "title": "Did Steven Pinker test (or propose testing) if ADHD patients could sit still for 5 minutes while in front of &quot;6 legos and an over turned lamp&quot;?",
+      "date": "2024-09-30 17:43:47Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 48,
+      "link": "https://skeptics.stackexchange.com/questions/48208/did-the-smithsonian-publish-this-infographic-about-whiteness",
+      "title": "Did the Smithsonian publish this infographic about &#39;whiteness&#39;?",
+      "date": "2020-07-28 07:38:04Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 43,
+      "link": "https://skeptics.stackexchange.com/questions/53012/did-dr-fauci-say-that-face-masks-dont-work-against-covid-19/53016#53016",
+      "title": "Did Dr. Fauci say that face masks don&#39;t work against COVID-19?",
+      "date": "2022-02-09 08:05:57Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 38,
+      "link": "https://skeptics.stackexchange.com/questions/52361/was-there-recent-book-burning-in-canada",
+      "title": "Was there recent book burning in Canada?",
+      "date": "2021-09-20 09:47:26Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 37,
+      "link": "https://skeptics.stackexchange.com/questions/52441/did-a-black-history-month-website-call-white-people-genetically-defective-des",
+      "title": "Did a &#39;Black History Month website&#39; call white people ‘genetically defective descendants of albino mutants’?",
+      "date": "2021-10-05 08:21:52Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 37,
+      "link": "https://skeptics.stackexchange.com/questions/54123/were-over-3-000-persons-arrested-in-britain-for-social-media-posts-in-2018",
+      "title": "Were over 3,000 persons arrested in Britain for social media posts in 2018?",
+      "date": "2022-12-15 11:17:59Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 36,
+      "link": "https://skeptics.stackexchange.com/questions/53485/are-there-mass-graves-of-indigenous-children-in-canada",
+      "title": "Are there mass graves of indigenous children in Canada?",
+      "date": "2022-06-29 06:38:45Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 36,
+      "link": "https://skeptics.stackexchange.com/questions/51864/are-us-colleges-awarding-more-a-scores",
+      "title": "Are US colleges awarding more A-scores?",
+      "date": "2021-06-11 09:05:35Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 34,
+      "link": "https://skeptics.stackexchange.com/questions/55702/does-staying-indoors-protect-you-from-wildfire-smoke/55703#55703",
+      "title": "Does staying indoors protect you from wildfire smoke?",
+      "date": "2023-06-09 06:44:02Z"
+    }
+  ],
+  "network-posts-all": "https://stackexchange.com/users/8523095/pinegulf?tab=top",
+  "network-posts": [
+    {
+      "votes": 7,
+      "link": "https://stackoverflow.com/questions/70575545/get-current-system-serial-number-in-python/70575633#70575633https://stackoverflow.com/questions/70575545/get-current-system-serial-number-in-python/70575633#70575633",
+      "title": "get current system serial number in python"
+    },
+    {
+      "votes": 7,
+      "link": "https://worldbuilding.stackexchange.com/questions/236470/violence-in-waterworlds-how-do-you-gunfight-underwaterhttps://worldbuilding.stackexchange.com/questions/236470/violence-in-waterworlds-how-do-you-gunfight-underwater",
+      "title": "Violence in waterworlds -- How do you (gun)fight underwater?"
+    }
+  ],
+  "meta-posts-asked": 4,
+  "meta-posts-answered": 0,
+  "meta-posts": [
+    {
+      "votes": 3,
+      "link": "https://skeptics.meta.stackexchange.com/q/4960",
+      "title": "Should extensive edits reset vote counts?"
+    }
+  ]
+}

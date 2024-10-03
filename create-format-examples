@@ -8,7 +8,7 @@ fscb() {
     fsc --nothreads --boards --forums --tags --pages-max 1 --pages-max-depth 1 "$@"
 }
 
-mkdir -p examples/{{xenforo,smf}/{1,2},invision,xmb,phpbb,hackernews}
+mkdir -p examples/{{xenforo,smf}/{1,2},invision,xmb,phpbb,hackernews,stackexchange}
 
 fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/478369-invision-community-5-tagging-reinvented/'
 fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/'
@@ -112,5 +112,26 @@ fscb -d examples/hackernews 'https://news.ycombinator.com/news'
 fscb -d examples/hackernews 'https://news.ycombinator.com/front'
 fscb -d examples/hackernews 'https://news.ycombinator.com/ask'
 fscb -d examples/hackernews 'https://news.ycombinator.com/show'
+
+fsc -d examples/stackexchange 'https://serverfault.com/questions/293217/our-security-auditor-is-an-idiot-how-do-i-give-him-the-information-he-wants'
+fsc -d examples/stackexchange 'https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git'
+fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/questions/47735/did-jeffrey-epstein-take-his-own-life'
+fsc -d examples/stackexchange 'https://stackoverflow.com/questions/652788/what-is-the-worst-real-world-macros-pre-processor-abuse-youve-ever-come-across/653028#653028'
+sleep 5
+fscb -d examples/stackexchange 'https://stackoverflow.com/questions?tab=votes&pagesize=50'
+fscb -d examples/stackexchange 'https://skeptics.stackexchange.com/questions'
+fscb -d examples/stackexchange 'https://stackoverflow.com/questions?tab=Bounties'
+fscb -d examples/stackexchange 'https://serverfault.com/questions?tab=Votes'
+sleep 5
+fsc -d examples/stackexchange 'https://stackoverflow.com/users/17311253/djimenez'
+fsc -d examples/stackexchange 'https://stackoverflow.com/users/1031591/atlaste'
+fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/users/41283/keshav-srinivasan'
+fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/users/35049/spraff'
+fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/users/56721/pinegulf'
+fsc -d examples/stackexchange 'https://stackoverflow.com/users/1718632/delphirules'
+fsc -d examples/stackexchange 'https://stackoverflow.com/users/1608796/apple'
+fsc -d examples/stackexchange 'https://serverfault.com/users/46527/eonil'
+fsc -d examples/stackexchange 'https://serverfault.com/users/2882/noah-goodrich'
+fsc -d examples/stackexchange 'https://serverfault.com/users/77159/kernel'
 
 find examples -type f | parallel 'jq . {} | sponge {}'

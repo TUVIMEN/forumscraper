@@ -14,6 +14,7 @@ from .xenforo import (
 )
 from .invision import invision
 from .hackernews import hackernews
+from .stackexchange import stackexchange
 
 
 class Extractor(ForumExtractorIdentify):
@@ -28,6 +29,7 @@ class Extractor(ForumExtractorIdentify):
         self.xenforo = xenforo(self.session, **self.settings)
         self.invision = invision(self.session, **self.settings)
         self.hackernews = hackernews(self.session, **self.settings)
+        self.stackexchange = stackexchange(self.session, **self.settings)
 
         self.guesslist = [
             {

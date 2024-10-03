@@ -1,0 +1,319 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://serverfault.com/users/46527/eonil",
+  "id": 46527,
+  "avatar": "https://www.gravatar.com/avatar/b0356d45e76b6dc79de9599c2620bfbd?s=256&d=identicon&r=PG",
+  "user": "Eonil",
+  "unregistered": false,
+  "created": "2010-06-23 02:43:40Z",
+  "lastseen": "more than 4 years ago",
+  "location": "South Korea",
+  "social": [],
+  "meta-profile": "",
+  "network-profile": "https://stackexchange.com/users/89442/eonil",
+  "reputation": 10829,
+  "reached": 3200000,
+  "answers": 7,
+  "questions": 46,
+  "communities-all": "https://stackexchange.com/users/89442/eonil?tab=accounts",
+  "communities": [
+    {
+      "profile": "https://stackoverflow.com/users/246776/",
+      "reputation": 85500
+    },
+    {
+      "profile": "https://serverfault.com/users/46527/",
+      "reputation": 10800
+    },
+    {
+      "profile": "https://superuser.com/users/27779/",
+      "reputation": 5900
+    },
+    {
+      "profile": "https://unix.stackexchange.com/users/5056/",
+      "reputation": 4700
+    },
+    {
+      "profile": "https://askubuntu.com/users/23702/",
+      "reputation": 2100
+    }
+  ],
+  "about": "<p>Current tools.</p><ul><li>OSX, iOS, FreeBSD.</li><li>C/C++/Objective-C, Cocoa, Xcode.</li><li>PostgreSQL.</li></ul><p>Feel free to fix my grammar if it's wrong. I always appreciate!</p>",
+  "badges-all": "https://serverfault.com/users/46527/eonil?tab=badges",
+  "badges": [
+    {
+      "amount": 16,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/36/stellar-question?userid=46527",
+          "action": "Question saved by 100 users",
+          "name": "Stellar Question",
+          "amount": 1,
+          "date": "Mar 4, 2016"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/22/great-question?userid=46527",
+          "action": "Question score of 100 or more",
+          "name": "Great Question",
+          "amount": 2,
+          "date": "Oct 20, 2022"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/28/famous-question?userid=46527",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 13,
+          "date": "Feb 1, 2022"
+        }
+      ]
+    },
+    {
+      "amount": 38,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/33/favorite-question?userid=46527",
+          "action": "Question saved by 25 users",
+          "name": "Favorite Question",
+          "amount": 1,
+          "date": "Oct 27, 2013"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/21/good-question?userid=46527",
+          "action": "Question score of 25 or more",
+          "name": "Good Question",
+          "amount": 3,
+          "date": "Oct 17, 2023"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/13/yearling?userid=46527",
+          "action": "Active member for a year, earning at least 200 reputation",
+          "name": "Yearling",
+          "amount": 14,
+          "date": "Jun 23"
+        }
+      ]
+    },
+    {
+      "amount": 54,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/14/self-learner?userid=46527",
+          "action": "Answer your own question with score of 3 or more",
+          "name": "Self-Learner",
+          "amount": 1,
+          "date": "Apr 10, 2014"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/282/curious?userid=46527",
+          "action": "Ask a well-received question on 5 separate days, and maintain a positive question record",
+          "name": "Curious",
+          "amount": 1,
+          "date": "Jul 2, 2014"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/155/excavator?userid=46527",
+          "action": "Edit first post that was inactive for 6 months",
+          "name": "Excavator",
+          "amount": 1,
+          "date": "Sep 21, 2013"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://serverfault.com/users/46527/eonil?tab=tags",
+  "tags": [
+    {
+      "link": "https://serverfault.com/search?q=user:46527+[freebsd]",
+      "name": "freebsd",
+      "badge": "",
+      "score": 5,
+      "posts": 27,
+      "posts-percent": 51,
+      "answered": 5,
+      "ansked": 22,
+      "asked-score": 34
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:46527+[hostname]",
+      "name": "hostname",
+      "badge": "",
+      "score": 4,
+      "posts": 4,
+      "posts-percent": 8,
+      "answered": 2,
+      "ansked": 2,
+      "asked-score": 1
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:46527+[mac-osx]",
+      "name": "mac-osx",
+      "badge": "",
+      "score": 1,
+      "posts": 5,
+      "posts-percent": 9,
+      "answered": 2,
+      "ansked": 3,
+      "asked-score": 2
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:46527+[ssh-tunnel]",
+      "name": "ssh-tunnel",
+      "badge": "",
+      "score": 1,
+      "posts": 4,
+      "posts-percent": 8,
+      "answered": 1,
+      "ansked": 3,
+      "asked-score": 42
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:46527+[nfs]",
+      "name": "nfs",
+      "badge": "",
+      "score": 1,
+      "posts": 3,
+      "posts-percent": 6,
+      "answered": 1,
+      "ansked": 2,
+      "asked-score": 8
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:46527+[shell]",
+      "name": "shell",
+      "badge": "",
+      "score": 0,
+      "posts": 6,
+      "posts-percent": 11,
+      "answered": 0,
+      "ansked": 6,
+      "asked-score": 153
+    }
+  ],
+  "posts-answers-all": "https://serverfault.com/users/46527?tab=answers",
+  "posts-questions-all": "https://serverfault.com/users/46527?tab=questions",
+  "posts": [
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 761,
+      "link": "https://serverfault.com/questions/241588/how-to-automate-ssh-login-with-password",
+      "title": "How to automate SSH login with password?",
+      "date": "2011-03-01 11:07:12Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 116,
+      "link": "https://serverfault.com/questions/153875/how-to-let-cp-command-dont-fire-an-error-when-source-file-does-not-exist",
+      "title": "How to let &#39;cp&#39; command don&#39;t fire an error when source file does not exist?",
+      "date": "2010-06-23 02:55:30Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 25,
+      "link": "https://serverfault.com/questions/246030/how-can-i-close-ssh-tunnel-gracefully",
+      "title": "How can I close SSH tunnel gracefully?",
+      "date": "2011-03-11 02:47:02Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 22,
+      "link": "https://serverfault.com/questions/176935/running-shell-script-with-no-environmental-variables",
+      "title": "Running shell script with no environmental variables",
+      "date": "2010-09-01 14:03:23Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 18,
+      "link": "https://serverfault.com/questions/240887/whats-the-required-to-make-a-normal-user-can-create-schema-on-postgresql",
+      "title": "What&#39;s the required to make a normal user can create schema on PostgreSQL?",
+      "date": "2011-02-27 17:44:15Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 17,
+      "link": "https://serverfault.com/questions/246031/how-can-i-get-list-of-open-ssh-tunnels",
+      "title": "How can I get list of open SSH tunnels?",
+      "date": "2011-03-11 02:48:27Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 17,
+      "link": "https://serverfault.com/questions/240813/whats-difference-between-varchar-and-text-type-in-postgresql",
+      "title": "What&#39;s difference between &quot;varchar&quot; and &quot;text&quot; type in PostgreSQL?",
+      "date": "2011-02-27 11:07:37Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 11,
+      "link": "https://serverfault.com/questions/178101/most-simple-way-of-extracting-substring-in-unix-shell",
+      "title": "Most simple way of extracting substring in Unix shell?",
+      "date": "2010-09-04 16:08:10Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 10,
+      "link": "https://serverfault.com/questions/240804/how-to-print-list-of-users-and-groups-on-freebsd",
+      "title": "How to print list of users and groups on FreeBSD?",
+      "date": "2011-02-27 09:57:20Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 8,
+      "link": "https://serverfault.com/questions/244539/how-to-make-nfs-secure",
+      "title": "How to make NFS secure?",
+      "date": "2011-03-08 08:53:06Z"
+    }
+  ],
+  "network-posts-all": "https://stackexchange.com/users/89442/eonil?tab=top",
+  "network-posts": [
+    {
+      "votes": 701,
+      "link": "https://stackoverflow.com/questions/2198377/how-can-i-clear-previous-output-in-terminal-in-mac-os-xhttps://stackoverflow.com/questions/2198377/how-can-i-clear-previous-output-in-terminal-in-mac-os-x",
+      "title": "How can I clear previous output in Terminal in Mac OS X?"
+    },
+    {
+      "votes": 363,
+      "link": "https://stackoverflow.com/questions/2773396/whats-the-content-length-field-in-http-headerhttps://stackoverflow.com/questions/2773396/whats-the-content-length-field-in-http-header",
+      "title": "What&#x27;s the &quot;Content-Length&quot; field in HTTP header?"
+    },
+    {
+      "votes": 282,
+      "link": "https://superuser.com/questions/367780/how-to-connect-to-a-website-that-has-only-ipv6-addresses-without-a-domain-namehttps://superuser.com/questions/367780/how-to-connect-to-a-website-that-has-only-ipv6-addresses-without-a-domain-name",
+      "title": "How to connect to a website that has only IPv6 addresses without a domain name?"
+    },
+    {
+      "votes": 223,
+      "link": "https://superuser.com/questions/262942/whats-different-between-ctrlz-and-ctrlc-in-unix-command-linehttps://superuser.com/questions/262942/whats-different-between-ctrlz-and-ctrlc-in-unix-command-line",
+      "title": "What&#x27;s different between Ctrl&#x2B;Z and Ctrl&#x2B;C in Unix command line?"
+    },
+    {
+      "votes": 185,
+      "link": "https://stackoverflow.com/questions/5271530/how-to-disable-word-wrap-in-xcode-4-editorhttps://stackoverflow.com/questions/5271530/how-to-disable-word-wrap-in-xcode-4-editor",
+      "title": "How to disable word-wrap in Xcode 4 editor?"
+    }
+  ],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

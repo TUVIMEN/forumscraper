@@ -47,6 +47,7 @@ def valid_type(type_name):
         "invision": invision,
         "xmb": xmb,
         "hackernews": hackernews,
+        "stackexchange": stackexchange,
     }
     forums_identifiers = ["all", "smf", "xenforo"]
     funcs = ["guess", "identify", "findroot", "thread", "user", "forum", "tag", "board"]

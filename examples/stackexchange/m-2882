@@ -1,0 +1,298 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://serverfault.com/users/2882/noah-goodrich",
+  "id": 2882,
+  "avatar": "https://www.gravatar.com/avatar/53001fae0c4286668c128393bd42c9b6?s=256&d=identicon&r=PG",
+  "user": "Noah Goodrich",
+  "unregistered": false,
+  "created": "2009-05-18 00:00:42Z",
+  "lastseen": "more than 2 years ago",
+  "location": "South Jordan, UT, United States",
+  "social": [
+    "https://github.com/noah-goodrich",
+    "http://noahgoodrich.com"
+  ],
+  "meta-profile": "https://meta.serverfault.com/users/2882/noah-goodrich",
+  "network-profile": "https://stackexchange.com/users/10637/noah-goodrich",
+  "reputation": 20127,
+  "reached": 2800000,
+  "answers": 2,
+  "questions": 5,
+  "communities-all": "https://stackexchange.com/users/10637/noah-goodrich?tab=accounts",
+  "communities": [
+    {
+      "profile": "https://stackoverflow.com/users/20178/",
+      "reputation": 25200
+    },
+    {
+      "profile": "https://serverfault.com/users/2882/",
+      "reputation": 20100
+    },
+    {
+      "profile": "https://askubuntu.com/users/672/",
+      "reputation": 3900
+    },
+    {
+      "profile": "https://softwareengineering.stackexchange.com/users/53/",
+      "reputation": 1400
+    },
+    {
+      "profile": "https://interpersonal.stackexchange.com/users/13745/",
+      "reputation": 1000
+    }
+  ],
+  "about": "<p>I work for <a href=\"http://lendio.com\" rel=\"nofollow noreferrer\">Lendio</a> which helps small businesses find lending.</p><p>While I have spent a lot of time as a full stack LAMPP programmer, my first love was data and databases. At present I get to spend all of my time at Lendio working on data architecture solutions, data quality, and helping data tell its story to our employees.</p>",
+  "badges-all": "https://serverfault.com/users/2882/noah-goodrich?tab=badges",
+  "badges": [
+    {
+      "amount": 6,
+      "name": "gold",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/36/stellar-question?userid=2882",
+          "action": "Question saved by 100 users",
+          "name": "Stellar Question",
+          "amount": 1,
+          "date": "Aug 28, 2013"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/22/great-question?userid=2882",
+          "action": "Question score of 100 or more",
+          "name": "Great Question",
+          "amount": 1,
+          "date": "Apr 2, 2013"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/28/famous-question?userid=2882",
+          "action": "Question with 10,000 views",
+          "name": "Famous Question",
+          "amount": 4,
+          "date": "Jun 15, 2018"
+        }
+      ]
+    },
+    {
+      "amount": 26,
+      "name": "silver",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/33/favorite-question?userid=2882",
+          "action": "Question saved by 25 users",
+          "name": "Favorite Question",
+          "amount": 2,
+          "date": "Mar 25, 2021"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/11/taxonomist?userid=2882",
+          "action": "Create a tag used by 50 questions",
+          "name": "Taxonomist",
+          "amount": 1,
+          "date": "Jul 13, 2010"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/30/beta?userid=2882",
+          "action": "Voted 10 times, added 3 posts score > 0, and visited the site on 3 separate days during the private beta",
+          "name": "Beta",
+          "amount": 1,
+          "date": "Jun 26, 2009"
+        }
+      ]
+    },
+    {
+      "amount": 16,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/8/citizen-patrol?userid=2882",
+          "action": "First flagged post",
+          "name": "Citizen Patrol",
+          "amount": 1,
+          "date": "Feb 10, 2011"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/7/critic?userid=2882",
+          "action": "First down vote",
+          "name": "Critic",
+          "amount": 1,
+          "date": "May 18, 2009"
+        },
+        {
+          "tag": false,
+          "link": "https://serverfault.com/help/badges/20/nice-question?userid=2882",
+          "action": "Question score of 10 or more",
+          "name": "Nice Question",
+          "amount": 3,
+          "date": "Aug 23, 2012"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://serverfault.com/users/2882/noah-goodrich?tab=tags",
+  "tags": [
+    {
+      "link": "https://serverfault.com/search?q=user:2882+[google-wave]",
+      "name": "google-wave",
+      "badge": "",
+      "score": 4,
+      "posts": 1,
+      "posts-percent": 14,
+      "answered": 1,
+      "ansked": 1,
+      "asked-score": 0
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:2882+[sharepoint]",
+      "name": "sharepoint",
+      "badge": "",
+      "score": 4,
+      "posts": 1,
+      "posts-percent": 14,
+      "answered": 1,
+      "ansked": 1,
+      "asked-score": 0
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:2882+[debian]",
+      "name": "debian",
+      "badge": "",
+      "score": 0,
+      "posts": 2,
+      "posts-percent": 29,
+      "answered": 0,
+      "ansked": 2,
+      "asked-score": 67
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:2882+[linux]",
+      "name": "linux",
+      "badge": "",
+      "score": 0,
+      "posts": 2,
+      "posts-percent": 29,
+      "answered": 0,
+      "ansked": 2,
+      "asked-score": 136
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:2882+[postfix]",
+      "name": "postfix",
+      "badge": "",
+      "score": 0,
+      "posts": 2,
+      "posts-percent": 29,
+      "answered": 0,
+      "ansked": 2,
+      "asked-score": 77
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:2882+[email-server]",
+      "name": "email-server",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 14,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 4
+    }
+  ],
+  "posts-answers-all": "",
+  "posts-questions-all": "",
+  "posts": [
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 1856,
+      "link": "https://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file",
+      "title": "What is a Pem file and how does it differ from other OpenSSL Generated Key File Formats?",
+      "date": "2009-05-19 02:24:42Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 73,
+      "link": "https://serverfault.com/questions/42519/how-to-correct-postfix-relay-access-denied",
+      "title": "How to correct Postfix&#39; &#39;Relay Access Denied&#39;?",
+      "date": "2009-07-18 14:59:12Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 63,
+      "link": "https://serverfault.com/questions/9490/how-often-should-i-update-our-linux-server",
+      "title": "How Often Should I Update our Linux Server?",
+      "date": "2009-05-18 15:33:41Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 4,
+      "link": "https://serverfault.com/questions/9485/how-to-fix-mail-server-ssl",
+      "title": "How to fix mail server SSL?",
+      "date": "2009-05-18 15:26:33Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 4,
+      "link": "https://serverfault.com/questions/84139/google-wave-vs-sharepoint/84280#84280",
+      "title": "Google Wave vs Sharepoint",
+      "date": "2009-11-13 01:44:43Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 0,
+      "link": "https://serverfault.com/questions/616168/fix-apache-virtualhost-with-proxy-location",
+      "title": "Fix Apache Virtualhost with Proxy Location",
+      "date": "2014-07-29 02:50:30Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 0,
+      "link": "https://serverfault.com/questions/42521/mysql-enterprise-backup-tool-for-automation-and-management/42529#42529",
+      "title": "MySQL Enterprise backup tool for automation and management",
+      "date": "2009-07-18 15:48:22Z"
+    }
+  ],
+  "network-posts-all": "https://stackexchange.com/users/10637/noah-goodrich?tab=top",
+  "network-posts": [
+    {
+      "votes": 743,
+      "link": "https://stackoverflow.com/questions/141562/sql-to-find-the-number-of-distinct-values-in-a-column/141574#141574https://stackoverflow.com/questions/141562/sql-to-find-the-number-of-distinct-values-in-a-column/141574#141574",
+      "title": "SQL to find the number of distinct values in a column"
+    },
+    {
+      "votes": 338,
+      "link": "https://askubuntu.com/questions/1220/how-to-restart-x-window-server-from-a-command-linehttps://askubuntu.com/questions/1220/how-to-restart-x-window-server-from-a-command-line",
+      "title": "How to restart X Window Server from a command line?"
+    },
+    {
+      "votes": 243,
+      "link": "https://stackoverflow.com/questions/182287/can-php-pdo-statements-accept-the-table-or-column-name-as-parameter/182353#182353https://stackoverflow.com/questions/182287/can-php-pdo-statements-accept-the-table-or-column-name-as-parameter/182353#182353",
+      "title": "Can PHP PDO Statements accept the table or column name as parameter?"
+    },
+    {
+      "votes": 197,
+      "link": "https://stackoverflow.com/questions/146576/why-is-the-java-main-method-static/146583#146583https://stackoverflow.com/questions/146576/why-is-the-java-main-method-static/146583#146583",
+      "title": "Why is the Java main method static?"
+    },
+    {
+      "votes": 66,
+      "link": "https://interpersonal.stackexchange.com/questions/23099/how-do-i-get-my-boyfriend-to-remove-pictures-of-his-ex-girlfriend-hanging-in-his/23107#23107https://interpersonal.stackexchange.com/questions/23099/how-do-i-get-my-boyfriend-to-remove-pictures-of-his-ex-girlfriend-hanging-in-his/23107#23107",
+      "title": "How do I get my boyfriend to remove pictures of his ex girlfriend hanging in his apartment?"
+    }
+  ],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

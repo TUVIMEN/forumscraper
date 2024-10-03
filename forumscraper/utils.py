@@ -131,7 +131,7 @@ def conv_short_size(string):
             num = float(string)
         else:
             num = float(string[:-1])
-            if letter == "M":
+            if letter == "M" or letter == "m":
                 num *= 1000000
             elif letter == "K" or letter == "k":
                 num *= 1000

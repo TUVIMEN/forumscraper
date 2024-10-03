@@ -1,0 +1,177 @@
+{
+  "format_version": "stackexchange-user",
+  "url": "https://stackoverflow.com/users/17311253/djimenez",
+  "id": 17311253,
+  "avatar": "https://www.gravatar.com/avatar/91a9174e53d1c4f9577910b714450e53?s=256&d=identicon&r=PG",
+  "user": "djimenez",
+  "unregistered": false,
+  "created": "2021-11-02 15:51:02Z",
+  "lastseen": "more than a week ago",
+  "location": "",
+  "social": [],
+  "meta-profile": "https://meta.stackoverflow.com/users/17311253/djimenez",
+  "network-profile": "https://stackexchange.com/users/23218685/djimenez",
+  "reputation": 91,
+  "reached": 1000,
+  "answers": 0,
+  "questions": 5,
+  "communities-all": "",
+  "communities": [
+    {
+      "profile": "https://stackoverflow.com/users/17311253/",
+      "reputation": 91
+    }
+  ],
+  "about": "",
+  "badges-all": "",
+  "badges": [
+    {
+      "amount": 4,
+      "name": "bronze",
+      "achievements": [
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/6/supporter?userid=17311253",
+          "action": "First up vote",
+          "name": "Supporter",
+          "amount": 1,
+          "date": "Apr 22"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/10/scholar?userid=17311253",
+          "action": "Ask a question and accept an answer",
+          "name": "Scholar",
+          "amount": 1,
+          "date": "Nov 22, 2021"
+        },
+        {
+          "tag": false,
+          "link": "https://stackoverflow.com/help/badges/2/student?userid=17311253",
+          "action": "First question with score of 1 or more",
+          "name": "Student",
+          "amount": 1,
+          "date": "Mar 15, 2022"
+        }
+      ]
+    }
+  ],
+  "tags-all": "https://stackoverflow.com/users/17311253/djimenez?tab=tags",
+  "tags": [
+    {
+      "link": "https://stackoverflow.com/search?q=user:17311253+[python]",
+      "name": "python",
+      "badge": "",
+      "score": 0,
+      "posts": 2,
+      "posts-percent": 40,
+      "answered": 0,
+      "ansked": 2,
+      "asked-score": 1
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:17311253+[reactjs]",
+      "name": "reactjs",
+      "badge": "",
+      "score": 0,
+      "posts": 2,
+      "posts-percent": 40,
+      "answered": 0,
+      "ansked": 2,
+      "asked-score": 6
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:17311253+[javascript]",
+      "name": "javascript",
+      "badge": "",
+      "score": 0,
+      "posts": 2,
+      "posts-percent": 40,
+      "answered": 0,
+      "ansked": 2,
+      "asked-score": 6
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:17311253+[material-ui]",
+      "name": "material-ui",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 20,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 6
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:17311253+[react-router]",
+      "name": "react-router",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 20,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 0
+    },
+    {
+      "link": "https://stackoverflow.com/search?q=user:17311253+[request]",
+      "name": "request",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 20,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 0
+    }
+  ],
+  "posts-answers-all": "",
+  "posts-questions-all": "",
+  "posts": [
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 6,
+      "link": "https://stackoverflow.com/questions/72017394/some-material-ui-component-are-not-affected-by-createtheme-and-themeprovider",
+      "title": "Some material-ui component are not affected by createTheme and ThemeProvider",
+      "date": "2022-04-26 16:25:38Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 1,
+      "link": "https://stackoverflow.com/questions/71480172/how-to-remove-ambiguity-of-this-grammar-using-lark",
+      "title": "How to remove ambiguity of this grammar using lark",
+      "date": "2022-03-15 09:55:08Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 1,
+      "link": "https://stackoverflow.com/questions/76857606/problems-keeping-cxxtest-gui-open",
+      "title": "Problems keeping CxxTest GUI open",
+      "date": "2023-08-08 08:06:15Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 0,
+      "link": "https://stackoverflow.com/questions/70007699/how-to-change-the-sign-of-z3py-negated-inequalities",
+      "title": "How to change the sign of z3py negated inequalities",
+      "date": "2021-11-17 15:59:17Z"
+    },
+    {
+      "type": "question",
+      "answered": false,
+      "votes": 0,
+      "link": "https://stackoverflow.com/questions/76463139/window-stop-in-componentwillunmount-cancels-the-requests-made-in-componentwi",
+      "title": "window.stop() in componentWillUnmount() cancels the requests made in componentWillMount() for components that are not yet mounted",
+      "date": "2023-06-13 08:43:35Z"
+    }
+  ],
+  "network-posts-all": "",
+  "network-posts": [],
+  "meta-posts-asked": 0,
+  "meta-posts-answered": 0,
+  "meta-posts": []
+}

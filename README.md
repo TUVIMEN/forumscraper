@@ -14,6 +14,7 @@ forumscraper aims to be an universal, automatic and extensive scraper for forums
 - XenForo
 - XMB
 - Hacker News (has aggressive protection, should be used with cookies from logged in account)
+- StackExchange
 
 # Output examples
 
@@ -51,7 +52,7 @@ Type of scrapers can be defined inbetween `URL`s, where all following `URL`s are
 
 Type consists of `scraper_name` followed by `.` and `function_name`.
 
-`scraper_name` can be: `all`, `invision`, `phpbb`, `hackernews`, `smf`, `smf1`, `smf2`, `xenforo`, `xenforo1`, `xenforo2`, `xmb` where `all`, `xenforo` and `smf` are instances of identification class meaning that they have to download the `URL` to identify its type which may cause redownloading of existing content if many `URL`s are passed as arguments i.e. all resources extracted from once identified type are assumed to have the same type, but passing thousands of thread `URL`s as arguments will always download them before scraping. `smf1`, `smf2`, `xenforo1`, `xenforo2` are just scrapers with assumed version.
+`scraper_name` can be: `all`, `invision`, `phpbb`, `hackernews`, `stackexchange`, `smf`, `smf1`, `smf2`, `xenforo`, `xenforo1`, `xenforo2`, `xmb` where `all`, `xenforo` and `smf` are instances of identification class meaning that they have to download the `URL` to identify its type which may cause redownloading of existing content if many `URL`s are passed as arguments i.e. all resources extracted from once identified type are assumed to have the same type, but passing thousands of thread `URL`s as arguments will always download them before scraping. `smf1`, `smf2`, `xenforo1`, `xenforo2` are just scrapers with assumed version.
 
 `function_name` can be: `guess`, `findroot`, `thread`, `user`, `forum`, `tag`, `board` (`board` being the main page of the forum where subforums are listed). `guess` guesses the other types based on the `URL`s alone, `findroot` find the main page of forum from any link on site (useful for downloading the whole forum from random urls), other names are self explainatory.
 
@@ -205,6 +206,7 @@ forumscraper defines:
     xenforo2
     xmb
     hackernews
+    stackexchange
 
 scrapers that are instances of `ForumExtractor` class and also:
 
@@ -216,7 +218,7 @@ that are instances of `ForumExtractorIdentify`.
 
 Instances of `ForumExtractorIdentify` identify and pass requests to `ForumExtractor` instances in them. This means that content from the first link is downloaded regardless if files with finished work exist. (So running `get_thread` method on failures using these scrapers will cause needless redownloading, unless `forumscraper.Outputs.write_by_hash` is used)
 
-`Extractor` scraper has `invision`, `phpbb`, `smf`, `xenforo`, `xmb`, `hackernews` fields that are already initialized scrapers of declared type.
+`Extractor` scraper has `invision`, `phpbb`, `smf`, `xenforo`, `xmb`, `hackernews`, `stackexchange` fields that are already initialized scrapers of declared type.
 
 `xenforo` and `smf` have `v1` and `v2` fields that are already initialized scrapers of declared versions.
 
