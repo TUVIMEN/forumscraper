@@ -235,7 +235,7 @@ class smf1(ForumExtractor):
                         }
                     } |
                 } | ,
-                .threads [0] table .bordercolor C@"tr l@[1]; td [2] l@[1]; a href=aE>([&?;]topic=|-t)[0-9]+\.0"; [1:] tr l@[1]; {
+                .threads [0] table .bordercolor C@"tr l@[1:2]; td [2] l@[1]; a href=aE>([&?;]topic=|-t)[0-9]+\.0"; [1:] tr l@[1:2]; {
                     .type1 [0] td l@[1]; img src | "%(src)v",
                     .type2 [1] td l@[1]; img src | "%(src)v",
                     [2] td l@[1]; {
