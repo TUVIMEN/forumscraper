@@ -29,7 +29,9 @@ class invision(ForumExtractor):
 
             return "{}{}do=hovercard".format(url, url_delim)
 
-        def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
+        def get_first_html(
+            self, url, settings, state, rq=None, ref=None, return_cookies=False
+        ):
             settings = get_settings(
                 settings, headers={"x-Requested-With": "XMLHttpRequest"}
             )
@@ -37,7 +39,7 @@ class invision(ForumExtractor):
                 url, settings, state, self.trim, return_cookies
             )
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
 
             t = json.loads(
@@ -71,8 +73,8 @@ class invision(ForumExtractor):
                 )
             )
 
-            t["avatar"] = url_merge_r(url, t["avatar"])
-            t["background"] = url_merge_r(url, t["background"])
+            t["avatar"] = url_merge_r(ref, t["avatar"])
+            t["background"] = url_merge_r(ref, t["background"])
 
             dict_add(ret, t)
             return ret
@@ -139,7 +141,7 @@ class invision(ForumExtractor):
                 if len(nexturl) == 0:
                     break
 
-                rq = self.session.get_html(
+                rq, ref = self.session.get_html(
                     nexturl,
                     nsettings,
                     state,
@@ -177,7 +179,7 @@ class invision(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
             page = 0
 
@@ -210,8 +212,8 @@ class invision(ForumExtractor):
             dict_add(ret, t)
 
             ret["poll"] = self.get_poll(rq)
-            ret["user_link"] = url_merge_r(url, ret["user_link"])
-            ret["user_avatar"] = url_merge_r(url, ret["user_avatar"])
+            ret["user_link"] = url_merge_r(ref, ret["user_link"])
+            ret["user_avatar"] = url_merge_r(ref, ret["user_avatar"])
 
             t = json.loads(
                 rq.search(
@@ -241,10 +243,10 @@ class invision(ForumExtractor):
                 )
             )
             rec = t["recommended"]
-            rec["user_avatar"] = url_merge_r(url, rec["user_avatar"])
-            rec["user_link"] = url_merge_r(url, rec["user_link"])
-            rec["link"] = url_merge_r(url, rec["link"])
-            rec["ruser_link"] = url_merge_r(url, rec["ruser_link"])
+            rec["user_avatar"] = url_merge_r(ref, rec["user_avatar"])
+            rec["user_link"] = url_merge_r(ref, rec["user_link"])
+            rec["link"] = url_merge_r(ref, rec["link"])
+            rec["ruser_link"] = url_merge_r(ref, rec["ruser_link"])
             dict_add(ret, t)
 
             expr = reliq.expr(
@@ -285,7 +287,7 @@ class invision(ForumExtractor):
                     post = {}
 
                     post["user_link"] = url_merge_r(
-                        url,
+                        ref,
                         i.search(
                             r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
                         ),
@@ -299,9 +301,9 @@ class invision(ForumExtractor):
                             self.handle_error(ex, user_link, settings, True)
 
                     t = json.loads(i.search(expr))
-                    t["user_avatar"] = url_merge_r(url, t["user_avatar"])
-                    t["group_icon"] = url_merge_r(url, t["group_icon"])
-                    t["rank_image"] = url_merge_r(url, t["rank_image"])
+                    t["user_avatar"] = url_merge_r(ref, t["user_avatar"])
+                    t["group_icon"] = url_merge_r(ref, t["group_icon"])
+                    t["rank_image"] = url_merge_r(ref, t["rank_image"])
                     dict_add(post, t)
 
                     t = json.loads(
@@ -318,7 +320,7 @@ class invision(ForumExtractor):
                         )
                     )
                     for j in t["reactions_users"]:
-                        j["link"] = url_merge_r(url, j["link"])
+                        j["link"] = url_merge_r(ref, j["link"])
                     t["reactions"] = []
                     for j in t["reactions_temp"]:
                         el = {}
@@ -347,11 +349,11 @@ class invision(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(url, rq)
+                nexturl = self.get_next(ref, rq)
                 if nexturl is None:
                     break
 
-                rq = self.session.get_html(nexturl, settings, state, True)
+                rq, ref = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret
@@ -416,10 +418,10 @@ class invision(ForumExtractor):
             r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"'
         )
 
-    def process_board_r(self, url, rq, settings, state):
-        return self.process_forum_r(url, rq, settings, state)
+    def process_board_r(self, url, ref, rq, settings, state):
+        return self.process_forum_r(url, ref, rq, settings, state)
 
-    def process_forum_r(self, url, rq, settings, state):
+    def process_forum_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -515,44 +517,44 @@ class invision(ForumExtractor):
         categories = t["categories"]
 
         for i in categories:
-            i["link"] = url_merge(url, i["link"])
+            i["link"] = url_merge(ref, i["link"])
 
             for j in i["forums"]:
                 for g in j["childboards"]:
-                    g["link"] = url_merge(url, g["link"])
+                    g["link"] = url_merge(ref, g["link"])
 
-                j["link"] = url_merge(url, j["link"])
+                j["link"] = url_merge(ref, j["link"])
 
                 if len(j["icon"]) == 0:
                     j["icon"] = j["icon2"]
                 j.pop("icon2")
-                j["icon"] = url_merge(url, j["icon"])
+                j["icon"] = url_merge(ref, j["icon"])
 
                 j["posts"] = conv_short_size(j["posts"])
                 j["followers"] = conv_short_size(j["followers"])
 
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(url, lastpost["link"])
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
-                lastpost["avatar"] = url_merge(url, lastpost["avatar"])
+                lastpost["link"] = url_merge(ref, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
+                lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
 
         threads = t["threads"]
 
         for i in threads:
-            i["link"] = url_merge(url, i["link"])
-            i["user_link"] = url_merge(url, i["user_link"])
-            i["avatar"] = url_merge(url, i["avatar"])
-            i["group-indicator"] = url_merge(url, i["group-indicator"])
+            i["link"] = url_merge(ref, i["link"])
+            i["user_link"] = url_merge(ref, i["user_link"])
+            i["avatar"] = url_merge(ref, i["avatar"])
+            i["group-indicator"] = url_merge(ref, i["group-indicator"])
 
             i["replies"] = conv_short_size(i["replies"])
             i["views"] = conv_short_size(i["views"])
 
             for j in i["tags"]:
-                j["link"] == url_merge(url, j["link"])
+                j["link"] == url_merge(ref, j["link"])
 
             lastpost = i["lastpost"]
-            lastpost["user_link"] = url_merge(url, lastpost["user_link"])
-            lastpost["avatar"] = url_merge(url, lastpost["avatar"])
+            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
+            lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
 
         return {
             "format_version": "invision-4-forum",

@@ -9,12 +9,12 @@ from ..utils import dict_add, url_merge
 from .common import ItemExtractor, ForumExtractor
 
 
-def dict_url_merge(url, data, fields):
+def dict_url_merge(ref, data, fields):
     for j in fields:
         if len(j) == 1:
-            data[j[0]] = url_merge(url, data[j[0]])
+            data[j[0]] = url_merge(ref, data[j[0]])
         else:
-            data[j[0]][j[1]] = url_merge(url, data[j[0]][j[1]])
+            data[j[0]][j[1]] = url_merge(ref, data[j[0]][j[1]])
 
 
 class xmb(ForumExtractor):
@@ -28,7 +28,7 @@ class xmb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "xmb-thread", "url": url, "id": int(i_id)}
             page = 0
 
@@ -107,7 +107,7 @@ class xmb(ForumExtractor):
                             if g == "stars":
                                 post[g] = len(fields[j])
                             elif g == "avatar":
-                                post[g] = url_merge(url, fields[j])
+                                post[g] = url_merge(ref, fields[j])
                             elif g == "posts":
                                 try:
                                     post[g] = int(fields[j])
@@ -126,10 +126,10 @@ class xmb(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(url, rq)
+                nexturl = self.get_next(ref, rq)
                 if nexturl is None:
                     break
-                rq = self.session.get_html(nexturl, settings, state, True)
+                rq, ref = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret
@@ -184,7 +184,7 @@ class xmb(ForumExtractor):
             return ""
         return url
 
-    def process_board_r(self, url, rq, settings, state):
+    def process_board_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -236,21 +236,21 @@ class xmb(ForumExtractor):
                         )
                     group_forums = []
                 group_name = i["category"]
-                group_link = url_merge(url, i["category_link"])
+                group_link = url_merge(ref, i["category_link"])
                 continue
 
             if len(i["name"]) == 0:
                 continue
 
-            i["link"] = url_merge(url, i["link"])
-            i["state"] = url_merge(url, i["state"])
+            i["link"] = url_merge(ref, i["link"])
+            i["state"] = url_merge(ref, i["state"])
 
             lastpost = i["lastpost"]
             if lastpost["user_link"] == lastpost["link"]:
                 lastpost["user_link"] = None
             else:
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
-            lastpost["link"] = url_merge(url, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
+            lastpost["link"] = url_merge(ref, lastpost["link"])
 
             i.pop("category")
             i.pop("category_link")
@@ -268,7 +268,7 @@ class xmb(ForumExtractor):
 
         return {"format_version": "xmb-board", "url": url, "groups": groups}
 
-    def process_forum_r(self, url, rq, settings, state):
+    def process_forum_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -309,7 +309,7 @@ class xmb(ForumExtractor):
                 i["lastpost"]["user_link"] = ""
 
             dict_url_merge(
-                url,
+                ref,
                 i,
                 [
                     ["state"],
@@ -350,7 +350,7 @@ class xmb(ForumExtractor):
 
         for i in f["forums"]:
             dict_url_merge(
-                url,
+                ref,
                 i,
                 [
                     ["state"],

@@ -38,7 +38,7 @@ class smf1(ForumExtractor):
                 2,
             ]
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "smf-1-thread", "url": url, "id": int(i_id)}
             page = 0
 
@@ -75,7 +75,7 @@ class smf1(ForumExtractor):
             while True:
                 t = json.loads(rq.search(expr))
                 for i in t["posts"]:
-                    i["avatar"] = url_merge_r(url, i["avatar"])
+                    i["avatar"] = url_merge_r(ref, i["avatar"])
                 posts += t["posts"]
 
                 page += 1
@@ -84,10 +84,10 @@ class smf1(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(url, rq)
+                nexturl = self.get_next(ref, rq)
                 if nexturl is None:
                     break
-                rq = self.session.get_html(nexturl, settings, state)
+                rq, ref = self.session.get_html(nexturl, settings, state)
 
             ret["posts"] = posts
             return ret
@@ -132,10 +132,10 @@ class smf1(ForumExtractor):
     def get_next_page(self, rq):
         return rq.search(r'b m@B>"[0-9]"; [0] a .navPages href ssub@ | "%(href)v"')
 
-    def process_board_r(self, url, rq, settings, state):
-        return self.process_forum_r(url, rq, settings, state)
+    def process_board_r(self, url, ref, rq, settings, state):
+        return self.process_forum_r(url, ref, rq, settings, state)
 
-    def process_forum_r(self, url, rq, settings, state):
+    def process_forum_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -300,14 +300,14 @@ class smf1(ForumExtractor):
             prev_index = None
             for index, j in enumerate(i["forums"]):
                 for g in j["childboards"]:
-                    g["link"] = url_merge(url, g["link"])
+                    g["link"] = url_merge(ref, g["link"])
 
                 if len(j["link"]) == 0 or j["link"].find(";sort=") != -1:
                     if prev_index is not None and len(j["childboards"]) != 0:
                         categories_forums[prev_index]["childboards"] += j["childboards"]
                     continue
 
-                j["link"] = url_merge(url, j["link"])
+                j["link"] = url_merge(ref, j["link"])
                 try:
                     if j["posts"] == 0:
                         j["posts"] = j["posts2"]
@@ -323,8 +323,8 @@ class smf1(ForumExtractor):
                     pass
 
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(url, lastpost["link"])
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+                lastpost["link"] = url_merge(ref, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
                 if len(lastpost["user"]) == 0:
                     lastpost["user"] = lastpost.get("user2", "")
                 try:
@@ -336,7 +336,7 @@ class smf1(ForumExtractor):
                     j["moderators"] = []
 
                 for g in j["moderators"]:
-                    g["user_link"] = url_merge(url, g["user_link"])
+                    g["user_link"] = url_merge(ref, g["user_link"])
 
                 prev_index = len(categories_forums)
                 categories_forums.append(j)
@@ -351,15 +351,15 @@ class smf1(ForumExtractor):
             if len(i["link"]) == 0:
                 continue
 
-            i["link"] = url_merge(url, i["link"])
-            i["user_link"] = url_merge(url, i["user_link"])
-            i["lastpost"]["user_link"] = url_merge(url, i["lastpost"]["user_link"])
-            i["type1"] = url_merge_r(url, i.get("type1", ""))
-            i["type2"] = url_merge_r(url, i.get("type2", ""))
+            i["link"] = url_merge(ref, i["link"])
+            i["user_link"] = url_merge(ref, i["user_link"])
+            i["lastpost"]["user_link"] = url_merge(ref, i["lastpost"]["user_link"])
+            i["type1"] = url_merge_r(ref, i.get("type1", ""))
+            i["type2"] = url_merge_r(ref, i.get("type2", ""))
 
             icons = i["icons"]
             for j, g in enumerate(icons):
-                icons[j] = url_merge(url, g)
+                icons[j] = url_merge(ref, g)
 
         return {
             "format_version": "smf-1-forum",
@@ -380,7 +380,7 @@ class smf2(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "smf-2-thread", "url": url, "id": int(i_id)}
             page = 0
 
@@ -441,7 +441,7 @@ class smf2(ForumExtractor):
             while True:
                 t = json.loads(rq.search(expr))
                 for i in t["posts"]:
-                    i["avatar"] = url_merge_r(url, i["avatar"])
+                    i["avatar"] = url_merge_r(ref, i["avatar"])
                 posts += t["posts"]
 
                 page += 1
@@ -450,17 +450,17 @@ class smf2(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(url, rq)
+                nexturl = self.get_next(ref, rq)
                 if nexturl is None:
                     break
-                rq = self.session.get_html(nexturl, settings, state, self.trim)
+                rq, ref = self.session.get_html(nexturl, settings, state, self.trim)
 
             ret["posts"] = posts
             return ret
 
         def get_improper_url(self, url, rq, settings, state):
             if rq is None:
-                rq = self.session.get_html(url, settings, state, self.trim)
+                rq, ref = self.session.get_html(url, settings, state, self.trim)
 
             try:
                 i_id = str(int(rq.search('input name=sd_topic value | "%(value)v"')))
@@ -510,10 +510,10 @@ class smf2(ForumExtractor):
             r'div .pagelinks [0]; E>(a|span|strong) m@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"'
         )[:-1]
 
-    def process_board_r(self, url, rq, settings, state):
-        return self.process_forum_r(url, rq, settings, state)
+    def process_board_r(self, url, ref, rq, settings, state):
+        return self.process_forum_r(url, ref, rq, settings, state)
 
-    def process_forum_r(self, url, rq, settings, state):
+    def process_forum_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -675,16 +675,16 @@ class smf2(ForumExtractor):
 
             for j in forums:
                 for g in j["childboards"]:
-                    g["link"] = url_merge(url, g["link"])
+                    g["link"] = url_merge(ref, g["link"])
 
                 if len(j["link"]) == 0:
                     if prev_forums_index is not None and len(j["childboards"]) != 0:
                         out_forums[prev_forums_index]["childboards"] += j["childboards"]
                     continue
 
-                j["link"] = url_merge(url, j["link"])
+                j["link"] = url_merge(ref, j["link"])
                 for g in j["moderators"]:
-                    g["user_link"] = url_merge(url, g["user_link"])
+                    g["user_link"] = url_merge(ref, g["user_link"])
 
                 redirects = 0
 
@@ -699,8 +699,8 @@ class smf2(ForumExtractor):
                     j["topics"] = 0
                 j["redirects"] = redirects
 
-                lastpost["link"] = url_merge(url, lastpost["link"])
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+                lastpost["link"] = url_merge(ref, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
                 j["lastpost"] = lastpost
 
                 if j["posts"] == 0:
@@ -720,16 +720,16 @@ class smf2(ForumExtractor):
         for i in threads:
             if len(i["link"]) == 0:
                 continue
-            i["link"] = url_merge(url, i["link"])
-            i["type1"] = url_merge(url, i["type1"])
-            i["type2"] = url_merge(url, i["type2"])
+            i["link"] = url_merge(ref, i["link"])
+            i["type1"] = url_merge(ref, i["type1"])
+            i["type2"] = url_merge(ref, i["type2"])
 
             if len(i["user_link"]) == 0:
                 i["user"] = i["user2"]
                 i["user_link"] = i["user_link2"]
             i.pop("user2")
             i.pop("user_link2")
-            i["user_link"] = url_merge(url, i["user_link"])
+            i["user_link"] = url_merge(ref, i["user_link"])
 
             i["icons"] += i["icons2"]
             i.pop("icons2")
@@ -744,8 +744,8 @@ class smf2(ForumExtractor):
             if len(lastpost["link"]) == 0 and len(lastpost["user_link"]) == 0:
                 lastpost = i["lastpost2"]
             i.pop("lastpost2")
-            lastpost["link"] = url_merge(url, lastpost["link"])
-            lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+            lastpost["link"] = url_merge(ref, lastpost["link"])
+            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
             i["lastpost"] = lastpost
 
         return {

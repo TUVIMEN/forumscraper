@@ -10,7 +10,7 @@ from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_me
 from .common import ItemExtractor, ForumExtractor
 
 
-def get_comments(url, rq):
+def get_comments(ref, rq):
     comments = json.loads(
         rq.search(
             r"""
@@ -39,12 +39,12 @@ def get_comments(url, rq):
     )["comments"]
 
     for i in comments:
-        i["user"]["link"] = url_merge(url, i["user"]["link"])
-        i["onstory"]["link"] = url_merge(url, i["onstory"]["link"])
+        i["user"]["link"] = url_merge(ref, i["user"]["link"])
+        i["onstory"]["link"] = url_merge(ref, i["onstory"]["link"])
     return comments
 
 
-def get_post(url, rq):
+def get_post(ref, rq):
     post = json.loads(
         rq.search(
             r"""
@@ -72,13 +72,13 @@ def get_post(url, rq):
         )
     )
 
-    post["link"] = url_merge(url, post["link"])
-    post["user"]["link"] = url_merge(url, post["user"]["link"])
-    post["comments_link"] = url_merge(url, post["comments_link"])
+    post["link"] = url_merge(ref, post["link"])
+    post["user"]["link"] = url_merge(ref, post["user"]["link"])
+    post["comments_link"] = url_merge(ref, post["comments_link"])
     return post
 
 
-def get_page(url, rq):
+def get_page(ref, rq):
     threads = []
     posts_list = rq.search(r'[1] table -#hnmain; tr l@[1] | "%C\0"').split("\0")[:-1]
     size = len(posts_list)
@@ -86,7 +86,7 @@ def get_page(url, rq):
     while i < size and size - i >= 3:
         inp = posts_list[i] + posts_list[i + 1] + posts_list[i + 2]
 
-        post = get_post(url, reliq(inp))
+        post = get_post(ref, reliq(inp))
         threads.append(post)
 
         i += 3
@@ -94,40 +94,40 @@ def get_page(url, rq):
     return threads
 
 
-def get_all_pages(self, url, rq, settings, state):
+def get_all_pages(self, ref, rq, settings, state):
     threads = []
     page = 0
 
     while True:
-        threads += get_page(url, rq)
+        threads += get_page(ref, rq)
 
         page += 1
         if settings["thread_pages_max"] != 0 and page >= settings["thread_pages_max"]:
             break
-        url = self.get_next(url, rq)
+        url = self.get_next(ref, rq)
         if url is None:
             break
 
-        rq = self.session.get_html(url, settings, state, True)
+        rq, ref = self.session.get_html(url, settings, state, True)
 
     return threads
 
 
-def get_all_comments(self, url, rq, settings, state):
+def get_all_comments(self, ref, rq, settings, state):
     comments = []
     page = 0
 
     while True:
-        comments += get_comments(url, rq)
+        comments += get_comments(ref, rq)
 
         page += 1
         if settings["thread_pages_max"] != 0 and page >= settings["thread_pages_max"]:
             break
-        url = self.get_next(url, rq)
+        url = self.get_next(ref, rq)
         if url is None:
             break
 
-        rq = self.session.get_html(url, settings, state, True)
+        rq, ref = self.session.get_html(url, settings, state, True)
 
     return comments
 
@@ -144,7 +144,7 @@ class hackernews(ForumExtractor):
             self.path_format = "m-{}"
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "hackernews-user", "url": url, "id": i_id}
 
             t = json.loads(
@@ -166,22 +166,20 @@ class hackernews(ForumExtractor):
                 )
             )
 
-            t["submissions-link"] = url_merge_r(url, t["submissions-link"])
-            t["comments-link"] = url_merge_r(url, t["comments-link"])
-            t["favorites-link"] = url_merge_r(url, t["favorites-link"])
+            t["submissions-link"] = url_merge_r(ref, t["submissions-link"])
+            t["comments-link"] = url_merge_r(ref, t["comments-link"])
+            t["favorites-link"] = url_merge_r(ref, t["favorites-link"])
 
-            rq = self.session.get_html(t["submissions-link"], settings, state, True)
-            t["submissions"] = get_all_pages(
-                self, t["submissions-link"], rq, settings, state
+            rq, ref = self.session.get_html(
+                t["submissions-link"], settings, state, True
             )
-            rq = self.session.get_html(t["comments-link"], settings, state, True)
-            t["comments"] = get_all_comments(
-                self, t["comments-link"], rq, settings, state
-            )
-            rq = self.session.get_html(t["favorites-link"], settings, state, True)
-            t["favorites"] = get_all_pages(
-                self, t["favorites-link"], rq, settings, state
-            )
+            t["submissions"] = get_all_pages(self, ref, rq, settings, state)
+
+            rq, ref = self.session.get_html(t["comments-link"], settings, state, True)
+            t["comments"] = get_all_comments(self, ref, rq, settings, state)
+
+            rq, ref = self.session.get_html(t["favorites-link"], settings, state, True)
+            t["favorites"] = get_all_pages(self, ref, rq, settings, state)
 
             dict_add(ret, t)
             return ret
@@ -196,14 +194,14 @@ class hackernews(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "hackernews-thread", "url": url, "id": i_id}
 
             fatitem = rq.filter(r"[0] table .fatitem")
-            t = get_post(url, fatitem)
+            t = get_post(ref, fatitem)
             dict_add(ret, t)
 
-            ret["comments"] = get_all_comments(self, url, rq, settings, state)
+            ret["comments"] = get_all_comments(self, ref, rq, settings, state)
             return ret
 
     def __init__(self, session=None, **kwargs):
@@ -241,8 +239,8 @@ class hackernews(ForumExtractor):
     def get_next_page(self, rq):
         return rq.search(r'[0] a .morelink rel=next href | "%(href)v"')
 
-    def process_forum_r(self, url, rq, settings, state):
-        threads = get_page(url, rq)
+    def process_forum_r(self, url, ref, rq, settings, state):
+        threads = get_page(ref, rq)
 
         return {
             "format_version": "hackernews-forum",

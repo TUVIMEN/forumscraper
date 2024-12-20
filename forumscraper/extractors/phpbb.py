@@ -20,7 +20,7 @@ class phpbb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "phpbb-2+-thread", "url": url, "id": int(i_id)}
             page = 0
 
@@ -67,13 +67,13 @@ class phpbb(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(url, rq)
+                nexturl = self.get_next(ref, rq)
                 if nexturl is None:
                     break
-                rq = self.session.get_html(nexturl, settings, state)
+                rq, ref = self.session.get_html(nexturl, settings, state)
 
             for i in posts:
-                i["avatar"] = url_merge_r(url, i["avatar"])
+                i["avatar"] = url_merge_r(ref, i["avatar"])
                 i["userinfo"] = []
                 for j in i["userinfo_temp"]:
                     t = j.split("\t")
@@ -144,10 +144,10 @@ class phpbb(ForumExtractor):
             return ""
         return url
 
-    def process_board_r(self, url, rq, settings, state):
-        return self.process_forum_r(url, rq, settings, state)
+    def process_board_r(self, url, ref, rq, settings, state):
+        return self.process_forum_r(url, ref, rq, settings, state)
 
-    def process_forum_r(self, url, rq, settings, state):
+    def process_forum_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -252,19 +252,19 @@ class phpbb(ForumExtractor):
         categories = t["categories"]
 
         for i in t["categories"]:
-            i["link"] = url_merge(url, i["link"])
+            i["link"] = url_merge(ref, i["link"])
 
             for j in i["forums"]:
                 for g in j["childboards"]:
-                    g["link"] = url_merge(url, g["link"])
+                    g["link"] = url_merge(ref, g["link"])
 
-                j["link"] = url_merge(url, j["link"])
+                j["link"] = url_merge(ref, j["link"])
                 for g in j["moderators"]:
-                    g["user_link"] = url_merge(url, g["user_link"])
+                    g["user_link"] = url_merge(ref, g["user_link"])
 
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(url, lastpost["link"])
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+                lastpost["link"] = url_merge(ref, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
 
                 if j["posts"] == 0:
                     j["posts"] = j["posts2"]
@@ -273,18 +273,18 @@ class phpbb(ForumExtractor):
                 j.pop("posts2")
                 j.pop("topics2")
 
-                j["icon"] = url_merge(url, j["icon"])
+                j["icon"] = url_merge(ref, j["icon"])
 
         threads = t["threads"]
 
         for i in threads:
             for j in i["threads"]:
-                j["link"] = url_merge(url, j["link"])
-                j["user_link"] = url_merge(url, j["user_link"])
+                j["link"] = url_merge(ref, j["link"])
+                j["user_link"] = url_merge(ref, j["user_link"])
 
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(url, lastpost["link"])
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+                lastpost["link"] = url_merge(ref, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
 
         return {
             "format_version": "phpbb-2+-forum",

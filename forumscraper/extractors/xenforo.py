@@ -39,7 +39,7 @@ class xenforo2(ForumExtractor):
                 2,
             ]
 
-        def get_search_user(self, rq, state, refurl, first_delim, xfToken, settings):
+        def get_search_user(self, rq, state, ref, first_delim, xfToken, settings):
             user_url = rq.search(
                 r"""
                 {
@@ -52,7 +52,7 @@ class xenforo2(ForumExtractor):
                 self.user.get(
                     "users",
                     "{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
-                        url_merge(refurl, user_url), first_delim, xfToken
+                        url_merge(ref, user_url), first_delim, xfToken
                     ),
                     settings,
                     state,
@@ -67,7 +67,7 @@ class xenforo2(ForumExtractor):
 
             return xfToken
 
-        def get_reactions(self, rq, refurl, first_delim, xfToken, settings, state):
+        def get_reactions(self, rq, ref, first_delim, xfToken, settings, state):
             ret = []
             reactions_url = rq.search(
                 r'{ a .reactionsBar-link href | "%(href)v\n", div #b>reactions-bar-; a .list-reacts href | "%(href)v\n" } / line [1] tr "\n"'
@@ -75,7 +75,7 @@ class xenforo2(ForumExtractor):
 
             if len(reactions_url) > 0:
                 reactions_url = "{}{}_xfRequestUri=&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
-                    url_merge(refurl, reactions_url), first_delim, xfToken
+                    url_merge(ref, reactions_url), first_delim, xfToken
                 )
 
                 obj = reliq(
@@ -102,7 +102,7 @@ class xenforo2(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             page = 0
             url_first_delimiter = "?"
             if url.find("?") != -1:
@@ -221,12 +221,12 @@ class xenforo2(ForumExtractor):
 
                     post = json.loads(tag.search(expr))
 
-                    post["user_link"] = url_merge_r(url, post["user_link"])
+                    post["user_link"] = url_merge_r(ref, post["user_link"])
                     if post["user_avatar"][:1] == "/":
                         post["user_avatar"] = re.sub(
                             r"\?[0-9]+$", r"", post["user_avatar"]
                         )
-                    post["user_avatar"] = url_merge_r(url, post["user_avatar"])
+                    post["user_avatar"] = url_merge_r(ref, post["user_avatar"])
 
                     uext = post["user_extras"]
                     uext["pairs"] = uext["pairs1"] + uext["pairs2"] + uext["pairs3"]
@@ -242,7 +242,7 @@ class xenforo2(ForumExtractor):
                                 self.get_search_user(
                                     tag,
                                     state,
-                                    url,
+                                    ref,
                                     url_first_delimiter,
                                     xfToken,
                                     settings,
@@ -251,7 +251,7 @@ class xenforo2(ForumExtractor):
                             if Outputs.reactions in settings["output"]:
                                 reactions = self.get_reactions(
                                     tag,
-                                    url,
+                                    ref,
                                     url_first_delimiter,
                                     xfToken,
                                     settings,
@@ -275,10 +275,10 @@ class xenforo2(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(url, rq)
+                nexturl = self.get_next(ref, rq)
                 if nexturl is None:
                     break
-                rq = self.session.get_html(nexturl, settings, state, True)
+                rq, ref = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret
@@ -293,10 +293,13 @@ class xenforo2(ForumExtractor):
             ]
             self.path_format = "m-{}"
 
-        def get_first_html(self, url, settings, state, rq=None):
-            return reliq(self.session.get_json(url, settings, state)["html"]["content"])
+        def get_first_html(self, url, settings, state, rq=None, ref=None):
+            rq = reliq(self.session.get_json(url, settings, state)["html"]["content"])
+            if ref is None:
+                ref = self.session.base(rq, url)
+            return (rq, ref)
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "xenforo-2-user", "url": url, "id": int(i_id)}
 
             t = json.loads(
@@ -320,8 +323,8 @@ class xenforo2(ForumExtractor):
             """
                 )
             )
-            t["background"] = url_merge_r(url, t["background"])
-            t["avatar"] = url_merge_r(url, t["avatar"])
+            t["background"] = url_merge_r(ref, t["background"])
+            t["avatar"] = url_merge_r(ref, t["avatar"])
             dict_add(ret, t)
 
             return ret
@@ -367,13 +370,13 @@ class xenforo2(ForumExtractor):
             return ""
         return url
 
-    def process_board_r(self, url, rq, settings, state):
-        return self.process_forum_r(url, rq, settings, state)
+    def process_board_r(self, url, ref, rq, settings, state):
+        return self.process_forum_r(url, ref, rq, settings, state)
 
-    def process_tag_r(self, url, rq, settings, state):
-        return self.process_forum_r(url, rq, settings, state)
+    def process_tag_r(self, url, ref, rq, settings, state):
+        return self.process_forum_r(url, ref, rq, settings, state)
 
-    def process_forum_r(self, url, rq, settings, state):
+    def process_forum_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -480,18 +483,18 @@ class xenforo2(ForumExtractor):
             if len(i["name"]) == 0 and len(i["forums"]) == 0:
                 continue
 
-            i["link"] = url_merge(url, i["link"])
+            i["link"] = url_merge(ref, i["link"])
 
             for j in i["forums"]:
                 for g in j["childboards"]:
-                    g["link"] = url_merge(url, g["link"])
+                    g["link"] = url_merge(ref, g["link"])
 
-                j["link"] = url_merge(url, j["link"])
+                j["link"] = url_merge(ref, j["link"])
 
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(url, lastpost["link"])
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
-                lastpost["avatar"] = url_merge(url, lastpost["avatar"])
+                lastpost["link"] = url_merge(ref, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
+                lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
                 if len(lastpost["date"]) == 0:
                     lastpost["date"] = j["date2"]
                 j.pop("date2")
@@ -509,9 +512,9 @@ class xenforo2(ForumExtractor):
         threads = t["threads"]
 
         for i in threads:
-            i["link"] = url_merge(url, i["link"])
-            i["avatar"] = url_merge(url, i["avatar"])
-            i["user_link"] = url_merge(url, i["user_link"])
+            i["link"] = url_merge(ref, i["link"])
+            i["avatar"] = url_merge(ref, i["avatar"])
+            i["user_link"] = url_merge(ref, i["user_link"])
 
             if len(i["replies"]) == 0:
                 i["replies"] = i["replies2"]
@@ -523,8 +526,8 @@ class xenforo2(ForumExtractor):
             i.pop("views2")
 
             lastpost = i["lastpost"]
-            lastpost["user_link"] = url_merge(url, lastpost["user_link"])
-            lastpost["avatar"] = url_merge(url, i["lp-avatar"])
+            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
+            lastpost["avatar"] = url_merge(ref, i["lp-avatar"])
             i.pop("lp-avatar")
 
         return {
@@ -545,7 +548,7 @@ class xenforo1(ForumExtractor):
                 2,
             ]
 
-        def get_avatar_and_userid(self, refurl, messageUB):
+        def get_avatar_and_userid(self, ref, messageUB):
             user_id = "0"
             avatar = messageUB.search(r'* class=b>avatar; [0] img src | "%(src)v"')
             if len(avatar) == 0:
@@ -561,7 +564,7 @@ class xenforo1(ForumExtractor):
                     user_id = r[1]
 
             avatar = re.sub(r"\?[0-9]+$", r"", avatar)
-            avatar = url_merge_r(refurl, avatar)
+            avatar = url_merge_r(ref, avatar)
 
             if user_id == "0":
                 user_id = messageUB.search(
@@ -574,7 +577,7 @@ class xenforo1(ForumExtractor):
 
             return avatar, user_id
 
-        def get_contents(self, rq, settings, state, url, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": int(i_id)}
             page = 0
 
@@ -616,7 +619,7 @@ class xenforo1(ForumExtractor):
                     post = {}
                     messageUB = i.filter(r"div class=b>messageUserBlock")
 
-                    avatar, user_id = self.get_avatar_and_userid(url, messageUB)
+                    avatar, user_id = self.get_avatar_and_userid(ref, messageUB)
                     post["avatar"] = avatar
                     post["user_id"] = user_id
 
@@ -646,10 +649,10 @@ class xenforo1(ForumExtractor):
                     and page >= settings["thread_pages_max"]
                 ):
                     break
-                nexturl = self.get_next(url, rq)
+                nexturl = self.get_next(ref, rq)
                 if nexturl is None:
                     break
-                rq = self.session.get_html(nexturl, settings, state, True)
+                rq, ref = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret
@@ -694,13 +697,13 @@ class xenforo1(ForumExtractor):
             return ""
         return url
 
-    def get_tag(self, url, rq=None, **kwargs):
-        return self.get_forum(url, rq, **kwargs)
+    def get_tag(self, url, rq=None, state=None, depth=0, **kwargs):
+        return self.get_forum(url, rq, state, depth, **kwargs)
 
-    def process_board_r(self, url, rq, settings, state):
-        return self.process_forum_r(url, rq, settings, state)
+    def process_board_r(self, url, ref, rq, settings, state):
+        return self.process_forum_r(url, ref, rq, settings, state)
 
-    def process_forum_r(self, url, rq, settings, state):
+    def process_forum_r(self, url, ref, rq, settings, state):
         t = json.loads(
             rq.search(
                 r"""
@@ -786,28 +789,28 @@ class xenforo1(ForumExtractor):
         categories = t["categories"]
 
         for i in categories:
-            i["link"] = url_merge(url, i["link"])
+            i["link"] = url_merge(ref, i["link"])
 
             for j in i["forums"]:
                 for g in j["childboards"]:
-                    g["link"] = url_merge(url, g["link"])
+                    g["link"] = url_merge(ref, g["link"])
 
-                j["link"] = url_merge(url, j["link"])
+                j["link"] = url_merge(ref, j["link"])
 
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(url, lastpost["link"])
-                lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+                lastpost["link"] = url_merge(ref, lastpost["link"])
+                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
 
-                j["icon"] = url_merge(url, j["icon"])
+                j["icon"] = url_merge(ref, j["icon"])
 
         threads = t["threads"]
 
         for i in threads:
-            i["link"] = url_merge(url, i["link"])
-            i["user_link"] = url_merge(url, i["user_link"])
+            i["link"] = url_merge(ref, i["link"])
+            i["user_link"] = url_merge(ref, i["user_link"])
 
             lastpost = i["lastpost"]
-            lastpost["user_link"] = url_merge(url, lastpost["user_link"])
+            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
 
         return {
             "format_version": "xenforo-1-forum",
