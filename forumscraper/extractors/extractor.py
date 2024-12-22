@@ -1,17 +1,12 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
-from .common import ForumExtractor, ForumExtractorIdentify
-from .identify import ForumIdentify
+from .common import ForumExtractorIdentify
 
 from .smf import smf, smf1, smf2
 from .phpbb import phpbb
 from .xmb import xmb
-from .xenforo import (
-    xenforo,
-    xenforo1,
-    xenforo2,
-)
+from .xenforo import xenforo, xenforo1, xenforo2
 from .invision import invision
 from .hackernews import hackernews
 from .stackexchange import stackexchange
@@ -31,37 +26,51 @@ class Extractor(ForumExtractorIdentify):
         self.hackernews = hackernews(self.session, **self.settings)
         self.stackexchange = stackexchange(self.session, **self.settings)
 
+        self.extractors = [
+            self.hackernews,
+            self.phpbb,
+            self.invision,
+            self.xmb,
+            self.xenforo,
+            self.smf,
+            self.stackexchange,
+            self.vbulletin,
+        ]
+
         self.guesslist = [
             {
                 "func": "get_thread",
                 "exprs": [
                     r"([?/&;]topic[=,]|-t)\d+",
-                    r"/?viewtopic.php.*[\&\?]t=\d+",
-                    r"/viewthread.php\?tid=\d+$",
+                    r"/?viewtopic\.php.*[\&\?]t=\d+",
+                    r"/viewthread\.php\?tid=\d+$",
+                    r"/showthread\.php\?",
                     r"[/?](thread|topic)s?/",
-                    r"^https://news.ycombinator.com/item\?id=",
                     r"/questions/(\d+)",
                 ],
             },
-            {"func": "get_board", "exprs": [r"/forums?/$"]},
+            {"func": "get_board", "exprs": [r"/forums?(/|\.php(\?[^/]*)?)$"]},
+            {"func": "get_tag", "exprs": [r"[/?]tags?/"]},
+            {
+                "func": "get_user",
+                "exprs": [r"/users/(\d+)"],
+            },
             {
                 "func": "get_forum",
                 "exprs": [
                     r"([?/&;]board[=,]|-t)\d+",
-                    r"/viewforum.php",
-                    r"/forumdisplay.php\?fid=\d+$",
-                    r"[/?]forums?/",
-                    r"^https://news.ycombinator.com(/?|/(news|newest|front|show|ask|jobs))($|\?p=)",
-                    r"^https://news.ycombinator.com/(favorites|submitted)\?id=",
+                    r"/viewforum\.php",
+                    r"/forumdisplay\.php(\?|/)",
+                    r"[/?]forums?/([^/]+/?)?$",
                 ],
             },
             {
-                "func": "get_user",
-                "exprs": [r"^https://news.ycombinator.com/user\?id=", r"/users/(\d+)"],
+                "func": "get_thread",
+                "exprs": [
+                    r"(/[^/]+){2,}/\d+-[^/]+$",
+                    r"(/[^/]+){2,}/[^/]+-\d+(\.html|/)$",
+                ],
             },
-            {"func": "get_tag", "exprs": [r"[/?]tags?/"]},
+            {"func": "get_forum", "exprs": [r"(/[^/]+){3,}/$"]},
             {"func": "get_board", "exprs": None},
         ]
-
-    def identify_page(self, url, rq, cookies):
-        return ForumIdentify(self, url, rq, cookies)

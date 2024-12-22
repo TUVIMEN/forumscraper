@@ -7,8 +7,8 @@ import json
 from reliq import reliq
 
 from ..utils import dict_add, url_merge_r, url_merge
-from .identify import smfIdentify
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
+from .identify import identify_smf1, identify_smf2
 
 
 guesslist = [
@@ -34,8 +34,10 @@ class smf1(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/.*([?/&;]topic[=,]|-t)(\d+)"),
-                2,
+                (
+                    re.compile(r"/.*([?/&;]topic[=,]|-t)(\d+)"),
+                    2,
+                )
             ]
 
         def get_contents(self, rq, settings, state, url, ref, i_id):
@@ -67,7 +69,7 @@ class smf1(ForumExtractor):
                     .edited td #B>modified_[0-9]*; * c@[0] | "%i",
                     .score span #B>gpbp_score_[0-9]* | "%i",
                     .attachments.a("\t") a href #B>link_[0-9]* | "%(href)v\t",
-                    .userinfo.a("\n") td valign=top rowspan=2; div .smalltext | "%i\n" / sed "s/\(<br \/>\)\+/\n/g;s/\t//g" sed "/^$/d;/<img.* class=\"avatar\"/d"
+                    .userinfo.a("\n") td valign=top rowspan=2; div .smalltext | "%i\n" / sed "s/\(<br \/>\)\+/\n/g;s/\t//g" sed "/^$/d;/<img.* class=\"avatar\"/d" trim "\n" sed "/^$/d"
                 } |
             """
             )
@@ -94,6 +96,8 @@ class smf1(ForumExtractor):
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
+
+        self.identify_func = identify_smf1
 
         self.trim = True
 
@@ -375,8 +379,10 @@ class smf2(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/.*([?/&;]topic[=,])(\d+)"),
-                2,
+                (
+                    re.compile(r"/.*([?/&;]topic[=,])(\d+)"),
+                    2,
+                )
             ]
             self.trim = True
 
@@ -472,6 +478,8 @@ class smf2(ForumExtractor):
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
+
+        self.identify_func = identify_smf2
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
@@ -765,7 +773,6 @@ class smf(ForumExtractorIdentify):
         self.v1 = smf1(self.session, **kwargs)
         self.v2 = smf2(self.session, **kwargs)
 
-        self.guesslist = guesslist
+        self.extractors = [self.v1, self.v2]
 
-    def identify_page(self, url, rq, cookies):
-        return smfIdentify(self, url, rq, cookies)
+        self.guesslist = guesslist

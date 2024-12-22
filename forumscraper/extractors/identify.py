@@ -5,7 +5,7 @@ from ..utils import url_valid
 
 
 def search_cookies(func, arg, cookies):
-    for i in cookies:
+    for i in cookies.items():
         if func(i[0], arg):
             return True
     return False
@@ -101,41 +101,3 @@ def identify_hackernews(url, rq, cookies):
     return False
 
 
-def listIdentify(extractor, url, rq, cookies, ilist):
-    items = cookies.items()
-    for i in ilist:
-        if i[0](url, rq, items):
-            return i[1]
-
-    return None
-
-
-def xenforoIdentify(extractor, url, rq, cookies):
-    ilist = [
-        (identify_xenforo1, extractor.v1),
-        (identify_xenforo2, extractor.v2),
-    ]
-    return listIdentify(extractor, url, rq, cookies, ilist)
-
-
-def smfIdentify(extractor, url, rq, cookies):
-    ilist = [
-        (identify_smf1, extractor.v1),
-        (identify_smf2, extractor.v2),
-    ]
-    return listIdentify(extractor, url, rq, cookies, ilist)
-
-
-def ForumIdentify(extractor, url, rq, cookies):
-    ilist = [
-        (identify_hackernews, extractor.hackernews),
-        (identify_phpbb, extractor.phpbb),
-        (identify_invision, extractor.invision),
-        (identify_xmb, extractor.xmb),
-        (identify_xenforo1, extractor.xenforo.v1),
-        (identify_xenforo2, extractor.xenforo.v2),
-        (identify_smf1, extractor.smf.v1),
-        (identify_smf2, extractor.smf.v2),
-        (identify_stackexchange, extractor.stackexchange),
-    ]
-    return listIdentify(extractor, url, rq, cookies, ilist)

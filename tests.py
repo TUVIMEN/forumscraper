@@ -96,7 +96,7 @@ def test_urls(ex, print_func, func_name, identify, *args):
         for j in i:
             getter = ex
             if not identify:
-                getter = get_getter(ex, i)
+                getter = get_getter(ex, j)
             func = getattr(getter, func_name)
             r = func(j[0])
             if print_func is not None:
@@ -201,7 +201,7 @@ xmb_forums_list = [
     "https://locostbuilders.co.uk/forum/2/",
     "https://div-arena.co.uk/forum2/forumdisplay.php?fid=3",
     "https://forum.postcrossing.com/forumdisplay.php?fid=180",
-    "https://forum.solbu.net/forumdisplay.php?fid=74",
+    # "https://forum.solbu.net/forumdisplay.php?fid=74",
     "https://forums.bajanomad.com/forumdisplay.php?fid=38",
     "https://forums.xmbforum2.com/forumdisplay.php?fid=29",
     "https://www.sciencemadness.org/whisper/forumdisplay.php?fid=10",
@@ -209,14 +209,14 @@ xmb_forums_list = [
     "https://forum.wendishresearch.org/forumdisplay.php?fid=413",
     "https://www.slotracinglemans.com/newforum/forumdisplay.php?fid=21",
     "https://forum.kapital3.org/forumdisplay.php?fid=25",
-    # "https://www.alfapower.nu/forumdisplay.php?fid=6",
+    "https://www.alfapower.nu/forumdisplay.php?fid=6",
 ]
 
 xmb_boards_list = [
     "https://locostbuilders.co.uk/forum/",
     "https://div-arena.co.uk/forum2/",
     "https://forum.postcrossing.com/",
-    "https://forum.solbu.net/",
+    # "https://forum.solbu.net/",
     "https://forums.bajanomad.com/",
     "https://forums.xmbforum2.com/",
     "https://www.sciencemadness.org/whisper/",
@@ -226,17 +226,17 @@ xmb_boards_list = [
     "https://forum.kapital3.org/",
     "https://forum.wendishresearch.org/",
     "https://www.slotracinglemans.com/newforum/",
-    # "https://www.alfapower.nu/forum.php",
+    "https://www.alfapower.nu/forum.php",
 ]
 
 smf1_boards_list = [
     "http://750mm.pl/index.php",
     "http://www.saberforum.com/index.php",
-    # "https://3inchforum.nl/index.php",
+    "https://3inchforum.nl/index.php",
     "https://bitcointalk.org/index.php",
     "https://councilofexmuslims.com/index.php?action=forum",
-    "https://forum.ipfon.pl/index.php",
-    "https://forum.jac.or.id/index.php",
+    # "https://forum.ipfon.pl/index.php",
+    # "https://forum.jac.or.id/index.php",
     "https://forum.uqm.stack.nl/index.php",
     "https://forums.zeldaspeedruns.com/index.php",
     "https://forumszkolne.pl/index.php",
@@ -246,11 +246,11 @@ smf1_boards_list = [
 smf1_forums_list = [
     "http://750mm.pl/index.php?board=11.0",
     "http://www.saberforum.com/index.php?board=18.0",
-    # https://3inchforum.nl/index.php?board=88.0
+    "https://3inchforum.nl/index.php?board=88.0"
     "https://bitcointalk.org/index.php?board=5.0",
     "https://councilofexmuslims.com/index.php?board=8.0",
-    "https://forum.ipfon.pl/index.php?board=1.0",
-    "https://forum.jac.or.id/index.php?board=9.0",
+    # "https://forum.ipfon.pl/index.php?board=1.0",
+    # "https://forum.jac.or.id/index.php?board=9.0",
     "https://forum.uqm.stack.nl/index.php?board=2.0",
     "https://forums.zeldaspeedruns.com/index.php?board=2.0",
     "https://forumszkolne.pl/szkola-ogolnie-b13.0/",

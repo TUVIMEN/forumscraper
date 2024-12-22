@@ -7,6 +7,7 @@ from reliq import reliq
 
 from ..utils import dict_add, url_merge_r, url_merge
 from .common import ItemExtractor, ForumExtractor
+from .identify import identify_phpbb
 
 
 class phpbb(ForumExtractor):
@@ -15,8 +16,10 @@ class phpbb(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                r"/((.*)?viewtopic\.php(.*)[\&\?]t=|.*-t)(\d+)",
-                4,
+                (
+                    r"/((.*)?viewtopic\.php(.*)[\&\?]t=|.*-t)(\d+)",
+                    4,
+                )
             ]
             self.trim = True
 
@@ -90,6 +93,8 @@ class phpbb(ForumExtractor):
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
+
+        self.identify_func = identify_phpbb
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next

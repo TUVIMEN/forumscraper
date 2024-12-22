@@ -7,8 +7,8 @@ from reliq import reliq
 
 from ..enums import Outputs
 from ..utils import dict_add, url_merge, url_merge_r, conv_short_size
-from .identify import xenforoIdentify
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
+from .identify import identify_xenforo1, identify_xenforo2
 
 
 guesslist = [
@@ -35,8 +35,10 @@ class xenforo2(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/(.*[./])?(\d+)(/.*)?$"),
-                2,
+                (
+                    re.compile(r"/(.*[./])?(\d+)(/.*)?$"),
+                    2,
+                )
             ]
 
         def get_search_user(self, rq, state, ref, first_delim, xfToken, settings):
@@ -288,8 +290,10 @@ class xenforo2(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/(.*[./])?(\d+)/[\&?]tooltip=true\&"),
-                2,
+                (
+                    re.compile(r"/(.*[./])?(\d+)/[\&?]tooltip=true\&"),
+                    2,
+                )
             ]
             self.path_format = "m-{}"
 
@@ -331,6 +335,8 @@ class xenforo2(ForumExtractor):
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
+
+        self.identify_func = identify_xenforo2
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
@@ -544,8 +550,10 @@ class xenforo1(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?$"),
-                2,
+                (
+                    re.compile(r"/(.*[./])?t?(\d+)(/(\?.*)?|\.html)?$"),
+                    2,
+                )
             ]
 
         def get_avatar_and_userid(self, ref, messageUB):
@@ -590,7 +598,7 @@ class xenforo1(ForumExtractor):
                     .user a .username | "%i",
                     .date [0] * .DateTime | "%i"
                 },
-                .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%i\n",
+                .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%i\n" / sed "/^$/d",
                 .tags.a("|") ul .tagList; a .tag | "%i|" / sed "s/<[^>]*>[^<]*<\/[^>]*>//g; s/|$//"
             """
                 )
@@ -659,6 +667,8 @@ class xenforo1(ForumExtractor):
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
+
+        self.identify_func = identify_xenforo1
 
         self.thread = self.Thread(self.session)
         self.thread.get_next = self.get_next
@@ -827,7 +837,6 @@ class xenforo(ForumExtractorIdentify):
         self.v1 = xenforo1(self.session, **kwargs)
         self.v2 = xenforo2(self.session, **kwargs)
 
-        self.guesslist = guesslist
+        self.extractors = [self.v1, self.v2]
 
-    def identify_page(self, url, rq, cookies):
-        return xenforoIdentify(self, url, rq, cookies)
+        self.guesslist = guesslist

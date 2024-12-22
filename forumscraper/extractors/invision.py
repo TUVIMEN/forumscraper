@@ -8,6 +8,7 @@ from reliq import reliq
 from ..enums import Outputs
 from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
 from .common import ItemExtractor, ForumExtractor
+from .identify import identify_invision
 
 
 class invision(ForumExtractor):
@@ -16,8 +17,10 @@ class invision(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
-                2,
+                (
+                    re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
+                    2,
+                )
             ]
             self.path_format = "m-{}"
             self.trim = True
@@ -84,8 +87,10 @@ class invision(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
-                2,
+                (
+                    re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
+                    2,
+                )
             ]
             self.trim = True
 
@@ -360,6 +365,8 @@ class invision(ForumExtractor):
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
+
+        self.identify_func = identify_invision
 
         self.trim = True
 

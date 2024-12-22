@@ -7,6 +7,7 @@ from reliq import reliq
 
 from ..utils import dict_add, url_merge
 from .common import ItemExtractor, ForumExtractor
+from .identify import identify_xmb
 
 
 def dict_url_merge(ref, data, fields):
@@ -23,8 +24,10 @@ class xmb(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"/(.*/)?viewthread\.php\?tid=(\d+)$"),
-                2,
+                (
+                    re.compile(r"/(.*/)?viewthread\.php\?tid=(\d+)$"),
+                    2,
+                )
             ]
             self.trim = True
 
@@ -136,6 +139,8 @@ class xmb(ForumExtractor):
 
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
+
+        self.identify_func = identify_xmb
 
         self.trim = True
 

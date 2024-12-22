@@ -71,7 +71,6 @@ def get_first_html(
 
     if ref is None:
         ref = extractor.session.base(rq, url)
-
     return (rq, ref)
 
 
@@ -99,10 +98,22 @@ def item_file_check(url, path_format, i_id, settings):
     )
 
 
+def get_baseurl(url):
+    r = url_valid(url, base=True)
+    if r is None:
+        return ""
+
+    base, rest = r
+    p = base.find("//")
+    if p == -1:
+        return ""
+    return base[p + 2 :]
+
+
 class ItemExtractor:
     def __init__(self, session):
         self.path_format = "{}"
-        self.match = [None, 0]
+        self.match = [(None, 0)]
         self.trim = False
 
         self.session = session
@@ -126,23 +137,27 @@ class ItemExtractor:
         warnings.warn('improper url - "{}"'.format(url))
         return [None, 0]
 
+    def url_get_id(self, url):
+        for i in self.match:
+            r = url_valid(url, regex=i[0], base=True, matchwhole=True)
+            if r is not None:
+                return r[1][i[1]]
+
     def get(self, typekey, url, settings, state, rq=None):
         outtype = settings["output"]
         if Outputs.only_urls_forums in outtype:
             return
 
-        r = url_valid(url, regex=self.match[0], base=True, matchwhole=True)
-
         if Outputs.only_urls_threads in outtype:
             self.state_add_url(typekey, url, state, settings)
             return state
 
-        if not r:
+        i_id = self.url_get_id(url)
+
+        if i_id is None:
             rq, i_id = self.get_improper_url(url, rq, settings, state)
             if not rq:
                 return
-        else:
-            i_id = r[1][self.match[1]]
 
         path = item_file_check(url, self.path_format, i_id, settings)
 
@@ -181,8 +196,12 @@ class ForumExtractor:
         self.tag_threads_expr = None
         self.board_forums_expr = None
         self.guesslist = []
+        self.domains = []
+        self.domain_guess_mandatory = False
 
         self.trim = False
+
+        self.identify_func = None
 
         self.common_exceptions = common_exceptions
 
@@ -553,7 +572,24 @@ class ForumExtractor:
             **kwargs,
         )
 
-    def guess_search(self, url):
+    def guess_in_domain(self, url):
+        base = get_baseurl(url)
+        if base == "":
+            return
+
+        if base in self.domains:
+            return self
+
+    def guess_search(self, url, found_domain):
+        if found_domain is False:
+            d = self.guess_in_domain(url)
+            if d is not None:
+                c = d.guess(url, found_domain=True)
+                return c
+
+            if self.domain_guess_mandatory is True:
+                return
+
         func = None
         for i in self.guesslist:
             func = getattr(self, i["func"])
@@ -567,13 +603,13 @@ class ForumExtractor:
                 return func
         return
 
-    def guess(self, url, state=None, **kwargs):
+    def guess(self, url, state=None, found_domain=False, **kwargs):
         rest = url_valid(url)
         if rest is None:
             return
 
         state = self.create_state(state)
-        func = self.guess_search(url)
+        func = self.guess_search(url, found_domain)
 
         if func:
             state["scraper-method"] = func
@@ -636,10 +672,52 @@ class ForumExtractor:
             url = url[:-1]
         return url
 
+    def identify_page(self, url, rq, cookies):
+        if self.identify_func is None:
+            return
+
+        d = self.guess_in_domain(url)
+        if d is not None:
+            return d
+
+        if self.domain_guess_mandatory is True:
+            return
+
+        r = self.identify_func(url, rq, cookies)
+        if r is True:
+            return self
+        if r is False:
+            return
+        return r
+
 
 class ForumExtractorIdentify(ForumExtractor):
-    def identify_page(self, url, rq, cookies):
-        pass
+    def __init__(self, session=None, **kwargs):
+        super().__init__(session, **kwargs)
+
+        self.identify_func = self.listIdentify
+
+        self.extractors = []
+
+    def guess_in_domain(self, url):
+        base = get_baseurl(url)
+        if base == "":
+            return
+
+        for i in self.extractors:
+            r = i.guess_in_domain(url)
+
+            if r is not None:
+                return r
+
+    def listIdentify(self, url, rq, cookies):
+        for i in self.extractors:
+            if i.identify_func is None:
+                continue
+
+            r = i.identify_page(url, rq, cookies)
+            if r is not None:
+                return r
 
     def get_unknown(self, func_name, url, rq=None, state=None, **kwargs):
         settings = self.get_settings(kwargs)
@@ -653,9 +731,12 @@ class ForumExtractorIdentify(ForumExtractor):
         state = self.create_state(state)
 
         try:
-            rq, ref, cookies = self.get_first_html(
-                url, settings, state, rq, return_cookies=True
-            )
+            r = self.get_first_html(url, settings, state, rq, return_cookies=True)
+            cookies = {}
+            if rq is None:
+                cookies = r[2]
+            rq = r[0]
+            ref = r[1]
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, settings)
 

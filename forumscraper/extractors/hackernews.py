@@ -8,6 +8,7 @@ from reliq import reliq
 from ..enums import Outputs
 from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
 from .common import ItemExtractor, ForumExtractor
+from .identify import identify_hackernews
 
 
 def get_comments(ref, rq):
@@ -138,8 +139,10 @@ class hackernews(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^https://news.ycombinator.com/user\?id=([^&]+)"),
-                1,
+                (
+                    re.compile(r"^https://news.ycombinator.com/user\?id=([^&]+)"),
+                    1,
+                )
             ]
             self.path_format = "m-{}"
             self.trim = True
@@ -189,8 +192,10 @@ class hackernews(ForumExtractor):
             super().__init__(session)
 
             self.match = [
-                re.compile(r"^https://news.ycombinator.com/item\?id=(\d+)"),
-                1,
+                (
+                    re.compile(r"^https://news.ycombinator.com/item\?id=(\d+)"),
+                    1,
+                )
             ]
             self.trim = True
 
@@ -207,6 +212,8 @@ class hackernews(ForumExtractor):
     def __init__(self, session=None, **kwargs):
         super().__init__(session, **kwargs)
 
+        self.identify_func = identify_hackernews
+
         self.trim = True
 
         self.thread = self.Thread(self.session)
@@ -215,23 +222,26 @@ class hackernews(ForumExtractor):
         self.thread.user = self.user
         self.thread.get_next = self.get_next
 
+        self.domains = ["news.ycombinator.com"]
+        self.domain_guess_mandatory = True
+
         self.forum_threads_expr = reliq.expr(
             r'span .subline; a [0] m@"&nbsp;comment" href | "%(href)v\n"'
         )
         self.guesslist = [
             {
                 "func": "get_thread",
-                "exprs": [r"^https://news.ycombinator.com/item\?id="],
+                "exprs": [r"/item\?id="],
             },
             {
                 "func": "get_user",
-                "exprs": [r"^https://news.ycombinator.com/user\?id="],
+                "exprs": [r"/user\?id="],
             },
             {
                 "func": "get_forum",
                 "exprs": [
-                    r"^https://news.ycombinator.com(/?|/(news|newest|front|show|ask|jobs))($|\?p=)",
-                    r"^https://news.ycombinator.com/(favorites|submitted)\?id=",
+                    r"/(news|newest|front|show|ask|jobs)($|\?p=)",
+                    r"/(favorites|submitted)\?id=",
                 ],
             },
         ]
