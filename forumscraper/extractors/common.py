@@ -416,7 +416,7 @@ class ForumExtractor:
                 page += 1
                 if settings["pages_max"] > 0 and page >= settings["pages_max"]:
                     break
-                nexturl = func_next(url, rq)
+                nexturl = func_next(ref, rq)
                 if nexturl is None:
                     break
                 try:
@@ -466,7 +466,7 @@ class ForumExtractor:
             write_json(path, data, settings)
             state["files"][typekey].append(path)
 
-    def process_forum(self, ref, url, rq, settings, state):
+    def process_forum(self, url, ref, rq, settings, state):
         return self.process_page(
             url,
             ref,
@@ -479,7 +479,7 @@ class ForumExtractor:
             Outputs.forums,
         )
 
-    def process_tag(self, ref, url, rq, settings, state):
+    def process_tag(self, url, ref, rq, settings, state):
         return self.process_page(
             url,
             ref,
@@ -492,7 +492,7 @@ class ForumExtractor:
             Outputs.tags,
         )
 
-    def process_board(self, ref, url, rq, settings, state):
+    def process_board(self, url, ref, rq, settings, state):
         return self.process_page(
             url,
             ref,
