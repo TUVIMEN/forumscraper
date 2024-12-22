@@ -18,6 +18,14 @@ def strtosha256(string):
     return hashlib.sha256(string).hexdigest()
 
 
+def smarttrim(src):
+    # turns " \v i am a   \a \n \n \a test  \a " to "i am a test"
+
+    return " ".join(
+        src.translate(str.maketrans("\t\n\r\a\v\f\v", "       ", "")).split()
+    )
+
+
 def settings_copy(
     settings,
 ):  # function necessary because copy.deepcopy is too stupid to handle TextIOWrapper

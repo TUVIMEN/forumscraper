@@ -8,7 +8,7 @@ from threading import Lock
 from reliq import reliq
 
 from .exceptions import RequestError, AlreadyVisitedError
-from .utils import url_merge_r
+from .utils import url_merge_r, smarttrim
 
 useragents = {
     "mozilla": [
@@ -229,7 +229,7 @@ class Session(requests.Session):
 
         r = resp.text
         if trim:
-            r = r.translate(str.maketrans("", "", "\t\n\r\a"))
+            r = smarttrim(r)
 
         rq = reliq(r)
 
