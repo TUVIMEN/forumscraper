@@ -114,7 +114,7 @@ class stackexchange(ForumExtractor):
                                 .votes.u div .s-badge__votes | "%i",
                                 [0] a .d-table; {
                                     .link * self@ | "%(href)v",
-                                    .title * self@ | "%i"
+                                    .title * self@ | "%Di" trim
                                 },
                                 .date span .relativetime title | "%(title)v"
                             } |
@@ -125,7 +125,7 @@ class stackexchange(ForumExtractor):
                                 .votes.u div .s-badge__votes | "%i",
                                 a .d-table; {
                                     .link * self@ | "%(href)v",
-                                    .title * self@ | "%i"
+                                    .title * self@ | "%Di" trim
                                 },
                             } |
                         },
@@ -136,7 +136,7 @@ class stackexchange(ForumExtractor):
                                 .votes.u div .s-badge__votes | "%i",
                                 a .d-table; {
                                     .link * self@ | "%(href)v",
-                                    .title * self@ | "%i"
+                                    .title * self@ | "%Di" trim
                                 },
                             } |
                         }
@@ -349,7 +349,7 @@ class stackexchange(ForumExtractor):
                 "exprs": [r"/questions/(\d+)"],
             },
             {
-                "func": "get_users",
+                "func": "get_user",
                 "exprs": [r"/users/(\d+)"],
             },
             {"func": "get_forum", "exprs": None},
@@ -380,7 +380,7 @@ class stackexchange(ForumExtractor):
                         },
                         div .s-post-summary--content; {
                             * .s-post-summary--content-title; [0] a; {
-                                .title * self@ | "%i",
+                                .title * self@ | "%Di" trim,
                                 .link * self@ | "%(href)v"
                             },
                             .excerp * .s-post-summary--content-excerpt | "%i",
@@ -407,7 +407,7 @@ class stackexchange(ForumExtractor):
         for i in threads:
             i["link"] = url_merge(ref, i["link"])
             i["author"]["link"] = url_merge(ref, i["author"]["link"])
-            i["author"]["avatar"] = url_merge(ref, i["author"]["link"])
+            i["author"]["avatar"] = url_merge(ref, i["author"]["avatar"])
 
         return {
             "format_version": "stackexchange-forum",
