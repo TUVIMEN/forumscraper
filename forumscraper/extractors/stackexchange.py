@@ -44,7 +44,7 @@ class stackexchange(ForumExtractor):
                         ul .list-reset; {
                             [0] * self@; li child@; {
                                 .created [0] * self@; span title | "%(title)v",
-                                .lastseen [1] * self@; div c@[0] m@bt>"Last seen" | "%i" sed "s/^Last seen//"
+                                .lastseen [1] * self@; div c@[0] m@bt>"Last seen" | "%i" sed "s/^Last seen//" trim
                             },
                             [1] * self@; {
                                 .location div .wmx2 title c@[0] | "%i",

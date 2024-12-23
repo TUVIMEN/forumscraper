@@ -774,5 +774,3 @@ class smf(ForumExtractorIdentify):
         self.v2 = smf2(self.session, **kwargs)
 
         self.extractors = [self.v1, self.v2]
-
-        self.guesslist = guesslist

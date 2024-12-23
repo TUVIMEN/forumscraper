@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+
 import sys
 import os
 import forumscraper
@@ -142,15 +143,6 @@ def test_boards_identify():
     test_urls(ex2, None, "guess", True, tested_boards)
 
 
-def print_state_scraper(state):
-    if state is None:
-        return
-    if isinstance(state, str):
-        print(state)
-    else:
-        print(state["scraper"])
-
-
 ex3 = forumscraper.Extractor(
     logger=sys.stderr,
     failed=sys.stderr,
@@ -165,7 +157,7 @@ ex3 = forumscraper.Extractor(
 def test_identify():
     test_urls(
         ex3,
-        print_state_scraper,
+        print,
         "identify",
         True,
         tested_boards,
@@ -177,7 +169,7 @@ def test_identify():
 def test_findroot():
     test_urls(
         ex3,
-        print_state_scraper,
+        print,
         "findroot",
         True,
         tested_boards,

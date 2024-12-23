@@ -838,5 +838,3 @@ class xenforo(ForumExtractorIdentify):
         self.v2 = xenforo2(self.session, **kwargs)
 
         self.extractors = [self.v1, self.v2]
-
-        self.guesslist = guesslist

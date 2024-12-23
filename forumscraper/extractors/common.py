@@ -588,6 +588,9 @@ class ForumExtractor:
                 return c
 
             if self.domain_guess_mandatory is True:
+                warnings.warn(
+                    "url {} was not found in domain list, refusing to guess".format(url)
+                )
                 return
 
         func = None
@@ -603,7 +606,7 @@ class ForumExtractor:
                 return func
         return
 
-    def guess(self, url, state=None, found_domain=False, **kwargs):
+    def guess(self, url, rq=None, state=None, found_domain=False, **kwargs):
         rest = url_valid(url)
         if rest is None:
             return
@@ -611,9 +614,12 @@ class ForumExtractor:
         state = self.create_state(state)
         func = self.guess_search(url, found_domain)
 
+        if found_domain:
+            return func
+
         if func:
             state["scraper-method"] = func
-            return func(url, state=state, **kwargs)
+            return func(url, rq=rq, state=state, **kwargs)
         return
 
     def findroot_r(self, url, ref, rq, teststate, settings):
@@ -751,6 +757,9 @@ class ForumExtractorIdentify(ForumExtractor):
         func = getattr(forum, func_name)
         state["scraper-method"] = func
         return func(url, rq, state, **settings)
+
+    def guess(self, url, rq=None, state=None, **kwargs):
+        return self.get_unknown("guess", url, rq, state, **kwargs)
 
     def get_thread(self, url, rq=None, state=None, **kwargs):
         return self.get_unknown("get_thread", url, rq, state, **kwargs)
