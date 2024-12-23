@@ -4,7 +4,6 @@
 import os
 import json
 import re
-import warnings
 from concurrent.futures import ThreadPoolExecutor
 from reliq import reliq
 
@@ -134,7 +133,7 @@ class ItemExtractor:
         return get_first_html(self, url, settings, state, rq, ref, return_cookies)
 
     def get_improper_url(self, url, rq, settings, state):
-        warnings.warn('improper url - "{}"'.format(url))
+        print('improper url - "{}"'.format(url), file=settings["logger"])
         return [None, 0]
 
     def url_get_id(self, url):
@@ -580,7 +579,7 @@ class ForumExtractor:
         if base in self.domains:
             return self
 
-    def guess_search(self, url, found_domain):
+    def guess_search(self, url, found_domain, **kwargs):
         if found_domain is False:
             d = self.guess_in_domain(url)
             if d is not None:
@@ -588,8 +587,11 @@ class ForumExtractor:
                 return c
 
             if self.domain_guess_mandatory is True:
-                warnings.warn(
-                    "url {} was not found in domain list, refusing to guess".format(url)
+                print(
+                    "url {} was not found in domain list, refusing to guess".format(
+                        url
+                    ),
+                    file=self.get_settings(kwargs)["logger"],
                 )
                 return
 
@@ -612,7 +614,7 @@ class ForumExtractor:
             return
 
         state = self.create_state(state)
-        func = self.guess_search(url, found_domain)
+        func = self.guess_search(url, found_domain, **kwargs)
 
         if found_domain:
             return func

@@ -1,7 +1,6 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
-import warnings
 import re
 import json
 from reliq import reliq
@@ -471,7 +470,10 @@ class smf2(ForumExtractor):
             try:
                 i_id = str(int(rq.search('input name=sd_topic value | "%(value)v"')))
             except ValueError:
-                warnings.warn('url leads to improper forum - "{}"'.format(url))
+                print(
+                    'url leads to improper forum - "{}"'.format(url),
+                    file=settings["logger"],
+                )
                 return [None, 0]
 
             return [rq, i_id]
