@@ -58,6 +58,26 @@ def main():
         )
         return
 
+    headers = {}
+    cookies = {}
+    if args.cookie is not None:
+        for i in args.cookie:
+            cookies.update(i)
+
+    if args.header is not None:
+        for i in args.header:
+            headers.update(i)
+        cookie = headers.get("Cookie")
+        if cookie is not None:
+            headers.pop("Cookie")
+            for i in cookie.split(";"):
+                pair = i.split("=")
+                name = pair[0].strip()
+                val = None
+                if len(pair) > 1:
+                    val = pair[1].strip()
+                cookies.update({name: val})
+
     settings = {
         "output": output,
         "max_workers": args.threads,
@@ -77,8 +97,8 @@ def main():
         "user-agent": args.user_agent,
         "verify": args.insecure,
         "proxies": args.proxies,
-        "headers": args.headers,
-        "cookies": args.cookies,
+        "headers": headers,
+        "cookies": cookies,
         "compress_func": args.compression,
     }
 

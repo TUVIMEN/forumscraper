@@ -88,7 +88,12 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
     forumscraper --insecure --timeout 60 --user-agent 'why are we still here?'
 
-`--proxies DICT`, `--headers DICT` and `--cookies DICT` (where `DICT` is python stringified dictionary) are directly passed to requests library.
+`--proxies DICT` (where `DICT` is python stringified dictionary) are directly passed to requests library, e.g. `--proxies '{"http":"127.0.0.1:8080","ftp":"0.0.0.0"}'`.
+
+`--header "Key: Value"` very similar to `curl` `--header` option, can be specified multiple times e.g. `--header 'User: Admin' --header 'Pass: 12345'`. Similar to `curl` `Cookie` header will be parsed like `Cookie: key1=value1; key2=value2` and will be changed to cookies.
+
+`--cookie "Key=Value"` very similar to `curl` `--cookie` option, can be specified multiple times e.g. `--cookie 'auth=8f82ab' --cookie 'PHPSESSID=qw3r8an829'`.
+
 
 ### Settings
 

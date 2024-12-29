@@ -6,7 +6,11 @@ import gzip
 import bz2
 import lzma
 
-from .utils import url_valid
+from .utils import (
+    url_valid,
+    conv_curl_header_to_requests,
+    conv_curl_cookie_to_requests,
+)
 from .enums import Outputs, __version__
 from .extractors.extractor import *
 
@@ -96,6 +100,20 @@ def valid_compression_type(type_name):
     return types.get(type_name)
 
 
+def valid_header(src):
+    r = conv_curl_header_to_requests(src)
+    if r is None:
+        raise argparse.ArgumentTypeError('Invalid header "{}"'.format(src))
+    return r
+
+
+def valid_cookie(src):
+    r = conv_curl_cookie_to_requests(src)
+    if r is None:
+        raise argparse.ArgumentTypeError('Invalid cookie "{}"'.format(src))
+    return r
+
+
 def argparser():
     parser = argparse.ArgumentParser(
         description="Forum scraper that aims to be an universal, automatic and extensive.",
@@ -107,7 +125,7 @@ def argparser():
         metavar="URL|TYPE",
         type=valid_type,
         nargs="*",
-        help="url pointing to source. Specifying type changes scraper for all next urls. Type consists of forum name which can be all, invision, phpbb, smf, smf1, smf2, xenforo, xenforo1, xenforo2, xmb and it can by followed by a '.' and function name which can be guess, thread, forum, tag, board. By default set to all.guess equivalent to .guess and .",
+        help="url pointing to source. Specifying type changes scraper for all next urls. Type consists of forum name which can be all, invision, phpbb, smf, smf1, smf2, xenforo, xenforo1, xenforo2, xmb, stackexchange, hackernews and it can by followed by a '.' and function name which can be guess, thread, forum, tag, board, user, identify, findroot. By default set to all.guess equivalent to .guess and .",
     )
 
     general = parser.add_argument_group("General")
@@ -188,7 +206,7 @@ def argparser():
         "--output",
         metavar="FILE",
         type=lambda x: open(x, "w"),
-        help="store results to FILE (by default set to stdout), work only for identify and findroot functions and --only-urls- options",
+        help="store results to FILE (by default set to stdout), work only for identify and findroot functions and --only-urls options",
         default=sys.stdout,
     )
 
@@ -317,21 +335,23 @@ def argparser():
         "--proxies",
         metavar="DICT",
         type=lambda x: dict(ast.literal_eval(x)),
-        help="Set requests proxies dictionary",
+        help='Set requests proxies dictionary, e.g. -x \'{"http":"127.0.0.1:8080","ftp":"0.0.0.0"}\'',
     )
     request_set.add_argument(
         "-H",
-        "--headers",
-        metavar="DICT",
-        type=lambda x: dict(ast.literal_eval(x)),
-        help="Set requests headers dictionary",
+        "--header",
+        metavar="HEADER",
+        type=valid_header,
+        action="append",
+        help="Set header, can be used multiple times e.g. -H 'User: Admin' -H 'Pass: 12345'",
     )
     request_set.add_argument(
         "-b",
-        "--cookies",
-        metavar="DICT",
-        type=lambda x: dict(ast.literal_eval(x)),
-        help="Set requests cookies dictionary",
+        "--cookie",
+        metavar="COOKIE",
+        type=valid_cookie,
+        action="append",
+        help="Set cookie, can be used multiple times e.g. -b 'auth=8f82ab' -b 'PHPSESSID=qw3r8an829'",
     )
 
     return parser

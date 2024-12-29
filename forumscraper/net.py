@@ -134,7 +134,14 @@ class Session(requests.Session):
 
         self.lock = Lock()
 
-        self.get_renew(False, kwargs["user-agent"] is None)
+        s = to_requests_settings(kwargs)
+        self.proxies.update(s["proxies"])
+        self.headers.update(s["headers"])
+        self.cookies.update(s["cookies"])
+
+        self.get_renew(
+            clear=False, user_agent=kwargs["headers"].get("User-Agent") is None
+        )
 
     @staticmethod
     def new_useragent():

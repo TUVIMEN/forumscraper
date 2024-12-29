@@ -146,3 +146,17 @@ def conv_short_size(string):
     except ValueError:
         pass
     return int(num)
+
+
+def conv_curl_header_to_requests(src):
+    r = re.search(r"^\s*([A-Za-z0-9_-]+)\s*:(.*)$", src)
+    if r is None:
+        return None
+    return {r[1]: r[2].strip()}
+
+
+def conv_curl_cookie_to_requests(src):
+    r = re.search(r"^\s*([A-Za-z0-9_-]+)\s*=(.*)$", src)
+    if r is None:
+        return None
+    return {r[1]: r[2].strip()}

@@ -252,7 +252,7 @@ class ForumExtractor:
         ):
             ret["force"] = True
 
-        if ret["user-agent"]:
+        if ret["user-agent"] is not None:
             ret["headers"].update({"User-Agent": ret["user-agent"]})
 
         return ret
