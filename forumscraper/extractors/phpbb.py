@@ -137,12 +137,10 @@ class phpbb(ForumExtractor):
         )
 
     def get_next_page(self, rq):
-        url = rq.search(
-            r'a href rel=next | "%(href)v" / sed "s/^\.\///;s/&amp;/\&/g;q"'
-        )
+        url = rq.search(r'[0] a href rel=next | "%(href)v" / sed "s/&amp;/\&/g;q"')
         if len(url) == 0:
             url = rq.search(
-                r'div .topic-actions; div .pagination l@[1]; span l@[1]; E>(a|strong) -href=# | "%(href)v\n" / sed "/^$/{N;s/\n//;s/&amp;/\&/g;s/^\.\///;p;q}" "n"'
+                r'div .topic-actions; div .pagination l@[1]; span l@[1]; E>(a|strong) -href=# | "%(href)v\n" / sed "/^$/{N;s/\n//;s/&amp;/\&/g;p;q}" "n"'
             )[:-1]
 
         if not re.search(r"&start=[0-9]+$", url):
