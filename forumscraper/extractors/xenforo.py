@@ -14,12 +14,12 @@ from .identify import identify_xenforo1, identify_xenforo2
 guesslist = [
     {
         "func": "get_thread",
-        "exprs": [r"/(.*[/?])?(thread|topic)s?/"],
+        "exprs": [r"/(.*[/?])?(thread|topic|tema)s?/", r"/t/."],
     },
     {"func": "get_board", "exprs": [r"^/(.*[/?])?forums?/$"]},
     {
         "func": "get_forum",
-        "exprs": [r"/(.*[/?])?forums?/"],
+        "exprs": [r"/(.*[/?])?forums?/", r"/f/."],
     },
     {
         "func": "get_tag",
