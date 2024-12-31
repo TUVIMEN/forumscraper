@@ -329,7 +329,7 @@ class vbulletin(ForumExtractor):
             },
             {
                 "func": "get_forum",
-                "exprs": [r"/forumdisplay\.php(\?|/)"],
+                "exprs": [r"/forumdisplay\.php(\?|/)", "/forums?/[^/]+/?$"],
             },
             {
                 "func": "get_thread",
