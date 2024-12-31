@@ -1,0 +1,84 @@
+#!/bin/bash
+
+IFS=$'\n'
+
+testeddir="temp"
+
+
+findroot_identify_check() {
+    e="$(cat "$1/"'!'"stderr")"
+    [ -n "$e" ] && {
+        echo "$1" >&2
+        return
+    }
+
+    l="$(cat "$1/"'!'"stdout")"
+    o="$(tail -n1 <<< "$l")"
+    [ -z "$o" -o "$o" = "None" -o "$(wc -l <<< "$l")" -ne '2' ] &&
+        echo "$1" >&2
+}
+
+findbad() {
+    cd "$testeddir"
+
+    for i in $(find -mindepth 1 -maxdepth 1 -type d -name '*findroot' -printf '%f\n')
+    do
+        for j in $(find "$i" -maxdepth 1 -mindepth 1 -type d)
+        do
+            findroot_identify_check "$j"
+        done
+    done
+
+    for i in $(find identify -mindepth 1 -maxdepth 1 -type d)
+    do
+        findroot_identify_check "$i"
+    done
+
+    for i in $(find -mindepth 1 -maxdepth 1 -type d \! \( -name '*findroot' -o -name 'identify' \) -printf '%f\n' )
+    do
+        for j in $(find "$i" -maxdepth 1 -mindepth 1)
+        do
+            [ "$(find "$j" -type f | wc -l)" -le 2 ] &&
+                echo "$j" >&2
+
+            find "$j" -type f -size 0c \! -name '*!*' >&2
+        done
+    done
+
+    cd ..
+}
+
+getbad() {
+    {
+    tt1="$(mktemp)"
+    tt2="$(mktemp)"
+    trap 'rm "$tt1" "$tt2"' HUP INT QUIT TERM PWR EXIT
+
+    sed -n '
+        /^tested_urls = /{
+            :x
+            p
+            n
+            /^}$/!bx
+        }
+    ' tests.py | sed -n '/^ *"[^"]*",$/{s/"//g;s/,$//;s/^ *//;p}' | sort -u | python -c '
+import hashlib
+import sys
+
+def strtosha256(string):
+    if isinstance(string, str):
+        string = string.encode()
+    return hashlib.sha256(string).hexdigest()
+
+for i in sys.stdin:
+    n = i.strip()
+    print(strtosha256(n),n)
+    ' | sort -u > "$tt1"
+
+    findbad |& sed -E 's#(.*)/([^/]+)#\2 \1#' | sort -u > "$tt2"
+
+    join "$tt2" "$tt1"
+    } | sed -E 's#^(.+) (.+) (.+)$#\2/\1 \3#'
+}
+
+getbad
