@@ -8,7 +8,7 @@ fscb() {
     fsc --nothreads --boards --forums --tags --pages-max 1 --pages-max-depth 1 "$@"
 }
 
-mkdir -p examples/{{xenforo,smf}/{1,2},invision,xmb,phpbb,hackernews,stackexchange}
+mkdir -p examples/{{xenforo,smf}/{1,2},invision,xmb,phpbb,hackernews,stackexchange,vbulletin}
 
 fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/478369-invision-community-5-tagging-reinvented/'
 fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/'
@@ -79,7 +79,7 @@ fsc -d examples/xenforo/2 'https://forums.freddyshouse.com/threads/uthgard-guild
 fsc -d examples/xenforo/2 'https://www.overtake.gg/threads/prosimu-racing-and-motion-simulator-since-2009.177663/'
 fsc -d examples/xenforo/2 'https://xenforo.com/community/threads/vbulletin-xenforo.4888/'
 fsc -d examples/xenforo/2 'https://rune-server.org/threads/the-player-updating-procedure.125681/'
-fsc -w 0.3 -d examples/xenforo/2 'https://forums.mangadex.org/threads/mangadex-s5e5-anniversary-staff-ama.1106676/'
+fsc -w 1 -d examples/xenforo/2 'https://forums.mangadex.org/threads/mangadex-s5e5-anniversary-staff-ama.1106676/'
 
 fscb -d examples/xenforo/2 'https://xenforo.com/community/'
 fscb -d examples/xenforo/2 'https://www.se7ensins.com/forums/'
@@ -101,13 +101,13 @@ fscb -d examples/xmb 'https://div-arena.co.uk/forum2/forumdisplay.php?fid=3'
 fscb -d examples/xmb 'https://locostbuilders.co.uk/forum/2/'
 fscb -d examples/xmb 'https://forums.xmbforum2.com/forumdisplay.php?fid=29'
 
-fsc -d examples/hackernews 'https://news.ycombinator.com/user?id=jchw'
-fsc -d examples/hackernews 'https://news.ycombinator.com/user?id=kragen'
-fsc -d examples/hackernews 'https://news.ycombinator.com/user?id=lelanthran'
-fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41427563'
-fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41425150'
-fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41434637'
-fsc -d examples/hackernews 'https://news.ycombinator.com/item?id=41425910'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=jchw'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=kragen'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=lelanthran'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41427563'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41425150'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41434637'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41425910'
 fscb -d examples/hackernews 'https://news.ycombinator.com/news'
 fscb -d examples/hackernews 'https://news.ycombinator.com/front'
 fscb -d examples/hackernews 'https://news.ycombinator.com/ask'
@@ -128,10 +128,24 @@ fsc -d examples/stackexchange 'https://stackoverflow.com/users/1031591/atlaste'
 fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/users/41283/keshav-srinivasan'
 fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/users/35049/spraff'
 fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/users/56721/pinegulf'
+sleep 5
 fsc -d examples/stackexchange 'https://stackoverflow.com/users/1718632/delphirules'
 fsc -d examples/stackexchange 'https://stackoverflow.com/users/1608796/apple'
 fsc -d examples/stackexchange 'https://serverfault.com/users/46527/eonil'
 fsc -d examples/stackexchange 'https://serverfault.com/users/2882/noah-goodrich'
 fsc -d examples/stackexchange 'https://serverfault.com/users/77159/kernel'
+
+fsc -d examples/vbulletin 'https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0'
+fsc -d examples/vbulletin 'https://mafia-game.ru/forum/showthread.php?t=143'
+fsc -d examples/vbulletin 'https://volvoforums.org.uk/showthread.php?t=341051'
+fsc -d examples/vbulletin 'https://www.excelforum.com/excel-formulas-and-functions/401807-using-name-as-worksheet-reference.html'
+fscb -d examples/vbulletin 'https://forums.cnetfrance.fr/'
+fscb -d examples/vbulletin 'https://www.mazdaforum.com/forum/'
+fscb -d examples/vbulletin 'https://mdforum.su/'
+fscb -d examples/vbulletin 'https://www.thctalk.com/cannabis-forum/index.php'
+fscb -d examples/vbulletin 'https://www.utzone.de/forum/forumdisplay.php?s=783010ffd9ddaa24cdeb01227a70a42f&f=51'
+fscb -d examples/vbulletin 'https://www.ifans.pl/forumdisplay.php?118-Instrukcje'
+fscb -d examples/vbulletin 'https://forums.edelbrock.com/forum/edelbrock-electronics-and-efi/legacy-efi-systems'
+fscb -d examples/vbulletin 'http://www.mfarmer.ru/forumdisplay.php?f=14'
 
 find examples -type f | parallel 'jq . {} | sponge {}'

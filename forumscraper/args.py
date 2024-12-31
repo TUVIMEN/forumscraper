@@ -52,6 +52,7 @@ def valid_type(type_name):
         "xmb": xmb,
         "hackernews": hackernews,
         "stackexchange": stackexchange,
+        "vbulletin": vbulletin,
     }
     forums_identifiers = ["all", "smf", "xenforo"]
     funcs = ["guess", "identify", "findroot", "thread", "user", "forum", "tag", "board"]

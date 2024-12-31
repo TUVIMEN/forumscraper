@@ -1,0 +1,208 @@
+{
+  "format_version": "vbulletin-3+-forum",
+  "url": "https://forums.edelbrock.com/forum/edelbrock-electronics-and-efi/legacy-efi-systems",
+  "categories": [
+    {
+      "name": "",
+      "link": null,
+      "description": "",
+      "forums": [
+        {
+          "status": "https://forums.edelbrock.com/Contains unread posts.",
+          "title": "Pro Flo 3",
+          "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-3",
+          "description": "Post your general questions or comments for the Pro Flo 3 system here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 147,
+          "posts": 817,
+          "lastpost": {
+            "title": "car stalling when downshifting on coasting in neutral, sometimes",
+            "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-3/57147-car-stalling-when-downshifting-on-coasting-in-neutral-sometimes?p=57150#post57150",
+            "icon": null,
+            "date": "07-20-2024, 11:51 AM07-20-2024, 11:51 AM",
+            "user": "BITE_ME",
+            "user_link": "https://forums.edelbrock.com/member/2985-bite_me",
+            "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzUwOGJjNicgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QjwvdGV4dD4KCQkJPC9zdmc+CgkJ"
+          }
+        },
+        {
+          "status": "https://forums.edelbrock.com/Contains unread posts.",
+          "title": "Pro Flo 2",
+          "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-2",
+          "description": "Post your general questions or comments for the Pro Flo 2 system here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 536,
+          "posts": 2609,
+          "lastpost": {
+            "title": "Cavitates on cold start up",
+            "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-2/58828-cavitates-on-cold-start-up#post58828",
+            "icon": null,
+            "date": "Today, 09:30 AMToday, 09:30 AM",
+            "user": "51chevy",
+            "user_link": "https://forums.edelbrock.com/member/99191-51chevy",
+            "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2ExYjQ2ZScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+NTwvdGV4dD4KCQkJPC9zdmc+CgkJ"
+          }
+        },
+        {
+          "status": "https://forums.edelbrock.com/Contains unread posts.",
+          "title": "Pro Flo",
+          "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo",
+          "description": "Post your general questions or comments for the Pro Flo system here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 661,
+          "posts": 3456,
+          "lastpost": {
+            "title": "Pro Flo Chip numbers",
+            "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo/26065-pro-flo-chip-numbers?p=58827#post58827",
+            "icon": null,
+            "date": "Yesterday, 07:30 PMYesterday, 07:30 PM",
+            "user": "Howardslough",
+            "user_link": "https://forums.edelbrock.com/member/99189-howardslough",
+            "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2M0NmI1NicgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+SDwvdGV4dD4KCQkJPC9zdmc+CgkJ"
+          }
+        },
+        {
+          "status": "https://forums.edelbrock.com/Contains unread posts.",
+          "title": "Pro Flo XT",
+          "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-xt",
+          "description": "Post your general questions or comments on the Pro Flo XT system here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 323,
+          "posts": 1372,
+          "lastpost": {
+            "title": "Throttle body and kick down cables advise (chevy SB)",
+            "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-xt/58627-throttle-body-and-kick-down-cables-advise-chevy-sb?p=58798#post58798",
+            "icon": null,
+            "date": "12-27-2024, 02:31 PM12-27-2024, 02:31 PM",
+            "user": "spetz01",
+            "user_link": "https://forums.edelbrock.com/member/99156-spetz01",
+            "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzU0YmQ0MCcgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+UzwvdGV4dD4KCQkJPC9zdmc+CgkJ"
+          }
+        },
+        {
+          "status": "https://forums.edelbrock.com/Contains unread posts.",
+          "title": "Pro Flo XT Plus",
+          "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-xt-plus",
+          "description": "Post your general questions or comments on the Pro Flo XT Plus system here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 29,
+          "posts": 137,
+          "lastpost": {
+            "title": "Pro Flo XT port for brake booster vacuum",
+            "link": "https://forums.edelbrock.com/forum/pro-flo-efi/pro-flo-xt-plus/52985-pro-flo-xt-port-for-brake-booster-vacuum?p=52989#post52989",
+            "icon": null,
+            "date": "06-02-2023, 06:02 PM06-02-2023, 06:02 PM",
+            "user": "Angry Dane",
+            "user_link": "https://forums.edelbrock.com/member/98057-angry-dane",
+            "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2NhYWFlNScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QTwvdGV4dD4KCQkJPC9zdmc+CgkJ"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pro-Tuner EFI",
+      "link": "https://forums.edelbrock.com/forum/pro-tuner-efi",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://forums.edelbrock.com/Contains unread posts.",
+          "title": "Victor/Super Victor Pro Tuner EFI",
+          "link": "https://forums.edelbrock.com/forum/pro-tuner-efi/victor-super-victor-pro-tuner-efi",
+          "description": "",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 107,
+          "posts": 298,
+          "lastpost": {
+            "title": "Viktor II EFI Gen 3 Hemi 7179 with Procharger",
+            "link": "https://forums.edelbrock.com/forum/pro-tuner-efi/victor-super-victor-pro-tuner-efi/38169-viktor-ii-efi-gen-3-hemi-7179-with-procharger?p=38295#post38295",
+            "icon": null,
+            "date": "09-28-2020, 10:11 AM09-28-2020, 10:11 AM",
+            "user": "BITE_ME",
+            "user_link": "https://forums.edelbrock.com/member/2985-bite_me",
+            "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzUwOGJjNicgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QjwvdGV4dD4KCQkJPC9zdmc+CgkJ"
+          }
+        }
+      ]
+    },
+    {
+      "name": "E-Street EFI",
+      "link": "https://forums.edelbrock.com/forum/e-street-efi",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://forums.edelbrock.com/Contains unread posts.",
+          "title": "E-Street",
+          "link": "https://forums.edelbrock.com/forum/e-street-efi/e-street",
+          "description": "Post your general questions or comments for the E-Street EFI system here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 425,
+          "posts": 2279,
+          "lastpost": {
+            "title": "Error Starting Tuner Software",
+            "link": "https://forums.edelbrock.com/forum/e-street-efi/e-street/56916-error-starting-tuner-software#post56916",
+            "icon": null,
+            "date": "06-20-2024, 05:51 PM06-20-2024, 05:51 PM",
+            "user": "daverichard",
+            "user_link": "https://forums.edelbrock.com/member/85171-daverichard",
+            "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2MxY2I4ZicgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+RDwvdGV4dD4KCQkJPC9zdmc+CgkJ"
+          }
+        }
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2U0YjZkOCcgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QTwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+      "icons": [],
+      "prefix": "",
+      "link": "https://forums.edelbrock.com/forum/edelbrock-electronics-and-efi/legacy-efi-systems/57335-kit-pro-flo-3526",
+      "title": "Kit Pro-Flo 3526",
+      "user": "Alessandrov8",
+      "user_link": "https://forums.edelbrock.com/member/98889-alessandrov8",
+      "date": "08-16-2024, 12:15 AM",
+      "detailicons": [],
+      "posts": 0,
+      "views": 21,
+      "reactions": 0,
+      "rating": 0,
+      "lastpage": 0,
+      "lastpost": {
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2U0YjZkOCcgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QTwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "user_link": "https://forums.edelbrock.com/member/98889-alessandrov8",
+        "user": "Alessandrov8",
+        "date": "08-16-2024, 12:15 AM",
+        "link": "https://forums.edelbrock.com/forum/edelbrock-electronics-and-efi/legacy-efi-systems/57335-kit-pro-flo-3526?p=57335"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzYyYjE1OCcgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+SzwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+      "icons": [],
+      "prefix": "",
+      "link": "https://forums.edelbrock.com/forum/edelbrock-electronics-and-efi/legacy-efi-systems/56972-edelbrock-efi-chip",
+      "title": "Edelbrock efi chip",
+      "user": "Knopers",
+      "user_link": "https://forums.edelbrock.com/member/98674-knopers",
+      "date": "06-25-2024, 01:19 PM",
+      "detailicons": [],
+      "posts": 0,
+      "views": 32,
+      "reactions": 0,
+      "rating": 0,
+      "lastpage": 0,
+      "lastpost": {
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzYyYjE1OCcgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+SzwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "user_link": "https://forums.edelbrock.com/member/98674-knopers",
+        "user": "Knopers",
+        "date": "06-25-2024, 01:19 PM",
+        "link": "https://forums.edelbrock.com/forum/edelbrock-electronics-and-efi/legacy-efi-systems/56972-edelbrock-efi-chip?p=56972"
+      }
+    }
+  ]
+}

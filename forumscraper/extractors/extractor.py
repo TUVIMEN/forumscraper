@@ -10,6 +10,7 @@ from .xenforo import xenforo, xenforo1, xenforo2
 from .invision import invision
 from .hackernews import hackernews
 from .stackexchange import stackexchange
+from .vbulletin import vbulletin
 
 
 class Extractor(ForumExtractorIdentify):
@@ -25,6 +26,7 @@ class Extractor(ForumExtractorIdentify):
         self.invision = invision(self.session, **self.settings)
         self.hackernews = hackernews(self.session, **self.settings)
         self.stackexchange = stackexchange(self.session, **self.settings)
+        self.vbulletin = vbulletin(self.session, **self.settings)
 
         self.extractors = [
             self.hackernews,

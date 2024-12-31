@@ -101,3 +101,17 @@ def identify_hackernews(url, rq, cookies):
     return False
 
 
+def identify_vbulletin(url, rq, cookies):
+    return identify_forum(
+        r"""
+            html #vbulletin_html | "t",
+            style #vbulletin_css | "t",
+            div #footer_copyright | "t",
+            meta content=b>"vBulletin" | "t",
+            script src=a>"/vbulletin_" | "t"
+        """,
+        None,
+        None,
+        rq,
+        cookies,
+    )

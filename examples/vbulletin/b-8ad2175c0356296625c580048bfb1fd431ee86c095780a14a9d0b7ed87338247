@@ -1,0 +1,937 @@
+{
+  "format_version": "vbulletin-3+-forum",
+  "url": "https://www.mazdaforum.com/forum/",
+  "categories": [
+    {
+      "name": "General Mazda Forums",
+      "link": "https://www.mazdaforum.com/forum/general-mazda-forums-27/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "New Member Area",
+          "link": "https://www.mazdaforum.com/forum/new-member-area-5/",
+          "description": "New to MF? Stop in tell us about you.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 4661,
+          "posts": 13069,
+          "lastpost": {
+            "title": "306000km Without any problem...",
+            "link": "https://www.mazdaforum.com/forum/new-member-area-5/306000km-without-any-problem-behind-54874/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:49 AMToday 11:49 AM",
+            "user": "FranklinWrights",
+            "user_link": "https://www.mazdaforum.com/forum/members/franklinwrights-94085/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Off Topic",
+          "link": "https://www.mazdaforum.com/forum/off-topic-4/",
+          "description": "A place for you car junkies to boldly post off topic. ALMOST anything goes.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 966,
+          "posts": 15159,
+          "lastpost": {
+            "title": "What does everyone do for a...",
+            "link": "https://www.mazdaforum.com/forum/off-topic-4/what-does-everyne-do-living-96/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "04:24 AMToday 04:24 AM",
+            "user": "Leszczynski",
+            "user_link": "https://www.mazdaforum.com/forum/members/leszczynski-94001/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Sights N Sounds",
+          "link": "https://www.mazdaforum.com/forum/sights-n-sounds-42/",
+          "description": "Post all of your video and sound clips here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 166,
+          "posts": 736,
+          "lastpost": {
+            "title": "Post a pic of your ride!!",
+            "link": "https://www.mazdaforum.com/forum/sights-n-sounds-42/post-pic-your-ride-8671/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "12:48 AMNov 23, 2024 12:48 AM",
+            "user": "'Radek Kw",
+            "user_link": "https://www.mazdaforum.com/forum/members/-radek-kw-76080/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Ride of the Month",
+          "link": "https://www.mazdaforum.com/forum/ride-month-52/",
+          "description": "This section contains all nomination and voting threads and information, ONLY. See Rules before nominating or voting!",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 1,
+          "posts": 1,
+          "lastpost": {
+            "title": "R. I. P. - r. O. T. M.",
+            "link": "https://www.mazdaforum.com/forum/ride-month-52/r-i-p-r-o-t-m-23066/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "06:19 AMJun 6, 2010 06:19 AM",
+            "user": "virgin1",
+            "user_link": "https://www.mazdaforum.com/forum/members/virgin1-9131/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Site Updates & Announcements",
+          "link": "https://www.mazdaforum.com/forum/site-updates-announcements-40/",
+          "description": "Stop in here to get the latest on MF happenings!",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 17,
+          "posts": 57,
+          "lastpost": {
+            "title": "New Marketplace Feedback here...",
+            "link": "https://www.mazdaforum.com/forum/site-updates-announcements-40/new-marketplace-feedback-here-please-46692/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon3.gif",
+            "date": "11:36 AMMar 4, 2021 11:36 AM",
+            "user": "Robb M.",
+            "user_link": "https://www.mazdaforum.com/forum/members/robb-m--27304/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "General Tech",
+          "link": "https://www.mazdaforum.com/forum/general-tech-6/",
+          "description": "Good at troubleshooting? Have a non specific issue? Discuss general tech topics here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 3297,
+          "posts": 9633,
+          "lastpost": {
+            "title": "Which mazda made you a repeat...",
+            "link": "https://www.mazdaforum.com/forum/general-tech-6/mazda-made-you-repeat-owner-54963/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:27 AMYesterday 11:27 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mazda Vehicles",
+      "link": "https://www.mazdaforum.com/forum/mazda-vehicles-32/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda Protege",
+          "link": "https://www.mazdaforum.com/forum/mazda-protege-23/",
+          "description": "This compact model offers an economical solution for the need for a sporty sedan or wagon.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 3736,
+          "posts": 13812,
+          "lastpost": {
+            "title": "Mazda Protege 5 strut bar...",
+            "link": "https://www.mazdaforum.com/forum/mazda-protege-23/mazda-protege-5-strut-bar-question-54966/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:35 AMDec 21, 2024 11:35 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda2",
+          "link": "https://www.mazdaforum.com/forum/mazda2-53/",
+          "description": "This new subcompact applies a sporty look and feel to a great economy car.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 878,
+          "posts": 2466,
+          "lastpost": {
+            "title": "Squeaking when changing gear 😡",
+            "link": "https://www.mazdaforum.com/forum/mazda2-53/squeaking-when-changing-gear-54952/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "04:33 PMDec 19, 2024 04:33 PM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda3",
+          "link": "https://www.mazdaforum.com/forum/mazda3-26/",
+          "description": "Offered in both a sedan and wagon, this sporty model offers a great car for the family, as well a fun track car.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 6786,
+          "posts": 40902,
+          "lastpost": {
+            "title": "Mazda 3 Dealer Diagnostic -...",
+            "link": "https://www.mazdaforum.com/forum/mazda3-26/mazda-3-dealer-diagnostic-worth-what-will-they-do-55006/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:33 AMToday 11:33 AM",
+            "user": "mf80809",
+            "user_link": "https://www.mazdaforum.com/forum/members/mf80809-95390/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda5",
+          "link": "https://www.mazdaforum.com/forum/mazda5-43/",
+          "description": "This new sport van from Mazda offers the interior size and usefulness of a minivan with the feel and spirit of a sport compact.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 2013,
+          "posts": 9130,
+          "lastpost": {
+            "title": "Merry Christmas. Here's A...",
+            "link": "https://www.mazdaforum.com/forum/mazda5-43/merry-christmas-heres-broken-hub-nut-54995/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon8.gif",
+            "date": "03:39 PMDec 27, 2024 03:39 PM",
+            "user": "PrimusAnimatus",
+            "user_link": "https://www.mazdaforum.com/forum/members/primusanimatus-91818/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda6",
+          "link": "https://www.mazdaforum.com/forum/mazda6-20/",
+          "description": "This powerful new sedan offers a sporty feel and stout engine, all without compromising the ability to seat 5.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 4772,
+          "posts": 21000,
+          "lastpost": {
+            "title": "Oil leak",
+            "link": "https://www.mazdaforum.com/forum/mazda6-20/oil-leak-54994/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "10:32 AMDec 27, 2024 10:32 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda MX-30 EV",
+          "link": "https://www.mazdaforum.com/forum/mazda-mx-30-ev-59/",
+          "description": "Discussion about the new MX-30 EV Crossover Utility Vehicle coming in 2022",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 3,
+          "posts": 9,
+          "lastpost": {
+            "title": "3D Mats USA looking for Mazda...",
+            "link": "https://www.mazdaforum.com/forum/mazda-mx-30-ev-59/3d-mats-usa-looking-mazda-mx-30-owners-around-fontana-ca-50480/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "07:48 PMSep 22, 2022 07:48 PM",
+            "user": "3DMatUSA",
+            "user_link": "https://www.mazdaforum.com/forum/members/3dmatusa-88061/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-30",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-30-57/",
+          "description": "The place to discuss the newest compact SUV addition to Mazda's lineup.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 200,
+          "posts": 871,
+          "lastpost": {
+            "title": "iPhone connectivity",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-30-57/iphone-connectivity-54978/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "06:55 AMDec 23, 2024 06:55 AM",
+            "user": "RayPaice",
+            "user_link": "https://www.mazdaforum.com/forum/members/raypaice-95338/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-3",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-3-56/",
+          "description": "Engineered with breakthrough SKYACTIV® TECHNOLOGY, the CX-3 subcompact crossover delivers unmatched driving dynamics right alongside outstanding fuel economy.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 103,
+          "posts": 320,
+          "lastpost": {
+            "title": "P0524 code on 2019 CX-3",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-3-56/p0524-code-2019-cx-3-a-52662/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:24 AMToday 11:24 AM",
+            "user": "Clorida",
+            "user_link": "https://www.mazdaforum.com/forum/members/clorida-95392/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-5",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-5-54/",
+          "description": "The CX-5 CUV debuts Mazda's SKYACTIV® TECHNOLOGY and is unique for its impressive fuel economy, responsive handling and bold style",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 4062,
+          "posts": 32185,
+          "lastpost": {
+            "title": "CX-5 Cylinder Deactivation...",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-5-54/cx-5-cylinder-deactivation-operation-54955/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:27 AMToday 11:27 AM",
+            "user": "MrViking",
+            "user_link": "https://www.mazdaforum.com/forum/members/mrviking-95391/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-7",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-7-44/",
+          "description": "This sporty turbocharged 4 cylinder SUV combines the spirit of a performance car with the versatility of an SUV.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 887,
+          "posts": 3094,
+          "lastpost": {
+            "title": "High Gas Consumption Mazda...",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-7-44/high-gas-consumption-mazda-cx7-2012-a-54982/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:49 PMYesterday 11:49 PM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-9",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-9-50/",
+          "description": "This larger SUV adds a V6 option, as well as more cargo room, to the CX-7 option.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 1409,
+          "posts": 5615,
+          "lastpost": {
+            "title": "Coolant leaks at cylinder...",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-9-50/coolant-leaks-cylinder-head-warrant-extended-54999/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:19 AMToday 11:19 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-50",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-50-61/",
+          "description": "This Crossoverr SUV is for folks who want to get out and go off-road!",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 51,
+          "posts": 240,
+          "lastpost": {
+            "title": "Talk Me Toward CX-50 or CX-5...",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-50-61/talk-me-toward-cx-50-cx-5-test-drove-both-54274/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "09:47 AMDec 16, 2024 09:47 AM",
+            "user": "Point37",
+            "user_link": "https://www.mazdaforum.com/forum/members/point37-90158/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-60 & CX-80",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-60-cx-80-62/",
+          "description": "This Plug-In Hybrid (PHEV) SUV is for folks who want to get out and go off-road while being environmentally friendly!",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 18,
+          "posts": 49,
+          "lastpost": {
+            "title": "New CX-60 Tyres",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-60-cx-80-62/new-cx-60-tyres-54809/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "01:51 AMDec 21, 2024 01:51 AM",
+            "user": "SonjaCook",
+            "user_link": "https://www.mazdaforum.com/forum/members/sonjacook-85719/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda CX-70 & CX-90",
+          "link": "https://www.mazdaforum.com/forum/mazda-cx-70-cx-90-63/",
+          "description": "The new three row SUV from Mazda!",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 25,
+          "posts": 117,
+          "lastpost": {
+            "title": "Car wash issues",
+            "link": "https://www.mazdaforum.com/forum/mazda-cx-70-cx-90-63/car-wash-issues-54118/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "03:34 PMDec 10, 2024 03:34 PM",
+            "user": "AbbyKay96",
+            "user_link": "https://www.mazdaforum.com/forum/members/abbykay96-95047/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda Miata (MX-5)",
+          "link": "https://www.mazdaforum.com/forum/mazda-miata-mx-5-21/",
+          "description": "This compact RWD model, offered with many engines options for those are who want to cruise with the top down in a base model, or hit the track in one of the high performance models, has been a popular model since its introduction.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 987,
+          "posts": 2580,
+          "lastpost": {
+            "title": "Water Leak in Trunk",
+            "link": "https://www.mazdaforum.com/forum/mazda-miata-mx-5-21/water-leak-trunk-40831/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "02:33 PMDec 27, 2024 02:33 PM",
+            "user": "Macman",
+            "user_link": "https://www.mazdaforum.com/forum/members/macman-95366/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda MPV",
+          "link": "https://www.mazdaforum.com/forum/mazda-mpv-17/",
+          "description": "This minivan was among the class leaders with its roomy interior and efficient powertrain.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 1254,
+          "posts": 3565,
+          "lastpost": {
+            "title": "Mazda 2011 MPV 23S 4WD...",
+            "link": "https://www.mazdaforum.com/forum/mazda-mpv-17/mazda-2011-mpv-23s-4wd-activation-54958/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "07:36 AMDec 27, 2024 07:36 AM",
+            "user": "grim_reaper",
+            "user_link": "https://www.mazdaforum.com/forum/members/grim_reaper-49163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda Millenia",
+          "link": "https://www.mazdaforum.com/forum/mazda-millenia-19/",
+          "description": "This sedan, the flagship luxury sedan, offers both a naturally aspirated and supercharged model, so you can have your luxury, and, if you have a need for speed, big horsepower.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 1608,
+          "posts": 5871,
+          "lastpost": {
+            "title": "Mazda 2.3L Miller engine...",
+            "link": "https://www.mazdaforum.com/forum/mazda-millenia-19/mazda-2-3l-miller-engine-supercharger-replacement-29413/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "08:57 PMYesterday 08:57 PM",
+            "user": "buckmx",
+            "user_link": "https://www.mazdaforum.com/forum/members/buckmx-95385/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda Tribute",
+          "link": "https://www.mazdaforum.com/forum/mazda-tribute-22/",
+          "description": "This low-priced SUV allows the driver the versatility of an SUV without the big fuel bill of many of the vehicles in the SUV class.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 1956,
+          "posts": 6730,
+          "lastpost": {
+            "title": "Strut and shock replacement...",
+            "link": "https://www.mazdaforum.com/forum/mazda-tribute-22/strut-shock-replacement-kyb-excel-g-54974/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "10:55 AMDec 22, 2024 10:55 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda 323,Mazda 626 & Mazda 929",
+          "link": "https://www.mazdaforum.com/forum/mazda-323-mazda-626-mazda-929-24/",
+          "description": "Whether the compact 323, the mid sized 626, or the full sized 929, these vehicles remain very popular even though production has stopped.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 3075,
+          "posts": 8539,
+          "lastpost": {
+            "title": "1997 626LX - Malfunction...",
+            "link": "https://www.mazdaforum.com/forum/mazda-323-mazda-626-mazda-929-24/1997-626lx-malfunction-indicator-light-comes-54918/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon5.gif",
+            "date": "03:02 PMDec 20, 2024 03:02 PM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda MX-3 and Mazda MX-6",
+          "link": "https://www.mazdaforum.com/forum/mazda-mx-3-mazda-mx-6-25/",
+          "description": "These two sporty models have become popular cars for import tuners due to the availability of parts, the low price, and the smooth lines.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 761,
+          "posts": 2372,
+          "lastpost": {
+            "title": "Last of the MX-3s",
+            "link": "https://www.mazdaforum.com/forum/mazda-mx-3-mazda-mx-6-25/last-mx-3s-54977/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "01:00 AMDec 23, 2024 01:00 AM",
+            "user": "nolig2278",
+            "user_link": "https://www.mazdaforum.com/forum/members/nolig2278-70806/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda BT 50 & Pickup Trucks",
+          "link": "https://www.mazdaforum.com/forum/mazda-bt-50-pickup-trucks-18/",
+          "description": "While Mazda may not be known for their trucks, they have always produced quality reliable trucks for both hauling cargo, or simply crusing. BT 50",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 2755,
+          "posts": 10210,
+          "lastpost": {
+            "title": "Steering Gear Differences...",
+            "link": "https://www.mazdaforum.com/forum/mazda-bt-50-pickup-trucks-18/steering-gear-differences-1986-89-1990-93-a-55000/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "09:13 PMDec 29, 2024 09:13 PM",
+            "user": "NBailey",
+            "user_link": "https://www.mazdaforum.com/forum/members/nbailey-95380/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda RX-7",
+          "link": "https://www.mazdaforum.com/forum/mazda-rx-7-33/",
+          "description": "Starting in the 1970s, the uniquely powered RX-7 helped put Mazda on the performance car map.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 688,
+          "posts": 2692,
+          "lastpost": {
+            "title": "New FD owner",
+            "link": "https://www.mazdaforum.com/forum/mazda-rx-7-33/new-fd-owner-54068/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon10.gif",
+            "date": "10:57 AMJun 24, 2024 10:57 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda RX-8",
+          "link": "https://www.mazdaforum.com/forum/mazda-rx-8-34/",
+          "description": "This new generation of the famed rotary car offers extra room, with the peformance and feel of performance car.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 510,
+          "posts": 1909,
+          "lastpost": {
+            "title": "Mazda rx8",
+            "link": "https://www.mazdaforum.com/forum/mazda-rx-8-34/mazda-rx8-54777/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "06:51 PMNov 10, 2024 06:51 PM",
+            "user": "Vince k.",
+            "user_link": "https://www.mazdaforum.com/forum/members/vince-k--95025/",
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Show Time",
+      "link": "https://www.mazdaforum.com/forum/show-time-29/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Detailing",
+          "link": "https://www.mazdaforum.com/forum/detailing-41/",
+          "description": "Discuss detailing your ride inside and out here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 62,
+          "posts": 336,
+          "lastpost": {
+            "title": "2020 CX-5 Signature. Slowly...",
+            "link": "https://www.mazdaforum.com/forum/detailing-41/2020-cx-5-signature-slowly-making-mine-54624/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "01:24 AMNov 16, 2024 01:24 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Interior",
+          "link": "https://www.mazdaforum.com/forum/interior-8/",
+          "description": "What have you done to the inside of your ride? Customized it? Kept it super clean? Talk about it here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 56,
+          "posts": 176,
+          "lastpost": {
+            "title": "Tuxmat - send me CX-3 mats...",
+            "link": "https://www.mazdaforum.com/forum/interior-8/tuxmat-send-me-cx-3-mats-my-cx-5-a-53454/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "09:27 AMMar 26, 2024 09:27 AM",
+            "user": "helendenizer",
+            "user_link": "https://www.mazdaforum.com/forum/members/helendenizer-85462/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Wheels, Tires and other Exterior",
+          "link": "https://www.mazdaforum.com/forum/wheels-tires-other-exterior-9/",
+          "description": "Talk about your rims, body kits, and other exterior mods here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 215,
+          "posts": 702,
+          "lastpost": {
+            "title": "All Weather Tires",
+            "link": "https://www.mazdaforum.com/forum/wheels-tires-other-exterior-9/all-weather-tires-54714/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "11:30 AMToday 11:30 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Audio/Visual Electronics",
+          "link": "https://www.mazdaforum.com/forum/audio-visual-electronics-10/",
+          "description": "Wired up? Everyone's got some sort of electrical modification. Let's hear about it here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 281,
+          "posts": 673,
+          "lastpost": {
+            "title": "Loose unknown cable...",
+            "link": "https://www.mazdaforum.com/forum/audio-visual-electronics-10/loose-unknown-cable-identification-54617/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "08:59 PMOct 11, 2024 08:59 PM",
+            "user": "MeB2000",
+            "user_link": "https://www.mazdaforum.com/forum/members/meb2000-23608/",
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Brand Review",
+      "link": "https://www.mazdaforum.com/forum/brand-review-30/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Intake, Headers and Exhaust",
+          "link": "https://www.mazdaforum.com/forum/intake-headers-exhaust-38/",
+          "description": "Custom Exhaust? New Headers? Need Opinions on Intakes? Discuss making your ride breathe better here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 139,
+          "posts": 598,
+          "lastpost": {
+            "title": "In need of a canadian online...",
+            "link": "https://www.mazdaforum.com/forum/intake-headers-exhaust-38/need-canadian-online-aftermarket-parts-store-38911/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon11.gif",
+            "date": "11:06 AMAug 18, 2024 11:06 AM",
+            "user": "winkybil",
+            "user_link": "https://www.mazdaforum.com/forum/members/winkybil-79420/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Electronics, Computer & Fuel Systems",
+          "link": "https://www.mazdaforum.com/forum/electronics-computer-fuel-systems-39/",
+          "description": "Talk about the powertrain control module, fuel systems and delivery, customization and more.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 125,
+          "posts": 311,
+          "lastpost": {
+            "title": "infotainment center screen",
+            "link": "https://www.mazdaforum.com/forum/electronics-computer-fuel-systems-39/infotainment-center-screen-54722/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon8.gif",
+            "date": "01:08 PMOct 30, 2024 01:08 PM",
+            "user": "JoniBonelli",
+            "user_link": "https://www.mazdaforum.com/forum/members/jonibonelli-94942/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Nitrous, Super Chargers, & Turbos",
+          "link": "https://www.mazdaforum.com/forum/nitrous-super-chargers-turbos-11/",
+          "description": "All charged talk about going, and going FAST!",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 59,
+          "posts": 226,
+          "lastpost": {
+            "title": "Spark plug gap",
+            "link": "https://www.mazdaforum.com/forum/nitrous-super-chargers-turbos-11/spark-plug-gap-51746/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon5.gif",
+            "date": "08:27 AMApr 23, 2023 08:27 AM",
+            "user": "itspurru",
+            "user_link": "https://www.mazdaforum.com/forum/members/itspurru-90131/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Suspension",
+          "link": "https://www.mazdaforum.com/forum/suspension-12/",
+          "description": "Is your ride slammed to the ground? Did you lift it so high you need a ladder to get in? Step in and let's talk about it.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 60,
+          "posts": 248,
+          "lastpost": {
+            "title": "Mazda 3 MPS Wheelbearing Kit",
+            "link": "https://www.mazdaforum.com/forum/suspension-12/mazda-3-mps-wheelbearing-kit-42026/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "06:56 PMAug 21, 2024 06:56 PM",
+            "user": "winkybil",
+            "user_link": "https://www.mazdaforum.com/forum/members/winkybil-79420/",
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Racing / Recreational",
+      "link": "https://www.mazdaforum.com/forum/racing-recreational-28/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Street/Strip",
+          "link": "https://www.mazdaforum.com/forum/street-strip-7/",
+          "description": "Raced a guy from a light? Had that ride of yours on the timed track? Tell your story here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 26,
+          "posts": 81,
+          "lastpost": {
+            "title": "Skyactive G block",
+            "link": "https://www.mazdaforum.com/forum/street-strip-7/skyactive-g-block-43113/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "01:40 AMOct 2, 2024 01:40 AM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Off Road",
+          "link": "https://www.mazdaforum.com/forum/off-road-36/",
+          "description": "You go muddin' lately? Share your story... Is that ride of yours a rock climber? Show us in here.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 22,
+          "posts": 71,
+          "lastpost": {
+            "title": "CX5 and offroad?",
+            "link": "https://www.mazdaforum.com/forum/off-road-36/cx5-offroad-55004/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "04:14 AMToday 04:14 AM",
+            "user": "Leszczynski",
+            "user_link": "https://www.mazdaforum.com/forum/members/leszczynski-94001/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Professional Racing",
+          "link": "https://www.mazdaforum.com/forum/professional-racing-37/",
+          "description": "NASCAR, Formula 1, Sprint, Rally &amp; Off Road, SCCA Auto X, Le Mans, Pro Stock, Cart, Drag, IROC, etc.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 74,
+          "posts": 165,
+          "lastpost": {
+            "title": "Mazdas Showed Up to SCCA...",
+            "link": "https://www.mazdaforum.com/forum/professional-racing-37/mazdas-showed-up-scca-champ-tours-big-numbers-theyre-cleaning-up-40168/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "07:06 AMJun 30, 2018 07:06 AM",
+            "user": "mamuzd",
+            "user_link": "https://www.mazdaforum.com/forum/members/mamuzd-58765/",
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mazda Forum Sponsors",
+      "link": "https://www.mazdaforum.com/forum/mazda-forum-sponsors-46/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "UltraRev",
+          "link": "https://www.mazdaforum.com/forum/ultrarev-55/",
+          "description": "This is your one stop shop for all your cars need, including but not limited to, brakes, intakes, clutch kits, suspension upgrades and much, much more.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 38,
+          "posts": 38,
+          "lastpost": {
+            "title": "All DEI Engineering Products...",
+            "link": "https://www.mazdaforum.com/forum/ultrarev-55/all-dei-engineering-products-sale-6%25-off-free-shipping-33107/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "02:34 PMFeb 10, 2014 02:34 PM",
+            "user": "ultrarevvin1",
+            "user_link": "https://www.mazdaforum.com/forum/members/ultrarevvin1-56876/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Vendor 'For Sale' Classifieds",
+          "link": "https://www.mazdaforum.com/forum/vendor-sale-classifieds-14/",
+          "description": "Vendor In Stock Items only (limited to MazdaForum.com vendors only)",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 135,
+          "posts": 210,
+          "lastpost": {
+            "title": "Mx5 na turbo kit mit Tüv?",
+            "link": "https://www.mazdaforum.com/forum/vendor-sale-classifieds-14/mx5-na-turbo-kit-mit-t%FCv-53090/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon4.gif",
+            "date": "04:35 AMDec 11, 2023 04:35 AM",
+            "user": "grim_reaper",
+            "user_link": "https://www.mazdaforum.com/forum/members/grim_reaper-49163/",
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mazda Classifieds",
+      "link": "https://www.mazdaforum.com/forum/mazda-classifieds-31/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "the *new* Mazda Marketplace",
+          "link": "https://www.mazdaforum.com/forum/%2Anew%2A-mazda-marketplace-58/",
+          "description": "Sell, Trade post WTBs for free!",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 184,
+          "posts": 239,
+          "lastpost": {
+            "title": "Free Dongar Dashcam Power...",
+            "link": "https://www.mazdaforum.com/forum/%2Anew%2A-mazda-marketplace-58/free-dongar-dashcam-power-adapter-holiday-gift-54986/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "08:46 AMDec 25, 2024 08:46 AM",
+            "user": "mpv_man",
+            "user_link": "https://www.mazdaforum.com/forum/members/mpv_man-91447/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "OLD - PRIVATE For Sale / Trade Classifieds",
+          "link": "https://www.mazdaforum.com/forum/old-private-sale-trade-classifieds-13/",
+          "description": "Sell or Trade your stuff for free! NO COMMERCIAL posts.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 124,
+          "posts": 223,
+          "lastpost": {
+            "title": "Mazda and misc auto parts 4...",
+            "link": "https://www.mazdaforum.com/forum/old-private-sale-trade-classifieds-13/mazda-misc-auto-parts-4-sale-free-45603/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "12:42 PMMay 13, 2021 12:42 PM",
+            "user": "Callisto",
+            "user_link": "https://www.mazdaforum.com/forum/members/callisto-72163/",
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "OLD - Private 'Wanted' Classifieds",
+          "link": "https://www.mazdaforum.com/forum/old-private-wanted-classifieds-15/",
+          "description": "",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 86,
+          "posts": 143,
+          "lastpost": {
+            "title": "Wanted: 1989 B2200 stock...",
+            "link": "https://www.mazdaforum.com/forum/old-private-wanted-classifieds-15/wanted-1989-b2200-stock-wheels-46113/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "03:18 AMJan 11, 2021 03:18 AM",
+            "user": "Cudaracer",
+            "user_link": "https://www.mazdaforum.com/forum/members/cudaracer-80973/",
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Other",
+      "link": "https://www.mazdaforum.com/forum/other-35/",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://www.mazdaforum.com/forum/images/kirsch/statusicon/forum_old.gif",
+          "title": "Mazda Forum Help & Suggestion Center",
+          "link": "https://www.mazdaforum.com/forum/mazda-forum-help-suggestion-center-16/",
+          "description": "Forum for members experiencing problems with the board or those who have suggestions to make the forum better.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 153,
+          "posts": 422,
+          "lastpost": {
+            "title": "Help required with Mazda 121...",
+            "link": "https://www.mazdaforum.com/forum/mazda-forum-help-suggestion-center-16/help-required-mazda-121-db-bubble-52410/",
+            "icon": "https://www.mazdaforum.com/forum/images/icons/icon1.gif",
+            "date": "10:07 AMMay 14, 2024 10:07 AM",
+            "user": "x_ecutive",
+            "user_link": "https://www.mazdaforum.com/forum/members/x_ecutive-91097/",
+            "avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

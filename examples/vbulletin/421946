@@ -1,0 +1,2397 @@
+{
+  "format_version": "vbulletin-3+-thread",
+  "url": "https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0",
+  "id": 421946,
+  "title": "Starting to be impressed by 5.0",
+  "path": [
+    "Home",
+    "Forum",
+    "vBulletin 5 Connect",
+    "Support Issues & Questions"
+  ],
+  "posts": [
+    {
+      "date": "2012-12-02T07:28:57-08:00",
+      "id": 421946,
+      "title": "<img src=\"https://forum.vbulletin.com/core/images/icons/icon14.png\" width=\"16\" height=\"16\" alt=\"\" /> Starting to be impressed by 5.0",
+      "content": "I know I have been critical recently about 5.0, but I am starting to come around. I was able to get a test forum up quite easily after trying everything and failing with earlier versions. I like some of the new features and it seems MUCH quicker now. Keep up the good work guys!",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-02T08:31:34-08:00",
+      "id": 3631610,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0#post421946\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">I know I have been critical recently about 5.0, but I am starting to come around. I was able to get a test forum up quite easily after trying everything and failing with earlier versions. I like some of the new features and it seems MUCH quicker now. Keep up the good work guys!</div> </div> </div> </div>Thanks for your feedback.<br /> <br /> I agree, once you start to get into vB5, you start to notice it has some really nice features. The speed is also still being worked on, (amongst many other things) so expect this to improve further.",
+      "signature": "<b>MARK.B</b><br /> vBulletin Support<br /> ------------<br /> My Unofficial vBulletin 6.0.0 Demo: <a href=\"https://www.talknewsuk.com\" target=\"_blank\">https://www.talknewsuk.com</a><br /> My Unofficial vBulletin Cloud Demo: <a href=\"https://www.adminammo.com\" target=\"_blank\">https://www.adminammo.com</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/42906-mark-b",
+        "name": "Mark.B",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar42906_30.png",
+        "title": "vBulletin Support",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "24326"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.0.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-05T06:34:45-08:00",
+      "id": 3635837,
+      "title": "",
+      "content": "Top of my head....just from day to day use:<br /> <br /> Site Builder! Huge, huge game changer for the forum market this. And this one in itself has about a dozen features inside it that I love, eg navbar manager, building custom page, adding widgets. There's four features just out of that)<br /> The photo features<br /> Ability to attach links<br /> Floaty bar (bit of a love/hate one that I will admit)<br /> Individual activity streams (eg Forums, topics, etc)",
+      "signature": "<b>MARK.B</b><br /> vBulletin Support<br /> ------------<br /> My Unofficial vBulletin 6.0.0 Demo: <a href=\"https://www.talknewsuk.com\" target=\"_blank\">https://www.talknewsuk.com</a><br /> My Unofficial vBulletin Cloud Demo: <a href=\"https://www.adminammo.com\" target=\"_blank\">https://www.adminammo.com</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/42906-mark-b",
+        "name": "Mark.B",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar42906_30.png",
+        "title": "vBulletin Support",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "24326"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.0.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-05T11:13:12-08:00",
+      "id": 3635903,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Mark.B</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3635837#post3635837\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">The photo features</div> </div> </div> </div>It's gone:<br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> No photos found or this post has been deleted. Try reloading the page. </div> </div> </div>",
+      "signature": "<hr /><br /> vB5 is unequivocally the best forum software, but not yet...",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/98826-beishe8",
+        "name": "beishe8",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzY2YTJiYicgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QjwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Oct 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "6782"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-05T11:17:56-08:00",
+      "id": 3635906,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>beishe8</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3635903#post3635903\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">It's gone:</div> </div> </div> </div>I mean the way photos are handled and given prominence generally, not what was specifically created for the demo, though that was a good showcase as well. Wayne said there were some issues with it relating to an earlier upgrade I think.<br /> <br /> My feelings on vB5 are genuine, having played with it. It is a true attempt at taking the somewhat stale forum software platform and trying to be a bit different, while still providing end user familiarity. The power of some features will possibly be realised more as the product matures.<br /> <br /> What we did NOT need in vB5, in my humble opinion, was &quot;here's another forum, nice new style, but basically looks and functions just like all the others&quot;.",
+      "signature": "<b>MARK.B</b><br /> vBulletin Support<br /> ------------<br /> My Unofficial vBulletin 6.0.0 Demo: <a href=\"https://www.talknewsuk.com\" target=\"_blank\">https://www.talknewsuk.com</a><br /> My Unofficial vBulletin Cloud Demo: <a href=\"https://www.adminammo.com\" target=\"_blank\">https://www.adminammo.com</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/42906-mark-b",
+        "name": "Mark.B",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar42906_30.png",
+        "title": "vBulletin Support",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "24326"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.0.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-05T15:38:27-08:00",
+      "id": 3635986,
+      "title": "",
+      "content": "Scott I get that you're not that impressed with vBulletin 5 Connect, and that's fine. really, I'm not out to convert anyone. I'm certainly not claiming it's perfect and in any event it's not out of beta yet.<br /> I do think that it shows great promise, and I do quite enjoy using it on my own live &quot;demo&quot; site. I tweaked the style a bit and I think what I have looks pretty smart. In short, I rather like it and when it goes Gold you can be sure I'll recommend it to people.<br /> <br /> If I didn't like it I'd be quite happy to admit it wasn't really my cup of tea.",
+      "signature": "<b>MARK.B</b><br /> vBulletin Support<br /> ------------<br /> My Unofficial vBulletin 6.0.0 Demo: <a href=\"https://www.talknewsuk.com\" target=\"_blank\">https://www.talknewsuk.com</a><br /> My Unofficial vBulletin Cloud Demo: <a href=\"https://www.adminammo.com\" target=\"_blank\">https://www.adminammo.com</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/42906-mark-b",
+        "name": "Mark.B",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar42906_30.png",
+        "title": "vBulletin Support",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "24326"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.0.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-05T17:32:40-08:00",
+      "id": 3636027,
+      "title": "",
+      "content": "Alot of Issues to Work On<br /> <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0#post421946\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">I know I have been critical recently about 5.0, but I am starting to come around. I was able to get a test forum up quite easily after trying everything and failing with earlier versions. I like some of the new features and it seems MUCH quicker now. Keep up the good work guys!</div> </div> </div> </div>I like the interface and better control over the layout as compared to earlier versions. But it ends there. <br /> <br /> 1) Unable to attach any other document other than image file.<br /> 2) Creating a page and forum is easy. I agree. Changing them messes up somehow. For example, I changed domain.com/main-forum to domain.com/general-forum. The name is changed. Then I changed my mind and switched back to Main Forum. What happens is that Main Forum still points to domain.com/general-forum. <br /> 3) Same for page. I created a page and changed the name. Later when I changed back, it keeps redirecting back to the old page. For example, created a page called &quot;terms&quot; and later change to &quot;privacy&quot;, then later back to &quot;terms&quot; again, the domain.com/terms point to domain.com/privacy? with some cache issue.<br /> 4) Unable to delete any new custom module created. That becomes an eyesore.<br /> 5) No category listing on the side bar. Try creating 10 blogs (categories) and they all appear at the submenu (below top menu). Are they going to be 2 or 3 lines to accommodate this? Still waiting for the category side bar module to be available. The workaround is to add ourselves to the navigation menu now. <br /> 6) If you assign someone with full admin rights, he still be be assiged role as a Blog Moderator before he can create a new blog. This is funny, as I thought the Administrator has all the rights. <br /> <br /> It isn't as smooth, but I think it is in the right direction and that is why it is still in beta. I really hope the development can catchup asap as I am not testing it but trying on a new site.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/91538-acerath",
+        "name": "Acerath",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzRlYmJiOCcgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QTwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "New Member",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "25"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T09:43:20-08:00",
+      "id": 3636204,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Mark.B</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3635837#post3635837\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Top of my head....just from day to day use:<br /> <br /> Site Builder! Huge, huge game changer for the forum market this. And this one in itself has about a dozen features inside it that I love, eg navbar manager, building custom page, adding widgets. There's four features just out of that)<br /> The photo features<br /> Ability to attach links<br /> Floaty bar (bit of a love/hate one that I will admit)<br /> Individual activity streams (eg Forums, topics, etc)</div> </div> </div> </div>I don't care what is under the hood. As a visitor I still see just a very limited, raw forum with no CMS and blogs, no photo and video galleries. No gadgets at all. Remember - website is for VISITORS - not for owners.<br /> You have to make VB5 TRENDY - gadgets first - forum later.",
+      "signature": "<a href=\"http://www.wood-furniture.biz/forums/\" target=\"_blank\">www.wood-furniture.biz/forums/</a>",
+      "edited": {
+        "userid": 373532,
+        "user_link": "https://forum.vbulletin.com/member/373532-waldvb",
+        "user": "waldvb",
+        "date": ".  Thu 6 Dec '12, 9:51am"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/373532-waldvb",
+        "name": "waldvb",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2Q5NjQ1ZScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+VzwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Apr 2012"
+          },
+          {
+            "key": "Posts:",
+            "value": "115"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T12:18:59-08:00",
+      "id": 3636233,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>waldvb</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636204#post3636204\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">You have to make VB5 TRENDY - gadgets first - forum later.</div> </div> </div> </div>Forum later? On a peice of community software that is traditionally known for being forum software. Seriously?",
+      "signature": "<a href=\"http://www.husky-owners.com/forum/index.php?referrerid=1\" target=\"_blank\">Husky Owners Forum - For all Siberian Husky Owners</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/70992-soniceffect",
+        "name": "soniceffect",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar70992_2.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "938"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T12:46:49-08:00",
+      "id": 3636247,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>soniceffect</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636233#post3636233\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Forum later? On a peice of community software that is traditionally known for being forum software. Seriously?</div> </div> </div> </div><br /> Disagree. Today - forum should be just a PART of something bigger. They added CMS and Blogs to VB4 (This is why I bought VB4). But this is not enough. If VB5 will be same like VB4 - just CMS, forums and no real Blogs - (with a new engine under the hood) - it can be a huge failure.",
+      "signature": "<a href=\"http://www.wood-furniture.biz/forums/\" target=\"_blank\">www.wood-furniture.biz/forums/</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/373532-waldvb",
+        "name": "waldvb",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2Q5NjQ1ZScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+VzwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Apr 2012"
+          },
+          {
+            "key": "Posts:",
+            "value": "115"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T12:48:52-08:00",
+      "id": 3636248,
+      "title": "",
+      "content": "Let me guess, you don't know what you mean with &quot;bigger&quot; exactly?",
+      "signature": "<u>.......</u>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [
+        {
+          "type": "👍",
+          "count": 1
+        }
+      ],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/92572-ramsesx",
+        "name": "Ramsesx",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar92572_11.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "3254"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T12:58:47-08:00",
+      "id": 3636253,
+      "title": "",
+      "content": "Unfortunately I still find vbulletin 5 depressing as hell. I check it regularly in the hope to find some dramatic change and improvements. <br /> <br /> At this rate I sure hope that vb5 Gold is not released within 12 months from now, but I'm sure it will.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [
+        {
+          "type": "👍",
+          "count": 1
+        }
+      ],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T13:54:55-08:00",
+      "id": 3636275,
+      "title": "",
+      "content": "Starting to be impressed by 5.0<br /> <br /> It's missing a wow factor to me. At this rate ill be waiting for a CMS for at least another 6-8 months if not more and not a few weeks after gold<br /> <br /> Some wow factors I'm looking for;<br /> Media gallery (video, audio, picture)<br /> New improve search <br /> New improve CMS <br /> New improve blogs <br /> Improve notification system <br /> Improve profile (social media like)<br /> Improve profile visitor message (conversation style) <br /> Facebook and twitter integration in CMS <br /> <br /> To name a few <br /> <br /> To me the default skin is so plane like if I get vb5 I would have to get a new skin. At least the speed of the vb5 improved and a lot of bugs being squashed.",
+      "signature": "",
+      "edited": {
+        "userid": 285597,
+        "user_link": "https://forum.vbulletin.com/member/285597-rexxxy",
+        "user": "rexxxy",
+        "date": ".  Thu 6 Dec '12, 2:18pm"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/285597-rexxxy",
+        "name": "rexxxy",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar285597_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "564"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T14:21:30-08:00",
+      "id": 3636287,
+      "title": "",
+      "content": "Like Scott I'm only impressed by the picture feature and the avatars shown in the forum or thread view.<br /> What I don't like:<br /> - the fonts are blurry<br /> - all the missing features from vB4<br /> - the floaty bar, I don't like stuff on a website moving up and down and b.t.w. doesn't work on all browsers<br /> - the new notification system, it's really stupid having to go on another page to view what happened and see notifications like &quot;xx commented on xy's reply (Untitled)&quot; or &quot;This notification is no longer relevant&quot;, an implementation like xenforo has done should be at least the measure for this function. Even the vB4 notification system is better.<br /> - posting is more difficult and in some parts confusing<br /> - the grayish coloring, looks all the same",
+      "signature": "<u>.......</u>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/92572-ramsesx",
+        "name": "Ramsesx",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar92572_11.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "3254"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T15:01:28-08:00",
+      "id": 3636294,
+      "title": "",
+      "content": "Like others, I keep checking the progress of VB5 in hopes of being impressed. Unfortunately, beta or not, I'm still not that impressed as I hoped I'd be...sorry.<br /> <br /> Maybe my expectations are just too high for IP/VB to achieve. Maybe I just expect VB5 <u><i>BETA</i></u> to not only have what previous versions have, but then some as well. Isn't the point of major releases to be a step up from previous versions while including current features with enhancements and added functionality?<br /> <br /> I'm still trying to find great features in VB5 compared to it's competitors and it's previous versions. Content sharing is one. Maybe some of the VB5 fans or staff can help.<br /> <b>What are the biggest differences in the following (<i><u><span style=\"color:#ff0000\">not</span> counting the obvious costs, developers, unofficial addons, &amp; technology used</u></i>):</b><br /> <br /> <b>VB3.8 vs VB5?</b> What features does VB5 have that VB3.8 lacks? What features does VB3.8 have that VB5 lacks? IMHO, VB3.8 has the best <u>features</u> of any VB version to date. If only we could have enhanced those features for end users as suggested over the years in the suggestion forum. Some would argue otherwise or point to VB4.x.<br /> <br /> <b>VB4.x vs VB5?</b> What features does VB5 have that VB4.x lacks? What features does VB4.x have that VB5 lacks?<br /> <br /> <b>IPB3.4 (plus official addons) vs VB5?</b> What features does VB5 have that IPB3.4 lacks? What features does IPB3.4 have that VB5 lacks?<br /> <br /> <b>XF vs VB5?</b> What features does VB5 have that XF lacks? What features does XF have that VB5 lacks?<br /> <br /> <b>Woltlab BB (plus official addons) vs VB5?</b> What features does VB5 have that Woltlab lacks? What features does Woltlab have that VB5 lacks?<br /> <br /> <b>All the free &amp; hosted forum community scripts vs VB5?</b> What features does VB5 have that the free &amp; hosted forum community scripts lack? What features does the free &amp; hosted forum community scripts have that VB5 lacks?<br /> <br /> I guess I'm looking for reasons to be impressed and/or reasons why I'm not so impressed. The BETA excuse means nothing to me, so please don't throw that one. Beta, in short, normally means feature locked and ready for mass testing before becoming stable...IMHO.<br /> <br /> Thank you and have a splendid week*",
+      "signature": "<span style=\"font-size:8px\">Archive: <a href=\"http://www.vbulletin.com/forum/showthread.php?323748-Personalized-User-Entrance-Page\" target=\"_blank\">1</a> ~ <a href=\"http://www.vbulletin.com/forum/showthread.php?323595-Smilies-Display-Organization&amp;p=1828224\" target=\"_blank\">2</a> ETC in the feedback forums that were closed.</span>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/64784-calliejo",
+        "name": "CallieJo",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar64784_6.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "590"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T15:38:16-08:00",
+      "id": 3636300,
+      "title": "",
+      "content": "If you are going to compare vb5, then it would be useful to compare to <a href=\"http://www.phpfox.com/\" target=\"_blank\">phpfox</a> as well, as PHPFox looks very similar to what vb5 seems to be aiming for. Except that PHPFox actually looks as polished as I would wish vbulletin would be.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [
+        {
+          "type": "👍",
+          "count": 1
+        }
+      ],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T15:54:38-08:00",
+      "id": 3636301,
+      "title": "",
+      "content": "If VB is aiming for something like PHPFox, then they've fallen short in a big way<br /> I've tested both and VB5 is inferior compared to PHPFox, and before someone says &quot;But VB5 is beta!&quot;, it may well be, but at this late stage in the development, it's more like an alpha/proof of concept than anything and has a long way to go, before it should be released...if at all at this rate.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [
+        {
+          "type": "👍",
+          "count": 1
+        }
+      ],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/22643-deimos",
+        "name": "Deimos",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzc2OWRhYycgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+RDwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Oct 2002"
+          },
+          {
+            "key": "Posts:",
+            "value": "1517"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T15:54:52-08:00",
+      "id": 3636302,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636300#post3636300\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">If you are going to compare vb5, then it would be useful to compare to <a href=\"http://www.phpfox.com/\" target=\"_blank\">phpfox</a> as well, as PHPFox looks very similar to what vb5 seems to be aiming for. Except that PHPFox actually looks as polished as I would wish vbulletin would be.</div> </div> </div> </div>I agree. You are correct that VB5 seems to be aiming for similar community setups. So, let's expand the questions.<br /> <br /> <b>What are the biggest differences in the following (<u><i><span style=\"color:#b22222\">not</span> counting the obvious costs, developers, unofficial addons, &amp; technology used</i></u>):</b><br /> <br /> <b>PHPFox vs VB5?</b> What features does VB5 have that PHPFox lacks? What features does PHPFox have that VB5 lacks?<br /> <br /> <b>SocialEngine vs VB5?</b> What features does VB5 have that SocialEngine lacks? What features does SocialEngine have that VB5 lacks?<br /> <br /> <b>JomSocial (with Joomla) vs VB5?</b> What features does VB5 have that JomSocial lacks? What features does JomSocial have that VB5 lacks?<br /> <br /> <b>BuddyPress (with BBPress &amp; WP) vs VB5?</b> What features does VB5 have that BuddyPress lacks? What features does BuddyPress have that VB5 lacks?<br /> <br /> <b>VB3.8 vs VB5?</b> What features does VB5 have that VB3.8 lacks? What features does VB3.8 have that VB5 lacks? IMHO, VB3.8 has the best <u>features</u> of any VB version to date. If only we could have enhanced those features for end users as suggested over the years in the suggestion forum. Some would argue otherwise or point to VB4.x.<br /> <br /> <b>VB4.x vs VB5?</b> What features does VB5 have that VB4.x lacks? What features does VB4.x have that VB5 lacks?<br /> <br /> <b>IPB3.4 (plus official addons) vs VB5?</b> What features does VB5 have that IPB3.4 lacks? What features does IPB3.4 have that VB5 lacks?<br /> <br /> <b>XF vs VB5?</b> What features does VB5 have that XF lacks? What features does XF have that VB5 lacks?<br /> <br /> <b>Woltlab BB (plus official addons) vs VB5?</b> What features does VB5 have that Woltlab lacks? What features does Woltlab have that VB5 lacks?<br /> <br /> <b>All the free &amp; hosted forum community scripts vs VB5?</b> What features does VB5 have that the free &amp; hosted forum community scripts lack? What features does the free &amp; hosted forum community scripts have that VB5 lacks?<br /> <br /> I guess I'm looking for reasons to be impressed and/or reasons why I'm not so impressed. The BETA excuse means nothing to me, so please don't throw that one. Beta, in short, normally means feature locked and ready for mass testing before becoming stable...IMHO.<br /> <br /> Thank you and have a splendid week*",
+      "signature": "<span style=\"font-size:8px\">Archive: <a href=\"http://www.vbulletin.com/forum/showthread.php?323748-Personalized-User-Entrance-Page\" target=\"_blank\">1</a> ~ <a href=\"http://www.vbulletin.com/forum/showthread.php?323595-Smilies-Display-Organization&amp;p=1828224\" target=\"_blank\">2</a> ETC in the feedback forums that were closed.</span>",
+      "edited": {
+        "userid": 64784,
+        "user_link": "https://forum.vbulletin.com/member/64784-calliejo",
+        "user": "CallieJo",
+        "date": ".  Thu 6 Dec '12, 4:02pm"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/64784-calliejo",
+        "name": "CallieJo",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar64784_6.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "590"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T18:39:05-08:00",
+      "id": 3636326,
+      "title": "",
+      "content": "Agree, installed, loaded, tested, failed and unpresentable. At least the wordpress+buddypress will have me focusing on running the site than taking care of 100s of checkboxes and figuring how to get a simple thing done.<br /> <br /> imho it seemed to be an improved wrapper over the old engine in the back.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/91538-acerath",
+        "name": "Acerath",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzRlYmJiOCcgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+QTwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "New Member",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "25"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-06T19:19:36-08:00",
+      "id": 3636330,
+      "title": "",
+      "content": "Has anyone knowledge of how the site fears with server processor resource and impact of changing over with have with search engines?",
+      "signature": "<a href=\"http://www.holidayhotelforum.com\" target=\"_blank\">Holiday Forum</a><br /> <a href=\"http://www.motorcarforum.com\" target=\"_blank\">Motor Car Forum</a><br /> <a href=\"http://www.politic.co.uk\" target=\"_blank\">Political Forum</a><br /> <a href=\"http://www.webhostingcongress.com\" target=\"_blank\">Web Hosting Forum</a><a href=\"http://www.forum4fashion.com\" target=\"_blank\"><br /> </a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/187279-stevectaylor",
+        "name": "stevectaylor",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2M5YjE5ZScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+UzwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2007"
+          },
+          {
+            "key": "Posts:",
+            "value": "380"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.6.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-07T03:55:31-08:00",
+      "id": 3636361,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>stevectaylor</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636330#post3636330\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Has anyone knowledge of how the site fears with server processor resource and impact of changing over with have with search engines?</div> </div> </div> </div>Its hard to say anything about resources but as it is atm, it doesn't look scalable. That may change in the future.<br /> All urls are changed, so it remains to be seen if search engines will successfully reindex pages. Since all urls change, you would likely loose inbound link juice.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-07T09:36:59-08:00",
+      "id": 3636406,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636361#post3636361\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Its hard to say anything about resources but as it is atm, it doesn't look scalable. That may change in the future.</div> </div> </div> </div>We're doing heavy siege testing of the system and it holds up well. Though improvements are still being made. Changes were made to accommodate millions of posts in a single forum channel. For example as a result of the Siege testing, one query that took 2.7 seconds with millions of posts in a forum channel was changed and now takes 0.07 seconds. More changes are underway.<br /> <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> All urls are changed, so it remains to be seen if search engines will successfully reindex pages. Since all urls change, you would likely loose inbound link juice. </div> </div> </div>If you use vBulletin's linking system and not an addon link vBSEO, your inbound links will continue to work and be redirected to the new URLs.",
+      "signature": "<span style=\"color:#FF0000\"><span style=\"font-size:10px\"><span style=\"font-family:lucida sans unicode\">Translations provided by Google.</span></span></span> <hr /><br /> <span style=\"color:#0000ff\"><span style=\"font-size:14px\"><span style=\"font-family:lucida sans unicode\">Wayne Luke</span></span></span><br /> <a href=\"http://forums.rabidbadger.io\" target=\"_blank\">The Rabid Badger</a> - a vBulletin Cloud demonstration site.<br /> <a href=\"http://vb5support.com/api\" target=\"_blank\">vBulletin 5 API</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/868-wayne-luke",
+        "name": "Wayne Luke",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar868_18.png",
+        "title": "vBulletin Technical Support Lead",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2000"
+          },
+          {
+            "key": "Posts:",
+            "value": "75350"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-07T10:18:30-08:00",
+      "id": 3636417,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>s.molinari</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636303#post3636303\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">@CallieJoe - I don't think the completely right thing to ask is what features are lacking. Although, lacking features is an important issue for a comparison. But the better question is, what is better in vB5 than the rest? vB could have some lacking features and still have some special new stuff that makes it stand out and the good of those few &quot;new things&quot; could outweigh any lacking features. Unfortunately, that just isn't the case. <br /> <br /> Scott</div> </div> </div> </div>You are correct, Scott. I was indeed looking for someone to point out what is infact better in VB5 than the rest and what those better things are since I'm not able to see them myself. I'd like nothing more than to love VB again. Unfortunately, I don't see that happening atm. I guess my expectations of what VB5 was going to be were too high.<br /> <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Acerath</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636326#post3636326\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Agree, installed, loaded, tested, failed and unpresentable. At least the wordpress+buddypress will have me focusing on running the site than taking care of 100s of checkboxes and figuring how to get a simple thing done.<br /> <br /> imho it seemed to be an improved wrapper over the old engine in the back.</div> </div> </div> </div>WP &amp; BP are a nice setup together and easier on an admin. I wish you much success.",
+      "signature": "<span style=\"font-size:8px\">Archive: <a href=\"http://www.vbulletin.com/forum/showthread.php?323748-Personalized-User-Entrance-Page\" target=\"_blank\">1</a> ~ <a href=\"http://www.vbulletin.com/forum/showthread.php?323595-Smilies-Display-Organization&amp;p=1828224\" target=\"_blank\">2</a> ETC in the feedback forums that were closed.</span>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/64784-calliejo",
+        "name": "CallieJo",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar64784_6.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "590"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-07T12:06:52-08:00",
+      "id": 3636458,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Wayne Luke</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636406#post3636406\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">If you use vBulletin's linking system and not an addon link vBSEO, your inbound links will continue to work and be redirected to the new URLs.</div> </div> </div> </div>Those redirects need to be 301 redirects and will need to be kept active forever. And even then it remains to be seen if the link juice will be the same after the conversion.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-07T12:20:22-08:00",
+      "id": 3636461,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636458#post3636458\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Those redirects need to be 301 redirects and will need to be kept active forever. And even then it remains to be seen if the link juice will be the same after the conversion.</div> </div> </div> </div>They are supposed to be 301 Redirects and the Routes will be kept unless the user deletes them directly from the database.",
+      "signature": "<span style=\"color:#FF0000\"><span style=\"font-size:10px\"><span style=\"font-family:lucida sans unicode\">Translations provided by Google.</span></span></span> <hr /><br /> <span style=\"color:#0000ff\"><span style=\"font-size:14px\"><span style=\"font-family:lucida sans unicode\">Wayne Luke</span></span></span><br /> <a href=\"http://forums.rabidbadger.io\" target=\"_blank\">The Rabid Badger</a> - a vBulletin Cloud demonstration site.<br /> <a href=\"http://vb5support.com/api\" target=\"_blank\">vBulletin 5 API</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/868-wayne-luke",
+        "name": "Wayne Luke",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar868_18.png",
+        "title": "vBulletin Technical Support Lead",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2000"
+          },
+          {
+            "key": "Posts:",
+            "value": "75350"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-07T12:28:40-08:00",
+      "id": 3636468,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636361#post3636361\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Its hard to say anything about resources but as it is atm, it doesn't look scalable. That may change in the future.</div> </div> </div> </div>Can honestly say this is one thing I am quite supprised with. On VB4 the difference in performance between a forum with 10 posts and one with a few 100k posts is quite different. However on vb5 this doesnt seem to be the case. I know the upgrades on my site seem to show marginal difference between an empty forum and one with 750k posts in it. Dont get me wrong its still not fast enough for my liking (although a million times better than it has been), but it is showing promise bit by bit. <br /> <br /> I'm kinda of the opinion that as long as it seems to be moving forward I will move mine over eventually and if it continues at current rate I cant see eventually being a long way off either. Doesnt seem like it at the moment granted, but the simple math says that with so many bug fixes per beta release the count is coming down fast. Still got a few of my bugbares to fix yet mind <img src=\"https://forum.vbulletin.com/core/images/smilies/tongue.png\" border=\"0\" alt=\"\" title=\"stick out tongue\" smilieid=\"6\" class=\"inlineimg\" /> LOL",
+      "signature": "<a href=\"http://www.husky-owners.com/forum/index.php?referrerid=1\" target=\"_blank\">Husky Owners Forum - For all Siberian Husky Owners</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/70992-soniceffect",
+        "name": "soniceffect",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar70992_2.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "938"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-08T10:12:03-08:00",
+      "id": 3636626,
+      "title": "",
+      "content": "I must admit to now becoming around to thinking about upgrading our largest forum only for the moment but might hold off to see if another discount code is available until Gold.",
+      "signature": "<a href=\"http://www.holidayhotelforum.com\" target=\"_blank\">Holiday Forum</a><br /> <a href=\"http://www.motorcarforum.com\" target=\"_blank\">Motor Car Forum</a><br /> <a href=\"http://www.politic.co.uk\" target=\"_blank\">Political Forum</a><br /> <a href=\"http://www.webhostingcongress.com\" target=\"_blank\">Web Hosting Forum</a><a href=\"http://www.forum4fashion.com\" target=\"_blank\"><br /> </a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/187279-stevectaylor",
+        "name": "stevectaylor",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2M5YjE5ZScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+UzwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2007"
+          },
+          {
+            "key": "Posts:",
+            "value": "380"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.6.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-08T13:00:31-08:00",
+      "id": 3636650,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Wayne Luke</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636406#post3636406\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">We're doing heavy siege testing of the system and it holds up well. Though improvements are still being made. Changes were made to accommodate millions of posts in a single forum channel. For example as a result of the Siege testing, one query that took 2.7 seconds with millions of posts in a forum channel was changed and now takes 0.07 seconds. More changes are underway.</div> </div> </div> </div> Actually, query dropped from 7.5 seconds to 0.0067 - definitely more improvements on the way <img src=\"https://forum.vbulletin.com/core/images/smilies/biggrin.png\" border=\"0\" alt=\"\" title=\"big grin\" smilieid=\"4\" class=\"inlineimg\" />",
+      "signature": "<b>::</b> Always <b>Back Up</b> Forum Database + Attachments <u><b>BEFORE</b></u> upgrading !<br /> <b>::</b> <b>Nginx SPDY SSL</b> - <a href=\"https://spdy.centminmod.com/flags.html\" target=\"_blank\">World Flags Demo</a> [<a href=\"https://spdy.centminmod.com/spdytest.html\" target=\"_blank\">video results</a>]<br /> <span style=\"color:#141414\"><span style=\"font-family:Georgia\">:: </span></span><a href=\"http://vbtechsupport.com/2355/\" target=\"_blank\">vBulletin hacked forums: Clean Up Guide</a> for VPS/Dedicated hosting users [ <a href=\"http://www.vbulletin.com/forum/blogs/vbulletin-cleaning-up-hacked-forums/3999583-how-to-clean-up-hacked-vbulletin-forums-for-vps-dedicated-hosting-ssh-users\" target=\"_blank\">vbulletin.com blog summary</a> ]",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/245-george-l",
+        "name": "George L",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nI2Q5NjlhMScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+RzwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Former vBulletin Support",
+        "rank": 4,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "May 2000"
+          },
+          {
+            "key": "Posts:",
+            "value": "32996"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-09T00:35:32-08:00",
+      "id": 3636716,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>George L</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636650#post3636650\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Actually, query dropped from 7.5 seconds to 0.0067 - definitely more improvements on the way <img src=\"https://forum.vbulletin.com/core/images/smilies/biggrin.png\" border=\"0\" alt=\"\" title=\"big grin\" smilieid=\"4\" class=\"inlineimg\" /></div> </div> </div> </div>Brilliant. Lets hope they do.",
+      "signature": "Selling my BigBoard GamerzNeeds.net/forums Threads: 193 502, Posts: 1 540 045, Members: 718 566 It is listed here <a href=\"http://forums.digitalpoint.com/showthread.php?t=2608653#post18297060\" target=\"_blank\">http://forums.digitalpoint.com/showt...3#post18297060</a><br /> <a href=\"http://www.buy-host.com/forums\" target=\"_blank\"><br /> </a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/89482-hornstar6969",
+        "name": "hornstar6969",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar89482_3.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "1818"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-10T00:52:55-08:00",
+      "id": 3636869,
+      "title": "",
+      "content": "The most important for users is the attractive style. I hope you will consider it in the new release.<br /> <br /> Regards,",
+      "signature": "<a href=\"http://www.vbulletin.com/forum/filedata/fetch?filedataid=63608\" target=\"_blank\">http://www.vbulletin.com/forum/filed...ledataid=63608</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/2766-sandrose",
+        "name": "sandrose",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar2766_10.png",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2001"
+          },
+          {
+            "key": "Posts:",
+            "value": "389"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "5.0.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-10T02:08:01-08:00",
+      "id": 3636875,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>sandrose</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636869#post3636869\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">The most important for users is the attractive style. I hope you will consider it in the new release.<br /> <br /> Regards,</div> </div> </div> </div>I have actually been playin with stying vb5 and find in nice to style. I know a few others have been doing the same. Still problems with too much css etc however thats been dropping with each release",
+      "signature": "<a href=\"http://www.husky-owners.com/forum/index.php?referrerid=1\" target=\"_blank\">Husky Owners Forum - For all Siberian Husky Owners</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/70992-soniceffect",
+        "name": "soniceffect",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar70992_2.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "938"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-10T22:15:12-08:00",
+      "id": 3637026,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>soniceffect</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636875#post3636875\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">I have actually been playin with stying vb5 and find in nice to style. I know a few others have been doing the same. Still problems with too much css etc however thats been dropping with each release</div> </div> </div> </div>I agree 100% and expecting to be MORE designer friendly in couple of months.<img src=\"https://forum.vbulletin.com/core/images/smilies/smile.png\" border=\"0\" alt=\"\" title=\"smile\" smilieid=\"1\" class=\"inlineimg\" />",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [
+        {
+          "type": "👍",
+          "count": 1
+        }
+      ],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/85376-miner",
+        "name": "miner",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar85376_10.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jun 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "263"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-22T05:35:58-08:00",
+      "id": 3639486,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636300#post3636300\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">If you are going to compare vb5, then it would be useful to compare to <a href=\"http://www.phpfox.com/\" target=\"_blank\">phpfox</a> as well, as PHPFox looks very similar to what vb5 seems to be aiming for. Except that PHPFox actually looks as polished as I would wish vbulletin would be.</div> </div> </div> </div>Yeah, and $98 per year for updates. That is stupid. Anyone that would leave VB for that should have their head examined. Oh and don't forget the best mod writers around with VB.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-22T10:11:43-08:00",
+      "id": 3639523,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3639486#post3639486\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Yeah, and $98 per year for updates. That is stupid. Anyone that would leave VB for that should have their head examined.</div> </div> </div> </div>That's a whole of a lot better than no yearly fee and no major functionality updates for 2.5 years, struggling with thousands of bugs for years, staff going silent for many months. I hope that history does not repeat itself with vb5.<br /> <br /> I'll opt for a yearly fee any time.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-22T20:54:31-08:00",
+      "id": 3639603,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3639523#post3639523\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">That's a whole of a lot better than no yearly fee and no major functionality updates for 2.5 years, struggling with thousands of bugs for years, staff going silent for many months. I hope that history does not repeat itself with vb5.<br /> <br /> I'll opt for a yearly fee any time.</div> </div> </div> </div>Then why are you hanging around here since you think the facebook clone is better? As for me, I have 4.2 working just fine. I purchased the upgrade to 5.0. I am in no hurry to switch. If it takes 2 years, no problem, I have software that is working just fine until 5.0 is working up to where I think it is a better option than what I currently have. I don't care if it takes 5 years, like I said, I am in no hurry.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-23T08:20:40-08:00",
+      "id": 3639661,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3639603#post3639603\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Then why are you hanging around here since you think the facebook clone is better?</div> </div> </div> </div>My statement referred to yearly fees. This post explains pretty well why I am already half way out the door:<br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/418400-i-m-sorry-i-just-don-t-like-this?p=3614142#post3614142\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">The past with vb4 already showed that there was reason to be very cautious with my expectations for vb5. My big board has not been upgraded for 5 years. I never upgraded my big board from vb3.8 to vb4, because only 3 years after release of 'vb4 gold' and after thousands of bugs were fixed I consider 4.2 as gold. vb4.2 would be a viable foundation to build upon if there would be several years of active development by IB coming. A major upgrade costs me 6 months of rewriting addons. Unfortunately, now that it has a reasonable state with only 850 bugs, its basically pronounced dead by the focus on vb5. Therefore after 3 years of waiting for vb4 to be fixed, vb4 is still not a viable upgrade for my needs. So the focus is on vb5.<br /> <br /> <br /> The information given before the release of the beta certainly gave reason to be hopeful and even excited. <br /> <br /> I think there are a lot of good ideas in vb5, including:<br /> <ol class=\"decimal\"><li>Everything API, so that it becomes easy to replace or modify much of the front end.</li> <li>Site builder</li> <li>Modules/apps</li> <li>Shift from forum oriented to content type oriented. (as this allows custom content types and improvement of blog, groups, etc)</li> <li>Replacing the vastly outdated vb4 styling</li> <li>Updating to modern technology, including jquery, php5.4, CSS3, html5, etc. </li> </ol><br /> <br /> These 6 points above are gold in my opinion and if executed well are very good reasons to upgrade to vb5.<br /> <br /> <br /> Then the 'beta' came out and showcased the really poor state that the product is in. While the above 6 points are very attractive aspects of vb5, it seems to me that vb5 has no future for the reasons below. I am hereby asking staff, management and customers to alleviate my concerns below, cause like Mert, Shawn, Scott, Gladius, and many other big board owners, I am halfway out the door.<br /> <br /> <br /> <ol class=\"decimal\"><li>Many senior developers including Rafio, Shawn(digitalpoint), Floren state that <a href=\"http://adminextra.com/threads/connect-demo.6019/page-4#post-52885\" target=\"_blank\">vb5 has horrible code quality</a> and is the code/design of the software is a complete disaster and that it would be best for IB to <a href=\"http://adminextra.com/threads/connect-demo.6019/page-6#post-52955\" target=\"_blank\">scrap it and start over</a>. (and similar conclusions)<br /> You can fix bugs. You can hardly fix bad software design. I thought that the main reason for rewriting vb4 was the fact that various issues can not be resolved without resolving bad software design. vb5 seems like a shaky foundation to build upon, which predicts problems for the future.</li> <li>Judging by the poor state the 'beta' is in, it seems to me that it will take years, before vb5 will be bug free and have all needed functions.</li> <li>It remains to be seen if IB will keep developing vb5 after the initial wave of sales.<br /> vb4 took 3 years to get to a somewhat reasonable level of bugs (850 at present) which included about 2 years of IB barely raising a finger while customers struggled. IB even went completely silent and unresponsive towards customers for quite some time here. The seem to have no problem with advertising malfunctioning products like the mobile suite. Management seems to be of the opinion that releasing bug ridden products is OK.<br /> It seems that vb5 will be released with a massive load of issues and an absence of features. After the initial wave of sales, there is no financial incentive for IB to do anything again. Therefore it makes no sense to purchase vb5 before its bug free and feature complete.</li> <li>Despite various requests from customers vBS has not taken away concerns about possible user data mining or data use by Internet Brands and its affiliates/websites. Internet Brands operates thousands of websites and competes with vbulletin customers. vbulletin makes up a tiny fraction of IB's interests. A simple statement here and in a privacy policy that applies to vb5 would take away these concerns. The fact that vBS / IB does not make it crystal clear that vbulletin customers their website data is safe/protected against use by the Internet Brands network or affiliates, is very worrisome.</li> <li>Advertisements by IB announce 125 new features for vb5. Yet, IB refuses to say what these 125 new features are. To me this comes across as very shady and adds to the uncertainty.</li> <li>vb5 will change all urls which will make all inbound link juice go dead. A second concern is if Google will successfully reindex all pages and internal links. This remains to be seen. </li> </ol><br /> <br /> For the reasons above it seems to me that vb5 has no future. <br /> I would be happy if my concerns are alleviated.</div> </div> </div> </div>The post was never answered.<br /> <br /> Does that explain it to you?<br /> <br /> In any case, I have indeed asked PHPFOX to enhance their forum software in order to cater to the current market demand. Its certainly not just a facebook clone, as it is also a twitter, wordpress and youtube clone, including a marketplace and has better social groups than vbulletin. But while their suite is better than vbulletin, their forum is weak. Therefore its not suited for my big board.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-31T04:45:35-08:00",
+      "id": 3640954,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636300#post3636300\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">If you are going to compare vb5, then it would be useful to compare to <a href=\"http://www.phpfox.com/\" target=\"_blank\">phpfox</a> as well, as PHPFox looks very similar to what vb5 seems to be aiming for. Except that PHPFox actually looks as polished as I would wish vbulletin would be.</div> </div> </div> </div>I checked that out, I don't understand why anyone would bother to take the time to register on a facebook clone when facebook already exists. That is all that software is, a clone of facebook. Good luck with that.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-31T11:03:25-08:00",
+      "id": 3641004,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3636300#post3636300\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">If you are going to compare vb5, then it would be useful to compare to <a href=\"http://www.phpfox.com/\" target=\"_blank\">phpfox</a> as well, as PHPFox looks very similar to what vb5 seems to be aiming for. Except that PHPFox actually looks as polished as I would wish vbulletin would be.</div> </div> </div> </div>This softwar (phpfox) is very sophisticated and the community forum is a real social network forum as we wish .. I hope that vBulletin can also be a real social network like phpfox or better than him ..<br /> <br /> <span style=\"color:silver\">- - - Updated - - -</span><br /> <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3640954#post3640954\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">I checked that out, I don't understand why anyone would bother to take the time to register on a facebook clone when facebook already exists. That is all that software is, a clone of facebook. Good luck with that.</div> </div> </div> </div>people today leave the forums to go on facebook and twitter .. So we must offer them &quot;facebook-forums&quot; to keep them ..",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/298382-merenguista",
+        "name": "Merenguista",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar298382_2.jpeg",
+        "title": "Senior Member",
+        "rank": 4,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jul 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "555"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "5.3.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-31T12:00:34-08:00",
+      "id": 3641012,
+      "title": "",
+      "content": "I personally think the future is a mixture of Social networking and forums<br /> <br /> While PhPFox excels at the social networking part, their forums part is rather basic<br /> <br /> I think that's what IB has tried to aim for (Social networking + VB forums), but seems to have failed already, before release, I mean look at all the missing features from previous editions of VB and yet, it's classed as &quot;Beta&quot;?",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/22643-deimos",
+        "name": "Deimos",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzc2OWRhYycgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+RDwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Oct 2002"
+          },
+          {
+            "key": "Posts:",
+            "value": "1517"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-31T12:21:18-08:00",
+      "id": 3641013,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Deimos</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641012#post3641012\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">I personally think the future is a mixture of Social networking and forums<br /> While PhPFox excels at the social networking part, their forums part is rather basic</div> </div> </div> </div>+1 <img src=\"https://forum.vbulletin.com/core/images/icons/icon14.png\" border=\"0\" alt=\"\" title=\"thumbs up\" smilieid=\"12\" class=\"inlineimg\" /><br /> <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Deimos</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641012#post3641012\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">I think that's what IB has tried to aim for (Social networking + VB forums), but seems to have failed already</div> </div> </div> </div>we can not say that the project failed because first of all, the gold version is not yet realeased, and secondly because IB can always add all the missing features in the next versions ..",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/298382-merenguista",
+        "name": "Merenguista",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar298382_2.jpeg",
+        "title": "Senior Member",
+        "rank": 4,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jul 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "555"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "5.3.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2012-12-31T19:15:21-08:00",
+      "id": 3641045,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Merenguista</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641004#post3641004\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">people today leave the forums to go on facebook and twitter .. So we must offer them &quot;facebook-forums&quot; to keep them ..</div> </div> </div> </div> Why would people want to be on another facebook? Facebook already exists, it is like trying to re-invent the wheel. IMHO, facebook has already won. It is just a matter of time before forums go the way of the BBS. My site was out years before facebook. Facebook has severely decreased the activity on my site. I am not alone in this. I have seen some much bigger forums than mine close due to inactivity.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T00:01:59-08:00",
+      "id": 3641054,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641045#post3641045\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Why would people want to be on another facebook? Facebook already exists, it is like trying to re-invent the wheel. IMHO, facebook has already won. It is just a matter of time before forums go the way of the BBS. My site was out years before facebook. Facebook has severely decreased the activity on my site. I am not alone in this. I have seen some much bigger forums than mine close due to inactivity.</div> </div> </div> </div>That's it .. you admit that your forum is attained by facebook and many other bigger forums are closed due to inactivity. So how can we avoid this ?<br /> <br /> I think it is absolutely imperative that vBulletin can provide the same functionality (features) as facebook and twitter, while keeping the forum appearance.",
+      "signature": "",
+      "edited": {
+        "userid": 38627,
+        "user_link": "https://forum.vbulletin.com/member/38627-yves-rigaud",
+        "user": "Yves R.",
+        "date": ".  Fixed French typos  Tue 1 Jan '13, 2:54am"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/298382-merenguista",
+        "name": "Merenguista",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar298382_2.jpeg",
+        "title": "Senior Member",
+        "rank": 4,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jul 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "555"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "5.3.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T03:28:51-08:00",
+      "id": 3641056,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Merenguista</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641054#post3641054\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">That's it .. you admit that your forum is attained by facebook and many other bigger forums are closed due to inactivity. So how can we avoid this ?<br /> <br /> I think it is absolutely imperative that vBulletin can provide the same functionality (features) as facebook and twitter, while keeping the forum appearance.</div> </div> </div> </div>How can we avoid it? We can't. I am sure you are probably to young to know what a BBS is. Back in the early 90's before AOL came along and everyone was able to get on the internet we had what was called BBS's. Bulletin Board Systems. You would login through the phone line. You had to have a modem. Anyway you would login to the host computer and you could chat, download files, etc... When AOL came along, BBS's started to die out. Why do that when you can surf the internet? That is what is going to happen to forums. People can go onto Facebook and connect with old friends and family, play games, discuss things, etc... So again, why would they want to join another facebook type site when they have facebook? What are we going to offer them that they cant get on the real facebook? NOTHING! So what is the point? What we will have to offer is less features and less people to connect with, so again, why would anyone want to join our facebook clones?",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T05:48:16-08:00",
+      "id": 3641066,
+      "title": "",
+      "content": "More importantly about forum boards, is being anonymous. Some people do not prefer to mix up their personal life with their internet life. Thus, a forum board is great for that!",
+      "signature": "<div align=\"center\"><a href=\"http://www.exg-guild.com\" target=\"_blank\"><a href=\"http://oi50.tinypic.com/2uikiko.jpg\" target=\"_blank\">http://oi50.tinypic.com/2uikiko.jpg</a></a></div>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/425975-grotesque",
+        "name": "Grotesque",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar425975_1.gif",
+        "title": "Member",
+        "rank": 2,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2012"
+          },
+          {
+            "key": "Posts:",
+            "value": "84"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T06:24:55-08:00",
+      "id": 3641069,
+      "title": "",
+      "content": "If you think that PHPFox is a facebook clone, then you are not looking at it close enough. Yes, it certainly has many facebook functions. This is correct. But it also has many other functions. You could just as well call PHPFox a YouTube clone, or a Ebay clone, a Wordpress clone, a XenForo clone.<br /> The main issue with facebook, youtube and other popular online media is that users have become accustomed to rich user friendly UXD. Forums are back in the stone age when it comes to UXD. This is where vbulletin fails. Especially with vb5.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T06:42:53-08:00",
+      "id": 3641071,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641056#post3641056\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">How can we avoid it? We can't. I am sure you are probably to young to know what a BBS is. Back in the early 90's before AOL came along and everyone was able to get on the internet we had what was called BBS's. Bulletin Board Systems. You would login through the phone line. You had to have a modem. Anyway you would login to the host computer and you could chat, download files, etc... When AOL came along, BBS's started to die out. Why do that when you can surf the internet? That is what is going to happen to forums. People can go onto Facebook and connect with old friends and family, play games, discuss things, etc... So again, why would they want to join another facebook type site when they have facebook? What are we going to offer them that they cant get on the real facebook? NOTHING! So what is the point? What we will have to offer is less features and less people to connect with, so again, why would anyone want to join our facebook clones?</div> </div> </div> </div>The limitations of Facebook are self-evident. When you join a Facebook group to discuss a topic everyone in that group has access to your personal information, not to mention the data mining Facebook itself does for the privilege of allowing you an account. There are no Facebook police to keep the discussion on-topic or even at a minimal level of adulthood. There are hundreds or thousands of people all talking while nobody is listening and the conversation is all but impossible to follow. Facebook has a purpose but it is no replacement for forums, just as forums are no replacement for Facebook.<br /> <br /> <span style=\"color:silver\">- - - Updated - - -</span><br /> <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Grotesque</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641066#post3641066\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">More importantly about forum boards, is being anonymous. Some people do not prefer to mix up their personal life with their internet life. Thus, a forum board is great for that!</div> </div> </div> </div>Anonymity is for people with something to hide, or some reason to hide. While I'm not suggesting people post personal identifying information or photos of their spouses and children, the only people who truly need to hide behind an IP address and an anonymous username such as L33THAX0R are those whose intentions are to spam, troll, flame, bait, or otherwise disrupt the community.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/290936-in-omnibus",
+        "name": "LockedOnLaw",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar290936_22.png",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Apr 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "2323"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T07:55:20-08:00",
+      "id": 3641079,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>ProSportsForums</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641071#post3641071\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">There are no Facebook police to keep the discussion on-topic or even at a minimal level of adulthood. There are hundreds or thousands of people all talking while nobody is listening and the conversation is all but impossible to follow. Facebook has a purpose but it is no replacement for forums, just as forums are no replacement for Facebook.</div> </div> </div> </div>Facebook is actively tweaking its system in order to get group discussions more on topic. I'm certain that facebook will get it right sooner or later. <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>ProSportsForums</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641071#post3641071\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Anonymity is for people with something to hide, or some reason to hide. While I'm not suggesting people post personal identifying information or photos of their spouses and children, the only people who truly need to hide behind an IP address and an anonymous username such as L33THAX0R are those whose intentions are to spam, troll, flame, bait, or otherwise disrupt the community.</div> </div> </div> </div>There are many discussions that people do not want to have archived under their real name. Anonymity is important for everyone. Most people do not want to post discussions about their financials, health issues, love life, addictions, vices, controversial topics, under their real name.",
+      "signature": "<b><span style=\"font-family:Microsoft Sans Serif\"><span style=\"color:#008000\">I buy 420 forums</span><br /> </span></b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/105938-alfa1",
+        "name": "Alfa1",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar105938_5.gif",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Dec 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "4165"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "3.8.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T08:01:47-08:00",
+      "id": 3641081,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Alfa1</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641079#post3641079\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Facebook is actively tweaking its system in order to get group discussions more on topic. I'm certain that facebook will get it right sooner or later. <br /> <br /> There are many discussions that people do not want to have archived under their real name. Anonymity is important for everyone. Most people do not want to post discussions about their financials, health issues, love life, addictions, vices, controversial topics, under their real name.</div> </div> </div> </div>Which would explain the necessity of privacy policies for forums dealing with such discussion topics ...",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/290936-in-omnibus",
+        "name": "LockedOnLaw",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar290936_22.png",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Apr 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "2323"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T08:05:56-08:00",
+      "id": 3641082,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>ProSportsForums</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641071#post3641071\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Anonymity is for people with something to hide, or some reason to hide. While I'm not suggesting people post personal identifying information or photos of their spouses and children, the only people who truly need to hide behind an IP address and an anonymous username such as L33THAX0R are those whose intentions are to spam, troll, flame, bait, or otherwise disrupt the community.</div> </div> </div> </div>As someone who has suffered at the hands of malicious internet stalkers, I couldn't disagree more. I changed my username on many sites to avoid using my real name. Only last month someone tracked down my 'day job' employers and sent a load of lies and false accusations to them via their website's contact form.<br /> <br /> There are valid reasons behind anonymity.",
+      "signature": "<b>MARK.B</b><br /> vBulletin Support<br /> ------------<br /> My Unofficial vBulletin 6.0.0 Demo: <a href=\"https://www.talknewsuk.com\" target=\"_blank\">https://www.talknewsuk.com</a><br /> My Unofficial vBulletin Cloud Demo: <a href=\"https://www.adminammo.com\" target=\"_blank\">https://www.adminammo.com</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/42906-mark-b",
+        "name": "Mark.B",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar42906_30.png",
+        "title": "vBulletin Support",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2004"
+          },
+          {
+            "key": "Posts:",
+            "value": "24326"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.0.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T08:11:44-08:00",
+      "id": 3641083,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Mark.B</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641082#post3641082\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">There are valid reasons behind anonymity.</div> </div> </div> </div>Yes, which is why forums have and always will have a place. Facebook guarantees no such anonymity. I think we're all making the same point from different directions.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/290936-in-omnibus",
+        "name": "LockedOnLaw",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar290936_22.png",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Apr 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "2323"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T10:11:53-08:00",
+      "id": 3641089,
+      "title": "",
+      "content": "Facebook facebook facebook. Of course it will take over forums on the internet, just like myspace did.",
+      "signature": "<a href=\"http://www.husky-owners.com/forum/index.php?referrerid=1\" target=\"_blank\">Husky Owners Forum - For all Siberian Husky Owners</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [
+        {
+          "type": "👍",
+          "count": 1
+        }
+      ],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/70992-soniceffect",
+        "name": "soniceffect",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar70992_2.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "938"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T13:50:53-08:00",
+      "id": 3641129,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>soniceffect</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641089#post3641089\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Facebook facebook facebook. Of course it will take over forums on the internet, just like myspace did.</div> </div> </div> </div>Facebook already has, but lets not let facts get in the way.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T14:13:23-08:00",
+      "id": 3641135,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641129#post3641129\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Facebook already has, but lets not let facts get in the way.</div> </div> </div> </div>Hey there are no other forums or facebook groups in my particular genre who are bigger than the forum I run. If you got problems with facebook, sorry your struggling with it, however believe me not every site is the same. Dont get me wrong facebook has an affect, sure. However it has no worse effect than any other craze. Yahoo chat was a craze, it died. ICQ was a craze, it died. Myspace was a craze, it died. Facebook is a craze, it will die.",
+      "signature": "<a href=\"http://www.husky-owners.com/forum/index.php?referrerid=1\" target=\"_blank\">Husky Owners Forum - For all Siberian Husky Owners</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/70992-soniceffect",
+        "name": "soniceffect",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar70992_2.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "938"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T14:36:28-08:00",
+      "id": 3641139,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>soniceffect</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641135#post3641135\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Facebook is a craze, it will die.</div> </div> </div> </div>Yea, and be replaced by FaceSpace ...",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [
+        {
+          "type": "👍",
+          "count": 1
+        }
+      ],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/290936-in-omnibus",
+        "name": "LockedOnLaw",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar290936_22.png",
+        "title": "Senior Member",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Apr 2010"
+          },
+          {
+            "key": "Posts:",
+            "value": "2323"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T17:37:26-08:00",
+      "id": 3641155,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>soniceffect</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641135#post3641135\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Hey there are no other forums or facebook groups in my particular genre who are bigger than the forum I run. If you got problems with facebook, sorry your struggling with it, however believe me not every site is the same. Dont get me wrong facebook has an affect, sure. However it has no worse effect than any other craze. Yahoo chat was a craze, it died. ICQ was a craze, it died. Myspace was a craze, it died. Facebook is a craze, it will die.</div> </div> </div> </div>Yeah, your probably the only person on the planet with a forum for husky owners so there is no real competition. BTW, the link in your signature does not work.<br /> <br /> <span style=\"color:silver\">- - - Updated - - -</span><br /> <br /> <div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>ProSportsForums</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641139#post3641139\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Yea, and be replaced by FaceSpace ...</div> </div> </div> </div>LOL!!!",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/246118-woffie",
+        "name": "woffie",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar246118_3.gif",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2009"
+          },
+          {
+            "key": "Posts:",
+            "value": "201"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.0.x"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-01T22:40:06-08:00",
+      "id": 3641180,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641155#post3641155\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Yeah, your probably the only person on the planet with a forum for husky owners so there is no real competition. BTW, the link in your signature does not work.</div> </div> </div> </div>A quick Google search shows 5 forums on the first page of results. 6 if you count the one for Husqvarna vehicles.",
+      "signature": "<span style=\"color:#FF0000\"><span style=\"font-size:10px\"><span style=\"font-family:lucida sans unicode\">Translations provided by Google.</span></span></span> <hr /><br /> <span style=\"color:#0000ff\"><span style=\"font-size:14px\"><span style=\"font-family:lucida sans unicode\">Wayne Luke</span></span></span><br /> <a href=\"http://forums.rabidbadger.io\" target=\"_blank\">The Rabid Badger</a> - a vBulletin Cloud demonstration site.<br /> <a href=\"http://vb5support.com/api\" target=\"_blank\">vBulletin 5 API</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/868-wayne-luke",
+        "name": "Wayne Luke",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar868_18.png",
+        "title": "vBulletin Technical Support Lead",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2000"
+          },
+          {
+            "key": "Posts:",
+            "value": "75350"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-02T05:33:33-08:00",
+      "id": 3641243,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>woffie</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641155#post3641155\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">Yeah, your probably the only person on the planet with a forum for husky owners so there is no real competition. BTW, the link in your signature does not work.<br /> <br /> <span style=\"color:silver\">- - - Updated - - -</span><br /> <br /> <br /> <br /> LOL!!!</div> </div> </div> </div>Second link in my sig didnt work your quite right, however thats because it should have been removed and is not my site. The first works fine, I would suggest checking your connection. <br /> <br /> As for the &quot;probably the only person on the planet with a forum for husky owners&quot; it may be an idea to check your facts before posting as you are completely incorrect (as stated by Wayne above). In fact if you type husky forum into google all the first page are different siberian husky forums (apart from the aforementioned bike forum).<br /> <br /> Lets say for arguements sake however you were correct, that should mean my forum will not be overrun by facebook? Seems to be a bit of a flaw in logic there.",
+      "signature": "<a href=\"http://www.husky-owners.com/forum/index.php?referrerid=1\" target=\"_blank\">Husky Owners Forum - For all Siberian Husky Owners</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/70992-soniceffect",
+        "name": "soniceffect",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar70992_2.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "938"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-02T05:35:52-08:00",
+      "id": 3641245,
+      "title": "",
+      "content": "If anyone would like to discuss the merits of more than one Husky forum or the contents of a Google search, then please find another forum for this as this isn't the place.<br /> <br /> Back on topic...",
+      "signature": "Vote for:<br /> <br /> <b>- <a href=\"https://tracker.vbulletin.com/vbulletin6/issues/VB6-154\" target=\"_blank\">Admin Settable Paid Subscription Reminder Timeframe</a> (vB6)<br /> - <a href=\"https://tracker.vbulletin.com/vbulletin6/issues/VB6-155\" target=\"_blank\">Add Admin ability to auto-subscribe users to specific channel(s)</a> (vB6)</b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/19738-trevor-hannant",
+        "name": "Trevor Hannant",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar19738_15.png",
+        "title": "vBulletin Support",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2002"
+          },
+          {
+            "key": "Posts:",
+            "value": "24693"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-02T06:55:22-08:00",
+      "id": 3641261,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Trevor Hannant</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641245#post3641245\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">If anyone would like to discuss the merits of more than one Husky forum or the contents of a Google search, then please find another forum for this as this isn't the place.<br /> <br /> Back on topic...</div> </div> </div> </div>To be fair Trevor it was relating to the &quot;facebook taking over&quot; conversation which has been the last few posts of conversation, I think you just caught the end of the conversation m8. However even that I guess isnt the original topic of conversation so fair enough.",
+      "signature": "<a href=\"http://www.husky-owners.com/forum/index.php?referrerid=1\" target=\"_blank\">Husky Owners Forum - For all Siberian Husky Owners</a>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/70992-soniceffect",
+        "name": "soniceffect",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar70992_2.gif",
+        "title": "Senior Member",
+        "rank": 3,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Feb 2005"
+          },
+          {
+            "key": "Posts:",
+            "value": "938"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-02T08:33:35-08:00",
+      "id": 3641301,
+      "title": "",
+      "content": "I have been running community based on SocialEngine for few years now. Due to SE development taking their development focus into totally different direction many of their customers started to looking for alternatives. <br /> I had some of my community members test few engines like PhpFox, BuddyPress, JomSocial and we quickly realized the main problem they have.<br /> None of them are build with a strong forums. FB clones are great to post random nonsense and allow your members to talk about stuff that falls of the main page quick but none of them offer good mechanism to discuss a subject that keeps resurfacing.<br /> There are plenty of products on the market that are trying to be 90% Social Network 10% Forums but what is very much needed from my user base perspective is 90% with an addition of 10% good social features that 100% forums engines don't offer.<br /> <br /> Where VB5 is going appears to be close match to what I'm looking for and so far my users are responding very well to beta site.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/432826-deepnoizer",
+        "name": "Deepnoizer",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzk1NDk0ZicgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+RDwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "New Member",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Jan 2013"
+          },
+          {
+            "key": "Posts:",
+            "value": "4"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-02T08:49:12-08:00",
+      "id": 3641305,
+      "title": "",
+      "content": "That's good to hear. If there's any improvements that you or your members feel could make it better, please feel free to report Improvment Requests in our Tracker linked above.",
+      "signature": "Vote for:<br /> <br /> <b>- <a href=\"https://tracker.vbulletin.com/vbulletin6/issues/VB6-154\" target=\"_blank\">Admin Settable Paid Subscription Reminder Timeframe</a> (vB6)<br /> - <a href=\"https://tracker.vbulletin.com/vbulletin6/issues/VB6-155\" target=\"_blank\">Add Admin ability to auto-subscribe users to specific channel(s)</a> (vB6)</b>",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/19738-trevor-hannant",
+        "name": "Trevor Hannant",
+        "avatar": "https://forum.vbulletin.com/core/custompics/avatar/avatar19738_15.png",
+        "title": "vBulletin Support",
+        "rank": 5,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2002"
+          },
+          {
+            "key": "Posts:",
+            "value": "24693"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "6.X"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "2013-01-03T18:54:24-08:00",
+      "id": 3641624,
+      "title": "",
+      "content": "<div class=\"bbcode_container\"> <div class=\"bbcode_quote\"> <div class=\"quote_container\"> <div class=\"bbcode_quote_container b-icon-fa b-icon-fa--24 fa-solid fa-quote-left\"></div> <div class=\"bbcode_postedby\"> Originally posted by <strong>Deepnoizer</strong> <a href=\"https://forum.vbulletin.com/forum/vbulletin-5-connect/support-issues-questions/421946-starting-to-be-impressed-by-5-0?p=3641301#post3641301\" rel=\"nofollow\" title=\"View Post\" class=\"animate-scroll\"> <span class=\"b-icon-fa b-icon-fa--16 fa-solid fa-angles-right\" aria-hidden=\"true\"></span> </a> </div> <div class=\"message\">FB clones are great to post random nonsense and allow your members to talk about stuff that falls of the main page quick but none of them offer good mechanism to discuss a subject that keeps resurfacing.<br /> There are plenty of products on the market that are trying to be 90% Social Network 10% Forums but what is very much needed from my user base perspective is 90% with an addition of 10% good social features that 100% forums engines don't offer.</div> </div> </div> </div><br /> Well put explanation of what i think many many folks are looking for and hoping Vb5 will turn out to be. I know that is very much what I am needing on my Forums i am writing the outline for currently.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://forum.vbulletin.com/member/381388-rivka",
+        "name": "Rivka",
+        "avatar": "data:image/svg+xml;base64,CgkJCTxzdmcgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJyB2aWV3Qm94PScwIDAgNTAgNTAnPgoJCQkJPHJlY3Qgd2lkdGg9JzEwMCUnIGhlaWdodD0nMTAwJScgZmlsbD0nIzU4NGQ1MScgLz4KCQkJCTx0ZXh0IHg9JzUwJScgeT0nNTAlJyBmaWxsPSd3aGl0ZScgZm9udC13ZWlnaHQ9J2JvbGQnIGZvbnQtZmFtaWx5PSdBcmlhbCcgZm9udC1zaXplPSczMDAlJyBkb21pbmFudC1iYXNlbGluZT0nY2VudHJhbCcgdGV4dC1hbmNob3I9J21pZGRsZSc+UjwvdGV4dD4KCQkJPC9zdmc+CgkJ",
+        "title": "New Member",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Join Date:",
+            "value": "Aug 2012"
+          },
+          {
+            "key": "Posts:",
+            "value": "10"
+          },
+          {
+            "key": "vBulletin Version:",
+            "value": "4.2.X"
+          }
+        ]
+      },
+      "thankedby": []
+    }
+  ]
+}

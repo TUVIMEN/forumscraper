@@ -1,0 +1,2587 @@
+{
+  "format_version": "vbulletin-3+-forum",
+  "url": "https://mdforum.su/",
+  "categories": [
+    {
+      "name": "Мобильные устройства",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=1",
+      "description": "",
+      "forums": [
+        {
+          "status": null,
+          "title": "Новости",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=2",
+          "description": "Свежие новости рынка мобильных устройств",
+          "viewing": 63,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Курс биткоина превысил $36 000 впервые...",
+            "link": "https://mdforum.su/showthread.php?t=36849",
+            "icon": null,
+            "date": "09.11.2023 18:49",
+            "user": "Курс биткоина превысил $36 000 впервые...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Обзоры",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=8",
+          "description": "Обзоры смартфонов, планшетов и других мобильных устройств",
+          "viewing": 95,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=394",
+              "name": "Краш-тесты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Обзор Samsung Galaxy S23 Ultra:...",
+            "link": "https://mdforum.su/showthread.php?t=36844",
+            "icon": null,
+            "date": "13.10.2023 13:29",
+            "user": "Обзор Samsung Galaxy S23 Ultra:...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Технологии",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=317",
+          "description": "Обсуждаем вопросы касающиеся мобильных устройств и технологий",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=564",
+              "name": "Процессоры",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Видеовыход немолодого смартфона",
+            "link": "https://mdforum.su/showthread.php?t=35934",
+            "icon": null,
+            "date": "18.08.2023 09:15",
+            "user": "Видеовыход немолодого смартфона",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Разработка игр и приложений",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=668",
+          "description": "Общие вопросы разработки игр и приложений на разные платформы",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "VideoStory - приложение, которое...",
+            "link": "https://mdforum.su/showthread.php?t=36409",
+            "icon": null,
+            "date": "06.12.2023 20:20",
+            "user": "VideoStory - приложение, которое...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Выбор и покупка",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=318",
+          "description": "Помощь в выборе устройства и сравнение различных устройств",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=498",
+              "name": "Интернет магазины",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=403",
+              "name": "Барахолка",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=569",
+              "name": "Акции и промокоды",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=460",
+              "name": "Аксессуары",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Планшет или донор samsung not3 n900x...",
+            "link": "https://mdforum.su/showthread.php?t=29957",
+            "icon": null,
+            "date": "14.07.2024 23:44",
+            "user": "Планшет или донор samsung not3 n900x...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Ремонт и обслуживание",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=344",
+          "description": "Ремонт и обслуживание мобильных устройств",
+          "viewing": 1,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Samsung Galaxy J7",
+            "link": "https://mdforum.su/showthread.php?t=36476",
+            "icon": null,
+            "date": "18.08.2023 09:53",
+            "user": "Samsung Galaxy J7",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Обои",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=568",
+          "description": "Обои под различные разрешения",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Обои для экранов с разрешением 828x1472",
+            "link": "https://mdforum.su/showthread.php?t=15008",
+            "icon": null,
+            "date": "17.08.2023 22:24",
+            "user": "Обои для экранов с разрешением 828x1472",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Оффтоп",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=207",
+          "description": "Раздел для несерьёзных разговоров на тему мобильных устройств и приложений",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Про навязывание услуг",
+            "link": "https://mdforum.su/showthread.php?t=28043",
+            "icon": null,
+            "date": "15.07.2024 21:38",
+            "user": "Про навязывание услуг",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Android",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=98",
+      "description": "",
+      "forums": [
+        {
+          "status": null,
+          "title": "F.A.Q.",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=132",
+          "description": "Все вопросы связанные с использованием операционной системы Android, помощь новичкам, устранение неисправностей и т.д.",
+          "viewing": 2,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Забыл графический ключ смартфона, что...",
+            "link": "https://mdforum.su/showthread.php?t=36845",
+            "icon": null,
+            "date": "14.10.2023 22:04",
+            "user": "Забыл графический ключ смартфона, что...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Acer",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=601",
+          "description": "Обсуждение мобильных устройств от Acer на Android",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=602",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=603",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Поиск прошивок для устройств Acer",
+            "link": "https://mdforum.su/showthread.php?t=27982",
+            "icon": null,
+            "date": "07.05.2023 12:37",
+            "user": "Поиск прошивок для устройств Acer",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Alcatel",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=506",
+          "description": "Обсуждение мобильных устройств от Alcatel",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=586",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=587",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Официальная прошивка для Alcatel One...",
+            "link": "https://mdforum.su/showthread.php?t=28791",
+            "icon": null,
+            "date": "05.03.2024 12:23",
+            "user": "Официальная прошивка для Alcatel One...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Asus",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=598",
+          "description": "Обсуждение мобильных устройств от Asus",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=599",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=600",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Root права на Asus Zenfone 3 [Android...",
+            "link": "https://mdforum.su/showthread.php?t=34817",
+            "icon": null,
+            "date": "17.08.2023 23:44",
+            "user": "Root права на Asus Zenfone 3 [Android...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "DNS",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=633",
+          "description": "Обсуждение мобильных устройств DNS",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=634",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=635",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для DNS S4004M",
+            "link": "https://mdforum.su/showthread.php?t=23852",
+            "icon": null,
+            "date": "17.08.2023 22:55",
+            "user": "Прошивка для DNS S4004M",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Explay",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=616",
+          "description": "Обсуждение мобильных устройств от Explay",
+          "viewing": 5,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=617",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=618",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Официальная прошивка для Explay Indigo...",
+            "link": "https://mdforum.su/showthread.php?t=18880",
+            "icon": null,
+            "date": "19.10.2021 22:11",
+            "user": "Официальная прошивка для Explay Indigo...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Fly",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=626",
+          "description": "Обсуждение мобильных устройств от Fly",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=627",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=628",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Поиск прошивок для устройств Fly",
+            "link": "https://mdforum.su/showthread.php?t=27988",
+            "icon": null,
+            "date": "04.03.2023 10:30",
+            "user": "Поиск прошивок для устройств Fly",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Gigabyte",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=669",
+          "description": "Обсуждение мобильных устройств Gigabyte",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=670",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для Gigabyte GSmart Arty A3",
+            "link": "https://mdforum.su/showthread.php?t=28751",
+            "icon": null,
+            "date": "09.07.2018 15:52",
+            "user": "Прошивка для Gigabyte GSmart Arty A3",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Google",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=664",
+          "description": "Обсуждение мобильных устройств от Google",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=665",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=667",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Что делать, если гугл слетел и выдает...",
+            "link": "https://mdforum.su/showthread.php?t=36816",
+            "icon": null,
+            "date": "18.08.2023 13:43",
+            "user": "Что делать, если гугл слетел и выдает...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Highscreen",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=612",
+          "description": "Обсуждение мобильных устройств Highscreen",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=613",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=614",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка Highscreen Zera F rev.S...",
+            "link": "https://mdforum.su/showthread.php?t=17004",
+            "icon": null,
+            "date": "28.05.2021 18:39",
+            "user": "Прошивка Highscreen Zera F rev.S...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "HTC",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=153",
+          "description": "Обсуждение устройств HTC на Андроид",
+          "viewing": 5,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=594",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=595",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "HTC Dsire 601 Dual Sim",
+            "link": "https://mdforum.su/showthread.php?t=36876",
+            "icon": null,
+            "date": "01.05.2024 17:44",
+            "user": "HTC Dsire 601 Dual Sim",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Huawei",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=206",
+          "description": "Обсуждение смартфонов Huawei на Андроид",
+          "viewing": 3,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=590",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=591",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Root права на Huawei Nova Lite (2017)...",
+            "link": "https://mdforum.su/showthread.php?t=36144",
+            "icon": null,
+            "date": "08.04.2022 17:16",
+            "user": "Root права на Huawei Nova Lite (2017)...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Lenovo",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=266",
+          "description": "Обсуждение смартфонов Lenovo на Андроид",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=589",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=471",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Поиск прошивок для устройств Lenovo",
+            "link": "https://mdforum.su/showthread.php?t=27992",
+            "icon": null,
+            "date": "31.03.2023 23:20",
+            "user": "Поиск прошивок для устройств Lenovo",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "LG",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=156",
+          "description": "Обсуждение мобильный устройств LG",
+          "viewing": 5,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=592",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=593",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Поиск прошивок для устройств LG",
+            "link": "https://mdforum.su/showthread.php?t=27993",
+            "icon": null,
+            "date": "10.12.2023 18:31",
+            "user": "Поиск прошивок для устройств LG",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Meizu",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=657",
+          "description": "Обсуждение устройств Meizu на Android",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=658",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для Meizu M3E",
+            "link": "https://mdforum.su/showthread.php?t=35293",
+            "icon": null,
+            "date": "20.10.2022 23:47",
+            "user": "Прошивка для Meizu M3E",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Motorola",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=636",
+          "description": "Обсуждение мобильных устройств от Motorola",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=637",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Root права на Motorola Moto G5...",
+            "link": "https://mdforum.su/showthread.php?t=34927",
+            "icon": null,
+            "date": "01.08.2019 10:39",
+            "user": "Root права на Motorola Moto G5...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Nokia",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=651",
+          "description": "Обсуждение устройств от Nokia на Android",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=652",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=653",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для Nokia X",
+            "link": "https://mdforum.su/showthread.php?t=23142",
+            "icon": null,
+            "date": "01.03.2023 16:02",
+            "user": "Прошивка для Nokia X",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "OPPO",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=624",
+          "description": "Обсуждение мобильных устройств от OPPO",
+          "viewing": 5,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=625",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Oppo A54",
+            "link": "https://mdforum.su/showthread.php?t=36519",
+            "icon": null,
+            "date": "18.08.2023 09:33",
+            "user": "Oppo A54",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Philips",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=630",
+          "description": "Обсуждение устройств Philips на Android",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=631",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=632",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "перестала работать камера",
+            "link": "https://mdforum.su/showthread.php?t=34668",
+            "icon": null,
+            "date": "18.08.2023 09:51",
+            "user": "перестала работать камера",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Prestigio",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=620",
+          "description": "Обсуждение мобильных устройств Prestigio",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=621",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=622",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "прошивка prestigio multipad wize 3047 3g",
+            "link": "https://mdforum.su/showthread.php?t=28696",
+            "icon": null,
+            "date": "09.04.2024 23:09",
+            "user": "прошивка prestigio multipad wize 3047 3g",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Realme",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=678",
+          "description": "Обсуждение смартфонов Realme на Андроид",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Получение Root-прав на устройствах...",
+            "link": "https://mdforum.su/showthread.php?t=36850",
+            "icon": null,
+            "date": "09.11.2023 19:22",
+            "user": "Получение Root-прав на устройствах...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Samsung",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=154",
+          "description": "Обсуждение мобильных устройств от Samsung",
+          "viewing": 12,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=588",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=470",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=650",
+              "name": "SmartWatch",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для Samsung Galaxy Note 3...",
+            "link": "https://mdforum.su/showthread.php?t=22696",
+            "icon": null,
+            "date": "28.05.2024 18:03",
+            "user": "Прошивка для Samsung Galaxy Note 3...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Sony",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=155",
+          "description": "Обсуждение смартфонов Sony (Sony Ericsson) на Андроид",
+          "viewing": 4,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=596",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=597",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Root права на Sony Xperia XZ...",
+            "link": "https://mdforum.su/showthread.php?t=34108",
+            "icon": null,
+            "date": "30.08.2023 19:41",
+            "user": "Root права на Sony Xperia XZ...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "teXet",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=638",
+          "description": "Обсуждение мобильных устройств от teXet",
+          "viewing": 8,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=639",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=640",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для TeXet TM-7023",
+            "link": "https://mdforum.su/showthread.php?t=23820",
+            "icon": null,
+            "date": "30.01.2024 14:03",
+            "user": "Прошивка для TeXet TM-7023",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "umidigi",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=672",
+          "description": "",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=673",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка UMIDIGI Crystal",
+            "link": "https://mdforum.su/showthread.php?t=36130",
+            "icon": null,
+            "date": "26.02.2019 11:49",
+            "user": "Прошивка UMIDIGI Crystal",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Vivo",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=677",
+          "description": "Обсуждение смартфонов Vivo на Андроид",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Компания Vivo — бренд, потеснивший...",
+            "link": "https://mdforum.su/showthread.php?t=36852",
+            "icon": null,
+            "date": "11.11.2023 13:15",
+            "user": "Компания Vivo — бренд, потеснивший...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Xiaomi",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=571",
+          "description": "Обсуждение смартфонов Xiaomi на Андроид",
+          "viewing": 5,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=604",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=605",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Mi Flash Pro - официальная программа...",
+            "link": "https://mdforum.su/showthread.php?t=35962",
+            "icon": null,
+            "date": "23.10.2023 11:49",
+            "user": "Mi Flash Pro - официальная программа...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "YotaPhone",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=660",
+          "description": "Обсуждение устройств YotaPhone на Android",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=661",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как получить root на Yotaphone 2?",
+            "link": "https://mdforum.su/showthread.php?t=33551",
+            "icon": null,
+            "date": "20.07.2021 16:31",
+            "user": "Как получить root на Yotaphone 2?",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "ZOPO",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=654",
+          "description": "Обсуждение устройств ZOPO на Android",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=655",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=656",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Перепрошивка ZOPO ZP980/C2/C3",
+            "link": "https://mdforum.su/showthread.php?t=18269",
+            "icon": null,
+            "date": "18.12.2019 15:41",
+            "user": "Перепрошивка ZOPO ZP980/C2/C3",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "ZTE",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=205",
+          "description": "Обсуждение смартфонов ZTE на Андроид",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=606",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=607",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Разблокировка (отвязка от оператора)...",
+            "link": "https://mdforum.su/showthread.php?t=27750",
+            "icon": null,
+            "date": "18.07.2022 14:51",
+            "user": "Разблокировка (отвязка от оператора)...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Билайн",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=641",
+          "description": "Обсуждение мобильных устройств от Билайн",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=644",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=645",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Разблокировка (отвязка от оператора)...",
+            "link": "https://mdforum.su/showthread.php?t=25822",
+            "icon": null,
+            "date": "03.02.2024 17:57",
+            "user": "Разблокировка (отвязка от оператора)...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Мегафон",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=642",
+          "description": "Обсуждение мобильных устройств от Мегафон",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=646",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=647",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "как разблокирывать смартфон мегафон",
+            "link": "https://mdforum.su/showthread.php?t=33320",
+            "icon": null,
+            "date": "17.08.2023 22:47",
+            "user": "как разблокирывать смартфон мегафон",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "МТС",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=643",
+          "description": "Обсуждение мобильных устройств от МТС",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=648",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=649",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для МТС Smart Start",
+            "link": "https://mdforum.su/showthread.php?t=28799",
+            "icon": null,
+            "date": "17.12.2022 18:58",
+            "user": "Прошивка для МТС Smart Start",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Другие производители",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=629",
+          "description": "Обсуждение мобильных устройств от остальных производителей (для которых нет разделов)",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=152",
+              "name": "Смартфоны",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=459",
+              "name": "Планшеты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=495",
+              "name": "Часы и другие устройства",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Прошивка для RoverPad Air 10.1 3G",
+            "link": "https://mdforum.su/showthread.php?t=23272",
+            "icon": null,
+            "date": "04.07.2024 16:30",
+            "user": "Прошивка для RoverPad Air 10.1 3G",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Прошивка и root",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=461",
+          "description": "Обсуждение универсальных способов прошивок устройств на Android",
+          "viewing": 8,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=662",
+              "name": "Allwinner",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=581",
+              "name": "MediaTek",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=663",
+              "name": "Rockchip",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Получаем root на устройствах с...",
+            "link": "https://mdforum.su/showthread.php?t=36258",
+            "icon": null,
+            "date": "11.05.2024 21:43",
+            "user": "Получаем root на устройствах с...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Программы",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=107",
+          "description": "Программы для Андроид",
+          "viewing": 11,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=323",
+              "name": "Безопасность",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=302",
+              "name": "Живые обои",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=325",
+              "name": "Интернет и сеть",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=324",
+              "name": "Интерфейс",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=486",
+              "name": "Иконки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=326",
+              "name": "Контакты и звонки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=327",
+              "name": "Мультимедиа",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=328",
+              "name": "Офисные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=329",
+              "name": "Системные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=331",
+              "name": "Спорт и здоровье",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=305",
+              "name": "Темы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=332",
+              "name": "Чтение и обучение",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=333",
+              "name": "Другие программы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=501",
+              "name": "Xposed Framework",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=345",
+              "name": "Программы для ПК",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=405",
+              "name": "Авто/Навигация",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Лучшие приложения для прослушивания...",
+            "link": "https://mdforum.su/showthread.php?t=36826",
+            "icon": null,
+            "date": "08.09.2023 16:29",
+            "user": "Лучшие приложения для прослушивания...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Игры",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=108",
+          "description": "Игры для Андроид",
+          "viewing": 9,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=334",
+              "name": "Action",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=490",
+              "name": "Азартные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=335",
+              "name": "Аркады",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=336",
+              "name": "RPG/Приключения/Квесты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=337",
+              "name": "Гонки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=338",
+              "name": "Головоломки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=339",
+              "name": "Спорт",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=340",
+              "name": "Симуляторы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=341",
+              "name": "Стратегии",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=342",
+              "name": "Настольные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=343",
+              "name": "Другие игры",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Troll Tale Сказка о тролле",
+            "link": "https://mdforum.su/showthread.php?t=17627",
+            "icon": null,
+            "date": "06.05.2024 18:41",
+            "user": "Troll Tale Сказка о тролле",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "iOS",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=99",
+      "description": "",
+      "forums": [
+        {
+          "status": null,
+          "title": "F.A.Q.",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=135",
+          "description": "Общие вопросы, помощь новичкам, устранение неисправностей iOS",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Проблемы с памятью на IPhone",
+            "link": "https://mdforum.su/showthread.php?t=36627",
+            "icon": null,
+            "date": "16.08.2022 08:52",
+            "user": "Проблемы с памятью на IPhone",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "iPhone",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=309",
+          "description": "Обсуждение iPhone всех поколений",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=508",
+              "name": "Список моделей",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как подключить iPhone к общественной...",
+            "link": "https://mdforum.su/showthread.php?t=4404",
+            "icon": null,
+            "date": "08.05.2023 14:18",
+            "user": "Как подключить iPhone к общественной...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "iPad",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=310",
+          "description": "Обсуждение iPad любого поколения",
+          "viewing": 5,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=509",
+              "name": "Список моделей",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Ipad - плохо держит батарея.",
+            "link": "https://mdforum.su/showthread.php?t=36348",
+            "icon": null,
+            "date": "15.02.2021 19:35",
+            "user": "Ipad - плохо держит батарея.",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Программы",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=109",
+          "description": "iOS программы для iPhone, iPad, iPod",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=406",
+              "name": "Авто/Навигация",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=380",
+              "name": "Безопасность",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=381",
+              "name": "Интерфейс",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=382",
+              "name": "Интернет и коммуникации",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=383",
+              "name": "Контакты и звонки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=384",
+              "name": "Мультимедиа",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=385",
+              "name": "Офисные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=386",
+              "name": "Системные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=387",
+              "name": "Спорт и здоровье",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=388",
+              "name": "Чтение и обучение",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=389",
+              "name": "Другие программы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=497",
+              "name": "Программы для ПК",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Bluetooth Phone",
+            "link": "https://mdforum.su/showthread.php?t=7731",
+            "icon": null,
+            "date": "18.08.2023 09:25",
+            "user": "Bluetooth Phone",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Игры",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=110",
+          "description": "iOS игры для iPhone, iPad, iPod",
+          "viewing": 3,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=370",
+              "name": "Action",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=496",
+              "name": "Азартные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=371",
+              "name": "Аркады",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=372",
+              "name": "RPG/Приключения/Квесты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=373",
+              "name": "Гонки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=374",
+              "name": "Головоломки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=375",
+              "name": "Спорт",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=376",
+              "name": "Симуляторы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=377",
+              "name": "Стратегии",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=378",
+              "name": "Настольные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=379",
+              "name": "Другие игры",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Guitar Hero",
+            "link": "https://mdforum.su/showthread.php?t=8904",
+            "icon": null,
+            "date": "16.07.2024 15:22",
+            "user": "Guitar Hero",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Прошивки",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=502",
+          "description": "Прошивки для iPhone, iPad, iPod touch",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Что значат маркировки u1, u2, u3 и т.д....",
+            "link": "https://mdforum.su/showthread.php?t=36431",
+            "icon": null,
+            "date": "10.08.2020 10:18",
+            "user": "Что значат маркировки u1, u2, u3 и т.д....",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Jailbreak & Unlock",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=143",
+          "description": "Джейлбрейк и анлок iOS устройств. Расширьте возможности Вашего девайса",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Pangu выпустили Джейлбрейк iOS 9.1",
+            "link": "https://mdforum.su/showthread.php?t=33303",
+            "icon": null,
+            "date": "12.03.2016 09:23",
+            "user": "Pangu выпустили Джейлбрейк iOS 9.1",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Cydia",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=150",
+          "description": "Раздел посвященный Cydia. Твики, программы и много другое",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Эмуляторы Консолей для iOS",
+            "link": "https://mdforum.su/showthread.php?t=6618",
+            "icon": null,
+            "date": "28.08.2022 01:00",
+            "user": "Эмуляторы Консолей для iOS",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Windows Phone",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=100",
+      "description": "",
+      "forums": [
+        {
+          "status": null,
+          "title": "F.A.Q.",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=159",
+          "description": "Часто задаваемые вопросы, помощь новичкам, устранение неполадок в Windows Phone",
+          "viewing": 2,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Не могу войти в учётную запись...",
+            "link": "https://mdforum.su/showthread.php?t=36494",
+            "icon": null,
+            "date": "09.03.2021 17:29",
+            "user": "Не могу войти в учётную запись...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Смартфоны",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=158",
+          "description": "Смартфоны на платформе Windows Phone",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=160",
+              "name": "Nokia / Microsoft",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как выбрать смартфон из последних...",
+            "link": "https://mdforum.su/showthread.php?t=36817",
+            "icon": null,
+            "date": "18.08.2023 08:59",
+            "user": "Как выбрать смартфон из последних...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Программы",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=111",
+          "description": "Программы для Windows Phone",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=407",
+              "name": "Авто/Навигация",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=367",
+              "name": "Безопасность",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=357",
+              "name": "Интерфейс",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=359",
+              "name": "Интернет и коммуникации",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=360",
+              "name": "Контакты и звонки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=361",
+              "name": "Мультимедиа",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=362",
+              "name": "Офисные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=363",
+              "name": "Системные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=364",
+              "name": "Спорт и здоровье",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=365",
+              "name": "Чтение и обучение",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=366",
+              "name": "Прочие программы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Яндекс.Карты",
+            "link": "https://mdforum.su/showthread.php?t=12540",
+            "icon": null,
+            "date": "11.07.2024 15:54",
+            "user": "Яндекс.Карты",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Игры",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=112",
+          "description": "Игры для Windows Phone",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=347",
+              "name": "Action",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=348",
+              "name": "Аркады",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=349",
+              "name": "RPG/Приключения/Квесты",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=350",
+              "name": "Гонки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=351",
+              "name": "Головоломки",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=352",
+              "name": "Симуляторы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=353",
+              "name": "Стратегии",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=354",
+              "name": "Настольные",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=355",
+              "name": "Прочие игры",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Asphalt 8: На взлет",
+            "link": "https://mdforum.su/showthread.php?t=12907",
+            "icon": null,
+            "date": "10.05.2021 12:45",
+            "user": "Asphalt 8: На взлет",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Другие OS",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=101",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "BlackBerry",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=103",
+          "description": "Обсуждение операционной системы BlackBerry",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=173",
+              "name": "Устройства",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=174",
+              "name": "Программы",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=175",
+              "name": "Игры",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Инструкция как разблокировать...",
+            "link": "https://mdforum.su/showthread.php?t=2245",
+            "icon": null,
+            "date": "19.07.2019 11:17",
+            "user": "Инструкция как разблокировать...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Ubuntu Touch",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=199",
+          "description": "Обсуждение Ubuntu Touch",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Кто что думает об Ubuntu?",
+            "link": "https://mdforum.su/showthread.php?t=520",
+            "icon": null,
+            "date": "30.11.2022 23:40",
+            "user": "Кто что думает об Ubuntu?",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Sailfish",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=200",
+          "description": "Обсуждение Salfish OS",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как установить эмулятор Sailfish OS на...",
+            "link": "https://mdforum.su/showthread.php?t=8882",
+            "icon": null,
+            "date": "18.02.2014 20:34",
+            "user": "Как установить эмулятор Sailfish OS на...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Firefox OS",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=201",
+          "description": "Обсуждение Firefox OS",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как установить эмулятор Firefox OS на...",
+            "link": "https://mdforum.su/showthread.php?t=8889",
+            "icon": null,
+            "date": "05.07.2017 22:53",
+            "user": "Как установить эмулятор Firefox OS на...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Tizen",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=561",
+          "description": "Обсуждение Tizen OS",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Samsung Z2",
+            "link": "https://mdforum.su/showthread.php?t=33905",
+            "icon": null,
+            "date": "08.04.2019 21:55",
+            "user": "Samsung Z2",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Другие устройства",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=113",
+      "description": "",
+      "forums": [
+        {
+          "status": null,
+          "title": "Телефоны",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=307",
+          "description": "Раздел посвященный простым \"звонилкам\"",
+          "viewing": 1,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как установить java-игру на телефон",
+            "link": "https://mdforum.su/showthread.php?t=4386",
+            "icon": null,
+            "date": "25.08.2023 21:52",
+            "user": "Как установить java-игру на телефон",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Ноутбуки и ПК",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=390",
+          "description": "",
+          "viewing": 2,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=485",
+              "name": "Windows RT",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как ускорить работу компьютера",
+            "link": "https://mdforum.su/showthread.php?t=5544",
+            "icon": null,
+            "date": "08.09.2024 21:16",
+            "user": "Как ускорить работу компьютера",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Другие",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=172",
+          "description": "Обсуждение других устройств/гаджетов не вошедших в предыдущие разделы форума",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Экшн-камера Insta 360 – отличное...",
+            "link": "https://mdforum.su/showthread.php?t=36879",
+            "icon": null,
+            "date": "03.06.2024 16:33",
+            "user": "Экшн-камера Insta 360 – отличное...",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Операторы",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=121",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Россия",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=122",
+          "description": "Мобильные операторы России",
+          "viewing": 47,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=124",
+              "name": "МТС",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=125",
+              "name": "МегаФон",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=126",
+              "name": "Beeline",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=127",
+              "name": "Tele2",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=128",
+              "name": "Ростелеком",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=397",
+              "name": "СМАРТС",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=565",
+              "name": "К Телеком",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=396",
+              "name": "Мотив телеком",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как узнать где находится абонент...",
+            "link": "https://mdforum.su/showthread.php?t=13059",
+            "icon": null,
+            "date": "18.08.2023 09:06",
+            "user": "Как узнать где находится абонент...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Другие страны",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=123",
+          "description": "Обсуждение мобильных операторов других стран",
+          "viewing": 64,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=391",
+              "name": "Украина",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=395",
+              "name": "Беларусь",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            },
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=503",
+              "name": "Казахстан",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Как проверить баланс",
+            "link": "https://mdforum.su/showthread.php?t=4031",
+            "icon": null,
+            "date": "29.11.2018 09:18",
+            "user": "Как проверить баланс",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Клубы по интересам",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=512",
+      "description": "",
+      "forums": [
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Поговорим за жизнь",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=139",
+          "description": "Разговоры на отвлеченные темы не связанные с мобильной тематикой. Жизнь, работа и т.д.",
+          "viewing": 0,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=567",
+              "name": "Серфинг",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Список бесплатных VPN",
+            "link": "https://mdforum.su/showthread.php?t=36738",
+            "icon": null,
+            "date": "15.07.2024 15:34",
+            "user": "Список бесплатных VPN",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Заработок в интернете",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=584",
+          "description": "Раздел посвященный методам заработка в Интернете, только полезная инфа без всяких лохотронов итд",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Есть сайт тематики B2B, где взять...",
+            "link": "https://mdforum.su/showthread.php?t=34161",
+            "icon": null,
+            "date": "04.09.2024 14:06",
+            "user": "Есть сайт тематики B2B, где взять...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": null,
+          "title": "Технологии и инновации",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=676",
+          "description": "Раздел посвящен современным технологиям и инновациям в мире мобильных устройств и не только.",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Виртуальная реальность (VR) в...",
+            "link": "https://mdforum.su/showthread.php?t=36869",
+            "icon": null,
+            "date": "22.02.2024 22:25",
+            "user": "Виртуальная реальность (VR) в...",
+            "user_link": null,
+            "avatar": null
+          }
+        },
+        {
+          "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+          "title": "Игры",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=513",
+          "description": "Раздел о компьютерных играх всех жанров и направлений",
+          "viewing": 1,
+          "childboards": [
+            {
+              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=554",
+              "name": "Hearthstone: Heroes of Warcraft",
+              "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
+              "topics": 0,
+              "posts": 0
+            }
+          ],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Скачать Майнкрафт на Android. Обзор...",
+            "link": "https://mdforum.su/showthread.php?t=36874",
+            "icon": null,
+            "date": "25.03.2024 23:56",
+            "user": "Скачать Майнкрафт на Android. Обзор...",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "Наш форум",
+      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=138",
+      "description": "",
+      "forums": [
+        {
+          "status": null,
+          "title": "О работе форума",
+          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=140",
+          "description": "Раздел посвящен работе форума. Здесь вы можете оставить замечания или предложения касательно работы форума",
+          "viewing": 0,
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "lastpost": {
+            "title": "Проблемы с загрузкой",
+            "link": "https://mdforum.su/showthread.php?t=36765",
+            "icon": null,
+            "date": "05.04.2023 22:07",
+            "user": "Проблемы с загрузкой",
+            "user_link": null,
+            "avatar": null
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

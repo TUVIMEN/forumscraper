@@ -1,0 +1,2244 @@
+{
+  "format_version": "vbulletin-3+-thread",
+  "url": "https://mafia-game.ru/forum/showthread.php?t=143",
+  "id": 143,
+  "title": "Характеристики авто и их редактирование в RHAM 5.3.3.",
+  "path": [
+    "Mafia-Game Forum",
+    "Mafia: The City Of Lost Heaven",
+    "Модификации"
+  ],
+  "posts": [
+    {
+      "date": "07.09.2018, 12:19",
+      "id": 2336,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: ad_showthread_firstpost_start --> <!-- END TEMPLATE: ad_showthread_firstpost_start --> Здесь будем проводить изыскания по части характеристик игровых авто, а так же разбирать и выяснять параметры программы RHAM 5.3.3.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_2336_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "08.09.2018, 06:41",
+      "id": 2339,
+      "title": "",
+      "content": "Этой программе лет уже под сраку, что там изучать?",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=63",
+        "name": "Mafiafan",
+        "avatar": "https://mafia-game.ru/forum/image.php?s=c5510adccf3c9155556690783c932e63&u=63&dateline=1527862509",
+        "title": "Senior Member",
+        "rank": 6,
+        "rank-name": "Priest",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "1,443"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_2339_63\">694</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "08.09.2018, 07:13",
+      "id": 2340,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Mafiafan</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=2339#post2339\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Этой программе лет уже под сраку, что там изучать?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Ну вот по части тачек я полазил в ней и в M Editor, основательно выписал параметры и сравнил. Понял, что в обеих программах местами <br /> кое-что напутано. Как оказалось, в том же Эм-Эдиторе пара параметров по движку вообще не обозначена. И опять же, возникает много вопросов, <br /> как добиться верных характеристик при отключении трансмиссии? Сейчас вот главная проблема - мучаю ЛиАЗ-677М. У него выбег на нейтралке накатом с 50 км/ч получается почти вдвое меньше, чем должен быть (а должен быть 877 метров). Движок по части крутящих моментов Нм <br /> в разных диапазона тоже пришлось почти вдвое ослабить. Зато на ровной дороге он и разгоняется, как ему подобает - 46,5 сек до 60 км/ч. <br /> И не заезжает даже в относительно небольшие подъёмы <img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" /><img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" /><img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" />",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "ЖЕКА42rus",
+        "date": "09.09.2018 в .  09:28"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_2340_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Andrey",
+          "date": "09.09.2018"
+        }
+      ]
+    },
+    {
+      "date": "22.05.2019, 15:00",
+      "id": 5037,
+      "title": "",
+      "content": "Всем привет! Что-то у меня началась проблема с программой РХАМ-5.3.3. Ставлю машину, с ней в архиве идёт .rcar-файл характеристики, всё ставится, всё работает. Передаточные числа трансмиссии редактирую без проблем, но когда лезу в настройки мотора... и все настройки конкретного авто почему-то слетают и возвращаются к исходным игровым. Раньше такого вообще не было. Переустанавливал игру, удалял и переизвлекал программу - не помогает. Подскажите, кто сталкивался. Буду очень признателен.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5037_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "22.05.2019, 16:30",
+      "id": 5038,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Mafiafan</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=2339#post2339\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Этой программе лет уже под сраку, что там изучать?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote --> На данный момент ничего лучше этой программмы для редактирования не существует - в M-Editor есть далеко не всё, к тому же он нестабилен и часто запарывает Веник. Главным недостатком РХАМ как раз и является то что из почти 1000 параметров большая часть не подписана - так что разбирать там есть что. К тому же влияния даже подписанных параметров тоже не всегда очевидно. На старом МГ была тема про характеристики - пусть тут тоже будет. Раз у людей есть вопросы.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=2340#post2340\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Ну вот по части тачек я полазил в ней и в M Editor, основательно выписал параметры и сравнил. Понял, что в обеих программах местами кое-что напутано.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote --> В M-Editor некоторые параметры отображаются по другому - либо ползунком, либо в процентах - не так как в РХАМ. Но да там ещё много чего не хватает по сравнению с РХАМ. В РХАМ параметры разбирались вслепую, поэтому неудивительно что там много чего напутано.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=5037#post5037\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Всем привет! Что-то у меня началась проблема с программой РХАМ-5.3.3. Ставлю машину, с ней в архиве идёт .rcar-файл характеристики, всё ставится, всё работает. Передаточные числа трансмиссии редактирую без проблем, но когда лезу в настройки мотора... и все настройки конкретного авто почему-то слетают и возвращаются к исходным игровым. Раньше такого вообще не было. Переустанавливал игру, удалял и переизвлекал программу - не помогает. Подскажите, кто сталкивался. Буду очень признателен.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Значит либо программа запарывает веник, либо ты вводишь какие то недопустиные параметры и игра переключается на внутренний незвлечённый vehicles.bin. Редактируй постепенно, чтобы выяснить на каком именно параметре происходит сбой.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=11",
+        "name": "Staghound",
+        "avatar": "https://mafia-game.ru/forum/image.php?s=c5510adccf3c9155556690783c932e63&u=11&dateline=1521574938",
+        "title": "Mafia-Game Team",
+        "rank": 6,
+        "rank-name": "Priest",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "203"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5038_11\">658</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "B.Julius",
+          "date": "26.05.2019"
+        },
+        {
+          "user": "EmptyBowl",
+          "date": "22.05.2019"
+        },
+        {
+          "user": "ЖЕКА42rus",
+          "date": "22.05.2019"
+        }
+      ]
+    },
+    {
+      "date": "22.05.2019, 19:23",
+      "id": 5042,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Staghound</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=5038#post5038\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Значит либо программа запарывает веник, либо ты вводишь какие то недопустимые параметры и игра переключается на внутренний неизвлечённый vehicles.bin. Редактируй постепенно, чтобы выяснить на каком именно параметре происходит сбой.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Происходит именно на настройках мотора, я пробовал пошагово. Параметры ввожу вполне человеческие и допустимые, не какие-то сверхзаоблачные. Редактировал настройки Дэу-Нексия, там параметры двигателя были наоборот сильно завышены по сравнению с реальными. Хотя что там, я массу ЛиАЗа-677 доводил до 18 тонн, достраивал подвеску, и она его при этом выдерживала.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5042_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "24.05.2019, 21:15",
+      "id": 5078,
+      "title": "",
+      "content": "Мой файл опись для рхама. Некоторые параметры пытался перенести из МЕдитора.<br /> У Лиаза-677 в трансмиссии есть гидротрансформатор. Его работу невозможно воспроизвести в характеристиках Мафии, если прописывать все настоящие параметры мотора, пер.числа и тд. Так что этот автобус в игре не будет вести так, как в реальности, если ему все реальные параметры прописать.<br /> А меня интересует пробивание колес. <br /> Вот как, млин, игра определяет границу диска и покрышки?? Размер думмиса на это не влияет. На сколько колесо проваливается вниз при пробитии? В проге найдены только характеристики спущенного колеса. Но должны же быть еще параметры пробивания колес. Как отключить вообще пробивание колес?<br /> Разработчики в Мафии почти сделали рабочий танк, в характах есть параметр &quot;невидимость поворота колес&quot; - это же именно для танка, чтоб он поворачивал без поворота катков! (*ля а я городил костыли с невидимыми колесами<img src=\"https://mafia-game.ru//forum/images/smilies/bububu.gif\" border=\"0\" alt=\"\" title=\"bububu\" class=\"inlineimg\" />) Значит и должен быть какой-то способ отключить пробивание колес пулями и шипами.<br /> Еще один момент.<br /> В Мафии есть незаконченный Биг-фут - машина с большими колесами. Но колеса в игре нематериальны, и взаимодействуют только с поверхностью дороги. На машины они не заезжают. Следовательно, главная фишка биг-фута утрачивается, он не может давить машины. Может в Рхаме найдется параметр, который сделает колеса материальными?",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?s=c5510adccf3c9155556690783c932e63&attachmentid=38&d=1558720876",
+          "name": "opis__.zip",
+          "size": "3.0 Кб",
+          "views": 1822
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?s=c5510adccf3c9155556690783c932e63&u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5078_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Abradox",
+          "date": "25.05.2019"
+        },
+        {
+          "user": "Johnny777",
+          "date": "05.06.2019"
+        },
+        {
+          "user": "ruslan13",
+          "date": "16.07.2019"
+        },
+        {
+          "user": "ЖЕКА42rus",
+          "date": "25.05.2019"
+        }
+      ]
+    },
+    {
+      "date": "25.05.2019, 06:40",
+      "id": 5085,
+      "title": "",
+      "content": "многие парамы кар_актора в памяти прошарены, можно найти их значения в рхаме.<br /> --<br /> а если прочность колеса 100%, то покрышка спускается?<br /> толщина шины...нипомню натыкался ли я на етот парам. возможно что ето общая константа.<br /> но в любом случае пробитие шины общитывается некой программой; можно найти ее и подкорректировать под исключение пробития шины(напр если прочность колеса 100%, или можно ввести некую метку для парам_строки в 4дс).",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=27",
+        "name": "GOLOD55",
+        "avatar": "",
+        "title": "VIP",
+        "rank": 2,
+        "rank-name": "Thug",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "100"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5085_27\">152</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "25.05.2019, 10:54",
+      "id": 5086,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=5078#post5078\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Мой файл опись для рхама. Некоторые параметры пытался перенести из МЕдитора.<br /> У Лиаза-677 в трансмиссии есть гидротрансформатор. Его работу невозможно воспроизвести в характеристиках Мафии, если прописывать все настоящие параметры мотора, пер.числа и т.д. Так что этот автобус в игре не будет вести так, как в реальности, если ему все реальные параметры прописать.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Собственно, попробуй сам. Здесь 2 варианта характеристик. Как видишь, параметры мотора я все прописал реальные. Передаточные числа, моменты переключения ГМП вверх и вниз - тоже. Не пугайся, если не будет звуков, я с ними тоже немного пробовал экспериментировать. Но если не возражаешь как автор модели, то скину их в следующем сообщении.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?s=c5510adccf3c9155556690783c932e63&attachmentid=39&d=1558770850",
+          "name": "Хар-ки ЛиАЗ-677М(снар. и с полн. массой).zip",
+          "size": "2.2 Кб",
+          "views": 1826
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5086_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Johnny777",
+          "date": "05.06.2019"
+        }
+      ]
+    },
+    {
+      "date": "26.05.2019, 12:21",
+      "id": 5094,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=5086#post5086\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Собственно, попробуй сам. Здесь 2 варианта характеристик. Как видишь, параметры мотора я все прописал реальные. Передаточные числа, моменты переключения ГМП вверх и вниз - тоже. Не пугайся, если не будет звуков, я с ними тоже немного пробовал экспериментировать. Но если не возражаешь как автор модели, то скину их в следующем сообщении.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Со звуками было бы интересней. Передаточные числа все же ненастоящие, они должны быть меньше. Первая передача - 13,62<br /> Вторая передача - 7,6<br /> Задняя передача - 13,02<br /> Данные взяты из руководства по эксплуатации 1983-го года<br /> Но, не забываем, что в трансмиссии есть ГТФ с коэффициентом трансформации 3.0 Это как отдельная коробка передач, но свое передаточное число она изменяет бесступенчато, с 3.0 до 1.0. <br /> То что мы пишем в параметрах Мафии, получается просто машина с обычным сцеплением и двухступенчатой коробкой. В реальности она будет еле ехать.<br /> Так что нужно все же подгонять п.ч. под имитацию работы ГТФ. Я бы еще три передачи сделал. Если вы ездили на 677-ом в реальности, можно было заметить, что по мере разгона двигатель &quot;вздыхает&quot; два раза - в первый раз при переходе с первой на вторую, а во второй раз - при блокировке ГТФ, когда двигатель напрямую жестко соединяется с задним мостом. И дальше автобус уже разгоняется натужно ревя мотором. <br /> При полном нажатии на педаль газа переход с первой на вторую должен осуществляться на скорости 28-30 км/ч, а блокировка ГТФ должна происходить при скорости 38-40 км/ч. Так написано в руководстве. Максималка у автобуса по паспорту 70км/ч и двигатель ограничен по оборотам до 3800 обминов. Но ограничитель оборотов часто убирали и обороты возрастали до 4000-4500, следовательно вырастала и скорость до 90-100км/ч<br /> <br /> <font size=\"1\"><font color=\"Silver\">Добавлено через 8 минут</font></font><br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>GOLOD55</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=5085#post5085\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">многие парамы кар_актора в памяти прошарены, можно найти их значения в рхаме.<br /> --<br /> а если прочность колеса 100%, то покрышка спускается?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Пойди найди еще там эту прочность колеса. Там их несколько - отстрел, удары битой или при столкновении, все разные параметры<br /> <br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>GOLOD55</strong> <a href=\"showthread.php?s=c5510adccf3c9155556690783c932e63&amp;p=5085#post5085\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">толщина шины...нипомню натыкался ли я на етот парам. возможно что ето общая константа.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Вот тоже так думается. Некий процент от диаметра/радиуса колеса. А как этот диаметр/радиус вычисляется? Высотой думмиса колеса над поверхностью дороги? Тут нужно поэкспериментировать с машинами с разным радиусом колес.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?s=c5510adccf3c9155556690783c932e63&u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?s=c5510adccf3c9155556690783c932e63&u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5094_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "26.05.2019, 14:20",
+      "id": 5096,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: ad_showthread_firstpost_start --> <!-- END TEMPLATE: ad_showthread_firstpost_start --> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=5094#post5094\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Со звуками было бы интересней. Передаточные числа все же ненастоящие, они должны быть меньше. Первая передача - 13,62<br /> Вторая передача - 7,6<br /> Задняя передача - 13,02</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote --> На старом форуме был мой основательный пост по части того, как я рассчитываю передаточные числа для различных скоростей. <br /> Попробую максимально передать его содержание и здесь. Возьмём наш любимый ЛиАЗ-677М. Я пользовался данными <br /> из справочника НИИАТ 1985 года <img src=\"https://mafia-game.ru//forum/images/smilies/B).gif\" border=\"0\" alt=\"\" title=\"cool\" class=\"inlineimg\" /> <br /> Нам нужны несколько известных параметров:<br /> - максимальные обороты двигателя по ограничителю - 3200 об/мин;<br /> - передаточное число 1-й передачи - 1.792;<br /> - передаточное число главной передачи - 7.61;<br /> - наружный диаметр покрышки без нагрузки - 1045мм, если длина окружности уже известна - можно принять и её.<br /> Мои дальнейшие действия:<br /> 1) Обороты двигателя 3200 делим на 60 - получаем 53.33 об/сек.;<br /> 2) Умножаем ПЧ нужной нам передачи на ПЧ главной передачи - 1.792х7.61=13.64. <br /> Именно во столько раз меньше, чем двигатель, колесо на определённой передаче совершает оборотов на конкретной передаче;<br /> 3) Делим значение из параметра 1 на значение из параметра 2 - 53.33/13.64=3.91. <br /> Именно столько оборотов в секунду совершает ведущее колесо на определённой передаче при предельных оборотах двигателя;<br /> 4) Теперь нам нужна длина окружности покрышки. Умножаем 1.045(именно с точкой после 1) на число ПИ (3.14) - получаем 3.281м. <br /> Именно столько расстояния покрышка проезжает за один, оборот колеса а игра вряд ли учитывает погрешности и разности в диаметрах;<br /> 5) Умножаем значение 3 на значение 4. То есть, 3.91х3.281=12.83;<br /> 6) Теперь значение 5 умножим на 3.6, это необходимо для того, чтобы скорость получилась именно в км/ч. 12.83х3.6=46.19км/ч. <br /> Именно такую скорость развивает ЛиАЗ-677М при максимальных оборотах на 1-й передаче.<br /> <br /> Есть ещё такой немаловажный фактор, как неправильное масштабирование моделей в Занозе. Многие выставляют размер, <br /> скажем, по фигурке Томми, что ни к чему хорошему в итоге не приводит. Но сравнив игровые модели с размерами реальных прототипов, <br /> понял то, что в Занозе все размеры отображаются правильно. У ЛиАЗа от Скрепера с размерами как раз полный порядок.<br /> <br /> <font size=\"1\"><font color=\"Silver\">Добавлено через 1 минуту</font></font><br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=5094#post5094\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Если вы ездили на 677-ом в реальности, можно было заметить, что по мере разгона двигатель &quot;вздыхает&quot; два раза - в первый раз при переходе с первой на вторую, а во второй раз - при блокировке ГТФ, когда двигатель напрямую жестко соединяется с задним мостом. И дальше автобус уже разгоняется натужно ревя мотором.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->В детстве на них вдоволь накатался, но поработать, увы, немного не успел. В основном, работаю на НефАЗ-5299 и ЛиАЗ-5256.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "ЖЕКА42rus",
+        "date": "31.05.2019 в .  22:15"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5096_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "GOLOD55",
+          "date": "30.05.2019"
+        },
+        {
+          "user": "Johnny777",
+          "date": "26.10.2019"
+        },
+        {
+          "user": "Screper",
+          "date": "28.05.2019"
+        },
+        {
+          "user": "Tosyk",
+          "date": "14.01.2020"
+        }
+      ]
+    },
+    {
+      "date": "28.05.2019, 19:21",
+      "id": 5100,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=5096#post5096\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">На старом форуме был мой основательный пост по части того, как я рассчитываю передаточные числа для различных скоростей.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Точно, точно, я помню то сообщение и тот расчет<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /> Так по нему у меня почти все верно получалось в игре, когда я более точно настраивал характеристики автобуса. По крайней мере по скорости. Надо будет сейчас повторить.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=5096#post5096\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">2) Умножаем ПЧ нужной нам передачи на ПЧ главной передачи - 1.792х7.61=13.64.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->А почему тогда у тебя в характеристиках было прописано 15,06?<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=5096#post5096\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Есть ещё такой немаловажный фактор, как неправильное масштабирование моделей в Занозе. Многие выставляют размер, <br /> скажем, по фигурке Томми, что ни к чему хорошему в итоге не приводит. Но сравнив игровые модели с размерами реальных прототипов, <br /> понял то, что в Занозе все размеры отображаются правильно. У ЛиАЗа от Скрепера с размерами как раз полный порядок.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->А вот тут не все так однозначно. Я выставлял Лиаз по масштабной сетке в Занозе. И думал что все мафиозные машины с ней совпадают. А нифига, они немного вразнобой, некоторые получаются больше своих реальных размеров, так что фиг знает как их масштабировать. Фигурка Тома очень большая, она может во многих машинах просто не помещаться на своем месте.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=5096#post5096\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">В детстве на них вдоволь накатался, но поработать, увы, немного не успел. В основном, работаю на НефАЗ-5299 и ЛиАЗ-5256.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Я на них ваще не работал<img src=\"https://mafia-game.ru//forum/images/smilies/crazy.gif\" border=\"0\" alt=\"\" title=\"crazy\" class=\"inlineimg\" /> Только катался вдоволь.<br /> <br /> PS И все же, для более точного совпадения характеристик в игре с реальностью, нужно выбирать машины с обычной трансмиссией. <br /> ГТФ на Лиазе вносит свои особенности в поведение машины, непередаваемые при точных характеристиках машин в РХАМе.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Screper",
+        "date": "28.05.2019 в .  19:26"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5100_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "28.05.2019, 20:14",
+      "id": 5101,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=5100#post5100\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">А почему тогда у тебя в характеристиках было прописано 15,06?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Оно и сейчас прописано. Потому что уже после на любой машине ПЧ приходится подгонять для того, чтобы скорость при максимальных оборотах получалась реальная. Всё ведь высчитываешь идеально, а итоговые скорости почему-то заметно отличаются на всех передачах. В данном случае, опытным путём я пришёл к ПЧ 15,06, чтобы ЛиАЗ ехал на 1-й передаче свои положенные 46 км/ч. И так с каждой передачей.<br /> <br /> Мне интересно вот что: существуют ли какие-то утилиты для Мафии, чтобы скорость и прочие параметры отображались в виде цифр, а не стрелками? Если ты знаком с симулятором OMSI 2, то там клавишами Shift+Y можно выводить разные параметры прямо в игровое окно сверху.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5101_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "28.05.2019, 22:25",
+      "id": 5102,
+      "title": "",
+      "content": "Есть скрипт который делает так чтобы вместо денег показывалась скорость авто<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_code --> <div style=\"margin:20px; margin-top:5px\"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Код:</div> <pre class=\"alt2\" dir=\"ltr\" style=\" margin: 0px; padding: 6px; border: 1px inset; width: 640px; height: 258px; text-align: left; overflow: auto\">dim_act 2 dim_flt 2 findactor 0, &quot;Tommy&quot; commandblock 1 commandblock 0 label 1 human_getseatidx 0, 0 if flt[0]=0, -1, 1 human_getowner 0, 1 car_getspeed 1, 1 freeride_scoreset flt[1] goto 1</pre> </div> <!-- END TEMPLATE: bbcode_code -->Сам не проверял, так что не знаю работает или нет. <br /> Насчёт остальных параметров не знаю как вывести, но Голод с этим разбирался - может поможет.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=11",
+        "name": "Staghound",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=11&dateline=1521574938",
+        "title": "Mafia-Game Team",
+        "rank": 6,
+        "rank-name": "Priest",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "203"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5102_11\">658</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "EmptyBowl",
+          "date": "29.07.2019"
+        },
+        {
+          "user": "ЖЕКА42rus",
+          "date": "29.05.2019"
+        }
+      ]
+    },
+    {
+      "date": "01.06.2019, 11:52",
+      "id": 5112,
+      "title": "",
+      "content": "Ещё последний месяц у меня зреет такая интересная мысль: прописывается ли где-то отдельно от общей массы масса мостов и колёс? Поскольку неподрессоренные массы имеют весьма большой процент от общей, что особенно актуально на большой технике, вроде грузовиков и автобусов, а так же немало влияют на поведение и устойчивость. Да и жёсткость подвески без их учёта тоже правильно не задашь.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_5112_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "ruslan13",
+          "date": "16.07.2019"
+        }
+      ]
+    },
+    {
+      "date": "27.07.2019, 20:16",
+      "id": 6384,
+      "title": "",
+      "content": "Блин, занятное это дело, разбираться в настройках Мафии)<br /> Для расчета скоростей на каждой передаче нашел онлайн-калькулятор, где нужно вбивать значения пер.чисел, оборотов и размеров колеса:<br /> <a href=\"http://www.kolhosniki.ru/calc_kpp&amp;lang=ru\" target=\"_blank\">http://www.kolhosniki.ru/calc_kpp&amp;lang=ru</a><br /> На этот раз для испытаний был выбран старенький, но еще вполне бодрый и малость отреставрированный ГАЗ-67. Он простой, ничего сложного в нем нет, его параметры легко укладываются в настройках Мафии. <br /> Расчеты максимальной скорости по формуле в этой теме дают странные результаты. <br /> Диаметр колеса в Занозе - 756 мм<br /> Максимальные обороты двигателя - 2800 об/мин<br /> ГП - 4,444<br /> 1 - 6,4<br /> 2 - 3,09<br /> 3 - 1,69<br /> 4 - 1,00<br /> В Занозе выверен диаметр колеса, в настройки вписаны макс обороты и пер.числа. По расчету должно получиться 89-90 км/ч, а в игре получается примерно 100 км/ч. В калькуляторе получилось 107. Реальная скорость газона по паспорту 90 км/ч. Наружный диаметр покрышек Я-13 - 750-760 мм<br /> Как будто в игре или обороты чуть завышаются, или спидометр привирает) <br /> А еще в настройках есть параметр величины сопротивления воздуха. Максимальную скорость он не ограничивает, но сильно снижает разгон, так что если его завысить, то разогнаться до максималки удастся только с горочки. Диаметр колес в Занозе реально влияет на скорость и разгон машины в Мафии! Так что тщательней нужно выверять диаметр покрышек по сетке в Занозе. <br /> Что касается масштабирования машин. Если машину выверить по сетке и сконвертить в игру, то рост Тома относительно машины получается где-то 188-190 см. Нехилый такой детина) Чтобы посадить его в ГАЗ-67 потребовалось сдвинуть назад сиденья, что в реальной жизни на этом Газоне невозможно)<br /> Еще хочу рассказать про градуировку тахометра в Мафии. На нем есть отметки, но нет цифр, потому что тахометр один, а цифры у машин разные. Но можно рассчитать градуировку для конкретной машины. На циферблате восемь отметок. Первая - это 0, последняя - это максимальные обороты прописанные в настройках машины. Нужно выяснить цену деления тахометра, разделив цифру макс.оборотов на восемь. Из полученного числа можно рассчитать количество оборотов на каждой отметке. <br /> Например у ГАЗ-67 2800 обмин делим на 8 и получаем 350. То есть цена деления тахометра - 350 обминов. Таким образом выясняем, что красная зона начинается с 2450 обминов. Также, если всю шкалу взять за 100%, то можно выяснить и прописать, на каких оборотах будет происходить переключение передачи. <br /> <br /> <font size=\"1\"><font color=\"Silver\">Добавлено через 2 минуты</font></font><br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=5112#post5112\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Ещё последний месяц у меня зреет такая интересная мысль: прописывается ли где-то отдельно от общей массы масса мостов и колёс? Поскольку неподрессоренные массы имеют весьма большой процент от общей, что особенно актуально на большой технике, вроде грузовиков и автобусов, а так же немало влияют на поведение и устойчивость. Да и жёсткость подвески без их учёта тоже правильно не задашь.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Я думаю что нет такого параметра. Если бы он был, его можно было бы найти в настройках мостов. А вообще, мне кажется, что в Мафии мосты и колеса несколько абстрактны, колеса взаимодействуют только с поверхностью дороги, и нематериальны.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Screper",
+        "date": "12.01.2020 в .  20:10"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_6384_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Abradox",
+          "date": "28.07.2019"
+        },
+        {
+          "user": "Adilka",
+          "date": "28.07.2019"
+        },
+        {
+          "user": "EmptyBowl",
+          "date": "29.07.2019"
+        },
+        {
+          "user": "Illusion_Insanity",
+          "date": "17.01.2020"
+        },
+        {
+          "user": "Johnny777",
+          "date": "26.10.2019"
+        },
+        {
+          "user": "MAD",
+          "date": "29.07.2019"
+        },
+        {
+          "user": "Staghound",
+          "date": "27.07.2019"
+        }
+      ]
+    },
+    {
+      "date": "29.07.2019, 09:52",
+      "id": 6423,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=6384#post6384\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">В Занозе выверен диаметр колеса, в настройки вписаны макс обороты и пер.числа. По расчету должно получиться 89-90 км/ч, а в игре получается примерно 100 км/ч. В калькуляторе получилось 107. Реальная скорость газона по паспорту 90 км/ч. Наружный диаметр покрышек Я-13 - 750-760 мм</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->При вычислениях я всегда стараюсь найти именно реальный размер выпускаемых для данной машины покрышек. В итоге передаточные числа всё равно приходится подгонять, в отличие от первоначальных. Потому что конечный результат, к которому необходимо прийти - это всё же реальная скорость на определённой передаче в игре, а не сами передаточные числа. Вот для примера характеристики Татры-613, которые я сделал, опираясь на результаты чешских тестов и замеров. Единственное, я пока что с подвеской на ней не колдовал.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "ЖЕКА42rus",
+        "date": "29.07.2019 в .  21:41"
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=464&d=1564383107",
+          "name": "Tatra-613 характеристики.zip",
+          "size": "1.1 Кб",
+          "views": 1231
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_6423_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "EmptyBowl",
+          "date": "29.07.2019"
+        },
+        {
+          "user": "Johnny777",
+          "date": "26.10.2019"
+        },
+        {
+          "user": "Tosyk",
+          "date": "14.01.2020"
+        }
+      ]
+    },
+    {
+      "date": "12.01.2020, 19:51",
+      "id": 8408,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=6423#post6423\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">При вычислениях я всегда стараюсь найти именно реальный размер выпускаемых для данной машины покрышек. В итоге передаточные числа всё равно приходится подгонять, в отличие от первоначальных. Потому что конечный результат, к которому необходимо прийти - это всё же реальная скорость на определённой передаче в игре, а не сами передаточные числа.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->А я считаю, что передаточные числа трогать не стоит. Как и диаметр колеса, эти параметры &quot;жесткие&quot;. А чтобы получить нужную скорость и разгон в игре, нужно играться с настройками двигателя и сопротивлением воздуха. Эти параметры более &quot;плавающие&quot; так сказать.<br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=6384#post6384\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">По расчету должно получиться 89-90 км/ч, а в игре получается примерно 100 км/ч. В калькуляторе получилось 107. Реальная скорость газона по паспорту 90 км/ч.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Кстати, тот же Газон, сотню делает только с помощью небольшой горочки<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /> А на ровной прямой он так и тошнит со скоростью 89-90км/ч. Так что с расчетом по формуле результат в игре, вроде бы и совпадает. Другие машины еще не пробовал.<br /> <br /> Продолжаю дальше ковырять настройки, теперь уже с помощью MafiaEditora. Обнаружилась еще одна интересная вещь, однако не доведенная до конца разработчиками.<br /> В Мафии есть файл tyres.bin, который содержит в себе характеристики шин. Там есть четыре вида шин каждая со своим id-номером. Этот номер и прописывается в настройках мостов. Тогда игра берет настройки шин из файла tyres.bin. А если в строчке поставить 0, то настройки будут использоваться те, которые прописаны ниже в характеристике автомобиля.<br /> Причем в tyres.bin для каждой покрышки прописаны различные характеристики в зависимости от поверхности по которой едет покрышка. То есть стандартные шины будут по-разному себя вести на асфальте, траве, бетоне, песке, деревянном паркете(?), и прочих поверхностях, существующих в игре. Например гоночные шины будут лучше себя вести на асфальте, а на траве скользить. Именно по этому у каждой стандартной машины и прописаны id-номера шин, и машины по-разному едут по асфальту, песку, траве. А если убрать id-номер и прописать свои настройки, то машина будет одинаково ездить по разным поверхностям. Так что, мне кажется, для своих машин тоже можно попробовать так же делать, просто прописывая id-номера нужных шин в характеристиках. Свои характеристики прописывать только если нужно что-то действительно нестандартное.<br /> Думаю что смена покрышек на автомобиле должна была быть в гонках, которые так и не были реализованы разработчиками.<br /> Ну и в очередной раз немного подкорректировал файл описания для Рхама. Некоторые параметры подписаны с оглядкой на MafiaEditor, некоторые подписал как сам понял.<br /> И по-прежнему перелопачиваю все характы в поисках гребаного запрета на пробивание колес! Ну ведь должен же он где-то быть. Ведь есть же в Мафии танк и каток, есть отключение поворота колес, значит должна быть и пулестойкость колес, иначе какой каток с пробиваемыми колесами. Или пулестойкость колес прописана где-то в другом месте, как &quot;таксишность&quot; автомобиля?",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Screper",
+        "date": "12.01.2020 в .  20:07"
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=896&d=1578847764",
+          "name": "opis.zip",
+          "size": "3.1 Кб",
+          "views": 890
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8408_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Abradox",
+          "date": "12.01.2020"
+        },
+        {
+          "user": "Alf46",
+          "date": "22.01.2020"
+        },
+        {
+          "user": "Illusion_Insanity",
+          "date": "17.01.2020"
+        },
+        {
+          "user": "ruslan13",
+          "date": "24.12.2022"
+        },
+        {
+          "user": "Staghound",
+          "date": "15.01.2020"
+        },
+        {
+          "user": "Tosyk",
+          "date": "14.01.2020"
+        }
+      ]
+    },
+    {
+      "date": "14.01.2020, 17:19",
+      "id": 8412,
+      "title": "",
+      "content": "мои 5 копеек: <a href=\"https://docs.google.com/spreadsheets/d/1KKeEjqPNuUhzmRefIdXfxEQEJ1qIeCGy1U3FB2XDV3Q/edit?usp=sharing\" target=\"_blank\">https://docs.google.com/spreadsheets...it?usp=sharing</a><br /> <br /> разбиралось на основании <i>chemafor</i><br /> <br /> кстати, где написано про размер колёс? интересно очень",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=1",
+        "name": "Tosyk",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=1&dateline=1560589968",
+        "title": "Administrator",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "764"
+          },
+          {
+            "key": "Репутация:",
+            "value": "N/A"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "AngryBabka",
+          "date": "16.04.2023"
+        },
+        {
+          "user": "Screper",
+          "date": "14.01.2020"
+        },
+        {
+          "user": "Staghound",
+          "date": "15.01.2020"
+        }
+      ]
+    },
+    {
+      "date": "14.01.2020, 22:57",
+      "id": 8413,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8412#post8412\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">мои 5 копеек</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Воот, ты показал что значат параметры 431-435! Это, оказывается, настройки дыма от поврежденного мотора! Я этого не знал, и гадал, что это за параметры. А теперь ясно, еще один пробел в описаниях убран<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /><br /> И описания повреждения разных частей мне тоже следует подкорректировать, оказывается там первые два значения это скорость(?), при которой возможно повреждение частей, сминание, или отлетание. С этим отдельно надо разбираться, но уже понятно, что можно улучшить сминаемость авто при авариях. Но без фанатизма, иначе машина становится похожа на глюк видеокарты<img src=\"https://mafia-game.ru//forum/images/smilies/crazy.gif\" border=\"0\" alt=\"\" title=\"crazy\" class=\"inlineimg\" /><br /> Теперь осталось непонятным что за параметр 403?<br /> Что означают параметры 404, 405, 406? Учитывая три следующих за ними параметра, это тоже что-то должно включаться/выключаться, но вот что?<br /> Еще пустые параметры 416, 417, 418, 419. Возможно опять же, первый что-то включает, а три других являются параметрами этого &quot;чего-то&quot;.<br /> Ну и дальше параметры 523-738, там одни нули, и в конце, возможно, звуки.<br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8412#post8412\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">кстати, где написано про размер колёс? интересно очень</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Про размер колес мы писали в предыдущих сообщениях. Он выставляется в Занозе. Радиус колеса высчитывается от центра объекта WHLx, до его самой нижней точки в текущем положении в Занозе. Для круглых колес все понятно, какого размера сделаешь(высчитаешь размер по координатной сетке в Занозе), такое колесо и будет в игре. Но, откройте любую стандартную модель в Занозе и обратите внимание, что, колеса у стандартных авто, оказывается, квадратные<img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" /> И этот квадрат стоит ровно своей плоской частью на &quot;полу&quot; Значит его радиус и будет от центра вниз до его грани. И в игре он так и будет крутится, углы его будут нематериальны и проваливаться под поверхность. Если этот квадрат в Занозе повернуть на 45 градусов, он встанет на угол, и в игре машина поднимется, и ее колеса станут как бы больше, потому что увеличилось расстояние от центра до нижней точки колеса. Причем не обязательно ставить машину колесами точно на &quot;пол&quot;, или чуть-чуть утапливать в &quot;пол&quot; колеса имитируя прогиб шин, нифига это не повлияет в игре машина все равно &quot;упадет&quot; колесами на поверхность. И тут еще есть нюанс, что если колесо не круглое, и его центр сильно смещен к краю то, в определенные моменты оно будет не доставать до земли, и это приведет к глюкам внешней камеры, когда она застынет под одним углом и не вернется на свою позицию, пока все колеса одновременно не будут доставать до земли. Но это уже не важно, если делать обычную машину с круглыми колесами, катящимися по земле.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8413_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "15.01.2020, 10:31",
+      "id": 8415,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: ad_showthread_firstpost_start --> <!-- END TEMPLATE: ad_showthread_firstpost_start --> Добавлю ещё свой вариант описи - там я подписал настройки всех отваливающихся обьектов и разобрал настройки звуков. Но там всё надо проверять и тестировать - так что это всё не точно. Брал настройки частично с M-Эдитора, частично методом тыка и проверки в игре.<br /> <a href=\"https://mafia-game.ru/forum/attachment.php?attachmentid=901&amp;d=1579073400\" title=\"Название: opis.zip Просмотров: 1080 Размер: 3.5 Кб\">opis.zip</a><br /> Базируется на старом варианте описи Screper-а",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=11",
+        "name": "Staghound",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=11&dateline=1521574938",
+        "title": "Mafia-Game Team",
+        "rank": 6,
+        "rank-name": "Priest",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "203"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8415_11\">658</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Alf46",
+          "date": "22.01.2020"
+        },
+        {
+          "user": "B.Julius",
+          "date": "16.01.2020"
+        },
+        {
+          "user": "Illusion_Insanity",
+          "date": "17.01.2020"
+        },
+        {
+          "user": "Screper",
+          "date": "18.01.2020"
+        },
+        {
+          "user": "Tosyk",
+          "date": "18.01.2020"
+        }
+      ]
+    },
+    {
+      "date": "18.01.2020, 03:48",
+      "id": 8433,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8413#post8413\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">404, 405, 406?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->на самом деле они не существуют. это ошибка в RHAM",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=1",
+        "name": "Tosyk",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=1&dateline=1560589968",
+        "title": "Administrator",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "764"
+          },
+          {
+            "key": "Репутация:",
+            "value": "N/A"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "18.01.2020, 22:57",
+      "id": 8435,
+      "title": "",
+      "content": "Друзья, всем привет, почти 20 лет играю в эту замечательную игру, но вот модингом не занимался, а тут на работе скучно стало, скачал rham 5.3.3 скачал модель бмв е34, стал редактировать, количество передач, мощность, обороты, всё. Но теперь когда сажусь в заменённый авто - cad_phaeton (лассайтер роадстр) у него нет бензина в баке... как с этим бороться? <br /> Прилагаю фото моих настроек, дальше я не менял ничего.<br /> <a href=\"https://mafia-game.ru/forum/imgcache/2020/01/18/djw5srubgkfsyzzpgb.jpg\" class=\"highslide\" onclick=\"return hs.expand(this)\"> <img class=\"postbit_img\" src=\"https://mafia-game.ru/forum/imgcache/2020/01/18/djw5srubgkfsyzzpgb.jpg\" style=\"max-width: 250px; max-height: 250px;\" alt=\"\" title=\"\" /> </a>",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=439",
+        "name": "Timon-mafia",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "5"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8435_439\">11</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Tosyk",
+          "date": "19.01.2020"
+        }
+      ]
+    },
+    {
+      "date": "19.01.2020, 01:34",
+      "id": 8436,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Timon-mafia</strong> <a href=\"showthread.php?p=8435#post8435\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Друзья, всем привет, почти 20 лет играю в эту замечательную игру, но вот модингом не занимался, а тут на работе скучно стало, скачал rham 5.3.3 скачал модель бмв е34, стал редактировать, количество передач, мощность, обороты, всё. Но теперь когда сажусь в заменённый авто - cad_phaeton (лассайтер роадстр) у него нет бензина в баке... как с этим бороться? <br /> Прилагаю фото моих настроек, дальше я не менял ничего.<br /> <a href=\"https://mafia-game.ru/forum/imgcache/2020/01/18/djw5srubgkfsyzzpgb.jpg\" class=\"highslide\" onclick=\"return hs.expand(this)\"> <img class=\"postbit_img\" src=\"https://mafia-game.ru/forum/imgcache/2020/01/18/djw5srubgkfsyzzpgb.jpg\" style=\"max-width: 250px; max-height: 250px;\" alt=\"\" title=\"\" /> </a></div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Я так подозреваю, вы настройки пятой передачи не прописали? <br /> Картинка обрывается как раз на 4-ой передаче. У стандартного Кадиллака было 3 передачи, вы исправили на 5, а дописали только 4-ю, 5-я осталась по нулям. Так?<br /> PS И у вас устаревший описательный файл к Рхаму. Следует скачать один из последних из этой темы, там пояснения лучше расписаны. Хотя все равно еще много непонятных параметров<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" />",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Screper",
+        "date": "19.01.2020 в .  01:39"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8436_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "19.01.2020, 04:49",
+      "id": 8437,
+      "title": "",
+      "content": "<b>Screper</b>, разве пункты 65 и 66 не могут относиться к повреждённым колёсам?",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=1",
+        "name": "Tosyk",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=1&dateline=1560589968",
+        "title": "Administrator",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "764"
+          },
+          {
+            "key": "Репутация:",
+            "value": "N/A"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "19.01.2020, 12:44",
+      "id": 8439,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8436#post8436\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Я так подозреваю, вы настройки пятой передачи не прописали? <br /> Картинка обрывается как раз на 4-ой передаче. У стандартного Кадиллака было 3 передачи, вы исправили на 5, а дописали только 4-ю, 5-я осталась по нулям. Так?<br /> PS И у вас устаревший описательный файл к Рхаму. Следует скачать один из последних из этой темы, там пояснения лучше расписаны. Хотя все равно еще много непонятных параметров<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /></div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Спасибо! сейчас свеженькую расшифровку поищу, <br /> 5ю указывал, но почему то передаточное число 0.. я ставил около 2<br /> <a href=\"https://mafia-game.ru/forum/imgcache/2020/01/19/dffcq4rmzljfgyktyn.jpg\" class=\"highslide\" onclick=\"return hs.expand(this)\"> <img class=\"postbit_img\" src=\"https://mafia-game.ru/forum/imgcache/2020/01/19/dffcq4rmzljfgyktyn.jpg\" style=\"max-width: 250px; max-height: 250px;\" alt=\"\" title=\"\" /> </a>",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Timon-mafia",
+        "date": "19.01.2020 в .  12:46"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=439",
+        "name": "Timon-mafia",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "5"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8439_439\">11</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "19.01.2020, 19:20",
+      "id": 8441,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8437#post8437\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\"><b>Screper</b>, разве пункты 65 и 66 не могут относиться к повреждённым колёсам?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Нет. <br /> Эти параметры настраивают скорость поворота колес в движении автомобиля. По-моему в процентах от двух верхних значений 63 и 64(поворот и возврат колес на месте) Очень сильно влияет на управляемость автомобиля на большой скорости.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8441_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Tosyk",
+          "date": "19.01.2020"
+        }
+      ]
+    },
+    {
+      "date": "20.01.2020, 15:10",
+      "id": 8445,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8413#post8413\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Теперь осталось непонятным что за параметр 403?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->в M Editor сказано, что это <i>Loose Adhesion Factror</i>, фактор этот стоит в разделе Физика, рядом с параметрами умножителя вероятности аварии и его можно перевести как Фактор потери сцепления колёс с дорогой. Предполагаю, что этот фактор может зависеть от заноса машины — чем сильнее машину занесло тем меньше она прилеплена к дороге.<br /> <br /> как пример: практически у всех машин этот фактор равен 20, а умножитель вероятности аварии выключен. Но есть единственная тачка - HotRod (fordhot), у которого фактор = 1. У этого ХотРода умножитель вероятности аварии Включен, как у некоторых других (редко).<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8413#post8413\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Что означают параметры 404, 405, 406? Учитывая три следующих за ними параметра, это тоже что-то должно включаться/выключаться, но вот что?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->судя по M Editor 404, 405, 406 параметров не существует, т.е. они лишние. потому что там в бинарнике вообще нет такого количества чисел. а вот<ol style=\"list-style-type: decimal\"><li>407 = ABS</li> <li>408 = ESP.</li> <li>ну и 409 не очень понятен. Написано, что активация этого параметра должна что-то скрывать, что-то связанное с рулением, возможно сам руль? но в игре этот параметр у всех машин выключен</li> </ol><!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8413#post8413\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Еще пустые параметры 416, 417, 418, 419. Возможно опять же, первый что-то включает, а три других являются параметрами этого &quot;чего-то&quot;.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->не похоже, чтобы первый что-то включал, потому что это float из 4ёх байт. это какое-то значение. я нигде не нашёл информации о том что это. но судя по группе, в которой он расположен в самом файле это как-то связано с партиклами выхлопа. можно попробовать их поменять и посмотреть что будет с выхлопом<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8413#post8413\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Ну и дальше параметры 523-738, там одни нули, и в конце, возможно, звуки.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->если внимательно посмотришь док я там написал, что не только 523-738 но и вообще весь блок 523- 931 - это всё звуки. комменты оставил в доке. правда не все параметры понятны.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8413#post8413\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Про размер колес мы писали в предыдущих сообщениях. Он выставляется в Занозе.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->так этот размер куда-то записывается? в какой-то файл? может быть в файл с авто? или в какой-то другой? или это просто информация о том как работают колёса?<br /> <br /> p.s.: кстати, вы знали, что разработчики планировали сделать вид из машины? для звуков авто слышимых внутри даже выделили целый раздел в vehicles.bin? я думаю как раз эти параметры 523-738 и были предусмотрены для звуков слышимых внутри машины. хотя погодите ка, в игре же есть катсцены внутри машины, но я не помню чтобы звуки звучали как-то по другому в этот момент.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8408#post8408\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">И по-прежнему перелопачиваю все характы в поисках гребаного запрета на пробивание колес! Ну ведь должен же он где-то быть. Ведь есть же в Мафии танк и каток, есть отключение поворота колес, значит должна быть и пулестойкость колес, иначе какой каток с пробиваемыми колесами. Или пулестойкость колес прописана где-то в другом месте, как &quot;таксишность&quot; автомобиля?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->в EXE не может быть? а где этот танк посмотреть? я может разберусь потому я ковыряю напрямую бинарник",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=1",
+        "name": "Tosyk",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=1&dateline=1560589968",
+        "title": "Administrator",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "764"
+          },
+          {
+            "key": "Репутация:",
+            "value": "N/A"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "20.01.2020, 15:10",
+      "id": 8446,
+      "title": "",
+      "content": "Чуть уменьшил 14й пункт и стало всё нормально.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=439",
+        "name": "Timon-mafia",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "5"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8446_439\">11</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "20.01.2020, 19:27",
+      "id": 8448,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8445#post8445\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">в M Editor сказано, что это <i>Loose Adhesion Factror</i>, фактор этот стоит в разделе Физика, рядом с параметрами умножителя вероятности аварии и его можно перевести как Фактор потери сцепления колёс с дорогой. Предполагаю, что этот фактор может зависеть от заноса машины — чем сильнее машину занесло тем меньше она прилеплена к дороге.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Ну хрен его знает, нужно еще экспериментировать. Может это вероятность срыва машины в занос после столкновения... Не знаю<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8445#post8445\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">как пример: практически у всех машин этот фактор равен 20, а умножитель вероятности аварии выключен. Но есть единственная тачка - HotRod (fordhot), у которого фактор = 1. У этого ХотРода умножитель вероятности аварии Включен, как у некоторых других (редко).</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Этот параметр включен у еще одной машины - всеми любимой и ненаглядной CrazyHorse<img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" /> Эта тачка вообще за гранью здравого смысла<img src=\"https://mafia-game.ru//forum/images/smilies/crazy.gif\" border=\"0\" alt=\"\" title=\"crazy\" class=\"inlineimg\" /><br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8445#post8445\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">[*]407 = ABS[*]408 = ESP.[*]ну и 409 не очень понятен. Написано, что активация этого параметра должна что-то скрывать, что-то связанное с рулением, возможно сам руль? но в игре этот параметр у всех машин выключен</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Как раз таки этот параметр нагляден и понятен<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /> Он отключает поворот колес. При этом машина поворачивает, крутится руль, но колеса стоят в ровном положении. Вот скажите мне, для чего это еще можно было придумать, кроме как для гусеничных машин, которых в Мафии предполагалось как минимум 2шт(гусеничный трактор и недоделанный танк)<br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8445#post8445\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">не похоже, чтобы первый что-то включал, потому что это float из 4ёх байт. это какое-то значение. я нигде не нашёл информации о том что это. но судя по группе, в которой он расположен в самом файле это как-то связано с партиклами выхлопа. можно попробовать их поменять и посмотреть что будет с выхлопом</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Будем экспериментировать дальше.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8445#post8445\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">если внимательно посмотришь док я там написал, что не только 523-738 но и вообще весь блок 523- 931 - это всё звуки. комменты оставил в доке. правда не все параметры понятны.<br /> <br /> p.s.: кстати, вы знали, что разработчики планировали сделать вид из машины? для звуков авто слышимых внутри даже выделили целый раздел в vehicles.bin? я думаю как раз эти параметры 523-738 и были предусмотрены для звуков слышимых внутри машины. хотя погодите ка, в игре же есть катсцены внутри машины, но я не помню чтобы звуки звучали как-то по другому в этот момент.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Я тоже так подумал. Некоторые звуки подписаны как int или interior. Просто они могли включаться при переключении на камеру HEAD, которая была бы расположена в салоне авто, и у игрока бы создавалось впечатление что он едет внутри машины.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8445#post8445\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">так этот размер куда-то записывается? в какой-то файл? может быть в файл с авто? или в какой-то другой? или это просто информация о том как работают колёса?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Нет, он никуда не записывается, я думаю игра просто &quot;видит&quot; эти колеса в 4ds-модели, &quot;ставит на пол&quot; машину, начинает вращать эти объекты, и исходя из этого расстояния и работает физика катящегося по поверхности колеса в игре.<br /> <br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Tosyk</strong> <a href=\"showthread.php?p=8445#post8445\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">в EXE не может быть? а где этот танк посмотреть? я может разберусь потому я ковыряю напрямую бинарник</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Вполне может быть. Вроде когда-то давно выяснили что в ехешнике прописаны &quot;таксишные&quot; атрибуты машины. Или принадлежность машины к полиции, ведь известно, что копы не реагирует на превышение скорости до 100км/ч, если едешь на полицейской машине.<br /> <br /> Прикрепил модель танка. Изначально он в Занозе не открывается, потому что отсутствует блок текстур. Кто-то давно добавил этот блок, и модель стала открываться. <br /> В общем-то в танке ничего особенного нет, кроме гусениц-стрипов. И висящие в воздухе колеса, из-за которых глючит камера.<br /> Еще есть каток под названием valec.4ds и давно известный трактор bull00.4ds У этих машин должна быть пулестойкость колес и другие эффекты из-под колес(искры). Хотя может это разработчики тоже не доделали. <br /> <br /> Ну хер с ним с пулестойкостью колес, это можно сделать костылями, как и делалось. Но пробитие шин полицейскими шипами, как то можно отключить, вот в чем вопрос?<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Timon-mafia</strong> <a href=\"showthread.php?p=8446#post8446\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Чуть уменьшил 14й пункт и стало всё нормально.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Этот параметр тоже не особо понятен. Может масса или инерция маховика двигателя?? Но в каких единицах?",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Screper",
+        "date": "20.01.2020 в .  19:33"
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=902&d=1579537244",
+          "name": "panz.zip",
+          "size": "66.9 Кб",
+          "views": 1092
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8448_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "20.01.2020, 21:49",
+      "id": 8449,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: ad_showthread_firstpost_start --> <!-- END TEMPLATE: ad_showthread_firstpost_start --> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8448#post8448\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Этот параметр тоже не особо понятен. Может масса или инерция маховика двигателя?? Но в каких единицах?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Для меня это всё пока загадка... 20 лет почти играл и в ус не дул.. а тут вдруг тяга пошла.. до этого всего моим пределом была установка мода 80х... собственно, и сейчас его поставил, но не нравится почему то.<br /> Думаю поставить обновление графики.. Что то я флудить пошёл.. <br /> <br /> А ещё что бы я не делал, при переключении с 4 на 5 - обороты НЕ растут.<br /> Какие пункты за &quot;полку момента &quot; отвечают? с каких оборотов момент достигается, на каких гаснет??",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=439",
+        "name": "Timon-mafia",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "5"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8449_439\">11</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "20.01.2020, 22:32",
+      "id": 8450,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Timon-mafia</strong> <a href=\"showthread.php?p=8449#post8449\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Для меня это всё пока загадка... 20 лет почти играл и в ус не дул.. а тут вдруг тяга пошла.. до этого всего моим пределом была установка мода 80х... собственно, и сейчас его поставил, но не нравится почему то.<br /> Думаю поставить обновление графики.. Что то я флудить пошёл..</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Рекомендую поставить на комп две Мафии<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" />. Одну оставить как есть, даже в оригинальном англ.языке. А над второй уже изгаляться и ставить моды, экспериментировать и прочее. Не страшно запороть игру и переустановить оригинальные файлы.<br /> <br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Timon-mafia</strong> <a href=\"showthread.php?p=8449#post8449\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">А ещё что бы я не делал, при переключении с 4 на 5 - обороты НЕ растут.<br /> Какие пункты за &quot;полку момента &quot; отвечают? с каких оборотов момент достигается, на каких гаснет??</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Возможно поставили слишком маленькое передаточное число. Учтите, что у машины, кроме передач в коробке есть еще главная передача в мосту. И в настройки прописывается общее передаточное число. То есть для обычной заднеприводной машины нужно п.ч. каждой передачи умножить на п.ч. главной передачи, и получится общее передаточное число. Цифра 2 здесь явно маловата, двигатель просто не вытягивает такое передаточное число. В идеале нужно найти руководство или спецификацию настоящего автомобиля, где написаны его передаточные числа и уже их умножать и вписывать.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8450_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "20.01.2020, 23:31",
+      "id": 8451,
+      "title": "",
+      "content": "<a href=\"https://discord.gg/ZN3Ruqb\" target=\"_blank\">https://discord.gg/ZN3Ruqb</a><br /> кто в онлайне сейчас? давайте обсудим хар-ки. я прямо сейчас экспериментирую",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=1",
+        "name": "Tosyk",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=1&dateline=1560589968",
+        "title": "Administrator",
+        "rank": 1,
+        "rank-name": "",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "764"
+          },
+          {
+            "key": "Репутация:",
+            "value": "N/A"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "21.01.2020, 00:30",
+      "id": 8452,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8450#post8450\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Рекомендую поставить на комп две Мафии<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" />.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->БЫла такая мысль, но я привык к 1с версии.. с нашей озвучкой. да и на стиме куплена она.. <br /> Про передаточные числа - да, забыл, г.п. ж ещё... у бмв там 3.63 по заводу с тем мотором, что я хочу. (Была 535 несколько лет назад машиной на каждый день) пусть и в игре будет.. а там уже можно будет все модельки поменять как хочется... и настроить.. времени конечно уйдёт... но ничего))<br /> Пы.сы. скачал свежее описание - всё стало гораздо понятнее, спасибо)",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Timon-mafia",
+        "date": "21.01.2020 в .  08:21"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=439",
+        "name": "Timon-mafia",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "5"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8452_439\">11</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "08.02.2020, 17:03",
+      "id": 8514,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=8448#post8448\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Цитата:<br /> Сообщение от Timon-mafia <br /> Чуть уменьшил 14й пункт и стало всё нормально.<br /> Этот параметр тоже не особо понятен. Может масса или инерция маховика двигателя?? Но в каких единицах?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Я так понял, что это мощность пружин корзины сцепления. Если поставишь мощный мотор и не добавишь значение этого параметра - сцепление начинает буксовать.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_8514_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "03.05.2020, 10:00",
+      "id": 9462,
+      "title": "",
+      "content": "Сегодня начал ковыряться с характеристиками для Запорожца ЗАЗ-968А, и столкнулся с такой проблемой: как изменить эластичность мотора? Все передаточные числа верны, крутящий момент мотора и мощность тоже, выбег сделал реалистичный - с 50 км/ч машина катится 480 метров, скорости с частичной и полной нагрузкой она набирает правильные. А вот по динамике, с 40 до 100 км/ч на 4-й передаче, машина разгоняется почти вдвое быстрее, чем надо, и уже не знаю, куда копать. На остальных скоростях тоже. С остальными машинами подобных проблем не возникало. Все испытания провожу на Speed Test Map.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=1176&d=1588489192",
+          "name": "ЗАЗ-968А.zip",
+          "size": "1.1 Кб",
+          "views": 903
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_9462_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "07.05.2020, 22:20",
+      "id": 9514,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=9462#post9462\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Сегодня начал ковыряться с характеристиками для Запорожца ЗАЗ-968А, и столкнулся с такой проблемой: как изменить эластичность мотора? Все передаточные числа верны, крутящий момент мотора и мощность тоже, выбег сделал реалистичный - с 50 км/ч машина катится 480 метров, скорости с частичной и полной нагрузкой она набирает правильные. А вот по динамике, с 40 до 100 км/ч на 4-й передаче, машина разгоняется почти вдвое быстрее, чем надо, и уже не знаю, куда копать. На остальных скоростях тоже. С остальными машинами подобных проблем не возникало. Все испытания провожу на Speed Test Map.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Ты опять что-то намудрил с мощностью, моментом, и передаточными числами<img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" /><br /> Мощности больше 40лс обычно не бывает(если только это не впрысковый Запорожец от Совжести<img src=\"https://mafia-game.ru//forum/images/smilies/crazy.gif\" border=\"0\" alt=\"\" title=\"crazy\" class=\"inlineimg\" />)<br /> Коробки существуют разные, я прописал от А, еще можно попробовать прописать от М:<br /> Первая - 3,8<br /> Вторая - 2,12<br /> Третья - 1,409<br /> Четверая - 0,964<br /> Задняя - 4,156<br /> Главная передача - 4,125<br /> <br /> Разгон лучше попробовать регулировать с помощью сопротивления воздуха.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=1178&d=1588878936",
+          "name": "ЗАЗ-968А_2.zip",
+          "size": "1.1 Кб",
+          "views": 891
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_9514_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "08.05.2020, 11:46",
+      "id": 9518,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=9514#post9514\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Ты опять что-то намудрил с мощностью, моментом, и передаточными числами<img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" /><br /> Мощности больше 40лс обычно не бывает(если только это не впрысковый Запорожец от Совжести<img src=\"https://mafia-game.ru//forum/images/smilies/crazy.gif\" border=\"0\" alt=\"\" title=\"crazy\" class=\"inlineimg\" />)<br /> Коробки существуют разные, я прописал от А, еще можно попробовать прописать от М:<br /> Первая - 3,8<br /> Вторая - 2,12<br /> Третья - 1,409<br /> Четверая - 0,964<br /> Задняя - 4,156<br /> Главная передача - 4,125<br /> <br /> Разгон лучше попробовать регулировать с помощью сопротивления воздуха.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Пытался играться со значением 3, не очень понятно, как оно вообще работает, но тогда машина 100 едет кое-как. Насчёт мощности - &quot;ушастые&quot; были и с моторами 45 сил. А передаточные числа - именно те, при которых получается реальная скорость на передачах.<br /> <br /> Кстати, а как примерно работает параметр 54 &quot;боковое сопротивление воздуха&quot;?",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_9518_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "09.05.2020, 14:39",
+      "id": 9532,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=9518#post9518\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Пытался играться со значением 3, не очень понятно, как оно вообще работает</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Мне тоже не особо понятно, кто-то уже до меня подписал это значение, я на старое описание и ориентировался.<br /> <br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=9518#post9518\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">но тогда машина 100 едет кое-как. Насчёт мощности - &quot;ушастые&quot; были и с моторами 45 сил.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Ушастые? 45 лс?? Чет не верится. Везде в заводских руководствах указана мощность не более 42, и то, у поздних машины, у &quot;мыльниц&quot;. Запорожцы никогда особо скоростными и не были, спидометр привирал примерно +20км/ч<br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=9518#post9518\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">А передаточные числа - именно те, при которых получается реальная скорость на передачах.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Так если прописать все реальные параметры, и сделать правильные колеса в Занозе, вроде бы тоже получаются реальные скорости. По крайней мере у меня на Газоне получались.<br /> <br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=9518#post9518\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Кстати, а как примерно работает параметр 54 &quot;боковое сопротивление воздуха&quot;?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->А хрен его знает, сдается мне, что это не то. Этот параметр в пределах до 1, больше не сделать.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_9532_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "27.06.2023, 06:30",
+      "id": 20165,
+      "title": "",
+      "content": "Господа автоделы, а такой вопрос - кто-нибудь когда-нибудь делал анимированную рулевую трапецию? Мне тут пришла в голову мысль, что можно сделать псевдомост (с думесами DWH_2) и включить ему рулевую тягу в рхаме, а потом сделать еще один псевдомост (DWH_3) и также включить ему рулевую тягу, в мост с DWH_3 засунуть по иерархии трапецию и потом всё это в мост DWH_2, то после возни с положением осей трапеция будет двигаться поперек кузова, как и должна. ИЧСХ после плясок с бубном у меня даже получилось - ось движется влево-вправо при повороте руля, тяги одним концом привязаны к трапеции, а вторым реагируют на колёса (положение их не выставлял еще правда), но при наезде на препятствие трапеция также движется вертикально относительно кузова. Причем движется в тот момент когда препятствие оказывается под средней частью машины (будто в середине машины есть невидимые колеса), хотя оси псевдомостов и трапеции все в передней части машины. <br /> Как-то можно трапецию отвязать от дороги? Изменение высоты в РХАМе/занозе ни к чему хорошему не приводят, удалить псевдоколеса не вариант (без них игра думает что мост это не мост). Засунуть по иерархии в какой-нибудь левый объект также не помогло.<br /> В общем призываю всех, а особенно <b>Screper</b>а)",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4776",
+        "name": "AngryBabka",
+        "avatar": "",
+        "title": "Member",
+        "rank": 3,
+        "rank-name": "Judge",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "73"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20165_4776\">208</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "27.06.2023, 11:16",
+      "id": 20167,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: ad_showthread_firstpost_start --> <!-- END TEMPLATE: ad_showthread_firstpost_start --> [QUOTE=AngryBabka;20165]Господа автоделы, а такой вопрос - кто-нибудь когда-нибудь делал анимированную рулевую трапецию[quote]<br /> <br /> Да делал я так) Даже раллийный Камаз с этой фичей был. Да, визуально видно, что тяга двигается вместе с колесами. Но увы, все нормально только когда машина стоит и на ровном месте. Получается, что у машины спереди два моста, а это гемор с их настройкой. И да, на неровностях они работают по-разному, то есть тяга начинает жить отдельной жизнью. Все остальные костыли с доп.колесами приводят к багам с камерой. И нужно правильно называть мосты по-порядку, иначе машина багутеся в машинопедии. И колеса должны поворачиваться на одинаковый угол, иначе тяга будет вылетать с одного конца.<br /> Короче, багов и костылей получается больше, чем профита) Не стоит оно того.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Screper",
+        "date": "27.06.2023 в .  18:53"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20167_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "AngryBabka",
+          "date": "27.06.2023"
+        },
+        {
+          "user": "EmptyBowl",
+          "date": "27.06.2023"
+        }
+      ]
+    },
+    {
+      "date": "27.06.2023, 20:17",
+      "id": 20168,
+      "title": "",
+      "content": "<b>Screper</b>, я еще пробовал думесы псевдомостов располагать на сошках рулевой трапеции (DWH_2 в месте крепления к кузову, DWH_3 в месте крепления к тяге), а сами сошки сделать подвижными и засунуть в DWH_2, и это было прикольнее всего - сошки поворачиваются, центральная тяга вслед за ними параллельно оси Х по правильной траектории. Но вот беда - при моем расположении элементов тяга всегда ездит в сторону, противоположную нужной))<br /> Еще одна неприятная особенность - чтобы всё работало, в рхам обязательно нужно подгружать настройки для конкретной машины, иначе машина вообще не поедет. Дефолтные настройки тоже не катят. Всё это делает затею очень юзер-анфрендли, так что подвижная трапеция в релиз не войдет, да и не видно ее толком всё равно. А вообще прикольно конечно, Мафия опять удивила простором для костылей)<br /> <div class=\"bbmedia\" data-url=\"https://youtu.be/i_zIsO32UyQ\" style=\"margin: 1px; display: inline-block; vertical-align: bottom;\"><div style=\"width: 200px; height: 40px; border: 1px solid #999; display: table-cell; text-align: center; vertical-align: middle; font: 10px/10px Verdana; color: #555; opacity: 0.5;\"><a style=\"color: #105289; text-decoration: none;\" href=\"http://veg.by/bbmedia/vbulletin/media/\" target=\"_blank\">vBulletin [media]</a></div><script>if (typeof bbmedia == \"undefined\") { bbmedia = true; var e = document.createElement(\"script\"); e.charset=\"utf-8\"; e.async = true; e.src = \"https://phpbbex.com/api/bbmedia.js\"; var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(e, s); }</script></div>",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4776",
+        "name": "AngryBabka",
+        "avatar": "",
+        "title": "Member",
+        "rank": 3,
+        "rank-name": "Judge",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "73"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20168_4776\">208</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "EmptyBowl",
+          "date": "27.06.2023"
+        }
+      ]
+    },
+    {
+      "date": "27.06.2023, 20:45",
+      "id": 20169,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>AngryBabka</strong> <a href=\"showthread.php?p=20168#post20168\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\"><b>Screper</b>, я еще пробовал думесы псевдомостов располагать на сошках рулевой трапеции (DWH_2 в месте крепления к кузову, DWH_3 в месте крепления к тяге), а сами сошки сделать подвижными и засунуть в DWH_2, и это было прикольнее всего - сошки поворачиваются, центральная тяга вслед за ними параллельно оси Х по правильной траектории. Но вот беда - при моем расположении элементов тяга всегда ездит в сторону, противоположную нужной))<br /> Еще одна неприятная особенность - чтобы всё работало, в рхам обязательно нужно подгружать настройки для конкретной машины, иначе машина вообще не поедет. Дефолтные настройки тоже не катят. Всё это делает затею очень юзер-анфрендли, так что подвижная трапеция в релиз не войдет, да и не видно ее толком всё равно. А вообще прикольно конечно, Мафия опять удивила простором для костылей)<br /> <div class=\"bbmedia\" data-url=\"https://youtu.be/i_zIsO32UyQ\" style=\"margin: 1px; display: inline-block; vertical-align: bottom;\"><div style=\"width: 200px; height: 40px; border: 1px solid #999; display: table-cell; text-align: center; vertical-align: middle; font: 10px/10px Verdana; color: #555; opacity: 0.5;\"><a style=\"color: #105289; text-decoration: none;\" href=\"http://veg.by/bbmedia/vbulletin/media/\" target=\"_blank\">vBulletin [media]</a></div><script>if (typeof bbmedia == \"undefined\") { bbmedia = true; var e = document.createElement(\"script\"); e.charset=\"utf-8\"; e.async = true; e.src = \"https://phpbbex.com/api/bbmedia.js\"; var s = document.getElementsByTagName(\"script\")[0]; s.parentNode.insertBefore(e, s); }</script></div></div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Ой, забывать я уже начинаю всю эту трахомудию) Колеса поворачиваются вокруг центра думмиса. Мост привязывается к центру колеса, а не думмиса. Если центр колеса не совпадает с центром думмиса, он смещается, а вместе с ним и мост. А в настройках машины мост считается по колесам. Которые должны быть названы по порядку от начала машины 0, 1, 2, 3 тд. В дефолтных характеристиках прописаны только два первых моста. А остальные работать не будут. Так что если в передней части машины вот так будет скостылено несколько колес и мостов в одной куче, то, и не будет это нормально работать, там еще с чем-то глюки были, не помню уже.",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20169_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "27.06.2023, 21:49",
+      "id": 20170,
+      "title": "",
+      "content": "Блин точно, возможно имело смысл развернуть оси колес псевдомостов, может направление движения трапеции изменилось бы. Ну да ладно, всё равно забил уже",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4776",
+        "name": "AngryBabka",
+        "avatar": "",
+        "title": "Member",
+        "rank": 3,
+        "rank-name": "Judge",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "73"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20170_4776\">208</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "25.07.2023, 02:46",
+      "id": 20242,
+      "title": "",
+      "content": "Так как тема схожая, поэтому напишу здесь.<br /> <b>tyres.bin</b> очень схож с тем, что редактируется в vehicle через RHam<br /> <br /> Я для Hex Редактирования использую ImHex, потому что бесплатный + можно перегнать в C# код и написать свою читалку. Прикрепляю паттерн для чтения<br /> <div class=\"spoiler\"> <h2>Развернуть для просмотра</h2> <div><br /> <!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> struct WheelData{<br /> <br /> float totalForce,underSteer,Force, unk,adhesion1,adhesion2,adhesion3,adhesion4,rollingFriction;<br /> };<br /> <br /> struct WhlPart{<br /> <br /> <br /> u32 number;<br /> u32 size;<br /> <br /> if (size==76)<br /> {WheelData normal, broken;}<br /> else<br /> {float whlValues[(size/4)-1];}<br /> <br /> <br /> u16 unk3,ID;<br /> };<br /> <br /> <br /> struct Wheel{<br /> <br /> <br /> u32 size;<br /> char name[32];<br /> u32 flagID;<br /> u32 count;<br /> WhlPart part[count];<br /> <br /> };<br /> <br /> struct Header{<br /> <br /> u32 id, wheelCount;<br /> Wheel whl[wheelCount];<br /> };<br /> <br /> ;<br /> <br /> Header wheel @ 0x00;<br /> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote --><div class=\"sphide\">[свернуть]</div></div> </div><br /> <br /> А вот то, как оно висит в памяти самой игры. Числа будут идти через пробел, но схожесть заметить вполне реально<br /> <br /> <div class=\"spoiler\"> <h2>Развернуть для просмотра</h2> <div><!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> //Звёздочками пометил те, которые прям 1 к 1 соотносятся с тем, что есть в tyres.bin<br /> <br /> *20000.00 0.14 *0.80 *40.00 *0.80 *1.50 0.70 *0.50 *1.50 1.00 *0.02 <br /> *10000.00 0.19 *0.70 *40.00 *0.30 *1.10 0.80 *0.30 *1.00 0.70 *0.10<br /> <br /> 20000.00 0.14 0.80 40.00 0.80 1.50 0.70 0.50 1.50 1.00 0.02 <br /> 10000.00 0.19 0.70 40.00 0.30 1.10 0.80 0.30 1.00 0.70 0.10<br /> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote --><div class=\"sphide\">[свернуть]</div></div> </div><br /> <br /> И вот теперь уже за ячейки в памяти игры - я готов расписать. Учитывайте, что это вольная интерпретация и лично меня и соотнесите плз с чужими.<br /> <br /> <div class=\"spoiler\"> <h2>Развернуть для просмотра</h2> <div>1. Общая сила. Максимальная сила давления на колесо.<br /> 2. Жесткость колеса. (Lerp) - чем меньше тем сложнее зайти в занос<br /> 3. Множитель скольжения. Не до конца разобран<br /> <i>4. Число 40. Не используется. Я не смог добиться у игры, чтоб это число она запрашивала<br /> 5. Число 0.8 Не используется. Я не смог добиться у игры, чтоб это число она запрашивала</i><br /> 6. Общий множитель<br /> 7. Скольжение<br /> 8. <i>Число 0.5 Не используется. Я не смог добиться у игры, чтоб это число она запрашивала</i><br /> 9. Боковой занос. Множитель поперечной силы<br /> 10. Сила отдачи при скольжении. Множитель<br /> 11. Сопротивление качению.<br /> <div class=\"sphide\">[свернуть]</div></div> </div><br /> <br /> Что еще могу сказать. Автор MEditor успешно и правильно читает все эти значения. Игнорирует число 40, потому что оно и не влияет. Но вот с интерпретацией у него тяжко. Потому что он предполагал, что оригинальная игра будет использовать формулу Pacejka",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Kardini",
+        "date": "25.07.2023 в .  02:47"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4895",
+        "name": "Kardini",
+        "avatar": "",
+        "title": "Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "30"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20242_4895\">36</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "19.08.2023, 08:37",
+      "id": 20314,
+      "title": "",
+      "content": "Джентельмены. Мне нужны <b>ВСЕ</b> возможные opis'и из RHAM. <br /> Кто угодно какие делал - будьте так любезны, если у кого-то есть архивом, поделитесь. С меня довольно прикольный инструмент.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4895",
+        "name": "Kardini",
+        "avatar": "",
+        "title": "Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "30"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20314_4895\">36</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "19.08.2023, 13:36",
+      "id": 20317,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Kardini</strong> <a href=\"showthread.php?p=20314#post20314\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Джентельмены. Мне нужны <b>ВСЕ</b> возможные opis'и из RHAM. <br /> Кто угодно какие делал - будьте так любезны, если у кого-то есть архивом, поделитесь. С меня довольно прикольный инструмент.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->А зачем все-то? Ошибочные старые тоже что ли?",
+      "signature": "__________________<br /> All wheel drive only",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=2517&d=1692441379",
+          "name": "opis_last.zip",
+          "size": "3.2 Кб",
+          "views": 388
+        },
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=2518&d=1692441379",
+          "name": "opis_Staghound.zip",
+          "size": "3.5 Кб",
+          "views": 388
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=40",
+        "name": "Screper",
+        "avatar": "https://mafia-game.ru/forum/image.php?u=40&dateline=1522523128",
+        "title": "Mafia Modding Crew",
+        "rank": 1,
+        "rank-name": "Gangster",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "39"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20317_40\">67</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "20.08.2023, 06:49",
+      "id": 20320,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Screper</strong> <a href=\"showthread.php?p=20317#post20317\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">А зачем все-то? Ошибочные старые тоже что ли?</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Да, их тоже можно. Ну потому что я в самой последней описи тоже вижу противоречия и несостыковки. Поэтому есть желание собрать наиболее большой список описаний и мнений на каждую переменную.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4895",
+        "name": "Kardini",
+        "avatar": "",
+        "title": "Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "30"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20320_4895\">36</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "24.10.2023, 23:29",
+      "id": 20514,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>Kardini</strong> <a href=\"showthread.php?p=20314#post20314\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Джентельмены. Мне нужны <b>ВСЕ</b> возможные opis'и из RHAM. <br /> Кто угодно какие делал - будьте так любезны, если у кого-то есть архивом, поделитесь. С меня довольно прикольный инструмент.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Самый прикольный инструмент - если получится прокачать прогу RHAM 5.3.3 до такого уровня, чтобы можно было редактировать настройки автомобиля прямо в игре. Те же программы для San Andreas, и особенно, для GTA 5, это без проблем позволяют.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=91",
+        "name": "ЖЕКА42rus",
+        "avatar": "",
+        "title": "Junior Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "17"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20514_91\">23</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "26.10.2023, 05:52",
+      "id": 20516,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>ЖЕКА42rus</strong> <a href=\"showthread.php?p=20514#post20514\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Самый прикольный инструмент - если получится прокачать прогу RHAM 5.3.3 до такого уровня, чтобы можно было редактировать настройки автомобиля прямо в игре. Те же программы для San Andreas, и особенно, для GTA 5, это без проблем позволяют.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Как ни странно - это буквально и есть, то над чем я работаю на протяжении уже 5 месяцев. Разметил колёса, после разметил автомобиль в оперативной памяти. <br /> <br /> Сейчас разбираю в одиночку что за что отвечает, поглядывая в дизасемблированный код и составляю таблицу. Уже сейчас можно спокойно открыть версию Мафии 1.0 в Cheat Engine и модифицировать как угодно (главная проблема - куча темных пятен все еще и лишь гипотез)<br /> <br /> RHam не работает напрямую. Значения преобразовываются, умножаются, делятся, перегоняются в относительные уже от модели итд итд. Я откровенно раскопал уже некоторые моменты, которые полностью противоречат имеющийся opis'и.<br /> Все в процессе, скорее всего после выкачу прикольную дебаг утилиту с наглядной визуализацией.<br /> <br /> <b>UPD:</b> Если кто-то желает активно присоединиться к реверсу (А это буквально методом тыка разбирать переменную и писать *ощущения*), то без проблем целый гайд запишу",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Kardini",
+        "date": "26.10.2023 в .  10:19"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4895",
+        "name": "Kardini",
+        "avatar": "",
+        "title": "Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "30"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20516_4895\">36</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Abradox",
+          "date": "26.10.2023"
+        },
+        {
+          "user": "AngryBabka",
+          "date": "27.10.2023"
+        }
+      ]
+    },
+    {
+      "date": "26.10.2023, 12:19",
+      "id": 20518,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: ad_showthread_firstpost_start --> <!-- END TEMPLATE: ad_showthread_firstpost_start --> Мм вехиклес.бин(с чем работает рхам) и то что в памяти(в кар_акторе) - во многом разные вещи.<br /> Основные настройки рхам могёт изменять: мосты там и прочее, а чего еще критически не хватает?<br /> А в игре изменять авте что хочется? Есть параметр кот. можно назвать &quot;мощностью движка&quot; - енто реально забавная хрень - тачку умощняет, причем, качественно[походу, ето коефф в некой финальной формуле расчета мощности], а большего как по мне и не требуется.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=27",
+        "name": "GOLOD55",
+        "avatar": "",
+        "title": "VIP",
+        "rank": 2,
+        "rank-name": "Thug",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "100"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20518_27\">152</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "26.10.2023, 13:24",
+      "id": 20519,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> <div> Сообщение от <strong>GOLOD55</strong> <a href=\"showthread.php?p=20518#post20518\" rel=\"nofollow\"><img class=\"inlineimg\" src=\"https://mafia-game.ru/forum/images/buttons/viewpost.gif\" border=\"0\" alt=\"Посмотреть сообщение\" /></a> </div> <div style=\"font-style:italic\">Мм вехиклес.бин(с чем работает рхам) и то что в памяти(в кар_акторе) - во многом разные вещи.<br /> Основные настройки рхам могёт изменять: мосты там и прочее, а чего еще критически не хватает?<br /> А в игре изменять авте что хочется? Есть параметр кот. можно назвать &quot;мощностью движка&quot; - енто реально забавная хрень - тачку умощняет, причем, качественно[походу, ето коефф в некой финальной формуле расчета мощности], а большего как по мне и не требуется.</div> </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote --><br /> Могу таблицей поделиться <img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /> . Я это делаю с целью реверс инжениринга и дальнейшего портирования для мобильной Мафии. Менять особо не хочу, но понимать значение переменных и то как оно работает НА САМОМ деле - мне крайне интересно. Посему и распутываю данный клубок. <br /> <br /> Насчёт того, что в Кар - разные вещи это и и да и нет <img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" /><br /> Из 8000 байт около 4000к выделены буквально под данные из vehicles.bin. И они уже пре старте сцены друг с другом перемножаются, модифицируются итд. <img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" />",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4895",
+        "name": "Kardini",
+        "avatar": "",
+        "title": "Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "30"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20519_4895\">36</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "26.10.2023, 17:51",
+      "id": 20520,
+      "title": "",
+      "content": "Хм че-то 8к и 4к большие числа, вроде блок авто в венике меньшее чем 4к размером.<br /> Если портировать оригинальное, то нужно сперва переносить все программы кар_актора(их там десятка полтора-два), и даж не вникая в них, потому как все кешированные данные ими юзаются и под них составлены. Затем уже разбирать каким образом происходит кеширование. Наверно проще свой код писать изначально <img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" />",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=27",
+        "name": "GOLOD55",
+        "avatar": "",
+        "title": "VIP",
+        "rank": 2,
+        "rank-name": "Thug",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "100"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20520_27\">152</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "27.10.2023, 09:24",
+      "id": 20521,
+      "title": "",
+      "content": "В общем в своей группе ВК уже выкладывал, поэтому скрывать мне особо то нечего<br /> <br /> Условно парни MafiaHub назвали 2 структуры. <b>CVehicle</b> - как абстрактная &quot;техника&quot; и <b>CCar</b> - уже именно актор автомобиля, который как раз в себя и включает CVehicle внутри.<br /> <br /> <a href=\"https://docs.google.com/spreadsheets/d/1gggLoU0YnvkkEfs9ido-y7_fdpe6oC47g4apYnMOo-0/edit#gid=0\" target=\"_blank\">https://docs.google.com/spreadsheets...o-0/edit#gid=0</a> - веду в видe excel таблички. Задаю нейминг каждой переменной прям сейчас. Может быть вульгарный мат и прочие нецензурные выражения. Просьба не пугаться. Работа идёт в активном процессе прям сейчас, некоторые переменные будут переименовываться, комментарии (делаю сугубо для себя) будут еще несколько раз точно переписываться.<br /> <br /> <a href=\"https://miro.com/app/board/uXjVM0Z8MlI=/?share_link_id=691336836956\" target=\"_blank\">https://miro.com/app/board/uXjVM0Z8M...d=691336836956</a> - Miro для наглядности основных функций с просчетом физики автомобиля. Так же постепенно активно расширяется, если нахожу что какие-то переменные работают еще с чем-то.<br /> <br /> В зависимости от входящего поинтера в Miro - я указываю разные sub_ Либо это <b>car_</b> либо <b>vehicle_</b> дабы понимать с каким участком памяти идёт работа.<br /> <br /> Модифицирую обычно и дебажу через Cheat Engine. Можно и другие варианты использовать - дело вкуса.<br /> <br /> P.S. <a href=\"https://docs.google.com/spreadsheets/d/1wY5KM9QR6sdVQ0VGt_fMwKxx1jOPQmUC2ckBhOBuiMM/edit#gid=0\" target=\"_blank\">https://docs.google.com/spreadsheets...iMM/edit#gid=0</a> - Структура колёс. Тоже тёмных пятен хватает и нейминг местами там тоже условный.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4895",
+        "name": "Kardini",
+        "avatar": "",
+        "title": "Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "30"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20521_4895\">36</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "admpos",
+          "date": "28.10.2023"
+        }
+      ]
+    },
+    {
+      "date": "28.10.2023, 11:46",
+      "id": 20527,
+      "title": "",
+      "content": "<b>Kardini</b>, тересные гуглдоки, любопытно было почитать их и мои запыски_натуралиста<img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /> правда, за давностью лет уже сам мало что помню(хорошо что записи и есть).<br /> Немалой инфой можно доки дополнить, ок, приатачиваю рар с опр.моими доками.<br /> Мои доки не структурированы(raw), ибо писалось все прям находу по ходу пьесы, так что где-то местами инфа может повторяться\\дополняться; есть и про актор тачки, и про колеса в том числе, и многое другое тересное.<br /> Единственное, про Miro я не понял зачем ента диаграмма и какую пользу она несет(а трудов составить стоила немалых, думаю). Коллы из каких-то мест программ в другие программы хм, дак ентой кухни там миллион хех.<br /> То что в моем глоссарии обозначено как &quot;метка класса&quot; есть ни что иное как поинтер на список всех программ данного класса(можно канеш и юзать как идентификатор класса тоже), напр у C_Car их 42 штуки.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [
+        {
+          "link": "https://mafia-game.ru/forum/attachment.php?attachmentid=2531&d=1698482761",
+          "name": "Mafia EXE GOLOD55.zip",
+          "size": "92.3 Кб",
+          "views": 747
+        }
+      ],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=27",
+        "name": "GOLOD55",
+        "avatar": "",
+        "title": "VIP",
+        "rank": 2,
+        "rank-name": "Thug",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "100"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20527_27\">152</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "admpos",
+          "date": "28.10.2023"
+        },
+        {
+          "user": "Kardini",
+          "date": "28.10.2023"
+        }
+      ]
+    },
+    {
+      "date": "28.10.2023, 21:12",
+      "id": 20529,
+      "title": "",
+      "content": "<!-- BEGIN TEMPLATE: bbcode_quote --> <div style=\"margin:20px; margin-top:5px; \"> <div class=\"smallfont\" style=\"margin-bottom:2px\">Цитата:</div> <table cellpadding=\"6\" cellspacing=\"0\" border=\"0\" width=\"100%\"> <tr> <td class=\"alt2\" style=\"border:1px inset\"> Единственное, про Miro я не понял зачем ента диаграмма и какую пользу она несет(а трудов составить стоила немалых, думаю). Коллы из каких-то мест программ в другие программы хм, дак ентой кухни там миллион хех. </td> </tr> </table> </div> <!-- END TEMPLATE: bbcode_quote -->Так как как ни странно моя задача коллов - понять именно *физику* автомобилей, то в целом умеренно приемлимо для моей задачи опустить расчеты ИИ, расчеты Графики с вызовом фреймов Мафии, расчеты партиклей, звуковых фреймов и многого многого другого. Здесь диаграмма именно в большей мере - набор именно функций, которые отвечают именно за симуляцию авто. Часть из которых будет отсеиваться, часть из которых наоборот будет добавляться по мере необходимости и понимания кода.<br /> <br /> Просто вектор моих задач сейчас вполне себе идёт в общем направлении с мододелами и работая сам я вполне могу по мелочи, но помочь мододелам проще собирать и редактировать автомобили. Как и редачить понимать назначения без абстрактных &quot;мощность в килловат&quot; (Не в претензию составителям RHAM таблиц)<br /> <br /> P.S. За записки Натуралиста спасибо огромное <img src=\"https://mafia-game.ru//forum/images/smilies/grin.gif\" border=\"0\" alt=\"\" title=\"biggrin\" class=\"inlineimg\" />",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "Kardini",
+        "date": "28.10.2023 в .  21:14"
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=4895",
+        "name": "Kardini",
+        "avatar": "",
+        "title": "Member",
+        "rank": 1,
+        "rank-name": "Detective",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "30"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20529_4895\">36</span>"
+          }
+        ]
+      },
+      "thankedby": []
+    },
+    {
+      "date": "29.10.2023, 00:41",
+      "id": 20530,
+      "title": "",
+      "content": "Я окунался в дербан екзе тоже из-за моддинга авто: когда в рамках проекта &quot;real driver&quot;(3.0) уперся в потолок скриптовых возможностей мафы. Тогда мы с Asm-ом в итоге релизнули 2 проекта - MafiaPatcher и MSE(MafiaScriptExtention).<br /> Правда, реалдривер4.0(на расширенных уже скриптах) я так и не релизнул, ибо чуток перестарался с дербаном екзе и стартанул проект реалдривер5.0 - компиляция версии 4.0 непосредственно в ассемблер_код в екзе <img src=\"https://mafia-game.ru//forum/images/smilies/smile3.gif\" border=\"0\" alt=\"\" title=\"smile\" class=\"inlineimg\" /><br /> Т.о. мой интерес не столь в продолжении дисассемблирования екзе, сколь - в ассемблировании новых функций и механик для авты.<br /> Базовые необходимые для ентого вещи уже реализованы(&quot;регистрация&quot; новых спецфреймов, расширение размера кар_актора и вписка новых их данных, инжект логики для них); есть тестовый екзе с работающей спиид_стрелкой на панели авты.<br /> Юзалки прошарены на процентов 90 уже, можно в принципе делать новые(напр юзалку откр\\закр багажник), добавлять чего не хватало(напр работа створчатых дверей тролля), 3D-гусиницу можно скомпилить из скриптверсии, уже можно сделать складную морфкрышу и т.п.",
+      "signature": "",
+      "edited": {
+        "userid": 0,
+        "user_link": "",
+        "user": "",
+        "date": ""
+      },
+      "attachments": [],
+      "reactions": [],
+      "user": {
+        "link": "https://mafia-game.ru/forum/member.php?u=27",
+        "name": "GOLOD55",
+        "avatar": "",
+        "title": "VIP",
+        "rank": 2,
+        "rank-name": "Thug",
+        "custom": [
+          {
+            "key": "Сообщений:",
+            "value": "100"
+          },
+          {
+            "key": "Репутация:",
+            "value": "<span id=\"repdisplay_20530_27\">152</span>"
+          }
+        ]
+      },
+      "thankedby": [
+        {
+          "user": "Firefox3860",
+          "date": "20.11.2023"
+        }
+      ]
+    }
+  ]
+}
