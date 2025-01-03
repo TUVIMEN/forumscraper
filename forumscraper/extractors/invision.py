@@ -7,6 +7,7 @@ from reliq import reliq
 
 from ..enums import Outputs
 from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
+from ..exceptions import AlreadyVisitedError
 from .common import ItemExtractor, ForumExtractor
 from .identify import identify_invision
 
@@ -20,7 +21,7 @@ class invision(ForumExtractor):
                 (
                     re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
                     2,
-                )
+                ),
             ]
             self.path_format = "m-{}"
             self.trim = True
@@ -88,9 +89,13 @@ class invision(ForumExtractor):
 
             self.match = [
                 (
+                    re.compile(r"/(\d+)(-[^/]*)?/page/\d+/?"),
+                    1,
+                ),
+                (
                     re.compile(r"/(.*/)?(\d+)(-[^/]*)?/?"),
                     2,
-                )
+                ),
             ]
             self.trim = True
 
@@ -192,7 +197,7 @@ class invision(ForumExtractor):
                 rq.search(
                     r"""
                 div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
-                    .title span class="ipsType_break ipsContained"; span -class | "%i",
+                    .title span class="ipsType_break ipsContained"; span -class | "%Di" trim,
                     .badges.a span title | "%(title)v\n"
                 },
                 .rating.b ul .ipsRating_collective; li .ipsRating_on | "true",
@@ -200,10 +205,10 @@ class invision(ForumExtractor):
                     .user_link a .ipsType_break href | "%(href)v",
                     .user a .ipsType_break href; * c@[0] | "%i",
                     .user_avatar a .ipsUserPhoto; img src | "%(src)v",
-                    .user_followers a .ipsFollow; span .ipsCommentCount | "%i",
+                    .user_followers.u a .ipsFollow; span .ipsCommentCount | "%i" / tr ",.",
                 },
                 .date div .ipsFlex-flex:11; time datetime | "%(datetime)v",
-                .path.a nav class=b>"ipsBreadcrumb ipsBreadcrumb_top "; ul data-role="breadcrumbList"; li; a; span | "%t\n" / sed "s/ $//",
+                .path.a nav class=b>"ipsBreadcrumb ipsBreadcrumb_top "; ul data-role="breadcrumbList"; li; a; span | "%Dt\n" / sed "s/ $//" trim,
 
                 .tags.a {
                     div .ipsPageHeader; ul .ipsTags; a; span c@[0] | "%i",
@@ -319,7 +324,7 @@ class invision(ForumExtractor):
                                 .link * l@[0] | "%(href)v",
                                 .name * l@[0] | "%i"
                             } | ,
-                            .reactions_temp.a li .ipsReact_reactCount; span a@[0] / sed "s/<span><img .* alt=\"//; s/\".*//; N; s/\n/\t/; s/<span>//; s/<\/span>//"
+                            .reactions_temp.a li .ipsReact_reactCount; span a@[0] / sed "s/<span><img .* alt=\"//; s/\".*//; N; s/\n/\t/; s/<span>//g; s/<\/span>//g"
                         }
                     """
                         )
@@ -331,7 +336,11 @@ class invision(ForumExtractor):
                         el = {}
                         reaction = j.split("\t")
                         el["name"] = reaction[0]
-                        el["count"] = reaction[1]
+                        el["count"] = 1
+                        try:
+                            el["count"] = int(reaction[1])
+                        except Exception:
+                            pass
                         t["reactions"].append(el)
                     t.pop("reactions_temp")
                     dict_add(post, t)
@@ -358,7 +367,10 @@ class invision(ForumExtractor):
                 if nexturl is None:
                     break
 
-                rq, ref = self.session.get_html(nexturl, settings, state, True)
+                try:
+                    rq, ref = self.session.get_html(nexturl, settings, state, True)
+                except AlreadyVisitedError:
+                    break
 
             ret["posts"] = posts
             return ret
@@ -451,7 +463,7 @@ class invision(ForumExtractor):
                         .icon2 [0] span .cForumGrid__hero-image data-background-src | "%(data-background-src)v",
                         div ( .ipsDataItem_main )( .cForumGrid__content ); {
                             * ( .ipsDataItem_title )( .cForumGrid__title ); [0] a; {
-                                .title * self@ |"%i",
+                                .title * self@ | "%Di" / trim,
                                 .link * self@ | "%(href)v"
                             },
                             .description [0] * .ipsType_richText | "%T" trim,
@@ -468,7 +480,7 @@ class invision(ForumExtractor):
                         .lastpost [0] * ( .ipsDataItem_lastPoster )( .cForumGrid__last ); {
                             .avatar * .ipsUserPhoto; [0] img src | "%(src)v",
                             * .ipsDataItem_lastPoster__title; [0] a; {
-                                .title * self@ | "%i",
+                                .title * self@ | "%Di" / trim,
                                 .link * self@ | "%(href)v"
                             },
                             li .ipsType_light; [0] a .ipsType_break; {
@@ -484,7 +496,7 @@ class invision(ForumExtractor):
                     [0] * .ipsDataItem_title; {
                         .icons.a i | "%(class)v\n" / sed "s/.*fa-//",
                         [0] a -rel=tag; {
-                            .title * c@[0] | "%i",
+                            .title * c@[0] | "%Di" / trim,
                             .link * self@ | "%(href)v",
                         }
                     },

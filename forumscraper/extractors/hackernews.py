@@ -53,7 +53,7 @@ def get_post(ref, rq):
             .id.u * self@ | "%(id)v",
             span .titleline; [0] a; {
                 .link * self@ href | "%(href)v",
-                .title * self@ | "%i"
+                .title * self@ | "%Di" trim
             }
         },
         tr -class l@[:1]; {

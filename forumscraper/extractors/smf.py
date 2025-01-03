@@ -46,9 +46,9 @@ class smf1(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                .title td #top_subject | "%i" / sed "s/[^:]*: //;s/([^(]*)//;s/&nbsp;//g;s/ *$//",
+                .title td #top_subject | "%i" / sed "s/[^:]*: //;s/([^(]*)//;s/&nbsp;//g;s/ *$//" decode trim,
                 .viewed.u td #top_subject | "%i" /  sed "s/.*\(//g;s/.* ([0-9]+) .*/\1/" "E",
-                .path.a("\n") div a@[0]; E>(div|span) .nav l@[1]; a .nav | "%i\n" / line [:-1]
+                .path.a("\n") div a@[0]; E>(div|span) .nav l@[1]; a .nav | "%i\n" / line [:-1] decode trim "\n"
             """
                 )
             )
@@ -57,7 +57,7 @@ class smf1(ForumExtractor):
             posts = []
             expr = reliq.expr(
                 r"""
-                .posts form #quickModForm; table l@[1]; tr l@[1] m@B>"id=\"subject_[0-9]*\""; tr l@[0] m@v>".googlesyndication.com/"; {
+                .posts form #quickModForm; table l@[1]; tr l@[:2] m@B>"id=\"subject_[0-9]*\""; tr l@[0] m@v>".googlesyndication.com/"; {
                     .postid.u div #B>subject_[0-9]* | "%(id)v" / sed "s/.*_//",
                     .date td valign=middle; div .smalltext | "%i" / sed "s/.* ://;s/^<\/b> //;s/ &#187;//g;s/<br *\/>.*//;s/<[^>]*>//g;s/ *$//",
                     .body div .post | "%i",
@@ -68,7 +68,7 @@ class smf1(ForumExtractor):
                     .edited td #B>modified_[0-9]*; * c@[0] | "%i",
                     .score span #B>gpbp_score_[0-9]* | "%i",
                     .attachments.a("\t") a href #B>link_[0-9]* | "%(href)v\t",
-                    .userinfo.a("\n") td valign=top rowspan=2; div .smalltext | "%i\n" / sed "s/\(<br \/>\)\+/\n/g;s/\t//g" sed "/^$/d;/<img.* class=\"avatar\"/d" trim "\n" sed "/^$/d"
+                    .userinfo.a("\n") td valign=top rowspan=2; div .smalltext | "%i\n" / sed "s/\(<br \/>\)\+/\n/g;s/\t//g" sed "/^$/d;/<img.* class=\"avatar\"/d" trim "\n" sed "s/< *br *\/ *>/ /g;s/< *br *>/ /g; /^ *$/d" trim "\n"
                 } |
             """
             )
@@ -147,8 +147,8 @@ class smf1(ForumExtractor):
                     div #mainarea; div -class l@[1],
                     [0] table .bordercolor C@"tr .titlebg"
                 }; {
-                    .name * .E>catbgf?; * c@[0] | "%i",
-                    .forums [0] table l@[:2]; tr l@[1]; {
+                    .name * .E>catbgf?; [0] * c@[0] m@>[1:] | "%Di" trim,
+                    .forums [0] table l@[:2]; tr l@[:2]; {
                         .childboards [0] td l@[1]; * l@[0] -C@"img"; a href; {
                             .link * l@[0] | "%(href)v",
                             .name * l@[0] | "%i",
@@ -198,7 +198,7 @@ class smf1(ForumExtractor):
                             },
                             [0] a href -href=aE>(action=profile|/profiles/); {
                                 .link * l@[0] | "%(href)v",
-                                .title * l@[0] | "%i"
+                                .title * l@[0] | "%Di" / trim
                             },
                             .date * l@[0] | "%i" / tr "\n\r" sed "/^</!s/<.*//; s/.*<br \/>//; s/.*<\/a>//; s/<[^>]*>//g; s/\t//g; s/^on //; s/^  *//;"
                         }
@@ -227,7 +227,7 @@ class smf1(ForumExtractor):
                         .lastpost div .lastpost; {
                             a href; {
                                 .link * l@[0] | "%(href)v",
-                                .title * l@[0] | "%i"
+                                .title * l@[0] | "%Di" / trim
                             },
                             .date * l@[0] | "%i" sed "s/<.*//; s/.*: //;q" trim,
                             [-] a href=a>"action=profile"; {
@@ -238,14 +238,14 @@ class smf1(ForumExtractor):
                         }
                     } |
                 } | ,
-                .threads [0] table .bordercolor C@"tr l@[1:2]; td [2] l@[1]; a href=aE>([&?;]topic=|-t)[0-9]+\.0"; [1:] tr l@[1:2]; {
+                .threads [0] table .bordercolor C@"tr l@[1:2]; td [2] l@[1]; a href=aE>\"([&?;/]topic[=,]|-t)[0-9]+\.0\""; [1:] tr l@[1:2]; {
                     .type1 [0] td l@[1]; img src | "%(src)v",
                     .type2 [1] td l@[1]; img src | "%(src)v",
                     [2] td l@[1]; {
                         .icons.a img src | "%(src)v\n",
                         [0] a href; {
                             .link * l@[0] | "%(href)v",
-                            .title * l@[0] | "%i"
+                            .title * l@[0] | "%Di" / trim
                         },
                         .lastpage.u {
                             span l@[1],
@@ -349,6 +349,7 @@ class smf1(ForumExtractor):
         threads = t["threads"]
         if len(threads) == 0:
             threads = t["threads2"]
+        outthreads = []
 
         for i in threads:
             if len(i["link"]) == 0:
@@ -364,11 +365,13 @@ class smf1(ForumExtractor):
             for j, g in enumerate(icons):
                 icons[j] = url_merge(ref, g)
 
+            outthreads.append(i)
+
         return {
             "format_version": "smf-1-forum",
             "url": url,
             "categories": categories,
-            "threads": threads,
+            "threads": outthreads,
         }
 
 
@@ -391,7 +394,7 @@ class smf2(ForumExtractor):
 
             forumposts = rq.filter(r"div #forumposts")
             title = forumposts.search(
-                r'div .cat_bar; h3 .catbg | "%i\n" / sed "s/<[^>]*>//g;s/ &nbsp;/ /;s/ ([^)]*)$//;s/^[^:]*: //"'
+                r'div .cat_bar; h3 .catbg | "%i\n" / sed "s/<[^>]*>//g;s/ &nbsp;/ /;s/ ([^)]*)$//;s/^[^:]*: //" decode'
             )[:-1]
             if len(title) > 0:
                 viewed = forumposts.search(
@@ -399,7 +402,7 @@ class smf2(ForumExtractor):
                 )[:-1]
             else:
                 title = forumposts.search(r'h1 | "%i"') + rq.search(
-                    r'B>h[0-9] .display_title; span #top_subject | "%i"'
+                    r'B>h[0-9] .display_title; span #top_subject | "%Di"'
                 )
                 viewed = forumposts.search(
                     r'div .display-info;  li m@v>"comments" | "%i\n" / sed "s/<[^>]*>//g; s/ .*//"'
@@ -415,9 +418,9 @@ class smf2(ForumExtractor):
                 rq.search(
                     r"""
                 .path.a {
-                    div .navigate_section [0]; li; a -href=a>action= l@[1]; * c@[0] | "%i\n" / line [:-1],
-                    div .container; ol .breadcrumb [0]; li l@[1]; a l@[1]; * c@[0] | "%i\n" / line [:-1]
-                }
+                    div .navigate_section [0]; li; a -href=a>action= l@[1]; * c@[0] | "%Di\n" / line [:-1],
+                    div .container; ol .breadcrumb [0]; li l@[1]; a l@[1]; * c@[0] | "%Di\n" / line [:-1]
+                } / trim "\n"
             """
                 )
             )["path"]
@@ -445,9 +448,14 @@ class smf2(ForumExtractor):
 
             while True:
                 t = json.loads(rq.search(expr))
+                outt = []
                 for i in t["posts"]:
+                    if i["postid"] == 0 and i["date"] == "" and i["body"] == "":
+                        continue
                     i["avatar"] = url_merge_r(ref, i["avatar"])
-                posts += t["posts"]
+                    outt.append(i)
+
+                posts += outt
 
                 page += 1
                 if (
@@ -582,14 +590,14 @@ class smf2(ForumExtractor):
                                         .user_link * self@ | "%(href)v"
                                     },
                                     [1] a href; {
-                                        .title * self@ | "%(title)v",
+                                        .title * self@ | "%(title)Dv" / trim,
                                         .link * self@ | "%(href)v"
                                     },
                                     .date * self@ | "%t" tr "\n\t\r" trim sed "s/.*>//; s/([^ ]* ){3}//; s/^ *at //" "E"
                                 },
                                 .lastpost2 * self@ C@"[0] span .postby"; {
                                     [0] a href; {
-                                        .title * self@ | "%(title)v",
+                                        .title * self@ | "%(title)Dv" / trim,
                                         .link * self@ | "%(href)v"
                                     },
                                     [1] a href; {
@@ -609,7 +617,7 @@ class smf2(ForumExtractor):
                         .type2 * .icon2 child@; img src | "%(src)v",
                         * ( .subject )( .info ) child@; {
                             [0] a href; {
-                                .title * self@ | "%i",
+                                .title * self@ | "%Di" / trim,
                                 .link * self@ | "%(href)v"
                             },
                             [1] a href; {

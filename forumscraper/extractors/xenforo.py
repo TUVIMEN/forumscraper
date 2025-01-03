@@ -115,20 +115,20 @@ class xenforo2(ForumExtractor):
                 rq.search(
                     r"""
                 .title h1; {
-                    h1 .p-title-value | "%i",
-                    h1 qid="page-header" | "%i",
-                    h1 .MessageCard__thread-title | "%i"
-                } / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}",
+                    h1 .p-title-value | "%Di",
+                    h1 qid="page-header" | "%Di",
+                    h1 .MessageCard__thread-title | "%Di"
+                } / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" trim,
 
                 div .p-description; {
                     .user_id.u * data-user-id | "%(data-user-id)v",
                     .user * data-user-id; * c@[0] | "%i",
                     .date [0] time datetime | "%(datetime)v",
                 },
-                .path.a ul .p-breadcrumbs -.p-breadcrumbs--bottom; span | "%i\n",
+                .path.a [0] ul .p-breadcrumbs -.p-breadcrumbs--bottom; span | "%Di\n" / trim "\n",
                 .tags.a("|") a class=b>tagItem | "%i\n" / sed ":x; s/\t//g; /^$/d; $!{N;s/\n/|/;bx}; s/|$//; s/|\+/|/g" tr "\n",
                 .poll form data-xf-init="poll-block ajax-submit"; {
-                    .title h2 .block-header | "%i" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d;",
+                    .title h2 .block-header | "%Di" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d;" trim,
                     .answers [:-1] li; {
                         .option h3 .pollResult-response | "%i",
                         .votes.u span .pollResult-votes | "%i" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d; s/^.* //"
@@ -188,7 +188,7 @@ class xenforo2(ForumExtractor):
                     }
                 },
 
-                .id.u E>(span|div) #B>post-[0-9]* | "%(id)v" / sed "s/^post-//;q",
+                .id.u [0] * #E>(js-)?post-[0-9]+ | "%(id)v" / sed "s/^js-//; s/^post-//;q",
 
                 .date {
                     * class=b>message-attribution-main; time datetime | "%(datetime)v\t",
@@ -211,10 +211,11 @@ class xenforo2(ForumExtractor):
             while True:
                 post_tags = rq.search(
                     r"""
-                    div #thread-main-section; div .MessageCard l@[1] | "%i\n",
-                    article id,
-                    div #B>post-[0-9]*,
-                    div .block-container; div .MessageCard | "%i\n"
+                        [0] div c@[2:] .california-article-post,
+                        div #E>(js-)?post-[0-9]+ ||
+                        div #thread-main-section; div .MessageCard l@[1] | "%i\n" ||
+                        article id ||
+                        div .block-container; div .MessageCard | "%i\n"
                 """
                 ).split("\n")[:-1]
 
@@ -249,7 +250,15 @@ class xenforo2(ForumExtractor):
                                     xfToken,
                                     settings,
                                 )
+                        except self.common_exceptions as ex:
+                            self.handle_error(
+                                ex,
+                                "{}{}{}".format(url, url_first_delimiter, xfToken),
+                                settings,
+                                True,
+                            )
 
+                        try:
                             if Outputs.reactions in settings["output"]:
                                 reactions = self.get_reactions(
                                     tag,
@@ -425,7 +434,7 @@ class xenforo2(ForumExtractor):
                         .lastpost div .node-extra; {
                             .avatar div .node-extra-icon; [0] img | "%(src)v",
                             * .node-extra-title; [0] a; {
-                                .title * self@ | "%(title)v",
+                                .title * self@ | "%(title)Dv" trim,
                                 .link * self@ | "%(href)v",
                                 .label [0] span .label | "%i"
                             },
@@ -451,7 +460,7 @@ class xenforo2(ForumExtractor):
                         },
                         .label span .label | "%t",
                         * .structItem-title; [-] a -.labelLink; {
-                            .title * self@ | "%i",
+                            .title * self@ | "%Di" trim,
                             .link * self@ | "%(href)v"
                         },
                         [0] a .username; {
@@ -592,13 +601,13 @@ class xenforo1(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                .title { div class=b>titleBar; h1 | "%i", div #header; h1 | "%i" / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" },
+                .title { div class=b>titleBar; [0] h1 | "%Di" trim, div #header; [0] h1 | "%Di" trim / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" },
                 p #pageDescription; {
                     .user_id.u a .username href | "%(href)v" / sed "s/^.*[\/.]\([0-9]\+\)/\1/; s/[^0-9]$//",
-                    .user a .username | "%i",
+                    .user [0] a .username | "%i",
                     .date [0] * .DateTime | "%i"
                 },
-                .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%i\n" / sed "/^$/d",
+                .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%Di\n" / sed "/^$/d" trim "\n",
                 .tags.a("|") ul .tagList; a .tag | "%i|" / sed "s/<[^>]*>[^<]*<\/[^>]*>//g; s/|$//"
             """
                 )
@@ -622,7 +631,7 @@ class xenforo1(ForumExtractor):
 
             while True:
                 for i in rq.filter(
-                    r"ol #messageList; li #E>post-[0-9]* data-author l@[1]"
+                    r"ol ( #messageList )( .messageList ); li #E>post-[0-9]* data-author l@[1]"
                 ).self():
                     post = {}
                     messageUB = i.filter(r"div class=b>messageUserBlock")
@@ -717,7 +726,7 @@ class xenforo1(ForumExtractor):
         t = json.loads(
             rq.search(
                 r"""
-                .categories ol #forums; li child@; {
+                .categories { ol #forums; li child@ || ol .nodeList }; {
                     [0] div .nodeInfo child@; div .categoryText; {
                         * .nodeTitle; a; {
                             .name * self@ | "%i",
@@ -726,7 +735,7 @@ class xenforo1(ForumExtractor):
                         .description * .nodeDescription | "%i",
                     },
                     .forums {
-                        ol .nodeList l@[1:2]; li child@,
+                        ol .nodeList l@[:2]; li child@,
                         * self@ -C@"[0] ol .nodeList l@[1:2]"
                     }; div .nodeInfo [0] child@; {
                         .state span .nodeIcon title child@ | "%(title)v",
@@ -749,7 +758,7 @@ class xenforo1(ForumExtractor):
                         } | ,
                         .lastpost div .nodeLastPost; {
                             * .lastThreadTitle; [0] a; {
-                                .title * self@ | "%i",
+                                .title * self@ | "%Di" / trim,
                                 .link * self@ | "%(href)v"
                             },
                             * .lastThreadMeta; {
@@ -769,7 +778,7 @@ class xenforo1(ForumExtractor):
                         * .title child@; {
                             .label [0] a .prefixLink; * c@[0] | "%i",
                             [0] a -.prefixLink; {
-                                .title * self@ | "%i",
+                                .title * self@ | "%Di" / trim,
                                 .link * self@ | "%(href)v"
                             }
                         },

@@ -30,11 +30,14 @@ class phpbb(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                .title div #page-body; B>h[1-6] [0]; a href=b>"./viewtopic.php" | "%i",
+                .title {
+                    div #page-body; B>h[1-6] [0]; [0] a href=b>"./viewtopic.php" | "%Di" trim ||
+                    B>h[1-6]; [0] a href=b>"./viewtopic.php" | "%Di" trim
+                },
                 .path.a {
-                    ul #nav-breadcrumbs; a; span itemprop | "%i\n",
-                    div #page-header; li .icon-home; a | "%i\n"
-                }
+                    [0] ul #nav-breadcrumbs; a; span itemprop | "%Di\n",
+                    div #page-header; li .icon-home; a | "%Di\n"
+                } /  trim "\n"
             """
                 )
             )
@@ -43,7 +46,7 @@ class phpbb(ForumExtractor):
             posts = []
             expr = reliq.expr(
                 r"""
-                .posts div #page-body; div #B>"p[0-9]*"; {
+                .posts div #B>"p[0-9]*"; {
                     .postid.u div #B>"p[0-9]*" l@[0] | "%(id)v" / sed "s/^p//",
                     .date p .author | "%i" / sed "s/<\/time>$//;s/.*>//; s/.*;//; s/^ *//; s/^([a-z]* )+//; /^$/d" "E",
                     .content div .content | "%i",
@@ -196,7 +199,7 @@ class phpbb(ForumExtractor):
                                     .user_link * self@ | "%(href)v"
                                 },
                                 [0] a ( .lastsubject )( c@[1:] ); {
-                                    .title * self@ | "%(title)v",
+                                    .title * self@ | "%(title)Dv" / trim,
                                     .link * self@ | "%(href)v"
                                 },
                                 .date {
@@ -216,7 +219,7 @@ class phpbb(ForumExtractor):
                             } / sed "s/\a.*//" trim,
                             dt child@; {
                                 [0] a href; {
-                                    .title * self@ | "%i",
+                                    .title * self@ | "%Di" / trim,
                                     .link * self@ | "%(href)v"
                                 },
                                 .lastpage.u * .pagination; [-] a c@[0] m@B>"[0-9]" | "%i",

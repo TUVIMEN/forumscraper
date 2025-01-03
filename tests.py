@@ -607,7 +607,7 @@ class tester:
 
     def run(self, tests):
         pwd = os.getcwd()
-        os.system(r"rm -r " + "'" + self.tempdir + "'")
+        # os.system(r"rm -r " + "'" + self.tempdir + "'")
         try:
             os.mkdir(self.tempdir)
         except Exception:
@@ -690,7 +690,7 @@ class tester:
         diff = s1 - s2
         if len(diff) != 0:
             self.print_error(
-                "{} files were created, that are not in {}".format(str(diff), correct)
+                "{} files were not created, that are in {}".format(str(diff), correct)
             )
         diff = s2 - s1
         if len(diff) != 0:
@@ -754,6 +754,7 @@ def testurl(create_ex, attr, print_func=None):
             # timeout=5,
             timeout=30,
             retries=0,
+            # wait=1,
             # retries=2,
             # verify=False,
             # wait=1,

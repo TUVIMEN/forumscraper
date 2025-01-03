@@ -38,8 +38,8 @@ class xmb(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                    .title td .nav -style | "%i" / sed "s/.* &raquo; //",
-                    .path.a td .nav -style; a | "%i\n"
+                    .title td .nav -style | "%i" / sed "s/.* &raquo; //" decode trim,
+                    .path.a [0] td .nav -style; a | "%Di\n" / trim "\n"
                 """
                 )
             )
@@ -148,13 +148,13 @@ class xmb(ForumExtractor):
         self.thread.get_next = self.get_next
 
         self.forum_forums_expr = reliq.expr(
-            r'font .mediumtxt; a href=b>"forumdisplay.php" l@[1] | "%(href)v\n"'
+            r'font .mediumtxt; a l@[1] href=Ea>"(forumdisplay\.php\?|^[0-9]+/)" | "%(href)v\n"'
         )
         self.forum_threads_expr = reliq.expr(
             r'font .mediumtxt; a href=b>"viewthread.php" l@[1] | "%(href)v\n"'
         )
         self.board_forums_expr = reliq.expr(
-            r'a href=a>"forumdisplay.php?" | "%(href)v\n" / sed "s#/./#/#"'
+            r'a href=Ea>"(forumdisplay\.php\?|^[0-9]+/)" | "%(href)v\n" / sed "s#/./#/#"'
         )
         self.guesslist = [
             {
@@ -163,7 +163,7 @@ class xmb(ForumExtractor):
             },
             {
                 "func": "get_forum",
-                "exprs": [r"/(.*/)?forumdisplay.php\?fid=\d+$"],
+                "exprs": [r"/(.*/)?forumdisplay.php\?fid=\d+$", "/forums?/.+"],
             },
             {
                 "func": "get_board",
@@ -194,7 +194,7 @@ class xmb(ForumExtractor):
             rq.search(
                 r"""
             .categories table C@"td .tablerow l@[2]"; tr -.header l@[1]; {
-                .category td .category; * c@[0] | "%i",
+                .category td .category; * c@[0] | "%Di" trim,
                 .category_link [0] a href | "%(href)v",
 
                 .state [0] td l@[1]; img src | "%(src)v",
@@ -284,7 +284,7 @@ class xmb(ForumExtractor):
                         .sticky.b img | "t",
                         [0] a href; {
                              .link * l@[0] | "%(href)v",
-                             .title * l@[0] | "%i"
+                             .title * l@[0] | "%iD" trim
                         },
                         .lastpage.u u; [-] a | "%i"
                     },

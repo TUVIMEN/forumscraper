@@ -299,7 +299,7 @@ class stackexchange(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                    .title h1 itemprop="name"; a | "%i",
+                    .title h1 itemprop="name"; a | "%Di" / trim,
                     div .flex--item .mb8 .ws-nowrap; {
                         .views.u [0] * self@ m@"Viewed" | "%(title)v" / tr "0-9" "" "c",
                         .asked [0] * self@ m@"Asked"; [0] time itemprop="dateCreated" datetime | "%(datetime)v",

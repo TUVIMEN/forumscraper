@@ -22,7 +22,7 @@ class vbulletin(ForumExtractor):
                     1,
                 ),
                 (
-                    r"/.*(\?(t=)?|-)([0-9]+)[^/]*/?$",
+                    r"/.*([?&](t=)?|-)([0-9]+)[^/]*/?$",
                     3,
                 ),
             ]
@@ -38,10 +38,10 @@ class vbulletin(ForumExtractor):
                     .title {
                         [0] * .threadtitle; * c@[0] m@>[!0] | "%Di" ||
                         [0] * .main-title c@[0] | "%Di" ||
-                        td .navbar; strong child@; * [0] c@[0] m@>[!0] | "%Di" / sed "s/<[^>]+>//g" "E" trim ||
+                        td .navbar; strong child@; * [0] c@[0] m@>[!0] | "%Di" / sed "s/<[^>]+>//g" "E" ||
                         * .thread-breadcrumb; * [0] c@[0] m@>[!0] | "%Di" ||
                         * #toolbar; [0] h1 c@[0] | "%Di"
-                    },
+                    } / trim,
                     .path.a {
                         span c@[1:5] .navbar; a [0] m@>[!0] child@ | "%Di\n" ||
                         {
@@ -49,7 +49,7 @@ class vbulletin(ForumExtractor):
                             [0] * ( #breadcrumbs )( .breadcrumbs ) ||
                             * .navbit
                         }; a c@[:5]; * [0] c@[0] m@>[!0] | "%Di\n"
-                    }
+                    } / trim "\n"
             """
                 )
             )
@@ -78,10 +78,10 @@ class vbulletin(ForumExtractor):
                     } / sed "s/^post//",
 
                     .title {
-                        h2 ( .title )( .b-post__title )( .posttitle ) | "%i" ||
-                        img .inlineimg; div .smallfont c@[:3] parent@ | "%i" ||
-                        div .tittle | "%i"
-                    },
+                        h2 ( .title )( .b-post__title )( .posttitle ) | "%Di" ||
+                        img .inlineimg; div .smallfont c@[:3] parent@ | "%Di" ||
+                        div .tittle | "%Di"
+                    } / trim,
 
                     .content div ( #b>post_message_ )( .js-post__content-text ) | "%i",
 
@@ -162,12 +162,10 @@ class vbulletin(ForumExtractor):
                         },
 
                         .title {
-                            {
-                                * ( .usertitle )( .usertittle ) ||
-                                * c@[0] m@>[1:]; [0] * c@[:5] .smallfont ancestor@ ||
-                                [0] * c@[0] .smallfont
-                            }; [0] * c@[0] m@>[1:] | "%Di"
-                        },
+                            * ( .usertitle )( .usertittle ) ||
+                            * c@[0] m@>[1:]; [0] * c@[:5] .smallfont ancestor@ ||
+                            [0] * c@[0] .smallfont
+                        }; [0] * c@[0] m@>[1:] | "%Di" / trim,
 
                         .rank.u {
                             [0] * ( .rank )( .b-userinfo__rank ) | "%c" ||
@@ -430,7 +428,7 @@ class vbulletin(ForumExtractor):
                             [0] v>span .forumtitle ||
                             [0] a c@[:1]
                         }; {
-                            .title [0] * c@[0] m@>[1:] | "%Di",
+                            .title [0] * c@[0] m@>[1:] | "%Di" trim,
                             .link [0] a | "%(href)v"
                         },
                         .description {
@@ -483,7 +481,7 @@ class vbulletin(ForumExtractor):
                                 [0] * ( .lastpost-title )( .lastposttitle )( .title ) ||
                                 [0] strong c@[0]; * parent@
                             }; {
-                                .title [0] * c@[0] m@>[1:] | "%Di",
+                                .title [0] * c@[0] m@>[1:] | "%Di" / trim,
                                 .link [0] a | "%(href)v",
                             },
                             .icon {
@@ -533,7 +531,7 @@ class vbulletin(ForumExtractor):
                         [0] * #b>thread_title_
                     }; [0] a; {
                         .link * self@ | "%(href)v",
-                        .title * c@[0] m@>[1:] | "%Di"
+                        .title * c@[0] m@>[1:] | "%Di" / trim
                     },
                     {
                         div .topic-info ||
