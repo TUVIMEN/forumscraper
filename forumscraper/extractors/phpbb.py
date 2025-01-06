@@ -54,7 +54,7 @@ class phpbb(ForumExtractor):
                     dl .postprofile #B>profile[0-9]*; {
                         dt l@[1]; {
                             .avatar img src | "%(src)v",
-                            .user a c@[0] | "%i",
+                            .user a c@[0] | "%Di" trim,
                             .userid.u a href c@[0] | "%(href)v" / sed "s/.*[&;]u=([0-9]+).*/\1/" "E",
                         },
                         .userinfo_temp.a("\a") dd l@[1] m@vf>"&nbsp;" | "%i\a" / tr '\n\t' sed "s/<strong>([^<]*)<\/strong>/\1/g; s/ +:/:/; /<ul [^>]*class=\"profile-icons\">/{s/.*<a href=\"([^\"]*)\" title=\"Site [^\"]*\".*/Site\t\1/;t;d}; /^[^<>]+:/!{s/^/Rank:/};s/: */\t/" "E" "\a"
@@ -160,7 +160,7 @@ class phpbb(ForumExtractor):
                 * #page-body; {
                     .categories div .forabg; {
                         [0] ul -.forums .topiclist; dt; { a, * self@ }; [0] * self@; {
-                            .name * self@ | "%t",
+                            .name * self@ | "%Dt" / trim,
                             .link * self@ | "%(href)v"
                         },
                         .forums ul .forums .topiclist; li child@; dl child@; {
@@ -171,18 +171,18 @@ class phpbb(ForumExtractor):
                             } / sed "s/\a.*//" trim,
                             dt child@; {
                                 [0] a href; {
-                                    .name * self@ | "%i",
+                                    .name * self@ | "%Di" / trim,
                                     .link * self@ | "%(href)v"
                                 },
                                 .icon span .forum-image; img src | "%(src)v",
                                 .description * self@ | "%i" tr "\n\t\r" sed "/<br *\/>/!d; s/.*-->//; s/[^<]*(<br *\/?>(.*)|<)/\2/g; s/<strong>.*//; s/<br *\/?>/\n/g; s/<span[^>]*>([^<]*)<\/span>/\1/g; s/<div.*//" "E" trim,
                                 .childboards a .subforum; {
                                     .state * self@ | "%(title)v",
-                                    .name * self@ | "%t" trim,
+                                    .name * self@ | "%Dt" / trim,
                                     .link * self@ | "%(href)v"
                                 } | ,
                                 .moderators strong c@[0] m@b>Mod m@e>: l@[1:2]; a -.subforum ssub@; {
-                                    .user * self@ | "%i",
+                                    .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 } | ,
                                 div .forum-statistics; {
@@ -195,7 +195,7 @@ class phpbb(ForumExtractor):
                             .redirects.u dd .redirect | "%T",
                             .lastpost dd .b>lastpost child@; span child@; {
                                 a ( .b>username )( -class ) c@[0]; {
-                                    .user * self@ | "%i",
+                                    .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 },
                                 [0] a ( .lastsubject )( c@[1:] ); {
@@ -210,7 +210,7 @@ class phpbb(ForumExtractor):
                         } |
                     } | ,
                     .threads div .forumbg; {
-                        .name ul .topiclist -.topics; [0] dt | "%T" trim,
+                        .name ul .topiclist -.topics; [0] dt | "%DT" / trim,
                         .threads ul .topiclist .topics; li child@; dl child@; {
                             .state {
                                 * title self@ | "%(title)v\a",
@@ -224,7 +224,7 @@ class phpbb(ForumExtractor):
                                 },
                                 .lastpage.u * .pagination; [-] a c@[0] m@B>"[0-9]" | "%i",
                                 [-] a href c@[0]; {
-                                    .user * self@ | "%i",
+                                    .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 },
                                 .date {
@@ -239,7 +239,7 @@ class phpbb(ForumExtractor):
                             .views.u dd .views | "%i",
                             .lastpost dd .b>lastpost child@; span child@; {
                                 a ( .b>username )( -class ) c@[0]; {
-                                    .user * self@ | "%i",
+                                    .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 },
                                 .link [0] a ( .lastsubject )( c@[1:] ) | "%(href)v",

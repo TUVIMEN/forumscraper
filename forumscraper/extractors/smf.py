@@ -46,9 +46,15 @@ class smf1(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                .title td #top_subject | "%i" / sed "s/[^:]*: //;s/([^(]*)//;s/&nbsp;//g;s/ *$//" decode trim,
-                .viewed.u td #top_subject | "%i" /  sed "s/.*\(//g;s/.* ([0-9]+) .*/\1/" "E",
-                .path.a("\n") div a@[0]; E>(div|span) .nav l@[1]; a .nav | "%i\n" / line [:-1] decode trim "\n"
+                .title * #top_subject | "%i" / sed "s/[^:]*: //;s/([^(]*)//;s/&nbsp;//g;s/ *$//; s/<[^>]*>//g; s/^Topic: //" decode trim,
+                .viewed.u {
+                    td #top_subject | "%i" /  sed "s/.*\(//g;s/.* ([0-9]+) .*/\1/" "E" ||
+                    * #topic_header_views | "%i"
+                },
+                .path.a("\n") {
+                    div a@[0]; E>(div|span) .nav l@[1]; a .nav | "%i\n" ||
+                    [0] * .linktree; a child@ | "%i\n"
+                } / line [:-1] decode trim "\n"
             """
                 )
             )
@@ -57,18 +63,31 @@ class smf1(ForumExtractor):
             posts = []
             expr = reliq.expr(
                 r"""
-                .posts form #quickModForm; table l@[1]; tr l@[:2] m@B>"id=\"subject_[0-9]*\""; tr l@[0] m@v>".googlesyndication.com/"; {
-                    .postid.u div #B>subject_[0-9]* | "%(id)v" / sed "s/.*_//",
-                    .date td valign=middle; div .smalltext | "%i" / sed "s/.* ://;s/^<\/b> //;s/ &#187;//g;s/<br *\/>.*//;s/<[^>]*>//g;s/ *$//",
+                .posts form #quickModForm; {
+                    table l@[1]; tr l@[:2] m@B>"id=\"subject_[0-9]*\""; tr l@[0] m@v>".googlesyndication.com/" ||
+                    ul child@; li -.pageindex_li child@
+                }; {
+                    .postid.u [0] * #B>subject_[0-9]* | "%(id)v" / sed "s/.*_//",
+                    .date {
+                        td valign=middle; div .smalltext | "%i" / sed "s/.* ://;s/^<\/b> //;s/ &#187;//g;s/<br *\/>.*//;s/<[^>]*>//g;s/ *$//" ||
+                        [0] *  #b>subject_; [0] span c@[0] | "%i" / sed "s/^- //" trim
+                    },
                     .body div .post | "%i",
                     .signature div .signature | "%i",
-                    .user td valign=top rowspan=2; b l@[1]; a href | "%i",
-                    .userid.u td valign=top rowspan=2; b l@[1]; a href | "%(href)v" / sed "s/.*;//;s/.*-//;s/\.html$//;s/^u//;s/^=//",
-                    .avatar td valign=top rowspan=2; img .avatar src | "%(src)v",
+                     td valign=top rowspan=2; {
+                        b l@[1]; [0] a href; {
+                            .user * self@ | "%Di" / trim,
+                            .userid.u * self@ | "%(href)v" / sed "s/.*;//;s/.*-//;s/\.html$//;s/^u//;s/^=//"
+                        },
+                        .avatar [0] img .avatar src | "%(src)v"
+                    },
                     .edited td #B>modified_[0-9]*; * c@[0] | "%i",
                     .score span #B>gpbp_score_[0-9]* | "%i",
                     .attachments.a("\t") a href #B>link_[0-9]* | "%(href)v\t",
-                    .userinfo.a("\n") td valign=top rowspan=2; div .smalltext | "%i\n" / sed "s/\(<br \/>\)\+/\n/g;s/\t//g" sed "/^$/d;/<img.* class=\"avatar\"/d" trim "\n" sed "s/< *br *\/ *>/ /g;s/< *br *>/ /g; /^ *$/d" trim "\n"
+                    .userinfo.a("\n") {
+                        td valign=top rowspan=2; div .smalltext | "%i\n" / sed "s/\(<br \/>\)\+/\n/g;s/\t//g" sed "/^$/d;/<img.* class=\"avatar\"/d" trim "\n" sed "s/< *br *\/ *>/ /g;s/< *br *>/ /g; /^ *$/d" trim "\n" ||
+                        ul .tabs_list; li child@ | "%(class)v: %i" tr "\n\r" trim echo "" "\n"
+                    }
                 } |
             """
             )
@@ -89,6 +108,26 @@ class smf1(ForumExtractor):
                 if nexturl is None:
                     break
                 rq, ref = self.session.get_html(nexturl, settings, state)
+
+            for i in posts:
+                ui = []
+                for j in i["userinfo"]:
+                    r = re.search("(^[A-Za-z0-9_-]+): (.*)$", j)
+                    if r is not None:
+                        key = r[1]
+                        value = r[2]
+                        if key == "poster_avatar" and len(i["avatar"]) == 0:
+                            navatar = reliq(value).search('[0] img src | "%(src)v"')
+                            i["avatar"] = url_merge(ref, navatar)
+                            continue
+                        elif key == "dropmenu" and len(i["user"]) == 0:
+                            i["user"] = reliq(value).search(
+                                '[0] * c@[0] m@>[1:] | "%Di" trim'
+                            )
+                            continue
+
+                    ui.append(j)
+                i["userinfo"] = ui
 
             ret["posts"] = posts
             return ret
@@ -133,7 +172,12 @@ class smf1(ForumExtractor):
         )
 
     def get_next_page(self, rq):
-        return rq.search(r'b m@B>"[0-9]"; [0] a .navPages href ssub@ | "%(href)v"')
+        return rq.search(
+            r"""
+            b m@B>"[0-9]"; [0] a .navPages href ssub@ | "%(href)v" ||
+            [0] * .current_page; [0] a ssub@; * c@[0] self@ | "%(href)v" / sed "s/?PHPSESSID=[^\/&]*&amp;/?/"
+        """
+        )
 
     def process_board_r(self, url, ref, rq, settings, state):
         return self.process_forum_r(url, ref, rq, settings, state)
@@ -151,7 +195,7 @@ class smf1(ForumExtractor):
                     .forums [0] table l@[:2]; tr l@[:2]; {
                         .childboards [0] td l@[1]; * l@[0] -C@"img"; a href; {
                             .link * l@[0] | "%(href)v",
-                            .name * l@[0] | "%i",
+                            .name * l@[0] | "%Di" / trim,
                             .state * l@[0] | "%(title)v" sed "s/ (.*//",
                             .topics.u * l@[0] | "%(title)v" sed "s/.* (//; s/)$//; s/,.*//; s/.*: //",
                             .posts.u * l@[0] | "%(title)v" sed "s/.* (//; s/)$//; s/.*, //; s/.*: //"
@@ -161,12 +205,12 @@ class smf1(ForumExtractor):
                         [1] td l@[1]; {
                             [0] a href; {
                                 .link * l@[0] | "%(href)v",
-                                .name * l@[0] | "%i"
+                                .name * l@[0] | "%Di" / trim
                             },
                             .description * l@[0] | "%t" trim sed "s/^&nbsp;//" trim,
                             .moderators div; i; a href; {
                                 .user_link * l@[0] | "%(href)v",
-                                .user * l@[0] | "%i"
+                                .user * l@[0] | "%Di" trim
                             } |
                         },
                         [2] td l@[1]; {
@@ -194,7 +238,7 @@ class smf1(ForumExtractor):
                         }; {
                             [0] a href=aE>(action=profile|/profiles/); {
                                 .user_link * l@[0] | "%(href)v",
-                                .user * l@[0] | "%i"
+                                .user [0] * l@[0] | "%Di" trim
                             },
                             [0] a href -href=aE>(action=profile|/profiles/); {
                                 .link * l@[0] | "%(href)v",
@@ -205,11 +249,11 @@ class smf1(ForumExtractor):
                     } |
                 } | ,
                 .categories2 div #bodyarea_inner; div .boardindex l@[1]; {
-                    .name div .cat_bar l@[1]; h3 | "%i",
+                    .name div .cat_bar l@[1]; h3 | "%Di" / trim,
                     .forums li l@[2]; {
                         .childboards div .childboards; a; {
                             .link * l@[0] | "%(href)v",
-                            .name * l@[0] | "%i",
+                            .name * l@[0] | "%Di" / trim,
                             .state * l@[0] | "%(title)v" sed "s/ (.*//",
                             .topics.u * l@[0] | "%(title)v" sed "s/.* (//; s/)$//; s/,.*//; s/.*: //",
                             .posts.u * l@[0] | "%(title)v" sed "s/.* (//; s/)$//; s/.*, //; s/.*: //"
@@ -218,7 +262,7 @@ class smf1(ForumExtractor):
                         div .info; {
                             h4; a; {
                                 .link * l@[0] | "%(href)v",
-                                .name * l@[0] | "%i",
+                                .name * l@[0] | "%Di" / trim,
                                 .posts.u * l@[0] | "%(title)v",
                                 .topics.u * l@[0] | "%(title)v" line [2:] " "
                             },
@@ -231,10 +275,10 @@ class smf1(ForumExtractor):
                             },
                             .date * l@[0] | "%i" sed "s/<.*//; s/.*: //;q" trim,
                             [-] a href=a>"action=profile"; {
-                                .user * l@[0] | "%i",
+                                .user [0] * l@[0] | "%Di" trim,
                                 .user_link * l@[0] | "%(href)v"
                             },
-                            .user2 * l@[0] | "%i" tr "\n" sed "s/.*>//; s/.*&nbsp;//",
+                            .user2 * l@[0] | "%i" tr "\n" sed "s/.*>//; s/.*&nbsp;//" decode trim,
                         }
                     } |
                 } | ,
@@ -254,14 +298,14 @@ class smf1(ForumExtractor):
                     },
                     [3] td l@[1]; a href; {
                         .user_link * l@[0] | "%(href)v",
-                        .user * l@[0] | "%i"
+                        .user [0] * l@[0] | "%Di" trim
                     },
                     .replies.u [4] td l@[1] | "%T",
                     .views.u [5] td l@[1] | "%T",
                     .lastpost [6] td l@[1]; span .smalltext l@[1]; {
                         [0] a href; {
                             .user_link * l@[0] | "%(href)v",
-                            .user * l@[0] | "%i"
+                            .user [0] * l@[0] | "%i" trim
                         },
                         .date * l@[0] | "%i" sed "s/<br \/>.*//; s/<[^>]*>//g;q" trim
                     }
@@ -270,20 +314,20 @@ class smf1(ForumExtractor):
                     div .info; {
                         span #b>msg_; a; {
                             .link * l@[0] | "%(href)v",
-                            .name * l@[0] | "%i",
+                            .name * l@[0] | "%Di" / trim,
                             .replies.u * l@[0] | "%(title)v",
                             .views.u * l@[0] | "%(title)v" line [2:] " "
                         },
                         [-] a l@[1]; {
                             .user_link * l@[0] | "%(href)v",
-                            .user * l@[0] | "%i"
+                            .user [0] * l@[0] | "%Di" trim
                         },
                         .lastpage.u span #b>pages; [-] a | "%i",
                         .icons.a img l@[1] | "%(src)v\n"
                     },
                     .lastpost div .lastpost; {
                         a href c@[0]; {
-                            .user * l@[0] | "%i",
+                            .user [0] * l@[0] | "%Di" trim,
                             .user_link * l@[0] | "%(href)v"
                         },
                         .date * l@[0] | "%i" tr "\n\t" sed "s/.*>//; s/.*&nbsp;//"
@@ -435,7 +479,7 @@ class smf2(ForumExtractor):
                     .signature div .signature | "%i",
                     .edited * #B>modified_[0-9]* | "%i",
                     .attachments.a div .attached; div .attachments_top; a href | "%(href)v\n",
-                    .user div .poster; h4; a l@[1] | "%i",
+                    .user div .poster; h4; [0] a l@[1] | "%Di" trim,
                     .userid.u div .poster; h4; a href l@[1] | "%(href)v" / sed "s/^.*;u=//",
                     .avatar div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li .avatar; img src | "%(src)v",
                     .userinfo div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li -.avatar class; {
@@ -547,7 +591,7 @@ class smf2(ForumExtractor):
                             div #E>board_[0-9]+_childboards self@,
                             table .boardsframe self@; [0] tr child@
                         }; [0] ( h3 )( td ) .catbg; {
-                            .name * self@ | "%t" trim,
+                            .name * self@ | "%Dt" trim,
                             .description [0] div .desc ssub@ | "%i"
                         },
                         .forums {
@@ -562,20 +606,20 @@ class smf2(ForumExtractor):
                             * .info child@; {
                                 [0] a href; {
                                     .link * self@ | "%(href)v",
-                                    .name * self@ | "%i"
+                                    .name * self@ | "%Di" trim
                                 },
                                 .description [0] ( p -id -.moderators )( div .board_description ) child@ | "%i",
                             },
                             .childboards * .children; a; {
                                 .link * self@ | "%(href)v",
-                                .name * self@ | "%i",
+                                .name * self@ | "%Di" trim,
                                 .status * self@ | "%(title)v" sed "s/ (.*//",
                                 .topics.u * self@ | "%(title)v" sed "s/.* (//; s/,.*//",
                                 .posts.u * self@ | "%(title)v" sed "s/.*,//"
                             } | ,
                             .moderators * .moderators; a href; {
                                 .user_link * self@ | "%(href)v",
-                                .user * self@ | "%i"
+                                .user [0] * self@ | "%Di" trim
                             } | ,
                             * .e>stats child@; { p child@, * self@ }; [0] * self@; {
                                 .posts.u * self@ | "%i" sed 's/<.*//;s/,//g',
@@ -586,7 +630,7 @@ class smf2(ForumExtractor):
                             * .lastpost child@; { p child@, * self@ }; [0] * self@; {
                                 .lastpost * self@ -C@"[0] span .postby"; {
                                     [0] a href; {
-                                        .user * self@ | "%i",
+                                        .user * self@ | "%Di" trim,
                                         .user_link * self@ | "%(href)v"
                                     },
                                     [1] a href; {
@@ -601,7 +645,7 @@ class smf2(ForumExtractor):
                                         .link * self@ | "%(href)v"
                                     },
                                     [1] a href; {
-                                        .user * self@ | "%i",
+                                        .user * self@ | "%Di" trim,
                                         .user_link * self@ | "%(href)v"
                                     },
                                     .date * self@ | "%t" trim sed "s/^at //"
@@ -621,7 +665,7 @@ class smf2(ForumExtractor):
                                 .link * self@ | "%(href)v"
                             },
                             [1] a href; {
-                                .user * self@ | "%t" trim,
+                                .user * self@ | "%Dt" trim,
                                 .user_link * self@ | "%(href)v"
                             },
                             .lastpage.u [-] a ( .navPages )( .nav_page ) c@[0] m@v>"All" | "%i",
@@ -632,7 +676,7 @@ class smf2(ForumExtractor):
                             .icons2.a img id child@ | "%(src)v\n" sed 's/.*\///; s/\..*//'
                         },
                         td .starter child@; a; {
-                            .user2 * self@ | "%i",
+                            .user2 [0] * self@ | "%Di" trim,
                             .user_link2 * self@ | "%(href)v"
                         },
                         {
@@ -648,7 +692,7 @@ class smf2(ForumExtractor):
                             .lastpost [0] v>p child@; * rparent@; {
                                 .link [0] a href | "%(href)v",
                                 [1] a href; {
-                                    .user * self@ | "%i",
+                                    .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 },
                                 .date {
@@ -662,7 +706,7 @@ class smf2(ForumExtractor):
                                     .link * self@ | "%(href)v"
                                 },
                                 [1] a href; {
-                                    .user * self@ | "%i",
+                                    .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 }
                             }

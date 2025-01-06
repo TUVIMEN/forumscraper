@@ -91,7 +91,7 @@ class xenforo2(ForumExtractor):
                         r"""
                     .reactions div .contentRow; {
                         .user_id.u * .username data-user-id | "%(data-user-id)v",
-                        .user * .username data-user-id; * c@[0] | "%i",
+                        .user * .username data-user-id; * c@[0] | "%Di" / trim,
                         .date time .u-dt datetime | "%(datetime)v",
                         .reaction span .reaction; img title | "%(title)v"
                     } |
@@ -122,7 +122,7 @@ class xenforo2(ForumExtractor):
 
                 div .p-description; {
                     .user_id.u * data-user-id | "%(data-user-id)v",
-                    .user * data-user-id; * c@[0] | "%i",
+                    .user * data-user-id; * c@[0] | "%Di" / trim,
                     .date [0] time datetime | "%(datetime)v",
                 },
                 .path.a [0] ul .p-breadcrumbs -.p-breadcrumbs--bottom; span | "%Di\n" / trim "\n",
@@ -148,7 +148,7 @@ class xenforo2(ForumExtractor):
                     h4 class=b>message-name,
                     * .MessageCard__user-info__name
                 }; {
-                    .user [0] * c@[0] | "%i",
+                    .user [0] * c@[0] | "%Di" trim,
                     .user_link [0] a class href | "%(href)v",
                     .user_id.u [0] * data-user-id | "%(data-user-id)v"
                 },
@@ -321,9 +321,9 @@ class xenforo2(ForumExtractor):
                 .background div class=B>"memberProfileBanner memberTooltip-header.*" style=a>"url(" | "%(style)v" / sed "s#.*url(##;s#^//#https://#;s/?.*//;p;q" "n",
                 .location a href=b>/misc/location-info | "%i",
                 .avatar img src | "%(src)v" / sed "s/?.*//; q",
-                .title span .userTitle | "%i",
+                .title span .userTitle | "%Di" / trim,
                 .banners.a * .userBanner; strong | "%i\n",
-                .name h4 .memberTooltip-name; a; * c@[0] | "%i",
+                .name h4 .memberTooltip-name; a; * c@[0] | "%Di" / trim,
                 .forum em; a href | "%(href)v",
                 .extras dl .pairs c@[!0]; {
                     .key dt | "%i",
@@ -397,7 +397,7 @@ class xenforo2(ForumExtractor):
                 r"""
                 .categories div .block -b>data-widget- -.thNodes__nodeList -data-type=thread; {
                     [0] * ( .block-header )( .section-header ); [0] * c@[0]; {
-                        .name * self@ | "%i",
+                        .name * self@ | "%Di" / trim,
                         .link * self@ | "%(href)v"
                     },
                     .forums [0] div ( .block-body )( .node-list ); div .node l@[1:2]; {
@@ -407,7 +407,7 @@ class xenforo2(ForumExtractor):
                         },
                         * .node-main; {
                             * .node-title; [0] a; {
-                                .name * self@ | "%i",
+                                .name * self@ | "%Di" / trim,
                                 .link * self@ | "%(href)v"
                             },
                             .description div .node-description | "%i",
@@ -416,7 +416,7 @@ class xenforo2(ForumExtractor):
                                     * self@ | "%(class)v\a" sed "s/.*--//; /^subNodeLink/d",
                                     i | "%(class)v" sed "s/ subNodeLink-icon//; s/.* //"
                                 } / sed "s/\a.*//",
-                                .name * self@ | "%t" trim,
+                                .name * self@ | "%Dt" trim,
                                 .link * self@ | "%(href)v"
                             } |
                         },
@@ -440,7 +440,7 @@ class xenforo2(ForumExtractor):
                             },
                             .date time .node-extra-date datetime | "%(datetime)v",
                             * .node-extra-user; [0] a; {
-                                .user [0] * c@[0] | "%i",
+                                .user [0] * c@[0] | "%Di" trim,
                                 .user_link * self@ | "%(href)v"
                             }
                         },
@@ -464,7 +464,7 @@ class xenforo2(ForumExtractor):
                             .link * self@ | "%(href)v"
                         },
                         [0] a .username; {
-                            .user * c@[0] | "%i",
+                            .user * c@[0] | "%Di" trim,
                             .user_link * self@ | "%(href)v"
                         },
                         .date [0] time datetime | "%(datetime)v",
@@ -482,7 +482,7 @@ class xenforo2(ForumExtractor):
                     .lastpost div ( .structItem-cell--latest )( .last-post-cell ); {
                         .date [0] time datetime | "%(datetime)v",
                         [0] a .username; {
-                            .user * c@[0] | "%i",
+                            .user * c@[0] | "%Di" trim,
                             .user_link * self@ | "%(href)v"
                         },
                     },
@@ -604,7 +604,7 @@ class xenforo1(ForumExtractor):
                 .title { div class=b>titleBar; [0] h1 | "%Di" trim, div #header; [0] h1 | "%Di" trim / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" },
                 p #pageDescription; {
                     .user_id.u a .username href | "%(href)v" / sed "s/^.*[\/.]\([0-9]\+\)/\1/; s/[^0-9]$//",
-                    .user [0] a .username | "%i",
+                    .user [0] a .username | "%Di" trim,
                     .date [0] * .DateTime | "%i"
                 },
                 .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%Di\n" / sed "/^$/d" trim "\n",
@@ -622,7 +622,7 @@ class xenforo1(ForumExtractor):
                     .user_banner em class=b>userBanner; * c@[0] | "%i" / sed "/^[ \t]*$/d",
                 },
                 .user_extra dl; {
-                    .name dt; * c@[0] | "%i",
+                    .name dt; * c@[0] | "%Di" / trim,
                     .value dd; * c@[0] | "%i"
                 } |
             """
@@ -650,7 +650,7 @@ class xenforo1(ForumExtractor):
                             * l@[0] title | "%(title)v",
                             * l@[0] -title | "%i"
                         },
-                        .user li data-author l@[0] | "%(data-author)v",
+                        .user li data-author l@[0] | "%(data-author)Dv" / trim,
                         .id.u li data-author l@[0] #B>post-[0-9]* | "%(id)v" / sed "s/^post-//",
                         .text div .messageContent; article | "%i"
                     """
@@ -729,7 +729,7 @@ class xenforo1(ForumExtractor):
                 .categories { ol #forums; li child@ || ol .nodeList }; {
                     [0] div .nodeInfo child@; div .categoryText; {
                         * .nodeTitle; a; {
-                            .name * self@ | "%i",
+                            .name * self@ | "%Di" / trim,
                             .link * self@ | "%(href)v"
                         },
                         .description * .nodeDescription | "%i",
@@ -742,7 +742,7 @@ class xenforo1(ForumExtractor):
                         .icon span .nodeIcons; [0] img | "%(src)v",
                         div .nodeText child@; {
                             * .nodeTitle; [0] a; {
-                                .name * self@ | "%i",
+                                .name * self@ | "%Di" / trim,
                                 .link * self@ | "%(href)v"
                             },
                             .description * #b>nodeDescription child@ | "%i",
@@ -753,7 +753,7 @@ class xenforo1(ForumExtractor):
                         },
                         .feed div .nodeControls; a .feedIcon | "%(href)v",
                         .childboards li .node .level-n; a; {
-                            .name * self@ | "%i",
+                            .name * self@ | "%Di" / trim,
                             .link * self@ | "%(href)v"
                         } | ,
                         .lastpost div .nodeLastPost; {
@@ -763,7 +763,7 @@ class xenforo1(ForumExtractor):
                             },
                             * .lastThreadMeta; {
                                 * .lastThreadUser; [0] a; {
-                                    .user * self@ | "%i",
+                                    .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 },
                                 .date * .DateTime | "%(title)v\a%(data-time)v" sed "s/^\a//g; s/\a.*//;"
@@ -783,7 +783,7 @@ class xenforo1(ForumExtractor):
                             }
                         },
                         [0] a .username; {
-                            .user * self@; [0] * c@[0] | "%i",
+                            .user * self@; [0] * c@[0] | "%Di" trim,
                             .user_link * self@ | "%(href)v"
                         },
                         .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;",
@@ -795,7 +795,7 @@ class xenforo1(ForumExtractor):
                     },
                     .lastpost div .lastPost child@; {
                         [0] a .username; {
-                            .user * self@; * c@[0] | "%i",
+                            .user * self@; * c@[0] | "%Di" / trim,
                             .user_link * self@ | "%(href)v"
                         },
                         .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;"

@@ -50,7 +50,7 @@ class xmb(ForumExtractor):
                 r"""
                 .date td -rowspan l@[1]; a m@E>".+ .+ .+" | "%i" / sed "s/^[^ ]\+ [^ ]\+ //",
                 td rowspan l@[1]; {
-                    .user font .mediumtxt; * c@[0] | "%i",
+                    .user font .mediumtxt; * c@[0] | "%Di" trim,
                      div .smalltxt; {
                         .postid.u a name l@[1] | "%(name)v" / sed "s/^pid//",
                         .fields.a * l@[0] | "%i\n" / sed '
@@ -202,7 +202,7 @@ class xmb(ForumExtractor):
                     .description [1:2] font | "%i\a" / sed "/^&nbsp;$/d" "" "\a" tr "\a",
                     a href; {
                         .link [-] * l@[0] | "%(href)v",
-                        .name * c@[0] | "%i"
+                        .name * c@[0] | "%Di" / trim
                     }
                 },
                 .topics.u [2] td l@[1]; font | "%i",
@@ -211,7 +211,7 @@ class xmb(ForumExtractor):
                     [0] td; {
                         .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
                         a href; {
-                            .user * l@[0] | "%i" / sed "s/.*>//;s/^by //",
+                            .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim,
                             .user_link * l@[0] | "%(href)v"
                         }
                     },
@@ -289,7 +289,7 @@ class xmb(ForumExtractor):
                         .lastpage.u u; [-] a | "%i"
                     },
                     [3] td l@[1]; a href; {
-                        .user * l@[0] | "%i",
+                        .user * l@[0] | "%Di" trim,
                         .user_link * l@[0] | "%(href)v"
                     },
                     .replies.u [4] td l@[1]; font | "%i",
@@ -298,7 +298,7 @@ class xmb(ForumExtractor):
                         .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
                         a href; {
                             .user_link * l@[0] | "%(href)v",
-                            .user * l@[0] | "%i" / sed "s/.*>//;s/^by //"
+                            .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
                         }
                     }
                 } | """
@@ -336,7 +336,7 @@ class xmb(ForumExtractor):
                 [1] td l@[1]; {
                     [0] a href; {
                          .link * l@[0] | "%(href)v",
-                         .name * l@[0] | "%i"
+                         .name * l@[0] | "%Di" / trim
                     },
                     .description [-] font | "%i"
                 },
@@ -346,7 +346,7 @@ class xmb(ForumExtractor):
                     .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
                     a href; {
                         .user_link * l@[0] | "%(href)v",
-                        .user * l@[0] | "%i" / sed "s/.*>//;s/^by //"
+                        .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
                     }
                 }
             } | """

@@ -49,7 +49,7 @@ class invision(ForumExtractor):
             t = json.loads(
                 rq.search(
                     r"""
-                .name h2 class=b>"ipsType_reset ipsType_"; a | "%i",
+                .name h2 class=b>"ipsType_reset ipsType_"; a | "%Di" / trim,
                 .background div .ipsCoverPhoto_container; img src | "%(src)v",
                 .avatar img src .ipsUserPhoto | "%(src)v",
                 .group p class="ipsType_reset ipsType_normal"; * c@[0] | "%i",
@@ -65,7 +65,7 @@ class invision(ForumExtractor):
                 },
 
                 .info dl; div l@[1]; {
-                    .name dt | "%i",
+                    .name dt | "%Di" / trim,
                     .value dd | "%i"
                 } | ,
                 div class=b>"ipsFlex ipsFlex-ai:center "; div class="ipsFlex ipsFlex-ai:center"; {
@@ -165,7 +165,7 @@ class invision(ForumExtractor):
                             .avatar a .ipsUserPhoto; img src | "%(src)v",
                             a .ipsType_break href; {
                                 .user_link * l@[0] | "%(href)v",
-                                .user * l@[0] | "%i"
+                                .user * l@[0] | "%Di" trim
                             },
                             .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
                             .date time datetime | "%(datetime)v"
@@ -203,7 +203,7 @@ class invision(ForumExtractor):
                 .rating.b ul .ipsRating_collective; li .ipsRating_on | "true",
                 div .ipsPageHeader; {
                     .user_link a .ipsType_break href | "%(href)v",
-                    .user a .ipsType_break href; * c@[0] | "%i",
+                    .user a .ipsType_break href; * c@[0] | "%Di" trim,
                     .user_avatar a .ipsUserPhoto; img src | "%(src)v",
                     .user_followers.u a .ipsFollow; span .ipsCommentCount | "%i" / tr ",.",
                 },
@@ -238,7 +238,7 @@ class invision(ForumExtractor):
                     div .ipsColumn; {
                         * .ipsComment_meta; {
                             .user_link a .ipsType_break href | "%(href)v",
-                            .user a .ipsType_break href; * c@[0] | "%i",
+                            .user a .ipsType_break href; * c@[0] | "%Di" trim,
                             .date time datetime | "%(datetime)v"
                         },
                         .link a .ipsButton href | "%(href)v",
@@ -263,7 +263,7 @@ class invision(ForumExtractor):
                 r"""
                 .id.u article #B>elComment_[0-9]* | "%(id)v\n" / sed "s/^elComment_//",
                 aside; {
-                    .user h3 class=b>"ipsType_sectionHead cAuthorPane_author "; * c@[0] [0] | "%i",
+                    .user h3 class=b>"ipsType_sectionHead cAuthorPane_author "; * c@[0] [0] | "%Di" trim,
                     * .cAuthorPane_photo data-role=photo; {
                         .user_avatar a .ipsUserPhoto; img src | "%(src)v",
                         .badges.a {
@@ -449,7 +449,7 @@ class invision(ForumExtractor):
                     * -C@"[0] li l@[1]" self@
                 }; {
                     h2 child@; {
-                        .name * -title c@[0] m@>[1:] | "%i",
+                        .name * -title c@[0] m@>[1:] | "%Di" / trim,
                         .link [-] a | "%(href)v"
                     },
                     .forums {
@@ -474,7 +474,7 @@ class invision(ForumExtractor):
                         },
                         .followers [0] ul .cForumGrid__title-stats; [0] a c@[0] | "%i" sed "s/ .*//",
                         .childboards ul ( .ipsDataItem_subList )( .cForumGrid__subforums ); a; {
-                            .name * self@ | "%i",
+                            .name * self@ | "%Di" / trim,
                             .link * self@ | "%(href)v"
                         } | ,
                         .lastpost [0] * ( .ipsDataItem_lastPoster )( .cForumGrid__last ); {
@@ -484,7 +484,7 @@ class invision(ForumExtractor):
                                 .link * self@ | "%(href)v"
                             },
                             li .ipsType_light; [0] a .ipsType_break; {
-                                .user * c@[0] | "%i",
+                                .user * c@[0] | "%Di" trim,
                                 .user_link * self@ | "%(href)v"
                             },
                             .date time datetime | "%(datetime)v"
@@ -503,13 +503,13 @@ class invision(ForumExtractor):
                     [0] div ( .ipsDataItem_meta )( .ipsTopicSnippet__date ); {
                         .date time datetime | "%(datetime)v",
                         [0] a .ipsType_break; {
-                            .user * c@[0] | "%i",
+                            .user * c@[0] | "%Di" trim,
                             .user_link * self@ | "%(href)v"
                         }
                     },
                     .lastpage.u * .ipsPagination; [-] a | "%i",
                     .tags a rel=tag; {
-                        .name * c@[0] | "%i",
+                        .name * c@[0] | "%Di" / trim,
                         .link * self@ | "%(href)v"
                     } | ,
                     [0] * ( .ipsDataItem_stats )( .ipsTopicSnippet__stats ); {
@@ -523,7 +523,7 @@ class invision(ForumExtractor):
                     .lastpost [0] * ( .ipsDataItem_lastPoster )( .ipsTopicSnippet__last ); {
                         .avatar [0] * .ipsUserPhoto; [0] img src | "%(src)v",
                         [0] a .ipsType_break; {
-                            .user * c@[0] | "%i",
+                            .user * c@[0] | "%Di" trim,
                             .user_link * self@ | "%(href)v"
                         },
                         .date time datetime | "%(datetime)v"

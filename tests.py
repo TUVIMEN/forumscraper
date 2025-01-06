@@ -83,7 +83,7 @@ tested_urls = {
             "http://www.saberforum.com/index.php?board=18.0",
             "https://3inchforum.nl/index.php?board=88.0",
             "https://bitcointalk.org/index.php?board=5.0",
-            # "https://councilofexmuslims.com/index.php?board=8.0", !!!!!!!!!
+            "https://councilofexmuslims.com/index.php?board=8.0",
             # "https://forum.ipfon.pl/index.php?board=1.0",
             # "https://forum.jac.or.id/index.php?board=9.0",
             "https://forum.uqm.stack.nl/index.php?board=2.0",
@@ -261,7 +261,7 @@ tested_urls = {
             "http://www.saberforum.com/index.php",
             "https://3inchforum.nl/index.php",
             "https://bitcointalk.org/index.php",
-            # "https://councilofexmuslims.com/index.php?action=forum", !!!!!!!!!
+            "https://councilofexmuslims.com/index.php?action=forum",
             # "https://forum.ipfon.pl/index.php",
             # "https://forum.jac.or.id/index.php",
             "https://forum.uqm.stack.nl/index.php",
@@ -417,7 +417,7 @@ tested_urls = {
             "https://www.saberforum.com/index.php?topic=47627.0",
             "https://3inchforum.nl/index.php/topic,946.0.html",
             "https://bitcointalk.org/index.php?topic=5439960.0",
-            # "https://councilofexmuslims.com/index.php?topic=16018.0", !!!!!!!!!!!!!
+            "https://councilofexmuslims.com/index.php?topic=16018.0",
             "https://forum.uqm.stack.nl/index.php?PHPSESSID=de6d4fe9585b25a16b6622b952fb372f&topic=5772.0",
             "https://forums.zeldaspeedruns.com/index.php?PHPSESSID=c7c7435d22e314671a7479f8d1405440&topic=1565.0",
             "https://forumszkolne.pl/kuchnia-w-litere-l-t94671.0.html",
@@ -665,7 +665,7 @@ class tester:
         os.chdir(pwd)
 
         if exception is not None:
-            return exception
+            raise exception
 
     def prettify_json(self, path):
         for i in os.scandir(path):
@@ -751,12 +751,13 @@ def testurl(create_ex, attr, print_func=None):
         ex = create_ex(
             logger=out,
             failed=err,
-            # timeout=5,
-            timeout=30,
+            timeout=5,
+            # timeout=60,
             retries=0,
-            # wait=1,
+            # wait=1.2,
+            # wait_random=1000,
             # retries=2,
-            # verify=False,
+            verify=False,
             # wait=1,
             # wait_random=2000,
         )
@@ -834,4 +835,5 @@ def create_tests():
 
 
 t = tester("cassettes", "correct", "temp")
+
 t.run(create_tests())

@@ -112,7 +112,7 @@ class vbulletin(ForumExtractor):
 
                     .attachments li .b-post-attachments__item; a [0]; {
                         .link * self@ | "%(href)v",
-                        .name span .h-wordwrap | "%i",
+                        .name span .h-wordwrap | "%i" / sed "s/&lrm;$//" decode trim,
                         span c@[0] m@e>")"; {
                             .size * self@ | "%i" / sed "s/^(//;s/,.*//",
                             .views.u * self@ | "%i" / sed "s/.*,//"
@@ -124,7 +124,7 @@ class vbulletin(ForumExtractor):
                     }; {
                         a [0]; {
                             .link * self@ | "%(href)v",
-                            .name * self@ | "%i"
+                            .name * self@ | "%i" / sed "s/&lrm;$//" decode trim
                         },
                         .size * self@ | "%t" / sed "/(/{ s/.*(//; s/,.*//; p }" "n" trim,
                         .views.u * self@ | "%t" / sed "/(/{ s/.*(//; s/.*,//; p }" "n"
@@ -154,7 +154,7 @@ class vbulletin(ForumExtractor):
                             * #b>postmenu_ c@[0]
                         }; {
                             .link [0] a | "%(href)v",
-                            .name [0] * c@[0] | "%Di"
+                            .name [0] * c@[0] | "%Di" / trim
                         },
                         .avatar {
                             [0] * .E>"(postuseravatar(link)?|(b-)?avatar(-block)?|userpic|user-avatar-h)"; img | "%(src)v" ||
@@ -393,8 +393,8 @@ class vbulletin(ForumExtractor):
                     }; {
                         .name {
                             [0] a -C@"[0] img"; [0] * c@[0] m@>[1:] | "%Di" ||
-                            [0] a; * parent@ | "%Dt" trim
-                        },
+                            [0] a; * parent@ | "%Dt"
+                        } / trim,
                         .link [0] a -C@"[0] img" | "%(href)v",
                         .description [0] * .smallfont c@[0] m@>[1:] | "%Di",
                     },
@@ -406,7 +406,7 @@ class vbulletin(ForumExtractor):
                             a .category c@[0] | "%Di" ||
                             * .catTitle; [0] a; * c@[0] m@>[1:] | "%Di" ||
                             [0] * .forumhead; span .forumtitle; [0] a; * c@[0] m@>[1:] | "%Di"
-                        },
+                        } / trim,
                         .link {
                             a .category c@[0] | "%(href)v" ||
                             * .catTitle; [0] a | "%(href)v" ||
@@ -449,7 +449,7 @@ class vbulletin(ForumExtractor):
                             strong c@[0]; div .smallfont parent@
                         }; a; {
                             .link * self@ | "%(href)v",
-                            .name [0] * c@[0] m@>[1:] | "%Di",
+                            .name [0] * c@[0] m@>[1:] | "%Di" / trim,
                             .icon [0] * spre@; {
                                 img self@ | "%(src)v" ||
                                 span self@ | "%(title)v"
@@ -496,7 +496,7 @@ class vbulletin(ForumExtractor):
                                 * ( .lastpost-by )( .lastpostby ); [0] a ||
                                 * .title ||
                                 [-1] div; * c@[:1] self@
-                            }; [0] * c@[0] m@>[1:] | "%Di",
+                            }; [0] * c@[0] m@>[1:] | "%Di" trim,
                             .user_link {
                                 * ( .lastpost-by )( .lastpostby ) ||
                                 [-1] div; * c@[1] self@
@@ -608,8 +608,8 @@ class vbulletin(ForumExtractor):
                         .avatar nothing | "",
                         .user_link [0] a c@[0] | "%(href)v",
                         .user {
-                            [0] a c@[0] | "%i" ||
-                            * self@ | "%i" / tr "\n" sed "s/.*<br ?\/?>//" "E" trim
+                            [0] a c@[0] | "%Di" trim ||
+                            * self@ | "%Di" / tr "\n" sed "s/.*<br ?\/?>//" "E" trim
                         },
                         .date * self@ | "%i" / tr "\n" sed "
                             s/<br ?\/?>.*//

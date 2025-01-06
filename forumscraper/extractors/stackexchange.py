@@ -39,7 +39,7 @@ class stackexchange(ForumExtractor):
                 div #mainbar-full; {
                     [0] div child@; {
                         .avatar a; [0] img src | "%(src)v",
-                        .user [0] div .fs-headline2 c@[0] | "%i",
+                        .user [0] div .fs-headline2 c@[0] | "%Di" trim,
                         .unregistered.b div .s-badge c@[0] | "t",
                         ul .list-reset; {
                             [0] * self@; li child@; {
@@ -75,13 +75,13 @@ class stackexchange(ForumExtractor):
                             .badges-all [0] a m@bt>"View all" | "%(href)v",
                             .badges div .s-card; div .jc-space-between c@[6:] child@; {
                                 .amount.u div .fs-title | "%i",
-                                .name div .fs-caption | "%i" line [1] " " tr " ",
+                                .name div .fs-caption | "%Di" line [1] " " tr " " / trim,
                                 .achievements li; {
                                     a ( .badge )( .badge-tag ); {
                                         .tag.b * self@ .badge-tag | "t",
                                         .link * self@ | "%(href)v",
                                         .action * self@ | "%(title)v" / sed 's/^[^:]*: //',
-                                        .name div c@[0] | "%i"
+                                        .name div c@[0] | "%Di" / trim
                                     },
                                     .amount.u div -.ml-auto child@ | "%t",
                                     .date div .ml-auto child@ c@[0] | "%i"
@@ -93,7 +93,7 @@ class stackexchange(ForumExtractor):
                            .tags [0] div .s-card; div child@; {
                                 a .s-tag; {
                                     .link * self@ | "%(href)v",
-                                    .name * self@ | "%i"
+                                    .name * self@ | "%Di" / trim
                                 },
                                 .badge [0] a .badge-tag title | "%(title)v" / sed "s/ .*//",
                                 div .d-flex .ai-center; {
@@ -223,7 +223,7 @@ class stackexchange(ForumExtractor):
                     .content span .comment-copy | "%i",
                     .date span .comment-date; span title | "%(title)v" / sed "s/, L.*//",
                     [0] a .comment-user; {
-                        .user * self@ | "%i",
+                        .user * self@ | "%Di" trim,
                         .user_link * self@ | "%(href)v",
                         .reputation.u * self@ | "%(title)v" / tr ",."
                     },
@@ -251,7 +251,7 @@ class stackexchange(ForumExtractor):
                     .editor {
                         .avatar img .bar-sm src | "%(src)v",
                          div .user-details; {
-                            .name [0] * l@[1] c@[0] | "%i",
+                            .name [0] * l@[1] c@[0] | "%Di" trim,
                             .link div .user-details; a href child@ | "%(href)v",
                             .reputation.u span .reputation-score | "%i" tr ",",
                             .gbadge.u span title=w>gold; span .badgecount | "%i",
@@ -266,7 +266,7 @@ class stackexchange(ForumExtractor):
                     .author {
                         .avatar img .bar-sm src | "%(src)v",
                          div .user-details; {
-                            .name [0] * l@[1] c@[0] | "%i",
+                            .name [0] * l@[1] c@[0] | "%Di" trim,
                             .link div .user-details; a href child@ | "%(href)v",
                             .reputation.u span .reputation-score | "%(title)v %i" tr ",",
                             .gbadge.u span title=w>gold; span .badgecount | "%i",
@@ -583,7 +583,7 @@ class stackexchange(ForumExtractor):
                                 .author div .s-user-card; {
                                     .avatar img .s-avatar--image | "%(src)v",
                                     div .s-user-card--info; {
-                                        .name [0] * c@[0] | "%i",
+                                        .name [0] * c@[0] | "%Di" / trim,
                                         .link a | "%(href)v"
                                     },
                                     .reputation.u li .s-user-card--rep; [0] span | "%(title)v %i" / tr ","

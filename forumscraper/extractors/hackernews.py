@@ -23,11 +23,11 @@ def get_comments(ref, rq):
                     span .comhead;  {
                         .user a .hnuser href; {
                             .link * l@[0] | "https://news.ycombinator.com/%(href)v",
-                            .name * l@[0] | "%i"
+                            .name [0] * c@[0] m@>[1:] | "%Di" trim
                         },
                         .date span .age title | "%(title)v",
                         .onstory span .onstory; [0] a; {
-                            .name * self@ | "%i",
+                            .name * self@ | "%Di" / trim,
                             .link * self@ | "%(href)v"
                         }
                     },
@@ -61,7 +61,7 @@ def get_post(ref, rq):
             .date span .age title | "%(title)v",
             .user a .hnuser href; {
                 .link * self@ | "%(href)v",
-                .name * self@ | "%i"
+                .name [0] * c@[0] m@>[1:] | "%Di" trim
             },
             a m@"&nbsp;comment"; {
                 .comments_count.u a self@ | "%i" sed "s/&.*//",
@@ -156,7 +156,7 @@ class hackernews(ForumExtractor):
                     table #hnmain; [1] table desc@; tr; {
                         [0] td m@f>"user:"; td ssub@; {
                             .created-timestamp * timestamp self@ | "%(timestamp)v",
-                            .user [0] a | "%i"
+                            .user [0] a; [0] * c@[0] m@>[1:] | "%Di" trim
                         },
                         .created-date [0] td m@f>"created:"; td ssub@; [0] a | "%i",
                         .karma.u [0] td m@f>"karma:"; td ssub@ | "%i",
