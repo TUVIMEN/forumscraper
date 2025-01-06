@@ -13,7 +13,7 @@ forumscraper aims to be an universal, automatic and extensive scraper for forums
 - Simple Machines Forum
 - XenForo
 - XMB
-- Hacker News (has aggressive protection, should be used with cookies from logged in account)
+- Hacker News (has aggressive protection)
 - StackExchange
 - vBulletin (3.x and higher)
 
@@ -49,7 +49,7 @@ Download `URL`s with different scrapers
 
     forumscraper URL1 smf URL2 URL3 .thread URL4 xenforo2.forum URL5 URL6
 
-Type of scrapers can be defined inbetween `URL`s, where all following `URL`s are assigned to previous type i.e. URL1 to default, URL2 and URL3 to smf and so on.
+Type of scrapers can be defined in between `URL`s, where all following `URL`s are assigned to previous type i.e. URL1 to default, URL2 and URL3 to smf and so on.
 
 Type consists of `scraper_name` followed by `.` and `function_name`.
 
@@ -59,7 +59,7 @@ Type consists of `scraper_name` followed by `.` and `function_name`.
 
 `all`, `xenforo` and `smf` have also `identify` function that identifies site type.
 
-`findroot` and `identify` write results to file specified by the `--output` (by default set to `stdout`) option which is made specifically for these functions. `findroot` return url to board and url from which it was found, separated by `\t`. `identify` return name of scraper and url from which it was identified, separated by `\t`.
+`findroot` and `identify` write results to file specified by the `--output` (by default set to `stdout`) option which is made specifically for these functions. `findroot` return url to board and url from which it was found, separated by `\t`. `identify` returns name of scraper and url from which it was identified, separated by `\t`.
 
 Default type is set to `all.guess` and it is so efective that the only reason to not use it is to avoid redownloading from running the same command many times which is caused by identification process when using `--names id`.
 
@@ -98,23 +98,23 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 ### Settings
 
-`--nothreads` doesn't download threads unless url passed is a thread.
+`--nothreads` don't download threads unless url passed is a thread.
 
 `--users` download users.
 
 `--reactions` download reactions.
 
-`--boards` creates board files.
+`--boards` create board files.
 
-`--tags` creates tags files.
+`--tags` create tags files.
 
-`--forums` creates forums files.
+`--forums` create forums files.
 
 `--compression ALGO` compresses created files with `ALGO`, that can be `none`, `gzip`, `bzip2`, `lzma`.
 
-`--only-urls-forums` writes found forum urls to `output`, doesn't scrape.
+`--only-urls-forums` write found forum urls to `output`, don't scrape.
 
-`--only-urls-threads` writes found thread urls to `output`, doesn't scrape.
+`--only-urls-threads` write found thread urls to `output`, don't scrape.
 
 `--thread-pages-max NUM` and `--pages-max NUM` set max number of pages traversed in each thread and forum respectively.
 
@@ -137,67 +137,106 @@ which downloads only one page in one thread from one forum found from every `URL
 ```python
 import os
 import sys
-import forumscraper
+from forumscraper import extractor, outputs, xenforo2
 
-ex = forumscraper.Extractor(timeout=90)
+ex = extractor(timeout=90)
 
-thread = ex.guess('https://xenforo.com/community/threads/forum-data-breach.180995/',output=forumscraper.Outputs.data|forumscraper.Outputs.threads,timeout=60,retries=0) #automatically identify forum and type of page and save results
-thread['data']['threads'][0] #access the result
-thread['data']['users'] #found users are also saved into an array
+thread = ex.guess(
+    "https://xenforo.com/community/threads/forum-data-breach.180995/",
+    output=outputs.data | outputs.threads | outputs.users,
+    timeout=60,
+    retries=0,
+)  # automatically identify forum and type of page and save results
+thread["data"]["threads"][0]  # access the result
+thread["data"]["users"]  # found users are also saved into an array
 
-forum = ex.get_forum('https://xenforo.com/community/forums/off-topic.7/',output=forumscraper.Outputs.data|forumscraper.Outputs.urls|forumscraper.Outputs.threads,retries=0)  #get list of all threads and  urls from forum
-forum['data']['threads'] #access the results
-forums['urls']['threads'] #list of urls to found threads
-forums['urls']['forums'] #list of urls to found forums
+forum = ex.get_forum(
+    "https://xenforo.com/community/forums/off-topic.7/",
+    output=outputs.data | outputs.urls | outputs.threads,
+    retries=0,
+)  # get list of all threads and  urls from forum
+forum["data"]["threads"]  # access the results
+forum["urls"]["threads"]  # list of urls to found threads
+forum["urls"]["forums"]  # list of urls to found forums
 
-threads = ex.smf.get_forum('https://www.simplemachines.org/community/index.php?board=1.0',output=forumscraper.Outputs.only_urls_threads) #gather only urls to threads without scraping data
-threads['urls']['threads']
-threads['urls']['forums'] #is also created
+threads = ex.smf.get_forum(
+    "https://www.simplemachines.org/community/index.php?board=1.0",
+    output=outputs.only_urls_threads,
+)  # gather only urls to threads without scraping data
+threads["urls"]["threads"]
+threads["urls"]["forums"]  # is also created
 
-forums = ex.smf.get_board('https://www.simplemachines.org/community/index.php',output=forumscraper.Outputs.only_urls_forums) #only get a list of urls to all forums
-threads['urls']['forums']
-threads['urls']['boards']
-threads['urls']['tags'] #tags and boards are also gathered
+forums = ex.smf.get_board(
+    "https://www.simplemachines.org/community/index.php",
+    output=outputs.only_urls_forums,
+)  # only get a list of urls to all forums
+threads["urls"]["forums"]
+threads["urls"]["boards"]
+threads["urls"]["tags"]  # tags and boards are also gathered
 
-ex.smf.get_thread('https://www.simplemachines.org/community/index.php?topic=578496.0',output=forumscraper.Outputs.only_urls_forums) #returns None
+ex.smf.get_thread(
+    "https://www.simplemachines.org/community/index.php?topic=578496.0",
+    output=outputs.only_urls_forums,
+)  # returns none
 
-os.mkdir('xenforo')
-os.chdir('xenforo')
+os.mkdir("xenforo")
+os.chdir("xenforo")
 
-xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_id|forumscraper.Outputs.threads)
-#specifies global config, writes output in files by their id (beginning with m- in case of users) in current directory
-#ex.xenforo.v2 is an initialized instance of forumscraper.xenforo2 with the same settings as ex
-#output by default is set to forumscraper.Outputs.write_by_id|forumscraper.Outputs.threads anyway
+xen = xenforo2(
+    timeout=30,
+    retries=3,
+    retry_wait=10,
+    wait=0.4,
+    wait_random=400,
+    max_workers=8,
+    output=outputs.write_by_id | outputs.threads,
+)
+# specifies global config, writes output in files by their id (beginning with m- in case of users) in current directory
+# ex.xenforo.v2 is an initialized instance of xenforo2 with the same settings as ex
+# output by default is set to outputs.write_by_id|outputs.threads anyway
 
 failures = []
-files = xen.guess('https://xenforo.com/community/',logger=sys.stdout,failed=failures, undisturbed=True)
-#failed=failures writes all the failed requests to be saved in failures array or file
+files = xen.guess(
+    "https://xenforo.com/community/",
+    logger=sys.stdout,
+    failed=failures,
+    undisturbed=true,
+)
+# failed=failures writes all the failed requests to be saved in failures array or file
 
-for i in failures: #try to download failed one last time
-    x = i.split(' ')
-    if len(x) == 4 and x[1] == 'failed':
-        xen.get_thread(x[0],state=files) #append results
+for i in failures:  # try to download failed one last time
+    x = i.split(" ")
+    if len(x) == 4 and x[1] == "failed":
+        xen.get_thread(x[0], state=files)  # append results
 
-files['files']['threads']
-files['files']['users'] #lists of created files
+files["files"]["threads"]
+files["files"]["users"]  # lists of created files
 
-#the above uses scraper that is an instance of ForumExtractor
-#if the instance of ForumExtractorIdentify before checking if the files already exist based on url the page has to be downloaded to be indentified. Because of that any getters from this class returns results with 'scraper' field pointing to the indentified scraper type and further requests should be done through that object.
+# the above uses scraper that is an instance of ForumExtractor
+# if the instance is ForumExtractorIdentify, before checking if the files already exist based on url the page has to be downloaded to be indentified. because of that any getters from this class return results with 'scraper' field pointing to the indentified scraper type, and further requests should be done through that object.
 
-xen = forumscraper.xenforo2(timeout=30,retries=3,retry_wait=10,wait=0.4,random_wait=400,max_workers=8,output=forumscraper.Outputs.write_by_hash|forumscraper.Outputs.threads,undisturbed=True)
-#specifies global config, writes output in files by sha256 hash of their url in current directory
-#ex.xenforo is also an initialized forumscraper.xenforo
+xen = xenforo2(
+    timeout=30,
+    retries=3,
+    retry_wait=10,
+    wait=0.4,
+    wait_random=400,
+    max_workers=8,
+    output=outputs.write_by_hash | outputs.threads,
+    undisturbed=true,
+)
+# specifies global config, writes output in files by sha256 hash of their url in current directory
 
 failures = []
-files = xen.guess('https://xenforo.com/community/',logger=sys.stdout,failed=failures)
-scraper = files['scraper'] #identified ForumScraper instance
+files = xen.guess("https://xenforo.com/community/", logger=sys.stdout, failed=failures)
+scraper = files["scraper"]  # identified forumscraper instance
 
-for i in failures: #try to download failed one last time
-    x = i.split(' ')
-    if len(x) == 4 and x[1] == 'failed':
-        scraper.get_thread(x[0],state=files) #use of already identified class
+for i in failures:  # try to download failed one last time
+    x = i.split(" ")
+    if len(x) == 4 and x[1] == "failed":
+        scraper.get_thread(x[0], state=files)  # use of already identified class
 
-os.chdir('..')
+os.chdir("..")
 ```
 
 ### Scrapers
@@ -215,7 +254,7 @@ forumscraper defines:
     stackexchange
     vbulletin
 
-scrapers that are instances of `ForumExtractor` class and also:
+scrapers that are instances of `ForumExtractor` class, and also:
 
     Extractor
     smf
@@ -243,7 +282,7 @@ All scrapers have the following methods:
 
 `ForumExtractorIdentify` scrapers additionally have `identify` method.
 
-which take as argument url, optionally already downloaded html either as `str`, `bytes` or `reliq` and state which allows to append output to previous results, and the same type of settings used on initialization of class, e.g.
+which take url as argument, optionally already downloaded html either as `str`, `bytes` or `reliq` and state which allows to append output to previous results, and the same type of settings used on initialization of class, e.g.
 
 ```python
     ex = forumscraper.Extractor(headers={"Referer":"https://xenforo.com/community/"},timeout=20)
@@ -252,6 +291,7 @@ which take as argument url, optionally already downloaded html either as `str`, 
     html = requests.get('https://xenforo.com/community/threads/is-it-possible-to-set-up-three-websites-with-a-second-hand-xenforo-license.222507/').text
     ex.guess('https://xenforo.com/community/threads/is-it-possible-to-set-up-three-websites-with-a-second-hand-xenforo-license.222507/',html,state,timeout=40)
 ```
+
 `guess` method identifies based only on the url what kind of page is being passed and calls other methods so other methods are needed mostly for exceptions.
 
 For most cases using `Extractor` and `guess` is preferred since they work really well. The only exceptions are if site has irregular urls so that `guess` doesn't work, or if you make a lot of calls to the same site with `output=forumscraper.Outputs.write_by_id` e.g. trying to scraper failed urls.
