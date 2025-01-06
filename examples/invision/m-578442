@@ -3,11 +3,11 @@
   "url": "https://invisioncommunity.com/profile/578442-princeton/?do=hovercard",
   "id": 578442,
   "name": "princeton",
-  "background": "https://content.invisioncic.com/a319035/monthly_2018_10/profilepic202625_6.gif.70ec65f66fe0ac786a98a5890741c65f.gif",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2020_08/gt6.thumb.jpg.5cbd0b234bf997370c7f539e6488d3cc.jpg",
+  "background": "https://media.invisioncic.com/a319035/monthly_2018_10/profilepic202625_6.gif.70ec65f66fe0ac786a98a5890741c65f.gif",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2020_08/gt6.thumb.jpg.5cbd0b234bf997370c7f539e6488d3cc.jpg",
   "group": "Clients",
-  "joined": "2017-07-27T13:33:15Z",
-  "lastseen": "2024-06-26T18:25:09Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
@@ -21,5 +21,14 @@
       "name": "Badges",
       "value": "8"
     }
+  ],
+  "rank": "Rank: Enthusiast (5/13)",
+  "rank_date": "",
+  "badges": [
+    "Dedicated",
+    "Week One Done",
+    "One Month Later",
+    "One Year In",
+    "Reacting Well"
   ]
 }

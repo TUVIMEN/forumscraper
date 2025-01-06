@@ -4,126 +4,126 @@
   "categories": [
     {
       "name": "ECUs",
-      "link": "https://forum.motec.com.au/viewforum.php?f=3&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=3&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read_subforum",
           "name": "M1 ECUs",
-          "link": "https://forum.motec.com.au/viewforum.php?f=53&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=53&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and Support for MoTeC's M1 series ECUs",
           "childboards": [],
           "moderators": [],
-          "topics": 851,
-          "posts": 4337,
+          "topics": 872,
+          "posts": 4434,
           "redirects": 0,
           "lastpost": {
-            "user": "ChitoFK8",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7194&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "NathanB",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=5599&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=53&p=26201&sid=ef2321758bf3eea2eb805216a737502d#p26201",
-            "date": "Sat Aug 24, 2024 7:47 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=53&p=26498&sid=e18a98dfb1931be6e40be61979d49a4b#p26498",
+            "date": "Fri Dec 27, 2024 8:46 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "M400, M600, M800 and M880 ECUs",
-          "link": "https://forum.motec.com.au/viewforum.php?f=11&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=11&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for MoTeC's previous generation ECUs.",
           "childboards": [],
           "moderators": [],
-          "topics": 1254,
-          "posts": 6528,
+          "topics": 1265,
+          "posts": 6562,
           "redirects": 0,
           "lastpost": {
-            "user": "cotje",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3046&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "Stephen Dean",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=11&p=26156&sid=ef2321758bf3eea2eb805216a737502d#p26156",
-            "date": "Mon Aug 19, 2024 6:38 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=11&p=26462&sid=e18a98dfb1931be6e40be61979d49a4b#p26462",
+            "date": "Wed Dec 11, 2024 4:04 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "M84 ECUs",
-          "link": "https://forum.motec.com.au/viewforum.php?f=47&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=47&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for MoTeC's previous generation of entry level ECUs",
           "childboards": [],
           "moderators": [],
-          "topics": 260,
-          "posts": 1175,
+          "topics": 264,
+          "posts": 1193,
           "redirects": 0,
           "lastpost": {
-            "user": "BJ 991",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=4548&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "sardengineering",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=2525&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=47&p=26069&sid=ef2321758bf3eea2eb805216a737502d#p26069",
-            "date": "Fri Jul 26, 2024 2:06 pm"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=47&p=26454&sid=e18a98dfb1931be6e40be61979d49a4b#p26454",
+            "date": "Sun Dec 08, 2024 9:32 am"
           }
         },
         {
           "state": "forum_read",
           "name": "M4 and M48 ECUs (including M2R and MLS variants)",
-          "link": "https://forum.motec.com.au/viewforum.php?f=10&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=10&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for MoTeC's earlier generation ECUs",
           "childboards": [],
           "moderators": [],
-          "topics": 394,
-          "posts": 1708,
+          "topics": 398,
+          "posts": 1726,
           "redirects": 0,
           "lastpost": {
-            "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "kotaro-jpn",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7409&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=10&p=26109&sid=ef2321758bf3eea2eb805216a737502d#p26109",
-            "date": "Tue Aug 06, 2024 10:46 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=10&p=26497&sid=e18a98dfb1931be6e40be61979d49a4b#p26497",
+            "date": "Fri Dec 27, 2024 3:04 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "M800 Plug-In ECUs",
-          "link": "https://forum.motec.com.au/viewforum.php?f=22&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=22&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Covers current and earlier Subaru and Mitsubishi Plug-In systems",
           "childboards": [],
           "moderators": [],
-          "topics": 202,
-          "posts": 889,
+          "topics": 204,
+          "posts": 904,
           "redirects": 0,
           "lastpost": {
-            "user": "CDW",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7345&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "Stephen Dean",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=22&p=26077&sid=ef2321758bf3eea2eb805216a737502d#p26077",
-            "date": "Wed Jul 31, 2024 5:11 pm"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=22&p=26245&sid=e18a98dfb1931be6e40be61979d49a4b#p26245",
+            "date": "Wed Sep 18, 2024 5:26 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Old ECUs",
-          "link": "https://forum.motec.com.au/viewforum.php?f=6&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=6&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for discontinued MoTeC ECUs, including M8",
           "childboards": [],
           "moderators": [],
-          "topics": 62,
-          "posts": 284,
+          "topics": 63,
+          "posts": 297,
           "redirects": 0,
           "lastpost": {
-            "user": "racy1958",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7357&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "kotaro-jpn",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7409&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=6&p=26145&sid=ef2321758bf3eea2eb805216a737502d#p26145",
-            "date": "Wed Aug 14, 2024 7:23 pm"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=6&p=26316&sid=e18a98dfb1931be6e40be61979d49a4b#p26316",
+            "date": "Mon Oct 14, 2024 4:18 am"
           }
         },
         {
           "state": "forum_read",
           "name": "User Posted Tune Files",
-          "link": "https://forum.motec.com.au/viewforum.php?f=30&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=30&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Files not endorsed or guaranteed by MoTeC. Use at your own risk",
           "childboards": [],
@@ -133,16 +133,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "yuanxingyu",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7276&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7276&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=30&p=26059&sid=ef2321758bf3eea2eb805216a737502d#p26059",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=30&p=26059&sid=e18a98dfb1931be6e40be61979d49a4b#p26059",
             "date": "Thu Jul 25, 2024 9:41 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Tuning discussions",
-          "link": "https://forum.motec.com.au/viewforum.php?f=39&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=39&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Forum for general discussions on engine tuning, not specific to a particular motec ECU",
           "childboards": [],
@@ -152,9 +152,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "WS6RollRacer",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7219&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7219&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=39&p=25699&sid=ef2321758bf3eea2eb805216a737502d#p25699",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=39&p=25699&sid=e18a98dfb1931be6e40be61979d49a4b#p25699",
             "date": "Tue Apr 16, 2024 5:08 am"
           }
         }
@@ -162,50 +162,50 @@
     },
     {
       "name": "Displays and Data loggers",
-      "link": "https://forum.motec.com.au/viewforum.php?f=12&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=12&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "Colour displays",
-          "link": "https://forum.motec.com.au/viewforum.php?f=70&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=70&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "D153, D175, C125, C127, C185 and C187 forum",
           "childboards": [],
           "moderators": [],
-          "topics": 298,
-          "posts": 1539,
+          "topics": 308,
+          "posts": 1561,
           "redirects": 0,
           "lastpost": {
-            "user": "Stian_M",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7354&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "MikeD",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=5252&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=70&p=26205&sid=ef2321758bf3eea2eb805216a737502d#p26205",
-            "date": "Mon Aug 26, 2024 5:13 pm"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=70&p=26465&sid=e18a98dfb1931be6e40be61979d49a4b#p26465",
+            "date": "Sun Dec 15, 2024 9:01 am"
           }
         },
         {
           "state": "forum_read",
           "name": "Display Creator",
-          "link": "https://forum.motec.com.au/viewforum.php?f=71&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=71&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion on the use of Display creator software for MoTeC Colour displays",
           "childboards": [],
           "moderators": [],
-          "topics": 101,
-          "posts": 466,
+          "topics": 105,
+          "posts": 482,
           "redirects": 0,
           "lastpost": {
-            "user": "godrift",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6504&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "SOReilly",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6358&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=71&p=26200&sid=ef2321758bf3eea2eb805216a737502d#p26200",
-            "date": "Sat Aug 24, 2024 5:23 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=71&p=26457&sid=e18a98dfb1931be6e40be61979d49a4b#p26457",
+            "date": "Mon Dec 09, 2024 11:00 am"
           }
         },
         {
           "state": "forum_read",
           "name": "ACL and VIM",
-          "link": "https://forum.motec.com.au/viewforum.php?f=15&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=15&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Advanced Central Logging System including Versatile Input Modules",
           "childboards": [],
@@ -215,60 +215,60 @@
           "redirects": 0,
           "lastpost": {
             "user": "adrian",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3556&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3556&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=15&p=17914&sid=ef2321758bf3eea2eb805216a737502d#p17914",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=15&p=17914&sid=e18a98dfb1931be6e40be61979d49a4b#p17914",
             "date": "Tue May 15, 2018 9:58 am"
           }
         },
         {
           "state": "forum_read",
           "name": "ADL3, SDL3 and CDL3",
-          "link": "https://forum.motec.com.au/viewforum.php?f=14&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=14&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for current Advanced Dash Loggers, Sport Dash Loggers and Club dash loggers",
           "childboards": [],
           "moderators": [],
-          "topics": 265,
-          "posts": 1093,
+          "topics": 266,
+          "posts": 1100,
           "redirects": 0,
           "lastpost": {
-            "user": "greenamex2",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3353&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "Carlos Iglesias",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=145&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=14&p=26112&sid=ef2321758bf3eea2eb805216a737502d#p26112",
-            "date": "Tue Aug 06, 2024 6:14 pm"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=14&p=26484&sid=e18a98dfb1931be6e40be61979d49a4b#p26484",
+            "date": "Sun Dec 22, 2024 9:01 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "ADL, ADL2 and SDL",
-          "link": "https://forum.motec.com.au/viewforum.php?f=13&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=13&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discontinued earlier generation Dash Loggers",
           "childboards": [],
           "moderators": [],
-          "topics": 142,
-          "posts": 649,
+          "topics": 144,
+          "posts": 661,
           "redirects": 0,
           "lastpost": {
-            "user": "SOReilly",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6358&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "insomnia",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=486&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=13&p=26173&sid=ef2321758bf3eea2eb805216a737502d#p26173",
-            "date": "Wed Aug 21, 2024 10:21 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=13&p=26499&sid=e18a98dfb1931be6e40be61979d49a4b#p26499",
+            "date": "Sat Dec 28, 2024 2:52 am"
           }
         }
       ]
     },
     {
       "name": "Training",
-      "link": "https://forum.motec.com.au/viewforum.php?f=50&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=50&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "Available Webinars",
-          "link": "https://forum.motec.com.au/viewforum.php?f=51&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=51&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Webinars that have been created and are available for viewing.",
           "childboards": [],
@@ -278,16 +278,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "Victorgarage",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=4725&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=4725&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=51&p=21525&sid=ef2321758bf3eea2eb805216a737502d#p21525",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=51&p=21525&sid=e18a98dfb1931be6e40be61979d49a4b#p21525",
             "date": "Sun Mar 21, 2021 3:19 am"
           }
         },
         {
           "state": "forum_read",
           "name": "Webinar Requests",
-          "link": "https://forum.motec.com.au/viewforum.php?f=52&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=52&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "",
           "childboards": [],
@@ -297,16 +297,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "Victorgarage",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=4725&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=4725&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=52&p=21526&sid=ef2321758bf3eea2eb805216a737502d#p21526",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=52&p=21526&sid=e18a98dfb1931be6e40be61979d49a4b#p21526",
             "date": "Sun Mar 21, 2021 3:21 am"
           }
         },
         {
           "state": "forum_read",
           "name": "Seminars",
-          "link": "https://forum.motec.com.au/viewforum.php?f=57&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=57&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Seminar requests and information about available seminars",
           "childboards": [],
@@ -316,9 +316,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "imi",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3146&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3146&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=57&p=11641&sid=ef2321758bf3eea2eb805216a737502d#p11641",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=57&p=11641&sid=e18a98dfb1931be6e40be61979d49a4b#p11641",
             "date": "Thu Feb 13, 2014 6:55 am"
           }
         }
@@ -326,12 +326,12 @@
     },
     {
       "name": "Communications",
-      "link": "https://forum.motec.com.au/viewforum.php?f=54&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=54&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "MoTeC PC Comms",
-          "link": "https://forum.motec.com.au/viewforum.php?f=55&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=55&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Information on getting your PC to talk to your MoTeC product via RS232, CAN, USB or Ethernet.",
           "childboards": [],
@@ -341,60 +341,60 @@
           "redirects": 0,
           "lastpost": {
             "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=55&p=26108&sid=ef2321758bf3eea2eb805216a737502d#p26108",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=55&p=26108&sid=e18a98dfb1931be6e40be61979d49a4b#p26108",
             "date": "Tue Aug 06, 2024 10:42 am"
           }
         },
         {
           "state": "forum_read",
           "name": "ECU to Dash Comms",
-          "link": "https://forum.motec.com.au/viewforum.php?f=56&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=56&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "information about how to make an ECU (MoTeC or non MoTeC) work with a MoTeC dash or data logger",
           "childboards": [],
           "moderators": [],
-          "topics": 60,
-          "posts": 291,
+          "topics": 61,
+          "posts": 295,
           "redirects": 0,
           "lastpost": {
-            "user": "Burnett03",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7373&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "David Ferguson",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=445&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=56&p=26199&sid=ef2321758bf3eea2eb805216a737502d#p26199",
-            "date": "Sat Aug 24, 2024 2:19 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=56&p=26443&sid=e18a98dfb1931be6e40be61979d49a4b#p26443",
+            "date": "Mon Dec 02, 2024 4:27 am"
           }
         }
       ]
     },
     {
       "name": "Software",
-      "link": "https://forum.motec.com.au/viewforum.php?f=25&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=25&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "i2 Data Analysis Software",
-          "link": "https://forum.motec.com.au/viewforum.php?f=26&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=26&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for i2 Standard and i2 Pro applications",
           "childboards": [],
           "moderators": [],
-          "topics": 306,
-          "posts": 1370,
+          "topics": 310,
+          "posts": 1378,
           "redirects": 0,
           "lastpost": {
-            "user": "buzzard73",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6767&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "motecuser",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7499&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=26&p=26100&sid=ef2321758bf3eea2eb805216a737502d#p26100",
-            "date": "Mon Aug 05, 2024 5:23 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=26&p=26459&sid=e18a98dfb1931be6e40be61979d49a4b#p26459",
+            "date": "Tue Dec 10, 2024 7:36 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Other MoTeC Software",
-          "link": "https://forum.motec.com.au/viewforum.php?f=27&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=27&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for the operating software of a range of MoTeC products",
           "childboards": [],
@@ -404,16 +404,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "plohl",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=1406&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=1406&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=27&p=25696&sid=ef2321758bf3eea2eb805216a737502d#p25696",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=27&p=25696&sid=e18a98dfb1931be6e40be61979d49a4b#p25696",
             "date": "Mon Apr 15, 2024 9:51 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Gran Turismo 6",
-          "link": "https://forum.motec.com.au/viewforum.php?f=68&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=68&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Support for use of i2 Pro with Gran Turismo 6",
           "childboards": [],
@@ -423,9 +423,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "DarrenR",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=57&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=57&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=68&p=15820&sid=ef2321758bf3eea2eb805216a737502d#p15820",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=68&p=15820&sid=e18a98dfb1931be6e40be61979d49a4b#p15820",
             "date": "Thu Jan 19, 2017 3:22 pm"
           }
         }
@@ -433,31 +433,31 @@
     },
     {
       "name": "Other MoTeC products",
-      "link": "https://forum.motec.com.au/viewforum.php?f=16&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=16&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "PDM15 PDM16 PDM30 and PDM32",
-          "link": "https://forum.motec.com.au/viewforum.php?f=17&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=17&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for MoTeC Power Distribution Modules",
           "childboards": [],
           "moderators": [],
-          "topics": 202,
-          "posts": 1015,
+          "topics": 204,
+          "posts": 1030,
           "redirects": 0,
           "lastpost": {
-            "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "Haruki_Wiring",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=5867&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=17&p=26206&sid=ef2321758bf3eea2eb805216a737502d#p26206",
-            "date": "Mon Aug 26, 2024 5:27 pm"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=17&p=26470&sid=e18a98dfb1931be6e40be61979d49a4b#p26470",
+            "date": "Tue Dec 17, 2024 9:37 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "V2",
-          "link": "https://forum.motec.com.au/viewforum.php?f=72&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=72&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Forum for discussions on the MoTeC V2 Camera system",
           "childboards": [],
@@ -467,16 +467,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "greenamex2",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3353&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3353&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=72&p=23562&sid=ef2321758bf3eea2eb805216a737502d#p23562",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=72&p=23562&sid=e18a98dfb1931be6e40be61979d49a4b#p23562",
             "date": "Mon Aug 15, 2022 6:46 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "HD-VCS",
-          "link": "https://forum.motec.com.au/viewforum.php?f=62&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=62&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "High Definition Video Capture System",
           "childboards": [],
@@ -486,16 +486,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "adrian",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3556&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3556&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=62&p=14486&sid=ef2321758bf3eea2eb805216a737502d#p14486",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=62&p=14486&sid=e18a98dfb1931be6e40be61979d49a4b#p14486",
             "date": "Tue May 10, 2016 10:04 am"
           }
         },
         {
           "state": "forum_read",
           "name": "VCS",
-          "link": "https://forum.motec.com.au/viewforum.php?f=40&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=40&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Video Capture System",
           "childboards": [],
@@ -505,16 +505,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "EPSPL",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7298&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7298&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=40&p=25986&sid=ef2321758bf3eea2eb805216a737502d#p25986",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=40&p=25986&sid=e18a98dfb1931be6e40be61979d49a4b#p25986",
             "date": "Tue Jul 02, 2024 4:22 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "SLM",
-          "link": "https://forum.motec.com.au/viewforum.php?f=18&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=18&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for MoTeC's Shift Light Module",
           "childboards": [],
@@ -524,16 +524,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "Zman",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7140&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7140&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=18&p=25388&sid=ef2321758bf3eea2eb805216a737502d#p25388",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=18&p=25388&sid=e18a98dfb1931be6e40be61979d49a4b#p25388",
             "date": "Thu Feb 08, 2024 7:06 pm"
           }
         },
         {
           "state": "forum_read",
-          "name": "PLM &amp; LTC",
-          "link": "https://forum.motec.com.au/viewforum.php?f=20&sid=ef2321758bf3eea2eb805216a737502d",
+          "name": "PLM & LTC",
+          "link": "https://forum.motec.com.au/viewforum.php?f=20&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for the MoTeC PLM and LTC's",
           "childboards": [],
@@ -543,16 +543,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=20&p=25619&sid=ef2321758bf3eea2eb805216a737502d#p25619",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=20&p=25619&sid=e18a98dfb1931be6e40be61979d49a4b#p25619",
             "date": "Thu Mar 28, 2024 3:58 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Knock Modules",
-          "link": "https://forum.motec.com.au/viewforum.php?f=37&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=37&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "SKM and OKM",
           "childboards": [],
@@ -562,16 +562,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "Sean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=522&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=522&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=37&p=22495&sid=ef2321758bf3eea2eb805216a737502d#p22495",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=37&p=22495&sid=e18a98dfb1931be6e40be61979d49a4b#p22495",
             "date": "Tue Dec 07, 2021 11:36 am"
           }
         },
         {
           "state": "forum_read",
           "name": "MDC and SDC",
-          "link": "https://forum.motec.com.au/viewforum.php?f=32&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=32&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussion and support for MoTeC's Mitsubishi and Subaru Diff Controllers",
           "childboards": [],
@@ -581,16 +581,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=32&p=25180&sid=ef2321758bf3eea2eb805216a737502d#p25180",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=32&p=25180&sid=e18a98dfb1931be6e40be61979d49a4b#p25180",
             "date": "Thu Dec 21, 2023 2:47 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Sensors, Valves and Wiring",
-          "link": "https://forum.motec.com.au/viewforum.php?f=21&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=21&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "MoTeC supplied sensors, valves or wiring discussion",
           "childboards": [],
@@ -600,16 +600,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=21&p=25821&sid=ef2321758bf3eea2eb805216a737502d#p25821",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=21&p=25821&sid=e18a98dfb1931be6e40be61979d49a4b#p25821",
             "date": "Thu May 16, 2024 10:26 am"
           }
         },
         {
           "state": "forum_read",
           "name": "GPS Information",
-          "link": "https://forum.motec.com.au/viewforum.php?f=36&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=36&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Information about using GPS units with motec devices",
           "childboards": [],
@@ -619,35 +619,35 @@
           "redirects": 0,
           "lastpost": {
             "user": "DynoDom",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6512&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6512&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=36&p=25104&sid=ef2321758bf3eea2eb805216a737502d#p25104",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=36&p=25104&sid=e18a98dfb1931be6e40be61979d49a4b#p25104",
             "date": "Mon Nov 27, 2023 5:31 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Ignition systems",
-          "link": "https://forum.motec.com.au/viewforum.php?f=19&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=19&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Includes MoTeC CDIs, Ignition Expanders",
           "childboards": [],
           "moderators": [],
-          "topics": 65,
-          "posts": 197,
+          "topics": 67,
+          "posts": 199,
           "redirects": 0,
           "lastpost": {
-            "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user": "blackgsx",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=7195&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=19&p=25068&sid=ef2321758bf3eea2eb805216a737502d#p25068",
-            "date": "Wed Nov 15, 2023 9:05 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=19&p=26212&sid=e18a98dfb1931be6e40be61979d49a4b#p26212",
+            "date": "Sat Aug 31, 2024 2:40 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "Accessories and other MoTeC products",
-          "link": "https://forum.motec.com.au/viewforum.php?f=23&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=23&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Includes expansion units, sensors, valves, wiring, communication cables etc.",
           "childboards": [],
@@ -657,16 +657,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "SOReilly",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6358&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=6358&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=23&p=25937&sid=ef2321758bf3eea2eb805216a737502d#p25937",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=23&p=25937&sid=e18a98dfb1931be6e40be61979d49a4b#p25937",
             "date": "Fri Jun 21, 2024 9:21 am"
           }
         },
         {
           "state": "forum_read",
           "name": "Jet Ski applications",
-          "link": "https://forum.motec.com.au/viewforum.php?f=38&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=38&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Information about MoTeC jet ski installations",
           "childboards": [],
@@ -676,9 +676,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "RumeshR",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=5040&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=5040&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=38&p=19338&sid=ef2321758bf3eea2eb805216a737502d#p19338",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=38&p=19338&sid=e18a98dfb1931be6e40be61979d49a4b#p19338",
             "date": "Thu May 02, 2019 4:25 pm"
           }
         }
@@ -686,12 +686,12 @@
     },
     {
       "name": "i2 for HSV EDI",
-      "link": "https://forum.motec.com.au/viewforum.php?f=44&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=44&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "How to use",
-          "link": "https://forum.motec.com.au/viewforum.php?f=45&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=45&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Discussions on how to use the i2 for HSV EDI application",
           "childboards": [],
@@ -701,16 +701,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "followthesapper",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=4432&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=4432&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=45&p=17004&sid=ef2321758bf3eea2eb805216a737502d#p17004",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=45&p=17004&sid=e18a98dfb1931be6e40be61979d49a4b#p17004",
             "date": "Fri Sep 29, 2017 5:06 pm"
           }
         },
         {
           "state": "forum_read",
           "name": "On Track Performance",
-          "link": "https://forum.motec.com.au/viewforum.php?f=46&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=46&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Show everyone just how well you and your car have performed on the track.",
           "childboards": [],
@@ -720,9 +720,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "JamieA",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=53&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=53&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=46&p=6029&sid=ef2321758bf3eea2eb805216a737502d#p6029",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=46&p=6029&sid=e18a98dfb1931be6e40be61979d49a4b#p6029",
             "date": "Thu Sep 16, 2010 9:11 am"
           }
         }
@@ -730,12 +730,12 @@
     },
     {
       "name": "Customer Projects",
-      "link": "https://forum.motec.com.au/viewforum.php?f=41&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=41&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "Customer Projects",
-          "link": "https://forum.motec.com.au/viewforum.php?f=42&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=42&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "A place to show off your MoTeC Projects",
           "childboards": [],
@@ -745,16 +745,16 @@
           "redirects": 0,
           "lastpost": {
             "user": "greenamex2",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3353&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3353&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=42&p=24875&sid=ef2321758bf3eea2eb805216a737502d#p24875",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=42&p=24875&sid=e18a98dfb1931be6e40be61979d49a4b#p24875",
             "date": "Tue Sep 26, 2023 2:45 am"
           }
         },
         {
           "state": "forum_read",
           "name": "Formula SAE",
-          "link": "https://forum.motec.com.au/viewforum.php?f=48&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=48&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Place to discuss Formula SAE projects",
           "childboards": [],
@@ -764,9 +764,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "adrian",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3556&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3556&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=48&p=25602&sid=ef2321758bf3eea2eb805216a737502d#p25602",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=48&p=25602&sid=e18a98dfb1931be6e40be61979d49a4b#p25602",
             "date": "Wed Mar 27, 2024 8:51 am"
           }
         }
@@ -774,37 +774,37 @@
     },
     {
       "name": "MoTeC Website Support",
-      "link": "https://forum.motec.com.au/viewforum.php?f=24&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=24&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "MoTeC Forum and Website Support",
-          "link": "https://forum.motec.com.au/viewforum.php?f=28&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=28&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "Support for all parts of the MoTeC Website and the MoTeC Forum",
           "childboards": [],
           "moderators": [],
-          "topics": 35,
-          "posts": 112,
+          "topics": 37,
+          "posts": 116,
           "redirects": 0,
           "lastpost": {
             "user": "Stephen Dean",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=3424&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=28&p=23623&sid=ef2321758bf3eea2eb805216a737502d#p23623",
-            "date": "Wed Sep 07, 2022 9:49 am"
+            "link": "https://forum.motec.com.au/viewtopic.php?f=28&p=26476&sid=e18a98dfb1931be6e40be61979d49a4b#p26476",
+            "date": "Fri Dec 20, 2024 9:26 am"
           }
         }
       ]
     },
     {
       "name": "Job opportunities",
-      "link": "https://forum.motec.com.au/viewforum.php?f=34&sid=ef2321758bf3eea2eb805216a737502d",
+      "link": "https://forum.motec.com.au/viewforum.php?f=34&sid=e18a98dfb1931be6e40be61979d49a4b",
       "forums": [
         {
           "state": "forum_read",
           "name": "Current job opportunities",
-          "link": "https://forum.motec.com.au/viewforum.php?f=35&sid=ef2321758bf3eea2eb805216a737502d",
+          "link": "https://forum.motec.com.au/viewforum.php?f=35&sid=e18a98dfb1931be6e40be61979d49a4b",
           "icon": null,
           "description": "A place to look for jobs within MoTeC",
           "childboards": [],
@@ -814,9 +814,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "JamieA",
-            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=53&sid=ef2321758bf3eea2eb805216a737502d",
+            "user_link": "https://forum.motec.com.au/memberlist.php?mode=viewprofile&u=53&sid=e18a98dfb1931be6e40be61979d49a4b",
             "title": "",
-            "link": "https://forum.motec.com.au/viewtopic.php?f=35&p=11265&sid=ef2321758bf3eea2eb805216a737502d#p11265",
+            "link": "https://forum.motec.com.au/viewtopic.php?f=35&p=11265&sid=e18a98dfb1931be6e40be61979d49a4b#p11265",
             "date": "Fri Oct 11, 2013 4:29 pm"
           }
         }

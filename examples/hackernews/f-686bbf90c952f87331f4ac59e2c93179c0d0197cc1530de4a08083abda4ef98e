@@ -3,109 +3,277 @@
   "url": "https://news.ycombinator.com/news",
   "threads": [
     {
-      "id": 41436158,
-      "link": "https://chromatone.center/",
-      "title": "Chromatone – Visual Music Language",
-      "score": 90,
-      "date": "2024-09-03T15:54:37",
+      "id": 42609595,
+      "link": "https://arxiv.org/abs/2412.20512",
+      "title": "Dive into Time-Series Anomaly Detection: A Decade Review",
+      "score": 140,
+      "date": "2025-01-06T11:10:01 1736161801",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=samdung",
-        "name": "samdung"
+        "link": "https://news.ycombinator.com/user?id=belter",
+        "name": "belter"
       },
-      "comments_count": 13,
-      "comments_link": "https://news.ycombinator.com/item?id=41436158",
+      "comments_count": 19,
+      "comments_link": "https://news.ycombinator.com/item?id=42609595",
       "text": ""
     },
     {
-      "id": 41436642,
-      "link": "https://practical.engineering/blog/2024/9/3/the-hidden-engineering-of-landfills",
-      "title": "The Engineering of Landfills",
-      "score": 58,
-      "date": "2024-09-03T16:40:51",
+      "id": 42608923,
+      "link": "https://crowdhailer.me/2025-01-02/the-evolution-of-a-structural-code-editor/",
+      "title": "The evolution of a structural code editor",
+      "score": 49,
+      "date": "2025-01-06T09:00:25 1736154025",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=impish9208",
-        "name": "impish9208"
+        "link": "https://news.ycombinator.com/user?id=crowdhailer",
+        "name": "crowdhailer"
       },
-      "comments_count": 20,
-      "comments_link": "https://news.ycombinator.com/item?id=41436642",
+      "comments_count": 7,
+      "comments_link": "https://news.ycombinator.com/item?id=42608923",
       "text": ""
     },
     {
-      "id": 41436372,
-      "link": "https://www.quantamagazine.org/how-the-higgs-field-actually-gives-mass-to-elementary-particles-20240903/",
-      "title": "How the Higgs Field (Actually) Gives Mass to Elementary Particles",
-      "score": 56,
-      "date": "2024-09-03T16:11:31",
+      "id": 42607794,
+      "link": "https://bobatealee.itch.io/doom-the-gallery-experience",
+      "title": "Doom, the Gallery Experience",
+      "score": 341,
+      "date": "2025-01-06T04:53:53 1736139233",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=bigeatie",
-        "name": "<font color=\"#3c963c\">bigeatie</font>"
+        "link": "https://news.ycombinator.com/user?id=anigbrowl",
+        "name": "anigbrowl"
+      },
+      "comments_count": 34,
+      "comments_link": "https://news.ycombinator.com/item?id=42607794",
+      "text": ""
+    },
+    {
+      "id": 42608436,
+      "link": "https://unixism.net/loti/index.html",
+      "title": "Lord of the Io_uring (2020)",
+      "score": 112,
+      "date": "2025-01-06T07:11:00 1736147460",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=LAC-Tech",
+        "name": "LAC-Tech"
+      },
+      "comments_count": 29,
+      "comments_link": "https://news.ycombinator.com/item?id=42608436",
+      "text": ""
+    },
+    {
+      "id": 42609865,
+      "link": "https://github.com/cratesland/spath",
+      "title": "Show HN: SPath is a Rust lib for query JSONPath over any semi-structured data",
+      "score": 20,
+      "date": "2025-01-06T12:03:46 1736165026",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tison",
+        "name": "tison"
+      },
+      "comments_count": 2,
+      "comments_link": "https://news.ycombinator.com/item?id=42609865",
+      "text": ""
+    },
+    {
+      "id": 42607623,
+      "link": "https://jessitron.com/2025/01/05/hitting-okrs-vs-doing-your-job/",
+      "title": "Hitting OKRs vs. Doing Your Job",
+      "score": 190,
+      "date": "2025-01-06T04:19:43 1736137183",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zdw",
+        "name": "zdw"
+      },
+      "comments_count": 92,
+      "comments_link": "https://news.ycombinator.com/item?id=42607623",
+      "text": ""
+    },
+    {
+      "id": 42600349,
+      "link": "https://psi3.ru/blog/swl01u/",
+      "title": "Remote code execution via MIDI messages",
+      "score": 390,
+      "date": "2025-01-05T07:40:48 1736062848",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=portasynthinca3",
+        "name": "portasynthinca3"
+      },
+      "comments_count": 58,
+      "comments_link": "https://news.ycombinator.com/item?id=42600349",
+      "text": ""
+    },
+    {
+      "id": 42608155,
+      "link": "https://www.usmint.gov/paper-currency/uncut-currency/",
+      "title": "Uncut Currency",
+      "score": 97,
+      "date": "2025-01-06T06:12:31 1736143951",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nxobject",
+        "name": "nxobject"
+      },
+      "comments_count": 132,
+      "comments_link": "https://news.ycombinator.com/item?id=42608155",
+      "text": ""
+    },
+    {
+      "id": 42609819,
+      "link": "https://www.mashups.io",
+      "title": "Show HN: Mashups – Resurrecting Yahoo Pipes, my side project",
+      "score": 18,
+      "date": "2025-01-06T11:54:10 1736164450",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pyromaker",
+        "name": "pyromaker"
+      },
+      "comments_count": 4,
+      "comments_link": "https://news.ycombinator.com/item?id=42609819",
+      "text": ""
+    },
+    {
+      "id": 42576436,
+      "link": "https://harimus.github.io//2025/01/02/kakizome.html",
+      "title": "Kakizome: Japanese way of new-years resolution",
+      "score": 178,
+      "date": "2025-01-02T17:27:05 1735838825",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=NalNezumi",
+        "name": "NalNezumi"
+      },
+      "comments_count": 43,
+      "comments_link": "https://news.ycombinator.com/item?id=42576436",
+      "text": ""
+    },
+    {
+      "id": 42602330,
+      "link": "https://slate.com/life/2024/12/work-jobs-sales-telemarketing-america.html",
+      "title": "In my life, I've witnessed three elite salespeople at work",
+      "score": 393,
+      "date": "2025-01-05T15:20:48 1736090448",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mooreds",
+        "name": "mooreds"
+      },
+      "comments_count": 227,
+      "comments_link": "https://news.ycombinator.com/item?id=42602330",
+      "text": ""
+    },
+    {
+      "id": 42605201,
+      "link": "https://github.com/srsran",
+      "title": "SrsRAN: Open-Source 4G/5G",
+      "score": 157,
+      "date": "2025-01-05T21:27:25 1736112445",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gballan",
+        "name": "gballan"
+      },
+      "comments_count": 47,
+      "comments_link": "https://news.ycombinator.com/item?id=42605201",
+      "text": ""
+    },
+    {
+      "id": 42601497,
+      "link": "https://abhisman.notion.site/Understanding-ReplicaSet-vs-StatefulSet-vs-DaemonSet-vs-Deployments-a521f9a46ea446219d98be4972f2e16e",
+      "title": "Understanding ReplicaSet vs. StatefulSet vs. DaemonSet vs. Deployments",
+      "score": 23,
+      "date": "2025-01-05T13:06:41 1736082401",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Abhisman",
+        "name": "Abhisman"
+      },
+      "comments_count": 4,
+      "comments_link": "https://news.ycombinator.com/item?id=42601497",
+      "text": ""
+    },
+    {
+      "id": 42584896,
+      "link": "https://github.com/serengil/deepface",
+      "title": "DeepFace: A lightweight deep face recognition library for Python",
+      "score": 188,
+      "date": "2025-01-03T12:03:04 1735905784",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=serengil",
+        "name": "serengil"
       },
       "comments_count": 26,
-      "comments_link": "https://news.ycombinator.com/item?id=41436372",
+      "comments_link": "https://news.ycombinator.com/item?id=42584896",
       "text": ""
     },
     {
-      "id": 41436338,
-      "link": "https://repaint.com",
-      "title": "Show HN: Repaint – a WebGL based website builder",
-      "score": 45,
-      "date": "2024-09-03T16:08:52",
+      "id": 42605707,
+      "link": "https://www.bingeclock.com/blog/post/republishing-my-simpsons-fan-site-twenty-years-later",
+      "title": "Republishing my Simpsons fan site, twenty years later",
+      "score": 166,
+      "date": "2025-01-05T22:44:08 1736117048",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=benshumaker0",
-        "name": "benshumaker0"
+        "link": "https://news.ycombinator.com/user?id=zebomon",
+        "name": "zebomon"
       },
-      "comments_count": 27,
-      "comments_link": "https://news.ycombinator.com/item?id=41436338",
+      "comments_count": 66,
+      "comments_link": "https://news.ycombinator.com/item?id=42605707",
       "text": ""
     },
     {
-      "id": 41435409,
-      "link": "https://github.com/David-OConnor/plascad",
-      "title": "Show HN: PlasCAD: Open-source plasmid editor",
-      "score": 60,
-      "date": "2024-09-03T14:38:01",
+      "id": 42607151,
+      "link": "https://xeiaso.net/blog/2025/squandered-holy-grail/",
+      "title": "Apple squandered the Holy Grail",
+      "score": 80,
+      "date": "2025-01-06T02:55:33 1736132133",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=the__alchemist",
-        "name": "the__alchemist"
+        "link": "https://news.ycombinator.com/user?id=caust1c",
+        "name": "caust1c"
       },
-      "comments_count": 16,
-      "comments_link": "https://news.ycombinator.com/item?id=41435409",
+      "comments_count": 75,
+      "comments_link": "https://news.ycombinator.com/item?id=42607151",
       "text": ""
     },
     {
-      "id": 41434679,
-      "link": "https://victortao.substack.com/p/song-pong",
-      "title": "Synchronizing pong to music with constrained optimization",
-      "score": 133,
-      "date": "2024-09-03T13:19:33",
+      "id": 42581082,
+      "link": "https://rohan.ga/blog/rohlang3/",
+      "title": "Rohlang3: A point-free, homoiconic, and dependently typed \"SK calculus\"",
+      "score": 24,
+      "date": "2025-01-03T01:16:40 1735867000",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=platers",
-        "name": "platers"
+        "link": "https://news.ycombinator.com/user?id=ocean_moist",
+        "name": "ocean_moist"
       },
-      "comments_count": 16,
-      "comments_link": "https://news.ycombinator.com/item?id=41434679",
+      "comments_count": 5,
+      "comments_link": "https://news.ycombinator.com/item?id=42581082",
       "text": ""
     },
     {
-      "id": 41430772,
-      "link": "https://morizbuesing.com/blog/greppability-code-metric/",
-      "title": "Greppability is an underrated code metric",
-      "score": 872,
-      "date": "2024-09-03T02:47:00",
+      "id": 42587056,
+      "link": "https://einsum.joelburget.com/",
+      "title": "Einsum in Depth",
+      "score": 35,
+      "date": "2025-01-03T16:34:33 1735922073",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=thunderbong",
-        "name": "thunderbong"
+        "link": "https://news.ycombinator.com/user?id=joelburget",
+        "name": "joelburget"
       },
-      "comments_count": 466,
-      "comments_link": "https://news.ycombinator.com/item?id=41430772",
+      "comments_count": 6,
+      "comments_link": "https://news.ycombinator.com/item?id=42587056",
       "text": ""
     },
     {
-      "id": 41436843,
-      "link": "https://www.ycombinator.com/companies/formance/jobs/cz7CHvV-technical-writer",
-      "title": "Formance (YC S21) Is Hiring a Technical Writer",
+      "id": 42601549,
+      "link": "https://altayakkus.substack.com/p/you-wouldnt-download-an-ai",
+      "title": "Extracting AI models from mobile apps",
+      "score": 402,
+      "date": "2025-01-05T13:19:18 1736083158",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=smoser",
+        "name": "smoser"
+      },
+      "comments_count": 202,
+      "comments_link": "https://news.ycombinator.com/item?id=42601549",
+      "text": ""
+    },
+    {
+      "id": 42608384,
+      "link": "https://supabase.com/careers",
+      "title": "Supabase (YC S20) Is Hiring for Multiple Roles (Remote)",
       "score": 0,
-      "date": "2024-09-03T17:00:02",
+      "date": "2025-01-06T07:01:13 1736146873",
       "user": {
         "link": null,
         "name": ""
@@ -115,311 +283,143 @@
       "text": ""
     },
     {
-      "id": 41430258,
-      "link": "https://ismy.blue/",
-      "title": "Is My Blue Your Blue?",
-      "score": 1021,
-      "date": "2024-09-03T01:17:24",
+      "id": 42603048,
+      "link": "https://breakintochat.com/blog/category/instant-graphics-and-sound/",
+      "title": "Instant Graphics and Sound",
+      "score": 3,
+      "date": "2025-01-05T16:53:57 1736096037",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=bpierre",
-        "name": "bpierre"
-      },
-      "comments_count": 426,
-      "comments_link": "https://news.ycombinator.com/item?id=41430258",
-      "text": ""
-    },
-    {
-      "id": 41434509,
-      "link": "https://pncnmnp.github.io/blogs/ibm-ramac-and-1960-winter-olympics.html",
-      "title": "IBM 305 RAMAC and the 1960 Winter Olympics",
-      "score": 57,
-      "date": "2024-09-03T12:57:19",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=pncnmnp",
-        "name": "pncnmnp"
-      },
-      "comments_count": 6,
-      "comments_link": "https://news.ycombinator.com/item?id=41434509",
-      "text": ""
-    },
-    {
-      "id": 41434500,
-      "link": "https://ninjalab.io/eucleak/",
-      "title": "EUCLEAK Side-Channel Attack on the YubiKey 5 Series",
-      "score": 5,
-      "date": "2024-09-03T12:54:47",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=GTP",
-        "name": "GTP"
+        "link": "https://news.ycombinator.com/user?id=f1shy",
+        "name": "f1shy"
       },
       "comments_count": 0,
       "comments_link": null,
       "text": ""
     },
     {
-      "id": 41434315,
-      "link": "https://www.wietzebeukema.nl/blog/why-bother-with-argv0",
-      "title": "Why bother with argv[0]?",
-      "score": 123,
-      "date": "2024-09-03T12:30:06",
+      "id": 42600595,
+      "link": "https://imgur.com/gallery/KZ4u3c4",
+      "title": "I made $100K from a dick joke",
+      "score": 428,
+      "date": "2025-01-05T09:03:28 1736067808",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=wietze",
-        "name": "wietze"
+        "link": "https://news.ycombinator.com/user?id=imglorp",
+        "name": "imglorp"
       },
-      "comments_count": 138,
-      "comments_link": "https://news.ycombinator.com/item?id=41434315",
+      "comments_count": 198,
+      "comments_link": "https://news.ycombinator.com/item?id=42600595",
       "text": ""
     },
     {
-      "id": 41425467,
-      "link": "https://ferd.ca/my-blog-engine-is-the-erlang-build-tool.html",
-      "title": "My Blog Engine Is the Erlang Build Tool",
-      "score": 47,
-      "date": "2024-09-02T14:04:20",
+      "id": 42610457,
+      "link": "https://arstechnica.com/gaming/2025/01/meet-the-man-keeping-hope-and-70-year-old-pinball-machines-alive/",
+      "title": "A man keeping hope, and 70-year-old pinball machines, alive",
+      "score": 8,
+      "date": "2025-01-06T13:37:58 1736170678",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=billiob",
-        "name": "billiob"
-      },
-      "comments_count": 2,
-      "comments_link": "https://news.ycombinator.com/item?id=41425467",
-      "text": ""
-    },
-    {
-      "id": 41435676,
-      "link": "https://www.npr.org/sections/the-picture-show/2024/09/03/g-s1-5057/photographer-captures-life-in-old-growth-forests",
-      "title": "A photographer captures life in America&#x27;s last remaining old-growth forests",
-      "score": 73,
-      "date": "2024-09-03T15:06:36",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=toomuchtodo",
-        "name": "toomuchtodo"
-      },
-      "comments_count": 19,
-      "comments_link": "https://news.ycombinator.com/item?id=41435676",
-      "text": ""
-    },
-    {
-      "id": 41397901,
-      "link": "https://simonindelicate.substack.com/p/the-occult-technology-of-the-rollercoaster",
-      "title": "The occult technology of the rollercoaster",
-      "score": 61,
-      "date": "2024-08-30T05:15:06",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=iwishiknewlisp",
-        "name": "iwishiknewlisp"
-      },
-      "comments_count": 23,
-      "comments_link": "https://news.ycombinator.com/item?id=41397901",
-      "text": ""
-    },
-    {
-      "id": 41434637,
-      "link": "https://blog.jgc.org/2024/09/steve-ballmers-binary-search-interview.html",
-      "title": "Steve Ballmer&#x27;s incorrect binary search interview question",
-      "score": 149,
-      "date": "2024-09-03T13:12:51",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=jgrahamc",
-        "name": "jgrahamc"
-      },
-      "comments_count": 128,
-      "comments_link": "https://news.ycombinator.com/item?id=41434637",
-      "text": ""
-    },
-    {
-      "id": 41428705,
-      "link": "https://www.bytedrum.com/posts/art-of-finishing/",
-      "title": "The Art of Finishing",
-      "score": 596,
-      "date": "2024-09-02T20:51:00",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=emmorts",
-        "name": "emmorts"
-      },
-      "comments_count": 146,
-      "comments_link": "https://news.ycombinator.com/item?id=41428705",
-      "text": ""
-    },
-    {
-      "id": 41431244,
-      "link": "https://computer.rip/2024-08-31-ipmi.html",
-      "title": "IPMI",
-      "score": 223,
-      "date": "2024-09-03T04:23:09",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=pabs3",
-        "name": "pabs3"
-      },
-      "comments_count": 98,
-      "comments_link": "https://news.ycombinator.com/item?id=41431244",
-      "text": ""
-    },
-    {
-      "id": 41431293,
-      "link": "https://sander.ai/2024/09/02/spectral-autoregression.html",
-      "title": "Diffusion Is Spectral Autoregression",
-      "score": 180,
-      "date": "2024-09-03T04:33:36",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=ackbar03",
-        "name": "ackbar03"
-      },
-      "comments_count": 48,
-      "comments_link": "https://news.ycombinator.com/item?id=41431293",
-      "text": ""
-    },
-    {
-      "id": 41431177,
-      "link": "https://www.timeextension.com/news/2024/09/wizardry-co-creator-andrew-greenberg-has-passed-away",
-      "title": "Wizardry Co-Creator Andrew Greenberg Has Passed Away",
-      "score": 128,
-      "date": "2024-09-03T04:11:16",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=homarp",
-        "name": "homarp"
-      },
-      "comments_count": 48,
-      "comments_link": "https://news.ycombinator.com/item?id=41431177",
-      "text": ""
-    },
-    {
-      "id": 41432013,
-      "link": "https://aclanthology.org/2024.acl-long.245/",
-      "title": "Graph Language Models",
-      "score": 86,
-      "date": "2024-09-03T06:49:29",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=Anon84",
-        "name": "Anon84"
-      },
-      "comments_count": 8,
-      "comments_link": "https://news.ycombinator.com/item?id=41432013",
-      "text": ""
-    },
-    {
-      "id": 41434986,
-      "link": "https://digitalmarketreports.com/news/25091/microsoft-recall-feature-on-windows-11-not-removable-after-all/",
-      "title": "Microsoft&#x27;s Recall Feature on Windows 11 Not Removable After All",
-      "score": 9,
-      "date": "2024-09-03T13:55:51",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=g4k",
-        "name": "g4k"
+        "link": "https://news.ycombinator.com/user?id=dangle1",
+        "name": "dangle1"
       },
       "comments_count": 0,
       "comments_link": null,
       "text": ""
     },
     {
-      "id": 41417538,
-      "link": "https://londonist.com/london/maps/dickens-the-ultimate-map-history",
-      "title": "Dickens: The Map",
-      "score": 51,
-      "date": "2024-09-01T15:05:25",
+      "id": 42604350,
+      "link": "http://www.righto.com/2025/01/pentium-floating-point-ROM.html",
+      "title": "Reverse Engineering the Constants in the Pentium FPU",
+      "score": 126,
+      "date": "2025-01-05T19:34:18 1736105658",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=bryanrasmussen",
-        "name": "bryanrasmussen"
-      },
-      "comments_count": 3,
-      "comments_link": "https://news.ycombinator.com/item?id=41417538",
-      "text": ""
-    },
-    {
-      "id": 41428274,
-      "link": "https://blancas.io/blog/ai-web-scraper/",
-      "title": "Web scraping with GPT-4o: powerful but expensive",
-      "score": 313,
-      "date": "2024-09-02T19:50:53",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=edublancas",
-        "name": "edublancas"
-      },
-      "comments_count": 153,
-      "comments_link": "https://news.ycombinator.com/item?id=41428274",
-      "text": ""
-    },
-    {
-      "id": 41424505,
-      "link": "https://www.theguardian.com/artanddesign/photography-blog/2014/jun/13/photoshop-first-image-jennifer-in-paradise-photography-artefact-knoll-dullaart",
-      "title": "Jennifer in paradise: the story of the first Photoshopped image (2014)",
-      "score": 94,
-      "date": "2024-09-02T11:33:14",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=Schiphol",
-        "name": "Schiphol"
-      },
-      "comments_count": 70,
-      "comments_link": "https://news.ycombinator.com/item?id=41424505",
-      "text": ""
-    },
-    {
-      "id": 41427185,
-      "link": "https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/",
-      "title": "Notes on Distributed Systems for Young Bloods",
-      "score": 329,
-      "date": "2024-09-02T17:23:26",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=doesntmeananyth",
-        "name": "doesntmeananyth"
-      },
-      "comments_count": 51,
-      "comments_link": "https://news.ycombinator.com/item?id=41427185",
-      "text": ""
-    },
-    {
-      "id": 41425563,
-      "link": "https://news.yale.edu/2024/08/14/sleep-it-how-brain-processes-many-experiences-even-when-offline",
-      "title": "Sleep on it: How the brain processes many experiences, even when &#x27;offline&#x27;",
-      "score": 393,
-      "date": "2024-09-02T14:17:08",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=PaulHoule",
-        "name": "PaulHoule"
-      },
-      "comments_count": 129,
-      "comments_link": "https://news.ycombinator.com/item?id=41425563",
-      "text": ""
-    },
-    {
-      "id": 41431560,
-      "link": "https://arxiv.org/abs/2408.16737",
-      "title": "Smaller, Weaker, yet Better: Training LLM Reasoners via Compute-Optimal Sampling",
-      "score": 40,
-      "date": "2024-09-03T05:26:08",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=towaihee",
-        "name": "towaihee"
-      },
-      "comments_count": 5,
-      "comments_link": "https://news.ycombinator.com/item?id=41431560",
-      "text": ""
-    },
-    {
-      "id": 41427563,
-      "link": "https://github.com/pythonbrad/afrim",
-      "title": "Show HN: A modern way to type in African languages",
-      "score": 181,
-      "date": "2024-09-02T18:10:20",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=pythonbrad",
-        "name": "pythonbrad"
-      },
-      "comments_count": 77,
-      "comments_link": "https://news.ycombinator.com/item?id=41427563",
-      "text": ""
-    },
-    {
-      "id": 41418357,
-      "link": "https://solidpixel.github.io/creating_invariant_accumulators",
-      "title": "Creating invariant floating-point accumulators",
-      "score": 32,
-      "date": "2024-09-01T16:52:20",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=Pathogen-David",
-        "name": "Pathogen-David"
+        "link": "https://news.ycombinator.com/user?id=mef",
+        "name": "mef"
       },
       "comments_count": 18,
-      "comments_link": "https://news.ycombinator.com/item?id=41418357",
+      "comments_link": "https://news.ycombinator.com/item?id=42604350",
+      "text": ""
+    },
+    {
+      "id": 42609151,
+      "link": "https://unbaited.danielpetho.com",
+      "title": "Show HN: Filter out engagement bait and politics on your X/Twitter feed",
+      "score": 38,
+      "date": "2025-01-06T09:49:41 1736156981",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=danielpetho",
+        "name": "danielpetho"
+      },
+      "comments_count": 88,
+      "comments_link": "https://news.ycombinator.com/item?id=42609151",
+      "text": ""
+    },
+    {
+      "id": 42607934,
+      "link": "https://taoshu.in/unix/jool-nat64.html",
+      "title": "IPv6-only Network based on Jool",
+      "score": 50,
+      "date": "2025-01-06T05:24:00 1736141040",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=unclet",
+        "name": "unclet"
+      },
+      "comments_count": 22,
+      "comments_link": "https://news.ycombinator.com/item?id=42607934",
+      "text": ""
+    },
+    {
+      "id": 42566748,
+      "link": "https://academic.oup.com/mnrasl/article/537/1/L55/7926647",
+      "title": "Supernovae evidence for foundational change to cosmological models",
+      "score": 151,
+      "date": "2025-01-01T15:53:42 1735746822",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=JumpCrisscross",
+        "name": "JumpCrisscross"
+      },
+      "comments_count": 87,
+      "comments_link": "https://news.ycombinator.com/item?id=42566748",
+      "text": ""
+    },
+    {
+      "id": 42578201,
+      "link": "https://www.jeffgeerling.com/blog/2024/documenting-1115-ft-radio-tower-climb",
+      "title": "Documenting an 1115 ft radio tower climb",
+      "score": 203,
+      "date": "2025-01-02T20:02:18 1735848138",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=geerlingguy",
+        "name": "geerlingguy"
+      },
+      "comments_count": 78,
+      "comments_link": "https://news.ycombinator.com/item?id=42578201",
+      "text": ""
+    },
+    {
+      "id": 42606773,
+      "link": "https://futureboy.us/blog/twofifty.html",
+      "title": "Engineer eats efficiently for $2.50 a day (2016)",
+      "score": 169,
+      "date": "2025-01-06T01:56:42 1736128602",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hwayne",
+        "name": "hwayne"
+      },
+      "comments_count": 276,
+      "comments_link": "https://news.ycombinator.com/item?id=42606773",
+      "text": ""
+    },
+    {
+      "id": 42582044,
+      "link": "https://blog.sequinstream.com/using-watermarks-to-coordinate-change-data-capture-in-postgres/",
+      "title": "Using watermarks to coordinate change data capture in Postgres",
+      "score": 87,
+      "date": "2025-01-03T03:28:26 1735874906",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=misonic",
+        "name": "misonic"
+      },
+      "comments_count": 0,
+      "comments_link": null,
       "text": ""
     }
   ]

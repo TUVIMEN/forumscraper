@@ -4,13 +4,13 @@
   "id": 41425150,
   "link": "https://govukvue.org/",
   "title": "Show HN: Gov.uk Vue, a Vue Component Library for the Gov.uk Design System",
-  "score": 211,
-  "date": "2024-09-02T13:15:45",
+  "score": 223,
+  "date": "2024-09-02T13:15:45 1725282945",
   "user": {
     "link": "https://news.ycombinator.com/user?id=matteason",
     "name": "matteason"
   },
-  "comments_count": 57,
+  "comments_count": 58,
   "comments_link": "https://news.ycombinator.com/item?id=41425150",
   "text": "Hi HN,<p>I&#x27;ve built a Vue component library based on the GOV.UK Design System, which is used for government services in the UK. The Design System is well-known for being accessible, well designed and thoroughly researched, and it&#x27;s been used as the basis for many other governments&#x27; and organisations&#x27; design systems.<p>GOV.UK Vue includes every component in the GOV.UK Design System, with comprehensive docs. It can also be used for projects that aren&#x27;t related to GOV.UK, as long as they don&#x27;t use the GOV.UK branding",
   "comments": [
@@ -21,12 +21,12 @@
         "link": "https://news.ycombinator.com/user?id=rmason",
         "name": "rmason"
       },
-      "date": "2024-09-02T19:40:21",
+      "date": "2024-09-02T19:40:21 1725306021",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "I&#x27;ve been involved with the open data movement here in Michigan for a dozen years.  A lot of us have been inspired by what happened in Britain in 2010 when a change in government allowed them to reimagine Britain&#x27;s digital footprint.<p>Here&#x27;s a video by their chief architect detailing the changes.<p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=yvB6BqYs2T0\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=yvB6BqYs2T0</a><p>I know there&#x27;s an O&#x27;Reilly video about this guy&#x27;s boss but I can&#x27;t find it.  Sadly another government change was to end all this development.  But in the end near as i can figure though a lot of the bosses left the changes have continued but at a slower rate.<p>No government website in America begins to compare to the clearness and simplicity that exists in Britain nearly a dozen years later."
+      "text": "I&#x27;ve been involved with the open data movement here in Michigan for a dozen years. A lot of us have been inspired by what happened in Britain in 2010 when a change in government allowed them to reimagine Britain&#x27;s digital footprint.<p>Here&#x27;s a video by their chief architect detailing the changes.<p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=yvB6BqYs2T0\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=yvB6BqYs2T0</a><p>I know there&#x27;s an O&#x27;Reilly video about this guy&#x27;s boss but I can&#x27;t find it. Sadly another government change was to end all this development. But in the end near as i can figure though a lot of the bosses left the changes have continued but at a slower rate.<p>No government website in America begins to compare to the clearness and simplicity that exists in Britain nearly a dozen years later."
     },
     {
       "id": 41433409,
@@ -35,12 +35,26 @@
         "link": "https://news.ycombinator.com/user?id=NoboruWataya",
         "name": "NoboruWataya"
       },
-      "date": "2024-09-03T10:37:33",
+      "date": "2024-09-03T10:37:33 1725359853",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "Interesting that GDS was born out of the shift to a Conservative government. 14 years later the Tories aren&#x27;t exactly associated with openness, forward thinking or investment in public services."
+    },
+    {
+      "id": 41444083,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jonp888",
+        "name": "jonp888"
+      },
+      "date": "2024-09-04T10:45:25 1725446725",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The conservative party of 2010 was very different to that of today<p>Back then it had hardliners like John Redwood and Bill Cash, but also pragmatic moderates such as William Hague, Ken Clarke and Rory Stewart.<p>Brexit destroyed the party from within. Over time as it became more and more difficult to defend in any non-ideological way and the party leadership became more and more autocratic in ever more desperate attempts to force it to a conclusion, they all either left politics, switched allegiance or were expelled from the party. What was left were the hardliners, the truly crazy and those willing to say anything at all in return for power."
     },
     {
       "id": 41433422,
@@ -49,7 +63,7 @@
         "link": "https://news.ycombinator.com/user?id=butterknife",
         "name": "butterknife"
       },
-      "date": "2024-09-03T10:39:40",
+      "date": "2024-09-03T10:39:40 1725359980",
       "onstory": {
         "name": "",
         "link": null
@@ -63,7 +77,7 @@
         "link": "https://news.ycombinator.com/user?id=NoboruWataya",
         "name": "NoboruWataya"
       },
-      "date": "2024-09-03T10:54:10",
+      "date": "2024-09-03T10:54:10 1725360850",
       "onstory": {
         "name": "",
         "link": null
@@ -77,26 +91,12 @@
         "link": "https://news.ycombinator.com/user?id=julkali",
         "name": "julkali"
       },
-      "date": "2024-09-03T12:15:54",
+      "date": "2024-09-03T12:15:54 1725365754",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "Shows that things are not as black and white :)"
-    },
-    {
-      "id": 41434885,
-      "lvl": 1,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=gm3dmo",
-        "name": "gm3dmo"
-      },
-      "date": "2024-09-03T13:45:27",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "<a href=\"https:&#x2F;&#x2F;public.digital&#x2F;about-pd&#x2F;our-people\" rel=\"nofollow\">https:&#x2F;&#x2F;public.digital&#x2F;about-pd&#x2F;our-people</a> is a consultancy formed by a number of the senior folks involved in getting the Government Digital Service (GDS) off the ground back in the 2010&#x27;s."
     },
     {
       "id": 41429665,
@@ -105,7 +105,7 @@
         "link": "https://news.ycombinator.com/user?id=scrlk",
         "name": "scrlk"
       },
-      "date": "2024-09-02T23:31:26",
+      "date": "2024-09-02T23:31:26 1725319886",
       "onstory": {
         "name": "",
         "link": null
@@ -119,7 +119,7 @@
         "link": "https://news.ycombinator.com/user?id=jen20",
         "name": "jen20"
       },
-      "date": "2024-09-03T03:00:09",
+      "date": "2024-09-03T03:00:09 1725332409",
       "onstory": {
         "name": "",
         "link": null
@@ -133,12 +133,26 @@
         "link": "https://news.ycombinator.com/user?id=gm3dmo",
         "name": "gm3dmo"
       },
-      "date": "2024-09-03T13:50:04",
+      "date": "2024-09-03T13:50:04 1725371404",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "The GDS had &quot;teeth&quot;. Forcing the reset of Universal Credit for instance:<p><a href=\"https:&#x2F;&#x2F;beeckcenter.georgetown.edu&#x2F;lessons-uk-universal-credit&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;beeckcenter.georgetown.edu&#x2F;lessons-uk-universal-cred...</a><p>that can&#x27;t have been an easy decision to take."
+    },
+    {
+      "id": 41434885,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gm3dmo",
+        "name": "gm3dmo"
+      },
+      "date": "2024-09-03T13:45:27 1725371127",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<a href=\"https:&#x2F;&#x2F;public.digital&#x2F;about-pd&#x2F;our-people\" rel=\"nofollow\">https:&#x2F;&#x2F;public.digital&#x2F;about-pd&#x2F;our-people</a> is a consultancy formed by a number of the senior folks involved in getting the Government Digital Service (GDS) off the ground back in the 2010&#x27;s."
     },
     {
       "id": 41431292,
@@ -147,26 +161,12 @@
         "link": "https://news.ycombinator.com/user?id=beart",
         "name": "beart"
       },
-      "date": "2024-09-03T04:33:27",
+      "date": "2024-09-03T04:33:27 1725338007",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "Hey, fellow resident here. Is <a href=\"https:&#x2F;&#x2F;data.michigan.gov&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;data.michigan.gov&#x2F;</a> the focal point for open data in Michigan, or are there other sources worth knowing about?"
-    },
-    {
-      "id": 41436617,
-      "lvl": 0,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=KronisLV",
-        "name": "KronisLV"
-      },
-      "date": "2024-09-03T16:38:19",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "I like this, feels very usable and not too visually noisy!<p>For the most part, the most feature complete component library I&#x27;ve found for Vue is PrimeVue <a href=\"https:&#x2F;&#x2F;primevue.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primevue.org&#x2F;</a> with their CSS utilities <a href=\"https:&#x2F;&#x2F;primeflex.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primeflex.org&#x2F;</a> and icons too <a href=\"https:&#x2F;&#x2F;primevue.org&#x2F;icons\" rel=\"nofollow\">https:&#x2F;&#x2F;primevue.org&#x2F;icons</a><p>There&#x27;s also a version for React <a href=\"https:&#x2F;&#x2F;primereact.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primereact.org&#x2F;</a> and for Angular <a href=\"https:&#x2F;&#x2F;primeng.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primeng.org&#x2F;</a> and even JSF <a href=\"https:&#x2F;&#x2F;www.primefaces.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.primefaces.org&#x2F;</a><p>I wish there were more like that, that carry over across different tech stacks, while also offering nice support for various themes, as well as a lot of decent components."
     },
     {
       "id": 41429762,
@@ -175,12 +175,12 @@
         "link": "https://news.ycombinator.com/user?id=pimlottc",
         "name": "pimlottc"
       },
-      "date": "2024-09-02T23:47:36",
+      "date": "2024-09-02T23:47:36 1725320856",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "This is cool but I think you should be crystal clear that this is not an official gov.uk project.  Like, put the word &quot;unofficial&quot; in the header, project description, etc."
+      "text": "This is cool but I think you should be crystal clear that this is not an official gov.uk project. Like, put the word &quot;unofficial&quot; in the header, project description, etc."
     },
     {
       "id": 41427025,
@@ -189,7 +189,7 @@
         "link": "https://news.ycombinator.com/user?id=denysvitali",
         "name": "denysvitali"
       },
-      "date": "2024-09-02T17:01:22",
+      "date": "2024-09-02T17:01:22 1725296482",
       "onstory": {
         "name": "",
         "link": null
@@ -203,7 +203,7 @@
         "link": "https://news.ycombinator.com/user?id=matteason",
         "name": "matteason"
       },
-      "date": "2024-09-02T17:11:56",
+      "date": "2024-09-02T17:11:56 1725297116",
       "onstory": {
         "name": "",
         "link": null
@@ -217,7 +217,7 @@
         "link": "https://news.ycombinator.com/user?id=denysvitali",
         "name": "denysvitali"
       },
-      "date": "2024-09-02T17:17:22",
+      "date": "2024-09-02T17:17:22 1725297442",
       "onstory": {
         "name": "",
         "link": null
@@ -231,7 +231,7 @@
         "link": "https://news.ycombinator.com/user?id=pglevy",
         "name": "pglevy"
       },
-      "date": "2024-09-02T17:32:53",
+      "date": "2024-09-02T17:32:53 1725298373",
       "onstory": {
         "name": "",
         "link": null
@@ -245,7 +245,7 @@
         "link": "https://news.ycombinator.com/user?id=alias_neo",
         "name": "alias_neo"
       },
-      "date": "2024-09-03T07:09:36",
+      "date": "2024-09-03T07:09:36 1725347376",
       "onstory": {
         "name": "",
         "link": null
@@ -259,7 +259,7 @@
         "link": "https://news.ycombinator.com/user?id=matteason",
         "name": "matteason"
       },
-      "date": "2024-09-03T07:21:26",
+      "date": "2024-09-03T07:21:26 1725348086",
       "onstory": {
         "name": "",
         "link": null
@@ -267,18 +267,32 @@
       "text": "Exactly - services on GOV.UK are developed by teams across government (as well as agencies etc), and they&#x27;re (mostly) free to use whatever tech makes sense for the team and the project.<p>GOV.UK Vue isn&#x27;t intended for normal, bread-and-butter transactional services (usually a series of form pages) but for things like more complex internal tools, dashboards, mapping etc which would be using JS to provide interactivity"
     },
     {
-      "id": 41436812,
+      "id": 41427764,
       "lvl": 0,
       "user": {
-        "link": "https://news.ycombinator.com/user?id=divbzero",
-        "name": "divbzero"
+        "link": "https://news.ycombinator.com/user?id=manuelleduc",
+        "name": "manuelleduc"
       },
-      "date": "2024-09-03T16:57:41",
+      "date": "2024-09-02T18:35:26 1725302126",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "The font displayed on GOV.UK Vue is different from the default font for the GOV.UK Design System. This makes sense given that:<p>(a) GOV.UK Vue focuses on components, not styles; and<p>(b) GDS Transport, the default font for the GOV.UK Design System, is apparently not publicly available. <a href=\"https:&#x2F;&#x2F;designnotes.blog.gov.uk&#x2F;2015&#x2F;03&#x2F;11&#x2F;can-i-use-the-gov-uk-fonts&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;designnotes.blog.gov.uk&#x2F;2015&#x2F;03&#x2F;11&#x2F;can-i-use-the-gov...</a>"
+      "text": "Very interesting. France government is providing a design system as well <a href=\"https:&#x2F;&#x2F;www.systeme-de-design.gouv.fr&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.systeme-de-design.gouv.fr&#x2F;</a> A Vue impementation is available too <a href=\"https:&#x2F;&#x2F;vue-ds.fr&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;vue-ds.fr&#x2F;</a>"
+    },
+    {
+      "id": 41435471,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=com",
+        "name": "com"
+      },
+      "date": "2024-09-03T14:45:42 1725374742",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I hadn’t noticed this being rolled out yet in the bits of gouv.fr that I interact with.<p>I especially like the colour palettes.<p>I wish that the Vue storybook showed the demo component first. I wish ALL storybooks did that actually!"
     },
     {
       "id": 41433731,
@@ -287,12 +301,12 @@
         "link": "https://news.ycombinator.com/user?id=alphalima",
         "name": "alphalima"
       },
-      "date": "2024-09-03T11:23:25",
+      "date": "2024-09-03T11:23:25 1725362605",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "Hey Matt,<p>Super cool to see this, and congrats on 1.0!<p>One question, has the GDS stance on Javascript softened, namely progressive enhancement being essentially mandatory [1], since I last worked with you? Is the target for more controlled user groups, non-govuk projects, or do you do SSR to give a usable first HTML response?<p>[1] <a href=\"https:&#x2F;&#x2F;www.gov.uk&#x2F;service-manual&#x2F;technology&#x2F;using-progressive-enhancement\" rel=\"nofollow\">https:&#x2F;&#x2F;www.gov.uk&#x2F;service-manual&#x2F;technology&#x2F;using-progressi...</a> Last update:    16 December 2019"
+      "text": "Hey Matt,<p>Super cool to see this, and congrats on 1.0!<p>One question, has the GDS stance on Javascript softened, namely progressive enhancement being essentially mandatory [1], since I last worked with you? Is the target for more controlled user groups, non-govuk projects, or do you do SSR to give a usable first HTML response?<p>[1] <a href=\"https:&#x2F;&#x2F;www.gov.uk&#x2F;service-manual&#x2F;technology&#x2F;using-progressive-enhancement\" rel=\"nofollow\">https:&#x2F;&#x2F;www.gov.uk&#x2F;service-manual&#x2F;technology&#x2F;using-progressi...</a> Last update: 16 December 2019"
     },
     {
       "id": 41435717,
@@ -301,7 +315,7 @@
         "link": "https://news.ycombinator.com/user?id=midenginedcoupe",
         "name": "midenginedcoupe"
       },
-      "date": "2024-09-03T15:10:52",
+      "date": "2024-09-03T15:10:52 1725376252",
       "onstory": {
         "name": "",
         "link": null
@@ -315,7 +329,7 @@
         "link": "https://news.ycombinator.com/user?id=matteason",
         "name": "matteason"
       },
-      "date": "2024-09-03T11:43:23",
+      "date": "2024-09-03T11:43:23 1725363803",
       "onstory": {
         "name": "",
         "link": null
@@ -329,82 +343,12 @@
         "link": "https://news.ycombinator.com/user?id=alphalima",
         "name": "alphalima"
       },
-      "date": "2024-09-03T16:09:59",
+      "date": "2024-09-03T16:09:59 1725379799",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "Nice!<p>I&#x27;ve been using GOVUK stuff for my own purposes for a good-long while now, this should speed up the process.<p>I&#x27;ll try to plug your thing into Json Forms [1], then I&#x27;ll be back to the good old days.<p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;eclipsesource&#x2F;jsonforms\">https:&#x2F;&#x2F;github.com&#x2F;eclipsesource&#x2F;jsonforms</a>"
-    },
-    {
-      "id": 41427764,
-      "lvl": 0,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=manuelleduc",
-        "name": "manuelleduc"
-      },
-      "date": "2024-09-02T18:35:26",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "Very interesting. France government is providing a design system as well <a href=\"https:&#x2F;&#x2F;www.systeme-de-design.gouv.fr&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.systeme-de-design.gouv.fr&#x2F;</a>A Vue impementation is available too <a href=\"https:&#x2F;&#x2F;vue-ds.fr&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;vue-ds.fr&#x2F;</a>"
-    },
-    {
-      "id": 41435471,
-      "lvl": 1,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=com",
-        "name": "com"
-      },
-      "date": "2024-09-03T14:45:42",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "I hadn’t noticed this being rolled out yet in the bits of gouv.fr that I interact with.<p>I especially like the colour palettes.<p>I wish that the Vue storybook showed the demo component first. I wish ALL storybooks did that actually!"
-    },
-    {
-      "id": 41433749,
-      "lvl": 0,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=smackay",
-        "name": "smackay"
-      },
-      "date": "2024-09-03T11:26:00",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "Horn tooting time...<p>I wrote, <a href=\"https:&#x2F;&#x2F;github.com&#x2F;wildfish&#x2F;crispy-forms-gds&#x2F;\">https:&#x2F;&#x2F;github.com&#x2F;wildfish&#x2F;crispy-forms-gds&#x2F;</a>, a template pack for Crispy Forms for regular, form-based, Django sites.<p>Matt&#x27;s done a great job and it will certainly take out a lot, if not most of the pain in dealing with accessibility requirements, and in particular the audit process that gov.uk puts projects through to make sure everyone has access to the sites."
-    },
-    {
-      "id": 41433945,
-      "lvl": 1,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=matteason",
-        "name": "matteason"
-      },
-      "date": "2024-09-03T11:48:27",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "Oh nice! Have you considered submitting it to <a href=\"https:&#x2F;&#x2F;design-system.service.gov.uk&#x2F;community&#x2F;resources-and-tools&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;design-system.service.gov.uk&#x2F;community&#x2F;resources-and...</a> ? There&#x27;s no Django solution there at the moment"
-    },
-    {
-      "id": 41434178,
-      "lvl": 2,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=smackay",
-        "name": "smackay"
-      },
-      "date": "2024-09-03T12:15:26",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "Thanks for that. I didn&#x27;t realise that the community extended beyond the government departments."
     },
     {
       "id": 41428623,
@@ -413,7 +357,7 @@
         "link": "https://news.ycombinator.com/user?id=pcrh",
         "name": "pcrh"
       },
-      "date": "2024-09-02T20:40:26",
+      "date": "2024-09-02T20:40:26 1725309626",
       "onstory": {
         "name": "",
         "link": null
@@ -427,12 +371,26 @@
         "link": "https://news.ycombinator.com/user?id=epolanski",
         "name": "epolanski"
       },
-      "date": "2024-09-02T22:13:42",
+      "date": "2024-09-02T22:13:42 1725315222",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "I sometimes read the GitHub issues, lots to learn."
+    },
+    {
+      "id": 41436617,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=KronisLV",
+        "name": "KronisLV"
+      },
+      "date": "2024-09-03T16:38:19 1725381499",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I like this, feels very usable and not too visually noisy!<p>For the most part, the most feature complete component library I&#x27;ve found for Vue is PrimeVue <a href=\"https:&#x2F;&#x2F;primevue.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primevue.org&#x2F;</a> with their CSS utilities <a href=\"https:&#x2F;&#x2F;primeflex.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primeflex.org&#x2F;</a> and icons too <a href=\"https:&#x2F;&#x2F;primevue.org&#x2F;icons\" rel=\"nofollow\">https:&#x2F;&#x2F;primevue.org&#x2F;icons</a><p>There&#x27;s also a version for React <a href=\"https:&#x2F;&#x2F;primereact.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primereact.org&#x2F;</a> and for Angular <a href=\"https:&#x2F;&#x2F;primeng.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;primeng.org&#x2F;</a> and even JSF <a href=\"https:&#x2F;&#x2F;www.primefaces.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.primefaces.org&#x2F;</a><p>I wish there were more like that, that carry over across different tech stacks, while also offering nice support for various themes, as well as a lot of decent components."
     },
     {
       "id": 41428460,
@@ -441,7 +399,7 @@
         "link": "https://news.ycombinator.com/user?id=vegancap",
         "name": "vegancap"
       },
-      "date": "2024-09-02T20:16:21",
+      "date": "2024-09-02T20:16:21 1725308181",
       "onstory": {
         "name": "",
         "link": null
@@ -449,32 +407,60 @@
       "text": "I&#x27;m rarely super proud of our gov, but my god their digital team are killing it, and have been for some years"
     },
     {
-      "id": 41435803,
+      "id": 41433749,
       "lvl": 0,
       "user": {
-        "link": "https://news.ycombinator.com/user?id=midenginedcoupe",
-        "name": "midenginedcoupe"
+        "link": "https://news.ycombinator.com/user?id=smackay",
+        "name": "smackay"
       },
-      "date": "2024-09-03T15:19:09",
+      "date": "2024-09-03T11:26:00 1725362760",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "A friendly word of warning - I also re-implemented the GOV.UK design system for my form builder SaaS and stood up a demo form showing off the components in a real multi-step form. All the questions were literally &quot;This is question 1&quot; and &quot;This is what a radio group question with a heading looks like&quot; but Google&#x27;s bots eventually found it and flagged my entire domain on the phishing lists because it thought it was trying to impersonate a real government service. It was an utter shit-show trying to get Google to undo their stupidity, all whilst my customers couldn&#x27;t access their services.<p>I put up a dumb password prompt at the start of the journey (with the password given on the page) and haven&#x27;t been flagged again since :fingerscrossed:"
+      "text": "Horn tooting time...<p>I wrote, <a href=\"https:&#x2F;&#x2F;github.com&#x2F;wildfish&#x2F;crispy-forms-gds&#x2F;\">https:&#x2F;&#x2F;github.com&#x2F;wildfish&#x2F;crispy-forms-gds&#x2F;</a>, a template pack for Crispy Forms for regular, form-based, Django sites.<p>Matt&#x27;s done a great job and it will certainly take out a lot, if not most of the pain in dealing with accessibility requirements, and in particular the audit process that gov.uk puts projects through to make sure everyone has access to the sites."
     },
     {
-      "id": 41435865,
+      "id": 41433945,
       "lvl": 1,
       "user": {
         "link": "https://news.ycombinator.com/user?id=matteason",
         "name": "matteason"
       },
-      "date": "2024-09-03T15:24:46",
+      "date": "2024-09-03T11:48:27 1725364107",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "Oof, thanks, I&#x27;ll bear that in mind! The docs page has been up for a year or so without any issues but if I put up a more fully-featured demo I&#x27;ll be careful"
+      "text": "Oh nice! Have you considered submitting it to <a href=\"https:&#x2F;&#x2F;design-system.service.gov.uk&#x2F;community&#x2F;resources-and-tools&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;design-system.service.gov.uk&#x2F;community&#x2F;resources-and...</a> ? There&#x27;s no Django solution there at the moment"
+    },
+    {
+      "id": 41434178,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=smackay",
+        "name": "smackay"
+      },
+      "date": "2024-09-03T12:15:26 1725365726",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks for that. I didn&#x27;t realise that the community extended beyond the government departments."
+    },
+    {
+      "id": 41428139,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=londons_explore",
+        "name": "londons_explore"
+      },
+      "date": "2024-09-02T19:27:41 1725305261",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "How does performance compare? Can one still get it to load in 100 milliseconds on a typical broadband connection? (Enough to feel instant)"
     },
     {
       "id": 41427620,
@@ -483,7 +469,7 @@
         "link": "https://news.ycombinator.com/user?id=nemesis17",
         "name": "nemesis17"
       },
-      "date": "2024-09-02T18:18:37",
+      "date": "2024-09-02T18:18:37 1725301117",
       "onstory": {
         "name": "",
         "link": null
@@ -491,46 +477,18 @@
       "text": "Happy to see this! Very neat! On my last gig, I was one of the contributors for the govuk components using playframework&#x2F;twirl: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hmrc&#x2F;play-frontend-hmrc\">https:&#x2F;&#x2F;github.com&#x2F;hmrc&#x2F;play-frontend-hmrc</a>."
     },
     {
-      "id": 41431783,
+      "id": 41436812,
       "lvl": 0,
       "user": {
-        "link": "https://news.ycombinator.com/user?id=Tajnymag",
-        "name": "Tajnymag"
+        "link": "https://news.ycombinator.com/user?id=divbzero",
+        "name": "divbzero"
       },
-      "date": "2024-09-03T06:08:58",
+      "date": "2024-09-03T16:57:41 1725382661",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "Czech eGovernment has a similar component library with support for pure HTML, React, Vue and Angular.<p>link: <a href=\"https:&#x2F;&#x2F;designsystem.gov.cz&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;designsystem.gov.cz&#x2F;</a>"
-    },
-    {
-      "id": 41432091,
-      "lvl": 0,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=stuaxo",
-        "name": "stuaxo"
-      },
-      "date": "2024-09-03T07:02:40",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "Do you generate the updates for this when GDS frontend updates?<p>I think that&#x27;s how the GDS django support stays up to date, otherwise it will be hard to keep up."
-    },
-    {
-      "id": 41432149,
-      "lvl": 1,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=matteason",
-        "name": "matteason"
-      },
-      "date": "2024-09-03T07:11:18",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "GOV.UK Vue doesn&#x27;t provide any of the Frontend styling directly, it&#x27;s up to the consuming project to include it. I&#x27;ve done that so that you can add Vue to server-rendered projects which already include Frontend.<p>Frontend updates are often CSS-only, so those will be taken care of by the consuming project updating it. For markup changes and new components, that&#x27;s a manual process on my side. Markup changes are usually minor and new components are rare, so it&#x27;s not too much effort to keep up. I work on GOV.UK services in my day job so I&#x27;ve always got an eye on what&#x27;s coming up."
+      "text": "The font displayed on GOV.UK Vue is different from the default font for the GOV.UK Design System. This makes sense given that:<p>(a) GOV.UK Vue focuses on components, not styles; and<p>(b) GDS Transport, the default font for the GOV.UK Design System, is apparently not publicly available. <a href=\"https:&#x2F;&#x2F;designnotes.blog.gov.uk&#x2F;2015&#x2F;03&#x2F;11&#x2F;can-i-use-the-gov-uk-fonts&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;designnotes.blog.gov.uk&#x2F;2015&#x2F;03&#x2F;11&#x2F;can-i-use-the-gov...</a>"
     },
     {
       "id": 41430813,
@@ -539,7 +497,7 @@
         "link": "https://news.ycombinator.com/user?id=spankalee",
         "name": "spankalee"
       },
-      "date": "2024-09-03T02:55:40",
+      "date": "2024-09-03T02:55:40 1725332140",
       "onstory": {
         "name": "",
         "link": null
@@ -553,7 +511,7 @@
         "link": "https://news.ycombinator.com/user?id=langcss",
         "name": "langcss"
       },
-      "date": "2024-09-03T03:09:12",
+      "date": "2024-09-03T03:09:12 1725332952",
       "onstory": {
         "name": "",
         "link": null
@@ -561,18 +519,74 @@
       "text": "Or better web standards allow everything you need for the common things in a web app to be plain html and css so that porting to JSX etc. is mechanical.<p>For example menu systems, popups etc. Yes there are html css hacks but they are indeed hacks. A checkbox is not a button or a parent menu."
     },
     {
-      "id": 41428139,
+      "id": 41431783,
       "lvl": 0,
       "user": {
-        "link": "https://news.ycombinator.com/user?id=londons_explore",
-        "name": "londons_explore"
+        "link": "https://news.ycombinator.com/user?id=Tajnymag",
+        "name": "Tajnymag"
       },
-      "date": "2024-09-02T19:27:41",
+      "date": "2024-09-03T06:08:58 1725343738",
       "onstory": {
         "name": "",
         "link": null
       },
-      "text": "How does performance compare?    Can one still get it to load in 100 milliseconds on a typical broadband connection? (Enough to feel instant)"
+      "text": "Czech eGovernment has a similar component library with support for pure HTML, React, Vue and Angular.<p>link: <a href=\"https:&#x2F;&#x2F;designsystem.gov.cz&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;designsystem.gov.cz&#x2F;</a>"
+    },
+    {
+      "id": 41432091,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=stuaxo",
+        "name": "stuaxo"
+      },
+      "date": "2024-09-03T07:02:40 1725346960",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Do you generate the updates for this when GDS frontend updates?<p>I think that&#x27;s how the GDS django support stays up to date, otherwise it will be hard to keep up."
+    },
+    {
+      "id": 41432149,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=matteason",
+        "name": "matteason"
+      },
+      "date": "2024-09-03T07:11:18 1725347478",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "GOV.UK Vue doesn&#x27;t provide any of the Frontend styling directly, it&#x27;s up to the consuming project to include it. I&#x27;ve done that so that you can add Vue to server-rendered projects which already include Frontend.<p>Frontend updates are often CSS-only, so those will be taken care of by the consuming project updating it. For markup changes and new components, that&#x27;s a manual process on my side. Markup changes are usually minor and new components are rare, so it&#x27;s not too much effort to keep up. I work on GOV.UK services in my day job so I&#x27;ve always got an eye on what&#x27;s coming up."
+    },
+    {
+      "id": 41435803,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=midenginedcoupe",
+        "name": "midenginedcoupe"
+      },
+      "date": "2024-09-03T15:19:09 1725376749",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "A friendly word of warning - I also re-implemented the GOV.UK design system for my form builder SaaS and stood up a demo form showing off the components in a real multi-step form. All the questions were literally &quot;This is question 1&quot; and &quot;This is what a radio group question with a heading looks like&quot; but Google&#x27;s bots eventually found it and flagged my entire domain on the phishing lists because it thought it was trying to impersonate a real government service. It was an utter shit-show trying to get Google to undo their stupidity, all whilst my customers couldn&#x27;t access their services.<p>I put up a dumb password prompt at the start of the journey (with the password given on the page) and haven&#x27;t been flagged again since :fingerscrossed:"
+    },
+    {
+      "id": 41435865,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=matteason",
+        "name": "matteason"
+      },
+      "date": "2024-09-03T15:24:46 1725377086",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Oof, thanks, I&#x27;ll bear that in mind! The docs page has been up for a year or so without any issues but if I put up a more fully-featured demo I&#x27;ll be careful"
     },
     {
       "id": 41426706,
@@ -581,7 +595,7 @@
         "link": "https://news.ycombinator.com/user?id=NtG_UK",
         "name": "NtG_UK"
       },
-      "date": "2024-09-02T16:22:25",
+      "date": "2024-09-02T16:22:25 1725294145",
       "onstory": {
         "name": "",
         "link": null
@@ -595,7 +609,7 @@
         "link": "https://news.ycombinator.com/user?id=matteason",
         "name": "matteason"
       },
-      "date": "2024-09-02T16:26:27",
+      "date": "2024-09-02T16:26:27 1725294387",
       "onstory": {
         "name": "",
         "link": null
@@ -609,7 +623,7 @@
         "link": "https://news.ycombinator.com/user?id=londons_explore",
         "name": "londons_explore"
       },
-      "date": "2024-09-02T19:26:26",
+      "date": "2024-09-02T19:26:26 1725305186",
       "onstory": {
         "name": "",
         "link": null
@@ -623,7 +637,7 @@
         "link": "https://news.ycombinator.com/user?id=baliex",
         "name": "baliex"
       },
-      "date": "2024-09-02T16:46:55",
+      "date": "2024-09-02T16:46:55 1725295615",
       "onstory": {
         "name": "",
         "link": null
@@ -637,7 +651,7 @@
         "link": "https://news.ycombinator.com/user?id=matteason",
         "name": "matteason"
       },
-      "date": "2024-09-02T16:53:16",
+      "date": "2024-09-02T16:53:16 1725295996",
       "onstory": {
         "name": "",
         "link": null
@@ -651,7 +665,7 @@
         "link": "https://news.ycombinator.com/user?id=esquivalience",
         "name": "esquivalience"
       },
-      "date": "2024-09-02T18:03:45",
+      "date": "2024-09-02T18:03:45 1725300225",
       "onstory": {
         "name": "",
         "link": null
@@ -665,12 +679,26 @@
         "link": "https://news.ycombinator.com/user?id=baliex",
         "name": "baliex"
       },
-      "date": "2024-09-02T16:58:02",
+      "date": "2024-09-02T16:58:02 1725296282",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "I stand corrected :)"
+    },
+    {
+      "id": 41426928,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=globular-toast",
+        "name": "globular-toast"
+      },
+      "date": "2024-09-02T16:50:07 1725295807",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That&#x27;s a good thing, because people need to learn how to really check the authenticity of a website and not base it on how it looks. See security by obscurity."
     },
     {
       "id": 41426779,
@@ -679,7 +707,7 @@
         "link": "https://news.ycombinator.com/user?id=unsupp0rted",
         "name": "unsupp0rted"
       },
-      "date": "2024-09-02T16:32:14",
+      "date": "2024-09-02T16:32:14 1725294734",
       "onstory": {
         "name": "",
         "link": null
@@ -693,7 +721,7 @@
         "link": "https://news.ycombinator.com/user?id=tialaramex",
         "name": "tialaramex"
       },
-      "date": "2024-09-02T16:54:03",
+      "date": "2024-09-02T16:54:03 1725296043",
       "onstory": {
         "name": "",
         "link": null
@@ -707,7 +735,7 @@
         "link": "https://news.ycombinator.com/user?id=seabass-labrax",
         "name": "seabass-labrax"
       },
-      "date": "2024-09-03T16:55:50",
+      "date": "2024-09-03T16:55:50 1725382550",
       "onstory": {
         "name": "",
         "link": null
@@ -721,7 +749,7 @@
         "link": "https://news.ycombinator.com/user?id=mananaysiempre",
         "name": "mananaysiempre"
       },
-      "date": "2024-09-02T17:50:56",
+      "date": "2024-09-02T17:50:56 1725299456",
       "onstory": {
         "name": "",
         "link": null
@@ -735,26 +763,12 @@
         "link": "https://news.ycombinator.com/user?id=tialaramex",
         "name": "tialaramex"
       },
-      "date": "2024-09-02T19:47:15",
+      "date": "2024-09-02T19:47:15 1725306435",
       "onstory": {
         "name": "",
         "link": null
       },
       "text": "The usual term is &quot;Dancing pigs&quot; rather than bunnies: <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Dancing_pigs\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Dancing_pigs</a><p>But this isn&#x27;t quite the same thing, the dancing pigs (or bunnies) are an attraction, the mission mindset &#x2F; get-there-itis happen after the user has decided to do something, and prevent them from (correctly) deciding not to do it in light of more information."
-    },
-    {
-      "id": 41426928,
-      "lvl": 1,
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=globular-toast",
-        "name": "globular-toast"
-      },
-      "date": "2024-09-02T16:50:07",
-      "onstory": {
-        "name": "",
-        "link": null
-      },
-      "text": "That&#x27;s a good thing, because people need to learn how to really check the authenticity of a website and not base it on how it looks. See security by obscurity."
     },
     {
       "id": 41426866,
@@ -763,7 +777,7 @@
         "link": "https://news.ycombinator.com/user?id=dotancohen",
         "name": "dotancohen"
       },
-      "date": "2024-09-02T16:43:15",
+      "date": "2024-09-02T16:43:15 1725295395",
       "onstory": {
         "name": "",
         "link": null
@@ -777,7 +791,7 @@
         "link": "https://news.ycombinator.com/user?id=samstave",
         "name": "samstave"
       },
-      "date": "2024-09-02T20:45:43",
+      "date": "2024-09-02T20:45:43 1725309943",
       "onstory": {
         "name": "",
         "link": null
@@ -791,7 +805,7 @@
         "link": "https://news.ycombinator.com/user?id=ggm",
         "name": "ggm"
       },
-      "date": "2024-09-03T05:12:44",
+      "date": "2024-09-03T05:12:44 1725340364",
       "onstory": {
         "name": "",
         "link": null
@@ -805,7 +819,7 @@
         "link": "https://news.ycombinator.com/user?id=gherard5555",
         "name": "gherard5555"
       },
-      "date": "2024-09-03T14:46:16",
+      "date": "2024-09-03T14:46:16 1725374776",
       "onstory": {
         "name": "",
         "link": null

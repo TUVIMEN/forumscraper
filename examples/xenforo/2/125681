@@ -22,7 +22,7 @@
       "user": "veer",
       "user_link": "https://rune-server.org/members/veer.56309/",
       "user_id": 56309,
-      "user_avatar": "https://rune-server.org/data/avatars/m/56/56309.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/56/56309.jpg?1719863869",
       "user_title": "Renown Programmer",
       "user_banners": [],
       "user_extras": {
@@ -48,7 +48,7 @@
           },
           {
             "key": "Messages",
-            "value": "3,746"
+            "value": "3,745"
           },
           {
             "key": "Reaction score",
@@ -62,7 +62,7 @@
       },
       "id": 1089708,
       "date": "2009-03-14T20:17:59+0000",
-      "text": "<div style=\"text-align: center\"><span style=\"font-size: 26px\">The Player Updating process of #317</span>&#8203;</div><br />    The player updating process consists of 4 parts:<br />  <ul><li data-xf-list-type=\"ul\">a) Our player movement updates</li><li data-xf-list-type=\"ul\">b) Other player movement updates</li><li data-xf-list-type=\"ul\">c) Player list updating</li><li data-xf-list-type=\"ul\">c.a) Apperance updating</li><li data-xf-list-type=\"ul\">c.b) Location updating</li><li data-xf-list-type=\"ul\">d) Player update block flag-based updates</li></ul><br /><br /><div style=\"text-align: center\"><span style=\"font-size: 22px\">Our player movement updates</span>&#8203;</div><br />The client begins by reading 1 bit. This bit tells the client whether or not it is currently updating<br />'our player', or the player the client is controlling. If it's not updating our player, it exits and goes onto step b.<br />If it is, it then reads 2 bits. The value is called the <b>movement update type</b>. There are 4 recognized movement update types:<br /><ul><li data-xf-list-type=\"ul\">0</li><li data-xf-list-type=\"ul\">1</li><li data-xf-list-type=\"ul\">2</li><li data-xf-list-type=\"ul\">3</li></ul><br />    Type 0 basically tells the client there is nothing to update for our player, just add its index to the local updating list.<br /><br />    Type 1 tells the client you moved in one direction. The client reads 3 bits, which represents the direction you moved in, and then<br />1 bit, which states whether further update is required. If so, it adds it to the updating list. This is used in <i>walking</i>.<br /><br />    Type 2 functions in much of the same way as its previous, only this time it reads two 3 bit values. The first represents the player's last<br />direction, and the second it's current direction. Trailing behind it is also the 1 bit 'update required' flag as type 1. This is used in <i>running</i>.<br /><br />    Type 3 on the other hand is different. It reads in 2 bits which represents our player's <b>plane</b>, or its level of height, in the game world.<br />Only 0-3 inclusive are appropriate planes supported by the client. It then reads 1 bit, which describes whether or not to clear the <br />awaiting-waypoint queue, basically to stop client from further queued stepping, such as used in teleporting.<br />After this, it reads the 'update required' bit, and checks to see if further update is required. Directly after, it reads two 7 bit<br />quantities, representing the new relative X and relative Y coordinates of our player to our current map region's origin. It then sets our players<br />position to the plane, x, and y positions as told to.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 22px\">Other player movement updates</span>&#8203;</div><br />    The client begins by reading an 8 bit value telling the client how many players there are to update. It then enters a loop<br />for each player there is to update.<br /><br />    Inside this loop, the client reads 1 bit. This is the movement update required flag. If the flag is 0, it<br />sets the current updating player's last update cycle time to the current game logic loop cycle time, and adds the player to the local<br />player list. If the flag is not 0, it then reads the <b>movement update type</b>, which is a 2 bit quantity. The following known types are:<br /><ul><li data-xf-list-type=\"ul\">0</li><li data-xf-list-type=\"ul\">1</li><li data-xf-list-type=\"ul\">2</li><li data-xf-list-type=\"ul\">3</li></ul><br />    If the type is 0, the client updates the current player's last update cycle time, adds the current player to the local player list, and adds it to the updating list.<br /><br />    If the type is 1, the client updates the current player's last update cycle time and adds the current player to the local player list as well, but also<br />reads in 3 bit quantity. This represents the current player's direction it <i>walked</i> to. It then reads the a 1 bit value that specifies whether or<br />not to add the player to the updating list.<br /><br />    If the type is 2, the client does the exact same thing as the type 2 update, except it reads in two of the 3 bit quantities. The first represents the current player's<br />last direction, and the second its current direction <i>running</i>.<br /><br />    And lastly, if the type is 3, it only adds the player to the needing-update list, or so believed. Type 3 is not well known.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 22px\">Player list updating</span>&#8203;</div><br />    The next step in the player updating procedure is the player list updating, or where the client recieves data on every player in its local list,<br />such as appearance and location relative to ours. The client loops through a process for each player in the updating.<br /><br />    The client reads an 11 bit quantity from the buffer, which is the next player in the updated list to be informed about. The clietn then checks<br />if it has a cached buffer for that player's updating, and if it does, it updates the player appearance.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">Appearance updating</span>&#8203;</div><br />    Appearance updating starts off by first reading an unsigned byte that represents the current player's gender. Then it reads another unsigned byte<br />that represents the player's over-head icon id. This is used with prayer icons above heads. Next, a loop occurs 12 times to read equipment data.<br /><br />    In the loop, the client reads an unsigned byte that is the equipment slot's item id high byte. If it is 0, the player's equpment slot has no item.<br />If it is not 0, another unsigned byte is read the merged with the previous to create the equipment's item id. If the id is 65535 (written as a -1 signed short),<br />then the player's appearance is that of an NPC. The client reads in an unsigned short representing the NPC's id and sets the player's definition to that<br />NPC's.<br /><br />    After the equipment loop, it loops 5 times, once for each type of coloured body part. In each loop, the client reads an unsigned short and assigns it<br />as the color of the current loop idx (which represents the body part).<br /><br />    Finally, after the color loop, the client reads 7 unsigned shorts representing animation indices; the animations belong to:<br /><ul><li data-xf-list-type=\"ul\"> Standing still</li><li data-xf-list-type=\"ul\"> Turning while standing</li><li data-xf-list-type=\"ul\"> Walking</li><li data-xf-list-type=\"ul\"> Turning around (backwards)</li><li data-xf-list-type=\"ul\"> Turning a quarter-way clockwise</li><li data-xf-list-type=\"ul\"> Turning a quarter-way counter clockwise</li><li data-xf-list-type=\"ul\"> Running</li></ul><br />    After these animation indices are read, a long representing the player's name is read, an unsigned byte representing the combat level, and an unsigned short representing<br />the players skill level (for things where players arent ranked by levels, such as where it states '&lt;player name&gt; (skill &lt;skill&gt;)' as an action menu text).<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">Location updating</span>&#8203;</div><br />    After the appearance updating, the client starts to update that player's location relative to our player. The player is added to the local player list<br />and it's last update cycle time. It then reads a 1 bit quantity that defines whether or not the client has a chunk in the player update block list. If it does,<br />it adds it to the updating list. The next bit states whether or not to discard the awaiting-waypoint queue, such as when teleporting. It then reads to 5 bit values that determine the players<br />relative X and Y coordinates to our player. The local player area is 16x16, so if the delta of the two coordinates is &gt; 15, 32 is subtracted from it to signify<br />the player is on the other side of ours. The client then sets the player's position, ending the player list updating process.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 22px\">Update block flag-based updating</span>&#8203;</div><br />    The following is what most people think of when they say 'update mask' and 'update flag'. This process of the updating procedure is very important. It begins with looping<br />through ALL players in the local player update list, reading an unsigned byte which from now on will be called the <b>update flag</b>. All further updates are seen to be 'included'<br />by comparing a bitwise mask to this flag. If the flag has the bits for 0x40 all on, this signifies that the flag was too large for a simple unsigned byte and reads in another unsigned byte,<br />which it uses as the upper unsigned byte, therefore the update flag is an unsigned little-endian short. The client then passes off the data to a helper method<br />which processes all updates this flag signifies.<br /><br />    Inside this method, many different bitwise masks are compared to the player's flag, and if the mask is set, logic is performed. These masks are frequently called<br /><b>update masks</b>. A list of player update masks are below.<br /><ul><li data-xf-list-type=\"ul\">0x400</li><li data-xf-list-type=\"ul\">0x100</li><li data-xf-list-type=\"ul\">0x8</li><li data-xf-list-type=\"ul\">0x4</li><li data-xf-list-type=\"ul\">0x80</li><li data-xf-list-type=\"ul\">0x1</li><li data-xf-list-type=\"ul\">0x10</li><li data-xf-list-type=\"ul\">0x2</li><li data-xf-list-type=\"ul\">0x20</li><li data-xf-list-type=\"ul\">0x200</li></ul><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x400</span>&#8203;</div>    Not much is known about this mask, other than that the last value read is a sprite direction id. If you have discovered it, please email or message me via MSN at <a href=\"/cdn-cgi/l/email-protection#5f003c3e343a1f3336293a713c3032\"><span class=\"__cf_email__\" data-cfemail=\"421d21232927022e2b34276c212d2f\">[email&#160;protected]</span></a> and explain<br />what the values are!<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x100</span>&#8203;</div>    The 0x100 mask is responsible for player graphics updating. The data associated is a little-endian unsigned short which represents the graphics id, and an int which is the graphics delay.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x8</span>&#8203;</div>    Animations are handled by the 0x8 mask. The payload for this update is a little-endian unsigned short that is the animation id, and an unsigned inversed byte which states the animation's<br />delay.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x4</span>&#8203;</div>    The beloved 0x4 mask takes care of forced player text that is only displayed above the player's model. The only data associated with this is a jagex ASCII string with a terminator of 10.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x80</span>&#8203;</div>    Unlike the previous, the 0x80 mask handles normal player chat text. The client will read a little-endian unsigned short which holds chat text attributes. It holds the text color<br />and chat effects. Next, the client reads an unsigned byte which states the player's priveleges (normal player, player moderator, moderator, staff) to give the chatter's name<br />a crown. Right behind it trails an unsigned inversed byte that gives chat text length in bytes. Trailing afterwards is dictionary-compressed chat text. All chat text characters become indexes into<br />a valid character table and are written as nibbles (4 bit quantities).<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x1</span>&#8203;</div>    Updating the player's current interacting-entity is done via mask 0x1. The entity id is written as a little-endian unsigned short.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x10</span>&#8203;</div>    The 0x10 mask updates appearance of the player in exact same way as in updating player list. Only difference is that appearance is updated from a set-sized buffer filled from the current buffer.<br />An unsigned inversed byte is read first which describes appearance buffer size, and the buffer is filled.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x2</span>&#8203;</div>    Facing coordinate updating is signified by the 0x2 mask. The player's facing-towards X and Y are set to read values; specifically, an unsigned lower-inverted short and little-endian unsigned short, respectively.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x20</span>&#8203;</div>    Notifying client's of a player's health is done via the 0x20 mask. The hitpoint damage done to the player is sent as an unsigned byte, followed by the hit type as a positive inverted byte.<br />The player's current and max health are read as an unsigned inverted byte and unsigned byte, respectively.<br /><br /><div style=\"text-align: center\"><span style=\"font-size: 18px\">0x200</span>&#8203;</div>    The 0x200 mask acts in the same way as the 0x20 mask and is most likely associated with special attacks from weapons that have the ability to hit twice at the same time. Hitpoint damage is<br />an unsigned byte, the hit type an unsigned inverted byte, and the current and maximum health being an unsigned byte and unsigned inverted byte, respectively.<br /><br />After the client processes every single player in the update player list, it ends player updating.",
+      "text": "<div style=\"text-align: center\"><span style=\"font-size: 26px\">The Player Updating process of #317</span>&#8203;</div><br /> The player updating process consists of 4 parts:<br /> <ul> <li data-xf-list-type=\"ul\">a) Our player movement updates</li> <li data-xf-list-type=\"ul\">b) Other player movement updates</li> <li data-xf-list-type=\"ul\">c) Player list updating</li> <li data-xf-list-type=\"ul\">c.a) Apperance updating</li> <li data-xf-list-type=\"ul\">c.b) Location updating</li> <li data-xf-list-type=\"ul\">d) Player update block flag-based updates</li> </ul><br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 22px\">Our player movement updates</span>&#8203;</div><br /> The client begins by reading 1 bit. This bit tells the client whether or not it is currently updating<br /> 'our player', or the player the client is controlling. If it's not updating our player, it exits and goes onto step b.<br /> If it is, it then reads 2 bits. The value is called the <b>movement update type</b>. There are 4 recognized movement update types:<br /> <ul> <li data-xf-list-type=\"ul\">0</li> <li data-xf-list-type=\"ul\">1</li> <li data-xf-list-type=\"ul\">2</li> <li data-xf-list-type=\"ul\">3</li> </ul><br /> Type 0 basically tells the client there is nothing to update for our player, just add its index to the local updating list.<br /> <br /> Type 1 tells the client you moved in one direction. The client reads 3 bits, which represents the direction you moved in, and then<br /> 1 bit, which states whether further update is required. If so, it adds it to the updating list. This is used in <i>walking</i>.<br /> <br /> Type 2 functions in much of the same way as its previous, only this time it reads two 3 bit values. The first represents the player's last<br /> direction, and the second it's current direction. Trailing behind it is also the 1 bit 'update required' flag as type 1. This is used in <i>running</i>.<br /> <br /> Type 3 on the other hand is different. It reads in 2 bits which represents our player's <b>plane</b>, or its level of height, in the game world.<br /> Only 0-3 inclusive are appropriate planes supported by the client. It then reads 1 bit, which describes whether or not to clear the <br /> awaiting-waypoint queue, basically to stop client from further queued stepping, such as used in teleporting.<br /> After this, it reads the 'update required' bit, and checks to see if further update is required. Directly after, it reads two 7 bit<br /> quantities, representing the new relative X and relative Y coordinates of our player to our current map region's origin. It then sets our players<br /> position to the plane, x, and y positions as told to.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 22px\">Other player movement updates</span>&#8203;</div><br /> The client begins by reading an 8 bit value telling the client how many players there are to update. It then enters a loop<br /> for each player there is to update.<br /> <br /> Inside this loop, the client reads 1 bit. This is the movement update required flag. If the flag is 0, it<br /> sets the current updating player's last update cycle time to the current game logic loop cycle time, and adds the player to the local<br /> player list. If the flag is not 0, it then reads the <b>movement update type</b>, which is a 2 bit quantity. The following known types are:<br /> <ul> <li data-xf-list-type=\"ul\">0</li> <li data-xf-list-type=\"ul\">1</li> <li data-xf-list-type=\"ul\">2</li> <li data-xf-list-type=\"ul\">3</li> </ul><br /> If the type is 0, the client updates the current player's last update cycle time, adds the current player to the local player list, and adds it to the updating list.<br /> <br /> If the type is 1, the client updates the current player's last update cycle time and adds the current player to the local player list as well, but also<br /> reads in 3 bit quantity. This represents the current player's direction it <i>walked</i> to. It then reads the a 1 bit value that specifies whether or<br /> not to add the player to the updating list.<br /> <br /> If the type is 2, the client does the exact same thing as the type 2 update, except it reads in two of the 3 bit quantities. The first represents the current player's<br /> last direction, and the second its current direction <i>running</i>.<br /> <br /> And lastly, if the type is 3, it only adds the player to the needing-update list, or so believed. Type 3 is not well known.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 22px\">Player list updating</span>&#8203;</div><br /> The next step in the player updating procedure is the player list updating, or where the client recieves data on every player in its local list,<br /> such as appearance and location relative to ours. The client loops through a process for each player in the updating.<br /> <br /> The client reads an 11 bit quantity from the buffer, which is the next player in the updated list to be informed about. The clietn then checks<br /> if it has a cached buffer for that player's updating, and if it does, it updates the player appearance.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">Appearance updating</span>&#8203;</div><br /> Appearance updating starts off by first reading an unsigned byte that represents the current player's gender. Then it reads another unsigned byte<br /> that represents the player's over-head icon id. This is used with prayer icons above heads. Next, a loop occurs 12 times to read equipment data.<br /> <br /> In the loop, the client reads an unsigned byte that is the equipment slot's item id high byte. If it is 0, the player's equpment slot has no item.<br /> If it is not 0, another unsigned byte is read the merged with the previous to create the equipment's item id. If the id is 65535 (written as a -1 signed short),<br /> then the player's appearance is that of an NPC. The client reads in an unsigned short representing the NPC's id and sets the player's definition to that<br /> NPC's.<br /> <br /> After the equipment loop, it loops 5 times, once for each type of coloured body part. In each loop, the client reads an unsigned short and assigns it<br /> as the color of the current loop idx (which represents the body part).<br /> <br /> Finally, after the color loop, the client reads 7 unsigned shorts representing animation indices; the animations belong to:<br /> <ul> <li data-xf-list-type=\"ul\"> Standing still</li> <li data-xf-list-type=\"ul\"> Turning while standing</li> <li data-xf-list-type=\"ul\"> Walking</li> <li data-xf-list-type=\"ul\"> Turning around (backwards)</li> <li data-xf-list-type=\"ul\"> Turning a quarter-way clockwise</li> <li data-xf-list-type=\"ul\"> Turning a quarter-way counter clockwise</li> <li data-xf-list-type=\"ul\"> Running</li> </ul><br /> After these animation indices are read, a long representing the player's name is read, an unsigned byte representing the combat level, and an unsigned short representing<br /> the players skill level (for things where players arent ranked by levels, such as where it states '&lt;player name&gt; (skill &lt;skill&gt;)' as an action menu text).<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">Location updating</span>&#8203;</div><br /> After the appearance updating, the client starts to update that player's location relative to our player. The player is added to the local player list<br /> and it's last update cycle time. It then reads a 1 bit quantity that defines whether or not the client has a chunk in the player update block list. If it does,<br /> it adds it to the updating list. The next bit states whether or not to discard the awaiting-waypoint queue, such as when teleporting. It then reads to 5 bit values that determine the players<br /> relative X and Y coordinates to our player. The local player area is 16x16, so if the delta of the two coordinates is &gt; 15, 32 is subtracted from it to signify<br /> the player is on the other side of ours. The client then sets the player's position, ending the player list updating process.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 22px\">Update block flag-based updating</span>&#8203;</div><br /> The following is what most people think of when they say 'update mask' and 'update flag'. This process of the updating procedure is very important. It begins with looping<br /> through ALL players in the local player update list, reading an unsigned byte which from now on will be called the <b>update flag</b>. All further updates are seen to be 'included'<br /> by comparing a bitwise mask to this flag. If the flag has the bits for 0x40 all on, this signifies that the flag was too large for a simple unsigned byte and reads in another unsigned byte,<br /> which it uses as the upper unsigned byte, therefore the update flag is an unsigned little-endian short. The client then passes off the data to a helper method<br /> which processes all updates this flag signifies.<br /> <br /> Inside this method, many different bitwise masks are compared to the player's flag, and if the mask is set, logic is performed. These masks are frequently called<br /> <b>update masks</b>. A list of player update masks are below.<br /> <ul> <li data-xf-list-type=\"ul\">0x400</li> <li data-xf-list-type=\"ul\">0x100</li> <li data-xf-list-type=\"ul\">0x8</li> <li data-xf-list-type=\"ul\">0x4</li> <li data-xf-list-type=\"ul\">0x80</li> <li data-xf-list-type=\"ul\">0x1</li> <li data-xf-list-type=\"ul\">0x10</li> <li data-xf-list-type=\"ul\">0x2</li> <li data-xf-list-type=\"ul\">0x20</li> <li data-xf-list-type=\"ul\">0x200</li> </ul><br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x400</span>&#8203;</div> Not much is known about this mask, other than that the last value read is a sprite direction id. If you have discovered it, please email or message me via MSN at <a href=\"/cdn-cgi/l/email-protection#b0efd3d1dbd5f0dcd9c6d59ed3dfdd\"><span class=\"__cf_email__\" data-cfemail=\"87d8e4e6ece2c7ebeef1e2a9e4e8ea\">[email&#160;protected]</span></a> and explain<br /> what the values are!<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x100</span>&#8203;</div> The 0x100 mask is responsible for player graphics updating. The data associated is a little-endian unsigned short which represents the graphics id, and an int which is the graphics delay.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x8</span>&#8203;</div> Animations are handled by the 0x8 mask. The payload for this update is a little-endian unsigned short that is the animation id, and an unsigned inversed byte which states the animation's<br /> delay.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x4</span>&#8203;</div> The beloved 0x4 mask takes care of forced player text that is only displayed above the player's model. The only data associated with this is a jagex ASCII string with a terminator of 10.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x80</span>&#8203;</div> Unlike the previous, the 0x80 mask handles normal player chat text. The client will read a little-endian unsigned short which holds chat text attributes. It holds the text color<br /> and chat effects. Next, the client reads an unsigned byte which states the player's priveleges (normal player, player moderator, moderator, staff) to give the chatter's name<br /> a crown. Right behind it trails an unsigned inversed byte that gives chat text length in bytes. Trailing afterwards is dictionary-compressed chat text. All chat text characters become indexes into<br /> a valid character table and are written as nibbles (4 bit quantities).<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x1</span>&#8203;</div> Updating the player's current interacting-entity is done via mask 0x1. The entity id is written as a little-endian unsigned short.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x10</span>&#8203;</div> The 0x10 mask updates appearance of the player in exact same way as in updating player list. Only difference is that appearance is updated from a set-sized buffer filled from the current buffer.<br /> An unsigned inversed byte is read first which describes appearance buffer size, and the buffer is filled.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x2</span>&#8203;</div> Facing coordinate updating is signified by the 0x2 mask. The player's facing-towards X and Y are set to read values; specifically, an unsigned lower-inverted short and little-endian unsigned short, respectively.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x20</span>&#8203;</div> Notifying client's of a player's health is done via the 0x20 mask. The hitpoint damage done to the player is sent as an unsigned byte, followed by the hit type as a positive inverted byte.<br /> The player's current and max health are read as an unsigned inverted byte and unsigned byte, respectively.<br /> <br /> <div style=\"text-align: center\"><span style=\"font-size: 18px\">0x200</span>&#8203;</div> The 0x200 mask acts in the same way as the 0x20 mask and is most likely associated with special attacks from weapons that have the ability to hit twice at the same time. Hitpoint damage is<br /> an unsigned byte, the hit type an unsigned inverted byte, and the current and maximum health being an unsigned byte and unsigned inverted byte, respectively.<br /> <br /> After the client processes every single player in the update player list, it ends player updating.",
       "attachments": [],
       "signature": "",
       "reactions": [
@@ -138,7 +138,7 @@
       "user": "Luke",
       "user_link": "https://rune-server.org/members/luke.94096/",
       "user_id": 94096,
-      "user_avatar": "https://rune-server.org/data/avatars/m/94/94096.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/94/94096.jpg?1719912525",
       "user_title": "Ex-Administrator",
       "user_banners": [],
       "user_extras": {
@@ -170,7 +170,7 @@
           },
           {
             "key": "Messages",
-            "value": "507"
+            "value": "506"
           },
           {
             "key": "Reaction score",
@@ -200,7 +200,7 @@
       "user": "Impulser",
       "user_link": "https://rune-server.org/members/impulser.1198/",
       "user_id": 1198,
-      "user_avatar": "https://rune-server.org/data/avatars/m/1/1198.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/1/1198.jpg?1719863770",
       "user_title": "0x2B | ~0x2B",
       "user_banners": [],
       "user_extras": {
@@ -247,7 +247,7 @@
       },
       "id": 1089742,
       "date": "2009-03-14T20:21:20+0000",
-      "text": "Yes! Very good post Super!<br /><br />^^",
+      "text": "Yes! Very good post Super!<br /> <br /> ^^",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -256,7 +256,7 @@
       "user": "Tom",
       "user_link": "https://rune-server.org/members/tom.389/",
       "user_id": 389,
-      "user_avatar": "https://rune-server.org/data/avatars/m/0/389.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/0/389.jpg?1719863770",
       "user_title": "",
       "user_banners": [],
       "user_extras": {
@@ -276,7 +276,7 @@
           },
           {
             "key": "Messages",
-            "value": "1,148"
+            "value": "1,147"
           },
           {
             "key": "Reaction score",
@@ -299,7 +299,7 @@
       "user": "veer",
       "user_link": "https://rune-server.org/members/veer.56309/",
       "user_id": 56309,
-      "user_avatar": "https://rune-server.org/data/avatars/m/56/56309.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/56/56309.jpg?1719863869",
       "user_title": "Renown Programmer",
       "user_banners": [],
       "user_extras": {
@@ -325,7 +325,7 @@
           },
           {
             "key": "Messages",
-            "value": "3,746"
+            "value": "3,745"
           },
           {
             "key": "Reaction score",
@@ -348,7 +348,7 @@
       "user": "veer",
       "user_link": "https://rune-server.org/members/veer.56309/",
       "user_id": 56309,
-      "user_avatar": "https://rune-server.org/data/avatars/m/56/56309.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/56/56309.jpg?1719863869",
       "user_title": "Renown Programmer",
       "user_banners": [],
       "user_extras": {
@@ -374,7 +374,7 @@
           },
           {
             "key": "Messages",
-            "value": "3,746"
+            "value": "3,745"
           },
           {
             "key": "Reaction score",
@@ -407,7 +407,7 @@
       },
       "id": 1089979,
       "date": "2009-03-14T22:16:10+0000",
-      "text": "Good job, Super_<br /><br />You should include hinters on optimizing how we work with these, as there are lots of better ways of doing the updating, unlike WinterLove. The main being converting the player list to a list iterator.",
+      "text": "Good job, Super_<br /> <br /> You should include hinters on optimizing how we work with these, as there are lots of better ways of doing the updating, unlike WinterLove. The main being converting the player list to a list iterator.",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -460,7 +460,7 @@
       },
       "id": 1090093,
       "date": "2009-03-14T23:02:55+0000",
-      "text": "Super, you know I love you. But this <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite2\" alt=\";)\" title=\"Wink    ;)\" loading=\"lazy\" data-shortname=\";)\" />?<br />I admire that you take the time to help people out like this. <br /><br />Thanks <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite2\" alt=\";)\" title=\"Wink    ;)\" loading=\"lazy\" data-shortname=\";)\" />",
+      "text": "Super, you know I love you. But this <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite2\" alt=\";)\" title=\"Wink ;)\" loading=\"lazy\" data-shortname=\";)\" />?<br /> I admire that you take the time to help people out like this. <br /> <br /> Thanks <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite2\" alt=\";)\" title=\"Wink ;)\" loading=\"lazy\" data-shortname=\";)\" />",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -469,7 +469,7 @@
       "user": "blakeman8192",
       "user_link": "https://rune-server.org/members/blakeman8192.38130/",
       "user_id": 38130,
-      "user_avatar": "https://rune-server.org/data/avatars/m/38/38130.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/38/38130.jpg?1719863817",
       "user_title": "brb ridin da storm",
       "user_banners": [],
       "user_extras": {
@@ -498,7 +498,7 @@
           },
           {
             "key": "Messages",
-            "value": "2,012"
+            "value": "2,014"
           },
           {
             "key": "Reaction score",
@@ -512,7 +512,7 @@
       },
       "id": 1090129,
       "date": "2009-03-14T23:15:46+0000",
-      "text": "Wow.<br /><script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script class=\"js-extraPhrases\" type=\"application/json\">{\"lightbox_close\": \"Close\",\"lightbox_next\": \"Next\",\"lightbox_previous\": \"Previous\",\"lightbox_error\": \"The requested content cannot be loaded. Please try again later.\",\"lightbox_start_slideshow\": \"Start slideshow\",\"lightbox_stop_slideshow\": \"Stop slideshow\",\"lightbox_full_screen\": \"Full screen\",\"lightbox_thumbnails\": \"Thumbnails\",\"lightbox_download\": \"Download\",\"lightbox_share\": \"Share\",\"lightbox_zoom\": \"Zoom\",\"lightbox_new_window\": \"New window\",\"lightbox_toggle_sidebar\": \"Toggle sidebar\"}</script><div class=\"bbImageWrapper  js-lbImage\" title=\"270913946_efa38ec3d8.jpg\"data-src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2F270913946_efa38ec3d8.jpg&amp;hash=a66e8c3a18680d0cef232458d2eb51cb\" data-lb-sidebar-href=\"\" data-lb-caption-extra-html=\"\" data-single-image=\"1\"><img src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2F270913946_efa38ec3d8.jpg&amp;hash=a66e8c3a18680d0cef232458d2eb51cb\"data-url=\"http://www.roflcat.com/images/cats/270913946_efa38ec3d8.jpg\"class=\"bbImage\"data-zoom-target=\"1\"style=\"\"alt=\"270913946_efa38ec3d8.jpg\"title=\"\"width=\"\" height=\"\" loading=\"lazy\" /></div>",
+      "text": "Wow.<br /> <script data-cfasync=\"false\" src=\"/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js\"></script><script class=\"js-extraPhrases\" type=\"application/json\"> { \"lightbox_close\": \"Close\", \"lightbox_next\": \"Next\", \"lightbox_previous\": \"Previous\", \"lightbox_error\": \"The requested content cannot be loaded. Please try again later.\", \"lightbox_start_slideshow\": \"Start slideshow\", \"lightbox_stop_slideshow\": \"Stop slideshow\", \"lightbox_full_screen\": \"Full screen\", \"lightbox_thumbnails\": \"Thumbnails\", \"lightbox_download\": \"Download\", \"lightbox_share\": \"Share\", \"lightbox_zoom\": \"Zoom\", \"lightbox_new_window\": \"New window\", \"lightbox_toggle_sidebar\": \"Toggle sidebar\" } </script> <div class=\"bbImageWrapper js-lbImage\" title=\"270913946_efa38ec3d8.jpg\" data-src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2F270913946_efa38ec3d8.jpg&amp;hash=a66e8c3a18680d0cef232458d2eb51cb\" data-lb-sidebar-href=\"\" data-lb-caption-extra-html=\"\" data-single-image=\"1\"> <img src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2F270913946_efa38ec3d8.jpg&amp;hash=a66e8c3a18680d0cef232458d2eb51cb\" data-url=\"http://www.roflcat.com/images/cats/270913946_efa38ec3d8.jpg\" class=\"bbImage\" data-zoom-target=\"1\" style=\"\" alt=\"270913946_efa38ec3d8.jpg\" title=\"\" width=\"\" height=\"\" loading=\"lazy\" /> </div>",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -521,7 +521,7 @@
       "user": "Galkon",
       "user_link": "https://rune-server.org/members/galkon.49265/",
       "user_id": 49265,
-      "user_avatar": "https://rune-server.org/data/avatars/m/49/49265.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/49/49265.jpg?1719863838",
       "user_title": "Retired. Stop PMing me.",
       "user_banners": [],
       "user_extras": {
@@ -555,11 +555,11 @@
           },
           {
             "key": "Messages",
-            "value": "7,520"
+            "value": "7,515"
           },
           {
             "key": "Reaction score",
-            "value": "925"
+            "value": "922"
           },
           {
             "key": "Points",
@@ -569,7 +569,7 @@
       },
       "id": 1090207,
       "date": "2009-03-14T23:45:59+0000",
-      "text": "Stickied. By far one of the most important threads in this section, especially for people starting from scratch.<br /><br />Very nice super_",
+      "text": "Stickied. By far one of the most important threads in this section, especially for people starting from scratch.<br /> <br /> Very nice super_",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -578,7 +578,7 @@
       "user": "Riedell",
       "user_link": "https://rune-server.org/members/riedell.60943/",
       "user_id": 60943,
-      "user_avatar": "https://rune-server.org/data/avatars/m/60/60943.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/60/60943.jpg?1719863887",
       "user_title": "",
       "user_banners": [],
       "user_extras": {
@@ -610,7 +610,7 @@
       },
       "id": 1091155,
       "date": "2009-03-15T11:51:04+0000",
-      "text": "Excellent guide super. Thanks for contributing for this guide <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite66\" alt=\":)\" title=\":)    :)\" loading=\"lazy\" data-shortname=\":)\" />.",
+      "text": "Excellent guide super. Thanks for contributing for this guide <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite66\" alt=\":)\" title=\":) :)\" loading=\"lazy\" data-shortname=\":)\" />.",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -619,7 +619,7 @@
       "user": "Vastiko",
       "user_link": "https://rune-server.org/members/vastiko.134957/",
       "user_id": 134957,
-      "user_avatar": "https://rune-server.org/data/avatars/m/134/134957.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/134/134957.jpg?1719864614",
       "user_title": "&nbsp;",
       "user_banners": [],
       "user_extras": {
@@ -646,7 +646,7 @@
           },
           {
             "key": "Messages",
-            "value": "5,699"
+            "value": "5,698"
           },
           {
             "key": "Reaction score",
@@ -660,7 +660,7 @@
       },
       "id": 1093044,
       "date": "2009-03-16T07:31:58+0000",
-      "text": "Very good :d<br /><br />As stated by Luke132 in another Thread, chatText updating is not required by the person actually saying it.",
+      "text": "Very good :d<br /> <br /> As stated by Luke132 in another Thread, chatText updating is not required by the person actually saying it.",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -688,7 +688,7 @@
       "user": "veer",
       "user_link": "https://rune-server.org/members/veer.56309/",
       "user_id": 56309,
-      "user_avatar": "https://rune-server.org/data/avatars/m/56/56309.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/56/56309.jpg?1719863869",
       "user_title": "Renown Programmer",
       "user_banners": [],
       "user_extras": {
@@ -714,7 +714,7 @@
           },
           {
             "key": "Messages",
-            "value": "3,746"
+            "value": "3,745"
           },
           {
             "key": "Reaction score",
@@ -728,7 +728,7 @@
       },
       "id": 1094368,
       "date": "2009-03-17T00:07:44+0000",
-      "text": "thx guys, glad to see you like it <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite7\" alt=\":p\" title=\"Stick out tongue    :p\" loading=\"lazy\" data-shortname=\":p\" />",
+      "text": "thx guys, glad to see you like it <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite7\" alt=\":p\" title=\"Stick out tongue :p\" loading=\"lazy\" data-shortname=\":p\" />",
       "attachments": [],
       "signature": "",
       "reactions": [
@@ -744,7 +744,7 @@
       "user": "cube",
       "user_link": "https://rune-server.org/members/cube.46194/",
       "user_id": 46194,
-      "user_avatar": "https://rune-server.org/data/avatars/m/46/46194.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/46/46194.jpg?1719863827",
       "user_title": "<font face=\"size=1\">SERGEANT OF THE MASTER SERGEANTS MOST IMPORTANT PERSON OF EXTREME SERGEANTS TO THE MAX!</font>",
       "user_banners": [],
       "user_extras": {
@@ -789,11 +789,11 @@
           },
           {
             "key": "Messages",
-            "value": "8,864"
+            "value": "8,853"
           },
           {
             "key": "Reaction score",
-            "value": "1,221"
+            "value": "1,214"
           },
           {
             "key": "Points",
@@ -803,7 +803,7 @@
       },
       "id": 1101027,
       "date": "2009-03-20T13:54:02+0000",
-      "text": "Very interesting.. <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite2\" alt=\";)\" title=\"Wink    ;)\" loading=\"lazy\" data-shortname=\";)\" />",
+      "text": "Very interesting.. <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite2\" alt=\";)\" title=\"Wink ;)\" loading=\"lazy\" data-shortname=\";)\" />",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -812,7 +812,7 @@
       "user": "Luke132",
       "user_link": "https://rune-server.org/members/luke132.52489/",
       "user_id": 52489,
-      "user_avatar": "https://rune-server.org/data/avatars/m/52/52489.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/52/52489.jpg?1719863865",
       "user_title": "Community Veteran",
       "user_banners": [],
       "user_extras": {
@@ -857,11 +857,11 @@
           },
           {
             "key": "Messages",
-            "value": "12,558"
+            "value": "12,556"
           },
           {
             "key": "Reaction score",
-            "value": "3,488"
+            "value": "3,508"
           },
           {
             "key": "Points",
@@ -871,7 +871,7 @@
       },
       "id": 1101032,
       "date": "2009-03-20T14:01:47+0000",
-      "text": "Top thread super_ <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite73\" alt=\"(y)\" title=\"(y)    (y)\" loading=\"lazy\" data-shortname=\"(y)\" />",
+      "text": "Top thread super_ <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite73\" alt=\"(y)\" title=\"(y) (y)\" loading=\"lazy\" data-shortname=\"(y)\" />",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -893,7 +893,7 @@
           },
           {
             "key": "Messages",
-            "value": "697"
+            "value": "694"
           },
           {
             "key": "Reaction score",
@@ -907,7 +907,7 @@
       },
       "id": 1122849,
       "date": "2009-03-30T04:42:50+0100",
-      "text": "in 530 +<br /><br />jagex replaced the normal 7 unsigned shorts(word)<br /><br />    *  Standing still<br />    * Turning while standing<br />    * Walking<br />    * Turning around (backwards)<br />    * Turning a quarter-way clockwise<br />    * Turning a quarter-way counter clockwise<br />    * Running<br /><br />with one short written as ima use the term word<br /><br />writeWord(1426);",
+      "text": "in 530 +<br /> <br /> jagex replaced the normal 7 unsigned shorts(word)<br /> <br /> * Standing still<br /> * Turning while standing<br /> * Walking<br /> * Turning around (backwards)<br /> * Turning a quarter-way clockwise<br /> * Turning a quarter-way counter clockwise<br /> * Running<br /> <br /> with one short written as ima use the term word<br /> <br /> writeWord(1426);",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -929,7 +929,7 @@
           },
           {
             "key": "Messages",
-            "value": "697"
+            "value": "694"
           },
           {
             "key": "Reaction score",
@@ -943,7 +943,7 @@
       },
       "id": 1126659,
       "date": "2009-04-01T01:54:37+0100",
-      "text": "<blockquote data-attributes=\"\" data-quote=\"XAFBX\" data-source=\"post: 1122857\"class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"><div class=\"bbCodeBlock-title\"><a href=\"/goto/post?id=1122857\"class=\"bbCodeBlock-sourceJump\"rel=\"nofollow\"data-xf-click=\"attribution\"data-content-selector=\"#post-1122857\">XAFBX said:</a></div><div class=\"bbCodeBlock-content\"><div class=\"bbCodeBlock-expandContent js-expandContent \">Nobody cares about your 530+ crap please gtfo.</div><div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div></div></blockquote><br />your a ****** lol, i was informing him that the protocol did change, just because you wish to be ignorant doesnt mean everybody else does.",
+      "text": "<blockquote data-attributes=\"\" data-quote=\"XAFBX\" data-source=\"post: 1122857\" class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"> <div class=\"bbCodeBlock-title\"> <a href=\"/goto/post?id=1122857\" class=\"bbCodeBlock-sourceJump\" rel=\"nofollow\" data-xf-click=\"attribution\" data-content-selector=\"#post-1122857\">XAFBX said:</a> </div> <div class=\"bbCodeBlock-content\"> <div class=\"bbCodeBlock-expandContent js-expandContent \"> Nobody cares about your 530+ crap please gtfo. </div> <div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div> </div> </blockquote><br /> your a ****** lol, i was informing him that the protocol did change, just because you wish to be ignorant doesnt mean everybody else does.",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -952,7 +952,7 @@
       "user": "Leanbow",
       "user_link": "https://rune-server.org/members/leanbow.79864/",
       "user_id": 79864,
-      "user_avatar": "https://rune-server.org/data/avatars/m/79/79864.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/79/79864.jpg?1719863995",
       "user_title": "&amp;#1053;&amp;#1086;&amp;#1084;&amp;#1077;&amp;#1088; 1",
       "user_banners": [],
       "user_extras": {
@@ -985,7 +985,7 @@
           },
           {
             "key": "Messages",
-            "value": "5,882"
+            "value": "5,869"
           },
           {
             "key": "Reaction score",
@@ -1061,7 +1061,7 @@
       "user": "G0nzo",
       "user_link": "https://rune-server.org/members/g0nzo.98254/",
       "user_id": 98254,
-      "user_avatar": "https://rune-server.org/data/avatars/m/98/98254.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/98/98254.jpg?1719864097",
       "user_title": "",
       "user_banners": [],
       "user_extras": {
@@ -1089,7 +1089,7 @@
           },
           {
             "key": "Messages",
-            "value": "4,959"
+            "value": "4,958"
           },
           {
             "key": "Reaction score",
@@ -1112,7 +1112,7 @@
       "user": "'Mystic Flow",
       "user_link": "https://rune-server.org/members/mystic-flow.49508/",
       "user_id": 49508,
-      "user_avatar": "https://rune-server.org/data/avatars/m/49/49508.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/49/49508.jpg?1719863838",
       "user_title": "Hi.",
       "user_banners": [],
       "user_extras": {
@@ -1148,7 +1148,7 @@
           },
           {
             "key": "Messages",
-            "value": "7,146"
+            "value": "7,138"
           },
           {
             "key": "Reaction score",
@@ -1162,7 +1162,7 @@
       },
       "id": 1653768,
       "date": "2009-11-16T02:37:34+0000",
-      "text": "Omg I needed this! Ty Bro <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite51\" alt=\"&lt;3\" title=\"&lt;3    &lt;3\" loading=\"lazy\" data-shortname=\"&lt;3\" />!",
+      "text": "Omg I needed this! Ty Bro <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite51\" alt=\"&lt;3\" title=\"&lt;3 &lt;3\" loading=\"lazy\" data-shortname=\"&lt;3\" />!",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -1208,7 +1208,7 @@
       },
       "id": 2254779,
       "date": "2010-09-09T07:58:50+0100",
-      "text": "<script class=\"js-extraPhrases\" type=\"application/json\">{\"lightbox_close\": \"Close\",\"lightbox_next\": \"Next\",\"lightbox_previous\": \"Previous\",\"lightbox_error\": \"The requested content cannot be loaded. Please try again later.\",\"lightbox_start_slideshow\": \"Start slideshow\",\"lightbox_stop_slideshow\": \"Stop slideshow\",\"lightbox_full_screen\": \"Full screen\",\"lightbox_thumbnails\": \"Thumbnails\",\"lightbox_download\": \"Download\",\"lightbox_share\": \"Share\",\"lightbox_zoom\": \"Zoom\",\"lightbox_new_window\": \"New window\",\"lightbox_toggle_sidebar\": \"Toggle sidebar\"}</script><div class=\"bbImageWrapper  js-lbImage\" title=\"thumb_I_kno_I_cant_reed.jpg\"data-src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2Fthumb_I_kno_I_cant_reed.jpg&amp;hash=6ad94508ddb5a26b993d5c79c0c58f52\" data-lb-sidebar-href=\"\" data-lb-caption-extra-html=\"\" data-single-image=\"1\"><img src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2Fthumb_I_kno_I_cant_reed.jpg&amp;hash=6ad94508ddb5a26b993d5c79c0c58f52\"data-url=\"http://www.roflcat.com/images/cats/thumb_I_kno_I_cant_reed.jpg\"class=\"bbImage\"data-zoom-target=\"1\"style=\"\"alt=\"thumb_I_kno_I_cant_reed.jpg\"title=\"\"width=\"\" height=\"\" loading=\"lazy\" /></div><br /><br />Nice document thingy, just try to make it a little more spaced out? <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite7\" alt=\":p\" title=\"Stick out tongue    :p\" loading=\"lazy\" data-shortname=\":p\" />",
+      "text": "<script class=\"js-extraPhrases\" type=\"application/json\"> { \"lightbox_close\": \"Close\", \"lightbox_next\": \"Next\", \"lightbox_previous\": \"Previous\", \"lightbox_error\": \"The requested content cannot be loaded. Please try again later.\", \"lightbox_start_slideshow\": \"Start slideshow\", \"lightbox_stop_slideshow\": \"Stop slideshow\", \"lightbox_full_screen\": \"Full screen\", \"lightbox_thumbnails\": \"Thumbnails\", \"lightbox_download\": \"Download\", \"lightbox_share\": \"Share\", \"lightbox_zoom\": \"Zoom\", \"lightbox_new_window\": \"New window\", \"lightbox_toggle_sidebar\": \"Toggle sidebar\" } </script> <div class=\"bbImageWrapper js-lbImage\" title=\"thumb_I_kno_I_cant_reed.jpg\" data-src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2Fthumb_I_kno_I_cant_reed.jpg&amp;hash=6ad94508ddb5a26b993d5c79c0c58f52\" data-lb-sidebar-href=\"\" data-lb-caption-extra-html=\"\" data-single-image=\"1\"> <img src=\"/proxy.php?image=http%3A%2F%2Fwww.roflcat.com%2Fimages%2Fcats%2Fthumb_I_kno_I_cant_reed.jpg&amp;hash=6ad94508ddb5a26b993d5c79c0c58f52\" data-url=\"http://www.roflcat.com/images/cats/thumb_I_kno_I_cant_reed.jpg\" class=\"bbImage\" data-zoom-target=\"1\" style=\"\" alt=\"thumb_I_kno_I_cant_reed.jpg\" title=\"\" width=\"\" height=\"\" loading=\"lazy\" /> </div><br /> <br /> Nice document thingy, just try to make it a little more spaced out? <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite7\" alt=\":p\" title=\"Stick out tongue :p\" loading=\"lazy\" data-shortname=\":p\" />",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -1253,7 +1253,7 @@
       },
       "id": 2355773,
       "date": "2010-11-07T10:55:46+0000",
-      "text": "Thank you very much super_. We should have a library for documents like this <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite66\" alt=\":)\" title=\":)    :)\" loading=\"lazy\" data-shortname=\":)\" /> They are very helpful.",
+      "text": "Thank you very much super_. We should have a library for documents like this <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite66\" alt=\":)\" title=\":) :)\" loading=\"lazy\" data-shortname=\":)\" /> They are very helpful.",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -1394,7 +1394,7 @@
       },
       "id": 2524771,
       "date": "2011-02-23T19:11:51+0000",
-      "text": "Thanks, super_.<br />I really needed an explanation on the player updating protocol!<br />Rep++.",
+      "text": "Thanks, super_.<br /> I really needed an explanation on the player updating protocol!<br /> Rep++.",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -1403,7 +1403,7 @@
       "user": "kLeptO",
       "user_link": "https://rune-server.org/members/klepto.21690/",
       "user_id": 21690,
-      "user_avatar": "https://rune-server.org/data/avatars/m/21/21690.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/21/21690.jpg?1719863788",
       "user_title": "Respected Member",
       "user_banners": [],
       "user_extras": {
@@ -1432,11 +1432,11 @@
           },
           {
             "key": "Messages",
-            "value": "2,954"
+            "value": "2,947"
           },
           {
             "key": "Reaction score",
-            "value": "419"
+            "value": "416"
           },
           {
             "key": "Points",
@@ -1455,7 +1455,7 @@
       "user": "God",
       "user_link": "https://rune-server.org/members/god.156139/",
       "user_id": 156139,
-      "user_avatar": "https://rune-server.org/data/avatars/m/156/156139.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/156/156139.jpg?1719865013",
       "user_title": "#packeting",
       "user_banners": [],
       "user_extras": {
@@ -1506,7 +1506,7 @@
       "user": "veer",
       "user_link": "https://rune-server.org/members/veer.56309/",
       "user_id": 56309,
-      "user_avatar": "https://rune-server.org/data/avatars/m/56/56309.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/56/56309.jpg?1719863869",
       "user_title": "Renown Programmer",
       "user_banners": [],
       "user_extras": {
@@ -1532,7 +1532,7 @@
           },
           {
             "key": "Messages",
-            "value": "3,746"
+            "value": "3,745"
           },
           {
             "key": "Reaction score",
@@ -1562,7 +1562,7 @@
       "user": "Jesse",
       "user_link": "https://rune-server.org/members/jesse.113206/",
       "user_id": 113206,
-      "user_avatar": "https://rune-server.org/data/avatars/m/113/113206.jpg",
+      "user_avatar": "https://cdn.rune-server.org/avatars/m/113/113206.jpg?1719913777",
       "user_title": "Registered Wizard",
       "user_banners": [],
       "user_extras": {
@@ -1593,11 +1593,11 @@
           },
           {
             "key": "Messages",
-            "value": "5,114"
+            "value": "5,095"
           },
           {
             "key": "Reaction score",
-            "value": "888"
+            "value": "879"
           },
           {
             "key": "Points",
@@ -1607,7 +1607,7 @@
       },
       "id": 3070951,
       "date": "2012-01-08T21:24:25+0000",
-      "text": "<blockquote data-attributes=\"member: 56309\" data-quote=\"super_\" data-source=\"post: 3053921\"class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"><div class=\"bbCodeBlock-title\"><a href=\"/goto/post?id=3053921\"class=\"bbCodeBlock-sourceJump\"rel=\"nofollow\"data-xf-click=\"attribution\"data-content-selector=\"#post-3053921\">super_ said:</a></div><div class=\"bbCodeBlock-content\"><div class=\"bbCodeBlock-expandContent js-expandContent \">this is terrible plz don't use this</div><div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div></div></blockquote><br />You should fix it up then <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite66\" alt=\":)\" title=\":)    :)\" loading=\"lazy\" data-shortname=\":)\" />",
+      "text": "<blockquote data-attributes=\"member: 56309\" data-quote=\"super_\" data-source=\"post: 3053921\" class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"> <div class=\"bbCodeBlock-title\"> <a href=\"/goto/post?id=3053921\" class=\"bbCodeBlock-sourceJump\" rel=\"nofollow\" data-xf-click=\"attribution\" data-content-selector=\"#post-3053921\">super_ said:</a> </div> <div class=\"bbCodeBlock-content\"> <div class=\"bbCodeBlock-expandContent js-expandContent \"> this is terrible plz don't use this </div> <div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div> </div> </blockquote><br /> You should fix it up then <img src=\"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7\" class=\"smilie smilie--sprite smilie--sprite66\" alt=\":)\" title=\":) :)\" loading=\"lazy\" data-shortname=\":)\" />",
       "attachments": [],
       "signature": "",
       "reactions": []

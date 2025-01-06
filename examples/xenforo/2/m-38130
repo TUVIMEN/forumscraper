@@ -1,10 +1,10 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://rune-server.org/members/blakeman8192.38130/?tooltip=true&_xfWithData=1&_xfToken=1721397658,ce7fe68c49e7e6feafa8504e88a94120&_xfResponseType=json",
+  "url": "https://rune-server.org/members/blakeman8192.38130/?tooltip=true&_xfWithData=1&_xfToken=1736169490,fa02d4f1cd925f832b9205204eff7a70&_xfResponseType=json",
   "id": 38130,
   "background": "",
   "location": "",
-  "avatar": "https://rune-server.org/data/avatars/m/38/38130.jpg",
+  "avatar": "https://cdn.rune-server.org/avatars/m/38/38130.jpg",
   "title": "brb ridin da storm",
   "banners": [],
   "name": "blakeman8192",
@@ -16,11 +16,11 @@
     },
     {
       "key": "Last seen",
-      "value": "2022-07-14T18:13:41+0100"
+      "value": "2024-10-30T22:18:24+0000"
     },
     {
       "key": "Messages",
-      "value": "2,012"
+      "value": "2,014"
     },
     {
       "key": "Reputation score",

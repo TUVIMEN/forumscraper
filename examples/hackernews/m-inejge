@@ -1,0 +1,2272 @@
+{
+  "format_version": "hackernews-user",
+  "url": "https://news.ycombinator.com/user?id=inejge",
+  "id": "inejge",
+  "created-timestamp": "1651247020",
+  "user": "inejge",
+  "created-date": "April 29, 2022",
+  "karma": 182,
+  "about": "",
+  "submissions-link": "https://news.ycombinator.com/submitted?id=inejge",
+  "comments-link": "https://news.ycombinator.com/threads?id=inejge",
+  "favorites-link": "https://news.ycombinator.com/favorites?id=inejge",
+  "submissions": [],
+  "comments": [
+    {
+      "id": 42397546,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-12-12T09:10:52 1733994652",
+      "onstory": {
+        "name": "Dear OAuth Providers",
+        "link": "https://news.ycombinator.com/item?id=42388870"
+      },
+      "text": "<i>People talking about API design: zillions of good discussions online, papers written, standards created, thousands of hours of talks at dev conferences, heated debates that nearly venture into philosophy.<p>People implementing APIs: return a 200 response for everything, even an error ¯\\_(ツ)_&#x2F;¯</i><p>Those two are not contradictory; the latter <i>is</i> firmly on the side of the debate which treats HTTP strictly as transport, and considers mapping RPC errors to HTTP errors as a layering violation, inviting ambiguity and semantic mismatches. FWIW, I also subscribe to that view for RPC-shaped requests. If you receive a 200, you know that the request went through to the API server, and didn&#x27;t become sidetracked on the HTTP level."
+    },
+    {
+      "id": 42398477,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Croftengea",
+        "name": "Croftengea"
+      },
+      "date": "2024-12-12T12:05:56 1734005156",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Also, the OAuth RFC does not use &quot;MUST&quot; for 400 response and allows some freedom in this regard:<p>&gt; The authorization server responds with an HTTP 400 (Bad Request) status code (unless specified otherwise)<p><a href=\"https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc6749#section-5.2\" rel=\"nofollow\">https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc6749#section-5.2</a>"
+    },
+    {
+      "id": 42402038,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=chamomeal",
+        "name": "chamomeal"
+      },
+      "date": "2024-12-12T18:48:00 1734029280",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That’s fair, I picked a bad example from the linked article. GitHub is actually pretty good. But if you’ve done any digging around LinkedIn&#x2F;twitter&#x2F;Reddit’s API, you’ll know that there are many many quirks that will pop up and cost you days of frustration. Quirks that are <i>not</i> inspired by any particular design philosophy, unless that philosophy is “let’s fuck with our users” lmao"
+    },
+    {
+      "id": 42360150,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-12-08T20:31:54 1733689914",
+      "onstory": {
+        "name": "UnitedHealth's Effort to Deny Coverage for a Patie...",
+        "link": "https://news.ycombinator.com/item?id=42357720"
+      },
+      "text": "&gt; No one knows why the CEO was killed.<p>Whatever the shooter&#x27;s motive was, you can&#x27;t deny that the public mood is ugly. There was scarcely any sympathy for Thompson, just an avalanche of gleeful mockery and complaints about healthcare claim handling. The problems are widespread enough that having someone snap because, say, their parents&#x27; claims have been denied, is completely believable."
+    },
+    {
+      "id": 42360256,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mrangle",
+        "name": "mrangle"
+      },
+      "date": "2024-12-08T20:43:47 1733690627",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": ""
+    },
+    {
+      "id": 42360326,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cyberax",
+        "name": "cyberax"
+      },
+      "date": "2024-12-08T20:52:45 1733691165",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; The gleeful mockery is largely from anonymous accounts. I remember when the same type of thing was attributed to &quot;Russian bots&quot; after the 2016 election.<p>I worked in medical-adjacent areas for a decade. I dated a doctor, and I asked him what people feel in his hospital about that.<p>He said that basically NOBODY has any sympathy for this CEO. The most concern is at the level of &quot;we shouldn&#x27;t condone murders&quot;. And you don&#x27;t see even uglier statements because people are very much aware of medical ethics boards.<p>And that&#x27;s an opinion from a highly-paid medical professional."
+    },
+    {
+      "id": 42360382,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mrangle",
+        "name": "mrangle"
+      },
+      "date": "2024-12-08T20:59:10 1733691550",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": ""
+    },
+    {
+      "id": 42360884,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sangnoir",
+        "name": "sangnoir"
+      },
+      "date": "2024-12-08T21:47:54 1733694474",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Thompson is not responsible for the existence of the insurance industry<p>Surely he bears <i>some</i> responsibility for making UHC the worst to deal with and the having the highest rejection rate?<p>&gt; What I do see is a strong push by media ...<p>Why would the media push a narrative against any executive if it wasn&#x27;t already part of the zeitgeist? The media has consistently exhibited strong class solidarity in my experience.<p>&gt; Doctors well-know this, and they become doctors knowing this.<p>I&#x27;m sure you are aware that doctors are not a monolith. Gp is not making things up: I&#x27;ll second them with the less-than-sorrowful response elicited by the news of the CEOs demise among administrative staff in my circles (who know how the industry works and what role is performs)<p>&gt; The Media last sympathized with and incited murderous violence in the 2020 election period.<p>Gee, I wonder if the public discontent the media and politicians tapped into in 2020 has abated or gotten worse since. It appears you refuse to acknowledge that a huge fraction of the population is unhappy with the status quo across the world (see number of governments voted out). That America has a populist president-elect isn&#x27;t surprising"
+    },
+    {
+      "id": 42361409,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mrangle",
+        "name": "mrangle"
+      },
+      "date": "2024-12-08T22:47:16 1733698036",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt;Surely he bears some responsibility for making UHC the worst to deal with and the having the highest rejection rate?<p>If so, and barring subjectivity and narrative, then not responsibility with a penalty of death. Very obviously.<p>&gt;Why would the media push a narrative against any executive if it wasn&#x27;t already part of the zeitgeist? The media has consistently exhibited strong class solidarity in my experience.<p>Extrajudicial murder and domestic terrorism are part of the zeitgeist of most people? This is your claim?<p>This is some kind of new standard for a stupid statement. Aside from you being wrong in more than one aspect, I&#x27;m not going to debate your sense of media class loyalty. Which you are wrong about in a multifaceted manner.<p>The fact is that they are pushing the narrative. It&#x27;s in black and white.<p>&gt;I&#x27;m sure you are aware that doctors are not a monolith. Gp is not making things up: I&#x27;ll second them with the less-than-sorrowful response elicited by the news of the CEOs demise among administrative staff in my circles (who know how the industry works and what role is performs)<p>I didn&#x27;t say that they were. But they are largely, monolithically not insane, not murderer adjacent, and not domestic terrorist adjacent.<p>Your appeal to authority stories are either total bs or aberrations full of people that should probably be surveilled by law enforcement.<p>&gt;Gee, I wonder if the public discontent the media and politicians tapped into in 2020 has abated or gotten worse since. It appears you refuse to acknowledge that a huge fraction of the population is unhappy with the status quo across the world (see number of governments voted out). That America has a populist president-elect isn&#x27;t surprising<p>Trump supporters are not remotely supportive of this, barring fringe crazies and false identities.<p>The media didn&#x27;t &quot;tap into&quot; anything in 2020. They wound-up a vast quasi-criminal underclass and organized domestic terrorists for nine months, and over thirty murders of innocents, running up to an election for a candidate that they were on a war-footing against for the four years prior.<p>They gave tacit and even direct permission to riot, and political cover for the riots, which is all that these criminals need in any given timeframe to carry out domestic terrorism and extrajudicial murders.<p>Now they&#x27;re at it again, right after another election.<p>People who sympathize with this type of thing are, at the least, domestic terrorism adjacent. If not directly supportive.<p>You should be monitored."
+    },
+    {
+      "id": 42361602,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sangnoir",
+        "name": "sangnoir"
+      },
+      "date": "2024-12-08T23:19:44 1733699984",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Trump supporters are not remotely supportive of this<p>So, the guys who brought&#x2F;assembled gallows to the capital and were chanting &quot;Hang Mike Pence&quot; are not supportive of extrajudicial killings? We&#x27;re not on the same plane of existence, you and I.<p>&gt; People who sympathize with this type of thing are, at the least, domestic terrorism adjacent<p>I remember a chyron at a national convention stating &quot;We are all domestic terrorists&quot; - perhaps stoking that flame was not a great idea now, was it? What&#x27;s your take on those who refuse to take any action on mass shootings at schools?<p>&gt; You should be monitored.<p>You&#x27;d love that, wouldn&#x27;t you? The Stasi would be proud. Establishing a police state with dragnet surveillance is a <i>fantastic</i> tool for fighting disaffection and will surely improve morale."
+    },
+    {
+      "id": 42360554,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cyberax",
+        "name": "cyberax"
+      },
+      "date": "2024-12-08T21:17:23 1733692643",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I believe you might be in your own bubble.<p>Most people quite obviously don&#x27;t want to incite violence, but at the same time, doctors can&#x27;t get much sympathy for this particular CEO."
+    },
+    {
+      "id": 42360620,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mrangle",
+        "name": "mrangle"
+      },
+      "date": "2024-12-08T21:23:51 1733693031",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;m not, and doctors are plenty sympathetic because most are plenty normal. You and your supposed friend are objectively deranged."
+    },
+    {
+      "id": 42361020,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=arcbyte",
+        "name": "arcbyte"
+      },
+      "date": "2024-12-08T22:01:17 1733695277",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You&#x27;re in a bubble. Four of my family members are in the medical business plus three friends. Two are doctors. Only one person has expressed sympathy and that was for the family. The rest were exactly as OP described: we don&#x27;t condone murders, they hope this person is brought to justice, but they don&#x27;t <i>feel</i> any sympathy. Emphasis on the the emotion there - no disgust, no sadness, no sympathy. Just a logical recognition that they don&#x27;t condone this."
+    },
+    {
+      "id": 42360792,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=orwin",
+        "name": "orwin"
+      },
+      "date": "2024-12-08T21:39:57 1733693997",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Honestly, between Gaza, Israel, Ukraine, Yemen, Ethiopia, RDC&#x2F;rwanda, and the various weather event who killed thousands, my available empathy is gone. Nothing i can do. I gave money and time for a decade, nothing ever improve.<p>You know what i first thought when i heard this story? &quot;At least he didn&#x27;t shoot a hospital&quot;. You know what my second thought on this? &quot;I hope there is enough hero worshiping for this killer so that mass shooters try their hand at murdering CEO instead, at least it&#x27;s a single victim&quot; (that is also because 2 days prior, a friend i&#x27;ve met in a youth hostel a few years back was involved in a mass shooting around Chicago).<p>I won&#x27;t participate in the hero worship, i despise all killers. But still, am i the only one who had those thoughts?"
+    },
+    {
+      "id": 42360514,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bigfatkitten",
+        "name": "bigfatkitten"
+      },
+      "date": "2024-12-08T21:12:38 1733692358",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; There&#x27;s massive sympathy for Thompson.<p>From whom?<p>Other than LinkedIn posts from his fellow travellers in the health insurance industry, significant public expression of sympathy is hard to find."
+    },
+    {
+      "id": 42360544,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mrangle",
+        "name": "mrangle"
+      },
+      "date": "2024-12-08T21:15:52 1733692552",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt;From whom?<p>Everyone who doesn&#x27;t sympathize with violent political extremism.<p>In other words everyone who isn&#x27;t a bot, isn&#x27;t on any number of watchlists, isn&#x27;t terminally online, isn&#x27;t a drug addled crazy, or isn&#x27;t one of the media that exists to stir them up for political purpose."
+    },
+    {
+      "id": 42360801,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Freedom2",
+        "name": "Freedom2"
+      },
+      "date": "2024-12-08T21:40:21 1733694021",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Everyone<p>My parents are none of whom you listed yet they do not have &quot;massive sympathy&quot; for this CEO. Perhaps &quot;everyone&quot; is inaccurate?"
+    },
+    {
+      "id": 42360964,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bigfatkitten",
+        "name": "bigfatkitten"
+      },
+      "date": "2024-12-08T21:56:01 1733694961",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "So everyone who messaged you privately in support of your position?"
+    },
+    {
+      "id": 42360879,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=emeril",
+        "name": "emeril"
+      },
+      "date": "2024-12-08T21:47:29 1733694449",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "where&#x27;s your evidence of this massive sympathy?<p>I bet even his own family isn&#x27;t too sad about this - most C-Levels I&#x27;ve worked with are grade A psychopaths whose family doesn&#x27;t care for them besides money<p>this guy is probably moderately responsible for a significant amount of needless suffering and death"
+    },
+    {
+      "id": 42342151,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-12-06T17:49:43 1733507383",
+      "onstory": {
+        "name": "The Problem with Sci-Fi Body Armor",
+        "link": "https://news.ycombinator.com/item?id=42279951"
+      },
+      "text": "<i>Art design in the movie &quot;Alien&quot; (was it Ron Cobb?) borrowed from samurai armor for the space suits.</i><p>I thought it was Moebius (alias Jean Giraud) who designed the Alien spacesuits? E.g., see [1]. (Perhaps he did borrow bits of samurai armor styling, I&#x27;m not disputing that.)<p>[1] <a href=\"https:&#x2F;&#x2F;filmsketchr.blogspot.com&#x2F;2013&#x2F;04&#x2F;alien-concept-art-by-jean-henri-gaston.html\" rel=\"nofollow\">https:&#x2F;&#x2F;filmsketchr.blogspot.com&#x2F;2013&#x2F;04&#x2F;alien-concept-art-b...</a>"
+    },
+    {
+      "id": 42346339,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=JKCalhoun",
+        "name": "JKCalhoun"
+      },
+      "date": "2024-12-07T01:10:53 1733533853",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks for clarifying. I suppose I could have Googled before posting. ;-)"
+    },
+    {
+      "id": 41942529,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-10-25T05:42:45 1729834965",
+      "onstory": {
+        "name": "Never Missing the Train Again",
+        "link": "https://news.ycombinator.com/item?id=41923753"
+      },
+      "text": "&gt; Maybe I&#x27;m not understanding the use case. I don&#x27;t want to &quot;take the train&quot;.<p>The use case is routine. A lot of people, most of the time, do indeed want to &quot;take the train&quot;. Heroic feats of real-time planning have their place, and it&#x27;s great to have tools that help you with that, but routine can be covered with much simpler tools just as well.<p>Even in the Tokyo scenario you gave (which is fascinating -- thank you!) Google gives 30-40 min. for most public transit options, so for rough planning they&#x27;re all equivalent. Taxi is faster, and bicycle is almost at par."
+    },
+    {
+      "id": 41942548,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nox101",
+        "name": "nox101"
+      },
+      "date": "2024-10-25T05:47:01 1729835221",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "never met that person. as someone that has long lived in cities with amazing transportation (sf is not one of those with good transportation) there are too many options and people always want whatever is best now, not routine.<p>you&#x27;re out drinking - which mode is last. you&#x27;re on the east side of X, which route is closest. you&#x27;re tired, does any route guauntee a seat. etc....<p>Berlin, London, Paris, Tokyo, Singapore, Kyoto, Osaka. All this way . there is no &quot;one train&quot;"
+    },
+    {
+      "id": 41943769,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=michaelt",
+        "name": "michaelt"
+      },
+      "date": "2024-10-25T09:59:44 1729850384",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<i>&gt; never met that person.</i><p>Hello! Now you have.<p>In many cities certain parts of the transit network follow a star &#x2F; hub-and-spoke layout. The station nearest to my house is on a spoke, and has trains going south and those going north. So for me, an in-home train display only really needs to show the next train in each direction.<p>And a lot of transit decisions are conditional on things the planning app doesn&#x27;t know. Am I comfortable riding a hire bike, appropriately dressed, and carrying a helmet? Do I already have a return ticket for the light rail making it the obvious choice? Am I the kind of person who enjoys a brisk 20 minute walk?<p>Combine that with the fact that the multimodal transit apps don&#x27;t understand fares, and I find it&#x27;s simpler to just start the taxi app if you need a taxi."
+    },
+    {
+      "id": 41944128,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=throwaway290",
+        "name": "throwaway290"
+      },
+      "date": "2024-10-25T11:12:09 1729854729",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Combine that with the fact that the multimodal transit apps don&#x27;t understand fares<p>Kakao Maps will give you exact timing and fares for every mode except air<p>&gt; In many cities certain parts of the transit network follow a star &#x2F; hub-and-spoke layout<p>Yeah those who live on a spoke and mostly go back and forth that spoke are a minority because the farthter away from the center the more space between the spokes:)"
+    },
+    {
+      "id": 41945333,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=reportgunner",
+        "name": "reportgunner"
+      },
+      "date": "2024-10-25T13:55:52 1729864552",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I feel like the OP is overcomplicating the solution, I don&#x27;t own a car and all commuting is basically either:<p>- bus&#x2F;train&#x2F;tram crosses my stop 5 times a day - its trivial to learn the 5 times<p>- bus&#x2F;train&#x2F;tram crosses my stop more than 5 times a day - i just show up at the stop and wait<p>Perhaps my point of view is like this because I&#x27;m in Europe, I can&#x27;t tell really."
+    },
+    {
+      "id": 41949920,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=danhor",
+        "name": "danhor"
+      },
+      "date": "2024-10-25T21:22:26 1729891346",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Even though most times my train comes every 15 Minutes (and in other places even every 5), I still check for: Disruptions and I try to catch the train exactly. I often get on the platform a minute before the train departs and rarely miss it."
+    },
+    {
+      "id": 41969659,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=iggldiggl",
+        "name": "iggldiggl"
+      },
+      "date": "2024-10-28T10:35:37 1730111737",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Are you sure you didn&#x27;t mean 5 times per <i>hour</i>? Turn up and go for a six times a <i>day</i> service seems a bit optimistic :-)"
+    },
+    {
+      "id": 41948069,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Fargren",
+        "name": "Fargren"
+      },
+      "date": "2024-10-25T18:23:08 1729880588",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I would find this slightly useful, I live in Madrid. For most of my trips I take the metro; I have two lines nearby, and they are frequent enough that I just show up. But there are a few parts of town that are just not well connected to my place by metro. If I want to go to Atocha, Cibeles or Piramides, the bus is better. But I have three buses that take me to each of those places, and they show up every 25 minutes. If I&#x27;m going there, I want to know which stop will have a bus soonest."
+    },
+    {
+      "id": 41955671,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nohup2",
+        "name": "nohup2"
+      },
+      "date": "2024-10-26T16:12:59 1729959179",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I also live in Madrid. Many years ago, wrote a bash script that downloaded the real time data for the bus stop nearest to home from the EMT website and read out loud the minutes for the next bus with festival. We had a keyboard next to the couch, many keys were shortcuts to execute commands like that one. So it was a matter of pushing a key and listening."
+    },
+    {
+      "id": 41915055,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-10-22T15:09:12 1729609752",
+      "onstory": {
+        "name": "An amateur historian has discovered a long-lost sh...",
+        "link": "https://news.ycombinator.com/item?id=41905664"
+      },
+      "text": "<i>I once read a great foreword to a novel lamenting the loss of &quot;good bad books&quot;, citing Dracula as an example.</i><p>It&#x27;s an article&#x2F;essay by George Orwell (actually titled <i>Good Bad Books</i>), available online."
+    },
+    {
+      "id": 41923305,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=red369",
+        "name": "red369"
+      },
+      "date": "2024-10-23T09:19:08 1729675148",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks - it is too! I saw that when searching, but dismissed it as not what i remembered. Your comment made me take a closer look."
+    },
+    {
+      "id": 41796287,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-10-10T06:56:23 1728543383",
+      "onstory": {
+        "name": "Why Gov.uk's Exit this Page component doesn't use ...",
+        "link": "https://news.ycombinator.com/item?id=41793597"
+      },
+      "text": "If yours is the only tab, &quot;close tab&quot; will usually close the whole window, potentially leaving you with an empty desktop. Being caught staring at nothing would be suspicious in the situations where &quot;exit page&quot; is supposed to be used. The weather page is comparatively innocuous. (Until the word gets around...)"
+    },
+    {
+      "id": 41800081,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eviks",
+        "name": "eviks"
+      },
+      "date": "2024-10-10T15:47:14 1728575234",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; staring at nothing would be suspicious in the situations where &quot;exit page&quot; is supposed to be used.<p>This is actually not true. Having a browser opened leads to the thought of &quot;let&#x27;s check the previous page&#x2F;browser history&quot; easier (since the browser is right there to remind you) than a situation of &quot;oh, I&#x27;ve just logged in&quot; or the activity of doing anything else leads to the thought of having to check a browser"
+    },
+    {
+      "id": 41797849,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=_qua",
+        "name": "_qua"
+      },
+      "date": "2024-10-10T11:42:09 1728560529",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Anyone who is smart enough to use this weird triple shift key shortcut is intelligent enough to preload a different site in another tab and use the close tab shortcut. I would guess there is almost complete venn diagram overlap between people who can learn this weird shortcut and people who can deal with this threat in any other way using normal browser functions."
+    },
+    {
+      "id": 41796448,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eviks",
+        "name": "eviks"
+      },
+      "date": "2024-10-10T07:28:44 1728545324",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "First, you wouldn&#x27;t be staring at nothing, you&#x27;d be reopening the browser &#x2F; opening Solitaire or something<p>But also a better way would be to ask the user to open a second tab (or another app) so that it&#x27;s not the only tab&#x2F;app.<p>Still beats remembering a unique shortcut."
+    },
+    {
+      "id": 41799404,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jdiff",
+        "name": "jdiff"
+      },
+      "date": "2024-10-10T14:47:37 1728571657",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Time is of the essence when you&#x27;re hitting an escape shortcut. That&#x27;s why this component blanks the page immediately, then loads the decoy, there can be no delay even for the browser to tear down the page as it fetches the next. If you have enough time to just go and open Solitaire, you have no need for an escape button.<p>If you are with someone who cannot know what you are doing, who has appeared suddenly, you are quickly closing what you&#x27;re doing and, yes, you will be looking at a blank page without some sort of escape mechanism like this. And if it&#x27;s sudden and unexpected, you might not have been anticipating needing to pop open some decoys.<p>This seems like a complete misunderstanding of the situation."
+    },
+    {
+      "id": 41800043,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eviks",
+        "name": "eviks"
+      },
+      "date": "2024-10-10T15:43:44 1728575024",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "If time is of the essence, why are you wasting it requiring 3 key presses and a site load? It take longer to do that vs a single shortcut, and is more visible (pages don&#x27;t load immediately)<p>&gt; If you have enough time to just go and open Solitaire, you have no need for an escape button.<p>You don&#x27;t have enough time to complete that, you do that not to appear just staring at a blank screen. Activity of opening Solitaire is enough in itself.<p>&gt; who cannot know what you are doing,<p>which is easier achieved when the browser is closed vs. when a browser is opened, since in the latter case it&#x27;s easier to think about checking &quot;previous&quot; browser history<p>&gt; This seems like a complete misunderstanding of the situation.<p>Indeed, so much so that this overengineered-but-underthought solution has none of the supposed benefits under the conditions people come up with to defend it"
+    },
+    {
+      "id": 41800768,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jdiff",
+        "name": "jdiff"
+      },
+      "date": "2024-10-10T16:51:12 1728579072",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "At this point I have to assume that this is willful. You are continuing to ignore things that have been addressed by both myself in my last comment and the article. I invite you to read the article more deeply and look into the actual research backing these UI patterns if you are genuinely struggling to understand."
+    },
+    {
+      "id": 41807338,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eviks",
+        "name": "eviks"
+      },
+      "date": "2024-10-11T08:05:41 1728633941",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Likewise I assume you have no arguments left, so &quot;have to&quot; resort to the meta &quot;read more&quot; and imaginary research"
+    },
+    {
+      "id": 41808062,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jdiff",
+        "name": "jdiff"
+      },
+      "date": "2024-10-11T10:09:59 1728641399",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "And I&#x27;d advise against thinking that you that you have thought of things within 5 minutes that, inexplicably, researched, data-backed experts have missed so easily. That&#x27;s a mindset that does not lend itself to intellectual growth.<p>In almost all cases, it&#x27;s not just so obvious that the experts in a field are so misguided. It&#x27;s that there is complexity and depth that is not perceivable at a glance."
+    },
+    {
+      "id": 41808196,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eviks",
+        "name": "eviks"
+      },
+      "date": "2024-10-11T10:34:04 1728642844",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The army of &quot;researched, data-backed experts&quot; behind you is imaginary. So instead of repeating the same appeal to an imaginary authority I&#x27;d advise you cite a single good UI research study where a slower site-specific shortcut is better that a more common faster one when &quot;time is of the essence&quot; (and whatever else you think is based on &quot;expert research&quot;)"
+    },
+    {
+      "id": 41528734,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-09-13T07:07:24 1726211244",
+      "onstory": {
+        "name": "The Strange Case of the Rogue HP-12c Calculator",
+        "link": "https://news.ycombinator.com/item?id=41524294"
+      },
+      "text": "<i>The original battery tech uses some sort of legendary toxic battery that is no longer permitted due to hazardous chemical regulations.</i><p>Alkaline button batteries used to contain mercury, which has been phased out in the last 20-25 years. The original Voyager line used 3 x LR44 (alkaline), but even then you could have replaced them with their less toxic silver-oxide equivalents. Today&#x27;s LR44 cells are mercury-free.<p>Later iterations of HP12C use 2 x CR2032, not because of any concerns about toxicity -- the 2032s were equally toxic -- but, I suspect, because the original battery controller was all custom HP silicon in some funky semi-analog process, which couldn&#x27;t survive when HP, along with the rest of the industry, fully succumbed to cost-cutting disease. Everything possible in the new calculators if off-the-shelf."
+    },
+    {
+      "id": 41528944,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fmajid",
+        "name": "fmajid"
+      },
+      "date": "2024-09-13T07:44:15 1726213455",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The original Voyager line used silicon-on-sapphire chips, which are extremely energy efficient. My 1987 vintage HP-15C is only on its third set of batteries. When they changed to a conventional CMOS process and emulated the original CPU on top of an ARM microcontroller the power drain went up."
+    },
+    {
+      "id": 41530526,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jasomill",
+        "name": "jasomill"
+      },
+      "date": "2024-09-13T12:23:03 1726230183",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I still use my two vintage 15Cs for simple calculations on a regular basis, and change the batteries every decade or so.<p>To be fair, lack of self-discharge in the battery chemistry has a lot to do with the long battery life; you can actually drain the batteries fairly quickly with long-running calculations."
+    },
+    {
+      "id": 41534673,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fmajid",
+        "name": "fmajid"
+      },
+      "date": "2024-09-13T20:12:12 1726258332",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;ve had other HPs (28C, 48SX, 48GX, 33S, 35S, 49G, 50G, Prime) but the 15C is the one I keep returning to, as anything more powerful really should be handled on a computer CAS like Mathics or Matlab-like environment like Octave instead."
+    },
+    {
+      "id": 41531875,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dn3500",
+        "name": "dn3500"
+      },
+      "date": "2024-09-13T15:01:52 1726239712",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "LR and CR cells don&#x27;t contain mercury and never have. The original 12c battery was a MR44. &#x27;L&#x27; is manganese alkaline, &#x27;C&#x27; is lithium, &#x27;M&#x27; is mercury."
+    },
+    {
+      "id": 41532817,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-09-13T16:37:25 1726245445",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "All those cells have a zinc anode, which used to be amalgamated with a small amount of mercury to prevent corrosion and leakage[1]. (Mercuric oxide batteries certainly contain even more.)<p>[1] <a href=\"https:&#x2F;&#x2F;www.epa.gov&#x2F;mercury&#x2F;mercury-batteries\" rel=\"nofollow\">https:&#x2F;&#x2F;www.epa.gov&#x2F;mercury&#x2F;mercury-batteries</a>"
+    },
+    {
+      "id": 41431563,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-09-03T05:26:36 1725341196",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "&gt; Hot take<p>Uh yeah it is. A writing system needs a flat surface, a writing implement, and a mind prepared to learn. If enough people think that the new alphabet is a good idea, fonts and layout engines will follow. For Adlam, they did. (Another invented system which took off indigenously: Cherokee syllabary[1].)<p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Cherokee_syllabary\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Cherokee_syllabary</a>"
+    },
+    {
+      "id": 41357383,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-08-26T14:20:38 1724682038",
+      "onstory": {
+        "name": "Olivetti Programma 101: At the Origins of the Pers...",
+        "link": "https://news.ycombinator.com/item?id=41351009"
+      },
+      "text": "The Valentine is famous among the designers, but the truly popular model is the Lettera 22[1]: many journalists and writers, famous or not, used it, and of course it had a hipster revival. (Also a beautiful machine.)<p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Olivetti_Lettera_22\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Olivetti_Lettera_22</a>"
+    },
+    {
+      "id": 41022550,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-07-21T05:14:58 1721538898",
+      "onstory": {
+        "name": "Initial details about why CrowdStrike's CSAgent.sy...",
+        "link": "https://news.ycombinator.com/item?id=41021366"
+      },
+      "text": "<i>The glaring question is how and why it was rolled out everywhere all at once?</i><p>Because the point of these updates is to be rolled out quickly and globally. It wasn&#x27;t a system&#x2F;driver update, but a data file update: think antivirus signature file. (Yes, I know it can get complicated, and that AV signatures can be dynamic... not the point here.)<p>Why those data updates skipped validity testing at the source is another question, and one that CrowdStrike better be prepared to answer; but the tempo of redistribution can&#x27;t be changed."
+    },
+    {
+      "id": 41022732,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=maeil",
+        "name": "maeil"
+      },
+      "date": "2024-07-21T05:52:11 1721541131",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "A customer should be able to test an update, whether a signature file or literally any kind of update, before rolling it out to production systems. Anything else is madness. Being &quot;vulnerable&quot; for an extra few hours carries less risk than auto-updates (of any kind) on production systems. As we&#x27;ve seen here. If you can point to hard evidence to the contrary, where many companies were saved just in time because of a signature update and would have been exploited if they&#x27;d waited a few hours, I&#x27;d love to read about it. It would have to have happened on a rather large scale for all of the instances combined to have had a larger positive impact than this single instance."
+    },
+    {
+      "id": 41022730,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Brybry",
+        "name": "Brybry"
+      },
+      "date": "2024-07-21T05:51:49 1721541109",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "But is there a need for quick global releases?<p>Is it realistic that there&#x27;s a threat actor that will be attacking every computer on the whole planet at once?<p>I can understand that it&#x27;s most practical to update <i>everyone</i> when pushing an update to protect <i>a few</i> actively under attack but I can also imagine policies where that isn&#x27;t how it&#x27;s done, while still getting urgent updates to those under attack."
+    },
+    {
+      "id": 41023161,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=padjo",
+        "name": "padjo"
+      },
+      "date": "2024-07-21T07:19:15 1721546355",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Is there a need? Maybe, possibly, depends on circumstances.<p>Is this what people are paying CS for? Absolutely."
+    },
+    {
+      "id": 41023476,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=RowanH",
+        "name": "RowanH"
+      },
+      "date": "2024-07-21T08:37:51 1721551071",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "After this I imagine there will be an option &quot;do you want updates immediately, or updates when released - n, or n+2, n+6, n+24, n+48 hrs?&quot;<p>Given the choice I bet there&#x27;s going to be surprisingly large number of orgs go &quot;we&#x27;ll take n+24hrs thanks&quot;"
+    },
+    {
+      "id": 40959056,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-07-14T05:26:57 1720934817",
+      "onstory": {
+        "name": "No reasonable expectation of privacy in one's Goog...",
+        "link": "https://news.ycombinator.com/item?id=40958458"
+      },
+      "text": "I don&#x27;t think that actual history supports that assertion. 30 years ago, cellular networks were really taking off and people were starting to use mobile phones en masse. Always on, pinging the base stations, delivering that data to equally sociopathic and beholden carriers. The public was not up in arms.<p>What&#x27;s changed in the meantime, aside from the richness and granularity of location data, is awareness of the potential for the abuse of it all, supported by well-publicized incidents. Which is a good thing; the public is quite tolerant of invisible machinations, as long as they remain distant and abstract."
+    },
+    {
+      "id": 40961498,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ramses0",
+        "name": "ramses0"
+      },
+      "date": "2024-07-14T15:30:08 1720971008",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "No. The _ability_ to exploit it &quot;en-masse&quot; didn&#x27;t exist 30 years ago. Random dell advertisement shows 16mb RAM (max 64mb), and 450mb HD. <a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;nostalgia&#x2F;comments&#x2F;49o9tm&#x2F;dell_optiplex_magazine_advertisement_from_1994&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;nostalgia&#x2F;comments&#x2F;49o9tm&#x2F;dell_opti...</a><p>Keep in mind, these are Mb, not Gb!<p>Nowadays with a raspberry pi and a 128gb SD card you can go to town on &quot;all location data for the last year for all American cell phones&quot;.<p>Back in 1994, even coordinating reliable central writes of all that location data would have been extraordinarily complicated, and there was not yet a panopticon appetite that would attempt the endeavor without a heavily funded psychopath behind it.<p>As &quot;we the industry&quot; have gotten more capable (and comfortable) processing huge quantities of data (eg: post map-reduce), and the hardware requirements have fallen to &quot;my cell phone could compute it in an hour&quot;, the risk has increased tremendously.<p>Same story with muskets, cannons and tanks vs AK-47&#x27;s. &quot;Gun Control&quot; in the musket era is materially different than an era of AK-47&#x27;s and drones. Same with data processing."
+    },
+    {
+      "id": 40961680,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Brian_K_White",
+        "name": "Brian_K_White"
+      },
+      "date": "2024-07-14T16:03:54 1720973034",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Well, in the musket era, private individuals owned ships with canons that could reach right into the middles of cities."
+    },
+    {
+      "id": 40844066,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-07-01T09:34:29 1719826469",
+      "onstory": {
+        "name": "Boeing Agrees to Buy Spirit AeroSystems, a Longtim...",
+        "link": "https://news.ycombinator.com/item?id=40842794"
+      },
+      "text": "<i>Both companies produce around 550 commercial units a year.</i><p>From the 2023 Airbus annual report[1]: ...deliveries rise 11% to 735 aircraft. So in 2022 it would&#x27;ve been 660. Quite a bit more than 550.<p>[1] <a href=\"https:&#x2F;&#x2F;www.airbus.com&#x2F;en&#x2F;investors&#x2F;financial-results-annual-reports&#x2F;2023-airbus-annual-report\" rel=\"nofollow\">https:&#x2F;&#x2F;www.airbus.com&#x2F;en&#x2F;investors&#x2F;financial-results-annual...</a>"
+    },
+    {
+      "id": 40714150,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-06-18T04:44:15 1718685855",
+      "onstory": {
+        "name": "Understanding SPF, DKIM, and DMARC: A Simple Guide",
+        "link": "https://news.ycombinator.com/item?id=40708476"
+      },
+      "text": "You don&#x27;t need public certificates for DKIM, it uses privately generated ones for as long as you want to keep them. (A security researcher recently found quite a few domains using weak DKIM keys generated by buggy Debian OpenSSL, more than fifteen years ago.)"
+    },
+    {
+      "id": 40714289,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nubinetwork",
+        "name": "nubinetwork"
+      },
+      "date": "2024-06-18T05:20:28 1718688028",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I could swear at one point you needed one, but I just half-setup opendkim and it generated one without me needing to make one by hand... when I get around to updating the DNS on my personal domains, I guess I&#x27;ll see how things turn out."
+    },
+    {
+      "id": 40437608,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-05-22T05:24:57 1716355497",
+      "onstory": {
+        "name": "The curious case of the missing period",
+        "link": "https://news.ycombinator.com/item?id=40432102"
+      },
+      "text": "When your debugger is telnet circa 1980, non-printable characters are a liability. (You pay for it later, when people who&#x27;ve never seen &quot;...end with &lt;CRLF&gt;.&lt;CRLF&gt;&quot; botch the implementation.)"
+    },
+    {
+      "id": 40316077,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-05-10T06:51:10 1715323870",
+      "onstory": {
+        "name": "Polestar eliminates the rear window in latest elec...",
+        "link": "https://news.ycombinator.com/item?id=40315551"
+      },
+      "text": "&gt; the world&#x27;s first mass-market car to have no rear window<p>Tatra 87[1] would like a word. I&#x27;m sure there are more if you&#x27;re versed in automotive history.<p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Tatra_87\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Tatra_87</a>"
+    },
+    {
+      "id": 40060661,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-04-17T05:08:57 1713330537",
+      "onstory": {
+        "name": "Boeing's problems has cost United $200M in Q1 2024",
+        "link": "https://news.ycombinator.com/item?id=40058291"
+      },
+      "text": "<i>They&#x27;re basically leaving a lot of money on the table by not being able to fill orders faster.</i><p>Yes, and in times past Boeing was leaving a lot of money on the table by doing things in-house, employing a unionized workforce and applying more stringent quality control. Not everything is an opportunity for expansion, and aircraft manufacturing is famously capital-intensive and slow to build up.<p>Airbus recently added another A321 assembly line -- by repurposing its idle A380 construction hangar. There&#x27;s a cautionary tale for you, if you&#x27;re aware of history."
+    },
+    {
+      "id": 39875962,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-03-30T15:47:35 1711813655",
+      "onstory": {
+        "name": "Brilliant Pebbles (2001)",
+        "link": "https://news.ycombinator.com/item?id=39874066"
+      },
+      "text": "The same Lowell Wood whose group dreamed up the Brilliant Pebbles concept later came up with a return-to-the-Moon&#x2F;Mars exploration scheme using some zany technology, including inflatable spacecraft, which the critics proceeded to name &quot;Brilliant Condoms&quot;."
+    },
+    {
+      "id": 39879725,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Intralexical",
+        "name": "Intralexical"
+      },
+      "date": "2024-03-30T23:36:33 1711841793",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Transhab is kinda still around (or at least was until the pandemic), and even has a fully functional package hooked up to the ISS:<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;TransHab\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;TransHab</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bigelow_Expandable_Activity_Module\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bigelow_Expandable_Activity_Mo...</a><p>Image sequence of it inflating in space:<p><a href=\"https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:BEAM_module_expansion_series.jpg\" rel=\"nofollow\">https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:BEAM_module_expansio...</a>"
+    },
+    {
+      "id": 39876274,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pfdietz",
+        "name": "pfdietz"
+      },
+      "date": "2024-03-30T16:26:31 1711815991",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Was that the scheme that used the rocket engine with piston pumps?"
+    },
+    {
+      "id": 39877280,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=keepamovin",
+        "name": "keepamovin"
+      },
+      "date": "2024-03-30T18:20:59 1711822859",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "An excellent bit of trivia!<p>As if spacecraft particulary Rocketships weren’t phallic enough already"
+    },
+    {
+      "id": 39776615,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-03-21T09:56:10 1711014970",
+      "onstory": {
+        "name": "Redis adopts dual source-available licensing",
+        "link": "https://news.ycombinator.com/item?id=39772562"
+      },
+      "text": "<i>Sure, it&#x27;s not OSI-OSS, but what does that mean for the world, in practical terms?</i><p>One practical consequence: Linux distributions will drop the new Redis, and ship its OSS fork or an alternative protocol-compatible cache. Or perhaps continue with the pre-license-change version for a while, which is a kind of fork. What was the relatively simple &quot;apt install redis&quot; will now be &quot;apt install freeredis&quot; or &quot;apt install awesome-cache&quot; or &quot;apt install redis73&quot;. So you will have churn.<p>I don&#x27;t have an idea how many installations are via the official docker image; they won&#x27;t change, but even there now you have a legal risk, however tiny: will Redis Inc. come after us for our usage? Legal departments are allergic to risk: witness their aversion to GPL variants, especially GPLv3 and AGPL. So perhaps there will be pressure to avoid Redis, again causing churn."
+    },
+    {
+      "id": 39677874,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-03-12T10:20:01 1710238801",
+      "onstory": {
+        "name": "Tell HN: NetworkSolutions.com lost the ability to ...",
+        "link": "https://news.ycombinator.com/item?id=39673213"
+      },
+      "text": "<i>OP is running one or more DNS servers, and wants to have &quot;vanity&quot; nameservers for their domain (e.g. ns1&#x2F;ns2.example.com for example.com, rather than ns1&#x2F;ns2.theirhostingprovider.net). This is generally inadvisable, but it&#x27;s their prerogative.</i><p>Eh, since when is having in-bailiwick name servers not advisable? Is it stated in some BCP or draft? In-bailiwick servers and glue records have been standard practice as long as DNS existed."
+    },
+    {
+      "id": 39679339,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=LinuxBender",
+        "name": "LinuxBender"
+      },
+      "date": "2024-03-12T13:38:52 1710250732",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Adding to this if I am not running my own nameservers I can not watch DNS requests to see how bots are evolving. I sometimes take evasive maneuvers to trip up the bots. Some ... <i>well most</i> ... would say I should be using Cloudflare for such things but I am not even going to write up a blog on why I will not. I run my own servers for anything I can and then my hobby is to play blue team with the bots and skiddies. I can&#x27;t do that with other peoples nameservers."
+    },
+    {
+      "id": 39589551,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-03-04T12:22:00 1709554920",
+      "onstory": {
+        "name": "A woman named \"Steve\" – IT pioneer, entrepreneur, ...",
+        "link": "https://news.ycombinator.com/item?id=39585527"
+      },
+      "text": "<i>Liz Truss then took the title of second female PM in UK history</i><p>Theresa May never happened?"
+    },
+    {
+      "id": 39598023,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=comprev",
+        "name": "comprev"
+      },
+      "date": "2024-03-05T00:37:11 1709599031",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Dammit how did I miss her!? She got handed the poisoned chalice by Cameron..."
+    },
+    {
+      "id": 39590751,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=me_me_me",
+        "name": "me_me_me"
+      },
+      "date": "2024-03-04T14:16:25 1709561785",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "lets face it both are forgettable"
+    },
+    {
+      "id": 39591285,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dukeyukey",
+        "name": "dukeyukey"
+      },
+      "date": "2024-03-04T15:02:00 1709564520",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You _want_ a forgetttable politician. I don&#x27;t really agree with Theresa May&#x27;s general politics, but she&#x27;s a competent politician who knows what the job entails.<p>Liz Truss was _definitely_ not forgettable."
+    },
+    {
+      "id": 39602386,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=me_me_me",
+        "name": "me_me_me"
+      },
+      "date": "2024-03-05T12:19:15 1709641155",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "they are both a memes, not noteworthy for anything but making UK slightly worse than when they started (like all tories). &#x27;I voted against brexit so here I come to implementing it&#x27; Theresa, and &#x27;I did not last longer than lettuce&#x27; Liz.<p>Maggie fucked UKs middle and lower class so spectacularly that she is actually remembered."
+    },
+    {
+      "id": 39452540,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-02-21T11:27:50 1708514870",
+      "onstory": {
+        "name": "The lifespan of large appliances is shrinking",
+        "link": "https://news.ycombinator.com/item?id=39449713"
+      },
+      "text": "&quot;Substantially&quot; is doing a lot of work there, and &quot;last updated in 2019&quot; means half a decade out of date. It&#x27;s a fun modeling exercise: how much do you need to reduce durability in order to make people spend 40%+ more on replacements (in constant dollars, I suppose)? I&#x27;m pretty sure that the members of the Association for Home Appliance Manufacturers have created that model, but they&#x27;re not going to share it with the public. If the answer is a few percent, disregarding the last five years, they&#x27;re not strictly lying. Just not telling you the whole truth."
+    },
+    {
+      "id": 39448352,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-02-20T23:28:11 1708471691",
+      "onstory": {
+        "name": "Ask HN: How many of you Apple developers still use...",
+        "link": "https://news.ycombinator.com/item?id=39442296"
+      },
+      "text": "<i>Do you expect people to periodically repeat failed experiments just so they can provide you with up to date information?</i><p>Not OP, and I for one don&#x27;t, but noting the age of the reported experience would be valuable. I have also noticed the &quot;stale cache&quot; problem. It leads to confusion and misunderstanding."
+    },
+    {
+      "id": 39400498,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-02-16T17:53:22 1708106002",
+      "onstory": {
+        "name": "Smoking has long-term effects on the immune system",
+        "link": "https://news.ycombinator.com/item?id=39397817"
+      },
+      "text": "<i>Some people have had serious lung damage due to vaping.</i><p>If that&#x27;s a reference to a spate of &quot;popcorn lung&quot; cases of THC vapers, where it&#x27;s suspected that the juice was laced with vitamin E, you might as well say that Tylenol is deadly because someone once spiked it with cyanide†. Don&#x27;t put junk in the juice, regulate the ingredients. I&#x27;m saying this as a non-vaper and non-smoker, if it makes any difference.<p>†I know, I know, acetaminophen _is_ deadly is you overdose on it. That&#x27;s not what I&#x27;m talking about here."
+    },
+    {
+      "id": 39400662,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mil22",
+        "name": "mil22"
+      },
+      "date": "2024-02-16T18:04:21 1708106661",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Some, but not all [1]: &quot;... the remaining 17% reported using only nicotine-containing vaping products... It is believed that the non-THC&#x2F;CBD vapers who were diagnosed with EVALI were actually suffering from disparate vaping-associated lung diseases caused by different toxins within the aerosols or different host responses to the inhalants.&quot;<p>Note that many of the toxic chemicals referred to in this paper are normal components of nicotine vape juice, including but not limited to the flavorings, so the comparison to spiking Tylenol with cyanide is not particularly apt.<p>[1] <a href=\"https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC10228557&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC10228557&#x2F;</a>"
+    },
+    {
+      "id": 39401525,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-02-16T19:05:46 1708110346",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The comparison to Tylenol spiking is perfectly apt if you consider the whole category of toxic adulterants as the noxious agent. (I know that THC&#x2F;vit-E wasn&#x27;t the totality of cases. You can only go so far without drowning in pedantry.) Moreover, it seems to have been a very North American phenomenon. Europe is quite vape-mad and you can count the number of vape-related lung injuries on one hand."
+    },
+    {
+      "id": 39399927,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-02-16T17:15:53 1708103753",
+      "onstory": {
+        "name": "Forgetting the history of Unix is coding us into a...",
+        "link": "https://news.ycombinator.com/item?id=39396685"
+      },
+      "text": "<i>Your web developer knows nothing of how to write ABAP, your SAP developer has no clue how to do embedded programming for a microcontroller, your real-time embedded programmer knows nothing of databases, your database admin thinks React is something to do with nuclear power plants.</i><p>40 years ago: your physicist knows nothing of how to write RPG, your mainframe developer has no clue how to do embedded programming for a microcontroller, your real-time embedded programmer knows nothing of databases, your database admin wouldn&#x27;t touch FORTRAN with a ten-foot pole.<p>... Which is to say, I don&#x27;t really buy it. Or rather, I don&#x27;t think that specialization is a recent phenomenon. It <i>is</i> true that the personal computing market consisted of comparatively simpler machines, which allowed for greater breadth of understanding."
+    },
+    {
+      "id": 39351191,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-02-12T22:05:55 1707775555",
+      "onstory": {
+        "name": "The myth of big salaries (it's all marketing)",
+        "link": "https://news.ycombinator.com/item?id=39349175"
+      },
+      "text": "<i>flying first class, flying charted, leasing a jet, owning a jet</i><p>Perhaps counterintuitively, going from first class to charter&#x2F;leased flights is a safety downgrade. Search for accident statistics on the NTSB site and you&#x27;ll see that Part 135 flights (smaller aircraft, including business jets) have 3-4x the accident rates compared to Part 121 (large air carriers), arguably because Part 121 regulations are much more stringent. Here[1] is a very recent leased jet fatal accident, for example.<p>[1] <a href=\"https:&#x2F;&#x2F;www.usatoday.com&#x2F;story&#x2F;news&#x2F;nation&#x2F;2024&#x2F;02&#x2F;09&#x2F;plane-crash-i-75-naples-florida&#x2F;72542835007&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.usatoday.com&#x2F;story&#x2F;news&#x2F;nation&#x2F;2024&#x2F;02&#x2F;09&#x2F;plane-...</a>"
+    },
+    {
+      "id": 39351588,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lazide",
+        "name": "lazide"
+      },
+      "date": "2024-02-12T22:46:02 1707777962",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You pay for flexibility in multiple ways.<p>Private helicopters are only slightly safer than solo parachute jumps."
+    },
+    {
+      "id": 39359077,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ghaff",
+        "name": "ghaff"
+      },
+      "date": "2024-02-13T16:12:19 1707840739",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It&#x27;s really about flexibility. First class + airport lounges is pretty comfortable. But you&#x27;re still on someone else&#x27;s schedule."
+    },
+    {
+      "id": 39059823,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-01-19T19:22:46 1705692166",
+      "onstory": {
+        "name": "Atlas Air Boeing 747-8 from Miami International Ai...",
+        "link": "https://news.ycombinator.com/item?id=39055959"
+      },
+      "text": "There isn&#x27;t a single reason for a compressor stall, so neither there is a single possible outcome. The pilots are generally instructed to reduce power level until the surging stops; if the damage is too great that won&#x27;t help and the engine must be shut down. All passenger aircraft are certified to be fully controllable with an engine out, but having it happen is usually treated as an emergency. (With some notable exceptions like flight BA 268, look it up.)"
+    },
+    {
+      "id": 39024901,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-01-17T08:26:47 1705480007",
+      "onstory": {
+        "name": "The failure of self-checkout technology",
+        "link": "https://news.ycombinator.com/item?id=39011176"
+      },
+      "text": "I usually handle this by dumping the purchases back into the cart and bagging everything someplace to the side after paying.<p>Lidl is famous (or notorious) for its demon-speed cashiers, and they actually worked hard both to train them and to make packaging easier for the scanner to &quot;see&quot;[1]. I don&#x27;t see them implementing self-checkout soon.<p>[1] <a href=\"https:&#x2F;&#x2F;www.behance.net&#x2F;gallery&#x2F;114753219&#x2F;LIDL-Packaging-Guideline-Barcodes\" rel=\"nofollow\">https:&#x2F;&#x2F;www.behance.net&#x2F;gallery&#x2F;114753219&#x2F;LIDL-Packaging-Gui...</a>"
+    },
+    {
+      "id": 39026991,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wiredfool",
+        "name": "wiredfool"
+      },
+      "date": "2024-01-17T12:52:20 1705495940",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "There is self checkout in some lidl uk stores."
+    },
+    {
+      "id": 38981274,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2024-01-13T16:14:22 1705162462",
+      "onstory": {
+        "name": "Japan ANA Boeing 737-800 flight turns back due to ...",
+        "link": "https://news.ycombinator.com/item?id=38980171"
+      },
+      "text": "This made the news only because of Boeing&#x27;s current troubles with the MAX9. They richly deserve the scrutiny for <i>that</i> blunder, but cracked windshields on aircraft are not all that uncommon. A step above anecdotal, but if you go to the Aviation Herald and search for &quot;cracked windshield&quot;[1], the first page of results covers about a year and has sixty-something entries. About half are Boeing aircraft, but again, this is not rigorous, because Avherald doesn&#x27;t cover everything (but please, support them if you can; they are a great resource.)<p>[1] <a href=\"https:&#x2F;&#x2F;avherald.com&#x2F;h?search_term=cracked+windshield&amp;opt=0&amp;dosearch=1&amp;search.x=0&amp;search.y=0\" rel=\"nofollow\">https:&#x2F;&#x2F;avherald.com&#x2F;h?search_term=cracked+windshield&amp;opt=0&amp;...</a>"
+    },
+    {
+      "id": 38680101,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-12-18T07:42:43 1702885363",
+      "onstory": {
+        "name": "Mickey, Disney, and the public domain: A 95-year l...",
+        "link": "https://news.ycombinator.com/item?id=38678021"
+      },
+      "text": "He&#x27;s wearing dress gloves with a cutout and button closure. When closed, the cutout leaves a small opening, which is a bit stylized and exaggerated here."
+    },
+    {
+      "id": 38527366,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-12-05T05:14:00 1701753240",
+      "onstory": {
+        "name": "Common Rust Lifetime Misconceptions (2020)",
+        "link": "https://news.ycombinator.com/item?id=38525583"
+      },
+      "text": "<i>Non-lexical lifetimes are, in my experience, pretty uncommon in most non-library code.</i><p>To avoid confusing the newcomers: lifetimes are <i>always</i> non-lexical (see [1] for the pedantic details.) I suppose you meant that explicit lifetime <i>annotations</i> are pretty uncommon, which is not wrong.<p>[1] <a href=\"https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2022&#x2F;08&#x2F;05&#x2F;nll-by-default.html\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2022&#x2F;08&#x2F;05&#x2F;nll-by-default.html</a>"
+    },
+    {
+      "id": 38534510,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=packetlost",
+        "name": "packetlost"
+      },
+      "date": "2023-12-05T17:58:18 1701799098",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Oh yeah, wrong terminology. My bad!"
+    },
+    {
+      "id": 38435275,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-11-27T17:34:10 1701106450",
+      "onstory": {
+        "name": "Get started with technical writing",
+        "link": "https://news.ycombinator.com/item?id=38425907"
+      },
+      "text": "&gt; You get the devs to write<p>The plan gets foiled right here."
+    },
+    {
+      "id": 38436746,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nprateem",
+        "name": "nprateem"
+      },
+      "date": "2023-11-27T19:09:48 1701112188",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Make it part of PR reviews. These are org issues though, not AI issues."
+    },
+    {
+      "id": 37775018,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-10-05T04:52:17 1696481537",
+      "onstory": {
+        "name": "Pixel 8 Pro",
+        "link": "https://news.ycombinator.com/item?id=37766446"
+      },
+      "text": "They do, but they were also doing it before the phones were routinely designed to be waterproof, and I don&#x27;t recall an epidemic of water-related phone-killing incidents."
+    },
+    {
+      "id": 37776139,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=prmoustache",
+        "name": "prmoustache"
+      },
+      "date": "2023-10-05T08:28:16 1696494496",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "you don&#x27;t mind so much when it is a 50$ phone, a bit more on a 1100$ one. Not that I understand why anyone would pay more than 250$ in a smartphone really."
+    },
+    {
+      "id": 37777061,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=scarface_74",
+        "name": "scarface_74"
+      },
+      "date": "2023-10-05T11:02:43 1696503763",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Well since even the average Android phone’s selling price is $285 the last time I checked, maybe it says more about your lack of insight than anything else?"
+    },
+    {
+      "id": 37777378,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=prmoustache",
+        "name": "prmoustache"
+      },
+      "date": "2023-10-05T11:47:09 1696506429",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I don&#x27;t know, I have had company issued high end phones and apart from better camera quality[1] these devices weren&#x27;t doing things significantly better than my personal 240$ smartphone.<p>Also, generally people spend an awful lot of money on things out of vanity and social pressure, regardless of their needs and if it is a good decision. Look at new cars prices and how most vehicles purchases are usually overkill for everyone. The most sold car in the US are the Ford F series , Chevy Silverado and Dodge Ram trucks before a number of high end SUV. Sure people are free to buy whatever they want but a Honda Fit would be enough for large majority of them and be a smarter financial decision[2]. They mostly do it because they can, not because they need.<p>[1] which has become fairly decent for anyone accross all ranges in the last few years.<p>[2] I am not sure it is still sold in the US but I could have chosen another example of a smaller and more affordable vehicle."
+    },
+    {
+      "id": 37778599,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=scarface_74",
+        "name": "scarface_74"
+      },
+      "date": "2023-10-05T13:51:01 1696513861",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yes I’m sure 60% of Americans care about “social pressure” enough to buy a different phone. Trust me, my 80 year old mother doesn’t care about what TikTok influencers think.<p>Low end Android phones just plain suck when it comes to performance and battery life. Not to mention they rarely get operating system updates.<p>If you did force me to buy an Android phone, it would be the Pixel."
+    },
+    {
+      "id": 37778985,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=prmoustache",
+        "name": "prmoustache"
+      },
+      "date": "2023-10-05T14:22:25 1696515745",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Trust me, my 80 year old mother doesn’t care about what TikTok influencers think.<p>nor does she care about operating system updates."
+    },
+    {
+      "id": 37779708,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=scarface_74",
+        "name": "scarface_74"
+      },
+      "date": "2023-10-05T15:18:05 1696519085",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Actually she does. Once she saw that an old computer running an old version of Windows was no longer going to get updates, she stopped using it. She would be just as cautious about a phone that didn’t get updates"
+    },
+    {
+      "id": 37726609,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-10-01T15:06:25 1696172785",
+      "onstory": {
+        "name": "Many of today’s unhealthy foods were brought to yo...",
+        "link": "https://news.ycombinator.com/item?id=37723304"
+      },
+      "text": "<i>How long were these ancestors of ours living</i><p>Threescore years and ten, modulo infant mortality (which was horrific) and various accidents and injuries, easily fatal if the sepsis set in. You can find scholarly treatment by searching for the biblical phrase. That number wasn&#x27;t put there by accident."
+    },
+    {
+      "id": 37728169,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=n8henrie",
+        "name": "n8henrie"
+      },
+      "date": "2023-10-01T17:21:22 1696180882",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Also citation needed for a society &gt;= 500 years ago with life expectancy of 70 years, infant mortality excluded.<p>Sepsis, injuries, and diseases of adulthood should <i>not</i> be excluded, we&#x27;re talking about passing on of genes here."
+    },
+    {
+      "id": 37728098,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=n8henrie",
+        "name": "n8henrie"
+      },
+      "date": "2023-10-01T17:14:30 1696180470",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That is all beside the point of whether or not evolutionary pressures would optimize for longevity or for &quot;good enough for passing on genes.&quot;"
+    },
+    {
+      "id": 37296733,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-08-28T16:33:29 1693240409",
+      "onstory": {
+        "name": "CLI text processing with GNU awk",
+        "link": "https://news.ycombinator.com/item?id=37290356"
+      },
+      "text": "<i>what makes perl better for scripts?</i><p>Having an implicit line- and field-splitting loop for standard input with a couple of command-line switches. (Awk doesn&#x27;t even need switches, but is cumbersome if you need initial state.) This covers a <i>lot</i> of use-cases. Also, very compact and powerful regular expressions."
+    },
+    {
+      "id": 37020065,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-08-06T08:36:44 1691311004",
+      "onstory": {
+        "name": "Euros Bills Drawn Not to Represent Real Bridges. H...",
+        "link": "https://news.ycombinator.com/item?id=37019069"
+      },
+      "text": "Offensive and wrong? No, but choosing so few people from so many participating nations (and make no mistake, the EU is a lot looser conglomeration, even today, than the US) would be impossible without at least some hurt feelings. So fictional bridges is what you get, for peace and symbolism."
+    },
+    {
+      "id": 36499561,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-06-27T22:28:48 1687904928",
+      "onstory": {
+        "name": "Plane crash rates by model",
+        "link": "https://news.ycombinator.com/item?id=36498365"
+      },
+      "text": "ATRs had some design problems with ice accumulation[1] and are in certain ways quite unforgiving, but I suspect that the &quot;problem&quot; is their popularity with all kinds of smallish outfits whose training and maintenance are sometimes lacking. Case in point, this year&#x27;s Nepalese crash[2], where the airline is prohibited from operating in the EU, and the preliminary report indicates that the plane crashed because one of the pilots effectively deactivated the propellers instead of adjusting the flaps while descending, causing a stall.<p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;American_Eagle_Flight_4184\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;American_Eagle_Flight_4184</a><p>[2] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Yeti_Airlines_Flight_691\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Yeti_Airlines_Flight_691</a>"
+    },
+    {
+      "id": 36408025,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-06-20T18:05:12 1687284312",
+      "onstory": {
+        "name": "Filenames and pathnames in shell: How to do it cor...",
+        "link": "https://news.ycombinator.com/item?id=36388825"
+      },
+      "text": "The porting of PowerShell happened, Bash obsolescence is still uncertain."
+    },
+    {
+      "id": 36074501,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-05-25T18:49:06 1685040546",
+      "onstory": {
+        "name": "The US Might Be Only AA+",
+        "link": "https://news.ycombinator.com/item?id=36073957"
+      },
+      "text": "The linked article says it plainly: U.S. Treasuries are in a category of their own. But the facade of fair and uniform rules for all is important to keep, so everyone insists on the polite fiction of credit ratings. The cracks only appear when some external event, like the debt ceiling impasse, threatens to undermine that fiction."
+    },
+    {
+      "id": 36074969,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=debacle",
+        "name": "debacle"
+      },
+      "date": "2023-05-25T19:26:18 1685042778",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "2007&#x2F;2008 showed that there is incredible momentum in credit ratings, and that despite the &quot;rules&quot; there is a log scale relationship with rating, momentum, and risk.<p>The A&#x2F;B&#x2F;C rating system might be more of a disservice than a 0-100 scale."
+    },
+    {
+      "id": 36075502,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sudosysgen",
+        "name": "sudosysgen"
+      },
+      "date": "2023-05-25T20:09:11 1685045351",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "A quantitative scale is too easily backtested, criticized and compared, which means it would threaten the moat that these agencies rely on."
+    },
+    {
+      "id": 36075385,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=maxerickson",
+        "name": "maxerickson"
+      },
+      "date": "2023-05-25T19:59:50 1685044790",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "How is bad governance by the US government an external event for US treasuries?"
+    },
+    {
+      "id": 36004633,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-05-19T17:34:49 1684517689",
+      "onstory": {
+        "name": "DM32 – a modern take on the HP-32SII calculator",
+        "link": "https://news.ycombinator.com/item?id=35972359"
+      },
+      "text": "Keyboard layout is identical to 32SII, save for the orange-shifted SETUP above the ON key and an extra top row of blank keys, presumably for some kind of menu functions. Interesting indeed. The 32SII&#x27;s forte has always been pure number crunching, with most functions reachable with a couple of keypresses. It had a rather limited program memory, which this version can rectify.<p>Having a single battery shouldn&#x27;t preclude SRAM storage; there could be a small capacitor capable of preserving the contents for several minutes."
+    },
+    {
+      "id": 35958565,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-05-16T07:05:06 1684220706",
+      "onstory": {
+        "name": "My 20 year career is technical debt or deprecated",
+        "link": "https://news.ycombinator.com/item?id=35955336"
+      },
+      "text": "&gt; let &amp;mut writer = Writer&lt;T&gt;::writer::new(connection.clone()).clone(); &#x2F;&#x2F; TODO ??? writer.write(data.clone()).unwrap();<p>It&#x27;s not difficult to arrive at the caricature of baroque generic code if you combine lack of knowledge with miscommunication. The knowledgeable coworker should be aware that a writable object implements the Write trait, and know, or find out, the signature of the Write::write() method. Even fully generic, a function accepting a connection and returning the result of writing a block of data is not too gnarly:<p><pre><code> use std::io::{self, Write}; fn write_data&lt;W: Write, D: AsRef&lt;[u8]&gt;&gt;(connection: &amp;mut W, data: D) -&gt; io::Result&lt;usize&gt; { connection.write(data.as_ref()) } </code></pre> No unwraps, no clones. Because they&#x27;re not necessary here. But <i>someone</i> has to know the language and the idioms. Even your &quot;easy&quot; C++ code depends on knowing that write() returns zero on success, and that integers can play the role of booleans in conditions.*"
+    },
+    {
+      "id": 35959152,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-05-16T08:45:01 1684226701",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Eh, zero on failure, I suppose. The real write(2) syscall returns -1 on failure, and a non-negative value is the number of bytes actually written. But the general point still stands."
+    },
+    {
+      "id": 35959359,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sgtnoodle",
+        "name": "sgtnoodle"
+      },
+      "date": "2023-05-16T09:15:14 1684228514",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "When I wrote my hypothetical example, I was imagining the return type to be a bool. My apologies for overloading &quot;write&quot;, a more representative example function name would have been something like &quot;FooWrite&quot;. I appreciate your follow-up!<p>I totally agree with you that folk writing code need to understand the semantics of what they&#x27;re building on top of. Humans and now AI models have a great capacity for generating tons source code without understanding the semantics, though."
+    },
+    {
+      "id": 35337531,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-03-28T08:38:41 1679992721",
+      "onstory": {
+        "name": "Apple Detection of Flashing Lights",
+        "link": "https://news.ycombinator.com/item?id=35332531"
+      },
+      "text": "Apple has e-ink tablets? If you&#x27;re thinking of e-readers like Kindle, a) most devices released in the past ten years have muted page turns with little or no flashing, b) even on very old devices, a page turn is a single gray-black-gray transition occupying a small part of the visual field, which is very unlikely to trigger a photosensitive seizure."
+    },
+    {
+      "id": 34983760,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-03-01T16:00:52 1677686452",
+      "onstory": {
+        "name": "GitHub Packages Is Down",
+        "link": "https://news.ycombinator.com/item?id=34981929"
+      },
+      "text": "That&#x27;s being addressed with a new index protocol, specified a while ago[1], available for testing since the middle of the last year[2], and slated for release in a week&#x27;s time[3].<p>[1] <a href=\"https:&#x2F;&#x2F;rust-lang.github.io&#x2F;rfcs&#x2F;2789-sparse-index.html\" rel=\"nofollow\">https:&#x2F;&#x2F;rust-lang.github.io&#x2F;rfcs&#x2F;2789-sparse-index.html</a><p>[2] <a href=\"https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2022&#x2F;06&#x2F;22&#x2F;sparse-registry-testing.html\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;2022&#x2F;06&#x2F;22&#x2F;sparse-registry-testin...</a><p>[3] <a href=\"https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;inside-rust&#x2F;2023&#x2F;01&#x2F;30&#x2F;cargo-sparse-protocol.html\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.rust-lang.org&#x2F;inside-rust&#x2F;2023&#x2F;01&#x2F;30&#x2F;cargo-spar...</a>"
+    },
+    {
+      "id": 34695832,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-02-07T17:31:11 1675791071",
+      "onstory": {
+        "name": "U-Bahn station in Berlin is decorated with radioac...",
+        "link": "https://news.ycombinator.com/item?id=34691489"
+      },
+      "text": "The overlay gets that position wrong -- it&#x27;s µSv&#x2F;h (microsieverts, the transliterated legend is &quot;mkZv&#x2F;ch&quot;.) 11.37 mSv&#x2F;h would be a radiological incident. The Australian lost density gauge capsule from a couple of days ago was 2-5 mSv&#x2F;h."
+    },
+    {
+      "id": 34696252,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mrb",
+        "name": "mrb"
+      },
+      "date": "2023-02-07T17:55:54 1675792554",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Ah, that makes sense ! 11.37 µSv&#x2F;hour is only about 28 times higher than background radiation."
+    },
+    {
+      "id": 34549126,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-01-27T17:42:31 1674841351",
+      "onstory": {
+        "name": "Urgent public health warning issued over lost radi...",
+        "link": "https://news.ycombinator.com/item?id=34544709"
+      },
+      "text": "As usual, the press omits the technical specification of the radiation source, leaving one trying to deduce it from the roundabout descriptions in the article. Would it <i>kill</i> them to put something like &quot;a 37 MBq Cs-137 source&quot; somewhere? Granted, the WA Health press release is not too informative either, but at least it identifies the material.<p>(The X8 capsule from [1] is a dead ringer for the one described.)<p>[1] <a href=\"https:&#x2F;&#x2F;www.qsa-global.com&#x2F;industrial-cs-137-gamma-sources\" rel=\"nofollow\">https:&#x2F;&#x2F;www.qsa-global.com&#x2F;industrial-cs-137-gamma-sources</a>"
+    },
+    {
+      "id": 34549877,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Am4TIfIsER0ppos",
+        "name": "Am4TIfIsER0ppos"
+      },
+      "date": "2023-01-27T18:36:59 1674844619",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I expect nobody outside of the technician who ordered the shipment to understand any of those words."
+    },
+    {
+      "id": 34546293,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-01-27T14:20:15 1674829215",
+      "onstory": {
+        "name": "Omega-3s: Are “Brain-Boosting” Effects Scientifica...",
+        "link": "https://news.ycombinator.com/item?id=34544367"
+      },
+      "text": "Search for &quot;hypervitaminosis A&quot;, for example."
+    },
+    {
+      "id": 34485862,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2023-01-23T05:38:34 1674452314",
+      "onstory": {
+        "name": "Hewlett Packard HP-15C Simulator",
+        "link": "https://news.ycombinator.com/item?id=34484994"
+      },
+      "text": "For the classic HP RPN, it isn&#x27;t. Numbers are entered directly into the X register. ENTER does several things: it finishes the input, copies the new value in X to Y (shifting the rest up) and inhibits &quot;stack lift&quot;, so the stack won&#x27;t be automatically shifted up when you start entering the next number.<p>Sounds complicated, but in practice you don&#x27;t think about it at all."
+    },
+    {
+      "id": 34485912,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=chungy",
+        "name": "chungy"
+      },
+      "date": "2023-01-23T05:47:49 1674452869",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Later calculators (the HP 42 and 48 lines) would basically accommodate either mode of operation. You can perform a calculation immediately without pressing ENTER to put it on the stack, or you could put it on the stack with ENTER first and it&#x27;ll still do the same thing when you press an operator key.<p>I use an HP 48G+ frequently and I pretty much do both styles without any obvious rhyme or reason from my viewpoint. I just sometimes do one or the other."
+    },
+    {
+      "id": 34487914,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Pinus",
+        "name": "Pinus"
+      },
+      "date": "2023-01-23T12:12:57 1674475977",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I think you mean 28, not 42 — the 42 is also &quot;classic&quot; 4-register RPN. And I’m writing this mostly to push for the excellent Free42 emulator, which runs on just about everything (Windows, macOS, Linux, Android, iOS), and also powers the DM42 hardware emulator mentioned above. Only problem with it is that emulated buttons on a touchscreen are nothing like the real thing; I keep missing keystrokes."
+    },
+    {
+      "id": 34488666,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jaclaz",
+        "name": "jaclaz"
+      },
+      "date": "2023-01-23T13:50:20 1674481820",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I can confirm, the 28C actually shows the 4 (viewable) registries of the stack, numbered on the left as:<p>4:<p>3:<p>2:<p>1:<p>So, if you input 4 [ENTER], 3 [ENTER], 2 [ENTER], 1 [ENTER] you have:<p>4:4<p>3:3<p>2:2<p>1:1<p>But if you input 4 [ENTER], 3 [ENTER], 2 [ENTER], 1 you have:<p>3:4<p>2:3<p>1:2<p>1<p>if you then press +, you get 3 in both cases, which is the sum of the bottom two lines in the display.<p>Those are either the same as the &quot;old&quot; x and y registers or the sum of last input and the bottom register, same as the old x."
+    },
+    {
+      "id": 34491847,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=chungy",
+        "name": "chungy"
+      },
+      "date": "2023-01-23T17:19:41 1674494381",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yes you are right, I did mean that :)"
+    },
+    {
+      "id": 33493798,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-11-06T15:46:01 1667749561",
+      "onstory": {
+        "name": "Was everyone stupid back then?",
+        "link": "https://news.ycombinator.com/item?id=33492729"
+      },
+      "text": "If you consider <i>A Declaration of the Independence of Cyberspace</i> as singularly representative of the zeitgeist &quot;back then&quot;... Yes, everyone was stupid, in the same manner that love can be stupid. Humanity never gave up on love, and I hope it never gives up on starry-eyed idealism; it <i>can</i> lead to dogmatic and authoritarian horrors, but some of the ideals may enhance the fabric of society and make it a little less savage. Less of the former and more of the latter, please, if possible. The process is slow and uneven, and personally, I&#x27;m not too hopeful, but I still prefer faint hope to unrelenting cynicism.<p>(What&#x27;s strange about <i>A Declaration...</i> is that it came a decade after <i>Neuromancer</i> and two years after Eternal September. You may choose to doubt the predictive power of dystopian fiction, but the reality check of the influx of participants outside of the pretty exclusive early-internet club should be much harder to overlook. That document managed to disregard both. It was strangely anachronistic even at the moment.)"
+    },
+    {
+      "id": 33483670,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-11-05T17:39:22 1667669962",
+      "onstory": {
+        "name": "Tesla devs at Twitter misunderstand Slack privacy;...",
+        "link": "https://news.ycombinator.com/item?id=33483273"
+      },
+      "text": "<i>if I was told by my boss to do something like deactivate X, change something to Y, or in this case, fire X% of people, do people really expect employees to not follow it?</i><p>The implication is that their instructions were much more detailed than &quot;fire X% of people&quot; and included using LoC as the metric, which nobody questioned.<p>(Any quantitative measurement of code quality will have too many outliers to be fair. LoC? Of course not. Number of closed PRs? You can&#x27;t say much without knowing their complexity or severity. Etc. But they had to be quick, not fair.)"
+    },
+    {
+      "id": 32290392,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-07-30T21:13:05 1659215585",
+      "onstory": {
+        "name": "US regulators will certify first small nuclear rea...",
+        "link": "https://news.ycombinator.com/item?id=32282632"
+      },
+      "text": "<i>It still blows my mind that a sub only needs to refuel once every 15 </i>years<i>.</i><p>One of the things making this possible is 90+ percent enrichment of U235 in the fuel. That&#x27;s weapons grade and won&#x27;t fly in a civilian reactor. I haven&#x27;t read NuScale&#x27;s application in great detail but I&#x27;d be surprised if they used anything above 5 percent."
+    },
+    {
+      "id": 32290792,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=schrodinger",
+        "name": "schrodinger"
+      },
+      "date": "2022-07-30T22:02:13 1659218533",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Can you explain more about what that means or suggest what to Google to learn more?"
+    },
+    {
+      "id": 32290857,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gautamcgoel",
+        "name": "gautamcgoel"
+      },
+      "date": "2022-07-30T22:10:33 1659219033",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "There are two uranium isotopes present on earth, U-235 and U-238. U-235 is the fissile material which powers nuclear reactions in both nuclear bombs and nuclear power plants. The 5% number represents the fraction of uranium in the fuel which is U-235 instead of U-238. Anything above 20% or so is considered &quot;highly enriched&quot;, and nuclear bombs often have fuel which is 80-90% U-235."
+    },
+    {
+      "id": 32291336,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gambiting",
+        "name": "gambiting"
+      },
+      "date": "2022-07-30T23:15:10 1659222910",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "And the reason <i>why</i> bombs have more of the U-235 is because is splits easier than U-238, so it&#x27;s easier to end up with a self sustaining chain reaction, where every U-235 that splits produces enough neutrons to split off two more U-235 atoms, which in turn splits 4, then 8, then 16 and so on - the chain reaction splits the whole lot all at once and you&#x27;ve got a bomb."
+    },
+    {
+      "id": 32292879,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=WatchDog",
+        "name": "WatchDog"
+      },
+      "date": "2022-07-31T03:30:09 1659238209",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "To add to what other commenters have said, apart from the weapons proliferation issues, enriching uranium is very expensive. U-235 only makes up about 0.72% of natural uranium, the rest of it being U-238. Running a reactor on low enriched uranium is much more cost effective, although reactor designs that can run on LEU can be less safe, like Chernobyls RBMK design."
+    },
+    {
+      "id": 32057549,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-07-11T15:37:56 1657553876",
+      "onstory": {
+        "name": "Show HN: Lldap, a Simplified LDAP Server",
+        "link": "https://news.ycombinator.com/item?id=32053961"
+      },
+      "text": "The problem is that back-sql is unmaintained (e.g., see [1]) and only security bugs are addressed.<p>[1] <a href=\"https:&#x2F;&#x2F;lists.openldap.org&#x2F;hyperkitty&#x2F;list&#x2F;openldap-technical@openldap.org&#x2F;message&#x2F;4BKHDYOSSTC2K3YPUMZFF4IIE7TWNSVS&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;lists.openldap.org&#x2F;hyperkitty&#x2F;list&#x2F;openldap-technica...</a>"
+    },
+    {
+      "id": 31604663,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-06-03T05:39:16 1654234756",
+      "onstory": {
+        "name": "Rust Is Hard, Or: The Misery of Mainstream Program...",
+        "link": "https://news.ycombinator.com/item?id=31601040"
+      },
+      "text": "<i>A proper algebraic effect system could resolve the problem.</i><p>It could also take as long as the async MVP itself to get off the ground, and you can&#x27;t know if it wouldn&#x27;t hit its own snags when deployed at scale. (From long ago, I remember the &quot;non-parametric dropck&quot; RFC as an illustration of a neat concept colliding with reality.)<p>Languages with mainstream aspirations evolve under greater pressure. I don&#x27;t <i>know</i> this, but I strongly suspect that async was necessary for Rust to gain acceptance at, say, Amazon. So it couldn&#x27;t practically have been designed with a wide-open timeframe. The result is what we have; one can uncharitably call it &quot;half-baked&quot; and tut-tut about the sharp edges, but it&#x27;s workable if you know what to avoid. (But it&#x27;s so tempting to imagine what could have been, eh?)"
+    },
+    {
+      "id": 31578931,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-06-01T06:50:55 1654066255",
+      "onstory": {
+        "name": "Science needs more research software engineers",
+        "link": "https://news.ycombinator.com/item?id=31577376"
+      },
+      "text": "<i>I have never heard or read anyone, beside physicists, say codes for software code. It doesn&#x27;t even make sense.</i><p>Why not? &quot;A code&quot; is a software package which solves some kind of problem computationally. Plural, codes. I&#x27;m sure it&#x27;s been in use almost as long as the programmable computers. Here&#x27;s[1] a link to an article from 1968 which uses the term in the singular (&quot;The MENE Neutron Transport Code&quot;.)<p>[1] <a href=\"https:&#x2F;&#x2F;www.osti.gov&#x2F;biblio&#x2F;4819611-mene-neutron-transport-code\" rel=\"nofollow\">https:&#x2F;&#x2F;www.osti.gov&#x2F;biblio&#x2F;4819611-mene-neutron-transport-c...</a>"
+    },
+    {
+      "id": 31604800,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mikebenfield",
+        "name": "mikebenfield"
+      },
+      "date": "2022-06-03T06:05:32 1654236332",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That article appears to be written by a non-native English speaker. I don&#x27;t think I&#x27;ve ever heard anyone refer to a software package as &quot;a code.&quot;"
+    },
+    {
+      "id": 31605814,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-06-03T08:48:54 1654246134",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<i>I don&#x27;t think I&#x27;ve ever heard anyone refer to a software package as &quot;a code.&quot;</i><p>Then you probably haven&#x27;t been around physicists, or read enough physics-related material. A non-scholarly reference which can&#x27;t be easily checked online is George Dyson&#x27;s &quot;Project Orion,&quot; where Freeman Dyson (author&#x27;s father) is quoted as mentioning this or that &quot;code&quot; as significant for the design of various Orion parts. (That should be a native enough English speaker.) The time-frame is late 1950s to early 1960s."
+    },
+    {
+      "id": 31612013,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mikebenfield",
+        "name": "mikebenfield"
+      },
+      "date": "2022-06-03T18:33:45 1654281225",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Actually I have been around physicists. In my experience they use “codes” for any amount of code. If A wrote some software, B might say “I’d like to use your codes.”<p>That reference you give doesn’t appear to be available online but I’ll take your word for it."
+    },
+    {
+      "id": 31588857,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bmitc",
+        "name": "bmitc"
+      },
+      "date": "2022-06-01T22:18:09 1654121889",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "There are plenty of words in English that have the same singular and plural form."
+    },
+    {
+      "id": 31288511,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-05-06T18:48:03 1651862883",
+      "onstory": {
+        "name": "OpenVMS on x86",
+        "link": "https://news.ycombinator.com/item?id=31284335"
+      },
+      "text": "<i>I just can&#x27;t understand why they would make this ancient OS so inaccessible.</i><p>The OS is used by a limited and probably dwindling number of vendors of specialized, complex and long-lived software originally developed for VAX&#x2F;VMS. I was tangentially related to users of such software for a while; the vendor made the VAX-&gt;Alpha and Alpha-&gt;Itanium transitions, but saw the writing on the wall and ported the software away from VMS. VSI is not a large outfit, and they&#x27;re a business. They don&#x27;t need the hassle of dealing with hobbyists.<p><i>It is genuinely great stuff, and with an active community it would probably re-emerge as a legitimate contender.</i><p>It&#x27;s a fascinating and superbly documented system, agreed. But a contender? Far too late for that, IMO, if it was ever in the cards (I don&#x27;t think so.)"
+    },
+    {
+      "id": 31206938,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2022-04-29T16:04:08 1651248248",
+      "onstory": {
+        "name": "Fourth-generation programming language",
+        "link": "https://news.ycombinator.com/item?id=31185855"
+      },
+      "text": "A snarky tagline used to say, &quot;Informix-4GL is not 4G, and it&#x27;s barely an L.&quot;<p>I understand the sentiment, although in reality it wasn&#x27;t that bad. What I4GL and its ilk accomplished was to make a passable bridge between SQL and a vanilla procedural programming language, which still had the usual SQL&#x2F;procedural impedance mismatches, but was miles ahead of horrors like Embedded SQL&#x2F;C (as you&#x27;ve alluded to with the remark about generated C&#x27;s verbosity.) I did my share of I4GL programming and still remember it semi-fondly."
+    }
+  ],
+  "favorites": [
+    {
+      "id": 41586031,
+      "link": "https://ssoready.com/blog/engineering/ruby-saml-pwned-by-xml-signature-wrapping-attacks/",
+      "title": "Ruby-SAML pwned by XML signature wrapping attacks",
+      "score": 166,
+      "date": "2024-09-18T21:59:42 1726696782",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ucarion",
+        "name": "ucarion"
+      },
+      "comments_count": 91,
+      "comments_link": "https://news.ycombinator.com/item?id=41586031",
+      "text": ""
+    },
+    {
+      "id": 41489167,
+      "link": "https://awfulannouncing.com/espn/alex-morgan-ai-generated-recap-mention.html",
+      "title": "ESPN AI recap of Alex Morgan’s final professional match fails to mention her",
+      "score": 260,
+      "date": "2024-09-09T15:02:32 1725894152",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=starkparker",
+        "name": "starkparker"
+      },
+      "comments_count": 159,
+      "comments_link": "https://news.ycombinator.com/item?id=41489167",
+      "text": ""
+    },
+    {
+      "id": 41104305,
+      "link": "https://fastht.ml/",
+      "title": "FastHTML – Modern web applications in pure Python",
+      "score": 867,
+      "date": "2024-07-29T22:18:01 1722291481",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bpierre",
+        "name": "bpierre"
+      },
+      "comments_count": 210,
+      "comments_link": "https://news.ycombinator.com/item?id=41104305",
+      "text": ""
+    },
+    {
+      "id": 41036982,
+      "link": "https://ssoready.com/blog/engineering/a-gentle-intro-to-saml/",
+      "title": "A Gentle Introduction to SAML",
+      "score": 244,
+      "date": "2024-07-22T17:27:44 1721669264",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=noleary",
+        "name": "noleary"
+      },
+      "comments_count": 95,
+      "comments_link": "https://news.ycombinator.com/item?id=41036982",
+      "text": ""
+    },
+    {
+      "id": 40962231,
+      "link": "https://www.telesens.co/2017/07/17/calculating-position-from-raw-gps-data/",
+      "title": "Calculating position from raw GPS data (2017)",
+      "score": 244,
+      "date": "2024-07-14T17:42:02 1720978922",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fanf2",
+        "name": "fanf2"
+      },
+      "comments_count": 51,
+      "comments_link": "https://news.ycombinator.com/item?id=40962231",
+      "text": ""
+    },
+    {
+      "id": 40517204,
+      "link": "http://angg.twu.net/miniforth-article.html",
+      "title": "Bootstrapping a Forth in 40 lines of Lua code",
+      "score": 122,
+      "date": "2024-05-29T21:25:48 1717017948",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=anothername12",
+        "name": "anothername12"
+      },
+      "comments_count": 43,
+      "comments_link": "https://news.ycombinator.com/item?id=40517204",
+      "text": ""
+    },
+    {
+      "id": 40179398,
+      "link": "https://karelvo.com/blog/selfhosting-forms-the-sane-way",
+      "title": "Self-hosting forms, the sane way",
+      "score": 127,
+      "date": "2024-04-27T12:20:29 1714220429",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=xz18r",
+        "name": "xz18r"
+      },
+      "comments_count": 92,
+      "comments_link": "https://news.ycombinator.com/item?id=40179398",
+      "text": ""
+    },
+    {
+      "id": 38510209,
+      "link": "https://nolanlawson.com/2023/12/02/lets-learn-how-modern-javascript-frameworks-work-by-building-one/",
+      "title": "Learn how modern JavaScript frameworks work by building one",
+      "score": 531,
+      "date": "2023-12-03T20:00:49 1701633649",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kristianp",
+        "name": "kristianp"
+      },
+      "comments_count": 99,
+      "comments_link": "https://news.ycombinator.com/item?id=38510209",
+      "text": ""
+    },
+    {
+      "id": 37724114,
+      "link": "https://blog.ubavic.rs/8/",
+      "title": "Don't worry, your Parser is a functor",
+      "score": 40,
+      "date": "2023-10-01T09:02:53 1696150973",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ubavic",
+        "name": "ubavic"
+      },
+      "comments_count": 59,
+      "comments_link": "https://news.ycombinator.com/item?id=37724114",
+      "text": ""
+    },
+    {
+      "id": 37582632,
+      "link": "https://developers.redhat.com/blog/2018/10/22/introduction-to-linux-interfaces-for-virtual-networking",
+      "title": "Introduction to Linux interfaces for virtual networking (2018)",
+      "score": 195,
+      "date": "2023-09-20T10:48:36 1695206916",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teleforce",
+        "name": "teleforce"
+      },
+      "comments_count": 13,
+      "comments_link": "https://news.ycombinator.com/item?id=37582632",
+      "text": ""
+    },
+    {
+      "id": 37138807,
+      "link": "https://langdev.stackexchange.com/questions/2692/how-should-i-read-type-system-notation",
+      "title": "How should I read type system notation?",
+      "score": 349,
+      "date": "2023-08-15T20:15:27 1692130527",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mpweiher",
+        "name": "mpweiher"
+      },
+      "comments_count": 92,
+      "comments_link": "https://news.ycombinator.com/item?id=37138807",
+      "text": ""
+    },
+    {
+      "id": 37033753,
+      "link": "https://news.ycombinator.com/item?id=37033753",
+      "title": "Launch HN: GitStart (YC S19) – Remote junior devs working on production PRs",
+      "score": 235,
+      "date": "2023-08-07T12:54:18 1691412858",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hzia",
+        "name": "hzia"
+      },
+      "comments_count": 192,
+      "comments_link": "https://news.ycombinator.com/item?id=37033753",
+      "text": ""
+    },
+    {
+      "id": 34940799,
+      "link": "https://ahelwer.ca/post/2018-02-13-z3-firewall/",
+      "title": "Checking Firewall Equivalence with Z3 (2018)",
+      "score": 84,
+      "date": "2023-02-25T21:47:02 1677361622",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rrampage",
+        "name": "rrampage"
+      },
+      "comments_count": 13,
+      "comments_link": "https://news.ycombinator.com/item?id=34940799",
+      "text": ""
+    },
+    {
+      "id": 34921157,
+      "link": "https://konstaui.com/",
+      "title": "Konsta UI – Mobile UI Components Built with TailwindCSS",
+      "score": 238,
+      "date": "2023-02-24T05:24:38 1677216278",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=NayamAmarshe",
+        "name": "NayamAmarshe"
+      },
+      "comments_count": 238,
+      "comments_link": "https://news.ycombinator.com/item?id=34921157",
+      "text": ""
+    },
+    {
+      "id": 34727223,
+      "link": "https://sabre.io/",
+      "title": "Sabre/dav: open-source CardDAV, CalDAV and WebDAV server",
+      "score": 190,
+      "date": "2023-02-09T17:08:27 1675962507",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kretaceous",
+        "name": "kretaceous"
+      },
+      "comments_count": 42,
+      "comments_link": "https://news.ycombinator.com/item?id=34727223",
+      "text": ""
+    },
+    {
+      "id": 34678121,
+      "link": "https://ochagavia.nl/blog/crafting-container-images-without-dockerfiles/",
+      "title": "Crafting container images without Dockerfiles",
+      "score": 193,
+      "date": "2023-02-06T14:54:32 1675695272",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wofo",
+        "name": "wofo"
+      },
+      "comments_count": 56,
+      "comments_link": "https://news.ycombinator.com/item?id=34678121",
+      "text": ""
+    },
+    {
+      "id": 34052363,
+      "link": "https://github.com/getparthenon/parthenon/wiki/Design-Decision:-Throw-Custom-Exceptions",
+      "title": "Code Design Decision – Always throw custom exceptions",
+      "score": 96,
+      "date": "2022-12-19T14:25:40 1671459940",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=that_guy_iain",
+        "name": "that_guy_iain"
+      },
+      "comments_count": 87,
+      "comments_link": "https://news.ycombinator.com/item?id=34052363",
+      "text": ""
+    }
+  ]
+}

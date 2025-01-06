@@ -3,23 +3,32 @@
   "url": "https://invisioncommunity.com/profile/563277-mythonponty/?do=hovercard",
   "id": 563277,
   "name": "MythonPonty",
-  "background": "https://content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2024_07/sascha_karikatur.thumb.jpg.3641147dbcda19088ae1fc4e726bc90d.jpg",
+  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2024_10/simpsons-7632168.thumb.jpg.18ebe5844603620b8cfcd9088c7ea523.jpg",
   "group": "Clients",
-  "joined": "2016-06-01T10:56:30Z",
+  "joined": "",
   "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "189"
+      "value": "220"
     },
     {
       "name": "Reputation",
-      "value": "82"
+      "value": "96"
     },
     {
       "name": "Badges",
       "value": "8"
     }
+  ],
+  "rank": "Rank: Community Regular (7/13)",
+  "rank_date": "",
+  "badges": [
+    "Dedicated",
+    "Reacting Well",
+    "Week One Done",
+    "One Month Later",
+    "One Year In"
   ]
 }

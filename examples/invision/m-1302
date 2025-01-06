@@ -6,8 +6,8 @@
   "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
   "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2018_05/imported-photo-1302.thumb.jpeg.25b78361b63a3a306b4c5f7b1cab77df.jpeg",
   "group": "Members",
-  "joined": "2013-04-23T07:17:34Z",
-  "lastseen": "2015-11-16T09:53:45Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
@@ -21,5 +21,8 @@
       "name": "Badges",
       "value": "0"
     }
-  ]
+  ],
+  "rank": "Rank: Jr. Member (3/6)",
+  "rank_date": "",
+  "badges": []
 }

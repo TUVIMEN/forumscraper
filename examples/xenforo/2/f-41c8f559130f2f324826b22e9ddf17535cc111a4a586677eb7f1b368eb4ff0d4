@@ -1,0 +1,149 @@
+{
+  "format_version": "xenforo-2-forum",
+  "url": "https://kenhsinhvien.vn/f/phong-truyen.213/",
+  "categories": [
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Truyện ngắn",
+          "link": "https://kenhsinhvien.vn/f/truyen-ngan.297/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://kenhsinhvien.vn/data/avatars/s/1144/1144589.jpg?1735979785",
+            "title": "năm đó ta đã mua một món hời",
+            "link": "https://kenhsinhvien.vn/t/nam-do-ta-da-mua-mot-mon-hoi.925868/post-2903122",
+            "label": "Hoàn",
+            "date": "2025-01-04T20:36:49+0700",
+            "user": "trái tim lãng tử",
+            "user_link": "https://kenhsinhvien.vn/m/trai-tim-lang-tu.1144589/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Truyện dài",
+          "link": "https://kenhsinhvien.vn/f/truyen-dai.301/",
+          "description": "",
+          "childboards": [],
+          "topics": 466,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://kenhsinhvien.vn/data/avatars/s/962/962374.jpg?1734428759",
+            "title": "Băng trên đỉnh gió",
+            "link": "https://kenhsinhvien.vn/t/bang-tren-dinh-gio.924335/post-2899625",
+            "label": "",
+            "date": "2024-12-17T16:55:17+0700",
+            "user": "imenly",
+            "user_link": "https://kenhsinhvien.vn/m/imenly.962374/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Tiểu thuyết",
+          "link": "https://kenhsinhvien.vn/f/tieu-thuyet.298/",
+          "description": "",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://kenhsinhvien.vn/data/avatars/s/1095/1095986.jpg?1734458577",
+            "title": "Lớp học của giới tinh hoa - Chương 4 : Bạn bè ( Phần giới thiệu )",
+            "link": "https://kenhsinhvien.vn/t/lop-hoc-cua-gioi-tinh-hoa-chuong-4-ban-be-phan-gioi-thieu.926031/post-2903143",
+            "label": "",
+            "date": "2025-01-04T23:40:34+0700",
+            "user": "Ka Caesar",
+            "user_link": "https://kenhsinhvien.vn/m/ka-caesar.1095986/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Truyện tranh",
+          "link": "https://kenhsinhvien.vn/f/truyen-tranh.299/",
+          "description": "",
+          "childboards": [],
+          "topics": 965,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://kenhsinhvien.vn/data/avatars/s/1143/1143910.jpg?1734589467",
+            "title": "Truyện Adult: Khám Phá Câu Chuyện Trưởng Thành Đầy Sâu Sắc",
+            "link": "https://kenhsinhvien.vn/t/truyen-adult-kham-pha-cau-chuyen-truong-thanh-day-sau-sac.925261/post-2900881",
+            "label": "",
+            "date": "2024-12-24T14:48:35+0700",
+            "user": "Thich Truyen Tranh",
+            "user_link": "https://kenhsinhvien.vn/m/thich-truyen-tranh.1143910/"
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Conan",
+          "link": "https://kenhsinhvien.vn/conan-2/",
+          "description": "Đọc truyện Conan chap mới nhất và cùng suy luận với Conan. Chia sẻ tin tức, fanfic và mọi thứ về Conan^^",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Conan Reading Room",
+              "link": "https://kenhsinhvien.vn/f/conan-reading-room.510/"
+            },
+            {
+              "icon": "forum",
+              "name": "Magic Kaito",
+              "link": "https://kenhsinhvien.vn/f/magic-kaito.435/"
+            },
+            {
+              "icon": "unread",
+              "name": "Conan Fan Fiction",
+              "link": "https://kenhsinhvien.vn/f/conan-fan-fiction.512/"
+            },
+            {
+              "icon": "unread",
+              "name": "Đang viết / đang dịch",
+              "link": "https://kenhsinhvien.vn/f/dang-viet-dang-dich.591/"
+            },
+            {
+              "icon": "forum",
+              "name": "Đã hoàn thành",
+              "link": "https://kenhsinhvien.vn/f/da-hoan-thanh.592/"
+            },
+            {
+              "icon": "forum",
+              "name": "Tạm ngưng",
+              "link": "https://kenhsinhvien.vn/f/tam-ngung.593/"
+            },
+            {
+              "icon": "forum",
+              "name": "Sưu tầm",
+              "link": "https://kenhsinhvien.vn/f/suu-tam.594/"
+            }
+          ],
+          "topics": 5000,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://kenhsinhvien.vn/data/avatars/s/1143/1143502.jpg?1733839124",
+            "title": "CONAN chap 508: 2 người không thể trở về",
+            "link": "https://kenhsinhvien.vn/t/conan-chap-508-2-nguoi-khong-the-tro-ve.767574/post-2903351",
+            "label": "",
+            "date": "2025-01-06T14:58:26+0700",
+            "user": "Cam cam 8686",
+            "user_link": "https://kenhsinhvien.vn/m/cam-cam-8686.1143502/"
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

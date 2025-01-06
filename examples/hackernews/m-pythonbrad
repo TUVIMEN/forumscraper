@@ -1,0 +1,355 @@
+{
+  "format_version": "hackernews-user",
+  "url": "https://news.ycombinator.com/user?id=pythonbrad",
+  "id": "pythonbrad",
+  "created-timestamp": "1693639569",
+  "user": "pythonbrad",
+  "created-date": "September 2, 2023",
+  "karma": 104,
+  "about": "I am an open source contributor.",
+  "submissions-link": "https://news.ycombinator.com/submitted?id=pythonbrad",
+  "comments-link": "https://news.ycombinator.com/threads?id=pythonbrad",
+  "favorites-link": "https://news.ycombinator.com/favorites?id=pythonbrad",
+  "submissions": [
+    {
+      "id": 41427563,
+      "link": "https://github.com/pythonbrad/afrim",
+      "title": "Show HN: A modern way to type in African languages",
+      "score": 189,
+      "date": "2024-09-02T18:10:20 1725300620",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "comments_count": 85,
+      "comments_link": "https://news.ycombinator.com/item?id=41427563",
+      "text": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 41694564,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-30T07:42:43 1727682163",
+      "onstory": {
+        "name": "Ask HN: What are you working on (September 2024)?",
+        "link": "https://news.ycombinator.com/item?id=41690087"
+      },
+      "text": "Working on Afrim a library to facilitate the development of an input method engine. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;fodydev&#x2F;afrim\">https:&#x2F;&#x2F;github.com&#x2F;fodydev&#x2F;afrim</a>"
+    },
+    {
+      "id": 41436036,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T15:41:19 1725378079",
+      "onstory": {
+        "name": "Show HN: ExcaliHub",
+        "link": "https://news.ycombinator.com/item?id=41426736"
+      },
+      "text": "The current Excalidraw looks advanced compared to your own. And the whiteboard is saved at the level of the web browser.<p>I tested ExcaliHub and i don&#x27;t have seen the possibility to have many whiteboards."
+    },
+    {
+      "id": 41432004,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T06:47:40 1725346060",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "I added a FAQ[1] to answer some common questions.<p>For more reading, there is an article[2] who have similarities with what we want to achieve.<p>Disclaimer: We discovered the article 01 year after the development.<p>[1]<a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;blob&#x2F;main&#x2F;FAQ.md\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;blob&#x2F;main&#x2F;FAQ.md</a><p>[2]<a href=\"https:&#x2F;&#x2F;hughandbecky.us&#x2F;Hugh-CV&#x2F;talk&#x2F;2015-africa-assessing-the-difficulty-of-text-input&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;hughandbecky.us&#x2F;Hugh-CV&#x2F;talk&#x2F;2015-africa-assessing-t...</a>"
+    },
+    {
+      "id": 41430622,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T02:17:18 1725329838",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "`afrim` is not just an IME. It can be used as a library to develop another IME. It&#x27;s an important point that I neglected in the README."
+    },
+    {
+      "id": 41431774,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lelanthran",
+        "name": "lelanthran"
+      },
+      "date": "2024-09-03T06:08:17 1725343697",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; `afrim` is not just an IME. It can be used as a library to develop another IME. It&#x27;s an important point that I neglected in the README.<p>That&#x27;s all good, but I am very curious about the use-case that motivated the creation of this project."
+    },
+    {
+      "id": 41430522,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T02:03:16 1725328996",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "It’s true that we currently have few languages in our dataset, but by supporting Nufi, we are supporting all Cameroonian languages since their alphabets have been standardized under the General Alphabet of Cameroonian Languages (GACL). Additionally, we support the CLAFRICA code, which allows for typing in GACL. This GACL indirectly supports other African languages as well.<p>Regarding Geez and Amharic, the objective was to support a language distinct from Latin. Its implementation allows us to avoid being limited to Latin-based languages."
+    },
+    {
+      "id": 41430823,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=geenkeuse",
+        "name": "geenkeuse"
+      },
+      "date": "2024-09-03T02:59:01 1725332341",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Can&#x27;t wait for you to get started with the oldest languages on the planet, as spoken by the oldest people on Earth, the Khoisan languages. Hope that is in the pipeline, as the Khoi and San is almost eradicated in all of Africa and many of their languages are now extinct.<p>Khoekhoe is a nice start.<p>I think people will lose their minds if they see how it is written.<p>Fun fact - The Khoisan gave all the Bantu languages that have it, the click sound.<p>There are a lot of different clicks in the Khoisan languages. So many that they need exclamation marks and every other symbol on the keyboard to accommodate them."
+    },
+    {
+      "id": 41436674,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=samatman",
+        "name": "samatman"
+      },
+      "date": "2024-09-03T16:43:08 1725381788",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; <i>the oldest languages on the planet, as spoken by the oldest people</i><p>Begging your pardon, this is a nonsensical thing to say. One people are not older than another, and nor are their languages.<p>As it happens, the Khoisan show greater genetic divergence from the rest of the human race, indicating that as a population they have been relatively more isolated, for longer. This does <i>not in any sense</i> imply that they are in some way basal, such that it would be intelligible to call them older than other branches of the family tree.<p>This same objection applies to characterizing their languages in that way, we have no way of knowing if their languages are less or more prone to mutation than any other. We have rather less to work with, in fact, as the absence of literacy in their societies until modern times leaves us with no evidence at all. But it would be <i>astonishing</i> if their languages had no drift to them, and even &quot;less drift&quot; is a major and unsupportable claim, and these are the only ways in which it would be intelligible to say that those languages are older than another."
+    },
+    {
+      "id": 41434285,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=beAbU",
+        "name": "beAbU"
+      },
+      "date": "2024-09-03T12:27:17 1725366437",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Khoekhoe is one of the languages I referred to in my GP.<p>I&#x27;ve seen it written in ascii, is there an alternative alphabet?"
+    },
+    {
+      "id": 41429410,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T22:45:48 1725317148",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "It looks a little bit similar to the working of the clafrica code to type in General Alphabet of Cameroonian languages.<p>Clafrica: Pookai2t peu2nze2e2 n*kut !<p>Shʉ̄pāpə̀m (Bamoun): Pookɛ́t pә́nzéé ŋkut !"
+    },
+    {
+      "id": 41428821,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:05:58 1725311158",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "Windows is supported through <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish</a>"
+    },
+    {
+      "id": 41428950,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-02T21:29:25 1725312565",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Oh, didn&#x27;t realize that. How does it handle key input in Windows? Text Services Framework or something else?"
+    },
+    {
+      "id": 41428988,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:37:01 1725313021",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The initial work was a prototype, we are currently working on the usage of text service for windows, and IBUS for Linux (mainly Wayland environment).<p>But the next release, will take a time, since we are not familiar with these technologies. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242</a>"
+    },
+    {
+      "id": 41429863,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pentamassiv",
+        "name": "pentamassiv"
+      },
+      "date": "2024-09-03T00:06:01 1725321961",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You could update the dependency &quot;enigo&quot; to the current version. I&#x27;ve implemented experimental support for Wayland. It can use Wayland protocols or libei. There will probably be bugs that&#x27;s why it&#x27;s hidden behind feature flags.<p>I&#x27;m the maintainer, so if you need anything, please let me know"
+    },
+    {
+      "id": 41429994,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T00:29:59 1725323399",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks, currently I am using Debian (Wayland) and it will be great to test this enigo feature."
+    },
+    {
+      "id": 41429875,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pentamassiv",
+        "name": "pentamassiv"
+      },
+      "date": "2024-09-03T00:08:00 1725322080",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I didn&#x27;t look at the code but the Cargo.toml file says it&#x27;s using enigo as it&#x27;s dependency. You can use that to simulate input an Windows, macOS and Linux"
+    },
+    {
+      "id": 41428783,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:00:47 1725310847",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "Using the phonetic representation (IPA), you can obtain a writing system similar to the pinyin.<p>Hanyu Pinyin Hànyǔ Pīnyīn Fāng&#x27;àn<p>Bopomofo ㄏㄢˋ ㄩˇ ㄆㄧㄣ ㄧㄣ ㄈㄤ ㄢˋ<p>IPA [xân.ỳ pʰín.ín fáŋ.ân]<p>Cameroonian dialect are written using the GACL who is similar to the IPA.<p>Clafrica: Pookai2t peu2nze2e2 n*kut !<p>Shʉ̄pāpə̀m (Bamoun): Pookɛ́t pә́nzéé ŋkut !"
+    },
+    {
+      "id": 41430313,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notamy",
+        "name": "notamy"
+      },
+      "date": "2024-09-03T01:27:54 1725326874",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Cameroonian dialect are written using the GACL who is similar to the IPA.<p>What exactly is the GACL? Trying to find information on it returns this HN comment as the top result, and a bunch of language-unrelated results after that."
+    },
+    {
+      "id": 41430431,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=teractiveodular",
+        "name": "teractiveodular"
+      },
+      "date": "2024-09-03T01:48:19 1725328099",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "From another comment, it&#x27;s the General Alphabet of Cameroon Languages.<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;General_Alphabet_of_Cameroon_Languages\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;General_Alphabet_of_Cameroon_L...</a>"
+    },
+    {
+      "id": 41428676,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T20:46:44 1725310004",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "I understand your point, we should do a big work at the level of the documentation."
+    },
+    {
+      "id": 41428654,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T20:43:59 1725309839",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "Thanks for your feedback, i will take it in account."
+    },
+    {
+      "id": 37359234,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2023-09-02T07:26:09 1693639569",
+      "onstory": {
+        "name": "Ask HN: Who wants to be hired? (September 2023)",
+        "link": "https://news.ycombinator.com/item?id=37351665"
+      },
+      "text": "<p><pre><code> Location: Buea, Cameroon Remote: Yes Willing to relocate: Possible Technologies: Rust, Python, Linux, CI&#x2F;CD, Docker Résumé&#x2F;CV: https:&#x2F;&#x2F;1drv.ms&#x2F;b&#x2F;s!Ao6erEi_YuOzgaQER44qAn3LrGKsiw Email: fomegnemeudje@outlook.com Github: https:&#x2F;&#x2F;github.com&#x2F;pythonbrad </code></pre> Hello, I&#x27;m Brad, and I&#x27;ve been actively contributing to open-source projects. I recently completed my graduation and I&#x27;m excited to kickstart my career. What sets me apart is my immediate availability to dive into the world of work. My passion lies in system programming, and I&#x27;m dedicated to honing my skills in this field.<p>Thanks."
+    }
+  ],
+  "favorites": [
+    {
+      "id": 41427563,
+      "link": "https://github.com/pythonbrad/afrim",
+      "title": "Show HN: A modern way to type in African languages",
+      "score": 189,
+      "date": "2024-09-02T18:10:20 1725300620",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "comments_count": 85,
+      "comments_link": "https://news.ycombinator.com/item?id=41427563",
+      "text": ""
+    }
+  ]
+}

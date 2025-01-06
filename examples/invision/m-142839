@@ -3,23 +3,32 @@
   "url": "https://invisioncommunity.com/profile/142839-tracyisland/?do=hovercard",
   "id": 142839,
   "name": "TracyIsland",
-  "background": "https://content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2015_03/P6M_SeaMaster.jpg.a5cb38632166f0d3e51881bc0ffc00c8.thumb.jpg.68643a7fba5a30f328bfb6925e0c0a2f.jpg",
+  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2015_03/P6M_SeaMaster.jpg.a5cb38632166f0d3e51881bc0ffc00c8.thumb.jpg.68643a7fba5a30f328bfb6925e0c0a2f.jpg",
   "group": "Clients",
-  "joined": "2009-01-18T01:23:19Z",
-  "lastseen": "2024-07-19T05:36:02Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "2.2k"
+      "value": "2.3k"
     },
     {
       "name": "Reputation",
-      "value": "402"
+      "value": "408"
     },
     {
       "name": "Badges",
       "value": "10"
     }
+  ],
+  "rank": "Rank: Experienced (10/13)",
+  "rank_date": "2024-02-22T20:22:31Z",
+  "badges": [
+    "Dedicated",
+    "Week One Done",
+    "One Month Later",
+    "One Year In",
+    "Reacting Well"
   ]
 }

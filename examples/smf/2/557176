@@ -13,7 +13,7 @@
     {
       "postid": 3948331,
       "date": "November 19, 2017, 07:47:44 PM",
-      "body": "Dear Members,<br /><br />Simple Machines Forum has released a new patch to the 2.0.x line, bringing our latest release version to <b>2.0.15</b>.<br /><br />This patch adds both important security and general maintenance fixes to your forum, so it is imperative that you install this patch quickly. <br />You can view the changelog for this release, per usual, on the <a href=\"https://download.simplemachines.org\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">downloads page</a>.<br /><br />The quick summary of changes is as follows:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li>A security issue reported by Daniel Le Gall from SCRT SA</li><li>Various bug fix with Proxy handler</li><li>Login fixes for SSI and Maintenance mode</li><li>Various Search fixes</li><li>Email handling issue fixed when using SendTopic</li><li>Fixed SM Stat collection and added opt in/out functionality to the Admin Panel</li></ul><br />Please see the changelog for more information. <br /><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.&nbsp; If you do not see the notification about the patch, please run the scheduled task &quot;Fetch Simple Machines files&quot; from the Scheduled Tasks page (<i>Admin &gt; Maintenance &gt; Scheduled Tasks &gt; Fetch Simple Machines Files</i> (check the &quot;Run Now&quot; checkbox and click the &quot;Run Now&quot; button)). <br /><br />If you use older versions of SMF, you can upgrade directly to 2.0.15 from whichever version you are currently using by using the &quot;full upgrade&quot; archive from the downloads page. Be aware that using this upgrade method will require you to reinstall any customizations that you have added to your forum, so if you are running a version of the 2.0.x series, it is recommended that you apply the successive patches instead of using the full upgrade.<br /><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /><br />If you are having problems downloading the patch from the admin panel, you can download the patch package from the <a href=\"https://custom.simplemachines.org/upgrades/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">upgrade patches page</a> and install it via the package manager, as you would any other mod package.<br /><br />Please refer to the Online Manual for more details about:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li><a href=\"https://wiki.simplemachines.org/smf/Upgrading\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Upgrading</a></li><li><a href=\"https://wiki.simplemachines.org/smf/Patching\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Patching</a></li></ul><br />Thank you for using SMF!<br /><br />Regards,<br />Simple Machines Forum Team",
+      "body": "Dear Members,<br /><br />Simple Machines Forum has released a new patch to the 2.0.x line, bringing our latest release version to <b>2.0.15</b>.<br /><br />This patch adds both important security and general maintenance fixes to your forum, so it is imperative that you install this patch quickly. <br />You can view the changelog for this release, per usual, on the <a href=\"https://download.simplemachines.org\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">downloads page</a>.<br /><br />The quick summary of changes is as follows:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li>A security issue reported by Daniel Le Gall from SCRT SA</li><li>Various bug fix with Proxy handler</li><li>Login fixes for SSI and Maintenance mode</li><li>Various Search fixes</li><li>Email handling issue fixed when using SendTopic</li><li>Fixed SM Stat collection and added opt in/out functionality to the Admin Panel</li></ul><br />Please see the changelog for more information. <br /><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.&nbsp; If you do not see the notification about the patch, please run the scheduled task &quot;Fetch Simple Machines files&quot; from the Scheduled Tasks page (<i>Admin &gt; Maintenance &gt; Scheduled Tasks &gt; Fetch Simple Machines Files</i> (check the &quot;Run Now&quot; checkbox and click the &quot;Run Now&quot; button)). <br /><br />If you use older versions of SMF, you can upgrade directly to 2.0.15 from whichever version you are currently using by using the &quot;full upgrade&quot; archive from the downloads page. Be aware that using this upgrade method will require you to reinstall any customizations that you have added to your forum, so if you are running a version of the 2.0.x series, it is recommended that you apply the successive patches instead of using the full upgrade.<br /><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /><br />If you are having problems downloading the patch from the admin panel, you can download the patch package from the <a href=\"https://custom.simplemachines.org/upgrades/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">upgrade patches page</a> and install it via the package manager, as you would any other mod package.<br /><br />Please refer to the Online Manual for more details about:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li><a href=\"https://wiki.simplemachines.org/smf/Upgrading\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Upgrading</a></li><li><a href=\"https://wiki.simplemachines.org/smf/Patching\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Patching</a></li></ul><br />Thank you for using SMF!<br /><br />Regards,<br />Simple Machines Forum Team",
       "signature": "&quot;If everybody is thinking alike, then somebody is not thinking.&quot; - Gen. George S. Patton Jr.<br /><br /><a href=\"http://www.simplemachines.org/community/index.php?topic=489917.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Colin</a>",
       "edited": "<span class=\"lastedit\">Last Edit</span>: December 19, 2017, 12:10:51 AM by Colin",
       "attachments": [],
@@ -43,11 +43,11 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_github\"><a href=\"https://github.com/colinschoen\" title=\"colinschoen\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"colinschoen\"  alt=\"colinschoen on GitHub\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_github\"><a href=\"https://github.com/colinschoen\" title=\"colinschoen\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"colinschoen\" alt=\"colinschoen on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/colinschoen\" title=\"colinschoen\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"colinschoen\"  alt=\"colinschoen on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/colinschoen\" title=\"colinschoen\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"colinschoen\" alt=\"colinschoen on GitHub\" /></a>"
         },
         {
           "key": "custom cust_loca",
@@ -84,11 +84,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,158"
+          "value": "Posts: 25,316"
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a></li><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -96,7 +96,7 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
         },
         {
           "key": "custom cust_twitte",
@@ -104,7 +104,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -115,7 +115,7 @@
     {
       "postid": 3948380,
       "date": "November 20, 2017, 02:25:14 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet.",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet.",
       "signature": "<a href=\"https://www.diabetesforum.online\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://www.diabetesforum.online/sam/NewDesign01d.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a><br>SMF 2.1.4 / TP 2.2.2",
       "edited": "",
       "attachments": [],
@@ -133,11 +133,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 500"
+          "value": "Posts: 509"
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://metabolicallychallenged.blogspot.com\" title=\"Metabolically Challenged\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Metabolically Challenged\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://metabolicallychallenged.blogspot.com\" title=\"Metabolically Challenged\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Metabolically Challenged\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -177,8 +177,8 @@
     {
       "postid": 3948382,
       "date": "November 20, 2017, 02:32:57 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;topic=557176.msg3948380#msg3948380\">Quote from: skb on November 20, 2017, 02:25:14 AM</a></cite><br /><blockquote class=\"bbc_alternate_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet. <br /></blockquote><br />It can take a couple of days.",
-      "signature": "Holder of controversial views, all of which my own.",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948380#msg3948380\">Quote from: skb on November 20, 2017, 02:25:14 AM</a></cite><br /><blockquote class=\"bbc_alternate_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet. <br /></blockquote><br />It can take a couple of days.",
+      "signature": "Holder of controversial views, all of which my own.<br><br><a href=\"https://administrata.net\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://i.ibb.co/s1ttzgK/affiliate.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a>",
       "edited": "",
       "attachments": [],
       "user": "Arantor",
@@ -203,7 +203,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 76,485"
+          "value": "Posts: 76,884"
         },
         {
           "key": "poster_ip",
@@ -215,7 +215,7 @@
       "postid": 3948385,
       "date": "November 20, 2017, 03:59:20 AM",
       "body": "Thanks for the fixes. When I first got notification of this topic it wasn&#039;t available, were there quick changes made?",
-      "signature": "<div class=\"centertext\"><a href=\"https://www.bordeglobal.com/design-smf.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://www.bordeglobal.com/forum/smf.gif\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a><br><a href=\"https://www.jeanborde.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\"><b>Me(?)</b></span></a> - <a href=\"https://www.bordeglobal.net\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-family: arial;\" class=\"bbc_font\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\"><b>Main Site</b></span></span></a> - <a href=\"https://www.rulerofkings.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-family: arial;\" class=\"bbc_font\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\">My Custom Coded <b><u>Browser Text Adventure</u></b></span></span></a>&nbsp;&nbsp; - <a href=\"https://www.youtube.com/@JBsManCave\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-family: arial;\" class=\"bbc_font\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\"><b>Check me on YouTube!</b></span></span></a></div>",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><a href=\"https://www.bordeglobal.com/design-smf.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://www.bordeglobal.com/forum/smf.gif\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a><br><a href=\"https://www.jeanborde.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\"><b>Me(?)</b></span></a> - <a href=\"https://www.bordeglobal.net\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-family: arial;\" class=\"bbc_font\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\"><b>Main Site</b></span></span></a> - <a href=\"https://www.rulerofkings.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-family: arial;\" class=\"bbc_font\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\">My Custom Coded <b><u>Browser Text Adventure</u></b></span></span></a>&nbsp;&nbsp; - <a href=\"https://www.youtube.com/@JBsManCave\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><span style=\"font-family: arial;\" class=\"bbc_font\"><span style=\"font-size: 1.35em;\" class=\"bbc_size\"><b>Check me on YouTube!</b></span></span></a></div></div>",
       "edited": "",
       "attachments": [],
       "user": "Looking",
@@ -232,7 +232,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 2,551"
+          "value": "Posts: 2,550"
         },
         {
           "key": "blurb",
@@ -240,7 +240,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/jeanborde\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"jeanborde on Facebook\" title=\"Facebook\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/jeanborde\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"jeanborde on Facebook\" title=\"Facebook\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -248,7 +248,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"https://www.bordeglobal.com/design-smf.php\" title=\"SMF Custom Themes &amp; Custom Coding\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF Custom Themes &amp; Custom Coding\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"https://www.bordeglobal.com/design-smf.php\" title=\"SMF Custom Themes &amp; Custom Coding\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF Custom Themes &amp; Custom Coding\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -259,8 +259,8 @@
     {
       "postid": 3948387,
       "date": "November 20, 2017, 05:10:02 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;topic=557176.msg3948385#msg3948385\">Quote from: Looking on November 20, 2017, 03:59:20 AM</a></cite><br />Thanks for the fixes. When I first got notification of this topic it wasn&#039;t available, were there quick changes made?<br /></blockquote>It was a small bug with the notification appearing before it should have.",
-      "signature": "<div class=\"centertext\"><img src=\"https://i.imgur.com/LFU14EZ.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></div>",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948385#msg3948385\">Quote from: Looking on November 20, 2017, 03:59:20 AM</a></cite><br />Thanks for the fixes. When I first got notification of this topic it wasn&#039;t available, were there quick changes made?<br /></blockquote>It was a small bug with the notification appearing before it should have.",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><img src=\"https://i.imgur.com/LFU14EZ.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></div></div>",
       "edited": "",
       "attachments": [],
       "user": "Gwenwyfar",
@@ -395,7 +395,7 @@
     {
       "postid": 3948415,
       "date": "November 20, 2017, 07:52:54 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;topic=557176.msg3948412#msg3948412\">Quote from: Dumke480 on November 20, 2017, 07:49:57 AM</a></cite><br /><b>Also the downloads page url in the first post isn&#039;t correct.</b><br /></blockquote><br />fixed, thanks.",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948412#msg3948412\">Quote from: Dumke480 on November 20, 2017, 07:49:57 AM</a></cite><br /><b>Also the downloads page url in the first post isn&#039;t correct.</b><br /></blockquote><br />fixed, thanks.",
       "signature": "",
       "edited": "",
       "attachments": [],
@@ -417,7 +417,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 54,382"
+          "value": "Posts: 54,537"
         },
         {
           "key": "poster_ip",
@@ -429,7 +429,7 @@
       "postid": 3948417,
       "date": "November 20, 2017, 08:11:41 AM",
       "body": "Thank you very much for the great work and the constant updates <img src=\"https://smf-smileys.simplemachinesweb.com/default/cheesy.gif\" alt=\"&#58;D\" title=\"Cheesy\" class=\"smiley\"><br /><br /><br />Regards!<br />",
-      "signature": "<div class=\"centertext\"><span style=\"font-size: 11pt;\" class=\"bbc_size\"><b><span style=\"color: red;\" class=\"bbc_color\">¡Regresando como cual Fenix!</span> ~ <span style=\"color: blue;\" class=\"bbc_color\"><a href=\"https://www.bombercode.net\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Bomber Code</a></span></b><br>Ayudas - Aportes - Tutoriales - Y mucho mas!!!</span></div>",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><span style=\"font-size: 11pt;\" class=\"bbc_size\"><b><span style=\"color: red;\" class=\"bbc_color\">¡Regresando como cual Fenix!</span> ~ <span style=\"color: blue;\" class=\"bbc_color\"><a href=\"https://www.bombercode.net\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Bomber Code</a></span></b><br>Ayudas - Aportes - Tutoriales - Y mucho mas!!!</span></div></div>",
       "edited": "",
       "attachments": [],
       "user": "-Rock Lee-",
@@ -458,7 +458,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/BomberCode.Oficial\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"BomberCode.Oficial on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_github\"><a href=\"https://github.com/RockLee-BC\" title=\"RockLee-BC\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"RockLee-BC\"  alt=\"RockLee-BC on GitHub\" /></a></li><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/Bomber_Code\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@Bomber_Code on Twitter\" title=\"Follow @Bomber_Code on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/BomberCode.Oficial\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"BomberCode.Oficial on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/RockLee-BC\" title=\"RockLee-BC\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"RockLee-BC\" alt=\"RockLee-BC on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/Bomber_Code\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@Bomber_Code on Twitter\" title=\"Follow @Bomber_Code on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_gender",
@@ -470,7 +470,7 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/RockLee-BC\" title=\"RockLee-BC\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"RockLee-BC\"  alt=\"RockLee-BC on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/RockLee-BC\" title=\"RockLee-BC\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"RockLee-BC\" alt=\"RockLee-BC on GitHub\" /></a>"
         },
         {
           "key": "custom cust_twitte",
@@ -478,7 +478,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"https://www.bombercode.net/\" title=\"Bomber Code ~ La nueva era del conocimiento\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Bomber Code ~ La nueva era del conocimiento\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"https://www.bombercode.net/\" title=\"Bomber Code ~ La nueva era del conocimiento\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Bomber Code ~ La nueva era del conocimiento\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -515,11 +515,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,158"
+          "value": "Posts: 25,316"
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a></li><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -527,7 +527,7 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
         },
         {
           "key": "custom cust_twitte",
@@ -535,7 +535,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -546,7 +546,7 @@
     {
       "postid": 3948433,
       "date": "November 20, 2017, 09:12:34 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;topic=557176.msg3948427#msg3948427\">Quote from: vbgamer45 on November 20, 2017, 08:55:17 AM</a></cite><br />Also when you get a chance update the version numbers for the mod/theme site.<br /></blockquote><br />Good catch! Passed to the team <img src=\"https://smf-smileys.simplemachinesweb.com/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\"><br /><br /><hr><br /><br />Thanks to the whole team and to the users who have been waiting for this!",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948427#msg3948427\">Quote from: vbgamer45 on November 20, 2017, 08:55:17 AM</a></cite><br />Also when you get a chance update the version numbers for the mod/theme site.<br /></blockquote><br />Good catch! Passed to the team <img src=\"https://smf-smileys.simplemachinesweb.com/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\"><br /><br /><hr><br /><br />Thanks to the whole team and to the users who have been waiting for this!",
       "signature": "<i>&quot;Greeting Death as an old friend, they departed this life as equals&quot;</i>",
       "edited": "",
       "attachments": [],
@@ -572,11 +572,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 5,087"
+          "value": "Posts: 5,094"
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li><li class=\"custom cust_github\"><a href=\"https://github.com/frandominguezl\" title=\"frandominguezl\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"frandominguezl\"  alt=\"frandominguezl on GitHub\" /></a></li><li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/frandominguezl\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"frandominguezl on LinkedIn\" title=\"LinkedIn\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li> <li class=\"custom cust_github\"><a href=\"https://github.com/frandominguezl\" title=\"frandominguezl\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"frandominguezl\" alt=\"frandominguezl on GitHub\" /></a></li> <li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/frandominguezl\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"frandominguezl on LinkedIn\" title=\"LinkedIn\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_gender",
@@ -584,7 +584,7 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/frandominguezl\" title=\"frandominguezl\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"frandominguezl\"  alt=\"frandominguezl on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/frandominguezl\" title=\"frandominguezl\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"frandominguezl\" alt=\"frandominguezl on GitHub\" /></a>"
         },
         {
           "key": "custom cust_linked",
@@ -605,7 +605,7 @@
       "attachments": [],
       "user": "Rumpa",
       "userid": 405710,
-      "avatar": "https://smf-avatars.simplemachinesweb.com/default.png",
+      "avatar": "https://smf-avatars.simplemachinesweb.com/blank.gif",
       "userinfo": [
         {
           "key": "icons",
@@ -617,7 +617,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 225"
+          "value": "Posts: 255"
         },
         {
           "key": "blurb",
@@ -625,19 +625,19 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_gender\"><span class=\" main_icons gender_2\" title=\"Female\"></span></li><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/rumpa.das.549\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"rumpa.das.549 on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_github\"><a href=\"https://github.com/Rumpa\" title=\"Rumpa\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Rumpa\"  alt=\"Rumpa on GitHub\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_2\" title=\"Female\"></span></li> <li class=\"custom cust_github\"><a href=\"https://github.com/Rumpa20\" title=\"Rumpa20\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Rumpa20\" alt=\"Rumpa20 on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_gender",
           "value": "<span class=\" main_icons gender_2\" title=\"Female\"></span>"
         },
         {
-          "key": "custom cust_facebo",
-          "value": "<a href=\"https://www.facebook.com/rumpa.das.549\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"rumpa.das.549 on Facebook\" title=\"Facebook\" /></a>"
+          "key": "custom cust_github",
+          "value": "<a href=\"https://github.com/Rumpa20\" title=\"Rumpa20\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Rumpa20\" alt=\"Rumpa20 on GitHub\" /></a>"
         },
         {
-          "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/Rumpa\" title=\"Rumpa\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Rumpa\"  alt=\"Rumpa on GitHub\" /></a>"
+          "key": "profile",
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"https://arnitcreation.online\" title=\"\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -653,7 +653,7 @@
       "postid": 3948524,
       "date": "November 20, 2017, 09:23:13 PM",
       "body": "Thanks to all involved!",
-      "signature": "<ul class=\"bbc_list\"><li><a href=\"http://charlottezweb.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Charlottezweb.com, LLC -- Reliable SMF-friendly Hosting</a></li><li><a href=\"http://www.simplemachines.org/community/index.php?topic=3559.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Visit Our Review Thread</a></li><li><a href=\"http://www.bbb.org/charlotte/business-reviews/web-site-design-services/charlottezwebcom-in-charlotte-nc-116524/customer-reviews\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Read our ratings on BBB</a></li><li><b><span style=\"color: red;\" class=\"bbc_color\">Our 2021 Holiday Promo is now live -- 25% off hosting.</span></b>&nbsp; <a href=\"https://www.charlottezweb.com/charlottezweb-2021-seasonal-promotion/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Click here for full details</a></li></ul>",
+      "signature": "<ul class=\"bbc_list\"><li><a href=\"http://charlottezweb.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Charlottezweb.com, LLC -- Reliable SMF-friendly Hosting</a></li><li><a href=\"http://www.simplemachines.org/community/index.php?topic=3559.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Visit Our Review Thread</a></li><li><a href=\"http://www.bbb.org/charlotte/business-reviews/web-site-design-services/charlottezwebcom-in-charlotte-nc-116524/customer-reviews\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Read our ratings on BBB</a></li></ul>",
       "edited": "",
       "attachments": [],
       "user": "charlottezweb",
@@ -670,11 +670,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 2,515"
+          "value": "Posts: 2,523"
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/charlottezwebs\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@charlottezwebs on Twitter\" title=\"Follow @charlottezwebs on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/charlottezwebs\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@charlottezwebs on Twitter\" title=\"Follow @charlottezwebs on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_twitte",
@@ -682,7 +682,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"https://www.charlottezweb.com\" title=\"Charlottezweb.com\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Charlottezweb.com\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"https://www.charlottezweb.com\" title=\"Charlottezweb.com\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Charlottezweb.com\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -726,7 +726,7 @@
     {
       "postid": 3948555,
       "date": "November 21, 2017, 04:41:28 AM",
-      "body": "Hey mackes... you might have missed this part of the topic opener:<br /><br /><blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=9a31de34586e83cfb6ef3854158996b5&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /></blockquote>",
+      "body": "Hey mackes... you might have missed this part of the topic opener:<br /><br /><blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /></blockquote>",
       "signature": "<a href=\"https://i30ownersclub.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">https://i30ownersclub.com</a>",
       "edited": "",
       "attachments": [],
@@ -748,7 +748,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"https://www.i30ownersclub.com\" title=\"i30 Owners Club\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"i30 Owners Club\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"https://www.i30ownersclub.com\" title=\"i30 Owners Club\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"i30 Owners Club\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -764,7 +764,7 @@
       "postid": 3948569,
       "date": "November 21, 2017, 06:52:12 AM",
       "body": "Successful update, thanks for the great work.",
-      "signature": "2.0.19, php 8.0.23, MariaDB 10.5.15. Mods: Contact Page, Like Posts, Responsive Curve, Search Focus Dropdown, Add Join Date to Post.",
+      "signature": "2.0.19, php 8.0.30, MariaDB 10.6.18. Mods: Contact Page, Like Posts, Responsive Curve, Search Focus Dropdown, Add Join Date to Post.<br>Stand with &#127482;&#127462;",
       "edited": "",
       "attachments": [],
       "user": "a10",
@@ -785,11 +785,19 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 1,158"
+          "value": "Posts: 1,180"
+        },
+        {
+          "key": "im_icons",
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_0\" title=\"None\"></span></li> </ol>"
+        },
+        {
+          "key": "custom cust_gender",
+          "value": "<span class=\" main_icons gender_0\" title=\"None\"></span>"
         },
         {
           "key": "custom cust_loca",
-          "value": "Location: Norway & France & some countries inbetween"
+          "value": "Location: Norway and France"
         },
         {
           "key": "poster_ip",
@@ -851,7 +859,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 8,802"
+          "value": "Posts: 8,815"
         },
         {
           "key": "blurb",
@@ -859,7 +867,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li></ol>"
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li> </ol>"
         },
         {
           "key": "custom cust_gender",
@@ -896,11 +904,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,158"
+          "value": "Posts: 25,316"
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a></li><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -908,7 +916,7 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
         },
         {
           "key": "custom cust_twitte",
@@ -916,7 +924,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -936,12 +944,8 @@
       "avatar": "https://avatars.simplemachinesweb.com/avatar_233384_1413916994.png",
       "userinfo": [
         {
-          "key": "membergroup",
-          "value": "Charter Member"
-        },
-        {
           "key": "icons",
-          "value": "<img src=\"https://smf-smsite.simplemachinesweb.com/images/membericons/badge_charter.png\" alt=\"*\">"
+          "value": "<img src=\"https://smf-smsite.simplemachinesweb.com/images/membericons/icon.png\" alt=\"*\"><img src=\"https://smf-smsite.simplemachinesweb.com/images/membericons/icon.png\" alt=\"*\">"
         },
         {
           "key": "postgroup",
@@ -949,7 +953,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 196"
+          "value": "Posts: 204"
         },
         {
           "key": "blurb",
@@ -957,7 +961,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.theqe2story.com/forum\" title=\"The QE2 Story\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"The QE2 Story\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.theqe2story.com/forum\" title=\"The QE2 Story\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"The QE2 Story\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -1031,7 +1035,7 @@
       "postid": 3948707,
       "date": "November 21, 2017, 11:59:38 PM",
       "body": "Installed and working!! <br /><br />Thanks to all those involved in this release and many thanks to all the others in this community that are always so helpful.",
-      "signature": "<div class=\"centertext\"><a href=\"https://hd******in.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">HD******in, a unique Harley Davidson online community and technical forum</a></div>",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><a href=\"https://hd******in.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">HD******in, a unique Harley Davidson online community and technical forum</a></div></div>",
       "edited": "",
       "attachments": [],
       "user": "HDB",
@@ -1052,7 +1056,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/HDBForum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"HDBForum on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/HDBitchin\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@HDBitchin on Twitter\" title=\"Follow @HDBitchin on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/HDBForum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"HDBForum on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/HDBitchin\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@HDBitchin on Twitter\" title=\"Follow @HDBitchin on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -1064,7 +1068,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"https://HDBitchin.com\" title=\"HDBitchin, a Harley Davidson Technical Discussion Forum\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"HDBitchin, a Harley Davidson Technical Discussion Forum\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"https://HDBitchin.com\" title=\"HDBitchin, a Harley Davidson Technical Discussion Forum\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"HDBitchin, a Harley Davidson Technical Discussion Forum\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -1101,7 +1105,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/pocttopus\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@pocttopus on Twitter\" title=\"Follow @pocttopus on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/pocttopus\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@pocttopus on Twitter\" title=\"Follow @pocttopus on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_twitte",
@@ -1109,7 +1113,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://mkreef.com/\" title=\"mkreef.com\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"mkreef.com\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://mkreef.com/\" title=\"mkreef.com\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"mkreef.com\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -1179,7 +1183,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li></ol>"
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li> </ol>"
         },
         {
           "key": "custom cust_gender",
@@ -1187,7 +1191,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://geo.web.id\" title=\"GIS Community\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"GIS Community\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://geo.web.id\" title=\"GIS Community\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"GIS Community\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -1249,7 +1253,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 118"
+          "value": "Posts: 124"
         },
         {
           "key": "poster_ip",
@@ -1261,7 +1265,7 @@
       "postid": 3949150,
       "date": "November 24, 2017, 08:31:34 PM",
       "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?topic=557176.msg3949146#msg3949146\">Quote from: Kathryn_ on November 24, 2017, 07:55:42 PM</a></cite><br />hi&nbsp; I would like to make a long over due switch from mybb...hiw would you advise I do that its an ebook&nbsp; site that is still in deveopment...&nbsp; <br /></blockquote><br />This topic is not for supported questions.<br />Please see/open a topic here: <a href=\"https://www.simplemachines.org/community/index.php?board=11.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">https://www.simplemachines.org/community/index.php?board=11.0</a>",
-      "signature": "<div class=\"centertext\"><i>((U + C + I)x(10 − S)) / 20xAx1 / (1 − sin(F / 10))</i><br>President/CEO of <a href=\"http://www.simplemachines.org/about/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Simple Machines</a> - Server Manager<br>Please do <b>not</b> PM for support - anything else is usually OK.</div>",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><i>((U + C + I)x(10 − S)) / 20xAx1 / (1 − sin(F / 10))</i><br>President/CEO of <a href=\"http://www.simplemachines.org/about/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Simple Machines</a> - Server Manager<br>Please do <b>not</b> PM for support - anything else is usually OK.</div></div>",
       "edited": "",
       "attachments": [],
       "user": "LiroyvH",
@@ -1282,7 +1286,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 19,076"
+          "value": "Posts: 19,123"
         },
         {
           "key": "blurb",
@@ -1290,11 +1294,11 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_github\"><a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\"  alt=\"liroyvh on GitHub\" /></a></li><li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"liroyvh on LinkedIn\" title=\"LinkedIn\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_github\"><a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\" alt=\"liroyvh on GitHub\" /></a></li> <li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"liroyvh on LinkedIn\" title=\"LinkedIn\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\"  alt=\"liroyvh on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\" alt=\"liroyvh on GitHub\" /></a>"
         },
         {
           "key": "custom cust_linked",
@@ -1335,7 +1339,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.omegaowners.com\" title=\"Omega Owners Forum\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Omega Owners Forum\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.omegaowners.com\" title=\"Omega Owners Forum\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Omega Owners Forum\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -1376,7 +1380,7 @@
       "postid": 3949216,
       "date": "November 25, 2017, 11:31:11 AM",
       "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?topic=557176.msg3949214#msg3949214\">Quote from: -Mirco- on November 25, 2017, 11:30:07 AM</a></cite><br />Hello i&#039;m trying to patching from 2.0.14 but i have this problem:<br /></blockquote><br />As stated, this topic is NOT for support; you need to open a topic in the relevant board. Thanks.",
-      "signature": "<div class=\"centertext\"><i>((U + C + I)x(10 − S)) / 20xAx1 / (1 − sin(F / 10))</i><br>President/CEO of <a href=\"http://www.simplemachines.org/about/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Simple Machines</a> - Server Manager<br>Please do <b>not</b> PM for support - anything else is usually OK.</div>",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><i>((U + C + I)x(10 − S)) / 20xAx1 / (1 − sin(F / 10))</i><br>President/CEO of <a href=\"http://www.simplemachines.org/about/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Simple Machines</a> - Server Manager<br>Please do <b>not</b> PM for support - anything else is usually OK.</div></div>",
       "edited": "",
       "attachments": [],
       "user": "LiroyvH",
@@ -1397,7 +1401,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 19,076"
+          "value": "Posts: 19,123"
         },
         {
           "key": "blurb",
@@ -1405,11 +1409,11 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_github\"><a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\"  alt=\"liroyvh on GitHub\" /></a></li><li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"liroyvh on LinkedIn\" title=\"LinkedIn\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_github\"><a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\" alt=\"liroyvh on GitHub\" /></a></li> <li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"liroyvh on LinkedIn\" title=\"LinkedIn\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\"  alt=\"liroyvh on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\" alt=\"liroyvh on GitHub\" /></a>"
         },
         {
           "key": "custom cust_linked",
@@ -1537,7 +1541,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 54,382"
+          "value": "Posts: 54,537"
         },
         {
           "key": "poster_ip",
@@ -1723,11 +1727,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,158"
+          "value": "Posts: 25,316"
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a></li><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -1735,7 +1739,7 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\"  alt=\"VBGAMER45 on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
         },
         {
           "key": "custom cust_twitte",
@@ -1743,7 +1747,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.smfforfree.com\" title=\"SMF For Free\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SMF For Free\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -1780,7 +1784,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 32,645"
+          "value": "Posts: 32,711"
         },
         {
           "key": "blurb",
@@ -1788,7 +1792,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li><li class=\"custom cust_github\"><a href=\"https://github.com/jdarwood007\" title=\"jdarwood007\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"jdarwood007\"  alt=\"jdarwood007 on GitHub\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li> <li class=\"custom cust_github\"><a href=\"https://github.com/jdarwood007\" title=\"jdarwood007\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"jdarwood007\" alt=\"jdarwood007 on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_gender",
@@ -1796,11 +1800,11 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/jdarwood007\" title=\"jdarwood007\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"jdarwood007\"  alt=\"jdarwood007 on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/jdarwood007\" title=\"jdarwood007\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"jdarwood007\" alt=\"jdarwood007 on GitHub\" /></a>"
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"https://sleepycode.com/\" title=\"SleePy Code - My personal site\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SleePy Code - My personal site\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"https://sleepycode.com/\" title=\"SleePy Code - My personal site\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"SleePy Code - My personal site\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -1816,7 +1820,7 @@
       "postid": 3950045,
       "date": "November 29, 2017, 04:49:23 PM",
       "body": "Yes<br />Nice Work DEVS<br />Thank you",
-      "signature": "<div class=\"centertext\"><a href=\"http://www.aplic.co.mz\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://aplicimagens.info/image-6496_524B8AAF.jpg\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"><br></a><div class=\"centertext\"><a href=\"http://www.apllic.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://aplicimagens.info/img/Banner400x60.jpg\" alt=\"\" width=\"500\" height=\"62\" class=\"bbc_img resized\" loading=\"lazy\"><br></a><div class=\"centertext\"></div></div></div>",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><a href=\"http://www.aplic.co.mz\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://aplicimagens.info/image-6496_524B8AAF.jpg\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"><br></a><div class=\"centertext\"><div class=\"inline_block\"><a href=\"http://www.apllic.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://aplicimagens.info/img/Banner400x60.jpg\" alt=\"\" width=\"500\" height=\"62\" class=\"bbc_img resized\" loading=\"lazy\"><br></a><div class=\"centertext\"><div class=\"inline_block\"></div></div></div></div></div></div>",
       "edited": "",
       "attachments": [],
       "user": "Apllicmz",
@@ -1833,7 +1837,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 2,649"
+          "value": "Posts: 2,650"
         },
         {
           "key": "blurb",
@@ -1841,7 +1845,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_icq\"><a class=\"icq\" href=\"//www.icq.com/people/385029351\" target=\"_blank\" rel=\"noopener\" title=\"ICQ - 385029351\"><img src=\"https://smf-default.simplemachinesweb.com/images/icq.png\" alt=\"ICQ - 385029351\"></a></li><li class=\"custom cust_skype\"><a href=\"skype:aplic@apllic.net?call\"><img src=\"https://smf-default.simplemachinesweb.com/images/skype.png\" alt=\"aplic@apllic.net\" title=\"aplic@apllic.net\" /></a> </li><li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/apllicmz\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"apllicmz on Facebook\" title=\"Facebook\" /></a></li><li class=\"custom cust_github\"><a href=\"https://github.com/apllicmz\" title=\"apllicmz\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"apllicmz\"  alt=\"apllicmz on GitHub\" /></a></li><li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/https://www.linkedin.com/in/aplic\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"https://www.linkedin.com/in/aplic on LinkedIn\" title=\"LinkedIn\" /></a></li><li class=\"custom cust_twitte\"><a href=\"https://twitter.com/aplichosting\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@aplichosting on Twitter\" title=\"Follow @aplichosting on Twitter\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_icq\"><a class=\"icq\" href=\"//www.icq.com/people/385029351\" target=\"_blank\" rel=\"noopener\" title=\"ICQ - 385029351\"><img src=\"https://smf-default.simplemachinesweb.com/images/icq.png\" alt=\"ICQ - 385029351\"></a></li> <li class=\"custom cust_skype\"><a href=\"skype:aplic@apllic.net?call\"><img src=\"https://smf-default.simplemachinesweb.com/images/skype.png\" alt=\"aplic@apllic.net\" title=\"aplic@apllic.net\" /></a> </li> <li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/apllicmz\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"apllicmz on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/apllicmz\" title=\"apllicmz\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"apllicmz\" alt=\"apllicmz on GitHub\" /></a></li> <li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/https://www.linkedin.com/in/aplic\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"https://www.linkedin.com/in/aplic on LinkedIn\" title=\"LinkedIn\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/aplichosting\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@aplichosting on Twitter\" title=\"Follow @aplichosting on Twitter\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_icq",
@@ -1861,7 +1865,7 @@
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/apllicmz\" title=\"apllicmz\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"apllicmz\"  alt=\"apllicmz on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/apllicmz\" title=\"apllicmz\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"apllicmz\" alt=\"apllicmz on GitHub\" /></a>"
         },
         {
           "key": "custom cust_linked",
@@ -1873,7 +1877,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.apllic.com\" title=\"Webdesign\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Webdesign\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.apllic.com\" title=\"Webdesign\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Webdesign\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",
@@ -1888,7 +1892,7 @@
     {
       "postid": 3950165,
       "date": "November 30, 2017, 02:56:06 PM",
-      "body": "so... I dunno if this is just me but my forum still says the &quot;current&quot; version is 2.0.14.<br /><br /><div class=\"centertext\"><img src=\"https://i.imgur.com/kKy5suL.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></div><br />(Not asking for support, but this doesn&#039;t look quite correct.)",
+      "body": "so... I dunno if this is just me but my forum still says the &quot;current&quot; version is 2.0.14.<br /><br /><div class=\"centertext\"><div class=\"inline_block\"><img src=\"https://i.imgur.com/kKy5suL.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></div></div><br />(Not asking for support, but this doesn&#039;t look quite correct.)",
       "signature": "Site Administrator- Shadow Fleet Star Trek RPG",
       "edited": "",
       "attachments": [],
@@ -1910,15 +1914,15 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_github\"><a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\"  alt=\"Torngate on GitHub\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_github\"><a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\" alt=\"Torngate on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\"  alt=\"Torngate on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\" alt=\"Torngate on GitHub\" /></a>"
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.shadowfleet.org/forum\" title=\"Shadow Fleet\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Shadow Fleet\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.shadowfleet.org/forum\" title=\"Shadow Fleet\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Shadow Fleet\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -1930,7 +1934,7 @@
       "postid": 3950168,
       "date": "November 30, 2017, 03:10:42 PM",
       "body": "Fetch Simple Machines files.",
-      "signature": "<div class=\"centertext\"><i>((U + C + I)x(10 − S)) / 20xAx1 / (1 − sin(F / 10))</i><br>President/CEO of <a href=\"http://www.simplemachines.org/about/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Simple Machines</a> - Server Manager<br>Please do <b>not</b> PM for support - anything else is usually OK.</div>",
+      "signature": "<div class=\"centertext\"><div class=\"inline_block\"><i>((U + C + I)x(10 − S)) / 20xAx1 / (1 − sin(F / 10))</i><br>President/CEO of <a href=\"http://www.simplemachines.org/about/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Simple Machines</a> - Server Manager<br>Please do <b>not</b> PM for support - anything else is usually OK.</div></div>",
       "edited": "",
       "attachments": [],
       "user": "LiroyvH",
@@ -1951,7 +1955,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 19,076"
+          "value": "Posts: 19,123"
         },
         {
           "key": "blurb",
@@ -1959,11 +1963,11 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_github\"><a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\"  alt=\"liroyvh on GitHub\" /></a></li><li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"liroyvh on LinkedIn\" title=\"LinkedIn\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_github\"><a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\" alt=\"liroyvh on GitHub\" /></a></li> <li class=\"custom cust_linked\"><a href=\"https://www.linkedin.com/in/liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/linkedin.png\" height=\"16\" width=\"16\" alt=\"liroyvh on LinkedIn\" title=\"LinkedIn\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\"  alt=\"liroyvh on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/liroyvh\" title=\"liroyvh\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"liroyvh\" alt=\"liroyvh on GitHub\" /></a>"
         },
         {
           "key": "custom cust_linked",
@@ -2004,15 +2008,15 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_github\"><a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\"  alt=\"Torngate on GitHub\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_github\"><a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\" alt=\"Torngate on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_github",
-          "value": "<a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\"  alt=\"Torngate on GitHub\" /></a>"
+          "value": "<a href=\"https://github.com/Torngate\" title=\"Torngate\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"Torngate\" alt=\"Torngate on GitHub\" /></a>"
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.shadowfleet.org/forum\" title=\"Shadow Fleet\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Shadow Fleet\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.shadowfleet.org/forum\" title=\"Shadow Fleet\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"Shadow Fleet\"></span></a></li> </ol>"
         },
         {
           "key": "poster_ip",
@@ -2070,7 +2074,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 1,409"
+          "value": "Posts: 1,442"
         },
         {
           "key": "blurb",
@@ -2078,7 +2082,7 @@
         },
         {
           "key": "im_icons",
-          "value": "<ol><li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li><li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/Michael Reed\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"Michael Reed on Facebook\" title=\"Facebook\" /></a></li></ol>"
+          "value": "<ol> <li class=\"custom cust_gender\"><span class=\" main_icons gender_1\" title=\"Male\"></span></li> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/Michael Reed\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"Michael Reed on Facebook\" title=\"Facebook\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_gender",
@@ -2090,7 +2094,7 @@
         },
         {
           "key": "profile",
-          "value": "<ol class=\"profile_icons\"><li><a href=\"http://www.gsx1400owners.org/forum\" title=\"GSX1400 Owners ORG\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"GSX1400 Owners ORG\"></span></a></li></ol>"
+          "value": "<ol class=\"profile_icons\"> <li><a href=\"http://www.gsx1400owners.org/forum\" title=\"GSX1400 Owners ORG\" target=\"_blank\" rel=\"noopener\"><span class=\"main_icons www centericon\" title=\"GSX1400 Owners ORG\"></span></a></li> </ol>"
         },
         {
           "key": "custom cust_loca",

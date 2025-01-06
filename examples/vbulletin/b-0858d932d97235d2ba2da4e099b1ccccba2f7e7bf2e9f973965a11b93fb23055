@@ -4,15 +4,15 @@
   "categories": [
     {
       "name": "Мобильные устройства",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=1",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=1",
       "description": "",
       "forums": [
         {
           "status": null,
           "title": "Новости",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=2",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=2",
           "description": "Свежие новости рынка мобильных устройств",
-          "viewing": 63,
+          "viewing": 9,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -29,12 +29,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Обзоры",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=8",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=8",
           "description": "Обзоры смартфонов, планшетов и других мобильных устройств",
-          "viewing": 95,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=394",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=394",
               "name": "Краш-тесты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -56,12 +56,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Технологии",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=317",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=317",
           "description": "Обсуждаем вопросы касающиеся мобильных устройств и технологий",
           "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=564",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=564",
               "name": "Процессоры",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -83,7 +83,7 @@
         {
           "status": null,
           "title": "Разработка игр и приложений",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=668",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=668",
           "description": "Общие вопросы разработки игр и приложений на разные платформы",
           "viewing": 0,
           "childboards": [],
@@ -102,33 +102,33 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Выбор и покупка",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=318",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=318",
           "description": "Помощь в выборе устройства и сравнение различных устройств",
-          "viewing": 2,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=498",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=498",
               "name": "Интернет магазины",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=403",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=403",
               "name": "Барахолка",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=569",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=569",
               "name": "Акции и промокоды",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=460",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=460",
               "name": "Аксессуары",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -150,9 +150,9 @@
         {
           "status": null,
           "title": "Ремонт и обслуживание",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=344",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=344",
           "description": "Ремонт и обслуживание мобильных устройств",
-          "viewing": 1,
+          "viewing": 0,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -169,7 +169,7 @@
         {
           "status": null,
           "title": "Обои",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=568",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=568",
           "description": "Обои под различные разрешения",
           "viewing": 0,
           "childboards": [],
@@ -188,7 +188,7 @@
         {
           "status": null,
           "title": "Оффтоп",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=207",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=207",
           "description": "Раздел для несерьёзных разговоров на тему мобильных устройств и приложений",
           "viewing": 0,
           "childboards": [],
@@ -208,15 +208,15 @@
     },
     {
       "name": "Android",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=98",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=98",
       "description": "",
       "forums": [
         {
           "status": null,
           "title": "F.A.Q.",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=132",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=132",
           "description": "Все вопросы связанные с использованием операционной системы Android, помощь новичкам, устранение неисправностей и т.д.",
-          "viewing": 2,
+          "viewing": 1,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -233,19 +233,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Acer",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=601",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=601",
           "description": "Обсуждение мобильных устройств от Acer на Android",
           "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=602",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=602",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=603",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=603",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -267,19 +267,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Alcatel",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=506",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=506",
           "description": "Обсуждение мобильных устройств от Alcatel",
-          "viewing": 2,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=586",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=586",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=587",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=587",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -301,19 +301,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Asus",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=598",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=598",
           "description": "Обсуждение мобильных устройств от Asus",
-          "viewing": 1,
+          "viewing": 4,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=599",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=599",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=600",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=600",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -335,19 +335,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "DNS",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=633",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=633",
           "description": "Обсуждение мобильных устройств DNS",
-          "viewing": 0,
+          "viewing": 1,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=634",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=634",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=635",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=635",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -369,19 +369,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Explay",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=616",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=616",
           "description": "Обсуждение мобильных устройств от Explay",
-          "viewing": 5,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=617",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=617",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=618",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=618",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -403,19 +403,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Fly",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=626",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=626",
           "description": "Обсуждение мобильных устройств от Fly",
-          "viewing": 2,
+          "viewing": 1,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=627",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=627",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=628",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=628",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -437,12 +437,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Gigabyte",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=669",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=669",
           "description": "Обсуждение мобильных устройств Gigabyte",
           "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=670",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=670",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -464,19 +464,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Google",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=664",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=664",
           "description": "Обсуждение мобильных устройств от Google",
-          "viewing": 0,
+          "viewing": 1,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=665",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=665",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=667",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=667",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -498,19 +498,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Highscreen",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=612",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=612",
           "description": "Обсуждение мобильных устройств Highscreen",
-          "viewing": 1,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=613",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=613",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=614",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=614",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -532,19 +532,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "HTC",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=153",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=153",
           "description": "Обсуждение устройств HTC на Андроид",
-          "viewing": 5,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=594",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=594",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=595",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=595",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -566,19 +566,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Huawei",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=206",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=206",
           "description": "Обсуждение смартфонов Huawei на Андроид",
-          "viewing": 3,
+          "viewing": 4,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=590",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=590",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=591",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=591",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -600,19 +600,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Lenovo",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=266",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=266",
           "description": "Обсуждение смартфонов Lenovo на Андроид",
-          "viewing": 2,
+          "viewing": 4,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=589",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=589",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=471",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=471",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -634,19 +634,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "LG",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=156",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=156",
           "description": "Обсуждение мобильный устройств LG",
-          "viewing": 5,
+          "viewing": 4,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=592",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=592",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=593",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=593",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -668,12 +668,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Meizu",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=657",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=657",
           "description": "Обсуждение устройств Meizu на Android",
-          "viewing": 0,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=658",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=658",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -695,12 +695,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Motorola",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=636",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=636",
           "description": "Обсуждение мобильных устройств от Motorola",
           "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=637",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=637",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -722,19 +722,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Nokia",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=651",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=651",
           "description": "Обсуждение устройств от Nokia на Android",
           "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=652",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=652",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=653",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=653",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -756,12 +756,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "OPPO",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=624",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=624",
           "description": "Обсуждение мобильных устройств от OPPO",
-          "viewing": 5,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=625",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=625",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -783,19 +783,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Philips",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=630",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=630",
           "description": "Обсуждение устройств Philips на Android",
           "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=631",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=631",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=632",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=632",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -817,19 +817,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Prestigio",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=620",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=620",
           "description": "Обсуждение мобильных устройств Prestigio",
-          "viewing": 0,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=621",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=621",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=622",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=622",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -851,7 +851,7 @@
         {
           "status": null,
           "title": "Realme",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=678",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=678",
           "description": "Обсуждение смартфонов Realme на Андроид",
           "viewing": 0,
           "childboards": [],
@@ -870,26 +870,26 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Samsung",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=154",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=154",
           "description": "Обсуждение мобильных устройств от Samsung",
-          "viewing": 12,
+          "viewing": 11,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=588",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=588",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=470",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=470",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=650",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=650",
               "name": "SmartWatch",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -911,19 +911,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Sony",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=155",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=155",
           "description": "Обсуждение смартфонов Sony (Sony Ericsson) на Андроид",
-          "viewing": 4,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=596",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=596",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=597",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=597",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -945,19 +945,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "teXet",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=638",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=638",
           "description": "Обсуждение мобильных устройств от teXet",
-          "viewing": 8,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=639",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=639",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=640",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=640",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -979,12 +979,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "umidigi",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=672",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=672",
           "description": "",
-          "viewing": 0,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=673",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=673",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1006,9 +1006,9 @@
         {
           "status": null,
           "title": "Vivo",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=677",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=677",
           "description": "Обсуждение смартфонов Vivo на Андроид",
-          "viewing": 0,
+          "viewing": 1,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -1025,19 +1025,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Xiaomi",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=571",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=571",
           "description": "Обсуждение смартфонов Xiaomi на Андроид",
-          "viewing": 5,
+          "viewing": 6,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=604",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=604",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=605",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=605",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1059,12 +1059,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "YotaPhone",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=660",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=660",
           "description": "Обсуждение устройств YotaPhone на Android",
-          "viewing": 0,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=661",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=661",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1086,19 +1086,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "ZOPO",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=654",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=654",
           "description": "Обсуждение устройств ZOPO на Android",
-          "viewing": 1,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=655",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=655",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=656",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=656",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1120,19 +1120,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "ZTE",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=205",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=205",
           "description": "Обсуждение смартфонов ZTE на Андроид",
-          "viewing": 2,
+          "viewing": 4,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=606",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=606",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=607",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=607",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1154,19 +1154,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Билайн",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=641",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=641",
           "description": "Обсуждение мобильных устройств от Билайн",
-          "viewing": 1,
+          "viewing": 23,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=644",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=644",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=645",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=645",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1188,19 +1188,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Мегафон",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=642",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=642",
           "description": "Обсуждение мобильных устройств от Мегафон",
-          "viewing": 0,
+          "viewing": 17,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=646",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=646",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=647",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=647",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1222,19 +1222,19 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "МТС",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=643",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=643",
           "description": "Обсуждение мобильных устройств от МТС",
-          "viewing": 0,
+          "viewing": 10,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=648",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=648",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=649",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=649",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1256,26 +1256,26 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Другие производители",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=629",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=629",
           "description": "Обсуждение мобильных устройств от остальных производителей (для которых нет разделов)",
-          "viewing": 2,
+          "viewing": 25,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=152",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=152",
               "name": "Смартфоны",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=459",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=459",
               "name": "Планшеты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=495",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=495",
               "name": "Часы и другие устройства",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1297,26 +1297,26 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Прошивка и root",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=461",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=461",
           "description": "Обсуждение универсальных способов прошивок устройств на Android",
-          "viewing": 8,
+          "viewing": 26,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=662",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=662",
               "name": "Allwinner",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=581",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=581",
               "name": "MediaTek",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=663",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=663",
               "name": "Rockchip",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1338,117 +1338,117 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Программы",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=107",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=107",
           "description": "Программы для Андроид",
-          "viewing": 11,
+          "viewing": 129,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=323",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=323",
               "name": "Безопасность",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=302",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=302",
               "name": "Живые обои",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=325",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=325",
               "name": "Интернет и сеть",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=324",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=324",
               "name": "Интерфейс",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=486",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=486",
               "name": "Иконки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=326",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=326",
               "name": "Контакты и звонки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=327",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=327",
               "name": "Мультимедиа",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=328",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=328",
               "name": "Офисные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=329",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=329",
               "name": "Системные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=331",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=331",
               "name": "Спорт и здоровье",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=305",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=305",
               "name": "Темы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=332",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=332",
               "name": "Чтение и обучение",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=333",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=333",
               "name": "Другие программы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=501",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=501",
               "name": "Xposed Framework",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=345",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=345",
               "name": "Программы для ПК",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=405",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=405",
               "name": "Авто/Навигация",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1470,82 +1470,82 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Игры",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=108",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=108",
           "description": "Игры для Андроид",
-          "viewing": 9,
+          "viewing": 157,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=334",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=334",
               "name": "Action",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=490",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=490",
               "name": "Азартные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=335",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=335",
               "name": "Аркады",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=336",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=336",
               "name": "RPG/Приключения/Квесты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=337",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=337",
               "name": "Гонки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=338",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=338",
               "name": "Головоломки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=339",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=339",
               "name": "Спорт",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=340",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=340",
               "name": "Симуляторы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=341",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=341",
               "name": "Стратегии",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=342",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=342",
               "name": "Настольные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=343",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=343",
               "name": "Другие игры",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1568,15 +1568,15 @@
     },
     {
       "name": "iOS",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=99",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=99",
       "description": "",
       "forums": [
         {
           "status": null,
           "title": "F.A.Q.",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=135",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=135",
           "description": "Общие вопросы, помощь новичкам, устранение неисправностей iOS",
-          "viewing": 0,
+          "viewing": 1,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -1593,12 +1593,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "iPhone",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=309",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=309",
           "description": "Обсуждение iPhone всех поколений",
           "viewing": 1,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=508",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=508",
               "name": "Список моделей",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1620,12 +1620,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "iPad",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=310",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=310",
           "description": "Обсуждение iPad любого поколения",
-          "viewing": 5,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=509",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=509",
               "name": "Список моделей",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1647,89 +1647,89 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Программы",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=109",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=109",
           "description": "iOS программы для iPhone, iPad, iPod",
-          "viewing": 0,
+          "viewing": 5,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=406",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=406",
               "name": "Авто/Навигация",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=380",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=380",
               "name": "Безопасность",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=381",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=381",
               "name": "Интерфейс",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=382",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=382",
               "name": "Интернет и коммуникации",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=383",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=383",
               "name": "Контакты и звонки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=384",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=384",
               "name": "Мультимедиа",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=385",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=385",
               "name": "Офисные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=386",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=386",
               "name": "Системные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=387",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=387",
               "name": "Спорт и здоровье",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=388",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=388",
               "name": "Чтение и обучение",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=389",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=389",
               "name": "Другие программы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=497",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=497",
               "name": "Программы для ПК",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1751,82 +1751,82 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Игры",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=110",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=110",
           "description": "iOS игры для iPhone, iPad, iPod",
-          "viewing": 3,
+          "viewing": 4,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=370",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=370",
               "name": "Action",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=496",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=496",
               "name": "Азартные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=371",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=371",
               "name": "Аркады",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=372",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=372",
               "name": "RPG/Приключения/Квесты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=373",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=373",
               "name": "Гонки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=374",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=374",
               "name": "Головоломки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=375",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=375",
               "name": "Спорт",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=376",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=376",
               "name": "Симуляторы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=377",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=377",
               "name": "Стратегии",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=378",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=378",
               "name": "Настольные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=379",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=379",
               "name": "Другие игры",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1848,7 +1848,7 @@
         {
           "status": null,
           "title": "Прошивки",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=502",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=502",
           "description": "Прошивки для iPhone, iPad, iPod touch",
           "viewing": 0,
           "childboards": [],
@@ -1867,7 +1867,7 @@
         {
           "status": null,
           "title": "Jailbreak & Unlock",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=143",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=143",
           "description": "Джейлбрейк и анлок iOS устройств. Расширьте возможности Вашего девайса",
           "viewing": 0,
           "childboards": [],
@@ -1886,7 +1886,7 @@
         {
           "status": null,
           "title": "Cydia",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=150",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=150",
           "description": "Раздел посвященный Cydia. Твики, программы и много другое",
           "viewing": 0,
           "childboards": [],
@@ -1906,15 +1906,15 @@
     },
     {
       "name": "Windows Phone",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=100",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=100",
       "description": "",
       "forums": [
         {
           "status": null,
           "title": "F.A.Q.",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=159",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=159",
           "description": "Часто задаваемые вопросы, помощь новичкам, устранение неполадок в Windows Phone",
-          "viewing": 2,
+          "viewing": 1,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -1931,12 +1931,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Смартфоны",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=158",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=158",
           "description": "Смартфоны на платформе Windows Phone",
           "viewing": 1,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=160",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=160",
               "name": "Nokia / Microsoft",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -1958,82 +1958,82 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Программы",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=111",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=111",
           "description": "Программы для Windows Phone",
           "viewing": 1,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=407",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=407",
               "name": "Авто/Навигация",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=367",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=367",
               "name": "Безопасность",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=357",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=357",
               "name": "Интерфейс",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=359",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=359",
               "name": "Интернет и коммуникации",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=360",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=360",
               "name": "Контакты и звонки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=361",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=361",
               "name": "Мультимедиа",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=362",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=362",
               "name": "Офисные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=363",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=363",
               "name": "Системные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=364",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=364",
               "name": "Спорт и здоровье",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=365",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=365",
               "name": "Чтение и обучение",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=366",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=366",
               "name": "Прочие программы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2055,68 +2055,68 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Игры",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=112",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=112",
           "description": "Игры для Windows Phone",
-          "viewing": 2,
+          "viewing": 1,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=347",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=347",
               "name": "Action",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=348",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=348",
               "name": "Аркады",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=349",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=349",
               "name": "RPG/Приключения/Квесты",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=350",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=350",
               "name": "Гонки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=351",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=351",
               "name": "Головоломки",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=352",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=352",
               "name": "Симуляторы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=353",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=353",
               "name": "Стратегии",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=354",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=354",
               "name": "Настольные",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=355",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=355",
               "name": "Прочие игры",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2139,32 +2139,32 @@
     },
     {
       "name": "Другие OS",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=101",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=101",
       "description": "",
       "forums": [
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "BlackBerry",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=103",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=103",
           "description": "Обсуждение операционной системы BlackBerry",
-          "viewing": 1,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=173",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=173",
               "name": "Устройства",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=174",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=174",
               "name": "Программы",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=175",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=175",
               "name": "Игры",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2186,7 +2186,7 @@
         {
           "status": null,
           "title": "Ubuntu Touch",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=199",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=199",
           "description": "Обсуждение Ubuntu Touch",
           "viewing": 0,
           "childboards": [],
@@ -2205,7 +2205,7 @@
         {
           "status": null,
           "title": "Sailfish",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=200",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=200",
           "description": "Обсуждение Salfish OS",
           "viewing": 0,
           "childboards": [],
@@ -2224,7 +2224,7 @@
         {
           "status": null,
           "title": "Firefox OS",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=201",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=201",
           "description": "Обсуждение Firefox OS",
           "viewing": 0,
           "childboards": [],
@@ -2243,7 +2243,7 @@
         {
           "status": null,
           "title": "Tizen",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=561",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=561",
           "description": "Обсуждение Tizen OS",
           "viewing": 0,
           "childboards": [],
@@ -2263,15 +2263,15 @@
     },
     {
       "name": "Другие устройства",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=113",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=113",
       "description": "",
       "forums": [
         {
           "status": null,
           "title": "Телефоны",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=307",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=307",
           "description": "Раздел посвященный простым \"звонилкам\"",
-          "viewing": 1,
+          "viewing": 2,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -2288,12 +2288,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Ноутбуки и ПК",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=390",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=390",
           "description": "",
-          "viewing": 2,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=485",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=485",
               "name": "Windows RT",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2315,9 +2315,9 @@
         {
           "status": null,
           "title": "Другие",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=172",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=172",
           "description": "Обсуждение других устройств/гаджетов не вошедших в предыдущие разделы форума",
-          "viewing": 0,
+          "viewing": 1,
           "childboards": [],
           "topics": 0,
           "posts": 0,
@@ -2335,67 +2335,67 @@
     },
     {
       "name": "Операторы",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=121",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=121",
       "description": "",
       "forums": [
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Россия",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=122",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=122",
           "description": "Мобильные операторы России",
-          "viewing": 47,
+          "viewing": 2,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=124",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=124",
               "name": "МТС",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=125",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=125",
               "name": "МегаФон",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=126",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=126",
               "name": "Beeline",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=127",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=127",
               "name": "Tele2",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=128",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=128",
               "name": "Ростелеком",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=397",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=397",
               "name": "СМАРТС",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=565",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=565",
               "name": "К Телеком",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=396",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=396",
               "name": "Мотив телеком",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2417,26 +2417,26 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Другие страны",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=123",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=123",
           "description": "Обсуждение мобильных операторов других стран",
-          "viewing": 64,
+          "viewing": 5,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=391",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=391",
               "name": "Украина",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=395",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=395",
               "name": "Беларусь",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=503",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=503",
               "name": "Казахстан",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2459,18 +2459,18 @@
     },
     {
       "name": "Клубы по интересам",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=512",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=512",
       "description": "",
       "forums": [
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Поговорим за жизнь",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=139",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=139",
           "description": "Разговоры на отвлеченные темы не связанные с мобильной тематикой. Жизнь, работа и т.д.",
           "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=567",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=567",
               "name": "Серфинг",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2492,7 +2492,7 @@
         {
           "status": null,
           "title": "Заработок в интернете",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=584",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=584",
           "description": "Раздел посвященный методам заработка в Интернете, только полезная инфа без всяких лохотронов итд",
           "viewing": 0,
           "childboards": [],
@@ -2511,7 +2511,7 @@
         {
           "status": null,
           "title": "Технологии и инновации",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=676",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=676",
           "description": "Раздел посвящен современным технологиям и инновациям в мире мобильных устройств и не только.",
           "viewing": 0,
           "childboards": [],
@@ -2530,12 +2530,12 @@
         {
           "status": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
           "title": "Игры",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=513",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=513",
           "description": "Раздел о компьютерных играх всех жанров и направлений",
-          "viewing": 1,
+          "viewing": 0,
           "childboards": [
             {
-              "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=554",
+              "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=554",
               "name": "Hearthstone: Heroes of Warcraft",
               "icon": "https://mdforum.su/images/mdf/statusicon/subforum_old.png",
               "topics": 0,
@@ -2558,13 +2558,13 @@
     },
     {
       "name": "Наш форум",
-      "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=138",
+      "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=138",
       "description": "",
       "forums": [
         {
           "status": null,
           "title": "О работе форума",
-          "link": "https://mdforum.su/forumdisplay.php?s=f32e04a5eef3832cd95deabe0d569a70&f=140",
+          "link": "https://mdforum.su/forumdisplay.php?s=a767c99906ae4b8fcfd378bb98e6fdfa&f=140",
           "description": "Раздел посвящен работе форума. Здесь вы можете оставить замечания или предложения касательно работы форума",
           "viewing": 0,
           "childboards": [],

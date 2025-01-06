@@ -1,10 +1,10 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://rune-server.org/members/galkon.49265/?tooltip=true&_xfWithData=1&_xfToken=1721397658,ce7fe68c49e7e6feafa8504e88a94120&_xfResponseType=json",
+  "url": "https://rune-server.org/members/galkon.49265/?tooltip=true&_xfWithData=1&_xfToken=1736169490,fa02d4f1cd925f832b9205204eff7a70&_xfResponseType=json",
   "id": 49265,
   "background": "",
   "location": "",
-  "avatar": "https://rune-server.org/data/avatars/m/49/49265.jpg",
+  "avatar": "https://cdn.rune-server.org/avatars/m/49/49265.jpg",
   "title": "Retired. Stop PMing me.",
   "banners": [],
   "name": "Galkon",
@@ -16,11 +16,11 @@
     },
     {
       "key": "Last seen",
-      "value": "2024-07-05T23:54:12+0100"
+      "value": "2024-10-27T23:15:57+0000"
     },
     {
       "key": "Messages",
-      "value": "7,520"
+      "value": "7,515"
     },
     {
       "key": "Reputation score",
@@ -28,7 +28,7 @@
     },
     {
       "key": "Reaction score",
-      "value": "925"
+      "value": "922"
     },
     {
       "key": "Points",

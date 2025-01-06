@@ -1,0 +1,344 @@
+{
+  "format_version": "stackexchange-forum",
+  "url": "https://stackoverflow.com/questions?tab=Bounties",
+  "threads": [
+    {
+      "score": 0,
+      "views": 57,
+      "answers": 0,
+      "solved": false,
+      "bounty": 250,
+      "title": "How to run steps in parallel in Buildbot",
+      "link": "https://stackoverflow.com/questions/79304596/how-to-run-steps-in-parallel-in-buildbot",
+      "excerp": "In Buildbot, is there a way run steps within a builder in parallel? I couldn't find any documentation on that. For example, I want these 2 steps to be executed in parallel. factory.addStep(Parallel( ...",
+      "tags": [
+        "buildbot"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/cff3bd0806c4f90cbcf6bf26e36a0e6d?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "rodee",
+        "link": "https://stackoverflow.com/users/2748513/rodee",
+        "reputation": 3141
+      },
+      "date": "2024-12-24 02:09:24Z"
+    },
+    {
+      "score": 0,
+      "views": 66,
+      "answers": 0,
+      "solved": false,
+      "bounty": 500,
+      "title": "Integration of Ansible Molecule with podman in GitLab CI/CD runner context",
+      "link": "https://stackoverflow.com/questions/79292207/integration-of-ansible-molecule-with-podman-in-gitlab-ci-cd-runner-context",
+      "excerp": "TL;DR Does podman need the privileged container (aka root) mode to provide safe runtime environment for Ansible Molecule tests in GitLab CI/CD execution environment as mandatory setup option? If not, ...",
+      "tags": [
+        "gitlab-ci-runner",
+        "podman",
+        "molecule",
+        "rootless"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/FYAQN.png?s=32",
+        "name": "Open Food Broker",
+        "link": "https://stackoverflow.com/users/4422958/open-food-broker",
+        "reputation": 573
+      },
+      "date": "2024-12-18 18:59:32Z"
+    },
+    {
+      "score": 0,
+      "views": 80,
+      "answers": 0,
+      "solved": false,
+      "bounty": 100,
+      "title": "Sending \"Start\" Live Activity Notification from Apple Push Notifications Console successfully received by APNs and device, but doesn't start activity",
+      "link": "https://stackoverflow.com/questions/79298661/sending-start-live-activity-notification-from-apple-push-notifications-console",
+      "excerp": "Resorting to asking here since it seems that there's not a lot of documentation around debugging &quot;Start&quot; push notifications for Live Activities. Basically, I've been trying to send a test &...",
+      "tags": [
+        "ios",
+        "swift",
+        "push-notification",
+        "apple-push-notifications",
+        "widgetliveactivity"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/b56e536420c95cd6d164c3b564a069a2?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "papers1010",
+        "link": "https://stackoverflow.com/users/10892355/papers1010",
+        "reputation": 45
+      },
+      "date": "2024-12-21 00:12:50Z"
+    },
+    {
+      "score": 0,
+      "views": 39,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "Diagnostic analyzer runner is currently unavailable doe to an internal error (with CodeRush)",
+      "link": "https://stackoverflow.com/questions/79306622/diagnostic-analyzer-runner-is-currently-unavailable-doe-to-an-internal-error-wi",
+      "excerp": "In Visual Studio, when I enable CodeRush and build, I see the error message with stack trace StreamJsonRpc.RemoteInvocationException: Argument contains duplicate analyzer instances. (Parameter '...",
+      "tags": [
+        "coderush"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/683f82a14ba9c318ef99ca8268826422?s=32&d=identicon&r=PG",
+        "name": "Kirsten",
+        "link": "https://stackoverflow.com/users/1592821/kirsten",
+        "reputation": 17954
+      },
+      "date": "2024-12-24 23:25:03Z"
+    },
+    {
+      "score": 3,
+      "views": 69,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "Looking for an Offline Text-to-Speech Engine with Realistic Urdu Voice for Android",
+      "link": "https://stackoverflow.com/questions/79274051/looking-for-an-offline-text-to-speech-engine-with-realistic-urdu-voice-for-andro",
+      "excerp": "I am working on an Android application that requires converting Urdu text into speech using a realistic and offline-supported voice. Here’s what I have tried so far: Google Text-to-Speech (TTS) Engine:...",
+      "tags": [
+        "android",
+        "text-to-speech",
+        "urdu"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/DrQQo.png?s=32",
+        "name": "Asim Khan",
+        "link": "https://stackoverflow.com/users/3565879/asim-khan",
+        "reputation": 516
+      },
+      "date": "2024-12-12 06:29:43Z"
+    },
+    {
+      "score": 1,
+      "views": 55,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "FFmpeg h264_v4l2m2m encoder changing aspect ratio from 16:9 to 1:1 with black bars",
+      "link": "https://stackoverflow.com/questions/79307244/ffmpeg-h264-v4l2m2m-encoder-changing-aspect-ratio-from-169-to-11-with-black-ba",
+      "excerp": "When switching from libx264 to h264_v4l2m2m encoder in FFmpeg for YouTube streaming, the output video's aspect ratio changes from 16:9 to 1:1 with black bars on the sides, despite keeping the same ...",
+      "tags": [
+        "ffmpeg",
+        "raspberry-pi",
+        "video-streaming",
+        "h.264"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/bVFBH.png?s=32",
+        "name": "LycoReco2007",
+        "link": "https://stackoverflow.com/users/20547351/lycoreco2007",
+        "reputation": 87
+      },
+      "date": "2024-12-25 09:21:25Z"
+    },
+    {
+      "score": 77,
+      "views": 140420,
+      "answers": 35,
+      "solved": true,
+      "bounty": 100,
+      "title": "Efficient calculation of Fibonacci series",
+      "link": "https://stackoverflow.com/questions/18172257/efficient-calculation-of-fibonacci-series",
+      "excerp": "I'm working on Project Euler problem 2: the one about the sum of the even Fibonacci numbers up to four million. My code: def Fibonacci(n): if n == 0: return 0 elif n == 1: ...",
+      "tags": [
+        "python",
+        "performance",
+        "algorithm",
+        "fibonacci"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/0fd5718b7de47fc2865933b971fa293f?s=32&d=identicon&r=PG",
+        "name": "user65165",
+        "link": "https://stackoverflow.com/users/2085016/user65165",
+        "reputation": 974
+      },
+      "date": "2013-08-11 13:11:22Z"
+    },
+    {
+      "score": 1,
+      "views": 115,
+      "answers": 3,
+      "solved": false,
+      "bounty": 50,
+      "title": "Stripe Payment Vue3",
+      "link": "https://stackoverflow.com/questions/79311008/stripe-payment-vue3",
+      "excerp": "I would like to integrate stripe to charge a user a one-time 20$ payment after successfully completing a form in my Vue3 application. I've integrated vue-stripe-js and have been able to obtain a ...",
+      "tags": [
+        "javascript",
+        "vue.js",
+        "request",
+        "vuejs3",
+        "stripe-payments"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/d1f91da9b361abffac8cd3125e9ab148?s=32&d=identicon&r=PG",
+        "name": "Nick B",
+        "link": "https://stackoverflow.com/users/903143/nick-b",
+        "reputation": 9269
+      },
+      "date": "2024-12-27 05:47:03Z"
+    },
+    {
+      "score": 0,
+      "views": 79,
+      "answers": 2,
+      "solved": true,
+      "bounty": 50,
+      "title": "OpenMP 5 offloading C++ struct with member functions and data pointers",
+      "link": "https://stackoverflow.com/questions/79314941/openmp-5-offloading-c-struct-with-member-functions-and-data-pointers",
+      "excerp": "I have used OpenMP in a number of my past projects. Separately, I have also written CUDA and OpenCL GPU codes in a number of open source projects. I've heard a lot that OpenMP 5 added support to ...",
+      "tags": [
+        "g++",
+        "gpu",
+        "openmp",
+        "nvidia",
+        "openacc"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/33d636996c50d545160197b3cdbfd762?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "FangQ",
+        "link": "https://stackoverflow.com/users/4271392/fangq",
+        "reputation": 1544
+      },
+      "date": "2024-12-29 04:08:30Z"
+    },
+    {
+      "score": 0,
+      "views": 138,
+      "answers": 0,
+      "solved": false,
+      "bounty": 100,
+      "title": "Leveraging Qt models for nested data structures [closed]",
+      "link": "https://stackoverflow.com/questions/79316114/leveraging-qt-models-for-nested-data-structures",
+      "excerp": "Here is a simplified version of what I'm trying to achieve. For every Store that is added, one or more Departments can be added. For every Department that is added, one or more Employees can be added. ...",
+      "tags": [
+        "c++",
+        "qt",
+        "qml"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/c17b1aa24bdcf046e2ddc9e7dd6967c1?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "19172281",
+        "link": "https://stackoverflow.com/users/9687656/19172281",
+        "reputation": 153
+      },
+      "date": "2024-12-29 18:21:30Z"
+    },
+    {
+      "score": 0,
+      "views": 43,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "How can I add data to a geometry column in supabase using SQLalchemy?",
+      "link": "https://stackoverflow.com/questions/79314309/how-can-i-add-data-to-a-geometry-column-in-supabase-using-sqlalchemy",
+      "excerp": "I have the following table in supabase where I have the postgis extension installed: create table public.prueba ( id smallint generated by default as identity not null, name text null, ...",
+      "tags": [
+        "python",
+        "sqlalchemy",
+        "orm",
+        "supabase",
+        "geoalchemy2"
+      ],
+      "author": {
+        "avatar": "https://lh6.googleusercontent.com/-Gji8on5WN-Q/AAAAAAAAAAI/AAAAAAAAAAA/AMZuuclElbkWUajG-MmsfPrNEQjfh2F8Zg/s96-c/photo.jpg?sz=32",
+        "name": "Tamames",
+        "link": "https://stackoverflow.com/users/17474051/tamames",
+        "reputation": 97
+      },
+      "date": "2024-12-28 18:02:22Z"
+    },
+    {
+      "score": 1,
+      "views": 113,
+      "answers": 0,
+      "solved": false,
+      "bounty": 200,
+      "title": "Clustering lines in bands",
+      "link": "https://stackoverflow.com/questions/79315901/clustering-lines-in-bands",
+      "excerp": "Little intro I have data (link at the bottom), with on the y-axis the score, x-axis the position, for different labels. Now I want to know if there is one label that is &quot;significantly&quot; ...",
+      "tags": [
+        "python",
+        "cluster-analysis",
+        "outliers"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/4db21ce97258f0812999d60e269f3111?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "CodeNoob",
+        "link": "https://stackoverflow.com/users/7885426/codenoob",
+        "reputation": 1820
+      },
+      "date": "2024-12-29 15:55:39Z"
+    },
+    {
+      "score": 1,
+      "views": 115,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": ".NET MAUI IOS application crash randomly when navigations several times",
+      "link": "https://stackoverflow.com/questions/79317249/net-maui-ios-application-crash-randomly-when-navigations-several-times",
+      "excerp": "I am using Stack-Based Navigation (similar to master-details in Xmarion forms). The application works fine for Android and IOS simulators but in physical iPhone it crash randomly. This is my App.xaml: ...",
+      "tags": [
+        "c#",
+        "maui"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/se1Hz.jpg?s=32",
+        "name": "Ahmed Shamel",
+        "link": "https://stackoverflow.com/users/3432984/ahmed-shamel",
+        "reputation": 1952
+      },
+      "date": "2024-12-30 09:51:42Z"
+    },
+    {
+      "score": 0,
+      "views": 38,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "tRPC - nextjs - app router - build fail on timeout error when using useSuspenseQuery",
+      "link": "https://stackoverflow.com/questions/79317496/trpc-nextjs-app-router-build-fail-on-timeout-error-when-using-usesuspenseq",
+      "excerp": "I created T3-app and my build fail on timeout error. If I change this line: const [leads] = api.lead.getLeads.useSuspenseQuery(); to const { data: leads } = api.lead.getLeads.useQuery(); the build ...",
+      "tags": [
+        "next.js",
+        "trpc",
+        "t3"
+      ],
+      "author": {
+        "avatar": "https://lh5.googleusercontent.com/-ZNGJLLj_DZA/AAAAAAAAAAI/AAAAAAAAAV8/FGci0a5l9EQ/photo.jpg?sz=32",
+        "name": "Itay Tur",
+        "link": "https://stackoverflow.com/users/9608006/itay-tur",
+        "reputation": 1579
+      },
+      "date": "2024-12-30 11:40:11Z"
+    },
+    {
+      "score": 1,
+      "views": 115,
+      "answers": 0,
+      "solved": false,
+      "bounty": 50,
+      "title": "Unable to use rename in neovim with ruby lsp",
+      "link": "https://stackoverflow.com/questions/79302523/unable-to-use-rename-in-neovim-with-ruby-lsp",
+      "excerp": "I have tried this with a custom configuration and with the default LazyVim distribution. When I trigger vim.lsp.buf.rename(), for example in LazyVim with &lt;leader&gt;cr I get a error message stating ...",
+      "tags": [
+        "ruby",
+        "neovim",
+        "language-server-protocol",
+        "nvim-lspconfig",
+        "ruby-lsp"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/zx4O3.jpg?s=32",
+        "name": "NilVS",
+        "link": "https://stackoverflow.com/users/9548073/nilvs",
+        "reputation": 271
+      },
+      "date": "2024-12-23 08:09:51Z"
+    }
+  ]
+}

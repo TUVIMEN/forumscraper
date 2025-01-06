@@ -3,11 +3,11 @@
   "url": "https://invisioncommunity.com/profile/34851-the-old-man/?do=hovercard",
   "id": 34851,
   "name": "The Old Man",
-  "background": "https://content.invisioncic.com/a319035/monthly_2023_10/Invisionary-Header-1600x469.jpg.089822c2b7b84ba02facbd1dc21c4059.jpg",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2022_11/Invisionary-Logo-500px.thumb.png.ba0c9dc6902953cc66eed242d9058e12.png",
+  "background": "https://media.invisioncic.com/a319035/monthly_2023_10/Invisionary-Header-1600x469.jpg.089822c2b7b84ba02facbd1dc21c4059.jpg",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2022_11/Invisionary-Logo-500px.thumb.png.ba0c9dc6902953cc66eed242d9058e12.png",
   "group": "Clients",
-  "joined": "2003-11-24T23:46:51Z",
-  "lastseen": "2024-07-02T14:43:23Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
@@ -21,5 +21,14 @@
       "name": "Badges",
       "value": "11"
     }
+  ],
+  "rank": "Rank: Grand Master (13/13)",
+  "rank_date": "",
+  "badges": [
+    "Helpful",
+    "Dedicated",
+    "Week One Done",
+    "One Month Later",
+    "One Year In"
   ]
 }

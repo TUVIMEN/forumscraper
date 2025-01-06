@@ -13,8 +13,8 @@
           "name": "Actividades y Concursos finalizados",
           "link": "https://fanficslandia.com/foro/actividades-y-concursos-finalizados.332/",
           "description": "Historial de las diversas actividad de FanficsLandia.",
-          "topics": 1191,
-          "posts": 54603,
+          "topics": 1218,
+          "posts": 55779,
           "feed": "",
           "childboards": [
             {
@@ -23,11 +23,11 @@
             }
           ],
           "lastpost": {
-            "title": "Prode FFL (Euro + Copa America 2024)",
-            "link": "https://fanficslandia.com/posts/1199848/",
-            "user": "Agus estresado",
-            "user_link": "https://fanficslandia.com/usuario/agus-estresado.15623/",
-            "date": "15 Julio 2024 a las 4:46 AM"
+            "title": "Teléfono Embrujado 2024",
+            "link": "https://fanficslandia.com/posts/1203964/",
+            "user": "Starluz",
+            "user_link": "https://fanficslandia.com/usuario/starluz.35029/",
+            "date": "22 Noviembre 2024 a las 4:55 PM"
           }
         }
       ]
@@ -43,16 +43,16 @@
           "name": "Mafias",
           "link": "https://fanficslandia.com/foro/mafias.667/",
           "description": "",
-          "topics": 87,
-          "posts": 57790,
+          "topics": 89,
+          "posts": 58364,
           "feed": "",
           "childboards": [],
           "lastpost": {
-            "title": "Persona 4 Golden",
-            "link": "https://fanficslandia.com/posts/1194570/",
-            "user": "Richie Butcher",
-            "user_link": "https://fanficslandia.com/usuario/richie-butcher.34079/",
-            "date": "3 Enero 2024 a las 9:09 AM"
+            "title": "Halloween Party Mafia (ETD) [La Mafia gana la partida]",
+            "link": "https://fanficslandia.com/posts/1203622/",
+            "user": "Yandros",
+            "user_link": "https://fanficslandia.com/usuario/yandros.34163/",
+            "date": "5 Noviembre 2024 a las 2:38 PM"
           }
         }
       ]
@@ -60,7 +60,7 @@
   ],
   "threads": [
     {
-      "avatar": "data/avatars/s/19/19845.jpg?1720826564",
+      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
       "icons": [
         "sticky"
       ],
@@ -72,7 +72,7 @@
       "date": "17 Octubre 2018",
       "lastpage": 2,
       "replies": 20,
-      "views": 19125,
+      "views": 20548,
       "lastpost": {
         "user": "Zireael",
         "user_link": "https://fanficslandia.com/usuario/zireael.13077/",
@@ -80,7 +80,7 @@
       }
     },
     {
-      "avatar": "data/avatars/s/19/19845.jpg?1720826564",
+      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
       "icons": [
         "sticky"
       ],
@@ -92,7 +92,7 @@
       "date": "17 Octubre 2018",
       "lastpage": 3,
       "replies": 49,
-      "views": 31423,
+      "views": 33737,
       "lastpost": {
         "user": "Hygge",
         "user_link": "https://fanficslandia.com/usuario/hygge.19845/",
@@ -100,7 +100,7 @@
       }
     },
     {
-      "avatar": "data/avatars/s/19/19845.jpg?1720826564",
+      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
       "icons": [
         "sticky"
       ],
@@ -112,7 +112,7 @@
       "date": "5 Noviembre 2018",
       "lastpage": 0,
       "replies": 1,
-      "views": 10561,
+      "views": 11267,
       "lastpost": {
         "user": "Apolo",
         "user_link": "https://fanficslandia.com/usuario/apolo.13179/",
@@ -120,415 +120,57 @@
       }
     },
     {
-      "avatar": "data/avatars/s/33/33837.jpg?1717253462",
+      "avatar": "data/avatars/s/15/15152.jpg?1731710111",
       "icons": [],
       "label": "Juego",
-      "title": "Fanficslandia Pokémon League : Hoenn V Alola Edition",
-      "link": "https://fanficslandia.com/tema/fanficslandia-pok%C3%A9mon-league-hoenn-v-alola-edition.67465/",
-      "user": "Santygrass",
-      "user_link": "https://fanficslandia.com/usuario/santygrass.33837/",
-      "date": "30 Junio 2024",
-      "lastpage": 8,
-      "replies": 151,
-      "views": 5022,
+      "title": "Fanficslandia Pokémon League : Sinnoh V Kalos Edition",
+      "link": "https://fanficslandia.com/tema/fanficslandia-pok%C3%A9mon-league-sinnoh-v-kalos-edition.67577/",
+      "user": "Zereff",
+      "user_link": "https://fanficslandia.com/usuario/zereff.15152/",
+      "date": "31 Octubre 2024",
+      "lastpage": 4,
+      "replies": 65,
+      "views": 1996,
       "lastpost": {
         "user": "Santygrass",
         "user_link": "https://fanficslandia.com/usuario/santygrass.33837/",
-        "date": "1724601018"
+        "date": "1736048881"
       }
     },
     {
-      "avatar": "data/avatars/s/15/15152.jpg?1706726384",
+      "avatar": "data/avatars/s/15/15182.jpg?1688703471",
+      "icons": [],
+      "label": "Juego",
+      "title": "Pokémon Chess, ¡Segunda Edición!",
+      "link": "https://fanficslandia.com/tema/pok%C3%A9mon-chess-%C2%A1segunda-edici%C3%B3n.67572/",
+      "user": "Lelouch",
+      "user_link": "https://fanficslandia.com/usuario/lelouch.15182/",
+      "date": "22 Octubre 2024",
+      "lastpage": 4,
+      "replies": 79,
+      "views": 2369,
+      "lastpost": {
+        "user": "Santygrass",
+        "user_link": "https://fanficslandia.com/usuario/santygrass.33837/",
+        "date": "27 Diciembre 2024 a las 6:03 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/13/13077.jpg?1735449668",
       "icons": [],
       "label": "Actividad",
-      "title": "Walrus N°9 : Mediatabla Edition",
-      "link": "https://fanficslandia.com/tema/walrus-n%C2%B09-mediatabla-edition.67446/",
-      "user": "Zereff",
-      "user_link": "https://fanficslandia.com/usuario/zereff.15152/",
-      "date": "23 Junio 2024",
-      "lastpage": 2,
-      "replies": 26,
-      "views": 995,
-      "lastpost": {
-        "user": "Zereff",
-        "user_link": "https://fanficslandia.com/usuario/zereff.15152/",
-        "date": "1724508154"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [],
-      "label": "Juego",
-      "title": "Olimpíada Medieval Pokémon",
-      "link": "https://fanficslandia.com/tema/olimp%C3%ADada-medieval-pok%C3%A9mon.67471/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "2 Julio 2024",
-      "lastpage": 0,
-      "replies": 17,
-      "views": 454,
-      "lastpost": {
-        "user": "Graecus",
-        "user_link": "https://fanficslandia.com/usuario/graecus.18927/",
-        "date": "30 Julio 2024 a las 6:34 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ESGRIMA (FINAL): Monpoke VS Gigavehl",
-      "link": "https://fanficslandia.com/tema/omp-esgrima-final-monpoke-vs-gigavehl.67499/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "25 Julio 2024",
-      "lastpage": 2,
-      "replies": 27,
-      "views": 238,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "30 Julio 2024 a las 11:03 AM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] JUSTAS (FINAL): Zereff VS Graecus",
-      "link": "https://fanficslandia.com/tema/omp-justas-final-zereff-vs-graecus.67498/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "25 Julio 2024",
-      "lastpage": 0,
-      "replies": 8,
-      "views": 75,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "29 Julio 2024 a las 3:59 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ARQUERÍA (SEMIFINALES): Monpoke VS Ikoma-Kun",
-      "link": "https://fanficslandia.com/tema/omp-arquer%C3%8Da-semifinales-monpoke-vs-ikoma-kun.67492/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "16 Julio 2024",
+      "title": "Seven Deadly Sins",
+      "link": "https://fanficslandia.com/tema/seven-deadly-sins.67546/",
+      "user": "Zireael",
+      "user_link": "https://fanficslandia.com/usuario/zireael.13077/",
+      "date": "9 Octubre 2024",
       "lastpage": 0,
       "replies": 13,
-      "views": 126,
+      "views": 258,
       "lastpost": {
-        "user": "Monpoke",
-        "user_link": "https://fanficslandia.com/usuario/monpoke.31576/",
-        "date": "25 Julio 2024 a las 4:44 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ESGRIMA (SEMIFINALES): Gigavehl VS NPC",
-      "link": "https://fanficslandia.com/tema/omp-esgrima-semifinales-gigavehl-vs-npc.67491/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "16 Julio 2024",
-      "lastpage": 2,
-      "replies": 20,
-      "views": 167,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "25 Julio 2024 a las 4:43 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] JUSTAS (SEMIFINALES): Gigavehl VS Zereff",
-      "link": "https://fanficslandia.com/tema/omp-justas-semifinales-gigavehl-vs-zereff.67494/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "16 Julio 2024",
-      "lastpage": 0,
-      "replies": 14,
-      "views": 115,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "25 Julio 2024 a las 1:35 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ESGRIMA (SEMIFINALES): Monpoke VS Zereff",
-      "link": "https://fanficslandia.com/tema/omp-esgrima-semifinales-monpoke-vs-zereff.67490/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "16 Julio 2024",
-      "lastpage": 2,
-      "replies": 26,
-      "views": 234,
-      "lastpost": {
-        "user": "Monpoke",
-        "user_link": "https://fanficslandia.com/usuario/monpoke.31576/",
-        "date": "20 Julio 2024 a las 6:31 AM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ARQUERÍA (SEMIFINALES): Santygrass VS NPC",
-      "link": "https://fanficslandia.com/tema/omp-arquer%C3%8Da-semifinales-santygrass-vs-npc.67493/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "16 Julio 2024",
-      "lastpage": 0,
-      "replies": 11,
-      "views": 94,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "18 Julio 2024 a las 8:32 AM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] JUSTAS (SEMIFINALES): Graecus VS NPC",
-      "link": "https://fanficslandia.com/tema/omp-justas-semifinales-graecus-vs-npc.67495/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "16 Julio 2024",
-      "lastpage": 0,
-      "replies": 18,
-      "views": 113,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "18 Julio 2024 a las 8:04 AM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] JUSTAS (CUARTOS): Gigavehl VS Ikoma-kun",
-      "link": "https://fanficslandia.com/tema/omp-justas-cuartos-gigavehl-vs-ikoma-kun.67482/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 0,
-      "replies": 6,
-      "views": 100,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "16 Julio 2024 a las 9:06 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ARQUERÍA (CUARTOS): Amane VS Ikoma-Kun",
-      "link": "https://fanficslandia.com/tema/omp-arquer%C3%8Da-cuartos-amane-vs-ikoma-kun.67480/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 0,
-      "replies": 8,
-      "views": 125,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "16 Julio 2024 a las 8:51 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ESGRIMA (CUARTOS): Monpoke VS Ikoma-Kun",
-      "link": "https://fanficslandia.com/tema/omp-esgrima-cuartos-monpoke-vs-ikoma-kun.67476/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 0,
-      "replies": 13,
-      "views": 180,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "16 Julio 2024 a las 8:48 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ESGRIMA (CUARTOS): Zereff VS Amane",
-      "link": "https://fanficslandia.com/tema/omp-esgrima-cuartos-zereff-vs-amane.67477/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 2,
-      "replies": 25,
-      "views": 278,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "13 Julio 2024 a las 5:28 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ESGRIMA (CUARTOS): Graecus VS Gigavehl",
-      "link": "https://fanficslandia.com/tema/omp-esgrima-cuartos-graecus-vs-gigavehl.67478/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 2,
-      "replies": 35,
-      "views": 308,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "11 Julio 2024 a las 6:22 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ARQUERÍA (CUARTOS): Zereff VS Monpoke",
-      "link": "https://fanficslandia.com/tema/omp-arquer%C3%8Da-cuartos-zereff-vs-monpoke.67479/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 0,
-      "replies": 13,
-      "views": 108,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "10 Julio 2024 a las 9:39 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] JUSTAS (CUARTOS): Monpoke VS Zereff",
-      "link": "https://fanficslandia.com/tema/omp-justas-cuartos-monpoke-vs-zereff.67483/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 0,
-      "replies": 16,
-      "views": 152,
-      "lastpost": {
-        "user": "Monpoke",
-        "user_link": "https://fanficslandia.com/usuario/monpoke.31576/",
-        "date": "10 Julio 2024 a las 6:02 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] JUSTAS (CUARTOS): Graecus VS Amane",
-      "link": "https://fanficslandia.com/tema/omp-justas-cuartos-graecus-vs-amane.67484/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 0,
-      "replies": 12,
-      "views": 120,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "10 Julio 2024 a las 3:57 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/34/34217.jpg?1722585679",
-      "icons": [
-        "locked"
-      ],
-      "label": "Juego",
-      "title": "[OMP] ARQUERÍA (CUARTOS): Graecus VS Santygrass",
-      "link": "https://fanficslandia.com/tema/omp-arquer%C3%8Da-cuartos-graecus-vs-santygrass.67481/",
-      "user": "Slam",
-      "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-      "date": "9 Julio 2024",
-      "lastpage": 0,
-      "replies": 11,
-      "views": 105,
-      "lastpost": {
-        "user": "Slam",
-        "user_link": "https://fanficslandia.com/usuario/slam.34217/",
-        "date": "10 Julio 2024 a las 3:54 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/29/29395.jpg?1695665178",
-      "icons": [],
-      "label": "Juego",
-      "title": "Fanficslandia Pokémon League: VGC Regulation F",
-      "link": "https://fanficslandia.com/tema/fanficslandia-pok%C3%A9mon-league-vgc-regulation-f.67349/",
-      "user": "Lucas Diamond",
-      "user_link": "https://fanficslandia.com/usuario/lucas-diamond.29395/",
-      "date": "8 Marzo 2024",
-      "lastpage": 6,
-      "replies": 115,
-      "views": 6146,
-      "lastpost": {
-        "user": "Lucaslakd",
-        "user_link": "https://fanficslandia.com/usuario/lucaslakd.33869/",
-        "date": "2 Julio 2024 a las 1:17 PM"
+        "user": "Amane",
+        "user_link": "https://fanficslandia.com/usuario/amane.20199/",
+        "date": "26 Octubre 2024 a las 7:29 AM"
       }
     },
     {
@@ -542,7 +184,7 @@
       "date": "5 Julio 2012",
       "lastpage": 60,
       "replies": 1198,
-      "views": 63397,
+      "views": 66785,
       "lastpost": {
         "user": "Lunático Fantasma",
         "user_link": "https://fanficslandia.com/usuario/lun%C3%A1tico-fantasma.23714/",
@@ -560,7 +202,7 @@
       "date": "29 Septiembre 2022",
       "lastpage": 82,
       "replies": 1639,
-      "views": 57395,
+      "views": 62288,
       "lastpost": {
         "user": "Sonia de Arnau",
         "user_link": "https://fanficslandia.com/usuario/sonia-de-arnau.10945/",
@@ -568,25 +210,7 @@
       }
     },
     {
-      "avatar": "data/avatars/s/18/18927.jpg?1698218368",
-      "icons": [],
-      "label": "Juego",
-      "title": "Fanficslandia Pokémon League: Johto V Galar Edition",
-      "link": "https://fanficslandia.com/tema/fanficslandia-pok%C3%A9mon-league-johto-v-galar-edition.67236/",
-      "user": "Graecus",
-      "user_link": "https://fanficslandia.com/usuario/graecus.18927/",
-      "date": "22 Octubre 2023",
-      "lastpage": 13,
-      "replies": 247,
-      "views": 13510,
-      "lastpost": {
-        "user": "Hygge",
-        "user_link": "https://fanficslandia.com/usuario/hygge.19845/",
-        "date": "30 Enero 2024 a las 9:08 AM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/19/19845.jpg?1720826564",
+      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
       "icons": [],
       "label": "Juego Abierto",
       "title": "¿Verdad o reto?",
@@ -596,7 +220,7 @@
       "date": "17 Octubre 2018",
       "lastpage": 4,
       "replies": 69,
-      "views": 6063,
+      "views": 6316,
       "lastpost": {
         "user": "Sonia de Arnau",
         "user_link": "https://fanficslandia.com/usuario/sonia-de-arnau.10945/",

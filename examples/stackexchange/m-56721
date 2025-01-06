@@ -14,15 +14,15 @@
   ],
   "meta-profile": "https://skeptics.meta.stackexchange.com/users/56721/pinegulf",
   "network-profile": "https://stackexchange.com/users/8523095/pinegulf",
-  "reputation": 7753,
-  "reached": 267000,
-  "answers": 12,
-  "questions": 32,
+  "reputation": 9280,
+  "reached": 307000,
+  "answers": 14,
+  "questions": 34,
   "communities-all": "https://stackexchange.com/users/8523095/pinegulf?tab=accounts",
   "communities": [
     {
       "profile": "https://skeptics.stackexchange.com/users/56721/",
-      "reputation": 7800
+      "reputation": 9300
     },
     {
       "profile": "https://stackoverflow.com/users/6389268/",
@@ -30,7 +30,7 @@
     },
     {
       "profile": "https://worldbuilding.stackexchange.com/users/76037/",
-      "reputation": 446
+      "reputation": 456
     },
     {
       "profile": "https://superuser.com/users/870939/",
@@ -41,11 +41,11 @@
       "reputation": 101
     }
   ],
-  "about": "<p>Wanted to do Data analysis. Learned R, small scripts and python. Found heaps of legacy code.</p><p>Woe is me.</p>",
+  "about": "<p>Wanted to do Data analysis. Learned R, small scripts and python. Found heaps of legacy code.</p> <p>Woe is me.</p>",
   "badges-all": "https://skeptics.stackexchange.com/users/56721/pinegulf?tab=badges",
   "badges": [
     {
-      "amount": 5,
+      "amount": 6,
       "name": "gold",
       "achievements": [
         {
@@ -53,13 +53,13 @@
           "link": "https://skeptics.stackexchange.com/help/badges/28/famous-question?userid=56721",
           "action": "Question with 10,000 views",
           "name": "Famous Question",
-          "amount": 5,
-          "date": "Jun 16, 2023"
+          "amount": 6,
+          "date": "Dec 10"
         }
       ]
     },
     {
-      "amount": 38,
+      "amount": 44,
       "name": "silver",
       "achievements": [
         {
@@ -83,13 +83,13 @@
           "link": "https://skeptics.stackexchange.com/help/badges/18/guru?userid=56721",
           "action": "Accepted answer and score of 40 or more",
           "name": "Guru",
-          "amount": 3,
-          "date": "1d ago"
+          "amount": 4,
+          "date": "Oct 23"
         }
       ]
     },
     {
-      "amount": 63,
+      "amount": 70,
       "name": "bronze",
       "achievements": [
         {
@@ -127,32 +127,43 @@
       "badge": "",
       "score": 125,
       "posts": 4,
-      "posts-percent": 9,
+      "posts-percent": 8,
       "answered": 2,
       "ansked": 2,
       "asked-score": 9
     },
     {
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[united-states]",
+      "name": "united-states",
+      "badge": "",
+      "score": 104,
+      "posts": 11,
+      "posts-percent": 23,
+      "answered": 3,
+      "ansked": 8,
+      "asked-score": 164
+    },
+    {
       "link": "https://skeptics.stackexchange.com/search?q=user:56721+[psychology]",
       "name": "psychology",
       "badge": "",
-      "score": 79,
+      "score": 87,
       "posts": 3,
-      "posts-percent": 7,
+      "posts-percent": 6,
       "answered": 1,
       "ansked": 2,
       "asked-score": 35
     },
     {
-      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[united-states]",
-      "name": "united-states",
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[education]",
+      "name": "education",
       "badge": "",
-      "score": 5,
-      "posts": 9,
-      "posts-percent": 20,
+      "score": 49,
+      "posts": 5,
+      "posts-percent": 10,
       "answered": 1,
-      "ansked": 8,
-      "asked-score": 159
+      "ansked": 4,
+      "asked-score": 40
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:56721+[gender]",
@@ -160,7 +171,7 @@
       "badge": "",
       "score": 5,
       "posts": 3,
-      "posts-percent": 7,
+      "posts-percent": 6,
       "answered": 1,
       "ansked": 2,
       "asked-score": 18
@@ -171,21 +182,10 @@
       "badge": "",
       "score": 0,
       "posts": 5,
-      "posts-percent": 11,
+      "posts-percent": 10,
       "answered": 0,
       "ansked": 5,
-      "asked-score": 92
-    },
-    {
-      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[education]",
-      "name": "education",
-      "badge": "",
-      "score": 0,
-      "posts": 4,
-      "posts-percent": 9,
-      "answered": 0,
-      "ansked": 4,
-      "asked-score": 40
+      "asked-score": 97
     }
   ],
   "posts-answers-all": "https://skeptics.stackexchange.com/users/56721?tab=answers",
@@ -202,17 +202,33 @@
     {
       "type": "answer",
       "answered": true,
-      "votes": 81,
+      "votes": 87,
       "link": "https://skeptics.stackexchange.com/questions/57355/did-steven-pinker-test-or-propose-testing-if-adhd-patients-could-sit-still-for/57359#57359",
-      "title": "Did Steven Pinker test (or propose testing) if ADHD patients could sit still for 5 minutes while in front of &quot;6 legos and an over turned lamp&quot;?",
+      "title": "Did Steven Pinker test (or propose testing) if ADHD patients could sit still for 5 minutes while in front of \"6 legos and an over turned lamp\"?",
       "date": "2024-09-30 17:43:47Z"
+    },
+    {
+      "type": "answer",
+      "answered": true,
+      "votes": 50,
+      "link": "https://skeptics.stackexchange.com/questions/57423/did-the-u-s-government-require-spacex-to-study-the-impact-of-rocket-launches-on/57426#57426",
+      "title": "Did the U.S. government require SpaceX to study the impact of rocket launches on sharks and whales?",
+      "date": "2024-10-21 06:49:17Z"
+    },
+    {
+      "type": "answer",
+      "answered": false,
+      "votes": 49,
+      "link": "https://skeptics.stackexchange.com/questions/57479/are-21-of-american-adults-illiterate/57480#57480",
+      "title": "Are 21% of American adults illiterate?",
+      "date": "2024-11-12 11:10:07Z"
     },
     {
       "type": "question",
       "answered": true,
       "votes": 48,
       "link": "https://skeptics.stackexchange.com/questions/48208/did-the-smithsonian-publish-this-infographic-about-whiteness",
-      "title": "Did the Smithsonian publish this infographic about &#39;whiteness&#39;?",
+      "title": "Did the Smithsonian publish this infographic about 'whiteness'?",
       "date": "2020-07-28 07:38:04Z"
     },
     {
@@ -220,7 +236,7 @@
       "answered": true,
       "votes": 43,
       "link": "https://skeptics.stackexchange.com/questions/53012/did-dr-fauci-say-that-face-masks-dont-work-against-covid-19/53016#53016",
-      "title": "Did Dr. Fauci say that face masks don&#39;t work against COVID-19?",
+      "title": "Did Dr. Fauci say that face masks don't work against COVID-19?",
       "date": "2022-02-09 08:05:57Z"
     },
     {
@@ -236,7 +252,7 @@
       "answered": true,
       "votes": 37,
       "link": "https://skeptics.stackexchange.com/questions/52441/did-a-black-history-month-website-call-white-people-genetically-defective-des",
-      "title": "Did a &#39;Black History Month website&#39; call white people ‘genetically defective descendants of albino mutants’?",
+      "title": "Did a 'Black History Month website' call white people ‘genetically defective descendants of albino mutants’?",
       "date": "2021-10-05 08:21:52Z"
     },
     {
@@ -249,27 +265,11 @@
     },
     {
       "type": "question",
-      "answered": true,
-      "votes": 36,
-      "link": "https://skeptics.stackexchange.com/questions/53485/are-there-mass-graves-of-indigenous-children-in-canada",
-      "title": "Are there mass graves of indigenous children in Canada?",
-      "date": "2022-06-29 06:38:45Z"
-    },
-    {
-      "type": "question",
-      "answered": true,
-      "votes": 36,
-      "link": "https://skeptics.stackexchange.com/questions/51864/are-us-colleges-awarding-more-a-scores",
-      "title": "Are US colleges awarding more A-scores?",
-      "date": "2021-06-11 09:05:35Z"
-    },
-    {
-      "type": "answer",
       "answered": false,
-      "votes": 34,
-      "link": "https://skeptics.stackexchange.com/questions/55702/does-staying-indoors-protect-you-from-wildfire-smoke/55703#55703",
-      "title": "Does staying indoors protect you from wildfire smoke?",
-      "date": "2023-06-09 06:44:02Z"
+      "votes": 37,
+      "link": "https://skeptics.stackexchange.com/questions/57579/did-wikipedia-spend-50m-usd-on-diversity-equity-and-inclusion-dei-initiativ",
+      "title": "Did Wikipedia spend $50m USD on diversity, equity, and inclusion (DEI) initiatives over the 2023-24 fiscal year?",
+      "date": "2024-12-30 06:54:06Z"
     }
   ],
   "network-posts-all": "https://stackexchange.com/users/8523095/pinegulf?tab=top",

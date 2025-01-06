@@ -3,15 +3,15 @@
   "url": "https://invisioncommunity.com/profile/28411-myr/?do=hovercard",
   "id": 28411,
   "name": "Myr",
-  "background": "https://content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "https://content.invisioncic.com/a319035/profile/photo-thumb-28411.gif",
+  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://media.invisioncic.com/a319035/profile/photo-thumb-28411.gif",
   "group": "Clients",
-  "joined": "2003-08-08T23:11:48Z",
-  "lastseen": "2024-07-19T03:12:20Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "759"
+      "value": "760"
     },
     {
       "name": "Reputation",
@@ -21,5 +21,14 @@
       "name": "Badges",
       "value": "10"
     }
+  ],
+  "rank": "Rank: Rising Star (8/13)",
+  "rank_date": "",
+  "badges": [
+    "Dedicated",
+    "Week One Done",
+    "One Month Later",
+    "One Year In",
+    "Conversation Starter"
   ]
 }

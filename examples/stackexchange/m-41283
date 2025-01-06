@@ -12,9 +12,9 @@
   "meta-profile": "https://skeptics.meta.stackexchange.com/users/41283/keshav-srinivasan",
   "network-profile": "https://stackexchange.com/users/2614901/keshav-srinivasan",
   "reputation": 4385,
-  "reached": 81000,
+  "reached": 80000,
   "answers": 3,
-  "questions": 37,
+  "questions": 35,
   "communities-all": "https://stackexchange.com/users/2614901/keshav-srinivasan?tab=accounts",
   "communities": [
     {
@@ -23,15 +23,15 @@
     },
     {
       "profile": "https://math.stackexchange.com/users/71829/",
-      "reputation": 10500
+      "reputation": 10700
     },
     {
       "profile": "https://politics.stackexchange.com/users/1953/",
-      "reputation": 9300
+      "reputation": 9400
     },
     {
       "profile": "https://mathoverflow.net/users/5017/",
-      "reputation": 4600
+      "reputation": 4500
     },
     {
       "profile": "https://skeptics.stackexchange.com/users/41283/",
@@ -73,7 +73,7 @@
           "action": "Ask a well-received question on 30 separate days, and maintain a positive question record",
           "name": "Inquisitive",
           "amount": 1,
-          "date": "Jan 23"
+          "date": "Jan 23, 2024"
         },
         {
           "tag": false,
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "amount": 38,
+      "amount": 39,
       "name": "bronze",
       "achievements": [
         {
@@ -131,22 +131,22 @@
       "name": "united-states",
       "badge": "",
       "score": 14,
-      "posts": 38,
+      "posts": 36,
       "posts-percent": 95,
       "answered": 3,
-      "ansked": 35,
-      "asked-score": 372
+      "ansked": 33,
+      "asked-score": 380
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:41283+[politics]",
       "name": "politics",
       "badge": "",
       "score": 14,
-      "posts": 37,
+      "posts": 35,
       "posts-percent": 92,
       "answered": 3,
-      "ansked": 34,
-      "asked-score": 354
+      "ansked": 32,
+      "asked-score": 362
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:41283+[hillary-clinton]",
@@ -165,7 +165,7 @@
       "badge": "",
       "score": 3,
       "posts": 16,
-      "posts-percent": 40,
+      "posts-percent": 42,
       "answered": 2,
       "ansked": 14,
       "asked-score": 130
@@ -187,7 +187,7 @@
       "badge": "",
       "score": 1,
       "posts": 9,
-      "posts-percent": 22,
+      "posts-percent": 24,
       "answered": 1,
       "ansked": 8,
       "asked-score": 120
@@ -225,7 +225,7 @@
       "answered": true,
       "votes": 28,
       "link": "https://skeptics.stackexchange.com/questions/40312/did-millions-sign-up-for-association-health-plans-after-president-trumps-execut",
-      "title": "Did millions sign up for association health plans after President Trump&#39;s executive order?",
+      "title": "Did millions sign up for association health plans after President Trump's executive order?",
       "date": "2017-12-30 14:12:17Z"
     },
     {
@@ -249,7 +249,7 @@
       "answered": true,
       "votes": 18,
       "link": "https://skeptics.stackexchange.com/questions/41245/did-mueller-indict-a-russian-company-that-didnt-exist",
-      "title": "Did Mueller indict a Russian company that didn&#39;t exist?",
+      "title": "Did Mueller indict a Russian company that didn't exist?",
       "date": "2018-05-13 23:50:50Z"
     },
     {
@@ -287,7 +287,7 @@
     {
       "votes": 106,
       "link": "https://mathoverflow.net/questions/311280/what-is-the-definition-of-the-function-t-used-in-atiyahs-attempted-proof-of-thehttps://mathoverflow.net/questions/311280/what-is-the-definition-of-the-function-t-used-in-atiyahs-attempted-proof-of-the",
-      "title": "What is the definition of the function T used in Atiyah&#x27;s attempted proof of the Riemann Hypothesis?"
+      "title": "What is the definition of the function T used in Atiyah's attempted proof of the Riemann Hypothesis?"
     },
     {
       "votes": 65,

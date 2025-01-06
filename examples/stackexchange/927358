@@ -3,9 +3,9 @@
   "url": "https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git",
   "id": 927358,
   "title": "How do I undo the most recent local commits in Git?",
-  "views": 14956797,
+  "views": 15444129,
   "asked": "2009-05-29T18:09:14",
-  "modified": "2024-06-23 07:35:15Z",
+  "modified": "2025-01-05 13:05:52Z",
   "tags": [
     "git",
     "version-control",
@@ -15,11 +15,11 @@
   "posts": [
     {
       "id": 927358,
-      "rating": 26677,
+      "rating": 26841,
       "checkmark": false,
       "bounty": 0,
-      "content": "<p>I accidentally committed the wrong files to <a href=\"https://en.wikipedia.org/wiki/Git\" rel=\"noreferrer\">Git</a>, but didn't push the commit to the server yet.</p><p>How do I undo those commits from the <em>local</em> repository?</p>",
-      "edited": "2023-09-15 23:37:20Z",
+      "content": "<p>I accidentally committed the wrong files to <a href=\"https://en.wikipedia.org/wiki/Git\" rel=\"noreferrer\">Git</a> but haven't pushed the commit to the server yet.</p> <p>How do I undo those commits from the <em>local</em> repository?</p>",
+      "edited": "2024-10-21 17:20:07Z",
       "editor": {
         "avatar": null,
         "name": "",
@@ -51,25 +51,25 @@
         },
         {
           "id": 85751313,
-          "score": 771,
+          "score": 806,
           "content": "You know what git needs? <code>git undo</code>, that&#39;s it. Then the reputation git has for handling mistakes made by us mere mortals disappears. Implement by pushing the current state on a git stack before executing any <code>git</code> command. It would affect performance, so it would be best to add a config flag as to whether to enable it.",
           "date": "2018-03-20 01:45:28Z",
           "user": "Yimin Rong",
           "user_link": "https://stackoverflow.com/users/1476792/yimin-rong",
-          "reputation": 2017
+          "reputation": 2027
         },
         {
           "id": 92266288,
-          "score": 62,
+          "score": 63,
           "content": "@YiminRong That can be done with Git&#39;s <code>alias</code> feature: <a href=\"https://git-scm.com/book/en/v2/Git-Basics-Git-Aliases\" rel=\"nofollow noreferrer\">git-scm.com/book/en/v2/Git-Basics-Git-Aliases</a>",
           "date": "2018-10-05 14:50:08Z",
           "user": "Edric",
           "user_link": "https://stackoverflow.com/users/6782707/edric",
-          "reputation": 26390
+          "reputation": 26670
         },
         {
           "id": 97845110,
-          "score": 161,
+          "score": 165,
           "content": "For VsCode users , just type ctrl +shift +G and then click on three dot ,ie , more options and then click on undo Last Commit",
           "date": "2019-04-08 12:15:40Z",
           "user": "ashad",
@@ -78,39 +78,39 @@
         },
         {
           "id": 107629225,
-          "score": 35,
+          "score": 38,
           "content": "@YiminRong Undo <i>what</i> exactly? There are dozens of very different functional cases where &quot;undoing&quot; means something <b>completely</b> different. I&#39;d bet adding a new fancy &quot;magic wand&quot; would only confuse things more.",
           "date": "2020-03-24 14:27:03Z",
           "user": "Romain Valeri",
           "user_link": "https://stackoverflow.com/users/1057485/romain-valeri",
-          "reputation": 21479
+          "reputation": 21748
         },
         {
           "id": 107658442,
-          "score": 59,
+          "score": 61,
           "content": "@YiminRong Not buying it. People would still fumble and undo things not to be undone. But more importantly, <code>git reflog</code> is already close to what you describe, but gives the user more control on what&#39;s to be (un)done. But please, no, &quot;undo&quot; does not work the same everywhere, and people would <i>expect</i> many different things for the feature to achieve. Undo last commit? Undo last action? If last action was a push, undo how exactly, (reset and push) or (revert and push)?",
           "date": "2020-03-25 13:23:33Z",
           "user": "Romain Valeri",
           "user_link": "https://stackoverflow.com/users/1057485/romain-valeri",
-          "reputation": 21479
+          "reputation": 21748
         },
         {
           "id": 113927452,
-          "score": 11,
+          "score": 12,
           "content": "To do something simple in git either do Impossibly Hard Task A or Impossibly Hard Task B. Then mess it up slightly and try and revert by doing Impossibly Hard Task C or Impossibly Hard Task D.",
           "date": "2020-10-19 14:27:30Z",
           "user": "Snowcrash",
           "user_link": "https://stackoverflow.com/users/343204/snowcrash",
-          "reputation": 85147
+          "reputation": 85917
         },
         {
           "id": 121062198,
-          "score": 4,
+          "score": 6,
           "content": "Git is a framework to deal with versioning of many files and allow collaborative work. It requires absolute control about what you are doing to accomplish those goals. It is great <i>precisely</i> because it tries to leave all the unnecessary &quot;magic&quot; out. Something like <code>git undo</code> is generally a bad idea, but is ridiculously easy to implement if you really want to. But then, be aware, you are responsible for it. I find really amazing how people would so promptly give up control to not have to learn stuff. Git is <i>easy</i> you just have to learn the concepts.",
           "date": "2021-07-23 15:02:37Z",
-          "user": "Victor Schr&#xF6;der",
+          "user": "Victor Schr÷der",
           "user_link": "https://stackoverflow.com/users/1240001/victor-schr%c3%b6der",
-          "reputation": 7577
+          "reputation": 7707
         },
         {
           "id": 121401920,
@@ -119,7 +119,7 @@
           "date": "2021-08-07 18:36:17Z",
           "user": "StingyJack",
           "user_link": "https://stackoverflow.com/users/16391/stingyjack",
-          "reputation": 19340
+          "reputation": 19429
         },
         {
           "id": 123114773,
@@ -146,7 +146,7 @@
           "date": "2022-02-17 05:19:53Z",
           "user": "Xab Ion",
           "user_link": "https://stackoverflow.com/users/10141952/xab-ion",
-          "reputation": 1270
+          "reputation": 1316
         },
         {
           "id": 131764043,
@@ -173,7 +173,7 @@
           "date": "2023-03-09 01:10:10Z",
           "user": "tinystone",
           "user_link": "https://stackoverflow.com/users/18697532/tinystone",
-          "reputation": 593
+          "reputation": 625
         },
         {
           "id": 138173724,
@@ -182,7 +182,7 @@
           "date": "2024-04-23 22:54:22Z",
           "user": "CodeWizard",
           "user_link": "https://stackoverflow.com/users/1755598/codewizard",
-          "reputation": 139369
+          "reputation": 141326
         },
         {
           "id": 138248768,
@@ -191,16 +191,7 @@
           "date": "2024-05-02 09:09:46Z",
           "user": "Haukland",
           "user_link": "https://stackoverflow.com/users/4099413/haukland",
-          "reputation": 735
-        },
-        {
-          "id": 139272904,
-          "score": 1,
-          "content": "Who&#39;s here in 2024?",
-          "date": "2024-09-16 07:26:30Z",
-          "user": "Hans Westerbeek",
-          "user_link": "https://stackoverflow.com/users/273826/hans-westerbeek",
-          "reputation": 5785
+          "reputation": 755
         },
         {
           "id": 139339583,
@@ -210,16 +201,34 @@
           "user": "nd_",
           "user_link": "https://stackoverflow.com/users/10797322/nd",
           "reputation": 141
+        },
+        {
+          "id": 139525050,
+          "score": 0,
+          "content": "We need to learn how to use the tool.  Professionals need to use their tools correctly.  I use git without an undo and i am careful to understand what i&#39;m doing before i do it if the command is new to me.  We don&#39;t need to keep adding things to the tool because we don&#39;t want to spend time learning.  Git is good as is.",
+          "date": "2024-10-25 18:28:34Z",
+          "user": "Mister Jeps",
+          "user_link": "https://stackoverflow.com/users/5891663/mister-jeps",
+          "reputation": 97
+        },
+        {
+          "id": 139541372,
+          "score": 0,
+          "content": "If you are using &gt;= Visual Studio Code v1.94.2, you can go to your <code>source control</code> panel &gt; <code>... (three dots)</code> &gt; <code>commit</code> &gt; <code>undo last commit</code> This will revert your last commit in VS code.",
+          "date": "2024-10-29 06:24:00Z",
+          "user": "extinctsion",
+          "user_link": "https://stackoverflow.com/users/15663835/extinctsion",
+          "reputation": 91
         }
       ]
     },
     {
       "id": 927386,
-      "rating": 29345,
+      "rating": 29568,
       "checkmark": true,
       "bounty": 500,
-      "content": "<h2>Undo a commit &amp; redo</h2><pre class=\"lang-bash prettyprint-override\"><code>$ git commit -m &quot;Something terribly misguided&quot; # (0: Your Accident)$ git reset HEAD~                              # (1)[ edit files as necessary ]                    # (2)$ git add .                                    # (3)$ git commit -c ORIG_HEAD                      # (4)</code></pre><ol><li><a href=\"https://git-scm.com/docs/git-reset\" rel=\"noreferrer\"><code>git reset</code></a> is the command responsible for the <strong>undo</strong>. It will undo your last commit while <strong>leaving your working tree (the state of your files on disk) untouched.</strong> You'll need to add them again before you can commit them again.</li><li>Make corrections to <a href=\"https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified#_the_working_directory\" rel=\"noreferrer\">working tree</a> files.</li><li><a href=\"https://git-scm.com/docs/git-add\" rel=\"noreferrer\"><code>git add</code></a> anything that you want to include in your new commit.</li><li>Commit the changes, reusing the old commit message. <code>reset</code> copied the old head to <code>.git/ORIG_HEAD</code>; <a href=\"https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--cltcommitgt\" rel=\"noreferrer\"><code>commit</code> with <code>-c ORIG_HEAD</code></a> will open an editor, which initially contains the log message from the old commit and allows you to edit it. If you do not need to edit the message, you could use the <a href=\"https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--Cltcommitgt\" rel=\"noreferrer\"><code>-C</code></a> option.</li></ol><p><strong>Alternatively, to edit the previous commit (or just its commit message)</strong>, <a href=\"https://stackoverflow.com/q/179123/1146608\"><code>commit --amend</code></a> will add changes within the current index to the previous commit.</p><p><strong>To remove (not revert) a commit that has been pushed to the server</strong>, rewriting history with <code>git push origin main --force[-with-lease]</code> is necessary. <a href=\"https://stackoverflow.com/q/52823692/4096791\">It's <em>almost always</em> a bad idea to use <code>--force</code>; prefer <code>--force-with-lease</code></a> instead, and as noted in <a href=\"https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend\" rel=\"noreferrer\" title=\"Git - git-commit Documentation\">the git manual</a>:</p><blockquote><p>You should understand the implications of rewriting history if you amend a commit that has already been published.</p></blockquote><hr /><h3>Further Reading</h3><p><a href=\"https://stackoverflow.com/questions/34519665/how-to-move-head-back-to-a-previous-location-detached-head/34519716#34519716\">You can use <code>git reflog</code> to determine the SHA-1</a> for the commit to which you wish to revert. Once you have this value, use the sequence of commands as explained above.</p><hr /><p><code>HEAD~</code> is the same as <code>HEAD~1</code>. The article <a href=\"https://stackoverflow.com/a/46350644/5175709\">What is the HEAD in git?</a> is helpful if you want to uncommit multiple commits.</p>",
-      "edited": "2024-05-28 09:06:34Z",
+      "content": "<h2>Undo a commit &amp; redo</h2> <pre class=\"lang-bash prettyprint-override\"><code>$ git commit -m &quot;Something terribly misguided&quot; # (0: Your Accident) $ git reset HEAD~ # (1) # === If you just want to undo the commit, stop here! === [ edit files as necessary ] # (2) $ git add . # (3) $ git commit -c ORIG_HEAD # (4) </code></pre> <ol> <li><a href=\"https://git-scm.com/docs/git-reset\" rel=\"noreferrer\"><code>git reset</code></a> is the command responsible for the <strong>undo</strong>. It will undo your last commit while <strong>leaving your working tree (the state of your files on disk) untouched.</strong> You'll need to add them again before you can commit them again.</li> <li>Make corrections to <a href=\"https://git-scm.com/book/en/v2/Git-Tools-Reset-Demystified#_the_working_directory\" rel=\"noreferrer\">working tree</a> files.</li> <li><a href=\"https://git-scm.com/docs/git-add\" rel=\"noreferrer\"><code>git add</code></a> anything that you want to include in your new commit.</li> <li>Commit the changes, reusing the old commit message. <code>reset</code> copied the old head to <code>.git/ORIG_HEAD</code>; <a href=\"https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--cltcommitgt\" rel=\"noreferrer\"><code>commit</code> with <code>-c ORIG_HEAD</code></a> will open an editor, which initially contains the log message from the old commit and allows you to edit it. If you do not need to edit the message, you could use the <a href=\"https://git-scm.com/docs/git-commit#Documentation/git-commit.txt--Cltcommitgt\" rel=\"noreferrer\"><code>-C</code></a> option.</li> </ol> <p><strong>Alternatively, to edit the previous commit (or just its commit message)</strong>, <a href=\"https://stackoverflow.com/q/179123/1146608\"><code>commit --amend</code></a> will add changes within the current index to the previous commit.</p> <p><strong>To remove (not revert) a commit that has been pushed to the server</strong>, rewriting history with <code>git push origin main --force[-with-lease]</code> is necessary. <a href=\"https://stackoverflow.com/q/52823692/4096791\">It's <em>almost always</em> a bad idea to use <code>--force</code>; prefer <code>--force-with-lease</code></a> instead, and as noted in <a href=\"https://git-scm.com/docs/git-commit#Documentation/git-commit.txt---amend\" rel=\"noreferrer\" title=\"Git - git-commit Documentation\">the git manual</a>:</p> <blockquote> <p>You should understand the implications of rewriting history if you amend a commit that has already been published.</p> </blockquote> <hr /> <h3>Further Reading</h3> <p><a href=\"https://stackoverflow.com/questions/34519665/how-to-move-head-back-to-a-previous-location-detached-head/34519716#34519716\">You can use <code>git reflog</code> to determine the SHA-1</a> for the commit to which you wish to revert. Once you have this value, use the sequence of commands as explained above.</p> <hr /> <p><code>HEAD~</code> is the same as <code>HEAD~1</code>. The article <a href=\"https://stackoverflow.com/a/46350644/5175709\">What is the HEAD in git?</a> is helpful if you want to uncommit multiple commits.</p>",
+      "edited": "2024-12-10 12:20:09Z",
       "editor": {
         "avatar": null,
         "name": "",
@@ -247,20 +256,20 @@
           "date": "2010-10-05 15:44:20Z",
           "user": "Frank Shearar",
           "user_link": "https://stackoverflow.com/users/10259/frank-shearar",
-          "reputation": 17102
+          "reputation": 17132
         },
         {
           "id": 6443962,
-          "score": 597,
+          "score": 599,
           "content": "If you&#39;re working in DOS, instead of <code>git reset --soft HEAD^</code> you&#39;ll need to use <code>git reset --soft HEAD~1</code>.  The ^ is a continuation character in DOS so it won&#39;t work properly.  Also, <code>--soft</code> is the default, so you can omit it if you like and just say <code>git reset HEAD~1</code>.",
           "date": "2011-04-13 14:15:10Z",
           "user": "Ryan Lundy",
           "user_link": "https://stackoverflow.com/users/5486/ryan-lundy",
-          "reputation": 209024
+          "reputation": 209892
         },
         {
           "id": 21084878,
-          "score": 168,
+          "score": 169,
           "content": "zsh users might get: <code>zsh: no matches found: HEAD^</code> - you need to escape ^ i.e. <code>git reset --soft HEAD\\^</code>",
           "date": "2013-02-21 17:47:56Z",
           "user": "tnajdek",
@@ -283,7 +292,7 @@
           "date": "2017-03-14 21:30:44Z",
           "user": "jterm",
           "user_link": "https://stackoverflow.com/users/866741/jterm",
-          "reputation": 1073
+          "reputation": 1093
         },
         {
           "id": 73858684,
@@ -292,7 +301,7 @@
           "date": "2017-04-13 18:08:08Z",
           "user": "user3613932",
           "user_link": "https://stackoverflow.com/users/3613932/user3613932",
-          "reputation": 1369
+          "reputation": 1389
         },
         {
           "id": 80163520,
@@ -301,7 +310,7 @@
           "date": "2017-10-06 12:36:48Z",
           "user": "daGo",
           "user_link": "https://stackoverflow.com/users/4814774/dago",
-          "reputation": 2880
+          "reputation": 2948
         },
         {
           "id": 85752817,
@@ -341,7 +350,7 @@
         },
         {
           "id": 101627173,
-          "score": 76,
+          "score": 81,
           "content": "I&#39;ve googled &amp; hit this page about 50 times, and I always chuckle at the first line of code <code>git commit -m &quot;Something terribly misguided&quot;</code>",
           "date": "2019-08-21 04:25:55Z",
           "user": "100pic",
@@ -355,7 +364,7 @@
           "date": "2019-11-08 14:19:31Z",
           "user": "Ben",
           "user_link": "https://stackoverflow.com/users/10048799/ben",
-          "reputation": 3555
+          "reputation": 3644
         },
         {
           "id": 104762108,
@@ -364,7 +373,7 @@
           "date": "2019-12-11 01:17:42Z",
           "user": "thdoan",
           "user_link": "https://stackoverflow.com/users/452587/thdoan",
-          "reputation": 18987
+          "reputation": 19067
         },
         {
           "id": 122335349,
@@ -373,7 +382,7 @@
           "date": "2021-09-16 21:23:14Z",
           "user": "chrisan",
           "user_link": "https://stackoverflow.com/users/312072/chrisan",
-          "reputation": 4262
+          "reputation": 4282
         },
         {
           "id": 126280896,
@@ -400,7 +409,7 @@
           "date": "2022-09-12 19:07:15Z",
           "user": "Jonas Rosenqvist",
           "user_link": "https://stackoverflow.com/users/1731401/jonas-rosenqvist",
-          "reputation": 373
+          "reputation": 372
         },
         {
           "id": 135745266,
@@ -409,7 +418,7 @@
           "date": "2023-08-29 17:12:34Z",
           "user": "sondra.kinsey",
           "user_link": "https://stackoverflow.com/users/5389585/sondra-kinsey",
-          "reputation": 824
+          "reputation": 833
         },
         {
           "id": 135760121,
@@ -418,7 +427,7 @@
           "date": "2023-08-30 18:33:21Z",
           "user": "Ryan Lundy",
           "user_link": "https://stackoverflow.com/users/5486/ryan-lundy",
-          "reputation": 209024
+          "reputation": 209892
         },
         {
           "id": 138751110,
@@ -427,59 +436,86 @@
           "date": "2024-07-02 15:58:42Z",
           "user": "brianary",
           "user_link": "https://stackoverflow.com/users/54323/brianary",
-          "reputation": 9272
+          "reputation": 9332
         },
         {
-          "id": 138761653,
-          "score": 1,
-          "content": "When you weren&#39;t as committed as you thought you were. My day is saved.",
-          "date": "2024-07-03 19:35:19Z",
-          "user": "MrBoJangles",
-          "user_link": "https://stackoverflow.com/users/13578/mrbojangles",
-          "reputation": 12217
-        },
-        {
-          "id": 139071159,
-          "score": 1,
-          "content": "Saved my a** huge thanks :D",
-          "date": "2024-08-16 12:07:59Z",
-          "user": "DasMoorhuhn",
-          "user_link": "https://stackoverflow.com/users/18502512/dasmoorhuhn",
-          "reputation": 99
-        },
-        {
-          "id": 139167315,
+          "id": 139779118,
           "score": 0,
-          "content": "after 15 years. This is still helpful ♥",
-          "date": "2024-08-30 11:39:05Z",
-          "user": "Minh",
-          "user_link": "https://stackoverflow.com/users/14588461/minh",
-          "reputation": 703
+          "content": "@DonHatch don&#39;t think you can blame SO for you not reading. Step 3 does say you should add what you want. It links to the documentation for <code>git add</code>. There is no silver bullet that will do what everybody needs all the time. No sequence of actions will be always correct here. You apparently had a lot of unstaged files. Others wouldn&#39;t. How do you expect somebody to provide <b><i>PRECISE</i></b> steps for <b><i>EXACTLY</i></b> only you? Is it not more reasonable to provide steps and guidance for how to handle this situation and expect people to <i>read</i>?",
+          "date": "2024-12-10 09:41:59Z",
+          "user": "VLAZ",
+          "user_link": "https://stackoverflow.com/users/3689450/vlaz",
+          "reputation": 28821
+        },
+        {
+          "id": 139779132,
+          "score": 0,
+          "content": "@DonHatch also, <code>git reset</code> to unstage files. Very hard, I know. But do check the documentation - don&#39;t complain to me if use it and it unstages things you didn&#39;t want to because you apparently are after fish rather than learning to fish.",
+          "date": "2024-12-10 09:44:07Z",
+          "user": "VLAZ",
+          "user_link": "https://stackoverflow.com/users/3689450/vlaz",
+          "reputation": 28821
+        },
+        {
+          "id": 139779732,
+          "score": 0,
+          "content": "@DonHatch a commit is just a collection of changes. Changes start unstaged, then staged (with <code>git add</code>), then <code>git commit</code> converts the staged ones to a commit. &quot;Undoing&quot; a commit goes back to the changes being unstaged. This is what 1. is. If you started with clean working tree (no other changes), then you just re-add and commit your changes (3-4). If you have <i>other</i> changes you have to pick and choose. That&#39;s what the description of step 3. says. There are few other variations but Git doesn&#39;t magically know what should go in a commit. Adding all changes will add all changes.",
+          "date": "2024-12-10 11:29:49Z",
+          "user": "VLAZ",
+          "user_link": "https://stackoverflow.com/users/3689450/vlaz",
+          "reputation": 28821
+        },
+        {
+          "id": 139779857,
+          "score": 0,
+          "content": "@DonHatch read the next part after the commands that literally lay out what each thing does. It&#39;s already there and it even links to the documentation for <code>git add</code>.  The answer does explain each step and why it&#39;s there. Yet you&#39;re here trying to convince me it lied to you. Moreover, you complained about a non-issue - adding staged files when you didn&#39;t mean to happens all the time. Ranting about it took more time than it would to fix it. So, yeah, I fail to see how your complaint here was &quot;reasonable&quot;. If you continue complaining, I&#39;ll not be responding any more because it&#39;s a waste of time.",
+          "date": "2024-12-10 11:52:26Z",
+          "user": "VLAZ",
+          "user_link": "https://stackoverflow.com/users/3689450/vlaz",
+          "reputation": 28821
+        },
+        {
+          "id": 139779934,
+          "score": 0,
+          "content": "@VLAZ I&#39;m sorry I&#39;ve been unable to explain the problem in a way that you can understand yet. I don&#39;t disagree that <i>if I put in more investment to re-learn and read and understand and follow links so that I understand everything this answer said</i> then I&#39;d have no problem. It seems like everything you have said assumes that I, and everyone, should do that. But for the 4th time or so, <i>I&#39;m just looking for the fish</i> and I that&#39;s a reasonable thing to want from this stackoverflow answer. Fine if you want to disengage; I&#39;ll see if I can improve this community wiki answer.",
+          "date": "2024-12-10 12:07:41Z",
+          "user": "Don Hatch",
+          "user_link": "https://stackoverflow.com/users/2552290/don-hatch",
+          "reputation": 5393
+        },
+        {
+          "id": 139780023,
+          "score": 0,
+          "content": "@VLAZ I&#39;ve made a small edit that would have kept me from making the mistake.  This will make this answer substantially more useful to me and perhaps others in the future.  I don&#39;t expect you&#39;ll understand the value of this edit, but that&#39;s ok, I trust you&#39;ll leave it alone in any case.  I will shortly remove my part of this exchange which I have found to be rather unpleasant.",
+          "date": "2024-12-10 12:23:57Z",
+          "user": "Don Hatch",
+          "user_link": "https://stackoverflow.com/users/2552290/don-hatch",
+          "reputation": 5393
         }
       ]
     },
     {
       "id": 6866485,
-      "rating": 12827,
+      "rating": 12894,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Undoing a commit is a little scary if you don't know how it works.  But it's actually amazingly easy if you do understand. I'll show you the 4 different ways you can undo a commit.</p><p>Say you have this, where C is your HEAD and (F) is the state of your files.</p><pre><code>   (F)A-B-C    ↑  master</code></pre><h3>Option 1: <code>git reset --hard</code></h3><p>You want to <strong>destroy commit C and also throw away any uncommitted changes</strong>.  You do this:</p><pre><code>git reset --hard HEAD~1</code></pre><p>The result is:</p><pre><code> (F)A-B  ↑master</code></pre><p>Now B is the HEAD.  Because you used <code>--hard</code>, your files are reset to their state at commit B.</p><h3>Option 2: <code>git reset</code></h3><p>Maybe commit C wasn't a disaster, but just a bit off.  You want to <strong>undo the commit but keep your changes</strong> for a bit of editing before you do a better commit.  Starting again from here, with C as your HEAD:</p><pre><code>   (F)A-B-C    ↑  master</code></pre><p>Do this, leaving off the <code>--hard</code>:</p><pre><code>git reset HEAD~1</code></pre><p>In this case the result is:</p><pre><code>   (F)A-B-C  ↑master</code></pre><p>In both cases, HEAD is just a pointer to the latest commit.  When you do a <code>git reset HEAD~1</code>, you tell Git to move the HEAD pointer back one commit.  But (unless you use <code>--hard</code>) you leave your files as they were.  So now <code>git status</code> shows the changes you had checked into C.  You haven't lost a thing!</p><h3>Option 3: <code>git reset --soft</code></h3><p>For the lightest touch, you can even <strong>undo your commit but leave your files and your <a href=\"https://git.wiki.kernel.org/index.php/WhatIsTheIndex\" rel=\"noreferrer\">index</a></strong>:</p><pre><code>git reset --soft HEAD~1</code></pre><p>This not only leaves your files alone, it even leaves your <em>index</em> alone.  When you do <code>git status</code>, you'll see that the same files are in the index as before.  In fact, right after this command, you could do <code>git commit</code> and you'd be redoing the same commit you just had.</p><h3>Option 4: you did <code>git reset --hard</code> and need to get that code back</h3><p>One more thing: Suppose you <strong>destroy a commit</strong> as in the first example, <strong>but then discover you needed it after all</strong>?  Tough luck, right?</p><p>Nope, there's <em>still</em> a way to get it back.  Type this</p><pre><code>git reflog</code></pre><p>and you'll see a list of (partial) commit <a href=\"https://en.wikipedia.org/wiki/SHA-1#Data_integrity\" rel=\"noreferrer\">SHAs</a> (that is, hashes) that you've moved around in.  Find the commit you destroyed, and do this:</p><pre><code>git checkout -b someNewBranchName shaYouDestroyed</code></pre><p>You've now resurrected that commit.  Commits don't actually get destroyed in Git for some 90 days, so you can usually go back and rescue one you didn't mean to get rid of.</p>",
+      "content": "<p>Undoing a commit is a little scary if you don't know how it works. But it's actually amazingly easy if you do understand. I'll show you the 4 different ways you can undo a commit.</p> <p>Say you have this, where C is your HEAD and (F) is the state of your files.</p> <pre><code> (F) A-B-C ↑ master </code></pre> <h3>Option 1: <code>git reset --hard</code></h3> <p>You want to <strong>destroy commit C and also throw away any uncommitted changes</strong>. You do this:</p> <pre><code>git reset --hard HEAD~1 </code></pre> <p>The result is:</p> <pre><code> (F) A-B ↑ master </code></pre> <p>Now B is the HEAD. Because you used <code>--hard</code>, your files are reset to their state at commit B.</p> <h3>Option 2: <code>git reset</code></h3> <p>Maybe commit C wasn't a disaster, but just a bit off. You want to <strong>undo the commit but keep your changes</strong> for a bit of editing before you do a better commit. Starting again from here, with C as your HEAD:</p> <pre><code> (F) A-B-C ↑ master </code></pre> <p>Do this, leaving off the <code>--hard</code>:</p> <pre><code>git reset HEAD~1 </code></pre> <p>In this case the result is:</p> <pre><code> (F) A-B-C ↑ master </code></pre> <p>In both cases, HEAD is just a pointer to the latest commit. When you do a <code>git reset HEAD~1</code>, you tell Git to move the HEAD pointer back one commit. But (unless you use <code>--hard</code>) you leave your files as they were. So now <code>git status</code> shows the changes you had checked into C. You haven't lost a thing!</p> <h3>Option 3: <code>git reset --soft</code></h3> <p>For the lightest touch, you can even <strong>undo your commit but leave your files and your <a href=\"https://git.wiki.kernel.org/index.php/WhatIsTheIndex\" rel=\"noreferrer\">index</a></strong>:</p> <pre><code>git reset --soft HEAD~1 </code></pre> <p>This not only leaves your files alone, it even leaves your <em>index</em> alone. When you do <code>git status</code>, you'll see that the same files are in the index as before. In fact, right after this command, you could do <code>git commit</code> and you'd be redoing the same commit you just had.</p> <h3>Option 4: you did <code>git reset --hard</code> and need to get that code back</h3> <p>One more thing: Suppose you <strong>destroy a commit</strong> as in the first example, <strong>but then discover you needed it after all</strong>? Tough luck, right?</p> <p>Nope, there's <em>still</em> a way to get it back. Type this</p> <pre><code>git reflog </code></pre> <p>and you'll see a list of (partial) commit <a href=\"https://en.wikipedia.org/wiki/SHA-1#Data_integrity\" rel=\"noreferrer\">SHAs</a> (that is, hashes) that you've moved around in. Find the commit you destroyed, and do this:</p> <pre><code>git checkout -b someNewBranchName shaYouDestroyed </code></pre> <p>You've now resurrected that commit. Commits don't actually get destroyed in Git for some 90 days, so you can usually go back and rescue one you didn't mean to get rid of.</p>",
       "edited": "2023-10-15 05:18:57Z",
       "editor": {
         "avatar": "https://i.sstatic.net/55DUG.jpg?s=64",
-        "name": "End Antisemitic Hate",
-        "link": "https://stackoverflow.com/users/4182398/end-antisemitic-hate",
-        "reputation": 5745,
-        "gbadge": 11,
-        "sbadge": 52,
-        "bbadge": 74
+        "name": "Amazon Dies In Darkness",
+        "link": "https://stackoverflow.com/users/4182398/amazon-dies-in-darkness",
+        "reputation": 5803,
+        "gbadge": 12,
+        "sbadge": 55,
+        "bbadge": 75
       },
       "date": "2011-07-28 22:22:20Z",
       "author": {
         "avatar": "https://www.gravatar.com/avatar/750159e9cdab58c4b6547d382311c9af?s=64&d=identicon&r=PG",
         "name": "Ryan Lundy",
         "link": "https://stackoverflow.com/users/5486/ryan-lundy",
-        "reputation": 209024,
+        "reputation": 209892,
         "gbadge": 41,
         "sbadge": 184,
         "bbadge": 216
@@ -492,7 +528,7 @@
           "date": "2012-02-25 13:31:31Z",
           "user": "dma_k",
           "user_link": "https://stackoverflow.com/users/267197/dma-k",
-          "reputation": 10619
+          "reputation": 10629
         },
         {
           "id": 14626749,
@@ -501,7 +537,7 @@
           "date": "2012-06-22 10:53:40Z",
           "user": "Adam",
           "user_link": "https://stackoverflow.com/users/153422/adam",
-          "reputation": 33087
+          "reputation": 33116
         },
         {
           "id": 14629085,
@@ -510,7 +546,7 @@
           "date": "2012-06-22 12:35:31Z",
           "user": "Adam",
           "user_link": "https://stackoverflow.com/users/153422/adam",
-          "reputation": 33087
+          "reputation": 33116
         },
         {
           "id": 17861647,
@@ -544,9 +580,9 @@
           "score": 32,
           "content": "Consider noting that the number in <code>HEAD~1</code> can be substituted to any positive integer, e.g. <code>HEAD~3</code>. It may seem obvious, but beginners (like me) are very careful when running git commands, so they may not want to risk messing something up by testing this stuff themselves.",
           "date": "2013-08-13 14:37:26Z",
-          "user": "&#x160;ime Vidas",
+          "user": "šime Vidas",
           "user_link": "https://stackoverflow.com/users/425275/%c5%a0ime-vidas",
-          "reputation": 185257
+          "reputation": 185693
         },
         {
           "id": 29054981,
@@ -555,34 +591,34 @@
           "date": "2013-10-24 21:54:20Z",
           "user": "Phlucious",
           "user_link": "https://stackoverflow.com/users/1666676/phlucious",
-          "reputation": 3841
+          "reputation": 3843
         },
         {
           "id": 29556901,
-          "score": 187,
+          "score": 190,
           "content": "Missing a crucial point: If the said commit was previously &#39;pushed&#39; to the remote, any &#39;undo&#39; operation, no matter how simple, will cause enormous pain and suffering to the rest of the users who have this commit in their local copy, when they do a &#39;git pull&#39; in the future.  So, if the commit was already &#39;pushed&#39;, do this instead:      git revert &lt;bad-commit-sha1-id&gt;     git push origin :",
           "date": "2013-11-08 23:43:18Z",
           "user": "FractalSpace",
           "user_link": "https://stackoverflow.com/users/175169/fractalspace",
-          "reputation": 5645
+          "reputation": 5675
         },
         {
           "id": 29557201,
-          "score": 42,
+          "score": 43,
           "content": "@FractalSpace, it won&#39;t cause &quot;enormous pain and suffering.&quot;  I&#39;ve done a few force pushes when using Git with a team.  All it takes is communication.",
           "date": "2013-11-09 00:00:10Z",
           "user": "Ryan Lundy",
           "user_link": "https://stackoverflow.com/users/5486/ryan-lundy",
-          "reputation": 209024
+          "reputation": 209892
         },
         {
           "id": 29559369,
-          "score": 44,
+          "score": 45,
           "content": "@Kyralessa In my workplace, messing up entire team&#39;s workflow and then telling them how to fix sh*t is not called &#39;communication&#39;. git history re-write is a destructive operation that results in trashing of parts of the repo. Insisting on its use, while clear and safe alternatives are available is simply irresponsible.",
           "date": "2013-11-09 03:02:51Z",
           "user": "FractalSpace",
           "user_link": "https://stackoverflow.com/users/175169/fractalspace",
-          "reputation": 5645
+          "reputation": 5675
         },
         {
           "id": 33174352,
@@ -591,7 +627,7 @@
           "date": "2014-02-20 10:48:16Z",
           "user": "Ellen Spertus",
           "user_link": "https://stackoverflow.com/users/631051/ellen-spertus",
-          "reputation": 6715
+          "reputation": 6785
         },
         {
           "id": 33183713,
@@ -600,7 +636,7 @@
           "date": "2014-02-20 14:28:56Z",
           "user": "Ryan Lundy",
           "user_link": "https://stackoverflow.com/users/5486/ryan-lundy",
-          "reputation": 209024
+          "reputation": 209892
         },
         {
           "id": 39570655,
@@ -609,7 +645,7 @@
           "date": "2014-08-19 03:13:04Z",
           "user": "fspinnenhirn",
           "user_link": "https://stackoverflow.com/users/2012372/fspinnenhirn",
-          "reputation": 1879
+          "reputation": 1889
         },
         {
           "id": 79356672,
@@ -618,7 +654,7 @@
           "date": "2017-09-13 12:09:43Z",
           "user": "Alfe",
           "user_link": "https://stackoverflow.com/users/1281485/alfe",
-          "reputation": 58858
+          "reputation": 59276
         },
         {
           "id": 79872871,
@@ -627,7 +663,7 @@
           "date": "2017-09-27 23:35:43Z",
           "user": "Jaime Montoya",
           "user_link": "https://stackoverflow.com/users/4242086/jaime-montoya",
-          "reputation": 7551
+          "reputation": 7691
         },
         {
           "id": 79899731,
@@ -636,7 +672,7 @@
           "date": "2017-09-28 15:00:43Z",
           "user": "Jaime Montoya",
           "user_link": "https://stackoverflow.com/users/4242086/jaime-montoya",
-          "reputation": 7551
+          "reputation": 7691
         },
         {
           "id": 80786478,
@@ -645,7 +681,7 @@
           "date": "2017-10-24 20:32:28Z",
           "user": "ruckc",
           "user_link": "https://stackoverflow.com/users/2035417/ruckc",
-          "reputation": 534
+          "reputation": 543
         },
         {
           "id": 82756723,
@@ -654,7 +690,7 @@
           "date": "2017-12-19 20:53:19Z",
           "user": "gangelo",
           "user_link": "https://stackoverflow.com/users/416122/gangelo",
-          "reputation": 3164
+          "reputation": 3172
         },
         {
           "id": 82757044,
@@ -663,7 +699,7 @@
           "date": "2017-12-19 21:05:53Z",
           "user": "Ryan Lundy",
           "user_link": "https://stackoverflow.com/users/5486/ryan-lundy",
-          "reputation": 209024
+          "reputation": 209892
         },
         {
           "id": 82757583,
@@ -672,7 +708,7 @@
           "date": "2017-12-19 21:28:01Z",
           "user": "gangelo",
           "user_link": "https://stackoverflow.com/users/416122/gangelo",
-          "reputation": 3164
+          "reputation": 3172
         },
         {
           "id": 82769068,
@@ -681,7 +717,7 @@
           "date": "2017-12-20 07:59:45Z",
           "user": "Ryan Lundy",
           "user_link": "https://stackoverflow.com/users/5486/ryan-lundy",
-          "reputation": 209024
+          "reputation": 209892
         },
         {
           "id": 93257011,
@@ -717,7 +753,7 @@
           "date": "2022-07-25 13:04:14Z",
           "user": "Omkesh Sajjanwar",
           "user_link": "https://stackoverflow.com/users/9793782/omkesh-sajjanwar",
-          "reputation": 793
+          "reputation": 843
         },
         {
           "id": 129125890,
@@ -726,7 +762,7 @@
           "date": "2022-07-25 15:03:54Z",
           "user": "Ryan Lundy",
           "user_link": "https://stackoverflow.com/users/5486/ryan-lundy",
-          "reputation": 209024
+          "reputation": 209892
         },
         {
           "id": 129352710,
@@ -735,25 +771,25 @@
           "date": "2022-08-05 00:10:54Z",
           "user": "Waleed93",
           "user_link": "https://stackoverflow.com/users/7332563/waleed93",
-          "reputation": 1250
+          "reputation": 1290
         },
         {
-          "id": 138059990,
+          "id": 139754996,
           "score": 0,
-          "content": "This should be the accepted answer because it addresses the question: &quot;UNDO&quot;. It also provides other options as well.",
-          "date": "2024-04-11 14:12:19Z",
-          "user": "Positive Navid",
-          "user_link": "https://stackoverflow.com/users/5136131/positive-navid",
-          "reputation": 2761
+          "content": "@RyanLundy Thanks for the detailed guide. Very easy to understand",
+          "date": "2024-12-05 10:41:52Z",
+          "user": "Bimal",
+          "user_link": "https://stackoverflow.com/users/1823461/bimal",
+          "reputation": 911
         }
       ]
     },
     {
       "id": 6376039,
-      "rating": 2756,
+      "rating": 2772,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>There are two ways to &quot;undo&quot; your last commit, depending on whether or not you have already made your commit public (pushed to your remote repository):</p><h2>How to undo a local commit</h2><p>Let's say I committed locally, but now I want to remove that commit.</p><pre><code>git log    commit 101: bad commit    # Latest commit. This would be called 'HEAD'.    commit 100: good commit   # Second to last commit. This is the one we want.</code></pre><p>To restore everything back to the way it was prior to the last commit, we need to <code>reset</code> to the commit before <code>HEAD</code>:</p><pre><code>git reset --soft HEAD^     # Use --soft if you want to keep your changesgit reset --hard HEAD^     # Use --hard if you don't care about keeping the changes you made</code></pre><p>Now <code>git log</code> will show that our last commit has been removed.</p><h2>How to undo a public commit</h2><p>If you have already made your commits public, you will want to create a new commit which will &quot;revert&quot; the changes you made in your previous commit (current HEAD).</p><pre><code>git revert HEAD</code></pre><p>Your changes will now be reverted and ready for you to commit:</p><pre><code>git commit -m 'restoring the file I removed by accident'git log    commit 102: restoring the file I removed by accident    commit 101: removing a file we don't need    commit 100: adding a file that we need</code></pre><p>For more information, check out <em><a href=\"https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things\" rel=\"noreferrer\">Git Basics - Undoing Things</a></em>.</p>",
+      "content": "<p>There are two ways to &quot;undo&quot; your last commit, depending on whether or not you have already made your commit public (pushed to your remote repository):</p> <h2>How to undo a local commit</h2> <p>Let's say I committed locally, but now I want to remove that commit.</p> <pre><code>git log commit 101: bad commit # Latest commit. This would be called 'HEAD'. commit 100: good commit # Second to last commit. This is the one we want. </code></pre> <p>To restore everything back to the way it was prior to the last commit, we need to <code>reset</code> to the commit before <code>HEAD</code>:</p> <pre><code>git reset --soft HEAD^ # Use --soft if you want to keep your changes git reset --hard HEAD^ # Use --hard if you don't care about keeping the changes you made </code></pre> <p>Now <code>git log</code> will show that our last commit has been removed.</p> <h2>How to undo a public commit</h2> <p>If you have already made your commits public, you will want to create a new commit which will &quot;revert&quot; the changes you made in your previous commit (current HEAD).</p> <pre><code>git revert HEAD </code></pre> <p>Your changes will now be reverted and ready for you to commit:</p> <pre><code>git commit -m 'restoring the file I removed by accident' git log commit 102: restoring the file I removed by accident commit 101: removing a file we don't need commit 100: adding a file that we need </code></pre> <p>For more information, check out <em><a href=\"https://git-scm.com/book/en/v2/Git-Basics-Undoing-Things\" rel=\"noreferrer\">Git Basics - Undoing Things</a></em>.</p>",
       "edited": "2020-06-20 09:12:55Z",
       "editor": {
         "avatar": "https://www.gravatar.com/avatar/a007be5a61f6aa8f3e85ae2fc18dd66e?s=64&d=identicon&r=PG",
@@ -769,20 +805,20 @@
         "avatar": "https://www.gravatar.com/avatar/1c787bc735dbe80ec2f88824e1d10c6c?s=64&d=identicon&r=PG",
         "name": "Andrew",
         "link": "https://stackoverflow.com/users/48523/andrew",
-        "reputation": 236819,
+        "reputation": 238257,
         "gbadge": 195,
-        "sbadge": 527,
-        "bbadge": 716
+        "sbadge": 530,
+        "bbadge": 718
       },
       "comments": [
         {
           "id": 7916341,
-          "score": 139,
+          "score": 140,
           "content": "I found this answer the clearest. <code>git revert HEAD^</code> is not the previous, is the previous of the previous. I did : <code>git revert HEAD</code> and then push again and it worked :)",
           "date": "2011-07-14 08:32:53Z",
           "user": "nacho4d",
           "user_link": "https://stackoverflow.com/users/149008/nacho4d",
-          "reputation": 44888
+          "reputation": 45038
         },
         {
           "id": 107119451,
@@ -791,7 +827,7 @@
           "date": "2020-03-05 15:50:09Z",
           "user": "tar",
           "user_link": "https://stackoverflow.com/users/823470/tar",
-          "reputation": 1558
+          "reputation": 1568
         },
         {
           "id": 121246002,
@@ -800,7 +836,7 @@
           "date": "2021-07-31 22:25:00Z",
           "user": "carloswm85",
           "user_link": "https://stackoverflow.com/users/7389293/carloswm85",
-          "reputation": 2192
+          "reputation": 2332
         },
         {
           "id": 138551640,
@@ -809,22 +845,22 @@
           "date": "2024-06-06 21:00:59Z",
           "user": "Some Guy",
           "user_link": "https://stackoverflow.com/users/5652258/some-guy",
-          "reputation": 490
+          "reputation": 519
         }
       ]
     },
     {
       "id": 927397,
-      "rating": 1953,
+      "rating": 1957,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Add/remove files to get things the way you want:</p><pre><code>git rm classdirgit add sourcedir</code></pre><p>Then amend the commit:</p><pre><code>git commit --amend</code></pre><p>The previous, erroneous commit will be edited to reflect the new index state - in other words, it'll be like you never made the mistake in the first place.</p><p>Note that you should only do this if you haven't pushed yet. If you have pushed, then you'll just have to commit a fix normally.</p>",
+      "content": "<p>Add/remove files to get things the way you want:</p> <pre><code>git rm classdir git add sourcedir </code></pre> <p>Then amend the commit:</p> <pre><code>git commit --amend </code></pre> <p>The previous, erroneous commit will be edited to reflect the new index state - in other words, it'll be like you never made the mistake in the first place.</p> <p>Note that you should only do this if you haven't pushed yet. If you have pushed, then you'll just have to commit a fix normally.</p>",
       "edited": "2016-10-12 06:45:55Z",
       "editor": {
         "avatar": "https://www.gravatar.com/avatar/4c11213e01b9f76d7fa5070de932e6cc?s=64&d=identicon&r=PG",
         "name": "Vikrant",
         "link": "https://stackoverflow.com/users/3682162/vikrant",
-        "reputation": 5038,
+        "reputation": 5036,
         "gbadge": 18,
         "sbadge": 51,
         "bbadge": 74
@@ -834,9 +870,9 @@
         "avatar": "https://www.gravatar.com/avatar/d5a138149601087e78436b67718578cd?s=64&d=identicon&r=PG",
         "name": "bdonlan",
         "link": "https://stackoverflow.com/users/36723/bdonlan",
-        "reputation": 229977,
+        "reputation": 230753,
         "gbadge": 31,
-        "sbadge": 273,
+        "sbadge": 274,
         "bbadge": 326
       },
       "comments": [
@@ -847,7 +883,7 @@
           "date": "2020-05-15 10:03:11Z",
           "user": "egorlitvinenko",
           "user_link": "https://stackoverflow.com/users/3031010/egorlitvinenko",
-          "reputation": 2766
+          "reputation": 2776
         },
         {
           "id": 109341955,
@@ -856,7 +892,7 @@
           "date": "2020-05-15 11:25:56Z",
           "user": "egorlitvinenko",
           "user_link": "https://stackoverflow.com/users/3031010/egorlitvinenko",
-          "reputation": 2766
+          "reputation": 2776
         },
         {
           "id": 109462491,
@@ -865,7 +901,7 @@
           "date": "2020-05-19 10:00:55Z",
           "user": "xuiqzy",
           "user_link": "https://stackoverflow.com/users/4288004/xuiqzy",
-          "reputation": 192
+          "reputation": 196
         },
         {
           "id": 126598732,
@@ -874,32 +910,32 @@
           "date": "2022-03-26 22:22:20Z",
           "user": "alex",
           "user_link": "https://stackoverflow.com/users/4444742/alex",
-          "reputation": 887
+          "reputation": 917
         }
       ]
     },
     {
       "id": 927378,
-      "rating": 1299,
+      "rating": 1303,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>This will add a new commit which deletes the added files.</p><pre class=\"lang-bash prettyprint-override\"><code>git rm yourfiles/*.classgit commit -a -m &quot;deleted all class files in folder 'yourfiles'&quot;</code></pre><hr /><p>Or you can rewrite history to undo the last commit.</p><p><strong>Warning</strong>: this command will <strong>permanently remove</strong> the modifications to the <code>.java</code> files (and any other files) that you committed -- and delete all your changes from your working directory:</p><pre><code>git reset --hard HEAD~1</code></pre><p>The <code>hard reset</code> to <code>HEAD-1</code> will set your working copy to the state of the commit before your wrong commit.</p>",
+      "content": "<p>This will add a new commit which deletes the added files.</p> <pre class=\"lang-bash prettyprint-override\"><code>git rm yourfiles/*.class git commit -a -m &quot;deleted all class files in folder 'yourfiles'&quot; </code></pre> <hr /> <p>Or you can rewrite history to undo the last commit.</p> <p><strong>Warning</strong>: this command will <strong>permanently remove</strong> the modifications to the <code>.java</code> files (and any other files) that you committed -- and delete all your changes from your working directory:</p> <pre><code>git reset --hard HEAD~1 </code></pre> <p>The <code>hard reset</code> to <code>HEAD-1</code> will set your working copy to the state of the commit before your wrong commit.</p>",
       "edited": "2022-09-09 08:13:22Z",
       "editor": {
         "avatar": "https://www.gravatar.com/avatar/75bfdecf63c3495489123fe9c0b833e1?s=64&d=identicon&r=PG",
         "name": "ChrisW",
         "link": "https://stackoverflow.com/users/49942/chrisw",
-        "reputation": 55,
+        "reputation": 56,
         "gbadge": 14,
-        "sbadge": 119,
-        "bbadge": 232
+        "sbadge": 121,
+        "bbadge": 234
       },
       "date": "2009-05-29 18:13:07Z",
       "author": {
         "avatar": "https://www.gravatar.com/avatar/1eeaa20a58132f3ea9a2c547fce7b92a?s=64&d=identicon&r=PG",
         "name": "Lennart Koopmann",
         "link": "https://stackoverflow.com/users/66445/lennart-koopmann",
-        "reputation": 20929,
+        "reputation": 21021,
         "gbadge": 4,
         "sbadge": 27,
         "bbadge": 33
@@ -912,7 +948,7 @@
           "date": "2014-06-21 16:31:59Z",
           "user": "trejder",
           "user_link": "https://stackoverflow.com/users/1469208/trejder",
-          "reputation": 17513
+          "reputation": 17483
         },
         {
           "id": 56081980,
@@ -925,21 +961,21 @@
         },
         {
           "id": 128127149,
-          "score": 20,
+          "score": 24,
           "content": "Gosh... this answer should be deleted. <code>git reset --hard HEAD-1</code> is incredibly dangerous - it&#39;s not just &quot;undoing the commit&quot;, it also delete all of your changes, which is not what OP asked for. I unfortunately applied this answer (which StackOverflow for no reason shows first than the accepted one with 26k upvotes), and now will struggle to recover all of my changes.",
           "date": "2022-06-07 13:19:25Z",
           "user": "Jack",
           "user_link": "https://stackoverflow.com/users/1654526/jack",
-          "reputation": 1576
+          "reputation": 1606
         },
         {
           "id": 129475823,
-          "score": 7,
+          "score": 9,
           "content": "For those who did not read and just ran the above command like me, I hope you learned your lesson now XD... To undo command, <code>git reflog</code> to find the discarded commit and run <code>git reset --hard $1</code> where <code>$1</code> is your discarded commit",
           "date": "2022-08-11 04:10:50Z",
           "user": "seantsang",
           "user_link": "https://stackoverflow.com/users/17681630/seantsang",
-          "reputation": 1191
+          "reputation": 1206
         },
         {
           "id": 138993068,
@@ -954,10 +990,10 @@
     },
     {
       "id": 3377569,
-      "rating": 962,
+      "rating": 965,
       "checkmark": true,
       "bounty": 0,
-      "content": "<h2 id=\"to-change-the-last-commit-ayg9\">To change the last commit</h2><p>Replace the files in the index:</p><pre><code>git rm --cached *.classgit add *.java</code></pre><p>Then, if it's a private branch, <strong>amend</strong> the commit:</p><pre><code>git commit --amend</code></pre><p>Or, if it's a shared branch, make a new commit:</p><pre><code>git commit -m 'Replace .class files with .java files'</code></pre><br/><p><em>(<strong>To change a previous commit</strong>, use the awesome <a href=\"https://stackoverflow.com/a/28421811/405550\">interactive rebase</a>.)</em></p><hr /><p>ProTip™: Add <code>*.class</code> to a <a href=\"https://help.github.com/articles/ignoring-files\" rel=\"noreferrer\">gitignore</a> to stop this happening again.</p><hr /><h2 id=\"to-revert-a-commit-rotb\">To revert a commit</h2><p>Amending a commit is the ideal solution if you need to change the last commit, but a more general solution is <code>reset</code>.</p><p>You can reset Git to any commit with:</p><pre><code>git reset @~N</code></pre><p>Where <code>N</code> is the number of commits before <code>HEAD</code>, and <code>@~</code> resets to the previous commit.</p><p>Instead of amending the commit, you could use:</p><pre><code>git reset @~git add *.javagit commit -m &quot;Add .java files&quot;</code></pre><p>Check out <code>git help reset</code>, specifically the sections on <code>--soft</code> <code>--mixed</code> and <code>--hard</code>, for a better understanding of what this does.</p><h2 id=\"reflog-hdrm\">Reflog</h2><p>If you mess up, you can always use the reflog to find dropped commits:</p><pre><code>$ git reset @~$ git reflogc4f708b HEAD@{0}: reset: moving to @~2c52489 HEAD@{1}: commit: added some .class files$ git reset 2c52489... and you're back where you started</code></pre><br/>",
+      "content": "<h2 id=\"to-change-the-last-commit-ayg9\">To change the last commit</h2> <p>Replace the files in the index:</p> <pre><code>git rm --cached *.class git add *.java </code></pre> <p>Then, if it's a private branch, <strong>amend</strong> the commit:</p> <pre><code>git commit --amend </code></pre> <p>Or, if it's a shared branch, make a new commit:</p> <pre><code>git commit -m 'Replace .class files with .java files' </code></pre> <br/> <p><em>(<strong>To change a previous commit</strong>, use the awesome <a href=\"https://stackoverflow.com/a/28421811/405550\">interactive rebase</a>.)</em></p> <hr /> <p>ProTip™: Add <code>*.class</code> to a <a href=\"https://help.github.com/articles/ignoring-files\" rel=\"noreferrer\">gitignore</a> to stop this happening again.</p> <hr /> <h2 id=\"to-revert-a-commit-rotb\">To revert a commit</h2> <p>Amending a commit is the ideal solution if you need to change the last commit, but a more general solution is <code>reset</code>.</p> <p>You can reset Git to any commit with:</p> <pre><code>git reset @~N </code></pre> <p>Where <code>N</code> is the number of commits before <code>HEAD</code>, and <code>@~</code> resets to the previous commit.</p> <p>Instead of amending the commit, you could use:</p> <pre><code>git reset @~ git add *.java git commit -m &quot;Add .java files&quot; </code></pre> <p>Check out <code>git help reset</code>, specifically the sections on <code>--soft</code> <code>--mixed</code> and <code>--hard</code>, for a better understanding of what this does.</p> <h2 id=\"reflog-hdrm\">Reflog</h2> <p>If you mess up, you can always use the reflog to find dropped commits:</p> <pre><code>$ git reset @~ $ git reflog c4f708b HEAD@{0}: reset: moving to @~ 2c52489 HEAD@{1}: commit: added some .class files $ git reset 2c52489 ... and you're back where you started </code></pre> <br/>",
       "edited": "2021-07-23 20:52:02Z",
       "editor": {
         "avatar": "https://i.sstatic.net/WmJNSJwX.png?s=64",
@@ -966,14 +1002,14 @@
         "reputation": 28,
         "gbadge": 22,
         "sbadge": 127,
-        "bbadge": 157
+        "bbadge": 158
       },
       "date": "2010-07-31 09:39:13Z",
       "author": {
         "avatar": "https://www.gravatar.com/avatar/66cfec64387b2f203e95982793227f3d?s=64&d=identicon&r=PG",
         "name": "Zaz",
         "link": "https://stackoverflow.com/users/405550/zaz",
-        "reputation": 48272,
+        "reputation": 48620,
         "gbadge": 15,
         "sbadge": 88,
         "bbadge": 105
@@ -986,7 +1022,7 @@
           "date": "2018-08-08 07:11:00Z",
           "user": "BenKoshy",
           "user_link": "https://stackoverflow.com/users/4880924/benkoshy",
-          "reputation": 35099
+          "reputation": 35485
         },
         {
           "id": 131482603,
@@ -995,16 +1031,16 @@
           "date": "2022-11-17 22:24:26Z",
           "user": "gsan",
           "user_link": "https://stackoverflow.com/users/12062831/gsan",
-          "reputation": 583
+          "reputation": 603
         }
       ]
     },
     {
       "id": 10757800,
-      "rating": 848,
+      "rating": 852,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Use <code>git revert &lt;commit-id&gt;</code>.</p><p>To get the commit ID, just use <code>git log</code>.</p>",
+      "content": "<p>Use <code>git revert &lt;commit-id&gt;</code>.</p> <p>To get the commit ID, just use <code>git log</code>.</p>",
       "edited": "2019-11-21 13:47:43Z",
       "editor": {
         "avatar": "https://i.sstatic.net/RIZKi.png?s=64",
@@ -1013,17 +1049,17 @@
         "reputation": 31,
         "gbadge": 22,
         "sbadge": 109,
-        "bbadge": 132
+        "bbadge": 133
       },
       "date": "2012-05-25 16:04:29Z",
       "author": {
         "avatar": "https://www.gravatar.com/avatar/bcfba9a4b07837ac5c91978191b2cd61?s=64&d=identicon&r=PG",
         "name": "Jaco Pretorius",
         "link": "https://stackoverflow.com/users/121531/jaco-pretorius",
-        "reputation": 24730,
-        "gbadge": 11,
+        "reputation": 24800,
+        "gbadge": 12,
         "sbadge": 63,
-        "bbadge": 95
+        "bbadge": 96
       },
       "comments": [
         {
@@ -1038,7 +1074,7 @@
         {
           "id": 57732857,
           "score": 0,
-          "content": "I just utilized <code>git revert commit-id</code> worked like a charm.  Of course then you will need to push your changes.",
+          "content": "I just utilized <code>git revert commit-id</code> worked like a charm. Of course then you will need to push your changes.",
           "date": "2016-01-25 21:07:16Z",
           "user": "Casey Robinson",
           "user_link": "https://stackoverflow.com/users/3502119/casey-robinson",
@@ -1051,7 +1087,7 @@
           "date": "2016-10-20 18:19:50Z",
           "user": "Tom Howard",
           "user_link": "https://stackoverflow.com/users/1803879/tom-howard",
-          "reputation": 4860
+          "reputation": 4898
         },
         {
           "id": 93361410,
@@ -1060,25 +1096,25 @@
           "date": "2018-11-10 09:38:58Z",
           "user": "Eugen Konkov",
           "user_link": "https://stackoverflow.com/users/4632019/eugen-konkov",
-          "reputation": 24693
+          "reputation": 25021
         },
         {
           "id": 106285588,
-          "score": 4,
+          "score": 5,
           "content": "I&#39;d use revert only if I&#39;ve already pushed my commit. Otherwise, reset is a better option. Don&#39;t forget that revert creates a new commit, and usually this is not the goal.",
           "date": "2020-02-06 12:40:43Z",
           "user": "Hola Soy Edu Feliz Navidad",
           "user_link": "https://stackoverflow.com/users/1615183/hola-soy-edu-feliz-navidad",
-          "reputation": 7002
+          "reputation": 7052
         }
       ]
     },
     {
       "id": 14620228,
-      "rating": 700,
+      "rating": 702,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>If you are planning to undo a local commit entirely, whatever you change you did on the commit, and if you don't worry anything about that, just do the following command.</p><pre><code>git reset --hard HEAD^1</code></pre><p>(This command will ignore your entire commit and your changes will be lost completely from your local working tree). If you want to undo your commit, but you want your changes in the staging area (before commit just like after <code>git add</code>) then do the following command.</p><pre><code>git reset --soft HEAD^1</code></pre><p>Now your committed files come into the staging area. Suppose if you want to upstage the files, because you need to edit some wrong content, then do the following command</p><pre><code>git reset HEAD</code></pre><p>Now committed files to come from the staged area into the unstaged area. Now files are ready to edit, so whatever you change, you want to go edit and added it and make a fresh/new commit.</p><p><a href=\"http://madhan-tech-updates.blogspot.in/2013/01/how-to-undo-your-local-git-commit.html\" rel=\"noreferrer\">More (link broken)</a> (<a href=\"https://web.archive.org/web/20170410191943/http://madhan-tech-updates.blogspot.in/2013/01/how-to-undo-your-local-git-commit.html\" rel=\"noreferrer\">Archived version</a>)</p>",
+      "content": "<p>If you are planning to undo a local commit entirely, whatever you change you did on the commit, and if you don't worry anything about that, just do the following command.</p> <pre><code>git reset --hard HEAD^1 </code></pre> <p>(This command will ignore your entire commit and your changes will be lost completely from your local working tree). If you want to undo your commit, but you want your changes in the staging area (before commit just like after <code>git add</code>) then do the following command.</p> <pre><code>git reset --soft HEAD^1 </code></pre> <p>Now your committed files come into the staging area. Suppose if you want to upstage the files, because you need to edit some wrong content, then do the following command</p> <pre><code>git reset HEAD </code></pre> <p>Now committed files to come from the staged area into the unstaged area. Now files are ready to edit, so whatever you change, you want to go edit and added it and make a fresh/new commit.</p> <p><a href=\"http://madhan-tech-updates.blogspot.in/2013/01/how-to-undo-your-local-git-commit.html\" rel=\"noreferrer\">More (link broken)</a> (<a href=\"https://web.archive.org/web/20170410191943/http://madhan-tech-updates.blogspot.in/2013/01/how-to-undo-your-local-git-commit.html\" rel=\"noreferrer\">Archived version</a>)</p>",
       "edited": "2020-11-21 14:11:02Z",
       "editor": {
         "avatar": "https://www.gravatar.com/avatar/a0cc2c606068f6072e50e5e31afafff9?s=64&d=identicon&r=PG&f=y&so-version=2",
@@ -1086,15 +1122,15 @@
         "link": "https://stackoverflow.com/users/3241243/riqq",
         "reputation": 12,
         "gbadge": 7,
-        "sbadge": 62,
-        "bbadge": 75
+        "sbadge": 64,
+        "bbadge": 76
       },
       "date": "2013-01-31 07:06:10Z",
       "author": {
         "avatar": "https://i.sstatic.net/831od.jpg?s=64",
         "name": "Madhan Ayyasamy",
         "link": "https://stackoverflow.com/users/1996609/madhan-ayyasamy",
-        "reputation": 16398,
+        "reputation": 16488,
         "gbadge": 3,
         "sbadge": 20,
         "bbadge": 18
@@ -1103,11 +1139,11 @@
         {
           "id": 56283123,
           "score": 20,
-          "content": "@SMR, In your example, all are pointing into current HEAD only. HEAD^ = HEAD^1. As well as HEAD^1 = HEAD~1.  When you use HEAD~2, there is a difference between ~ and ^ symbols. If you use ~2 means “the first parent of the first parent,” or “the grandparent”.",
+          "content": "@SMR, In your example, all are pointing into current HEAD only. HEAD^ = HEAD^1. As well as HEAD^1 = HEAD~1. When you use HEAD~2, there is a difference between ~ and ^ symbols. If you use ~2 means “the first parent of the first parent,” or “the grandparent”.",
           "date": "2015-12-14 15:34:11Z",
           "user": "Madhan Ayyasamy",
           "user_link": "https://stackoverflow.com/users/1996609/madhan-ayyasamy",
-          "reputation": 16398
+          "reputation": 16488
         },
         {
           "id": 115586311,
@@ -1116,13 +1152,13 @@
           "date": "2020-12-20 10:55:17Z",
           "user": "Rob Mosher",
           "user_link": "https://stackoverflow.com/users/474798/rob-mosher",
-          "reputation": 550
+          "reputation": 548
         }
       ]
     },
     {
       "id": 8487487,
-      "rating": 626,
+      "rating": 629,
       "checkmark": true,
       "bounty": 0,
       "content": "<p>If you have <a href=\"https://github.com/visionmedia/git-extras\" rel=\"noreferrer\">Git Extras</a> installed, you can run <code>git undo</code> to undo the latest commit. <code>git undo 3</code> will undo the last three commits.</p>",
@@ -1134,26 +1170,36 @@
         "reputation": 31,
         "gbadge": 22,
         "sbadge": 109,
-        "bbadge": 132
+        "bbadge": 133
       },
       "date": "2011-12-13 10:18:31Z",
       "author": {
         "avatar": "https://www.gravatar.com/avatar/f092dfd45793e9483281d4205b674823?s=64&d=identicon&r=PG",
         "name": "nickf",
         "link": "https://stackoverflow.com/users/9021/nickf",
-        "reputation": 544521,
+        "reputation": 545735,
         "gbadge": 198,
         "sbadge": 658,
-        "bbadge": 724
+        "bbadge": 725
       },
-      "comments": []
+      "comments": [
+        {
+          "id": 139569106,
+          "score": 0,
+          "content": "Yes! Git extras are really nice. I just can&#39;t use Git without them, so convenient (<code>brew install git-extras</code>).",
+          "date": "2024-11-02 19:01:04Z",
+          "user": "COil",
+          "user_link": "https://stackoverflow.com/users/633864/coil",
+          "reputation": 7566
+        }
+      ]
     },
     {
       "id": 10044540,
-      "rating": 588,
+      "rating": 590,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I wanted to undo the latest five commits in our shared repository. I looked up the revision id that I wanted to rollback to. Then I typed in the following.</p><pre><code>prompt&gt; git reset --hard 5a7404742c85HEAD is now at 5a74047 Added one more page to catalogueprompt&gt; git push origin master --forceTotal 0 (delta 0), reused 0 (delta 0)remote: bb/acl: neoneye is allowed. accepted payload.To <a href=\"/cdn-cgi/l/email-protection\" class=\"__cf_email__\" data-cfemail=\"d9beb0ad99bbb0adbbacbab2bcadf7b6abbe\">[email&#160;protected]</a>:thecompany/prometheus.git + 09a6480...5a74047 master -&gt; master (forced update)prompt&gt;</code></pre>",
+      "content": "<p>I wanted to undo the latest five commits in our shared repository. I looked up the revision id that I wanted to rollback to. Then I typed in the following.</p> <pre><code>prompt&gt; git reset --hard 5a7404742c85 HEAD is now at 5a74047 Added one more page to catalogue prompt&gt; git push origin master --force Total 0 (delta 0), reused 0 (delta 0) remote: bb/acl: neoneye is allowed. accepted payload. To <a href=\"/cdn-cgi/l/email-protection\" class=\"__cf_email__\" data-cfemail=\"76111f0236141f021403151d130258190411\">[email&#160;protected]</a>:thecompany/prometheus.git + 09a6480...5a74047 master -&gt; master (forced update) prompt&gt; </code></pre>",
       "edited": "2019-11-21 13:47:00Z",
       "editor": {
         "avatar": "https://i.sstatic.net/RIZKi.png?s=64",
@@ -1162,27 +1208,27 @@
         "reputation": 31,
         "gbadge": 22,
         "sbadge": 109,
-        "bbadge": 132
+        "bbadge": 133
       },
       "date": "2012-04-06 13:58:52Z",
       "author": {
         "avatar": "https://www.gravatar.com/avatar/896cfc242a7762467c2a0b2af86598e5?s=64&d=identicon&r=PG",
         "name": "neoneye",
         "link": "https://stackoverflow.com/users/78336/neoneye",
-        "reputation": 51801,
+        "reputation": 52091,
         "gbadge": 25,
-        "sbadge": 168,
+        "sbadge": 169,
         "bbadge": 152
       },
       "comments": [
         {
           "id": 18924301,
-          "score": 33,
-          "content": "Rewriting history on a shared repository is generally a very bad idea.  I assume you know what you&#39;re doing, I just hope future readers do too.",
+          "score": 34,
+          "content": "Rewriting history on a shared repository is generally a very bad idea. I assume you know what you&#39;re doing, I just hope future readers do too.",
           "date": "2012-12-07 16:02:12Z",
           "user": "Brad Koch",
           "user_link": "https://stackoverflow.com/users/425313/brad-koch",
-          "reputation": 20087
+          "reputation": 20217
         },
         {
           "id": 18944655,
@@ -1191,7 +1237,7 @@
           "date": "2012-12-08 14:14:43Z",
           "user": "neoneye",
           "user_link": "https://stackoverflow.com/users/78336/neoneye",
-          "reputation": 51801
+          "reputation": 52091
         },
         {
           "id": 26496284,
@@ -1200,16 +1246,16 @@
           "date": "2013-08-07 10:10:25Z",
           "user": "Mikko Rantalainen",
           "user_link": "https://stackoverflow.com/users/334451/mikko-rantalainen",
-          "reputation": 15677
+          "reputation": 15837
         }
       ]
     },
     {
       "id": 13061212,
-      "rating": 548,
+      "rating": 549,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I prefer to use <code>git rebase -i</code> for this job, because a nice list pops up where I can choose the commits to get rid of. It might not be as direct as some other answers here, but it just <em>feels right</em>.</p><p>Choose how many commits you want to list, then invoke like this (to enlist last three)</p><pre><code>git rebase -i HEAD~3</code></pre><p>Sample list</p><pre><code>pick aa28ba7 Sanity check for RtmpSrv portpick c26c541 RtmpSrv version optionpick 58d6909 Better URL decoding support</code></pre><p>Then Git will remove commits for any line that you remove.</p>",
+      "content": "<p>I prefer to use <code>git rebase -i</code> for this job, because a nice list pops up where I can choose the commits to get rid of. It might not be as direct as some other answers here, but it just <em>feels right</em>.</p> <p>Choose how many commits you want to list, then invoke like this (to enlist last three)</p> <pre><code>git rebase -i HEAD~3 </code></pre> <p>Sample list</p> <pre><code>pick aa28ba7 Sanity check for RtmpSrv port pick c26c541 RtmpSrv version option pick 58d6909 Better URL decoding support </code></pre> <p>Then Git will remove commits for any line that you remove.</p>",
       "edited": "2018-12-06 21:59:20Z",
       "editor": {
         "avatar": "https://i.sstatic.net/RIZKi.png?s=64",
@@ -1218,7 +1264,7 @@
         "reputation": 31,
         "gbadge": 22,
         "sbadge": 109,
-        "bbadge": 132
+        "bbadge": 133
       },
       "date": "2012-10-25 03:41:20Z",
       "author": {
@@ -1234,10 +1280,10 @@
     },
     {
       "id": 16175525,
-      "rating": 511,
+      "rating": 512,
       "checkmark": true,
       "bounty": 0,
-      "content": "<h2>How to fix the previous local commit</h2><p>Use git-gui (or similar) to perform a <code>git commit --amend</code>. From the GUI you can add or remove individual files from the commit. You can also modify the commit message. </p><h2>How to undo the previous local commit</h2><p>Just reset your branch to the previous location (for example, using <code>gitk</code> or <code>git rebase</code>). Then reapply your changes from a saved copy. After garbage collection in your local repository, it will be like the unwanted commit never happened. To do all of that in a single command, use <code>git reset HEAD~1</code>.</p><p><strong>Word of warning</strong>: <em>Careless use of <code>git reset</code> is a good way to get your working copy into a confusing state. I recommend that Git novices avoid this if they can.</em></p><h2>How to undo a public commit</h2><p>Perform a <a href=\"https://stackoverflow.com/a/1624724/86967\">reverse cherry pick</a> (<a href=\"http://git-scm.com/docs/git-revert.html\" rel=\"noreferrer\">git-revert</a>) to undo the changes.</p><p>If you haven't yet pulled other changes onto your branch, you can simply do...</p><pre><code>git revert --no-edit HEAD</code></pre><p>Then push your updated branch to the shared repository.</p><p><em>The commit history will show both commits, separately</em>.</p><hr><h2>Advanced: Correction of the <em>private</em> branch in public repository</h2><h3><em>This can be dangerous -- be sure you have a local copy of the branch to repush.</em></h3><p><em>Also note: You don't want to do this if someone else may be working on the branch.</em></p><pre><code>git push --delete (branch_name) ## remove public version of branch</code></pre><p>Clean up your branch locally then repush...</p><pre><code>git push origin (branch_name)</code></pre><p><em>In the normal case, you probably needn't worry about your private-branch commit history being pristine.  Just push a followup commit (see 'How to undo a public commit' above), and later, do a <a href=\"https://stackoverflow.com/a/22417539/86967\">squash-merge</a> to hide the history.</em></p>",
+      "content": "<h2>How to fix the previous local commit</h2> <p>Use git-gui (or similar) to perform a <code>git commit --amend</code>. From the GUI you can add or remove individual files from the commit. You can also modify the commit message. </p> <h2>How to undo the previous local commit</h2> <p>Just reset your branch to the previous location (for example, using <code>gitk</code> or <code>git rebase</code>). Then reapply your changes from a saved copy. After garbage collection in your local repository, it will be like the unwanted commit never happened. To do all of that in a single command, use <code>git reset HEAD~1</code>.</p> <p><strong>Word of warning</strong>: <em>Careless use of <code>git reset</code> is a good way to get your working copy into a confusing state. I recommend that Git novices avoid this if they can.</em></p> <h2>How to undo a public commit</h2> <p>Perform a <a href=\"https://stackoverflow.com/a/1624724/86967\">reverse cherry pick</a> (<a href=\"http://git-scm.com/docs/git-revert.html\" rel=\"noreferrer\">git-revert</a>) to undo the changes.</p> <p>If you haven't yet pulled other changes onto your branch, you can simply do...</p> <pre><code>git revert --no-edit HEAD </code></pre> <p>Then push your updated branch to the shared repository.</p> <p><em>The commit history will show both commits, separately</em>.</p> <hr> <h2>Advanced: Correction of the <em>private</em> branch in public repository</h2> <h3><em>This can be dangerous -- be sure you have a local copy of the branch to repush.</em></h3> <p><em>Also note: You don't want to do this if someone else may be working on the branch.</em></p> <pre><code>git push --delete (branch_name) ## remove public version of branch </code></pre> <p>Clean up your branch locally then repush...</p> <pre><code>git push origin (branch_name) </code></pre> <p><em>In the normal case, you probably needn't worry about your private-branch commit history being pristine. Just push a followup commit (see 'How to undo a public commit' above), and later, do a <a href=\"https://stackoverflow.com/a/22417539/86967\">squash-merge</a> to hide the history.</em></p>",
       "edited": "2018-12-07 05:57:27Z",
       "editor": {
         "avatar": null,
@@ -1266,34 +1312,34 @@
           "date": "2014-10-18 23:38:11Z",
           "user": "Brent Bradburn",
           "user_link": "https://stackoverflow.com/users/86967/brent-bradburn",
-          "reputation": 54351
+          "reputation": 54689
         },
         {
           "id": 52649525,
           "score": 8,
-          "content": "It should be noted that if you&#39;re attempting to remove secret information before pushing to a shared repository, doing a revert won&#39;t help you, because the information will still be in the history in the previous commit.  If you want to ensure the change is never visible to others you need to use <code>git reset</code>",
+          "content": "It should be noted that if you&#39;re attempting to remove secret information before pushing to a shared repository, doing a revert won&#39;t help you, because the information will still be in the history in the previous commit. If you want to ensure the change is never visible to others you need to use <code>git reset</code>",
           "date": "2015-09-04 04:52:01Z",
           "user": "Jherico",
           "user_link": "https://stackoverflow.com/users/85306/jherico",
-          "reputation": 29140
+          "reputation": 29230
         },
         {
           "id": 91393111,
           "score": 0,
-          "content": "Correcting a private branch in  remote repository can also be done by simply <code>git push origin (branch_name) --force</code>",
+          "content": "Correcting a private branch in remote repository can also be done by simply <code>git push origin (branch_name) --force</code>",
           "date": "2018-09-07 12:09:38Z",
           "user": "Brent Bradburn",
           "user_link": "https://stackoverflow.com/users/86967/brent-bradburn",
-          "reputation": 54351
+          "reputation": 54689
         }
       ]
     },
     {
       "id": 16609755,
-      "rating": 425,
+      "rating": 426,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>If you want to permanently undo it and you have cloned some repository.</p><p>The commit id can be seen by:</p><pre><code>git log </code></pre><p>Then you can do like:</p><pre><code>git reset --hard &lt;commit_id&gt;git push origin &lt;branch_name&gt; -f</code></pre>",
+      "content": "<p>If you want to permanently undo it and you have cloned some repository.</p> <p>The commit id can be seen by:</p> <pre><code>git log </code></pre> <p>Then you can do like:</p> <pre><code>git reset --hard &lt;commit_id&gt; git push origin &lt;branch_name&gt; -f </code></pre>",
       "edited": "2021-04-10 09:04:56Z",
       "editor": {
         "avatar": null,
@@ -1322,11 +1368,11 @@
           "date": "2017-09-27 23:30:18Z",
           "user": "Jaime Montoya",
           "user_link": "https://stackoverflow.com/users/4242086/jaime-montoya",
-          "reputation": 7551
+          "reputation": 7691
         },
         {
           "id": 79895034,
-          "score": 7,
+          "score": 8,
           "content": "@JaimeMontoya To undo latest changes you can use <code>git reset --hard</code> , but if you have to hard remove last &quot;n&quot; commits you specify a SHA",
           "date": "2017-09-28 13:10:31Z",
           "user": "poorva",
@@ -1346,10 +1392,10 @@
     },
     {
       "id": 25638420,
-      "rating": 415,
+      "rating": 416,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>If you have committed junk but not pushed,</p><pre><code>git reset --soft HEAD~1</code></pre><blockquote>  <p><strong>HEAD~1</strong> is a shorthand for the commit before head. Alternatively you can refer to the <strong>SHA-1</strong> of the hash if you want to reset to. <em>--soft</em> option will delete the commit but it will leave all your changed files \"Changes to be committed\", as git status would put it.</p>    <p>If you want to get rid of any changes to tracked files in the working tree since the commit before head use \"<strong>--hard</strong>\" instead.</p></blockquote><p>OR</p><blockquote>  <p>If you already pushed and someone pulled which is usually my case, you can't use <em>git reset</em>. You can however do a <em>git revert</em>,</p></blockquote><pre><code>git revert HEAD</code></pre><blockquote>  <p>This will create a new commit that reverses everything introduced by the accidental commit.</p></blockquote>",
+      "content": "<p>If you have committed junk but not pushed,</p> <pre><code>git reset --soft HEAD~1 </code></pre> <blockquote> <p><strong>HEAD~1</strong> is a shorthand for the commit before head. Alternatively you can refer to the <strong>SHA-1</strong> of the hash if you want to reset to. <em>--soft</em> option will delete the commit but it will leave all your changed files \"Changes to be committed\", as git status would put it.</p> <p>If you want to get rid of any changes to tracked files in the working tree since the commit before head use \"<strong>--hard</strong>\" instead.</p> </blockquote> <p>OR</p> <blockquote> <p>If you already pushed and someone pulled which is usually my case, you can't use <em>git reset</em>. You can however do a <em>git revert</em>,</p> </blockquote> <pre><code>git revert HEAD </code></pre> <blockquote> <p>This will create a new commit that reverses everything introduced by the accidental commit.</p> </blockquote>",
       "edited": "2014-09-25 07:58:25Z",
       "editor": {
         "avatar": null,
@@ -1378,16 +1424,16 @@
           "date": "2014-12-07 00:38:49Z",
           "user": "ccpizza",
           "user_link": "https://stackoverflow.com/users/191246/ccpizza",
-          "reputation": 31168
+          "reputation": 31558
         }
       ]
     },
     {
       "id": 17362437,
-      "rating": 357,
+      "rating": 358,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>On <a href=\"https://www.atlassian.com/software/sourcetree/overview\">SourceTree</a> (GUI for GitHub), you may right-click the commit and do a 'Reverse Commit'. This should undo your changes.</p><p>On the terminal:</p><p>You may alternatively use:</p><pre><code>git revert</code></pre><p>Or:</p><pre class=\"lang-bash prettyprint-override\"><code>git reset --soft HEAD^ # Use --soft if you want to keep your changes.git reset --hard HEAD^ # Use --hard if you don't care about keeping your changes.</code></pre>",
+      "content": "<p>On <a href=\"https://www.atlassian.com/software/sourcetree/overview\">SourceTree</a> (GUI for GitHub), you may right-click the commit and do a 'Reverse Commit'. This should undo your changes.</p> <p>On the terminal:</p> <p>You may alternatively use:</p> <pre><code>git revert </code></pre> <p>Or:</p> <pre class=\"lang-bash prettyprint-override\"><code>git reset --soft HEAD^ # Use --soft if you want to keep your changes. git reset --hard HEAD^ # Use --hard if you don't care about keeping your changes. </code></pre>",
       "edited": "2015-06-24 09:34:11Z",
       "editor": {
         "avatar": null,
@@ -1412,10 +1458,10 @@
     },
     {
       "id": 22199804,
-      "rating": 328,
+      "rating": 329,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>A single command:</p><pre class=\"lang-bash prettyprint-override\"><code>git reset --soft 'HEAD^' </code></pre><p>It works great to undo the last local commit!</p>",
+      "content": "<p>A single command:</p> <pre class=\"lang-bash prettyprint-override\"><code>git reset --soft 'HEAD^' </code></pre> <p>It works great to undo the last local commit!</p>",
       "edited": "2014-07-21 20:13:34Z",
       "editor": {
         "avatar": null,
@@ -1444,16 +1490,16 @@
           "date": "2014-04-23 09:13:35Z",
           "user": "Ena",
           "user_link": "https://stackoverflow.com/users/957286/ena",
-          "reputation": 3601
+          "reputation": 3611
         }
       ]
     },
     {
       "id": 44672195,
-      "rating": 310,
+      "rating": 311,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Just reset it doing the command below using <code>git</code>:</p><pre><code>git reset --soft HEAD~1</code></pre><p><strong>Explain:</strong> what <code>git reset</code> does, it's basically <code>reset</code> to any commit you'd like to go back to, then if you combine it with <code>--soft</code> key, it will go back, but keep the  changes in your file(s), so you get back to the stage which the file was just added, <code>HEAD</code> is the head of the branch and if you combine with <code>~1</code> (in this case you also use <code>HEAD^</code>), it will go back only one commit which what you want...</p><p>I create the steps in the image below in more details for you, including all steps that may happens in real situations and committing the code:</p><p><a href=\"https://i.sstatic.net/7zrzb.jpg\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/7zrzb.jpg\" alt=\"How to undo the last commits in Git?\"></a></p>",
+      "content": "<p>Just reset it doing the command below using <code>git</code>:</p> <pre><code>git reset --soft HEAD~1 </code></pre> <p><strong>Explain:</strong> what <code>git reset</code> does, it's basically <code>reset</code> to any commit you'd like to go back to, then if you combine it with <code>--soft</code> key, it will go back, but keep the changes in your file(s), so you get back to the stage which the file was just added, <code>HEAD</code> is the head of the branch and if you combine with <code>~1</code> (in this case you also use <code>HEAD^</code>), it will go back only one commit which what you want...</p> <p>I create the steps in the image below in more details for you, including all steps that may happens in real situations and committing the code:</p> <p><a href=\"https://i.sstatic.net/7zrzb.jpg\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/7zrzb.jpg\" alt=\"How to undo the last commits in Git?\"></a></p>",
       "edited": "2017-10-27 12:46:34Z",
       "editor": {
         "avatar": null,
@@ -1478,10 +1524,10 @@
     },
     {
       "id": 19159566,
-      "rating": 299,
+      "rating": 300,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>&quot;Reset the working tree to the last commit&quot;</p><pre><code>git reset --hard HEAD^ </code></pre><p>&quot;Clean unknown files from the working tree&quot;</p><pre><code>git clean    </code></pre><p>see - <a href=\"https://web.archive.org/web/20210515091636/http://jonas.nitro.dk/git/quick-reference.html\" rel=\"noreferrer\">Git Quick Reference</a></p><p>NOTE: <strong>This command will delete your previous commit</strong>, so use with caution! <code>git reset --hard</code> is safer.</p>",
+      "content": "<p>&quot;Reset the working tree to the last commit&quot;</p> <pre><code>git reset --hard HEAD^ </code></pre> <p>&quot;Clean unknown files from the working tree&quot;</p> <pre><code>git clean </code></pre> <p>see - <a href=\"https://web.archive.org/web/20210515091636/http://jonas.nitro.dk/git/quick-reference.html\" rel=\"noreferrer\">Git Quick Reference</a></p> <p>NOTE: <strong>This command will delete your previous commit</strong>, so use with caution! <code>git reset --hard</code> is safer.</p>",
       "edited": "2022-02-16 15:57:24Z",
       "editor": {
         "avatar": null,
@@ -1505,67 +1551,11 @@
       "comments": []
     },
     {
-      "id": 23242764,
-      "rating": 280,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p><strong>How to undo the last Git commit?</strong></p><p>To restore everything back to the way it was prior to the last commit, we need to reset to the commit before HEAD.</p><ol><li><p>If you don't want to keep your changes that you made:</p><pre><code>git reset --hard HEAD^</code></pre></li><li><p>If you want to keep your changes:</p><pre><code>git reset --soft HEAD^</code></pre></li></ol><p>Now check your git log. It will show that our last commit has been removed.</p>",
-      "edited": "2017-03-25 08:14:01Z",
-      "editor": {
-        "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/23242764/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": []
-    },
-    {
-      "id": 20960584,
-      "rating": 229,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p>Use reflog to find a correct state</p><pre><code>git reflog</code></pre><p><img src=\"https://i.sstatic.net/c7e7D.png\" alt=\"reflog before\"><em>REFLOG BEFORE RESET</em></p><p>Select the correct reflog (f3cb6e2 in my case) and type </p><pre><code>git reset --hard f3cb6e2</code></pre><p>After that the repo HEAD will be reset to that HEADid<img src=\"https://i.sstatic.net/GdnDT.png\" alt=\"reset effect\"><em>LOG AFTER RESET</em></p><p>Finally the reflog looks like the picture below</p><p><img src=\"https://i.sstatic.net/Fhhub.png\" alt=\"reflog after\"><em>REFLOG FINAL</em></p>",
-      "edited": "",
-      "editor": {
-        "avatar": null,
-        "name": "community wiki",
-        "link": "https://stackoverflow.com/posts/20960584/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "2014-01-06 22:34:06Z",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": []
-    },
-    {
       "id": 19320941,
       "rating": 201,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>First run: </p><pre><code>git reflog</code></pre><p>It will show you all the possible actions you have performed on your repository, for example, commit, merge, pull, etc.</p><p>Then do:</p><pre><code>git reset --hard ActionIdFromRefLog</code></pre>",
+      "content": "<p>First run: </p> <pre><code>git reflog </code></pre> <p>It will show you all the possible actions you have performed on your repository, for example, commit, merge, pull, etc.</p> <p>Then do:</p> <pre><code>git reset --hard ActionIdFromRefLog </code></pre>",
       "edited": "2015-06-24 09:33:20Z",
       "editor": {
         "avatar": null,
@@ -1590,10 +1580,10 @@
     },
     {
       "id": 35826537,
-      "rating": 186,
+      "rating": 187,
       "checkmark": true,
       "bounty": 0,
-      "content": "<h2>Undo last commit:</h2><p><code>git reset --soft HEAD^</code> or <code>git reset --soft HEAD~</code></p><p>This will undo the last commit.</p><p>Here <code>--soft</code> means reset into staging.</p><p><code>HEAD~</code> or <code>HEAD^</code> means to move to commit before HEAD.</p><hr><h2>Replace last commit to new commit:</h2><pre><code>git commit --amend -m \"message\"</code></pre><p>It will replace the last commit with the new commit.</p>",
+      "content": "<h2>Undo last commit:</h2> <p><code>git reset --soft HEAD^</code> or <code>git reset --soft HEAD~</code></p> <p>This will undo the last commit.</p> <p>Here <code>--soft</code> means reset into staging.</p> <p><code>HEAD~</code> or <code>HEAD^</code> means to move to commit before HEAD.</p> <hr> <h2>Replace last commit to new commit:</h2> <pre><code>git commit --amend -m \"message\" </code></pre> <p>It will replace the last commit with the new commit.</p>",
       "edited": "2017-12-13 22:05:20Z",
       "editor": {
         "avatar": null,
@@ -1621,7 +1611,7 @@
       "rating": 184,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Another way:</p><p>Checkout the branch you want to revert, then reset your local working copy back to the commit that you want to be the latest one on the remote server (everything after it will go bye-bye). To do this, in SourceTree I right-clicked on the and selected \"Reset BRANCHNAME to this commit\".</p><p>Then navigate to your repository's local directory and run this command:</p><pre><code>git -c diff.mnemonicprefix=false -c core.quotepath=false push -v -f --tags REPOSITORY_NAME BRANCHNAME:BRANCHNAME</code></pre><p>This will erase all commits after the current one in your local repository but only for that one branch.</p>",
+      "content": "<p>Another way:</p> <p>Checkout the branch you want to revert, then reset your local working copy back to the commit that you want to be the latest one on the remote server (everything after it will go bye-bye). To do this, in SourceTree I right-clicked on the and selected \"Reset BRANCHNAME to this commit\".</p> <p>Then navigate to your repository's local directory and run this command:</p> <pre><code>git -c diff.mnemonicprefix=false -c core.quotepath=false push -v -f --tags REPOSITORY_NAME BRANCHNAME:BRANCHNAME </code></pre> <p>This will erase all commits after the current one in your local repository but only for that one branch.</p>",
       "edited": "2015-06-24 09:34:21Z",
       "editor": {
         "avatar": null,
@@ -1646,10 +1636,10 @@
     },
     {
       "id": 16565962,
-      "rating": 172,
+      "rating": 173,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Type <code>git log</code> and find the last commit hash code and then enter:</p><pre><code>git reset &lt;the previous co&gt;</code></pre>",
+      "content": "<p>Type <code>git log</code> and find the last commit hash code and then enter:</p> <pre><code>git reset &lt;the previous co&gt; </code></pre>",
       "edited": "2015-06-24 09:34:18Z",
       "editor": {
         "avatar": null,
@@ -1677,7 +1667,7 @@
       "rating": 168,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>In my case I accidentally committed some files I did not want to. So I did the following and it worked:</p><pre><code>git reset --soft HEAD^git rm --cached [files you do not need]git add [files you need]git commit -c ORIG_HEAD</code></pre><p>Verify the results with gitk or git log --stat</p>",
+      "content": "<p>In my case I accidentally committed some files I did not want to. So I did the following and it worked:</p> <pre><code>git reset --soft HEAD^ git rm --cached [files you do not need] git add [files you need] git commit -c ORIG_HEAD </code></pre> <p>Verify the results with gitk or git log --stat</p>",
       "edited": "2015-06-24 09:34:09Z",
       "editor": {
         "avatar": null,
@@ -1705,7 +1695,7 @@
       "rating": 166,
       "checkmark": true,
       "bounty": 0,
-      "content": "<h2>WHAT TO USE, <code>reset --soft</code> or <code>reset --hard</code>?</h2><p>I am just adding two cents for @Kyralessa's answer:</p><p>If you are unsure what to use go for <code>--soft</code> (I used this convention to remember it --<strong>s</strong>oft for safe).</p><h3>Why?</h3><p>If you choose <code>--hard</code> by mistake you will <strong>LOSE</strong> your changes as it wasn't before.If you choose <code>--soft</code> by mistake you can achieve the same results of <code>--hard</code> by applying additional commands</p><pre><code>git reset HEAD file.htmlgit checkout -- file.html</code></pre><h3>Full example</h3><pre><code>echo &quot;some changes...&quot; &gt; file.htmlgit add file.htmlgit commit -m &quot;wrong commit&quot;# I need to resetgit reset --hard HEAD~1 (cancel changes)# ORgit reset --soft HEAD~1 # Back to staginggit reset HEAD file.html # back to working directorygit checkout -- file.html # cancel changes</code></pre><p>Credits goes to @Kyralessa.</p>",
+      "content": "<h2>WHAT TO USE, <code>reset --soft</code> or <code>reset --hard</code>?</h2> <p>I am just adding two cents for @Kyralessa's answer:</p> <p>If you are unsure what to use go for <code>--soft</code> (I used this convention to remember it --<strong>s</strong>oft for safe).</p> <h3>Why?</h3> <p>If you choose <code>--hard</code> by mistake you will <strong>LOSE</strong> your changes as it wasn't before. If you choose <code>--soft</code> by mistake you can achieve the same results of <code>--hard</code> by applying additional commands</p> <pre><code>git reset HEAD file.html git checkout -- file.html </code></pre> <h3>Full example</h3> <pre><code>echo &quot;some changes...&quot; &gt; file.html git add file.html git commit -m &quot;wrong commit&quot; # I need to reset git reset --hard HEAD~1 (cancel changes) # OR git reset --soft HEAD~1 # Back to staging git reset HEAD file.html # back to working directory git checkout -- file.html # cancel changes </code></pre> <p>Credits goes to @Kyralessa.</p>",
       "edited": "2022-07-08 08:17:48Z",
       "editor": {
         "avatar": null,
@@ -1734,7 +1724,7 @@
           "date": "2016-12-15 16:29:21Z",
           "user": "Eugen Konkov",
           "user_link": "https://stackoverflow.com/users/4632019/eugen-konkov",
-          "reputation": 24693
+          "reputation": 25021
         },
         {
           "id": 79277392,
@@ -1752,7 +1742,7 @@
       "rating": 162,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Simple, run this in your command line:</p><pre><code>git reset --soft HEAD~ </code></pre>",
+      "content": "<p>Simple, run this in your command line:</p> <pre><code>git reset --soft HEAD~ </code></pre>",
       "edited": "2016-01-18 21:58:33Z",
       "editor": {
         "avatar": null,
@@ -1780,7 +1770,7 @@
       "rating": 155,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>There are many ways to do it:</p><p>Git command to undo the last commit/ previous commits:</p><p><strong>Warning:</strong> Do Not use --hard if you do not know what you are doing.--hard is too <strong>dangerous</strong>, and it might <strong>delete your files.</strong></p><p><strong>Basic command to revert the commit in Git is:</strong></p><pre><code>$ git reset --hard &lt;COMMIT -ID&gt;</code></pre><p>or</p><pre><code>$ git reset --hard HEAD~&lt;n&gt;</code></pre><p><strong>COMMIT-ID</strong>: ID for the commit</p><p><strong>n:</strong>  is the number of last commits you want to revert</p><p>You can get the commit id as shown below:</p><pre><code>$ **git log --oneline**d81d3f1 function to subtract two numbersbe20eb8 function to add two numbersbedgfgg function to multiply two numbers</code></pre><p>where <strong>d81d3f1</strong> and <strong>be20eb8</strong> are commit id.</p><p><strong>Now, let's see some cases:</strong></p><p><em>Suppose you want to revert the last commit 'd81d3f1'.  Here are two options:</em></p><pre><code>$ git reset --hard d81d3f1</code></pre><p>or</p><pre><code>$ git reset --hard HEAD~1</code></pre><p><em>Suppose you want to revert the commit 'be20eb8':</em></p><pre><code>$ git reset --hard be20eb8</code></pre><p>For more detailed information, you can refer to and try out some other commands too for resetting the head to a specified state:</p><pre><code>$ git reset --help</code></pre>",
+      "content": "<p>There are many ways to do it:</p> <p>Git command to undo the last commit/ previous commits:</p> <p><strong>Warning:</strong> Do Not use --hard if you do not know what you are doing. --hard is too <strong>dangerous</strong>, and it might <strong>delete your files.</strong></p> <p><strong>Basic command to revert the commit in Git is:</strong></p> <pre><code>$ git reset --hard &lt;COMMIT -ID&gt; </code></pre> <p>or</p> <pre><code>$ git reset --hard HEAD~&lt;n&gt; </code></pre> <p><strong>COMMIT-ID</strong>: ID for the commit</p> <p><strong>n:</strong> is the number of last commits you want to revert</p> <p>You can get the commit id as shown below:</p> <pre><code>$ **git log --oneline** d81d3f1 function to subtract two numbers be20eb8 function to add two numbers bedgfgg function to multiply two numbers </code></pre> <p>where <strong>d81d3f1</strong> and <strong>be20eb8</strong> are commit id.</p> <p><strong>Now, let's see some cases:</strong></p> <p><em>Suppose you want to revert the last commit 'd81d3f1'. Here are two options:</em></p> <pre><code>$ git reset --hard d81d3f1 </code></pre> <p>or</p> <pre><code>$ git reset --hard HEAD~1 </code></pre> <p><em>Suppose you want to revert the commit 'be20eb8':</em></p> <pre><code>$ git reset --hard be20eb8 </code></pre> <p>For more detailed information, you can refer to and try out some other commands too for resetting the head to a specified state:</p> <pre><code>$ git reset --help </code></pre>",
       "edited": "2022-07-30 16:06:03Z",
       "editor": {
         "avatar": null,
@@ -1809,7 +1799,7 @@
           "date": "2017-03-21 12:09:47Z",
           "user": "Arnis Juraga",
           "user_link": "https://stackoverflow.com/users/1720476/arnis-juraga",
-          "reputation": 1036
+          "reputation": 1045
         },
         {
           "id": 74227215,
@@ -1818,7 +1808,7 @@
           "date": "2017-04-24 13:07:03Z",
           "user": "Benny",
           "user_link": "https://stackoverflow.com/users/3621912/benny",
-          "reputation": 2321
+          "reputation": 2331
         },
         {
           "id": 90786456,
@@ -1827,7 +1817,7 @@
           "date": "2018-08-19 13:53:17Z",
           "user": "anonymous",
           "user_link": "https://stackoverflow.com/users/6710360/anonymous",
-          "reputation": 1482
+          "reputation": 1490
         }
       ]
     },
@@ -1836,7 +1826,7 @@
       "rating": 151,
       "checkmark": true,
       "bounty": 0,
-      "content": "<h3>For a local commit</h3><pre><code>git reset --soft HEAD~1</code></pre><p>or if you do not remember exactly in which commit it is, you might use</p><pre><code>git rm --cached &lt;file&gt;</code></pre><h3>For a pushed commit</h3><p>The proper way of removing files from the repository history is using <code>git filter-branch</code>. That is,</p><pre class=\"lang-bash prettyprint-override\"><code>git filter-branch --index-filter 'git rm --cached &lt;file&gt;' HEAD</code></pre><p>But I recomnend you use this command with care. Read more at <em><a href=\"https://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html\">git-filter-branch(1) Manual Page</a></em>.</p>",
+      "content": "<h3>For a local commit</h3> <pre><code>git reset --soft HEAD~1 </code></pre> <p>or if you do not remember exactly in which commit it is, you might use</p> <pre><code>git rm --cached &lt;file&gt; </code></pre> <h3>For a pushed commit</h3> <p>The proper way of removing files from the repository history is using <code>git filter-branch</code>. That is,</p> <pre class=\"lang-bash prettyprint-override\"><code>git filter-branch --index-filter 'git rm --cached &lt;file&gt;' HEAD </code></pre> <p>But I recomnend you use this command with care. Read more at <em><a href=\"https://www.kernel.org/pub/software/scm/git/docs/git-filter-branch.html\">git-filter-branch(1) Manual Page</a></em>.</p>",
       "edited": "2014-07-21 20:15:08Z",
       "editor": {
         "avatar": null,
@@ -1864,7 +1854,7 @@
       "rating": 149,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>There are two main scenarios</p><p><strong>You haven't pushed the commit yet</strong></p><p>If the problem was extra files you commited (and you don't want those on repository), you can remove them using <code>git rm</code> and then commiting with <code>--amend</code></p><pre><code>git rm &lt;pathToFile&gt;</code></pre><p>You can also remove entire directories with <code>-r</code>, or even combine with other <a href=\"http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29\">Bash</a> commands</p><pre><code>git rm -r &lt;pathToDirectory&gt;git rm $(find -name '*.class')</code></pre><p>After removing the files, you can commit, with <strong>--amend</strong> option</p><pre><code>git commit --amend -C HEAD # the -C option is to use the same commit message</code></pre><p>This will rewrite your recent local commit removing the extra files, so, these files will never be sent on push and also will be removed from your local .git repository by GC.</p><p><strong>You already pushed the commit</strong></p><p>You can apply the same solution of the other scenario and then doing <code>git push</code> with the <code>-f</code> option, but it is <strong>not recommended</strong> since it overwrites the remote history with a divergent change (it can mess your repository).</p><p>Instead, you have to do the commit without <code>--amend</code> (remember this about -amend`: That option rewrites the history on the last commit).</p>",
+      "content": "<p>There are two main scenarios</p> <p><strong>You haven't pushed the commit yet</strong></p> <p>If the problem was extra files you commited (and you don't want those on repository), you can remove them using <code>git rm</code> and then commiting with <code>--amend</code></p> <pre><code>git rm &lt;pathToFile&gt; </code></pre> <p>You can also remove entire directories with <code>-r</code>, or even combine with other <a href=\"http://en.wikipedia.org/wiki/Bash_%28Unix_shell%29\">Bash</a> commands</p> <pre><code>git rm -r &lt;pathToDirectory&gt; git rm $(find -name '*.class') </code></pre> <p>After removing the files, you can commit, with <strong>--amend</strong> option</p> <pre><code>git commit --amend -C HEAD # the -C option is to use the same commit message </code></pre> <p>This will rewrite your recent local commit removing the extra files, so, these files will never be sent on push and also will be removed from your local .git repository by GC.</p> <p><strong>You already pushed the commit</strong></p> <p>You can apply the same solution of the other scenario and then doing <code>git push</code> with the <code>-f</code> option, but it is <strong>not recommended</strong> since it overwrites the remote history with a divergent change (it can mess your repository).</p> <p>Instead, you have to do the commit without <code>--amend</code> (remember this about -amend`: That option rewrites the history on the last commit).</p>",
       "edited": "2016-01-11 23:50:47Z",
       "editor": {
         "avatar": null,
@@ -1886,89 +1876,6 @@
         "bbadge": 0
       },
       "comments": []
-    },
-    {
-      "id": 25553225,
-      "rating": 148,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p>To reset to the previous revision, permanently deleting all uncommitted changes: </p>\n\n<pre><code>git reset --hard HEAD~1\n</code></pre>",
-      "edited": "2016-09-16 07:25:01Z",
-      "editor": {
-        "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/25553225/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": [
-        {
-          "id": 42733563,
-          "score": 25,
-          "content": "Maybe you could at a note/warning that his command will throw away the commit <b>and the changes in the working directory</b> without asking any further.",
-          "date": "2014-11-24 22:35:29Z",
-          "user": "cr7pt0gr4ph7",
-          "user_link": "https://stackoverflow.com/users/455269/cr7pt0gr4ph7",
-          "reputation": 1269
-        },
-        {
-          "id": 42733703,
-          "score": 6,
-          "content": "If you happen to do this by accident, not all is lost, though. See <a href=\"http://stackoverflow.com/questions/10099258/how-can-i-recover-a-lost-commit-in-git\" title=\"how can i recover a lost commit in git\">stackoverflow.com/questions/10099258/&hellip;</a>, <a href=\"http://stackoverflow.com/questions/15479501/git-commit-lost-after-reset-hard-not-found-by-fsck-not-in-reflog\" title=\"git commit lost after reset hard not found by fsck not in reflog\">stackoverflow.com/questions/15479501/&hellip;</a> and <a href=\"http://stackoverflow.com/questions/7374069/undo-git-reset-hard/7376959\" title=\"undo git reset hard\">stackoverflow.com/questions/7374069/undo-git-reset-hard/7376959</a>.",
-          "date": "2014-11-24 22:40:57Z",
-          "user": "cr7pt0gr4ph7",
-          "user_link": "https://stackoverflow.com/users/455269/cr7pt0gr4ph7",
-          "reputation": 1269
-        },
-        {
-          "id": 46131721,
-          "score": 13,
-          "content": "Use <code>--soft</code> to keep your changes as <code>uncommitted changes</code>, <code>--hard</code> to nuke the commit completely and revert back by one. Remember to do such operations only on changes, that are not pushed yet.",
-          "date": "2015-03-09 09:11:06Z",
-          "user": "Yunus Nedim Mehel",
-          "user_link": "https://stackoverflow.com/users/936957/yunus-nedim-mehel",
-          "reputation": 12339
-        },
-        {
-          "id": 66277381,
-          "score": 0,
-          "content": "@Zaz: You are right; maybe I should have clarified that. Only files/changes that have been either added to index (/staged) or have been committed can possibly be recovered. Uncommitted, unstaged changes <i>are</i>, as you said, completely thrown away by <code>git reset --hard</code>.",
-          "date": "2016-09-13 21:17:10Z",
-          "user": "cr7pt0gr4ph7",
-          "user_link": "https://stackoverflow.com/users/455269/cr7pt0gr4ph7",
-          "reputation": 1269
-        },
-        {
-          "id": 66277535,
-          "score": 1,
-          "content": "As a sidenote: Everytime a file is staged, <code>git</code> stores its contents in its object database. The stored contents are only removed when garbage collection is executed. It is therefore possible to recover the last staged version of a file that was not currently staged when <code>git reset --hard</code> was executed (see the posts linked above for more information).",
-          "date": "2016-09-13 21:22:52Z",
-          "user": "cr7pt0gr4ph7",
-          "user_link": "https://stackoverflow.com/users/455269/cr7pt0gr4ph7",
-          "reputation": 1269
-        },
-        {
-          "id": 95561912,
-          "score": 0,
-          "content": "This is terrible advice. This doesn&#39;t just reset your remote, this deletes the actual files from the folder you are doing. This was not clear at all to me, and I thought you were saying you were simply resetting the git head, not resetting your current files to what is in the repository. If my notebooks from yesterday were not in my RAM I would have lost everything I did yesterday.",
-          "date": "2019-01-25 22:41:32Z",
-          "user": "stidmatt",
-          "user_link": "https://stackoverflow.com/users/3802697/stidmatt",
-          "reputation": 1669
-        }
-      ]
     },
     {
       "id": 18516122,
@@ -2003,7 +1910,7 @@
       "rating": 107,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>A simple step-by-step guide is as follows:</p>\n<ul>\n<li><p><strong>Destroy a commit and throw away any uncommitted changes</strong></p>\n<pre><code>git reset --hard HEAD~1\n</code></pre>\n</li>\n<li><p><strong>Undo the commit, but keep your changes</strong></p>\n<pre><code>git reset HEAD~1\n</code></pre>\n</li>\n<li><p><strong>Keep your files, and stage all changes back automatically</strong></p>\n<pre><code>git reset --soft HEAD~1\n</code></pre>\n</li>\n<li><p><strong>Resurrect a commit you destroyed</strong></p>\n<pre><code>git reflog # To find the sh\n</code></pre>\n</li>\n</ul>",
+      "content": "<p>A simple step-by-step guide is as follows:</p> <ul> <li><p><strong>Destroy a commit and throw away any uncommitted changes</strong></p> <pre><code>git reset --hard HEAD~1 </code></pre> </li> <li><p><strong>Undo the commit, but keep your changes</strong></p> <pre><code>git reset HEAD~1 </code></pre> </li> <li><p><strong>Keep your files, and stage all changes back automatically</strong></p> <pre><code>git reset --soft HEAD~1 </code></pre> </li> <li><p><strong>Resurrect a commit you destroyed</strong></p> <pre><code>git reflog # To find the sh </code></pre> </li> </ul>",
       "edited": "2023-03-30 11:38:42Z",
       "editor": {
         "avatar": null,
@@ -2032,7 +1939,7 @@
           "date": "2023-03-30 11:40:15Z",
           "user": "Peter Mortensen",
           "user_link": "https://stackoverflow.com/users/63550/peter-mortensen",
-          "reputation": 31600
+          "reputation": 31570
         },
         {
           "id": 135528130,
@@ -2041,13 +1948,13 @@
           "date": "2023-08-10 16:34:34Z",
           "user": "mirekphd",
           "user_link": "https://stackoverflow.com/users/9962007/mirekphd",
-          "reputation": 6368
+          "reputation": 6643
         }
       ]
     },
     {
       "id": 40672892,
-      "rating": 102,
+      "rating": 103,
       "checkmark": true,
       "bounty": 0,
       "content": "<p>Think we have <strong><em>code.txt</em></strong> file.\nWe make some changes on it and commit.\n<strong>We can undo this commit in three ways</strong>, but first you should know what is the staged file...\nAn staged file is a file that ready to commit and if you run <code>git status</code> this file will be shown with green color and if this is not staged for commit will be shown with red color:</p>\n\n<p><a href=\"https://i.sstatic.net/ymNKl.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/ymNKl.png\" alt=\"enter image description here\"></a></p>\n\n<p>It means if you commit your change, your changes on this file is not saved.\nYou can add this file in your stage with <code>git add code.txt</code> and then commit your change:</p>\n\n<p><a href=\"https://i.sstatic.net/36Yag.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/36Yag.png\" alt=\"enter image description here\"></a></p>\n\n<p><strong>Undo last commit:</strong></p>\n\n<ol>\n<li><p>Now if we want to just undo commit without any other changes, we can use</p>\n\n<p><code>git reset --soft HEAD^</code> </p>\n\n<p><a href=\"https://i.sstatic.net/Tx6x1.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/Tx6x1.png\" alt=\"enter image description here\"></a></p></li>\n<li><p>If we want to undo commit and its changes (<strong><em>THIS IS DANGEROUS, because your change will lost</em></strong>), we can use</p>\n\n<p><code>git reset --hard HEAD^</code></p>\n\n<p><a href=\"https://i.sstatic.net/8NDBS.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/8NDBS.png\" alt=\"enter image description here\"></a></p></li>\n<li><p>And if we want to undo commit and remove changes from stage, we can use</p>\n\n<p><code>git reset --mixed HEAD^</code> or in a short form <code>git reset HEAD^</code></p>\n\n<p><a href=\"https://i.sstatic.net/jg8g0.png\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/jg8g0.png\" alt=\"enter image description here\"></a></p></li>\n</ol>",
@@ -2127,26 +2034,7 @@
         "sbadge": 0,
         "bbadge": 0
       },
-      "comments": [
-        {
-          "id": 123683758,
-          "score": 13,
-          "content": "The right answer without the git tutorial.",
-          "date": "2021-11-15 00:31:34Z",
-          "user": "Ringo",
-          "user_link": "https://stackoverflow.com/users/133972/ringo",
-          "reputation": 5423
-        },
-        {
-          "id": 123828578,
-          "score": 2,
-          "content": "Simple and worked for me. I reset my password, logged in, hunted for this answer in the list since it was not in the same order, and voted you up.",
-          "date": "2021-11-20 20:31:17Z",
-          "user": "Brent Woodruff",
-          "user_link": "https://stackoverflow.com/users/4068174/brent-woodruff",
-          "reputation": 81
-        }
-      ]
+      "comments": []
     },
     {
       "id": 38091882,
@@ -2210,7 +2098,7 @@
           "date": "2018-01-28 21:36:56Z",
           "user": "Peter Mortensen",
           "user_link": "https://stackoverflow.com/users/63550/peter-mortensen",
-          "reputation": 31600
+          "reputation": 31570
         },
         {
           "id": 87381551,
@@ -2397,7 +2285,7 @@
           "date": "2016-12-15 16:25:41Z",
           "user": "Eugen Konkov",
           "user_link": "https://stackoverflow.com/users/4632019/eugen-konkov",
-          "reputation": 24693
+          "reputation": 25021
         },
         {
           "id": 128761176,
@@ -2444,7 +2332,7 @@
           "date": "2019-05-06 20:36:37Z",
           "user": "AeroHil",
           "user_link": "https://stackoverflow.com/users/6718485/aerohil",
-          "reputation": 945
+          "reputation": 965
         }
       ]
     },
@@ -2519,7 +2407,7 @@
           "date": "2021-03-11 16:29:35Z",
           "user": "Maf",
           "user_link": "https://stackoverflow.com/users/10364693/maf",
-          "reputation": 718
+          "reputation": 728
         }
       ]
     },
@@ -2557,7 +2445,7 @@
           "date": "2018-10-30 19:18:27Z",
           "user": "Chaitanya Bapat",
           "user_link": "https://stackoverflow.com/users/5157515/chaitanya-bapat",
-          "reputation": 3911
+          "reputation": 4009
         }
       ]
     },
@@ -2745,7 +2633,7 @@
           "date": "2021-03-11 16:23:35Z",
           "user": "Maf",
           "user_link": "https://stackoverflow.com/users/10364693/maf",
-          "reputation": 718
+          "reputation": 728
         }
       ]
     },
@@ -2811,65 +2699,9 @@
           "date": "2021-03-11 16:37:26Z",
           "user": "Maf",
           "user_link": "https://stackoverflow.com/users/10364693/maf",
-          "reputation": 718
+          "reputation": 728
         }
       ]
-    },
-    {
-      "id": 77741847,
-      "rating": 34,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p>To undo the most recent local commits in Git, you have a couple of options depending on what you want to do:</p>\n<p>Soft Reset: If you want to keep the changes from the commits but just undo the commit itself, you can use a soft reset. This will move the HEAD pointer to a previous commit without altering the working directory or staging area.</p>\n<pre><code>git reset --soft HEAD~1\n</code></pre>\n<p>This command will remove the most recent commit from the branch but keep the changes from that commit in the staging area. You can then make further modifications or commit again.</p>\n<p>Mixed Reset: If you want to undo the commit and also unstage the changes (but keep them in your working directory), you can use a mixed reset.</p>\n<p>bash</p>\n<pre><code>git reset --hard HEAD~1\n</code></pre>\n<p>Caution: Using <code>git reset --hard</code> will remove all changes made in the most recent commit irreversibly. Be sure that you want to discard these changes before using this command.</p>\n<p>Remember to replace <code>HEAD~1</code> with the number of commits you want to undo if it's more than one. Also, be cautious when using reset commands, especially <code>--hard</code>, as it can discard changes irreversibly.</p>",
-      "edited": "2024-01-03 09:50:38Z",
-      "editor": {
-        "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/77741847/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": []
-    },
-    {
-      "id": 41350510,
-      "rating": 33,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p>Use this command:</p>\n\n<pre><code>git checkout -b old-state number_commit\n</code></pre>",
-      "edited": "2017-03-25 09:24:02Z",
-      "editor": {
-        "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/41350510/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": []
     },
     {
       "id": 55096873,
@@ -3516,6 +3348,44 @@
       "comments": []
     },
     {
+      "id": 77492155,
+      "rating": 18,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Use the following command to reset the repository to a specific commit. Replace n with the number of commits you want to undo. For example, to undo the last 1 commits, you would use:</p>\n<pre><code>git reset --hard HEAD~1\n</code></pre>\n<p>Use the following command to reset the repository to a specific commit. Replace n with the number of commits you want to undo. For example, to undo the last 3 commits, you would use:</p>\n<pre><code>git reset --hard HEAD~3\n</code></pre>\n<p>Alternatively, you can use the commit hash of the commit to which you want to reset:</p>\n<pre><code>git reset --hard &lt;commit-hash&gt;\n</code></pre>",
+      "edited": "2024-04-24 17:03:12Z",
+      "editor": {
+        "avatar": null,
+        "name": "",
+        "link": "https://stackoverflow.com/posts/77492155/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": [
+        {
+          "id": 136673277,
+          "score": 4,
+          "content": "Can you please at least mention <code>--soft</code> as a less destructive option?",
+          "date": "2023-11-21 19:23:25Z",
+          "user": "Paul Wostenberg",
+          "user_link": "https://stackoverflow.com/users/1090736/paul-wostenberg",
+          "reputation": 449
+        }
+      ]
+    },
+    {
       "id": 44347830,
       "rating": 17,
       "checkmark": true,
@@ -3570,44 +3440,6 @@
         "bbadge": 0
       },
       "comments": []
-    },
-    {
-      "id": 77492155,
-      "rating": 17,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p>Use the following command to reset the repository to a specific commit. Replace n with the number of commits you want to undo. For example, to undo the last 1 commits, you would use:</p>\n<pre><code>git reset --hard HEAD~1\n</code></pre>\n<p>Use the following command to reset the repository to a specific commit. Replace n with the number of commits you want to undo. For example, to undo the last 3 commits, you would use:</p>\n<pre><code>git reset --hard HEAD~3\n</code></pre>\n<p>Alternatively, you can use the commit hash of the commit to which you want to reset:</p>\n<pre><code>git reset --hard &lt;commit-hash&gt;\n</code></pre>",
-      "edited": "2024-04-24 17:03:12Z",
-      "editor": {
-        "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/77492155/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": [
-        {
-          "id": 136673277,
-          "score": 3,
-          "content": "Can you please at least mention <code>--soft</code> as a less destructive option?",
-          "date": "2023-11-21 19:23:25Z",
-          "user": "Paul Wostenberg",
-          "user_link": "https://stackoverflow.com/users/1090736/paul-wostenberg",
-          "reputation": 449
-        }
-      ]
     },
     {
       "id": 49882301,
@@ -3778,46 +3610,8 @@
       "comments": []
     },
     {
-      "id": 53254732,
-      "rating": 12,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p>Get last commit ID by using this command (in the log one on the top it is the latest one):</p>\n\n<pre><code>git log\n</code></pre>\n\n<p>Get the commit id (GUID) and run this command:</p>\n\n<pre><code>git revert &lt;commit_id&gt;\n</code></pre>",
-      "edited": "2018-12-06 22:00:44Z",
-      "editor": {
-        "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/53254732/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": [
-        {
-          "id": 93699948,
-          "score": 0,
-          "content": "What is the difference with @JacoPretorius answer ?",
-          "date": "2018-11-21 13:05:23Z",
-          "user": "R&#xE9;mi P",
-          "user_link": "https://stackoverflow.com/users/3711574/r%c3%a9mi-p",
-          "reputation": 440
-        }
-      ]
-    },
-    {
       "id": 52537837,
-      "rating": 11,
+      "rating": 12,
       "checkmark": true,
       "bounty": 0,
       "content": "<h3>How to <em>edit</em> an earlier commit</h3>\n\n<p>Generally I don't want to undo a bunch of commits, but rather edit an earlier commit to how I wish I had committed it in the first place.</p>\n\n<p>I found myself fixing a past commit frequently enough that I wrote a script for it.</p>\n\n<p>Here's the workflow:</p>\n\n<ol>\n<li><pre><code>git commit-edit &lt;commit-hash&gt;\n</code></pre>\n\n<p>This will drop you at the commit you want to edit.</p>\n\n<p>The changes of the commit will be <strong>un</strong>staged, ready to be staged as you wish it was the first time.</p></li>\n<li><p>Fix and stage the commit as you wish it had been in the first place.</p>\n\n<p>(You may want to use <code>git stash save --keep-index</code> to squirrel away any files you're not committing)</p></li>\n<li><p>Redo the commit with <code>--amend</code>, eg:</p>\n\n<pre><code>git commit --amend\n</code></pre></li>\n<li><p>Complete the rebase:</p>\n\n<pre><code>git rebase --continue\n</code></pre></li>\n</ol>\n\n<hr>\n\n<p>Call this following <code>git-commit-edit</code> and put it in your <code>$PATH</code>:</p>\n\n\n\n<pre class=\"lang-bash prettyprint-override\"><code>#!/bin/bash\n\n# Do an automatic git rebase --interactive, editing the specified commit\n# Revert the index and working tree to the point before the commit was staged\n# https://stackoverflow.com/a/52324605/5353461\n\nset -euo pipefail\n\nscript_name=${0##*/}\n\nwarn () { printf '%s: %s\\n' \"$script_name\" \"$*\" &gt;&amp;2; }\ndie () { warn \"$@\"; exit 1; }\n\n[[ $# -ge 2 ]] &amp;&amp; die \"Expected single commit to edit. Defaults to HEAD~\"\n\n# Default to editing the parent of the most recent commit\n# The most recent commit can be edited with `git commit --amend`\ncommit=$(git rev-parse --short \"${1:-HEAD~}\")\n\n# Be able to show what commit we're editing to the user\nif git config --get alias.print-commit-1 &amp;&gt;/dev/null; then\n  message=$(git print-commit-1 \"$commit\")\nelse\n  message=$(git log -1 --format='%h %s' \"$commit\")\nfi\n\nif [[ $OSTYPE =~ ^darwin ]]; then\n  sed_inplace=(sed -Ei \"\")\nelse\n  sed_inplace=(sed -Ei)\nfi\n\nexport GIT_SEQUENCE_EDITOR=\"${sed_inplace[*]} \"' \"s/^pick ('\"$commit\"' .*)/edit \\\\1/\"'\ngit rebase --quiet --interactive --autostash --autosquash \"$commit\"~\ngit reset --quiet @~ \"$(git rev-parse --show-toplevel)\"  # Reset the cache of the toplevel directory to the previous commit\ngit commit --quiet --amend --no-edit --allow-empty  #  Commit an empty commit so that that cache diffs are un-reversed\n\necho\necho \"Editing commit: $message\" &gt;&amp;2\necho\n</code></pre>",
@@ -3877,7 +3671,7 @@
           "date": "2021-03-11 16:31:16Z",
           "user": "Maf",
           "user_link": "https://stackoverflow.com/users/10364693/maf",
-          "reputation": 718
+          "reputation": 728
         }
       ]
     },
@@ -3908,44 +3702,6 @@
         "bbadge": 0
       },
       "comments": []
-    },
-    {
-      "id": 52150606,
-      "rating": 10,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<pre><code>git revert commit\n</code></pre>\n\n<p>This will generate the opposite changes from the commit which you want to revert back, and then just commit that changes. I think this is the simplest way.</p>\n\n<p><a href=\"https://git-scm.com/docs/git-revert\" rel=\"noreferrer\">https://git-scm.com/docs/git-revert</a></p>",
-      "edited": "2018-09-26 10:33:27Z",
-      "editor": {
-        "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/52150606/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": [
-        {
-          "id": 139335537,
-          "score": 0,
-          "content": "<code>fatal: bad revision &#39;commit&#39;</code>",
-          "date": "2024-09-25 14:17:23Z",
-          "user": "I.sh.",
-          "user_link": "https://stackoverflow.com/users/19574650/i-sh",
-          "reputation": 1634
-        }
-      ]
     },
     {
       "id": 65533975,
@@ -3981,7 +3737,7 @@
           "date": "2021-03-11 16:38:56Z",
           "user": "Maf",
           "user_link": "https://stackoverflow.com/users/10364693/maf",
-          "reputation": 718
+          "reputation": 728
         }
       ]
     },
@@ -4019,7 +3775,7 @@
           "date": "2021-06-23 22:21:22Z",
           "user": "Peter Mortensen",
           "user_link": "https://stackoverflow.com/users/63550/peter-mortensen",
-          "reputation": 31600
+          "reputation": 31570
         },
         {
           "id": 120401636,
@@ -4028,7 +3784,7 @@
           "date": "2021-06-24 20:49:26Z",
           "user": "Kyle Delaney",
           "user_link": "https://stackoverflow.com/users/2122672/kyle-delaney",
-          "reputation": 12214
+          "reputation": 12264
         }
       ]
     },
@@ -4117,22 +3873,22 @@
       "comments": []
     },
     {
-      "id": 75584246,
-      "rating": 8,
+      "id": 78413863,
+      "rating": 7,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>If you have committed changes to Git, but have not yet pushed those changes to the remote repository, you can use the <code>git reset</code> command to undo those commits from your local repository.</p>\n<p>Here's how:</p>\n<ol>\n<li><p>Use the git log command to find the commit hash of the commit that you want to undo. The commit hash is a long string of numbers and letters that uniquely identifies the commit. You can copy the commit hash to your clipboard by highlighting it and pressing <kbd>Ctrl</kbd> + <kbd>C</kbd> on Windows or <kbd>Command</kbd> + <kbd>C</kbd> on macOS.</p>\n<pre><code>git log\ncommit 1234567890abcdefg\nAuthor: Your Name &lt;your.email@example.com&gt;\nDate:   Mon Feb 21 13:42:24 2022 -0500\n\n   Commit message goes here\n</code></pre>\n</li>\n<li><p>Use the git reset command with the <code>--hard</code> option and the commit hash that you want to reset to. This will remove all the commits after the specified commit from your local repository, including any changes made in those commits.</p>\n<pre><code>git reset --hard 1234567890abcdefg\n</code></pre>\n<p>Note that the <code>--hard</code> option will permanently delete any changes that you have made since the specified commit. If you want to keep your changes as unstaged changes in your working directory, you can use the <code>--soft</code> option instead of <code>--hard</code>.</p>\n<pre><code>git reset --soft 1234567890abcdefg\n</code></pre>\n</li>\n<li><p>After running the <code>git reset</code> command, you can use the <code>git log</code> command again to verify that the unwanted commits have been removed from your local repository.</p>\n<pre><code>$ git log\ncommit 1234567890abcdefg\nAuthor: Your Name &lt;your.email@example.com&gt;\nDate:   Mon Feb 21 13:42:24 2022 -0500\n\n    Commit message goes here\n</code></pre>\n</li>\n</ol>\n<p>If the unwanted commits are no longer in the log, you have successfully removed them from your local repository.</p>",
-      "edited": "2023-03-30 11:41:24Z",
+      "content": "<p>I'd suggest using the VSCode editor; nowadays, it's quite straightforward to undo committed or unfinished code changes, even if they were accidentally committed.\n<a href=\"https://i.sstatic.net/8vLmENTK.jpg\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/8vLmENTK.jpg\" alt=\"enter image description here\" /></a></p>",
+      "edited": "",
       "editor": {
         "avatar": null,
-        "name": "",
-        "link": "https://stackoverflow.com/posts/75584246/revisions",
+        "name": "community wiki",
+        "link": "https://stackoverflow.com/posts/78413863/revisions",
         "reputation": 0,
         "gbadge": 0,
         "sbadge": 0,
         "bbadge": 0
       },
-      "date": "",
+      "date": "2024-05-01 13:02:12Z",
       "author": {
         "avatar": null,
         "name": "",
@@ -4142,7 +3898,17 @@
         "sbadge": 0,
         "bbadge": 0
       },
-      "comments": []
+      "comments": [
+        {
+          "id": 138427640,
+          "score": 0,
+          "content": "It is VS Code the source of the problem, every time i check the differences and do some modifications something wrong happens  on push, Aaah unbelievable ! it&#39;s driving me crazy =D",
+          "date": "2024-05-23 00:34:38Z",
+          "user": "velocity",
+          "user_link": "https://stackoverflow.com/users/1529616/velocity",
+          "reputation": 2038
+        }
+      ]
     },
     {
       "id": 67842000,
@@ -4201,22 +3967,22 @@
       "comments": []
     },
     {
-      "id": 78413863,
-      "rating": 5,
+      "id": 78093988,
+      "rating": 4,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I'd suggest using the VSCode editor; nowadays, it's quite straightforward to undo committed or unfinished code changes, even if they were accidentally committed.\n<a href=\"https://i.sstatic.net/8vLmENTK.jpg\" rel=\"noreferrer\"><img src=\"https://i.sstatic.net/8vLmENTK.jpg\" alt=\"enter image description here\" /></a></p>",
+      "content": "<p>There are two way to undo most recent local commits..</p>\n<pre><code>01. git reset --hard HEAD~1\n02.git reset --hard &lt;commit-1-id&gt;\n</code></pre>\n<p>Both method can use for reset second, third ... commits as below</p>\n<pre><code>01. git reset --hard HEAD~2\n02.git reset --hard &lt;commit-2-id&gt;\n\n01. git reset --hard HEAD~3\n02.git reset --hard &lt;commit-3-id&gt;\n</code></pre>\n<p>....\n....... n so on.</p>",
       "edited": "",
       "editor": {
         "avatar": null,
         "name": "community wiki",
-        "link": "https://stackoverflow.com/posts/78413863/revisions",
+        "link": "https://stackoverflow.com/posts/78093988/revisions",
         "reputation": 0,
         "gbadge": 0,
         "sbadge": 0,
         "bbadge": 0
       },
-      "date": "2024-05-01 13:02:12Z",
+      "date": "2024-03-02 19:04:34Z",
       "author": {
         "avatar": null,
         "name": "",
@@ -4226,17 +3992,7 @@
         "sbadge": 0,
         "bbadge": 0
       },
-      "comments": [
-        {
-          "id": 138427640,
-          "score": 0,
-          "content": "It is VS Code the source of the problem, every time i check the differences and do some modifications something wrong happens  on push, Aaah unbelievable ! it&#39;s driving me crazy =D",
-          "date": "2024-05-23 00:34:38Z",
-          "user": "velocity",
-          "user_link": "https://stackoverflow.com/users/1529616/velocity",
-          "reputation": 1938
-        }
-      ]
+      "comments": []
     },
     {
       "id": 76845266,
@@ -4267,36 +4023,8 @@
       "comments": []
     },
     {
-      "id": 78093988,
-      "rating": 3,
-      "checkmark": true,
-      "bounty": 0,
-      "content": "<p>There are two way to undo most recent local commits..</p>\n<pre><code>01. git reset --hard HEAD~1\n02.git reset --hard &lt;commit-1-id&gt;\n</code></pre>\n<p>Both method can use for reset second, third ... commits as below</p>\n<pre><code>01. git reset --hard HEAD~2\n02.git reset --hard &lt;commit-2-id&gt;\n\n01. git reset --hard HEAD~3\n02.git reset --hard &lt;commit-3-id&gt;\n</code></pre>\n<p>....\n....... n so on.</p>",
-      "edited": "",
-      "editor": {
-        "avatar": null,
-        "name": "community wiki",
-        "link": "https://stackoverflow.com/posts/78093988/revisions",
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "date": "2024-03-02 19:04:34Z",
-      "author": {
-        "avatar": null,
-        "name": "",
-        "link": null,
-        "reputation": 0,
-        "gbadge": 0,
-        "sbadge": 0,
-        "bbadge": 0
-      },
-      "comments": []
-    },
-    {
       "id": 78142298,
-      "rating": 2,
+      "rating": 3,
       "checkmark": true,
       "bounty": 0,
       "content": "<p><strong>Another solution:</strong></p>\n<p>If we want to achieve with interactive mode using git rebase command:\nRun below command</p>\n<p><code>git rebase -i HEAD~2</code></p>\n<p><em>Note: Here, Number 2 indicates N last commits we want to see it on interactive prompt.</em></p>\n<p>Then interactive window will open in editor. We can edit and save file.</p>\n<pre><code>pick 31de0dc6387 First commit message\npick e98b2fc43d3 Second commit message\n# Rebase d2b363648d3..e98b2fc43d3 onto d2b363648d3 (2 commands)\n#\n# Commands:\n# p, pick &lt;commit&gt; = use commit\n# r, reword &lt;commit&gt; = use commit, but edit the commit message\n# e, edit &lt;commit&gt; = use commit, but stop for amending\n# s, squash &lt;commit&gt; = use commit, but meld into previous commit\n# f, fixup [-C | -c] &lt;commit&gt; = like &quot;squash&quot; but keep only the previous\n#                    commit's log message, unless -C is used, in which case\n#                    keep only this commit's message; -c is same as -C but\n#                    opens the editor\n# x, exec &lt;command&gt; = run command (the rest of the line) using shell\n# b, break = stop here (continue rebase later with 'git rebase --continue')\n# d, drop &lt;commit&gt; = remove commit\n# l, label &lt;label&gt; = label current HEAD with a name\n# t, reset &lt;label&gt; = reset HEAD to a label\n# m, merge [-C &lt;commit&gt; | -c &lt;commit&gt;] &lt;label&gt; [# &lt;oneline&gt;]\n</code></pre>\n<p>There are various options, we can pick only those commits which we want, We can squash all commits into single commit or modify commit messages. Also, we can change the order of commits.</p>\n<p>To undo changes we can remove the below line from editor and save file.</p>\n<p><code>pick e98b2fc43d3 Second commit message</code></p>\n<p>After removing second commit id:</p>\n<pre><code>pick 31de0dc6387 First commit message\n# Rebase d2b363648d3..e98b2fc43d3 onto d2b363648d3 (2 commands)\n#\n# Commands:\n# p, pick &lt;commit&gt; = use commit\n# r, reword &lt;commit&gt; = use commit, but edit the commit message\n# e, edit &lt;commit&gt; = use commit, but stop for amending\n# s, squash &lt;commit&gt; = use commit, but meld into previous commit\n# f, fixup [-C | -c] &lt;commit&gt; = like &quot;squash&quot; but keep only the previous\n#                    commit's log message, unless -C is used, in which case\n#                    keep only this commit's message; -c is same as -C but\n#                    opens the editor\n# x, exec &lt;command&gt; = run command (the rest of the line) using shell\n# b, break = stop here (continue rebase later with 'git rebase --continue')\n# d, drop &lt;commit&gt; = remove commit\n# l, label &lt;label&gt; = label current HEAD with a name\n# t, reset &lt;label&gt; = reset HEAD to a label\n# m, merge [-C &lt;commit&gt; | -c &lt;commit&gt;] &lt;label&gt; [# &lt;oneline&gt;]\n</code></pre>\n<p>Once you make the file change then save file and run below command</p>\n<p><code>git rebase --continue</code></p>\n<p>You can verify your changes with  <code>git log</code> command which will give you commits history.</p>\n<p>Now, you can push your changes.</p>\n<p><code>git push origin &lt;branch&gt;</code></p>",
@@ -4320,17 +4048,35 @@
         "sbadge": 0,
         "bbadge": 0
       },
-      "comments": [
-        {
-          "id": 137762614,
-          "score": 0,
-          "content": "<a href=\"https://meta.stackoverflow.com/a/285557/11107541\">meta.stackoverflow.com/a/285557/11107541</a>",
-          "date": "2024-03-11 18:21:53Z",
-          "user": "starball",
-          "user_link": "https://stackoverflow.com/users/11107541/starball",
-          "reputation": 44958
-        }
-      ]
+      "comments": []
+    },
+    {
+      "id": 79225463,
+      "rating": 2,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>Please never use this command for delete commit, **This command will remove your all changes and commit.\n**</p>\n<pre><code>git reset --hard HEAD~1\n</code></pre>\n<p><strong>If any incident your changes removed</strong>, use these steps:-\n<strong>git reflog</strong></p>\n<p>It will appear like this:\n HEAD@{1}: reset: moving to HEAD~1\n HEAD@{2}: commit: your previous commit message</p>\n<p>you can recover it using:\n<strong>git reset --hard </strong></p>\n<p><strong>OTHERWISE for back your commit Always use --soft command:-</strong></p>\n<pre><code>git reset --soft HEAD~1\n</code></pre>\n<p>or</p>\n<p>use git reset HEAD~1 // Undo the commit, but keep your changes</p>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "community wiki",
+        "link": "https://stackoverflow.com/posts/79225463/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2024-11-26 05:52:54Z",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": []
     },
     {
       "id": 78465811,
@@ -4359,6 +4105,44 @@
         "bbadge": 0
       },
       "comments": []
+    },
+    {
+      "id": 79330767,
+      "rating": -1,
+      "checkmark": true,
+      "bounty": 0,
+      "content": "<p>To undo the last commit in Git but keep the changes in your working directory, you can use the following command:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>git reset --soft HEAD~1\n</code></pre>\n<h3>Explanation:</h3>\n<ul>\n<li><strong><code>git reset</code></strong>: This command undoes commits.</li>\n<li><strong><code>--soft</code></strong>: It undoes the commit but leaves the changes staged (ready for the next commit).</li>\n<li><strong><code>HEAD~1</code></strong>: This specifies the last commit (one commit before <code>HEAD</code>).</li>\n</ul>\n<h3>If you also want to unstage the changes:</h3>\n<p>If you'd like the changes to stay in your working directory but not staged for commit, use:</p>\n<pre class=\"lang-bash prettyprint-override\"><code>git reset HEAD~1\n</code></pre>\n<h3>If you just want to keep the changes in the working directory:</h3>\n<pre class=\"lang-bash prettyprint-override\"><code>git reset --mixed HEAD~1\n</code></pre>\n<p>After running any of these commands, you can:</p>\n<ul>\n<li>Edit the changes.</li>\n<li>Recommit with <code>git commit -m &quot;new message&quot;</code>.</li>\n</ul>",
+      "edited": "",
+      "editor": {
+        "avatar": null,
+        "name": "community wiki",
+        "link": "https://stackoverflow.com/posts/79330767/revisions",
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "date": "2025-01-05 13:05:52Z",
+      "author": {
+        "avatar": null,
+        "name": "",
+        "link": null,
+        "reputation": 0,
+        "gbadge": 0,
+        "sbadge": 0,
+        "bbadge": 0
+      },
+      "comments": [
+        {
+          "id": 139893155,
+          "score": 1,
+          "content": "What is new in this answer compared to <i>all</i> answers already given here?",
+          "date": "2025-01-05 14:58:27Z",
+          "user": "Gert Arnold",
+          "user_link": "https://stackoverflow.com/users/861716/gert-arnold",
+          "reputation": 108965
+        }
+      ]
     }
   ]
 }

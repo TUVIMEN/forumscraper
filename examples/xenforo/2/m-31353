@@ -1,12 +1,14 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forums.mangadex.org/members/greenfrost.31353/?tooltip=true&_xfWithData=1&_xfToken=1721398426,1cc7ecc4bce61e936494efdd94df51e4&_xfResponseType=json",
+  "url": "https://forums.mangadex.org/members/greenfrost.31353/?tooltip=true&_xfWithData=1&_xfToken=1736169505,4c12facf685290ac117b9466ba009585&_xfResponseType=json",
   "id": 31353,
   "background": "https://forums.mangadex.org/community/profile_banners/m/31/31353.jpg",
   "location": "",
   "avatar": "https://forums.mangadex.org/community/avatars/m/31/31353.jpg",
   "title": "Dex-chan lover",
-  "banners": [],
+  "banners": [
+    "Supporter"
+  ],
   "name": "Greenfrost",
   "forum": "",
   "extras": [
@@ -16,11 +18,11 @@
     },
     {
       "key": "Messages",
-      "value": "985"
+      "value": "1,202"
     },
     {
       "key": "Reaction score",
-      "value": "608"
+      "value": "1,105"
     },
     {
       "key": "Points",

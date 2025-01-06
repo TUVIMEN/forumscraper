@@ -1,0 +1,2323 @@
+{
+  "format_version": "xenforo-2-forum",
+  "url": "https://www.se7ensins.com/forums/",
+  "categories": [
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Se7enSins Announcements",
+          "link": "https://www.se7ensins.com/forums/forums/se7ensins-announcements.36/",
+          "description": "All server, site maintenance, and important site news.",
+          "childboards": [],
+          "topics": 1200,
+          "posts": 84100,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/207/207190.jpg?1723624533",
+            "title": "End of the Year 2024 - The results are in!",
+            "link": "https://www.se7ensins.com/forums/threads/end-of-the-year-2024-the-results-are-in.1878905/post-14537701",
+            "label": "",
+            "date": "2025-01-05T22:56:00-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "The Suggestion Box",
+          "link": "https://www.se7ensins.com/forums/forums/the-suggestion-box.122/",
+          "description": "Discuss ideas you or others may have to improve Se7enSins.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Closed Suggestions",
+              "link": "https://www.se7ensins.com/forums/forums/closed-suggestions.467/"
+            }
+          ],
+          "topics": 14200,
+          "posts": 153300,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/568/568746.jpg?1672869792",
+            "title": "Bring Back the Ability to see a User's \"Status\"",
+            "link": "https://www.se7ensins.com/forums/threads/bring-back-the-ability-to-see-a-users-status.1802077/post-14537444",
+            "label": "Design",
+            "date": "2025-01-01T00:08:30-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Se7enSins Contests",
+          "link": "https://www.se7ensins.com/forums/forums/se7ensins-contests.163/",
+          "description": "Contest haven. Here's your chance to snag some brilliant prizes provided by the members for the members.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Se7ensins Prize Donations",
+              "link": "https://www.se7ensins.com/forums/forums/se7ensins-prize-donations.746/"
+            },
+            {
+              "icon": "forum",
+              "name": "Donation Archives",
+              "link": "https://www.se7ensins.com/forums/forums/donation-archives.748/"
+            }
+          ],
+          "topics": 74,
+          "posts": 386,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1289/1289284.jpg?1633661810",
+            "title": "$50 PLAYSTATION GIFT CARD GIVEAWAY",
+            "link": "https://www.se7ensins.com/forums/threads/50-playstation-gift-card-giveaway.1837320/post-14476989",
+            "label": "Digital",
+            "date": "2023-06-06T16:31:05-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Game Discussion",
+          "link": "https://www.se7ensins.com/forums/forums/game-discussion.930/",
+          "description": "Game discussion, news, and guides.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Gaming News Articles",
+              "link": "https://www.se7ensins.com/forums/forums/gaming-news-articles.972/"
+            },
+            {
+              "icon": "unread",
+              "name": "Archive",
+              "link": "https://www.se7ensins.com/categories/archive.943/"
+            },
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto V Crews",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-crews.427/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Reach Forge",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-forge.230/"
+            },
+            {
+              "icon": "forum",
+              "name": "Destiny 2 Clans",
+              "link": "https://www.se7ensins.com/forums/forums/destiny-2-clans.825/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft.236/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Servers",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-servers.265/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Party Up",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-party-up.566/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Mods",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-mods.521/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Support",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-support.266/"
+            },
+            {
+              "icon": "forum",
+              "name": "Minecraft Tutorials",
+              "link": "https://www.se7ensins.com/forums/forums/minecraft-tutorials.267/"
+            },
+            {
+              "icon": "forum",
+              "name": "World, Seed, and Resource Pack Sharing",
+              "link": "https://www.se7ensins.com/forums/forums/world-seed-and-resource-pack-sharing.522/"
+            },
+            {
+              "icon": "forum",
+              "name": "Screenshots & Videos",
+              "link": "https://www.se7ensins.com/forums/forums/screenshots-videos.311/"
+            },
+            {
+              "icon": "forum",
+              "name": "Pokémon",
+              "link": "https://www.se7ensins.com/forums/forums/pok%C3%A9mon.272/"
+            },
+            {
+              "icon": "forum",
+              "name": "Battles/Trades",
+              "link": "https://www.se7ensins.com/forums/forums/battles-trades.516/"
+            },
+            {
+              "icon": "forum",
+              "name": "Sports Center",
+              "link": "https://www.se7ensins.com/forums/forums/sports-center.735/"
+            },
+            {
+              "icon": "forum",
+              "name": "FIFA Franchise",
+              "link": "https://www.se7ensins.com/forums/forums/fifa-franchise.288/"
+            },
+            {
+              "icon": "forum",
+              "name": "FIFA Matches",
+              "link": "https://www.se7ensins.com/forums/forums/fifa-matches.547/"
+            },
+            {
+              "icon": "link",
+              "name": "FIFA Videos",
+              "link": "https://www.se7ensins.com/link-forums/fifa-videos.674/"
+            },
+            {
+              "icon": "forum",
+              "name": "AutoBuyer",
+              "link": "https://www.se7ensins.com/forums/forums/autobuyer.517/"
+            },
+            {
+              "icon": "forum",
+              "name": "NBA Franchise",
+              "link": "https://www.se7ensins.com/forums/forums/nba-franchise.500/"
+            },
+            {
+              "icon": "unread",
+              "name": "Miscellaneous Gaming",
+              "link": "https://www.se7ensins.com/forums/forums/miscellaneous-gaming.221/"
+            },
+            {
+              "icon": "unread",
+              "name": "Gaming Videos",
+              "link": "https://www.se7ensins.com/forums/forums/gaming-videos.220/"
+            },
+            {
+              "icon": "unread",
+              "name": "Miscellaneous Game Modding",
+              "link": "https://www.se7ensins.com/forums/forums/miscellaneous-game-modding.248/"
+            },
+            {
+              "icon": "forum",
+              "name": "Party Up",
+              "link": "https://www.se7ensins.com/forums/forums/party-up.632/"
+            },
+            {
+              "icon": "forum",
+              "name": "Party Up Archive",
+              "link": "https://www.se7ensins.com/forums/forums/party-up-archive.751/"
+            },
+            {
+              "icon": "forum",
+              "name": "Gaming Archive",
+              "link": "https://www.se7ensins.com/forums/forums/gaming-archive.623/"
+            }
+          ],
+          "topics": 140900,
+          "posts": 1200000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "PewDiePie's Tuber Simulator save editor (no root, easy app)",
+            "link": "https://www.se7ensins.com/forums/threads/pewdiepies-tuber-simulator-save-editor-no-root-easy-app.1569047/post-14537559",
+            "label": "Android",
+            "date": "2025-01-02T23:02:15-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Game Support",
+          "link": "https://www.se7ensins.com/forums/forums/game-support.931/",
+          "description": "",
+          "childboards": [],
+          "topics": 26200,
+          "posts": 132600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Does anyone know why I get a forever loading screen when I load into it call of duty black ops 2 ps3",
+            "link": "https://www.se7ensins.com/forums/threads/does-anyone-know-why-i-get-a-forever-loading-screen-when-i-load-into-it-call-of-duty-black-ops-2-ps3.1879095/post-14537712",
+            "label": "Question",
+            "date": "2025-01-06T04:55:56-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Glitches",
+          "link": "https://www.se7ensins.com/forums/forums/game-glitches.932/",
+          "description": "Find the latest unpatched glitches for all your games here. Have a glitch that hasn't been discovered? Post it here.",
+          "childboards": [],
+          "topics": 14400,
+          "posts": 150500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Ark switch duplication glitch",
+            "link": "https://www.se7ensins.com/forums/threads/ark-switch-duplication-glitch.1838321/post-14537301",
+            "label": "Discovery",
+            "date": "2024-12-29T06:30:05-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Boosting",
+          "link": "https://www.se7ensins.com/forums/forums/game-boosting.933/",
+          "description": "Find others that are looking to boost in your favorite game or post your own thread looking for other boosters.",
+          "childboards": [],
+          "topics": 174300,
+          "posts": 729400,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Head/Skin Drops?",
+            "link": "https://www.se7ensins.com/forums/threads/head-skin-drops.1872952/post-14537662",
+            "label": "",
+            "date": "2025-01-04T08:03:01-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Game Modding",
+          "link": "https://www.se7ensins.com/forums/forums/game-modding.934/",
+          "description": "Post your discussions, tutorials, tools, and other information regarding modifying your game files here.",
+          "childboards": [],
+          "topics": 29800,
+          "posts": 445500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/198/198802.jpg?1735447356",
+            "title": "Driver San Francisco Mod Menu for Xbox 360",
+            "link": "https://www.se7ensins.com/forums/threads/driver-san-francisco-mod-menu-for-xbox-360.1840530/post-14537588",
+            "label": "",
+            "date": "2025-01-03T08:46:01-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Modded Lobbies",
+          "link": "https://www.se7ensins.com/forums/forums/modded-lobbies.935/",
+          "description": "Modded lobbies, infections, etc. can be found here.",
+          "childboards": [],
+          "topics": 25800,
+          "posts": 653700,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/757/757465.jpg?1700623859",
+            "title": "ViewAK's Cash/Gold Drops",
+            "link": "https://www.se7ensins.com/forums/threads/viewaks-cash-gold-drops.1833458/post-14537706",
+            "label": "",
+            "date": "2025-01-06T00:22:30-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Game Modding Support",
+          "link": "https://www.se7ensins.com/forums/forums/game-modding-support.936/",
+          "description": "Need help modifying a game? Post your question here or search through our Answered support threads here to help you find your answers.",
+          "childboards": [],
+          "topics": 9600,
+          "posts": 55800,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Is it possible for anyone to permanently unlock things for me? (BO3) Xbox 360",
+            "link": "https://www.se7ensins.com/forums/threads/is-it-possible-for-anyone-to-permanently-unlock-things-for-me-bo3-xbox-360.1878838/post-14537252",
+            "label": "Support",
+            "date": "2024-12-27T17:54:33-0500",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Consoles & Platforms",
+          "link": "https://www.se7ensins.com/forums/forums/consoles-platforms.938/",
+          "description": "Find discussions, tutorials, and news for new and old consoles and platforms.",
+          "childboards": [],
+          "topics": 47400,
+          "posts": 530300,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "GFWL AchUnlocker date stamp? (Solved)",
+            "link": "https://www.se7ensins.com/forums/threads/gfwl-achunlocker-date-stamp-solved.1838112/post-14537655",
+            "label": "Support",
+            "date": "2025-01-04T02:29:22-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Consoles & Platform Support",
+          "link": "https://www.se7ensins.com/forums/forums/consoles-platform-support.939/",
+          "description": "Receive support for general questions regarding your consoles and/or platform you use to game.",
+          "childboards": [],
+          "topics": 43800,
+          "posts": 258399,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://secure.gravatar.com/avatar/0713dbfed99bec650f02818af4c644ab?s=48",
+            "title": "XBOX 360 development Environment with Win10 PC",
+            "link": "https://www.se7ensins.com/forums/threads/xbox-360-development-environment-with-win10-pc.1711249/post-14537629",
+            "label": "Solved",
+            "date": "2025-01-03T15:03:01-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Console Modding",
+          "link": "https://www.se7ensins.com/forums/forums/console-modding.940/",
+          "description": "Learn how to modify your consoles, find tools to mod your console, and news regarding the advancements of modding.",
+          "childboards": [],
+          "topics": 9700,
+          "posts": 151000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://secure.gravatar.com/avatar/0713dbfed99bec650f02818af4c644ab?s=48",
+            "title": "The Updated \"Wiki\"/Guide For The Xbox 360 XDK (Xbox Development Kit)",
+            "link": "https://www.se7ensins.com/forums/threads/the-updated-wiki-guide-for-the-xbox-360-xdk-xbox-development-kit.1807200/post-14537624",
+            "label": "Tutorial",
+            "date": "2025-01-03T14:59:54-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-question-circle",
+          "name": "Console Modding Support",
+          "link": "https://www.se7ensins.com/forums/forums/console-modding-support.941/",
+          "description": "Get help with your console or PC platforms. If you have questions about modding your console, they will go here.",
+          "childboards": [],
+          "topics": 32100,
+          "posts": 216800,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Modded Forza Horizon update incompatible",
+            "link": "https://www.se7ensins.com/forums/threads/modded-forza-horizon-update-incompatible.1879099/post-14537716",
+            "label": "Question",
+            "date": "2025-01-06T06:55:29-0500",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Grand Theft Auto VI",
+          "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-vi.1054/",
+          "description": "Discuss how you acquire money and disregard cops in Rockstar's GTA V here!",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto VI Support",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-vi-support.1057/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto VI Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-vi-glitches.1059/"
+            },
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto VI Matches",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-vi-matches.1060/"
+            },
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto VI Modding",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-vi-modding.1055/"
+            },
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto VI Modding Support",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-vi-modding-support.1056/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto VI Videos",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-vi-videos.1058/"
+            }
+          ],
+          "topics": 3,
+          "posts": 16,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Marshal truck",
+            "link": "https://www.se7ensins.com/forums/threads/marshal-truck.1879077/post-14537677",
+            "label": "Discovery",
+            "date": "2025-01-04T21:50:31-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Grand Theft Auto V",
+          "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v.832/",
+          "description": "Discuss how you acquire money and disregard cops in Rockstar's GTA V here!",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto V Roleplay",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-roleplay.1043/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto V Support",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-support.429/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto V Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-glitches.432/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto V Matches",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-matches.434/"
+            },
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto V Heists",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-heists.620/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto V Duping & Trading",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-duping-trading.627/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto V Modding",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-modding.428/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto V Modding Support",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-modding-support.624/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto V Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-modded-lobbies.464/"
+            },
+            {
+              "icon": "forum",
+              "name": "Grand Theft Auto V Videos",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-v-videos.430/"
+            },
+            {
+              "icon": "link",
+              "name": "Grand Theft Auto V Matchmaking",
+              "link": "https://www.se7ensins.com/link-forums/grand-theft-auto-v-matchmaking.860/"
+            }
+          ],
+          "topics": 63600,
+          "posts": 1700000,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "GTA - BEFF Mega Thread",
+            "link": "https://www.se7ensins.com/forums/threads/gta-beff-mega-thread.1834105/post-14537708",
+            "label": "Working",
+            "date": "2025-01-06T02:02:39-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Grand Theft Auto IV",
+          "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-iv.142/",
+          "description": "Discuss anything GTA IV, from glitches, cheats, secrets, to missions and weird findings. Find it all here in our Grand Theft Auto IV (GTA IV) forums.",
+          "childboards": [
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto IV Modding",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-iv-modding.350/"
+            },
+            {
+              "icon": "unread",
+              "name": "Grand Theft Auto IV Support",
+              "link": "https://www.se7ensins.com/forums/forums/grand-theft-auto-iv-support.362/"
+            }
+          ],
+          "topics": 18200,
+          "posts": 196800,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/757/757465.jpg?1700623859",
+            "title": "Collection of GTA V/EFLC mods",
+            "link": "https://www.se7ensins.com/forums/threads/collection-of-gta-v-eflc-mods.1851975/post-14537695",
+            "label": "Game Mods",
+            "date": "2025-01-05T17:23:06-0500",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty Series Discussion",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-series-discussion.418/",
+          "description": "Previous and Future Call of Duty discussions can be found here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-videos.864/"
+            }
+          ],
+          "topics": 3,
+          "posts": 3,
+          "views": 0,
+          "placeholder": "None",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Black Ops 6",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-6.1031/",
+          "description": "Discuss Call of Duty: Black Ops 6 here. Learn how to glitch, rank up, and anything BO6 goes here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops 6 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-6-modding.1034/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops 6 Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-6-modded-lobbies.1035/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops 6 Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-6-support.1036/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: Black Ops 6 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-6-glitches.1032/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: Black Ops 6 Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-6-boosting-matches.1033/"
+            }
+          ],
+          "topics": 53,
+          "posts": 464,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1417/1417279.jpg?1590942045",
+            "title": "Unlimited XP/Headshot Glitch on Citadelle des Morts",
+            "link": "https://www.se7ensins.com/forums/threads/unlimited-xp-headshot-glitch-on-citadelle-des-morts.1877446/post-14537539",
+            "label": "Working",
+            "date": "2025-01-02T17:32:35-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Warzone",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-warzone.1037/",
+          "description": "Discuss Call of Duty: Warzone here. Learn how to glitch, rank up, and anything Warzone goes here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Warzone Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-warzone-modding.1040/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Warzone Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-warzone-modded-lobbies.1041/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Warzone Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-warzone-support.1042/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Warzone Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-warzone-glitches.1038/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops 6 Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-6-boosting-matches.1039/"
+            }
+          ],
+          "topics": 4,
+          "posts": 5,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Under the map in Caldera Peak",
+            "link": "https://www.se7ensins.com/forums/threads/under-the-map-in-caldera-peak.1835973/post-14462208",
+            "label": "Working",
+            "date": "2022-09-06T14:34:55-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Modern Warfare III",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-modern-warfare-iii.1012/",
+          "description": "Discuss Call of Duty: Modern Warfare III here. Learn how to glitch, rank up, and anything MW2 goes here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-modding.1015/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-modded-lobbies.1016/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-support.1017/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-glitches.1013/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: MWII Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-boosting-matches.1014/"
+            }
+          ],
+          "topics": 9,
+          "posts": 82,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Anyone wanna boost w me?",
+            "link": "https://www.se7ensins.com/forums/threads/anyone-wanna-boost-w-me.1877619/post-14535717",
+            "label": "",
+            "date": "2024-12-09T08:14:03-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Vanguard",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-vanguard.1025/",
+          "description": "Discuss Call of Duty: Vanguard here. Learn how to glitch, rank up, and anything Vanguard goes here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Vanguard Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-vanguard-modding.1028/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Vanguard Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-vanguard-modded-lobbies.1029/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Vanguard Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-vanguard-support.1030/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Vanguard Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-vanguard-glitches.1026/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Vanguard Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-vanguard-boosting-matches.1027/"
+            }
+          ],
+          "topics": 107,
+          "posts": 879,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "COD VANGUARD GLITCHES *NEW* EASY TOP OF THE MAP GLITCH DESERT SIEGE ONLINE (VANGUARD GLITCHES)",
+            "link": "https://www.se7ensins.com/forums/threads/cod-vanguard-glitches-new-easy-top-of-the-map-glitch-desert-siege-online-vanguard-glitches.1832657/post-14530154",
+            "label": "Working",
+            "date": "2024-10-11T01:32:28-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Modern Warfare II (2022)",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-modern-warfare-ii-2022.956/",
+          "description": "Discuss Call of Duty: Modern Warfare 2 here. Learn how to glitch, rank up, and anything MW2 goes here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-modding.959/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-modded-lobbies.960/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-support.961/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-glitches.957/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MWII Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mwii-boosting-matches.958/"
+            }
+          ],
+          "topics": 2,
+          "posts": 11,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/889/889860.jpg?1676966225",
+            "title": "Se7enSins DMZ Squad",
+            "link": "https://www.se7ensins.com/forums/threads/se7ensins-dmz-squad.1836748/post-14469565",
+            "label": "",
+            "date": "2023-01-14T18:14:45-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Black Ops Cold War",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-cold-war.1019/",
+          "description": "Discuss Call of Duty: Black Ops Cold War here. Learn how to glitch, rank up, and anything Cold War goes here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops Cold War Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-cold-war-modding.1022/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops Cold War Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-cold-war-modded-lobbies.1023/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops Cold War Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-cold-war-support.1024/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops Cold War Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-cold-war-glitches.1020/"
+            },
+            {
+              "icon": "forum",
+              "name": "Black Ops Cold War Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/black-ops-cold-war-boosting-matches.1021/"
+            }
+          ],
+          "topics": 955,
+          "posts": 16600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "EASY BOT XP/CAMO GLITCH IN BLACK OPS COLD WAR SEASON 5 (BOCW GLITCHES)",
+            "link": "https://www.se7ensins.com/forums/threads/easy-bot-xp-camo-glitch-in-black-ops-cold-war-season-5-bocw-glitches.1831463/post-14528777",
+            "label": "Working",
+            "date": "2024-09-25T12:58:15-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Modern Warfare",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-modern-warfare.1004/",
+          "description": "Discuss Call of Duty: Modern Warfare here. Learn how to glitch, rank up, and anything MW goes here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Warzone",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-warzone.1010/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw-modding.1007/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw-modded-lobbies.1008/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw-support.1009/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw-glitches.1005/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw-boosting-matches.1006/"
+            }
+          ],
+          "topics": 2100,
+          "posts": 17900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Looking for a mod menu",
+            "link": "https://www.se7ensins.com/forums/threads/looking-for-a-mod-menu.1878981/post-14537517",
+            "label": "",
+            "date": "2025-01-02T13:57:18-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty: Mobile",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mobile.1011/",
+          "description": "Find all the newest and working tips and tricks for Call of Duty: Mobile or post the ones you find.",
+          "childboards": [],
+          "topics": 6,
+          "posts": 15,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1155/1155501.jpg?1590942045",
+            "title": "Call Of duty mobile mods",
+            "link": "https://www.se7ensins.com/forums/threads/call-of-duty-mobile-mods.1839394/post-14485148",
+            "label": "",
+            "date": "2023-08-20T09:48:25-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty Clans",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-clans.786/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Clans Archive",
+              "link": "https://www.se7ensins.com/forums/forums/clans-archive.792/"
+            }
+          ],
+          "topics": 18400,
+          "posts": 86400,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Looking to hire for a semi pro clan",
+            "link": "https://www.se7ensins.com/forums/threads/looking-to-hire-for-a-semi-pro-clan.1827411/post-14392822",
+            "label": "All",
+            "date": "2021-04-21T04:58:26-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Call of Duty Zombies",
+          "link": "https://www.se7ensins.com/forums/forums/call-of-duty-zombies.944/",
+          "description": "",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-zombies.684/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: IW Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-iw-zombies.768/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Exo Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-exo-zombies.612/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Extinction",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-extinction.450/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO4 Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo4-zombies.891/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO2 Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-zombies.388/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WaW Nazi Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-nazi-zombies.178/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-zombies.244/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WWII Zombies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii-zombies.844/"
+            }
+          ],
+          "topics": 235,
+          "posts": 1400,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Bo3 Zombies -FULL UNLOCK- Prestige 10 (PC ONLY)",
+            "link": "https://www.se7ensins.com/forums/threads/bo3-zombies-full-unlock-prestige-10-pc-only.1834683/post-14528365",
+            "label": "Game Mods",
+            "date": "2024-09-21T20:31:33-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "",
+          "name": "Other Call of Duty Titles",
+          "link": "https://www.se7ensins.com/categories/other-call-of-duty-titles.1018/",
+          "description": "Past Call of Duty titles.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Infinite Warfare",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-infinite-warfare.765/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.793/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: IW Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-iw-boosting.769/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: IW Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-iw-support.770/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: IW Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-iw-glitches.772/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: IW Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-iw-matches.773/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.867/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Advanced Warfare",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-advanced-warfare.558/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-modding.582/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Modding Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-modding-support.583/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.796/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-modded-lobbies.593/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-support.581/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-glitches.584/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-boosting.586/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: AW Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-aw-matches.585/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.869/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops 4",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-4.886/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO4 Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo4-support.888/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO4 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo4-glitches.889/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO4 Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo4-boosting.890/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.893/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WWII",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii.842/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WWII Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii-glitches.850/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WWII Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii-support.848/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WWII Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii-modded-lobbies.853/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WWII Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-wwii-boosting.845/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty: WWII Matches",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-wwii-matches.852/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.851/"
+            },
+            {
+              "icon": "link",
+              "name": "Call Of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.865/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops 3",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-3.657/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.795/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-modding.682/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Modding Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-modding-support.683/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-boosting.686/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-modded-lobbies.685/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-support.678/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-glitches.681/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO3 Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo3-matches.665/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.868/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: Black Ops 2",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops-2.364/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.798/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: BO2 Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-modded-lobbies.385/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO2 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-modding.386/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO2 Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-support.387/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO2 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-glitches.389/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO2 Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-boosting.390/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO2 Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo2-matches.395/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.871/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Black Ops",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-black-ops.218/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.800/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-modded-lobbies.250/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-modding.240/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-support.241/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-glitches.239/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: BO Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-bo-boosting-matches.330/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.873/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: Modern Warfare 2 (2009)",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-modern-warfare-2-2009.183/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: MW2 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw2-modding.197/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.801/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: MW2 Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw2-modded-lobbies.201/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: MW2 Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw2-support.212/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW2 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw2-glitches.185/"
+            },
+            {
+              "icon": "unread",
+              "name": "Call of Duty: MW2 Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw2-boosting-matches.186/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.874/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: World at War",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-world-at-war.157/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.802/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WaW Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-modding.176/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WaW Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-modded-lobbies.214/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WaW Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-support.284/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WaW Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-glitches.159/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: WaW Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-waw-boosting-matches.166/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.875/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty 4: Modern Warfare",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-4-modern-warfare.124/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty 4 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-4-modding.213/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.794/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty 4 Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-4-modded-lobbies.216/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty 4 Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-4-support.538/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty 4 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-4-glitches.126/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty 4 Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-4-matches.791/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty 4 Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-4-boosting.127/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.876/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts.415/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.797/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-modding.444/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Modding Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-modding-support.486/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-modded-lobbies.454/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-support.442/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-glitches.445/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-boosting.448/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Ghosts Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-ghosts-matches.447/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.870/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: Modern Warfare 3",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-modern-warfare-3.307/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW3 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw3-modding.319/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Clans",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-clans.799/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW3 Modded Lobbies",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw3-modded-lobbies.334/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW3 Support",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw3-support.320/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW3 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw3-glitches.321/"
+            },
+            {
+              "icon": "forum",
+              "name": "Call of Duty: MW3 Boosting & Matches",
+              "link": "https://www.se7ensins.com/forums/forums/call-of-duty-mw3-boosting-matches.322/"
+            },
+            {
+              "icon": "link",
+              "name": "Call of Duty Videos",
+              "link": "https://www.se7ensins.com/link-forums/call-of-duty-videos.872/"
+            }
+          ],
+          "topics": 89100,
+          "posts": 731200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1686/1686217.jpg?1735673667",
+            "title": "MW2 derank so i can play game again",
+            "link": "https://www.se7ensins.com/forums/threads/mw2-derank-so-i-can-play-game-again.1865797/post-14537425",
+            "label": "Question",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Halo Infinite",
+          "link": "https://www.se7ensins.com/forums/forums/halo-infinite.999/",
+          "description": "Discuss Master Chief's sixth installment.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Halo Infinite Modding",
+              "link": "https://www.se7ensins.com/forums/forums/halo-infinite-modding.1064/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Infinite Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-infinite-glitches.1003/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Infinite Matches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-infinite-matches.1002/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Infinite Support",
+              "link": "https://www.se7ensins.com/forums/forums/halo-infinite-support.1001/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Infinite Videos",
+              "link": "https://www.se7ensins.com/forums/forums/halo-infinite-videos.1000/"
+            }
+          ],
+          "topics": 9,
+          "posts": 27,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/527/527840.jpg?1662227816",
+            "title": "Echoes Within / FRACTURE",
+            "link": "https://www.se7ensins.com/forums/threads/echoes-within-fracture.1837717/post-14474147",
+            "label": "News",
+            "date": "2023-03-25T14:29:09-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Halo 5: Guardians",
+          "link": "https://www.se7ensins.com/forums/forums/halo-5-guardians.669/",
+          "description": "Discuss Master Chief's fifth installment.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Halo 5 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-5-glitches.673/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 5 Matches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-5-matches.672/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 5 Support",
+              "link": "https://www.se7ensins.com/forums/forums/halo-5-support.671/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 5 Videos",
+              "link": "https://www.se7ensins.com/forums/forums/halo-5-videos.670/"
+            }
+          ],
+          "topics": 392,
+          "posts": 2900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "I need people for get online achievements. someone?",
+            "link": "https://www.se7ensins.com/forums/threads/i-need-people-for-get-online-achievements-someone.1839720/post-14485610",
+            "label": "",
+            "date": "2023-08-23T11:14:50-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Halo 4",
+          "link": "https://www.se7ensins.com/forums/forums/halo-4.365/",
+          "description": "Discussion for Halo 4",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Halo 4 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/halo-4-modding.379/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 4 Mod Support",
+              "link": "https://www.se7ensins.com/forums/forums/halo-4-mod-support.380/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 4 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-4-glitches.381/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 4 Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/halo-4-boosting.382/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 4 Matches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-4-matches.396/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 4 Videos",
+              "link": "https://www.se7ensins.com/forums/forums/halo-4-videos.384/"
+            }
+          ],
+          "topics": 5200,
+          "posts": 64200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Post here when your specialization code has been emailed to you",
+            "link": "https://www.se7ensins.com/forums/threads/post-here-when-your-specialization-code-has-been-emailed-to-you.820140/post-14523477",
+            "label": "Discussion",
+            "date": "2024-07-31T03:00:02-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Halo Reach",
+          "link": "https://www.se7ensins.com/forums/forums/halo-reach.210/",
+          "description": "Discuss Halo Reach. Post your thoughts, ways to improve, glitches, strategies, etc.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Halo Reach Matches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-matches.333/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Reach Videos",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-videos.282/"
+            },
+            {
+              "icon": "unread",
+              "name": "Halo Reach Modding",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-modding.211/"
+            },
+            {
+              "icon": "unread",
+              "name": "Halo Reach Mod Support",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-mod-support.231/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Reach Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-glitches.229/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo Reach Boosting",
+              "link": "https://www.se7ensins.com/forums/forums/halo-reach-boosting.232/"
+            }
+          ],
+          "topics": 72,
+          "posts": 134,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/492/492987.jpg?1736050979",
+            "title": "inquiring: Lifetime subscription halo mcc",
+            "link": "https://www.se7ensins.com/forums/threads/inquiring-lifetime-subscription-halo-mcc.1858239/post-14537673",
+            "label": "",
+            "date": "2025-01-04T20:54:41-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Halo 3 & Halo 3: ODST",
+          "link": "https://www.se7ensins.com/forums/forums/halo-3-halo-3-odst.105/",
+          "description": "Find everything Halo 3 here; glitches, strategies, information and more!",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Halo 3 Boosting and Matches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-3-boosting-and-matches.130/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 3 Modding",
+              "link": "https://www.se7ensins.com/forums/forums/halo-3-modding.99/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 3 Mod Help",
+              "link": "https://www.se7ensins.com/forums/forums/halo-3-mod-help.152/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 3 Bridging",
+              "link": "https://www.se7ensins.com/forums/forums/halo-3-bridging.182/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 3 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-3-glitches.106/"
+            }
+          ],
+          "topics": 1000,
+          "posts": 4200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/947/947602.jpg?1590942045",
+            "title": "Does anyone have a copy of Halo 3 Beta Unlocker? It's 2024 and all the links are dead.",
+            "link": "https://www.se7ensins.com/forums/threads/does-anyone-have-a-copy-of-halo-3-beta-unlocker-its-2024-and-all-the-links-are-dead.1873247/post-14530293",
+            "label": "Discussion",
+            "date": "2024-10-13T12:46:30-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Halo 2",
+          "link": "https://www.se7ensins.com/forums/forums/halo-2.46/",
+          "description": "Talk about everything there is to know about Halo 2; from Halo 2 Modding, glitching, and general chat.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Halo 2 Glitches",
+              "link": "https://www.se7ensins.com/forums/forums/halo-2-glitches.58/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 2 Modding Tutorials",
+              "link": "https://www.se7ensins.com/forums/forums/halo-2-modding-tutorials.14/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 2 Mod Programs",
+              "link": "https://www.se7ensins.com/forums/forums/halo-2-mod-programs.5/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 2 Mod Downloads",
+              "link": "https://www.se7ensins.com/forums/forums/halo-2-mod-downloads.6/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 2 Mod Help",
+              "link": "https://www.se7ensins.com/forums/forums/halo-2-mod-help.9/"
+            },
+            {
+              "icon": "forum",
+              "name": "Halo 2 Vista Modding",
+              "link": "https://www.se7ensins.com/forums/forums/halo-2-vista-modding.109/"
+            }
+          ],
+          "topics": 82,
+          "posts": 694,
+          "views": 0,
+          "placeholder": "None",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Halo 1 and PC Modding",
+          "link": "https://www.se7ensins.com/forums/forums/halo-1-and-pc-modding.17/",
+          "description": "This is where you can come for Halo 1 and Halo PC mods and tutorials.",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "None",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Operating Systems",
+          "link": "https://www.se7ensins.com/forums/forums/operating-systems.492/",
+          "description": "All the news, tutorials, and discussions based around Windows, Mac OS, iOS, Linux, and Android operating systems.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Operating System Support",
+              "link": "https://www.se7ensins.com/forums/forums/operating-system-support.912/"
+            },
+            {
+              "icon": "forum",
+              "name": "Apple iOS",
+              "link": "https://www.se7ensins.com/forums/forums/apple-ios.140/"
+            },
+            {
+              "icon": "forum",
+              "name": "Android",
+              "link": "https://www.se7ensins.com/forums/forums/android.234/"
+            },
+            {
+              "icon": "forum",
+              "name": "Google Support",
+              "link": "https://www.se7ensins.com/forums/forums/google-support.296/"
+            }
+          ],
+          "topics": 15600,
+          "posts": 119700,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "How to keep your Computer Clean - The FREE way",
+            "link": "https://www.se7ensins.com/forums/threads/how-to-keep-your-computer-clean-the-free-way.3910/post-14537213",
+            "label": "Tutorial",
+            "date": "2024-12-27T01:19:40-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Computer Hardware & Builds",
+          "link": "https://www.se7ensins.com/forums/forums/computer-hardware-builds.65/",
+          "description": "Learn how to build a computer and how to pick out your hardware.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Computer Hardware Support",
+              "link": "https://www.se7ensins.com/forums/forums/computer-hardware-support.487/"
+            },
+            {
+              "icon": "forum",
+              "name": "Computer Build Support",
+              "link": "https://www.se7ensins.com/forums/forums/computer-build-support.453/"
+            },
+            {
+              "icon": "forum",
+              "name": "Computer Showoff",
+              "link": "https://www.se7ensins.com/forums/forums/computer-showoff.93/"
+            }
+          ],
+          "topics": 10200,
+          "posts": 117100,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/699/699538.jpg?1590942045",
+            "title": "Prebuild help kinda new",
+            "link": "https://www.se7ensins.com/forums/threads/prebuild-help-kinda-new.1878194/post-14536375",
+            "label": "Discussion",
+            "date": "2024-12-14T00:29:04-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Programming & Scripting",
+          "link": "https://www.se7ensins.com/forums/forums/programming-scripting.62/",
+          "description": "Learn or receive help on Visual Basic, C#, C++, etc. Great learning grounds for beginners!",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Releases",
+              "link": "https://www.se7ensins.com/forums/forums/releases.297/"
+            },
+            {
+              "icon": "unread",
+              "name": "Source Code & Tutorial Database",
+              "link": "https://www.se7ensins.com/forums/forums/source-code-tutorial-database.298/"
+            },
+            {
+              "icon": "forum",
+              "name": "Support and Debugging",
+              "link": "https://www.se7ensins.com/forums/forums/support-and-debugging.299/"
+            },
+            {
+              "icon": "forum",
+              "name": "Game Development",
+              "link": "https://www.se7ensins.com/forums/forums/game-development.532/"
+            }
+          ],
+          "topics": 6700,
+          "posts": 51200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1685/1685126.jpg?1733761326",
+            "title": "[NodeJs] UDP Console chat",
+            "link": "https://www.se7ensins.com/forums/threads/nodejs-udp-console-chat.1606856/post-14535746",
+            "label": "",
+            "date": "2024-12-09T11:27:06-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "PC Gaming Discussion",
+          "link": "https://www.se7ensins.com/forums/forums/pc-gaming-discussion.813/",
+          "description": "PC gamers unite! All PC gaming related discussions go here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "PC Gaming Mods",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-mods.814/"
+            },
+            {
+              "icon": "forum",
+              "name": "PC Gaming Party Up",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-party-up.815/"
+            },
+            {
+              "icon": "forum",
+              "name": "PC Gaming Support",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-support.816/"
+            },
+            {
+              "icon": "forum",
+              "name": "PC Gaming Support Archive",
+              "link": "https://www.se7ensins.com/forums/forums/pc-gaming-support-archive.817/"
+            }
+          ],
+          "topics": 236,
+          "posts": 1500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Looking for people to play League of Legends",
+            "link": "https://www.se7ensins.com/forums/threads/looking-for-people-to-play-league-of-legends.1789479/post-14516836",
+            "label": "",
+            "date": "2024-05-30T07:59:04-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Mobile Center",
+          "link": "https://www.se7ensins.com/forums/forums/mobile-center.496/",
+          "description": "One stop center for all your mobile device needs!",
+          "childboards": [],
+          "topics": 266,
+          "posts": 1900,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/1677/1677912.jpg?1721629957",
+            "title": "Best Tech Trends",
+            "link": "https://www.se7ensins.com/forums/threads/best-tech-trends.1879092/post-14537707",
+            "label": "Discussion",
+            "date": "2025-01-06T01:42:59-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Tech Support",
+          "link": "https://www.se7ensins.com/forums/forums/tech-support.45/",
+          "description": "Sometimes you don't know everything, get some help in here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "PC Support Archive",
+              "link": "https://www.se7ensins.com/forums/forums/pc-support-archive.556/"
+            }
+          ],
+          "topics": 9000,
+          "posts": 54200,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "2021 MacBook Pro in lost mode File recovery question",
+            "link": "https://www.se7ensins.com/forums/threads/2021-macbook-pro-in-lost-mode-file-recovery-question.1838182/post-14537169",
+            "label": "Question",
+            "date": "2024-12-26T02:58:27-0500",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Graphics",
+          "link": "https://www.se7ensins.com/forums/forums/graphics.172/",
+          "description": "Learn how to make sigs, avatars, large art, and more! Post tutorials to help others get on their way to learning how to make graphics.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Graphics Showoff",
+              "link": "https://www.se7ensins.com/forums/forums/graphics-showoff.12/"
+            },
+            {
+              "icon": "forum",
+              "name": "The Graveyard",
+              "link": "https://www.se7ensins.com/forums/forums/the-graveyard.570/"
+            },
+            {
+              "icon": "forum",
+              "name": "Graphics Requests/Pickup",
+              "link": "https://www.se7ensins.com/forums/forums/graphics-requests-pickup.7/"
+            },
+            {
+              "icon": "forum",
+              "name": "Archive",
+              "link": "https://www.se7ensins.com/forums/forums/archive.546/"
+            },
+            {
+              "icon": "forum",
+              "name": "Graphics Resources",
+              "link": "https://www.se7ensins.com/forums/forums/graphics-resources.174/"
+            }
+          ],
+          "topics": 17300,
+          "posts": 134600,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "What is the best free heic to jpg converter for Windows PC?",
+            "link": "https://www.se7ensins.com/forums/threads/what-is-the-best-free-heic-to-jpg-converter-for-windows-pc.1878785/post-14537350",
+            "label": "Discussion",
+            "date": "2024-12-30T05:41:07-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Video",
+          "link": "https://www.se7ensins.com/forums/forums/video.263/",
+          "description": "Post your editing and animation tutorials or show off your newest motion graphics.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Motion Graphics Resources",
+              "link": "https://www.se7ensins.com/forums/forums/motion-graphics-resources.264/"
+            },
+            {
+              "icon": "forum",
+              "name": "Motion Graphics Tutorials",
+              "link": "https://www.se7ensins.com/forums/forums/motion-graphics-tutorials.292/"
+            },
+            {
+              "icon": "forum",
+              "name": "Motion Graphics Request",
+              "link": "https://www.se7ensins.com/forums/forums/motion-graphics-request.305/"
+            }
+          ],
+          "topics": 3100,
+          "posts": 13500,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Skyrim's Anniversary Graphics Are BETTER Than You Think",
+            "link": "https://www.se7ensins.com/forums/threads/skyrims-anniversary-graphics-are-better-than-you-think.1875922/post-14533668",
+            "label": "Streaming / Video",
+            "date": "2024-11-17T06:17:09-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Media Support",
+          "link": "https://www.se7ensins.com/forums/forums/media-support.921/",
+          "description": "Get help for your social media graphics, video editing, and promotion!",
+          "childboards": [],
+          "topics": 63,
+          "posts": 478,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": null,
+            "title": "Spotify does not start and shows “Oops! Something went wrong” error.",
+            "link": "https://www.se7ensins.com/forums/threads/spotify-does-not-start-and-shows-%E2%80%9Coops-something-went-wrong%E2%80%9D-error.1822013/post-14525537",
+            "label": "Solved",
+            "date": "2024-08-21T06:37:44-0400",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    },
+    {
+      "name": "",
+      "link": null,
+      "forums": [
+        {
+          "icon": "fa-comments",
+          "name": "Deals",
+          "link": "https://www.se7ensins.com/forums/forums/deals.367/",
+          "description": "Post any deals to share here. (No B/S/T deals)",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Deals Archive",
+              "link": "https://www.se7ensins.com/forums/forums/deals-archive.625/"
+            }
+          ],
+          "topics": 10200,
+          "posts": 31300,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/607/607665.jpg?1590942045",
+            "title": "Epomaker Shadow-X Gasket Wired / Wireless 70% Mechanical Keyboard (White/Purple) $43 + Free Shipping@Amazon",
+            "link": "https://www.se7ensins.com/forums/threads/epomaker-shadow-x-gasket-wired-wireless-70-mechanical-keyboard-white-purple-43-free-shipping-amazon.1879000/post-14537557",
+            "label": "USA",
+            "date": "2025-01-02T21:53:54-0500",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "eBay & Amazon Listings",
+          "link": "https://www.se7ensins.com/forums/forums/ebay-amazon-listings.378/",
+          "description": "Post links to your eBay and Amazon listings here.",
+          "childboards": [
+            {
+              "icon": "forum",
+              "name": "Listings Archive",
+              "link": "https://www.se7ensins.com/forums/forums/listings-archive.470/"
+            }
+          ],
+          "topics": 1400,
+          "posts": 4100,
+          "views": 0,
+          "placeholder": "",
+          "lastpost": {
+            "avatar": "https://www.se7ensins.com/data/avatars/s/510/510664.jpg?1590942045",
+            "title": "Anyone bought from compell gaming?",
+            "link": "https://www.se7ensins.com/forums/threads/anyone-bought-from-compell-gaming.1838523/post-14479268",
+            "label": "",
+            "date": "2023-07-14T15:24:58-0400",
+            "user": "",
+            "user_link": null
+          }
+        },
+        {
+          "icon": "fa-comments",
+          "name": "Verified Services",
+          "link": "https://www.se7ensins.com/forums/forums/verified-services.883/",
+          "description": "All Se7enSins verified services will be listed within this forum",
+          "childboards": [],
+          "topics": 0,
+          "posts": 0,
+          "views": 0,
+          "placeholder": "None",
+          "lastpost": {
+            "avatar": null,
+            "title": "",
+            "link": null,
+            "label": "",
+            "date": "",
+            "user": "",
+            "user_link": null
+          }
+        }
+      ]
+    }
+  ],
+  "threads": []
+}

@@ -12,16 +12,16 @@
           "title": "Classic self-hosted technical help",
           "link": "https://invisioncommunity.com/forums/forum/524-classic-self-hosted-technical-help/",
           "description": "Problems related to your server or other classic, self-hosted edition issues.",
-          "posts": 14800,
-          "followers": 6,
+          "posts": 33500,
+          "followers": 9,
           "childboards": [],
           "lastpost": {
-            "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23a862c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ED%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-            "title": "Forum, accessing some topics result - Error: Cannot use a scalar value as an array (0)",
-            "link": "https://invisioncommunity.com/forums/topic/479631-forum-accessing-some-topics-result-error-cannot-use-a-scalar-value-as-an-array-0/",
-            "user": "Daniel Simoes",
-            "user_link": "https://invisioncommunity.com/profile/379973-daniel-simoes/",
-            "date": "2024-08-26T13:50:17Z"
+            "avatar": "https://media.invisioncic.com/a319035/monthly_2019_07/Daniel_F.thumb.png.15519243d8997e566aca8f37000b94f7.png",
+            "title": "RSVP leave Webhook",
+            "link": "https://invisioncommunity.com/forums/topic/481062-rsvp-leave-webhook/",
+            "user": "Daniel F",
+            "user_link": "https://invisioncommunity.com/profile/536345-daniel-f/",
+            "date": "2025-01-06T13:50:53Z"
           }
         }
       ]
@@ -29,292 +29,555 @@
   ],
   "threads": [
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c4b6%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EG%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2018_09/be133f983c1376010a38f17233b02040--red-boots-red-wellies.thumb.jpg.95c51085eec94e732d17bd0c2a516dcb.jpg",
       "icons": [],
-      "title": "Registration Process Questions",
-      "link": "https://invisioncommunity.com/forums/topic/479612-registration-process-questions/",
-      "date": "2024-08-24T13:37:19Z",
-      "user": "Gary Lewis",
-      "user_link": "https://invisioncommunity.com/profile/640265-gary-lewis/",
+      "title": "Problem with Email valitation",
+      "link": "https://invisioncommunity.com/forums/topic/481051-problem-with-email-valitation/",
+      "date": "2025-01-05T13:23:20Z",
+      "user": "DesmoWolf",
+      "user_link": "https://invisioncommunity.com/profile/589388-desmowolf/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 4,
-      "views": 98,
-      "snippet": "I&#039;m trying to create a registration process where to-be members actually see our guidelines before agreeing to them and then, once they&#039;ve finished the registration process they can only post in our New Members Start Here folder.  But I&#039;ve not figured out how to accomplish that. On the guidelines, the process gives them a box they can tick to say they agree, but they don&#039;t have to see the guidelines unless they click the Terms Of Use link, as shown below.  Is there a way to have the guidelines pop up each time? Second, the Login &amp; Registration page, below, says new members will be put in the Members group.  Is there a way to put them in the New Members group&hellip;",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 10,
+      "views": 64,
+      "snippet": "There was a problem with the link you followed to validate your account.",
       "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c4b6%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EG%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "Gary Lewis",
-        "user_link": "https://invisioncommunity.com/profile/640265-gary-lewis/",
-        "date": "2024-08-26T13:23:47Z"
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2018_09/be133f983c1376010a38f17233b02040--red-boots-red-wellies.thumb.jpg.95c51085eec94e732d17bd0c2a516dcb.jpg",
+        "user": "DesmoWolf",
+        "user_link": "https://invisioncommunity.com/profile/589388-desmowolf/",
+        "date": "2025-01-06T13:38:27Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23b3c462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EK%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
       "icons": [],
-      "title": "Forum, accessing some topics result - Error: Cannot use a scalar value as an array (0)",
-      "link": "https://invisioncommunity.com/forums/topic/479631-forum-accessing-some-topics-result-error-cannot-use-a-scalar-value-as-an-array-0/",
-      "date": "",
-      "user": "",
-      "user_link": null,
+      "title": "Menu not updating",
+      "link": "https://invisioncommunity.com/forums/topic/481043-menu-not-updating/",
+      "date": "2025-01-04T14:36:12Z",
+      "user": "Keith Smith_105067",
+      "user_link": "https://invisioncommunity.com/profile/566068-keith-smith_105067/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": null,
-      "replies": 0,
-      "views": 0,
-      "snippet": "",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 1,
+      "views": 45,
+      "snippet": "I am trying to update my menu and the changes I try to publish never take effect. And help would be appreciated. KS",
       "lastpost": {
-        "avatar": null,
-        "user": "",
-        "user_link": null,
-        "date": ""
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/638385011_Mark_S_nh.thumb.png.65798705098b479156d2d66176935496.png",
+        "user": "Marc",
+        "user_link": "https://invisioncommunity.com/profile/536186-marc/",
+        "date": "2025-01-06T09:37:08Z"
       }
     },
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c48d62%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EW%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23628bc4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ED%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
       "icons": [],
-      "title": "Bulk Mail does not send mail",
-      "link": "https://invisioncommunity.com/forums/topic/476942-bulk-mail-does-not-send-mail/",
-      "date": "2024-01-28T04:49:51Z",
-      "user": "WebCMS",
-      "user_link": "https://invisioncommunity.com/profile/638344-webcms/",
+      "title": "Homepage Keeps Changing",
+      "link": "https://invisioncommunity.com/forums/topic/480623-homepage-keeps-changing/",
+      "date": "2024-11-20T07:50:50Z",
+      "user": "Dominyka",
+      "user_link": "https://invisioncommunity.com/profile/582641-dominyka/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 20,
-      "views": 568,
-      "snippet": "On Bulk Mail, I checked the Member Filters (it does show some members who will receive the mail) and clicked Save. Then clicked Proceed. This I did over 6 hours ago but Bulk Mail list still shows &quot;Not Started&quot; under Sent On and Time Taken columns and &quot;0 Members&quot; under Sent To. How long does it take to send out the email? On CiC",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 5,
+      "views": 143,
+      "snippet": "Hi! As of about a month or two ago, every once a couple of weeks, my default homepage keeps resetting to a random Page (always different...). Does anyone know anything about the system behind the homepage? Any insights would be useful, because I have absolutely no idea what triggers it or what happens. The &quot;make default page for this folder&quot; mark for the page is set correctly, even when the homepage shows up as a different page... I&#039;ve had the same homepage for 5+ years with zero issues before. Anything would be helpful, thank you!",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/638385011_Mark_S_nh.thumb.png.65798705098b479156d2d66176935496.png",
+        "user": "Marc",
+        "user_link": "https://invisioncommunity.com/profile/536186-marc/",
+        "date": "2025-01-06T08:02:30Z"
+      }
+    },
+    {
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2018_09/be133f983c1376010a38f17233b02040--red-boots-red-wellies.thumb.jpg.95c51085eec94e732d17bd0c2a516dcb.jpg",
+      "icons": [],
+      "title": "Alert_cant_dismiss",
+      "link": "https://invisioncommunity.com/forums/topic/481052-alert_cant_dismiss/",
+      "date": "2025-01-05T17:42:50Z",
+      "user": "DesmoWolf",
+      "user_link": "https://invisioncommunity.com/profile/589388-desmowolf/",
+      "lastpage": 0,
+      "tags": [
+        {
+          "name": "known issue",
+          "link": "https://invisioncommunity.com/tags/known%20issue/"
+        }
+      ],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 5,
+      "views": 68,
+      "snippet": "We have the problem that alerts were sent to users from a webmaster account during maintenance work that cannot be dismissed. These alerts need to be responded to. Now the webmaster account from which the alerts were sent has since been deleted, and the user cannot dismiss the alert. How can we solve this problem? Screenshots are attached.",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/638385011_Mark_S_nh.thumb.png.65798705098b479156d2d66176935496.png",
+        "user": "Marc",
+        "user_link": "https://invisioncommunity.com/profile/536186-marc/",
+        "date": "2025-01-06T07:58:53Z"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2381c462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ER%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [],
+      "title": "Can I Migrate My Forum to a Third-Party Server with Creator Pro?",
+      "link": "https://invisioncommunity.com/forums/topic/481049-can-i-migrate-my-forum-to-a-third-party-server-with-creator-pro/",
+      "date": "2025-01-05T06:02:06Z",
+      "user": "RASEL MIAH",
+      "user_link": "https://invisioncommunity.com/profile/639786-rasel-miah/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 2,
+      "views": 77,
+      "snippet": "Hello, I&#039;m currently using the Creator Pro plan. Is it possible to migrate my forum to a third-party server that is not hosted on InvisionCommunity? If so, what steps should I follow? Thank you!",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
         "user": "Jim M",
         "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-26T12:05:56Z"
+        "date": "2025-01-05T12:57:31Z"
       }
     },
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%237d62c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ED%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2024_07/INFLUENCER.thumb.JPG.764458ba0a60e2afde17a6e62218c1cf.JPG",
       "icons": [],
-      "title": "Error 5C289/1 - The upgrader uses PHP sessions to store data, however PHP sessions are currently not",
-      "link": "https://invisioncommunity.com/forums/topic/479525-error-5c2891-the-upgrader-uses-php-sessions-to-store-data-however-php-sessions-are-currently-not/",
-      "date": "2024-08-19T08:59:01Z",
-      "user": "Danono78",
-      "user_link": "https://invisioncommunity.com/profile/375330-danono78/",
+      "title": "Pages with redirect (Google Analytics)",
+      "link": "https://invisioncommunity.com/forums/topic/480935-pages-with-redirect-google-analytics/",
+      "date": "2024-12-19T20:17:27Z",
+      "user": "RCITGuy",
+      "user_link": "https://invisioncommunity.com/profile/158111-rcitguy/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
       "replies": 4,
-      "views": 141,
-      "snippet": "I am getting this error after starting upgrade. Now i cannot access admin section , and forum display some &quot;Update in progress &quot; message and is not available. &quot;The upgrader uses PHP sessions to store data, however PHP sessions are currently not working correctly on your server. This is an issue you will need to contact your host about. Error 5C289/1&quot; My hosting provider say this eror has no connection with them.  What to do ?",
+      "views": 206,
+      "snippet": "Hi Folks I&#039;m seem to have a problem with Google Analytics showing there are 42,700 pages on our forums with redirects, and that this is a huge issue with content not being indexed. When I look into it within the Analytics, its showing forum page URL&#039;s, but with this on the end: /?do=findComment&amp;comment=281507 Over 1000 pages of these errors... How do we turn this off so that any URL that is presented with this on the end of it, doesn&#039;t work or produces a 404? Thanks",
       "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%237d62c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ED%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "Danono78",
-        "user_link": "https://invisioncommunity.com/profile/375330-danono78/",
-        "date": "2024-08-25T18:18:28Z"
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "user": "Jim M",
+        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
+        "date": "2025-01-03T15:49:53Z"
       }
     },
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23939393%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EL%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46284%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EG%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [],
+      "title": "Mobile Photos are Sideways",
+      "link": "https://invisioncommunity.com/forums/topic/479702-mobile-photos-are-sideways/",
+      "date": "2024-09-01T15:00:04Z",
+      "user": "giventoflyfish",
+      "user_link": "https://invisioncommunity.com/profile/152468-giventoflyfish/",
+      "lastpage": 3,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 61,
+      "views": 1300,
+      "snippet": "Mobile uploads from at least Android is showing up sideways in posts. I have the latest version of IP board installed, running gd, and have exif installed. What can I do to resolve this?",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/638385011_Mark_S_nh.thumb.png.65798705098b479156d2d66176935496.png",
+        "user": "Marc",
+        "user_link": "https://invisioncommunity.com/profile/536186-marc/",
+        "date": "2025-01-02T11:43:51Z"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23626fc4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EK%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [],
+      "title": "Fluid view bug",
+      "link": "https://invisioncommunity.com/forums/topic/481024-fluid-view-bug/",
+      "date": "2025-01-01T23:11:26Z",
+      "user": "Kenneth Baker",
+      "user_link": "https://invisioncommunity.com/profile/566177-kenneth-baker/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 1,
+      "views": 60,
+      "snippet": "Hello On fluid view In v4.7.19, regular members are able to see topics titles from forums they don&#039;t have access too It&#039;s just the titles, they can&#039;t read the topics themselves",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/638385011_Mark_S_nh.thumb.png.65798705098b479156d2d66176935496.png",
+        "user": "Marc",
+        "user_link": "https://invisioncommunity.com/profile/536186-marc/",
+        "date": "2025-01-02T11:31:00Z"
+      }
+    },
+    {
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2015_08/Banners.gif.158e34b9f4c0289813d3d065793c83f5.thumb.gif.5175e9dbd4244d0c8782fdf71a18caec.gif",
       "icons": [
         "check"
       ],
-      "title": "Incorrect forums and articles count after convert",
-      "link": "https://invisioncommunity.com/forums/topic/479473-incorrect-forums-and-articles-count-after-convert/",
-      "date": "2024-08-15T11:52:32Z",
-      "user": "LADR",
-      "user_link": "https://invisioncommunity.com/profile/641560-ladr/",
-      "lastpage": 0,
+      "title": "Counters not working",
+      "link": "https://invisioncommunity.com/forums/topic/477477-counters-not-working/",
+      "date": "2024-03-13T09:16:55Z",
+      "user": "Marafa",
+      "user_link": "https://invisioncommunity.com/profile/114412-marafa/",
+      "lastpage": 2,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 7,
-      "views": 183,
-      "snippet": "Hi, I&#039;ve just install a new community and import data from WordPress. It seems that all topics forum and article are here, but there is no &quot;stat&quot; about it. There is a &quot;No posts here yet&quot;, but when i click on it, of course there are. There is also a wrong count of the total replies. Is there a trick to recalculate all these stuff after an import ? I&#039;ve check tasks, but I didn&#039;t find something usefull",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 37,
+      "views": 1600,
+      "snippet": "Hi Most counters are working for example number of topic reads is not increasing after a new read Total number of members not updated after new registration",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-25T15:57:36Z"
+        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%238162c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+        "user": "Miss_B",
+        "user_link": "https://invisioncommunity.com/profile/606440-miss_b/",
+        "date": "2024-12-31T18:27:45Z"
       }
     },
     {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2022_12/DN.thumb.jpg.2b90da303c0ccb9c36fc51b77649c845.jpg",
-      "icons": [],
-      "title": "I see a topic to approve, but I can&#039;t find it?",
-      "link": "https://invisioncommunity.com/forums/topic/479467-i-see-a-topic-to-approve-but-i-cant-find-it/",
-      "date": "2024-08-15T09:59:30Z",
-      "user": "David N.",
-      "user_link": "https://invisioncommunity.com/profile/610431-david-n/",
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2024_12/Jessica_HeadShot_181.thumb.jpg.30041fa1681ff413e7d4e04b71db7909.jpg",
+      "icons": [
+        "check"
+      ],
+      "title": "A Possible Bug?",
+      "link": "https://invisioncommunity.com/forums/topic/481015-a-possible-bug/",
+      "date": "2024-12-31T18:18:15Z",
+      "user": "Code Name Jessica",
+      "user_link": "https://invisioncommunity.com/profile/642638-code-name-jessica/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 10,
-      "views": 234,
-      "snippet": "This is weird?  EDIT: emptying the cache in my browser cleared the red alert and #1 indicating that there was a topic to approve. But that&#039;s the first time I see this behavior, the alert normally clears  automatically when I approve the topic.  LogicPro11-c08.mp4",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2022_12/DN.thumb.jpg.2b90da303c0ccb9c36fc51b77649c845.jpg",
-        "user": "David N.",
-        "user_link": "https://invisioncommunity.com/profile/610431-david-n/",
-        "date": "2024-08-25T13:10:17Z"
-      }
-    },
-    {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2022_12/DN.thumb.jpg.2b90da303c0ccb9c36fc51b77649c845.jpg",
-      "icons": [],
-      "title": "Getting a 403 error when trying to reply to a post?",
-      "link": "https://invisioncommunity.com/forums/topic/479614-getting-a-403-error-when-trying-to-reply-to-a-post/",
-      "date": "2024-08-24T14:25:56Z",
-      "user": "David N.",
-      "user_link": "https://invisioncommunity.com/profile/610431-david-n/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 4,
-      "views": 91,
-      "snippet": "I am trying to post a reply in a topic and I am getting the following screen:",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2022_12/DN.thumb.jpg.2b90da303c0ccb9c36fc51b77649c845.jpg",
-        "user": "David N.",
-        "user_link": "https://invisioncommunity.com/profile/610431-david-n/",
-        "date": "2024-08-25T12:55:28Z"
-      }
-    },
-    {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23939393%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EL%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-      "icons": [],
-      "title": "Error code: 2S129/1 during registration",
-      "link": "https://invisioncommunity.com/forums/topic/479623-error-code-2s1291-during-registration/",
-      "date": "2024-08-25T11:17:18Z",
-      "user": "Lordest",
-      "user_link": "https://invisioncommunity.com/profile/629248-lordest/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
       "replies": 1,
-      "views": 54,
-      "snippet": "Some members who tried to register to my forum started to get this error. I tried different browsers and incognito tabs, changed the IP address and still the same error. The user gets this error even though they have never registered before. In the meantime, there are those who registered without any problems. Why might this be?",
+      "views": 69,
+      "snippet": "Someone messaged me asking to post this: Hi ive found a bug in the api system but i can&#039;t post on the forum. If i share the info with you could you post it or get it to the correct location? file: system/Dispatcher/Api.php function: _setPath() protected function _setPath() { /* Decode URL */ if (\\IPS\\Settings::i()-&gt;use_friendly_urls &amp;&amp; \\IPS\\Settings::i()-&gt;htaccess_mod_rewrite &amp;&amp; mb_substr(\\IPS\\Request::i()-&gt;url()-&gt;data[\\IPS\\Http\\Url::COMPONENT_PATH], -14) !== &#039;/api/index.php&#039;) { /* We are using Mod Rewrite URLs, so look in the path */ $this-&gt;path = mb_substr(\\IPS\\Request::i()-&gt;url()-&gt;data[\\IPS&hellip;",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
         "user": "Jim M",
         "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-25T12:44:35Z"
+        "date": "2024-12-31T18:18:57Z"
       }
     },
     {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2015_03/P6M_SeaMaster.jpg.a5cb38632166f0d3e51881bc0ffc00c8.thumb.jpg.68643a7fba5a30f328bfb6925e0c0a2f.jpg",
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2018_01/18766046_10109693836645530_8243733270760824041_n.jpg.3dbf0e1936f2c1d29fd189335c8d8d45.jpg",
       "icons": [],
-      "title": "Messages Options Drop Down Issue",
-      "link": "https://invisioncommunity.com/forums/topic/479618-messages-options-drop-down-issue/",
-      "date": "2024-08-25T01:29:52Z",
+      "title": "Invision Hosted /media folder changed images URL's, now all images broken",
+      "link": "https://invisioncommunity.com/forums/topic/481008-invision-hosted-media-folder-changed-images-urls-now-all-images-broken/",
+      "date": "2024-12-30T19:13:53Z",
+      "user": "Neville1",
+      "user_link": "https://invisioncommunity.com/profile/570189-neville1/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 1,
+      "views": 83,
+      "snippet": "Hello! We noticed over the weekend any images uploaded through our /media folder have been changed. Example: BEFORE: https://ips-cic-filestore.s3.amazonaws.com/v328378/pages_media/5_aida-attention-animated.gif AFTER: https://media.invisioncic.com/v328378/pages_media/5_aida-attention-animated.gif?_cb=1735583945 This has made all the images we link from /media unusable. Is there a quick fix for this? Thank you!",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "user": "Jim M",
+        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
+        "date": "2024-12-30T19:31:04Z"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462a2%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EA%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [
+        "check"
+      ],
+      "title": "Upgrade of invision",
+      "link": "https://invisioncommunity.com/forums/topic/477905-upgrade-of-invision/",
+      "date": "2024-04-18T10:40:42Z",
+      "user": "amd21",
+      "user_link": "https://invisioncommunity.com/profile/640583-amd21/",
+      "lastpage": 3,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 60,
+      "views": 2800,
+      "snippet": "Hello to everyone We would like to upgrade the invision from 1.7.4 to 1.7.15 and during the upgrade show the following message ( see image ) . Should worry do something or i can process with upgrade without any problem ? Just to notice that until now we had only forum pages events and the new purscase is with also blogs and gallery Many thanks in advance",
+      "lastpost": {
+        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%238162c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+        "user": "Miss_B",
+        "user_link": "https://invisioncommunity.com/profile/606440-miss_b/",
+        "date": "2024-12-30T13:54:36Z"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46d62%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EA%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [],
+      "title": "System Log errors",
+      "link": "https://invisioncommunity.com/forums/topic/480963-system-log-errors/",
+      "date": "2024-12-17T12:36:48Z",
+      "user": "Antique Phonograph",
+      "user_link": "https://invisioncommunity.com/profile/607778-antique-phonograph/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 12,
+      "views": 363,
+      "snippet": "Hello. Since last update we have had 37 log entries of: &quot;TypeError: Cannot assign string to property IPS\\Dispatcher\\_Front::$currentPage of type ?int (0) #0 /datadrive/forum/system/Dispatcher/Dispatcher.php(110): IPS\\Dispatcher\\_Front-&gt;init() #1 /datadrive/forum/index.php(13): IPS\\_Dispatcher::i() #2 {main}&quot;",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "user": "Jim M",
+        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
+        "date": "2024-12-26T13:47:35Z"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46662%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [
+        "check"
+      ],
+      "title": "Requiring users to complete custom fields",
+      "link": "https://invisioncommunity.com/forums/topic/477805-requiring-users-to-complete-custom-fields/",
+      "date": "2024-04-10T02:18:59Z",
+      "user": "Simon.AU",
+      "user_link": "https://invisioncommunity.com/profile/472966-simonau/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 13,
+      "views": 597,
+      "snippet": "Hi, We have a couple of issues with custom fields (Member Settings -&gt; Profiles) which I am hoping someone might be able to assist with 🙂 1. Field type is set to &quot;select box&quot;, and we have added several options; however, even though the &quot;Required&quot; checkbox is ticked, users are still able to register without making a selection in this field (there is always a blank option) 2. Is there a way to require all users who are currently registered to add a value into this profile field the next time they sign in, even if they have already registered without selecting a value? Many thanks in advance for any assistance! regards David",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_08/laptop-2620118.thumb.jpg.cab32094f033e627dfa560b3294da79c.jpg",
+        "user": "Adriano Faria",
+        "user_link": "https://invisioncommunity.com/profile/114025-adriano-faria/",
+        "date": "2024-12-26T12:30:26Z"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46662%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [
+        "check"
+      ],
+      "title": "First Post of New Members Put into a Mod Queue",
+      "link": "https://invisioncommunity.com/forums/topic/480965-first-post-of-new-members-put-into-a-mod-queue/",
+      "date": "2024-12-23T16:35:43Z",
+      "user": "My Sharona",
+      "user_link": "https://invisioncommunity.com/profile/592913-my-sharona/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 6,
+      "views": 273,
+      "snippet": "For some reason, the first post of new members is put into a mod queue requiring approval before it shows. Any additional posts are also put into the queue unless that first post is dealt with. It doesn&#039;t matter if it is approved, not approved, or whatever, but then subsequent posting are automatically shown. This condition did not exist prior to the 4.7.19 upgrade. I checked permissions and all are as they were before so I&#039;m a little lost as to what is going on. Might it be some update to spam settings that is now creating this condition? I have looked but can find no way to alter this condition. Help would be greatly appreciated, we do not want to have to approve a&hellip;",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "user": "Jim M",
+        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
+        "date": "2024-12-23T19:30:46Z"
+      }
+    },
+    {
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2015_03/P6M_SeaMaster.jpg.a5cb38632166f0d3e51881bc0ffc00c8.thumb.jpg.68643a7fba5a30f328bfb6925e0c0a2f.jpg",
+      "icons": [],
+      "title": "Upcoming events block visibility bug",
+      "link": "https://invisioncommunity.com/forums/topic/478396-upcoming-events-block-visibility-bug/",
+      "date": "2024-06-09T17:41:07Z",
       "user": "TracyIsland",
       "user_link": "https://invisioncommunity.com/profile/142839-tracyisland/",
       "lastpage": 0,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 0,
-      "views": 54,
-      "snippet": "Found this issue on the mobile display.  Asked Ehren since it was on his Dimension theme.  He asked me to check if the issue occurred on the default theme. Yes, it did. His observation:   I&#039;m still on the 4.7 devsite: I&#039;m using an Android phone, Samsung Zflip 5. Premise: Testing message notifications and mobile footer display. Finding: 1. Click on Messages icon in mobile footer. Same if you do the default theme, just a different location. 2., click on new message that is unread 3. new message appears as designed. directional buttons above message subject: &lt;-= Message List &amp; Options (dropdown) 4. Click on Options drop d&hellip;",
+      "tags": [
+        {
+          "name": "known issue",
+          "link": "https://invisioncommunity.com/tags/known%20issue/"
+        }
+      ],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 7,
+      "views": 712,
+      "snippet": "Hi - On our 4.7.16 devsite, I was looking at the events tab for one of our groups (you call them clubs). I had enabled the upcoming event block for the Events application but I was surprised to see the same block in one of our groups (clubs for you). See attached screen. I tried to edit the block by selecting the Everywhere except groups (which I assume you mean clubs) and yet the block is still visible. Is this a bug? I don&#039;t want to display the general upcoming events block in each of our groups (clubs for you). Thanks, Brian",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2015_03/P6M_SeaMaster.jpg.a5cb38632166f0d3e51881bc0ffc00c8.thumb.jpg.68643a7fba5a30f328bfb6925e0c0a2f.jpg",
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2015_03/P6M_SeaMaster.jpg.a5cb38632166f0d3e51881bc0ffc00c8.thumb.jpg.68643a7fba5a30f328bfb6925e0c0a2f.jpg",
         "user": "TracyIsland",
         "user_link": "https://invisioncommunity.com/profile/142839-tracyisland/",
-        "date": "2024-08-25T01:29:52Z"
+        "date": "2024-12-23T00:19:16Z"
       }
     },
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%236662c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EU%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2023_07/IMG_0805.thumb.jpeg.6885d354fe9c9a7a339025ddaaf11b9a.jpeg",
       "icons": [
         "check"
       ],
-      "title": "Delete Topics from deleted Forums",
-      "link": "https://invisioncommunity.com/forums/topic/479609-delete-topics-from-deleted-forums/",
-      "date": "2024-08-23T22:14:00Z",
-      "user": "Underwood",
-      "user_link": "https://invisioncommunity.com/profile/638270-underwood/",
+      "title": "Commerce - email problem",
+      "link": "https://invisioncommunity.com/forums/topic/480953-commerce-email-problem/",
+      "date": "2024-12-21T16:05:25Z",
+      "user": "700newtons",
+      "user_link": "https://invisioncommunity.com/profile/637776-700newtons/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "group-indicator": null,
       "replies": 1,
-      "views": 84,
-      "snippet": "Hello, I recently deleted some forums, but I&#039;ve encountered an issue where the topics that were created within those forums are still visible on the &quot;Activity&quot; page. Unfortunately, I&#039;m unable to open or delete these topics. When I try to access them, I receive a message saying, &quot;You do not have permission to view this topic.&quot; Could you please advise on how to resolve this ? Thank you for your assistance.",
+      "views": 121,
+      "snippet": "We seem to have a problem with our commerce section if a user buys two or more items. When each item is purchased the user should get a notification email with details of the purchase in addition to the purchase receipt. However, it seems only one notifcation email seems to get through along with the receipt. The other notification email comes through much later, or not at all. Any ideas? Many thanks",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-24T12:18:14Z"
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_07/IMG_0805.thumb.jpeg.6885d354fe9c9a7a339025ddaaf11b9a.jpeg",
+        "user": "700newtons",
+        "user_link": "https://invisioncommunity.com/profile/637776-700newtons/",
+        "date": "2024-12-21T16:28:23Z"
       }
     },
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462bb%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ER%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462bf%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EC%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
       "icons": [
         "check"
       ],
-      "title": "password reset: link invalid",
-      "link": "https://invisioncommunity.com/forums/topic/479591-password-reset-link-invalid/",
-      "date": "2024-08-22T16:14:30Z",
-      "user": "Rick Vasquez",
-      "user_link": "https://invisioncommunity.com/profile/587231-rick-vasquez/",
+      "title": "'Hello' Popup Message",
+      "link": "https://invisioncommunity.com/forums/topic/480936-hello-popup-message/",
+      "date": "2024-12-19T20:57:37Z",
+      "user": "Como",
+      "user_link": "https://invisioncommunity.com/profile/636150-como/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 8,
-      "views": 154,
-      "snippet": "tested resetting passwords due to a large number of the same complaints within an hour password links saying they are invalid. There is no errors in the logs and the link does go to the correct place with a correct key, but just gives the same error even on accounts with admin access.",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 2,
+      "views": 176,
+      "snippet": "Several times today, a &#039;Hello&#039; message popup in small popup box was repeatedly displayed the top of the window. I think it was associated with testing a chatroom plugin, but I cannot be certain since others did not report similar, and the popup appeared way outside of the chatroom interface. I&#039;ve looked up the language string in AdminCP, and found: __api_core_hello =&gt; Hello Might this be the cause? And if so, any ideas as to why it is being triggered?",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-24T12:14:10Z"
+        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462bf%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EC%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+        "user": "Como",
+        "user_link": "https://invisioncommunity.com/profile/636150-como/",
+        "date": "2024-12-20T11:14:27Z"
       }
     },
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%236662c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EU%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23626ac4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EJ%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
       "icons": [],
-      "title": "OutOfRangeException::0",
-      "link": "https://invisioncommunity.com/forums/topic/479610-outofrangeexception0/",
-      "date": "2024-08-23T22:21:53Z",
-      "user": "Underwood",
-      "user_link": "https://invisioncommunity.com/profile/638270-underwood/",
+      "title": "Bug Report on \"Show Prices in USD EUR\" Function in IPS v4.7.17",
+      "link": "https://invisioncommunity.com/forums/topic/478560-bug-report-on-show-prices-in-usd-eur-function-in-ips-v4717/",
+      "date": "2024-06-15T00:15:54Z",
+      "user": "Jipa331",
+      "user_link": "https://invisioncommunity.com/profile/591281-jipa331/",
       "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 3,
-      "views": 93,
-      "snippet": "Hello, I&#039;ve a lot of system logs with error &quot;OutOfRangeException::0&quot; ... Do you have a solution for this issue ?   Backtrace #0 /system/Dispatcher/Front.php(503): IPS\\_Widget::load() #1 /system/Dispatcher/Dispatcher.php(155): IPS\\Dispatcher\\_Front-&gt;finish() #2 /index.php(13): IPS\\_Dispatcher-&gt;run() #3 {main} #0 /system/Node/Model.php(1153): IPS\\Patterns\\_ActiveRecord::load() #1 /system/Node/DelayedCount.php(90): IPS\\Node\\_Model-&gt;parent() #2 /system/Node/Model.php(1090): IPS\\forums\\_Forum-&gt;storeUpdateTime() #3 /system/Content/Item.php(2843): IPS\\Node\\_Model-&gt;setLastComment() #4 /applications/forums/sources/Topic/To&hellip;",
+      "tags": [
+        {
+          "name": "known issue",
+          "link": "https://invisioncommunity.com/tags/known%20issue/"
+        }
+      ],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 6,
+      "views": 531,
+      "snippet": "Hello, I&#039;m using the latest IPS version, 4.7.17, and my store supports two different currencies, USD and EUR. Before the update, when we pressed this currency toggle, it changed the prices to either Euro or USD. However, I&#039;ve noticed that after the 4.7.17 update, it only works on the store&#039;s front page, which is &quot;https://somedomain.com/store&quot;. It does not work on the store&#039;s category pages (e.g., https://somedomain.com/store/category/someproduct). When I click that button on store category pages, it does not happen anything. I remember that this function used to work on the store category pages as well (actually, it would redirect to the store&#039;s&hellip;",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_07/Daniel_F.thumb.png.15519243d8997e566aca8f37000b94f7.png",
-        "user": "Daniel F",
-        "user_link": "https://invisioncommunity.com/profile/536345-daniel-f/",
-        "date": "2024-08-24T07:46:42Z"
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/638385011_Mark_S_nh.thumb.png.65798705098b479156d2d66176935496.png",
+        "user": "Marc",
+        "user_link": "https://invisioncommunity.com/profile/536186-marc/",
+        "date": "2024-12-20T10:38:46Z"
       }
     },
     {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%238162c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EB%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/in-06.thumb.png.1aea5224e85bf52a19cffa6a588afb54.png",
+      "icons": [],
+      "title": "Having a lot of Captcha Errors",
+      "link": "https://invisioncommunity.com/forums/topic/475913-having-a-lot-of-captcha-errors/",
+      "date": "2023-10-24T15:07:23Z",
+      "user": "usmf",
+      "user_link": "https://invisioncommunity.com/profile/112161-usmf/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 9,
+      "views": 980,
+      "snippet": "I&#039;ve got two communities running IPS, and in the last week, we&#039;re having some serious Captcha issues on both. I&#039;ve selected the main site in the purchase drop-down above. On that site, we were hacked (in a small way, thankfully) about a month ago. We initiated a password reset for all members, and now the members are getting a &quot;You did not pass the security check. Please try again.&quot; error when having to use Captcha for the Password reset and/or the Contact Us form. Captcha settings in the AdminCP are set to click &quot;I&#039;m not a Robot&quot;, however one member was asked to do the Captcha of selecting images from a grid over 20 times and still got the same error. ----&hellip;",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2023_09/638385011_Mark_S_nh.thumb.png.65798705098b479156d2d66176935496.png",
+        "user": "Marc",
+        "user_link": "https://invisioncommunity.com/profile/536186-marc/",
+        "date": "2024-12-20T09:32:14Z"
+      }
+    },
+    {
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2024_11/profile_photo-190x190.thumb.png.c2e0e3eeb3a1a56e947acf707d208054.png",
       "icons": [
         "check"
       ],
-      "title": "Thread missing from Forum",
-      "link": "https://invisioncommunity.com/forums/topic/479598-thread-missing-from-forum/",
-      "date": "2024-08-23T01:03:21Z",
-      "user": "breezy1941",
-      "user_link": "https://invisioncommunity.com/profile/551955-breezy1941/",
+      "title": "Change current website domain..",
+      "link": "https://invisioncommunity.com/forums/topic/480802-change-current-website-domain/",
+      "date": "2024-12-06T17:17:24Z",
+      "user": "Allison Ramirez",
+      "user_link": "https://invisioncommunity.com/profile/642392-allison-ramirez/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 4,
-      "views": 98,
-      "snippet": "A well established and pinned thread has disappeared from the General Discussion portion of our forum, where it was located. It does not come up when searched either.  How is this possible? I know that I  did nothing to this thread, I discovered it had vanished when I went to post on it this afternoon. To my knowledge, no one else on the forum could have done anything to it either.  Where could this thread have gone?  Is it recoverable? Have we been compromised?   Help Please  and Thank You   breezy",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 6,
+      "views": 256,
+      "snippet": "Heyo All, Happy Holidays and Happy New Year to you all, My community has recently rebranded from &quot;Independent RP&quot; to &quot;Golden State Finest&quot; I was wondering if guys could change over the domain for me? (Or tell how) I have already set the Name Servers to ns1-ns4 per the form. Current Website New Domain: goldenstatefinestrp.com",
       "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%238162c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EB%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "breezy1941",
-        "user_link": "https://invisioncommunity.com/profile/551955-breezy1941/",
-        "date": "2024-08-23T20:37:09Z"
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2024_11/profile_photo-190x190.thumb.png.c2e0e3eeb3a1a56e947acf707d208054.png",
+        "user": "Allison Ramirez",
+        "user_link": "https://invisioncommunity.com/profile/642392-allison-ramirez/",
+        "date": "2024-12-19T21:50:53Z"
       }
     },
     {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2015_09/black-mokona.png.cc8f2016cc94f041d46cc2028491d5e5.thumb.png.18ba99a884707ca3524209ea01c73cac.png",
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c48162%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+      "icons": [
+        "check"
+      ],
+      "title": "Past Leaders Functionality Broken",
+      "link": "https://invisioncommunity.com/forums/topic/480931-past-leaders-functionality-broken/",
+      "date": "2024-12-19T18:11:48Z",
+      "user": "sadams101",
+      "user_link": "https://invisioncommunity.com/profile/98661-sadams101/",
+      "lastpage": 0,
+      "tags": [
+        {
+          "name": "known issue",
+          "link": "https://invisioncommunity.com/tags/known%20issue/"
+        }
+      ],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 1,
+      "views": 131,
+      "snippet": "I was investigating some strange log entries, and may have found a bug. Here is an example of the log entry with the domain in URL changed because I don&#039;t want bots hitting it: The log entry was triggered by a guest (Guests) Sunday at 06:03 AM The URL of page the error occurred on was https://www.myURL.com/pastleaders/?sortdirection=desc TypeError: Cannot assign string to property IPS\\Dispatcher\\_Front::$currentPage of type ?int (0) #0 /home/celiac/public_html/system/Dispatcher/Dispatcher.php(110): IPS\\Dispatcher\\_Front-&gt;init() #1 /home/celiac/public_html/index.php(13): IPS\\_Dispatcher::i() #2 {main} BACKTRACE: #0 /home/myURL/public_html/init.php(1049): IPS\\_Log::&hellip;",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "user": "Jim M",
+        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
+        "date": "2024-12-19T19:05:00Z"
+      }
+    },
+    {
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2022_12/1199773730_2022-12-0108_55_03-Window(1).thumb.png.72c24494603afd7a572d55d4a71e4af2.png",
+      "icons": [
+        "check"
+      ],
+      "title": "forum refresh if multiple tabs open",
+      "link": "https://invisioncommunity.com/forums/topic/477409-forum-refresh-if-multiple-tabs-open/",
+      "date": "2024-03-06T04:00:25Z",
+      "user": "Allan - TheTechTribe",
+      "user_link": "https://invisioncommunity.com/profile/634923-allan-thetechtribe/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 23,
+      "views": 1400,
+      "snippet": "Hi, wondering if anyone here experience when opening multiple browser tabs and leave the browser for a while let say an hour you leave it and comes back, and when you open any of the tabs to check the forum, it just refreshes on its own, is that a browser issue or the forum software?",
+      "lastpost": {
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "user": "Jim M",
+        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
+        "date": "2024-12-19T13:37:32Z"
+      }
+    },
+    {
+      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2397c462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EN%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
       "icons": [],
-      "title": "[BUG 4.7.18] Undefined array key &quot;club_node_public&quot; when editing a blog in a club",
-      "link": "https://invisioncommunity.com/forums/topic/479605-bug-4718-undefined-array-key-club_node_public-when-editing-a-blog-in-a-club/",
-      "date": "2024-08-23T17:32:41Z",
+      "title": "Block Manager Undo?",
+      "link": "https://invisioncommunity.com/forums/topic/480926-block-manager-undo/",
+      "date": "2024-12-19T09:12:46Z",
+      "user": "Nelion Audio",
+      "user_link": "https://invisioncommunity.com/profile/596368-nelion-audio/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "replies": 2,
+      "views": 117,
+      "snippet": "Hello, One of my admins deleted an entire page with Block Manager. Is there a way to undo this?",
+      "lastpost": {
+        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2397c462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EN%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+        "user": "Nelion Audio",
+        "user_link": "https://invisioncommunity.com/profile/596368-nelion-audio/",
+        "date": "2024-12-19T10:57:35Z"
+      }
+    },
+    {
+      "avatar": "https://media.invisioncic.com/a319035/monthly_2015_09/black-mokona.png.cc8f2016cc94f041d46cc2028491d5e5.thumb.png.18ba99a884707ca3524209ea01c73cac.png",
+      "icons": [],
+      "title": "[BUG 4.7.19] Content widget throws an error for Item classes without $containerNodeClass set",
+      "link": "https://invisioncommunity.com/forums/topic/480921-bug-4719-content-widget-throws-an-error-for-item-classes-without-containernodeclass-set/",
+      "date": "2024-12-18T18:49:29Z",
       "user": "teraßyte",
       "user_link": "https://invisioncommunity.com/profile/145950-tera%C3%9Fyte/",
       "lastpage": 0,
@@ -324,257 +587,15 @@
           "link": "https://invisioncommunity.com/tags/known%20issue/"
         }
       ],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 2,
-      "views": 444,
-      "snippet": "I was editing blog I added to a club and received this error: Whoops\\Exception\\ErrorException thrown with message &quot;Undefined array key &quot;club_node_public&quot;&quot;Stacktrace:#6 Whoops\\Exception\\ErrorException in \\system\\Content\\ClubContainer.php:147#5 Whoops\\Run:handleError in \\system\\Content\\ClubContainer.php:147#4 IPS\\blog\\_Blog:saveClubForm in \\applications\\core\\modules\\front\\clubs\\view.php:1583#3 IPS\\core\\modules\\front\\clubs\\_view:nodeForm in \\system\\Dispatcher\\Controller.php:107#2 IPS\\Dispatcher\\_Controller:execute in \\applications\\core\\modules\\front\\clubs\\view.php:129#1 IPS\\core\\modules\\front\\clubs\\_view:execute in \\init.php:940#0 IPS\\_Dispatcher:run in \\init.php&hellip;",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2015_09/black-mokona.png.cc8f2016cc94f041d46cc2028491d5e5.thumb.png.18ba99a884707ca3524209ea01c73cac.png",
-        "user": "teraßyte",
-        "user_link": "https://invisioncommunity.com/profile/145950-tera%C3%9Fyte/",
-        "date": "2024-08-23T18:01:03Z"
-      }
-    },
-    {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2022_01/predator-rock-and-shock0148.thumb.jpg.6f25886313cc0e2e7223fedb4837bc6b.jpg",
-      "icons": [],
-      "title": "Error 500 after initiating update",
-      "link": "https://invisioncommunity.com/forums/topic/479603-error-500-after-initiating-update/",
-      "date": "2024-08-23T14:10:12Z",
-      "user": "MeanGene",
-      "user_link": "https://invisioncommunity.com/profile/628586-meangene/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 4,
-      "views": 84,
-      "snippet": "My site appears to have crashed after initiating an update? Google chrome will not load the website, even in incognito mode.  Mic Edge browser loads the main page screen. I then click Login to get in and immediately am met with the error 500  Both screen shots of error message are pasted below.   I am not even sure how to proceed?   www.thehunterslair.com",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2022_01/predator-rock-and-shock0148.thumb.jpg.6f25886313cc0e2e7223fedb4837bc6b.jpg",
-        "user": "MeanGene",
-        "user_link": "https://invisioncommunity.com/profile/628586-meangene/",
-        "date": "2024-08-23T14:49:49Z"
-      }
-    },
-    {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23939393%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EZ%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-      "icons": [],
-      "title": "Currency Changer on Product Category Not Working",
-      "link": "https://invisioncommunity.com/forums/topic/479596-currency-changer-on-product-category-not-working/",
-      "date": "2024-08-22T20:24:17Z",
-      "user": "Zennuie",
-      "user_link": "https://invisioncommunity.com/profile/609833-zennuie/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 7,
-      "views": 125,
-      "snippet": "Changing the currency in the store works; however, the currency does not change when browsing a product category. My developer says that his other IPS clients encounter the issue. Video of the bug: https://files.catbox.moe/2tkpcx.mp4",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-23T11:59:17Z"
-      }
-    },
-    {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c48162%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EA%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-      "icons": [],
-      "title": "Archive function no longer works after changing settings",
-      "link": "https://invisioncommunity.com/forums/topic/479586-archive-function-no-longer-works-after-changing-settings/",
-      "date": "2024-08-22T12:55:03Z",
-      "user": "Apfelstrudel",
-      "user_link": "https://invisioncommunity.com/profile/541010-apfelstrudel/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 2,
-      "views": 109,
-      "snippet": "Hello team, We have been using the archive function for a long time and it has always worked well. However, since the beginning we have never changed the settings for the filter. Today, however, we have changed the settings from &gt;15 years to &gt;12 years, so three more years should be archived. The problem now is that since this change the archive function no longer archives. The cron job runs through without doing any action. If you unarchive an already archived topic from the archive, it works. You can then change someting in the thread. However, if I set it to “archive” status again, it remains unarchived. Also this feature worked fine in the pas&hellip;",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_07/Daniel_F.thumb.png.15519243d8997e566aca8f37000b94f7.png",
-        "user": "Daniel F",
-        "user_link": "https://invisioncommunity.com/profile/536345-daniel-f/",
-        "date": "2024-08-23T07:06:47Z"
-      }
-    },
-    {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2015_03/10649845_1067067476652782_1107133206319309474_n.jpg.f988f43a2aa4b812b53703d21e2eca6e.jpg",
-      "icons": [],
-      "title": "Unable to update plugins",
-      "link": "https://invisioncommunity.com/forums/topic/479517-unable-to-update-plugins/",
-      "date": "2024-08-18T18:57:12Z",
-      "user": "iadzemovic",
-      "user_link": "https://invisioncommunity.com/profile/204256-iadzemovic/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 5,
-      "views": 188,
-      "snippet": "When I hit the link for Update it goes in circles; and Im unable to find the update anywhere. Any help?",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-22T17:08:33Z"
-      }
-    },
-    {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23aec462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-      "icons": [],
-      "title": "Mysql Error Log flooded with: ERROR 1062: Duplicate entry",
-      "link": "https://invisioncommunity.com/forums/topic/479367-mysql-error-log-flooded-with-error-1062-duplicate-entry/",
-      "date": "2024-08-08T08:22:17Z",
-      "user": "Simarilius",
-      "user_link": "https://invisioncommunity.com/profile/143670-simarilius/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 4,
-      "views": 276,
-      "snippet": "Hi, I&#039;m administrating two Forums and both have the  following error in the mysql / mariadb log:   2024-08-08 10:14:47 user[user] @ localhost [] ERROR 1062: Duplicate entry &#039;74797-2024-08-08&#039; for key &#039;lookup&#039; : /*user::user::IPS\\_Member::recordLogin:221*/ INSERT INTO `ip_core_members_logins` ( `member_id`, `member_timestamp`, `member_date` ) VALUES ( 74797, 1723104887, &#039;2024-08-08&#039; )2024-08-08 10:15:04 user[user] @ localhost [] ERROR 1062: Duplicate entry &#039;85893-2024-08-08&#039; for key &#039;lookup&#039; : /*user::user::IPS\\_Member::recordLogin:221*/ INSERT INTO `ip_core_members_logins` ( `member_id`, `member_timestamp`, `member_date` ) VALUES ( 85893, 1723104904, &#039;2024-08-08&#039; &hellip;",
-      "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23aec462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "Simarilius",
-        "user_link": "https://invisioncommunity.com/profile/143670-simarilius/",
-        "date": "2024-08-22T13:45:33Z"
-      }
-    },
-    {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2024_07/imported-photo-641437.thumb.jpeg.ac35e1ec907766755f68320bceb44e56.jpeg",
-      "icons": [],
-      "title": "Why is the icon not loaded?",
-      "link": "https://invisioncommunity.com/forums/topic/479582-why-is-the-icon-not-loaded/",
-      "date": "2024-08-22T08:05:10Z",
-      "user": "ArtooStark",
-      "user_link": "https://invisioncommunity.com/profile/641437-artoostark/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 2,
-      "views": 83,
-      "snippet": "As shown in the picture. I checked with the developer tool and it said it was a CROS problem.",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-22T12:05:37Z"
-      }
-    },
-    {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c4b7%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EA%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-      "icons": [
-        "lock"
-      ],
-      "title": "Can no longer find the Popular Now Block…",
-      "link": "https://invisioncommunity.com/forums/topic/479583-can-no-longer-find-the-popular-now-block%E2%80%A6/",
-      "date": "2024-08-22T09:51:47Z",
-      "user": "Allen Bradford",
-      "user_link": "https://invisioncommunity.com/profile/559015-allen-bradford/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
+      "group-indicator": "https://media.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
       "replies": 1,
-      "views": 100,
-      "snippet": "Posted this on Feedback Forum and got crickets. Actually I know why. The powers that be at IPB eliminated, removed, took away that Hot/Active Topic Block from lower tier plans at the most recent software update. Maybe it was in the Update info, I don’t know, but it came as a shock and disappointment to me and the Members of my nearly 23 year old Board/Discussion Form….which converted to IPB in 2016. I contacted Support and apparently this Block was removed from the Plan I am on. A similar “Trending Now” Block is available on other Plans. Starting at $250/month. That would put me out of the Discussion Forum business.   This is a blow to my long term communit&hellip;",
+      "views": 129,
+      "snippet": "The function \\IPS\\Content\\Widget::formElements() includes this check to skip the container field when no container class is set: /* Container */ if ( isset( $class::$containerNodeClass ) ) { $return[&#039;container&#039;] = new \\IPS\\Helpers\\Form\\Node( &#039;widget_feed_container_&#039; . $class::$title, isset( $this-&gt;configuration[&#039;widget_feed_container&#039;] ) ? $this-&gt;configuration[&#039;widget_feed_container&#039;] : 0, FALSE, array( &#039;class&#039; =&gt; $class::$containerNodeClass, &#039;zeroVal&#039; =&gt; &#039;all&#039;, &#039;permissionCheck&#039; =&gt; &#039;view&#039;, &#039;multiple&#039; =&gt; true, &#039;forceOwner&#039; =&gt; false, &#039;clubs&#039; =&gt; TRUE ) ); } The problem &hellip;",
       "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
+        "avatar": "https://media.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
         "user": "Jim M",
         "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-22T12:04:50Z"
-      }
-    },
-    {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2024_07/imported-photo-641437.thumb.jpeg.ac35e1ec907766755f68320bceb44e56.jpeg",
-      "icons": [
-        "check"
-      ],
-      "title": "I have purchased the community plan, please help me set up the parsing record",
-      "link": "https://invisioncommunity.com/forums/topic/479550-i-have-purchased-the-community-plan-please-help-me-set-up-the-parsing-record/",
-      "date": "2024-08-21T06:18:48Z",
-      "user": "ArtooStark",
-      "user_link": "https://invisioncommunity.com/profile/641437-artoostark/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 2,
-      "views": 143,
-      "snippet": "My root domain is waimao.co, and the DNS service has been changed to the recommended settings. Please resolve waimao.co and redirect the www record to the @ record.",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2024_07/imported-photo-641437.thumb.jpeg.ac35e1ec907766755f68320bceb44e56.jpeg",
-        "user": "ArtooStark",
-        "user_link": "https://invisioncommunity.com/profile/641437-artoostark/",
-        "date": "2024-08-22T03:42:30Z"
-      }
-    },
-    {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2024_03/MTc0MjEyMzQxMzIyMjI5MjQ0.thumb.webp.17c90e46b0b6668ef85fb5cc77fd012d.webp",
-      "icons": [],
-      "title": "Can&#039;t get reactions to show on the postbit",
-      "link": "https://invisioncommunity.com/forums/topic/479570-cant-get-reactions-to-show-on-the-postbit/",
-      "date": "2024-08-21T18:12:18Z",
-      "user": "Buttercup",
-      "user_link": "https://invisioncommunity.com/profile/621568-buttercup/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 15,
-      "views": 176,
-      "snippet": "Hi again 🙂    I can&#039;t seem to get the reactions to show up on the postbit. I don&#039;t know what I am doing wrong. any help with this please?",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-21T19:39:14Z"
-      }
-    },
-    {
-      "avatar": "https://content.invisioncic.com/a319035/monthly_2022_07/cowboy-skull_small.thumb.png.3ef155f87f950f39bb866e902e14f863.png",
-      "icons": [],
-      "title": "Club Blogs Categories Missing",
-      "link": "https://invisioncommunity.com/forums/topic/479553-club-blogs-categories-missing/",
-      "date": "2024-08-21T11:11:53Z",
-      "user": "Cowboy Denny",
-      "user_link": "https://invisioncommunity.com/profile/154210-cowboy-denny/",
-      "lastpage": 0,
-      "tags": [
-        {
-          "name": "known issue",
-          "link": "https://invisioncommunity.com/tags/known%20issue/"
-        }
-      ],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 3,
-      "views": 102,
-      "snippet": "Blogs in clubs are missing categories when I try and browse via the admin cp I wanted to rename a category that is assigned to my DevOps club but I am unable to see the categories and instead this is what I see  I cleared cache on site Tried a different browser than chrome Out of ideas..  any guidance is most appreciated.",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_11/jim-ips-photo.thumb.png.8ac14e758ee774b2949fb2a87dbcdcd3.png",
-        "user": "Jim M",
-        "user_link": "https://invisioncommunity.com/profile/543491-jim-m/",
-        "date": "2024-08-21T17:57:44Z"
-      }
-    },
-    {
-      "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%238762c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-      "icons": [
-        "check"
-      ],
-      "title": "Refused to execute inline script because it violates the following Content Security Policy directive",
-      "link": "https://invisioncommunity.com/forums/topic/479554-refused-to-execute-inline-script-because-it-violates-the-following-content-security-policy-directive/",
-      "date": "2024-08-21T11:34:11Z",
-      "user": "SDT",
-      "user_link": "https://invisioncommunity.com/profile/587393-sdt/",
-      "lastpage": 0,
-      "tags": [],
-      "group-indicator": "https://content.invisioncic.com/a319035/monthly_2021_08/team-logo.png.bf1b2f868facf377cfa6e5dbffe3012c.png",
-      "replies": 1,
-      "views": 88,
-      "snippet": "Refused to execute inline script because it violates the following Content Security Policy directive: &quot;script-src",
-      "lastpost": {
-        "avatar": "https://content.invisioncic.com/a319035/monthly_2019_07/Stuart_S.thumb.png.d3cb8307dbe856e96a2a2d252190528d.png",
-        "user": "Stuart Silvester",
-        "user_link": "https://invisioncommunity.com/profile/532212-stuart-silvester/",
-        "date": "2024-08-21T13:57:35Z"
+        "date": "2024-12-18T18:56:52Z"
       }
     }
   ]

@@ -3,23 +3,32 @@
   "url": "https://invisioncommunity.com/profile/636802-esther-e/?do=hovercard",
   "id": 636802,
   "name": "Esther E.",
-  "background": "https://content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2023_07/20230719_074028.thumb.jpg.f00cea67195571234bc343619b063936.jpg",
+  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2023_07/20230719_074028.thumb.jpg.f00cea67195571234bc343619b063936.jpg",
   "group": "Invision Community Team",
-  "joined": "2023-04-19T15:56:48Z",
+  "joined": "",
   "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "167"
+      "value": "553"
     },
     {
       "name": "Reputation",
-      "value": "229"
+      "value": "416"
     },
     {
       "name": "Badges",
-      "value": "9"
+      "value": "10"
     }
+  ],
+  "rank": "Rank: Proficient (9/13)",
+  "rank_date": "2024-11-07T21:28:23Z",
+  "badges": [
+    "Posting Machine",
+    "One Year In",
+    "Very Popular",
+    "Conversation Starter",
+    "Collaborator"
   ]
 }

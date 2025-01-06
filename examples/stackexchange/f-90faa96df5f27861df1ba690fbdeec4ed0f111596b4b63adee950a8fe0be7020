@@ -1,0 +1,1147 @@
+{
+  "format_version": "stackexchange-forum",
+  "url": "https://stackoverflow.com/questions?tab=votes&pagesize=50",
+  "threads": [
+    {
+      "score": 27394,
+      "views": 1918957,
+      "answers": 25,
+      "solved": true,
+      "bounty": 0,
+      "title": "Why is processing a sorted array faster than processing an unsorted array?",
+      "link": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array",
+      "excerp": "In this C++ code, sorting the data (before the timed region) makes the primary loop ~6x faster: #include &lt;algorithm&gt; #include &lt;ctime&gt; #include &lt;iostream&gt; int main() { // ...",
+      "tags": [
+        "java",
+        "c++",
+        "performance",
+        "cpu-architecture",
+        "branch-prediction"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/FkjBe.png?s=32",
+        "name": "GManNickG",
+        "link": "https://stackoverflow.com/users/87234/gmannickg",
+        "reputation": 503415
+      },
+      "date": "2012-06-27 13:51:36Z"
+    },
+    {
+      "score": 26841,
+      "views": 15444341,
+      "answers": 102,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I undo the most recent local commits in Git?",
+      "link": "https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git",
+      "excerp": "I accidentally committed the wrong files to Git but haven't pushed the commit to the server yet. How do I undo those commits from the local repository?",
+      "tags": [
+        "git",
+        "version-control",
+        "git-commit",
+        "undo"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/927358/revisions/users/63550",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 20368,
+      "views": 12283545,
+      "answers": 41,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I delete a Git branch locally and remotely?",
+      "link": "https://stackoverflow.com/questions/2003505/how-do-i-delete-a-git-branch-locally-and-remotely",
+      "excerp": "Failed Attempts to Delete a Remote Branch: $ git branch -d remotes/origin/bugfix error: branch 'remotes/origin/bugfix' not found. $ git branch -d origin/bugfix error: branch 'origin/bugfix' not found....",
+      "tags": [
+        "git",
+        "version-control",
+        "git-branch",
+        "git-push",
+        "git-remote"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/2003505/revisions",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 13937,
+      "views": 3622843,
+      "answers": 38,
+      "solved": true,
+      "bounty": 0,
+      "title": "What is the difference between 'git pull' and 'git fetch'?",
+      "link": "https://stackoverflow.com/questions/292357/what-is-the-difference-between-git-pull-and-git-fetch",
+      "excerp": "What are the differences between git pull and git fetch?",
+      "tags": [
+        "git",
+        "version-control",
+        "git-pull",
+        "git-fetch"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/931970b8dc51b72e05e3a12b88612d61?s=32&d=identicon&r=PG",
+        "name": "Pablo Fernandez",
+        "link": "https://stackoverflow.com/users/6068/pablo-fernandez",
+        "reputation": 287060
+      },
+      "date": "2008-11-15 09:51:09Z"
+    },
+    {
+      "score": 13024,
+      "views": 3415870,
+      "answers": 53,
+      "solved": true,
+      "bounty": 0,
+      "title": "What does the \"yield\" keyword do in Python?",
+      "link": "https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python",
+      "excerp": "What functionality does the yield keyword in Python provide? For example, I'm trying to understand this code1: def _get_child_candidates(self, distance, min_dist, max_dist): if self._leftchild and ...",
+      "tags": [
+        "python",
+        "iterator",
+        "generator",
+        "yield"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/jcyI4.jpg?s=32",
+        "name": "Alex. S.",
+        "link": "https://stackoverflow.com/users/18300/alex-s",
+        "reputation": 146956
+      },
+      "date": "2008-10-23 22:21:11Z"
+    },
+    {
+      "score": 12114,
+      "views": 13176740,
+      "answers": 50,
+      "solved": true,
+      "bounty": 0,
+      "title": "How can I remove a specific item from an array in JavaScript?",
+      "link": "https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array-in-javascript",
+      "excerp": "How do I remove a specific value from an array? Something like: array.remove(value); Constraints: I have to use core JavaScript. Frameworks are not allowed.",
+      "tags": [
+        "javascript",
+        "arrays"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/79e7cefc9e7deb0e0bf422baa1a38a2c?s=32&d=identicon&r=PG",
+        "name": "Walker",
+        "link": "https://stackoverflow.com/users/364969/walker",
+        "reputation": 134173
+      },
+      "date": "2011-04-23 22:17:18Z"
+    },
+    {
+      "score": 11820,
+      "views": 5831929,
+      "answers": 41,
+      "solved": true,
+      "bounty": 0,
+      "title": "How can I rename a local Git branch?",
+      "link": "https://stackoverflow.com/questions/6591213/how-can-i-rename-a-local-git-branch",
+      "excerp": "How can I rename a local branch which has not yet been pushed to a remote repository? Related: Rename master branch for both local and remote Git repositories How do I rename both a Git local and ...",
+      "tags": [
+        "git",
+        "version-control",
+        "git-branch"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/c145a12cd17d3b3ffff033681a694abe?s=32&d=identicon&r=PG",
+        "name": "Forrest",
+        "link": "https://stackoverflow.com/users/338204/forrest",
+        "reputation": 127343
+      },
+      "date": "2011-07-06 03:20:36Z"
+    },
+    {
+      "score": 11621,
+      "views": 3951504,
+      "answers": 39,
+      "solved": true,
+      "bounty": 0,
+      "title": "Which JSON content type do I use?",
+      "link": "https://stackoverflow.com/questions/477816/which-json-content-type-do-i-use",
+      "excerp": "There are many &quot;standards&quot; for the JSON content type: application/json application/x-javascript text/javascript text/x-javascript text/x-json Which one do I use, and where? I assume ...",
+      "tags": [
+        "json",
+        "mime-types",
+        "content-type"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/f0af40756420859b5b63cbceb6d30505?s=32&d=identicon&r=PG",
+        "name": "Oli",
+        "link": "https://stackoverflow.com/users/12870/oli",
+        "reputation": 239580
+      },
+      "date": "2009-01-25 15:25:19Z"
+    },
+    {
+      "score": 11478,
+      "views": 5937340,
+      "answers": 39,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I undo 'git add' before commit?",
+      "link": "https://stackoverflow.com/questions/348170/how-do-i-undo-git-add-before-commit",
+      "excerp": "I mistakenly added files to Git using the command: git add myfile.txt I have not yet run git commit. How do I undo this so that these changes will not be included in the commit?",
+      "tags": [
+        "git",
+        "git-commit",
+        "undo",
+        "git-add"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/0c29cc6ee1c170810ee1fd36fa7c2f95?s=32&d=identicon&r=PG",
+        "name": "oz10",
+        "link": "https://stackoverflow.com/users/14069/oz10",
+        "reputation": 158076
+      },
+      "date": "2008-12-07 21:57:46Z"
+    },
+    {
+      "score": 10202,
+      "views": 1027355,
+      "answers": 26,
+      "solved": true,
+      "bounty": 0,
+      "title": "What is the '-->' operator in C/C++?",
+      "link": "https://stackoverflow.com/questions/1642028/what-is-the-operator-in-c-c",
+      "excerp": "After reading Hidden Features and Dark Corners of C++/STL on comp.lang.c++.moderated, I was completely surprised that the following snippet compiled and worked in both Visual Studio 2008 and G++ 4.4. ...",
+      "tags": [
+        "c++",
+        "c",
+        "operators",
+        "code-formatting",
+        "standards-compliance"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/1642028/revisions/users/87234",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 9817,
+      "views": 9017006,
+      "answers": 55,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I force \"git pull\" to overwrite local files?",
+      "link": "https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files",
+      "excerp": "How do I force an overwrite of local files on a git pull? My local repository contains a file of the same filename as on the server. error: Untracked working tree file 'example.txt' would be ...",
+      "tags": [
+        "git",
+        "version-control",
+        "overwrite",
+        "git-pull",
+        "git-fetch"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/i1oB2.jpg?s=32",
+        "name": "Jakub Troszok",
+        "link": "https://stackoverflow.com/users/98046/jakub-troszok",
+        "reputation": 103493
+      },
+      "date": "2009-07-14 14:58:15Z"
+    },
+    {
+      "score": 9662,
+      "views": 3768754,
+      "answers": 62,
+      "solved": true,
+      "bounty": 0,
+      "title": "Can comments be used in JSON?",
+      "link": "https://stackoverflow.com/questions/244777/can-comments-be-used-in-json",
+      "excerp": "Can I use comments inside a JSON file? If so, how?",
+      "tags": [
+        "json",
+        "comments"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/b478ef877842b1da9cdead7848572372?s=32&d=identicon&r=PG",
+        "name": "Michael Gundlach",
+        "link": "https://stackoverflow.com/users/4105/michael-gundlach",
+        "reputation": 109205
+      },
+      "date": "2008-10-28 20:39:03Z"
+    },
+    {
+      "score": 9501,
+      "views": 1984311,
+      "answers": 30,
+      "solved": true,
+      "bounty": 0,
+      "title": "What and where are the stack and heap?",
+      "link": "https://stackoverflow.com/questions/79923/what-and-where-are-the-stack-and-heap",
+      "excerp": "What are the stack and heap? Where are they located physically in a computer's memory? To what extent are they controlled by the OS or language run-time? What is their scope? What determines their ...",
+      "tags": [
+        "data-structures",
+        "memory-management",
+        "heap-memory",
+        "dynamic-memory-allocation",
+        "stack-memory"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/e3dcbde38b1f70c77b1db642f31a223d?s=32&d=identicon&r=PG",
+        "name": "mattshane",
+        "link": "https://stackoverflow.com/users/13161/mattshane",
+        "reputation": 95063
+      },
+      "date": "2008-09-17 04:18:06Z"
+    },
+    {
+      "score": 8893,
+      "views": 792330,
+      "answers": 9,
+      "solved": true,
+      "bounty": 0,
+      "title": "Why does HTML think “chucknorris” is a color?",
+      "link": "https://stackoverflow.com/questions/8318911/why-does-html-think-chucknorris-is-a-color",
+      "excerp": "Why do certain random strings produce colors when entered as background colors in HTML? For example, bgcolor=&quot;chucknorris&quot; produces a red background: &lt;body bgcolor=\"chucknorris\"&gt; ...",
+      "tags": [
+        "html",
+        "browser",
+        "background-color"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/uoYDJ.png?s=32",
+        "name": "user456584",
+        "link": "https://stackoverflow.com/users/456584/user456584",
+        "reputation": 88785
+      },
+      "date": "2011-11-29 22:54:22Z"
+    },
+    {
+      "score": 8781,
+      "views": 9172296,
+      "answers": 47,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I check out a remote Git branch?",
+      "link": "https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch",
+      "excerp": "Somebody pushed a branch called test with git push origin test to a shared repository. I can see the branch with git branch -r. How do I check out the remote test branch? I've tried: git checkout ...",
+      "tags": [
+        "git",
+        "git-checkout",
+        "remote-branch"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/e736f7016a80c3807e7cace569024ab8?s=32&d=identicon&r=PG",
+        "name": "Juri Glass",
+        "link": "https://stackoverflow.com/users/179467/juri-glass",
+        "reputation": 91343
+      },
+      "date": "2009-11-23 14:23:46Z"
+    },
+    {
+      "score": 8718,
+      "views": 3234710,
+      "answers": 67,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I check if an element is hidden in jQuery?",
+      "link": "https://stackoverflow.com/questions/178325/how-do-i-check-if-an-element-is-hidden-in-jquery",
+      "excerp": "How do I toggle the visibility of an element using .hide(), .show(), or .toggle()? How do I test if an element is visible or hidden?",
+      "tags": [
+        "javascript",
+        "jquery",
+        "dom",
+        "visibility",
+        "display"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/3ea9c684a2db319df788cecc6c98f9cd?s=32&d=identicon&r=PG",
+        "name": "Philip Morton",
+        "link": "https://stackoverflow.com/users/21709/philip-morton",
+        "reputation": 131759
+      },
+      "date": "2008-10-07 13:03:18Z"
+    },
+    {
+      "score": 8517,
+      "views": 1224962,
+      "answers": 32,
+      "solved": true,
+      "bounty": 0,
+      "title": "What does \"use strict\" do in JavaScript, and what is the reasoning behind it?",
+      "link": "https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it",
+      "excerp": "Recently, I ran some of my JavaScript code through Crockford's JSLint, and it gave the following error: Problem at line 1 character 1: Missing &quot;use strict&quot; statement. Doing some searching, ...",
+      "tags": [
+        "javascript",
+        "syntax",
+        "jslint",
+        "use-strict"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/34d142b034e7b194fc1708f3b20d9568?s=32&d=identicon&r=PG",
+        "name": "Mark Rogers",
+        "link": "https://stackoverflow.com/users/25847/mark-rogers",
+        "reputation": 97617
+      },
+      "date": "2009-08-26 16:10:13Z"
+    },
+    {
+      "score": 8458,
+      "views": 2573780,
+      "answers": 36,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I make Git forget about a file that was tracked, but is now in .gitignore?",
+      "link": "https://stackoverflow.com/questions/1274057/how-do-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore",
+      "excerp": "I put a file that was previously being tracked by Git onto the .gitignore list. However, the file still shows up in git status after it is edited. How do I force Git to completely forget the file?",
+      "tags": [
+        "git",
+        "gitignore",
+        "git-rm"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/c5380b957ff8ce5cb14cf2282ffeb720?s=32&d=identicon&r=PG",
+        "name": "Ivan",
+        "link": "https://stackoverflow.com/users/16957/ivan",
+        "reputation": 103669
+      },
+      "date": "2009-08-13 19:23:22Z"
+    },
+    {
+      "score": 8332,
+      "views": 4816003,
+      "answers": 40,
+      "solved": true,
+      "bounty": 0,
+      "title": "What does if __name__ == \"__main__\": do?",
+      "link": "https://stackoverflow.com/questions/419163/what-does-if-name-main-do",
+      "excerp": "What does this do, and why should one include the if statement? if __name__ == &quot;__main__&quot;: print(&quot;Hello, World!&quot;) If you are trying to close a question where someone should be ...",
+      "tags": [
+        "python",
+        "namespaces",
+        "program-entry-point",
+        "python-module",
+        "idioms"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/eb5a95cb1be342c4089183cd8232a7f2?s=32&d=identicon&r=PG",
+        "name": "Devoted",
+        "link": "https://stackoverflow.com/users/51518/devoted",
+        "reputation": 183015
+      },
+      "date": "2009-01-07 04:11:00Z"
+    },
+    {
+      "score": 8279,
+      "views": 3444725,
+      "answers": 43,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I remove local (untracked) files from the current Git working tree?",
+      "link": "https://stackoverflow.com/questions/61212/how-do-i-remove-local-untracked-files-from-the-current-git-working-tree",
+      "excerp": "How do I delete untracked local files from the current working tree?",
+      "tags": [
+        "git",
+        "branch",
+        "git-branch"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/a92525f049e20db8f4ce3d62f3f0bb2b?s=32&d=identicon&r=PG",
+        "name": "readonly",
+        "link": "https://stackoverflow.com/users/4883/readonly",
+        "reputation": 354876
+      },
+      "date": "2008-09-14 09:06:10Z"
+    },
+    {
+      "score": 8023,
+      "views": 3025731,
+      "answers": 32,
+      "solved": true,
+      "bounty": 0,
+      "title": "Does Python have a ternary conditional operator?",
+      "link": "https://stackoverflow.com/questions/394809/does-python-have-a-ternary-conditional-operator",
+      "excerp": "Is there a ternary conditional operator in Python?",
+      "tags": [
+        "python",
+        "operators",
+        "conditional-operator"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/eb5a95cb1be342c4089183cd8232a7f2?s=32&d=identicon&r=PG",
+        "name": "Devoted",
+        "link": "https://stackoverflow.com/users/51518/devoted",
+        "reputation": 183015
+      },
+      "date": "2008-12-27 08:32:18Z"
+    },
+    {
+      "score": 7747,
+      "views": 2776340,
+      "answers": 91,
+      "solved": false,
+      "bounty": 0,
+      "title": "Is Java \"pass-by-reference\" or \"pass-by-value\"?",
+      "link": "https://stackoverflow.com/questions/40480/is-java-pass-by-reference-or-pass-by-value",
+      "excerp": "I always thought Java uses pass-by-reference. However, I read a blog post which claims that Java uses pass-by-value. I don't think I understand the distinction the author is making. What is the ...",
+      "tags": [
+        "java",
+        "methods",
+        "parameter-passing",
+        "pass-by-reference",
+        "pass-by-value"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/40480/revisions/users/4315",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 7697,
+      "views": 8024702,
+      "answers": 58,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I redirect to another webpage?",
+      "link": "https://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-webpage",
+      "excerp": "How can I redirect the user from one page to another using jQuery or pure JavaScript?",
+      "tags": [
+        "javascript",
+        "jquery",
+        "http-redirect"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/7rqob.jpg?s=32",
+        "name": "venkatachalam",
+        "link": "https://stackoverflow.com/users/44984/venkatachalam",
+        "reputation": 102449
+      },
+      "date": "2009-02-02 12:54:16Z"
+    },
+    {
+      "score": 7651,
+      "views": 1230332,
+      "answers": 42,
+      "solved": true,
+      "bounty": 0,
+      "title": "var functionName = function() {} vs function functionName() {}",
+      "link": "https://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname",
+      "excerp": "I've recently started maintaining someone else's JavaScript code. I'm fixing bugs, adding features and also trying to tidy up the code and make it more consistent. The previous developer used two ways ...",
+      "tags": [
+        "javascript",
+        "function",
+        "methods",
+        "syntax"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/2d71a937d0e784ea99153ce46afb9fb1?s=32&d=identicon&r=PG",
+        "name": "Richard Garside",
+        "link": "https://stackoverflow.com/users/31569/richard-garside",
+        "reputation": 89120
+      },
+      "date": "2008-12-03 11:31:07Z"
+    },
+    {
+      "score": 7641,
+      "views": 4059131,
+      "answers": 27,
+      "solved": true,
+      "bounty": 0,
+      "title": "How to modify existing, unpushed commit messages?",
+      "link": "https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages",
+      "excerp": "I wrote the wrong thing in a commit message. How can I change the message? The commit has not been pushed yet.",
+      "tags": [
+        "git",
+        "git-commit",
+        "git-rewrite-history",
+        "git-amend"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/9218dd1115bc620ec1ea79fd0368da8e?s=32&d=identicon&r=PG",
+        "name": "Laurie Young",
+        "link": "https://stackoverflow.com/users/7473/laurie-young",
+        "reputation": 138294
+      },
+      "date": "2008-10-07 15:44:47Z"
+    },
+    {
+      "score": 7622,
+      "views": 11550484,
+      "answers": 56,
+      "solved": true,
+      "bounty": 0,
+      "title": "Find all files containing a specific text (string) on Linux?",
+      "link": "https://stackoverflow.com/questions/16956810/find-all-files-containing-a-specific-text-string-on-linux",
+      "excerp": "How do I find all files containing a specific string of text within their file contents? The following doesn't work. It seems to display every single file in the system. find / -type f -exec grep -H '...",
+      "tags": [
+        "linux",
+        "text",
+        "grep",
+        "directory",
+        "find"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/LT4wS.png?s=32",
+        "name": "Nathan",
+        "link": "https://stackoverflow.com/users/954986/nathan",
+        "reputation": 78189
+      },
+      "date": "2013-06-06 08:06:45Z"
+    },
+    {
+      "score": 7613,
+      "views": 1629503,
+      "answers": 86,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do JavaScript closures work?",
+      "link": "https://stackoverflow.com/questions/111102/how-do-javascript-closures-work",
+      "excerp": "How would you explain JavaScript closures to someone with a knowledge of the concepts they consist of (for example functions, variables and the like), but does not understand closures themselves? I ...",
+      "tags": [
+        "javascript",
+        "function",
+        "variables",
+        "scope",
+        "closures"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/111102/revisions/users/821057",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 7608,
+      "views": 11869705,
+      "answers": 41,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I revert a Git repository to a previous commit?",
+      "link": "https://stackoverflow.com/questions/4114095/how-do-i-revert-a-git-repository-to-a-previous-commit",
+      "excerp": "How do I revert from my current state to a snapshot made on a certain commit? If I do git log, then I get the following output: $ git log commit a867b4af366350be2e7c21b8de9cc6504678a61b` Author: Me &...",
+      "tags": [
+        "git",
+        "git-checkout",
+        "git-reset",
+        "git-revert"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/94f2f4d10581cebd4432a10f66fec19f?s=32&d=identicon&r=PG",
+        "name": "Crazy Serb",
+        "link": "https://stackoverflow.com/users/111174/crazy-serb",
+        "reputation": 76320
+      },
+      "date": "2010-11-06 16:58:14Z"
+    },
+    {
+      "score": 7590,
+      "views": 813255,
+      "answers": 11,
+      "solved": true,
+      "bounty": 0,
+      "title": "Why is subtracting these two epoch-milli Times (in year 1927) giving a strange result?",
+      "link": "https://stackoverflow.com/questions/6841333/why-is-subtracting-these-two-epoch-milli-times-in-year-1927-giving-a-strange-r",
+      "excerp": "If I run the following program, which parses two date strings referencing times 1 second apart and compares them: public static void main(String[] args) throws ParseException { SimpleDateFormat sf ...",
+      "tags": [
+        "java",
+        "date",
+        "timezone"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/88e5a9eb011a73ab970ddc8cfb05ff85?s=32&d=identicon&r=PG",
+        "name": "Freewind",
+        "link": "https://stackoverflow.com/users/342235/freewind",
+        "reputation": 198068
+      },
+      "date": "2011-07-27 08:15:58Z"
+    },
+    {
+      "score": 7571,
+      "views": 1333957,
+      "answers": 67,
+      "solved": true,
+      "bounty": 0,
+      "title": "What is the difference between String and string in C#?",
+      "link": "https://stackoverflow.com/questions/7074/what-is-the-difference-between-string-and-string-in-c",
+      "excerp": "What are the differences between these two, and which one should I use? string s = &quot;Hello world!&quot;; String s = &quot;Hello world!&quot;;",
+      "tags": [
+        "c#",
+        ".net",
+        "string",
+        "types",
+        "alias"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/7074/revisions/users/815724",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 7552,
+      "views": 3305970,
+      "answers": 40,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I remove a property from a JavaScript object?",
+      "link": "https://stackoverflow.com/questions/208105/how-do-i-remove-a-property-from-a-javascript-object",
+      "excerp": "Given an object: let myObject = { &quot;ircEvent&quot;: &quot;PRIVMSG&quot;, &quot;method&quot;: &quot;newURI&quot;, &quot;regex&quot;: &quot;^http://.*&quot; }; How do I remove the property ...",
+      "tags": [
+        "javascript",
+        "object",
+        "properties"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/8b141abc20af8ebe4667df467a73cc15?s=32&d=identicon&r=PG",
+        "name": "johnstok",
+        "link": "https://stackoverflow.com/users/27929/johnstok",
+        "reputation": 98160
+      },
+      "date": "2008-10-16 10:57:45Z"
+    },
+    {
+      "score": 7457,
+      "views": 1214095,
+      "answers": 26,
+      "solved": true,
+      "bounty": 0,
+      "title": "What are metaclasses in Python?",
+      "link": "https://stackoverflow.com/questions/100003/what-are-metaclasses-in-python",
+      "excerp": "What are metaclasses? What are they used for?",
+      "tags": [
+        "python",
+        "oop",
+        "metaclass",
+        "python-class",
+        "python-datamodel"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/CIFG8.png?s=32",
+        "name": "Bite code",
+        "link": "https://stackoverflow.com/users/9951/bite-code",
+        "reputation": 595743
+      },
+      "date": "2008-09-19 06:10:46Z"
+    },
+    {
+      "score": 7406,
+      "views": 8224463,
+      "answers": 3,
+      "solved": true,
+      "bounty": 0,
+      "title": "How to check whether a string contains a substring in JavaScript?",
+      "link": "https://stackoverflow.com/questions/1789945/how-to-check-whether-a-string-contains-a-substring-in-javascript",
+      "excerp": "Usually I would expect a String.contains() method, but there doesn't seem to be one. What is a reasonable way to check for this?",
+      "tags": [
+        "javascript",
+        "string",
+        "substring",
+        "string-matching"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/1789945/revisions/users/815724",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 7259,
+      "views": 5792131,
+      "answers": 41,
+      "solved": false,
+      "bounty": 0,
+      "title": "How do I check whether a file exists without exceptions?",
+      "link": "https://stackoverflow.com/questions/82831/how-do-i-check-whether-a-file-exists-without-exceptions",
+      "excerp": "How do I check whether a file exists or not, without using the try statement?",
+      "tags": [
+        "python",
+        "file",
+        "file-exists"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/1d502f7932af0a41d8ff6ab5d9cf3406?s=32&d=identicon&r=PG",
+        "name": "spence91",
+        "link": "https://stackoverflow.com/users/15616/spence91",
+        "reputation": 79921
+      },
+      "date": "2008-09-17 12:55:00Z"
+    },
+    {
+      "score": 7059,
+      "views": 3503831,
+      "answers": 44,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I merge two dictionaries in a single expression in Python?",
+      "link": "https://stackoverflow.com/questions/38987/how-do-i-merge-two-dictionaries-in-a-single-expression-in-python",
+      "excerp": "I want to merge two dictionaries into a new dictionary. x = {'a': 1, 'b': 2} y = {'b': 3, 'c': 4} z = merge(x, y) &gt;&gt;&gt; z {'a': 1, 'b': 3, 'c': 4} Whenever a key k is present in both ...",
+      "tags": [
+        "python",
+        "dictionary",
+        "merge"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/b1f36e554be0e1ae19f9a74d6ece9107?s=32&d=identicon&r=PG",
+        "name": "Carl Meyer",
+        "link": "https://stackoverflow.com/users/3207/carl-meyer",
+        "reputation": 126411
+      },
+      "date": "2008-09-02 07:44:30Z"
+    },
+    {
+      "score": 6721,
+      "views": 2146453,
+      "answers": 43,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I return the response from an asynchronous call?",
+      "link": "https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call",
+      "excerp": "How do I return the response/result from a function foo that makes an asynchronous request? I am trying to return the value from the callback, as well as assigning the result to a local variable ...",
+      "tags": [
+        "javascript",
+        "ajax",
+        "asynchronous"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/4P5DY.jpg?s=32",
+        "name": "Felix Kling",
+        "link": "https://stackoverflow.com/users/218196/felix-kling",
+        "reputation": 815676
+      },
+      "date": "2013-01-08 17:06:14Z"
+    },
+    {
+      "score": 6677,
+      "views": 1894900,
+      "answers": 24,
+      "solved": true,
+      "bounty": 0,
+      "title": "Move the most recent commit(s) to a new branch with Git",
+      "link": "https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git",
+      "excerp": "How do I move my recent commits on master to a new branch, and reset master to before those commits were made? e.g. From this: master A - B - C - D - E To this: newbranch C - D - E / ...",
+      "tags": [
+        "git",
+        "git-branch",
+        "branching-and-merging"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/393d9d6acd3ba4ed8ea921dd997d9144?s=32&d=identicon&r=PG",
+        "name": "Mark A. Nicolosi",
+        "link": "https://stackoverflow.com/users/1103052/mark-a-nicolosi",
+        "reputation": 85461
+      },
+      "date": "2009-10-27 03:07:34Z"
+    },
+    {
+      "score": 6655,
+      "views": 4760480,
+      "answers": 36,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I change the URI (URL) for a remote Git repository?",
+      "link": "https://stackoverflow.com/questions/2432764/how-do-i-change-the-uri-url-for-a-remote-git-repository",
+      "excerp": "I have a repo (origin) on a USB key that I cloned on my hard drive (local). I moved &quot;origin&quot; to a NAS and successfully tested cloning it from here. I would like to know if I can change the ...",
+      "tags": [
+        "git",
+        "url",
+        "git-remote"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/CIFG8.png?s=32",
+        "name": "Bite code",
+        "link": "https://stackoverflow.com/users/9951/bite-code",
+        "reputation": 595743
+      },
+      "date": "2010-03-12 12:48:47Z"
+    },
+    {
+      "score": 6413,
+      "views": 1514678,
+      "answers": 34,
+      "solved": true,
+      "bounty": 0,
+      "title": "What is the difference between px, dip, dp, and sp?",
+      "link": "https://stackoverflow.com/questions/2025282/what-is-the-difference-between-px-dip-dp-and-sp",
+      "excerp": "What is the difference between the units of measure px, dip, dp, and sp?",
+      "tags": [
+        "android",
+        "android-layout",
+        "user-interface",
+        "dimension",
+        "units-of-measurement"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/a246044d1113994fba38a67ce0205ed9?s=32&d=identicon&r=PG",
+        "name": "capecrawler",
+        "link": "https://stackoverflow.com/users/235885/capecrawler",
+        "reputation": 68163
+      },
+      "date": "2010-01-08 03:23:46Z"
+    },
+    {
+      "score": 6412,
+      "views": 3550954,
+      "answers": 42,
+      "solved": true,
+      "bounty": 0,
+      "title": "What is the difference between POST and PUT in HTTP?",
+      "link": "https://stackoverflow.com/questions/630453/what-is-the-difference-between-post-and-put-in-http",
+      "excerp": "Background Information Analysis: According to RFC 2616, § 9.5, POST is used to create a resource: The POST method is used to request that the origin server accept the entity enclosed in the request ...",
+      "tags": [
+        "http",
+        "rest",
+        "post",
+        "put"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/145778821ba747dd30334c0703ebd57f?s=32&d=identicon&r=PG",
+        "name": "alex",
+        "link": "https://stackoverflow.com/users/19268/alex",
+        "reputation": 75885
+      },
+      "date": "2009-03-10 14:25:20Z"
+    },
+    {
+      "score": 6387,
+      "views": 4345807,
+      "answers": 40,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I discard unstaged changes in Git?",
+      "link": "https://stackoverflow.com/questions/52704/how-do-i-discard-unstaged-changes-in-git",
+      "excerp": "How do I discard changes in my working copy that are not in the index?",
+      "tags": [
+        "git",
+        "version-control",
+        "git-restore"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/a92525f049e20db8f4ce3d62f3f0bb2b?s=32&d=identicon&r=PG",
+        "name": "readonly",
+        "link": "https://stackoverflow.com/users/4883/readonly",
+        "reputation": 354876
+      },
+      "date": "2008-09-09 19:33:59Z"
+    },
+    {
+      "score": 6356,
+      "views": 4474550,
+      "answers": 72,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I include a JavaScript file in another JavaScript file?",
+      "link": "https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file",
+      "excerp": "How do I include a JavaScript file inside another JavaScript file, similar to @import in CSS?",
+      "tags": [
+        "javascript",
+        "file",
+        "import",
+        "include"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/77f6618dd027eb4c6e4435d206dbd1c3?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "Alec Smart",
+        "link": "https://stackoverflow.com/users/426996/alec-smart",
+        "reputation": 95790
+      },
+      "date": "2009-06-04 11:59:50Z"
+    },
+    {
+      "score": 6343,
+      "views": 2358030,
+      "answers": 38,
+      "solved": true,
+      "bounty": 0,
+      "title": "What is the difference between \"let\" and \"var\"?",
+      "link": "https://stackoverflow.com/questions/762011/what-is-the-difference-between-let-and-var",
+      "excerp": "ECMAScript 6 introduced the let declaration keyword. I've heard that it's described as a local variable, but I'm still not quite sure how it behaves differently than the var keyword. What are the ...",
+      "tags": [
+        "javascript",
+        "scope",
+        "ecmascript-6",
+        "var",
+        "let"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/b33e8a75c925b361be8ff9568e35b26c?s=32&d=identicon&r=PG",
+        "name": "TM.",
+        "link": "https://stackoverflow.com/users/12983/tm",
+        "reputation": 110887
+      },
+      "date": "2009-04-17 20:09:26Z"
+    },
+    {
+      "score": 6335,
+      "views": 2709230,
+      "answers": 78,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I get the directory where a Bash script is located from within the script itself?",
+      "link": "https://stackoverflow.com/questions/59895/how-do-i-get-the-directory-where-a-bash-script-is-located-from-within-the-script",
+      "excerp": "How do I get the path of the directory in which a Bash script is located, inside that script? I want to use a Bash script as a launcher for another application. I want to change the working directory ...",
+      "tags": [
+        "bash",
+        "directory"
+      ],
+      "author": {
+        "avatar": null,
+        "name": "Community wiki",
+        "link": "https://stackoverflow.com/posts/59895/revisions/users/63550",
+        "reputation": 0
+      },
+      "date": ""
+    },
+    {
+      "score": 6229,
+      "views": 4997629,
+      "answers": 66,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I execute a program or call a system command?",
+      "link": "https://stackoverflow.com/questions/89228/how-do-i-execute-a-program-or-call-a-system-command",
+      "excerp": "How do I call an external command within Python as if I had typed it in a shell or command prompt?",
+      "tags": [
+        "python",
+        "shell",
+        "terminal",
+        "subprocess",
+        "command"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/d386a6f2f3dda7bcf7f1e11c2171946b?s=32&d=identicon&r=PG",
+        "name": "freshWoWer",
+        "link": "https://stackoverflow.com/users/17085/freshwower",
+        "reputation": 64119
+      },
+      "date": "2008-09-18 01:35:30Z"
+    },
+    {
+      "score": 6137,
+      "views": 2770925,
+      "answers": 45,
+      "solved": false,
+      "bounty": 0,
+      "title": "How to disable text selection highlighting",
+      "link": "https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting",
+      "excerp": "For anchors that act like buttons (for example, the buttons on the sidebar of this Stack Overflow page titled Questions, Tags, and Users) or tabs, is there a CSS standard way to disable the ...",
+      "tags": [
+        "css",
+        "cross-browser",
+        "highlight",
+        "textselection"
+      ],
+      "author": {
+        "avatar": "https://cdn.sstatic.net/Img/user.svg?v=20c64bb67fc9",
+        "name": "anon",
+        "link": null,
+        "reputation": 0
+      },
+      "date": "2009-05-05 20:29:18Z"
+    },
+    {
+      "score": 5874,
+      "views": 6802533,
+      "answers": 26,
+      "solved": true,
+      "bounty": 0,
+      "title": "Reset local repository branch to be just like remote repository HEAD",
+      "link": "https://stackoverflow.com/questions/1628088/reset-local-repository-branch-to-be-just-like-remote-repository-head",
+      "excerp": "How do I reset my local branch to be just like the branch on the remote repository? I tried: git reset --hard HEAD But git status claims I have modified files: On branch master Changes to be ...",
+      "tags": [
+        "git",
+        "undo"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/da7a3c3efd21c067831e68c9c9c55636?s=32&d=identicon&r=PG",
+        "name": "hap497",
+        "link": "https://stackoverflow.com/users/128983/hap497",
+        "reputation": 162607
+      },
+      "date": "2009-10-27 00:27:20Z"
+    },
+    {
+      "score": 5815,
+      "views": 3159733,
+      "answers": 37,
+      "solved": true,
+      "bounty": 0,
+      "title": "How can I reset or revert a file to a specific revision?",
+      "link": "https://stackoverflow.com/questions/215718/how-can-i-reset-or-revert-a-file-to-a-specific-revision",
+      "excerp": "How can I revert a modified file to its previous revision at a specific commit hash (which I determined via git log and git diff)?",
+      "tags": [
+        "git",
+        "version-control",
+        "git-checkout",
+        "git-restore"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/rOJJg.png?s=32",
+        "name": "Hates_",
+        "link": "https://stackoverflow.com/users/3410/hates",
+        "reputation": 68581
+      },
+      "date": "2008-10-18 23:34:02Z"
+    },
+    {
+      "score": 5793,
+      "views": 1759279,
+      "answers": 19,
+      "solved": true,
+      "bounty": 0,
+      "title": "What is the maximum length of a URL in different browsers?",
+      "link": "https://stackoverflow.com/questions/417142/what-is-the-maximum-length-of-a-url-in-different-browsers",
+      "excerp": "What is the maximum length of a URL for each browser? Is a maximum URL length part of the HTTP specification?",
+      "tags": [
+        "http",
+        "url",
+        "browser"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/d45a34439ae17a079045a23df5131b91?s=32&d=identicon&r=PG",
+        "name": "Sander Versluys",
+        "link": "https://stackoverflow.com/users/2172/sander-versluys",
+        "reputation": 74357
+      },
+      "date": "2009-01-06 16:14:30Z"
+    },
+    {
+      "score": 5766,
+      "views": 5426801,
+      "answers": 41,
+      "solved": true,
+      "bounty": 0,
+      "title": "Loop (for each) over an array in JavaScript",
+      "link": "https://stackoverflow.com/questions/9329446/loop-for-each-over-an-array-in-javascript",
+      "excerp": "How can I loop through all the entries in an array using JavaScript?",
+      "tags": [
+        "javascript",
+        "arrays",
+        "loops",
+        "foreach",
+        "iteration"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/35c44645d7729e6828f494f5e20d5909?s=32&d=identicon&r=PG",
+        "name": "Dante1986",
+        "link": "https://stackoverflow.com/users/1140876/dante1986",
+        "reputation": 59869
+      },
+      "date": "2012-02-17 13:51:48Z"
+    }
+  ]
+}

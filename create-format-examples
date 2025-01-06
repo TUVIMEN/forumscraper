@@ -1,7 +1,7 @@
 #!/bin/bash
 
 fsc() {
-    python -m forumscraper -m 10 -r 0 -k --reactions --users "$@"
+    python -m forumscraper -m 10 -r 0 -k -w 0.3 --reactions --users "$@"
 }
 
 fscb() {
@@ -48,7 +48,6 @@ fscb -d examples/smf/1 'https://forum.uqm.stack.nl/index.php?board=2.0'
 
 fsc -d examples/smf/2 'https://arizonagunowners.com/index.php/topic,16.0.html'
 fsc -d examples/smf/2 'https://www.chemicalforums.com/index.php?topic=90079.0'
-fsc -d examples/smf/2 'http://bagnasadobre.org.pl/index.php?topic=9.0'
 fsc -d examples/smf/2 'https://forum.nasm.us/index.php?topic=1203.0'
 fsc -d examples/smf/2 'https://www.nukeworker.com/forum/index.php/topic,38497.0.html'
 fsc -d examples/smf/2 'https://www.simplemachines.org/community/index.php?topic=557176.0'
@@ -101,18 +100,6 @@ fscb -d examples/xmb 'https://div-arena.co.uk/forum2/forumdisplay.php?fid=3'
 fscb -d examples/xmb 'https://locostbuilders.co.uk/forum/2/'
 fscb -d examples/xmb 'https://forums.xmbforum2.com/forumdisplay.php?fid=29'
 
-fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=jchw'
-fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=kragen'
-fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=lelanthran'
-fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41427563'
-fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41425150'
-fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41434637'
-fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41425910'
-fscb -d examples/hackernews 'https://news.ycombinator.com/news'
-fscb -d examples/hackernews 'https://news.ycombinator.com/front'
-fscb -d examples/hackernews 'https://news.ycombinator.com/ask'
-fscb -d examples/hackernews 'https://news.ycombinator.com/show'
-
 fsc -d examples/stackexchange 'https://serverfault.com/questions/293217/our-security-auditor-is-an-idiot-how-do-i-give-him-the-information-he-wants'
 fsc -d examples/stackexchange 'https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-local-commits-in-git'
 fsc -d examples/stackexchange 'https://skeptics.stackexchange.com/questions/47735/did-jeffrey-epstein-take-his-own-life'
@@ -147,5 +134,17 @@ fscb -d examples/vbulletin 'https://www.utzone.de/forum/forumdisplay.php?s=78301
 fscb -d examples/vbulletin 'https://www.ifans.pl/forumdisplay.php?118-Instrukcje'
 fscb -d examples/vbulletin 'https://forums.edelbrock.com/forum/edelbrock-electronics-and-efi/legacy-efi-systems'
 fscb -d examples/vbulletin 'http://www.mfarmer.ru/forumdisplay.php?f=14'
+
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=pythonbrad'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=inejge'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/user?id=MehdiHK'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41427563'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41425150'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41434637'
+fsc -w 4 -d examples/hackernews 'https://news.ycombinator.com/item?id=41425910'
+fscb -d examples/hackernews 'https://news.ycombinator.com/news'
+fscb -d examples/hackernews 'https://news.ycombinator.com/front'
+fscb -d examples/hackernews 'https://news.ycombinator.com/ask'
+fscb -d examples/hackernews 'https://news.ycombinator.com/show'
 
 find examples -type f | parallel 'jq . {} | sponge {}'

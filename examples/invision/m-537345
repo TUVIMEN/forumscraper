@@ -3,23 +3,32 @@
   "url": "https://invisioncommunity.com/profile/537345-mike-g/?do=hovercard",
   "id": 537345,
   "name": "Mike G.",
-  "background": "https://content.invisioncic.com/a319035/monthly_2024_06/markup_1000008229.jpg.d5267f7513d5e4a6975fd3713b9231cc.jpg",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2024_06/MyProfilePicture.thumb.jpg.6b435273984cf1d4ce83718d7828f1f4.thumb.jpg.2258835e1e51170b84a4a3b3b9f562aa.jpg",
+  "background": "https://media.invisioncic.com/a319035/monthly_2024_06/markup_1000008229.jpg.d5267f7513d5e4a6975fd3713b9231cc.jpg",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2024_06/MyProfilePicture.thumb.jpg.6b435273984cf1d4ce83718d7828f1f4.thumb.jpg.2258835e1e51170b84a4a3b3b9f562aa.jpg",
   "group": "Clients",
-  "joined": "2014-12-27T02:59:02Z",
-  "lastseen": "2024-07-19T06:35:56Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "94"
+      "value": "155"
     },
     {
       "name": "Reputation",
-      "value": "100"
+      "value": "158"
     },
     {
       "name": "Badges",
       "value": "9"
     }
+  ],
+  "rank": "Rank: Community Regular (7/13)",
+  "rank_date": "2024-10-14T14:25:29Z",
+  "badges": [
+    "Very Popular",
+    "Reacting Well",
+    "Conversation Starter",
+    "First Post",
+    "Collaborator"
   ]
 }

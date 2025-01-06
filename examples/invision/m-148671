@@ -3,23 +3,32 @@
   "url": "https://invisioncommunity.com/profile/148671-claudia999/?do=hovercard",
   "id": 148671,
   "name": "Claudia999",
-  "background": "https://content.invisioncic.com/a319035/monthly_2019_03/ampelmaennchen.jpg.b59a690e2ebd479d28071e53c39d4d81.jpg",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2022_11/profilbild-commander-keen.thumb.jpg.9dc693a12ab43cd05d859e874b6e3335.jpg",
+  "background": "https://media.invisioncic.com/a319035/monthly_2019_03/ampelmaennchen.jpg.b59a690e2ebd479d28071e53c39d4d81.jpg",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2022_11/profilbild-commander-keen.thumb.jpg.9dc693a12ab43cd05d859e874b6e3335.jpg",
   "group": "Clients",
-  "joined": "2009-10-02T08:00:12Z",
-  "lastseen": "2024-07-19T13:37:43Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "810"
+      "value": "819"
     },
     {
       "name": "Reputation",
-      "value": "267"
+      "value": "275"
     },
     {
       "name": "Badges",
       "value": "11"
     }
+  ],
+  "rank": "Rank: Proficient (9/13)",
+  "rank_date": "",
+  "badges": [
+    "Dedicated",
+    "Week One Done",
+    "One Month Later",
+    "One Year In",
+    "Reacting Well"
   ]
 }

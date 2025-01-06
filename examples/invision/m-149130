@@ -3,11 +3,11 @@
   "url": "https://invisioncommunity.com/profile/149130-alexj/?do=hovercard",
   "id": 149130,
   "name": "AlexJ",
-  "background": "https://content.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
-  "avatar": "https://content.invisioncic.com/a319035/monthly_2023_02/large.8466462590_bd62f13e8e_o.jpg.8f3e477af0736c7c5211275770fed7ef.thumb.jpg.ac44917bbd02f969d037933c94bb5db1.jpg",
-  "group": "Clients",
-  "joined": "2009-10-13T01:00:39Z",
-  "lastseen": "2024-07-18T20:05:08Z",
+  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "avatar": "https://media.invisioncic.com/a319035/monthly_2023_02/large.8466462590_bd62f13e8e_o.jpg.8f3e477af0736c7c5211275770fed7ef.thumb.jpg.ac44917bbd02f969d037933c94bb5db1.jpg",
+  "group": "Members",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
@@ -15,11 +15,20 @@
     },
     {
       "name": "Reputation",
-      "value": "721"
+      "value": "728"
     },
     {
       "name": "Badges",
       "value": "11"
     }
+  ],
+  "rank": "Rank: Veteran (12/13)",
+  "rank_date": "",
+  "badges": [
+    "Dedicated",
+    "Week One Done",
+    "One Month Later",
+    "One Year In",
+    "Conversation Starter"
   ]
 }

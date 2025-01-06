@@ -13,7 +13,7 @@
   ],
   "meta-profile": "",
   "network-profile": "https://stackexchange.com/users/816974/kernel",
-  "reputation": 8751,
+  "reputation": 8811,
   "reached": 1300000,
   "answers": 0,
   "questions": 12,
@@ -129,7 +129,7 @@
       "posts-percent": 25,
       "answered": 0,
       "ansked": 3,
-      "asked-score": 809
+      "asked-score": 812
     },
     {
       "link": "https://serverfault.com/search?q=user:77159+[netstat]",
@@ -162,7 +162,7 @@
       "posts-percent": 8,
       "answered": 0,
       "ansked": 1,
-      "asked-score": 44
+      "asked-score": 47
     },
     {
       "link": "https://serverfault.com/search?q=user:77159+[pattern-matching]",
@@ -193,7 +193,7 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 797,
+      "votes": 800,
       "link": "https://serverfault.com/questions/264595/can-scp-copy-directories-recursively",
       "title": "Can scp copy directories recursively?",
       "date": "2011-04-29 04:24:45Z"
@@ -201,7 +201,7 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 44,
+      "votes": 47,
       "link": "https://serverfault.com/questions/312221/can-a-single-network-card-have-2-ip-addresses",
       "title": "Can a single network card have 2 IP addresses?",
       "date": "2011-09-16 15:06:39Z"
@@ -211,7 +211,7 @@
       "answered": true,
       "votes": 8,
       "link": "https://serverfault.com/questions/306772/how-to-do-du-on-all-files-under-a-directory-in-linux",
-      "title": "How to do &quot;du&quot; on all files under a directory in linux?",
+      "title": "How to do \"du\" on all files under a directory in linux?",
       "date": "2011-08-31 11:08:48Z"
     },
     {

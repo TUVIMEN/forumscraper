@@ -1,0 +1,3841 @@
+{
+  "format_version": "hackernews-user",
+  "url": "https://news.ycombinator.com/user?id=MehdiHK",
+  "id": "MehdiHK",
+  "created-timestamp": "1400549769",
+  "user": "MehdiHK",
+  "created-date": "May 20, 2014",
+  "karma": 172,
+  "about": "https:&#x2F;&#x2F;mehdikhan.dev&#x2F;<p>[ my public key: https:&#x2F;&#x2F;keybase.io&#x2F;mhasan; my proof: https:&#x2F;&#x2F;keybase.io&#x2F;mhasan&#x2F;sigs&#x2F;KBvQ00IEZLQoRwPf1IbPnoNDBPhGMB922CQ8nqjvIug ]",
+  "submissions-link": "https://news.ycombinator.com/submitted?id=MehdiHK",
+  "comments-link": "https://news.ycombinator.com/threads?id=MehdiHK",
+  "favorites-link": "https://news.ycombinator.com/favorites?id=MehdiHK",
+  "submissions": [
+    {
+      "id": 25862519,
+      "link": "https://news.ycombinator.com/item?id=25862519",
+      "title": "Ask HN: How to find the energy for side projects after day job?",
+      "score": 35,
+      "date": "2021-01-21T18:52:47 1611255167",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "comments_count": 35,
+      "comments_link": "https://news.ycombinator.com/item?id=25862519",
+      "text": ""
+    },
+    {
+      "id": 22965679,
+      "link": "https://news.ycombinator.com/item?id=22965679",
+      "title": "Ask HN: How do services like Zapier, IFTTT test API integrations at scale?",
+      "score": 4,
+      "date": "2020-04-24T07:58:04 1587715084",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "comments_count": 0,
+      "comments_link": null,
+      "text": ""
+    },
+    {
+      "id": 21331739,
+      "link": "https://www.youtube.com/watch?v=j0uFAynIGt8",
+      "title": "*-Oriented Programming, by Graham Lee (2015) [video]",
+      "score": 3,
+      "date": "2019-10-23T06:37:21 1571812641",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "comments_count": 0,
+      "comments_link": null,
+      "text": ""
+    },
+    {
+      "id": 10482069,
+      "link": "https://news.ycombinator.com/item?id=10482069",
+      "title": "Ask HN: What happened to Express.js?",
+      "score": 14,
+      "date": "2015-10-31T07:10:55 1446275455",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "comments_count": 11,
+      "comments_link": "https://news.ycombinator.com/item?id=10482069",
+      "text": ""
+    }
+  ],
+  "comments": [
+    {
+      "id": 41874134,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-10-17T21:45:10 1729201510",
+      "onstory": {
+        "name": "Show HN: Kloudlite – Open-Source Dev Environments ...",
+        "link": "https://news.ycombinator.com/item?id=41861895"
+      },
+      "text": "How does it compare to Telepresence?<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;telepresenceio&#x2F;telepresence\">https:&#x2F;&#x2F;github.com&#x2F;telepresenceio&#x2F;telepresence</a>"
+    },
+    {
+      "id": 41876070,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kloudlite1729",
+        "name": "kloudlite1729"
+      },
+      "date": "2024-10-18T03:17:22 1729221442",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Telepresence mainly tunnels traffic from existing services within Kubernetes namespaces.<p>Kloudlite, on the other hand, orchestrates environments and managed services, connecting them to workspaces without exposing Kubernetes APIs to the end user.<p>From a networking perspective, Kloudlite offers technical advantages. It operates at OSI Layers 3 and 4 using a WireGuard network, while Telepresence functions primarily at Layer 7 and partly at Layer 4 using application proxies. Because Kloudlite works at Layer 3, it provides a higher level of abstraction for connecting services and devices.<p>You can link multiple clusters—including your local machine—within your team. All environments and services managed by Kloudlite become part of the same WireGuard network.<p>For example, you can create a shared database in a remote cloud cluster, clone environments and apps to a local cluster, and start development. Another developer on a different machine can easily switch to your environment and access the same services, enabling seamless collaboration. Since Kloudlite uses a WireGuard network, any device with a WireGuard client can connect to access these services."
+    },
+    {
+      "id": 41523701,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-12T18:04:02 1726164242",
+      "onstory": {
+        "name": "Serverless Prometheus Playground: 13M+ time-series...",
+        "link": "https://news.ycombinator.com/item?id=41521798"
+      },
+      "text": "Prometheus scrapes metrics at constant intervals. How does being serverless helps here?"
+    },
+    {
+      "id": 41524096,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mvijaykarthik",
+        "name": "mvijaykarthik"
+      },
+      "date": "2024-09-12T18:40:09 1726166409",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Good question! Scraping and ingestion continues to use dedicated compute.<p>Serverless helps with query performance. Queries can be parallelized with serverless functions, this especially helps with long range queries. As an added advantage, compute does not have to be pre-provisioned for queries.<p>Here&#x27;s an overview of how things fit together - <a href=\"https:&#x2F;&#x2F;oodle.ai&#x2F;product#magic-behind-oodle\" rel=\"nofollow\">https:&#x2F;&#x2F;oodle.ai&#x2F;product#magic-behind-oodle</a>"
+    },
+    {
+      "id": 41526896,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-12T23:57:35 1726185455",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That&#x27;s quite interesting. Thank you for the link."
+    },
+    {
+      "id": 41503138,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-10T17:16:09 1725988569",
+      "onstory": {
+        "name": "A good day to trie-hard: saving compute 1% at a ti...",
+        "link": "https://news.ycombinator.com/item?id=41501496"
+      },
+      "text": "Slightly off topic: I was a bit surprised nobody ported space-efficient marisa trie to Rust, or any other languages.<p>Anybody knows why?<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;s-yata&#x2F;marisa-trie\">https:&#x2F;&#x2F;github.com&#x2F;s-yata&#x2F;marisa-trie</a>"
+    },
+    {
+      "id": 41428462,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-02T20:16:36 1725308196",
+      "onstory": {
+        "name": "Show HN: A modern way to type in African languages",
+        "link": "https://news.ycombinator.com/item?id=41427563"
+      },
+      "text": "Cool. Do you have plans for Windows and macOS frontends?"
+    },
+    {
+      "id": 41428821,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:05:58 1725311158",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Windows is supported through <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish</a>"
+    },
+    {
+      "id": 41428950,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-09-02T21:29:25 1725312565",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Oh, didn&#x27;t realize that. How does it handle key input in Windows? Text Services Framework or something else?"
+    },
+    {
+      "id": 41428988,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-02T21:37:01 1725313021",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The initial work was a prototype, we are currently working on the usage of text service for windows, and IBUS for Linux (mainly Wayland environment).<p>But the next release, will take a time, since we are not familiar with these technologies. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242</a>"
+    },
+    {
+      "id": 41429863,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pentamassiv",
+        "name": "pentamassiv"
+      },
+      "date": "2024-09-03T00:06:01 1725321961",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You could update the dependency &quot;enigo&quot; to the current version. I&#x27;ve implemented experimental support for Wayland. It can use Wayland protocols or libei. There will probably be bugs that&#x27;s why it&#x27;s hidden behind feature flags.<p>I&#x27;m the maintainer, so if you need anything, please let me know"
+    },
+    {
+      "id": 41429994,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "date": "2024-09-03T00:29:59 1725323399",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks, currently I am using Debian (Wayland) and it will be great to test this enigo feature."
+    },
+    {
+      "id": 41429875,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pentamassiv",
+        "name": "pentamassiv"
+      },
+      "date": "2024-09-03T00:08:00 1725322080",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I didn&#x27;t look at the code but the Cargo.toml file says it&#x27;s using enigo as it&#x27;s dependency. You can use that to simulate input an Windows, macOS and Linux"
+    },
+    {
+      "id": 39971642,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-04-08T17:00:15 1712595615",
+      "onstory": {
+        "name": "Blocky – a DNS proxy and ad-blocker for the local ...",
+        "link": "https://news.ycombinator.com/item?id=39968103"
+      },
+      "text": "I use revanced for this on Android. Pretty cool, adblocker, sponsor block, customization like removing shorts. It patches YouTube APK, so you retain same UX, no need to use a new app.<p>Edit: forgot to add link - <a href=\"https:&#x2F;&#x2F;revanced.app&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;revanced.app&#x2F;</a><p>Be aware of the fake ones."
+    },
+    {
+      "id": 39027300,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2024-01-17T13:25:03 1705497903",
+      "onstory": {
+        "name": "30 years later, QBasic is still the best (2016)",
+        "link": "https://news.ycombinator.com/item?id=39021946"
+      },
+      "text": "See MakeCode: <a href=\"https:&#x2F;&#x2F;www.microsoft.com&#x2F;en-us&#x2F;makecode\" rel=\"nofollow\">https:&#x2F;&#x2F;www.microsoft.com&#x2F;en-us&#x2F;makecode</a><p>It starts like Scratch but then can help kids transition from block-based to text-based programming (JavaScript or Python)."
+    },
+    {
+      "id": 37154431,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2023-08-16T21:57:39 1692223059",
+      "onstory": {
+        "name": "Ask HN: What are some self-hosted photo organizing...",
+        "link": "https://news.ycombinator.com/item?id=37150986"
+      },
+      "text": "I recently discovered Photostructure. After trying a few other alternatives, this is what I prefer now.<p><a href=\"https:&#x2F;&#x2F;photostructure.com&#x2F;faq&#x2F;why-photostructure&#x2F;\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;photostructure.com&#x2F;faq&#x2F;why-photostructure&#x2F;</a>"
+    },
+    {
+      "id": 37154811,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mceachen",
+        "name": "mceachen"
+      },
+      "date": "2023-08-16T22:36:24 1692225384",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Neat! I&#x27;m the solo developer of PhotoStructure.<p>Know that there&#x27;s a very active community of PhotoStructure users on Discord: <a href=\"https:&#x2F;&#x2F;photostructure.com&#x2F;go&#x2F;discord&#x2F;\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;photostructure.com&#x2F;go&#x2F;discord&#x2F;</a> -- although I opened it as just another support channel, it&#x27;s evolved to include discussions about future feature work, self-hosting, digital archival, privacy news, hardware, and photography, too.<p>I self-host <a href=\"https:&#x2F;&#x2F;forum.photostructure.com&#x2F;\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;forum.photostructure.com&#x2F;</a> that uses Discourse, but it has 10-20x fewer posts on it than Discord.<p>OP: Make sure you get backups in place (and one offline) before trying any of the software suggested here--it reduces your risk from &quot;oh-no-what-have-I-done&quot; and &quot;what-in-the-actual-heck-is-this-app-doing-and-where-did-all-my-files-go&quot; to zero."
+    },
+    {
+      "id": 35845394,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2023-05-06T21:11:23 1683407483",
+      "onstory": {
+        "name": "Language Learning with Netflix",
+        "link": "https://news.ycombinator.com/item?id=35843639"
+      },
+      "text": "I recently switched to <a href=\"https:&#x2F;&#x2F;www.trancy.org&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.trancy.org&#x2F;</a>"
+    },
+    {
+      "id": 35851615,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=aix1",
+        "name": "aix1"
+      },
+      "date": "2023-05-07T14:02:18 1683468138",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks for sharing. It looks very cool. May I ask which Trancy tools are you using and how is it going?<p>I just gave it a quick try and wasn&#x27;t impressed by the current state of things.<p>1a. The Language Reactor-style plugin. On YouTube, it seems to require that I disable AdBlock on the channels I want to watch. Why is that even a requirement?! I didn&#x27;t like the idea and gave up.<p>1b. On Netflix, the first film I tried (Weißbier im Blut) failed with &quot;no machine subtitles&quot; or something to that effect. The show does have subtitles, and LR works, so I am not sure what the problem is.<p>2. I asked it to proofread a paragraph from &quot;Die Schatzinsel&quot;. What I got back was a mix of German, English and gibberish (truncated for brevity):<p>&lt;trancy&gt;<p>At dabei first ru,h Iig always weiter thought ra &quot;uchthete dead. man Der&#x27;s Kap chestit&quot;än st mustarr bete the ihn same eine large We suitcaseile in the an front, room dann, sch andlug in er my wieder nightmares mit der, Fa I hadust associated auf den this T thought withisch the, one st-leggedarr sailorte. sch Butär by nowfer und, br weach had long schließlich since stopped mit paying einem sche any attentionuß tolichen the, lyrics geme ofinen the Fl songuch, in and die on this W eveningorte aus,: it &quot; wasR onlyuhe new, to Ihr Dr da. dr Livesüayben,.&quot;<p>andScore it seemed: to9 make&#x2F; no10 good<p>impressionIncorrect on him words because and he phrases: looked None quite<p>annoyedSuggestions before: continuing None his<p>conversationPol withishing the:<p>old- gardener Anfang Taylors about d aachte new rhe ich immerumat,ism....<p>&lt;&#x2F;trancy&gt;"
+    },
+    {
+      "id": 33792907,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2022-11-29T20:35:13 1669754113",
+      "onstory": {
+        "name": "An extensive tutorial on how to setup a Pi-Hole",
+        "link": "https://news.ycombinator.com/item?id=33787505"
+      },
+      "text": "Came here to write about AdGuardHome too. I was PiHole user until I found this. So much polished, so much better. This folks deserve more publicity."
+    },
+    {
+      "id": 33197130,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2022-10-13T22:12:50 1665699170",
+      "onstory": {
+        "name": "Ask HN: Do you all have enough to do at work?",
+        "link": "https://news.ycombinator.com/item?id=33196641"
+      },
+      "text": "I don&#x27;t have enough HN points to downvote this comment, otherwise I would.<p>You don&#x27;t know how comments like this affects people with anxiety, which probably led them to search for a solution online in the first place.<p>Anyway, you are person unworthy of any attention. I&#x27;m just trying to make sure op isn&#x27;t taking you seriously."
+    },
+    {
+      "id": 32599201,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2022-08-25T19:57:53 1661457473",
+      "onstory": {
+        "name": "We compiled a library of realistic engineering tak...",
+        "link": "https://news.ycombinator.com/item?id=32597502"
+      },
+      "text": "One solution that seemed to be the best of both is, a take home test followed by pair programming session to add a small feature on top of that, or refactor something, or write tests etc.<p>Real world challenges needs time to think, often time to refactor after initial working prototype. A take home allows that.<p>Also the candidate is already relaxed in the pair programming session because it&#x27;s a familiar codebase. You&#x27;ll get signal if they didn&#x27;t write it or wrote something they didn&#x27;t quite understand."
+    },
+    {
+      "id": 27583825,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2021-06-21T20:15:24 1624306524",
+      "onstory": {
+        "name": "Git undo: We can do better",
+        "link": "https://news.ycombinator.com/item?id=27579701"
+      },
+      "text": "Git Tower GUI app has undo feature too, which is very handy. They announced it in this post: <a href=\"https:&#x2F;&#x2F;www.git-tower.com&#x2F;blog&#x2F;how-we-built-undo&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.git-tower.com&#x2F;blog&#x2F;how-we-built-undo&#x2F;</a>"
+    },
+    {
+      "id": 27439368,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2021-06-08T19:00:30 1623178830",
+      "onstory": {
+        "name": "Terraform 1.0",
+        "link": "https://news.ycombinator.com/item?id=27433863"
+      },
+      "text": "Have you seen Terraform CDK? <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hashicorp&#x2F;terraform-cdk\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hashicorp&#x2F;terraform-cdk</a>"
+    },
+    {
+      "id": 27443112,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=borplk",
+        "name": "borplk"
+      },
+      "date": "2021-06-09T01:15:11 1623201311",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "A CDK-style Terraform seems perfect. Seems a bit early days but I look forward to it gaining traction."
+    },
+    {
+      "id": 27439352,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2021-06-08T18:59:04 1623178744",
+      "onstory": {
+        "name": "Terraform 1.0",
+        "link": "https://news.ycombinator.com/item?id=27433863"
+      },
+      "text": "Terraform CDK is a thing too, if you want to go beyond AWS."
+    },
+    {
+      "id": 26461548,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2021-03-15T01:24:17 1615771457",
+      "onstory": {
+        "name": "Ask HN: What do you do to get your kids to program...",
+        "link": "https://news.ycombinator.com/item?id=26457473"
+      },
+      "text": "We are going to upgrade from LEGO Boost + block based coding [1] to LEGO Mindstorms + Python [2] this year.<p>[1] <a href=\"https:&#x2F;&#x2F;www.lego.com&#x2F;en-us&#x2F;service&#x2F;help&#x2F;products&#x2F;electronics-robotics&#x2F;boost&#x2F;guide-to-lego-boost-programming-blocks-408100000009897\" rel=\"nofollow\">https:&#x2F;&#x2F;www.lego.com&#x2F;en-us&#x2F;service&#x2F;help&#x2F;products&#x2F;electronics...</a><p>[2] <a href=\"https:&#x2F;&#x2F;youtube.com&#x2F;playlist?list=PLj_k_RHuTqaUojvL-J76TVjG2QEulzjU8\" rel=\"nofollow\">https:&#x2F;&#x2F;youtube.com&#x2F;playlist?list=PLj_k_RHuTqaUojvL-J76TVjG2...</a>"
+    },
+    {
+      "id": 26391195,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2021-03-08T20:38:43 1615235923",
+      "onstory": {
+        "name": "Tripolar Nature of Software Engineering Salaries i...",
+        "link": "https://news.ycombinator.com/item?id=26388936"
+      },
+      "text": "I&#x27;m currently a software engineer based in Berlin and I&#x27;ve found that stock options are not common at all in Germany [1]. I&#x27;m curious to know, is this scene different in Netherlands or other places in EU?<p>[1] <a href=\"https:&#x2F;&#x2F;www.ft.com&#x2F;content&#x2F;5778f3d0-1b3c-11ea-97df-cc63de1d73f4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.ft.com&#x2F;content&#x2F;5778f3d0-1b3c-11ea-97df-cc63de1d7...</a>"
+    },
+    {
+      "id": 26392372,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=shasts",
+        "name": "shasts"
+      },
+      "date": "2021-03-08T22:12:44 1615241564",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Startup stock options are not encouraged at a policy level in most of the EU countries.<p><a href=\"https:&#x2F;&#x2F;www.notoptional.eu&#x2F;en&#x2F;country-ranking\" rel=\"nofollow\">https:&#x2F;&#x2F;www.notoptional.eu&#x2F;en&#x2F;country-ranking</a><p>No good stock options, not many getting rich after successful exits. Hence not many to fund the next good venture. A handful of VCs and some banks who had traditional money.<p>Most of the successful European companies look for an acquisition by a US company as an exit path. Silicon valley has an eco system of people who had successful exits funding the next startup. It is quite rare in Europe."
+    },
+    {
+      "id": 26391649,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=adrian_b",
+        "name": "adrian_b"
+      },
+      "date": "2021-03-08T21:15:27 1615238127",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I believe that this depends less on the country where you are working and more on the country of origin of your employer.<p>During the years, I have worked for 3 German companies and none of them offered any stock options.<p>On the other hand, while working for an Israeli company and for an US company, I have gained about the same amount from selling the vested stock options of those companies as from the salary, i.e., due to the stock options, the total compensation was eventually about double compared to the salary."
+    },
+    {
+      "id": 25863583,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2021-01-21T20:11:43 1611259903",
+      "onstory": {
+        "name": "Ask HN: How to find the energy for side projects a...",
+        "link": "https://news.ycombinator.com/item?id=25862519"
+      },
+      "text": "Thanks. This actually makes sense. I&#x27;m going to try this from tomorrow."
+    },
+    {
+      "id": 25453518,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-12-17T07:44:48 1608191088",
+      "onstory": {
+        "name": "Tig – Text-mode interface for Git",
+        "link": "https://news.ycombinator.com/item?id=25442510"
+      },
+      "text": "bit is my latest favorite git TUI. Check it out here: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;chriswalz&#x2F;bit\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;chriswalz&#x2F;bit</a>"
+    },
+    {
+      "id": 25343006,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-12-08T07:59:41 1607414381",
+      "onstory": {
+        "name": "Distributed Systems Reading List",
+        "link": "https://news.ycombinator.com/item?id=25327077"
+      },
+      "text": "Thank you for the link!"
+    },
+    {
+      "id": 24466986,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-09-14T05:14:19 1600060459",
+      "onstory": {
+        "name": "Deno 1.4",
+        "link": "https://news.ycombinator.com/item?id=24461932"
+      },
+      "text": "A event loop that juggles between more than one thread, run async tasks in different v8 isolates."
+    },
+    {
+      "id": 23643818,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-06-25T18:24:13 1593109453",
+      "onstory": {
+        "name": "Ask HN: Is there an ORM as good as SQLAlchemy for ...",
+        "link": "https://news.ycombinator.com/item?id=23628734"
+      },
+      "text": "This is true for Go ecosystem too."
+    },
+    {
+      "id": 23633617,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-06-24T20:42:37 1593031357",
+      "onstory": {
+        "name": "Ask HN: Is there an ORM as good as SQLAlchemy for ...",
+        "link": "https://news.ycombinator.com/item?id=23628734"
+      },
+      "text": "Unfortunately, no. TypeORM is as good as it gets in Nodejs ecosystem. Also if you choose it, read this pinned issue first: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;typeorm&#x2F;typeorm&#x2F;issues&#x2F;3267\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;typeorm&#x2F;typeorm&#x2F;issues&#x2F;3267</a>"
+    },
+    {
+      "id": 23245661,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-05-20T11:36:50 1589974610",
+      "onstory": {
+        "name": "Show HN: PullPreview – Deploy previews for any app...",
+        "link": "https://news.ycombinator.com/item?id=23221471"
+      },
+      "text": "Is there anything like that, but for Kubernetes instead of docker-compose?"
+    },
+    {
+      "id": 22238691,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-02-04T17:56:48 1580839008",
+      "onstory": {
+        "name": "Ask HN: What Skills to Acquire in 2020?",
+        "link": "https://news.ycombinator.com/item?id=22235279"
+      },
+      "text": "Tutorial format: <a href=\"https:&#x2F;&#x2F;mode.com&#x2F;sql-tutorial&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;mode.com&#x2F;sql-tutorial&#x2F;</a><p>Books: 1) SQL Antipatterns <a href=\"https:&#x2F;&#x2F;pragprog.com&#x2F;book&#x2F;bksqla&#x2F;sql-antipatterns\" rel=\"nofollow\">https:&#x2F;&#x2F;pragprog.com&#x2F;book&#x2F;bksqla&#x2F;sql-antipatterns</a><p>2) Effective SQL <a href=\"https:&#x2F;&#x2F;learning.oreilly.com&#x2F;library&#x2F;view&#x2F;effective-sql-61&#x2F;9780134579078&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;learning.oreilly.com&#x2F;library&#x2F;view&#x2F;effective-sql-61&#x2F;9...</a>"
+    },
+    {
+      "id": 22238641,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-02-04T17:52:32 1580838752",
+      "onstory": {
+        "name": "Ask HN: What Skills to Acquire in 2020?",
+        "link": "https://news.ycombinator.com/item?id=22235279"
+      },
+      "text": "This. Specially if you work with Node.js. The JavaScript community is susceptible to ignoring all previous knowledge, experience, wisdom and tries to reinvent everything. I appreciate the energy, but it is often misguided. Understand the difference between merit and marketing bullshit (stack names that include Mongodb?). Understand context. If you are using Node.js in green field project, you are probably better off using Postgres. Understand Lindy effect. Sql isn&#x27;t going away, but the vendor specific query language that you are spending time with and hoping will replace sql is probably going to."
+    },
+    {
+      "id": 22104185,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-01-21T03:53:16 1579578796",
+      "onstory": {
+        "name": "Deno: JavaScript Runtime for V8 Written in Rust",
+        "link": "https://news.ycombinator.com/item?id=22102656"
+      },
+      "text": "In a GitHub thread ry mentioned, &quot;Currently async ops are executed on the same thread as the issuing Isolate - however I’m quite sure we can improve this and execute async ops in different threads.&quot; [1]<p>Is this what I think it is? Does it mean in the future I can write &#x27;await fn()&#x27; and it&#x27;ll run in a different thread? Or am I a fool and hoping too much?<p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;denoland&#x2F;deno&#x2F;issues&#x2F;3003#issuecomment-534157150\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;denoland&#x2F;deno&#x2F;issues&#x2F;3003#issuecomment-53...</a>"
+    },
+    {
+      "id": 22105121,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=doteka",
+        "name": "doteka"
+      },
+      "date": "2020-01-21T08:08:04 1579594084",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Node does this as well AFAIK, IO operations are ran on a worker pool [1]<p>[1] <a href=\"https:&#x2F;&#x2F;blog.logrocket.com&#x2F;a-complete-guide-to-threads-in-node-js-4fa3898fe74f&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.logrocket.com&#x2F;a-complete-guide-to-threads-in-no...</a>"
+    },
+    {
+      "id": 22105547,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=crabmusket",
+        "name": "crabmusket"
+      },
+      "date": "2020-01-21T09:50:13 1579600213",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I think it&#x27;s likely that in this context, &quot;ops&quot; refers to the low level runtime primitives Deno provides and implements in Rust. E.g. read bytes from a file. I doubt you could transparently multithread `await` without clashing with JS&#x27;s semantics."
+    },
+    {
+      "id": 22105079,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wruza",
+        "name": "wruza"
+      },
+      "date": "2020-01-21T07:54:44 1579593284",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I guess it is about asyncing to a different isolate+thread, not multithreading a single one. Locking issues do not go away just because it is javascript, rust and 2020."
+    },
+    {
+      "id": 22104493,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=swsieber",
+        "name": "swsieber"
+      },
+      "date": "2020-01-21T05:23:58 1579584238",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That&#x27;s how I read it. It might happen selectively based on some heuristic though (that would be my guess)."
+    },
+    {
+      "id": 21961900,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2020-01-05T16:15:38 1578240938",
+      "onstory": {
+        "name": "Ask HN: What Technologies to Learn in 2020?",
+        "link": "https://news.ycombinator.com/item?id=21961214"
+      },
+      "text": "NestJS. This is probably the best thing that happened to Node.js ecosystem to write maintainable backends.<p><a href=\"https:&#x2F;&#x2F;nestjs.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;nestjs.com&#x2F;</a>"
+    },
+    {
+      "id": 21962492,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dns_snek",
+        "name": "dns_snek"
+      },
+      "date": "2020-01-05T17:34:57 1578245697",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "While I really hope that Nest.js eventually succeeds and provides a reliable framework to write maintainable web applications, my experience with it has been, in a word, frustrating. I find the integration with remaining ecosystem (testing, databases, etc.) quite poor.<p>For context, these are my experiences from the last few months of using Nest.js in a project we&#x27;re working on at my company.<p>- It strongly encourages you to use TypeORM, which is just not production ready and has many (sometimes subtle) issues [1]<p>- Logging is often extremely bad. I&#x27;ve encountered issues where I made a mistake in my app bootstrapping code and there were no errors logged, but the application simply didn&#x27;t start. Then I had to play a very frustrating game of commenting out pieces of code until the application would start again<p>- Nest.js error classes (HttpException and those that inherit from it, such as BadRequestException) do not properly inherit from built-in Error, which means that when your tests fail, the only output you&#x27;ll get is &quot;Error: [Object object]&quot; printed to the console without a proper stack trace.<p>- We used their GraphQL module and when we tried to send a few MB of data to the client for initial state, memory usage would balloon to hundreds(!) of megabytes from a single request.<p>- Misconfiguring any part of GraphQL would again lead to an error being thrown somewhere inside their libraries, with a message like &quot;Cannot read propery &#x27;target&#x27; of undefined&quot; with no stack trace or any indication of where the problem might be<p>- Documentation is lacking and doesn&#x27;t do a proper job of documenting the features. Usually it&#x27;s just a hello-world style example without much depth<p>That&#x27;s just my experience, maybe I was just &quot;using it wrong&quot;. But it was definitely far from a smooth experience and lead me to waste countless hours trying to track down and fix obscure issues.<p>If you&#x27;re thinking about using Nest.js, I would recommend that you ditch TypeORM and use something else, I also wouldn&#x27;t recommend using GraphQL with Nest.<p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;typeorm&#x2F;typeorm&#x2F;issues&#x2F;2065\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;typeorm&#x2F;typeorm&#x2F;issues&#x2F;2065</a>"
+    },
+    {
+      "id": 21963889,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jrs95",
+        "name": "jrs95"
+      },
+      "date": "2020-01-05T20:37:23 1578256643",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;ve never had a positive experience with Node.js and SQL databases in general to be honest. I don&#x27;t really see the point in using it outside of familiarity with JavaScript. Nest + TypeORM might be as good as it gets in the Node world right now, but pretty much every other major platform has better ORMs and better frameworks. Node might have better performance and concurrency options than some of the others, but it&#x27;s not the best at those either. It&#x27;s not really clear to me that it&#x27;s actually the best at <i>anything</i>. My preference is honestly just to avoid it. In my experience there is always a better tool."
+    },
+    {
+      "id": 21964406,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dns_snek",
+        "name": "dns_snek"
+      },
+      "date": "2020-01-05T21:53:22 1578261202",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Personally I&#x27;ve had an ok experience with Objection.js, which is definitely better than TypeORM. But otherwise I agree.<p>I&#x27;m learning Elixir right now, which has some really high quality and well documented libraries and tooling, despite being a young language by itself."
+    },
+    {
+      "id": 21353907,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-10-25T11:30:01 1572003001",
+      "onstory": {
+        "name": "Rxdb: A reactive database where you can subscribe ...",
+        "link": "https://news.ycombinator.com/item?id=21353020"
+      },
+      "text": "If you want a change-stream out of your regular MySQL or PostgreSQL database systems, check out Debezium: <a href=\"https:&#x2F;&#x2F;debezium.io&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;debezium.io&#x2F;</a><p>It basically registers itself as a fake replica server so that it can get updates from the master (like binlog in case of MySQL) and then it forwards those updates to Kafka. The possibilities are endless what you can do with those updates as Kafka consumers."
+    },
+    {
+      "id": 21353971,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dsun180",
+        "name": "dsun180"
+      },
+      "date": "2019-10-25T11:40:25 1572003625",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "There is a big difference between the changestream of many SQL and noSQL databases, and what RxDB does. Having a stream of changes is useful but not the whole solution. RxDB is capable of using single document changes of a stream and recalculate the new results of an existing query. This saves you not only much IO performance but makes developing much easier. See <a href=\"https:&#x2F;&#x2F;rxdb.info&#x2F;query-change-detection.html\" rel=\"nofollow\">https:&#x2F;&#x2F;rxdb.info&#x2F;query-change-detection.html</a>"
+    },
+    {
+      "id": 21354024,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tga",
+        "name": "tga"
+      },
+      "date": "2019-10-25T11:50:43 1572004243",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Sure, that&#x27;s handy as an extra feature to get better performance, but I see that even in RxDB it&#x27;s currently in beta and turned off by default.<p>I suppose this could be the killer feature to warrant using a new database -- because otherwise, from a user point of view, the result is the same."
+    },
+    {
+      "id": 21214165,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-10-10T13:30:33 1570714233",
+      "onstory": {
+        "name": "Designing a COM Library for Rust",
+        "link": "https://news.ycombinator.com/item?id=21200381"
+      },
+      "text": "Hi,<p>I believe you are talking about this repo <a href=\"https:&#x2F;&#x2F;github.com&#x2F;jchv&#x2F;go-tsf\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;jchv&#x2F;go-tsf</a><p>Do you know any other project that&#x27;s working on creating basic IME on top of TSF in Go?"
+    },
+    {
+      "id": 21215306,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jchw",
+        "name": "jchw"
+      },
+      "date": "2019-10-10T15:04:30 1570719870",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "You are correct, and no I am not. Is your goal to build an application with IME support, or an entire IME?"
+    },
+    {
+      "id": 21223238,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-10-11T11:16:51 1570792611",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "An entire IME."
+    },
+    {
+      "id": 21227079,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jchw",
+        "name": "jchw"
+      },
+      "date": "2019-10-11T18:33:42 1570818822",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Ah I see.. sadly, I never really figured out a great way to support full COM interop in Go. It would be ideal if you could implement an interface and register it as a COM object, but I hadn’t hashed out exactly how."
+    },
+    {
+      "id": 20302545,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-06-28T08:45:07 1561711507",
+      "onstory": {
+        "name": "NPM 6.9.1 is broken due to .git folder in publishe...",
+        "link": "https://news.ycombinator.com/item?id=20302012"
+      },
+      "text": "Probably relevant-<p>This week&#x27;s Node.js weekly [1] mentions: &quot;Last week we mentioned the long awaited status of npm 6.9.1 and the possible ‘strike’ [2] in ongoing community work on the project, but npm’s Isaac Z. Schlueter has stepped up, got a release out&quot;<p>[1] <a href=\"https:&#x2F;&#x2F;nodeweekly.com&#x2F;issues&#x2F;294\" rel=\"nofollow\">https:&#x2F;&#x2F;nodeweekly.com&#x2F;issues&#x2F;294</a><p>[2] <a href=\"https:&#x2F;&#x2F;gist.github.com&#x2F;aeschright&#x2F;8ed09cbc2a4aee00fcb4ad35086d76a6\" rel=\"nofollow\">https:&#x2F;&#x2F;gist.github.com&#x2F;aeschright&#x2F;8ed09cbc2a4aee00fcb4ad350...</a>"
+    },
+    {
+      "id": 20304416,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ch4s3",
+        "name": "ch4s3"
+      },
+      "date": "2019-06-28T14:10:05 1561731005",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Well, they did just fire a bunch of people for complaining about working conditions, so it&#x27;s no surprise that they&#x27;re stumbling into other mistakes."
+    },
+    {
+      "id": 19707786,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-04-20T17:41:34 1555782094",
+      "onstory": {
+        "name": "Python overtakes JavaScript as most questioned lan...",
+        "link": "https://news.ycombinator.com/item?id=19704792"
+      },
+      "text": "Came here to write this. MDN is a blessing."
+    },
+    {
+      "id": 19594901,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-04-07T04:54:10 1554612850",
+      "onstory": {
+        "name": "Ask HN: Which great products didn't succeed?",
+        "link": "https://news.ycombinator.com/item?id=19592697"
+      },
+      "text": "RethinkDB"
+    },
+    {
+      "id": 19594900,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-04-07T04:53:56 1554612836",
+      "onstory": {
+        "name": "Ask HN: Which great products didn't succeed?",
+        "link": "https://news.ycombinator.com/item?id=19592697"
+      },
+      "text": "Visual Basic Classic (VB6)"
+    },
+    {
+      "id": 19595292,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zubairq",
+        "name": "zubairq"
+      },
+      "date": "2019-04-07T07:11:44 1554621104",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I loved this and think the next Mass market IDE could be like VB6"
+    },
+    {
+      "id": 19590117,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-04-06T10:24:47 1554546287",
+      "onstory": {
+        "name": "Quirk – Open-Source Cognitive Behavioral Therapy",
+        "link": "https://news.ycombinator.com/item?id=19588858"
+      },
+      "text": "Just read your design goals. Thank you for doing this!"
+    },
+    {
+      "id": 19582559,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-04-05T14:02:27 1554472947",
+      "onstory": {
+        "name": "Let’s Build a Simple Database (2017)",
+        "link": "https://news.ycombinator.com/item?id=19581721"
+      },
+      "text": "And anything in Go?"
+    },
+    {
+      "id": 18991281,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-01-24T18:16:30 1548353790",
+      "onstory": {
+        "name": "Yarn's Future – v2 and beyond",
+        "link": "https://news.ycombinator.com/item?id=18989207"
+      },
+      "text": "&quot;npm ci&quot; deletes node_modules directory every time. Try using that when you depend on some native modules. :("
+    },
+    {
+      "id": 18992611,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=azangru",
+        "name": "azangru"
+      },
+      "date": "2019-01-24T20:31:17 1548361877",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I thought `npm ci` is more suited for ci machines, where it&#x27;s crucial that packages are pinned to specific versions. For local development, I just npm install. Perhaps with no-save option in order to avoid updating package-lock. Works fine."
+    },
+    {
+      "id": 18991225,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-01-24T18:10:59 1548353459",
+      "onstory": {
+        "name": "Yarn's Future – v2 and beyond",
+        "link": "https://news.ycombinator.com/item?id=18989207"
+      },
+      "text": "Is there any compiler option or linter config that prevents the use of these extra features?"
+    },
+    {
+      "id": 18991465,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=RyanCavanaugh",
+        "name": "RyanCavanaugh"
+      },
+      "date": "2019-01-24T18:33:37 1548354817",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "tslint has no-namespace and no-enum to disallow the two things that create new runtime code"
+    },
+    {
+      "id": 18843482,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2019-01-07T07:40:25 1546846825",
+      "onstory": {
+        "name": "Show HN: Mkcert – Valid HTTPS certificates for loc...",
+        "link": "https://news.ycombinator.com/item?id=18842218"
+      },
+      "text": "You cannot use them for localhost"
+    },
+    {
+      "id": 18844947,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jimdigriz",
+        "name": "jimdigriz"
+      },
+      "date": "2019-01-07T13:38:51 1546868331",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Seems a lot easier to register your own domain (useful for so many other things), point localhost.mydomain.com to 127.0.0.1 and run:<p><pre><code> sudo apt-get -yy install --no-install-recommends certbot mkdir -p le certbot --work-dir .&#x2F;le --logs-dir le --config-dir le -d localhost.mydomain.com --manual --preferred-challenges dns certonly </code></pre> Follow the instructions adding the TXT record, you have a valid cert in minutes."
+    },
+    {
+      "id": 18849992,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mic159",
+        "name": "mic159"
+      },
+      "date": "2019-01-07T20:58:40 1546894720",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Yes you can. You control the DNS, just point that subdomain to 127.0.0.1."
+    },
+    {
+      "id": 18772333,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2018-12-27T20:25:36 1545942336",
+      "onstory": {
+        "name": "Ask HN: How do you store photos and videos?",
+        "link": "https://news.ycombinator.com/item?id=18770366"
+      },
+      "text": "I use a Synology NAS too. It&#x27;s already 5 year old but working fine, still getting updates regularly.<p>The Hyper Backup is a wonderful tool (comes with Synology) that you can use to create multiple backup strategy, to another portable hdd, various cloud providers, any host with rsync etc, with or without backup version and rotation. The user experience is pretty neat."
+    },
+    {
+      "id": 18749837,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2018-12-24T02:18:05 1545617885",
+      "onstory": {
+        "name": "Ask HN: Did you delete your Facebook account in 20...",
+        "link": "https://news.ycombinator.com/item?id=18748135"
+      },
+      "text": "Deactivated it. Still using the Messenger though."
+    },
+    {
+      "id": 18461669,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2018-11-15T18:08:27 1542305307",
+      "onstory": {
+        "name": "Krisp.ai – Mute background noise during your calls",
+        "link": "https://news.ycombinator.com/item?id=18460726"
+      },
+      "text": "Is it possible to use something like this to turn any headphone into noise canceling headphone?"
+    },
+    {
+      "id": 18461931,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=davitb",
+        "name": "davitb"
+      },
+      "date": "2018-11-15T18:36:50 1542307010",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Not really. The tech used in noise-cancelling headphones is called ANC (active noise cancellation). It eliminates the noise coming to your ear from your surrounding environment.<p>In contrast, Krisp eliminates the noise going from your environment to the call participants and vice versa."
+    },
+    {
+      "id": 18462768,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=djreynolds",
+        "name": "djreynolds"
+      },
+      "date": "2018-11-15T20:01:03 1542312063",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "How would the application know what&#x27;s noises are being made in the environment around you?"
+    },
+    {
+      "id": 18229132,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2018-10-16T13:25:47 1539696347",
+      "onstory": {
+        "name": "Ask HN: What discontinued company/product do you w...",
+        "link": "https://news.ycombinator.com/item?id=18225760"
+      },
+      "text": "I wish I had a Delphi like IDE and RAD tool but for Golang instead of Pascal. Ability to write cross-platform GUI apps in a Go as easily as Delphi would be a dream come true."
+    },
+    {
+      "id": 18229936,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tomjen3",
+        "name": "tomjen3"
+      },
+      "date": "2018-10-16T15:03:22 1539702202",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "There is Free Pascal and lazarus, but I must admit that if I need a cross-platform tool today, I would make a webapp - not that it compares at all to Delphi, but it works everywhere."
+    },
+    {
+      "id": 17066870,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2018-05-14T16:34:15 1526315655",
+      "onstory": {
+        "name": "How to start a Go project in 2018",
+        "link": "https://news.ycombinator.com/item?id=17061713"
+      },
+      "text": "Exactly. Both yarn and npm cli support this for nodejs."
+    },
+    {
+      "id": 14690015,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2017-07-03T17:35:48 1499103348",
+      "onstory": {
+        "name": "Ask HN: What are some of the better Hacker News ap...",
+        "link": "https://news.ycombinator.com/item?id=14684105"
+      },
+      "text": "Materialistic on play store has both of those functionalities. I&#x27;m commenting with it now."
+    },
+    {
+      "id": 14326496,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2017-05-12T18:26:41 1494613601",
+      "onstory": {
+        "name": "Ask HN: How can a front-end developer dive into ma...",
+        "link": "https://news.ycombinator.com/item?id=14322953"
+      },
+      "text": "Awesome! Thanks for sharing this."
+    },
+    {
+      "id": 13708130,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2017-02-22T18:57:13 1487789833",
+      "onstory": {
+        "name": "Announcing TypeScript 2.2",
+        "link": "https://news.ycombinator.com/item?id=13707312"
+      },
+      "text": "Avoid vendor locking. Someday in near future if you don&#x27;t like flow anymore, you can just strip all type annotations with Babel and move on. You are not risking ending up like coffeescript."
+    },
+    {
+      "id": 13708617,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=icholy",
+        "name": "icholy"
+      },
+      "date": "2017-02-22T19:52:40 1487793160",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Avoid vendor locking.<p>It&#x27;s open source.<p>&gt; you can just strip all type annotations with Babel and move on.<p>Are you implying that this isn&#x27;t possible with TypeScript?"
+    },
+    {
+      "id": 13708188,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dangoor",
+        "name": "dangoor"
+      },
+      "date": "2017-02-22T19:02:48 1487790168",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "TypeScript compiles to JS in a straightforward manner as well. If you wanted to move away from TS, you could simply have the TS compiler compile to ES6 and you&#x27;re done."
+    },
+    {
+      "id": 13708317,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2017-02-22T19:16:45 1487791005",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "But that&#x27;d still be transpiled code, right? After getting rid of flow it will be exactly same minus the type annotations. Same cannot be said about typescript considering various language features and syntactic sugar TS offers. Will it run? Yes. Will it feel that it was written by me? That depends."
+    },
+    {
+      "id": 13708596,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whatever_dude",
+        "name": "whatever_dude"
+      },
+      "date": "2017-02-22T19:49:07 1487792947",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; Same cannot be said about typescript considering various language features and syntactic sugar TS offers<p>I think you&#x27;re vastly misinterpreting what TS is.<p>It&#x27;s not anything like CoffeeScript. It&#x27;s JS plus types and a few other features like Interfaces or advanced ECMAScript features when targetting older versions of the standard.<p>If you strip away types by exporting to your ECMAScript target of choice, you&#x27;ll get real JavaScript with the same style as it was written in TypeScript.<p>It&#x27;s exactly the same thing you&#x27;d get with Flow in that sense. The only additional code you&#x27;d get would be for polyfills, but a) those are minimal and b) those will only appear if you export to an older ECMAScript version than the one you wrote it in.<p>There is no vendor lock."
+    },
+    {
+      "id": 13709332,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=shados",
+        "name": "shados"
+      },
+      "date": "2017-02-22T21:30:57 1487799057",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "there are a few minor things like enums and decorators that will need to be compiled because they&#x27;re not standard and are not just types either (well, const enums are i think?, but the rest are not?).<p>That&#x27;s about it though."
+    },
+    {
+      "id": 13708542,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Rapzid",
+        "name": "Rapzid"
+      },
+      "date": "2017-02-22T19:43:44 1487792624",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Your equivalence with transpiling coffeescript is false. TS doesn&#x27;t really have &quot;syntactic sugars&quot;. Just about everything in it(less the types of course) is pretty far along in the ES adoption process. There are a couple exceptions like decorators that are called out in a very visible manner.<p>If you target ES6 your code may look identical. Even much of the ES5 down leveling produced code that looks like a person wrote it.<p>I converted a 10k line coffeescript project(with async&#x2F;await !) to JS and then TypeScript. The similarities are so far apart they might as well be in different dimensions. But, if you don&#x27;t want to take a rando posters word for it, it&#x27;s pretty easy to make a little sample project and see if the output is to your liking."
+    },
+    {
+      "id": 13708418,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eknkc",
+        "name": "eknkc"
+      },
+      "date": "2017-02-22T19:29:16 1487791756",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "With target esnext, it produces almost the same output with some spacing differences. Sans the annotations obviously."
+    },
+    {
+      "id": 13708227,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whatever_dude",
+        "name": "whatever_dude"
+      },
+      "date": "2017-02-22T19:06:55 1487790415",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "That&#x27;s an objectively incorrect assertion if you&#x27;re applying that to TypeScript.<p>The same can be done to it that would be done to Flow: you can just either strip types manually, or just do a single export to your ECMAScripttarget of choice. It&#x27;ll be native JavaScript. Even the little shims&#x2F;polyfills it does (to support older ECMAScript versions if you wish to export to it) are optional and can be disabled."
+    },
+    {
+      "id": 13708278,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mohamedhegazy",
+        "name": "mohamedhegazy"
+      },
+      "date": "2017-02-22T19:12:13 1487790733",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "TypeScript has `--target ESNext` this will strip out any TypeScript-specific type annotations, and leave you with standard-track-only JS code that looks identical to your input (modulo type annotations)."
+    },
+    {
+      "id": 13709756,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dsp1234",
+        "name": "dsp1234"
+      },
+      "date": "2017-02-22T22:17:31 1487801851",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "If you&#x27;re afraid of vendor lock-in, but fine with comments then you can just put all of your typing information in jsdoc comments.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;Microsoft&#x2F;TypeScript&#x2F;wiki&#x2F;JSDoc-support-in-JavaScript\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Microsoft&#x2F;TypeScript&#x2F;wiki&#x2F;JSDoc-support-i...</a>"
+    },
+    {
+      "id": 13710732,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hzoo",
+        "name": "hzoo"
+      },
+      "date": "2017-02-23T00:56:50 1487811410",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "FYI we do have an issue open about TS <a href=\"https:&#x2F;&#x2F;github.com&#x2F;babel&#x2F;babylon&#x2F;issues&#x2F;320\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;babel&#x2F;babylon&#x2F;issues&#x2F;320</a> so that we could eventually support TS in Babel as a plugin and then create the same strip-types-plugin just like Flow."
+    },
+    {
+      "id": 13708140,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=treehau5",
+        "name": "treehau5"
+      },
+      "date": "2017-02-22T18:58:01 1487789881",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Also, you can progressively opt in to add typing information, while still getting most of the benefits without."
+    },
+    {
+      "id": 13708234,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whatever_dude",
+        "name": "whatever_dude"
+      },
+      "date": "2017-02-22T19:08:02 1487790482",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The same can be done with TypeScript. Type inference has been added to it in 2015."
+    },
+    {
+      "id": 13708579,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=treehau5",
+        "name": "treehau5"
+      },
+      "date": "2017-02-22T19:47:00 1487792820",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Awesome, did not know this."
+    },
+    {
+      "id": 13709324,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=shados",
+        "name": "shados"
+      },
+      "date": "2017-02-22T21:29:22 1487798962",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "TypeScript type inference is minimal though and doesn&#x27;t go very far. It falls back to &quot;any&quot; very quickly (and if you use the noImplicitAny option, then you have to type almost everything).<p>It does a decent enough job at return types, but not a whole lot beyond that."
+    },
+    {
+      "id": 13709617,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whatever_dude",
+        "name": "whatever_dude"
+      },
+      "date": "2017-02-22T22:02:11 1487800931",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Do you have a use case where something would be correctly inferred in Flow but not in TS?"
+    },
+    {
+      "id": 13709771,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dsp1234",
+        "name": "dsp1234"
+      },
+      "date": "2017-02-22T22:20:41 1487802041",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The classic example is:<p><pre><code> function double(x) { return x * 2; } const result = double(&quot;foo&quot;); </code></pre> Which passes in TS, but fails in Flow. In TS, the &#x27;x&#x27; parameter to the double function is inferred as Any."
+    },
+    {
+      "id": 13560506,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2017-02-03T15:40:00 1486136400",
+      "onstory": {
+        "name": "Node v7.5.0 Released",
+        "link": "https://news.ycombinator.com/item?id=13558118"
+      },
+      "text": "You can always check here: <a href=\"http:&#x2F;&#x2F;node.green\" rel=\"nofollow\">http:&#x2F;&#x2F;node.green</a>"
+    },
+    {
+      "id": 13562774,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wereHamster",
+        "name": "wereHamster"
+      },
+      "date": "2017-02-03T20:01:49 1486152109",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I don&#x27;t see ES6 modules (import&#x2F;export keywords etc) in that list. Where is that feature hiding?"
+    },
+    {
+      "id": 13568588,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=charrondev",
+        "name": "charrondev"
+      },
+      "date": "2017-02-04T19:36:57 1486237017",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The loader spec hasn&#x27;t been completed yet so there is no way to load properly modules in es2015, es2016, or es2017 as far as I know."
+    },
+    {
+      "id": 13573154,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wereHamster",
+        "name": "wereHamster"
+      },
+      "date": "2017-02-05T16:44:43 1486313083",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "But the syntax is in es2015. So that feature should be marked as NO in those tables."
+    },
+    {
+      "id": 13559308,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2017-02-03T12:27:28 1486124848",
+      "onstory": {
+        "name": "Node v7.5.0 Released",
+        "link": "https://news.ycombinator.com/item?id=13558118"
+      },
+      "text": "We&#x27;ve been using async&#x2F;await (transpiled with babel) for last one year in our production API code. There really is not any need to use those async control flow libraries anymore."
+    },
+    {
+      "id": 13561921,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pault",
+        "name": "pault"
+      },
+      "date": "2017-02-03T18:22:43 1486146163",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;ve found that this works fine until you have a bug in your async function that is, after transformation, a promise and a generator away from your original function with no call stack available for debugging.<p>Edit: My experience is with babel&#x27;s generator version of async&#x2F;await, so other transformations may be easier to work with."
+    },
+    {
+      "id": 13560661,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=cookiesboxcar",
+        "name": "cookiesboxcar"
+      },
+      "date": "2017-02-03T15:57:43 1486137463",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Agree, except we use TypeScript as the transpiler. Async&#x2F;Await down to es5. Works like a dream."
+    },
+    {
+      "id": 13429467,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2017-01-18T19:25:40 1484767540",
+      "onstory": {
+        "name": "Ghost for Journalism",
+        "link": "https://news.ycombinator.com/item?id=13426244"
+      },
+      "text": "Ghost uses bookshelf as its ORM, which is becoming a less and less maintained project every month. ORM is a vast part of its core, it&#x27;s not easy to replace that. I&#x27;m beginning to worry about its future."
+    },
+    {
+      "id": 13429976,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=disordinary",
+        "name": "disordinary"
+      },
+      "date": "2017-01-18T20:25:34 1484771134",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I don&#x27;t know what the status of Bookshelf is but I do note that there are still regular contributions to the project.<p>As a rule Ghost tries to have write permission to core dependencies including bookshelf so there is no danger of it or any other package threatening the future of the project.<p>Besides, the beauty of an open source stack is there&#x27;s always the ability to fork - worse comes to worst."
+    },
+    {
+      "id": 13003860,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-11-21T07:55:42 1479714942",
+      "onstory": {
+        "name": "Quit Social Media, Your Career May Depend on It",
+        "link": "https://news.ycombinator.com/item?id=12998698"
+      },
+      "text": "I second that. Works like a charm."
+    },
+    {
+      "id": 12352043,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-08-24T13:59:44 1472047184",
+      "onstory": {
+        "name": "The Imposter's Handbook",
+        "link": "https://news.ycombinator.com/item?id=12351660"
+      },
+      "text": "Bought it. Pretty basic stuffs:<p>- Didn&#x27;t learn anything new from Linux chapter.<p>- Data Structures and Algorithms chapter is too basic. There is not even any implementation provided. I thought it didn&#x27;t offer anything more than you could find on Wikipedia if you add some illustration done with Paper by 53 app. I&#x27;d recommend &quot;Grokking Algorithms&quot; by Aditya Bhargava for this topic if you want illustrated explanations with brilliant examples.<p>- Didn&#x27;t learn anything new from Databases chapter.<p>- Didn&#x27;t learn anything new from Programming Languages chapter. Inclusion of useless things like TIOBE Index made me furious, honestly.<p>- Didn&#x27;t learn anything new from Software Design chapter.<p>I won&#x27;t recommend this book to anyone working in software engineering for more or less 5 years with or without CS degree. This book merely serves as an index of what you&#x27;ll encounter in the field, nothing more than that. Not even any good elaborations on those topics. Pretty meh."
+    },
+    {
+      "id": 12353364,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=asciimo",
+        "name": "asciimo"
+      },
+      "date": "2016-08-24T16:50:41 1472057441",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Thanks for mentioning Grokking Algorithms. Looks great, and might be the first non-digital tech book I will have bought in years."
+    },
+    {
+      "id": 12353527,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-08-24T17:10:27 1472058627",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It deserves to be in the bookshelves. :)"
+    },
+    {
+      "id": 12353006,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=buckbova",
+        "name": "buckbova"
+      },
+      "date": "2016-08-24T16:05:57 1472054757",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "If videos are your thing this set of data structures videos is pretty good.<p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL2_aWCzGMAwI3W_JlcBbt...</a><p>Good database references here, guaranteed to learn something new.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;rxin&#x2F;db-readings\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;rxin&#x2F;db-readings</a>"
+    },
+    {
+      "id": 12352068,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dante9999",
+        "name": "dante9999"
+      },
+      "date": "2016-08-24T14:03:02 1472047382",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "sounds like you should ask for your money back, remember OP stands by everything he creates and if you dont like it he promises money back no questions asked"
+    },
+    {
+      "id": 12352181,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-08-24T14:18:35 1472048315",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I did. The author kept his promise and refunded instantly."
+    },
+    {
+      "id": 12352133,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Unbeliever69",
+        "name": "Unbeliever69"
+      },
+      "date": "2016-08-24T14:12:39 1472047959",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Wow, then you were definitely not the target audience!"
+    },
+    {
+      "id": 12311247,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-08-18T09:18:30 1471511910",
+      "onstory": {
+        "name": "Grokking Deep Learning",
+        "link": "https://news.ycombinator.com/item?id=12309777"
+      },
+      "text": "I know it is silly and probably been taken care of. But in case, from the sample in chapter 3-<p><pre><code> def neural_network(input_data, weight): prediction = input * knob_weight return prediction</code></pre>"
+    },
+    {
+      "id": 12311183,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-08-18T08:52:05 1471510325",
+      "onstory": {
+        "name": "Grokking Deep Learning",
+        "link": "https://news.ycombinator.com/item?id=12309777"
+      },
+      "text": "Is there any chance you (William) could add hand-drawn illustrations and flow-charts? :) This makes a book outright welcoming IMHO. I loved that style in Grokking Algorithms (or even in Getting Started in Electronics by Forrest M. Mims III, if you want a distant example).<p>Thanks for your initiative, will buy the book soon as it is available."
+    },
+    {
+      "id": 12157061,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-07-25T07:32:47 1469431967",
+      "onstory": {
+        "name": "Amazon Picking Challenge",
+        "link": "https://news.ycombinator.com/item?id=12156822"
+      },
+      "text": "It is kind of sad to see the animated gif at the bottom of the page. Robots are coming for his job.<p><a href=\"http:&#x2F;&#x2F;amazonpickingchallenge.org&#x2F;kivapick2.gif\" rel=\"nofollow\">http:&#x2F;&#x2F;amazonpickingchallenge.org&#x2F;kivapick2.gif</a>"
+    },
+    {
+      "id": 12157074,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=option_greek",
+        "name": "option_greek"
+      },
+      "date": "2016-07-25T07:37:50 1469432270",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It&#x27;s sad that any of us has to have jobs. Can&#x27;t wait for the day all of the humans are served by Robots (Yes.. reading too many Asimov novels of late :) )"
+    },
+    {
+      "id": 12157142,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=brian-armstrong",
+        "name": "brian-armstrong"
+      },
+      "date": "2016-07-25T08:00:37 1469433637",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The economic and societal forces that require having a job will not, on their own, magically change over upon the arrival of better robots. Without those changes, all you&#x27;ve done is taken away somebody&#x27;s source of income."
+    },
+    {
+      "id": 12157188,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Iv",
+        "name": "Iv"
+      },
+      "date": "2016-07-25T08:13:08 1469434388",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "The question is will we iteratively destroy each job until 5% of the current workers still can afford an opulent living while the other 95% are crushed by misery and accusations of inadequacies, or will we, as a society, realize that we can suppress the need for work altogether and try to make the smoothest transition possible?<p>This is not a technical question but a political one. Seeing how most politicians paint unemployed as subhumans that barely deserve to live, I am not that optimistic :-&#x2F;"
+    },
+    {
+      "id": 12157391,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rootlocus",
+        "name": "rootlocus"
+      },
+      "date": "2016-07-25T09:11:44 1469437904",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; The question is will we iteratively destroy each job until 5% of the current workers still can afford an opulent living while the other 95% are crushed by misery<p>If 95% are crushed by misery, where will the 5% get their money from? I&#x27;m guessing money will only be exchanged between the 5%, meaning the economy will be a lot different.<p>Also, what will keep the 95% from revolting? That amount of people will surely form a formidable army. What will save the 5%?<p>&gt; Seeing how most politicians paint unemployed as subhumans that barely deserve to live, I am not that optimistic :-&#x2F;<p>Changing the way we treat unemployed people is surely a necessary step forward, but it&#x27;s not black and white. There are people who don&#x27;t want to work because they&#x27;re lazy or incompetent. There are people who want to work and are very competent, but can&#x27;t find a suitable job. There are many types of people in between."
+    },
+    {
+      "id": 12157684,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Iv",
+        "name": "Iv"
+      },
+      "date": "2016-07-25T10:27:27 1469442447",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; If 95% are crushed by misery, where will the 5% get their money from?<p>I am not sure I see the problem. The 95% need goods and food. They buy it from the 5%. The 5% decide of the amount of money they accept to redistribute to the 95%. That can go on for a while.<p>&gt; Also, what will keep the 95% from revolting?<p>Absolutely. But I am arguing that if your path toward a positive income has revolt as a necessary step, it is improvable. And even so, there is a risk:<p>&gt; What will save the 5%?<p>What makes you think that soldiers will be sparred from automation?<p>&gt; There are people who don&#x27;t want to work because they&#x27;re lazy or incompetent. There are people who want to work and are very competent, but can&#x27;t find a suitable job.<p>It sounds to me that society would then benefit by having the lazy or incompetent people kept out of the work pool and paid to <i>not</i> work instead of having to make themselves absolutely necessary.<p>If you have worked in any medium or big organization I am sure that you can think of people who would have actually saved their employer&#x27;s money by receiving a salary and not come to work."
+    },
+    {
+      "id": 12158455,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythia__",
+        "name": "pythia__"
+      },
+      "date": "2016-07-25T13:19:46 1469452786",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt;Also, what will keep the 95% from revolting?<p>Security robots!<p>More seriously, as robots do more and more, people will start to place a premium on having a human do the work where they notice the difference (so, not Amazon warehouses but probably the local Starbucks). With this factored in, 95% unemployment is unlikely until artificial general intelligence."
+    },
+    {
+      "id": 12158616,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Iv",
+        "name": "Iv"
+      },
+      "date": "2016-07-25T13:47:06 1469454426",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Would <i>you</i> pay a premium for being served by a human? Do you pay a premium to have a driver, to have a maid, to have a chef, when you can do without?<p>I know I would not. If a machine gives me accurate medical advice, I wont go to the doctor. If a machine makes good burgers, I won&#x27;t pay a random student to flip burgers for me.<p>It would actually feel awkward and quite contemptful to ask a human to do the task of a robot."
+    },
+    {
+      "id": 12159607,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythia__",
+        "name": "pythia__"
+      },
+      "date": "2016-07-25T16:10:24 1469463024",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I&#x27;ll answer your specific questions first. Driver, no. Maid, no. (But keep in mind that robot maids&#x2F;janitors are considerably farther away than self-driving cars. Cleaning environments not specifically designed for it is really complicated and I expect humans to outperform robots at it for longer than at most other kinds of physical labor.) For a fancier meal than burgers, yes, I&#x27;d pay a premium to have a human chef cook it. Doctor, definitely not in most cases.<p>As for it being &quot;awkward and contemptful,&quot; I suspect you are imagining humans perform a task exactly as a robot would. That will be the minority of cases, because the economics are strongly against it in most. Instead, you&#x27;ll pay humans for their ability to customize their work or the products they produce in a way that isn&#x27;t economical to automate. (Burger flipping is doomed for this reason -- not much to differentiate humans form robots there.) Hence, chefs, plumbers, tailors, auto mechanics, specialist doctors, interior decorators, etc. will be assisted by &quot;weak&quot; AI but won&#x27;t be replaced by it."
+    },
+    {
+      "id": 12165064,
+      "lvl": 8,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Iv",
+        "name": "Iv"
+      },
+      "date": "2016-07-26T12:22:19 1469535739",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I have seen this kind of denial for more than 20 years now. I have seen people argue that driving could not be automated, that people would never accept an automated cashier, that webshops would never compete against physical shops.<p>The level of performance and customization that robots can achieve in every single of the task you quote is far superior to humans&#x27;. I expect none of your list items to present any technical problem in 10 years. Maybe plumber, give it 20."
+    },
+    {
+      "id": 12171645,
+      "lvl": 9,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythia__",
+        "name": "pythia__"
+      },
+      "date": "2016-07-27T10:11:07 1469614267",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I think you do my argument a disservice by equating it to the general trend of people denying X can be automated until X is automated. It is more specific: I say that some jobs (roughly, those requiring an agent to rapidly gain an understanding of existing unstandardized systems) need AGI to automate to human satisfaction in a way that doesn&#x27;t require constant human supervision. It predicts, for instance, wide replacement of cashiers (which is already happening) and construction workers (which isn&#x27;t yet).<p>&gt;Maybe plumber, give it 20.<p>Perhaps we have different standards for &quot;automated.&quot; Do you expect remote operators standing by ready to take over for a plumberbot or giving it hints at least once per service operation on average in 2036? If so, I find that technically plausible. I also expect new buildings to be built for automated service.<p>If we are talking fully automated human-quality repair and improvement of legacy plumbing, do you to expect a long time to get from there to AGI?"
+    },
+    {
+      "id": 12179391,
+      "lvl": 10,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Iv",
+        "name": "Iv"
+      },
+      "date": "2016-07-28T10:15:54 1469700954",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&gt; roughly, those requiring an agent to rapidly gain an understanding of existing unstandardized systems<p>So, basically, machine learning.<p>Look, the tech is not there yet for an automated plumber, which is why it does not exist yet. 20 years ago we did not have the tech for automated driving but it finally got there.<p>I see machine learning improve every year, These last few years have seen a huge rise of popularity of deep learning approaches. And since the DeepDream gizmo, we hear less people talking about how creativity can&#x27;t be automated.<p>Yes, in 20 years the tech will be here for a piece of software to figure out where the pipes must be in a house, make plans to test different hypothesis, plan a procedure of intervention, wiggle tubes together to make them fit without any other human instructions than &quot;this tap does not work, go fix it&quot;. I have some supicions on what the correct way to go is, and am fairly confident that some other ways exist and that we will find one that will work.<p>I can&#x27;t comment on AGI from this point. It really depends on your definitions. Some make AGI an unachievable goal. Under common and reasonnable definitions, yes, we will be close by then but we already are not very far.<p>And in my earlier comments I talk about 95% of unemployement just to cut some of the philosophical debate, but naturally I expect that we will reach 100% pretty quickly."
+    },
+    {
+      "id": 12157322,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=brian-armstrong",
+        "name": "brian-armstrong"
+      },
+      "date": "2016-07-25T08:52:19 1469436739",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I think it&#x27;s a question that this election (in the US) is addressing, but only on the periphery. We&#x27;re more likely to address the symptoms and misattribute them to other forces."
+    },
+    {
+      "id": 12157412,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jbi",
+        "name": "jbi"
+      },
+      "date": "2016-07-25T09:18:06 1469438286",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Right now western societies could easily go on with 30 hour workweeks. It would reduce unemployment and people who are working would have more time for their families or to do voluntary stuff. Another idea is a basic income which allows a simple and good life. White old men in suits are part of the problem why there&#x27;s no real progress on these ideas and education is part of the solution."
+    },
+    {
+      "id": 12157649,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Iv",
+        "name": "Iv"
+      },
+      "date": "2016-07-25T10:17:13 1469441833",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "My belief is that right now we give incentive to people to prevent the automation of their work. Were we to do the opposite (e.g. by promising a guaranteed life-time salary to every worker who got fired because of automation) it would not take 10 years to make the world work out of voluntary work alone."
+    },
+    {
+      "id": 12157289,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kuschku",
+        "name": "kuschku"
+      },
+      "date": "2016-07-25T08:42:05 1469436125",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "And it&#x27;s interesting how the social democracies seem to have more of a plan on how to proceed than the purely capitalist nations."
+    },
+    {
+      "id": 12157382,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=icebraining",
+        "name": "icebraining"
+      },
+      "date": "2016-07-25T09:08:19 1469437699",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Which purely capitalist nations are you thinking of?"
+    },
+    {
+      "id": 12157129,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=colechristensen",
+        "name": "colechristensen"
+      },
+      "date": "2016-07-25T07:58:06 1469433486",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "&quot;The chief aim of their constitution and government is that, whenever public needs permit, all citizens should be free, so far as possible, to withdraw their time and energy from the service of the body, and devote themselves to the freedom and culture of the mind. For that, they think, is the real happiness of life.&quot;"
+    },
+    {
+      "id": 12157189,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=codecamper",
+        "name": "codecamper"
+      },
+      "date": "2016-07-25T08:13:12 1469434392",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "hmm... human or context sensitive robot post?"
+    },
+    {
+      "id": 12157180,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=codecamper",
+        "name": "codecamper"
+      },
+      "date": "2016-07-25T08:11:21 1469434281",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "I was about to write the same thing. He&#x27;s the last guy at the factory. Surrounded by other robots impatiently waiting on this slow human.<p>I used to think Amazon was great when they sold books. Now I&#x27;m not so sure.<p>but I suppose it&#x27;s too late. Once humans are removed, they can drop prices lower than anyone with humans could possibly provide. yikes."
+    },
+    {
+      "id": 12157209,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=icebraining",
+        "name": "icebraining"
+      },
+      "date": "2016-07-25T08:19:01 1469434741",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "So when Amazon replaced all those cashiers, cleaners and rest of retail personnel with a site they were great, but replacing a few warehouse jobs is sad?"
+    },
+    {
+      "id": 12157253,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=codecamper",
+        "name": "codecamper"
+      },
+      "date": "2016-07-25T08:31:46 1469435506",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "you make a good point, but it wasn&#x27;t so obvious back then what was happening. the world was still dialup."
+    },
+    {
+      "id": 12157221,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=senthilnayagam",
+        "name": "senthilnayagam"
+      },
+      "date": "2016-07-25T08:21:30 1469434890",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "increase the wages and ROI for robots will look more attractive"
+    },
+    {
+      "id": 12157499,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=visarga",
+        "name": "visarga"
+      },
+      "date": "2016-07-25T09:41:39 1469439699",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "On the long term issue of unemployment, instead of talking about how jobs were lost to robots, we should focus on how to make robots work for us, the rest of the population, not just Amazon. People should invest in these technologies so they get to share in the dividends.<p>Otherwise, there is a second path - vertically integrated communities, with their own farming, schooling, health and manufacturing, so that people have a job and provide for themselves."
+    },
+    {
+      "id": 11727147,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-05-19T00:38:54 1463618334",
+      "onstory": {
+        "name": "Improving Docker with Unikernels: Introducing Hype...",
+        "link": "https://news.ycombinator.com/item?id=11722185"
+      },
+      "text": "This: <a href=\"https:&#x2F;&#x2F;forums.docker.com&#x2F;t&#x2F;file-access-in-mounted-volumes-extremely-slow-cpu-bound&#x2F;8076&#x2F;49\" rel=\"nofollow\">https:&#x2F;&#x2F;forums.docker.com&#x2F;t&#x2F;file-access-in-mounted-volumes-e...</a>"
+    },
+    {
+      "id": 11405726,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2016-04-01T15:52:28 1459525948",
+      "onstory": {
+        "name": "Go Proverbs: Simple, Poetic, Pithy",
+        "link": "https://news.ycombinator.com/item?id=11403120"
+      },
+      "text": "Exactly my thought."
+    },
+    {
+      "id": 10482198,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2015-10-31T08:51:39 1446281499",
+      "onstory": {
+        "name": "Ask HN: What happened to Express.js?",
+        "link": "https://news.ycombinator.com/item?id=10482069"
+      },
+      "text": "That&#x27;s not how an open source project works."
+    },
+    {
+      "id": 10492280,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ksherlock",
+        "name": "ksherlock"
+      },
+      "date": "2015-11-02T15:29:41 1446478181",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Cathedral and the Bazaar.<p><a href=\"http:&#x2F;&#x2F;www.catb.org&#x2F;~esr&#x2F;writings&#x2F;cathedral-bazaar&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;www.catb.org&#x2F;~esr&#x2F;writings&#x2F;cathedral-bazaar&#x2F;</a><p>The essay contrasts two different free software development models:<p>The Cathedral model, in which source code is available with each software release, but code developed between releases is restricted to an exclusive group of software developers. GNU Emacs and GCC were presented as examples.<p>The Bazaar model, in which the code is developed over the Internet in view of the public. Raymond credits Linus Torvalds, leader of the Linux kernel project, as the inventor of this process. Raymond also provides anecdotal accounts of his own implementation of this model for the Fetchmail project."
+    },
+    {
+      "id": 10491630,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=balac",
+        "name": "balac"
+      },
+      "date": "2015-11-02T13:15:45 1446470145",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "It is how some open source projects work (e.g. Android)."
+    },
+    {
+      "id": 10482164,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2015-10-31T08:14:30 1446279270",
+      "onstory": {
+        "name": "Ask HN: What happened to Express.js?",
+        "link": "https://news.ycombinator.com/item?id=10482069"
+      },
+      "text": "Koa is not &quot;their&quot; new project. I mean, yes, TJ Holowaychuk started both, but he has abandoned Express and Strongloop bought it. They are the current maintainer now, which was again acquired by IBM pretty recently."
+    },
+    {
+      "id": 10353678,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2015-10-08T16:11:46 1444320706",
+      "onstory": {
+        "name": "Thinking in GraphQL",
+        "link": "https://news.ycombinator.com/item?id=10351949"
+      },
+      "text": "About security, I&#x27;d also like to see just one example project where Role based authorization is implemented with GraphQL+Relay+React. Unfortunately, despite being so common requirement these days, I couldn&#x27;t find any so far.<p>Edit: I&#x27;m interested more in GraphQL official JavaScript implementation, since that&#x27;s the one most people are going to use."
+    },
+    {
+      "id": 10354010,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=estefan",
+        "name": "estefan"
+      },
+      "date": "2015-10-08T16:57:51 1444323471",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;OlegIlyenko&#x2F;sangria-auth-example\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;OlegIlyenko&#x2F;sangria-auth-example</a>"
+    },
+    {
+      "id": 10354791,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kfinley",
+        "name": "kfinley"
+      },
+      "date": "2015-10-08T18:16:19 1444328179",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;vslinko&#x2F;ripster\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;vslinko&#x2F;ripster</a>"
+    },
+    {
+      "id": 10353632,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2015-10-08T16:04:19 1444320259",
+      "onstory": {
+        "name": "Thinking in GraphQL",
+        "link": "https://news.ycombinator.com/item?id=10351949"
+      },
+      "text": "I&#x27;m writing a series on learning GraphQL here, if anybody is interested:<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;mugli&#x2F;learning-graphql\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;mugli&#x2F;learning-graphql</a>"
+    },
+    {
+      "id": 10173217,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2015-09-04T22:56:03 1441407363",
+      "onstory": {
+        "name": "CS Unplugged: Computer Science Without a Computer",
+        "link": "https://news.ycombinator.com/item?id=10171469"
+      },
+      "text": "This is so cool! Are there any similar efforts worth bookmarking?"
+    },
+    {
+      "id": 10142772,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2015-08-30T08:53:41 1440924821",
+      "onstory": {
+        "name": "Ask HN: Alternative tips for quitting smoking?",
+        "link": "https://news.ycombinator.com/item?id=10142373"
+      },
+      "text": "Watch this:<p><a href=\"https:&#x2F;&#x2F;www.ted.com&#x2F;talks&#x2F;johann_hari_everything_you_think_you_know_about_addiction_is_wrong?language=en\" rel=\"nofollow\">https:&#x2F;&#x2F;www.ted.com&#x2F;talks&#x2F;johann_hari_everything_you_think_y...</a>"
+    },
+    {
+      "id": 9847664,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2015-07-07T19:51:11 1436298671",
+      "onstory": {
+        "name": "MongoDB 3.2 – A First Forward Look",
+        "link": "https://news.ycombinator.com/item?id=9846348"
+      },
+      "text": "I think the biggest plus here is ability to enforce schema validation when you want, unlike RDBMS, which does it from the very beginning.<p>I can relate it to the static typed vs dynamic typed languages. Unlike static type checking languages, dynamic typed languages gives you huge productivity at start, but eventually that flexibility starts to become maintenance nuisance. Best of the both world is gradually typed systems, like hack or flow from Facebook, where you can start placing type checking later as necessary. So you can be very productive at start, and later be safe at scale."
+    },
+    {
+      "id": 7774055,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2014-05-20T17:55:38 1400608538",
+      "onstory": {
+        "name": "How to move off of Dropbox",
+        "link": "https://news.ycombinator.com/item?id=7771761"
+      },
+      "text": "I don&#x27;t really get it. What&#x27;s wrong with Dropbox?"
+    },
+    {
+      "id": 7774120,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kawsper",
+        "name": "kawsper"
+      },
+      "date": "2014-05-20T18:04:56 1400609096",
+      "onstory": {
+        "name": "",
+        "link": null
+      },
+      "text": "Their incentives are explained on the frontpage <a href=\"http://www.drop-dropbox.com/\" rel=\"nofollow\">http:&#x2F;&#x2F;www.drop-dropbox.com&#x2F;</a>"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 42507016,
+      "link": "https://news.ycombinator.com/item?id=42507016",
+      "title": "Ask HN: What Motivates you to keep going?",
+      "score": 23,
+      "date": "2024-12-25T05:18:26 1735103906",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Jaedon_Proctor",
+        "name": "Jaedon_Proctor"
+      },
+      "comments_count": 37,
+      "comments_link": "https://news.ycombinator.com/item?id=42507016",
+      "text": ""
+    },
+    {
+      "id": 42506506,
+      "link": "https://news.ycombinator.com/item?id=42506506",
+      "title": "Tell HN: I just updated my wife's Chrome, and uBlock is no longer supported",
+      "score": 327,
+      "date": "2024-12-25T02:49:29 1735094969",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=christophilus",
+        "name": "christophilus"
+      },
+      "comments_count": 337,
+      "comments_link": "https://news.ycombinator.com/item?id=42506506",
+      "text": ""
+    },
+    {
+      "id": 40864422,
+      "link": "https://news.ycombinator.com/item?id=40864422",
+      "title": "Tell HN: I created a grand mnemonic to stay away from smoking cigarettes",
+      "score": 1,
+      "date": "2024-07-03T09:56:28 1720000588",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Zakuzaa",
+        "name": "Zakuzaa"
+      },
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=40864422",
+      "text": ""
+    },
+    {
+      "id": 42399701,
+      "link": "https://kubespec.dev/",
+      "title": "Show HN: Kubernetes Spec Explorer",
+      "score": 216,
+      "date": "2024-12-12T15:02:14 1734015734",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=goenning",
+        "name": "goenning"
+      },
+      "comments_count": 30,
+      "comments_link": "https://news.ycombinator.com/item?id=42399701",
+      "text": ""
+    },
+    {
+      "id": 42308716,
+      "link": "https://aws.amazon.com/rds/aurora/dsql/",
+      "title": "Amazon Aurora DSQL",
+      "score": 187,
+      "date": "2024-12-03T17:30:41 1733247041",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=aws_hero",
+        "name": "aws_hero"
+      },
+      "comments_count": 135,
+      "comments_link": "https://news.ycombinator.com/item?id=42308716",
+      "text": ""
+    },
+    {
+      "id": 41689794,
+      "link": "https://notes.eatonphil.com/2024-09-29-build-a-serverless-acid-database-with-this-one-neat-trick.html",
+      "title": "Build a serverless ACID database with this one neat trick (atomic PutIfAbsent)",
+      "score": 86,
+      "date": "2024-09-29T19:37:29 1727638649",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
+        "name": "todsacerdoti"
+      },
+      "comments_count": 30,
+      "comments_link": "https://news.ycombinator.com/item?id=41689794",
+      "text": ""
+    },
+    {
+      "id": 42289087,
+      "link": "https://avi.im/blag/2024/s3-log/",
+      "title": "Building a distributed log using S3 (under 150 lines of Go)",
+      "score": 63,
+      "date": "2024-12-01T16:10:46 1733069446",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
+        "name": "todsacerdoti"
+      },
+      "comments_count": 31,
+      "comments_link": "https://news.ycombinator.com/item?id=42289087",
+      "text": ""
+    },
+    {
+      "id": 42274489,
+      "link": "https://steelph0enix.github.io/posts/llama-cpp-guide/",
+      "title": "Llama.cpp guide – Running LLMs locally on any hardware, from scratch",
+      "score": 368,
+      "date": "2024-11-29T15:28:34 1732894114",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zarekr",
+        "name": "zarekr"
+      },
+      "comments_count": 87,
+      "comments_link": "https://news.ycombinator.com/item?id=42274489",
+      "text": ""
+    },
+    {
+      "id": 42201892,
+      "link": "https://abenezer.org/blog/hyrum-law-in-golang",
+      "title": "Hyrum’s Law in Golang",
+      "score": 317,
+      "date": "2024-11-21T07:12:35 1732173155",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=thunderbong",
+        "name": "thunderbong"
+      },
+      "comments_count": 183,
+      "comments_link": "https://news.ycombinator.com/item?id=42201892",
+      "text": ""
+    },
+    {
+      "id": 39529775,
+      "link": "https://isburmistrov.substack.com/p/all-you-need-is-wide-events-not-metrics",
+      "title": "All you need is Wide Events, not \"Metrics, Logs and Traces\"",
+      "score": 267,
+      "date": "2024-02-27T20:53:39 1709067219",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=talboren",
+        "name": "talboren"
+      },
+      "comments_count": 175,
+      "comments_link": "https://news.ycombinator.com/item?id=39529775",
+      "text": ""
+    },
+    {
+      "id": 41899599,
+      "link": "https://cliffle.com/p/dangerust/",
+      "title": "Learn Rust the Dangerous Way",
+      "score": 110,
+      "date": "2024-10-21T00:15:14 1729469714",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=davikr",
+        "name": "davikr"
+      },
+      "comments_count": 18,
+      "comments_link": "https://news.ycombinator.com/item?id=41899599",
+      "text": ""
+    },
+    {
+      "id": 41889076,
+      "link": "https://dancres.github.io/Pages/",
+      "title": "A Distributed Systems Reading List (2014)",
+      "score": 193,
+      "date": "2024-10-19T17:17:19 1729358239",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=udev4096",
+        "name": "udev4096"
+      },
+      "comments_count": 9,
+      "comments_link": "https://news.ycombinator.com/item?id=41889076",
+      "text": ""
+    },
+    {
+      "id": 41854749,
+      "link": "https://www.forbes.com/sites/johnhyatt/2021/11/11/how-americas-richest-people-larry-ellison-elon-musk-can-access-billions-without-selling-their-stock/",
+      "title": "The richest people borrow against their stock (2021)",
+      "score": 137,
+      "date": "2024-10-16T01:23:46 1729041826",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=CHB0403085482",
+        "name": "CHB0403085482"
+      },
+      "comments_count": 335,
+      "comments_link": "https://news.ycombinator.com/item?id=41854749",
+      "text": ""
+    },
+    {
+      "id": 41846636,
+      "link": "https://github.com/Snowiiii/Pumpkin",
+      "title": "Show HN: Pumpkin – A Modern Minecraft server written in Rust",
+      "score": 419,
+      "date": "2024-10-15T09:18:16 1728983896",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=alex_medvedev",
+        "name": "alex_medvedev"
+      },
+      "comments_count": 153,
+      "comments_link": "https://news.ycombinator.com/item?id=41846636",
+      "text": ""
+    },
+    {
+      "id": 41846780,
+      "link": "https://browser.engineering/index.html",
+      "title": "Web Browser Engineering (2021)",
+      "score": 770,
+      "date": "2024-10-15T09:42:29 1728985349",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MrVandemar",
+        "name": "MrVandemar"
+      },
+      "comments_count": 132,
+      "comments_link": "https://news.ycombinator.com/item?id=41846780",
+      "text": ""
+    },
+    {
+      "id": 41811983,
+      "link": "https://gwolf.org/2024/10/started-a-guide-to-writing-fuse-filesystems-in-python.html",
+      "title": "Started a guide to writing FUSE filesystems in Python",
+      "score": 263,
+      "date": "2024-10-11T18:29:40 1728671380",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=levlaz",
+        "name": "levlaz"
+      },
+      "comments_count": 64,
+      "comments_link": "https://news.ycombinator.com/item?id=41811983",
+      "text": ""
+    },
+    {
+      "id": 41793658,
+      "link": "https://cacm.acm.org/practice/you-dont-know-jack-about-bandwidth/",
+      "title": "You Don’t Know Jack about Bandwidth",
+      "score": 213,
+      "date": "2024-10-09T22:51:55 1728514315",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sohkamyung",
+        "name": "sohkamyung"
+      },
+      "comments_count": 111,
+      "comments_link": "https://news.ycombinator.com/item?id=41793658",
+      "text": ""
+    },
+    {
+      "id": 41765435,
+      "link": "https://docs.hetzner.com/storage/object-storage/",
+      "title": "Hetzner Object Storage",
+      "score": 248,
+      "date": "2024-10-07T12:41:50 1728304910",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=polyrand",
+        "name": "polyrand"
+      },
+      "comments_count": 185,
+      "comments_link": "https://news.ycombinator.com/item?id=41765435",
+      "text": ""
+    },
+    {
+      "id": 36097321,
+      "link": "https://mitchellh.com/writing/zig-and-swiftui",
+      "title": "Integrating Zig and SwiftUI",
+      "score": 165,
+      "date": "2023-05-27T19:09:06 1685214546",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ingve",
+        "name": "ingve"
+      },
+      "comments_count": 55,
+      "comments_link": "https://news.ycombinator.com/item?id=36097321",
+      "text": ""
+    },
+    {
+      "id": 32186203,
+      "link": "https://news.ycombinator.com/item?id=32186203",
+      "title": "Ask HN: What are some cool but obscure data structures you know about?",
+      "score": 2051,
+      "date": "2022-07-21T22:50:29 1658443829",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Uptrenda",
+        "name": "Uptrenda"
+      },
+      "comments_count": 753,
+      "comments_link": "https://news.ycombinator.com/item?id=32186203",
+      "text": ""
+    },
+    {
+      "id": 41747771,
+      "link": "https://blog.jacobsdata.com/2020/02/19/a-brief-intro-to-clean-architecture-clean-ddd-and-cqrs",
+      "title": "A Brief Intro to Clean Architecture, Clean DDD, and CQRS",
+      "score": 20,
+      "date": "2024-10-05T04:39:54 1728103194",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lemonwaterlime",
+        "name": "lemonwaterlime"
+      },
+      "comments_count": 17,
+      "comments_link": "https://news.ycombinator.com/item?id=41747771",
+      "text": ""
+    },
+    {
+      "id": 36632397,
+      "link": "https://gpus.llm-utils.org/the-gpu-guide/",
+      "title": "GPU Guide (For AI Use-Cases)",
+      "score": 49,
+      "date": "2023-07-07T14:37:58 1688740678",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tikkun",
+        "name": "tikkun"
+      },
+      "comments_count": 25,
+      "comments_link": "https://news.ycombinator.com/item?id=36632397",
+      "text": ""
+    },
+    {
+      "id": 37324683,
+      "link": "https://a16z.com/2023/08/30/supporting-the-open-source-ai-community/",
+      "title": "Long Live the 'GPU Poor' – Open-Source AI Grants",
+      "score": 326,
+      "date": "2023-08-30T16:37:23 1693413443",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rajko_rad",
+        "name": "rajko_rad"
+      },
+      "comments_count": 110,
+      "comments_link": "https://news.ycombinator.com/item?id=37324683",
+      "text": ""
+    },
+    {
+      "id": 41732853,
+      "link": "https://arxiv.org/abs/2410.01201",
+      "title": "Were RNNs all we needed?",
+      "score": 520,
+      "date": "2024-10-03T17:31:59 1727976719",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=beefman",
+        "name": "beefman"
+      },
+      "comments_count": 260,
+      "comments_link": "https://news.ycombinator.com/item?id=41732853",
+      "text": ""
+    },
+    {
+      "id": 41674382,
+      "link": "https://community.amd.com/t5/ai/amd-unveils-its-first-small-language-model-amd-135m/ba-p/711368",
+      "title": "AMD Unveils Its First Small Language Model AMD-135M",
+      "score": 311,
+      "date": "2024-09-27T19:05:05 1727463905",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=figomore",
+        "name": "figomore"
+      },
+      "comments_count": 97,
+      "comments_link": "https://news.ycombinator.com/item?id=41674382",
+      "text": ""
+    },
+    {
+      "id": 34336386,
+      "link": "https://github.com/karpathy/nanoGPT",
+      "title": "NanoGPT",
+      "score": 1532,
+      "date": "2023-01-11T08:34:25 1673426065",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=trekhleb",
+        "name": "trekhleb"
+      },
+      "comments_count": 320,
+      "comments_link": "https://news.ycombinator.com/item?id=34336386",
+      "text": ""
+    },
+    {
+      "id": 35940506,
+      "link": "https://colab.research.google.com/github/norvig/pytudes/blob/main/ipynb/Goldberg.ipynb",
+      "title": "The unreasonable effectiveness of character-level language models (2015)",
+      "score": 83,
+      "date": "2023-05-14T19:11:47 1684091507",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=behnamoh",
+        "name": "behnamoh"
+      },
+      "comments_count": 35,
+      "comments_link": "https://news.ycombinator.com/item?id=35940506",
+      "text": ""
+    },
+    {
+      "id": 41604950,
+      "link": "https://news.ycombinator.com/item?id=41604950",
+      "title": "Ask HN: Platform for 11 year old to create video games?",
+      "score": 268,
+      "date": "2024-09-20T19:39:45 1726861185",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=IgorPartola",
+        "name": "IgorPartola"
+      },
+      "comments_count": 253,
+      "comments_link": "https://news.ycombinator.com/item?id=41604950",
+      "text": ""
+    },
+    {
+      "id": 41648483,
+      "link": "https://www.systeminit.com/blog-system-initiative-is-the-future/",
+      "title": "System Intiative is generally available",
+      "score": 137,
+      "date": "2024-09-25T15:21:02 1727277662",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jen20",
+        "name": "jen20"
+      },
+      "comments_count": 88,
+      "comments_link": "https://news.ycombinator.com/item?id=41648483",
+      "text": ""
+    },
+    {
+      "id": 41609346,
+      "link": "https://nuenki.app",
+      "title": "Show HN: Nuenki - Learn a language while you browse the web",
+      "score": 18,
+      "date": "2024-09-21T11:42:11 1726918931",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Alex-Programs",
+        "name": "Alex-Programs"
+      },
+      "comments_count": 20,
+      "comments_link": "https://news.ycombinator.com/item?id=41609346",
+      "text": ""
+    },
+    {
+      "id": 41570163,
+      "link": "https://jeremymorrell.dev/blog/minimal-js-tracing/",
+      "title": "OpenTelemetry Tracing in < 200 lines of code",
+      "score": 251,
+      "date": "2024-09-17T17:21:41 1726593701",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=masterj",
+        "name": "masterj"
+      },
+      "comments_count": 36,
+      "comments_link": "https://news.ycombinator.com/item?id=41570163",
+      "text": ""
+    },
+    {
+      "id": 41478930,
+      "link": "https://sqlc.dev/",
+      "title": "Sqlc: Compile SQL to type-safe code",
+      "score": 232,
+      "date": "2024-09-08T08:04:37 1725782677",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wsc981",
+        "name": "wsc981"
+      },
+      "comments_count": 104,
+      "comments_link": "https://news.ycombinator.com/item?id=41478930",
+      "text": ""
+    },
+    {
+      "id": 41489832,
+      "link": "https://planetscale.com/blog/btrees-and-database-indexes",
+      "title": "B-Trees and Database Indexes",
+      "score": 351,
+      "date": "2024-09-09T15:57:16 1725897436",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=samlambert",
+        "name": "samlambert"
+      },
+      "comments_count": 79,
+      "comments_link": "https://news.ycombinator.com/item?id=41489832",
+      "text": ""
+    },
+    {
+      "id": 41420783,
+      "link": "https://stack-auth.com/blog/oauth-from-first-principles",
+      "title": "OAuth from First Principles",
+      "score": 490,
+      "date": "2024-09-01T22:03:03 1725228183",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=n2d4",
+        "name": "n2d4"
+      },
+      "comments_count": 104,
+      "comments_link": "https://news.ycombinator.com/item?id=41420783",
+      "text": ""
+    },
+    {
+      "id": 41429960,
+      "link": "https://nick-gravgaard.com/qwerty-flip/",
+      "title": "QWERTY-Flip: The better keyboard layout your fingers already know",
+      "score": 107,
+      "date": "2024-09-03T00:24:38 1725323078",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=JNRowe",
+        "name": "JNRowe"
+      },
+      "comments_count": 115,
+      "comments_link": "https://news.ycombinator.com/item?id=41429960",
+      "text": ""
+    },
+    {
+      "id": 41427563,
+      "link": "https://github.com/pythonbrad/afrim",
+      "title": "Show HN: A modern way to type in African languages",
+      "score": 189,
+      "date": "2024-09-02T18:10:20 1725300620",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pythonbrad",
+        "name": "pythonbrad"
+      },
+      "comments_count": 85,
+      "comments_link": "https://news.ycombinator.com/item?id=41427563",
+      "text": ""
+    },
+    {
+      "id": 35971986,
+      "link": "https://newsletter.pragmaticengineer.com/p/inside-the-datadog-outage",
+      "title": "Datadog’s $5M Outage",
+      "score": 38,
+      "date": "2023-05-17T06:43:53 1684305833",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=PreInternet01",
+        "name": "PreInternet01"
+      },
+      "comments_count": 9,
+      "comments_link": "https://news.ycombinator.com/item?id=35971986",
+      "text": ""
+    },
+    {
+      "id": 35067093,
+      "link": "https://status.datadoghq.com",
+      "title": "DataDog is having a major outage across almost all services",
+      "score": 156,
+      "date": "2023-03-08T09:51:07 1678269067",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sercant",
+        "name": "sercant"
+      },
+      "comments_count": 39,
+      "comments_link": "https://news.ycombinator.com/item?id=35067093",
+      "text": ""
+    },
+    {
+      "id": 41389931,
+      "link": "https://lowcostminipcs.com/",
+      "title": "Low Cost Mini PCs",
+      "score": 701,
+      "date": "2024-08-29T12:03:41 1724933021",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mjcurl",
+        "name": "mjcurl"
+      },
+      "comments_count": 336,
+      "comments_link": "https://news.ycombinator.com/item?id=41389931",
+      "text": ""
+    },
+    {
+      "id": 41327394,
+      "link": "https://sebastianmarines.com/post/journey-of-a-packet-exploring-networks-with-traceroute/",
+      "title": "The journey of an internet packet: Exploring networks with traceroute",
+      "score": 319,
+      "date": "2024-08-23T09:10:39 1724404239",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=marinesebastian",
+        "name": "marinesebastian"
+      },
+      "comments_count": 107,
+      "comments_link": "https://news.ycombinator.com/item?id=41327394",
+      "text": ""
+    },
+    {
+      "id": 41312124,
+      "link": "https://huonw.github.io/blog/2024/08/async-hazard-mmap/",
+      "title": "Async hazard: MMAP is blocking IO",
+      "score": 106,
+      "date": "2024-08-21T17:01:05 1724259665",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mmastrac",
+        "name": "mmastrac"
+      },
+      "comments_count": 115,
+      "comments_link": "https://news.ycombinator.com/item?id=41312124",
+      "text": ""
+    },
+    {
+      "id": 41325388,
+      "link": "https://kardinal.dev/",
+      "title": "Show HN: Kardinal – Building light-weight Kubernetes dev ephemeral environments",
+      "score": 72,
+      "date": "2024-08-23T00:31:45 1724373105",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=TCR19",
+        "name": "TCR19"
+      },
+      "comments_count": 25,
+      "comments_link": "https://news.ycombinator.com/item?id=41325388",
+      "text": ""
+    },
+    {
+      "id": 41325719,
+      "link": "https://github.com/CEREBRUS-MAXIMUS/Surfer-Data",
+      "title": "Surfer: Centralize all your personal data from online platforms",
+      "score": 151,
+      "date": "2024-08-23T02:13:00 1724379180",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=swyx",
+        "name": "swyx"
+      },
+      "comments_count": 46,
+      "comments_link": "https://news.ycombinator.com/item?id=41325719",
+      "text": ""
+    },
+    {
+      "id": 41243278,
+      "link": "https://praachi.work/blog/questions-to-ask-in-a-job-interview",
+      "title": "Interviewing the Interviewer: Questions to Uncover a Company's True Culture",
+      "score": 455,
+      "date": "2024-08-14T06:56:23 1723618583",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=abhas9",
+        "name": "abhas9"
+      },
+      "comments_count": 220,
+      "comments_link": "https://news.ycombinator.com/item?id=41243278",
+      "text": ""
+    },
+    {
+      "id": 41116639,
+      "link": "https://words.filippo.io/rustgo/",
+      "title": "Rustgo: Calling Rust from Go with near-zero overhead (2017)",
+      "score": 185,
+      "date": "2024-07-31T05:43:33 1722404613",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=telotortium",
+        "name": "telotortium"
+      },
+      "comments_count": 78,
+      "comments_link": "https://news.ycombinator.com/item?id=41116639",
+      "text": ""
+    },
+    {
+      "id": 41080189,
+      "link": "https://github.com/jodigiordano/gg",
+      "title": "Show HN: Create diagrams of complex data flows in software systems",
+      "score": 205,
+      "date": "2024-07-26T16:57:12 1722013032",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=j0d1",
+        "name": "j0d1"
+      },
+      "comments_count": 65,
+      "comments_link": "https://news.ycombinator.com/item?id=41080189",
+      "text": ""
+    },
+    {
+      "id": 41086620,
+      "link": "https://github.com/opslane/opslane",
+      "title": "Show HN: I built an open-source tool to make on-call suck less",
+      "score": 319,
+      "date": "2024-07-27T13:53:58 1722088438",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=aray07",
+        "name": "aray07"
+      },
+      "comments_count": 169,
+      "comments_link": "https://news.ycombinator.com/item?id=41086620",
+      "text": ""
+    },
+    {
+      "id": 41068719,
+      "link": "https://haystackeditor.com/",
+      "title": "Show HN: Haystack – an IDE for exploring and editing code on an infinite canvas",
+      "score": 546,
+      "date": "2024-07-25T13:54:14 1721915654",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=akshaysg",
+        "name": "akshaysg"
+      },
+      "comments_count": 214,
+      "comments_link": "https://news.ycombinator.com/item?id=41068719",
+      "text": ""
+    },
+    {
+      "id": 41036982,
+      "link": "https://ssoready.com/blog/engineering/a-gentle-intro-to-saml/",
+      "title": "A Gentle Introduction to SAML",
+      "score": 244,
+      "date": "2024-07-22T17:27:44 1721669264",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=noleary",
+        "name": "noleary"
+      },
+      "comments_count": 95,
+      "comments_link": "https://news.ycombinator.com/item?id=41036982",
+      "text": ""
+    },
+    {
+      "id": 40986894,
+      "link": "https://matt.sh/panic-at-the-job-market",
+      "title": "Panic at the Job Market",
+      "score": 1717,
+      "date": "2024-07-17T15:25:11 1721229911",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=speckx",
+        "name": "speckx"
+      },
+      "comments_count": 1562,
+      "comments_link": "https://news.ycombinator.com/item?id=40986894",
+      "text": ""
+    },
+    {
+      "id": 40990641,
+      "link": "https://github.com/seddonm1/sqlite-bench",
+      "title": "Show HN: SQLite Transaction Benchmarking Tool",
+      "score": 128,
+      "date": "2024-07-17T21:44:42 1721252682",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=seddonm1",
+        "name": "seddonm1"
+      },
+      "comments_count": 21,
+      "comments_link": "https://news.ycombinator.com/item?id=40990641",
+      "text": ""
+    },
+    {
+      "id": 17988464,
+      "link": "https://techyaks.com",
+      "title": "Show HN: TechYaks – Best of 50k tech talks ranked by confidence intervals",
+      "score": 514,
+      "date": "2018-09-14T16:17:34 1536941854",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=yaj54",
+        "name": "yaj54"
+      },
+      "comments_count": 62,
+      "comments_link": "https://news.ycombinator.com/item?id=17988464",
+      "text": ""
+    },
+    {
+      "id": 40596535,
+      "link": "https://medicalxpress.com/news/2024-06-brain-overgrowth-dictates-autism-severity.html",
+      "title": "Brain overgrowth dictates autism severity, new research suggests",
+      "score": 250,
+      "date": "2024-06-06T12:18:39 1717676319",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jdmark",
+        "name": "jdmark"
+      },
+      "comments_count": 343,
+      "comments_link": "https://news.ycombinator.com/item?id=40596535",
+      "text": ""
+    },
+    {
+      "id": 40450633,
+      "link": "https://news.ycombinator.com/item?id=40450633",
+      "title": "Ask HN: Those who use an Android and macOS, how do you manage sync?",
+      "score": 22,
+      "date": "2024-05-23T04:59:44 1716440384",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=coldtrait",
+        "name": "coldtrait"
+      },
+      "comments_count": 38,
+      "comments_link": "https://news.ycombinator.com/item?id=40450633",
+      "text": ""
+    },
+    {
+      "id": 40431663,
+      "link": "https://kittenlabs.de/blog/2024/05/17/25gbit/s-on-macos-ios/",
+      "title": "25GBit/S on macOS and iOS",
+      "score": 63,
+      "date": "2024-05-21T18:01:07 1716314467",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
+        "name": "todsacerdoti"
+      },
+      "comments_count": 34,
+      "comments_link": "https://news.ycombinator.com/item?id=40431663",
+      "text": ""
+    },
+    {
+      "id": 40405578,
+      "link": "https://theoverclockingpage.com/2024/05/13/tutorial-transforming-a-qlc-ssd-into-an-slc-ssd-dramatically-increasing-the-drives-endurance/?lang=en",
+      "title": "Transforming a QLC SSD into an SLC SSD",
+      "score": 251,
+      "date": "2024-05-19T09:30:16 1716111016",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=userbinator",
+        "name": "userbinator"
+      },
+      "comments_count": 153,
+      "comments_link": "https://news.ycombinator.com/item?id=40405578",
+      "text": ""
+    },
+    {
+      "id": 40384421,
+      "link": "https://smudge.ai/blog/ratelimit-algorithms",
+      "title": "Visualizing algorithms for rate limiting",
+      "score": 390,
+      "date": "2024-05-16T23:07:20 1715900840",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=seabass",
+        "name": "seabass"
+      },
+      "comments_count": 49,
+      "comments_link": "https://news.ycombinator.com/item?id=40384421",
+      "text": ""
+    },
+    {
+      "id": 40347677,
+      "link": "https://allaboutberlin.com/guides/photography-laws-germany",
+      "title": "Photography Laws in Germany",
+      "score": 74,
+      "date": "2024-05-13T20:01:37 1715630497",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Tomte",
+        "name": "Tomte"
+      },
+      "comments_count": 82,
+      "comments_link": "https://news.ycombinator.com/item?id=40347677",
+      "text": ""
+    },
+    {
+      "id": 39928223,
+      "link": "https://zilliz.com/learn/introduction-to-natural-language-processing-tokens-ngrams-bag-of-words-models",
+      "title": "Tokens, n-grams, and bag-of-words models (2023)",
+      "score": 160,
+      "date": "2024-04-04T09:27:03 1712222823",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fzliu",
+        "name": "fzliu"
+      },
+      "comments_count": 16,
+      "comments_link": "https://news.ycombinator.com/item?id=39928223",
+      "text": ""
+    },
+    {
+      "id": 39938307,
+      "link": "https://news.ycombinator.com/item?id=39938307",
+      "title": "Ask HN: Open-source Windows 11 backup solutions",
+      "score": 25,
+      "date": "2024-04-05T03:04:30 1712286270",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nodesocket",
+        "name": "nodesocket"
+      },
+      "comments_count": 23,
+      "comments_link": "https://news.ycombinator.com/item?id=39938307",
+      "text": ""
+    },
+    {
+      "id": 39873692,
+      "link": "https://bitbashing.io/gc-for-systems-programmers.html",
+      "title": "Garbage collection for systems programmers (2023)",
+      "score": 396,
+      "date": "2024-03-30T11:03:54 1711796634",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ingve",
+        "name": "ingve"
+      },
+      "comments_count": 267,
+      "comments_link": "https://news.ycombinator.com/item?id=39873692",
+      "text": ""
+    },
+    {
+      "id": 39662079,
+      "link": "https://github.com/PaperMC/Paper",
+      "title": "PaperMC/Paper: The most widely used, high performance Minecraft server",
+      "score": 186,
+      "date": "2024-03-10T19:55:28 1710100528",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notamy",
+        "name": "notamy"
+      },
+      "comments_count": 54,
+      "comments_link": "https://news.ycombinator.com/item?id=39662079",
+      "text": ""
+    },
+    {
+      "id": 39509645,
+      "link": "https://www.firsty.app/",
+      "title": "Firsty.app – free 300kbit/s eSIM for US/EU",
+      "score": 250,
+      "date": "2024-02-26T10:33:00 1708943580",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sva_",
+        "name": "sva_"
+      },
+      "comments_count": 211,
+      "comments_link": "https://news.ycombinator.com/item?id=39509645",
+      "text": ""
+    },
+    {
+      "id": 39360439,
+      "link": "https://help.twilio.com/articles/22771146070299-End-user-guide-End-of-Life-EOL-for-Twilio-Authy-Desktop-app",
+      "title": "End of Life for Twilio Authy Desktop App",
+      "score": 227,
+      "date": "2024-02-13T17:48:15 1707846495",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tempestn",
+        "name": "tempestn"
+      },
+      "comments_count": 172,
+      "comments_link": "https://news.ycombinator.com/item?id=39360439",
+      "text": ""
+    },
+    {
+      "id": 39318774,
+      "link": "https://cs-people.bu.edu/mathan/publications/fnt23-athanassoulis.pdf",
+      "title": "Data Structures for Data-Intensive Applications [pdf] (2023)",
+      "score": 583,
+      "date": "2024-02-09T18:53:56 1707504836",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mfiguiere",
+        "name": "mfiguiere"
+      },
+      "comments_count": 26,
+      "comments_link": "https://news.ycombinator.com/item?id=39318774",
+      "text": ""
+    },
+    {
+      "id": 39177467,
+      "link": "https://phrasing.app/playground",
+      "title": "Show HN: Phrasing – learn every language, to any level",
+      "score": 127,
+      "date": "2024-01-29T15:38:02 1706542682",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=barrell",
+        "name": "barrell"
+      },
+      "comments_count": 125,
+      "comments_link": "https://news.ycombinator.com/item?id=39177467",
+      "text": ""
+    },
+    {
+      "id": 38823514,
+      "link": "https://mattgadient.com/7-watts-idle-on-intel-12th-13th-gen-the-foundation-for-building-a-low-power-server-nas/",
+      "title": "7 watts idle – building a low powered server/NAS on Intel 12th/13th gen",
+      "score": 332,
+      "date": "2023-12-31T12:10:52 1704024652",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ryangibb",
+        "name": "ryangibb"
+      },
+      "comments_count": 183,
+      "comments_link": "https://news.ycombinator.com/item?id=38823514",
+      "text": ""
+    },
+    {
+      "id": 38729696,
+      "link": "https://fusionauth.io/articles/identity-basics/what-is-oidc",
+      "title": "What Is OIDC?",
+      "score": 92,
+      "date": "2023-12-22T01:20:12 1703208012",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mooreds",
+        "name": "mooreds"
+      },
+      "comments_count": 65,
+      "comments_link": "https://news.ycombinator.com/item?id=38729696",
+      "text": ""
+    },
+    {
+      "id": 38274782,
+      "link": "https://www.ledger.com/blog/hacking-adhd-strategies-for-the-modern-developer",
+      "title": "Hacking ADHD: Strategies for the modern developer",
+      "score": 732,
+      "date": "2023-11-15T09:15:20 1700039720",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=vberg",
+        "name": "vberg"
+      },
+      "comments_count": 725,
+      "comments_link": "https://news.ycombinator.com/item?id=38274782",
+      "text": ""
+    },
+    {
+      "id": 38161369,
+      "link": "https://news.ycombinator.com/item?id=38161369",
+      "title": "Ask HN: What are you passionate about at the moment?",
+      "score": 370,
+      "date": "2023-11-06T11:54:39 1699271679",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kurtdev",
+        "name": "kurtdev"
+      },
+      "comments_count": 842,
+      "comments_link": "https://news.ycombinator.com/item?id=38161369",
+      "text": ""
+    },
+    {
+      "id": 37806870,
+      "link": "https://ludic.mataroa.blog/blog/your-organization-probably-doesnt-want-to-improve-things/",
+      "title": "Organization probably doesn't want to improve things",
+      "score": 524,
+      "date": "2023-10-08T00:48:03 1696726083",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=l0b0",
+        "name": "l0b0"
+      },
+      "comments_count": 468,
+      "comments_link": "https://news.ycombinator.com/item?id=37806870",
+      "text": ""
+    },
+    {
+      "id": 37710717,
+      "link": "https://news.ycombinator.com/item?id=37710717",
+      "title": "Ask HN: What entities out there provide open-source grants/funding?",
+      "score": 55,
+      "date": "2023-09-29T22:13:02 1696025582",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jviotti",
+        "name": "jviotti"
+      },
+      "comments_count": 18,
+      "comments_link": "https://news.ycombinator.com/item?id=37710717",
+      "text": ""
+    },
+    {
+      "id": 37541093,
+      "link": "https://jackcook.com/2023/09/08/predictive-text.html",
+      "title": "Apple’s new Transformer-powered predictive text model",
+      "score": 527,
+      "date": "2023-09-17T03:00:23 1694919623",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nojito",
+        "name": "nojito"
+      },
+      "comments_count": 245,
+      "comments_link": "https://news.ycombinator.com/item?id=37541093",
+      "text": ""
+    },
+    {
+      "id": 30545652,
+      "link": "https://news.ycombinator.com/item?id=30545652",
+      "title": "Ask HN: Self-hosted open source IP security cameras?",
+      "score": 80,
+      "date": "2022-03-03T19:36:13 1646336173",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=DietaryNonsense",
+        "name": "DietaryNonsense"
+      },
+      "comments_count": 43,
+      "comments_link": "https://news.ycombinator.com/item?id=30545652",
+      "text": ""
+    },
+    {
+      "id": 37412793,
+      "link": "https://github.com/amaiya/onprem",
+      "title": "Run ChatGPT-like LLMs on your laptop in 3 lines of code",
+      "score": 150,
+      "date": "2023-09-06T23:28:39 1694042919",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=amaiya",
+        "name": "amaiya"
+      },
+      "comments_count": 33,
+      "comments_link": "https://news.ycombinator.com/item?id=37412793",
+      "text": ""
+    },
+    {
+      "id": 37279109,
+      "link": "https://ericdraken.com/pfsense-decrypt-ad-traffic/",
+      "title": "Block YouTube ads on AppleTV by decrypting and stripping ads from Profobuf",
+      "score": 1198,
+      "date": "2023-08-27T03:13:13 1693105993",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rolph",
+        "name": "rolph"
+      },
+      "comments_count": 626,
+      "comments_link": "https://news.ycombinator.com/item?id=37279109",
+      "text": ""
+    },
+    {
+      "id": 37081789,
+      "link": "https://blog.networkprofile.org/my-home-network-complete-details-2023/",
+      "title": "My Overkill Home Network",
+      "score": 590,
+      "date": "2023-08-10T21:05:20 1691701520",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=monstermunch",
+        "name": "monstermunch"
+      },
+      "comments_count": 454,
+      "comments_link": "https://news.ycombinator.com/item?id=37081789",
+      "text": ""
+    },
+    {
+      "id": 36933028,
+      "link": "https://www.openwall.com/lists/musl/2023/05/02/1",
+      "title": "Musl 1.2.4 adds TCP DNS fallback",
+      "score": 242,
+      "date": "2023-07-30T16:39:16 1690735156",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=goranmoomin",
+        "name": "goranmoomin"
+      },
+      "comments_count": 136,
+      "comments_link": "https://news.ycombinator.com/item?id=36933028",
+      "text": ""
+    },
+    {
+      "id": 36823605,
+      "link": "https://cpu.land/",
+      "title": "Putting the “You” in CPU",
+      "score": 371,
+      "date": "2023-07-22T05:38:53 1690004333",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=uneekname",
+        "name": "uneekname"
+      },
+      "comments_count": 109,
+      "comments_link": "https://news.ycombinator.com/item?id=36823605",
+      "text": ""
+    },
+    {
+      "id": 36728672,
+      "link": "https://www.sniffnet.net/",
+      "title": "Sniffnet – Comfortably monitor your internet traffic (like Wireshark)",
+      "score": 240,
+      "date": "2023-07-14T19:20:14 1689362414",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kristianpaul",
+        "name": "kristianpaul"
+      },
+      "comments_count": 60,
+      "comments_link": "https://news.ycombinator.com/item?id=36728672",
+      "text": ""
+    },
+    {
+      "id": 36673224,
+      "link": "https://github.com/immich-app/immich",
+      "title": "Self-hosted photo and video backups directly from your mobile phone",
+      "score": 757,
+      "date": "2023-07-10T21:28:40 1689024520",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=barbazoo",
+        "name": "barbazoo"
+      },
+      "comments_count": 344,
+      "comments_link": "https://news.ycombinator.com/item?id=36673224",
+      "text": ""
+    },
+    {
+      "id": 27543965,
+      "link": "https://doordash.engineering/2021/06/17/leveraging-opentelemetry-for-custom-context-propagation/",
+      "title": "Leveraging OpenTelemetry for Custom Context Propagation",
+      "score": 6,
+      "date": "2021-06-17T20:04:41 1623960281",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ezrajberger",
+        "name": "ezrajberger"
+      },
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=27543965",
+      "text": ""
+    },
+    {
+      "id": 36096305,
+      "link": "https://doc.lagout.org/science/0_Computer%20Science/2_Algorithms/Introduction%20to%20Algorithms_%20A%20Creative%20Approach%20%5BManber%201989-01-11%5D.pdf",
+      "title": "Introduction to Algorithms: A Creative Approach by Udi Manber [pdf]",
+      "score": 273,
+      "date": "2023-05-27T17:05:04 1685207104",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ggr2342",
+        "name": "ggr2342"
+      },
+      "comments_count": 37,
+      "comments_link": "https://news.ycombinator.com/item?id=36096305",
+      "text": ""
+    },
+    {
+      "id": 36070426,
+      "link": "https://notes.eatonphil.com/2023-05-25-raft.html",
+      "title": "Implementing a distributed key-value store on top of implementing Raft in Go",
+      "score": 272,
+      "date": "2023-05-25T13:26:47 1685021207",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=simjue",
+        "name": "simjue"
+      },
+      "comments_count": 79,
+      "comments_link": "https://news.ycombinator.com/item?id=36070426",
+      "text": ""
+    },
+    {
+      "id": 31027766,
+      "link": "https://news.ycombinator.com/item?id=31027766",
+      "title": "Ask HN: Do you manage your family's digital safety?",
+      "score": 163,
+      "date": "2022-04-14T14:51:19 1649947879",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=arzmir",
+        "name": "arzmir"
+      },
+      "comments_count": 128,
+      "comments_link": "https://news.ycombinator.com/item?id=31027766",
+      "text": ""
+    },
+    {
+      "id": 35975353,
+      "link": "https://med.stanford.edu/news/all-news/2023/05/depression-reverse-brain-signals.html",
+      "title": "Researchers treat depression by reversing brain signals traveling the wrong way",
+      "score": 325,
+      "date": "2023-05-17T14:03:12 1684332192",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=CharlesW",
+        "name": "CharlesW"
+      },
+      "comments_count": 208,
+      "comments_link": "https://news.ycombinator.com/item?id=35975353",
+      "text": ""
+    },
+    {
+      "id": 35713852,
+      "link": "https://webbu.app/german",
+      "title": "Show HN: Learn German with Short Stories",
+      "score": 180,
+      "date": "2023-04-26T14:06:12 1682517972",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fersarr",
+        "name": "fersarr"
+      },
+      "comments_count": 119,
+      "comments_link": "https://news.ycombinator.com/item?id=35713852",
+      "text": ""
+    },
+    {
+      "id": 35675159,
+      "link": "https://gopiandcode.uk/logs/log-writing-activitypub.html",
+      "title": "I Wrote an Activitypub Server in OCaml: Lessons Learnt, Weekends Lost",
+      "score": 154,
+      "date": "2023-04-23T10:56:58 1682247418",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gopiandcode",
+        "name": "gopiandcode"
+      },
+      "comments_count": 108,
+      "comments_link": "https://news.ycombinator.com/item?id=35675159",
+      "text": ""
+    },
+    {
+      "id": 35662260,
+      "link": "https://www.newyorker.com/magazine/2023/04/24/how-much-can-duolingo-teach-us",
+      "title": "How much can Duolingo teach us?",
+      "score": 192,
+      "date": "2023-04-22T01:03:55 1682125435",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=herbertl",
+        "name": "herbertl"
+      },
+      "comments_count": 331,
+      "comments_link": "https://news.ycombinator.com/item?id=35662260",
+      "text": ""
+    },
+    {
+      "id": 35666598,
+      "link": "https://build-your-own.org/blog/20230420_byodb_done/",
+      "title": "The “Build Your Own Database” book is finished",
+      "score": 657,
+      "date": "2023-04-22T13:50:21 1682171421",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tim_sw",
+        "name": "tim_sw"
+      },
+      "comments_count": 99,
+      "comments_link": "https://news.ycombinator.com/item?id=35666598",
+      "text": ""
+    },
+    {
+      "id": 35507748,
+      "link": "https://news.ycombinator.com/item?id=35507748",
+      "title": "Ask HN: What is a good gift for a mechanically oriented 8 year old",
+      "score": 28,
+      "date": "2023-04-10T00:15:38 1681085738",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=edmundsauto",
+        "name": "edmundsauto"
+      },
+      "comments_count": 37,
+      "comments_link": "https://news.ycombinator.com/item?id=35507748",
+      "text": ""
+    },
+    {
+      "id": 35455617,
+      "link": "https://www.wikistorytime.com/",
+      "title": "Show HN: My tool to rewrite Wikipedia stories for kids",
+      "score": 23,
+      "date": "2023-04-05T15:15:00 1680707700",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ckrapu",
+        "name": "ckrapu"
+      },
+      "comments_count": 11,
+      "comments_link": "https://news.ycombinator.com/item?id=35455617",
+      "text": ""
+    },
+    {
+      "id": 35299071,
+      "link": "https://news.ycombinator.com/item?id=35299071",
+      "title": "Ask HN: How are you using GPT to be productive?",
+      "score": 629,
+      "date": "2023-03-25T03:39:38 1679715578",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=yosito",
+        "name": "yosito"
+      },
+      "comments_count": 735,
+      "comments_link": "https://news.ycombinator.com/item?id=35299071",
+      "text": ""
+    },
+    {
+      "id": 34959242,
+      "link": "https://news.ycombinator.com/item?id=34959242",
+      "title": "Ask HN: What companies have publicly available handbooks?",
+      "score": 123,
+      "date": "2023-02-27T17:27:32 1677518852",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=LewisVerstappen",
+        "name": "LewisVerstappen"
+      },
+      "comments_count": 46,
+      "comments_link": "https://news.ycombinator.com/item?id=34959242",
+      "text": ""
+    },
+    {
+      "id": 34908119,
+      "link": "https://www.jntrnr.com/making-a-keyboard-layout/",
+      "title": "Making a keyboard layout",
+      "score": 50,
+      "date": "2023-02-23T08:12:41 1677139961",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ingve",
+        "name": "ingve"
+      },
+      "comments_count": 67,
+      "comments_link": "https://news.ycombinator.com/item?id=34908119",
+      "text": ""
+    },
+    {
+      "id": 15540981,
+      "link": "https://www.nytimes.com/2017/10/24/smarter-living/what-to-know-before-buying-an-air-purifier.html",
+      "title": "What to Know Before Buying an Air Purifier to Clear Wildfire Smoke",
+      "score": 53,
+      "date": "2017-10-24T12:15:55 1508847355",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=SREinSF",
+        "name": "SREinSF"
+      },
+      "comments_count": 33,
+      "comments_link": "https://news.ycombinator.com/item?id=15540981",
+      "text": ""
+    },
+    {
+      "id": 34674171,
+      "link": "https://compass.onlinelibrary.wiley.com/doi/abs/10.1111/spc3.12011",
+      "title": "Procrastination and the priority of short-term mood regulation",
+      "score": 184,
+      "date": "2023-02-06T06:52:37 1675666357",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ValentineC",
+        "name": "ValentineC"
+      },
+      "comments_count": 113,
+      "comments_link": "https://news.ycombinator.com/item?id=34674171",
+      "text": ""
+    },
+    {
+      "id": 34548154,
+      "link": "https://www.eightify.app/",
+      "title": "Show HN: YouTube Summaries Using GPT",
+      "score": 147,
+      "date": "2023-01-27T16:45:25 1674837925",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ax8080",
+        "name": "ax8080"
+      },
+      "comments_count": 120,
+      "comments_link": "https://news.ycombinator.com/item?id=34548154",
+      "text": ""
+    },
+    {
+      "id": 34540051,
+      "link": "https://www.jeremyong.com/game%20engines/2023/01/25/grokking-big-unfamiliar-codebases/",
+      "title": "Grokking big unfamiliar codebases",
+      "score": 149,
+      "date": "2023-01-26T22:53:46 1674773626",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ibobev",
+        "name": "ibobev"
+      },
+      "comments_count": 86,
+      "comments_link": "https://news.ycombinator.com/item?id=34540051",
+      "text": ""
+    },
+    {
+      "id": 34434025,
+      "link": "https://sqlite.org/hctree/doc/hctree/doc/hctree/index.html",
+      "title": "HC-tree is an experimental high-concurrency database back end for SQLite",
+      "score": 524,
+      "date": "2023-01-18T22:27:06 1674080826",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nalgeon",
+        "name": "nalgeon"
+      },
+      "comments_count": 190,
+      "comments_link": "https://news.ycombinator.com/item?id=34434025",
+      "text": ""
+    },
+    {
+      "id": 34271167,
+      "link": "https://news.ycombinator.com/item?id=34271167",
+      "title": "Ask HN: What's on your home server?",
+      "score": 519,
+      "date": "2023-01-06T05:00:49 1672981249",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=_moof",
+        "name": "_moof"
+      },
+      "comments_count": 456,
+      "comments_link": "https://news.ycombinator.com/item?id=34271167",
+      "text": ""
+    },
+    {
+      "id": 34205294,
+      "link": "https://news.ycombinator.com/item?id=34205294",
+      "title": "Ask HN: What are the best open source TypeScript projects I can learn from?",
+      "score": 219,
+      "date": "2023-01-01T10:43:43 1672569823",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pototo666",
+        "name": "pototo666"
+      },
+      "comments_count": 75,
+      "comments_link": "https://news.ycombinator.com/item?id=34205294",
+      "text": ""
+    },
+    {
+      "id": 34105770,
+      "link": "https://news.ycombinator.com/item?id=34105770",
+      "title": "Ask HN: Learn C in 2023?",
+      "score": 222,
+      "date": "2022-12-23T13:51:49 1671803509",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=0x008",
+        "name": "0x008"
+      },
+      "comments_count": 211,
+      "comments_link": "https://news.ycombinator.com/item?id=34105770",
+      "text": ""
+    },
+    {
+      "id": 34098367,
+      "link": "https://www.paolomainardi.com/posts/docker-performance-macos/",
+      "title": "Docker on MacOS is slow and how to fix it",
+      "score": 193,
+      "date": "2022-12-22T20:42:12 1671741732",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=riccardomc",
+        "name": "riccardomc"
+      },
+      "comments_count": 203,
+      "comments_link": "https://news.ycombinator.com/item?id=34098367",
+      "text": ""
+    },
+    {
+      "id": 30467572,
+      "link": "https://os.phil-opp.com/",
+      "title": "Learn Rust by writing a small OS",
+      "score": 534,
+      "date": "2022-02-25T14:22:30 1645798950",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=elamje",
+        "name": "elamje"
+      },
+      "comments_count": 80,
+      "comments_link": "https://news.ycombinator.com/item?id=30467572",
+      "text": ""
+    },
+    {
+      "id": 33971432,
+      "link": "https://jvns.ca/blog/2022/12/07/tips-for-analyzing-logs/",
+      "title": "Tips for analyzing logs",
+      "score": 300,
+      "date": "2022-12-13T16:47:16 1670950036",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=historynops",
+        "name": "historynops"
+      },
+      "comments_count": 134,
+      "comments_link": "https://news.ycombinator.com/item?id=33971432",
+      "text": ""
+    },
+    {
+      "id": 31245625,
+      "link": "https://news.ycombinator.com/item?id=31245625",
+      "title": "Ask HN: The middle ground for email self-hosting?",
+      "score": 75,
+      "date": "2022-05-03T07:18:36 1651562316",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kajiryoji",
+        "name": "kajiryoji"
+      },
+      "comments_count": 101,
+      "comments_link": "https://news.ycombinator.com/item?id=31245625",
+      "text": ""
+    },
+    {
+      "id": 33815146,
+      "link": "https://news.ycombinator.com/item?id=33815146",
+      "title": "Show HN: Natural Language Processing Demystified",
+      "score": 286,
+      "date": "2022-12-01T12:00:01 1669896001",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mothcamp",
+        "name": "mothcamp"
+      },
+      "comments_count": 37,
+      "comments_link": "https://news.ycombinator.com/item?id=33815146",
+      "text": ""
+    },
+    {
+      "id": 29608967,
+      "link": "https://github.com/haimgel/display-switch",
+      "title": "Display-switch: Turn a $30 USB switch into a full-featured multi-monitor KVM",
+      "score": 444,
+      "date": "2021-12-18T22:00:29 1639864829",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dattl",
+        "name": "dattl"
+      },
+      "comments_count": 151,
+      "comments_link": "https://news.ycombinator.com/item?id=29608967",
+      "text": ""
+    },
+    {
+      "id": 33747165,
+      "link": "https://forum.nim-lang.org/t/9655",
+      "title": "Choosing Nim out of a crowded market for systems programming languages",
+      "score": 272,
+      "date": "2022-11-25T21:45:53 1669412753",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=generichuman",
+        "name": "generichuman"
+      },
+      "comments_count": 260,
+      "comments_link": "https://news.ycombinator.com/item?id=33747165",
+      "text": ""
+    },
+    {
+      "id": 33767935,
+      "link": "https://lcamtuf.coredump.cx/photo_basics/",
+      "title": "Photography for geeks",
+      "score": 820,
+      "date": "2022-11-27T23:01:26 1669590086",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=excite1997",
+        "name": "excite1997"
+      },
+      "comments_count": 146,
+      "comments_link": "https://news.ycombinator.com/item?id=33767935",
+      "text": ""
+    },
+    {
+      "id": 33659852,
+      "link": "https://news.ycombinator.com/item?id=33659852",
+      "title": "Ask HN: What is the most impactful thing you've built?",
+      "score": 729,
+      "date": "2022-11-18T18:47:33 1668797253",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rafiki6",
+        "name": "rafiki6"
+      },
+      "comments_count": 737,
+      "comments_link": "https://news.ycombinator.com/item?id=33659852",
+      "text": ""
+    },
+    {
+      "id": 31260061,
+      "link": "https://noted.lol/what-are-your-most-used-self-hosted-applications/",
+      "title": "What are your most used self-hosted applications?",
+      "score": 736,
+      "date": "2022-05-04T13:27:42 1651670862",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=geeked",
+        "name": "geeked"
+      },
+      "comments_count": 446,
+      "comments_link": "https://news.ycombinator.com/item?id=31260061",
+      "text": ""
+    }
+  ]
+}

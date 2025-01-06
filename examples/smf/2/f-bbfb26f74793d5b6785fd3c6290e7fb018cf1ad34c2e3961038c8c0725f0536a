@@ -8,21 +8,21 @@
       "forums": [
         {
           "status": "New Posts",
-          "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&board=255.0",
+          "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&board=255.0",
           "name": "PostgreSQL Support",
           "description": "Support for issues related to SMF 2.1 on PostgreSQL",
           "childboards": [],
           "moderators": [],
           "posts": 27,
           "topics": 4,
-          "redirects": 0,
           "lastpost": {
             "title": "Re: Converting from mysql to postgresql",
-            "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=575453.msg4159029#new",
+            "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=575453.msg4159029#new",
             "user": "Gryzor",
-            "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=107289",
+            "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=107289",
             "date": "August 28, 2023, 07:04:30 AM"
-          }
+          },
+          "redirects": 0
         }
       ]
     }
@@ -32,49 +32,49 @@
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
       "title": "Looking for new host - any advice?",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589339.0",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=589339.0",
       "user": "TiU",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=588876",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=588876",
       "lastpage": 0,
       "icons": [
         "sticky"
       ],
       "replies": 4,
-      "views": 747,
+      "views": 3026,
       "lastpost": {
         "date": "July 22, 2024, 09:07:04 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589339.0#msg4177369",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=589339.0#msg4177369",
         "user": "Sir Osis of Liver",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=424443"
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=424443"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
       "title": "READ FIRST: How to help us help you",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=581245.0",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=581245.0",
       "user": "Kindred",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=1261",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=1261",
       "lastpage": 0,
       "icons": [
         "sticky"
       ],
       "replies": 14,
-      "views": 13467,
+      "views": 15772,
       "lastpost": {
         "date": "March 08, 2023, 11:01:23 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=581245.0#msg4147497",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=581245.0#msg4147497",
         "user": "landyvlad",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=468901"
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=468901"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
       "title": "A reminder about admin / ftp passwords...",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=581247.0",
-      "user": "Aleksi &quot;Lex&quot; Kilpinen",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=136049",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=581247.0",
+      "user": "Aleksi \"Lex\" Kilpinen",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049",
       "lastpage": 0,
       "icons": [
         "sticky"
@@ -83,216 +83,108 @@
       "views": 0,
       "lastpost": {
         "date": "March 03, 2022, 08:45:16 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=581247.0#msg4114485",
-        "user": "Aleksi &quot;Lex&quot; Kilpinen",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=136049"
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=581247.0#msg4114485",
+        "user": "Aleksi \"Lex\" Kilpinen",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
-      "title": "Moving Boards",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589608.0",
-      "user": "keyboard",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=95059",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 0,
-      "views": 0,
-      "lastpost": {
-        "date": "Today at 10:43:50 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589608.0#msg4179166",
-        "user": "keyboard",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=95059"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "More and more bots are trying to register an account",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589505.0",
-      "user": "Wolpo",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=423069",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 19,
-      "views": 704,
-      "lastpost": {
-        "date": "Today at 02:18:59 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589505.0#msg4179159",
-        "user": "Arantor",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=318771"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
-      "type2": null,
-      "title": "What means this error?",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589542.0",
-      "user": "Sir Osis of Liver",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=424443",
-      "lastpage": 2,
-      "icons": [],
-      "replies": 22,
-      "views": 851,
-      "lastpost": {
-        "date": "Yesterday at 07:20:46 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589542.20#msg4179149",
-        "user": "Sir Osis of Liver",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=424443"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "&quot;Maximum messages per page&quot;",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589597.0",
-      "user": "keyboard",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=95059",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 1,
-      "views": 59,
-      "lastpost": {
-        "date": "Yesterday at 10:59:09 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589597.0#msg4179123",
-        "user": "Arantor",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=318771"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
-      "type2": null,
-      "title": "How to Setup Member Notifications for All Boards?",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589596.0",
-      "user": "DigitalDawn",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=668120",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 1,
-      "views": 66,
-      "lastpost": {
-        "date": "Yesterday at 10:56:49 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589596.0#msg4179121",
-        "user": "Arantor",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=318771"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "Can we please, write a Mod for Alternate Attachments Upload System on SMF V 2.1.4?",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589555.0",
-      "user": "Ufopolitics",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=664390",
-      "lastpage": 2,
-      "icons": [],
-      "replies": 34,
-      "views": 970,
-      "lastpost": {
-        "date": "Yesterday at 03:09:36 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589555.20#msg4179106",
-        "user": "Arantor",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=318771"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
-      "type2": null,
-      "title": "Safe to use latest SMF 2.1 Verssion",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589587.0",
-      "user": "SolidSnake2003",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=89846",
+      "title": "Mod suggestion?",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590648.0",
+      "user": "CraftyLion",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=72284",
       "lastpage": 0,
       "icons": [],
       "replies": 2,
-      "views": 168,
+      "views": 67,
       "lastpost": {
-        "date": "August 24, 2024, 05:42:19 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589587.0#msg4179094",
-        "user": "Antechinus",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=129726"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "Allow Bbcode inside a [HTML]",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589592.0",
-      "user": "duban1",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=290062",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 6,
-      "views": 191,
-      "lastpost": {
-        "date": "August 24, 2024, 02:36:40 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589592.0#msg4179087",
-        "user": "duban1",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=290062"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "Time zone does not appear",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589591.0",
-      "user": "duban1",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=290062",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 2,
-      "views": 116,
-      "lastpost": {
-        "date": "August 24, 2024, 01:54:49 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589591.0#msg4179086",
-        "user": "duban1",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=290062"
+        "date": "Today at 07:09:05 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590648.0#msg4184533",
+        "user": "GL700Wing",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=112942"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
-      "title": "problem with implode in Subs.php",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589571.0",
-      "user": "SamiBH",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=222075",
+      "title": "ssi_recentTopics to include in index page",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590641.0",
+      "user": "goran",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=22437",
       "lastpage": 0,
       "icons": [],
-      "replies": 10,
-      "views": 363,
+      "replies": 7,
+      "views": 211,
       "lastpost": {
-        "date": "August 24, 2024, 04:32:33 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589571.0#msg4179064",
+        "date": "Today at 02:54:38 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590641.0#msg4184524",
         "user": "Arantor",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=318771"
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=318771"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
-      "title": "Unable to send mail from forum.",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589485.0",
-      "user": "landyvlad",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=468901",
+      "title": "Google indexing",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590646.0",
+      "user": "skb",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=432979",
       "lastpage": 0,
       "icons": [],
-      "replies": 16,
-      "views": 609,
+      "replies": 1,
+      "views": 64,
       "lastpost": {
-        "date": "August 24, 2024, 03:54:06 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589485.0#msg4179062",
+        "date": "Today at 02:52:50 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590646.0#msg4184522",
         "user": "Arantor",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=318771"
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=318771"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Unable to remove a redirect link after moving a topic",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590645.0",
+      "user": "paradox94",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=670531",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 3,
+      "views": 74,
+      "lastpost": {
+        "date": "Yesterday at 07:46:33 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590645.0#msg4184514",
+        "user": "Aleksi \"Lex\" Kilpinen",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Location field not showing up in profile",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590644.0",
+      "user": "CraftyLion",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=72284",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 1,
+      "views": 60,
+      "lastpost": {
+        "date": "Yesterday at 04:15:59 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590644.0#msg4184506",
+        "user": "CraftyLion",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=72284"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/moved.png",
       "type2": null,
-      "title": "MOVED: Signature (here on this forum) impossible to edit",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589582.0",
-      "user": "Aleksi &quot;Lex&quot; Kilpinen",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=136049",
+      "title": "MOVED: Remove additional information section on registration form",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590637.0",
+      "user": "Aleksi \"Lex\" Kilpinen",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049",
       "lastpage": 0,
       "icons": [
         "move"
@@ -300,190 +192,300 @@
       "replies": 0,
       "views": 0,
       "lastpost": {
-        "date": "August 23, 2024, 03:49:12 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589582.0#msg4179042",
-        "user": "Aleksi &quot;Lex&quot; Kilpinen",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=136049"
+        "date": "January 04, 2025, 04:25:18 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590637.0#msg4184473",
+        "user": "Aleksi \"Lex\" Kilpinen",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
-      "title": "change admin email not working",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589579.0",
-      "user": "yamiacaveman",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=446047",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 2,
-      "views": 82,
-      "lastpost": {
-        "date": "August 23, 2024, 03:35:57 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589579.0#msg4179039",
-        "user": "Kindred",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=1261"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "The default theme's directory is wrong, please correct it by clicking this text.",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589566.0",
-      "user": "chelseaphil",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=120648",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 4,
-      "views": 274,
-      "lastpost": {
-        "date": "August 23, 2024, 03:22:15 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589566.0#msg4179015",
-        "user": "chelseaphil",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=120648"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
-      "type2": null,
-      "title": "Automatic emails are marked with a red padlock and an explanation.",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589562.0",
-      "user": "User2",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=429199",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 5,
-      "views": 232,
-      "lastpost": {
-        "date": "August 22, 2024, 10:33:29 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589562.0#msg4178986",
-        "user": "Kindred",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=1261"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "Timeouts when replying to topics",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589559.0",
-      "user": "barry1947",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=401606",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 3,
-      "views": 219,
-      "lastpost": {
-        "date": "August 22, 2024, 01:01:52 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589559.0#msg4178959",
-        "user": "barry1947",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=401606"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "Could not execute mail delivery program",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589548.0",
-      "user": "LWillisjr",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=222009",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 2,
-      "views": 244,
-      "lastpost": {
-        "date": "August 21, 2024, 08:08:29 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589548.0#msg4178901",
-        "user": "LWillisjr",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=222009"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "Delete an user post completely",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589547.0",
-      "user": "Sudhakar Arjunan",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=147504",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 5,
-      "views": 147,
-      "lastpost": {
-        "date": "August 20, 2024, 04:53:15 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589547.0#msg4178871",
-        "user": "Sudhakar Arjunan",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=147504"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
-      "type2": null,
-      "title": "Forum/Boards and Categories http error 500",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589545.0",
-      "user": "yamiacaveman",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=446047",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 7,
-      "views": 237,
-      "lastpost": {
-        "date": "August 20, 2024, 01:30:19 PM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589545.0#msg4178862",
-        "user": "vbgamer45",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=24876"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
-      "type2": null,
-      "title": "Move topics up or down",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589544.0",
-      "user": "yamiacaveman",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=446047",
-      "lastpage": 0,
-      "icons": [],
-      "replies": 6,
-      "views": 197,
-      "lastpost": {
-        "date": "August 20, 2024, 10:58:05 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589544.0#msg4178851",
-        "user": "yamiacaveman",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=446047"
-      }
-    },
-    {
-      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
-      "type2": null,
-      "title": "2.0 to 2.1 Upgrade Steps Advice Related to SSL",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589543.0",
-      "user": "jakes_t",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=384231",
+      "title": "ReCaptcha Errors",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590628.0",
+      "user": "MartyHunter",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=662001",
       "lastpage": 0,
       "icons": [],
       "replies": 1,
-      "views": 223,
+      "views": 189,
       "lastpost": {
-        "date": "August 20, 2024, 12:40:18 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589543.0#msg4178833",
-        "user": "vbgamer45",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=24876"
+        "date": "January 04, 2025, 04:11:06 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590628.0#msg4184452",
+        "user": "Arantor",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=318771"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Delete a post in a thread?",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590627.0",
+      "user": "ColinJM",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=661942",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 4,
+      "views": 127,
+      "lastpost": {
+        "date": "January 03, 2025, 07:06:31 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590627.0#msg4184434",
+        "user": "Aleksi \"Lex\" Kilpinen",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/question.png",
+      "type2": null,
+      "title": "transfer topics from one forum to another forum",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590610.0",
+      "user": "onlybike",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=670435",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 8,
+      "views": 304,
+      "lastpost": {
+        "date": "January 03, 2025, 02:20:01 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590610.0#msg4184415",
+        "user": "Kindred",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=1261"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/moved.png",
+      "type2": null,
+      "title": "MOVED: Can there be an automatic login to the board from the website?",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590626.0",
+      "user": "Kindred",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=1261",
+      "lastpage": 0,
+      "icons": [
+        "move"
+      ],
+      "replies": 0,
+      "views": 0,
+      "lastpost": {
+        "date": "January 03, 2025, 09:45:25 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590626.0#msg4184402",
+        "user": "Kindred",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=1261"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Can the Member button be invisible?",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590623.0",
+      "user": "ArieKant",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=670496",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 2,
+      "views": 87,
+      "lastpost": {
+        "date": "January 03, 2025, 08:42:25 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590623.0#msg4184398",
+        "user": "ArieKant",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=670496"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Is SMF v2.1.4 compatible with PHP 8.1 ?",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=586455.0",
+      "user": "ylyco",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=604156",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 10,
+      "views": 612,
+      "lastpost": {
+        "date": "January 03, 2025, 02:59:54 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=586455.0#msg4184390",
+        "user": "MobileCS",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=397603"
       }
     },
     {
       "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
       "type2": null,
-      "title": "Guests see attachments awaiting approval.",
-      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589518.0",
-      "user": "User2",
-      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=429199",
+      "title": "cannot log in, simple log in error box.",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590594.0",
+      "user": "Nodaz",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=110015",
       "lastpage": 2,
       "icons": [],
-      "replies": 22,
-      "views": 1070,
+      "replies": 28,
+      "views": 888,
       "lastpost": {
-        "date": "August 19, 2024, 08:40:35 AM",
-        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&topic=589518.20#msg4178813",
-        "user": "Kindred",
-        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=9095247cf594a4fcf0f98ef29df8f3c4&action=profile;u=1261"
+        "date": "January 02, 2025, 12:28:35 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590594.20#msg4184364",
+        "user": "Nodaz",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=110015"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
+      "type2": null,
+      "title": "Problem with email and sending in the program",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590614.0",
+      "user": "abdurhman",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=355209",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 7,
+      "views": 291,
+      "lastpost": {
+        "date": "January 02, 2025, 03:11:04 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590614.0#msg4184363",
+        "user": "Aleksi \"Lex\" Kilpinen",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "PHP Versions",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590615.0",
+      "user": "Jubal",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=584711",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 3,
+      "views": 206,
+      "lastpost": {
+        "date": "January 01, 2025, 06:45:21 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590615.0#msg4184351",
+        "user": "Aleksi \"Lex\" Kilpinen",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Info Center - Change from Posts to Topics (Threads)",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590606.0",
+      "user": "ColinJM",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=661942",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 3,
+      "views": 185,
+      "lastpost": {
+        "date": "December 31, 2024, 06:14:59 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590606.0#msg4184290",
+        "user": "Doug Heffernan",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=589932"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "HELP PLEASE - Invalid (Password Reset) Activation Code",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590605.0",
+      "user": "ColinJM",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=661942",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 0,
+      "views": 0,
+      "lastpost": {
+        "date": "December 30, 2024, 10:06:13 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590605.0#msg4184277",
+        "user": "ColinJM",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=661942"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
+      "type2": null,
+      "title": "How to exclude a board from recent posts, recent topic - info center?",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590602.0",
+      "user": "gevv",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=155076",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 3,
+      "views": 174,
+      "lastpost": {
+        "date": "December 30, 2024, 06:03:33 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590602.0#msg4184263",
+        "user": "Aleksi \"Lex\" Kilpinen",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=136049"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
+      "type2": null,
+      "title": "Can't paste anything using Safari on iOS w/ text view disabled",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590601.0",
+      "user": "razor1995",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=665159",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 2,
+      "views": 126,
+      "lastpost": {
+        "date": "December 30, 2024, 12:43:06 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590601.0#msg4184249",
+        "user": "Sesquipedalian",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=394956"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Guests Can't Download Attachments",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590593.0",
+      "user": "NFG",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=133201",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 15,
+      "views": 320,
+      "lastpost": {
+        "date": "December 30, 2024, 01:01:14 AM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590593.0#msg4184223",
+        "user": "NFG",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=133201"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/solved.png",
+      "type2": null,
+      "title": "Database error - and no idea how to go about resolving this",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590584.0",
+      "user": "pepf",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=386380",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 9,
+      "views": 328,
+      "lastpost": {
+        "date": "December 29, 2024, 07:27:36 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590584.0#msg4184202",
+        "user": "pepf",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=386380"
+      }
+    },
+    {
+      "type1": "https://smf-smsite.simplemachinesweb.com/images/post/xx.png",
+      "type2": null,
+      "title": "There are 1 topics and 0 posts awaiting approval in this board",
+      "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590567.0",
+      "user": "dsanchez",
+      "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=64927",
+      "lastpage": 0,
+      "icons": [],
+      "replies": 11,
+      "views": 555,
+      "lastpost": {
+        "date": "December 28, 2024, 06:58:22 PM",
+        "link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&topic=590567.0#msg4184166",
+        "user": "Arantor",
+        "user_link": "https://www.simplemachines.org/community/index.php?PHPSESSID=3238b487152de5ddb95c2c0e48d0b89e&action=profile;u=318771"
       }
     }
   ]

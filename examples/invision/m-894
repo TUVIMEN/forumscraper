@@ -6,20 +6,23 @@
   "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2016_06/pw-kongondo-forums-header.jpg.0f1854cae10c7442d3a7ebbff47663df.jpg",
   "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2021_12/padloper_red.thumb.png.9c1459d98a25d38573c7d5378ff36fd0.png",
   "group": "PW-Moderators",
-  "joined": "2012-12-21T18:03:20Z",
-  "lastseen": "2024-07-19T12:19:51Z",
+  "joined": "",
+  "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "7.4k"
+      "value": "7.5k"
     },
     {
       "name": "Reputation",
-      "value": "8.3k"
+      "value": "8.4k"
     },
     {
       "name": "Badges",
       "value": "0"
     }
-  ]
+  ],
+  "rank": "Rank: Hero Member (6/6)",
+  "rank_date": "",
+  "badges": []
 }

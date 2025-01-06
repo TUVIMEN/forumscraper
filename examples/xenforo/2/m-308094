@@ -1,6 +1,6 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forums.mangadex.org/members/luisproducedit.308094/?tooltip=true&_xfWithData=1&_xfToken=1721397661,221ecd9b403006235936452accabfd52&_xfResponseType=json",
+  "url": "https://forums.mangadex.org/members/luisproducedit.308094/?tooltip=true&_xfWithData=1&_xfToken=1736169505,4c12facf685290ac117b9466ba009585&_xfResponseType=json",
   "id": 308094,
   "background": "https://forums.mangadex.org/community/profile_banners/m/308/308094.jpg",
   "location": "",
@@ -8,7 +8,7 @@
   "title": "Member",
   "banners": [],
   "name": "luisproducedit",
-  "forum": "",
+  "forum": "/members/luisproducedit.308094/",
   "extras": [
     {
       "key": "Joined",
@@ -16,7 +16,7 @@
     },
     {
       "key": "Last seen",
-      "value": "2024-07-18T14:25:53+0100"
+      "value": "2024-12-20T05:28:28+0000"
     },
     {
       "key": "Messages",
@@ -24,7 +24,7 @@
     },
     {
       "key": "Reaction score",
-      "value": "13"
+      "value": "14"
     },
     {
       "key": "Points",

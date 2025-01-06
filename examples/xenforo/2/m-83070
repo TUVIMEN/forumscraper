@@ -1,16 +1,16 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forums.mangadex.org/members/cybernatus.83070/?tooltip=true&_xfWithData=1&_xfToken=1721397661,221ecd9b403006235936452accabfd52&_xfResponseType=json",
+  "url": "https://forums.mangadex.org/members/cybernatus.83070/?tooltip=true&_xfWithData=1&_xfToken=1736169505,4c12facf685290ac117b9466ba009585&_xfResponseType=json",
   "id": 83070,
   "background": "https://forums.mangadex.org/community/profile_banners/m/83/83070.jpg",
   "location": "",
   "avatar": "https://forums.mangadex.org/community/avatars/m/83/83070.jpg",
-  "title": "Fed-Kun's army",
+  "title": "Aggregator gang",
   "banners": [
-    "MD@Home"
+    "Supporter"
   ],
   "name": "Cybernatus",
-  "forum": "",
+  "forum": "/threads/kono-subarashii-sekai-ni-shukufuku-wo-a-day-of-kazumegu-doujinshi-ch-1-day-1.2064363/",
   "extras": [
     {
       "key": "Joined",
@@ -18,15 +18,15 @@
     },
     {
       "key": "Last seen",
-      "value": "2024-07-17T23:15:16+0100"
+      "value": "2025-01-05T18:10:34+0000"
     },
     {
       "key": "Messages",
-      "value": "112"
+      "value": "126"
     },
     {
       "key": "Reaction score",
-      "value": "65"
+      "value": "87"
     },
     {
       "key": "Points",

@@ -1,13 +1,14 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forum.modelarstwo.info/members/zbigniew-ga%C5%82czy%C5%84ski.301/?tooltip=true&_xfWithData=1&_xfToken=1721397883,44dd210f2f565ddbf4a319c2ebe90501&_xfResponseType=json",
+  "url": "https://forum.modelarstwo.info/members/zbigniew-ga%C5%82czy%C5%84ski.301/?tooltip=true&_xfWithData=1&_xfToken=1736169654,30d08675e172ade6b28924c4340e0e67&_xfResponseType=json",
   "id": 301,
   "background": "",
   "location": "Piaski Wlkp",
   "avatar": "https://forum.modelarstwo.info/data/avatars/s/0/301.jpg",
   "title": "Moderator Działu Tabor",
   "banners": [
-    "Zespół forum"
+    "Zespół forum",
+    "Donator forum"
   ],
   "name": "Zbigniew Gałczyński",
   "forum": "",
@@ -18,11 +19,11 @@
     },
     {
       "key": "Wpisy",
-      "value": "3.269"
+      "value": "3.361"
     },
     {
       "key": "Oceny",
-      "value": "884"
+      "value": "931"
     },
     {
       "key": "Punkty",

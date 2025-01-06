@@ -2,8 +2,8 @@
   "format_version": "stackexchange-thread",
   "url": "https://stackoverflow.com/questions/652788/what-is-the-worst-real-world-macros-pre-processor-abuse-youve-ever-come-across/653028#653028",
   "id": 652788,
-  "title": "What is the worst real-world macros/pre-processor abuse you&#39;ve ever come across?",
-  "views": 135388,
+  "title": "What is the worst real-world macros/pre-processor abuse you've ever come across?",
+  "views": 136193,
   "asked": "2009-03-17T01:57:42",
   "modified": "2013-05-02 09:34:07Z",
   "tags": [
@@ -18,7 +18,7 @@
       "rating": 176,
       "checkmark": false,
       "bounty": 0,
-      "content": "<div>            <aside class=\"s-notice s-notice__info post-notice js-post-notice mb16\" role=\"status\">        <div class=\"d-flex fd-column fw-nowrap\">            <div class=\"d-flex fw-nowrap\">                    <div class=\"flex--item mr8\">                        <svg aria-hidden=\"true\" class=\"svg-icon iconLock\" width=\"18\" height=\"18\"  viewBox=\"0 0 18 18\"><path  d=\"M16 9a2 2 0 0 0-2-2V6A5 5 0 0 0 4 6v1a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2zm-7 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4m3.1-7H5.9V6a3.1 3.1 0 0 1 6.2 0z\"/></svg>                    </div>                <div class=\"flex--item wmn0 fl1 lh-lg\">                    <div class=\"flex--item fl1 lh-lg\">                            <div>                                <b>Locked</b>. This question and its answers are <a href=\"/help/locked-posts\">locked</a> because the question is off-topic but has historical significance. It is not currently accepting new answers or interactions.                                                            </div>                    </div>                </div>            </div>        </div></aside>    </div><p>What is the <em>worst</em> <strong>real-world</strong> macros/pre-processor abuse you've ever come across (please no contrived IOCCC answers *haha*)?</p><p>Please add a short snippet or story if it is really entertaining. The goal is to teach something instead of always telling people \"never use macros\".</p><hr><p>p.s.: I've used macros before... but usually I get rid of them eventually when I have a \"real\" solution (even if the real solution is inlined so it becomes similar to a macro).</p><hr><p><strong>Bonus:</strong> Give an example where the macro was really was better than a not-macro solution.</p><p><strong>Related question:</strong> <a href=\"https://stackoverflow.com/questions/96196/when-are-c-macros-beneficial\">When are C++ macros beneficial?</a> </p>",
+      "content": "<div> <aside class=\"s-notice s-notice__info post-notice js-post-notice mb16\" role=\"status\"> <div class=\"d-flex fd-column fw-nowrap\"> <div class=\"d-flex fw-nowrap\"> <div class=\"flex--item mr8\"> <svg aria-hidden=\"true\" class=\"svg-icon iconLock\" width=\"18\" height=\"18\" viewBox=\"0 0 18 18\"><path d=\"M16 9a2 2 0 0 0-2-2V6A5 5 0 0 0 4 6v1a2 2 0 0 0-2 2v6c0 1.1.9 2 2 2h10a2 2 0 0 0 2-2zm-7 5a2 2 0 1 1 0-4 2 2 0 0 1 0 4m3.1-7H5.9V6a3.1 3.1 0 0 1 6.2 0z\"/></svg> </div> <div class=\"flex--item wmn0 fl1 lh-lg\"> <div class=\"flex--item fl1 lh-lg\"> <div> <b>Locked</b>. This question and its answers are <a href=\"/help/locked-posts\">locked</a> because the question is off-topic but has historical significance. It is not currently accepting new answers or interactions. </div> </div> </div> </div> </div> </aside> </div> <p>What is the <em>worst</em> <strong>real-world</strong> macros/pre-processor abuse you've ever come across (please no contrived IOCCC answers *haha*)?</p> <p>Please add a short snippet or story if it is really entertaining. The goal is to teach something instead of always telling people \"never use macros\".</p> <hr> <p>p.s.: I've used macros before... but usually I get rid of them eventually when I have a \"real\" solution (even if the real solution is inlined so it becomes similar to a macro).</p> <hr> <p><strong>Bonus:</strong> Give an example where the macro was really was better than a not-macro solution.</p> <p><strong>Related question:</strong> <a href=\"https://stackoverflow.com/questions/96196/when-are-c-macros-beneficial\">When are C++ macros beneficial?</a> </p>",
       "edited": "2017-05-23 12:34:45Z",
       "editor": {
         "avatar": null,
@@ -47,7 +47,7 @@
           "date": "2009-03-17 03:36:18Z",
           "user": "i_am_jorf",
           "user_link": "https://stackoverflow.com/users/74815/i-am-jorf",
-          "reputation": 54430
+          "reputation": 54580
         },
         {
           "id": 467072,
@@ -56,7 +56,7 @@
           "date": "2009-03-17 11:36:38Z",
           "user": "n0rd",
           "user_link": "https://stackoverflow.com/users/31782/n0rd",
-          "reputation": 12505
+          "reputation": 12591
         },
         {
           "id": 475681,
@@ -65,7 +65,7 @@
           "date": "2009-03-19 13:15:29Z",
           "user": "Graeme Perrow",
           "user_link": "https://stackoverflow.com/users/1821/graeme-perrow",
-          "reputation": 57048
+          "reputation": 57198
         },
         {
           "id": 475847,
@@ -74,7 +74,7 @@
           "date": "2009-03-19 14:03:59Z",
           "user": "Trevor Boyd Smith",
           "user_link": "https://stackoverflow.com/users/52074/trevor-boyd-smith",
-          "reputation": 19041
+          "reputation": 19175
         },
         {
           "id": 477326,
@@ -83,7 +83,7 @@
           "date": "2009-03-19 19:59:06Z",
           "user": "Graeme Perrow",
           "user_link": "https://stackoverflow.com/users/1821/graeme-perrow",
-          "reputation": 57048
+          "reputation": 57198
         },
         {
           "id": 1114020,
@@ -92,7 +92,7 @@
           "date": "2009-08-16 13:52:14Z",
           "user": "Grant Peters",
           "user_link": "https://stackoverflow.com/users/68241/grant-peters",
-          "reputation": 7801
+          "reputation": 7825
         },
         {
           "id": 2562630,
@@ -101,7 +101,7 @@
           "date": "2010-04-01 10:31:17Z",
           "user": "Mr. Boy",
           "user_link": "https://stackoverflow.com/users/197229/mr-boy",
-          "reputation": 63250
+          "reputation": 63604
         },
         {
           "id": 3948563,
@@ -110,7 +110,7 @@
           "date": "2010-09-17 16:30:03Z",
           "user": "Timwi",
           "user_link": "https://stackoverflow.com/users/33225/timwi",
-          "reputation": 66402
+          "reputation": 66543
         }
       ]
     },
@@ -119,7 +119,7 @@
       "rating": 409,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>From memory, it looked something like this:</p><pre><code>#define RETURN(result) return (result);}int myfunction1(args) {    int x = 0;    // do something    RETURN(x)int myfunction2(args) {    int y = 0;    // do something    RETURN(y)int myfunction3(args) {    int z = 0;    // do something    RETURN(z)</code></pre><p>Yes that's right, no closing braces in any of the functions.  Syntax highlighting was a mess, so he used vi to edit (not vim, it has syntax coloring!)</p><p>He was a Russian programmer who had mostly worked in assembly language.  He was fanatical about saving as many bytes as possible because he had previously worked on systems with very limited memory.  \"It was for satellite.  Only very few byte, so we use each byte over for many things.\"  (bit fiddling, reusing machine instruction bytes for their numeric values)  When I tried to find out what kinds of satellites, I was only able to get \"Orbiting satellite.  For making to orbit.\"</p><p>He had two other quirks: A convex mirror mounted above his monitor \"For knowing who is watching\", and an occasional sudden exit from his chair to do a quick ten pushups.  He explained this last one as \"Compiler found error in code. This is punishment\".  </p>",
+      "content": "<p>From memory, it looked something like this:</p> <pre><code>#define RETURN(result) return (result);} int myfunction1(args) { int x = 0; // do something RETURN(x) int myfunction2(args) { int y = 0; // do something RETURN(y) int myfunction3(args) { int z = 0; // do something RETURN(z) </code></pre> <p>Yes that's right, no closing braces in any of the functions. Syntax highlighting was a mess, so he used vi to edit (not vim, it has syntax coloring!)</p> <p>He was a Russian programmer who had mostly worked in assembly language. He was fanatical about saving as many bytes as possible because he had previously worked on systems with very limited memory. \"It was for satellite. Only very few byte, so we use each byte over for many things.\" (bit fiddling, reusing machine instruction bytes for their numeric values) When I tried to find out what kinds of satellites, I was only able to get \"Orbiting satellite. For making to orbit.\"</p> <p>He had two other quirks: A convex mirror mounted above his monitor \"For knowing who is watching\", and an occasional sudden exit from his chair to do a quick ten pushups. He explained this last one as \"Compiler found error in code. This is punishment\". </p>",
       "edited": "2010-05-24 20:05:54Z",
       "editor": {
         "avatar": null,
@@ -148,7 +148,7 @@
           "date": "2009-03-17 04:12:34Z",
           "user": "Ryan Fox",
           "user_link": "https://stackoverflow.com/users/55/ryan-fox",
-          "reputation": 10189
+          "reputation": 10229
         },
         {
           "id": 466386,
@@ -157,7 +157,7 @@
           "date": "2009-03-17 04:15:43Z",
           "user": "Jonathan Leffler",
           "user_link": "https://stackoverflow.com/users/15168/jonathan-leffler",
-          "reputation": 749241
+          "reputation": 752442
         },
         {
           "id": 466563,
@@ -166,7 +166,7 @@
           "date": "2009-03-17 06:40:53Z",
           "user": "Learning",
           "user_link": "https://stackoverflow.com/users/18275/learning",
-          "reputation": 8165
+          "reputation": 8175
         },
         {
           "id": 466692,
@@ -175,7 +175,7 @@
           "date": "2009-03-17 08:03:32Z",
           "user": "Crashworks",
           "user_link": "https://stackoverflow.com/users/53543/crashworks",
-          "reputation": 41216
+          "reputation": 41344
         },
         {
           "id": 466987,
@@ -184,7 +184,7 @@
           "date": "2009-03-17 10:55:06Z",
           "user": "Bernard",
           "user_link": "https://stackoverflow.com/users/61/bernard",
-          "reputation": 45508
+          "reputation": 45528
         },
         {
           "id": 466997,
@@ -193,7 +193,7 @@
           "date": "2009-03-17 10:58:44Z",
           "user": "Adrian Grigore",
           "user_link": "https://stackoverflow.com/users/59301/adrian-grigore",
-          "reputation": 33270
+          "reputation": 33298
         },
         {
           "id": 475667,
@@ -202,7 +202,7 @@
           "date": "2009-03-19 13:09:39Z",
           "user": "Graeme Perrow",
           "user_link": "https://stackoverflow.com/users/1821/graeme-perrow",
-          "reputation": 57048
+          "reputation": 57198
         },
         {
           "id": 750381,
@@ -211,7 +211,7 @@
           "date": "2009-06-02 22:06:57Z",
           "user": "jpinto3912",
           "user_link": "https://stackoverflow.com/users/11567/jpinto3912",
-          "reputation": 1455
+          "reputation": 1465
         },
         {
           "id": 856839,
@@ -220,7 +220,7 @@
           "date": "2009-06-25 18:54:03Z",
           "user": "iammichael",
           "user_link": "https://stackoverflow.com/users/43367/iammichael",
-          "reputation": 9717
+          "reputation": 9737
         },
         {
           "id": 857167,
@@ -229,7 +229,7 @@
           "date": "2009-06-25 19:52:06Z",
           "user": "MikeyB",
           "user_link": "https://stackoverflow.com/users/93180/mikeyb",
-          "reputation": 3344
+          "reputation": 3352
         },
         {
           "id": 857201,
@@ -238,7 +238,7 @@
           "date": "2009-06-25 19:58:49Z",
           "user": "Esko Luontola",
           "user_link": "https://stackoverflow.com/users/62130/esko-luontola",
-          "reputation": 73545
+          "reputation": 73605
         },
         {
           "id": 1056312,
@@ -247,7 +247,7 @@
           "date": "2009-08-05 01:05:12Z",
           "user": "hughdbrown",
           "user_link": "https://stackoverflow.com/users/10293/hughdbrown",
-          "reputation": 48775
+          "reputation": 48983
         },
         {
           "id": 1071083,
@@ -256,7 +256,7 @@
           "date": "2009-08-07 13:16:12Z",
           "user": "Stack Overflow is garbage",
           "user_link": "https://stackoverflow.com/users/33213/stack-overflow-is-garbage",
-          "reputation": 246973
+          "reputation": 247559
         },
         {
           "id": 1291698,
@@ -265,7 +265,7 @@
           "date": "2009-09-18 16:51:48Z",
           "user": "harpo",
           "user_link": "https://stackoverflow.com/users/4525/harpo",
-          "reputation": 42978
+          "reputation": 43128
         },
         {
           "id": 1291720,
@@ -274,7 +274,7 @@
           "date": "2009-09-18 16:56:23Z",
           "user": "BIBD",
           "user_link": "https://stackoverflow.com/users/685/bibd",
-          "reputation": 15345
+          "reputation": 15384
         },
         {
           "id": 1302161,
@@ -283,7 +283,7 @@
           "date": "2009-09-21 14:16:11Z",
           "user": "BIBD",
           "user_link": "https://stackoverflow.com/users/685/bibd",
-          "reputation": 15345
+          "reputation": 15384
         },
         {
           "id": 2046533,
@@ -292,7 +292,7 @@
           "date": "2010-01-21 17:13:54Z",
           "user": "mlvljr",
           "user_link": "https://stackoverflow.com/users/110118/mlvljr",
-          "reputation": 4152
+          "reputation": 4161
         },
         {
           "id": 2211925,
@@ -301,7 +301,7 @@
           "date": "2010-02-12 15:58:06Z",
           "user": "Binary Worrier",
           "user_link": "https://stackoverflow.com/users/18797/binary-worrier",
-          "reputation": 51591
+          "reputation": 51701
         },
         {
           "id": 2212647,
@@ -310,7 +310,7 @@
           "date": "2010-02-12 17:19:36Z",
           "user": "mlvljr",
           "user_link": "https://stackoverflow.com/users/110118/mlvljr",
-          "reputation": 4152
+          "reputation": 4161
         },
         {
           "id": 2994221,
@@ -319,7 +319,7 @@
           "date": "2010-05-30 15:55:49Z",
           "user": "Poni",
           "user_link": "https://stackoverflow.com/users/286260/poni",
-          "reputation": 11217
+          "reputation": 11287
         },
         {
           "id": 7511084,
@@ -328,7 +328,7 @@
           "date": "2011-06-19 22:47:26Z",
           "user": "Vinicius Kamakura",
           "user_link": "https://stackoverflow.com/users/594267/vinicius-kamakura",
-          "reputation": 7763
+          "reputation": 7778
         },
         {
           "id": 12960785,
@@ -346,7 +346,7 @@
       "rating": 274,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>My worst:</p><pre><code>#define InterlockedIncrement(x) (x)++#define InterlockedDecrement(x) (x)--</code></pre><p>I spent two days of my life tracking down some multi-threaded COM ref-counting issue because some idiot put this in a header file.  I won't mention the company I worked for at the time.  </p><p>The moral of this story?  If you don't understand something, read the documentation and learn about it.  Don't just make it go away.</p>",
+      "content": "<p>My worst:</p> <pre><code>#define InterlockedIncrement(x) (x)++ #define InterlockedDecrement(x) (x)-- </code></pre> <p>I spent two days of my life tracking down some multi-threaded COM ref-counting issue because some idiot put this in a header file. I won't mention the company I worked for at the time. </p> <p>The moral of this story? If you don't understand something, read the documentation and learn about it. Don't just make it go away.</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -375,7 +375,7 @@
           "date": "2009-03-17 06:58:21Z",
           "user": "Preet Sangha",
           "user_link": "https://stackoverflow.com/users/30225/preet-sangha",
-          "reputation": 65348
+          "reputation": 65436
         },
         {
           "id": 469590,
@@ -384,7 +384,7 @@
           "date": "2009-03-17 21:27:54Z",
           "user": "1800 INFORMATION",
           "user_link": "https://stackoverflow.com/users/3146/1800-information",
-          "reputation": 134491
+          "reputation": 135071
         },
         {
           "id": 856994,
@@ -393,7 +393,7 @@
           "date": "2009-06-25 19:22:42Z",
           "user": "Paul Alexander",
           "user_link": "https://stackoverflow.com/users/76456/paul-alexander",
-          "reputation": 32307
+          "reputation": 32347
         },
         {
           "id": 857135,
@@ -411,7 +411,7 @@
           "date": "2009-09-20 20:52:52Z",
           "user": "Tim Pietzcker",
           "user_link": "https://stackoverflow.com/users/20670/tim-pietzcker",
-          "reputation": 334854
+          "reputation": 335778
         },
         {
           "id": 1298929,
@@ -420,7 +420,7 @@
           "date": "2009-09-20 21:08:14Z",
           "user": "Stack Overflow is garbage",
           "user_link": "https://stackoverflow.com/users/33213/stack-overflow-is-garbage",
-          "reputation": 246973
+          "reputation": 247559
         },
         {
           "id": 1331904,
@@ -429,7 +429,7 @@
           "date": "2009-09-26 12:50:06Z",
           "user": "usr",
           "user_link": "https://stackoverflow.com/users/122718/usr",
-          "reputation": 170741
+          "reputation": 171057
         }
       ]
     },
@@ -438,7 +438,7 @@
       "rating": 166,
       "checkmark": true,
       "bounty": 0,
-      "content": "<pre><code>#define ever (;;)for ever {    ...}</code></pre>",
+      "content": "<pre><code>#define ever (;;) for ever { ... } </code></pre>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -467,7 +467,7 @@
           "date": "2009-03-17 02:16:44Z",
           "user": "paxdiablo",
           "user_link": "https://stackoverflow.com/users/14860/paxdiablo",
-          "reputation": 876475
+          "reputation": 880030
         },
         {
           "id": 466159,
@@ -476,16 +476,16 @@
           "date": "2009-03-17 02:17:43Z",
           "user": "TofuBeer",
           "user_link": "https://stackoverflow.com/users/65868/tofubeer",
-          "reputation": 61412
+          "reputation": 61496
         },
         {
           "id": 466187,
           "score": 6,
-          "content": "Isn&#39;t Pax&#39;s suggestion straight from K&amp;R?  Still, not worth the effort, I&#39;d say.",
+          "content": "Isn&#39;t Pax&#39;s suggestion straight from K&amp;R? Still, not worth the effort, I&#39;d say.",
           "date": "2009-03-17 02:30:26Z",
           "user": "Jon Ericson",
           "user_link": "https://stackoverflow.com/users/1438/jon-ericson",
-          "reputation": 21375
+          "reputation": 21495
         },
         {
           "id": 1681394,
@@ -494,7 +494,7 @@
           "date": "2009-11-25 00:00:00Z",
           "user": "AnT stands with Russia",
           "user_link": "https://stackoverflow.com/users/187690/ant-stands-with-russia",
-          "reputation": 318827
+          "reputation": 319931
         },
         {
           "id": 3587995,
@@ -503,7 +503,7 @@
           "date": "2010-08-09 18:45:59Z",
           "user": "Joe D",
           "user_link": "https://stackoverflow.com/users/292979/joe-d",
-          "reputation": 2953
+          "reputation": 2973
         }
       ]
     },
@@ -512,7 +512,7 @@
       "rating": 144,
       "checkmark": true,
       "bounty": 0,
-      "content": "<pre><code>#include &lt;iostream&gt;#define System S s;s#define public#define static#define void int#define main(x) main()struct F{void println(char* s){std::cout &lt;&lt; s &lt;&lt; std::endl;}};struct S{F out;};public static void main(String[] args) {  System.out.println(\"Hello World!\");}</code></pre><p>Challenge: Can anyone do it with fewer defines and structs? ;-)</p>",
+      "content": "<pre><code>#include &lt;iostream&gt; #define System S s;s #define public #define static #define void int #define main(x) main() struct F{void println(char* s){std::cout &lt;&lt; s &lt;&lt; std::endl;}}; struct S{F out;}; public static void main(String[] args) { System.out.println(\"Hello World!\"); } </code></pre> <p>Challenge: Can anyone do it with fewer defines and structs? ;-)</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -541,7 +541,7 @@
           "date": "2009-03-17 08:10:49Z",
           "user": "Andreas Petersson",
           "user_link": "https://stackoverflow.com/users/16542/andreas-petersson",
-          "reputation": 16428
+          "reputation": 16508
         },
         {
           "id": 471728,
@@ -559,7 +559,7 @@
           "date": "2009-05-01 18:37:56Z",
           "user": "Chris Lutz",
           "user_link": "https://stackoverflow.com/users/60777/chris-lutz",
-          "reputation": 74959
+          "reputation": 75319
         },
         {
           "id": 856967,
@@ -568,7 +568,7 @@
           "date": "2009-06-25 19:18:25Z",
           "user": "Adam Rosenfield",
           "user_link": "https://stackoverflow.com/users/9530/adam-rosenfield",
-          "reputation": 398124
+          "reputation": 399708
         },
         {
           "id": 875938,
@@ -577,7 +577,7 @@
           "date": "2009-06-30 14:20:10Z",
           "user": "A. Levy",
           "user_link": "https://stackoverflow.com/users/35881/a-levy",
-          "reputation": 30306
+          "reputation": 30546
         },
         {
           "id": 1077044,
@@ -586,7 +586,7 @@
           "date": "2009-08-09 02:15:28Z",
           "user": "Chris Lutz",
           "user_link": "https://stackoverflow.com/users/60777/chris-lutz",
-          "reputation": 74959
+          "reputation": 75319
         },
         {
           "id": 1298996,
@@ -595,7 +595,7 @@
           "date": "2009-09-20 21:35:46Z",
           "user": "Roberto Bonvallet",
           "user_link": "https://stackoverflow.com/users/13169/roberto-bonvallet",
-          "reputation": 33071
+          "reputation": 33299
         },
         {
           "id": 9495678,
@@ -613,7 +613,7 @@
       "rating": 130,
       "checkmark": true,
       "bounty": 0,
-      "content": "<pre><code>#define private public</code></pre>",
+      "content": "<pre><code>#define private public </code></pre>",
       "edited": "2009-11-03 06:21:46Z",
       "editor": {
         "avatar": null,
@@ -642,7 +642,7 @@
           "date": "2009-03-17 02:30:14Z",
           "user": "Michael Kristofik",
           "user_link": "https://stackoverflow.com/users/46821/michael-kristofik",
-          "reputation": 35008
+          "reputation": 35138
         },
         {
           "id": 466206,
@@ -651,7 +651,7 @@
           "date": "2009-03-17 02:37:05Z",
           "user": "Graeme Perrow",
           "user_link": "https://stackoverflow.com/users/1821/graeme-perrow",
-          "reputation": 57048
+          "reputation": 57198
         },
         {
           "id": 466760,
@@ -660,7 +660,7 @@
           "date": "2009-03-17 08:40:20Z",
           "user": "Epaga",
           "user_link": "https://stackoverflow.com/users/6583/epaga",
-          "reputation": 38911
+          "reputation": 39010
         },
         {
           "id": 857038,
@@ -669,7 +669,7 @@
           "date": "2009-06-25 19:30:12Z",
           "user": "David Thornley",
           "user_link": "https://stackoverflow.com/users/14148/david-thornley",
-          "reputation": 56916
+          "reputation": 57006
         },
         {
           "id": 2753157,
@@ -678,7 +678,7 @@
           "date": "2010-04-28 01:15:59Z",
           "user": "Ken Bloom",
           "user_link": "https://stackoverflow.com/users/197788/ken-bloom",
-          "reputation": 58449
+          "reputation": 58720
         },
         {
           "id": 8531748,
@@ -687,7 +687,7 @@
           "date": "2011-08-19 10:12:25Z",
           "user": "Yakov Galka",
           "user_link": "https://stackoverflow.com/users/277176/yakov-galka",
-          "reputation": 72129
+          "reputation": 72369
         }
       ]
     },
@@ -696,7 +696,7 @@
       "rating": 107,
       "checkmark": true,
       "bounty": 0,
-      "content": "<pre><code>#define if while</code></pre><p>It was joke played on someone, it wasn't found amusing by those affected</p>",
+      "content": "<pre><code>#define if while </code></pre> <p>It was joke played on someone, it wasn't found amusing by those affected</p>",
       "edited": "2009-07-01 03:57:07Z",
       "editor": {
         "avatar": null,
@@ -725,7 +725,7 @@
           "date": "2009-03-17 07:05:59Z",
           "user": "starblue",
           "user_link": "https://stackoverflow.com/users/49246/starblue",
-          "reputation": 56488
+          "reputation": 56694
         },
         {
           "id": 469604,
@@ -734,7 +734,7 @@
           "date": "2009-03-17 21:30:13Z",
           "user": "1800 INFORMATION",
           "user_link": "https://stackoverflow.com/users/3146/1800-information",
-          "reputation": 134491
+          "reputation": 135071
         },
         {
           "id": 878796,
@@ -743,7 +743,7 @@
           "date": "2009-06-30 23:08:40Z",
           "user": "Andrew Shepherd",
           "user_link": "https://stackoverflow.com/users/25216/andrew-shepherd",
-          "reputation": 45112
+          "reputation": 45202
         },
         {
           "id": 881654,
@@ -752,7 +752,7 @@
           "date": "2009-07-01 14:06:29Z",
           "user": "isekaijin",
           "user_link": "https://stackoverflow.com/users/46571/isekaijin",
-          "reputation": 19682
+          "reputation": 19722
         },
         {
           "id": 1388250,
@@ -761,7 +761,7 @@
           "date": "2009-10-07 15:42:33Z",
           "user": "Graphics Noob",
           "user_link": "https://stackoverflow.com/users/127669/graphics-noob",
-          "reputation": 10010
+          "reputation": 10050
         },
         {
           "id": 4867322,
@@ -779,7 +779,7 @@
       "rating": 106,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>The hideous:</p><pre><code>#define begin {#define end }/* and so on */</code></pre><p>Seriously, if you want to code in Pascal, buy a Pascal compiler, don't destroy the beautiful C language.</p>",
+      "content": "<p>The hideous:</p> <pre><code>#define begin { #define end } /* and so on */ </code></pre> <p>Seriously, if you want to code in Pascal, buy a Pascal compiler, don't destroy the beautiful C language.</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -808,7 +808,7 @@
           "date": "2009-03-17 02:24:22Z",
           "user": "Bill the Lizard",
           "user_link": "https://stackoverflow.com/users/1288/bill-the-lizard",
-          "reputation": 404271
+          "reputation": 405432
         },
         {
           "id": 466499,
@@ -817,7 +817,7 @@
           "date": "2009-03-17 05:38:07Z",
           "user": "rlbond",
           "user_link": "https://stackoverflow.com/users/72631/rlbond",
-          "reputation": 67348
+          "reputation": 67649
         },
         {
           "id": 466525,
@@ -826,7 +826,7 @@
           "date": "2009-03-17 06:02:00Z",
           "user": "paxdiablo",
           "user_link": "https://stackoverflow.com/users/14860/paxdiablo",
-          "reputation": 876475
+          "reputation": 880030
         },
         {
           "id": 466552,
@@ -835,7 +835,7 @@
           "date": "2009-03-17 06:27:51Z",
           "user": "RBerteig",
           "user_link": "https://stackoverflow.com/users/68204/rberteig",
-          "reputation": 43016
+          "reputation": 43276
         },
         {
           "id": 466919,
@@ -853,7 +853,7 @@
           "date": "2009-03-17 10:57:45Z",
           "user": "Bernard",
           "user_link": "https://stackoverflow.com/users/61/bernard",
-          "reputation": 45508
+          "reputation": 45528
         },
         {
           "id": 476251,
@@ -862,7 +862,7 @@
           "date": "2009-03-19 15:32:46Z",
           "user": "Chris Lutz",
           "user_link": "https://stackoverflow.com/users/60777/chris-lutz",
-          "reputation": 74959
+          "reputation": 75319
         },
         {
           "id": 564789,
@@ -880,7 +880,7 @@
           "date": "2009-04-28 19:45:07Z",
           "user": "LiraNuna",
           "user_link": "https://stackoverflow.com/users/41983/liranuna",
-          "reputation": 66834
+          "reputation": 67162
         },
         {
           "id": 1180880,
@@ -889,16 +889,16 @@
           "date": "2009-08-28 06:51:54Z",
           "user": "Adrian Panasiuk",
           "user_link": "https://stackoverflow.com/users/111160/adrian-panasiuk",
-          "reputation": 7313
+          "reputation": 7343
         },
         {
           "id": 1684887,
           "score": 0,
           "content": "@paxdiablo: Well, I have heard it called &quot;Portable assembly.&quot; It lives up to its name well.",
           "date": "2009-11-25 14:31:30Z",
-          "user": "Cristi&#xE1;n Romo",
+          "user": "Cristián Romo",
           "user_link": "https://stackoverflow.com/users/1256/cristi%c3%a1n-romo",
-          "reputation": 9962
+          "reputation": 10002
         },
         {
           "id": 4342619,
@@ -907,7 +907,7 @@
           "date": "2010-10-28 16:50:00Z",
           "user": "Nick",
           "user_link": "https://stackoverflow.com/users/3233/nick",
-          "reputation": 27966
+          "reputation": 27986
         },
         {
           "id": 11856540,
@@ -916,7 +916,7 @@
           "date": "2012-02-21 21:35:09Z",
           "user": "Sergey Kalinichenko",
           "user_link": "https://stackoverflow.com/users/335858/sergey-kalinichenko",
-          "reputation": 724397
+          "reputation": 726011
         }
       ]
     },
@@ -925,7 +925,7 @@
       "rating": 93,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>An 'architect', very humble guy, you know the type, had the following:</p><pre><code>#define retrun return</code></pre><p>because he liked to type fast. The brain-surgeon used to like to shout at people who were smarter than him (which was pretty much everyone), and threaten to use his black-belt on them. </p>",
+      "content": "<p>An 'architect', very humble guy, you know the type, had the following:</p> <pre><code>#define retrun return </code></pre> <p>because he liked to type fast. The brain-surgeon used to like to shout at people who were smarter than him (which was pretty much everyone), and threaten to use his black-belt on them. </p>",
       "edited": "2010-09-08 08:14:44Z",
       "editor": {
         "avatar": null,
@@ -954,7 +954,7 @@
           "date": "2009-03-17 04:26:38Z",
           "user": "Joshua",
           "user_link": "https://stackoverflow.com/users/14768/joshua",
-          "reputation": 42639
+          "reputation": 43114
         },
         {
           "id": 466939,
@@ -963,7 +963,7 @@
           "date": "2009-03-17 10:33:09Z",
           "user": "Tetha",
           "user_link": "https://stackoverflow.com/users/17663/tetha",
-          "reputation": 4906
+          "reputation": 4904
         },
         {
           "id": 1291696,
@@ -972,7 +972,7 @@
           "date": "2009-09-18 16:51:24Z",
           "user": "BIBD",
           "user_link": "https://stackoverflow.com/users/685/bibd",
-          "reputation": 15345
+          "reputation": 15384
         },
         {
           "id": 2412611,
@@ -981,7 +981,7 @@
           "date": "2010-03-11 21:40:56Z",
           "user": "Martin Beckett",
           "user_link": "https://stackoverflow.com/users/10897/martin-beckett",
-          "reputation": 95889
+          "reputation": 96031
         },
         {
           "id": 3588061,
@@ -990,7 +990,7 @@
           "date": "2010-08-09 18:53:22Z",
           "user": "Joe D",
           "user_link": "https://stackoverflow.com/users/292979/joe-d",
-          "reputation": 2953
+          "reputation": 2973
         },
         {
           "id": 8165541,
@@ -999,7 +999,7 @@
           "date": "2011-07-28 19:34:40Z",
           "user": "Maxpm",
           "user_link": "https://stackoverflow.com/users/497934/maxpm",
-          "reputation": 25264
+          "reputation": 25482
         }
       ]
     },
@@ -1008,7 +1008,7 @@
       "rating": 69,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Real-world?  MSVC has macros in minmax.h, called <code>max</code> and <code>min</code>, which cause a compiler error every time I intend to use the standard <code>std::numeric_limits&lt;T&gt;::max()</code> function.</p>",
+      "content": "<p>Real-world? MSVC has macros in minmax.h, called <code>max</code> and <code>min</code>, which cause a compiler error every time I intend to use the standard <code>std::numeric_limits&lt;T&gt;::max()</code> function.</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1037,7 +1037,7 @@
           "date": "2009-03-17 10:53:50Z",
           "user": "Pontus Gagge",
           "user_link": "https://stackoverflow.com/users/20402/pontus-gagge",
-          "reputation": 17240
+          "reputation": 17258
         },
         {
           "id": 857236,
@@ -1046,7 +1046,7 @@
           "date": "2009-06-25 20:04:41Z",
           "user": "rlbond",
           "user_link": "https://stackoverflow.com/users/72631/rlbond",
-          "reputation": 67348
+          "reputation": 67649
         },
         {
           "id": 1068819,
@@ -1055,7 +1055,7 @@
           "date": "2009-08-07 01:12:59Z",
           "user": "mattnewport",
           "user_link": "https://stackoverflow.com/users/139091/mattnewport",
-          "reputation": 14007
+          "reputation": 14047
         },
         {
           "id": 1070271,
@@ -1064,7 +1064,7 @@
           "date": "2009-08-07 09:49:02Z",
           "user": "xtofl",
           "user_link": "https://stackoverflow.com/users/6610/xtofl",
-          "reputation": 41341
+          "reputation": 41491
         },
         {
           "id": 1135525,
@@ -1073,7 +1073,7 @@
           "date": "2009-08-20 05:02:20Z",
           "user": "quark",
           "user_link": "https://stackoverflow.com/users/29057/quark",
-          "reputation": 15802
+          "reputation": 15832
         },
         {
           "id": 1295363,
@@ -1082,7 +1082,7 @@
           "date": "2009-09-19 17:52:14Z",
           "user": "bk1e",
           "user_link": "https://stackoverflow.com/users/8090/bk1e",
-          "reputation": 24288
+          "reputation": 24328
         },
         {
           "id": 1297169,
@@ -1091,7 +1091,7 @@
           "date": "2009-09-20 09:08:58Z",
           "user": "xtofl",
           "user_link": "https://stackoverflow.com/users/6610/xtofl",
-          "reputation": 41341
+          "reputation": 41491
         },
         {
           "id": 1306830,
@@ -1100,7 +1100,7 @@
           "date": "2009-09-22 08:15:07Z",
           "user": "Richard",
           "user_link": "https://stackoverflow.com/users/67392/richard",
-          "reputation": 108587
+          "reputation": 108895
         },
         {
           "id": 2074955,
@@ -1109,7 +1109,7 @@
           "date": "2010-01-25 20:10:35Z",
           "user": "Roman Starkov",
           "user_link": "https://stackoverflow.com/users/33080/roman-starkov",
-          "reputation": 60970
+          "reputation": 61341
         }
       ]
     },
@@ -1118,7 +1118,7 @@
       "rating": 58,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>A mix between Pascal syntax and french keywords:</p><pre><code>#define debut {#define fin }#define si if(#define alors ){#define sinon }else{#define finsi }</code></pre>",
+      "content": "<p>A mix between Pascal syntax and french keywords:</p> <pre><code>#define debut { #define fin } #define si if( #define alors ){ #define sinon }else{ #define finsi } </code></pre>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1147,7 +1147,7 @@
           "date": "2009-06-25 20:02:43Z",
           "user": "MikeyB",
           "user_link": "https://stackoverflow.com/users/93180/mikeyb",
-          "reputation": 3344
+          "reputation": 3352
         },
         {
           "id": 3778922,
@@ -1156,7 +1156,7 @@
           "date": "2010-08-30 11:02:25Z",
           "user": "Bobby",
           "user_link": "https://stackoverflow.com/users/180239/bobby",
-          "reputation": 11526
+          "reputation": 11566
         }
       ]
     },
@@ -1165,7 +1165,7 @@
       "rating": 56,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Raymond Chen has a <a href=\"http://blogs.msdn.com/oldnewthing/archive/2005/01/06/347666.aspx\" rel=\"nofollow noreferrer\">really good rant against using flow control macros</a>. His best example is straight from the original Bourne shell source code:</p><pre><code>ADDRESS alloc(nbytes)    POS     nbytes;{    REG POS rbytes = round(nbytes+BYTESPERWORD,BYTESPERWORD);    LOOP    INT     c=0;    REG BLKPTR  p = blokp;    REG BLKPTR  q;    REP IF !busy(p)        THEN    WHILE !busy(q = p-&gt;word) DO p-&gt;word = q-&gt;word OD        IF ADR(q)-ADR(p) &gt;= rbytes        THEN    blokp = BLK(ADR(p)+rbytes);            IF q &gt; blokp            THEN    blokp-&gt;word = p-&gt;word;            FI            p-&gt;word=BLK(Rcheat(blokp)|BUSY);            return(ADR(p+1));        FI        FI        q = p; p = BLK(Rcheat(p-&gt;word)&amp;~BUSY);    PER p&gt;q ORF (c++)==0 DONE    addblok(rbytes);    POOL}</code></pre>",
+      "content": "<p>Raymond Chen has a <a href=\"http://blogs.msdn.com/oldnewthing/archive/2005/01/06/347666.aspx\" rel=\"nofollow noreferrer\">really good rant against using flow control macros</a>. His best example is straight from the original Bourne shell source code:</p> <pre><code>ADDRESS alloc(nbytes) POS nbytes; { REG POS rbytes = round(nbytes+BYTESPERWORD,BYTESPERWORD); LOOP INT c=0; REG BLKPTR p = blokp; REG BLKPTR q; REP IF !busy(p) THEN WHILE !busy(q = p-&gt;word) DO p-&gt;word = q-&gt;word OD IF ADR(q)-ADR(p) &gt;= rbytes THEN blokp = BLK(ADR(p)+rbytes); IF q &gt; blokp THEN blokp-&gt;word = p-&gt;word; FI p-&gt;word=BLK(Rcheat(blokp)|BUSY); return(ADR(p+1)); FI FI q = p; p = BLK(Rcheat(p-&gt;word)&amp;~BUSY); PER p&gt;q ORF (c++)==0 DONE addblok(rbytes); POOL } </code></pre>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1194,7 +1194,7 @@
           "date": "2010-05-16 07:55:36Z",
           "user": "Darius Bacon",
           "user_link": "https://stackoverflow.com/users/27024/darius-bacon",
-          "reputation": 15084
+          "reputation": 15114
         },
         {
           "id": 8165972,
@@ -1203,7 +1203,7 @@
           "date": "2011-07-28 20:01:28Z",
           "user": "Martin Beckett",
           "user_link": "https://stackoverflow.com/users/10897/martin-beckett",
-          "reputation": 95889
+          "reputation": 96031
         },
         {
           "id": 8545767,
@@ -1212,7 +1212,7 @@
           "date": "2011-08-20 02:57:44Z",
           "user": "hobbs",
           "user_link": "https://stackoverflow.com/users/152948/hobbs",
-          "reputation": 236481
+          "reputation": 238950
         }
       ]
     },
@@ -1221,7 +1221,7 @@
       "rating": 54,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I would like to submit for the contest a gem called <a href=\"http://chaos-pp.cvs.sourceforge.net/chaos-pp/order-pp/example/bottles.c?revision=1.10&amp;view=markup\" rel=\"nofollow noreferrer\">chaos-pp</a>, which implements a functional language by means of the preprocessor macros.</p><p>One of the examples is calculating the 500th fibonacci number entirely by the preprocessor:</p><p>The original code before preprocessor looks as this:</p><pre><code>int main(void) {   printf     (\"The 500th Fibonacci number is \"      ORDER_PP(8stringize(8to_lit(8fib(8nat(5,0,0)))))      \".\\n\");   return 0;}</code></pre><p>preprocessing the file we get the following result (after a rather long wait):</p><pre><code>$ cpp -I../inc fibonacci.c 2&gt;/dev/null | tail  return fib_iter(n, 0, 1);}# 63 \"fibonacci.c\"int main(void) {   printf     (\"The 500th Fibonacci number is \"      \"139423224561697880139724382870407283950070256587697307264108962948325571622863290691557658876222521294125\"      \".\\n\");   return 0;}</code></pre>",
+      "content": "<p>I would like to submit for the contest a gem called <a href=\"http://chaos-pp.cvs.sourceforge.net/chaos-pp/order-pp/example/bottles.c?revision=1.10&amp;view=markup\" rel=\"nofollow noreferrer\">chaos-pp</a>, which implements a functional language by means of the preprocessor macros.</p> <p>One of the examples is calculating the 500th fibonacci number entirely by the preprocessor:</p> <p>The original code before preprocessor looks as this:</p> <pre><code>int main(void) { printf (\"The 500th Fibonacci number is \" ORDER_PP(8stringize(8to_lit(8fib(8nat(5,0,0))))) \".\\n\"); return 0; } </code></pre> <p>preprocessing the file we get the following result (after a rather long wait):</p> <pre><code>$ cpp -I../inc fibonacci.c 2&gt;/dev/null | tail return fib_iter(n, 0, 1); } # 63 \"fibonacci.c\" int main(void) { printf (\"The 500th Fibonacci number is \" \"139423224561697880139724382870407283950070256587697307264108962948325571622863290691557658876222521294125\" \".\\n\"); return 0; } </code></pre>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1246,7 +1246,7 @@
         {
           "id": 1293898,
           "score": 1,
-          "content": "You can grab the code from CVS and take a look. I had put some more details about it into my blogpost a while ago when I stumbled upon it: <a href=\"http://bnpcs.blogspot.com/2009/02/preprocessor-directives-for-ruby-not.html\" rel=\"nofollow noreferrer\">bnpcs.blogspot.com/2009/02/&hellip;</a>  If not for the problem with debugging the resulting code (the problem of having hugely long lines if they are generated by such a &quot;language&quot;), it could have been even usable as a practical code-generator for C.",
+          "content": "You can grab the code from CVS and take a look. I had put some more details about it into my blogpost a while ago when I stumbled upon it: <a href=\"http://bnpcs.blogspot.com/2009/02/preprocessor-directives-for-ruby-not.html\" rel=\"nofollow noreferrer\">bnpcs.blogspot.com/2009/02/&hellip;</a> If not for the problem with debugging the resulting code (the problem of having hugely long lines if they are generated by such a &quot;language&quot;), it could have been even usable as a practical code-generator for C.",
           "date": "2009-09-19 04:06:34Z",
           "user": "Andrew Y",
           "user_link": "https://stackoverflow.com/users/120901/andrew-y",
@@ -1259,7 +1259,7 @@
           "date": "2012-01-23 00:44:51Z",
           "user": "Paul Fultz II",
           "user_link": "https://stackoverflow.com/users/375343/paul-fultz-ii",
-          "reputation": 18070
+          "reputation": 18130
         }
       ]
     },
@@ -1268,7 +1268,7 @@
       "rating": 52,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Directly from Qt:</p><pre><code>#define slots   /* */#define signals /* */</code></pre><p>Really nice to interact with other libs as boost::signals... Just an example, there are many others in Qt that create funny looking code like:</p><pre><code>class X : public QObject {   Q_OBJECTprivate slots:   //...public signals:   //...};</code></pre><p>And that is C++... but suddenly:</p><pre><code>boost::signals::trackable</code></pre><p>Is not valid C++ any more.</p>",
+      "content": "<p>Directly from Qt:</p> <pre><code>#define slots /* */ #define signals /* */ </code></pre> <p>Really nice to interact with other libs as boost::signals... Just an example, there are many others in Qt that create funny looking code like:</p> <pre><code>class X : public QObject { Q_OBJECT private slots: //... public signals: //... }; </code></pre> <p>And that is C++... but suddenly:</p> <pre><code>boost::signals::trackable </code></pre> <p>Is not valid C++ any more.</p>",
       "edited": "2009-03-17 10:13:19Z",
       "editor": {
         "avatar": null,
@@ -1297,16 +1297,16 @@
           "date": "2009-03-17 10:12:35Z",
           "user": "strager",
           "user_link": "https://stackoverflow.com/users/39992/strager",
-          "reputation": 89794
+          "reputation": 89922
         },
         {
           "id": 466950,
           "score": 5,
           "content": ":) So it is a macro that breaks other libraries for nothing. That&#39;s even better than I expected :)",
           "date": "2009-03-17 10:37:06Z",
-          "user": "David Rodr&#xED;guez - dribeas",
+          "user": "David Rodríguez - dribeas",
           "user_link": "https://stackoverflow.com/users/36565/david-rodr%c3%adguez-dribeas",
-          "reputation": 207655
+          "reputation": 208153
         },
         {
           "id": 1068832,
@@ -1315,16 +1315,16 @@
           "date": "2009-08-07 01:16:43Z",
           "user": "Jeremy Friesner",
           "user_link": "https://stackoverflow.com/users/131930/jeremy-friesner",
-          "reputation": 72645
+          "reputation": 72976
         },
         {
           "id": 1076637,
           "score": 21,
           "content": "Sadly Qt attacks libraries outside of its namespace with the use of macros",
           "date": "2009-08-08 22:21:32Z",
-          "user": "David Rodr&#xED;guez - dribeas",
+          "user": "David Rodríguez - dribeas",
           "user_link": "https://stackoverflow.com/users/36565/david-rodr%c3%adguez-dribeas",
-          "reputation": 207655
+          "reputation": 208153
         },
         {
           "id": 1084518,
@@ -1333,16 +1333,16 @@
           "date": "2009-08-10 22:14:31Z",
           "user": "bdonlan",
           "user_link": "https://stackoverflow.com/users/36723/bdonlan",
-          "reputation": 229977
+          "reputation": 230753
         },
         {
           "id": 1288386,
           "score": 9,
           "content": "Use Q_SIGNALS and Q_SLOTS if you&#39;re afraid of this interaction.",
           "date": "2009-09-18 06:45:09Z",
-          "user": "Tadeusz A. Kad&#x142;ubowski",
+          "user": "Tadeusz A. KadŃubowski",
           "user_link": "https://stackoverflow.com/users/122460/tadeusz-a-kad%c5%82ubowski",
-          "reputation": 8305
+          "reputation": 8335
         },
         {
           "id": 2367418,
@@ -1360,16 +1360,16 @@
           "date": "2010-03-11 21:42:47Z",
           "user": "Martin Beckett",
           "user_link": "https://stackoverflow.com/users/10897/martin-beckett",
-          "reputation": 95889
+          "reputation": 96031
         },
         {
           "id": 2413063,
           "score": 1,
           "content": "Macros are dealt with in the preprocessor before the compiler kicks in, they escape namespaces.",
           "date": "2010-03-11 22:36:19Z",
-          "user": "David Rodr&#xED;guez - dribeas",
+          "user": "David Rodríguez - dribeas",
           "user_link": "https://stackoverflow.com/users/36565/david-rodr%c3%adguez-dribeas",
-          "reputation": 207655
+          "reputation": 208153
         },
         {
           "id": 2902296,
@@ -1387,7 +1387,7 @@
           "date": "2010-05-18 15:52:16Z",
           "user": "Martin Beckett",
           "user_link": "https://stackoverflow.com/users/10897/martin-beckett",
-          "reputation": 95889
+          "reputation": 96031
         },
         {
           "id": 2904771,
@@ -1405,7 +1405,7 @@
       "rating": 50,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>Windows.h has a lot of functions that abused macros.</p><hr><p>MrValdez is annoyed by the GetObject macro found in Windows.h</p><p>The GetObject macro changes the GetObject() function into GetObjectA() or GetObjectW() (depending if the build is compiled in non-unicode and unicode, respectively)</p><p>MrValdez hates having to do before the GetObject function line</p><pre><code>#undef GetObjectObject *GetObject()</code></pre><p>The alternative is to change the function name to something else like GetGameObject()</p><hr><p>jdkoftinoff in the comments have nailed it: The problem is that all windows API functions are macros.</p><p>Adam Rosenfield mentioned that that the issues can be fixed by defining NOGDI, WIN32_LEAN_AND_MEAN, NOMINMAX, etc before including windows.h to remove the issues.</p>",
+      "content": "<p>Windows.h has a lot of functions that abused macros.</p> <hr> <p>MrValdez is annoyed by the GetObject macro found in Windows.h</p> <p>The GetObject macro changes the GetObject() function into GetObjectA() or GetObjectW() (depending if the build is compiled in non-unicode and unicode, respectively)</p> <p>MrValdez hates having to do before the GetObject function line</p> <pre><code>#undef GetObject Object *GetObject() </code></pre> <p>The alternative is to change the function name to something else like GetGameObject()</p> <hr> <p>jdkoftinoff in the comments have nailed it: The problem is that all windows API functions are macros.</p> <p>Adam Rosenfield mentioned that that the issues can be fixed by defining NOGDI, WIN32_LEAN_AND_MEAN, NOMINMAX, etc before including windows.h to remove the issues.</p>",
       "edited": "2009-03-17 03:51:26Z",
       "editor": {
         "avatar": null,
@@ -1434,7 +1434,7 @@
           "date": "2009-03-17 03:10:34Z",
           "user": "Adam Rosenfield",
           "user_link": "https://stackoverflow.com/users/9530/adam-rosenfield",
-          "reputation": 398124
+          "reputation": 399708
         },
         {
           "id": 466268,
@@ -1443,7 +1443,7 @@
           "date": "2009-03-17 03:15:36Z",
           "user": "MrValdez",
           "user_link": "https://stackoverflow.com/users/1599/mrvaldez",
-          "reputation": 8583
+          "reputation": 8613
         },
         {
           "id": 466275,
@@ -1452,7 +1452,7 @@
           "date": "2009-03-17 03:20:12Z",
           "user": "strager",
           "user_link": "https://stackoverflow.com/users/39992/strager",
-          "reputation": 89794
+          "reputation": 89922
         },
         {
           "id": 466305,
@@ -1461,7 +1461,7 @@
           "date": "2009-03-17 03:37:50Z",
           "user": "i_am_jorf",
           "user_link": "https://stackoverflow.com/users/74815/i-am-jorf",
-          "reputation": 54430
+          "reputation": 54580
         },
         {
           "id": 466307,
@@ -1479,7 +1479,7 @@
           "date": "2009-03-17 03:52:29Z",
           "user": "MrValdez",
           "user_link": "https://stackoverflow.com/users/1599/mrvaldez",
-          "reputation": 8583
+          "reputation": 8613
         },
         {
           "id": 467005,
@@ -1488,7 +1488,7 @@
           "date": "2009-03-17 11:01:15Z",
           "user": "Mark Ingram",
           "user_link": "https://stackoverflow.com/users/986/mark-ingram",
-          "reputation": 73269
+          "reputation": 73537
         },
         {
           "id": 469762,
@@ -1497,7 +1497,7 @@
           "date": "2009-03-17 22:14:08Z",
           "user": "Adam Rosenfield",
           "user_link": "https://stackoverflow.com/users/9530/adam-rosenfield",
-          "reputation": 398124
+          "reputation": 399708
         },
         {
           "id": 512117,
@@ -1515,7 +1515,7 @@
           "date": "2009-08-07 13:22:16Z",
           "user": "Stack Overflow is garbage",
           "user_link": "https://stackoverflow.com/users/33213/stack-overflow-is-garbage",
-          "reputation": 246973
+          "reputation": 247559
         },
         {
           "id": 6064687,
@@ -1524,7 +1524,7 @@
           "date": "2011-03-20 05:15:44Z",
           "user": "dan04",
           "user_link": "https://stackoverflow.com/users/287586/dan04",
-          "reputation": 90487
+          "reputation": 90885
         }
       ]
     },
@@ -1533,7 +1533,7 @@
       "rating": 45,
       "checkmark": true,
       "bounty": 0,
-      "content": "<pre><code>#define return if (std::random(1000) &lt; 2) throw std::exception(); else return</code></pre><p>this is just so evil. It's random, which means it fires in different places all the time, it changes return statement, which usually have some code on it that could fail all by itself, it changes innocent looking keyword that you won't ever get suspicious over and it uses exception from std space so you won't try to search through your sources to find it's source. Just brilliant. </p>",
+      "content": "<pre><code>#define return if (std::random(1000) &lt; 2) throw std::exception(); else return </code></pre> <p>this is just so evil. It's random, which means it fires in different places all the time, it changes return statement, which usually have some code on it that could fail all by itself, it changes innocent looking keyword that you won't ever get suspicious over and it uses exception from std space so you won't try to search through your sources to find it's source. Just brilliant. </p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1562,7 +1562,7 @@
           "date": "2010-08-04 10:09:33Z",
           "user": "OregonGhost",
           "user_link": "https://stackoverflow.com/users/20363/oregonghost",
-          "reputation": 23683
+          "reputation": 23759
         },
         {
           "id": 3983855,
@@ -1571,7 +1571,7 @@
           "date": "2010-09-21 22:49:35Z",
           "user": "brice",
           "user_link": "https://stackoverflow.com/users/140264/brice",
-          "reputation": 24941
+          "reputation": 25019
         }
       ]
     },
@@ -1580,7 +1580,7 @@
       "rating": 36,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>A coworker and I found these two gems in some of our code for object streaming.  These macros were instantiated in <strong><em>EVERY SINGLE</em></strong> class file that did streaming.  Not only is this hideous code spewed all over our code base, when we approached the original author about it, he wrote a 7 page article on our internal wiki defending this as the only possible way to accomplish what he was attempting to do here. </p><p>Needless to say, it has since been refactored out and is no longer used in our code base.</p><p><strong>Don't be thrown off by the highlighted keywords.  This is ALL a macro</strong></p><pre><code>#define DECLARE_MODIFICATION_REQUEST_PACKET( T )                                                \\namespace NameSpace                                                                     \\{                                                                                       \\                                                                                        \\class T##ElementModificationRequestPacket;                                                          \\}                                                                                       \\                                                                                        \\DECLARE_STREAMING_TEMPLATES( IMPEXP_COMMON_TEMPLATE_DECLARE, NameSpace::ElementModificationRequestPacket&lt;T&gt;, OtherNameSpace::NetPacketBase )    \\DLLIMPEXP_COMMON_TEMPLATE_DECLARE( NameSpace::ElementModificationRequestPacket&lt;T&gt; )     \\DECLARE_AUTOGENERATION_TEMPLATES( DLLIMPEXP_COMMON_TEMPLATE_DECLARE, NameSpace::T##ModificationRequestPacket, NameSpace::ElementModificationRequestPacket&lt;T&gt; )      \\                                                                                        \\namespace NameSpace {                                                                   \\class DLLIMPEXP_COMMON T##ModificationRequestPacket : public ElementModificationRequestPacket&lt;T&gt;\\{                                                                                       \\public:                                                                                 \\    T##ModificationRequestPacket( NetBase * pParent )                                   \\    : ElementModificationRequestPacket&lt;T&gt;( pParent ), m_Gen() {}                            \\                                                                                        \\    T##ModificationRequestPacket( NetBase * pParent,                                    \\                            Action          eAction,                                    \\                            const T &amp;   rT )                                            \\    : ElementModificationRequestPacket&lt;T&gt;( pParent, eAction, rT ), m_Gen() {}               \\                                                                                        \\    T##ModificationRequestPacket( const T##ModificationRequestPacket &amp; rhs )                        \\    : ElementModificationRequestPacket&lt;T&gt;( rhs ), m_Gen() {}                                \\                                                                                        \\    virtual                     ~T##ModificationRequestPacket( void ) {}                        \\                                                                                        \\    virtual Uint32          GetPacketTypeID( void ) const                           \\    {                                                                                   \\        return Net::T##_Modification_REQUEST_PACKET;                                        \\    }                                                                                   \\                                                                                        \\    virtual OtherNameSpace::ClassID GetClassID ( void ) const                           \\    {                                                                                   \\        return OtherNameSpace::NetBase::GenerateHeader( OtherNameSpace::ID__LICENSING,  \\                                                         Net::T##_Modification_REQUEST_PACKET );    \\    }                                                                                   \\                                                                                        \\    virtual T##ModificationRequestPacket * Create( void ) const                             \\    { return new T##ModificationRequestPacket( m_pParent ); }                                   \\                                                                                        \\    T##ModificationRequestPacket() {}                                                           \\                                                                                        \\protected:                                                                              \\    OtherNameSpace::ObjectAutogeneration&lt;T##ModificationRequestPacket&gt; m_Gen;                       \\                                                                                        \\    friend class OtherNameSpace::StreamingBase::StreamingClassInfoT&lt;T##ModificationRequestPacket &gt;;                     \\    OtherNameSpace::StreamingBase::Streaming&lt;T##ModificationRequestPacket, ElementModificationRequestPacket&lt;T&gt; &gt;    m_Stream;   \\                                                                                        \\};                                                                                      \\}                                                                                       \\DLLIMPEXP_COMMON_TEMPLATE_DECLARE( ThirdNameSpace::ListenerBase&lt;const NameSpace::T##ModificationRequestPacket&gt; )            \\DLLIMPEXP_COMMON_TEMPLATE_DECLARE( ThirdNameSpace::BroadcasterT&lt;const NameSpace::T##ModificationRequestPacket&gt; )            \\typedef  ThirdNameSpace::BroadcasterT&lt;const T##ModificationRequestPacket&gt;  T##ModifiedBroadcaster;#define IMPLEMENT_MODIFICATION_REQUEST_PACKET( T )                                                                  \\DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE( NameSpace::ElementModificationRequestPacket&lt;T&gt; )                         \\DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE( ThirdNameSpace::ListenerBase&lt;const NameSpace::T##ModificationRequestPacket&gt; )        \\DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE( ThirdNameSpace::BroadcasterT&lt;const NameSpace::T##ModificationRequestPacket&gt; )        \\INSTANTIATE_STREAMING_TEMPLATES( DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE, NameSpace::ElementModificationRequestPacket&lt;T&gt;, OtherNameSpace::NetPacketBase ) \\INSTANTIATE_AUTOGENERATION_TEMPLATES( DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE, NameSpace::T##ModificationRequestPacket, NameSpace::ElementModificationRequestPacket&lt;T&gt; )</code></pre><hr><p>Update (December 17, 2009):</p><p>More good news regarding this hideous macro author.  As of August, the employee responsible for this monstrosity was sacked.</p>",
+      "content": "<p>A coworker and I found these two gems in some of our code for object streaming. These macros were instantiated in <strong><em>EVERY SINGLE</em></strong> class file that did streaming. Not only is this hideous code spewed all over our code base, when we approached the original author about it, he wrote a 7 page article on our internal wiki defending this as the only possible way to accomplish what he was attempting to do here. </p> <p>Needless to say, it has since been refactored out and is no longer used in our code base.</p> <p><strong>Don't be thrown off by the highlighted keywords. This is ALL a macro</strong></p> <pre><code>#define DECLARE_MODIFICATION_REQUEST_PACKET( T ) \\ namespace NameSpace \\ { \\ \\ class T##ElementModificationRequestPacket; \\ } \\ \\ DECLARE_STREAMING_TEMPLATES( IMPEXP_COMMON_TEMPLATE_DECLARE, NameSpace::ElementModificationRequestPacket&lt;T&gt;, OtherNameSpace::NetPacketBase ) \\ DLLIMPEXP_COMMON_TEMPLATE_DECLARE( NameSpace::ElementModificationRequestPacket&lt;T&gt; ) \\ DECLARE_AUTOGENERATION_TEMPLATES( DLLIMPEXP_COMMON_TEMPLATE_DECLARE, NameSpace::T##ModificationRequestPacket, NameSpace::ElementModificationRequestPacket&lt;T&gt; ) \\ \\ namespace NameSpace { \\ class DLLIMPEXP_COMMON T##ModificationRequestPacket : public ElementModificationRequestPacket&lt;T&gt;\\ { \\ public: \\ T##ModificationRequestPacket( NetBase * pParent ) \\ : ElementModificationRequestPacket&lt;T&gt;( pParent ), m_Gen() {} \\ \\ T##ModificationRequestPacket( NetBase * pParent, \\ Action eAction, \\ const T &amp; rT ) \\ : ElementModificationRequestPacket&lt;T&gt;( pParent, eAction, rT ), m_Gen() {} \\ \\ T##ModificationRequestPacket( const T##ModificationRequestPacket &amp; rhs ) \\ : ElementModificationRequestPacket&lt;T&gt;( rhs ), m_Gen() {} \\ \\ virtual ~T##ModificationRequestPacket( void ) {} \\ \\ virtual Uint32 GetPacketTypeID( void ) const \\ { \\ return Net::T##_Modification_REQUEST_PACKET; \\ } \\ \\ virtual OtherNameSpace::ClassID GetClassID ( void ) const \\ { \\ return OtherNameSpace::NetBase::GenerateHeader( OtherNameSpace::ID__LICENSING, \\ Net::T##_Modification_REQUEST_PACKET ); \\ } \\ \\ virtual T##ModificationRequestPacket * Create( void ) const \\ { return new T##ModificationRequestPacket( m_pParent ); } \\ \\ T##ModificationRequestPacket() {} \\ \\ protected: \\ OtherNameSpace::ObjectAutogeneration&lt;T##ModificationRequestPacket&gt; m_Gen; \\ \\ friend class OtherNameSpace::StreamingBase::StreamingClassInfoT&lt;T##ModificationRequestPacket &gt;; \\ OtherNameSpace::StreamingBase::Streaming&lt;T##ModificationRequestPacket, ElementModificationRequestPacket&lt;T&gt; &gt; m_Stream; \\ \\ }; \\ } \\ DLLIMPEXP_COMMON_TEMPLATE_DECLARE( ThirdNameSpace::ListenerBase&lt;const NameSpace::T##ModificationRequestPacket&gt; ) \\ DLLIMPEXP_COMMON_TEMPLATE_DECLARE( ThirdNameSpace::BroadcasterT&lt;const NameSpace::T##ModificationRequestPacket&gt; ) \\ typedef ThirdNameSpace::BroadcasterT&lt;const T##ModificationRequestPacket&gt; T##ModifiedBroadcaster; #define IMPLEMENT_MODIFICATION_REQUEST_PACKET( T ) \\ DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE( NameSpace::ElementModificationRequestPacket&lt;T&gt; ) \\ DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE( ThirdNameSpace::ListenerBase&lt;const NameSpace::T##ModificationRequestPacket&gt; ) \\ DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE( ThirdNameSpace::BroadcasterT&lt;const NameSpace::T##ModificationRequestPacket&gt; ) \\ INSTANTIATE_STREAMING_TEMPLATES( DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE, NameSpace::ElementModificationRequestPacket&lt;T&gt;, OtherNameSpace::NetPacketBase ) \\ INSTANTIATE_AUTOGENERATION_TEMPLATES( DLLIMPEXP_COMMON_TEMPLATE_INSTANTIATE, NameSpace::T##ModificationRequestPacket, NameSpace::ElementModificationRequestPacket&lt;T&gt; ) </code></pre> <hr> <p>Update (December 17, 2009):</p> <p>More good news regarding this hideous macro author. As of August, the employee responsible for this monstrosity was sacked.</p>",
       "edited": "2009-12-17 18:49:23Z",
       "editor": {
         "avatar": null,
@@ -1609,7 +1609,7 @@
           "date": "2011-06-24 18:47:09Z",
           "user": "Trevor Boyd Smith",
           "user_link": "https://stackoverflow.com/users/52074/trevor-boyd-smith",
-          "reputation": 19041
+          "reputation": 19175
         }
       ]
     },
@@ -1618,7 +1618,7 @@
       "rating": 33,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I did the following myself, and I think I learned something from it.</p><p>In 1992 or so I wrote a small Lisp interpreter. It wasn't implemented in normalC, but in an interpreted C-like language. This C-like language used the standard C pre-processor, though.</p><p>The Lisp interpreter of course contained the functions <strong>car</strong>, which isused in Lisp to return the first element in a list, and <strong>cdr</strong>, whichreturns the rest of the list. They were implemented like this:</p><pre><code>LISPID car(LISPID id) {    CHECK_CONS(\"car\", 1, id);    return cons_cars[id - CONS_OFFSET];} /* car */LISPID cdr(LISPID id) {    CHECK_CONS(\"cdr\", 1, id);    return cons_cdrs[id - CONS_OFFSET];} /* cdr */</code></pre><p>(Data were stored in arrays, since there were no structs. <strong>CONS_OFFSET</strong> is the constant 1000.)</p><p><strong>car</strong> and <strong>cdr</strong> are used frequently in Lisp, and are short, and since function calls weren'tvery fast in the implementation language, I optimized my code by implementing those two Lisp functions as macros:</p><pre><code>#define car(id) (CHECK_CONS(\"car\", 1, (id)), cons_cars[(id) - CONS_OFFSET])#define cdr(id) (CHECK_CONS(\"car\", 1, (id)), cons_cdrs[(id) - CONS_OFFSET])</code></pre><p><strong>CHECK_CONS</strong> checks that its argument actually is a list, and since that one is also used frequently in the interpreter, and is short, I wrote that one too as a macro:</p><pre><code>#define CHECK_CONS(fun, pos, arg)   \\    (!IS_CONS(arg) ?        \\        LISP_ERROR(\"Arg \" + pos + \" to \" + fun +    \\                   \" must be a list: \" + lispid2string(arg)) : 0)</code></pre><p><strong>IS_CONS</strong> and <strong>LISP_ERROR</strong> were also used frequently, so I made them into macros too:</p><pre><code>#define IS_CONS(id) \\    (   intp(id) &amp;&amp; (id) &gt;= CONS_OFFSET     \\     &amp;&amp; ((id) - CONS_OFFSET) &lt; sizeof(cons_cars))#define LISP_ERROR(str)     (throw((str) + \"\\n\"))</code></pre><p>Seems reasonable?</p><p>But then, why did the entire system crash on this line:</p><pre><code>id2 = car(car(car(car((id1))));</code></pre><p>I worked a long time to find the problem, until I finally checked whatthat short line was expanded to by the pre-processor. It was expanded to a 31370-character line, which I have here split into lines (502 of them) for clarity:</p><pre><code>id2 = ((!(intp( (((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ((id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))&amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ((id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1))&gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \"+ 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string((id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0),cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars))? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp;(( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to\" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")): 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ((id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))&gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0),cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (((id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \"+ \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) :0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1))&gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \"+ 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string((id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp((((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars))? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp;(( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to\" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")): 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ((id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))&gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0),cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (((id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \"+ \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) :0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1))&gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \"+ 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string((id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (((((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (((id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \"+ \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) :0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1))&gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \"+ 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string((id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars))? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp;(( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to\" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")): 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ((id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))&gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0),cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (((id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \"+ \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) :0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1))&gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \"+ 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string((id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])) - 1000]))) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (((!(intp( (((!(intp( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars))? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp;(( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to\" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")): 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ((id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))&gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0),cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (((id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \"+ \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) :0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1))&gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \"+ 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string((id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (((((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1))- 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\"+ \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp((id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt;sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" mustbe a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000])) - 1000])) - 1000])))) + \"\\n\")) : 0),cons_cars[(((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;=1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" +1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1)))+ \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1))&amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ?(throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" +lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))&gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) -1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" +\" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0),cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars))</code></pre>",
+      "content": "<p>I did the following myself, and I think I learned something from it.</p> <p>In 1992 or so I wrote a small Lisp interpreter. It wasn't implemented in normal C, but in an interpreted C-like language. This C-like language used the standard C pre-processor, though.</p> <p>The Lisp interpreter of course contained the functions <strong>car</strong>, which is used in Lisp to return the first element in a list, and <strong>cdr</strong>, which returns the rest of the list. They were implemented like this:</p> <pre><code>LISPID car(LISPID id) { CHECK_CONS(\"car\", 1, id); return cons_cars[id - CONS_OFFSET]; } /* car */ LISPID cdr(LISPID id) { CHECK_CONS(\"cdr\", 1, id); return cons_cdrs[id - CONS_OFFSET]; } /* cdr */ </code></pre> <p>(Data were stored in arrays, since there were no structs. <strong>CONS_OFFSET</strong> is the constant 1000.)</p> <p><strong>car</strong> and <strong>cdr</strong> are used frequently in Lisp, and are short, and since function calls weren't very fast in the implementation language, I optimized my code by implementing those two Lisp functions as macros:</p> <pre><code>#define car(id) (CHECK_CONS(\"car\", 1, (id)), cons_cars[(id) - CONS_OFFSET]) #define cdr(id) (CHECK_CONS(\"car\", 1, (id)), cons_cdrs[(id) - CONS_OFFSET]) </code></pre> <p><strong>CHECK_CONS</strong> checks that its argument actually is a list, and since that one is also used frequently in the interpreter, and is short, I wrote that one too as a macro:</p> <pre><code>#define CHECK_CONS(fun, pos, arg) \\ (!IS_CONS(arg) ? \\ LISP_ERROR(\"Arg \" + pos + \" to \" + fun + \\ \" must be a list: \" + lispid2string(arg)) : 0) </code></pre> <p><strong>IS_CONS</strong> and <strong>LISP_ERROR</strong> were also used frequently, so I made them into macros too:</p> <pre><code>#define IS_CONS(id) \\ ( intp(id) &amp;&amp; (id) &gt;= CONS_OFFSET \\ &amp;&amp; ((id) - CONS_OFFSET) &lt; sizeof(cons_cars)) #define LISP_ERROR(str) (throw((str) + \"\\n\")) </code></pre> <p>Seems reasonable?</p> <p>But then, why did the entire system crash on this line:</p> <pre><code>id2 = car(car(car(car((id1)))); </code></pre> <p>I worked a long time to find the problem, until I finally checked what that short line was expanded to by the pre-processor. It was expanded to a 31370-character line, which I have here split into lines (502 of them) for clarity:</p> <pre><code>id2 = ((!(intp( (((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &amp;&amp; ( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000])) - 1000])) - 1000])))) + \"\\n\")) : 0), cons_cars[(((!(intp( (((!(intp( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &amp;&amp; ( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) &gt;= 1000 &amp;&amp; (( (((!(intp( (id1)) &amp;&amp; ( (id1)) &gt;= 1000 &amp;&amp; (( (id1)) - 1000) &lt; sizeof(cons_cars)) ? (throw((\"Arg \" + 1 + \" to \" + \"car\" + \" must be a list: \" + lispid2string( (id1))) + \"\\n\")) : 0), cons_cars[(id1) - 1000]))) - 1000) &lt; sizeof(cons_cars)) </code></pre>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1647,7 +1647,7 @@
           "date": "2010-05-24 20:23:16Z",
           "user": "BlueRaja - Danny Pflughoeft",
           "user_link": "https://stackoverflow.com/users/238419/blueraja-danny-pflughoeft",
-          "reputation": 85499
+          "reputation": 85867
         },
         {
           "id": 7936703,
@@ -1656,7 +1656,7 @@
           "date": "2011-07-15 09:22:08Z",
           "user": "luser droog",
           "user_link": "https://stackoverflow.com/users/733077/luser-droog",
-          "reputation": 19414
+          "reputation": 19484
         }
       ]
     },
@@ -1665,7 +1665,7 @@
       "rating": 29,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I once had to port a C application from unix to windows, the specific nature of which shall remain unnamed to protect the guilty.  The guy who wrote it was a professor unaccustomed to writing production code, and had clearly come to C from some other language.  It also happens that English wasn't his first language, though the country he came from the majority of people speak it quite well.</p><p>His application made heavy use of the preprocessor to twist the C language into a format he could better understand.  But the macros he used the most were defined in a header file named 'Thing.h' (seriously), which included the following:</p><pre><code>#define I  Any void_me#define thou  Any void_thee#define iam(klas)  klas me = (klas) void_me#define thouart(klas)  klas thee = (klas) void_thee#define my  me -&gt;#define thy  thee -&gt;#define his  him -&gt;#define our  my methods -&gt;#define your  thy methods -&gt;</code></pre><p>...which he then used to write monstrosities like the following:</p><pre><code>void Thing_setName (I, const char *name) {iam (Thing);if (name != my name) {    Melder_free (my name);    my name = Melder_wcsdup (name);    }    our nameChanged (me);}void Thing_overrideClass (I, void *klas) {iam (Thing);my methods = (Thing_Table)klas;if (! ((Thing_Table) klas) -&gt; destroy)    ((Thing_Table) klas) -&gt; _initialize (klas);}</code></pre><p>The entire project (~60,000 LOC) was written in a similar style -- marco hell, weird names, Olde-English jargon, etc.  Fortunately we were able to throw the code out since I found an OSS library which performed the same algorithm dozens of times faster.</p><p>(I've copied and edited this answer which I originally made <a href=\"https://stackoverflow.com/questions/143701/what-is-the-worst-class-variable-function-name-you-have-ever-encountered/194124#194124\">on this question</a>).</p>",
+      "content": "<p>I once had to port a C application from unix to windows, the specific nature of which shall remain unnamed to protect the guilty. The guy who wrote it was a professor unaccustomed to writing production code, and had clearly come to C from some other language. It also happens that English wasn't his first language, though the country he came from the majority of people speak it quite well.</p> <p>His application made heavy use of the preprocessor to twist the C language into a format he could better understand. But the macros he used the most were defined in a header file named 'Thing.h' (seriously), which included the following:</p> <pre><code>#define I Any void_me #define thou Any void_thee #define iam(klas) klas me = (klas) void_me #define thouart(klas) klas thee = (klas) void_thee #define my me -&gt; #define thy thee -&gt; #define his him -&gt; #define our my methods -&gt; #define your thy methods -&gt; </code></pre> <p>...which he then used to write monstrosities like the following:</p> <pre><code>void Thing_setName (I, const char *name) { iam (Thing); if (name != my name) { Melder_free (my name); my name = Melder_wcsdup (name); } our nameChanged (me); } void Thing_overrideClass (I, void *klas) { iam (Thing); my methods = (Thing_Table)klas; if (! ((Thing_Table) klas) -&gt; destroy) ((Thing_Table) klas) -&gt; _initialize (klas); } </code></pre> <p>The entire project (~60,000 LOC) was written in a similar style -- marco hell, weird names, Olde-English jargon, etc. Fortunately we were able to throw the code out since I found an OSS library which performed the same algorithm dozens of times faster.</p> <p>(I've copied and edited this answer which I originally made <a href=\"https://stackoverflow.com/questions/143701/what-is-the-worst-class-variable-function-name-you-have-ever-encountered/194124#194124\">on this question</a>).</p>",
       "edited": "2017-05-23 12:10:45Z",
       "editor": {
         "avatar": null,
@@ -1694,7 +1694,7 @@
           "date": "2010-05-16 08:09:08Z",
           "user": "Darius Bacon",
           "user_link": "https://stackoverflow.com/users/27024/darius-bacon",
-          "reputation": 15084
+          "reputation": 15114
         }
       ]
     },
@@ -1703,7 +1703,7 @@
       "rating": 27,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>The worst I've ever encountered was in a product containing a suite of executables where the designated technical leader hadn't figured out libraries.</p><p>Instead, he had sets of files that were shared in several Visual Source Safe folders.He then realised they needed to behave slightly differently for each application. </p><p>There's a number of refactoring steps you could apply here.</p><p>Instead, he used #ifdefs</p><pre><code>   void DisplayLoadError()   {   #if defined __TIMETABLE_EDITOR   MessageBox(\"Timetable Editor failed to load the correct timetable\", MB_ERROR);   #else if defined __SCHEDULESET_EDITOR   MessageBox(\"Schedule Set Editor faied to load the correct Schedule Set\", MB_ERROR);   #else if defined __ROSTER_EDITOR   MessageBox(\"Roster Editor failed to load the correct Roster\", MB_ERROR);   #endif   }</code></pre>",
+      "content": "<p>The worst I've ever encountered was in a product containing a suite of executables where the designated technical leader hadn't figured out libraries.</p> <p>Instead, he had sets of files that were shared in several Visual Source Safe folders. He then realised they needed to behave slightly differently for each application. </p> <p>There's a number of refactoring steps you could apply here.</p> <p>Instead, he used #ifdefs</p> <pre><code> void DisplayLoadError() { #if defined __TIMETABLE_EDITOR MessageBox(\"Timetable Editor failed to load the correct timetable\", MB_ERROR); #else if defined __SCHEDULESET_EDITOR MessageBox(\"Schedule Set Editor faied to load the correct Schedule Set\", MB_ERROR); #else if defined __ROSTER_EDITOR MessageBox(\"Roster Editor failed to load the correct Roster\", MB_ERROR); #endif } </code></pre>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1731,7 +1731,7 @@
       "rating": 17,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>The use of the LINE preprocessor to generate unique ID for messages passed over the network:</p><pre><code>NetworkMessages.h#define MSG_LOGIN  __LINE__#define MSG_LOGOUT __LINE__#define MSG_CHAT   __LINE__</code></pre><p>This is an example where the macro really was better than a non-macro solution:</p><p>In a non-macro solution classes, functions and variables have to be built to keep track of what ID the message is. The developer may or may not make the message ID tracking complicated whereas this is easier to read and debug.</p><p>In addition, its easier to add new messages just by adding the message into the source.</p><p>The disadvantage of this situation is that the file has to be included in all code that uses messages. Compile time would increase whenever a message is edited.</p>",
+      "content": "<p>The use of the LINE preprocessor to generate unique ID for messages passed over the network:</p> <pre><code>NetworkMessages.h #define MSG_LOGIN __LINE__ #define MSG_LOGOUT __LINE__ #define MSG_CHAT __LINE__ </code></pre> <p>This is an example where the macro really was better than a non-macro solution:</p> <p>In a non-macro solution classes, functions and variables have to be built to keep track of what ID the message is. The developer may or may not make the message ID tracking complicated whereas this is easier to read and debug.</p> <p>In addition, its easier to add new messages just by adding the message into the source.</p> <p>The disadvantage of this situation is that the file has to be included in all code that uses messages. Compile time would increase whenever a message is edited.</p>",
       "edited": "2009-03-17 04:37:02Z",
       "editor": {
         "avatar": null,
@@ -1756,11 +1756,11 @@
         {
           "id": 466272,
           "score": 8,
-          "content": "And versions may be incompatible with each other (not good!).  How come an enum didn&#39;t suffice?",
+          "content": "And versions may be incompatible with each other (not good!). How come an enum didn&#39;t suffice?",
           "date": "2009-03-17 03:19:02Z",
           "user": "strager",
           "user_link": "https://stackoverflow.com/users/39992/strager",
-          "reputation": 89794
+          "reputation": 89922
         },
         {
           "id": 466434,
@@ -1769,7 +1769,7 @@
           "date": "2009-03-17 04:36:22Z",
           "user": "MrValdez",
           "user_link": "https://stackoverflow.com/users/1599/mrvaldez",
-          "reputation": 8583
+          "reputation": 8613
         },
         {
           "id": 466557,
@@ -1778,7 +1778,7 @@
           "date": "2009-03-17 06:33:19Z",
           "user": "RBerteig",
           "user_link": "https://stackoverflow.com/users/68204/rberteig",
-          "reputation": 43016
+          "reputation": 43276
         },
         {
           "id": 857970,
@@ -1787,7 +1787,7 @@
           "date": "2009-06-25 22:31:37Z",
           "user": "peterchen",
           "user_link": "https://stackoverflow.com/users/31317/peterchen",
-          "reputation": 41465
+          "reputation": 41086
         },
         {
           "id": 13169880,
@@ -1805,7 +1805,7 @@
       "rating": 16,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>One fairly bad example:</p><pre><code>#ifdef __cplusplus#define class _vclass#endif</code></pre><p>This allows a C structure that contains a member variable called <code>class</code> to be handled by a C++ compiler.  There are two headers with this construct in it; one of them also contains '#undef class' at the end and the other doesn't.</p>",
+      "content": "<p>One fairly bad example:</p> <pre><code>#ifdef __cplusplus #define class _vclass #endif </code></pre> <p>This allows a C structure that contains a member variable called <code>class</code> to be handled by a C++ compiler. There are two headers with this construct in it; one of them also contains '#undef class' at the end and the other doesn't.</p>",
       "edited": "2009-03-17 03:16:21Z",
       "editor": {
         "avatar": null,
@@ -1843,7 +1843,7 @@
       "rating": 14,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>In one year of the International Obfuscated C Coding Contest, there was an entry where the entire program was:</p><p><code>P</code></p><p>With the proviso that you could define <code>P</code> in the makefile to be whatever program you wanted.</p><p>As I recall, it won in one of the categories, and the next year a rule had popped up disallowing that style of entry.</p><p>(Edit: six months later or something... I'm sure the \"No IOCCC\" thing wasn't in the main question when I wrote this...)</p>",
+      "content": "<p>In one year of the International Obfuscated C Coding Contest, there was an entry where the entire program was:</p> <p><code>P</code></p> <p>With the proviso that you could define <code>P</code> in the makefile to be whatever program you wanted.</p> <p>As I recall, it won in one of the categories, and the next year a rule had popped up disallowing that style of entry.</p> <p>(Edit: six months later or something... I'm sure the \"No IOCCC\" thing wasn't in the main question when I wrote this...)</p>",
       "edited": "2009-09-23 16:21:27Z",
       "editor": {
         "avatar": null,
@@ -1871,7 +1871,7 @@
       "rating": 12,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I was bored one day and was playing around with blocks in Objective-C...</p><pre><code>#define Lambda(var, body) [^ id(id (var)) { return (body);} copy]#define Call(f, arg) ((id(^)(id))(f))(arg)#define Int(num) [NSNumber numberWithInteger:(num)]#define Mult(a, b) Int([(a) integerValue] * [(b) integerValue])#define Add(a, b) Int([(a) integerValue] + [(b) integerValue])#define Sub1(n) Int([(n) integerValue] - 1)#define Add1(n) Int([(n) integerValue] + 1)#define If(cond, thenblock, elseblock) ([(cond) integerValue] ? (thenblock) : (elseblock))#define Cons(car, cdr_) [[ConsType alloc] initWithCar:(car) cdr:(cdr_)]#define Car(list) [(list) car]#define Cdr(list) [(list) cdr]#define Define(var, value) id var = (value)#define Nullq(value) Int(value == nil)</code></pre><p>allowing \"interesting\" things like:</p><pre><code>Define(Y, Lambda(f, Call(Lambda(x, Call(x, x)),                         Lambda(x, Call(f, Lambda(y, Call(Call(x, x), y)))))));Define(AlmostTotal, Lambda(f, Lambda(list, If(Nullq(list), Int(0),                                              Add(Car(list), Call(f, Cdr(list)))))));Define(Total, Call(Y, AlmostTotal));Print(Call(Total, Cons(Int(4), Cons(Int(5), Cons(Int(8), nil)))));</code></pre><p>(some function and class definitions not shown for sake of brevity)</p>",
+      "content": "<p>I was bored one day and was playing around with blocks in Objective-C...</p> <pre><code>#define Lambda(var, body) [^ id(id (var)) { return (body);} copy] #define Call(f, arg) ((id(^)(id))(f))(arg) #define Int(num) [NSNumber numberWithInteger:(num)] #define Mult(a, b) Int([(a) integerValue] * [(b) integerValue]) #define Add(a, b) Int([(a) integerValue] + [(b) integerValue]) #define Sub1(n) Int([(n) integerValue] - 1) #define Add1(n) Int([(n) integerValue] + 1) #define If(cond, thenblock, elseblock) ([(cond) integerValue] ? (thenblock) : (elseblock)) #define Cons(car, cdr_) [[ConsType alloc] initWithCar:(car) cdr:(cdr_)] #define Car(list) [(list) car] #define Cdr(list) [(list) cdr] #define Define(var, value) id var = (value) #define Nullq(value) Int(value == nil) </code></pre> <p>allowing \"interesting\" things like:</p> <pre><code>Define(Y, Lambda(f, Call(Lambda(x, Call(x, x)), Lambda(x, Call(f, Lambda(y, Call(Call(x, x), y))))))); Define(AlmostTotal, Lambda(f, Lambda(list, If(Nullq(list), Int(0), Add(Car(list), Call(f, Cdr(list))))))); Define(Total, Call(Y, AlmostTotal)); Print(Call(Total, Cons(Int(4), Cons(Int(5), Cons(Int(8), nil))))); </code></pre> <p>(some function and class definitions not shown for sake of brevity)</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1900,7 +1900,7 @@
           "date": "2013-05-02 01:20:54Z",
           "user": "Richard J. Ross III",
           "user_link": "https://stackoverflow.com/users/427309/richard-j-ross-iii",
-          "reputation": 55403
+          "reputation": 55523
         }
       ]
     },
@@ -1909,7 +1909,7 @@
       "rating": 11,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>The worst one I saw was the non-use :-)</p><p>Someone wrote a strcpy (I think that was it... over 10 years ago now) function inside of a method (because they didn't want the overhead of calling strcpy... sigh).</p><p>They clued in that it wouldn't work for Japanese characters so they added an \"if\" at the start to do ASCII or Unicode.  At that point the code was about a screen long... likely killing cache coherency and erasing his supposed savings for the inlining of the code.</p><p>The code was identical save for the types (so should have used a macro).</p><p>Of course the strcpy that they wrote was much much much slower than the hand tuned assembler one that was in the standard library...</p><p>Of course if they had just done it all as a macro it could have been replaced with a call to strcpy...</p><p>Of course I quit the company (not directly because of that...) </p>",
+      "content": "<p>The worst one I saw was the non-use :-)</p> <p>Someone wrote a strcpy (I think that was it... over 10 years ago now) function inside of a method (because they didn't want the overhead of calling strcpy... sigh).</p> <p>They clued in that it wouldn't work for Japanese characters so they added an \"if\" at the start to do ASCII or Unicode. At that point the code was about a screen long... likely killing cache coherency and erasing his supposed savings for the inlining of the code.</p> <p>The code was identical save for the types (so should have used a macro).</p> <p>Of course the strcpy that they wrote was much much much slower than the hand tuned assembler one that was in the standard library...</p> <p>Of course if they had just done it all as a macro it could have been replaced with a call to strcpy...</p> <p>Of course I quit the company (not directly because of that...) </p>",
       "edited": "2009-03-17 02:19:08Z",
       "editor": {
         "avatar": null,
@@ -1938,7 +1938,7 @@
           "date": "2011-02-17 23:54:07Z",
           "user": "BlueRaja - Danny Pflughoeft",
           "user_link": "https://stackoverflow.com/users/238419/blueraja-danny-pflughoeft",
-          "reputation": 85499
+          "reputation": 85867
         },
         {
           "id": 5634669,
@@ -1947,7 +1947,7 @@
           "date": "2011-02-18 00:35:03Z",
           "user": "TofuBeer",
           "user_link": "https://stackoverflow.com/users/65868/tofubeer",
-          "reputation": 61412
+          "reputation": 61496
         },
         {
           "id": 10800292,
@@ -1956,7 +1956,7 @@
           "date": "2011-12-31 01:13:33Z",
           "user": "Hubert Kario",
           "user_link": "https://stackoverflow.com/users/462370/hubert-kario",
-          "reputation": 22440
+          "reputation": 22690
         }
       ]
     },
@@ -1965,7 +1965,7 @@
       "rating": 11,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>The obligatory</p><pre><code>#define FOR  for</code></pre><p>and</p><pre><code>#define ONE  1#define TWO  2...</code></pre><p>Who knew?</p>",
+      "content": "<p>The obligatory</p> <pre><code>#define FOR for </code></pre> <p>and</p> <pre><code>#define ONE 1 #define TWO 2 ... </code></pre> <p>Who knew?</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -1994,30 +1994,30 @@
           "date": "2009-03-17 11:03:57Z",
           "user": "Bernard",
           "user_link": "https://stackoverflow.com/users/61/bernard",
-          "reputation": 45508
+          "reputation": 45528
         },
         {
           "id": 476180,
           "score": 0,
-          "content": "they still be literals mon, should name em by purpose/intent not alternate symbol.  COBOL code I heard about they made variable 5 = 5 then later had code saying set 5 = 10... people where real suprised when they did var + 5 and got var + 10.",
+          "content": "they still be literals mon, should name em by purpose/intent not alternate symbol. COBOL code I heard about they made variable 5 = 5 then later had code saying set 5 = 10... people where real suprised when they did var + 5 and got var + 10.",
           "date": "2009-03-19 15:13:03Z",
           "user": "Greg Domjan",
           "user_link": "https://stackoverflow.com/users/37558/greg-domjan",
-          "reputation": 14005
+          "reputation": 14075
         },
         {
           "id": 857066,
           "score": 1,
-          "content": "Never heard of that with COBOL, only with FORTRAN.  COBOL, of course, has ZERO, ZEROS, and ZEROES as reserved words, all of them meaning the exact same thing as 0.",
+          "content": "Never heard of that with COBOL, only with FORTRAN. COBOL, of course, has ZERO, ZEROS, and ZEROES as reserved words, all of them meaning the exact same thing as 0.",
           "date": "2009-06-25 19:34:46Z",
           "user": "David Thornley",
           "user_link": "https://stackoverflow.com/users/14148/david-thornley",
-          "reputation": 56916
+          "reputation": 57006
         },
         {
           "id": 1287869,
           "score": 0,
-          "content": "Much better than &quot;#define ONE 0&quot;.  If you want a giggle, search the web for that and be surprised by the non-zero number of hits.",
+          "content": "Much better than &quot;#define ONE 0&quot;. If you want a giggle, search the web for that and be surprised by the non-zero number of hits.",
           "date": "2009-09-18 03:21:48Z",
           "user": "reuben",
           "user_link": "https://stackoverflow.com/users/41646/reuben",
@@ -2030,7 +2030,7 @@
       "rating": 11,
       "checkmark": true,
       "bounty": 0,
-      "content": "<pre><code>#define TRUE 0 // dumbass</code></pre><p>The person who did this explained himself some years later - most (if not all) C library functions return 0 as an indication that everything went well. So, he wanted to be able to write code like:</p><pre><code>if (memcpy(buffer, packet, BUFFER_SIZE) == TRUE) {; // rape that packet}</code></pre><p>Needless to say, nobody in our team (tester or developer) ever dared to glance at his code again.</p>",
+      "content": "<pre><code>#define TRUE 0 // dumbass </code></pre> <p>The person who did this explained himself some years later - most (if not all) C library functions return 0 as an indication that everything went well. So, he wanted to be able to write code like:</p> <pre><code>if (memcpy(buffer, packet, BUFFER_SIZE) == TRUE) { ; // rape that packet } </code></pre> <p>Needless to say, nobody in our team (tester or developer) ever dared to glance at his code again.</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -2059,7 +2059,7 @@
           "date": "2010-11-30 00:47:27Z",
           "user": "RCIX",
           "user_link": "https://stackoverflow.com/users/117069/rcix",
-          "reputation": 39309
+          "reputation": 39427
         },
         {
           "id": 5132859,
@@ -2068,7 +2068,7 @@
           "date": "2011-01-11 16:14:23Z",
           "user": "isekaijin",
           "user_link": "https://stackoverflow.com/users/46571/isekaijin",
-          "reputation": 19682
+          "reputation": 19722
         }
       ]
     },
@@ -2077,7 +2077,7 @@
       "rating": 11,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>I maintain code that has gotos in macros. So a function will have a label at the end but no visible goto in the function code. To make matters worse the macro is at the end of other statements usually off the screen unless you scroll horizontally.</p><pre><code>#define CHECK_ERROR if (!SomeCondition) goto Cleanupvoid SomeFunction() {     SomeLongFunctionName(ParamOne, ParamTwo, ParamThree, ParamFour); CHECK_ERROR      //SomeOtherCode      Cleanup:       //Cleanup code  }</code></pre>",
+      "content": "<p>I maintain code that has gotos in macros. So a function will have a label at the end but no visible goto in the function code. To make matters worse the macro is at the end of other statements usually off the screen unless you scroll horizontally.</p> <pre><code>#define CHECK_ERROR if (!SomeCondition) goto Cleanup void SomeFunction() { SomeLongFunctionName(ParamOne, ParamTwo, ParamThree, ParamFour); CHECK_ERROR //SomeOtherCode Cleanup: //Cleanup code } </code></pre>",
       "edited": "2009-09-18 16:59:02Z",
       "editor": {
         "avatar": null,
@@ -2102,7 +2102,7 @@
         {
           "id": 1287873,
           "score": 0,
-          "content": "What&#39;s worse is when macros hide both the <code>goto</code> statements as well as the definitions of the target labels.  Totally magic.",
+          "content": "What&#39;s worse is when macros hide both the <code>goto</code> statements as well as the definitions of the target labels. Totally magic.",
           "date": "2009-09-18 03:24:33Z",
           "user": "reuben",
           "user_link": "https://stackoverflow.com/users/41646/reuben",
@@ -2115,7 +2115,7 @@
           "date": "2009-09-18 13:45:12Z",
           "user": "Jonathan Leffler",
           "user_link": "https://stackoverflow.com/users/15168/jonathan-leffler",
-          "reputation": 749241
+          "reputation": 752442
         }
       ]
     },
@@ -2124,7 +2124,7 @@
       "rating": 10,
       "checkmark": true,
       "bounty": 0,
-      "content": "<pre><code>#include &lt;iostream&gt;#define public_static_void_main(x) int main()#define System_out_println(x) std::cout &lt;&lt; x &lt;&lt; std::endlpublic_static_void_main(String[] args) {  System_out_println(\"Hello World!\");}</code></pre>",
+      "content": "<pre><code>#include &lt;iostream&gt; #define public_static_void_main(x) int main() #define System_out_println(x) std::cout &lt;&lt; x &lt;&lt; std::endl public_static_void_main(String[] args) { System_out_println(\"Hello World!\"); } </code></pre>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -2153,7 +2153,7 @@
           "date": "2009-03-17 11:00:15Z",
           "user": "Bernard",
           "user_link": "https://stackoverflow.com/users/61/bernard",
-          "reputation": 45508
+          "reputation": 45528
         },
         {
           "id": 468244,
@@ -2162,7 +2162,7 @@
           "date": "2009-03-17 16:10:55Z",
           "user": "Michael Myers",
           "user_link": "https://stackoverflow.com/users/13531/michael-myers",
-          "reputation": 191415
+          "reputation": 191755
         },
         {
           "id": 469766,
@@ -2171,7 +2171,7 @@
           "date": "2009-03-17 22:15:36Z",
           "user": "Adam Rosenfield",
           "user_link": "https://stackoverflow.com/users/9530/adam-rosenfield",
-          "reputation": 398124
+          "reputation": 399708
         },
         {
           "id": 856849,
@@ -2180,7 +2180,7 @@
           "date": "2009-06-25 18:55:41Z",
           "user": "Chris Lutz",
           "user_link": "https://stackoverflow.com/users/60777/chris-lutz",
-          "reputation": 74959
+          "reputation": 75319
         }
       ]
     },
@@ -2189,7 +2189,7 @@
       "rating": 10,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>By a classmate who failed to understand the rules about magic numbers:<br><code>#define TWO_HUNDRED_AND_EIGHTY_THREE_POINT_ONE 283.1</code>  </p>",
+      "content": "<p>By a classmate who failed to understand the rules about magic numbers:<br> <code>#define TWO_HUNDRED_AND_EIGHTY_THREE_POINT_ONE 283.1</code> </p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -2217,7 +2217,7 @@
       "rating": 9,
       "checkmark": true,
       "bounty": 0,
-      "content": "<p>ASA - <a href=\"http://www.ingber.com/#ASA\" rel=\"nofollow noreferrer\">http://www.ingber.com/#ASA</a></p><p>You really have to download it to appreciate it. The entire work flow is determined by macros. It is completely unreadable. As an example - </p><pre><code> if (asa_open == FALSE) {asa_open = TRUE;++number_asa_open;#if ASA_PRINTif (number_asa_open == 1) {  /* open the output file */#if USER_ASA_OUT  if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) {#if INCL_STDOUT    ptr_asa_out = stdout;#endif /* INCL_STDOUT */  } else {#if ASA_SAVE    ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"a\");#else    ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"w\");#endif  }#else /* USER_ASA_OUT */  if (!strcmp (ASA_OUT, \"STDOUT\")) {#if INCL_STDOUT    ptr_asa_out = stdout;#endif /* INCL_STDOUT */  } else {#if ASA_SAVE    ptr_asa_out = fopen (ASA_OUT, \"a\");#else    ptr_asa_out = fopen (ASA_OUT, \"w\");#endif  }#endif /* USER_ASA_OUT */} else {#if USER_ASA_OUT  if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) {#if INCL_STDOUT    ptr_asa_out = stdout;#endif /* INCL_STDOUT */  } else {    ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"a\");  }#else  if (!strcmp (ASA_OUT, \"STDOUT\")) {#if INCL_STDOUT    ptr_asa_out = stdout;#endif /* INCL_STDOUT */  } else {    ptr_asa_out = fopen (ASA_OUT, \"a\");  }#endif  fprintf (ptr_asa_out, \"\\n\\n\\t\\t number_asa_open = %d\\n\",           number_asa_open);}#endif /* ASA_PRINT */} else {++recursive_asa_open;#if ASA_PRINTif (recursive_asa_open == 1) {  /* open the output file */#if ASA_SAVE#if USER_ASA_OUT  if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) {#if INCL_STDOUT    ptr_asa_out = stdout;#endif /* INCL_STDOUT */  } else {    ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"a\");  }#else  if (!strcmp (ASA_OUT, \"STDOUT\")) {#if INCL_STDOUT    ptr_asa_out = stdout;#endif /* INCL_STDOUT */  } else {    ptr_asa_out = fopen (ASA_OUT, \"a\");  }#endif#else /* ASA_SAVE */#if USER_ASA_OUT  if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) {#if INCL_STDOUT    ptr_asa_out = stdout;#endif /* INCL_STDOUT */  } else {</code></pre><p>etc., etc.</p><p>And that is just setting up the options. the entire program is like that.</p>",
+      "content": "<p>ASA - <a href=\"http://www.ingber.com/#ASA\" rel=\"nofollow noreferrer\">http://www.ingber.com/#ASA</a></p> <p>You really have to download it to appreciate it. The entire work flow is determined by macros. It is completely unreadable. As an example - </p> <pre><code> if (asa_open == FALSE) { asa_open = TRUE; ++number_asa_open; #if ASA_PRINT if (number_asa_open == 1) { /* open the output file */ #if USER_ASA_OUT if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) { #if INCL_STDOUT ptr_asa_out = stdout; #endif /* INCL_STDOUT */ } else { #if ASA_SAVE ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"a\"); #else ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"w\"); #endif } #else /* USER_ASA_OUT */ if (!strcmp (ASA_OUT, \"STDOUT\")) { #if INCL_STDOUT ptr_asa_out = stdout; #endif /* INCL_STDOUT */ } else { #if ASA_SAVE ptr_asa_out = fopen (ASA_OUT, \"a\"); #else ptr_asa_out = fopen (ASA_OUT, \"w\"); #endif } #endif /* USER_ASA_OUT */ } else { #if USER_ASA_OUT if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) { #if INCL_STDOUT ptr_asa_out = stdout; #endif /* INCL_STDOUT */ } else { ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"a\"); } #else if (!strcmp (ASA_OUT, \"STDOUT\")) { #if INCL_STDOUT ptr_asa_out = stdout; #endif /* INCL_STDOUT */ } else { ptr_asa_out = fopen (ASA_OUT, \"a\"); } #endif fprintf (ptr_asa_out, \"\\n\\n\\t\\t number_asa_open = %d\\n\", number_asa_open); } #endif /* ASA_PRINT */ } else { ++recursive_asa_open; #if ASA_PRINT if (recursive_asa_open == 1) { /* open the output file */ #if ASA_SAVE #if USER_ASA_OUT if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) { #if INCL_STDOUT ptr_asa_out = stdout; #endif /* INCL_STDOUT */ } else { ptr_asa_out = fopen (OPTIONS-&gt;Asa_Out_File, \"a\"); } #else if (!strcmp (ASA_OUT, \"STDOUT\")) { #if INCL_STDOUT ptr_asa_out = stdout; #endif /* INCL_STDOUT */ } else { ptr_asa_out = fopen (ASA_OUT, \"a\"); } #endif #else /* ASA_SAVE */ #if USER_ASA_OUT if (!strcmp (OPTIONS-&gt;Asa_Out_File, \"STDOUT\")) { #if INCL_STDOUT ptr_asa_out = stdout; #endif /* INCL_STDOUT */ } else { </code></pre> <p>etc., etc.</p> <p>And that is just setting up the options. the entire program is like that.</p>",
       "edited": "",
       "editor": {
         "avatar": null,
@@ -2246,7 +2246,7 @@
           "date": "2010-08-12 09:09:40Z",
           "user": "Michael F",
           "user_link": "https://stackoverflow.com/users/149530/michael-f",
-          "reputation": 40619
+          "reputation": 40772
         }
       ]
     },
@@ -2322,7 +2322,7 @@
           "date": "2009-03-17 10:50:12Z",
           "user": "Pontus Gagge",
           "user_link": "https://stackoverflow.com/users/20402/pontus-gagge",
-          "reputation": 17240
+          "reputation": 17258
         },
         {
           "id": 472692,
@@ -2331,7 +2331,7 @@
           "date": "2009-03-18 17:17:53Z",
           "user": "MrValdez",
           "user_link": "https://stackoverflow.com/users/1599/mrvaldez",
-          "reputation": 8583
+          "reputation": 8613
         },
         {
           "id": 857211,
@@ -2340,7 +2340,7 @@
           "date": "2009-06-25 20:00:16Z",
           "user": "MikeyB",
           "user_link": "https://stackoverflow.com/users/93180/mikeyb",
-          "reputation": 3344
+          "reputation": 3352
         }
       ]
     },
@@ -2378,7 +2378,7 @@
           "date": "2009-08-07 04:11:41Z",
           "user": "Jonathan Leffler",
           "user_link": "https://stackoverflow.com/users/15168/jonathan-leffler",
-          "reputation": 749241
+          "reputation": 752442
         },
         {
           "id": 1070941,
@@ -2396,7 +2396,7 @@
           "date": "2009-08-07 12:48:52Z",
           "user": "Jim Ferrans",
           "user_link": "https://stackoverflow.com/users/45935/jim-ferrans",
-          "reputation": 30952
+          "reputation": 31012
         },
         {
           "id": 1135485,
@@ -2405,7 +2405,7 @@
           "date": "2009-08-20 04:51:50Z",
           "user": "quark",
           "user_link": "https://stackoverflow.com/users/29057/quark",
-          "reputation": 15802
+          "reputation": 15832
         },
         {
           "id": 2009415,
@@ -2414,7 +2414,7 @@
           "date": "2010-01-16 19:51:36Z",
           "user": "smerlin",
           "user_link": "https://stackoverflow.com/users/231717/smerlin",
-          "reputation": 6536
+          "reputation": 6556
         },
         {
           "id": 2011197,
@@ -2423,7 +2423,7 @@
           "date": "2010-01-17 07:08:03Z",
           "user": "Jim Ferrans",
           "user_link": "https://stackoverflow.com/users/45935/jim-ferrans",
-          "reputation": 30952
+          "reputation": 31012
         },
         {
           "id": 7939815,
@@ -2432,16 +2432,16 @@
           "date": "2011-07-15 12:45:44Z",
           "user": "luser droog",
           "user_link": "https://stackoverflow.com/users/733077/luser-droog",
-          "reputation": 19414
+          "reputation": 19484
         },
         {
           "id": 9101908,
           "score": 0,
           "content": "I&#39;ve seen some professors in an officially french college distribute a &quot;<code>francais.h</code>&quot; file to students containing stuff like: <code>#define si if</code> and <code>#define tant_que while</code> to get them to &quot;code in french&quot;.  Thankfully the class never tried to cover the STL.  I would have snapped if they had the students write <code>std::chaine_de_caracteres</code> instead of <code>std::string</code>.",
           "date": "2011-09-22 13:29:09Z",
-          "user": "Andr&#xE9; Caron",
+          "user": "André Caron",
           "user_link": "https://stackoverflow.com/users/313063/andr%c3%a9-caron",
-          "reputation": 45159
+          "reputation": 45219
         }
       ]
     },
@@ -2535,7 +2535,7 @@
           "date": "2011-07-15 18:29:13Z",
           "user": "luser droog",
           "user_link": "https://stackoverflow.com/users/733077/luser-droog",
-          "reputation": 19414
+          "reputation": 19484
         },
         {
           "id": 8129028,
@@ -2544,7 +2544,7 @@
           "date": "2011-07-27 03:32:50Z",
           "user": "luser droog",
           "user_link": "https://stackoverflow.com/users/733077/luser-droog",
-          "reputation": 19414
+          "reputation": 19484
         }
       ]
     },
@@ -2582,7 +2582,7 @@
           "date": "2009-09-19 18:02:03Z",
           "user": "bk1e",
           "user_link": "https://stackoverflow.com/users/8090/bk1e",
-          "reputation": 24288
+          "reputation": 24328
         },
         {
           "id": 8105615,
@@ -2591,7 +2591,7 @@
           "date": "2011-07-25 21:43:30Z",
           "user": "John",
           "user_link": "https://stackoverflow.com/users/13895/john",
-          "reputation": 16009
+          "reputation": 16007
         }
       ]
     },
@@ -2638,7 +2638,7 @@
           "date": "2009-10-20 11:13:02Z",
           "user": "Konamiman",
           "user_link": "https://stackoverflow.com/users/4574/konamiman",
-          "reputation": 50143
+          "reputation": 50243
         }
       ]
     },
@@ -2704,7 +2704,7 @@
           "date": "2009-09-18 13:38:23Z",
           "user": "Jonathan Leffler",
           "user_link": "https://stackoverflow.com/users/15168/jonathan-leffler",
-          "reputation": 749241
+          "reputation": 752442
         },
         {
           "id": 1294442,
@@ -2713,7 +2713,7 @@
           "date": "2009-09-19 09:18:55Z",
           "user": "Joel",
           "user_link": "https://stackoverflow.com/users/31092/joel",
-          "reputation": 11811
+          "reputation": 11841
         },
         {
           "id": 5290656,
@@ -2816,7 +2816,7 @@
           "date": "2009-10-23 20:32:59Z",
           "user": "David Thornley",
           "user_link": "https://stackoverflow.com/users/14148/david-thornley",
-          "reputation": 56916
+          "reputation": 57006
         }
       ]
     },
@@ -2854,7 +2854,7 @@
           "date": "2009-03-17 10:14:38Z",
           "user": "strager",
           "user_link": "https://stackoverflow.com/users/39992/strager",
-          "reputation": 89794
+          "reputation": 89922
         },
         {
           "id": 470285,
@@ -2863,7 +2863,7 @@
           "date": "2009-03-18 02:32:15Z",
           "user": "RBerteig",
           "user_link": "https://stackoverflow.com/users/68204/rberteig",
-          "reputation": 43016
+          "reputation": 43276
         },
         {
           "id": 1288659,
@@ -2872,7 +2872,7 @@
           "date": "2009-09-18 08:19:55Z",
           "user": "Marten",
           "user_link": "https://stackoverflow.com/users/125739/marten",
-          "reputation": 1146
+          "reputation": 1156
         },
         {
           "id": 1299103,
@@ -2881,7 +2881,7 @@
           "date": "2009-09-20 22:07:16Z",
           "user": "Simon Buchan",
           "user_link": "https://stackoverflow.com/users/20135/simon-buchan",
-          "reputation": 13175
+          "reputation": 13225
         },
         {
           "id": 1482358,
@@ -2890,7 +2890,7 @@
           "date": "2009-10-23 20:34:26Z",
           "user": "David Thornley",
           "user_link": "https://stackoverflow.com/users/14148/david-thornley",
-          "reputation": 56916
+          "reputation": 57006
         }
       ]
     },
@@ -2928,7 +2928,7 @@
           "date": "2009-09-18 03:03:54Z",
           "user": "Michael Kohne",
           "user_link": "https://stackoverflow.com/users/5801/michael-kohne",
-          "reputation": 11994
+          "reputation": 12044
         }
       ]
     },
@@ -2966,7 +2966,7 @@
           "date": "2009-10-16 14:22:54Z",
           "user": "Jamie",
           "user_link": "https://stackoverflow.com/users/32836/jamie",
-          "reputation": 7311
+          "reputation": 7383
         },
         {
           "id": 1440114,
@@ -2975,7 +2975,7 @@
           "date": "2009-10-16 15:23:43Z",
           "user": "i_am_jorf",
           "user_link": "https://stackoverflow.com/users/74815/i-am-jorf",
-          "reputation": 54430
+          "reputation": 54580
         },
         {
           "id": 3063964,
@@ -2993,7 +2993,7 @@
           "date": "2010-06-09 02:39:38Z",
           "user": "i_am_jorf",
           "user_link": "https://stackoverflow.com/users/74815/i-am-jorf",
-          "reputation": 54430
+          "reputation": 54580
         },
         {
           "id": 11229840,
@@ -3002,7 +3002,7 @@
           "date": "2012-01-23 00:59:19Z",
           "user": "Paul Fultz II",
           "user_link": "https://stackoverflow.com/users/375343/paul-fultz-ii",
-          "reputation": 18070
+          "reputation": 18130
         }
       ]
     },
@@ -3311,7 +3311,7 @@
           "date": "2009-08-07 04:13:18Z",
           "user": "Jonathan Leffler",
           "user_link": "https://stackoverflow.com/users/15168/jonathan-leffler",
-          "reputation": 749241
+          "reputation": 752442
         }
       ]
     },
@@ -3349,7 +3349,7 @@
           "date": "2009-09-18 13:39:33Z",
           "user": "Jonathan Leffler",
           "user_link": "https://stackoverflow.com/users/15168/jonathan-leffler",
-          "reputation": 749241
+          "reputation": 752442
         },
         {
           "id": 1291560,
@@ -3564,7 +3564,7 @@
           "date": "2009-09-18 03:02:28Z",
           "user": "Michael Kohne",
           "user_link": "https://stackoverflow.com/users/5801/michael-kohne",
-          "reputation": 11994
+          "reputation": 12044
         }
       ]
     },
@@ -3714,7 +3714,7 @@
           "date": "2011-05-19 19:48:50Z",
           "user": "Trevor Boyd Smith",
           "user_link": "https://stackoverflow.com/users/52074/trevor-boyd-smith",
-          "reputation": 19041
+          "reputation": 19175
         }
       ]
     },
@@ -3752,7 +3752,7 @@
           "date": "2009-03-17 06:24:33Z",
           "user": "X-Istence",
           "user_link": "https://stackoverflow.com/users/13986/x-istence",
-          "reputation": 16607
+          "reputation": 16667
         },
         {
           "id": 466962,

@@ -1,6 +1,6 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forum.modelarstwo.info/members/arekmiz.12808/?tooltip=true&_xfWithData=1&_xfToken=1721397883,44dd210f2f565ddbf4a319c2ebe90501&_xfResponseType=json",
+  "url": "https://forum.modelarstwo.info/members/arekmiz.12808/?tooltip=true&_xfWithData=1&_xfToken=1736169654,30d08675e172ade6b28924c4340e0e67&_xfResponseType=json",
   "id": 12808,
   "background": "",
   "location": "Legionowo",
@@ -12,7 +12,7 @@
   "extras": [
     {
       "key": "Ostatnio",
-      "value": "2024-07-19T13:52:43+0200"
+      "value": "2025-01-06T10:48:28+0100"
     },
     {
       "key": "Dołączył(a)",
@@ -20,15 +20,15 @@
     },
     {
       "key": "Wpisy",
-      "value": "897"
+      "value": "1.136"
     },
     {
       "key": "Oceny",
-      "value": "310"
+      "value": "380"
     },
     {
       "key": "Punkty",
-      "value": "63"
+      "value": "83"
     }
   ]
 }

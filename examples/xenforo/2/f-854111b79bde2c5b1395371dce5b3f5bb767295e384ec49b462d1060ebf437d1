@@ -23,7 +23,7 @@
       "date": "2024-07-03T14:29:18+0100",
       "lastpage": 0,
       "replies": 0,
-      "views": 92,
+      "views": 144,
       "lastpost": {
         "date": "2024-07-03T14:29:18+0100",
         "user": "Jay Gatsby",
@@ -56,6 +56,26 @@
     },
     {
       "votes": 0,
+      "avatar": "https://cdn.rune-server.org/avatars/s/158/158992.jpg?1719865013",
+      "icons": [],
+      "label": "",
+      "title": "Negative Reputation",
+      "link": "https://rune-server.org/threads/negative-reputation.707060/",
+      "user": "Rusko",
+      "user_link": "https://rune-server.org/members/rusko.158992/",
+      "date": "2025-01-03T05:13:57+0000",
+      "lastpage": 0,
+      "replies": 1,
+      "views": 126,
+      "lastpost": {
+        "date": "2025-01-03T17:41:33+0000",
+        "user": "Scu11",
+        "user_link": "https://rune-server.org/members/scu11.41140/",
+        "avatar": "https://cdn.rune-server.org/avatars/s/41/41140.jpg?1719863819"
+      }
+    },
+    {
+      "votes": 0,
       "avatar": "https://cdn.rune-server.org/avatars/s/119/119929.jpg?1719864311",
       "icons": [
         "Locked"
@@ -68,7 +88,7 @@
       "date": "2024-07-03T02:31:20+0100",
       "lastpage": 0,
       "replies": 7,
-      "views": 463,
+      "views": 2000,
       "lastpost": {
         "date": "2024-08-19T19:16:14+0100",
         "user": "Advocatus",
@@ -88,7 +108,7 @@
       "date": "2024-07-10T01:31:21+0100",
       "lastpage": 0,
       "replies": 2,
-      "views": 287,
+      "views": 477,
       "lastpost": {
         "date": "2024-08-19T19:09:06+0100",
         "user": "Kevy",
@@ -108,7 +128,7 @@
       "date": "2024-07-07T23:55:30+0100",
       "lastpage": 0,
       "replies": 3,
-      "views": 172,
+      "views": 291,
       "lastpost": {
         "date": "2024-08-19T19:07:21+0100",
         "user": "Kevy",
@@ -128,7 +148,7 @@
       "date": "2024-08-16T16:57:06+0100",
       "lastpage": 0,
       "replies": 1,
-      "views": 98,
+      "views": 268,
       "lastpost": {
         "date": "2024-08-19T19:04:51+0100",
         "user": "Kevy",
@@ -148,7 +168,7 @@
       "date": "2024-07-03T10:43:50+0100",
       "lastpage": 0,
       "replies": 7,
-      "views": 207,
+      "views": 312,
       "lastpost": {
         "date": "2024-07-07T20:09:07+0100",
         "user": "Jay Gatsby",
@@ -168,7 +188,7 @@
       "date": "2024-07-07T18:14:31+0100",
       "lastpage": 0,
       "replies": 1,
-      "views": 144,
+      "views": 270,
       "lastpost": {
         "date": "2024-07-07T19:24:49+0100",
         "user": "Jay Gatsby",
@@ -190,7 +210,7 @@
       "date": "2024-07-03T00:21:29+0100",
       "lastpage": 0,
       "replies": 2,
-      "views": 109,
+      "views": 185,
       "lastpost": {
         "date": "2024-07-03T14:13:30+0100",
         "user": "Jay Gatsby",
@@ -203,7 +223,7 @@
       "avatar": "https://cdn.rune-server.org/avatars/s/101/101848.jpg?1719864119",
       "icons": [],
       "label": "Bug/Glitch",
-      "title": "Shoutbox doesn&#039;t appear on default skin",
+      "title": "Shoutbox doesn't appear on default skin",
       "link": "https://rune-server.org/threads/shoutbox-doesnt-appear-on-default-skin.705648/",
       "user": "Songoty",
       "user_link": "https://rune-server.org/members/songoty.101848/",
@@ -230,7 +250,7 @@
       "date": "2023-09-25T02:10:57+0100",
       "lastpage": 0,
       "replies": 1,
-      "views": 656,
+      "views": 804,
       "lastpost": {
         "date": "2023-09-25T03:02:24+0100",
         "user": "Format",
@@ -250,7 +270,7 @@
       "date": "2023-09-17T17:57:03+0100",
       "lastpage": 0,
       "replies": 2,
-      "views": 810,
+      "views": 882,
       "lastpost": {
         "date": "2023-09-17T23:17:06+0100",
         "user": "Mynameisdesign",
@@ -290,7 +310,7 @@
       "date": "2022-11-25T15:12:25+0000",
       "lastpage": 0,
       "replies": 1,
-      "views": 777,
+      "views": 839,
       "lastpost": {
         "date": "2022-11-26T01:22:16+0000",
         "user": "Dbcrazy",
@@ -303,7 +323,7 @@
       "avatar": "https://cdn.rune-server.org/avatars/s/78/78395.jpg?1719863995",
       "icons": [],
       "label": "Bug/Glitch",
-      "title": "Can&#039;t edit post?",
+      "title": "Can't edit post?",
       "link": "https://rune-server.org/threads/cant-edit-post.703692/",
       "user": "mige5",
       "user_link": "https://rune-server.org/members/mige5.78395/",
@@ -330,7 +350,7 @@
       "date": "2022-10-27T19:43:57+0100",
       "lastpage": 0,
       "replies": 3,
-      "views": 898,
+      "views": 966,
       "lastpost": {
         "date": "2022-10-27T20:14:30+0100",
         "user": "Kevy",
@@ -385,14 +405,14 @@
         "Locked"
       ],
       "label": "Bug/Glitch",
-      "title": "Can&#039;t access post/thread history",
+      "title": "Can't access post/thread history",
       "link": "https://rune-server.org/threads/cant-access-post-thread-history.697527/",
       "user": "clem585",
       "user_link": "https://rune-server.org/members/clem585.248145/",
       "date": "2021-02-02T22:13:32+0000",
       "lastpage": 0,
       "replies": 1,
-      "views": 736,
+      "views": 798,
       "lastpost": {
         "date": "2021-02-02T22:43:43+0000",
         "user": "Scu11",
@@ -412,7 +432,7 @@
       "date": "2019-11-05T04:07:45+0000",
       "lastpage": 0,
       "replies": 2,
-      "views": 855,
+      "views": 920,
       "lastpost": {
         "date": "2019-11-05T09:29:03+0000",
         "user": "Guardian",
@@ -432,32 +452,12 @@
       "date": "2019-05-10T20:42:19+0100",
       "lastpage": 0,
       "replies": 5,
-      "views": 1000,
+      "views": 2000,
       "lastpost": {
         "date": "2019-05-11T10:42:38+0100",
         "user": "cube",
         "user_link": "https://rune-server.org/members/cube.46194/",
         "avatar": "https://cdn.rune-server.org/avatars/s/46/46194.jpg?1719863827"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://cdn.rune-server.org/avatars/s/189/189177.jpg?1719865479",
-      "icons": [],
-      "label": "Bug/Glitch",
-      "title": "User title",
-      "link": "https://rune-server.org/threads/user-title.684796/",
-      "user": "Corey",
-      "user_link": "https://rune-server.org/members/corey.189177/",
-      "date": "2019-04-16T13:57:06+0100",
-      "lastpage": 0,
-      "replies": 1,
-      "views": 895,
-      "lastpost": {
-        "date": "2019-04-17T07:53:47+0100",
-        "user": "Kevy",
-        "user_link": "https://rune-server.org/members/kevy.1/",
-        "avatar": "https://cdn.rune-server.org/avatars/s/0/1.jpg?1719863770"
       }
     }
   ]

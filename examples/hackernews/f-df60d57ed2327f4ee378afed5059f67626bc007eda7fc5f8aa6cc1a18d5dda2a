@@ -3,423 +3,423 @@
   "url": "https://news.ycombinator.com/show",
   "threads": [
     {
-      "id": 41436338,
-      "link": "https://repaint.com",
-      "title": "Show HN: Repaint – a WebGL based website builder",
-      "score": 46,
-      "date": "2024-09-03T16:08:52",
+      "id": 42609865,
+      "link": "https://github.com/cratesland/spath",
+      "title": "Show HN: SPath is a Rust lib for query JSONPath over any semi-structured data",
+      "score": 20,
+      "date": "2025-01-06T12:03:46 1736165026",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=benshumaker0",
-        "name": "benshumaker0"
-      },
-      "comments_count": 27,
-      "comments_link": "https://news.ycombinator.com/item?id=41436338",
-      "text": ""
-    },
-    {
-      "id": 41435409,
-      "link": "https://github.com/David-OConnor/plascad",
-      "title": "Show HN: PlasCAD: Open-source plasmid editor",
-      "score": 60,
-      "date": "2024-09-03T14:38:01",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=the__alchemist",
-        "name": "the__alchemist"
-      },
-      "comments_count": 17,
-      "comments_link": "https://news.ycombinator.com/item?id=41435409",
-      "text": ""
-    },
-    {
-      "id": 41427563,
-      "link": "https://github.com/pythonbrad/afrim",
-      "title": "Show HN: A modern way to type in African languages",
-      "score": 181,
-      "date": "2024-09-02T18:10:20",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=pythonbrad",
-        "name": "pythonbrad"
-      },
-      "comments_count": 77,
-      "comments_link": "https://news.ycombinator.com/item?id=41427563",
-      "text": ""
-    },
-    {
-      "id": 41425150,
-      "link": "https://govukvue.org/",
-      "title": "Show HN: Gov.uk Vue, a Vue Component Library for the Gov.uk Design System",
-      "score": 211,
-      "date": "2024-09-02T13:15:45",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=matteason",
-        "name": "matteason"
-      },
-      "comments_count": 57,
-      "comments_link": "https://news.ycombinator.com/item?id=41425150",
-      "text": ""
-    },
-    {
-      "id": 41433900,
-      "link": "https://agnost.dev/getting-started/",
-      "title": "Show HN: Open-source Railway, Render alternative running on Kubernetes clusters",
-      "score": 8,
-      "date": "2024-09-03T11:43:55",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=umit-cakmak",
-        "name": "<font color=\"#3c963c\">umit-cakmak</font>"
+        "link": "https://news.ycombinator.com/user?id=tison",
+        "name": "tison"
       },
       "comments_count": 2,
-      "comments_link": "https://news.ycombinator.com/item?id=41433900",
+      "comments_link": "https://news.ycombinator.com/item?id=42609865",
       "text": ""
     },
     {
-      "id": 41434411,
-      "link": "https://github.com/isaacperez/tinygpt",
-      "title": "Show HN: TinyGPT – A Simple, Educational Deep Learning Library",
-      "score": 4,
-      "date": "2024-09-03T12:42:38",
+      "id": 42609819,
+      "link": "https://www.mashups.io",
+      "title": "Show HN: Mashups – Resurrecting Yahoo Pipes, my side project",
+      "score": 19,
+      "date": "2025-01-06T11:54:10 1736164450",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=isaperbor",
-        "name": "isaperbor"
-      },
-      "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=41434411",
-      "text": ""
-    },
-    {
-      "id": 41425085,
-      "link": "https://www.dogesec.com/blog/full_text_rss_atom_blog_feeds/",
-      "title": "Show HN: Full Text, Full Archive RSS Feeds for Any Blog",
-      "score": 144,
-      "date": "2024-09-02T13:06:02",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=panoramas4good",
-        "name": "panoramas4good"
-      },
-      "comments_count": 43,
-      "comments_link": "https://news.ycombinator.com/item?id=41425085",
-      "text": ""
-    },
-    {
-      "id": 41425646,
-      "link": "https://github.com/syncliteio/SyncLite",
-      "title": "Show HN: Replicate App-Embedded DuckDBs into PostgreSQL with SyncLite OSS",
-      "score": 66,
-      "date": "2024-09-02T14:30:01",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=syncliteio",
-        "name": "syncliteio"
-      },
-      "comments_count": 19,
-      "comments_link": "https://news.ycombinator.com/item?id=41425646",
-      "text": ""
-    },
-    {
-      "id": 41434836,
-      "link": "https://starhog.co/",
-      "title": "Show HN: StarHog – See who starred your open source project",
-      "score": 5,
-      "date": "2024-09-03T13:39:07",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=alishobeiri",
-        "name": "alishobeiri"
-      },
-      "comments_count": 3,
-      "comments_link": "https://news.ycombinator.com/item?id=41434836",
-      "text": ""
-    },
-    {
-      "id": 41428014,
-      "link": "https://punnily.com/",
-      "title": "Show HN: Puns from Wikipedia Page Titles",
-      "score": 29,
-      "date": "2024-09-02T19:10:12",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=spacether",
-        "name": "spacether"
-      },
-      "comments_count": 16,
-      "comments_link": "https://news.ycombinator.com/item?id=41428014",
-      "text": ""
-    },
-    {
-      "id": 41427247,
-      "link": "https://coursely.ai",
-      "title": "Show HN: A YouTube videos course generator",
-      "score": 46,
-      "date": "2024-09-02T17:30:07",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=MO-379",
-        "name": "MO-379"
-      },
-      "comments_count": 20,
-      "comments_link": "https://news.ycombinator.com/item?id=41427247",
-      "text": ""
-    },
-    {
-      "id": 41425675,
-      "link": "https://github.com/jboirazian/LuneForge",
-      "title": "Show HN: Open-Source Software for Designing 3D-Printable Luneburg Lenses for RF",
-      "score": 66,
-      "date": "2024-09-02T14:35:12",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=jboirazian",
-        "name": "<font color=\"#3c963c\">jboirazian</font>"
-      },
-      "comments_count": 33,
-      "comments_link": "https://news.ycombinator.com/item?id=41425675",
-      "text": ""
-    },
-    {
-      "id": 41424371,
-      "link": "https://defrag-game.com",
-      "title": "Show HN: Defrag the Game",
-      "score": 317,
-      "date": "2024-09-02T11:08:22",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=v_b",
-        "name": "v_b"
-      },
-      "comments_count": 106,
-      "comments_link": "https://news.ycombinator.com/item?id=41424371",
-      "text": ""
-    },
-    {
-      "id": 41423124,
-      "link": "https://www.voxtodo.com",
-      "title": "Show HN: I built a free tool for breaking down tasks into manageable subtasks",
-      "score": 39,
-      "date": "2024-09-02T06:37:02",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=ultrasounder",
-        "name": "ultrasounder"
-      },
-      "comments_count": 13,
-      "comments_link": "https://news.ycombinator.com/item?id=41423124",
-      "text": ""
-    },
-    {
-      "id": 41417263,
-      "link": "https://github.com/8dcc/bin-graph",
-      "title": "Show HN: Bin-graph: Visualize binary files",
-      "score": 54,
-      "date": "2024-09-01T14:30:52",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=8dcc",
-        "name": "8dcc"
-      },
-      "comments_count": 16,
-      "comments_link": "https://news.ycombinator.com/item?id=41417263",
-      "text": ""
-    },
-    {
-      "id": 41432710,
-      "link": "https://github.com/galvao-eti/shelly",
-      "title": "Show HN: Shelly – A pure and vanilla shell-like interface for the web",
-      "score": 4,
-      "date": "2024-09-03T08:43:43",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=ergalvao",
-        "name": "ergalvao"
-      },
-      "comments_count": 0,
-      "comments_link": null,
-      "text": ""
-    },
-    {
-      "id": 41431780,
-      "link": "https://walzr.com/papers",
-      "title": "Show HN: Papers from Today",
-      "score": 3,
-      "date": "2024-09-03T06:08:41",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=walz",
-        "name": "walz"
-      },
-      "comments_count": 2,
-      "comments_link": "https://news.ycombinator.com/item?id=41431780",
-      "text": ""
-    },
-    {
-      "id": 41436388,
-      "link": "https://time.fyi/",
-      "title": "Show HN: Time Management and Productivity Tools",
-      "score": 6,
-      "date": "2024-09-03T16:13:21",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=arikchakma",
-        "name": "arikchakma"
-      },
-      "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=41436388",
-      "text": ""
-    },
-    {
-      "id": 41424954,
-      "link": "https://github.com/Glimesh/broadcast-box",
-      "title": "Show HN: OBS Live-streaming with 120ms latency",
-      "score": 12,
-      "date": "2024-09-02T12:46:47",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=Sean-Der",
-        "name": "Sean-Der"
+        "link": "https://news.ycombinator.com/user?id=pyromaker",
+        "name": "pyromaker"
       },
       "comments_count": 4,
-      "comments_link": "https://news.ycombinator.com/item?id=41424954",
+      "comments_link": "https://news.ycombinator.com/item?id=42609819",
       "text": ""
     },
     {
-      "id": 41416714,
-      "link": "https://linkpreview.xyz",
-      "title": "Show HN: Linkpreview, see how your sites looks in social media and chat apps",
-      "score": 350,
-      "date": "2024-09-01T13:07:14",
+      "id": 42609151,
+      "link": "https://unbaited.danielpetho.com",
+      "title": "Show HN: Filter out engagement bait and politics on your X/Twitter feed",
+      "score": 38,
+      "date": "2025-01-06T09:49:41 1736156981",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=fayazara",
-        "name": "fayazara"
+        "link": "https://news.ycombinator.com/user?id=danielpetho",
+        "name": "danielpetho"
       },
-      "comments_count": 85,
-      "comments_link": "https://news.ycombinator.com/item?id=41416714",
+      "comments_count": 88,
+      "comments_link": "https://news.ycombinator.com/item?id=42609151",
       "text": ""
     },
     {
-      "id": 41430935,
-      "link": "https://lab.aizastudio.com/",
-      "title": "Show HN: Super easy melody loop maker",
+      "id": 42609892,
+      "link": "https://nonimaging-conference.org/competition-2025/upload/",
+      "title": "Show HN: Optics Challenge – Design a solar concentrator for a non-round sun",
+      "score": 4,
+      "date": "2025-01-06T12:08:02 1736165282",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hakonjdjohnsen",
+        "name": "hakonjdjohnsen"
+      },
+      "comments_count": 0,
+      "comments_link": null,
+      "text": ""
+    },
+    {
+      "id": 42609659,
+      "link": "https://guessthepainter.vercel.app/",
+      "title": "Show HN: Guess The Painter – A web based simple(idea) but hard to play game",
       "score": 2,
-      "date": "2024-09-03T03:24:42",
+      "date": "2025-01-06T11:20:43 1736162443",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=artistaiden",
-        "name": "artistaiden"
+        "link": "https://news.ycombinator.com/user?id=zynovex",
+        "name": "zynovex"
       },
-      "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=41430935",
+      "comments_count": 11,
+      "comments_link": "https://news.ycombinator.com/item?id=42609659",
       "text": ""
     },
     {
-      "id": 41430799,
-      "link": "https://linktomarkdown.com/",
-      "title": "Show HN: LinkToMarkdown – Extract web content to clean Markdown in one click",
-      "score": 3,
-      "date": "2024-09-03T02:52:58",
+      "id": 42567212,
+      "link": "https://discuo.com",
+      "title": "Show HN: Discuo – Anonymous discussions with infinite branching and 24h lifespan",
+      "score": 70,
+      "date": "2025-01-01T16:53:00 1735750380",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=qzcanoe",
-        "name": "<font color=\"#3c963c\">qzcanoe</font>"
+        "link": "https://news.ycombinator.com/user?id=drdruide",
+        "name": "drdruide"
+      },
+      "comments_count": 63,
+      "comments_link": "https://news.ycombinator.com/item?id=42567212",
+      "text": ""
+    },
+    {
+      "id": 42609359,
+      "link": "https://www.shram.io/",
+      "title": "Show HN: Making a cool ClickUp/Asana alternative",
+      "score": 5,
+      "date": "2025-01-06T10:30:23 1736159423",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gadekarjay30",
+        "name": "gadekarjay30"
       },
       "comments_count": 2,
-      "comments_link": "https://news.ycombinator.com/item?id=41430799",
+      "comments_link": "https://news.ycombinator.com/item?id=42609359",
       "text": ""
     },
     {
-      "id": 41426736,
-      "link": "https://excalihub.dev/landing",
-      "title": "Show HN: ExcaliHub",
-      "score": 7,
-      "date": "2024-09-02T16:25:36",
+      "id": 42606454,
+      "link": "https://loglayer.dev/",
+      "title": "Show HN: LogLayer – Unified logger that routes logs to various logging libraries",
+      "score": 51,
+      "date": "2025-01-06T00:52:24 1736124744",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=NabilNYMansour",
-        "name": "NabilNYMansour"
+        "link": "https://news.ycombinator.com/user?id=theogravity",
+        "name": "theogravity"
       },
-      "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=41426736",
+      "comments_count": 23,
+      "comments_link": "https://news.ycombinator.com/item?id=42606454",
       "text": ""
     },
     {
-      "id": 41429195,
-      "link": "https://strongphrase.net/",
-      "title": "Show HN: Passphrase generator that makes an absurd-but-memorable story",
+      "id": 42600586,
+      "link": "https://yoavsbg.github.io/css-flexbox-playground/",
+      "title": "Show HN: Struggle with CSS Flexbox? This Playground Is for You",
+      "score": 297,
+      "date": "2025-01-05T09:02:01 1736067721",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=yoav_sbg",
+        "name": "yoav_sbg"
+      },
+      "comments_count": 105,
+      "comments_link": "https://news.ycombinator.com/item?id=42600586",
+      "text": ""
+    },
+    {
+      "id": 42593919,
+      "link": "https://github.com/o40/seesay",
+      "title": "Show HN: I created a PoC for live descriptions of the surroundings for the blind",
+      "score": 73,
+      "date": "2025-01-04T10:41:49 1735987309",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=o40",
+        "name": "o40"
+      },
+      "comments_count": 25,
+      "comments_link": "https://news.ycombinator.com/item?id=42593919",
+      "text": ""
+    },
+    {
+      "id": 42608146,
+      "link": "https://apps.apple.com/us/app/mealsnap-ai-food-log-tracker/id6475162854",
+      "title": "Show HN: Log each meal with a photo to track your diet and monitor your weight",
+      "score": 2,
+      "date": "2025-01-06T06:10:53 1736143853",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bizpplhappy",
+        "name": "bizpplhappy"
+      },
+      "comments_count": 0,
+      "comments_link": null,
+      "text": ""
+    },
+    {
+      "id": 42604790,
+      "link": "https://ShopWithPixie.com/visual-fashion-finder",
+      "title": "Show HN: Pixie – A tool to shop for clothes using pictures",
+      "score": 10,
+      "date": "2025-01-05T20:33:05 1736109185",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dayaya",
+        "name": "dayaya"
+      },
+      "comments_count": 4,
+      "comments_link": "https://news.ycombinator.com/item?id=42604790",
+      "text": ""
+    },
+    {
+      "id": 42594896,
+      "link": "https://github.com/gmasclet/prettier-plugin-pgn",
+      "title": "Show HN: Pretty-print your chess games using Prettier",
+      "score": 100,
+      "date": "2025-01-04T14:37:52 1736001472",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gmasclet",
+        "name": "gmasclet"
+      },
+      "comments_count": 9,
+      "comments_link": "https://news.ycombinator.com/item?id=42594896",
+      "text": ""
+    },
+    {
+      "id": 42575947,
+      "link": "https://github.com/SuboptimalEng/slime-sim-webgpu",
+      "title": "Show HN: WebGPU + TypeScript Slime Mold",
+      "score": 69,
+      "date": "2025-01-02T16:37:38 1735835858",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=SuboptimalEng",
+        "name": "SuboptimalEng"
+      },
+      "comments_count": 11,
+      "comments_link": "https://news.ycombinator.com/item?id=42575947",
+      "text": ""
+    },
+    {
+      "id": 42596607,
+      "link": "https://github.com/janwilmake/efficient-recorder",
+      "title": "Show HN: Open Rewind – POC for audio and screen and video streaming to S3",
+      "score": 77,
+      "date": "2025-01-04T18:25:39 1736015139",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wwoessi",
+        "name": "wwoessi"
+      },
+      "comments_count": 30,
+      "comments_link": "https://news.ycombinator.com/item?id=42596607",
+      "text": ""
+    },
+    {
+      "id": 42590290,
+      "link": "https://tma.live",
+      "title": "Show HN: AI that generates 3blue1brown-style explainer videos",
+      "score": 90,
+      "date": "2025-01-03T22:44:47 1735944287",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zan2434",
+        "name": "zan2434"
+      },
+      "comments_count": 45,
+      "comments_link": "https://news.ycombinator.com/item?id=42590290",
+      "text": ""
+    },
+    {
+      "id": 42558143,
+      "link": "https://github.com/yibie/org-supertag",
+      "title": "Show HN: Org-Supertag",
+      "score": 91,
+      "date": "2024-12-31T11:44:14 1735645454",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=oliverchan2024",
+        "name": "oliverchan2024"
+      },
+      "comments_count": 64,
+      "comments_link": "https://news.ycombinator.com/item?id=42558143",
+      "text": ""
+    },
+    {
+      "id": 42604368,
+      "link": "https://www.swiftresume.net",
+      "title": "Show HN: I Built an AI Tool That Turns Your Resume into a Job Magnet in Seconds",
+      "score": 10,
+      "date": "2025-01-05T19:37:50 1736105870",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=yregmi",
+        "name": "yregmi"
+      },
+      "comments_count": 5,
+      "comments_link": "https://news.ycombinator.com/item?id=42604368",
+      "text": ""
+    },
+    {
+      "id": 42604301,
+      "link": "https://www.glutenchecker.link/",
+      "title": "Show HN: Does your food have gluten?",
+      "score": 4,
+      "date": "2025-01-05T19:28:41 1736105321",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zeroentropylabs",
+        "name": "zeroentropylabs"
+      },
+      "comments_count": 8,
+      "comments_link": "https://news.ycombinator.com/item?id=42604301",
+      "text": ""
+    },
+    {
+      "id": 42557920,
+      "link": "https://nicollet.net/blog/darklaga/remake.html",
+      "title": "Show HN: A remake of my 2004 PDA video game",
+      "score": 105,
+      "date": "2024-12-31T10:55:56 1735642556",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=victorNicollet",
+        "name": "victorNicollet"
+      },
+      "comments_count": 23,
+      "comments_link": "https://news.ycombinator.com/item?id=42557920",
+      "text": ""
+    },
+    {
+      "id": 42585009,
+      "link": "https://pimosa.app/",
+      "title": "Show HN: I completed shipping my desktop app",
+      "score": 518,
+      "date": "2025-01-03T12:20:27 1735906827",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=anshrathodfr",
+        "name": "anshrathodfr"
+      },
+      "comments_count": 288,
+      "comments_link": "https://news.ycombinator.com/item?id=42585009",
+      "text": ""
+    },
+    {
+      "id": 42575841,
+      "link": "https://github.com/connet-dev/connet",
+      "title": "Show HN: connet – A P2P reverse proxy with NAT traversal",
+      "score": 127,
+      "date": "2025-01-02T16:27:08 1735835228",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Ingon",
+        "name": "Ingon"
+      },
+      "comments_count": 29,
+      "comments_link": "https://news.ycombinator.com/item?id=42575841",
+      "text": ""
+    },
+    {
+      "id": 42605258,
+      "link": "https://geodownloader.com/",
+      "title": "Show HN: GeoDownloader – A tool for downloading OpenStreetMap data easily",
+      "score": 4,
+      "date": "2025-01-05T21:35:50 1736112950",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mtrcn",
+        "name": "mtrcn"
+      },
+      "comments_count": 0,
+      "comments_link": null,
+      "text": ""
+    },
+    {
+      "id": 42604317,
+      "link": "https://www.thatisrank.com/",
+      "title": "Show HN: I made a simple tool to track Google Rankings",
       "score": 5,
-      "date": "2024-09-02T22:11:13",
+      "date": "2025-01-05T19:30:23 1736105423",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=GranolaTent",
-        "name": "<font color=\"#3c963c\">GranolaTent</font>"
+        "link": "https://news.ycombinator.com/user?id=joshmead",
+        "name": "joshmead"
       },
       "comments_count": 0,
       "comments_link": null,
       "text": ""
     },
     {
-      "id": 41417458,
-      "link": "https://www.graphs.world",
-      "title": "Show HN: Graphs, a daily data visualization puzzle",
-      "score": 31,
-      "date": "2024-09-01T14:55:29",
+      "id": 42570429,
+      "link": "https://obnakwa.itch.io/dimityjones",
+      "title": "Show HN: Dimity Jones in Puzzle Castle: An Electronic Escape Novel",
+      "score": 43,
+      "date": "2025-01-02T00:17:52 1735777072",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=ajigarjian",
-        "name": "ajigarjian"
+        "link": "https://news.ycombinator.com/user?id=larryboyko",
+        "name": "larryboyko"
       },
-      "comments_count": 20,
-      "comments_link": "https://news.ycombinator.com/item?id=41417458",
+      "comments_count": 11,
+      "comments_link": "https://news.ycombinator.com/item?id=42570429",
       "text": ""
     },
     {
-      "id": 41407993,
-      "link": "https://blocks.md",
-      "title": "Show HN: Typeform alternative, turns Markdown to forms",
-      "score": 189,
-      "date": "2024-08-31T11:19:08",
+      "id": 42593249,
+      "link": "https://wiki-timeline.com",
+      "title": "Show HN: WikiTimeline – AI-powered tool to visualize and compare timelines",
+      "score": 22,
+      "date": "2025-01-04T07:52:15 1735977135",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=darkhorse13",
-        "name": "darkhorse13"
+        "link": "https://news.ycombinator.com/user?id=StevenLee2024",
+        "name": "StevenLee2024"
       },
-      "comments_count": 76,
-      "comments_link": "https://news.ycombinator.com/item?id=41407993",
+      "comments_count": 8,
+      "comments_link": "https://news.ycombinator.com/item?id=42593249",
       "text": ""
     },
     {
-      "id": 41425035,
-      "link": "https://github.com/shaungallagher/derived-attributes",
-      "title": "Show HN: Derived Attributes&#x2F;Rules&#x2F;Triggers, parse JSON data using S-V-O grammar",
+      "id": 42598036,
+      "link": "https://github.com/abhisheknair10/Llama3.cu",
+      "title": "Show HN: Lightweight Llama3 Inference Engine – CUDA C",
+      "score": 10,
+      "date": "2025-01-04T22:07:11 1736028431",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=abhisheknair10",
+        "name": "abhisheknair10"
+      },
+      "comments_count": 0,
+      "comments_link": null,
+      "text": ""
+    },
+    {
+      "id": 42565821,
+      "link": "https://apiparrot.com/",
+      "title": "Show HN: API Parrot – Automatically Reverse Engineer HTTP APIs",
+      "score": 450,
+      "date": "2025-01-01T13:15:03 1735737303",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pvarghav",
+        "name": "pvarghav"
+      },
+      "comments_count": 116,
+      "comments_link": "https://news.ycombinator.com/item?id=42565821",
+      "text": ""
+    },
+    {
+      "id": 42602810,
+      "link": "https://github.com/postalsys/postal-mime",
+      "title": "Show HN: PostalMime, Email parsing library for browsers, web workers, serverless",
       "score": 3,
-      "date": "2024-09-02T13:00:08",
+      "date": "2025-01-05T16:22:37 1736094157",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=jawns",
-        "name": "jawns"
+        "link": "https://news.ycombinator.com/user?id=andris9",
+        "name": "andris9"
       },
       "comments_count": 0,
       "comments_link": null,
       "text": ""
     },
     {
-      "id": 41404360,
-      "link": "https://github.com/velorek1/C-edit",
-      "title": "Show HN: A retro terminal text editor for GNU&#x2F;Linux coded in C (C-edit)",
-      "score": 167,
-      "date": "2024-08-30T20:58:17",
+      "id": 42593366,
+      "link": "https://play.tirreno.com/login",
+      "title": "Show HN: tirreno ~ open-source security user analytic",
+      "score": 15,
+      "date": "2025-01-04T08:25:05 1735979105",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=velorek",
-        "name": "velorek"
-      },
-      "comments_count": 60,
-      "comments_link": "https://news.ycombinator.com/item?id=41404360",
-      "text": ""
-    },
-    {
-      "id": 41428399,
-      "link": "https://www.youtarot.app/",
-      "title": "Show HN: Tarot Card Generator",
-      "score": 3,
-      "date": "2024-09-02T20:08:30",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=peab",
-        "name": "peab"
+        "link": "https://news.ycombinator.com/user?id=reconnecting",
+        "name": "reconnecting"
       },
       "comments_count": 0,
       "comments_link": null,
-      "text": ""
-    },
-    {
-      "id": 41424312,
-      "link": "https://www.timetag.online/",
-      "title": "Show HN: Time Tag – Simple time tracking: Tag, filter, and analyze your day",
-      "score": 6,
-      "date": "2024-09-02T10:52:25",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=tirthd",
-        "name": "tirthd"
-      },
-      "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=41424312",
       "text": ""
     }
   ]

@@ -13,15 +13,15 @@
   ],
   "meta-profile": "https://meta.stackoverflow.com/users/1031591/atlaste",
   "network-profile": "https://stackexchange.com/users/1021317/atlaste",
-  "reputation": 30986,
-  "reached": 10600000,
+  "reputation": 31076,
+  "reached": 10700000,
   "answers": 237,
   "questions": 50,
   "communities-all": "https://stackexchange.com/users/1021317/atlaste?tab=accounts",
   "communities": [
     {
       "profile": "https://stackoverflow.com/users/1031591/",
-      "reputation": 31000
+      "reputation": 31100
     },
     {
       "profile": "https://superuser.com/users/177613/",
@@ -40,7 +40,7 @@
       "reputation": 131
     }
   ],
-  "about": "<p>Entrepreneur, Architect, Geek. Been a software developer for over 25 years now, both for fun and professionally.</p><p><strong>For fun:</strong></p><ul><li>Worked on hundreds of projects including 3D rendering, compression technology, machine translation, speech to text alignment, multi-agent systems, NLP, web crawlers, search engines, etc.</li><li>Participated in multiple country-wide programming competitions, usually ended up in the top 10 somewhere;</li><li>Extensive knowledge of over 10 programming languages, including C++, C# and Java;</li><li>Been operator in #c++, covering both software design and in-depth questions about the C++ standard;</li><li>Interested in alternative management styles, complex software puzzles, how complex stuff like machine translation, high performance and search technology works (or could work)</li></ul><p><strong>Professionally:</strong></p><ul><li>Started my own company in 2012, building high-quality, professional software components.</li><li>Been Lead architect/CTO at Teezir, a high-tech search company that delivers SAAS in a B2B setting;</li><li>Worked for a lot of leading companies on dozens of high-tech projects in different roles (usually leading when it comes to technology);</li><li>Extensive management skills in the IT industry;</li><li>Have a masters degree in computer science (information retrieval), also did a couple of years of psychology, just for fun.</li></ul><p>Oh and I'm definitely not the guy you want for user interfaces.</p><p>If you'd like to contact me, my e-mail address is info-at-sdebruijn-dot-nl.</p><h1>SOreadytohelp</h1>",
+  "about": "<p>Entrepreneur, Architect, Geek. Been a software developer for over 25 years now, both for fun and professionally.</p> <p><strong>For fun:</strong></p> <ul> <li>Worked on hundreds of projects including 3D rendering, compression technology, machine translation, speech to text alignment, multi-agent systems, NLP, web crawlers, search engines, etc.</li> <li>Participated in multiple country-wide programming competitions, usually ended up in the top 10 somewhere;</li> <li>Extensive knowledge of over 10 programming languages, including C++, C# and Java;</li> <li>Been operator in #c++, covering both software design and in-depth questions about the C++ standard;</li> <li>Interested in alternative management styles, complex software puzzles, how complex stuff like machine translation, high performance and search technology works (or could work)</li> </ul> <p><strong>Professionally:</strong></p> <ul> <li>Started my own company in 2012, building high-quality, professional software components.</li> <li>Been Lead architect/CTO at Teezir, a high-tech search company that delivers SAAS in a B2B setting;</li> <li>Worked for a lot of leading companies on dozens of high-tech projects in different roles (usually leading when it comes to technology);</li> <li>Extensive management skills in the IT industry;</li> <li>Have a masters degree in computer science (information retrieval), also did a couple of years of psychology, just for fun.</li> </ul> <p>Oh and I'm definitely not the guy you want for user interfaces.</p> <p>If you'd like to contact me, my e-mail address is info-at-sdebruijn-dot-nl.</p> <h1>SOreadytohelp</h1>",
   "badges-all": "https://stackoverflow.com/users/1031591/atlaste?tab=badges",
   "badges": [
     {
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "amount": 60,
+      "amount": 61,
       "name": "silver",
       "achievements": [
         {
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "amount": 90,
+      "amount": 91,
       "name": "bronze",
       "achievements": [
         {
@@ -132,7 +132,7 @@
       "link": "https://stackoverflow.com/search?q=user:1031591+[c%2b%2b]",
       "name": "c++",
       "badge": "Bronze",
-      "score": 1721,
+      "score": 1727,
       "posts": 36,
       "posts-percent": 13,
       "answered": 28,
@@ -143,7 +143,7 @@
       "link": "https://stackoverflow.com/search?q=user:1031591+[performance]",
       "name": "performance",
       "badge": "",
-      "score": 1680,
+      "score": 1687,
       "posts": 19,
       "posts-percent": 7,
       "answered": 17,
@@ -154,12 +154,12 @@
       "link": "https://stackoverflow.com/search?q=user:1031591+[c%23]",
       "name": "c#",
       "badge": "Silver",
-      "score": 932,
+      "score": 933,
       "posts": 215,
       "posts-percent": 75,
       "answered": 182,
       "ansked": 29,
-      "asked-score": 182
+      "asked-score": 183
     },
     {
       "link": "https://stackoverflow.com/search?q=user:1031591+[.net]",
@@ -170,7 +170,7 @@
       "posts-percent": 26,
       "answered": 53,
       "ansked": 21,
-      "asked-score": 136
+      "asked-score": 137
     },
     {
       "link": "https://stackoverflow.com/search?q=user:1031591+[optimization]",
@@ -201,7 +201,7 @@
     {
       "type": "answer",
       "answered": false,
-      "votes": 1615,
+      "votes": 1621,
       "link": "https://stackoverflow.com/questions/11227809/why-is-processing-a-sorted-array-faster-than-processing-an-unsorted-array/16184827#16184827",
       "title": "Why is processing a sorted array faster than processing an unsorted array?",
       "date": "2013-04-24 06:26:28Z"
@@ -217,7 +217,7 @@
     {
       "type": "answer",
       "answered": true,
-      "votes": 52,
+      "votes": 53,
       "link": "https://stackoverflow.com/questions/14828271/can-a-static-method-be-overridden-in-c/14828401#14828401",
       "title": "Can a static method be overridden in C#?",
       "date": "2013-02-12 08:30:10Z"
@@ -275,7 +275,7 @@
       "answered": false,
       "votes": 29,
       "link": "https://stackoverflow.com/questions/2815366/cannot-import-the-keyfile-blah-pfx-error-the-keyfile-may-be-password-protec/14644793#14644793",
-      "title": "Cannot import the keyfile &#39;blah.pfx&#39; - error &#39;The keyfile may be password protected&#39;",
+      "title": "Cannot import the keyfile 'blah.pfx' - error 'The keyfile may be password protected'",
       "date": "2013-02-01 10:58:14Z"
     }
   ],
@@ -289,7 +289,7 @@
     {
       "votes": 12,
       "link": "https://patents.stackexchange.com/questions/13411/how-to-build-software-if-youre-unaware-of-which-parts-can-contain-potential-pathttps://patents.stackexchange.com/questions/13411/how-to-build-software-if-youre-unaware-of-which-parts-can-contain-potential-pat",
-      "title": "How to build software if you&#x27;re unaware of which parts can contain potential patent infringements"
+      "title": "How to build software if you're unaware of which parts can contain potential patent infringements"
     },
     {
       "votes": 9,

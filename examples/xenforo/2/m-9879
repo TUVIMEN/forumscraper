@@ -1,6 +1,6 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forums.mangadex.org/members/teddy.9879/?tooltip=true&_xfWithData=1&_xfToken=1721397661,221ecd9b403006235936452accabfd52&_xfResponseType=json",
+  "url": "https://forums.mangadex.org/members/teddy.9879/?tooltip=true&_xfWithData=1&_xfToken=1736169505,4c12facf685290ac117b9466ba009585&_xfResponseType=json",
   "id": 9879,
   "background": "https://forums.mangadex.org/community/profile_banners/m/9/9879.jpg",
   "location": "",
@@ -8,7 +8,7 @@
   "title": "Dex-chan lover",
   "banners": [],
   "name": "Teddy",
-  "forum": "",
+  "forum": "/threads/list-of-forum-titles-by-reaction-score.1102077/",
   "extras": [
     {
       "key": "Joined",
@@ -16,15 +16,15 @@
     },
     {
       "key": "Last seen",
-      "value": "2024-05-18T13:41:26+0100"
+      "value": "2025-01-06T08:06:59+0000"
     },
     {
       "key": "Messages",
-      "value": "1,856"
+      "value": "1,896"
     },
     {
       "key": "Reaction score",
-      "value": "573"
+      "value": "720"
     },
     {
       "key": "Points",
