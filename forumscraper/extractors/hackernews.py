@@ -240,7 +240,7 @@ class hackernews(ForumExtractor):
             {
                 "func": "get_forum",
                 "exprs": [
-                    r"/(news|newest|front|show|ask|jobs)($|\?p=)",
+                    r"/(news|newest|front|show(new)?|ask|jobs)($|\?p=)",
                     r"/(favorites|submitted)\?id=",
                 ],
             },

@@ -72,7 +72,7 @@ class xenforo2(ForumExtractor):
         def get_reactions(self, rq, ref, first_delim, xfToken, settings, state):
             ret = []
             reactions_url = rq.search(
-                r'{ a .reactionsBar-link href | "%(href)v\n", div #b>reactions-bar-; a .list-reacts href | "%(href)v\n" } / line [1] tr "\n"'
+                r'{ a .reactionsBar-link href | "%(href)v\n", div #b>reactions-bar-; a .list-reacts href | "%(href)v\n" } / line [0] tr "\n"'
             )
 
             if len(reactions_url) > 0:
@@ -369,7 +369,7 @@ class xenforo2(ForumExtractor):
             {
                 * .p-nav; [0] a href | "%(href)v\n",
                 * #header-forum-listing href | "%(href)v\n"
-            } / line [1] tr "\n"
+            } / line [0] tr "\n"
             """
         )
         self.findroot_board = True
@@ -702,7 +702,7 @@ class xenforo1(ForumExtractor):
                     [0] a C@'span itemprop="title" m@i>"forums"' | '%(href)v\n',
                     [0] a | "%(href)v\n"
                 }
-            } / line [1] tr "\n"
+            } / line [0] tr "\n"
             """
         )
         self.findroot_board = True

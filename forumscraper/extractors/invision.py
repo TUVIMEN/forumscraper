@@ -419,7 +419,7 @@ class invision(ForumExtractor):
                nav; li .ipsMenu_item; [0] a m@i>forums href | "%(href)v\n",
                [0] a href=Ea>"(/|^)((forum|foro)s?|community|communaute|comunidad|ipb)(\.([a-zA-Z0-9.-]\.)*[a-zA-Z]/?|/?$)" | "%(href)v\n",
                [0] a href=Ea>"(/|^)(index|index\.php)/?$" | "%(href)v\n"
-            } / line [1] tr "\n"
+            } / line [0] tr "\n"
            """
         )
         self.findroot_board = True

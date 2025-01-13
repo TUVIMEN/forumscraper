@@ -75,7 +75,7 @@ class stackexchange(ForumExtractor):
                             .badges-all [0] a m@bt>"View all" | "%(href)v",
                             .badges div .s-card; div .jc-space-between c@[6:] child@; {
                                 .amount.u div .fs-title | "%i",
-                                .name div .fs-caption | "%Di" line [1] " " tr " " / trim,
+                                .name div .fs-caption | "%Di" line [0] " " tr " " / trim,
                                 .achievements li; {
                                     a ( .badge )( .badge-tag ); {
                                         .tag.b * self@ .badge-tag | "t",

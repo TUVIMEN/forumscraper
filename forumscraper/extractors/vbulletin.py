@@ -353,7 +353,7 @@ class vbulletin(ForumExtractor):
                         h
                        $p" "En" line [-],
                     [0] span .navbar; a href | "%(href)v\n"
-                } / line [1] tr "\n" sed "s/&amp;/\&/g"
+                } / line [0] tr "\n" sed "s/&amp;/\&/g"
             """
         )
         self.findroot_board = True
@@ -369,7 +369,7 @@ class vbulletin(ForumExtractor):
                     [0] a .js-pagenav-next-button href=b>http | "%(href)v",
                 },
                 span .pages; [0] span .currentpage; [0] a ssub@ | "%(href)v"
-            } / line [1] sed "/^javascript:/d; s/&amp;/\&/g"'''
+            } / line [0] sed "/^javascript:/d; s/&amp;/\&/g"'''
         )
 
         return url

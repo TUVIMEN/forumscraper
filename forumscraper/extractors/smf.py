@@ -219,8 +219,8 @@ class smf1(ForumExtractor):
                                 small,
                                 * l@[0]  c@[1:]
                             }; {
-                                .posts.u * l@[0] | "%t" line [1],
-                                .topics.u * l@[0] | "%t" line [2:] " "
+                                .posts.u * l@[0] | "%t" line [0],
+                                .topics.u * l@[0] | "%t" line [1:] " "
                             },
                             .posts2.u * l@[0] c@[0] | "%i"
                         },
@@ -264,7 +264,7 @@ class smf1(ForumExtractor):
                                 .link * l@[0] | "%(href)v",
                                 .name * l@[0] | "%Di" / trim,
                                 .posts.u * l@[0] | "%(title)v",
-                                .topics.u * l@[0] | "%(title)v" line [2:] " "
+                                .topics.u * l@[0] | "%(title)v" line [1:] " "
                             },
                             .description p l@[1] | "%i"
                         },
@@ -316,7 +316,7 @@ class smf1(ForumExtractor):
                             .link * l@[0] | "%(href)v",
                             .name * l@[0] | "%Di" / trim,
                             .replies.u * l@[0] | "%(title)v",
-                            .views.u * l@[0] | "%(title)v" line [2:] " "
+                            .views.u * l@[0] | "%(title)v" line [1:] " "
                         },
                         [-] a l@[1]; {
                             .user_link * l@[0] | "%(href)v",
