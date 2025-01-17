@@ -180,6 +180,12 @@ def argparser():
         default=Outputs.write_by_id,
     )
     files.add_argument(
+        "-L",
+        "--location",
+        action="store_true",
+        help="Allow for redirections, can be dangerous if credentials are passed in headers",
+    )
+    files.add_argument(
         "--compression",
         metavar="ALGO",
         type=valid_compression_type,

@@ -94,6 +94,7 @@ def main():
         "retries": args.retries,
         "retry_wait": args.retry_wait,
         "timeout": args.timeout,
+        "allow_redirects": args.location,
         "user-agent": args.user_agent,
         "verify": args.insecure,
         "proxies": args.proxies,

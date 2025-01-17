@@ -89,6 +89,8 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
     forumscraper --insecure --timeout 60 --user-agent 'why are we still here?'
 
+`--location` Allow for redirections.
+
 `--proxies DICT` (where `DICT` is python stringified dictionary) are directly passed to requests library, e.g. `--proxies '{"http":"127.0.0.1:8080","ftp":"0.0.0.0"}'`.
 
 `--header "Key: Value"` very similar to `curl` `--header` option, can be specified multiple times e.g. `--header 'User: Admin' --header 'Pass: 12345'`. Similar to `curl` `Cookie` header will be parsed like `Cookie: key1=value1; key2=value2` and will be changed to cookies.
@@ -406,6 +408,8 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 `verify=True` if set to `False` ignore ssl errors.
 
 `timeout=120` request timeout.
+
+`allow_redirects=False` allow for redirections.
 
 `proxies={}` requests library proxies dictionary.
 

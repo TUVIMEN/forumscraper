@@ -121,7 +121,7 @@ useragents = {
 
 def to_requests_settings(settings):
     ret = {}
-    args = ["timeout", "verify", "proxies", "headers", "cookies"]
+    args = ["timeout", "verify", "proxies", "headers", "cookies", "allow_redirects"]
     for i in args:
         ret[i] = settings[i]
 

@@ -217,6 +217,7 @@ class ForumExtractor:
             # requests settings
             "force": False,
             "verify": True,
+            "allow_redirects": False,
             "timeout": 120,
             "proxies": {},
             "headers": {},
