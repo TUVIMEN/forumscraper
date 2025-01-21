@@ -551,7 +551,7 @@ class vbulletin(ForumExtractor):
                             [0] span ( .date )( .time ) | "%Di" trim ||
                             span style=b>cursor:; [0] * ssub@; span self@; [0] * c@[0] m@>[1:] | "%Di" trim ||
                             div .author; [0] span c@[0] child@ m@E>" [0-9]{4}" | "%Di" trim ||
-                            [0] a; * parent@ | "%Dt" / sed "s/.*,//; s/ //g" trim
+                            [0] a; * parent@ | "%Dt" / sed "s/.*,//; s/^ *//; s/ *$//" trim
                         } / sed "s/^on //"
                     },
                     .detailicons.a {
