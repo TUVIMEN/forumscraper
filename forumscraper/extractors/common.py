@@ -154,9 +154,11 @@ class ItemExtractor:
         i_id = self.url_get_id(url)
 
         if i_id is None:
-            rq, i_id = self.get_improper_url(url, rq, settings, state)
-            if not rq:
-                return
+            i_id = 0
+            if Outputs.write_by_id in outtype:
+                rq, i_id = self.get_improper_url(url, rq, settings, state)
+                if not rq:
+                    return
 
         path = item_file_check(url, self.path_format, i_id, settings)
 
