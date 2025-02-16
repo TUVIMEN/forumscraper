@@ -193,7 +193,7 @@ class xmb(ForumExtractor):
         t = json.loads(
             rq.search(
                 r"""
-            .categories table C@"td .tablerow l@[2]"; tr -.header l@[1]; {
+            .categories table; td [0] .tablerow l@[2]; * rparent@; tr -.header l@[1]; {
                 .category td .category; * c@[0] | "%Di" trim,
                 .category_link [0] a href | "%(href)v",
 
@@ -209,7 +209,7 @@ class xmb(ForumExtractor):
                 .posts.u [3] td l@[1]; font | "%i",
                 .lastpost [4] td l@[1]; tr; {
                     [0] td; {
-                        .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
+                        .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
                         a href; {
                             .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim,
                             .user_link * l@[0] | "%(href)v"
@@ -277,7 +277,7 @@ class xmb(ForumExtractor):
         t = json.loads(
             rq.search(
                 r"""
-                .threads table C@"font .mediumtxt; a href=b>\"viewthread.php?\" l@[1]"; tr -class l@[1]; {
+                .threads table; font [0] .mediumtxt; a [0] href=b>"viewthread.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
                     .state [0] td l@[1]; img src | "%(src)v",
                     .icon [1] td l@[1]; img src | "%(src)v",
                     [2] td l@[1]; {
@@ -295,7 +295,7 @@ class xmb(ForumExtractor):
                     .replies.u [4] td l@[1]; font | "%i",
                     .views.u [5] td l@[1]; font | "%i",
                     .lastpost [-] td l@[1]; [0] td l@[1:]; {
-                        .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
+                        .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
                         a href; {
                             .user_link * l@[0] | "%(href)v",
                             .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
@@ -331,7 +331,7 @@ class xmb(ForumExtractor):
         f = json.loads(
             rq.search(
                 r"""
-            .forums table C@"td .ctrtablerow l@[2]" C@"font .mediumtxt; a href=b>\"forumdisplay.php?\" l@[1]"; tr -class l@[1]; {
+            .forums table; td [0] .ctrtablerow l@[2]; * rparent@; font [0] .mediumtxt; a [0] href=b>"forumdisplay.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
                 .state [0] td l@[1]; img src | "%(src)v",
                 [1] td l@[1]; {
                     [0] a href; {
@@ -343,7 +343,7 @@ class xmb(ForumExtractor):
                 .threads.u [2] td l@[1]; font | "%i",
                 .posts.u [3] td l@[1]; font | "%i",
                 .lastpost [4] td l@[1]; [0] td l@[1:]; {
-                    .date [0] * C@"a" | "%i" / sed "s#<br />.*##; s/.*>//",
+                    .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
                     a href; {
                         .user_link * l@[0] | "%(href)v",
                         .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim

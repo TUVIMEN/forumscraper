@@ -445,8 +445,8 @@ class invision(ForumExtractor):
             rq.search(
                 r"""
                 .categories [0] * .cForumList; {
-                    li child@,
-                    * -C@"[0] li l@[1]" self@
+                    li child@ ||
+                    * self@
                 }; {
                     h2 child@; {
                         .name * -title c@[0] m@>[1:] | "%Di" / trim,

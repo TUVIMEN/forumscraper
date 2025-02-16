@@ -158,7 +158,7 @@ class smf1(ForumExtractor):
                 div #toolbar; div .tabs; * role=menuitem; a l@[1],
                 div #headerarea; a l@[1],
                 div #E>(myNavbar|toolbar[0-9]|topmenu|menu|nav); li,
-                body; [0] * l@[1]; table l@[0]; tr .B>windowbg[123]; td; a l@[1] C@"img" c@[1],
+                body; [0] * l@[1]; table l@[0]; tr .B>windowbg[123]; td; a l@[1] c@[1]; img; * rparent@,
             }; a href | "%(href)v\n" / sed "
                 \#(/((board|forum|foro)s?|community)(/(index\.(html|php))?|\.(html|php))?(\?[^/]*)?|[;&?]action=forum)$#{p;q}
                 1!G; h
@@ -189,7 +189,7 @@ class smf1(ForumExtractor):
                 .categories {
                     div #bodyarea; div .tborder style l@[1],
                     div #mainarea; div -class l@[1],
-                    [0] table .bordercolor C@"tr .titlebg"
+                    [0] table .bordercolor; tr [0] .titlebg; * rparent@
                 }; {
                     .name * .E>catbgf?; [0] * c@[0] m@>[1:] | "%Di" trim,
                     .forums [0] table l@[:2]; tr l@[:2]; {
@@ -639,7 +639,7 @@ class smf2(ForumExtractor):
                                     },
                                     .date * self@ | "%t" tr "\n\t\r" trim sed "s/.*>//; s/([^ ]* ){3}//; s/^ *at //" "E"
                                 },
-                                .lastpost2 * self@ C@"[0] span .postby"; {
+                                .lastpost2 span [0] .postby; * rparent@; {
                                     [0] a href; {
                                         .title * self@ | "%(title)Dv" / trim,
                                         .link * self@ | "%(href)v"

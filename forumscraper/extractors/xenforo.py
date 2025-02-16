@@ -699,7 +699,7 @@ class xenforo1(ForumExtractor):
                     * .navTab .home
                 }; [0] a href | "%(href)v\n",
                 fieldset .breadcrumb; a .crumb href; {
-                    [0] a C@'span itemprop="title" m@i>"forums"' | '%(href)v\n',
+                    span itemprop="title" m@i>"forums"; [0] a ancestor@ | '%(href)v\n',
                     [0] a | "%(href)v\n"
                 }
             } / line [0] tr "\n"
@@ -735,8 +735,8 @@ class xenforo1(ForumExtractor):
                         .description * .nodeDescription | "%i",
                     },
                     .forums {
-                        ol .nodeList l@[:2]; li child@,
-                        * self@ -C@"[0] ol .nodeList l@[1:2]"
+                        ol .nodeList l@[:2]; li child@ ||
+                        * self@
                     }; div .nodeInfo [0] child@; {
                         .state span .nodeIcon title child@ | "%(title)v",
                         .icon span .nodeIcons; [0] img | "%(src)v",
