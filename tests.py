@@ -72,7 +72,7 @@ tested_urls = {
             "https://www.wranglerforum.com/forums/general-jeep-discussion.19/",
             "https://www.diychatroom.com/forums/cook-it-yourself.195/",
             "https://www.dogforums.com/forums/general-dog-forum.2/",
-            "https://longhaircareforums.com/forums/hair-care-tips-product-review-discussion.6/",
+            "https://longhaircareforums.com/forums/hair-care-tips-product-reviews.6/",
             "https://kenhsinhvien.vn/f/phong-truyen.213/",
             "https://forums.mangadex.org/forums/scanlator-discussions.63/",
             "https://rune-server.org/forums/defects.751/",
@@ -198,7 +198,7 @@ tested_urls = {
     "get_board": {
         "xmb": [
             "https://locostbuilders.co.uk/forum/",
-            "https://div-arena.co.uk/forum2/",
+            "https://div-arena.co.uk/forum2/index.php",
             "https://forum.postcrossing.com/",
             # "https://forum.solbu.net/",
             "https://forums.bajanomad.com/",
@@ -252,7 +252,7 @@ tested_urls = {
             "https://www.wranglerforum.com/forums/",
             "https://www.diychatroom.com/forums/",
             "https://www.dogforums.com/forums/",
-            "https://longhaircareforums.com/forums/",
+            "https://longhaircareforums.com/",
             "https://kenhsinhvien.vn",
             "https://forums.mangadex.org/",
         ],
@@ -295,7 +295,7 @@ tested_urls = {
         ],
         "phpbb": [
             "http://askcodeman.com/index.php",
-            "http://forum.anime-ultime.net/phpBB3/index.php",
+            "https://forum.anime-ultime.net/phpBB3/index.php",
             "https://forum.asustor.com/index.php",
             "https://forum.avmania.zive.cz/index.php",
             "https://forum.mobilmania.zive.cz/index.php",
@@ -447,7 +447,7 @@ tested_urls = {
             "https://aleforum.pl/index.php?topic=65.0",
         ],
         "phpbb": [
-            "http://forum.anime-ultime.net/phpBB3/viewtopic.php?f=28&t=18253",
+            "https://forum.anime-ultime.net/phpBB3/viewtopic.php?f=28&t=18253",
             "https://garaz.autorevue.cz/viewtopic.php?f=810&t=810442",
             "https://forum.mobilmania.zive.cz/viewtopic.php?f=1&t=1308785",
             "https://forum.avmania.zive.cz/viewtopic.php?f=1703&t=1330095",
@@ -644,7 +644,6 @@ class tester:
         try:
             os.mkdir(dirname2)
             os.chdir(dirname2)
-
             with open("!stdout", "w") as out:
                 with open("!stderr", "w") as err:
                     with vcr.use_cassette(
@@ -755,6 +754,7 @@ def testurl(create_ex, attr, print_func=None):
             # timeout=60,
             retries=0,
             # wait=1.2,
+            allow_redirects=True,
             # wait_random=1000,
             # retries=2,
             verify=False,
