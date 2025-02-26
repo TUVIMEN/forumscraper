@@ -57,7 +57,7 @@ class phpbb(ForumExtractor):
                             .user a c@[0] | "%Di" trim,
                             .userid.u a href c@[0] | "%(href)v" / sed "s/.*[&;]u=([0-9]+).*/\1/" "E",
                         },
-                        .userinfo_temp.a("\a") dd l@[1] m@vf>"&nbsp;" | "%i\a" / tr '\n\t' sed "s/<strong>([^<]*)<\/strong>/\1/g; s/ +:/:/; /<ul [^>]*class=\"profile-icons\">/{s/.*<a href=\"([^\"]*)\" title=\"Site [^\"]*\".*/Site\t\1/;t;d}; /^[^<>]+:/!{s/^/Rank:/};s/: */\t/" "E" "\a"
+                        .userinfo_temp.a("\a") dd l@[1] i@vf>"&nbsp;" | "%i\a" / tr '\n\t' sed "s/<strong>([^<]*)<\/strong>/\1/g; s/ +:/:/; /<ul [^>]*class=\"profile-icons\">/{s/.*<a href=\"([^\"]*)\" title=\"Site [^\"]*\".*/Site\t\1/;t;d}; /^[^<>]+:/!{s/^/Rank:/};s/: */\t/" "E" "\a"
                     }
                 } |
             """
@@ -181,7 +181,7 @@ class phpbb(ForumExtractor):
                                     .name * self@ | "%Dt" / trim,
                                     .link * self@ | "%(href)v"
                                 } | ,
-                                .moderators strong c@[0] m@b>Mod m@e>: l@[1:2]; a -.subforum ssub@; {
+                                .moderators strong c@[0] i@b>Mod i@e>: l@[1:2]; a -.subforum ssub@; {
                                     .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"
                                 } | ,
@@ -222,7 +222,7 @@ class phpbb(ForumExtractor):
                                     .title * self@ | "%Di" / trim,
                                     .link * self@ | "%(href)v"
                                 },
-                                .lastpage.u * .pagination; [-] a c@[0] m@B>"[0-9]" | "%i",
+                                .lastpage.u * .pagination; [-] a c@[0] i@B>"[0-9]" | "%i",
                                 [-] a href c@[0]; {
                                     .user * self@ | "%Di" trim,
                                     .user_link * self@ | "%(href)v"

@@ -329,7 +329,7 @@ class xenforo2(ForumExtractor):
                     .key dt | "%i",
                     .value dd; {
                         time datetime | "%(datetime)v\a",
-                        a m@v>"<" | "%i\a",
+                        a i@v>"<" | "%i\a",
                         * l@[0] | "%i"
                     } / tr '\n' sed "s/^\a*//;s/\a.*//"
                 } |
@@ -471,7 +471,7 @@ class xenforo2(ForumExtractor):
                         .lastpage.u * .structItem-pageJump; [-] a | "%i"
                     },
                     div .structItem-cell--meta; {
-                        dt m@B>"^[0-9]",
+                        dt i@B>"^[0-9]",
                         dd
                     }; {
                         .replies [0] * c@[0] | "%i",
@@ -699,7 +699,7 @@ class xenforo1(ForumExtractor):
                     * .navTab .home
                 }; [0] a href | "%(href)v\n",
                 fieldset .breadcrumb; a .crumb href; {
-                    span itemprop="title" m@i>"forums"; [0] a ancestor@ | '%(href)v\n',
+                    span itemprop="title" i@i>"forums"; [0] a ancestor@ | '%(href)v\n',
                     [0] a | "%(href)v\n"
                 }
             } / line [0] tr "\n"
@@ -710,7 +710,7 @@ class xenforo1(ForumExtractor):
 
     def get_next_page(self, rq):
         url = rq.search(
-            r'nav; [0] a class href=Be>"/page-[0-9]*" m@B>"^[^0-9]*&gt;" | "%(href)v"'
+            r'nav; [0] a class href=Be>"/page-[0-9]*" i@B>"^[^0-9]*&gt;" | "%(href)v"'
         )
         if not re.search(r"/page-[0-9]+$", url):
             return ""

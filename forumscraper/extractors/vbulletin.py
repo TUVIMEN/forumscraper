@@ -36,19 +36,19 @@ class vbulletin(ForumExtractor):
                 rq.search(
                     r"""
                     .title {
-                        [0] * .threadtitle; * c@[0] m@>[!0] | "%Di" ||
+                        [0] * .threadtitle; * c@[0] i@>[!0] | "%Di" ||
                         [0] * .main-title c@[0] | "%Di" ||
-                        td .navbar; strong child@; * [0] c@[0] m@>[!0] | "%Di" / sed "s/<[^>]+>//g" "E" ||
-                        * .thread-breadcrumb; * [0] c@[0] m@>[!0] | "%Di" ||
+                        td .navbar; strong child@; * [0] c@[0] i@>[!0] | "%Di" / sed "s/<[^>]+>//g" "E" ||
+                        * .thread-breadcrumb; * [0] c@[0] i@>[!0] | "%Di" ||
                         * #toolbar; [0] h1 c@[0] | "%Di"
                     } / trim,
                     .path.a {
-                        span c@[1:5] .navbar; a [0] m@>[!0] child@ | "%Di\n" ||
+                        span c@[1:5] .navbar; a [0] i@>[!0] child@ | "%Di\n" ||
                         {
                             div itemtype="http://schema.org/BreadcrumbList" ||
                             [0] * ( #breadcrumbs )( .breadcrumbs ) ||
                             * .navbit
-                        }; a c@[:5]; * [0] c@[0] m@>[!0] | "%Di\n"
+                        }; a c@[:5]; * [0] c@[0] i@>[!0] | "%Di\n"
                     } / trim "\n"
             """
                 )
@@ -88,7 +88,7 @@ class vbulletin(ForumExtractor):
                     .signature {
                         div .post-signature | "%i" ||
                         div .signaturecontainer | "%i" ||
-                        [0] div m@bB>"[^<]*________" | "%Di"
+                        [0] div i@bB>"[^<]*________" | "%Di"
                     },
 
                     .edited {
@@ -113,7 +113,7 @@ class vbulletin(ForumExtractor):
                     .attachments li .b-post-attachments__item; a [0]; {
                         .link * self@ | "%(href)v",
                         .name span .h-wordwrap | "%i" / sed "s/&lrm;$//" decode trim,
-                        span c@[0] m@e>")"; {
+                        span c@[0] i@e>")"; {
                             .size * self@ | "%i" / sed "s/^(//;s/,.*//",
                             .views.u * self@ | "%i" / sed "s/.*,//"
                         }
@@ -143,7 +143,7 @@ class vbulletin(ForumExtractor):
                     .thankedby_dates.a(",") * #b>post_thanks_box_; [-] a; * parent@ | "%Dt" / tr "\n\t\r() " tr "[[:print:]]" "" "c" sed "s/<!--[^>]*>//g; s#<[^>]*>##g",
 
                     .user {
-                        [0] * #b>postmenu_; [-] * -C@"[0] * #b>td_post_" ancestor@ ||
+                        [0] * #b>postmenu_; [-] * -has@"[0] * #b>td_post_" ancestor@ ||
                         [0] div ( .userinfo )( .userinfo_noavatar )( .postauthor )
                     }; {
                         {
@@ -163,32 +163,32 @@ class vbulletin(ForumExtractor):
 
                         .title {
                             * ( .usertitle )( .usertittle ) ||
-                            * c@[0] m@>[1:]; [0] * c@[:5] .smallfont ancestor@ ||
+                            * c@[0] i@>[1:]; [0] * c@[:5] .smallfont ancestor@ ||
                             [0] * c@[0] .smallfont
-                        }; [0] * c@[0] m@>[1:] | "%Di" / trim,
+                        }; [0] * c@[0] i@>[1:] | "%Di" / trim,
 
                         .rank.u {
                             [0] * ( .rank )( .b-userinfo__rank ) | "%c" ||
                             [-] * #b>repdisplay_ | "%c" ||
-                            * b-meter__bar m@>[1:] | "l" / wc "c"
+                            * b-meter__bar i@>[1:] | "l" / wc "c"
                         },
                         .rank-name [0] a .rank-link | "%Di",
 
                         .custom1 * ( .userinfo_extra )( .userfield ); dl; dt; {
                             .key * self@ | "%Di" trim,
-                            .value [0] dd ssub@; [0] * c@[0] m@>[1:] | "%Di" trim
+                            .value [0] dd ssub@; [0] * c@[0] i@>[1:] | "%Di" trim
                         } | ,
                         .custom2 li .b-userinfo__additional-info; {
                             .key label child@ | "%Di" trim,
-                            .value span child@; [0] * c@[0] m@>[1:]  | "%Di" trim
+                            .value span child@; [0] * c@[0] i@>[1:]  | "%Di" trim
                         } | ,
                         .custom3 div .fields-list; div .line; {
                             .key span child@ | "%Di" trim,
                             .value strong child@ | "%Di" trim
                         } | ,
                         .custom4.a {
-                            div c@[0] m@Bf>" *"; [0] div ( .smallfont )( .userinfo ) parent@ | "%Di" trim ||
-                            div a@[0] c@[:2] m@":"; [0] div c@[:14] parent@ | "%Di" trim
+                            div c@[0] i@Bf>" *"; [0] div ( .smallfont )( .userinfo ) parent@ | "%Di" trim ||
+                            div a@[0] c@[:2] i@":"; [0] div c@[:14] parent@ | "%Di" trim
                         } / tr "\r\t" sed "
                             :r
                             s/ //g
@@ -392,11 +392,11 @@ class vbulletin(ForumExtractor):
                         * parent@; [0] * spre@; * -#b>collapseobj_forumbit_ self@
                     }; {
                         .name {
-                            [0] a -C@"[0] img"; [0] * c@[0] m@>[1:] | "%Di" ||
+                            [0] a -has@"[0] img"; [0] * c@[0] i@>[1:] | "%Di" ||
                             [0] a; * parent@ | "%Dt"
                         } / trim,
-                        .link [0] a -C@"[0] img" | "%(href)v",
-                        .description [0] * .smallfont c@[0] m@>[1:] | "%Di",
+                        .link [0] a -has@"[0] img" | "%(href)v",
+                        .description [0] * .smallfont c@[0] i@>[1:] | "%Di",
                     },
                     .header2 * self@ #E>forum[0-9]+; {
                         * .category-header self@ ||
@@ -404,15 +404,15 @@ class vbulletin(ForumExtractor):
                     }; {
                         .name {
                             a .category c@[0] | "%Di" ||
-                            * .catTitle; [0] a; * c@[0] m@>[1:] | "%Di" ||
-                            [0] * .forumhead; span .forumtitle; [0] a; * c@[0] m@>[1:] | "%Di"
+                            * .catTitle; [0] a; * c@[0] i@>[1:] | "%Di" ||
+                            [0] * .forumhead; span .forumtitle; [0] a; * c@[0] i@>[1:] | "%Di"
                         } / trim,
                         .link {
                             a .category c@[0] | "%(href)v" ||
                             * .catTitle; [0] a | "%(href)v" ||
                             [0] * .forumhead; * .forumtitle; [0] a | "%(href)v"
                         },
-                        .description [0] * .forumhead; * .subforumdescription; [0] * c@[0] m@>[1:] | "%Di"
+                        .description [0] * .forumhead; * .subforumdescription; [0] * c@[0] i@>[1:] | "%Di"
                     },
 
                     .forums {
@@ -428,19 +428,19 @@ class vbulletin(ForumExtractor):
                             [0] v>span .forumtitle ||
                             [0] a c@[:1]
                         }; {
-                            .title [0] * c@[0] m@>[1:] | "%Di" trim,
+                            .title [0] * c@[0] i@>[1:] | "%Di" trim,
                             .link [0] a | "%(href)v"
                         },
                         .description {
                             [0] * ( .forum-desc )( .forumdescription )( .description ) | "%i" ||
                             div .smallfont; {
-                                [0] * c@[0] m@b>[1:] self@ | "%i" ||
+                                [0] * c@[0] i@b>[1:] self@ | "%i" ||
                                 [0] * child@; v>strong * self@; * parent@ | "%i"
                             }
                         },
                         .viewing.u {
                             span .viewing | "%i" ||
-                            [0] span c@[0] m@tb>"(" m@te>")" | "%i"
+                            [0] span c@[0] i@tb>"(" i@te>")" | "%i"
                         },
 
                         .childboards {
@@ -449,12 +449,12 @@ class vbulletin(ForumExtractor):
                             strong c@[0]; div .smallfont parent@
                         }; a; {
                             .link * self@ | "%(href)v",
-                            .name [0] * c@[0] m@>[1:] | "%Di" / trim,
+                            .name [0] * c@[0] i@>[1:] | "%Di" / trim,
                             .icon [0] * spre@; {
                                 img self@ | "%(src)v" ||
                                 span self@ | "%(title)v"
                             },
-                            [0] * ssub@; span c@[0] m@tb>"(" m@te>")"; {
+                            [0] * ssub@; span c@[0] i@tb>"(" i@te>")"; {
                                 .topics.u * self@ | "%i",
                                 .posts.u * self@ | "%i" / sed "/\//!d; s#.*/##"
                             }
@@ -463,25 +463,25 @@ class vbulletin(ForumExtractor):
                         .topics.u {
                             [0] * ( .topics-count )( .threadcount ) c@[0] | "%i" ||
                             * ( .forumstats )( .forumstats_2 ); [0] * c@[0] child@ | "%i" ||
-                            [0] * c@[0] m@tEf>"(([0-9]+,)+)?[0-9]+" | "%i" ||
-                            [0] * c@[0] m@tEf>"(([0-9]+,)+)?[0-9]+ */ *(([0-9]+,)+)?[0-9]+" | "%i"
+                            [0] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+" | "%i" ||
+                            [0] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+ */ *(([0-9]+,)+)?[0-9]+" | "%i"
                         } / tr ",.",
                         .posts.u {
                             [0] * ( .posts-count )( .postcount ) c@[0] | "%i" ||
                             * ( .forumstats )( .forumstats_2 ); [1] * c@[0] child@ | "%i" ||
-                            [1] * c@[0] m@tEf>"(([0-9]+,)+)?[0-9]+" | "%i" ||
-                            [0] * c@[0] m@tEf>"(([0-9]+,)+)?[0-9]+ */ *(([0-9]+,)+)?[0-9]+" | "%i" / sed "s/.*\///"
+                            [1] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+" | "%i" ||
+                            [0] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+ */ *(([0-9]+,)+)?[0-9]+" | "%i" / sed "s/.*\///"
                         } / tr ",.",
 
                         .lastpost {
                             [0] * ( .i>lastpost )( .i>forumlastpost ) ||
-                            strong c@[0] m@>[1:]; a parent@; div [0] l@[-5:0] .smallfont ancestor@; [-] * self@
+                            strong c@[0] i@>[1:]; a parent@; div [0] l@[-5:0] .smallfont ancestor@; [-] * self@
                         }; {
                             {
                                 [0] * ( .lastpost-title )( .lastposttitle )( .title ) ||
                                 [0] strong c@[0]; * parent@
                             }; {
-                                .title [0] * c@[0] m@>[1:] | "%Di" / trim,
+                                .title [0] * c@[0] i@>[1:] | "%Di" / trim,
                                 .link [0] a | "%(href)v",
                             },
                             .icon {
@@ -496,7 +496,7 @@ class vbulletin(ForumExtractor):
                                 * ( .lastpost-by )( .lastpostby ); [0] a ||
                                 * .title ||
                                 [-1] div; * c@[:1] self@
-                            }; [0] * c@[0] m@>[1:] | "%Di" trim,
+                            }; [0] * c@[0] i@>[1:] | "%Di" trim,
                             .user_link {
                                 * ( .lastpost-by )( .lastpostby ) ||
                                 [-1] div; * c@[1] self@
@@ -524,14 +524,14 @@ class vbulletin(ForumExtractor):
                     },
                     .prefix {
                         [0] * ( .topic-prefix )( .js-topic-prefix )( .prefix )( #b>thread_prefix_ ) | "%DT" trim ||
-                        span c@[0] m@et>":" | "%Di"
+                        span c@[0] i@et>":" | "%Di"
                     },
                     {
                         [0] * ( .topic-title )( #b>thread_title_ ) ||
                         [0] * #b>thread_title_
                     }; [0] a; {
                         .link * self@ | "%(href)v",
-                        .title * c@[0] m@>[1:] | "%Di" / trim
+                        .title * c@[0] i@>[1:] | "%Di" / trim
                     },
                     {
                         div .topic-info ||
@@ -540,8 +540,8 @@ class vbulletin(ForumExtractor):
                     }; {
                         .user {
                             div .smallfont c@[:4] self@ | "%DT" trim ||
-                            span style=b>cursor:; [0] * c@[0] m@>[1:] | "%Di" trim ||
-                            [0] a; [0] * c@[0] m@>[1:] | "%Di" trim ||
+                            span style=b>cursor:; [0] * c@[0] i@>[1:] | "%Di" trim ||
+                            [0] a; [0] * c@[0] i@>[1:] | "%Di" trim ||
                         },
                         .user_link {
                             [0] span onclick | "%(onclick)v" / sed "s/,.*//;s/.*'([^']+)'/\1/" "E" ||
@@ -549,8 +549,8 @@ class vbulletin(ForumExtractor):
                         },
                         .date {
                             [0] span ( .date )( .time ) | "%Di" trim ||
-                            span style=b>cursor:; [0] * ssub@; span self@; [0] * c@[0] m@>[1:] | "%Di" trim ||
-                            div .author; [0] span c@[0] child@ m@E>" [0-9]{4}" | "%Di" trim ||
+                            span style=b>cursor:; [0] * ssub@; span self@; [0] * c@[0] i@>[1:] | "%Di" trim ||
+                            div .author; [0] span c@[0] child@ i@E>" [0-9]{4}" | "%Di" trim ||
                             [0] a; * parent@ | "%Dt" / sed "s/.*,//; s/^ *//; s/ *$//" trim
                         } / sed "s/^on //"
                     },
@@ -562,7 +562,7 @@ class vbulletin(ForumExtractor):
                         {
                             div .posts-count ||
                             * .threadstats; {
-                                [0] li -.hidden; [0] * c@[0] m@>[1:] ||
+                                [0] li -.hidden; [0] * c@[0] i@>[1:] ||
                                 * self@
                             }
                         }; * self@ | "%i" ||
@@ -571,7 +571,7 @@ class vbulletin(ForumExtractor):
                     .views.u {
                         div .views-count | "%i" ||
                         * .threadstats; {
-                            [1] li -.hidden; [0] * c@[0] m@>[1:] | "%i" ||
+                            [1] li -.hidden; [0] * c@[0] i@>[1:] | "%i" ||
                             * self@ | "%i" / sed "s/.*>//"
                         }  ||
                         * c@[4:] title=aE>"[0-9]+.*,.*[0-9]+" | "%(title)v" / sed "s/.*, //"
@@ -583,8 +583,8 @@ class vbulletin(ForumExtractor):
                     },
                     .lastpage.u {
                         * #b>pagination_threadbit_; [-] a | "%i" ||
-                        [0] * m@tb>"(" m@te>")" c@[1:]; [-] a; * self@ | "%(href)v" / sed "s#/$##; s#.*/##; s/.*;page=//" ||
-                        * #b>td_threadtitle_; [-] a m@Eft>"[0-9]+" | "%i"
+                        [0] * i@tb>"(" i@te>")" c@[1:]; [-] a; * self@ | "%(href)v" / sed "s#/$##; s#.*/##; s/.*;page=//" ||
+                        * #b>td_threadtitle_; [-] a i@Eft>"[0-9]+" | "%i"
                     },
 
                     .lastpost [0] * ( .cell-lastpost )( .threadlastpost ); {
@@ -594,12 +594,12 @@ class vbulletin(ForumExtractor):
                             [0] a .username
                         }; {
                             .user_link * self@ | "%(href)v",
-                            .user * c@[0] m@>[1:] | "%Di"
+                            .user * c@[0] i@>[1:] | "%Di"
                         },
                         .date {
                             span .post-date | "%Di" ||
                             * .time; * parent@ | "%Dt" trim ||
-                            [0] * c@[0] m@E>"[0-9]{4}" | "%Di" / sed "s/ //g" trim
+                            [0] * c@[0] i@E>"[0-9]{4}" | "%Di" / sed "s/ //g" trim
                         },
                         .link [0] a ( .go-to-last-post )( .lastpostdate ) | "%(href)v"
                     },

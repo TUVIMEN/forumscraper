@@ -28,7 +28,7 @@ def identify_phpbb(url, rq, cookies):
         r"""
         i>body #i>phpbb | "t",
         i>meta i>name=i>copyright i>content=ia>phpbb | "t",
-        * Ei>(class|id)=i>copyright m@i>"phpbb" | "t"
+        * Ei>(class|id)=i>copyright i@i>"phpbb" | "t"
     """,
         str.startswith,
         "phpbb_",
@@ -47,7 +47,7 @@ def identify_xenforo2(url, rq, cookies):
 
 def identify_smf1(url, rq, cookies):
     return identify_forum(
-        r'* title="Simple Machines Forum" m@>"Powered by SMF 1." | "t"',
+        r'* title="Simple Machines Forum" i@>"Powered by SMF 1." | "t"',
         None,
         None,
         rq,
@@ -59,7 +59,7 @@ def identify_smf2(url, rq, cookies):
     return identify_forum(
         r"""
         * title=E>"Simple Machines( Forum)?" | "t",
-        script m@B>"[^a-zA-Z0-9]smf_" | "t"
+        script i@B>"[^a-zA-Z0-9]smf_" | "t"
     """,
         None,
         None,
@@ -75,7 +75,7 @@ def identify_xmb(url, rq, cookies):
 def identify_invision(url, rq, cookies):
     return identify_forum(
         r"""
-        * Ei>(class|id)=iE>(el)?copyright m@iE>"(invision|IP\.Board)" | "t"
+        * Ei>(class|id)=iE>(el)?copyright i@iE>"(invision|IP\.Board)" | "t"
     """,
         str.startswith,
         "ips4_",
@@ -86,7 +86,7 @@ def identify_invision(url, rq, cookies):
 
 def identify_stackexchange(url, rq, cookies):
     return identify_forum(
-        r'div .header; h3; [0] a href="https://stackexchange.com/sites" m@f>"more stack exchange communities" | "t"',
+        r'div .header; h3; [0] a href="https://stackexchange.com/sites" i@f>"more stack exchange communities" | "t"',
         None,
         None,
         rq,

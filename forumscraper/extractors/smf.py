@@ -64,7 +64,7 @@ class smf1(ForumExtractor):
             expr = reliq.expr(
                 r"""
                 .posts form #quickModForm; {
-                    table l@[1]; tr l@[:2] m@B>"id=\"subject_[0-9]*\""; tr l@[0] m@v>".googlesyndication.com/" ||
+                    table l@[1]; tr l@[:2] i@B>"id=\"subject_[0-9]*\""; tr l@[0] i@v>".googlesyndication.com/" ||
                     ul child@; li -.pageindex_li child@
                 }; {
                     .postid.u [0] * #B>subject_[0-9]* | "%(id)v" / sed "s/.*_//",
@@ -122,7 +122,7 @@ class smf1(ForumExtractor):
                             continue
                         elif key == "dropmenu" and len(i["user"]) == 0:
                             i["user"] = reliq(value).search(
-                                '[0] * c@[0] m@>[1:] | "%Di" trim'
+                                '[0] * c@[0] i@>[1:] | "%Di" trim'
                             )
                             continue
 
@@ -143,10 +143,10 @@ class smf1(ForumExtractor):
         self.thread.get_next = self.get_next
 
         self.forum_forums_expr = reliq.expr(
-            r'td .windowbg2 m@B>"name=\"b[0-9]*\""; b l@[1]; a href l@[1] | "%(href)v\n"'
+            r'td .windowbg2 i@B>"name=\"b[0-9]*\""; b l@[1]; a href l@[1] | "%(href)v\n"'
         )
         self.forum_threads_expr = reliq.expr(
-            r'td .B>"windowbg[0-9]*" m@"<span class=\"smalltext\""; a href l@[1] | "%(href)v\n" / sed "s/[.;]msg[^\/]*#new$//;s/#new$//"'
+            r'td .B>"windowbg[0-9]*" i@"<span class=\"smalltext\""; a href l@[1] | "%(href)v\n" / sed "s/[.;]msg[^\/]*#new$//;s/#new$//"'
         )
         self.board_forums_expr = self.forum_forums_expr
         self.guesslist = guesslist
@@ -174,7 +174,7 @@ class smf1(ForumExtractor):
     def get_next_page(self, rq):
         return rq.search(
             r"""
-            b m@B>"[0-9]"; [0] a .navPages href ssub@ | "%(href)v" ||
+            b i@B>"[0-9]"; [0] a .navPages href ssub@ | "%(href)v" ||
             [0] * .current_page; [0] a ssub@; * c@[0] self@ | "%(href)v" / sed "s/?PHPSESSID=[^\/&]*&amp;/?/"
         """
         )
@@ -191,9 +191,9 @@ class smf1(ForumExtractor):
                     div #mainarea; div -class l@[1],
                     [0] table .bordercolor; tr [0] .titlebg; * rparent@
                 }; {
-                    .name * .E>catbgf?; [0] * c@[0] m@>[1:] | "%Di" trim,
+                    .name * .E>catbgf?; [0] * c@[0] i@>[1:] | "%Di" trim,
                     .forums [0] table l@[:2]; tr l@[:2]; {
-                        .childboards [0] td l@[1]; * l@[0] -C@"img"; a href; {
+                        .childboards [0] td l@[1]; * l@[0] -has@"img"; a href; {
                             .link * l@[0] | "%(href)v",
                             .name * l@[0] | "%Di" / trim,
                             .state * l@[0] | "%(title)v" sed "s/ (.*//",
@@ -282,7 +282,7 @@ class smf1(ForumExtractor):
                         }
                     } |
                 } | ,
-                .threads [0] table .bordercolor C@"tr l@[1:2]; td [2] l@[1]; a href=aE>\"([&?;/]topic[=,]|-t)[0-9]+\.0\""; [1:] tr l@[1:2]; {
+                .threads [0] table .bordercolor has@"tr l@[1:2]; td [2] l@[1]; a href=aE>\"([&?;/]topic[=,]|-t)[0-9]+\.0\""; [1:] tr l@[1:2]; {
                     .type1 [0] td l@[1]; img src | "%(src)v",
                     .type2 [1] td l@[1]; img src | "%(src)v",
                     [2] td l@[1]; {
@@ -294,7 +294,7 @@ class smf1(ForumExtractor):
                         .lastpage.u {
                             span l@[1],
                             small l@[1]
-                        }; [1:] a; [-] a -m@f>"All" | "%i"
+                        }; [1:] a; [-] a -i@f>"All" | "%i"
                     },
                     [3] td l@[1]; a href; {
                         .user_link * l@[0] | "%(href)v",
@@ -449,7 +449,7 @@ class smf2(ForumExtractor):
                     r'B>h[0-9] .display_title; span #top_subject | "%Di"'
                 )
                 viewed = forumposts.search(
-                    r'div .display-info;  li m@v>"comments" | "%i\n" / sed "s/<[^>]*>//g; s/ .*//"'
+                    r'div .display-info;  li i@v>"comments" | "%i\n" / sed "s/<[^>]*>//g; s/ .*//"'
                 )[:-1]
 
             ret["title"] = title
@@ -569,7 +569,7 @@ class smf2(ForumExtractor):
 
     def get_next_page(self, rq):
         return rq.search(
-            r'div .pagelinks [0]; E>(a|span|strong) m@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"'
+            r'div .pagelinks [0]; E>(a|span|strong) i@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"'
         )[:-1]
 
     def process_board_r(self, url, ref, rq, settings, state):
@@ -628,7 +628,7 @@ class smf2(ForumExtractor):
                             .posts2.u [0] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
                             .topics2.u [1] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
                             * .lastpost child@; { p child@, * self@ }; [0] * self@; {
-                                .lastpost * self@ -C@"[0] span .postby"; {
+                                .lastpost * self@ -has@"[0] span .postby"; {
                                     [0] a href; {
                                         .user * self@ | "%Di" trim,
                                         .user_link * self@ | "%(href)v"
@@ -668,7 +668,7 @@ class smf2(ForumExtractor):
                                 .user * self@ | "%Dt" trim,
                                 .user_link * self@ | "%(href)v"
                             },
-                            .lastpage.u [-] a ( .navPages )( .nav_page ) c@[0] m@v>"All" | "%i",
+                            .lastpage.u [-] a ( .navPages )( .nav_page ) c@[0] i@v>"All" | "%i",
                             .icons.a {
                                 * class self@,
                                 div .icons; span .main_icons

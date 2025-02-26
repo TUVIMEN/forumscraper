@@ -23,7 +23,7 @@ def get_comments(ref, rq):
                     span .comhead;  {
                         .user a .hnuser href; {
                             .link * l@[0] | "https://news.ycombinator.com/%(href)v",
-                            .name [0] * c@[0] m@>[1:] | "%Di" trim
+                            .name [0] * c@[0] i@>[1:] | "%Di" trim
                         },
                         .date span .age title | "%(title)v",
                         .onstory span .onstory; [0] a; {
@@ -61,9 +61,9 @@ def get_post(ref, rq):
             .date span .age title | "%(title)v",
             .user a .hnuser href; {
                 .link * self@ | "%(href)v",
-                .name [0] * c@[0] m@>[1:] | "%Di" trim
+                .name [0] * c@[0] i@>[1:] | "%Di" trim
             },
-            a m@"&nbsp;comment"; {
+            a i@"&nbsp;comment"; {
                 .comments_count.u a self@ | "%i" sed "s/&.*//",
                 .comments_link a self@ | "%(href)v"
             }
@@ -81,7 +81,7 @@ def get_post(ref, rq):
 
 def get_page(ref, rq):
     threads = []
-    posts_list = rq.search(r'[1] table -#hnmain; tr l@[1] | "%C\0"').split("\0")[:-1]
+    posts_list = rq.search(r'[1] table -#hnmain; tr l@[1] | "%A\0"').split("\0")[:-1]
     size = len(posts_list)
     i = 0
     while i < size and size - i >= 3:
@@ -154,13 +154,13 @@ class hackernews(ForumExtractor):
                 rq.search(
                     r"""
                     table #hnmain; [1] table desc@; tr; {
-                        [0] td m@f>"user:"; td ssub@; {
+                        [0] td i@f>"user:"; td ssub@; {
                             .created-timestamp * timestamp self@ | "%(timestamp)v",
-                            .user [0] a; [0] * c@[0] m@>[1:] | "%Di" trim
+                            .user [0] a; [0] * c@[0] i@>[1:] | "%Di" trim
                         },
-                        .created-date [0] td m@f>"created:"; td ssub@; [0] a | "%i",
-                        .karma.u [0] td m@f>"karma:"; td ssub@ | "%i",
-                        .about [0] td m@f>"about:"; td ssub@ | "%i",
+                        .created-date [0] td i@f>"created:"; td ssub@; [0] a | "%i",
+                        .karma.u [0] td i@f>"karma:"; td ssub@ | "%i",
+                        .about [0] td i@f>"about:"; td ssub@ | "%i",
                         .submissions-link [0] a href=b>"submitted?" | "%(href)v",
                         .comments-link [0] a href=b>"threads?" | "%(href)v",
                         .favorites-link [0] a href=b>"favorites?" | "%(href)v",
@@ -226,7 +226,7 @@ class hackernews(ForumExtractor):
         self.domain_guess_mandatory = True
 
         self.forum_threads_expr = reliq.expr(
-            r'span .subline; a [0] m@"&nbsp;comment" href | "%(href)v\n"'
+            r'span .subline; a [0] i@"&nbsp;comment" href | "%(href)v\n"'
         )
         self.guesslist = [
             {

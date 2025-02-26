@@ -44,7 +44,7 @@ class stackexchange(ForumExtractor):
                         ul .list-reset; {
                             [0] * self@; li child@; {
                                 .created [0] * self@; span title | "%(title)v",
-                                .lastseen [1] * self@; div c@[0] m@bt>"Last seen" | "%i" sed "s/^Last seen//" trim
+                                .lastseen [1] * self@; div c@[0] i@bt>"Last seen" | "%i" sed "s/^Last seen//" trim
                             },
                             [1] * self@; {
                                 .location div .wmx2 title c@[0] | "%i",
@@ -58,21 +58,21 @@ class stackexchange(ForumExtractor):
                     },
                     main #main-content; {
                         div #stats; div .md:fl-auto; {
-                            .reputation * self@ m@reputation; div child@ c@[0] | "%i" tr ",",
-                            .reached * self@ m@reached; div child@ c@[0] | "%i" tr ",",
-                            .answers * self@ m@answers; div child@ c@[0] | "%i" tr ",",
-                            .questions * self@ m@questions; div child@ c@[0] | "%i" tr ","
+                            .reputation * self@ i@reputation; div child@ c@[0] | "%i" tr ",",
+                            .reached * self@ i@reached; div child@ c@[0] | "%i" tr ",",
+                            .answers * self@ i@answers; div child@ c@[0] | "%i" tr ",",
+                            .questions * self@ i@questions; div child@ c@[0] | "%i" tr ","
                         },
-                        div c@[0] m@tf>Communities; [1] * ancestor@; {
-                            .communities-all [0] a m@bt>"View all" | "%(href)v",
+                        div c@[0] i@tf>Communities; [1] * ancestor@; {
+                            .communities-all [0] a i@bt>"View all" | "%(href)v",
                             .communities li; a; {
                                 .profile * self@ | "%(href)v",
                                 .reputation div .ml-auto c@[0] | "%i" tr ","
                             } |
                         },
                         .about [0] div .js-about-me-content | "%i",
-                        div c@[0] m@tf>Badges; [1] * ancestor@; {
-                            .badges-all [0] a m@bt>"View all" | "%(href)v",
+                        div c@[0] i@tf>Badges; [1] * ancestor@; {
+                            .badges-all [0] a i@bt>"View all" | "%(href)v",
                             .badges div .s-card; div .jc-space-between c@[6:] child@; {
                                 .amount.u div .fs-title | "%i",
                                 .name div .fs-caption | "%Di" line [0] " " tr " " / trim,
@@ -88,8 +88,8 @@ class stackexchange(ForumExtractor):
                                 } |
                             } |
                         },
-                        div c@[0] .fs-title m@tf>"Top tags"; [1] * ancestor@; {
-                           .tags-all [0] a m@bt>"View all" | "%(href)v",
+                        div c@[0] .fs-title i@tf>"Top tags"; [1] * ancestor@; {
+                           .tags-all [0] a i@bt>"View all" | "%(href)v",
                            .tags [0] div .s-card; div child@; {
                                 a .s-tag; {
                                     .link * self@ | "%(href)v",
@@ -97,19 +97,19 @@ class stackexchange(ForumExtractor):
                                 },
                                 .badge [0] a .badge-tag title | "%(title)v" / sed "s/ .*//",
                                 div .d-flex .ai-center; {
-                                    .score div .tt-lowercase m@tf>Score; [0] * spre@ | "%i" tr ",",
-                                    .posts div .tt-lowercase m@tf>Posts; [0] * spre@ | "%i" tr ",",
-                                    .posts-percent.u div .tt-lowercase m@tf>"Posts %"; [0] * spre@ | "%i" tr ",",
+                                    .score div .tt-lowercase i@tf>Score; [0] * spre@ | "%i" tr ",",
+                                    .posts div .tt-lowercase i@tf>Posts; [0] * spre@ | "%i" tr ",",
+                                    .posts-percent.u div .tt-lowercase i@tf>"Posts %"; [0] * spre@ | "%i" tr ",",
                                 },
                                 .answered.u * self@ title | "%(title)v" / sed "/Gave/!d; s/.*. Gave ([0-9]+) non-wiki .*/\1/" "E",
                                 .ansked.u * self@ title | "%(title)v" / sed "s/^Asked ([0-9]+) .*/\1/" "E",
                                 .asked-score.u * self@ title | "%(title)v" / sed "/^Asked/!d; s/\..*//; s/^.*total score //" "E"
                             } |
                         },
-                        div c@[0] .fs-title m@tf>"Top posts"; [2] * ancestor@; {
-                            div m@bt>"View all"; a; {
-                                .posts-answers-all * self@ m@ft>answers | "%(href)v",
-                                .posts-questions-all * self@ m@ft>questions | "%(href)v"
+                        div c@[0] .fs-title i@tf>"Top posts"; [2] * ancestor@; {
+                            div i@bt>"View all"; a; {
+                                .posts-answers-all * self@ i@ft>answers | "%(href)v",
+                                .posts-questions-all * self@ i@ft>questions | "%(href)v"
                             },
                             .posts [0] div .s-card; div child@; {
                                 .type [0] title | "%i",
@@ -122,8 +122,8 @@ class stackexchange(ForumExtractor):
                                 .date span .relativetime title | "%(title)v"
                             } |
                         },
-                        div c@[0] .fs-title m@tf>"Top network posts"; [1] * ancestor@; {
-                           .network-posts-all [0] a m@bt>"View all" | "%(href)v",
+                        div c@[0] .fs-title i@tf>"Top network posts"; [1] * ancestor@; {
+                           .network-posts-all [0] a i@bt>"View all" | "%(href)v",
                            .network-posts div .s-card; div child@; {
                                 .votes.u div .s-badge__votes | "%i",
                                 a .d-table; {
@@ -132,7 +132,7 @@ class stackexchange(ForumExtractor):
                                 },
                             } |
                         },
-                        div c@[0] .fs-title m@tf>"Top Meta posts"; [1] * ancestor@; {
+                        div c@[0] .fs-title i@tf>"Top Meta posts"; [1] * ancestor@; {
                             .meta-posts-asked.u div .ml8 title=b>asked | "%(title)v",
                             .meta-posts-answered.u div .ml8 title=b>gave | "%(title)v",
                             .meta-posts div .s-card; div child@; {
@@ -203,7 +203,7 @@ class stackexchange(ForumExtractor):
             self.trim = True
 
         def get_post_comments(self, rq, url, ref, postid, settings, state):
-            n = rq.search(r'div #b>comments-link-; a .comments-link m@b>"Show " | "t"')
+            n = rq.search(r'div #b>comments-link-; a .comments-link i@b>"Show " | "t"')
             if len(n) > 0:
                 nsettings = get_settings(
                     settings, headers={"x-Requested-With": "XMLHttpRequest"}
@@ -246,7 +246,7 @@ class stackexchange(ForumExtractor):
                 .bounty.u [0] div .js-bounty-award | "%i",
                 .content div class="s-prose js-post-body" | "%i",
 
-                div .user-info m@"edited"; {
+                div .user-info i@"edited"; {
                     .edited span .relativetime | "%(title)v",
                     .editor {
                         .avatar img .bar-sm src | "%(src)v",
@@ -261,7 +261,7 @@ class stackexchange(ForumExtractor):
                     }
                 },
 
-                div .user-info m@v>"edited"; {
+                div .user-info i@v>"edited"; {
                     .date span .relativetime | "%(title)v",
                     .author {
                         .avatar img .bar-sm src | "%(src)v",
@@ -301,9 +301,9 @@ class stackexchange(ForumExtractor):
                     r"""
                     .title h1 itemprop="name"; a | "%Di" / trim,
                     div .flex--item .mb8 .ws-nowrap; {
-                        .views.u [0] * self@ m@"Viewed" | "%(title)v" / tr "0-9" "" "c",
-                        .asked [0] * self@ m@"Asked"; [0] time itemprop="dateCreated" datetime | "%(datetime)v",
-                        .modified [0] * self@ m@"Modified"; [0] a title | "%(title)v"
+                        .views.u [0] * self@ i@"Viewed" | "%(title)v" / tr "0-9" "" "c",
+                        .asked [0] * self@ i@"Asked"; [0] time itemprop="dateCreated" datetime | "%(datetime)v",
+                        .modified [0] * self@ i@"Modified"; [0] a title | "%(title)v"
                     },
                     .tags.a div .ps-relative; a .post-tag | "%i\n"
                     """
@@ -566,7 +566,7 @@ class stackexchange(ForumExtractor):
                         div .s-post-summary--stats; div .s-post-summary--stats-item; {
                             .score.u [0] * self@ title=b>"Score of ",
                             .views.u [0] * self@ title=e>" views" | "%(title)v",
-                            [0] span m@f>"answers"; {
+                            [0] span i@f>"answers"; {
                                 .answers.u [0] span .e>-number spre@ | "%i",
                                 .solved.b * .has-accepted-answer parent@ | "t"
                             },

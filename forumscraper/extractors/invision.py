@@ -55,13 +55,13 @@ class invision(ForumExtractor):
                 .group p class="ipsType_reset ipsType_normal"; * c@[0] | "%i",
 
                 .joined {
-                    p class="ipsType_reset ipsType_medium ipsType_light" m@b>"Joined "; time datetime | "%(datetime)v",
-                    div .cUserHovercard_data; li m@">Joined<"; time datetime | "%(datetime)v"
+                    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Joined "; time datetime | "%(datetime)v",
+                    div .cUserHovercard_data; li i@">Joined<"; time datetime | "%(datetime)v"
                 },
 
                 .lastseen {
-                    p class="ipsType_reset ipsType_medium ipsType_light" m@b>"Last visited "; time datetime | "%(datetime)v",
-                    div .cUserHovercard_data; li m@">Last visited<"; time datetime | "%(datetime)v"
+                    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Last visited "; time datetime | "%(datetime)v",
+                    div .cUserHovercard_data; li i@">Last visited<"; time datetime | "%(datetime)v"
                 },
 
                 .info dl; div l@[1]; {
@@ -105,7 +105,7 @@ class invision(ForumExtractor):
                 el = {}
                 el["option"] = i.search(r'div .ipsGrid_span4 | "%i"')
                 el["votes"] = i.search(
-                    r'div .ipsGrid_span1; * m@E>"^(<[^>]*>[^<]*</[^>]*>)?[^<]+$" | "%i" / sed "s/^<i.*<\/i> //"'
+                    r'div .ipsGrid_span1; * i@E>"^(<[^>]*>[^<]*</[^>]*>)?[^<]+$" | "%i" / sed "s/^<i.*<\/i> //"'
                 )
                 ret.append(el)
             return ret
@@ -415,8 +415,8 @@ class invision(ForumExtractor):
                     \#/(((forum|foro|board)s?|community)/?|index\.php)$#{p;q}
                    $p" "En" line [-],
                li #b>elNavSecondary_ i>data-navapp=i>forums; [0] a href | "%(href)v",
-               li #b>lmgNavSub_; [0] a href m@i>"forums" | "%(href)v\n",
-               nav; li .ipsMenu_item; [0] a m@i>forums href | "%(href)v\n",
+               li #b>lmgNavSub_; [0] a href i@i>"forums" | "%(href)v\n",
+               nav; li .ipsMenu_item; [0] a i@i>forums href | "%(href)v\n",
                [0] a href=Ea>"(/|^)((forum|foro)s?|community|communaute|comunidad|ipb)(\.([a-zA-Z0-9.-]\.)*[a-zA-Z]/?|/?$)" | "%(href)v\n",
                [0] a href=Ea>"(/|^)(index|index\.php)/?$" | "%(href)v\n"
             } / line [0] tr "\n"
@@ -449,7 +449,7 @@ class invision(ForumExtractor):
                     * self@
                 }; {
                     h2 child@; {
-                        .name * -title c@[0] m@>[1:] | "%Di" / trim,
+                        .name * -title c@[0] i@>[1:] | "%Di" / trim,
                         .link [-] a | "%(href)v"
                     },
                     .forums {

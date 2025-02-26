@@ -48,7 +48,7 @@ class xmb(ForumExtractor):
             posts = []
             expr = reliq.expr(
                 r"""
-                .date td -rowspan l@[1]; a m@E>".+ .+ .+" | "%i" / sed "s/^[^ ]\+ [^ ]\+ //",
+                .date td -rowspan l@[1]; a i@E>".+ .+ .+" | "%i" / sed "s/^[^ ]\+ [^ ]\+ //",
                 td rowspan l@[1]; {
                     .user font .mediumtxt; * c@[0] | "%Di" trim,
                      div .smalltxt; {
@@ -76,7 +76,7 @@ class xmb(ForumExtractor):
 
             while True:
                 for i in rq.search(
-                    r'tr -class bgcolor | "%C\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"'
+                    r'tr -class bgcolor | "%A\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"'
                 ).split("\n")[:-1]:
                     tr = i.split("\t")
                     post = {}
