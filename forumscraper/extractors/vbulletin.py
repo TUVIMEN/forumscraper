@@ -475,7 +475,7 @@ class vbulletin(ForumExtractor):
 
                         .lastpost {
                             [0] * ( .i>lastpost )( .i>forumlastpost ) ||
-                            strong c@[0] m@>[1:]; a parent@; div [0] l@[0:5] .smallfont ancestor@; [-] * self@
+                            strong c@[0] m@>[1:]; a parent@; div [0] l@[-5:0] .smallfont ancestor@; [-] * self@
                         }; {
                             {
                                 [0] * ( .lastpost-title )( .lastposttitle )( .title ) ||
