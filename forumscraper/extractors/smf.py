@@ -478,7 +478,16 @@ class smf2(ForumExtractor):
                     .body div .post; div #B>msg_[0-9]* l@[1] | "%i",
                     .signature div .signature | "%i",
                     .edited * #B>modified_[0-9]* | "%i",
-                    .attachments.a div .attached; div .attachments_top; a href | "%(href)v\n",
+                    .attachments [0] * .attachments; a href; {
+                        .link * self@ | "%(href)v",
+                        .name * self@ | "%t" sed "s/&nbsp;/ /g" decode trim,
+                        .thumb [0] img src | "%(src)v",
+                        [0] * ssub@; br self@; text@ [0] * spre@; {
+                            .size @ | "%A" sed "s/[^(]*(//; s/^ *//; s/,.*//; s/ - .*//",
+                            .resolution @ | "%A" sed "s/[^,]*, //; s/^ *//; /^[0-9]+x[0-9]+/!{d;q}; s/ .*//" "E",
+                            .viewed.u @ | "%A" sed "s/.* - //; s/).*//"
+                        }
+                    } | ,
                     .user div .poster; h4; [0] a l@[1] | "%Di" trim,
                     .userid.u div .poster; h4; a href l@[1] | "%(href)v" / sed "s/^.*;u=//",
                     .avatar div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li .avatar; img src | "%(src)v",
