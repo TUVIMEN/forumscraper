@@ -13,7 +13,7 @@
     {
       "postid": 3948331,
       "date": "November 19, 2017, 07:47:44 PM",
-      "body": "Dear Members,<br /><br />Simple Machines Forum has released a new patch to the 2.0.x line, bringing our latest release version to <b>2.0.15</b>.<br /><br />This patch adds both important security and general maintenance fixes to your forum, so it is imperative that you install this patch quickly. <br />You can view the changelog for this release, per usual, on the <a href=\"https://download.simplemachines.org\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">downloads page</a>.<br /><br />The quick summary of changes is as follows:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li>A security issue reported by Daniel Le Gall from SCRT SA</li><li>Various bug fix with Proxy handler</li><li>Login fixes for SSI and Maintenance mode</li><li>Various Search fixes</li><li>Email handling issue fixed when using SendTopic</li><li>Fixed SM Stat collection and added opt in/out functionality to the Admin Panel</li></ul><br />Please see the changelog for more information. <br /><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.&nbsp; If you do not see the notification about the patch, please run the scheduled task &quot;Fetch Simple Machines files&quot; from the Scheduled Tasks page (<i>Admin &gt; Maintenance &gt; Scheduled Tasks &gt; Fetch Simple Machines Files</i> (check the &quot;Run Now&quot; checkbox and click the &quot;Run Now&quot; button)). <br /><br />If you use older versions of SMF, you can upgrade directly to 2.0.15 from whichever version you are currently using by using the &quot;full upgrade&quot; archive from the downloads page. Be aware that using this upgrade method will require you to reinstall any customizations that you have added to your forum, so if you are running a version of the 2.0.x series, it is recommended that you apply the successive patches instead of using the full upgrade.<br /><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /><br />If you are having problems downloading the patch from the admin panel, you can download the patch package from the <a href=\"https://custom.simplemachines.org/upgrades/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">upgrade patches page</a> and install it via the package manager, as you would any other mod package.<br /><br />Please refer to the Online Manual for more details about:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li><a href=\"https://wiki.simplemachines.org/smf/Upgrading\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Upgrading</a></li><li><a href=\"https://wiki.simplemachines.org/smf/Patching\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Patching</a></li></ul><br />Thank you for using SMF!<br /><br />Regards,<br />Simple Machines Forum Team",
+      "body": "Dear Members,<br /><br />Simple Machines Forum has released a new patch to the 2.0.x line, bringing our latest release version to <b>2.0.15</b>.<br /><br />This patch adds both important security and general maintenance fixes to your forum, so it is imperative that you install this patch quickly. <br />You can view the changelog for this release, per usual, on the <a href=\"https://download.simplemachines.org\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">downloads page</a>.<br /><br />The quick summary of changes is as follows:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li>A security issue reported by Daniel Le Gall from SCRT SA</li><li>Various bug fix with Proxy handler</li><li>Login fixes for SSI and Maintenance mode</li><li>Various Search fixes</li><li>Email handling issue fixed when using SendTopic</li><li>Fixed SM Stat collection and added opt in/out functionality to the Admin Panel</li></ul><br />Please see the changelog for more information. <br /><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.&nbsp; If you do not see the notification about the patch, please run the scheduled task &quot;Fetch Simple Machines files&quot; from the Scheduled Tasks page (<i>Admin &gt; Maintenance &gt; Scheduled Tasks &gt; Fetch Simple Machines Files</i> (check the &quot;Run Now&quot; checkbox and click the &quot;Run Now&quot; button)). <br /><br />If you use older versions of SMF, you can upgrade directly to 2.0.15 from whichever version you are currently using by using the &quot;full upgrade&quot; archive from the downloads page. Be aware that using this upgrade method will require you to reinstall any customizations that you have added to your forum, so if you are running a version of the 2.0.x series, it is recommended that you apply the successive patches instead of using the full upgrade.<br /><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /><br />If you are having problems downloading the patch from the admin panel, you can download the patch package from the <a href=\"https://custom.simplemachines.org/upgrades/\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">upgrade patches page</a> and install it via the package manager, as you would any other mod package.<br /><br />Please refer to the Online Manual for more details about:<br /><ul class=\"bbc_list\"><br />&nbsp;&nbsp;&nbsp;<li><a href=\"https://wiki.simplemachines.org/smf/Upgrading\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Upgrading</a></li><li><a href=\"https://wiki.simplemachines.org/smf/Patching\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Patching</a></li></ul><br />Thank you for using SMF!<br /><br />Regards,<br />Simple Machines Forum Team",
       "signature": "&quot;If everybody is thinking alike, then somebody is not thinking.&quot; - Gen. George S. Patton Jr.<br /><br /><a href=\"http://www.simplemachines.org/community/index.php?topic=489917.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Colin</a>",
       "edited": "<span class=\"lastedit\">Last Edit</span>: December 19, 2017, 12:10:51 AM by Colin",
       "attachments": [],
@@ -63,7 +63,7 @@
       "postid": 3948374,
       "date": "November 20, 2017, 12:40:32 AM",
       "body": "Congrats on the release! Thanks for the updates.",
-      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Take your forum to the next level built for SMF, Gallery,Store,Classifieds,Downloads,more!</b><br /><br /><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> -&nbsp; Paid Modifications for SMF<br /><br /><b>Mods:</b><br /><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br /><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br /><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
+      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Grow your forum with SMF, Gallery,Store,Classifieds,Downloads,more!</b><br><br><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> - Paid Modifications for SMF<br><br><b>Mods:</b><br><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
       "edited": "",
       "attachments": [],
       "user": "vbgamer45",
@@ -84,11 +84,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,316"
+          "value": "Posts: 25,389"
         },
         {
           "key": "im_icons",
-          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -97,10 +97,6 @@
         {
           "key": "custom cust_github",
           "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
-        },
-        {
-          "key": "custom cust_twitte",
-          "value": "<a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a>"
         },
         {
           "key": "profile",
@@ -115,7 +111,7 @@
     {
       "postid": 3948380,
       "date": "November 20, 2017, 02:25:14 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet.",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet.",
       "signature": "<a href=\"https://www.diabetesforum.online\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://www.diabetesforum.online/sam/NewDesign01d.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a><br>SMF 2.1.4 / TP 2.2.2",
       "edited": "",
       "attachments": [],
@@ -177,8 +173,8 @@
     {
       "postid": 3948382,
       "date": "November 20, 2017, 02:32:57 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948380#msg3948380\">Quote from: skb on November 20, 2017, 02:25:14 AM</a></cite><br /><blockquote class=\"bbc_alternate_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet. <br /></blockquote><br />It can take a couple of days.",
-      "signature": "Holder of controversial views, all of which my own.<br><br><a href=\"https://administrata.net\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://i.ibb.co/s1ttzgK/affiliate.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a>",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;topic=557176.msg3948380#msg3948380\">Quote from: skb on November 20, 2017, 02:25:14 AM</a></cite><br /><blockquote class=\"bbc_alternate_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br />If you are running version 2.0.14, you can update your forum to the latest version by using the package manager. As usual, you should see the update notification in the admin panel notifications and in the package manager, which will allow you to download and install the patch seamlessly.<br /></blockquote><br />Not showing, yet. <br /></blockquote><br />It can take a couple of days.",
+      "signature": "Holder of controversial views, all of which my own.<br><br><a href=\"https://administrata.net\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://i.ibb.co/s1ttzgK/affiliate.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a> <a href=\"https://dragcave.net/view/Mq4fo\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\"><img src=\"https://dragcave.net/image/Mq4fo.gif\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></a>",
       "edited": "",
       "attachments": [],
       "user": "Arantor",
@@ -203,7 +199,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 76,884"
+          "value": "Posts: 76,891"
         },
         {
           "key": "poster_ip",
@@ -259,7 +255,7 @@
     {
       "postid": 3948387,
       "date": "November 20, 2017, 05:10:02 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948385#msg3948385\">Quote from: Looking on November 20, 2017, 03:59:20 AM</a></cite><br />Thanks for the fixes. When I first got notification of this topic it wasn&#039;t available, were there quick changes made?<br /></blockquote>It was a small bug with the notification appearing before it should have.",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;topic=557176.msg3948385#msg3948385\">Quote from: Looking on November 20, 2017, 03:59:20 AM</a></cite><br />Thanks for the fixes. When I first got notification of this topic it wasn&#039;t available, were there quick changes made?<br /></blockquote>It was a small bug with the notification appearing before it should have.",
       "signature": "<div class=\"centertext\"><div class=\"inline_block\"><img src=\"https://i.imgur.com/LFU14EZ.png\" alt=\"\" class=\"bbc_img\" loading=\"lazy\"></div></div>",
       "edited": "",
       "attachments": [],
@@ -395,7 +391,7 @@
     {
       "postid": 3948415,
       "date": "November 20, 2017, 07:52:54 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948412#msg3948412\">Quote from: Dumke480 on November 20, 2017, 07:49:57 AM</a></cite><br /><b>Also the downloads page url in the first post isn&#039;t correct.</b><br /></blockquote><br />fixed, thanks.",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;topic=557176.msg3948412#msg3948412\">Quote from: Dumke480 on November 20, 2017, 07:49:57 AM</a></cite><br /><b>Also the downloads page url in the first post isn&#039;t correct.</b><br /></blockquote><br />fixed, thanks.",
       "signature": "",
       "edited": "",
       "attachments": [],
@@ -417,7 +413,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 54,537"
+          "value": "Posts: 54,607"
         },
         {
           "key": "poster_ip",
@@ -494,7 +490,7 @@
       "postid": 3948427,
       "date": "November 20, 2017, 08:55:17 AM",
       "body": "Also when you get a chance update the version numbers for the mod/theme site.",
-      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Take your forum to the next level built for SMF, Gallery,Store,Classifieds,Downloads,more!</b><br /><br /><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> -&nbsp; Paid Modifications for SMF<br /><br /><b>Mods:</b><br /><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br /><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br /><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
+      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Grow your forum with SMF, Gallery,Store,Classifieds,Downloads,more!</b><br><br><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> - Paid Modifications for SMF<br><br><b>Mods:</b><br><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
       "edited": "",
       "attachments": [],
       "user": "vbgamer45",
@@ -515,11 +511,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,316"
+          "value": "Posts: 25,389"
         },
         {
           "key": "im_icons",
-          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -528,10 +524,6 @@
         {
           "key": "custom cust_github",
           "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
-        },
-        {
-          "key": "custom cust_twitte",
-          "value": "<a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a>"
         },
         {
           "key": "profile",
@@ -546,7 +538,7 @@
     {
       "postid": 3948433,
       "date": "November 20, 2017, 09:12:34 AM",
-      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948427#msg3948427\">Quote from: vbgamer45 on November 20, 2017, 08:55:17 AM</a></cite><br />Also when you get a chance update the version numbers for the mod/theme site.<br /></blockquote><br />Good catch! Passed to the team <img src=\"https://smf-smileys.simplemachinesweb.com/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\"><br /><br /><hr><br /><br />Thanks to the whole team and to the users who have been waiting for this!",
+      "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;topic=557176.msg3948427#msg3948427\">Quote from: vbgamer45 on November 20, 2017, 08:55:17 AM</a></cite><br />Also when you get a chance update the version numbers for the mod/theme site.<br /></blockquote><br />Good catch! Passed to the team <img src=\"https://smf-smileys.simplemachinesweb.com/default/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\"><br /><br /><hr><br /><br />Thanks to the whole team and to the users who have been waiting for this!",
       "signature": "<i>&quot;Greeting Death as an old friend, they departed this life as equals&quot;</i>",
       "edited": "",
       "attachments": [],
@@ -572,7 +564,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 5,094"
+          "value": "Posts: 5,095"
         },
         {
           "key": "im_icons",
@@ -617,7 +609,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 255"
+          "value": "Posts: 256"
         },
         {
           "key": "blurb",
@@ -726,7 +718,7 @@
     {
       "postid": 3948555,
       "date": "November 21, 2017, 04:41:28 AM",
-      "body": "Hey mackes... you might have missed this part of the topic opener:<br /><br /><blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=801e2d87a2732e7406ee9280e2936425&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /></blockquote>",
+      "body": "Hey mackes... you might have missed this part of the topic opener:<br /><br /><blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;topic=557176.msg3948331#msg3948331\">Quote from: Colin on November 19, 2017, 07:47:44 PM</a></cite><br /><b><span style=\"color: red;\" class=\"bbc_color\">Please do <u>not</u> use this topic for support requests. <br />You will receive a much quicker and better response by posting in the <a href=\"https://www.simplemachines.org/community/index.php?PHPSESSID=e5d01dff8a9146776dbb745c2f812746&amp;board=147.0\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">2.0.x Support Board</a>.</span></b><br /></blockquote>",
       "signature": "<a href=\"https://i30ownersclub.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">https://i30ownersclub.com</a>",
       "edited": "",
       "attachments": [],
@@ -785,7 +777,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 1,180"
+          "value": "Posts: 1,181"
         },
         {
           "key": "im_icons",
@@ -859,7 +851,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 8,815"
+          "value": "Posts: 8,827"
         },
         {
           "key": "blurb",
@@ -883,7 +875,7 @@
       "postid": 3948645,
       "date": "November 21, 2017, 03:05:25 PM",
       "body": "No looks like 2.0.13 was the last version to support it.",
-      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Take your forum to the next level built for SMF, Gallery,Store,Classifieds,Downloads,more!</b><br /><br /><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> -&nbsp; Paid Modifications for SMF<br /><br /><b>Mods:</b><br /><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br /><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br /><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
+      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Grow your forum with SMF, Gallery,Store,Classifieds,Downloads,more!</b><br><br><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> - Paid Modifications for SMF<br><br><b>Mods:</b><br><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
       "edited": "",
       "attachments": [],
       "user": "vbgamer45",
@@ -904,11 +896,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,316"
+          "value": "Posts: 25,389"
         },
         {
           "key": "im_icons",
-          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -917,10 +909,6 @@
         {
           "key": "custom cust_github",
           "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
-        },
-        {
-          "key": "custom cust_twitte",
-          "value": "<a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a>"
         },
         {
           "key": "profile",
@@ -1286,7 +1274,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 19,123"
+          "value": "Posts: 19,134"
         },
         {
           "key": "blurb",
@@ -1401,7 +1389,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 19,123"
+          "value": "Posts: 19,134"
         },
         {
           "key": "blurb",
@@ -1541,7 +1529,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 54,537"
+          "value": "Posts: 54,607"
         },
         {
           "key": "poster_ip",
@@ -1706,7 +1694,7 @@
       "postid": 3949830,
       "date": "November 28, 2017, 04:47:49 PM",
       "body": "<blockquote class=\"bbc_standard_quote\"><cite><a href=\"https://www.simplemachines.org/community/index.php?topic=557176.msg3949805#msg3949805\">Quote from: themavesite on November 28, 2017, 03:42:36 PM</a></cite><br />Planning to go https with this release. Is this wise?<br /></blockquote>Yes it is",
-      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Take your forum to the next level built for SMF, Gallery,Store,Classifieds,Downloads,more!</b><br /><br /><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> -&nbsp; Paid Modifications for SMF<br /><br /><b>Mods:</b><br /><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br /><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br /><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
+      "signature": "<b><a href=\"http://www.smfhacks.com/community-suite.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Community Suite for SMF</a> - Grow your forum with SMF, Gallery,Store,Classifieds,Downloads,more!</b><br><br><a href=\"http://www.smfhacks.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMFHacks.com</a> - Paid Modifications for SMF<br><br><b>Mods:</b><br><a href=\"http://ezportal.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">EzPortal</a> - Portal System for SMF<br><a href=\"http://www.smfhacks.com/smf-gallery-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Gallery Pro</a> <br><a href=\"http://www.smfhacks.com/smf-store.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Store</a> <a href=\"http://www.smfhacks.com/smf-classifieds.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">SMF Classifieds</a> <a href=\"http://smfhacks.com/ad-seller-pro.php\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener\">Ad Seller Pro</a>",
       "edited": "",
       "attachments": [],
       "user": "vbgamer45",
@@ -1727,11 +1715,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 25,316"
+          "value": "Posts: 25,389"
         },
         {
           "key": "im_icons",
-          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> <li class=\"custom cust_twitte\"><a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a></li> </ol>"
+          "value": "<ol> <li class=\"custom cust_facebo\"><a href=\"https://www.facebook.com/smfhacks\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/facebook.png\" height=\"16\" width=\"16\" alt=\"smfhacks on Facebook\" title=\"Facebook\" /></a></li> <li class=\"custom cust_github\"><a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a></li> </ol>"
         },
         {
           "key": "custom cust_facebo",
@@ -1740,10 +1728,6 @@
         {
           "key": "custom cust_github",
           "value": "<a href=\"https://github.com/VBGAMER45\" title=\"VBGAMER45\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/github.png\" title=\"VBGAMER45\" alt=\"VBGAMER45 on GitHub\" /></a>"
-        },
-        {
-          "key": "custom cust_twitte",
-          "value": "<a href=\"https://twitter.com/createaforum\" target=\"_blank\"><img src=\"https://smf-default.simplemachinesweb.com/images/cust/twitter.png\" height=\"16\" width=\"16\" alt=\"@createaforum on Twitter\" title=\"Follow @createaforum on Twitter\" /></a>"
         },
         {
           "key": "profile",
@@ -1784,7 +1768,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 32,711"
+          "value": "Posts: 32,734"
         },
         {
           "key": "blurb",
@@ -1955,7 +1939,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 19,123"
+          "value": "Posts: 19,134"
         },
         {
           "key": "blurb",

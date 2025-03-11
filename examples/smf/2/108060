@@ -1,0 +1,102 @@
+{
+  "format_version": "smf-2-thread",
+  "url": "https://www.chemicalforums.com/index.php?topic=108060.0",
+  "id": 108060,
+  "title": "Combined spectroscopy problem, Find the structure",
+  "viewed": 4960,
+  "path": [
+    "Chemical Forums",
+    "Chemistry Forums for Students",
+    "Organic Chemistry Forum",
+    "Organic Spectroscopy"
+  ],
+  "posts": [
+    {
+      "postid": 381484,
+      "date": "May 12, 2021, 06:55:00 AM",
+      "body": "Draw the structure of the compound whose MS, 1H-NMR, 13C-NMR, COSY, HECTOR, IR and UV spectra are given below and interpret the spectra. Thanks&nbsp; &nbsp;<img src=\"https://www.chemicalforums.com/Smileys/classic/smiley.gif\" alt=\"&#58;&#41;\" title=\"Smiley\" class=\"smiley\" />",
+      "signature": "",
+      "edited": "",
+      "attachments": [
+        {
+          "link": "https://www.chemicalforums.com/index.php?PHPSESSID=67c1fac70288fcbc18f40cd6eedb4fc8&amp;action=dlattach;topic=108060.0;attach=12491",
+          "name": "16-29-1.jpg",
+          "thumb": "https://www.chemicalforums.com/Themes/Boru/images/icons/clip.gif",
+          "size": "104.48 kB",
+          "resolution": "1682x2348",
+          "viewed": 803
+        },
+        {
+          "link": "https://www.chemicalforums.com/index.php?PHPSESSID=67c1fac70288fcbc18f40cd6eedb4fc8&amp;action=dlattach;topic=108060.0;attach=12492",
+          "name": "16-29-2.jpg",
+          "thumb": "https://www.chemicalforums.com/Themes/Boru/images/icons/clip.gif",
+          "size": "164.77 kB",
+          "resolution": "1679x2337",
+          "viewed": 857
+        }
+      ],
+      "user": "orgnc1234",
+      "userid": 254953,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "postgroup",
+          "value": "New Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://www.chemicalforums.com/Themes/Boru/images/star.gif\" alt=\"*\" /><img src=\"https://www.chemicalforums.com/Themes/Boru/images/star.gif\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 4"
+        },
+        {
+          "key": "karma",
+          "value": "Mole Snacks: +0/-0"
+        },
+        {
+          "key": "profile",
+          "value": "<ul> </ul>"
+        }
+      ]
+    },
+    {
+      "postid": 381491,
+      "date": "May 12, 2021, 09:02:58 AM",
+      "body": "It is a forum rule that you must show your work before we can help you.&nbsp; See red link above.",
+      "signature": "",
+      "edited": "",
+      "attachments": [],
+      "user": "Babcock_Hall",
+      "userid": 105057,
+      "avatar": "",
+      "userinfo": [
+        {
+          "key": "membergroup",
+          "value": "Chemist"
+        },
+        {
+          "key": "postgroup",
+          "value": "Sr. Member"
+        },
+        {
+          "key": "stars",
+          "value": "<img src=\"https://www.chemicalforums.com/Themes/Boru/images/chemist.png\" alt=\"*\" />"
+        },
+        {
+          "key": "postcount",
+          "value": "Posts: 5752"
+        },
+        {
+          "key": "karma",
+          "value": "Mole Snacks: +333/-24"
+        },
+        {
+          "key": "profile",
+          "value": "<ul> </ul>"
+        }
+      ]
+    }
+  ]
+}

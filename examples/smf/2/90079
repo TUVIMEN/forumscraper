@@ -3,7 +3,7 @@
   "url": "https://www.chemicalforums.com/index.php?topic=90079.0",
   "id": 90079,
   "title": "Methane Stoichiometry",
-  "viewed": 14159,
+  "viewed": 14617,
   "path": [
     "Chemical Forums",
     "Chemistry Forums for Students",
@@ -68,7 +68,7 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 4431"
+          "value": "Posts: 4432"
         },
         {
           "key": "karma",
@@ -203,7 +203,7 @@
       "postid": 322884,
       "date": "February 13, 2017, 12:06:07 PM",
       "body": "No, you don&#039;t need molar masses.<br /><br />Do you know <a href=\"http://www.chembuddy.com/?left=balancing-stoichiometry&amp;right=stoichiometric-calculations\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>how to read the reaction equation</strong></a>?",
-      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">ChemBuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
+      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
       "user": "Borek",
@@ -228,11 +228,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27891"
+          "value": "Posts: 27921"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1816/-412"
+          "value": "Mole Snacks: +1820/-412"
         },
         {
           "key": "gender",
@@ -325,8 +325,8 @@
     {
       "postid": 322890,
       "date": "February 13, 2017, 01:35:55 PM",
-      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=49171b047232b70c0e9fa79d9332e03c&amp;topic=90079.msg322886#msg322886\">Quote from: Vultux on February 13, 2017, 12:18:27 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Not really, my teacher is horrible at teaching so I have to learn everything for Chemistry online by myself. Read it and I&#039;m guessing I have to set a ratio of Oxygen to Methane gas which would be 2/4 then do something?<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Use the ratio to find number of moles of oxygen needed to burn the methane. Then follow AWK&#039;s advice.",
-      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">ChemBuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=5a6e1229f3d024ab0cd3420291b6df40&amp;topic=90079.msg322886#msg322886\">Quote from: Vultux on February 13, 2017, 12:18:27 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Not really, my teacher is horrible at teaching so I have to learn everything for Chemistry online by myself. Read it and I&#039;m guessing I have to set a ratio of Oxygen to Methane gas which would be 2/4 then do something?<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Use the ratio to find number of moles of oxygen needed to burn the methane. Then follow AWK&#039;s advice.",
+      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
       "user": "Borek",
@@ -351,11 +351,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27891"
+          "value": "Posts: 27921"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1816/-412"
+          "value": "Mole Snacks: +1820/-412"
         },
         {
           "key": "gender",
@@ -448,8 +448,8 @@
     {
       "postid": 322923,
       "date": "February 14, 2017, 03:58:54 AM",
-      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=49171b047232b70c0e9fa79d9332e03c&amp;topic=90079.msg322904#msg322904\">Quote from: Vultux on February 13, 2017, 07:44:16 PM</a></div></div><blockquote class=\"bbc_standard_quote\">So it would be (1.40*10<sup>-4</sup>)/2</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Look at the reaction equation - every mole of methane needs TWO moles of oxygen. If so, 1.40*10<sup>-4</sup> moles of methane need how many?<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">then what? Do I multiply by Avagadros to get volume?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Avogadro&#039;s number tells you how many molecules are in the mole, not what volume they occupy.<br /><br />Do you know how to deal with units? Avogadro&#039;s number has units of <br /><br />[tex]\\frac{number~of~molecules}{mole}[/tex]<br />Number of moles has - not surprisingly - units of just [itex]mole[/itex]. When you multiply the two, you get<br />[tex]mole\\times\\frac{number~of~molecules}{mole}[/tex]<br />Mole cancels out and the result is [itex]number~of~molecules[/itex].<br /><br />Do you know what is a volume occupied by 1 mole of a gas at STP? Or do you know the ideal gas equation? If not, google these things.",
-      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">ChemBuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=5a6e1229f3d024ab0cd3420291b6df40&amp;topic=90079.msg322904#msg322904\">Quote from: Vultux on February 13, 2017, 07:44:16 PM</a></div></div><blockquote class=\"bbc_standard_quote\">So it would be (1.40*10<sup>-4</sup>)/2</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Look at the reaction equation - every mole of methane needs TWO moles of oxygen. If so, 1.40*10<sup>-4</sup> moles of methane need how many?<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">then what? Do I multiply by Avagadros to get volume?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Avogadro&#039;s number tells you how many molecules are in the mole, not what volume they occupy.<br /><br />Do you know how to deal with units? Avogadro&#039;s number has units of <br /><br />[tex]\\frac{number~of~molecules}{mole}[/tex]<br />Number of moles has - not surprisingly - units of just [itex]mole[/itex]. When you multiply the two, you get<br />[tex]mole\\times\\frac{number~of~molecules}{mole}[/tex]<br />Mole cancels out and the result is [itex]number~of~molecules[/itex].<br /><br />Do you know what is a volume occupied by 1 mole of a gas at STP? Or do you know the ideal gas equation? If not, google these things.",
+      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
       "user": "Borek",
@@ -474,11 +474,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27891"
+          "value": "Posts: 27921"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1816/-412"
+          "value": "Mole Snacks: +1820/-412"
         },
         {
           "key": "gender",
@@ -530,8 +530,8 @@
     {
       "postid": 322961,
       "date": "February 14, 2017, 06:24:06 PM",
-      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=49171b047232b70c0e9fa79d9332e03c&amp;topic=90079.msg322957#msg322957\">Quote from: Vultux on February 14, 2017, 04:46:26 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Would it be 2.8*10<sup>-4</sup> moles of Oxygen? and then multiply that 22.4?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes.<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">Sorry if I&#039;m being retarded and dumb, It&#039;s just that my teacher taught us conversions the first week during school and it&#039;s been a while.</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I strongly suggest you get back to conversions then, as you will need them all the time.",
-      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">ChemBuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=5a6e1229f3d024ab0cd3420291b6df40&amp;topic=90079.msg322957#msg322957\">Quote from: Vultux on February 14, 2017, 04:46:26 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Would it be 2.8*10<sup>-4</sup> moles of Oxygen? and then multiply that 22.4?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes.<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">Sorry if I&#039;m being retarded and dumb, It&#039;s just that my teacher taught us conversions the first week during school and it&#039;s been a while.</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I strongly suggest you get back to conversions then, as you will need them all the time.",
+      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
       "user": "Borek",
@@ -556,11 +556,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27891"
+          "value": "Posts: 27921"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1816/-412"
+          "value": "Mole Snacks: +1820/-412"
         },
         {
           "key": "gender",
@@ -613,7 +613,7 @@
       "postid": 322985,
       "date": "February 15, 2017, 02:57:04 AM",
       "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?topic=90079.msg322964#msg322964\">Quote from: Vultux on February 14, 2017, 06:44:53 PM</a></div></div><blockquote class=\"bbc_standard_quote\">So the answer would be 6.3*10<sup>-3</sup> liters of Oxygen?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes. If we are at it - try to convert it to mL.",
-      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">ChemBuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
+      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
       "user": "Borek",
@@ -638,11 +638,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27891"
+          "value": "Posts: 27921"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1816/-412"
+          "value": "Mole Snacks: +1820/-412"
         },
         {
           "key": "gender",
@@ -769,7 +769,7 @@
       "postid": 323048,
       "date": "February 15, 2017, 05:25:24 PM",
       "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?topic=90079.msg322994#msg322994\">Quote from: Vultux on February 15, 2017, 06:59:29 AM</a></div></div><blockquote class=\"bbc_standard_quote\">If the reactant present in the least amount were to be quadrupled, how many grams of each product would be made.</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Question is not clear to me. I am not sure if it is intended to mean &quot;If the reactant present in the least amount were to be quadrupled <em>without changing amount of the other reactant</em>&quot; or &quot;If the reactant present in the least amount were to be quadrupled <em>and the other reactant is in excess</em>&quot;. These are two completely different problems.<br /><br />I guess it is intended to be a limiting reagent type problem, just poorly worded.",
-      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">ChemBuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
+      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
       "user": "Borek",
@@ -794,11 +794,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27891"
+          "value": "Posts: 27921"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1816/-412"
+          "value": "Mole Snacks: +1820/-412"
         },
         {
           "key": "gender",
@@ -851,7 +851,7 @@
       "postid": 323052,
       "date": "February 15, 2017, 06:52:18 PM",
       "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?topic=90079.msg323049#msg323049\">Quote from: Vultux on February 15, 2017, 05:35:07 PM</a></div></div><blockquote class=\"bbc_standard_quote\">What would be the limiting reagent in this equation?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />What is a limiting reagent doesn&#039;t depend on the reaction, it depends on the relative amounts of substances present. Have you tried to google the term and read?<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">also how would I find out the amount of grams the products would make?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />How do you convert moles to mass?",
-      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">ChemBuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
+      "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
       "user": "Borek",
@@ -876,11 +876,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27891"
+          "value": "Posts: 27921"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1816/-412"
+          "value": "Mole Snacks: +1820/-412"
         },
         {
           "key": "gender",

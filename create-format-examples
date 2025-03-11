@@ -51,6 +51,7 @@ fsc -d examples/smf/2 'https://www.chemicalforums.com/index.php?topic=90079.0'
 fsc -d examples/smf/2 'https://forum.nasm.us/index.php?topic=1203.0'
 fsc -d examples/smf/2 'https://www.nukeworker.com/forum/index.php/topic,38497.0.html'
 fsc -d examples/smf/2 'https://www.simplemachines.org/community/index.php?topic=557176.0'
+fsc -d examples/smf/2 'https://www.chemicalforums.com/index.php?topic=108060.0'
 
 fscb -d examples/smf/2 'https://tardisbuilders.com/'
 fscb -d examples/smf/2 'https://coppermine-gallery.com/forum/'
