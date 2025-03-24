@@ -1,0 +1,19 @@
+#!/bin/bash
+# by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
+# License: GNU GPLv3
+
+IFS=$'\n'
+
+ucurl() {
+    curl -k -L -g -m 120 -s -b "$_cookies" -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36" -H "Accept-Encoding: gzip, deflate" --compressed "$@"
+}
+
+#XMB SMF Invision-Power-Board XenForo phpBB vBulletin
+
+echo "https://trends.builtwith.com/websitelist/$1" >&2
+
+for i in $(ucurl "https://trends.builtwith.com/websitelist/$1" | reliq 'div .card-body; li .list-group-item; a href i@" websites in " | "https:%(href)v\n"')
+do
+    echo "$i" >&2
+    ucurl "$i" | reliq 'tr data-domain; td .pl-0 .text-primary | "https://%i\n"'
+done | sort -u

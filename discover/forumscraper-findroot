@@ -1,0 +1,55 @@
+#!/bin/bash
+# by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
+# License: GNU GPLv3
+
+IFS=$'\n'
+
+ucurl() {
+    curl -k -L -g -m 120 -s -H "User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) QtWebEngine/5.15.2 Chrome/87.0.4280.144 Safari/537.36" -H "Accept-Encoding: gzip, deflate" --compressed "$@"
+}
+
+declare -r scrapers='phpbb'$'\n''invision'$'\n''xmb'$'\n''xenforo1'$'\n''xenforo2'$'\n''smf1'$'\n''smf2'$'\n''vbulletin'
+declare retries_max=2 retry_wait=20 retries_root_max=2 retry_root_wait=20 timeout=20
+
+
+get_root_scrapers_try() {
+    for i in $scrapers
+    do
+        grep '^'"$i"$'\t' "$1" | cut -f2 > "$i-identified"
+        forumscraper -k --retries=0 --timeout "$timeout" .findroot $(< "$i-identified") -o "$i-root"
+        grep -v '^None'$'\t' "$i-root" | cut -f1 | sponge -a "$i-root-found"
+        grep '^None'$'\t' "$i-root" | cut -f2 | sponge "$i-root-failed"
+    done
+}
+
+get_root_try() {
+    forumscraper -k --retries=0 --timeout "$timeout" .identify $(< "$1") -o all
+    grep '^None'$'\t' all | cut -f2 | sponge identify-failed
+
+    get_root_scrapers_try all
+}
+
+get_root_retry() {
+    g=0
+    while [ "$g" -lt "$3" ]
+    do
+        [ -s "$2" ] || break
+        $1 $2
+
+        sleep "$4"
+        ((g++))
+    done
+}
+
+get_root() {
+    get_root_try "$1"
+    get_root_retry get_root_try identify-failed "$retries_max" "$retry_wait"
+    for i in $scrapers
+    do
+        get_root_retry get_root_scrapers_try "$1-root-failed" "$retries_root_max" "$retry_root_wait"
+    done
+}
+
+#takes file as argument
+[ -s "$1" ] || exit 1
+get_root "$1"

@@ -21,6 +21,10 @@ forumscraper aims to be an universal, automatic and extensive scraper for forums
 
 Are created by `create-format-examples` script and contained in [examples](https://github.com/TUVIMEN/forumscraper/tree/master/examples) directory where they're grouped based on scraper and version. Files are in `json` format.
 
+# Discover
+
+You can find forums discoverer script in [discover](discover).
+
 # Usage
 
 ## CLI

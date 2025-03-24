@@ -1,0 +1,10 @@
+#!/bin/sh
+# by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
+# License: GNU GPLv3
+
+for i in XMB SMF Invision-Power-Board XenForo phpBB vBulletin
+do
+    ./builtwith "$i"
+done | sort -u > links
+
+./forumscraper-findroot links
