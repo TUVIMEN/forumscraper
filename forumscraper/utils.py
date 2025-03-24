@@ -55,7 +55,7 @@ def url_valid(url, regex=None, base=False, matchwhole=False):
     if url is None or len(url) == 0:
         return
 
-    pattern = r"^https?://(localhost|([a-zA-Z0-9-]{1,256}\.)+[a-zA-Z]{1,6})(:\d+)?"
+    pattern = r"^https?://(localhost|([a-zA-Z0-9_-]{1,256}\.)+[a-zA-Z]{1,6})(:\d+)?"
     baseg = re.search(pattern, url)
     if not baseg:
         return
