@@ -117,7 +117,7 @@ def valid_cookie(src):
 
 def argparser():
     parser = argparse.ArgumentParser(
-        description="Forum scraper that aims to be an universal, automatic and extensive.",
+        description="Forum scraper that aims to be universal, automatic and extensive.",
         add_help=False,
     )
 
