@@ -215,7 +215,7 @@ def argparser():
     settings.add_argument(
         "--html",
         action="store_true",
-        help="Save html files along side json output with .html extension",
+        help="save html files along side json output with .html extension",
     )
     settings.add_argument(
         "--nothreads",

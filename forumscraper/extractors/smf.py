@@ -91,7 +91,7 @@ class smf1(ForumExtractor):
             """
             )
 
-            for rq, ref in self.next(ref, rq, settings, state):
+            for rq, ref in self.next(ref, rq, settings, state, path):
                 t = json.loads(rq.search(expr))
                 for i in t["posts"]:
                     i["avatar"] = url_merge_r(ref, i["avatar"])
@@ -486,7 +486,7 @@ class smf2(ForumExtractor):
             """
             )
 
-            for rq, ref in self.next(ref, rq, settings, state):
+            for rq, ref in self.next(ref, rq, settings, state, path):
                 t = json.loads(rq.search(expr))
                 outt = []
                 for i in t["posts"]:

@@ -8,7 +8,7 @@ from reliq import reliq
 from ..enums import Outputs
 from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
 from ..exceptions import AlreadyVisitedError
-from .common import ItemExtractor, ForumExtractor
+from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_invision
 
 
@@ -137,7 +137,7 @@ class invision(ForumExtractor):
             ret["questions"] = questions
             return ret
 
-        def get_reactions_details(self, rq, settings, state):
+        def get_reactions_details(self, rq, settings, state, path):
             ret = []
             nexturl = rq.search(
                 r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"'
@@ -146,6 +146,8 @@ class invision(ForumExtractor):
             nsettings = get_settings(
                 settings, headers={"x-Requested-With": "XMLHttpRequest"}
             )
+
+            page = 0
 
             while True:
                 if len(nexturl) == 0:
@@ -157,6 +159,8 @@ class invision(ForumExtractor):
                     state,
                     True,
                 )
+                write_html(path + str(page), rq, settings)
+                page += 1
 
                 t = json.loads(
                     rq.search(
@@ -291,7 +295,7 @@ class invision(ForumExtractor):
             )
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state):
+            for rq, ref in self.next(ref, rq, settings, state, path):
                 for i in rq.filter(r"article #B>elComment_[0-9]*").self():
                     post = {}
 
@@ -348,7 +352,10 @@ class invision(ForumExtractor):
                     if Outputs.reactions in settings["output"]:
                         try:
                             reactions_details = self.get_reactions_details(
-                                i, settings, state
+                                i,
+                                settings,
+                                state,
+                                path + "-reactions-" + str(post["id"]) + "-",
                             )
                         except self.common_exceptions as ex:
                             self.handle_error(ex, i, settings, True)

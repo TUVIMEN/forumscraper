@@ -7,7 +7,7 @@ from reliq import reliq
 
 from ..enums import Outputs
 from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
-from .common import ItemExtractor, ForumExtractor
+from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_hackernews
 
 
@@ -95,19 +95,22 @@ def get_page(ref, rq):
     return threads
 
 
-def go_through(self, ref, rq, settings, state, func):
+def go_through(self, ref, rq, settings, state, path, func):
     r = []
-    for rq, ref in self.next(ref, rq, settings, state):
+    page = 1
+    for rq, ref in self.next(ref, rq, settings, state, path):
+        write_html(path + "-" + str(page), rq, settings)
+        page += 1
         r += func(ref, rq)
     return r
 
 
-def get_all_pages(self, ref, rq, settings, state):
-    return go_through(self, ref, rq, settings, state, get_page)
+def get_all_pages(self, ref, rq, settings, state, path):
+    return go_through(self, ref, rq, settings, state, path, get_page)
 
 
-def get_all_comments(self, ref, rq, settings, state):
-    return go_through(self, ref, rq, settings, state, get_comments)
+def get_all_comments(self, ref, rq, settings, state, path):
+    return go_through(self, ref, rq, settings, state, path, get_comments)
 
 
 class hackernews(ForumExtractor):
@@ -123,6 +126,12 @@ class hackernews(ForumExtractor):
             ]
             self.path_format = "m-{}"
             self.trim = True
+
+        def subitem(self, out, name, ref, settings, state, path, func):
+            out[name + "-link"] = url_merge_r(ref, out[name + "-link"])
+
+            rq, ref = self.session.get_html(out[name + "-link"], settings, state, True)
+            out[name] = func(self, ref, rq, settings, state, path + "-" + name)
 
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "hackernews-user", "url": url, "id": i_id}
@@ -146,20 +155,9 @@ class hackernews(ForumExtractor):
                 )
             )
 
-            t["submissions-link"] = url_merge_r(ref, t["submissions-link"])
-            t["comments-link"] = url_merge_r(ref, t["comments-link"])
-            t["favorites-link"] = url_merge_r(ref, t["favorites-link"])
-
-            rq, ref = self.session.get_html(
-                t["submissions-link"], settings, state, True
-            )
-            t["submissions"] = get_all_pages(self, ref, rq, settings, state)
-
-            rq, ref = self.session.get_html(t["comments-link"], settings, state, True)
-            t["comments"] = get_all_comments(self, ref, rq, settings, state)
-
-            rq, ref = self.session.get_html(t["favorites-link"], settings, state, True)
-            t["favorites"] = get_all_pages(self, ref, rq, settings, state)
+            self.subitem(t, "submissions", ref, settings, state, path, get_all_pages)
+            self.subitem(t, "comments", ref, settings, state, path, get_all_comments)
+            self.subitem(t, "favorites", ref, settings, state, path, get_all_pages)
 
             dict_add(ret, t)
             return ret
@@ -183,7 +181,9 @@ class hackernews(ForumExtractor):
             t = get_post(ref, fatitem)
             dict_add(ret, t)
 
-            ret["comments"] = get_all_comments(self, ref, rq, settings, state)
+            ret["comments"] = get_all_comments(
+                self, ref, rq, settings, state, path + "-comments"
+            )
             return ret
 
     def __init__(self, session=None, **kwargs):

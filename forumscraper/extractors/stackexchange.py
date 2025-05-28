@@ -13,7 +13,7 @@ from ..utils import (
     url_valid,
     conv_short_size,
 )
-from .common import ItemExtractor, ForumExtractor
+from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_stackexchange
 
 
@@ -202,7 +202,7 @@ class stackexchange(ForumExtractor):
             ]
             self.trim = True
 
-        def get_post_comments(self, rq, url, ref, postid, settings, state):
+        def get_post_comments(self, rq, url, ref, postid, settings, state, path):
             n = rq.search(r'div #b>comments-link-; a .comments-link i@b>"Show " | "t"')
             if len(n) > 0:
                 nsettings = get_settings(
@@ -213,6 +213,7 @@ class stackexchange(ForumExtractor):
                     nsettings,
                     state,
                 )
+                write_html(path + "-comments-" + str(postid), rq, settings)
 
             comments = json.loads(
                 rq.search(
@@ -236,7 +237,7 @@ class stackexchange(ForumExtractor):
                 i["user_link"] = url_merge(ref, i["user_link"])
             return comments
 
-        def get_post(self, rq, url, ref, settings, state):
+        def get_post(self, rq, url, ref, settings, state, path):
             post = json.loads(
                 rq.search(
                     r"""
@@ -284,7 +285,7 @@ class stackexchange(ForumExtractor):
             post["editor"]["link"] = url_merge(ref, post["editor"]["link"])
 
             post["comments"] = self.get_post_comments(
-                rq, url, ref, post["id"], settings, state
+                rq, url, ref, post["id"], settings, state, path
             )
             return post
 
@@ -313,11 +314,16 @@ class stackexchange(ForumExtractor):
             posts = []
             posts.append(
                 self.get_post(
-                    rq.filter("div #question").self()[0], url, ref, settings, state
+                    rq.filter("div #question").self()[0],
+                    url,
+                    ref,
+                    settings,
+                    state,
+                    path,
                 )
             )
 
-            for rq, ref in self.next(ref, rq, settings, state):
+            for rq, ref in self.next(ref, rq, settings, state, path):
                 for i in rq.filter(r"div #b>answer-").self():
                     posts.append(self.get_post(i, url, ref, settings, state))
 

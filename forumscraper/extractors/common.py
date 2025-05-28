@@ -158,7 +158,7 @@ class ItemExtractor:
             if r is not None:
                 return r[1][i[1]]
 
-    def next(self, ref, rq, settings, state, **kwargs):
+    def next(self, ref, rq, settings, state, path, **kwargs):
         yield rq, ref
 
         k = {"trim": self.trim}
@@ -171,7 +171,6 @@ class ItemExtractor:
                 and page >= settings["thread_pages_max"]
             ):
                 break
-            page += 1
 
             nexturl = self.get_next(ref, rq)
             if nexturl is None:
@@ -182,7 +181,11 @@ class ItemExtractor:
             except AlreadyVisitedError:
                 break
 
+            write_html(path + "-" + str(page), rq, settings)
+
             yield rq, ref
+
+            page += 1
 
     def get(self, typekey, url, settings, state, rq=None):
         outtype = settings["output"]
@@ -209,6 +212,8 @@ class ItemExtractor:
 
         url = self.get_url(url)
         rq, ref = self.get_first_html(url, settings, state, rq)
+
+        write_html(path, rq, settings)
 
         contents = self.get_contents(rq, settings, state, url, ref, i_id, path)
         if contents is None:

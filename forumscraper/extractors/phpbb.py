@@ -62,7 +62,7 @@ class phpbb(ForumExtractor):
             """
             )
 
-            for rq, ref in self.next(ref, rq, settings, state):
+            for rq, ref in self.next(ref, rq, settings, state, path):
                 t = json.loads(rq.search(expr))
                 posts += t["posts"]
 

@@ -124,6 +124,8 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 `--thread-pages-max NUM` and `--pages-max NUM` set max number of pages traversed in each thread and forum respectively.
 
+`--html` save html files.
+
 `--pages-max-depth NUM` sets recursion limit for forums.
 
 `--pages-forums-max NUM` limits number of forums that are processed from every page in forum.
@@ -430,6 +432,8 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 `retries=3` number of retries attempted in case of failure.
 
 `retry_wait=60` waiting time between retries.
+
+`html=False` save html files.
 
 `thread_pages_max=0` if greater than `0` limits number of pages traversed in threads.
 

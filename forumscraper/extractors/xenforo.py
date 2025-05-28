@@ -207,7 +207,7 @@ class xenforo2(ForumExtractor):
 
             rq = reliq(rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")))
 
-            for rq, ref in self.next(ref, rq, settings, state, trim=True):
+            for rq, ref in self.next(ref, rq, settings, state, path, trim=True):
                 post_tags = rq.search(
                     r"""
                         [0] div c@[2:] .california-article-post,
@@ -616,7 +616,7 @@ class xenforo1(ForumExtractor):
             )
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, trim=True):
+            for rq, ref in self.next(ref, rq, settings, state, path, trim=True):
                 for i in rq.filter(
                     r"ol ( #messageList )( .messageList ); li #E>post-[0-9]* data-author l@[1]"
                 ).self():

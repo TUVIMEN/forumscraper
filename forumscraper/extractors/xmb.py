@@ -73,7 +73,7 @@ class xmb(ForumExtractor):
             """
             )
 
-            for rq, ref in self.next(ref, rq, settings, state):
+            for rq, ref in self.next(ref, rq, settings, state, path):
                 for i in rq.search(
                     r'tr -class bgcolor | "%A\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"'
                 ).split("\n")[:-1]:
