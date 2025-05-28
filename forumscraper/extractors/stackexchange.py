@@ -30,7 +30,7 @@ class stackexchange(ForumExtractor):
             ]
             self.path_format = "m-{}"
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "stackexchange-user", "url": url, "id": int(i_id)}
 
             t = json.loads(
@@ -288,13 +288,12 @@ class stackexchange(ForumExtractor):
             )
             return post
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {
                 "format_version": "stackexchange-thread",
                 "url": url,
                 "id": int(i_id),
             }
-            page = 0
 
             t = json.loads(
                 rq.search(
@@ -318,20 +317,9 @@ class stackexchange(ForumExtractor):
                 )
             )
 
-            while True:
+            for rq, ref in self.next(ref, rq, settings, state):
                 for i in rq.filter(r"div #b>answer-").self():
                     posts.append(self.get_post(i, url, ref, settings, state))
-
-                page += 1
-                if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
-                ):
-                    break
-                nexturl = self.get_next(ref, rq)
-                if nexturl is None:
-                    break
-                rq, ref = self.session.get_html(nexturl, settings, state)
 
             ret["posts"] = posts
             return ret

@@ -31,9 +31,8 @@ class xmb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xmb-thread", "url": url, "id": int(i_id)}
-            page = 0
 
             t = json.loads(
                 rq.search(
@@ -74,7 +73,7 @@ class xmb(ForumExtractor):
             """
             )
 
-            while True:
+            for rq, ref in self.next(ref, rq, settings, state):
                 for i in rq.search(
                     r'tr -class bgcolor | "%A\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"'
                 ).split("\n")[:-1]:
@@ -122,17 +121,6 @@ class xmb(ForumExtractor):
                             pass
 
                     posts.append(post)
-
-                page += 1
-                if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
-                ):
-                    break
-                nexturl = self.get_next(ref, rq)
-                if nexturl is None:
-                    break
-                rq, ref = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret

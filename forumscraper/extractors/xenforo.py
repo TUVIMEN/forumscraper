@@ -104,8 +104,7 @@ class xenforo2(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
-            page = 0
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             url_first_delimiter = "?"
             if url.find("?") != -1:
                 url_first_delimiter = "&"
@@ -208,7 +207,7 @@ class xenforo2(ForumExtractor):
 
             rq = reliq(rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")))
 
-            while True:
+            for rq, ref in self.next(ref, rq, settings, state, trim=True):
                 post_tags = rq.search(
                     r"""
                         [0] div c@[2:] .california-article-post,
@@ -280,17 +279,6 @@ class xenforo2(ForumExtractor):
 
                     posts.append(post)
 
-                page += 1
-                if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
-                ):
-                    break
-                nexturl = self.get_next(ref, rq)
-                if nexturl is None:
-                    break
-                rq, ref = self.session.get_html(nexturl, settings, state, True)
-
             ret["posts"] = posts
             return ret
 
@@ -312,7 +300,7 @@ class xenforo2(ForumExtractor):
                 ref = self.session.base(rq, url)
             return (rq, ref)
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-2-user", "url": url, "id": int(i_id)}
 
             t = json.loads(
@@ -594,9 +582,8 @@ class xenforo1(ForumExtractor):
 
             return avatar, user_id
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": int(i_id)}
-            page = 0
 
             t = json.loads(
                 rq.search(
@@ -629,7 +616,7 @@ class xenforo1(ForumExtractor):
             )
             posts = []
 
-            while True:
+            for rq, ref in self.next(ref, rq, settings, state, trim=True):
                 for i in rq.filter(
                     r"ol ( #messageList )( .messageList ); li #E>post-[0-9]* data-author l@[1]"
                 ).self():
@@ -659,17 +646,6 @@ class xenforo1(ForumExtractor):
                     dict_add(post, t)
 
                     posts.append(post)
-
-                page += 1
-                if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
-                ):
-                    break
-                nexturl = self.get_next(ref, rq)
-                if nexturl is None:
-                    break
-                rq, ref = self.session.get_html(nexturl, settings, state, True)
 
             ret["posts"] = posts
             return ret

@@ -39,9 +39,8 @@ class smf1(ForumExtractor):
                 )
             ]
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "smf-1-thread", "url": url, "id": int(i_id)}
-            page = 0
 
             t = json.loads(
                 rq.search(
@@ -92,22 +91,11 @@ class smf1(ForumExtractor):
             """
             )
 
-            while True:
+            for rq, ref in self.next(ref, rq, settings, state):
                 t = json.loads(rq.search(expr))
                 for i in t["posts"]:
                     i["avatar"] = url_merge_r(ref, i["avatar"])
                 posts += t["posts"]
-
-                page += 1
-                if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
-                ):
-                    break
-                nexturl = self.get_next(ref, rq)
-                if nexturl is None:
-                    break
-                rq, ref = self.session.get_html(nexturl, settings, state)
 
             for i in posts:
                 ui = []
@@ -432,9 +420,8 @@ class smf2(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "smf-2-thread", "url": url, "id": int(i_id)}
-            page = 0
 
             forumposts = rq.filter(r"div #forumposts")
             title = forumposts.search(
@@ -499,7 +486,7 @@ class smf2(ForumExtractor):
             """
             )
 
-            while True:
+            for rq, ref in self.next(ref, rq, settings, state):
                 t = json.loads(rq.search(expr))
                 outt = []
                 for i in t["posts"]:
@@ -509,17 +496,6 @@ class smf2(ForumExtractor):
                     outt.append(i)
 
                 posts += outt
-
-                page += 1
-                if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
-                ):
-                    break
-                nexturl = self.get_next(ref, rq)
-                if nexturl is None:
-                    break
-                rq, ref = self.session.get_html(nexturl, settings, state, self.trim)
 
             ret["posts"] = posts
             return ret

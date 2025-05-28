@@ -43,7 +43,7 @@ class invision(ForumExtractor):
                 url, settings, state, self.trim, return_cookies
             )
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
 
             t = json.loads(
@@ -189,9 +189,8 @@ class invision(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
-            page = 0
 
             t = json.loads(
                 rq.search(
@@ -292,7 +291,7 @@ class invision(ForumExtractor):
             )
             posts = []
 
-            while True:
+            for rq, ref in self.next(ref, rq, settings, state):
                 for i in rq.filter(r"article #B>elComment_[0-9]*").self():
                     post = {}
 
@@ -356,21 +355,6 @@ class invision(ForumExtractor):
                     post["reactions_details"] = reactions_details
 
                     posts.append(post)
-
-                page += 1
-                if (
-                    settings["thread_pages_max"] != 0
-                    and page >= settings["thread_pages_max"]
-                ):
-                    break
-                nexturl = self.get_next(ref, rq)
-                if nexturl is None:
-                    break
-
-                try:
-                    rq, ref = self.session.get_html(nexturl, settings, state, True)
-                except AlreadyVisitedError:
-                    break
 
             ret["posts"] = posts
             return ret

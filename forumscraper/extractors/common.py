@@ -5,6 +5,7 @@ import os
 import json
 import re
 from concurrent.futures import ThreadPoolExecutor
+from itertools import batched
 from reliq import reliq
 
 from ..utils import strtosha256, get_settings, url_valid, url_merge
@@ -21,15 +22,28 @@ common_exceptions = (
     AlreadyVisitedError,
 )
 
+BUNDLE_SIZE = 200
 
-def write_json(path, data, settings):
+
+def write_file(path, data, settings):
     if settings["compress_func"] is None:
         with open(path, "w") as file:
-            file.write(json.dumps(data))
+            file.write(data)
     else:
         with open(path, "wb") as file:
-            out = settings["compress_func"](json.dumps(data).encode())
+            out = settings["compress_func"](data.encode())
             file.write(out)
+
+
+def write_json(path, data, settings):
+    write_file(path, json.dumps(data, separators=(",", ":")), settings)
+
+
+def write_html(path, rq, settings):
+    if not settings["html"]:
+        return
+
+    write_file(path + ".html", rq.get_data(), settings)
 
 
 def handle_error(self, exception, url, settings, for_pedantic=False):
@@ -118,6 +132,8 @@ class ItemExtractor:
         self.session = session
         self.common_exceptions = common_exceptions
 
+        self.get_next = None
+
     def state_add_url(self, keytype, url, state, settings):
         return state_add_url(keytype, url, state, settings)
 
@@ -141,6 +157,32 @@ class ItemExtractor:
             r = url_valid(url, regex=i[0], base=True, matchwhole=True)
             if r is not None:
                 return r[1][i[1]]
+
+    def next(self, ref, rq, settings, state, **kwargs):
+        yield rq, ref
+
+        k = {"trim": self.trim}
+        k.update(kwargs)
+        page = 1
+
+        while self.get_next:
+            if (
+                settings["thread_pages_max"] != 0
+                and page >= settings["thread_pages_max"]
+            ):
+                break
+            page += 1
+
+            nexturl = self.get_next(ref, rq)
+            if nexturl is None:
+                break
+
+            try:
+                rq, ref = self.session.get_html(nexturl, settings, state, **k)
+            except AlreadyVisitedError:
+                break
+
+            yield rq, ref
 
     def get(self, typekey, url, settings, state, rq=None):
         outtype = settings["output"]
@@ -168,7 +210,7 @@ class ItemExtractor:
         url = self.get_url(url)
         rq, ref = self.get_first_html(url, settings, state, rq)
 
-        contents = self.get_contents(rq, settings, state, url, ref, i_id)
+        contents = self.get_contents(rq, settings, state, url, ref, i_id, path)
         if contents is None:
             return
 
@@ -183,7 +225,7 @@ class ItemExtractor:
 
         return state
 
-    def get_contents(self, rq, settings, state, url, ref, i_id):
+    def get_contents(self, rq, settings, state, url, ref, i_id, path):
         pass
 
 
@@ -208,6 +250,7 @@ class ForumExtractor:
 
         self.settings = {
             "thread_pages_max": 0,
+            "html": False,
             "pages_max": 0,
             "pages_max_depth": 0,
             "pages_threads_max": 0,
@@ -357,14 +400,16 @@ class ForumExtractor:
 
         if settings["max_workers"] > 1 and urls_len > 0:
             with ThreadPoolExecutor(max_workers=settings["max_workers"]) as executor:
-                list(
-                    executor.map(
+                for i in batched(
+                    urls, BUNDLE_SIZE
+                ):  # I've seen threads with 11000 pages - this is necessary
+                    for j in executor.map(
                         lambda x: self.go_through_page_thread(
                             x, settings, state, depth
                         ),
-                        urls,
-                    )
-                )
+                        i,
+                    ):
+                        pass
         else:
             for url in urls:
                 self.go_through_page_thread(url, settings, state, depth)
@@ -485,6 +530,7 @@ class ForumExtractor:
             state["data"][typekey].append(data)
         if path:
             write_json(path, data, settings)
+            write_html(path, rq, settings)
             state["files"][typekey].append(path)
 
     def process_forum(self, url, ref, rq, settings, state):

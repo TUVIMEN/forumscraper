@@ -85,6 +85,7 @@ def main():
         "failed": args.failed,
         "force": args.force,
         **disturbed,
+        "html": args.html,
         "thread_pages_max": args.thread_pages_max,
         "pages_max": args.pages_max,
         "pages_max_depth": args.pages_max_depth,

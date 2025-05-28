@@ -95,42 +95,19 @@ def get_page(ref, rq):
     return threads
 
 
+def go_through(self, ref, rq, settings, state, func):
+    r = []
+    for rq, ref in self.next(ref, rq, settings, state):
+        r += func(ref, rq)
+    return r
+
+
 def get_all_pages(self, ref, rq, settings, state):
-    threads = []
-    page = 0
-
-    while True:
-        threads += get_page(ref, rq)
-
-        page += 1
-        if settings["thread_pages_max"] != 0 and page >= settings["thread_pages_max"]:
-            break
-        url = self.get_next(ref, rq)
-        if url is None:
-            break
-
-        rq, ref = self.session.get_html(url, settings, state, True)
-
-    return threads
+    return go_through(self, ref, rq, settings, state, get_page)
 
 
 def get_all_comments(self, ref, rq, settings, state):
-    comments = []
-    page = 0
-
-    while True:
-        comments += get_comments(ref, rq)
-
-        page += 1
-        if settings["thread_pages_max"] != 0 and page >= settings["thread_pages_max"]:
-            break
-        url = self.get_next(ref, rq)
-        if url is None:
-            break
-
-        rq, ref = self.session.get_html(url, settings, state, True)
-
-    return comments
+    return go_through(self, ref, rq, settings, state, get_comments)
 
 
 class hackernews(ForumExtractor):
@@ -147,7 +124,7 @@ class hackernews(ForumExtractor):
             self.path_format = "m-{}"
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "hackernews-user", "url": url, "id": i_id}
 
             t = json.loads(
@@ -199,7 +176,7 @@ class hackernews(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id):
+        def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "hackernews-thread", "url": url, "id": i_id}
 
             fatitem = rq.filter(r"[0] table .fatitem")

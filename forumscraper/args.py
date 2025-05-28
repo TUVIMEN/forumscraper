@@ -213,6 +213,11 @@ def argparser():
 
     settings = parser.add_argument_group("Settings")
     settings.add_argument(
+        "--html",
+        action="store_true",
+        help="Save html files along side json output with .html extension",
+    )
+    settings.add_argument(
         "--nothreads",
         action="store_true",
         help="do not download threads (works only when page passed is not a thread)",
