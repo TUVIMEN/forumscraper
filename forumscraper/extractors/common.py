@@ -80,10 +80,9 @@ def get_first_html(
         )
 
     if not isinstance(rq, reliq):
-        rq = reliq(rq)
+        rq = reliq(rq, ref=url)
 
-    if ref is None:
-        ref = extractor.session.base(rq, url)
+    ref = rq.ref
     return (rq, ref)
 
 

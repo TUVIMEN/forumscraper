@@ -221,16 +221,6 @@ class Session(requests.Session):
             else:
                 return resp
 
-    @staticmethod
-    def base(rq, url):
-        ref = url
-        u = rq.search(r'[0] head; [0] base href=>[1:] | "%(href)v"')
-        if u != "":
-            u = url_merge_r(url, u)
-            if u != "":
-                ref = u
-        return ref
-
     def get_html(self, url, settings, state, trim=False, return_cookies=False):
         resp = self.get_req(url, settings, state)
 
@@ -238,9 +228,8 @@ class Session(requests.Session):
         if trim:
             r = smarttrim(r)
 
-        rq = reliq(r)
-
-        ref = self.base(rq, url)
+        rq = reliq(r, ref=url)
+        ref = rq.ref
 
         if return_cookies:
             return (rq, ref, resp.cookies.get_dict())

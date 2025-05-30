@@ -295,9 +295,10 @@ class xenforo2(ForumExtractor):
             self.path_format = "m-{}"
 
         def get_first_html(self, url, settings, state, rq=None, ref=None):
-            rq = reliq(self.session.get_json(url, settings, state)["html"]["content"])
-            if ref is None:
-                ref = self.session.base(rq, url)
+            rq = reliq(
+                self.session.get_json(url, settings, state)["html"]["content"], ref=url
+            )
+            ref = rq.ref
             return (rq, ref)
 
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
