@@ -33,9 +33,8 @@ class stackexchange(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "stackexchange-user", "url": url, "id": int(i_id)}
 
-            t = json.loads(
-                rq.search(
-                    r"""
+            t = rq.json(
+                r"""
                 div #mainbar-full; {
                     [0] div child@; {
                         .avatar a; [0] img src | "%(src)v",
@@ -146,7 +145,6 @@ class stackexchange(ForumExtractor):
                     }
                 }
             """
-                )
             )
             t["avatar"] = url_merge_r(ref, t["avatar"])
             t["meta-profile"] = url_merge_r(ref, t["meta-profile"])
@@ -215,9 +213,8 @@ class stackexchange(ForumExtractor):
                 )
                 write_html(path + "-comments-" + str(postid), rq, settings)
 
-            comments = json.loads(
-                rq.search(
-                    r"""
+            comments = rq.json(
+                r"""
                 .comments li #E>comment-[0-9]+; {
                     .id.u * self@ | "%(data-comment-id)v",
                     .score.i div .comment-score; * c@[0] | "%i",
@@ -230,7 +227,6 @@ class stackexchange(ForumExtractor):
                     },
                 } |
              """
-                )
             )["comments"]
 
             for i in comments:
@@ -238,9 +234,8 @@ class stackexchange(ForumExtractor):
             return comments
 
         def get_post(self, rq, url, ref, settings, state, path):
-            post = json.loads(
-                rq.search(
-                    r"""
+            post = rq.json(
+                r"""
                 .id.u * self@ | "%(data-answerid)v %(data-questionid)v",
                 .rating.i div .js-vote-count data-value | "%(data-value)v",
                 .checkmark.b [0] div .js-accepted-answer-indicator | "t",
@@ -277,7 +272,6 @@ class stackexchange(ForumExtractor):
                     }
                 },
                 """
-                )
             )
             post["author"]["avatar"] = url_merge(ref, post["author"]["avatar"])
             post["author"]["link"] = url_merge(ref, post["author"]["link"])
@@ -296,18 +290,16 @@ class stackexchange(ForumExtractor):
                 "id": int(i_id),
             }
 
-            t = json.loads(
-                rq.search(
-                    r"""
-                    .title h1 itemprop="name"; a | "%Di" / trim,
-                    div .flex--item .mb8 .ws-nowrap; {
-                        .views.u [0] * self@ i@"Viewed" | "%(title)v" / tr "0-9" "" "c",
-                        .asked [0] * self@ i@"Asked"; [0] time itemprop="dateCreated" datetime | "%(datetime)v",
-                        .modified [0] * self@ i@"Modified"; [0] a title | "%(title)v"
-                    },
-                    .tags.a div .ps-relative; a .post-tag | "%i\n"
-                    """
-                )
+            t = rq.json(
+                r"""
+                .title h1 itemprop="name"; a | "%Di" / trim,
+                div .flex--item .mb8 .ws-nowrap; {
+                    .views.u [0] * self@ i@"Viewed" | "%(title)v" / tr "0-9" "" "c",
+                    .asked [0] * self@ i@"Asked"; [0] time itemprop="dateCreated" datetime | "%(datetime)v",
+                    .modified [0] * self@ i@"Modified"; [0] a title | "%(title)v"
+                },
+                .tags.a div .ps-relative; a .post-tag | "%i\n"
+                """
             )
             dict_add(ret, t)
 
@@ -553,41 +545,39 @@ class stackexchange(ForumExtractor):
         return self.process_forum_r(url, rq, ref, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = json.loads(
-            rq.search(
-                r"""
-                    .threads div #b>question-summary-; {
-                        div .s-post-summary--stats; div .s-post-summary--stats-item; {
-                            .score.u [0] * self@ title=b>"Score of ",
-                            .views.u [0] * self@ title=e>" views" | "%(title)v",
-                            [0] span i@f>"answers"; {
-                                .answers.u [0] span .e>-number spre@ | "%i",
-                                .solved.b * .has-accepted-answer parent@ | "t"
+        t = rq.json(
+            r"""
+            .threads div #b>question-summary-; {
+                div .s-post-summary--stats; div .s-post-summary--stats-item; {
+                    .score.u [0] * self@ title=b>"Score of ",
+                    .views.u [0] * self@ title=e>" views" | "%(title)v",
+                    [0] span i@f>"answers"; {
+                        .answers.u [0] span .e>-number spre@ | "%i",
+                        .solved.b * .has-accepted-answer parent@ | "t"
+                    },
+                    .bounty.u * self@ .has-bounty | "%i"
+                },
+                div .s-post-summary--content; {
+                    * .s-post-summary--content-title; [0] a; {
+                        .title * self@ | "%Di" trim,
+                        .link * self@ | "%(href)v"
+                    },
+                    .excerp * .s-post-summary--content-excerpt | "%i",
+                    [0] * .s-post-summary--meta; {
+                        .tags.a a .s-tag | "%i\n",
+                        .author div .s-user-card; {
+                            .avatar img .s-avatar--image | "%(src)v",
+                            div .s-user-card--info; {
+                                .name [0] * c@[0] | "%Di" / trim,
+                                .link a | "%(href)v"
                             },
-                            .bounty.u * self@ .has-bounty | "%i"
+                            .reputation.u li .s-user-card--rep; [0] span | "%(title)v %i" / tr ","
                         },
-                        div .s-post-summary--content; {
-                            * .s-post-summary--content-title; [0] a; {
-                                .title * self@ | "%Di" trim,
-                                .link * self@ | "%(href)v"
-                            },
-                            .excerp * .s-post-summary--content-excerpt | "%i",
-                            [0] * .s-post-summary--meta; {
-                                .tags.a a .s-tag | "%i\n",
-                                .author div .s-user-card; {
-                                    .avatar img .s-avatar--image | "%(src)v",
-                                    div .s-user-card--info; {
-                                        .name [0] * c@[0] | "%Di" / trim,
-                                        .link a | "%(href)v"
-                                    },
-                                    .reputation.u li .s-user-card--rep; [0] span | "%(title)v %i" / tr ","
-                                },
-                                .date span .relativetime | "%(title)v"
-                            }
-                        }
-                    } |
-                """
-            )
+                        .date span .relativetime | "%(title)v"
+                    }
+                }
+            } |
+            """
         )
 
         threads = t["threads"]

@@ -86,9 +86,8 @@ class xenforo2(ForumExtractor):
                     ].translate(str.maketrans("", "", "\n\t"))
                 )
 
-                t = json.loads(
-                    obj.search(
-                        r"""
+                t = obj.json(
+                    r"""
                     .reactions div .contentRow; {
                         .user_id.u * .username data-user-id | "%(data-user-id)v",
                         .user * .username data-user-id; * c@[0] | "%Di" / trim,
@@ -96,7 +95,6 @@ class xenforo2(ForumExtractor):
                         .reaction span .reaction; img title | "%(title)v"
                     } |
                 """
-                    )
                 )
                 ret = t["reactions"]
 
@@ -110,9 +108,8 @@ class xenforo2(ForumExtractor):
                 url_first_delimiter = "&"
             ret = {"format_version": "xenforo-2-thread", "url": url, "id": int(i_id)}
 
-            t = json.loads(
-                rq.search(
-                    r"""
+            t = rq.json(
+                r"""
                 .title h1; {
                     h1 .p-title-value | "%Di",
                     h1 qid="page-header" | "%Di",
@@ -134,7 +131,6 @@ class xenforo2(ForumExtractor):
                     } |
                 }
             """
-                )
             )
             dict_add(ret, t)
 
@@ -221,7 +217,7 @@ class xenforo2(ForumExtractor):
                 for i in post_tags:
                     tag = reliq(i)
 
-                    post = json.loads(tag.search(expr))
+                    post = tag.json(expr)
 
                     post["user_link"] = url_merge_r(ref, post["user_link"])
                     if post["user_avatar"][:1] == "/":
@@ -304,9 +300,8 @@ class xenforo2(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-2-user", "url": url, "id": int(i_id)}
 
-            t = json.loads(
-                rq.search(
-                    r"""
+            t = rq.json(
+                r"""
                 .background div class=B>"memberProfileBanner memberTooltip-header.*" style=a>"url(" | "%(style)v" / sed "s#.*url(##;s#^//#https://#;s/?.*//;p;q" "n",
                 .location a href=b>/misc/location-info | "%i",
                 .avatar img src | "%(src)v" / sed "s/?.*//; q",
@@ -323,7 +318,6 @@ class xenforo2(ForumExtractor):
                     } / tr '\n' sed "s/^\a*//;s/\a.*//"
                 } |
             """
-                )
             )
             t["background"] = url_merge_r(ref, t["background"])
             t["avatar"] = url_merge_r(ref, t["avatar"])
@@ -381,104 +375,102 @@ class xenforo2(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = json.loads(
-            rq.search(
-                r"""
-                .categories div .block -b>data-widget- -.thNodes__nodeList -data-type=thread; {
-                    [0] * ( .block-header )( .section-header ); [0] * c@[0]; {
-                        .name * self@ | "%Di" / trim,
-                        .link * self@ | "%(href)v"
+        t = rq.json(
+            r"""
+            .categories div .block -b>data-widget- -.thNodes__nodeList -data-type=thread; {
+                [0] * ( .block-header )( .section-header ); [0] * c@[0]; {
+                    .name * self@ | "%Di" / trim,
+                    .link * self@ | "%(href)v"
+                },
+                .forums [0] div ( .block-body )( .node-list ); div .node l@[1:2]; {
+                    .icon [0] span .node-icon; {
+                        i | "%(class)v" sed "s/.* //",
+                        span .icon | "%(class)v" tr " " "\n" sed "/^icon$/d;/^forum$/d;s/node--//" trim,
                     },
-                    .forums [0] div ( .block-body )( .node-list ); div .node l@[1:2]; {
-                        .icon [0] span .node-icon; {
-                            i | "%(class)v" sed "s/.* //",
-                            span .icon | "%(class)v" tr " " "\n" sed "/^icon$/d;/^forum$/d;s/node--//" trim,
-                        },
-                        * .node-main; {
-                            * .node-title; [0] a; {
-                                .name * self@ | "%Di" / trim,
-                                .link * self@ | "%(href)v"
-                            },
-                            .description div .node-description | "%i",
-                            .childboards [0] ol ( .node-subNodeFlatList )( .subNodeMenu ); a .subNodeLink; {
-                                .icon {
-                                    * self@ | "%(class)v\a" sed "s/.*--//; /^subNodeLink/d",
-                                    i | "%(class)v" sed "s/ subNodeLink-icon//; s/.* //"
-                                } / sed "s/\a.*//",
-                                .name * self@ | "%Dt" trim,
-                                .link * self@ | "%(href)v"
-                            } |
-                        },
-                        div ( .node-meta )( .node-stats ); {
-                            dd; {
-                                .topics [0] * self@ | "%i",
-                                .posts [1] * self@ | "%i"
-                            },
-                            span title; {
-                                .posts2.u [0] * self@ | "%(title)v" tr ",. ",
-                                .views.u [1] * self@ | "%(title)v" tr ",. "
-                            }
-                        },
-                        .placeholder [0] * .node-extra-placeholder | "%i",
-                        .lastpost div .node-extra; {
-                            .avatar div .node-extra-icon; [0] img | "%(src)v",
-                            * .node-extra-title; [0] a; {
-                                .title * self@ | "%(title)Dv" trim,
-                                .link * self@ | "%(href)v",
-                                .label [0] span .label | "%i"
-                            },
-                            .date time .node-extra-date datetime | "%(datetime)v",
-                            * .node-extra-user; [0] a; {
-                                .user [0] * c@[0] | "%Di" trim,
-                                .user_link * self@ | "%(href)v"
-                            }
-                        },
-                        .date2 [0] * .last-time; time datetime | "%(datetime)v"
-                    } |
-                } | ,
-                .threads div .structItem--thread; {
-                    .votes.u span .contentVote-score | "%i",
-                    .avatar div .structItem-iconContainer; [0] img src | "%(src)v",
-                    div .structItem-cell--main; {
-                        .icons.a {
-                            ul .structItem-statuses; span; {
-                                img title | "%(title)v\n",
-                                * self@ | "%t\n" sed "/^$/d",
-                            },
-                            svg title | "%(title)v\n"
-                        },
-                        .label span .label | "%t",
-                        * .structItem-title; [-] a -.labelLink; {
-                            .title * self@ | "%Di" trim,
+                    * .node-main; {
+                        * .node-title; [0] a; {
+                            .name * self@ | "%Di" / trim,
                             .link * self@ | "%(href)v"
                         },
-                        [0] a .username; {
-                            .user * c@[0] | "%Di" trim,
-                            .user_link * self@ | "%(href)v"
+                        .description div .node-description | "%i",
+                        .childboards [0] ol ( .node-subNodeFlatList )( .subNodeMenu ); a .subNodeLink; {
+                            .icon {
+                                * self@ | "%(class)v\a" sed "s/.*--//; /^subNodeLink/d",
+                                i | "%(class)v" sed "s/ subNodeLink-icon//; s/.* //"
+                            } / sed "s/\a.*//",
+                            .name * self@ | "%Dt" trim,
+                            .link * self@ | "%(href)v"
+                        } |
+                    },
+                    div ( .node-meta )( .node-stats ); {
+                        dd; {
+                            .topics [0] * self@ | "%i",
+                            .posts [1] * self@ | "%i"
                         },
-                        .date [0] time datetime | "%(datetime)v",
-                        .lastpage.u * .structItem-pageJump; [-] a | "%i"
+                        span title; {
+                            .posts2.u [0] * self@ | "%(title)v" tr ",. ",
+                            .views.u [1] * self@ | "%(title)v" tr ",. "
+                        }
                     },
-                    div .structItem-cell--meta; {
-                        dt i@B>"^[0-9]",
-                        dd
-                    }; {
-                        .replies [0] * c@[0] | "%i",
-                        .views [1] * c@[0] | "%i"
-                    },
-                    .replies2.u [0] div .reply-count title | "%(title)v" tr ",. ",
-                    .views2.u [0] div .view-count title | "%(title)v" tr ",. ",
-                    .lastpost div ( .structItem-cell--latest )( .last-post-cell ); {
-                        .date [0] time datetime | "%(datetime)v",
-                        [0] a .username; {
-                            .user * c@[0] | "%Di" trim,
-                            .user_link * self@ | "%(href)v"
+                    .placeholder [0] * .node-extra-placeholder | "%i",
+                    .lastpost div .node-extra; {
+                        .avatar div .node-extra-icon; [0] img | "%(src)v",
+                        * .node-extra-title; [0] a; {
+                            .title * self@ | "%(title)Dv" trim,
+                            .link * self@ | "%(href)v",
+                            .label [0] span .label | "%i"
                         },
+                        .date time .node-extra-date datetime | "%(datetime)v",
+                        * .node-extra-user; [0] a; {
+                            .user [0] * c@[0] | "%Di" trim,
+                            .user_link * self@ | "%(href)v"
+                        }
                     },
-                    .lp-avatar div .structItem-cell--iconEnd; [0] img src | "%(src)v"
+                    .date2 [0] * .last-time; time datetime | "%(datetime)v"
                 } |
-                """
-            )
+            } | ,
+            .threads div .structItem--thread; {
+                .votes.u span .contentVote-score | "%i",
+                .avatar div .structItem-iconContainer; [0] img src | "%(src)v",
+                div .structItem-cell--main; {
+                    .icons.a {
+                        ul .structItem-statuses; span; {
+                            img title | "%(title)v\n",
+                            * self@ | "%t\n" sed "/^$/d",
+                        },
+                        svg title | "%(title)v\n"
+                    },
+                    .label span .label | "%t",
+                    * .structItem-title; [-] a -.labelLink; {
+                        .title * self@ | "%Di" trim,
+                        .link * self@ | "%(href)v"
+                    },
+                    [0] a .username; {
+                        .user * c@[0] | "%Di" trim,
+                        .user_link * self@ | "%(href)v"
+                    },
+                    .date [0] time datetime | "%(datetime)v",
+                    .lastpage.u * .structItem-pageJump; [-] a | "%i"
+                },
+                div .structItem-cell--meta; {
+                    dt i@B>"^[0-9]",
+                    dd
+                }; {
+                    .replies [0] * c@[0] | "%i",
+                    .views [1] * c@[0] | "%i"
+                },
+                .replies2.u [0] div .reply-count title | "%(title)v" tr ",. ",
+                .views2.u [0] div .view-count title | "%(title)v" tr ",. ",
+                .lastpost div ( .structItem-cell--latest )( .last-post-cell ); {
+                    .date [0] time datetime | "%(datetime)v",
+                    [0] a .username; {
+                        .user * c@[0] | "%Di" trim,
+                        .user_link * self@ | "%(href)v"
+                    },
+                },
+                .lp-avatar div .structItem-cell--iconEnd; [0] img src | "%(src)v"
+            } |
+            """
         )
 
         categories = []
@@ -586,9 +578,8 @@ class xenforo1(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": int(i_id)}
 
-            t = json.loads(
-                rq.search(
-                    r"""
+            t = rq.json(
+                r"""
                 .title { div class=b>titleBar; [0] h1 | "%Di" trim, div #header; [0] h1 | "%Di" trim / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" },
                 p #pageDescription; {
                     .user_id.u a .username href | "%(href)v" / sed "s/^.*[\/.]\([0-9]\+\)/\1/; s/[^0-9]$//",
@@ -598,7 +589,6 @@ class xenforo1(ForumExtractor):
                 .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%Di\n" / sed "/^$/d" trim "\n",
                 .tags.a("|") ul .tagList; a .tag | "%i|" / sed "s/<[^>]*>[^<]*<\/[^>]*>//g; s/|$//"
             """
-                )
             )
             dict_add(ret, t)
 
@@ -628,12 +618,11 @@ class xenforo1(ForumExtractor):
                     post["avatar"] = avatar
                     post["user_id"] = user_id
 
-                    t = json.loads(messageUB.search(expr))
+                    t = messageUB.json(expr)
                     dict_add(post, t)
 
-                    t = json.loads(
-                        i.search(
-                            r"""
+                    t = i.json(
+                        r"""
                         .date div .messageMeta; span .item; [0] * .DateTime; {
                             * l@[0] title | "%(title)v",
                             * l@[0] -title | "%i"
@@ -642,7 +631,6 @@ class xenforo1(ForumExtractor):
                         .id.u li data-author l@[0] #B>post-[0-9]* | "%(id)v" / sed "s/^post-//",
                         .text div .messageContent; article | "%i"
                     """
-                        )
                     )
                     dict_add(post, t)
 
@@ -700,86 +688,84 @@ class xenforo1(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = json.loads(
-            rq.search(
-                r"""
-                .categories { ol #forums; li child@ || ol .nodeList }; {
-                    [0] div .nodeInfo child@; div .categoryText; {
-                        * .nodeTitle; a; {
-                            .name * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        },
-                        .description * .nodeDescription | "%i",
+        t = rq.json(
+            r"""
+            .categories { ol #forums; li child@ || ol .nodeList }; {
+                [0] div .nodeInfo child@; div .categoryText; {
+                    * .nodeTitle; a; {
+                        .name * self@ | "%Di" / trim,
+                        .link * self@ | "%(href)v"
                     },
-                    .forums {
-                        ol .nodeList l@[:2]; li child@ ||
-                        * self@
-                    }; div .nodeInfo [0] child@; {
-                        .state span .nodeIcon title child@ | "%(title)v",
-                        .icon span .nodeIcons; [0] img | "%(src)v",
-                        div .nodeText child@; {
-                            * .nodeTitle; [0] a; {
-                                .name * self@ | "%Di" / trim,
-                                .link * self@ | "%(href)v"
-                            },
-                            .description * #b>nodeDescription child@ | "%i",
-                            div .nodeStats; dd; {
-                                .topics.u [0] * self@ | "%i" tr ",. ",
-                                .posts.u [1] * self@ | "%i" tr ",. "
-                            },
-                        },
-                        .feed div .nodeControls; a .feedIcon | "%(href)v",
-                        .childboards li .node .level-n; a; {
+                    .description * .nodeDescription | "%i",
+                },
+                .forums {
+                    ol .nodeList l@[:2]; li child@ ||
+                    * self@
+                }; div .nodeInfo [0] child@; {
+                    .state span .nodeIcon title child@ | "%(title)v",
+                    .icon span .nodeIcons; [0] img | "%(src)v",
+                    div .nodeText child@; {
+                        * .nodeTitle; [0] a; {
                             .name * self@ | "%Di" / trim,
                             .link * self@ | "%(href)v"
-                        } | ,
-                        .lastpost div .nodeLastPost; {
-                            * .lastThreadTitle; [0] a; {
-                                .title * self@ | "%Di" / trim,
-                                .link * self@ | "%(href)v"
+                        },
+                        .description * #b>nodeDescription child@ | "%i",
+                        div .nodeStats; dd; {
+                            .topics.u [0] * self@ | "%i" tr ",. ",
+                            .posts.u [1] * self@ | "%i" tr ",. "
+                        },
+                    },
+                    .feed div .nodeControls; a .feedIcon | "%(href)v",
+                    .childboards li .node .level-n; a; {
+                        .name * self@ | "%Di" / trim,
+                        .link * self@ | "%(href)v"
+                    } | ,
+                    .lastpost div .nodeLastPost; {
+                        * .lastThreadTitle; [0] a; {
+                            .title * self@ | "%Di" / trim,
+                            .link * self@ | "%(href)v"
+                        },
+                        * .lastThreadMeta; {
+                            * .lastThreadUser; [0] a; {
+                                .user * self@ | "%Di" trim,
+                                .user_link * self@ | "%(href)v"
                             },
-                            * .lastThreadMeta; {
-                                * .lastThreadUser; [0] a; {
-                                    .user * self@ | "%Di" trim,
-                                    .user_link * self@ | "%(href)v"
-                                },
-                                .date * .DateTime | "%(title)v\a%(data-time)v" sed "s/^\a//g; s/\a.*//;"
-                            }
+                            .date * .DateTime | "%(title)v\a%(data-time)v" sed "s/^\a//g; s/\a.*//;"
                         }
-                    } |
-                } | ,
-                .threads ol .discussionListItems; li id=b>thread-; {
-                    .avatar div .posterAvatar; [0] img | "%(src)v",
-                    div .main child@; div .titleText child@; {
-                        .icons.a div .iconKey child@; span class child@ | "%(class)v\n" / tr " " "\n",
-                        * .title child@; {
-                            .label [0] a .prefixLink; * c@[0] | "%i",
-                            [0] a -.prefixLink; {
-                                .title * self@ | "%Di" / trim,
-                                .link * self@ | "%(href)v"
-                            }
-                        },
-                        [0] a .username; {
-                            .user * self@; [0] * c@[0] | "%Di" trim,
-                            .user_link * self@ | "%(href)v"
-                        },
-                        .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;",
-                        .lastpage.u * .itemPageNav; [-] a href | "%i"
-                    },
-                    div .stats child@; {
-                        .replies.u [0] dd | "%i" tr "., ",
-                        .views.u [1] dd | "%i" tr "., "
-                    },
-                    .lastpost div .lastPost child@; {
-                        [0] a .username; {
-                            .user * self@; * c@[0] | "%Di" / trim,
-                            .user_link * self@ | "%(href)v"
-                        },
-                        .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;"
                     }
                 } |
-                """
-            )
+            } | ,
+            .threads ol .discussionListItems; li id=b>thread-; {
+                .avatar div .posterAvatar; [0] img | "%(src)v",
+                div .main child@; div .titleText child@; {
+                    .icons.a div .iconKey child@; span class child@ | "%(class)v\n" / tr " " "\n",
+                    * .title child@; {
+                        .label [0] a .prefixLink; * c@[0] | "%i",
+                        [0] a -.prefixLink; {
+                            .title * self@ | "%Di" / trim,
+                            .link * self@ | "%(href)v"
+                        }
+                    },
+                    [0] a .username; {
+                        .user * self@; [0] * c@[0] | "%Di" trim,
+                        .user_link * self@ | "%(href)v"
+                    },
+                    .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;",
+                    .lastpage.u * .itemPageNav; [-] a href | "%i"
+                },
+                div .stats child@; {
+                    .replies.u [0] dd | "%i" tr "., ",
+                    .views.u [1] dd | "%i" tr "., "
+                },
+                .lastpost div .lastPost child@; {
+                    [0] a .username; {
+                        .user * self@; * c@[0] | "%Di" / trim,
+                        .user_link * self@ | "%(href)v"
+                    },
+                    .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;"
+                }
+            } |
+            """
         )
 
         categories = t["categories"]

@@ -12,9 +12,8 @@ from .identify import identify_hackernews
 
 
 def get_comments(ref, rq):
-    comments = json.loads(
-        rq.search(
-            r"""
+    comments = rq.json(
+        r"""
         .comments tr id .athing .comtr; {
             .id.u * l@[0] | "%(id)v",
             table; tr; {
@@ -36,7 +35,6 @@ def get_comments(ref, rq):
             }
         } |
     """
-        )
     )["comments"]
 
     for i in comments:
@@ -46,9 +44,8 @@ def get_comments(ref, rq):
 
 
 def get_post(ref, rq):
-    post = json.loads(
-        rq.search(
-            r"""
+    post = rq.json(
+        r"""
         tr id .athing l@[:1]; {
             .id.u * self@ | "%(id)v",
             span .titleline; [0] a; {
@@ -70,7 +67,6 @@ def get_post(ref, rq):
         },
         .text [0] div .toptext | "%i"
         """
-        )
     )
 
     post["link"] = url_merge(ref, post["link"])
@@ -136,23 +132,21 @@ class hackernews(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "hackernews-user", "url": url, "id": i_id}
 
-            t = json.loads(
-                rq.search(
-                    r"""
-                    table #hnmain; [1] table desc@; tr; {
-                        [0] td i@f>"user:"; td ssub@; {
-                            .created-timestamp * timestamp self@ | "%(timestamp)v",
-                            .user [0] a; [0] * c@[0] i@>[1:] | "%Di" trim
-                        },
-                        .created-date [0] td i@f>"created:"; td ssub@; [0] a | "%i",
-                        .karma.u [0] td i@f>"karma:"; td ssub@ | "%i",
-                        .about [0] td i@f>"about:"; td ssub@ | "%i",
-                        .submissions-link [0] a href=b>"submitted?" | "%(href)v",
-                        .comments-link [0] a href=b>"threads?" | "%(href)v",
-                        .favorites-link [0] a href=b>"favorites?" | "%(href)v",
-                    }
-                    """
-                )
+            t = rq.json(
+                r"""
+                table #hnmain; [1] table desc@; tr; {
+                    [0] td i@f>"user:"; td ssub@; {
+                        .created-timestamp * timestamp self@ | "%(timestamp)v",
+                        .user [0] a; [0] * c@[0] i@>[1:] | "%Di" trim
+                    },
+                    .created-date [0] td i@f>"created:"; td ssub@; [0] a | "%i",
+                    .karma.u [0] td i@f>"karma:"; td ssub@ | "%i",
+                    .about [0] td i@f>"about:"; td ssub@ | "%i",
+                    .submissions-link [0] a href=b>"submitted?" | "%(href)v",
+                    .comments-link [0] a href=b>"threads?" | "%(href)v",
+                    .favorites-link [0] a href=b>"favorites?" | "%(href)v",
+                }
+                """
             )
 
             self.subitem(t, "submissions", ref, settings, state, path, get_all_pages)

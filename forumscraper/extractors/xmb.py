@@ -34,13 +34,11 @@ class xmb(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xmb-thread", "url": url, "id": int(i_id)}
 
-            t = json.loads(
-                rq.search(
-                    r"""
-                    .title td .nav -style | "%i" / sed "s/.* &raquo; //" decode trim,
-                    .path.a [0] td .nav -style; a | "%Di\n" / trim "\n"
+            t = rq.json(
+                r"""
+                .title td .nav -style | "%i" / sed "s/.* &raquo; //" decode trim,
+                .path.a [0] td .nav -style; a | "%Di\n" / trim "\n"
                 """
-                )
             )
             dict_add(ret, t)
 
@@ -85,7 +83,7 @@ class xmb(ForumExtractor):
                         post["homepage"] = reliq(tr[2]).search(
                             r'a href title=w>homepage | "%(href)v"'
                         )
-                        t = json.loads(reliq(tr[0]).search(expr))
+                        t = reliq(tr[0]).json(expr)
                     except (IndexError, AttributeError):
                         continue
 
@@ -178,9 +176,8 @@ class xmb(ForumExtractor):
         return url
 
     def process_board_r(self, url, ref, rq, settings, state):
-        t = json.loads(
-            rq.search(
-                r"""
+        t = rq.json(
+            r"""
             .categories table; td [0] .tablerow l@[2]; * rparent@; tr -.header l@[1]; {
                 .category td .category; * c@[0] | "%Di" trim,
                 .category_link [0] a href | "%(href)v",
@@ -206,7 +203,6 @@ class xmb(ForumExtractor):
                     .link [1] td; [0] a href | "%(href)v"
                 }
             } | """
-            )
         )
 
         groups = []
@@ -262,35 +258,33 @@ class xmb(ForumExtractor):
         return {"format_version": "xmb-board", "url": url, "groups": groups}
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = json.loads(
-            rq.search(
-                r"""
-                .threads table; font [0] .mediumtxt; a [0] href=b>"viewthread.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
-                    .state [0] td l@[1]; img src | "%(src)v",
-                    .icon [1] td l@[1]; img src | "%(src)v",
-                    [2] td l@[1]; {
-                        .sticky.b img | "t",
-                        [0] a href; {
-                             .link * l@[0] | "%(href)v",
-                             .title * l@[0] | "%iD" trim
-                        },
-                        .lastpage.u u; [-] a | "%i"
+        t = rq.json(
+            r"""
+            .threads table; font [0] .mediumtxt; a [0] href=b>"viewthread.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
+                .state [0] td l@[1]; img src | "%(src)v",
+                .icon [1] td l@[1]; img src | "%(src)v",
+                [2] td l@[1]; {
+                    .sticky.b img | "t",
+                    [0] a href; {
+                         .link * l@[0] | "%(href)v",
+                         .title * l@[0] | "%iD" trim
                     },
-                    [3] td l@[1]; a href; {
-                        .user * l@[0] | "%Di" trim,
-                        .user_link * l@[0] | "%(href)v"
-                    },
-                    .replies.u [4] td l@[1]; font | "%i",
-                    .views.u [5] td l@[1]; font | "%i",
-                    .lastpost [-] td l@[1]; [0] td l@[1:]; {
-                        .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
-                        a href; {
-                            .user_link * l@[0] | "%(href)v",
-                            .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
-                        }
+                    .lastpage.u u; [-] a | "%i"
+                },
+                [3] td l@[1]; a href; {
+                    .user * l@[0] | "%Di" trim,
+                    .user_link * l@[0] | "%(href)v"
+                },
+                .replies.u [4] td l@[1]; font | "%i",
+                .views.u [5] td l@[1]; font | "%i",
+                .lastpost [-] td l@[1]; [0] td l@[1:]; {
+                    .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
+                    a href; {
+                        .user_link * l@[0] | "%(href)v",
+                        .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
                     }
-                } | """
-            )
+                }
+            } | """
         )
 
         threads = []
@@ -316,9 +310,8 @@ class xmb(ForumExtractor):
 
         forums = []
 
-        f = json.loads(
-            rq.search(
-                r"""
+        f = rq.json(
+            r"""
             .forums table; td [0] .ctrtablerow l@[2]; * rparent@; font [0] .mediumtxt; a [0] href=b>"forumdisplay.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
                 .state [0] td l@[1]; img src | "%(src)v",
                 [1] td l@[1]; {
@@ -338,7 +331,6 @@ class xmb(ForumExtractor):
                     }
                 }
             } | """
-            )
         )
 
         for i in f["forums"]:

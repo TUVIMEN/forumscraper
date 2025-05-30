@@ -46,9 +46,8 @@ class invision(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
 
-            t = json.loads(
-                rq.search(
-                    r"""
+            t = rq.json(
+                r"""
                 .name h2 class=b>"ipsType_reset ipsType_"; a | "%Di" / trim,
                 .background div .ipsCoverPhoto_container; img src | "%(src)v",
                 .avatar img src .ipsUserPhoto | "%(src)v",
@@ -74,7 +73,6 @@ class invision(ForumExtractor):
                 },
                 .badges.a div class=b>"ipsFlex ipsFlex-ai:center "; ul; li; img alt | "%(alt)v\n"
             """
-                )
             )
 
             t["avatar"] = url_merge_r(ref, t["avatar"])
@@ -162,20 +160,18 @@ class invision(ForumExtractor):
                 write_html(path + str(page), rq, settings)
                 page += 1
 
-                t = json.loads(
-                    rq.search(
-                        r"""
-                        .reactions ol; li; {
-                            .avatar a .ipsUserPhoto; img src | "%(src)v",
-                            a .ipsType_break href; {
-                                .user_link * l@[0] | "%(href)v",
-                                .user * l@[0] | "%Di" trim
-                            },
-                            .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
-                            .date time datetime | "%(datetime)v"
-                        } |
-                        """
-                    )
+                t = rq.json(
+                    r"""
+                    .reactions ol; li; {
+                        .avatar a .ipsUserPhoto; img src | "%(src)v",
+                        a .ipsType_break href; {
+                            .user_link * l@[0] | "%(href)v",
+                            .user * l@[0] | "%Di" trim
+                        },
+                        .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
+                        .date time datetime | "%(datetime)v"
+                    } |
+                    """
                 )
 
                 if len(ret) == 0:
@@ -196,9 +192,8 @@ class invision(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
 
-            t = json.loads(
-                rq.search(
-                    r"""
+            t = rq.json(
+                r"""
                 div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
                     .title span class="ipsType_break ipsContained"; span -class | "%Di" trim,
                     .badges.a span title | "%(title)v\n"
@@ -220,7 +215,6 @@ class invision(ForumExtractor):
 
                 .warning div .cTopicPostArea; span .ipsType_warning | "%i",
             """
-                )
             )
             dict_add(ret, t)
 
@@ -228,9 +222,8 @@ class invision(ForumExtractor):
             ret["user_link"] = url_merge_r(ref, ret["user_link"])
             ret["user_avatar"] = url_merge_r(ref, ret["user_avatar"])
 
-            t = json.loads(
-                rq.search(
-                    r"""
+            t = rq.json(
+                r"""
                 .recommended div data-role=recommendedComments; div .ipsBox data-commentID; {
                     .id.u div .ipsBox data-commentID | "%(data-commentID)v",
                      div .ipsReactOverview; {
@@ -253,7 +246,6 @@ class invision(ForumExtractor):
                     }
                 }
             """
-                )
             )
             rec = t["recommended"]
             rec["user_avatar"] = url_merge_r(ref, rec["user_avatar"])
@@ -313,15 +305,14 @@ class invision(ForumExtractor):
                         except self.common_exceptions as ex:
                             self.handle_error(ex, user_link, settings, True)
 
-                    t = json.loads(i.search(expr))
+                    t = i.json(expr)
                     t["user_avatar"] = url_merge_r(ref, t["user_avatar"])
                     t["group_icon"] = url_merge_r(ref, t["group_icon"])
                     t["rank_image"] = url_merge_r(ref, t["rank_image"])
                     dict_add(post, t)
 
-                    t = json.loads(
-                        i.search(
-                            r"""
+                    t = i.json(
+                        r"""
                         ul .ipsReact_reactions; {
                             .reactions_users li .ipsReact_overview; a href -href=a>?do= l@[1]; {
                                 .link * l@[0] | "%(href)v",
@@ -330,7 +321,6 @@ class invision(ForumExtractor):
                             .reactions_temp.a li .ipsReact_reactCount; span a@[0] / sed "s/<span><img .* alt=\"//; s/\".*//; N; s/\n/\t/; s/<span>//g; s/<\/span>//g"
                         }
                     """
-                        )
                     )
                     for j in t["reactions_users"]:
                         j["link"] = url_merge_r(ref, j["link"])
@@ -432,96 +422,94 @@ class invision(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = json.loads(
-            rq.search(
-                r"""
-                .categories [0] * .cForumList; {
-                    li child@ ||
-                    * self@
+        t = rq.json(
+            r"""
+            .categories [0] * .cForumList; {
+                li child@ ||
+                * self@
+            }; {
+                h2 child@; {
+                    .name * -title c@[0] i@>[1:] | "%Di" / trim,
+                    .link [-] a | "%(href)v"
+                },
+                .forums {
+                    ol .ipsDataList child@; li child@,
+                    div .ipsForumGrid; div child@
                 }; {
-                    h2 child@; {
-                        .name * -title c@[0] i@>[1:] | "%Di" / trim,
-                        .link [-] a | "%(href)v"
+                    [0] div ( .ipsDataItem_icon )( .cForumGrid__icon ); {
+                        .status [0] span class | "%(class)v" sed "s/.*cForumIcon_//; s/ .*//",
+                        .icon [0] img src | "%(src)v"
                     },
-                    .forums {
-                        ol .ipsDataList child@; li child@,
-                        div .ipsForumGrid; div child@
-                    }; {
-                        [0] div ( .ipsDataItem_icon )( .cForumGrid__icon ); {
-                            .status [0] span class | "%(class)v" sed "s/.*cForumIcon_//; s/ .*//",
-                            .icon [0] img src | "%(src)v"
-                        },
-                        .icon2 [0] span .cForumGrid__hero-image data-background-src | "%(data-background-src)v",
-                        div ( .ipsDataItem_main )( .cForumGrid__content ); {
-                            * ( .ipsDataItem_title )( .cForumGrid__title ); [0] a; {
-                                .title * self@ | "%Di" / trim,
-                                .link * self@ | "%(href)v"
-                            },
-                            .description [0] * .ipsType_richText | "%T" trim,
-                        },
-                        .posts {
-                            [0] dt .ipsDataItem_stats_number | "%i",
-                            [0] ul .cForumGrid__title-stats; [0] li c@[0] | "%i" sed "s/ .*//"
-                        },
-                        .followers [0] ul .cForumGrid__title-stats; [0] a c@[0] | "%i" sed "s/ .*//",
-                        .childboards ul ( .ipsDataItem_subList )( .cForumGrid__subforums ); a; {
-                            .name * self@ | "%Di" / trim,
+                    .icon2 [0] span .cForumGrid__hero-image data-background-src | "%(data-background-src)v",
+                    div ( .ipsDataItem_main )( .cForumGrid__content ); {
+                        * ( .ipsDataItem_title )( .cForumGrid__title ); [0] a; {
+                            .title * self@ | "%Di" / trim,
                             .link * self@ | "%(href)v"
-                        } | ,
-                        .lastpost [0] * ( .ipsDataItem_lastPoster )( .cForumGrid__last ); {
-                            .avatar * .ipsUserPhoto; [0] img src | "%(src)v",
-                            * .ipsDataItem_lastPoster__title; [0] a; {
-                                .title * self@ | "%Di" / trim,
-                                .link * self@ | "%(href)v"
-                            },
-                            li .ipsType_light; [0] a .ipsType_break; {
-                                .user * c@[0] | "%Di" trim,
-                                .user_link * self@ | "%(href)v"
-                            },
-                            .date time datetime | "%(datetime)v"
-                        }
-                    } |
-                } | ,
-                .threads [0] ol .cTopicList; li child@; {
-                    .avatar div .ipsTopicSnippet__avatar; [0] img | "%(src)v",
-                    [0] * .ipsDataItem_title; {
-                        .icons.a i | "%(class)v\n" / sed "s/.*fa-//",
-                        [0] a -rel=tag; {
-                            .title * c@[0] | "%Di" / trim,
-                            .link * self@ | "%(href)v",
-                        }
+                        },
+                        .description [0] * .ipsType_richText | "%T" trim,
                     },
-                    [0] div ( .ipsDataItem_meta )( .ipsTopicSnippet__date ); {
-                        .date time datetime | "%(datetime)v",
-                        [0] a .ipsType_break; {
-                            .user * c@[0] | "%Di" trim,
-                            .user_link * self@ | "%(href)v"
-                        }
+                    .posts {
+                        [0] dt .ipsDataItem_stats_number | "%i",
+                        [0] ul .cForumGrid__title-stats; [0] li c@[0] | "%i" sed "s/ .*//"
                     },
-                    .lastpage.u * .ipsPagination; [-] a | "%i",
-                    .tags a rel=tag; {
-                        .name * c@[0] | "%Di" / trim,
+                    .followers [0] ul .cForumGrid__title-stats; [0] a c@[0] | "%i" sed "s/ .*//",
+                    .childboards ul ( .ipsDataItem_subList )( .cForumGrid__subforums ); a; {
+                        .name * self@ | "%Di" / trim,
                         .link * self@ | "%(href)v"
                     } | ,
-                    [0] * ( .ipsDataItem_stats )( .ipsTopicSnippet__stats ); {
-                        .group-indicator [0] img .cGroupIndicator src | "%(src)v",
-                        span .ipsDataItem_stats_number; {
-                            .replies [0] * self@ | "%i",
-                            .views [1] * self@ | "%i",
-                        }
-                    },
-                    .snippet div .ipsTopicSnippet__snippet; * c@[0] | "%i",
-                    .lastpost [0] * ( .ipsDataItem_lastPoster )( .ipsTopicSnippet__last ); {
-                        .avatar [0] * .ipsUserPhoto; [0] img src | "%(src)v",
-                        [0] a .ipsType_break; {
+                    .lastpost [0] * ( .ipsDataItem_lastPoster )( .cForumGrid__last ); {
+                        .avatar * .ipsUserPhoto; [0] img src | "%(src)v",
+                        * .ipsDataItem_lastPoster__title; [0] a; {
+                            .title * self@ | "%Di" / trim,
+                            .link * self@ | "%(href)v"
+                        },
+                        li .ipsType_light; [0] a .ipsType_break; {
                             .user * c@[0] | "%Di" trim,
                             .user_link * self@ | "%(href)v"
                         },
                         .date time datetime | "%(datetime)v"
                     }
                 } |
-                """
-            )
+            } | ,
+            .threads [0] ol .cTopicList; li child@; {
+                .avatar div .ipsTopicSnippet__avatar; [0] img | "%(src)v",
+                [0] * .ipsDataItem_title; {
+                    .icons.a i | "%(class)v\n" / sed "s/.*fa-//",
+                    [0] a -rel=tag; {
+                        .title * c@[0] | "%Di" / trim,
+                        .link * self@ | "%(href)v",
+                    }
+                },
+                [0] div ( .ipsDataItem_meta )( .ipsTopicSnippet__date ); {
+                    .date time datetime | "%(datetime)v",
+                    [0] a .ipsType_break; {
+                        .user * c@[0] | "%Di" trim,
+                        .user_link * self@ | "%(href)v"
+                    }
+                },
+                .lastpage.u * .ipsPagination; [-] a | "%i",
+                .tags a rel=tag; {
+                    .name * c@[0] | "%Di" / trim,
+                    .link * self@ | "%(href)v"
+                } | ,
+                [0] * ( .ipsDataItem_stats )( .ipsTopicSnippet__stats ); {
+                    .group-indicator [0] img .cGroupIndicator src | "%(src)v",
+                    span .ipsDataItem_stats_number; {
+                        .replies [0] * self@ | "%i",
+                        .views [1] * self@ | "%i",
+                    }
+                },
+                .snippet div .ipsTopicSnippet__snippet; * c@[0] | "%i",
+                .lastpost [0] * ( .ipsDataItem_lastPoster )( .ipsTopicSnippet__last ); {
+                    .avatar [0] * .ipsUserPhoto; [0] img src | "%(src)v",
+                    [0] a .ipsType_break; {
+                        .user * c@[0] | "%Di" trim,
+                        .user_link * self@ | "%(href)v"
+                    },
+                    .date time datetime | "%(datetime)v"
+                }
+            } |
+            """
         )
 
         categories = t["categories"]
