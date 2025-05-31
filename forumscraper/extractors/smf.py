@@ -3,8 +3,8 @@
 
 import re
 import json
-from reliq import reliq
 
+from ..defs import reliq
 from ..utils import dict_add, url_merge_r, url_merge
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 from .identify import identify_smf1, identify_smf2

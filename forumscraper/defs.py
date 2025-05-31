@@ -4,6 +4,10 @@
 from enum import Flag, auto
 from importlib.metadata import version
 
+from reliq import RQ
+
+reliq = RQ(cached=True)
+
 __version__ = version(__package__ or __name__)
 
 

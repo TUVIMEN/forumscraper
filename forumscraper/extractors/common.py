@@ -6,11 +6,10 @@ import json
 import re
 from concurrent.futures import ThreadPoolExecutor
 from itertools import batched
-from reliq import reliq
 
 from ..utils import strtosha256, get_settings, url_valid, url_merge
 from ..net import Session
-from ..enums import Outputs
+from ..defs import Outputs, reliq
 from ..exceptions import *
 
 common_exceptions = (

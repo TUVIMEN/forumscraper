@@ -1,6 +1,6 @@
 import sys
 
-from .enums import Outputs, __version__
+from .defs import Outputs, __version__
 from .extractors.extractor import *
 from .args import argparser
 

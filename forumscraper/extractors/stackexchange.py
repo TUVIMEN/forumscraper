@@ -2,9 +2,8 @@
 # License: GNU GPLv3
 
 import re
-import json
-from reliq import reliq
 
+from ..defs import reliq
 from ..utils import (
     dict_add,
     get_settings,

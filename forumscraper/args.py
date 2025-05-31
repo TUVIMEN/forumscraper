@@ -11,7 +11,7 @@ from .utils import (
     conv_curl_header_to_requests,
     conv_curl_cookie_to_requests,
 )
-from .enums import Outputs, __version__
+from .defs import Outputs, __version__
 from .extractors.extractor import *
 
 

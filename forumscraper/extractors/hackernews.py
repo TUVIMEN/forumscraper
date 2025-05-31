@@ -3,9 +3,8 @@
 
 import re
 import json
-from reliq import reliq
 
-from ..enums import Outputs
+from ..defs import Outputs, reliq
 from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
 from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_hackernews

@@ -5,8 +5,8 @@ import random
 import time
 import requests
 from threading import Lock
-from reliq import reliq
 
+from .defs import reliq
 from .exceptions import RequestError, AlreadyVisitedError
 from .utils import url_merge_r, smarttrim
 
