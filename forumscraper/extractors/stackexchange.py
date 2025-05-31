@@ -34,44 +34,23 @@ class stackexchange(ForumExtractor):
             ret = {"format_version": "stackexchange-user", "url": url, "id": int(i_id)}
 
             t = rq.json(Path('stackexchange/user.reliq'))
-            t["avatar"] = url_merge_r(ref, t["avatar"])
-            t["meta-profile"] = url_merge_r(ref, t["meta-profile"])
-            t["network-profile"] = url_merge_r(ref, t["network-profile"])
 
             t["reputation"] = conv_short_size(t["reputation"])
             t["reached"] = conv_short_size(t["reached"])
             t["answers"] = conv_short_size(t["answers"])
             t["questions"] = conv_short_size(t["questions"])
 
-            t["communities-all"] = url_merge_r(ref, t["communities-all"])
             for i in t["communities"]:
-                i["profile"] = url_merge_r(ref, i["profile"])
                 i["reputation"] = conv_short_size(i["reputation"])
 
-            t["badges-all"] = url_merge_r(ref, t["badges-all"])
             for i in t["badges"]:
                 for j in i["achievements"]:
-                    j["link"] = url_merge_r(ref, j["link"])
                     if j["amount"] == 0:
                         j["amount"] = 1
 
-            t["tags-all"] = url_merge_r(ref, t["tags-all"])
             for i in t["tags"]:
-                i["link"] = url_merge_r(ref, i["link"])
                 i["score"] = conv_short_size(i["score"])
                 i["posts"] = conv_short_size(i["posts"])
-
-            t["posts-answers-all"] = url_merge_r(ref, t["posts-answers-all"])
-            t["posts-questions-all"] = url_merge_r(ref, t["posts-questions-all"])
-            for i in t["posts"]:
-                i["link"] = url_merge_r(ref, i["link"])
-
-            t["network-posts-all"] = url_merge_r(ref, t["network-posts-all"])
-            for i in t["network-posts"]:
-                i["link"] = url_merge_r(ref, i["link"])
-
-            for i in t["meta-posts"]:
-                i["link"] = url_merge_r(ref, i["link"])
 
             dict_add(ret, t)
             return ret
@@ -103,16 +82,10 @@ class stackexchange(ForumExtractor):
 
             comments = rq.json(Path('stackexchange/post-comments.reliq'))["comments"]
 
-            for i in comments:
-                i["user_link"] = url_merge(ref, i["user_link"])
             return comments
 
         def get_post(self, rq, url, ref, settings, state, path):
             post = rq.json(Path('stackexchange/post.reliq'))
-            post["author"]["avatar"] = url_merge(ref, post["author"]["avatar"])
-            post["author"]["link"] = url_merge(ref, post["author"]["link"])
-            post["editor"]["avatar"] = url_merge(ref, post["editor"]["avatar"])
-            post["editor"]["link"] = url_merge(ref, post["editor"]["link"])
 
             post["comments"] = self.get_post_comments(
                 rq, url, ref, post["id"], settings, state, path
@@ -371,14 +344,7 @@ class stackexchange(ForumExtractor):
         return self.process_forum_r(url, rq, ref, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(Path('stackexchange/forum.reliq'))
-
-        threads = t["threads"]
-
-        for i in threads:
-            i["link"] = url_merge(ref, i["link"])
-            i["author"]["link"] = url_merge(ref, i["author"]["link"])
-            i["author"]["avatar"] = url_merge(ref, i["author"]["avatar"])
+        threads = rq.json(Path('stackexchange/forum.reliq'))['threads']
 
         return {
             "format_version": "stackexchange-forum",

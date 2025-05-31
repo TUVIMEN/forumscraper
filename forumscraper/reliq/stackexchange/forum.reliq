@@ -11,16 +11,16 @@
     div .s-post-summary--content; {
         * .s-post-summary--content-title; [0] a; {
             .title * self@ | "%Di" trim,
-            .link * self@ | "%(href)v"
+            .link.U * self@ | "%(href)v"
         },
         .excerp * .s-post-summary--content-excerpt | "%i",
         [0] * .s-post-summary--meta; {
             .tags.a a .s-tag | "%i\n",
             .author div .s-user-card; {
-                .avatar img .s-avatar--image | "%(src)v",
+                .avatar.U img .s-avatar--image | "%(src)Dv",
                 div .s-user-card--info; {
                     .name [0] * c@[0] | "%Di" / trim,
-                    .link a | "%(href)v"
+                    .link.U a | "%(href)v"
                 },
                 .reputation.u li .s-user-card--rep; [0] span | "%(title)v %i" / tr ","
             },

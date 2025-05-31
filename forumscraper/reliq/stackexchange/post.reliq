@@ -7,10 +7,10 @@
 div .user-info i@"edited"; {
     .edited span .relativetime | "%(title)v",
     .editor {
-        .avatar img .bar-sm src | "%(src)v",
+        .avatar.U img .bar-sm src | "%(src)Dv",
          div .user-details; {
             .name [0] * l@[1] c@[0] | "%Di" trim,
-            .link div .user-details; a href child@ | "%(href)v",
+            .link.U div .user-details; a href child@ | "%(href)v",
             .reputation.u span .reputation-score | "%i" tr ",",
             .gbadge.u span title=w>gold; span .badgecount | "%i",
             .sbadge.u span title=w>silver; span .badgecount | "%i",
@@ -22,10 +22,10 @@ div .user-info i@"edited"; {
 div .user-info i@v>"edited"; {
     .date span .relativetime | "%(title)v",
     .author {
-        .avatar img .bar-sm src | "%(src)v",
+        .avatar.U img .bar-sm src | "%(src)Dv",
          div .user-details; {
             .name [0] * l@[1] c@[0] | "%Di" trim,
-            .link div .user-details; a href child@ | "%(href)v",
+            .link.U div .user-details; a href child@ | "%(href)v",
             .reputation.u span .reputation-score | "%(title)v %i" tr ",",
             .gbadge.u span title=w>gold; span .badgecount | "%i",
             .sbadge.u span title=w>silver; span .badgecount | "%i",

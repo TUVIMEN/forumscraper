@@ -1,6 +1,6 @@
 div #mainbar-full; {
     [0] div child@; {
-        .avatar a; [0] img src | "%(src)v",
+        .avatar.U a; [0] img src | "%(src)Dv",
         .user [0] div .fs-headline2 c@[0] | "%Di" trim,
         .unregistered.b div .s-badge c@[0] | "t",
         ul .list-reset; {
@@ -14,8 +14,8 @@ div #mainbar-full; {
             }
         },
         li role=menuitem; {
-            .meta-profile a href=a>meta. | "%(href)v",
-            .network-profile a href=b>https://stackexchange.com/users/ | "%(href)v"
+            .meta-profile.U a href=a>meta. | "%(href)v",
+            .network-profile.U a href=b>https://stackexchange.com/users/ | "%(href)v"
         },
     },
     main #main-content; {
@@ -26,22 +26,22 @@ div #mainbar-full; {
             .questions * self@ i@questions; div child@ c@[0] | "%i" tr ","
         },
         div c@[0] i@tf>Communities; [1] * ancestor@; {
-            .communities-all [0] a i@bt>"View all" | "%(href)v",
+            .communities-all.U [0] a i@bt>"View all" | "%(href)v",
             .communities li; a; {
-                .profile * self@ | "%(href)v",
+                .profile.U * self@ | "%(href)v",
                 .reputation div .ml-auto c@[0] | "%i" tr ","
             } |
         },
         .about [0] div .js-about-me-content | "%i",
         div c@[0] i@tf>Badges; [1] * ancestor@; {
-            .badges-all [0] a i@bt>"View all" | "%(href)v",
+            .badges-all.U [0] a i@bt>"View all" | "%(href)v",
             .badges div .s-card; div .jc-space-between c@[6:] child@; {
                 .amount.u div .fs-title | "%i",
                 .name div .fs-caption | "%Di" line [0] " " tr " " / trim,
                 .achievements li; {
                     a ( .badge )( .badge-tag ); {
                         .tag.b * self@ .badge-tag | "t",
-                        .link * self@ | "%(href)v",
+                        .link.U * self@ | "%(href)v",
                         .action * self@ | "%(title)v" / sed 's/^[^:]*: //',
                         .name div c@[0] | "%Di" / trim
                     },
@@ -51,10 +51,10 @@ div #mainbar-full; {
             } |
         },
         div c@[0] .fs-title i@tf>"Top tags"; [1] * ancestor@; {
-           .tags-all [0] a i@bt>"View all" | "%(href)v",
+           .tags-all.U [0] a i@bt>"View all" | "%(href)v",
            .tags [0] div .s-card; div child@; {
                 a .s-tag; {
-                    .link * self@ | "%(href)v",
+                    .link.U * self@ | "%(href)v",
                     .name * self@ | "%Di" / trim
                 },
                 .badge [0] a .badge-tag title | "%(title)v" / sed "s/ .*//",
@@ -70,26 +70,26 @@ div #mainbar-full; {
         },
         div c@[0] .fs-title i@tf>"Top posts"; [2] * ancestor@; {
             div i@bt>"View all"; a; {
-                .posts-answers-all * self@ i@ft>answers | "%(href)v",
-                .posts-questions-all * self@ i@ft>questions | "%(href)v"
+                .posts-answers-all.U * self@ i@ft>answers | "%(href)v",
+                .posts-questions-all.U * self@ i@ft>questions | "%(href)v"
             },
             .posts [0] div .s-card; div child@; {
                 .type [0] title | "%i",
                 .answered.b [0] div .s-badge__answered | "t",
                 .votes.u div .s-badge__votes | "%i",
                 [0] a .d-table; {
-                    .link * self@ | "%(href)v",
+                    .link.U * self@ | "%(href)v",
                     .title * self@ | "%Di" trim
                 },
                 .date span .relativetime title | "%(title)v"
             } |
         },
         div c@[0] .fs-title i@tf>"Top network posts"; [1] * ancestor@; {
-           .network-posts-all [0] a i@bt>"View all" | "%(href)v",
+           .network-posts-all.U [0] a i@bt>"View all" | "%(href)v",
            .network-posts div .s-card; div child@; {
                 .votes.u div .s-badge__votes | "%i",
                 a .d-table; {
-                    .link * self@ | "%(href)v",
+                    .link.U * self@ | "%(href)v",
                     .title * self@ | "%Di" trim
                 },
             } |
@@ -100,7 +100,7 @@ div #mainbar-full; {
             .meta-posts div .s-card; div child@; {
                 .votes.u div .s-badge__votes | "%i",
                 a .d-table; {
-                    .link * self@ | "%(href)v",
+                    .link.U * self@ | "%(href)v",
                     .title * self@ | "%Di" trim
                 },
             } |

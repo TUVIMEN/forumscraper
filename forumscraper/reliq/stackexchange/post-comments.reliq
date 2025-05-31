@@ -5,7 +5,7 @@
     .date span .comment-date; span title | "%(title)v" / sed "s/, L.*//",
     [0] a .comment-user; {
         .user * self@ | "%Di" trim,
-        .user_link * self@ | "%(href)v",
+        .user_link.U * self@ | "%(href)v",
         .reputation.u * self@ | "%(title)v" / tr ",."
     },
 } |
