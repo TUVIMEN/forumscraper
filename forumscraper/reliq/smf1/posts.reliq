@@ -1,0 +1,26 @@
+.posts form #quickModForm; {
+    table l@[1]; tr l@[:2] i@B>"id=\"subject_[0-9]*\""; tr l@[0] i@v>".googlesyndication.com/" ||
+    ul child@; li -.pageindex_li child@
+}; {
+    .postid.u [0] * #B>subject_[0-9]* | "%(id)v" / sed "s/.*_//",
+    .date {
+        td valign=middle; div .smalltext | "%i" / sed "s/.* ://;s/^<\/b> //;s/ &#187;//g;s/<br *\/>.*//;s/<[^>]*>//g;s/ *$//" ||
+        [0] *  #b>subject_; [0] span c@[0] | "%i" / sed "s/^- //" trim
+    },
+    .body div .post | "%i",
+    .signature div .signature | "%i",
+     td valign=top rowspan=2; {
+        b l@[1]; [0] a href; {
+            .user * self@ | "%Di" / trim,
+            .userid.u * self@ | "%(href)v" / sed "s/.*;//;s/.*-//;s/\.html$//;s/^u//;s/^=//"
+        },
+        .avatar [0] img .avatar src | "%(src)v"
+    },
+    .edited td #B>modified_[0-9]*; * c@[0] | "%i",
+    .score span #B>gpbp_score_[0-9]* | "%i",
+    .attachments.a("\t") a href #B>link_[0-9]* | "%(href)v\t",
+    .userinfo.a("\n") {
+        td valign=top rowspan=2; div .smalltext | "%i\n" / sed "s/\(<br \/>\)\+/\n/g;s/\t//g" sed "/^$/d;/<img.* class=\"avatar\"/d" trim "\n" sed "s/< *br *\/ *>/ /g;s/< *br *>/ /g; /^ *$/d" trim "\n" ||
+        ul .tabs_list; li child@ | "%(class)v: %i" tr "\n\r" trim echo "" "\n"
+    }
+} |

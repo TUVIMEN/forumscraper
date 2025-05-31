@@ -1,0 +1,11 @@
+.comments li #E>comment-[0-9]+; {
+    .id.u * self@ | "%(data-comment-id)v",
+    .score.i div .comment-score; * c@[0] | "%i",
+    .content span .comment-copy | "%i",
+    .date span .comment-date; span title | "%(title)v" / sed "s/, L.*//",
+    [0] a .comment-user; {
+        .user * self@ | "%Di" trim,
+        .user_link * self@ | "%(href)v",
+        .reputation.u * self@ | "%(title)v" / tr ",."
+    },
+} |

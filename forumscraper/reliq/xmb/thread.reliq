@@ -1,0 +1,2 @@
+.title td .nav -style | "%i" / sed "s/.* &raquo; //" decode trim,
+.path.a [0] td .nav -style; a | "%Di\n" / trim "\n"

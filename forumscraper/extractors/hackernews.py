@@ -1,6 +1,7 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
+from pathlib import Path
 import re
 import json
 
@@ -11,30 +12,7 @@ from .identify import identify_hackernews
 
 
 def get_comments(ref, rq):
-    comments = rq.json(
-        r"""
-        .comments tr id .athing .comtr; {
-            .id.u * l@[0] | "%(id)v",
-            table; tr; {
-                .lvl.u td .ind indent | "%(indent)v",
-                td .default; {
-                    span .comhead;  {
-                        .user a .hnuser href; {
-                            .link * l@[0] | "https://news.ycombinator.com/%(href)v",
-                            .name [0] * c@[0] i@>[1:] | "%Di" trim
-                        },
-                        .date span .age title | "%(title)v",
-                        .onstory span .onstory; [0] a; {
-                            .name * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        }
-                    },
-                    .text div .commtext | "%i"
-                }
-            }
-        } |
-    """
-    )["comments"]
+    comments = rq.json(Path('hackernews/comments.reliq'))["comments"]
 
     for i in comments:
         i["user"]["link"] = url_merge(ref, i["user"]["link"])
@@ -43,30 +21,7 @@ def get_comments(ref, rq):
 
 
 def get_post(ref, rq):
-    post = rq.json(
-        r"""
-        tr id .athing l@[:1]; {
-            .id.u * self@ | "%(id)v",
-            span .titleline; [0] a; {
-                .link * self@ href | "%(href)v",
-                .title * self@ | "%Di" trim
-            }
-        },
-        tr -class l@[:1]; {
-            .score.u span #b>score_ | "%i" sed "s/ .*//",
-            .date span .age title | "%(title)v",
-            .user a .hnuser href; {
-                .link * self@ | "%(href)v",
-                .name [0] * c@[0] i@>[1:] | "%Di" trim
-            },
-            a i@"&nbsp;comment"; {
-                .comments_count.u a self@ | "%i" sed "s/&.*//",
-                .comments_link a self@ | "%(href)v"
-            }
-        },
-        .text [0] div .toptext | "%i"
-        """
-    )
+    post = rq.json(Path('hackernews/post.reliq'))
 
     post["link"] = url_merge(ref, post["link"])
     post["user"]["link"] = url_merge(ref, post["user"]["link"])
@@ -131,22 +86,7 @@ class hackernews(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "hackernews-user", "url": url, "id": i_id}
 
-            t = rq.json(
-                r"""
-                table #hnmain; [1] table desc@; tr; {
-                    [0] td i@f>"user:"; td ssub@; {
-                        .created-timestamp * timestamp self@ | "%(timestamp)v",
-                        .user [0] a; [0] * c@[0] i@>[1:] | "%Di" trim
-                    },
-                    .created-date [0] td i@f>"created:"; td ssub@; [0] a | "%i",
-                    .karma.u [0] td i@f>"karma:"; td ssub@ | "%i",
-                    .about [0] td i@f>"about:"; td ssub@ | "%i",
-                    .submissions-link [0] a href=b>"submitted?" | "%(href)v",
-                    .comments-link [0] a href=b>"threads?" | "%(href)v",
-                    .favorites-link [0] a href=b>"favorites?" | "%(href)v",
-                }
-                """
-            )
+            t = rq.json(Path('hackernews/user.reliq'))
 
             self.subitem(t, "submissions", ref, settings, state, path, get_all_pages)
             self.subitem(t, "comments", ref, settings, state, path, get_all_comments)

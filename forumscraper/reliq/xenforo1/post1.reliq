@@ -1,0 +1,8 @@
+h3 .userText; {
+    .user_title em class=b>userTitle | "%i",
+    .user_banner em class=b>userBanner; * c@[0] | "%i" / sed "/^[ \t]*$/d",
+},
+.user_extra dl; {
+    .name dt; * c@[0] | "%Di" / trim,
+    .value dd; * c@[0] | "%i"
+} |

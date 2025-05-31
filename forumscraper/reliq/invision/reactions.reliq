@@ -1,0 +1,9 @@
+.reactions ol; li; {
+    .avatar a .ipsUserPhoto; img src | "%(src)v",
+    a .ipsType_break href; {
+        .user_link * l@[0] | "%(href)v",
+        .user * l@[0] | "%Di" trim
+    },
+    .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
+    .date time datetime | "%(datetime)v"
+} |

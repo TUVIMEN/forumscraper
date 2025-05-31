@@ -1,0 +1,30 @@
+.threads div #b>question-summary-; {
+    div .s-post-summary--stats; div .s-post-summary--stats-item; {
+        .score.u [0] * self@ title=b>"Score of ",
+        .views.u [0] * self@ title=e>" views" | "%(title)v",
+        [0] span i@f>"answers"; {
+            .answers.u [0] span .e>-number spre@ | "%i",
+            .solved.b * .has-accepted-answer parent@ | "t"
+        },
+        .bounty.u * self@ .has-bounty | "%i"
+    },
+    div .s-post-summary--content; {
+        * .s-post-summary--content-title; [0] a; {
+            .title * self@ | "%Di" trim,
+            .link * self@ | "%(href)v"
+        },
+        .excerp * .s-post-summary--content-excerpt | "%i",
+        [0] * .s-post-summary--meta; {
+            .tags.a a .s-tag | "%i\n",
+            .author div .s-user-card; {
+                .avatar img .s-avatar--image | "%(src)v",
+                div .s-user-card--info; {
+                    .name [0] * c@[0] | "%Di" / trim,
+                    .link a | "%(href)v"
+                },
+                .reputation.u li .s-user-card--rep; [0] span | "%(title)v %i" / tr ","
+            },
+            .date span .relativetime | "%(title)v"
+        }
+    }
+} |

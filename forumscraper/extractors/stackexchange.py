@@ -1,6 +1,7 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
+from pathlib import Path
 import re
 
 from ..defs import reliq
@@ -32,119 +33,7 @@ class stackexchange(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "stackexchange-user", "url": url, "id": int(i_id)}
 
-            t = rq.json(
-                r"""
-                div #mainbar-full; {
-                    [0] div child@; {
-                        .avatar a; [0] img src | "%(src)v",
-                        .user [0] div .fs-headline2 c@[0] | "%Di" trim,
-                        .unregistered.b div .s-badge c@[0] | "t",
-                        ul .list-reset; {
-                            [0] * self@; li child@; {
-                                .created [0] * self@; span title | "%(title)v",
-                                .lastseen [1] * self@; div c@[0] i@bt>"Last seen" | "%i" sed "s/^Last seen//" trim
-                            },
-                            [1] * self@; {
-                                .location div .wmx2 title c@[0] | "%i",
-                                .social.a a href | "%(href)v\n"
-                            }
-                        },
-                        li role=menuitem; {
-                            .meta-profile a href=a>meta. | "%(href)v",
-                            .network-profile a href=b>https://stackexchange.com/users/ | "%(href)v"
-                        },
-                    },
-                    main #main-content; {
-                        div #stats; div .md:fl-auto; {
-                            .reputation * self@ i@reputation; div child@ c@[0] | "%i" tr ",",
-                            .reached * self@ i@reached; div child@ c@[0] | "%i" tr ",",
-                            .answers * self@ i@answers; div child@ c@[0] | "%i" tr ",",
-                            .questions * self@ i@questions; div child@ c@[0] | "%i" tr ","
-                        },
-                        div c@[0] i@tf>Communities; [1] * ancestor@; {
-                            .communities-all [0] a i@bt>"View all" | "%(href)v",
-                            .communities li; a; {
-                                .profile * self@ | "%(href)v",
-                                .reputation div .ml-auto c@[0] | "%i" tr ","
-                            } |
-                        },
-                        .about [0] div .js-about-me-content | "%i",
-                        div c@[0] i@tf>Badges; [1] * ancestor@; {
-                            .badges-all [0] a i@bt>"View all" | "%(href)v",
-                            .badges div .s-card; div .jc-space-between c@[6:] child@; {
-                                .amount.u div .fs-title | "%i",
-                                .name div .fs-caption | "%Di" line [0] " " tr " " / trim,
-                                .achievements li; {
-                                    a ( .badge )( .badge-tag ); {
-                                        .tag.b * self@ .badge-tag | "t",
-                                        .link * self@ | "%(href)v",
-                                        .action * self@ | "%(title)v" / sed 's/^[^:]*: //',
-                                        .name div c@[0] | "%Di" / trim
-                                    },
-                                    .amount.u div -.ml-auto child@ | "%t",
-                                    .date div .ml-auto child@ c@[0] | "%i"
-                                } |
-                            } |
-                        },
-                        div c@[0] .fs-title i@tf>"Top tags"; [1] * ancestor@; {
-                           .tags-all [0] a i@bt>"View all" | "%(href)v",
-                           .tags [0] div .s-card; div child@; {
-                                a .s-tag; {
-                                    .link * self@ | "%(href)v",
-                                    .name * self@ | "%Di" / trim
-                                },
-                                .badge [0] a .badge-tag title | "%(title)v" / sed "s/ .*//",
-                                div .d-flex .ai-center; {
-                                    .score div .tt-lowercase i@tf>Score; [0] * spre@ | "%i" tr ",",
-                                    .posts div .tt-lowercase i@tf>Posts; [0] * spre@ | "%i" tr ",",
-                                    .posts-percent.u div .tt-lowercase i@tf>"Posts %"; [0] * spre@ | "%i" tr ",",
-                                },
-                                .answered.u * self@ title | "%(title)v" / sed "/Gave/!d; s/.*. Gave ([0-9]+) non-wiki .*/\1/" "E",
-                                .ansked.u * self@ title | "%(title)v" / sed "s/^Asked ([0-9]+) .*/\1/" "E",
-                                .asked-score.u * self@ title | "%(title)v" / sed "/^Asked/!d; s/\..*//; s/^.*total score //" "E"
-                            } |
-                        },
-                        div c@[0] .fs-title i@tf>"Top posts"; [2] * ancestor@; {
-                            div i@bt>"View all"; a; {
-                                .posts-answers-all * self@ i@ft>answers | "%(href)v",
-                                .posts-questions-all * self@ i@ft>questions | "%(href)v"
-                            },
-                            .posts [0] div .s-card; div child@; {
-                                .type [0] title | "%i",
-                                .answered.b [0] div .s-badge__answered | "t",
-                                .votes.u div .s-badge__votes | "%i",
-                                [0] a .d-table; {
-                                    .link * self@ | "%(href)v",
-                                    .title * self@ | "%Di" trim
-                                },
-                                .date span .relativetime title | "%(title)v"
-                            } |
-                        },
-                        div c@[0] .fs-title i@tf>"Top network posts"; [1] * ancestor@; {
-                           .network-posts-all [0] a i@bt>"View all" | "%(href)v",
-                           .network-posts div .s-card; div child@; {
-                                .votes.u div .s-badge__votes | "%i",
-                                a .d-table; {
-                                    .link * self@ | "%(href)v",
-                                    .title * self@ | "%Di" trim
-                                },
-                            } |
-                        },
-                        div c@[0] .fs-title i@tf>"Top Meta posts"; [1] * ancestor@; {
-                            .meta-posts-asked.u div .ml8 title=b>asked | "%(title)v",
-                            .meta-posts-answered.u div .ml8 title=b>gave | "%(title)v",
-                            .meta-posts div .s-card; div child@; {
-                                .votes.u div .s-badge__votes | "%i",
-                                a .d-table; {
-                                    .link * self@ | "%(href)v",
-                                    .title * self@ | "%Di" trim
-                                },
-                            } |
-                        }
-                    }
-                }
-            """
-            )
+            t = rq.json(Path('stackexchange/user.reliq'))
             t["avatar"] = url_merge_r(ref, t["avatar"])
             t["meta-profile"] = url_merge_r(ref, t["meta-profile"])
             t["network-profile"] = url_merge_r(ref, t["network-profile"])
@@ -212,66 +101,14 @@ class stackexchange(ForumExtractor):
                 )
                 write_html(path + "-comments-" + str(postid), rq, settings)
 
-            comments = rq.json(
-                r"""
-                .comments li #E>comment-[0-9]+; {
-                    .id.u * self@ | "%(data-comment-id)v",
-                    .score.i div .comment-score; * c@[0] | "%i",
-                    .content span .comment-copy | "%i",
-                    .date span .comment-date; span title | "%(title)v" / sed "s/, L.*//",
-                    [0] a .comment-user; {
-                        .user * self@ | "%Di" trim,
-                        .user_link * self@ | "%(href)v",
-                        .reputation.u * self@ | "%(title)v" / tr ",."
-                    },
-                } |
-             """
-            )["comments"]
+            comments = rq.json(Path('stackexchange/post-comments.reliq'))["comments"]
 
             for i in comments:
                 i["user_link"] = url_merge(ref, i["user_link"])
             return comments
 
         def get_post(self, rq, url, ref, settings, state, path):
-            post = rq.json(
-                r"""
-                .id.u * self@ | "%(data-answerid)v %(data-questionid)v",
-                .rating.i div .js-vote-count data-value | "%(data-value)v",
-                .checkmark.b [0] div .js-accepted-answer-indicator | "t",
-                .bounty.u [0] div .js-bounty-award | "%i",
-                .content div class="s-prose js-post-body" | "%i",
-
-                div .user-info i@"edited"; {
-                    .edited span .relativetime | "%(title)v",
-                    .editor {
-                        .avatar img .bar-sm src | "%(src)v",
-                         div .user-details; {
-                            .name [0] * l@[1] c@[0] | "%Di" trim,
-                            .link div .user-details; a href child@ | "%(href)v",
-                            .reputation.u span .reputation-score | "%i" tr ",",
-                            .gbadge.u span title=w>gold; span .badgecount | "%i",
-                            .sbadge.u span title=w>silver; span .badgecount | "%i",
-                            .bbadge.u span title=w>bronze; span .badgecount | "%i"
-                        }
-                    }
-                },
-
-                div .user-info i@v>"edited"; {
-                    .date span .relativetime | "%(title)v",
-                    .author {
-                        .avatar img .bar-sm src | "%(src)v",
-                         div .user-details; {
-                            .name [0] * l@[1] c@[0] | "%Di" trim,
-                            .link div .user-details; a href child@ | "%(href)v",
-                            .reputation.u span .reputation-score | "%(title)v %i" tr ",",
-                            .gbadge.u span title=w>gold; span .badgecount | "%i",
-                            .sbadge.u span title=w>silver; span .badgecount | "%i",
-                            .bbadge.u span title=w>bronze; span .badgecount | "%i"
-                        }
-                    }
-                },
-                """
-            )
+            post = rq.json(Path('stackexchange/post.reliq'))
             post["author"]["avatar"] = url_merge(ref, post["author"]["avatar"])
             post["author"]["link"] = url_merge(ref, post["author"]["link"])
             post["editor"]["avatar"] = url_merge(ref, post["editor"]["avatar"])
@@ -289,17 +126,7 @@ class stackexchange(ForumExtractor):
                 "id": int(i_id),
             }
 
-            t = rq.json(
-                r"""
-                .title h1 itemprop="name"; a | "%Di" / trim,
-                div .flex--item .mb8 .ws-nowrap; {
-                    .views.u [0] * self@ i@"Viewed" | "%(title)v" / tr "0-9" "" "c",
-                    .asked [0] * self@ i@"Asked"; [0] time itemprop="dateCreated" datetime | "%(datetime)v",
-                    .modified [0] * self@ i@"Modified"; [0] a title | "%(title)v"
-                },
-                .tags.a div .ps-relative; a .post-tag | "%i\n"
-                """
-            )
+            t = rq.json(Path('stackexchange/thread.reliq'))
             dict_add(ret, t)
 
             posts = []
@@ -544,40 +371,7 @@ class stackexchange(ForumExtractor):
         return self.process_forum_r(url, rq, ref, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(
-            r"""
-            .threads div #b>question-summary-; {
-                div .s-post-summary--stats; div .s-post-summary--stats-item; {
-                    .score.u [0] * self@ title=b>"Score of ",
-                    .views.u [0] * self@ title=e>" views" | "%(title)v",
-                    [0] span i@f>"answers"; {
-                        .answers.u [0] span .e>-number spre@ | "%i",
-                        .solved.b * .has-accepted-answer parent@ | "t"
-                    },
-                    .bounty.u * self@ .has-bounty | "%i"
-                },
-                div .s-post-summary--content; {
-                    * .s-post-summary--content-title; [0] a; {
-                        .title * self@ | "%Di" trim,
-                        .link * self@ | "%(href)v"
-                    },
-                    .excerp * .s-post-summary--content-excerpt | "%i",
-                    [0] * .s-post-summary--meta; {
-                        .tags.a a .s-tag | "%i\n",
-                        .author div .s-user-card; {
-                            .avatar img .s-avatar--image | "%(src)v",
-                            div .s-user-card--info; {
-                                .name [0] * c@[0] | "%Di" / trim,
-                                .link a | "%(href)v"
-                            },
-                            .reputation.u li .s-user-card--rep; [0] span | "%(title)v %i" / tr ","
-                        },
-                        .date span .relativetime | "%(title)v"
-                    }
-                }
-            } |
-            """
-        )
+        t = rq.json(Path('stackexchange/forum.reliq'))
 
         threads = t["threads"]
 

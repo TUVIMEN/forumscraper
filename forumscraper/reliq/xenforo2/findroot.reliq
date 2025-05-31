@@ -1,0 +1,4 @@
+{
+    * .p-nav; [0] a href | "%(href)v\n",
+    * #header-forum-listing href | "%(href)v\n"
+} / line [0] tr "\n"

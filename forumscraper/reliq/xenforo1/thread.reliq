@@ -1,0 +1,11 @@
+.title {
+    div class=b>titleBar; [0] h1 | "%Di" trim,
+    div #header; [0] h1 | "%Di" trim / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}"
+},
+p #pageDescription; {
+    .user_id.u a .username href | "%(href)v" / sed "s/^.*[\/.]\([0-9]\+\)/\1/; s/[^0-9]$//",
+    .user [0] a .username | "%Di" trim,
+    .date [0] * .DateTime | "%i"
+},
+.path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%Di\n" / sed "/^$/d" trim "\n",
+.tags.a("|") ul .tagList; a .tag | "%i|" / sed "s/<[^>]*>[^<]*<\/[^>]*>//g; s/|$//"

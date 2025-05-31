@@ -1,0 +1,133 @@
+.categories {
+    div #boardindex_table; * #b>category_,
+    div #bodyarea; div .categoryframe child@,
+    div #E>board_[0-9]+_childboards,
+    div #childboards; table .boardsframe child@
+}; {
+    {
+        * #E>category_[0-9]+,
+        div .categoryframe self@,
+        div #E>board_[0-9]+_childboards self@,
+        table .boardsframe self@; [0] tr child@
+    }; [0] ( h3 )( td ) .catbg; {
+        .name * self@ | "%Dt" trim,
+        .description [0] div .desc ssub@ | "%i"
+    },
+    .forums {
+        {
+            * #E>category_[0-9]+_boards,
+            div .categoryframe self@; table .boardsframe child@
+        }; ( tr )( div ) -style child@,
+        table .boardsframe self@; [1:] tr child@,
+        div #E>board_[0-9]+_childboards self@; * #E>board_[0-9]+,
+    }; {
+        .status [0] * ( .b>icon )( .board_icon ); [0] ( a )( img )( span ) title | "%(title)v",
+        * .info child@; {
+            [0] a href; {
+                .link * self@ | "%(href)v",
+                .name * self@ | "%Di" trim
+            },
+            .description [0] ( p -id -.moderators )( div .board_description ) child@ | "%i",
+        },
+        .childboards * .children; a; {
+            .link * self@ | "%(href)v",
+            .name * self@ | "%Di" trim,
+            .status * self@ | "%(title)v" sed "s/ (.*//",
+            .topics.u * self@ | "%(title)v" sed "s/.* (//; s/,.*//",
+            .posts.u * self@ | "%(title)v" sed "s/.*,//"
+        } | ,
+        .moderators * .moderators; a href; {
+            .user_link * self@ | "%(href)v",
+            .user [0] * self@ | "%Di" trim
+        } | ,
+        * .e>stats child@; { p child@, * self@ }; [0] * self@; {
+            .posts.u * self@ | "%i" sed 's/<.*//;s/,//g',
+            .topics.u * self@ | "%i" sed 's/.*>//;s/,//g'
+        },
+        .posts2.u [0] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
+        .topics2.u [1] * .windowbg c@[0] child@ | "%i" sed 's/,//g',
+        * .lastpost child@; { p child@, * self@ }; [0] * self@; {
+            .lastpost * self@ -has@"[0] span .postby"; {
+                [0] a href; {
+                    .user * self@ | "%Di" trim,
+                    .user_link * self@ | "%(href)v"
+                },
+                [1] a href; {
+                    .title * self@ | "%(title)Dv" / trim,
+                    .link * self@ | "%(href)v"
+                },
+                .date * self@ | "%t" tr "\n\t\r" trim sed "s/.*>//; s/([^ ]* ){3}//; s/^ *at //" "E"
+            },
+            .lastpost2 span [0] .postby; * rparent@; {
+                [0] a href; {
+                    .title * self@ | "%(title)Dv" / trim,
+                    .link * self@ | "%(href)v"
+                },
+                [1] a href; {
+                    .user * self@ | "%Di" trim,
+                    .user_link * self@ | "%(href)v"
+                },
+                .date * self@ | "%t" trim sed "s/^at //"
+            }
+        }
+    } |
+} | ,
+.threads.u div #messageindex; {
+    table ( .table_grid )( .boardsframe ) child@; tbody child@; tr c@[4:] child@,
+    div #topic_container child@; div child@
+}; {
+    .type1 * ( .icon1 )( .board_icon ) child@; img src | "%(src)v",
+    .type2 * .icon2 child@; img src | "%(src)v",
+    * ( .subject )( .info ) child@; {
+        [0] a href; {
+            .title * self@ | "%Di" / trim,
+            .link * self@ | "%(href)v"
+        },
+        [1] a href; {
+            .user * self@ | "%Dt" trim,
+            .user_link * self@ | "%(href)v"
+        },
+        .lastpage.u [-] a ( .navPages )( .nav_page ) c@[0] i@v>"All" | "%i",
+        .icons.a {
+            * class self@,
+            div .icons; span .main_icons
+        }; * self@ | "%(class)v" / trim tr " " "\n" sed "/^subject$/d; /^windowbg/d; /^info$/d; /^info_block$/d; /^main_icons$/d; /^info_blockmain_icons$/d; /^lockmain_icons$/d",
+        .icons2.a img id child@ | "%(src)v\n" sed 's/.*\///; s/\..*//'
+    },
+    td .starter child@; a; {
+        .user2 [0] * self@ | "%Di" trim,
+        .user_link2 * self@ | "%(href)v"
+    },
+    {
+        td .stats child@,
+        * .board_stats child@; p
+    }; {
+        .replies.u * self@ | "%i" sed "s/<.*//;s/,//g;q",
+        .views.u * self@ | "%i" tr "\n\t\r," sed "s/.*>//"
+    },
+    .replies2.u td .replies c@[0] child@ | "%i" tr ",",
+    .views2.u td .views c@[0] child@ | "%i" tr ",",
+    * .lastpost child@; {
+        .lastpost [0] v>p child@; * rparent@; {
+            .link [0] a href | "%(href)v",
+            [1] a href; {
+                .user * self@ | "%Di" trim,
+                .user_link * self@ | "%(href)v"
+            },
+            .date {
+                span .smalltext child@,
+                * self@
+            }; [0] * self@ | "%i" tr "\n\t\r" sed "s/<br.*//; s/.*<\/a>//; s/<[^>]*>//g; s/ by //" trim
+        },
+        .lastpost2 p child@; {
+            [0] a href; {
+                .date * self@ | "%T" trim,
+                .link * self@ | "%(href)v"
+            },
+            [1] a href; {
+                .user * self@ | "%Di" trim,
+                .user_link * self@ | "%(href)v"
+            }
+        }
+    }
+} |

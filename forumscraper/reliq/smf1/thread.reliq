@@ -1,0 +1,9 @@
+.title * #top_subject | "%i" / sed "s/[^:]*: //;s/([^(]*)//;s/&nbsp;//g;s/ *$//; s/<[^>]*>//g; s/^Topic: //" decode trim,
+.viewed.u {
+    td #top_subject | "%i" /  sed "s/.*\(//g;s/.* ([0-9]+) .*/\1/" "E" ||
+    * #topic_header_views | "%i"
+},
+.path.a("\n") {
+    div a@[0]; E>(div|span) .nav l@[1]; a .nav | "%i\n" ||
+    [0] * .linktree; a child@ | "%i\n"
+} / line [:-1] decode trim "\n"

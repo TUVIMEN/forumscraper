@@ -1,0 +1,21 @@
+.recommended div data-role=recommendedComments; div .ipsBox data-commentID; {
+    .id.u div .ipsBox data-commentID | "%(data-commentID)v",
+     div .ipsReactOverview; {
+        .reactions.a ul; li; img alt | "%(alt)v\n",
+        .reaction_count.u p class="ipsType_reset ipsType_center" | "%i"
+    },
+    .user_avatar aside; img src | "%(src)v",
+    div .ipsColumn; {
+        * .ipsComment_meta; {
+            .user_link a .ipsType_break href | "%(href)v",
+            .user a .ipsType_break href; * c@[0] | "%Di" trim,
+            .date time datetime | "%(datetime)v"
+        },
+        .link a .ipsButton href | "%(href)v",
+        a .ipsType_break href c@[0] l@[1]; {
+            .ruser_link a l@[0] | "%(href)v",
+            .ruser a l@[0] | "%i"
+        },
+        .content div .ipsType_richText | "%i"
+    }
+}

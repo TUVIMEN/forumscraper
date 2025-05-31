@@ -1,0 +1,150 @@
+.posts {
+    [0] ul .conversation-list,
+    * #posts; {
+        ul child@ ||
+        * self@
+    }
+}; * -#lastpost -.ad_block child@; {
+    .date {
+        time itemprop=dateCreated | "%(datetime)v" ||
+        span .date | "%DT" ||
+        span .timepost | "%i" ||
+        a name=E>post[0-9]+; * parent@ | "%DT" / sed "s/<[^>]+>//g" "E" trim
+    },
+
+    .id.u {
+        [0] a name=E>post[0-9]+ | "%(name)v" ||
+        [0] a #E>post[0-9]+ | "%(id)v"
+    } / sed "s/^post//",
+
+    .title {
+        h2 ( .title )( .b-post__title )( .posttitle ) | "%Di" ||
+        img .inlineimg; div .smallfont c@[:3] parent@ | "%Di" ||
+        div .tittle | "%Di"
+    } / trim,
+
+    .content div ( #b>post_message_ )( .js-post__content-text ) | "%i",
+
+    .signature {
+        div .post-signature | "%i" ||
+        div .signaturecontainer | "%i" ||
+        [0] div i@bB>"[^<]*________" | "%Di"
+    },
+
+    .edited {
+        div .b-post__edit ||
+        div .smallfont; [0] em child@ ||
+        blockquote .lastedited
+    }; {
+        [0] a; {
+            .userid.u * self@ | "%(data-vbnamecard)v",
+            .user_link * self@ | "%(href)v"
+        },
+        .user {
+            [0] a | "%i" ||
+            * self@ | "%t" / tr "\n\t\r" sed "s/[(;)].*//g; s/  *$//; s/.* //"
+        },
+        .date {
+            * self@ | "%t" / tr "\n\t\r" sed "s/.*[(;]//g",
+            span .time | " %i"
+        } / sed "s/)$//" trim
+    },
+
+    .attachments li .b-post-attachments__item; a [0]; {
+        .link * self@ | "%(href)v",
+        .name span .h-wordwrap | "%i" / sed "s/&lrm;$//" decode trim,
+        span c@[0] i@e>")"; {
+            .size * self@ | "%i" / sed "s/^(//;s/,.*//",
+            .views.u * self@ | "%i" / sed "s/.*,//"
+        }
+    } | ,
+    .attachments2 {
+        div .attachments; li c@[1:] ||
+        a href=Eb>"(attachment|download)\.php\?"; td parent@
+    }; {
+        a [0]; {
+            .link * self@ | "%(href)v",
+            .name * self@ | "%i" / sed "s/&lrm;$//" decode trim
+        },
+        .size * self@ | "%t" / sed "/(/{ s/.*(//; s/,.*//; p }" "n" trim,
+        .views.u * self@ | "%t" / sed "/(/{ s/.*(//; s/.*,//; p }" "n"
+    } | ,
+
+
+    .reactions div .reactions__topic-reaction; {
+        .type [0] span .reactions__emoji | "%Di",
+        .count.u [0] span .reactions__topic-reaction--count | "%i"
+    } | ,
+
+    .thankedby_users.a {
+        div .likes_postbit; li; a [0]; * c@[0] | "%i\n" ||
+        * #b>post_thanks_box_; [-] a; * parent@; * c@[0] | "%i\n"
+    },
+    .thankedby_dates.a(",") * #b>post_thanks_box_; [-] a; * parent@ | "%Dt" / tr "\n\t\r() " tr "[[:print:]]" "" "c" sed "s/<!--[^>]*>//g; s#<[^>]*>##g",
+
+    .user {
+        [0] * #b>postmenu_; [-] * -has@"[0] * #b>td_post_" ancestor@ ||
+        [0] div ( .userinfo )( .userinfo_noavatar )( .postauthor )
+    }; {
+        {
+            [0] * .username ||
+            [0] a .bigusername ||
+            div .author ||
+            [0] a .siteicon_profile ||
+            * #b>postmenu_ c@[0]
+        }; {
+            .link [0] a | "%(href)v",
+            .name [0] * c@[0] | "%Di" / trim
+        },
+        .avatar {
+            [0] * .E>"(postuseravatar(link)?|(b-)?avatar(-block)?|userpic|user-avatar-h)"; img | "%(src)v" ||
+            [0] img src=Ea>"((/|^)(forum|custom)?avatars?/|image\.php\?)" | "%(src)v"
+        },
+
+        .title {
+            * ( .usertitle )( .usertittle ) ||
+            * c@[0] i@>[1:]; [0] * c@[:5] .smallfont ancestor@ ||
+            [0] * c@[0] .smallfont
+        }; [0] * c@[0] i@>[1:] | "%Di" / trim,
+
+        .rank.u {
+            [0] * ( .rank )( .b-userinfo__rank ) | "%c" ||
+            [-] * #b>repdisplay_ | "%c" ||
+            * b-meter__bar i@>[1:] | "l" / wc "c"
+        },
+        .rank-name [0] a .rank-link | "%Di",
+
+        .custom1 * ( .userinfo_extra )( .userfield ); dl; dt; {
+            .key * self@ | "%Di" trim,
+            .value [0] dd ssub@; [0] * c@[0] i@>[1:] | "%Di" trim
+        } | ,
+        .custom2 li .b-userinfo__additional-info; {
+            .key label child@ | "%Di" trim,
+            .value span child@; [0] * c@[0] i@>[1:]  | "%Di" trim
+        } | ,
+        .custom3 div .fields-list; div .line; {
+            .key span child@ | "%Di" trim,
+            .value strong child@ | "%Di" trim
+        } | ,
+        .custom4.a {
+            div c@[0] i@Bf>" *"; [0] div ( .smallfont )( .userinfo ) parent@ | "%Di" trim ||
+            div a@[0] c@[:2] i@":"; [0] div c@[:14] parent@ | "%Di" trim
+        } / tr "\r\t" sed "
+            :r
+            s/ //g
+            s/<!--[^>]*>//g
+            s/<div>//g
+            s/<\/div>/\n/g
+            s/<b>//g
+            s/<\/b>//g
+            s/< *br *(\/ *)?>/\n/g
+
+            /^ *$/d
+            /: *$/{
+                N
+                s/\n/ /g
+                br
+            }
+        " "E" sed "/^ *$/d; s/^ *//; s/ *$//"
+    }
+} |

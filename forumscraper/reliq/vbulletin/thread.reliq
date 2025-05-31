@@ -1,0 +1,15 @@
+.title {
+    [0] * .threadtitle; * c@[0] i@>[!0] | "%Di" ||
+    [0] * .main-title c@[0] | "%Di" ||
+    td .navbar; strong child@; * [0] c@[0] i@>[!0] | "%Di" / sed "s/<[^>]+>//g" "E" ||
+    * .thread-breadcrumb; * [0] c@[0] i@>[!0] | "%Di" ||
+    * #toolbar; [0] h1 c@[0] | "%Di"
+} / trim,
+.path.a {
+    span c@[1:5] .navbar; a [0] i@>[!0] child@ | "%Di\n" ||
+    {
+        div itemtype="http://schema.org/BreadcrumbList" ||
+        [0] * ( #breadcrumbs )( .breadcrumbs ) ||
+        * .navbit
+    }; a c@[:5]; * [0] c@[0] i@>[!0] | "%Di\n"
+} / trim "\n"

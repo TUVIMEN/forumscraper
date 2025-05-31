@@ -1,0 +1,7 @@
+{
+    * .forumtitle; a l@[:2] c@[0] | "%(href)v\n",
+    * #E>f[0-9]+; a [0] c@[:4] | "%(href)v\n",
+    a .forum-title c@[0] | "%(href)v\n",
+    a href=E>"/f[0-9]+/" c@[0] | "%(href)v\n",
+    h2 .forumTitle; a [0] l@[:3] c@[:3] | "%(href)v\n"
+} / sed "s/&amp;/\&/g" sort "u"

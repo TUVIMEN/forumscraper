@@ -1,0 +1,59 @@
+{
+    h4 class=b>message-name,
+    * .MessageCard__user-info__name
+}; {
+    .user [0] * c@[0] | "%Di" trim,
+    .user_link [0] a class href | "%(href)v",
+    .user_id.u [0] * data-user-id | "%(data-user-id)v"
+},
+
+.user_avatar {
+    div .message-avatar,
+    div .MessageCard__avatar
+}; img src | "%(src)v",
+
+.user_title h5 .userTitle | "%i",
+
+.user_banners.a div .userBanner; strong | "%i\n",
+
+.user_extras {
+    .pairs1 div .message-userExtras; dl l@[1]; {
+        .key dt; {
+            * title | "%(title)v\a",
+            * l@[0] | "%i"
+        } / sed "s/^\a*//;s/\a.*//",
+        .value dd | "%i",
+    } | ,
+
+    .pairs2 div .message-userExtras; div .pairs; span title; {
+        .key * l@[0] | "%(title)v",
+        .value * l@[0] | "%i",
+    } | ,
+
+    .pairs3 div .MessageCard__user-details; span class -.MessageCard__dot-separator; {
+        .key * l@[0] | "%(class)v" / sed 's/^MessageCard__//',
+        .value * l@[0] | "%i"
+    } | ,
+
+    div .message-userExtras; {
+        .stars.a ul .reputation-star-container; li .eB>"[a-z]star" | "%(class)v\n" / sed "s/.* //",
+
+        .bar.a ul .reputation-bar-container; li .reputation-bar | "%(class)v\n" / sed "s/.* //"
+    }
+},
+
+.id.u [0] * #E>(js-)?post-[0-9]+ | "%(id)v" / sed "s/^js-//; s/^post-//;q",
+
+.date {
+    * class=b>message-attribution-main; time datetime | "%(datetime)v\t",
+    * .MessageCard__date-created; [0] time datetime .u-dt | "%(datetime)v"
+} / sed "s/\t.*//",
+
+.text {
+    article class=b>message-body,
+    div .MessageCard__content-inner
+}; div .bbWrapper | "%i",
+
+.attachments.a ul .attachmentList; a,
+
+.signature div #signature-content-wrapper; div .bbWrapper | "%i"

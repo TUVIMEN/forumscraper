@@ -1,0 +1,1 @@
+td .nav -style; a href | "%(href)v\n" / sed "/\/$/p" "n" line [-] tr "\n"

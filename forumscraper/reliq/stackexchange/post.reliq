@@ -1,0 +1,35 @@
+.id.u * self@ | "%(data-answerid)v %(data-questionid)v",
+.rating.i div .js-vote-count data-value | "%(data-value)v",
+.checkmark.b [0] div .js-accepted-answer-indicator | "t",
+.bounty.u [0] div .js-bounty-award | "%i",
+.content div class="s-prose js-post-body" | "%i",
+
+div .user-info i@"edited"; {
+    .edited span .relativetime | "%(title)v",
+    .editor {
+        .avatar img .bar-sm src | "%(src)v",
+         div .user-details; {
+            .name [0] * l@[1] c@[0] | "%Di" trim,
+            .link div .user-details; a href child@ | "%(href)v",
+            .reputation.u span .reputation-score | "%i" tr ",",
+            .gbadge.u span title=w>gold; span .badgecount | "%i",
+            .sbadge.u span title=w>silver; span .badgecount | "%i",
+            .bbadge.u span title=w>bronze; span .badgecount | "%i"
+        }
+    }
+},
+
+div .user-info i@v>"edited"; {
+    .date span .relativetime | "%(title)v",
+    .author {
+        .avatar img .bar-sm src | "%(src)v",
+         div .user-details; {
+            .name [0] * l@[1] c@[0] | "%Di" trim,
+            .link div .user-details; a href child@ | "%(href)v",
+            .reputation.u span .reputation-score | "%(title)v %i" tr ",",
+            .gbadge.u span title=w>gold; span .badgecount | "%i",
+            .sbadge.u span title=w>silver; span .badgecount | "%i",
+            .bbadge.u span title=w>bronze; span .badgecount | "%i"
+        }
+    }
+}

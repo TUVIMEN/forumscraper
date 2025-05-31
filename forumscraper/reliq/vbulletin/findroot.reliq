@@ -1,0 +1,8 @@
+{
+    [0] * ( #breadcrumbs )( .breadcrumbs )( #breadcrumb )( .breadcrumbs-table ); a href=>[1:] | "%(href)v\n" / sed "
+        \#(/|^)(((forum|foro|board)s?|community)/?|forum\.php)(\?[^/]*)?$#{p;q}
+        1!G
+        h
+       $p" "En" line [-],
+    [0] span .navbar; a href | "%(href)v\n"
+} / line [0] tr "\n" sed "s/&amp;/\&/g"

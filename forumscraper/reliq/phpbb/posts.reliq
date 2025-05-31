@@ -1,0 +1,14 @@
+.posts div #B>"p[0-9]*"; {
+    .postid.u div #B>"p[0-9]*" l@[0] | "%(id)v" / sed "s/^p//",
+    .date p .author | "%i" / sed "s/<\/time>$//;s/.*>//; s/.*;//; s/^ *//; s/^([a-z]* )+//; /^$/d" "E",
+    .content div .content | "%i",
+    .signature div .signature #B>sig[0-9]* | "%i",
+    dl .postprofile #B>profile[0-9]*; {
+        dt l@[1]; {
+            .avatar img src | "%(src)v",
+            .user a c@[0] | "%Di" trim,
+            .userid.u a href c@[0] | "%(href)v" / sed "s/.*[&;]u=([0-9]+).*/\1/" "E",
+        },
+        .userinfo_temp.a("\a") dd l@[1] i@vf>"&nbsp;" | "%i\a" / tr '\n\t' sed "s/<strong>([^<]*)<\/strong>/\1/g; s/ +:/:/; /<ul [^>]*class=\"profile-icons\">/{s/.*<a href=\"([^\"]*)\" title=\"Site [^\"]*\".*/Site\t\1/;t;d}; /^[^<>]+:/!{s/^/Rank:/};s/: */\t/" "E" "\a"
+    }
+} |

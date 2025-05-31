@@ -6,7 +6,7 @@ from importlib.metadata import version
 
 from reliq import RQ
 
-reliq = RQ(cached=True)
+reliq = RQ(path="reliq",cached=True)
 
 __version__ = version(__package__ or __name__)
 

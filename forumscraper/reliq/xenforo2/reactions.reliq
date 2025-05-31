@@ -1,0 +1,6 @@
+.reactions div .contentRow; {
+    .user_id.u * .username data-user-id | "%(data-user-id)v",
+    .user * .username data-user-id; * c@[0] | "%Di" / trim,
+    .date time .u-dt datetime | "%(datetime)v",
+    .reaction span .reaction; img title | "%(title)v"
+} |

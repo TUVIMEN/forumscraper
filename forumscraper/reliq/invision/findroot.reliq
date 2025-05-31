@@ -1,0 +1,12 @@
+{
+    [0] ul data-role=breadcrumbList; a href | "%(href)v\n" / sed "
+        1!G
+        h
+        \#/(((forum|foro|board)s?|community)/?|index\.php)$#{p;q}
+       $p" "En" line [-],
+   li #b>elNavSecondary_ i>data-navapp=i>forums; [0] a href | "%(href)v",
+   li #b>lmgNavSub_; [0] a href i@i>"forums" | "%(href)v\n",
+   nav; li .ipsMenu_item; [0] a i@i>forums href | "%(href)v\n",
+   [0] a href=Ea>"(/|^)((forum|foro)s?|community|communaute|comunidad|ipb)(\.([a-zA-Z0-9.-]\.)*[a-zA-Z]/?|/?$)" | "%(href)v\n",
+   [0] a href=Ea>"(/|^)(index|index\.php)/?$" | "%(href)v\n"
+} / line [0] tr "\n"

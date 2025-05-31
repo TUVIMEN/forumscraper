@@ -1,0 +1,24 @@
+.name h2 class=b>"ipsType_reset ipsType_"; a | "%Di" / trim,
+.background div .ipsCoverPhoto_container; img src | "%(src)v",
+.avatar img src .ipsUserPhoto | "%(src)v",
+.group p class="ipsType_reset ipsType_normal"; * c@[0] | "%i",
+
+.joined {
+    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Joined "; time datetime | "%(datetime)v",
+    div .cUserHovercard_data; li i@">Joined<"; time datetime | "%(datetime)v"
+},
+
+.lastseen {
+    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Last visited "; time datetime | "%(datetime)v",
+    div .cUserHovercard_data; li i@">Last visited<"; time datetime | "%(datetime)v"
+},
+
+.info dl; div l@[1]; {
+    .name dt | "%Di" / trim,
+    .value dd | "%i"
+} | ,
+div class=b>"ipsFlex ipsFlex-ai:center "; div class="ipsFlex ipsFlex-ai:center"; {
+    .rank img title | "%(title)v",
+    .rank_date time datetime | "%(datetime)v",
+},
+.badges.a div class=b>"ipsFlex ipsFlex-ai:center "; ul; li; img alt | "%(alt)v\n"

@@ -1,0 +1,19 @@
+.forums table; td [0] .ctrtablerow l@[2]; * rparent@; font [0] .mediumtxt; a [0] href=b>"forumdisplay.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
+    .state [0] td l@[1]; img src | "%(src)v",
+    [1] td l@[1]; {
+        [0] a href; {
+             .link * l@[0] | "%(href)v",
+             .name * l@[0] | "%Di" / trim
+        },
+        .description [-] font | "%i"
+    },
+    .threads.u [2] td l@[1]; font | "%i",
+    .posts.u [3] td l@[1]; font | "%i",
+    .lastpost [4] td l@[1]; [0] td l@[1:]; {
+        .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
+        a href; {
+            .user_link * l@[0] | "%(href)v",
+            .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
+        }
+    }
+} |

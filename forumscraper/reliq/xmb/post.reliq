@@ -1,0 +1,23 @@
+.date td -rowspan l@[1]; a i@E>".+ .+ .+" | "%i" / sed "s/^[^ ]\+ [^ ]\+ //",
+td rowspan l@[1]; {
+    .user font .mediumtxt; * c@[0] | "%Di" trim,
+     div .smalltxt; {
+        .postid.u a name l@[1] | "%(name)v" / sed "s/^pid//",
+        .fields.a * l@[0] | "%i\n" / sed '
+            s/^<a [^>]*><\/a>//
+            s/<br \/>/\n/
+            s/<img src="images[^>]*\/>/*/g
+            s/<br \/>.*<hr \/>/\n/
+            s/<div [^>]*>\(<img [^>]*src="\([^"]*\)"[^>]*\/>\)\?<\/div><br \/>/\2\n/
+            s/<br \/>[^:]*: //
+            s/<br \/>[^:]*: /\n/
+            /<br \/>[^:]*: /!s/<br \/>/\n\0/
+            s/<br \/>[^:]*: \(<div [^>]*><img [^>]* alt="\([^"]*\)"[^>]*\/><\/div><br \/>\([^<]*\)\)\?/\n\3/
+            s/<br \/>[^<]*<br \/>/\n/;
+            s/<br \/>//;
+            s/<strong>[^<]*:<\/strong> //g;
+            s/<strong>//g;
+            s/<\/strong>//g
+            '
+    }
+}

@@ -1,6 +1,7 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
+from pathlib import Path
 import re
 import json
 
@@ -45,34 +46,7 @@ class invision(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
 
-            t = rq.json(
-                r"""
-                .name h2 class=b>"ipsType_reset ipsType_"; a | "%Di" / trim,
-                .background div .ipsCoverPhoto_container; img src | "%(src)v",
-                .avatar img src .ipsUserPhoto | "%(src)v",
-                .group p class="ipsType_reset ipsType_normal"; * c@[0] | "%i",
-
-                .joined {
-                    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Joined "; time datetime | "%(datetime)v",
-                    div .cUserHovercard_data; li i@">Joined<"; time datetime | "%(datetime)v"
-                },
-
-                .lastseen {
-                    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Last visited "; time datetime | "%(datetime)v",
-                    div .cUserHovercard_data; li i@">Last visited<"; time datetime | "%(datetime)v"
-                },
-
-                .info dl; div l@[1]; {
-                    .name dt | "%Di" / trim,
-                    .value dd | "%i"
-                } | ,
-                div class=b>"ipsFlex ipsFlex-ai:center "; div class="ipsFlex ipsFlex-ai:center"; {
-                    .rank img title | "%(title)v",
-                    .rank_date time datetime | "%(datetime)v",
-                },
-                .badges.a div class=b>"ipsFlex ipsFlex-ai:center "; ul; li; img alt | "%(alt)v\n"
-            """
-            )
+            t = rq.json(Path('invision/user.reliq'))
 
             t["avatar"] = url_merge_r(ref, t["avatar"])
             t["background"] = url_merge_r(ref, t["background"])
@@ -159,19 +133,7 @@ class invision(ForumExtractor):
                 write_html(path + str(page), rq, settings)
                 page += 1
 
-                t = rq.json(
-                    r"""
-                    .reactions ol; li; {
-                        .avatar a .ipsUserPhoto; img src | "%(src)v",
-                        a .ipsType_break href; {
-                            .user_link * l@[0] | "%(href)v",
-                            .user * l@[0] | "%Di" trim
-                        },
-                        .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
-                        .date time datetime | "%(datetime)v"
-                    } |
-                    """
-                )
+                t = rq.json(Path('invision/reactions.reliq'))
 
                 if len(ret) == 0:
                     self.state_add_url("reactions", nexturl, state, settings)
@@ -191,61 +153,14 @@ class invision(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(
-                r"""
-                div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
-                    .title span class="ipsType_break ipsContained"; span -class | "%Di" trim,
-                    .badges.a span title | "%(title)v\n"
-                },
-                .rating.b ul .ipsRating_collective; li .ipsRating_on | "true",
-                div .ipsPageHeader; {
-                    .user_link a .ipsType_break href | "%(href)v",
-                    .user a .ipsType_break href; * c@[0] | "%Di" trim,
-                    .user_avatar a .ipsUserPhoto; img src | "%(src)v",
-                    .user_followers.u a .ipsFollow; span .ipsCommentCount | "%i" / tr ",.",
-                },
-                .date div .ipsFlex-flex:11; time datetime | "%(datetime)v",
-                .path.a nav class=b>"ipsBreadcrumb ipsBreadcrumb_top "; ul data-role="breadcrumbList"; li; a; span | "%Dt\n" / sed "s/ $//" trim,
-
-                .tags.a {
-                    div .ipsPageHeader; ul .ipsTags; a; span c@[0] | "%i",
-                    div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; a .ipsTag_prefix rel=tag; span c@[0] | "%i",
-                },
-
-                .warning div .cTopicPostArea; span .ipsType_warning | "%i",
-            """
-            )
+            t = rq.json(Path('invision/thread.reliq'))
             dict_add(ret, t)
 
             ret["poll"] = self.get_poll(rq)
             ret["user_link"] = url_merge_r(ref, ret["user_link"])
             ret["user_avatar"] = url_merge_r(ref, ret["user_avatar"])
 
-            t = rq.json(
-                r"""
-                .recommended div data-role=recommendedComments; div .ipsBox data-commentID; {
-                    .id.u div .ipsBox data-commentID | "%(data-commentID)v",
-                     div .ipsReactOverview; {
-                        .reactions.a ul; li; img alt | "%(alt)v\n",
-                        .reaction_count.u p class="ipsType_reset ipsType_center" | "%i"
-                    },
-                    .user_avatar aside; img src | "%(src)v",
-                    div .ipsColumn; {
-                        * .ipsComment_meta; {
-                            .user_link a .ipsType_break href | "%(href)v",
-                            .user a .ipsType_break href; * c@[0] | "%Di" trim,
-                            .date time datetime | "%(datetime)v"
-                        },
-                        .link a .ipsButton href | "%(href)v",
-                        a .ipsType_break href c@[0] l@[1]; {
-                            .ruser_link a l@[0] | "%(href)v",
-                            .ruser a l@[0] | "%i"
-                        },
-                        .content div .ipsType_richText | "%i"
-                    }
-                }
-            """
-            )
+            t = rq.json(Path('invision/thread-recommended.reliq'))
             rec = t["recommended"]
             rec["user_avatar"] = url_merge_r(ref, rec["user_avatar"])
             rec["user_link"] = url_merge_r(ref, rec["user_link"])
@@ -253,37 +168,6 @@ class invision(ForumExtractor):
             rec["ruser_link"] = url_merge_r(ref, rec["ruser_link"])
             dict_add(ret, t)
 
-            expr = reliq.expr(
-                r"""
-                .id.u article #B>elComment_[0-9]* | "%(id)v\n" / sed "s/^elComment_//",
-                aside; {
-                    .user h3 class=b>"ipsType_sectionHead cAuthorPane_author "; * c@[0] [0] | "%Di" trim,
-                    * .cAuthorPane_photo data-role=photo; {
-                        .user_avatar a .ipsUserPhoto; img src | "%(src)v",
-                        .badges.a {
-                            img title alt | "%(alt)v\n",
-                            span .cAuthorPane_badge title=e>" joined recently" | "%(title)v\n"
-                        }
-                    },
-                    ul .cAuthorPane_info; {
-                        .group li data-role=group; * c@[0] | "%i",
-                        .group_icon li data-role=group-icon; img src | "%(src)v",
-                        .rank_title li data-role=rank-title | "%i",
-                        .rank_image li data-role=rank-image; * | "%i",
-                        .reputation_badge li data-role=reputation-badge; span | "%i" / sed "s/^<i .*<\/i> //;s/,//g;q",
-                        .posts li data-role=posts | "%i" / sed "s/ .*//;s/,//g",
-                        .custom li data-role=custom-field | "%i",
-                        .user_info.a ul .ipsList_reset; li; a title l@[1] | "%(title)v\n" / sort "u",
-                    }
-                },
-                div .ipsComment_meta; {
-                    .top_badges.a div class=a>"ipsComment_badges"; ul .ipsList_reset; li; strong | "%i\n" / sed "s#<i [^>]*></i> ##g",
-                    .date time datetime | "%(datetime)v",
-                },
-                .content div .cPost_contentWrap; div data-role=commentContent | "%i",
-                .signature div data-role=memberSignature; div data-ipslazyload | "%i",
-            """
-            )
             posts = []
 
             for rq, ref in self.next(ref, rq, settings, state, path):
@@ -304,23 +188,13 @@ class invision(ForumExtractor):
                         except self.common_exceptions as ex:
                             self.handle_error(ex, user_link, settings, True)
 
-                    t = i.json(expr)
+                    t = i.json(Path('invision/post.reliq'))
                     t["user_avatar"] = url_merge_r(ref, t["user_avatar"])
                     t["group_icon"] = url_merge_r(ref, t["group_icon"])
                     t["rank_image"] = url_merge_r(ref, t["rank_image"])
                     dict_add(post, t)
 
-                    t = i.json(
-                        r"""
-                        ul .ipsReact_reactions; {
-                            .reactions_users li .ipsReact_overview; a href -href=a>?do= l@[1]; {
-                                .link * l@[0] | "%(href)v",
-                                .name * l@[0] | "%i"
-                            } | ,
-                            .reactions_temp.a li .ipsReact_reactCount; span a@[0] / sed "s/<span><img .* alt=\"//; s/\".*//; N; s/\n/\t/; s/<span>//g; s/<\/span>//g"
-                        }
-                    """
-                    )
+                    t = i.json(Path('invision/post-reactions.reliq'))
                     for j in t["reactions_users"]:
                         j["link"] = url_merge_r(ref, j["link"])
                     t["reactions"] = []
@@ -386,22 +260,7 @@ class invision(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-        self.findroot_expr = reliq.expr(
-            r"""
-            {
-                [0] ul data-role=breadcrumbList; a href | "%(href)v\n" / sed "
-                    1!G
-                    h
-                    \#/(((forum|foro|board)s?|community)/?|index\.php)$#{p;q}
-                   $p" "En" line [-],
-               li #b>elNavSecondary_ i>data-navapp=i>forums; [0] a href | "%(href)v",
-               li #b>lmgNavSub_; [0] a href i@i>"forums" | "%(href)v\n",
-               nav; li .ipsMenu_item; [0] a i@i>forums href | "%(href)v\n",
-               [0] a href=Ea>"(/|^)((forum|foro)s?|community|communaute|comunidad|ipb)(\.([a-zA-Z0-9.-]\.)*[a-zA-Z]/?|/?$)" | "%(href)v\n",
-               [0] a href=Ea>"(/|^)(index|index\.php)/?$" | "%(href)v\n"
-            } / line [0] tr "\n"
-           """
-        )
+        self.findroot_expr = reliq.expr(Path('invision/findroot.reliq'))
         self.findroot_board = True
         self.findroot_board_expr = re.compile(
             r"^(/[^\.-])?/((forum|foro|board)s?|index\.php|community|communaute|comunidad|ipb)/?$"
@@ -421,95 +280,7 @@ class invision(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(
-            r"""
-            .categories [0] * .cForumList; {
-                li child@ ||
-                * self@
-            }; {
-                h2 child@; {
-                    .name * -title c@[0] i@>[1:] | "%Di" / trim,
-                    .link [-] a | "%(href)v"
-                },
-                .forums {
-                    ol .ipsDataList child@; li child@,
-                    div .ipsForumGrid; div child@
-                }; {
-                    [0] div ( .ipsDataItem_icon )( .cForumGrid__icon ); {
-                        .status [0] span class | "%(class)v" sed "s/.*cForumIcon_//; s/ .*//",
-                        .icon [0] img src | "%(src)v"
-                    },
-                    .icon2 [0] span .cForumGrid__hero-image data-background-src | "%(data-background-src)v",
-                    div ( .ipsDataItem_main )( .cForumGrid__content ); {
-                        * ( .ipsDataItem_title )( .cForumGrid__title ); [0] a; {
-                            .title * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        },
-                        .description [0] * .ipsType_richText | "%T" trim,
-                    },
-                    .posts {
-                        [0] dt .ipsDataItem_stats_number | "%i",
-                        [0] ul .cForumGrid__title-stats; [0] li c@[0] | "%i" sed "s/ .*//"
-                    },
-                    .followers [0] ul .cForumGrid__title-stats; [0] a c@[0] | "%i" sed "s/ .*//",
-                    .childboards ul ( .ipsDataItem_subList )( .cForumGrid__subforums ); a; {
-                        .name * self@ | "%Di" / trim,
-                        .link * self@ | "%(href)v"
-                    } | ,
-                    .lastpost [0] * ( .ipsDataItem_lastPoster )( .cForumGrid__last ); {
-                        .avatar * .ipsUserPhoto; [0] img src | "%(src)v",
-                        * .ipsDataItem_lastPoster__title; [0] a; {
-                            .title * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        },
-                        li .ipsType_light; [0] a .ipsType_break; {
-                            .user * c@[0] | "%Di" trim,
-                            .user_link * self@ | "%(href)v"
-                        },
-                        .date time datetime | "%(datetime)v"
-                    }
-                } |
-            } | ,
-            .threads [0] ol .cTopicList; li child@; {
-                .avatar div .ipsTopicSnippet__avatar; [0] img | "%(src)v",
-                [0] * .ipsDataItem_title; {
-                    .icons.a i | "%(class)v\n" / sed "s/.*fa-//",
-                    [0] a -rel=tag; {
-                        .title * c@[0] | "%Di" / trim,
-                        .link * self@ | "%(href)v",
-                    }
-                },
-                [0] div ( .ipsDataItem_meta )( .ipsTopicSnippet__date ); {
-                    .date time datetime | "%(datetime)v",
-                    [0] a .ipsType_break; {
-                        .user * c@[0] | "%Di" trim,
-                        .user_link * self@ | "%(href)v"
-                    }
-                },
-                .lastpage.u * .ipsPagination; [-] a | "%i",
-                .tags a rel=tag; {
-                    .name * c@[0] | "%Di" / trim,
-                    .link * self@ | "%(href)v"
-                } | ,
-                [0] * ( .ipsDataItem_stats )( .ipsTopicSnippet__stats ); {
-                    .group-indicator [0] img .cGroupIndicator src | "%(src)v",
-                    span .ipsDataItem_stats_number; {
-                        .replies [0] * self@ | "%i",
-                        .views [1] * self@ | "%i",
-                    }
-                },
-                .snippet div .ipsTopicSnippet__snippet; * c@[0] | "%i",
-                .lastpost [0] * ( .ipsDataItem_lastPoster )( .ipsTopicSnippet__last ); {
-                    .avatar [0] * .ipsUserPhoto; [0] img src | "%(src)v",
-                    [0] a .ipsType_break; {
-                        .user * c@[0] | "%Di" trim,
-                        .user_link * self@ | "%(href)v"
-                    },
-                    .date time datetime | "%(datetime)v"
-                }
-            } |
-            """
-        )
+        t = rq.json(Path('invision/forum.reliq'))
 
         categories = t["categories"]
 

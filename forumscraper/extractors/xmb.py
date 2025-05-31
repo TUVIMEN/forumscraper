@@ -1,6 +1,7 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
+from pathlib import Path
 import re
 
 from ..defs import reliq
@@ -33,42 +34,10 @@ class xmb(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xmb-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(
-                r"""
-                .title td .nav -style | "%i" / sed "s/.* &raquo; //" decode trim,
-                .path.a [0] td .nav -style; a | "%Di\n" / trim "\n"
-                """
-            )
+            t = rq.json(Path('xmb/thread.reliq'))
             dict_add(ret, t)
 
             posts = []
-            expr = reliq.expr(
-                r"""
-                .date td -rowspan l@[1]; a i@E>".+ .+ .+" | "%i" / sed "s/^[^ ]\+ [^ ]\+ //",
-                td rowspan l@[1]; {
-                    .user font .mediumtxt; * c@[0] | "%Di" trim,
-                     div .smalltxt; {
-                        .postid.u a name l@[1] | "%(name)v" / sed "s/^pid//",
-                        .fields.a * l@[0] | "%i\n" / sed '
-                            s/^<a [^>]*><\/a>//
-                            s/<br \/>/\n/
-                            s/<img src="images[^>]*\/>/*/g
-                            s/<br \/>.*<hr \/>/\n/
-                            s/<div [^>]*>\(<img [^>]*src="\([^"]*\)"[^>]*\/>\)\?<\/div><br \/>/\2\n/
-                            s/<br \/>[^:]*: //
-                            s/<br \/>[^:]*: /\n/
-                            /<br \/>[^:]*: /!s/<br \/>/\n\0/
-                            s/<br \/>[^:]*: \(<div [^>]*><img [^>]* alt="\([^"]*\)"[^>]*\/><\/div><br \/>\([^<]*\)\)\?/\n\3/
-                            s/<br \/>[^<]*<br \/>/\n/;
-                            s/<br \/>//;
-                            s/<strong>[^<]*:<\/strong> //g;
-                            s/<strong>//g;
-                            s/<\/strong>//g
-                            '
-                    }
-                }
-            """
-            )
 
             for rq, ref in self.next(ref, rq, settings, state, path):
                 for i in rq.search(
@@ -82,7 +51,7 @@ class xmb(ForumExtractor):
                         post["homepage"] = reliq(tr[2]).search(
                             r'a href title=w>homepage | "%(href)v"'
                         )
-                        t = reliq(tr[0]).json(expr)
+                        t = reliq(tr[0]).json(Path("xmb/post.reliq"))
                     except (IndexError, AttributeError):
                         continue
 
@@ -157,9 +126,7 @@ class xmb(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-        self.findroot_expr = reliq.expr(
-            r'td .nav -style; a href | "%(href)v\n" / sed "/\/$/p" "n" line [-] tr "\n"'
-        )
+        self.findroot_expr = reliq.expr(Path('xmb/findroot.reliq'))
         self.findroot_board = False
         self.findroot_board_expr = None
 
@@ -175,34 +142,7 @@ class xmb(ForumExtractor):
         return url
 
     def process_board_r(self, url, ref, rq, settings, state):
-        t = rq.json(
-            r"""
-            .categories table; td [0] .tablerow l@[2]; * rparent@; tr -.header l@[1]; {
-                .category td .category; * c@[0] | "%Di" trim,
-                .category_link [0] a href | "%(href)v",
-
-                .state [0] td l@[1]; img src | "%(src)v",
-                [1] td l@[1]; {
-                    .description [1:2] font | "%i\a" / sed "/^&nbsp;$/d" "" "\a" tr "\a",
-                    a href; {
-                        .link [-] * l@[0] | "%(href)v",
-                        .name * c@[0] | "%Di" / trim
-                    }
-                },
-                .topics.u [2] td l@[1]; font | "%i",
-                .posts.u [3] td l@[1]; font | "%i",
-                .lastpost [4] td l@[1]; tr; {
-                    [0] td; {
-                        .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
-                        a href; {
-                            .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim,
-                            .user_link * l@[0] | "%(href)v"
-                        }
-                    },
-                    .link [1] td; [0] a href | "%(href)v"
-                }
-            } | """
-        )
+        t = rq.json(Path('xmb/board.reliq'))
 
         groups = []
         group_name = None
@@ -257,34 +197,7 @@ class xmb(ForumExtractor):
         return {"format_version": "xmb-board", "url": url, "groups": groups}
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(
-            r"""
-            .threads table; font [0] .mediumtxt; a [0] href=b>"viewthread.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
-                .state [0] td l@[1]; img src | "%(src)v",
-                .icon [1] td l@[1]; img src | "%(src)v",
-                [2] td l@[1]; {
-                    .sticky.b img | "t",
-                    [0] a href; {
-                         .link * l@[0] | "%(href)v",
-                         .title * l@[0] | "%iD" trim
-                    },
-                    .lastpage.u u; [-] a | "%i"
-                },
-                [3] td l@[1]; a href; {
-                    .user * l@[0] | "%Di" trim,
-                    .user_link * l@[0] | "%(href)v"
-                },
-                .replies.u [4] td l@[1]; font | "%i",
-                .views.u [5] td l@[1]; font | "%i",
-                .lastpost [-] td l@[1]; [0] td l@[1:]; {
-                    .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
-                    a href; {
-                        .user_link * l@[0] | "%(href)v",
-                        .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
-                    }
-                }
-            } | """
-        )
+        t = rq.json(Path('xmb/forum-threads.reliq'))
 
         threads = []
 
@@ -309,28 +222,7 @@ class xmb(ForumExtractor):
 
         forums = []
 
-        f = rq.json(
-            r"""
-            .forums table; td [0] .ctrtablerow l@[2]; * rparent@; font [0] .mediumtxt; a [0] href=b>"forumdisplay.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
-                .state [0] td l@[1]; img src | "%(src)v",
-                [1] td l@[1]; {
-                    [0] a href; {
-                         .link * l@[0] | "%(href)v",
-                         .name * l@[0] | "%Di" / trim
-                    },
-                    .description [-] font | "%i"
-                },
-                .threads.u [2] td l@[1]; font | "%i",
-                .posts.u [3] td l@[1]; font | "%i",
-                .lastpost [4] td l@[1]; [0] td l@[1:]; {
-                    .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
-                    a href; {
-                        .user_link * l@[0] | "%(href)v",
-                        .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
-                    }
-                }
-            } | """
-        )
+        f = rq.json(Path('xmb/forum-forums.reliq'))
 
         for i in f["forums"]:
             dict_url_merge(

@@ -1,0 +1,8 @@
+.title {
+    div #page-body; B>h[1-6] [0]; [0] a href=b>"./viewtopic.php" | "%Di" trim ||
+    B>h[1-6]; [0] a href=b>"./viewtopic.php" | "%Di" trim
+},
+.path.a {
+    [0] ul #nav-breadcrumbs; a; span itemprop | "%Di\n",
+    div #page-header; li .icon-home; a | "%Di\n"
+} /  trim "\n"

@@ -1,0 +1,12 @@
+table #hnmain; [1] table desc@; tr; {
+    [0] td i@f>"user:"; td ssub@; {
+        .created-timestamp * timestamp self@ | "%(timestamp)v",
+        .user [0] a; [0] * c@[0] i@>[1:] | "%Di" trim
+    },
+    .created-date [0] td i@f>"created:"; td ssub@; [0] a | "%i",
+    .karma.u [0] td i@f>"karma:"; td ssub@ | "%i",
+    .about [0] td i@f>"about:"; td ssub@ | "%i",
+    .submissions-link [0] a href=b>"submitted?" | "%(href)v",
+    .comments-link [0] a href=b>"threads?" | "%(href)v",
+    .favorites-link [0] a href=b>"favorites?" | "%(href)v",
+}

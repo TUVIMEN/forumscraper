@@ -1,0 +1,20 @@
+.title h1; {
+    h1 .p-title-value | "%Di",
+    h1 qid="page-header" | "%Di",
+    h1 .MessageCard__thread-title | "%Di"
+} / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" trim,
+
+div .p-description; {
+    .user_id.u * data-user-id | "%(data-user-id)v",
+    .user * data-user-id; * c@[0] | "%Di" / trim,
+    .date [0] time datetime | "%(datetime)v",
+},
+.path.a [0] ul .p-breadcrumbs -.p-breadcrumbs--bottom; span | "%Di\n" / trim "\n",
+.tags.a("|") a class=b>tagItem | "%i\n" / sed ":x; s/\t//g; /^$/d; $!{N;s/\n/|/;bx}; s/|$//; s/|\+/|/g" tr "\n",
+.poll form data-xf-init="poll-block ajax-submit"; {
+    .title h2 .block-header | "%Di" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d;" trim,
+    .answers [:-1] li; {
+        .option h3 .pollResult-response | "%i",
+        .votes.u span .pollResult-votes | "%i" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d; s/^.* //"
+    } |
+}

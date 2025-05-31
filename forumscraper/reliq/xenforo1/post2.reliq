@@ -1,0 +1,7 @@
+.date div .messageMeta; span .item; [0] * .DateTime; {
+    * l@[0] title | "%(title)v",
+    * l@[0] -title | "%i"
+},
+.user li data-author l@[0] | "%(data-author)Dv" / trim,
+.id.u li data-author l@[0] #B>post-[0-9]* | "%(id)v" / sed "s/^post-//",
+.text div .messageContent; article | "%i"

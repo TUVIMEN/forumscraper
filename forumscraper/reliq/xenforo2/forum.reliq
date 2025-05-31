@@ -1,0 +1,93 @@
+.categories div .block -b>data-widget- -.thNodes__nodeList -data-type=thread; {
+    [0] * ( .block-header )( .section-header ); [0] * c@[0]; {
+        .name * self@ | "%Di" / trim,
+        .link * self@ | "%(href)v"
+    },
+    .forums [0] div ( .block-body )( .node-list ); div .node l@[1:2]; {
+        .icon [0] span .node-icon; {
+            i | "%(class)v" sed "s/.* //",
+            span .icon | "%(class)v" tr " " "\n" sed "/^icon$/d;/^forum$/d;s/node--//" trim,
+        },
+        * .node-main; {
+            * .node-title; [0] a; {
+                .name * self@ | "%Di" / trim,
+                .link * self@ | "%(href)v"
+            },
+            .description div .node-description | "%i",
+            .childboards [0] ol ( .node-subNodeFlatList )( .subNodeMenu ); a .subNodeLink; {
+                .icon {
+                    * self@ | "%(class)v\a" sed "s/.*--//; /^subNodeLink/d",
+                    i | "%(class)v" sed "s/ subNodeLink-icon//; s/.* //"
+                } / sed "s/\a.*//",
+                .name * self@ | "%Dt" trim,
+                .link * self@ | "%(href)v"
+            } |
+        },
+        div ( .node-meta )( .node-stats ); {
+            dd; {
+                .topics [0] * self@ | "%i",
+                .posts [1] * self@ | "%i"
+            },
+            span title; {
+                .posts2.u [0] * self@ | "%(title)v" tr ",. ",
+                .views.u [1] * self@ | "%(title)v" tr ",. "
+            }
+        },
+        .placeholder [0] * .node-extra-placeholder | "%i",
+        .lastpost div .node-extra; {
+            .avatar div .node-extra-icon; [0] img | "%(src)v",
+            * .node-extra-title; [0] a; {
+                .title * self@ | "%(title)Dv" trim,
+                .link * self@ | "%(href)v",
+                .label [0] span .label | "%i"
+            },
+            .date time .node-extra-date datetime | "%(datetime)v",
+            * .node-extra-user; [0] a; {
+                .user [0] * c@[0] | "%Di" trim,
+                .user_link * self@ | "%(href)v"
+            }
+        },
+        .date2 [0] * .last-time; time datetime | "%(datetime)v"
+    } |
+} | ,
+.threads div .structItem--thread; {
+    .votes.u span .contentVote-score | "%i",
+    .avatar div .structItem-iconContainer; [0] img src | "%(src)v",
+    div .structItem-cell--main; {
+        .icons.a {
+            ul .structItem-statuses; span; {
+                img title | "%(title)v\n",
+                * self@ | "%t\n" sed "/^$/d",
+            },
+            svg title | "%(title)v\n"
+        },
+        .label span .label | "%t",
+        * .structItem-title; [-] a -.labelLink; {
+            .title * self@ | "%Di" trim,
+            .link * self@ | "%(href)v"
+        },
+        [0] a .username; {
+            .user * c@[0] | "%Di" trim,
+            .user_link * self@ | "%(href)v"
+        },
+        .date [0] time datetime | "%(datetime)v",
+        .lastpage.u * .structItem-pageJump; [-] a | "%i"
+    },
+    div .structItem-cell--meta; {
+        dt i@B>"^[0-9]",
+        dd
+    }; {
+        .replies [0] * c@[0] | "%i",
+        .views [1] * c@[0] | "%i"
+    },
+    .replies2.u [0] div .reply-count title | "%(title)v" tr ",. ",
+    .views2.u [0] div .view-count title | "%(title)v" tr ",. ",
+    .lastpost div ( .structItem-cell--latest )( .last-post-cell ); {
+        .date [0] time datetime | "%(datetime)v",
+        [0] a .username; {
+            .user * c@[0] | "%Di" trim,
+            .user_link * self@ | "%(href)v"
+        },
+    },
+    .lp-avatar div .structItem-cell--iconEnd; [0] img src | "%(src)v"
+} |

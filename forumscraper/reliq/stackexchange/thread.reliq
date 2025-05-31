@@ -1,0 +1,7 @@
+.title h1 itemprop="name"; a | "%Di" / trim,
+div .flex--item .mb8 .ws-nowrap; {
+    .views.u [0] * self@ i@"Viewed" | "%(title)v" / tr "0-9" "" "c",
+    .asked [0] * self@ i@"Asked"; [0] time itemprop="dateCreated" datetime | "%(datetime)v",
+    .modified [0] * self@ i@"Modified"; [0] a title | "%(title)v"
+},
+.tags.a div .ps-relative; a .post-tag | "%i\n"

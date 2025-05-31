@@ -1,0 +1,11 @@
+{
+    * .E>"maintab(_active)?_back",
+    div #toolbar; div .tabs; * role=menuitem; a l@[1],
+    div #headerarea; a l@[1],
+    div #E>(myNavbar|toolbar[0-9]|topmenu|menu|nav); li,
+    body; [0] * l@[1]; table l@[0]; tr .B>windowbg[123]; td; a l@[1] c@[1]; img; * rparent@,
+}; a href | "%(href)v\n" / sed "
+    \#(/((board|forum|foro)s?|community)(/(index\.(html|php))?|\.(html|php))?(\?[^/]*)?|[;&?]action=forum)$#{p;q}
+    1!G; h
+    $p
+" "En" line [-] sed "s/&amp;/\&/g" tr "\n"

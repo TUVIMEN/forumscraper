@@ -1,0 +1,10 @@
+{
+    div #navigation; {
+        * .navTab .forums,
+        * .navTab .home
+    }; [0] a href | "%(href)v\n",
+    fieldset .breadcrumb; a .crumb href; {
+        span itemprop="title" i@i>"forums"; [0] a ancestor@ | '%(href)v\n',
+        [0] a | "%(href)v\n"
+    }
+} / line [0] tr "\n"

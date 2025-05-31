@@ -1,0 +1,237 @@
+.categories {
+    * #b>collapseobj_forumbit_ ||
+    * ( #E>forum[0-9]+ )( .subforum-list ) ||
+    * #E>f[0-9]+; * parent@ ||
+    li .forumRow
+}; {
+    .header * self@ #b>collapseobj_forumbit_; {
+        [0] * spre@; * -#b>collapseobj_forumbit_ self@ ||
+        * parent@; [0] * spre@; * -#b>collapseobj_forumbit_ self@
+    }; {
+        .name {
+            [0] a -has@"[0] img"; [0] * c@[0] i@>[1:] | "%Di" ||
+            [0] a; * parent@ | "%Dt"
+        } / trim,
+        .link [0] a -has@"[0] img" | "%(href)v",
+        .description [0] * .smallfont c@[0] i@>[1:] | "%Di",
+    },
+    .header2 * self@ #E>forum[0-9]+; {
+        * .category-header self@ ||
+        [1] * ancestor@; * #E>cat[0-9]+ self@
+    }; {
+        .name {
+            a .category c@[0] | "%Di" ||
+            * .catTitle; [0] a; * c@[0] i@>[1:] | "%Di" ||
+            [0] * .forumhead; span .forumtitle; [0] a; * c@[0] i@>[1:] | "%Di"
+        } / trim,
+        .link {
+            a .category c@[0] | "%(href)v" ||
+            * .catTitle; [0] a | "%(href)v" ||
+            [0] * .forumhead; * .forumtitle; [0] a | "%(href)v"
+        },
+        .description [0] * .forumhead; * .subforumdescription; [0] * c@[0] i@>[1:] | "%Di"
+    },
+
+    .forums {
+        * self@ #b>collapseobj_forumbit_; * -thead child@ ||
+        * self@
+    }; {
+        .status {
+            [0] img ( #b>forum_statusicon_ )( .forumicon ) | "%(src)v" ||
+            [0] span .icon | "%(title)v"
+        },
+        {
+            * .forum-title ||
+            [0] v>span .forumtitle ||
+            [0] a c@[:1]
+        }; {
+            .title [0] * c@[0] i@>[1:] | "%Di" trim,
+            .link [0] a | "%(href)v"
+        },
+        .description {
+            [0] * ( .forum-desc )( .forumdescription )( .description ) | "%i" ||
+            div .smallfont; {
+                [0] * c@[0] i@b>[1:] self@ | "%i" ||
+                [0] * child@; v>strong * self@; * parent@ | "%i"
+            }
+        },
+        .viewing.u {
+            span .viewing | "%i" ||
+            [0] span c@[0] i@tb>"(" i@te>")" | "%i"
+        },
+
+        .childboards {
+            * .subforum-info ||
+            [0] * .subforums; * child@ ||
+            strong c@[0]; div .smallfont parent@
+        }; a; {
+            .link * self@ | "%(href)v",
+            .name [0] * c@[0] i@>[1:] | "%Di" / trim,
+            .icon [0] * spre@; {
+                img self@ | "%(src)v" ||
+                span self@ | "%(title)v"
+            },
+            [0] * ssub@; span c@[0] i@tb>"(" i@te>")"; {
+                .topics.u * self@ | "%i",
+                .posts.u * self@ | "%i" / sed "/\//!d; s#.*/##"
+            }
+        } | ,
+
+        .topics.u {
+            [0] * ( .topics-count )( .threadcount ) c@[0] | "%i" ||
+            * ( .forumstats )( .forumstats_2 ); [0] * c@[0] child@ | "%i" ||
+            [0] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+" | "%i" ||
+            [0] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+ */ *(([0-9]+,)+)?[0-9]+" | "%i"
+        } / tr ",.",
+        .posts.u {
+            [0] * ( .posts-count )( .postcount ) c@[0] | "%i" ||
+            * ( .forumstats )( .forumstats_2 ); [1] * c@[0] child@ | "%i" ||
+            [1] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+" | "%i" ||
+            [0] * c@[0] i@tEf>"(([0-9]+,)+)?[0-9]+ */ *(([0-9]+,)+)?[0-9]+" | "%i" / sed "s/.*\///"
+        } / tr ",.",
+
+        .lastpost {
+            [0] * ( .i>lastpost )( .i>forumlastpost ) ||
+            strong c@[0] i@>[1:]; a parent@; div [0] l@[-5:0] .smallfont ancestor@; [-] * self@
+        }; {
+            {
+                [0] * ( .lastpost-title )( .lastposttitle )( .title ) ||
+                [0] strong c@[0]; * parent@
+            }; {
+                .title [0] * c@[0] i@>[1:] | "%Di" / trim,
+                .link [0] a | "%(href)v",
+            },
+            .icon {
+                * .lastposttitle; [0] img | "%(src)v" ||
+                [0] img .inlineimg | "%(src)v"
+            },
+            .date {
+                [0] * ( .lastpost-date )( .lastpostdate )( .time ) | "%DT" trim,
+                [-] div; * self@ c@[:5] | "%DT" trim
+            },
+            .user {
+                * ( .lastpost-by )( .lastpostby ); [0] a ||
+                * .title ||
+                [-1] div; * c@[:1] self@
+            }; [0] * c@[0] i@>[1:] | "%Di" trim,
+            .user_link {
+                * ( .lastpost-by )( .lastpostby ) ||
+                [-1] div; * c@[1] self@
+            }; [0] a; * self@ | "%(href)v",
+            .avatar a .avatar; [0] img | "%(src)v"
+        }
+    } |
+} | ,
+
+.threads {
+    li #b>thread_ ||
+    * .topic-item ||
+    * #b>threadbits_forum_; * child@ ||
+    * #threadslist; * child@
+}; {
+    .avatar a .avatar; [0] img | "%(src)v",
+    .icons.a {
+        [0] * .threadtitle; img child@ | "%(src)v\n" ||
+        img .js-post-icon | "%(src)v\n" ||
+        {
+            img #b>thread_statusicon_ | "%(src)v\n",
+            div c@[1]; img -id | "%(src)v\n",
+            * #b>td_threadtitle_; img | "%(src)v\n"
+        }
+    },
+    .prefix {
+        [0] * ( .topic-prefix )( .js-topic-prefix )( .prefix )( #b>thread_prefix_ ) | "%DT" trim ||
+        span c@[0] i@et>":" | "%Di"
+    },
+    {
+        [0] * ( .topic-title )( #b>thread_title_ ) ||
+        [0] * #b>thread_title_
+    }; [0] a; {
+        .link * self@ | "%(href)v",
+        .title * c@[0] i@>[1:] | "%Di" / trim
+    },
+    {
+        div .topic-info ||
+        div .threadmeta ||
+        * #b>td_threadtitle_; [-] div .smallfont
+    }; {
+        .user {
+            div .smallfont c@[:4] self@ | "%DT" trim ||
+            span style=b>cursor:; [0] * c@[0] i@>[1:] | "%Di" trim ||
+            [0] a; [0] * c@[0] i@>[1:] | "%Di" trim ||
+        },
+        .user_link {
+            [0] span onclick | "%(onclick)v" / sed "s/,.*//;s/.*'([^']+)'/\1/" "E" ||
+            [0] a | "%(href)v"
+        },
+        .date {
+            [0] span ( .date )( .time ) | "%Di" trim ||
+            span style=b>cursor:; [0] * ssub@; span self@; [0] * c@[0] i@>[1:] | "%Di" trim ||
+            div .author; [0] span c@[0] child@ i@E>" [0-9]{4}" | "%Di" trim ||
+            [0] a; * parent@ | "%Dt" / sed "s/.*,//; s/^ *//; s/ *$//" trim
+        } / sed "s/^on //"
+    },
+    .detailicons.a {
+        * .threaddetailicons; img | "%(src)v\n" ||
+        * .cell-icons; span | "%(title)v\n"
+    },
+    .posts.u {
+        {
+            div .posts-count ||
+            * .threadstats; {
+                [0] li -.hidden; [0] * c@[0] i@>[1:] ||
+                * self@
+            }
+        }; * self@ | "%i" ||
+        * c@[4:] title=aE>"[0-9]+.*,.*[0-9]+" | "%(title)v" / sed "s/, .*//"
+    } / tr ",.",
+    .views.u {
+        div .views-count | "%i" ||
+        * .threadstats; {
+            [1] li -.hidden; [0] * c@[0] i@>[1:] | "%i" ||
+            * self@ | "%i" / sed "s/.*>//"
+        }  ||
+        * c@[4:] title=aE>"[0-9]+.*,.*[0-9]+" | "%(title)v" / sed "s/.*, //"
+    } / tr ",.",
+    .reactions.u div .votes-count | "%i" tr ",.",
+    .rating.u {
+        [0] * .E>rating[0-9] | "%(class)v" ||
+        [0] img src=eE>"/rating_?[0-9]+.gif" | "%(src)v" / sed "s#.*/##"
+    },
+    .lastpage.u {
+        * #b>pagination_threadbit_; [-] a | "%i" ||
+        [0] * i@tb>"(" i@te>")" c@[1:]; [-] a; * self@ | "%(href)v" / sed "s#/$##; s#.*/##; s/.*;page=//" ||
+        * #b>td_threadtitle_; [-] a i@Eft>"[0-9]+" | "%i"
+    },
+
+    .lastpost [0] * ( .cell-lastpost )( .threadlastpost ); {
+        .avatar [0] a .avatar; [0] img src | "%(src)v",
+        {
+            * .lastpost-by; [0] a ||
+            [0] a .username
+        }; {
+            .user_link * self@ | "%(href)v",
+            .user * c@[0] i@>[1:] | "%Di"
+        },
+        .date {
+            span .post-date | "%Di" ||
+            * .time; * parent@ | "%Dt" trim ||
+            [0] * c@[0] i@E>"[0-9]{4}" | "%Di" / sed "s/ //g" trim
+        },
+        .link [0] a ( .go-to-last-post )( .lastpostdate ) | "%(href)v"
+    },
+    .lastpost_link [0] a .lastpostdate | "%(href)v",
+    .lastpost2 * c@[3:] title=aE>"[0-9]+.*,.*[0-9]+"; div .smallfont child@; {
+        .avatar nothing | "",
+        .user_link [0] a c@[0] | "%(href)v",
+        .user {
+            [0] a c@[0] | "%Di" trim ||
+            * self@ | "%Di" / tr "\n" sed "s/.*<br ?\/?>//" "E" trim
+        },
+        .date * self@ | "%i" / tr "\n" sed "
+            s/<br ?\/?>.*//
+            s/<[^>]*>//g
+        " "E" trim,
+        .link img; [-] a parent@ | "%(href)v"
+    }
+} |

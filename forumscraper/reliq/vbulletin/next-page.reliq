@@ -1,0 +1,7 @@
+{
+    * ( .pagenav )( .threadpagenav )( .pagination )( #mb_pagenav ); {
+        [0] a rel=next | "%(href)v",
+        [0] a .js-pagenav-next-button href=b>http | "%(href)v",
+    },
+    span .pages; [0] span .currentpage; [0] a ssub@ | "%(href)v"
+} / line [0] sed "/^javascript:/d; s/&amp;/\&/g"

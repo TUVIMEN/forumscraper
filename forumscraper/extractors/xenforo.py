@@ -1,6 +1,7 @@
 # by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
 # License: GNU GPLv3
 
+from pathlib import Path
 import re
 import json
 
@@ -85,16 +86,7 @@ class xenforo2(ForumExtractor):
                     ].translate(str.maketrans("", "", "\n\t"))
                 )
 
-                t = obj.json(
-                    r"""
-                    .reactions div .contentRow; {
-                        .user_id.u * .username data-user-id | "%(data-user-id)v",
-                        .user * .username data-user-id; * c@[0] | "%Di" / trim,
-                        .date time .u-dt datetime | "%(datetime)v",
-                        .reaction span .reaction; img title | "%(title)v"
-                    } |
-                """
-                )
+                t = obj.json(Path('xenforo2/reactions.reliq'))
                 ret = t["reactions"]
 
                 self.state_add_url("reactions", reactions_url, state, settings)
@@ -107,98 +99,12 @@ class xenforo2(ForumExtractor):
                 url_first_delimiter = "&"
             ret = {"format_version": "xenforo-2-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(
-                r"""
-                .title h1; {
-                    h1 .p-title-value | "%Di",
-                    h1 qid="page-header" | "%Di",
-                    h1 .MessageCard__thread-title | "%Di"
-                } / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" trim,
-
-                div .p-description; {
-                    .user_id.u * data-user-id | "%(data-user-id)v",
-                    .user * data-user-id; * c@[0] | "%Di" / trim,
-                    .date [0] time datetime | "%(datetime)v",
-                },
-                .path.a [0] ul .p-breadcrumbs -.p-breadcrumbs--bottom; span | "%Di\n" / trim "\n",
-                .tags.a("|") a class=b>tagItem | "%i\n" / sed ":x; s/\t//g; /^$/d; $!{N;s/\n/|/;bx}; s/|$//; s/|\+/|/g" tr "\n",
-                .poll form data-xf-init="poll-block ajax-submit"; {
-                    .title h2 .block-header | "%Di" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d;" trim,
-                    .answers [:-1] li; {
-                        .option h3 .pollResult-response | "%i",
-                        .votes.u span .pollResult-votes | "%i" / sed "s/\t//g; s/<[^>]*>//g; s/^ *//; s/ *$//; /^$/d; s/^.* //"
-                    } |
-                }
-            """
-            )
+            t = rq.json(Path('xenforo2/thread.reliq'))
             dict_add(ret, t)
 
             xfToken = self.get_xfToken(rq)
 
             posts = []
-            expr = reliq.expr(
-                r"""
-                {
-                    h4 class=b>message-name,
-                    * .MessageCard__user-info__name
-                }; {
-                    .user [0] * c@[0] | "%Di" trim,
-                    .user_link [0] a class href | "%(href)v",
-                    .user_id.u [0] * data-user-id | "%(data-user-id)v"
-                },
-
-                .user_avatar {
-                    div .message-avatar,
-                    div .MessageCard__avatar
-                }; img src | "%(src)v",
-
-                .user_title h5 .userTitle | "%i",
-
-                .user_banners.a div .userBanner; strong | "%i\n",
-
-                .user_extras {
-                    .pairs1 div .message-userExtras; dl l@[1]; {
-                        .key dt; {
-                            * title | "%(title)v\a",
-                            * l@[0] | "%i"
-                        } / sed "s/^\a*//;s/\a.*//",
-                        .value dd | "%i",
-                    } | ,
-
-                    .pairs2 div .message-userExtras; div .pairs; span title; {
-                        .key * l@[0] | "%(title)v",
-                        .value * l@[0] | "%i",
-                    } | ,
-
-                    .pairs3 div .MessageCard__user-details; span class -.MessageCard__dot-separator; {
-                        .key * l@[0] | "%(class)v" / sed 's/^MessageCard__//',
-                        .value * l@[0] | "%i"
-                    } | ,
-
-                    div .message-userExtras; {
-                        .stars.a ul .reputation-star-container; li .eB>"[a-z]star" | "%(class)v\n" / sed "s/.* //",
-
-                        .bar.a ul .reputation-bar-container; li .reputation-bar | "%(class)v\n" / sed "s/.* //"
-                    }
-                },
-
-                .id.u [0] * #E>(js-)?post-[0-9]+ | "%(id)v" / sed "s/^js-//; s/^post-//;q",
-
-                .date {
-                    * class=b>message-attribution-main; time datetime | "%(datetime)v\t",
-                    * .MessageCard__date-created; [0] time datetime .u-dt | "%(datetime)v"
-                } / sed "s/\t.*//",
-
-                .text {
-                    article class=b>message-body,
-                    div .MessageCard__content-inner
-                }; div .bbWrapper | "%i",
-
-                .attachments.a ul .attachmentList; a,
-
-                .signature div #signature-content-wrapper; div .bbWrapper | "%i"
-            """
-            )
 
             rq = reliq(rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")))
 
@@ -216,7 +122,7 @@ class xenforo2(ForumExtractor):
                 for i in post_tags:
                     tag = reliq(i)
 
-                    post = tag.json(expr)
+                    post = tag.json(Path('xenforo2/post.reliq'))
 
                     post["user_link"] = url_merge_r(ref, post["user_link"])
                     if post["user_avatar"][:1] == "/":
@@ -299,25 +205,7 @@ class xenforo2(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-2-user", "url": url, "id": int(i_id)}
 
-            t = rq.json(
-                r"""
-                .background div class=B>"memberProfileBanner memberTooltip-header.*" style=a>"url(" | "%(style)v" / sed "s#.*url(##;s#^//#https://#;s/?.*//;p;q" "n",
-                .location a href=b>/misc/location-info | "%i",
-                .avatar img src | "%(src)v" / sed "s/?.*//; q",
-                .title span .userTitle | "%Di" / trim,
-                .banners.a * .userBanner; strong | "%i\n",
-                .name h4 .memberTooltip-name; a; * c@[0] | "%Di" / trim,
-                .forum em; a href | "%(href)v",
-                .extras dl .pairs c@[!0]; {
-                    .key dt | "%i",
-                    .value dd; {
-                        time datetime | "%(datetime)v\a",
-                        a i@v>"<" | "%i\a",
-                        * l@[0] | "%i"
-                    } / tr '\n' sed "s/^\a*//;s/\a.*//"
-                } |
-            """
-            )
+            t = rq.json(Path('xenforo2/user.reliq'))
             t["background"] = url_merge_r(ref, t["background"])
             t["avatar"] = url_merge_r(ref, t["avatar"])
             dict_add(ret, t)
@@ -346,14 +234,7 @@ class xenforo2(ForumExtractor):
         )
         self.guesslist = guesslist
 
-        self.findroot_expr = reliq.expr(
-            r"""
-            {
-                * .p-nav; [0] a href | "%(href)v\n",
-                * #header-forum-listing href | "%(href)v\n"
-            } / line [0] tr "\n"
-            """
-        )
+        self.findroot_expr = reliq.expr(Path('xenforo2/findroot.reliq'))
         self.findroot_board = True
         self.findroot_board_expr = re.compile(
             r"^(/[^\.-])?/((forum|foro|board)s?|index\.php|community|communaute|comunidad)/?$",
@@ -374,103 +255,7 @@ class xenforo2(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(
-            r"""
-            .categories div .block -b>data-widget- -.thNodes__nodeList -data-type=thread; {
-                [0] * ( .block-header )( .section-header ); [0] * c@[0]; {
-                    .name * self@ | "%Di" / trim,
-                    .link * self@ | "%(href)v"
-                },
-                .forums [0] div ( .block-body )( .node-list ); div .node l@[1:2]; {
-                    .icon [0] span .node-icon; {
-                        i | "%(class)v" sed "s/.* //",
-                        span .icon | "%(class)v" tr " " "\n" sed "/^icon$/d;/^forum$/d;s/node--//" trim,
-                    },
-                    * .node-main; {
-                        * .node-title; [0] a; {
-                            .name * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        },
-                        .description div .node-description | "%i",
-                        .childboards [0] ol ( .node-subNodeFlatList )( .subNodeMenu ); a .subNodeLink; {
-                            .icon {
-                                * self@ | "%(class)v\a" sed "s/.*--//; /^subNodeLink/d",
-                                i | "%(class)v" sed "s/ subNodeLink-icon//; s/.* //"
-                            } / sed "s/\a.*//",
-                            .name * self@ | "%Dt" trim,
-                            .link * self@ | "%(href)v"
-                        } |
-                    },
-                    div ( .node-meta )( .node-stats ); {
-                        dd; {
-                            .topics [0] * self@ | "%i",
-                            .posts [1] * self@ | "%i"
-                        },
-                        span title; {
-                            .posts2.u [0] * self@ | "%(title)v" tr ",. ",
-                            .views.u [1] * self@ | "%(title)v" tr ",. "
-                        }
-                    },
-                    .placeholder [0] * .node-extra-placeholder | "%i",
-                    .lastpost div .node-extra; {
-                        .avatar div .node-extra-icon; [0] img | "%(src)v",
-                        * .node-extra-title; [0] a; {
-                            .title * self@ | "%(title)Dv" trim,
-                            .link * self@ | "%(href)v",
-                            .label [0] span .label | "%i"
-                        },
-                        .date time .node-extra-date datetime | "%(datetime)v",
-                        * .node-extra-user; [0] a; {
-                            .user [0] * c@[0] | "%Di" trim,
-                            .user_link * self@ | "%(href)v"
-                        }
-                    },
-                    .date2 [0] * .last-time; time datetime | "%(datetime)v"
-                } |
-            } | ,
-            .threads div .structItem--thread; {
-                .votes.u span .contentVote-score | "%i",
-                .avatar div .structItem-iconContainer; [0] img src | "%(src)v",
-                div .structItem-cell--main; {
-                    .icons.a {
-                        ul .structItem-statuses; span; {
-                            img title | "%(title)v\n",
-                            * self@ | "%t\n" sed "/^$/d",
-                        },
-                        svg title | "%(title)v\n"
-                    },
-                    .label span .label | "%t",
-                    * .structItem-title; [-] a -.labelLink; {
-                        .title * self@ | "%Di" trim,
-                        .link * self@ | "%(href)v"
-                    },
-                    [0] a .username; {
-                        .user * c@[0] | "%Di" trim,
-                        .user_link * self@ | "%(href)v"
-                    },
-                    .date [0] time datetime | "%(datetime)v",
-                    .lastpage.u * .structItem-pageJump; [-] a | "%i"
-                },
-                div .structItem-cell--meta; {
-                    dt i@B>"^[0-9]",
-                    dd
-                }; {
-                    .replies [0] * c@[0] | "%i",
-                    .views [1] * c@[0] | "%i"
-                },
-                .replies2.u [0] div .reply-count title | "%(title)v" tr ",. ",
-                .views2.u [0] div .view-count title | "%(title)v" tr ",. ",
-                .lastpost div ( .structItem-cell--latest )( .last-post-cell ); {
-                    .date [0] time datetime | "%(datetime)v",
-                    [0] a .username; {
-                        .user * c@[0] | "%Di" trim,
-                        .user_link * self@ | "%(href)v"
-                    },
-                },
-                .lp-avatar div .structItem-cell--iconEnd; [0] img src | "%(src)v"
-            } |
-            """
-        )
+        t = rq.json(Path('xenforo2/forum.reliq'))
 
         categories = []
 
@@ -577,33 +362,10 @@ class xenforo1(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(
-                r"""
-                .title { div class=b>titleBar; [0] h1 | "%Di" trim, div #header; [0] h1 | "%Di" trim / sed ":x; s/<[^>]*>//g; $!{N;s/\n/ /;bx}" },
-                p #pageDescription; {
-                    .user_id.u a .username href | "%(href)v" / sed "s/^.*[\/.]\([0-9]\+\)/\1/; s/[^0-9]$//",
-                    .user [0] a .username | "%Di" trim,
-                    .date [0] * .DateTime | "%i"
-                },
-                .path.a span .crumbs; span itemprop=B>"[a-z]*"; * c@[0] | "%Di\n" / sed "/^$/d" trim "\n",
-                .tags.a("|") ul .tagList; a .tag | "%i|" / sed "s/<[^>]*>[^<]*<\/[^>]*>//g; s/|$//"
-            """
-            )
+            t = rq.json(Path('xenforo1/thread.reliq'))
             dict_add(ret, t)
 
             rq = reliq(rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")))
-            expr = reliq.expr(
-                r"""
-                h3 .userText; {
-                    .user_title em class=b>userTitle | "%i",
-                    .user_banner em class=b>userBanner; * c@[0] | "%i" / sed "/^[ \t]*$/d",
-                },
-                .user_extra dl; {
-                    .name dt; * c@[0] | "%Di" / trim,
-                    .value dd; * c@[0] | "%i"
-                } |
-            """
-            )
             posts = []
 
             for rq, ref in self.next(ref, rq, settings, state, path, trim=True):
@@ -617,20 +379,10 @@ class xenforo1(ForumExtractor):
                     post["avatar"] = avatar
                     post["user_id"] = user_id
 
-                    t = messageUB.json(expr)
+                    t = messageUB.json(Path('xenforo1/post1.reliq'))
                     dict_add(post, t)
 
-                    t = i.json(
-                        r"""
-                        .date div .messageMeta; span .item; [0] * .DateTime; {
-                            * l@[0] title | "%(title)v",
-                            * l@[0] -title | "%i"
-                        },
-                        .user li data-author l@[0] | "%(data-author)Dv" / trim,
-                        .id.u li data-author l@[0] #B>post-[0-9]* | "%(id)v" / sed "s/^post-//",
-                        .text div .messageContent; article | "%i"
-                    """
-                    )
+                    t = i.json(Path('xenforo1/post2.reliq'))
                     dict_add(post, t)
 
                     posts.append(post)
@@ -655,20 +407,7 @@ class xenforo1(ForumExtractor):
         )
         self.guesslist = guesslist
 
-        self.findroot_expr = reliq.expr(
-            r"""
-            {
-                div #navigation; {
-                    * .navTab .forums,
-                    * .navTab .home
-                }; [0] a href | "%(href)v\n",
-                fieldset .breadcrumb; a .crumb href; {
-                    span itemprop="title" i@i>"forums"; [0] a ancestor@ | '%(href)v\n',
-                    [0] a | "%(href)v\n"
-                }
-            } / line [0] tr "\n"
-            """
-        )
+        self.findroot_expr = reliq.expr(Path('xenforo1/findroot.reliq'))
         self.findroot_board = True
         self.findroot_board_expr = None
 
@@ -687,85 +426,7 @@ class xenforo1(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(
-            r"""
-            .categories { ol #forums; li child@ || ol .nodeList }; {
-                [0] div .nodeInfo child@; div .categoryText; {
-                    * .nodeTitle; a; {
-                        .name * self@ | "%Di" / trim,
-                        .link * self@ | "%(href)v"
-                    },
-                    .description * .nodeDescription | "%i",
-                },
-                .forums {
-                    ol .nodeList l@[:2]; li child@ ||
-                    * self@
-                }; div .nodeInfo [0] child@; {
-                    .state span .nodeIcon title child@ | "%(title)v",
-                    .icon span .nodeIcons; [0] img | "%(src)v",
-                    div .nodeText child@; {
-                        * .nodeTitle; [0] a; {
-                            .name * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        },
-                        .description * #b>nodeDescription child@ | "%i",
-                        div .nodeStats; dd; {
-                            .topics.u [0] * self@ | "%i" tr ",. ",
-                            .posts.u [1] * self@ | "%i" tr ",. "
-                        },
-                    },
-                    .feed div .nodeControls; a .feedIcon | "%(href)v",
-                    .childboards li .node .level-n; a; {
-                        .name * self@ | "%Di" / trim,
-                        .link * self@ | "%(href)v"
-                    } | ,
-                    .lastpost div .nodeLastPost; {
-                        * .lastThreadTitle; [0] a; {
-                            .title * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        },
-                        * .lastThreadMeta; {
-                            * .lastThreadUser; [0] a; {
-                                .user * self@ | "%Di" trim,
-                                .user_link * self@ | "%(href)v"
-                            },
-                            .date * .DateTime | "%(title)v\a%(data-time)v" sed "s/^\a//g; s/\a.*//;"
-                        }
-                    }
-                } |
-            } | ,
-            .threads ol .discussionListItems; li id=b>thread-; {
-                .avatar div .posterAvatar; [0] img | "%(src)v",
-                div .main child@; div .titleText child@; {
-                    .icons.a div .iconKey child@; span class child@ | "%(class)v\n" / tr " " "\n",
-                    * .title child@; {
-                        .label [0] a .prefixLink; * c@[0] | "%i",
-                        [0] a -.prefixLink; {
-                            .title * self@ | "%Di" / trim,
-                            .link * self@ | "%(href)v"
-                        }
-                    },
-                    [0] a .username; {
-                        .user * self@; [0] * c@[0] | "%Di" trim,
-                        .user_link * self@ | "%(href)v"
-                    },
-                    .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;",
-                    .lastpage.u * .itemPageNav; [-] a href | "%i"
-                },
-                div .stats child@; {
-                    .replies.u [0] dd | "%i" tr "., ",
-                    .views.u [1] dd | "%i" tr "., "
-                },
-                .lastpost div .lastPost child@; {
-                    [0] a .username; {
-                        .user * self@; * c@[0] | "%Di" / trim,
-                        .user_link * self@ | "%(href)v"
-                    },
-                    .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;"
-                }
-            } |
-            """
-        )
+        t = rq.json(Path('xenforo1/forum.reliq'))
 
         categories = t["categories"]
 

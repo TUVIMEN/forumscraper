@@ -1,0 +1,20 @@
+div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
+    .title span class="ipsType_break ipsContained"; span -class | "%Di" trim,
+    .badges.a span title | "%(title)v\n"
+},
+.rating.b ul .ipsRating_collective; li .ipsRating_on | "true",
+div .ipsPageHeader; {
+    .user_link a .ipsType_break href | "%(href)v",
+    .user a .ipsType_break href; * c@[0] | "%Di" trim,
+    .user_avatar a .ipsUserPhoto; img src | "%(src)v",
+    .user_followers.u a .ipsFollow; span .ipsCommentCount | "%i" / tr ",.",
+},
+.date div .ipsFlex-flex:11; time datetime | "%(datetime)v",
+.path.a nav class=b>"ipsBreadcrumb ipsBreadcrumb_top "; ul data-role="breadcrumbList"; li; a; span | "%Dt\n" / sed "s/ $//" trim,
+
+.tags.a {
+    div .ipsPageHeader; ul .ipsTags; a; span c@[0] | "%i",
+    div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; a .ipsTag_prefix rel=tag; span c@[0] | "%i",
+},
+
+.warning div .cTopicPostArea; span .ipsType_warning | "%i",
