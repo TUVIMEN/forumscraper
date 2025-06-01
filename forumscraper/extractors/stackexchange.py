@@ -31,7 +31,7 @@ class stackexchange(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "stackexchange-user", "url": url, "id": int(i_id)}
 
-            t = rq.json(Path('stackexchange/user.reliq'))
+            t = rq.json(Path("stackexchange/user.reliq"))
 
             t["reputation"] = conv_short_size(t["reputation"])
             t["reached"] = conv_short_size(t["reached"])
@@ -78,12 +78,12 @@ class stackexchange(ForumExtractor):
                 )
                 write_html(path + "-comments-" + str(postid), rq, settings)
 
-            comments = rq.json(Path('stackexchange/post-comments.reliq'))["comments"]
+            comments = rq.json(Path("stackexchange/post-comments.reliq"))["comments"]
 
             return comments
 
         def get_post(self, rq, url, ref, settings, state, path):
-            post = rq.json(Path('stackexchange/post.reliq'))
+            post = rq.json(Path("stackexchange/post.reliq"))
 
             post["comments"] = self.get_post_comments(
                 rq, url, ref, post["id"], settings, state, path
@@ -97,7 +97,7 @@ class stackexchange(ForumExtractor):
                 "id": int(i_id),
             }
 
-            t = rq.json(Path('stackexchange/thread.reliq'))
+            t = rq.json(Path("stackexchange/thread.reliq"))
             dict_add(ret, t)
 
             posts = []
@@ -342,7 +342,7 @@ class stackexchange(ForumExtractor):
         return self.process_forum_r(url, rq, ref, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        threads = rq.json(Path('stackexchange/forum.reliq'))['threads']
+        threads = rq.json(Path("stackexchange/forum.reliq"))["threads"]
 
         return {
             "format_version": "stackexchange-forum",

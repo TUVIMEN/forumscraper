@@ -11,11 +11,11 @@ from .identify import identify_hackernews
 
 
 def get_comments(ref, rq):
-    return rq.json(Path('hackernews/comments.reliq'))["comments"]
+    return rq.json(Path("hackernews/comments.reliq"))["comments"]
 
 
 def get_post(ref, rq):
-    return rq.json(Path('hackernews/post.reliq'))
+    return rq.json(Path("hackernews/post.reliq"))
 
 
 def get_page(ref, rq):
@@ -26,7 +26,7 @@ def get_page(ref, rq):
     while i < size and size - i >= 3:
         inp = posts_list[i] + posts_list[i + 1] + posts_list[i + 2]
 
-        post = get_post(ref, reliq(inp,ref=ref))
+        post = get_post(ref, reliq(inp, ref=ref))
         threads.append(post)
 
         i += 3
@@ -75,7 +75,7 @@ class hackernews(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "hackernews-user", "url": url, "id": i_id}
 
-            t = rq.json(Path('hackernews/user.reliq'))
+            t = rq.json(Path("hackernews/user.reliq"))
 
             self.subitem(t, "submissions", ref, settings, state, path, get_all_pages)
             self.subitem(t, "comments", ref, settings, state, path, get_all_comments)

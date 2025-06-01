@@ -1,12 +1,12 @@
 .categories table; td [0] .tablerow l@[2]; * rparent@; tr -.header l@[1]; {
     .category td .category; * c@[0] | "%Di" trim,
-    .category_link [0] a href | "%(href)v",
+    .category_link.U [0] a href | "%(href)v",
 
-    .state [0] td l@[1]; img src | "%(src)v",
+    .state.U [0] td l@[1]; img src | "%(src)v",
     [1] td l@[1]; {
         .description [1:2] font | "%i\a" / sed "/^&nbsp;$/d" "" "\a" tr "\a",
         a href; {
-            .link [-] * l@[0] | "%(href)v",
+            .link.U [-] * l@[0] | "%(href)Dv",
             .name * c@[0] | "%Di" / trim
         }
     },
@@ -17,9 +17,9 @@
             .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
             a href; {
                 .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim,
-                .user_link * l@[0] | "%(href)v"
+                .user_link.U * l@[0] | "%(href)Dv"
             }
         },
-        .link [1] td; [0] a href | "%(href)v"
+        .link.U [1] td; [0] a href | "%(href)Dv"
     }
 } |

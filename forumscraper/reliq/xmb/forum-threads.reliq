@@ -1,24 +1,24 @@
 .threads table; font [0] .mediumtxt; a [0] href=b>"viewthread.php?" l@[1]; [0] table ancestor@; tr -class l@[1]; {
-    .state [0] td l@[1]; img src | "%(src)v",
-    .icon [1] td l@[1]; img src | "%(src)v",
+    .state.U [0] td l@[1]; img src | "%(src)v",
+    .icon.U [1] td l@[1]; img src | "%(src)v",
     [2] td l@[1]; {
         .sticky.b img | "t",
         [0] a href; {
-             .link * l@[0] | "%(href)v",
+             .link.U * l@[0] | "%(href)Dv",
              .title * l@[0] | "%iD" trim
         },
         .lastpage.u u; [-] a | "%i"
     },
     [3] td l@[1]; a href; {
         .user * l@[0] | "%Di" trim,
-        .user_link * l@[0] | "%(href)v"
+        .user_link.U * l@[0] | "%(href)Dv"
     },
     .replies.u [4] td l@[1]; font | "%i",
     .views.u [5] td l@[1]; font | "%i",
     .lastpost [-] td l@[1]; [0] td l@[1:]; {
         .date [0] a; * rparent@ | "%i" / sed "s#<br />.*##; s/.*>//",
         a href; {
-            .user_link * l@[0] | "%(href)v",
+            .user_link.U * l@[0] -href=b>"viewthread.php?goto=lastpost&" | "%(href)Dv",
             .user * l@[0] | "%Di" / sed "s/.*>//;s/^by //" trim
         }
     }

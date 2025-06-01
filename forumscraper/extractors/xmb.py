@@ -10,14 +10,6 @@ from .common import ItemExtractor, ForumExtractor
 from .identify import identify_xmb
 
 
-def dict_url_merge(ref, data, fields):
-    for j in fields:
-        if len(j) == 1:
-            data[j[0]] = url_merge(ref, data[j[0]])
-        else:
-            data[j[0]][j[1]] = url_merge(ref, data[j[0]][j[1]])
-
-
 class xmb(ForumExtractor):
     class Thread(ItemExtractor):
         def __init__(self, session):
@@ -34,7 +26,7 @@ class xmb(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xmb-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(Path('xmb/thread.reliq'))
+            t = rq.json(Path("xmb/thread.reliq"))
             dict_add(ret, t)
 
             posts = []
@@ -126,7 +118,7 @@ class xmb(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-        self.findroot_expr = reliq.expr(Path('xmb/findroot.reliq'))
+        self.findroot_expr = reliq.expr(Path("xmb/findroot.reliq"))
         self.findroot_board = False
         self.findroot_board_expr = None
 
@@ -142,7 +134,7 @@ class xmb(ForumExtractor):
         return url
 
     def process_board_r(self, url, ref, rq, settings, state):
-        t = rq.json(Path('xmb/board.reliq'))
+        t = rq.json(Path("xmb/board.reliq"))
 
         groups = []
         group_name = None
@@ -164,21 +156,15 @@ class xmb(ForumExtractor):
                         )
                     group_forums = []
                 group_name = i["category"]
-                group_link = url_merge(ref, i["category_link"])
+                group_link = i["category_link"]
                 continue
 
             if len(i["name"]) == 0:
                 continue
 
-            i["link"] = url_merge(ref, i["link"])
-            i["state"] = url_merge(ref, i["state"])
-
             lastpost = i["lastpost"]
             if lastpost["user_link"] == lastpost["link"]:
                 lastpost["user_link"] = None
-            else:
-                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-            lastpost["link"] = url_merge(ref, lastpost["link"])
 
             i.pop("category")
             i.pop("category_link")
@@ -197,45 +183,13 @@ class xmb(ForumExtractor):
         return {"format_version": "xmb-board", "url": url, "groups": groups}
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(Path('xmb/forum-threads.reliq'))
-
-        threads = []
-
-        for i in t["threads"]:
-            if len(i["link"]) == 0:
-                continue
-            if i["lastpost"]["user_link"].startswith("viewthread.php?goto=lastpost&"):
-                i["lastpost"]["user_link"] = ""
-
-            dict_url_merge(
-                ref,
-                i,
-                [
-                    ["state"],
-                    ["icon"],
-                    ["link"],
-                    ["user_link"],
-                    ["lastpost", "user_link"],
-                ],
+        threads = list(
+            filter(
+                lambda x: len(x["link"]) > 0,
+                rq.json(Path("xmb/forum-threads.reliq"))["threads"],
             )
-            threads.append(i)
-
-        forums = []
-
-        f = rq.json(Path('xmb/forum-forums.reliq'))
-
-        for i in f["forums"]:
-            dict_url_merge(
-                ref,
-                i,
-                [
-                    ["state"],
-                    ["link"],
-                    ["lastpost", "user_link"],
-                ],
-            )
-
-            forums.append(i)
+        )
+        forums = rq.json(Path("xmb/forum-forums.reliq"))["forums"]
 
         return {
             "format_version": "xmb-forum",
