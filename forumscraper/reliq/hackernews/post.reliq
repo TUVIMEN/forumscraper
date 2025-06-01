@@ -1,7 +1,7 @@
 tr id .athing l@[:1]; {
     .id.u * self@ | "%(id)v",
     span .titleline; [0] a; {
-        .link * self@ href | "%(href)v",
+        .link.U * self@ href | "%(href)Dv",
         .title * self@ | "%Di" trim
     }
 },
@@ -9,12 +9,12 @@ tr -class l@[:1]; {
     .score.u span #b>score_ | "%i" sed "s/ .*//",
     .date span .age title | "%(title)v",
     .user a .hnuser href; {
-        .link * self@ | "%(href)v",
+        .link.U * self@ | "%(href)v",
         .name [0] * c@[0] i@>[1:] | "%Di" trim
     },
     a i@"&nbsp;comment"; {
         .comments_count.u a self@ | "%i" sed "s/&.*//",
-        .comments_link a self@ | "%(href)v"
+        .comments_link.U a self@ | "%(href)v"
     }
 },
 .text [0] div .toptext | "%i"

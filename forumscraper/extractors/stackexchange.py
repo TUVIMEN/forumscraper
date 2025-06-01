@@ -8,8 +8,6 @@ from ..defs import reliq
 from ..utils import (
     dict_add,
     get_settings,
-    url_merge_r,
-    url_merge,
     url_valid,
     conv_short_size,
 )

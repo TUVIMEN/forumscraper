@@ -3,30 +3,19 @@
 
 from pathlib import Path
 import re
-import json
 
-from ..defs import Outputs, reliq
-from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
+from ..defs import reliq
+from ..utils import dict_add, url_merge_r
 from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_hackernews
 
 
 def get_comments(ref, rq):
-    comments = rq.json(Path('hackernews/comments.reliq'))["comments"]
-
-    for i in comments:
-        i["user"]["link"] = url_merge(ref, i["user"]["link"])
-        i["onstory"]["link"] = url_merge(ref, i["onstory"]["link"])
-    return comments
+    return rq.json(Path('hackernews/comments.reliq'))["comments"]
 
 
 def get_post(ref, rq):
-    post = rq.json(Path('hackernews/post.reliq'))
-
-    post["link"] = url_merge(ref, post["link"])
-    post["user"]["link"] = url_merge(ref, post["user"]["link"])
-    post["comments_link"] = url_merge(ref, post["comments_link"])
-    return post
+    return rq.json(Path('hackernews/post.reliq'))
 
 
 def get_page(ref, rq):
@@ -37,7 +26,7 @@ def get_page(ref, rq):
     while i < size and size - i >= 3:
         inp = posts_list[i] + posts_list[i + 1] + posts_list[i + 2]
 
-        post = get_post(ref, reliq(inp))
+        post = get_post(ref, reliq(inp,ref=ref))
         threads.append(post)
 
         i += 3

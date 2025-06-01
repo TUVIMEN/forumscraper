@@ -5,13 +5,13 @@
         td .default; {
             span .comhead;  {
                 .user a .hnuser href; {
-                    .link * l@[0] | "https://news.ycombinator.com/%(href)v",
+                    .link.U * l@[0] | "https://news.ycombinator.com/%(href)v",
                     .name [0] * c@[0] i@>[1:] | "%Di" trim
                 },
                 .date span .age title | "%(title)v",
                 .onstory span .onstory; [0] a; {
                     .name * self@ | "%Di" / trim,
-                    .link * self@ | "%(href)v"
+                    .link.U * self@ | "%(href)v"
                 }
             },
             .text div .commtext | "%i"
