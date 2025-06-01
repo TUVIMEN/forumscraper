@@ -1,10 +1,14 @@
 #!/usr/bin/env python
 
+import difflib
+from cdifflib import CSequenceMatcher
+difflib.SequenceMatcher = CSequenceMatcher
+
 import sys
 import os
+import itertools
 import hashlib
 import json
-import difflib
 import vcr
 import forumscraper
 
@@ -14,6 +18,16 @@ def strtosha256(string):
         string = string.encode()
 
     return hashlib.sha256(string).hexdigest()
+
+def fdiff(l1, l2):
+    for i in itertools.batched(zip(l1,l2),20000):
+        n1 = []
+        n2 = []
+        for i1, i2 in i:
+            n1.append(i1)
+            n2.append(i2)
+
+        yield from difflib.unified_diff(n1, n2)
 
 
 tested_urls = {
@@ -711,7 +725,7 @@ class tester:
             self.print_error("{} is different".format(temp + "/" + i))
             l1 = c1.split("\n")
             l2 = c2.split("\n")
-            for line in difflib.unified_diff(l1, l2):
+            for line in fdiff(l1,l2):
                 print(line)
 
 
