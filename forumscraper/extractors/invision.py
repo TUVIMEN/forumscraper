@@ -3,11 +3,9 @@
 
 from pathlib import Path
 import re
-import json
 
 from ..defs import Outputs, reliq
-from ..utils import dict_add, get_settings, url_merge_r, conv_short_size, url_merge
-from ..exceptions import AlreadyVisitedError
+from ..utils import dict_add, get_settings, conv_short_size
 from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_invision
 
@@ -45,12 +43,7 @@ class invision(ForumExtractor):
 
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
-
-            t = rq.json(Path('invision/user.reliq'))
-
-            t["avatar"] = url_merge_r(ref, t["avatar"])
-            t["background"] = url_merge_r(ref, t["background"])
-
+            t = rq.json(Path("invision/user.reliq"))
             dict_add(ret, t)
             return ret
 
@@ -133,14 +126,10 @@ class invision(ForumExtractor):
                 write_html(path + str(page), rq, settings)
                 page += 1
 
-                t = rq.json(Path('invision/reactions.reliq'))
+                t = rq.json(Path("invision/reactions.reliq"))
 
                 if len(ret) == 0:
                     self.state_add_url("reactions", nexturl, state, settings)
-
-                for i in t["reactions"]:
-                    i["avatar"] = url_merge_r(nexturl, i["avatar"])
-                    i["user_link"] = url_merge_r(nexturl, i["user_link"])
 
                 ret += t["reactions"]
 
@@ -153,20 +142,11 @@ class invision(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(Path('invision/thread.reliq'))
+            t = rq.json(Path("invision/thread.reliq"))
             dict_add(ret, t)
 
             ret["poll"] = self.get_poll(rq)
-            ret["user_link"] = url_merge_r(ref, ret["user_link"])
-            ret["user_avatar"] = url_merge_r(ref, ret["user_avatar"])
-
-            t = rq.json(Path('invision/thread-recommended.reliq'))
-            rec = t["recommended"]
-            rec["user_avatar"] = url_merge_r(ref, rec["user_avatar"])
-            rec["user_link"] = url_merge_r(ref, rec["user_link"])
-            rec["link"] = url_merge_r(ref, rec["link"])
-            rec["ruser_link"] = url_merge_r(ref, rec["ruser_link"])
-            dict_add(ret, t)
+            dict_add(ret, rq.json(Path("invision/thread-recommended.reliq")))
 
             posts = []
 
@@ -174,12 +154,9 @@ class invision(ForumExtractor):
                 for i in rq.filter(r"article #B>elComment_[0-9]*").self():
                     post = {}
 
-                    post["user_link"] = url_merge_r(
-                        ref,
-                        i.search(
-                            r'aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
-                        ),
-                    )
+                    user_link = post["user_link"] = i.json(
+                        r'.t.U aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
+                    )["t"]
 
                     user_link = post["user_link"]
                     if Outputs.users in settings["output"] and len(user_link) > 0:
@@ -188,15 +165,9 @@ class invision(ForumExtractor):
                         except self.common_exceptions as ex:
                             self.handle_error(ex, user_link, settings, True)
 
-                    t = i.json(Path('invision/post.reliq'))
-                    t["user_avatar"] = url_merge_r(ref, t["user_avatar"])
-                    t["group_icon"] = url_merge_r(ref, t["group_icon"])
-                    t["rank_image"] = url_merge_r(ref, t["rank_image"])
-                    dict_add(post, t)
+                    dict_add(post, i.json(Path("invision/post.reliq")))
 
-                    t = i.json(Path('invision/post-reactions.reliq'))
-                    for j in t["reactions_users"]:
-                        j["link"] = url_merge_r(ref, j["link"])
+                    t = i.json(Path("invision/post-reactions.reliq"))
                     t["reactions"] = []
                     for j in t["reactions_temp"]:
                         el = {}
@@ -260,7 +231,7 @@ class invision(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-        self.findroot_expr = reliq.expr(Path('invision/findroot.reliq'))
+        self.findroot_expr = reliq.expr(Path("invision/findroot.reliq"))
         self.findroot_board = True
         self.findroot_board_expr = re.compile(
             r"^(/[^\.-])?/((forum|foro|board)s?|index\.php|community|communaute|comunidad|ipb)/?$"
@@ -280,49 +251,23 @@ class invision(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(Path('invision/forum.reliq'))
+        t = rq.json(Path("invision/forum.reliq"))
 
         categories = t["categories"]
 
         for i in categories:
-            i["link"] = url_merge(ref, i["link"])
-
             for j in i["forums"]:
-                for g in j["childboards"]:
-                    g["link"] = url_merge(ref, g["link"])
-
-                j["link"] = url_merge(ref, j["link"])
-
                 if len(j["icon"]) == 0:
                     j["icon"] = j["icon2"]
                 j.pop("icon2")
-                j["icon"] = url_merge(ref, j["icon"])
 
                 j["posts"] = conv_short_size(j["posts"])
                 j["followers"] = conv_short_size(j["followers"])
 
-                lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(ref, lastpost["link"])
-                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-                lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
-
         threads = t["threads"]
-
         for i in threads:
-            i["link"] = url_merge(ref, i["link"])
-            i["user_link"] = url_merge(ref, i["user_link"])
-            i["avatar"] = url_merge(ref, i["avatar"])
-            i["group-indicator"] = url_merge(ref, i["group-indicator"])
-
             i["replies"] = conv_short_size(i["replies"])
             i["views"] = conv_short_size(i["views"])
-
-            for j in i["tags"]:
-                j["link"] == url_merge(ref, j["link"])
-
-            lastpost = i["lastpost"]
-            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-            lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
 
         return {
             "format_version": "invision-4-forum",

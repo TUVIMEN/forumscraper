@@ -1,6 +1,6 @@
 .name h2 class=b>"ipsType_reset ipsType_"; a | "%Di" / trim,
-.background div .ipsCoverPhoto_container; img src | "%(src)v",
-.avatar img src .ipsUserPhoto | "%(src)v",
+.background.U div .ipsCoverPhoto_container; img src | "%(src)v",
+.avatar.U img src .ipsUserPhoto | "%(src)v",
 .group p class="ipsType_reset ipsType_normal"; * c@[0] | "%i",
 
 .joined {

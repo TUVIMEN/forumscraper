@@ -4,9 +4,9 @@ div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
 },
 .rating.b ul .ipsRating_collective; li .ipsRating_on | "true",
 div .ipsPageHeader; {
-    .user_link a .ipsType_break href | "%(href)v",
+    .user_link.U a .ipsType_break href | "%(href)v",
     .user a .ipsType_break href; * c@[0] | "%Di" trim,
-    .user_avatar a .ipsUserPhoto; img src | "%(src)v",
+    .user_avatar.U a .ipsUserPhoto; img src | "%(src)v",
     .user_followers.u a .ipsFollow; span .ipsCommentCount | "%i" / tr ",.",
 },
 .date div .ipsFlex-flex:11; time datetime | "%(datetime)v",

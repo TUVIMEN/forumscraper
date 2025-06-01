@@ -2,7 +2,7 @@
 aside; {
     .user h3 class=b>"ipsType_sectionHead cAuthorPane_author "; * c@[0] [0] | "%Di" trim,
     * .cAuthorPane_photo data-role=photo; {
-        .user_avatar a .ipsUserPhoto; img src | "%(src)v",
+        .user_avatar.U a .ipsUserPhoto; img src | "%(src)v",
         .badges.a {
             img title alt | "%(alt)v\n",
             span .cAuthorPane_badge title=e>" joined recently" | "%(title)v\n"
@@ -10,9 +10,9 @@ aside; {
     },
     ul .cAuthorPane_info; {
         .group li data-role=group; * c@[0] | "%i",
-        .group_icon li data-role=group-icon; img src | "%(src)v",
+        .group_icon.U li data-role=group-icon; img src | "%(src)v",
         .rank_title li data-role=rank-title | "%i",
-        .rank_image li data-role=rank-image; * | "%i",
+        .rank_image.U li data-role=rank-image; * | "%i",
         .reputation_badge li data-role=reputation-badge; span | "%i" / sed "s/^<i .*<\/i> //;s/,//g;q",
         .posts li data-role=posts | "%i" / sed "s/ .*//;s/,//g",
         .custom li data-role=custom-field | "%i",

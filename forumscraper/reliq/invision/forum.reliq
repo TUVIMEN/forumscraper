@@ -4,7 +4,7 @@
 }; {
     h2 child@; {
         .name * -title c@[0] i@>[1:] | "%Di" / trim,
-        .link [-] a | "%(href)v"
+        .link.U [-] a | "%(href)v"
     },
     .forums {
         ol .ipsDataList child@; li child@,
@@ -12,13 +12,13 @@
     }; {
         [0] div ( .ipsDataItem_icon )( .cForumGrid__icon ); {
             .status [0] span class | "%(class)v" sed "s/.*cForumIcon_//; s/ .*//",
-            .icon [0] img src | "%(src)v"
+            .icon.U [0] img src | "%(src)v"
         },
-        .icon2 [0] span .cForumGrid__hero-image data-background-src | "%(data-background-src)v",
+        .icon2.U [0] span .cForumGrid__hero-image data-background-src | "%(data-background-src)v",
         div ( .ipsDataItem_main )( .cForumGrid__content ); {
             * ( .ipsDataItem_title )( .cForumGrid__title ); [0] a; {
                 .title * self@ | "%Di" / trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)v"
             },
             .description [0] * .ipsType_richText | "%T" trim,
         },
@@ -29,45 +29,45 @@
         .followers [0] ul .cForumGrid__title-stats; [0] a c@[0] | "%i" sed "s/ .*//",
         .childboards ul ( .ipsDataItem_subList )( .cForumGrid__subforums ); a; {
             .name * self@ | "%Di" / trim,
-            .link * self@ | "%(href)v"
+            .link.U * self@ | "%(href)v"
         } | ,
         .lastpost [0] * ( .ipsDataItem_lastPoster )( .cForumGrid__last ); {
-            .avatar * .ipsUserPhoto; [0] img src | "%(src)v",
+            .avatar.U * .ipsUserPhoto; [0] img src | "%(src)v",
             * .ipsDataItem_lastPoster__title; [0] a; {
                 .title * self@ | "%Di" / trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)v"
             },
             li .ipsType_light; [0] a .ipsType_break; {
                 .user * c@[0] | "%Di" trim,
-                .user_link * self@ | "%(href)v"
+                .user_link.U * self@ | "%(href)v"
             },
             .date time datetime | "%(datetime)v"
         }
     } |
 } | ,
 .threads [0] ol .cTopicList; li child@; {
-    .avatar div .ipsTopicSnippet__avatar; [0] img | "%(src)v",
+    .avatar.U div .ipsTopicSnippet__avatar; [0] img | "%(src)v",
     [0] * .ipsDataItem_title; {
         .icons.a i | "%(class)v\n" / sed "s/.*fa-//",
         [0] a -rel=tag; {
             .title * c@[0] | "%Di" / trim,
-            .link * self@ | "%(href)v",
+            .link.U * self@ | "%(href)v",
         }
     },
     [0] div ( .ipsDataItem_meta )( .ipsTopicSnippet__date ); {
         .date time datetime | "%(datetime)v",
         [0] a .ipsType_break; {
             .user * c@[0] | "%Di" trim,
-            .user_link * self@ | "%(href)v"
+            .user_link.U * self@ | "%(href)v"
         }
     },
     .lastpage.u * .ipsPagination; [-] a | "%i",
     .tags a rel=tag; {
         .name * c@[0] | "%Di" / trim,
-        .link * self@ | "%(href)v"
+        .link.U * self@ | "%(href)v"
     } | ,
     [0] * ( .ipsDataItem_stats )( .ipsTopicSnippet__stats ); {
-        .group-indicator [0] img .cGroupIndicator src | "%(src)v",
+        .group-indicator.U [0] img .cGroupIndicator src | "%(src)v",
         span .ipsDataItem_stats_number; {
             .replies [0] * self@ | "%i",
             .views [1] * self@ | "%i",
@@ -75,10 +75,10 @@
     },
     .snippet div .ipsTopicSnippet__snippet; * c@[0] | "%i",
     .lastpost [0] * ( .ipsDataItem_lastPoster )( .ipsTopicSnippet__last ); {
-        .avatar [0] * .ipsUserPhoto; [0] img src | "%(src)v",
+        .avatar.U [0] * .ipsUserPhoto; [0] img src | "%(src)v",
         [0] a .ipsType_break; {
             .user * c@[0] | "%Di" trim,
-            .user_link * self@ | "%(href)v"
+            .user_link.U * self@ | "%(href)v"
         },
         .date time datetime | "%(datetime)v"
     }
