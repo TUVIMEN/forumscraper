@@ -38,7 +38,7 @@
     }; {
         [0] a; {
             .userid.u * self@ | "%(data-vbnamecard)v",
-            .user_link * self@ | "%(href)v"
+            .user_link.U * self@ | "%(href)Dv"
         },
         .user {
             [0] a | "%i" ||
@@ -51,7 +51,7 @@
     },
 
     .attachments li .b-post-attachments__item; a [0]; {
-        .link * self@ | "%(href)v",
+        .link.U * self@ | "%(href)Dv",
         .name span .h-wordwrap | "%i" / sed "s/&lrm;$//" decode trim,
         span c@[0] i@e>")"; {
             .size * self@ | "%i" / sed "s/^(//;s/,.*//",
@@ -63,7 +63,7 @@
         a href=Eb>"(attachment|download)\.php\?"; td parent@
     }; {
         a [0]; {
-            .link * self@ | "%(href)v",
+            .link.U * self@ | "%(href)Dv",
             .name * self@ | "%i" / sed "s/&lrm;$//" decode trim
         },
         .size * self@ | "%t" / sed "/(/{ s/.*(//; s/,.*//; p }" "n" trim,
@@ -93,13 +93,13 @@
             [0] a .siteicon_profile ||
             * #b>postmenu_ c@[0]
         }; {
-            .link [0] a | "%(href)v",
+            .link.U [0] a; * href=>[1:] @ | "%(href)Dv",
             .name [0] * c@[0] | "%Di" / trim
         },
-        .avatar {
-            [0] * .E>"(postuseravatar(link)?|(b-)?avatar(-block)?|userpic|user-avatar-h)"; img | "%(src)v" ||
-            [0] img src=Ea>"((/|^)(forum|custom)?avatars?/|image\.php\?)" | "%(src)v"
-        },
+        .avatar.U {
+            [0] * .E>"(postuseravatar(link)?|(b-)?avatar(-block)?|userpic|user-avatar-h)"; img ||
+            [0] img src=Ea>"((/|^)(forum|custom)?avatars?/|image\.php\?)"
+        }; * src=>[1:] @ | "%(src)Dv",
 
         .title {
             * ( .usertitle )( .usertittle ) ||

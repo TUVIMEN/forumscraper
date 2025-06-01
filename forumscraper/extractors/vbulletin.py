@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 from ..defs import reliq
-from ..utils import dict_add, url_merge_r, url_merge
+from ..utils import dict_add, url_merge
 from .common import ItemExtractor, ForumExtractor
 from .identify import identify_vbulletin
 
@@ -30,13 +30,13 @@ class vbulletin(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "vbulletin-3+-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(Path('vbulletin/thread.reliq'))
+            t = rq.json(Path("vbulletin/thread.reliq"))
             dict_add(ret, t)
 
             posts = []
 
             for rq, ref in self.next(ref, rq, settings, state, path):
-                t = rq.json(Path('vbulletin/posts.reliq'))
+                t = rq.json(Path("vbulletin/posts.reliq"))
                 posts += t["posts"]
 
             outposts = []
@@ -62,20 +62,11 @@ class vbulletin(ForumExtractor):
                         outposts[len(outposts) - 1]["thankedby"] += thankedby
                     continue
 
-                i["edited"]["user_link"] = url_merge_r(ref, i["edited"]["user_link"])
-
-                attachments = i["attachments"]
-                if len(attachments) < len(i["attachments2"]):
-                    attachments = i["attachments2"]
+                if len(i["attachments"]) < len(i["attachments2"]):
+                    i["attachments"] = i["attachments2"]
                 i.pop("attachments2")
-                for j in attachments:
-                    j["link"] = url_merge_r(ref, j["link"])
-                i["attachments"] = attachments
 
                 user = i["user"]
-                user["link"] = url_merge_r(ref, user["link"])
-                user["avatar"] = url_merge_r(ref, user["avatar"])
-
                 custom = user["custom1"]
                 if len(custom) < len(user["custom2"]):
                     custom = user["custom2"]
@@ -112,7 +103,7 @@ class vbulletin(ForumExtractor):
 
         self.trim = True
 
-        self.forum_forums_expr = reliq.expr(Path('vbulletin/forum-threads.reliq'))
+        self.forum_forums_expr = reliq.expr(Path("vbulletin/forum-threads.reliq"))
         self.forum_threads_expr = reliq.expr(
             r'a ( #b>thread_title_ )( .topic-title ) href | "%(href)v\n" / sed "s/&amp;/\&/g"'
         )
@@ -143,14 +134,14 @@ class vbulletin(ForumExtractor):
             {"func": "get_board", "exprs": None},
         ]
 
-        self.findroot_expr = reliq.expr(Path('vbulletin/findroot.reliq'))
+        self.findroot_expr = reliq.expr(Path("vbulletin/findroot.reliq"))
         self.findroot_board = True
         self.findroot_board_expr = re.compile(
             r"^(/[^\.-])?/((board|forum|foro)s?|(index|forum)\.(php|html)|community|communaute|comunidad)(/|\?[^/]*)?$",
         )
 
     def get_next_page(self, rq):
-        url = rq.search(Path('vbulletin/next-page.reliq'))
+        url = rq.search(Path("vbulletin/next-page.reliq"))
 
         return url
 
@@ -158,7 +149,7 @@ class vbulletin(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(Path('vbulletin/forum.reliq'))
+        t = rq.json(Path("vbulletin/forum.reliq"))
 
         categories = []
         prevcat = None
@@ -170,7 +161,6 @@ class vbulletin(ForumExtractor):
             i.pop("header")
             i.pop("header2")
 
-            header["link"] = url_merge(ref, header["link"])
             c["name"] = header["name"]
             c["link"] = header["link"]
             c["description"] = header["description"]
@@ -183,19 +173,11 @@ class vbulletin(ForumExtractor):
                 if j["status"].find("/"):
                     j["status"] = url_merge(ref, j["status"])
 
-                j["link"] = url_merge(ref, j["link"])
-
                 for k in j["childboards"]:
-                    k["link"] = url_merge(ref, k["link"])
                     if k["icon"].find("/"):
                         k["icon"] = url_merge(ref, k["icon"])
 
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(ref, lastpost["link"])
-                lastpost["icon"] = url_merge(ref, lastpost["icon"])
-                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-                lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
-
                 forums.append(j)
 
             if prevcat is not None and c["link"] == prevcat["link"]:
@@ -222,12 +204,6 @@ class vbulletin(ForumExtractor):
             if i["link"] == "" and i["title"] == "" and i["user"] == "":
                 continue
 
-            i["avatar"] = url_merge(ref, i["avatar"])
-            for j, icon in enumerate(i["icons"]):
-                i["icons"][j] = url_merge(ref, i["icons"][j])
-
-            i["link"] = url_merge(ref, i["link"])
-            i["user_link"] = url_merge(ref, i["user_link"])
             for j, icon in enumerate(i["detailicons"]):
                 if icon.find("/") != -1:
                     i["detailicons"][j] = url_merge(ref, icon)
@@ -244,11 +220,6 @@ class vbulletin(ForumExtractor):
             i.pop("lastpost")
             i.pop("lastpost2")
             i.pop("lastpost_link")
-
-            lastpost["link"] = url_merge(ref, lastpost["link"])
-            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-            lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
-
             i["lastpost"] = lastpost
 
             threads.append(i)
