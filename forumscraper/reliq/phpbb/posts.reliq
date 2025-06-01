@@ -5,7 +5,7 @@
     .signature div .signature #B>sig[0-9]* | "%i",
     dl .postprofile #B>profile[0-9]*; {
         dt l@[1]; {
-            .avatar img src | "%(src)v",
+            .avatar.U img src | "%(src)Dv",
             .user a c@[0] | "%Di" trim,
             .userid.u a href c@[0] | "%(href)v" / sed "s/.*[&;]u=([0-9]+).*/\1/" "E",
         },

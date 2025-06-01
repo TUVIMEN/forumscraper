@@ -5,7 +5,7 @@ import re
 from pathlib import Path
 
 from ..defs import reliq
-from ..utils import dict_add, url_merge_r, url_merge
+from ..utils import dict_add
 from .common import ItemExtractor, ForumExtractor
 from .identify import identify_phpbb
 
@@ -32,11 +32,9 @@ class phpbb(ForumExtractor):
             posts = []
 
             for rq, ref in self.next(ref, rq, settings, state, path):
-                t = rq.json(Path("phpbb/posts.reliq"))
-                posts += t["posts"]
+                posts += rq.json(Path("phpbb/posts.reliq"))["posts"]
 
             for i in posts:
-                i["avatar"] = url_merge_r(ref, i["avatar"])
                 i["userinfo"] = []
                 for j in i["userinfo_temp"]:
                     t = j.split("\t")
@@ -108,20 +106,7 @@ class phpbb(ForumExtractor):
         categories = t["categories"]
 
         for i in t["categories"]:
-            i["link"] = url_merge(ref, i["link"])
-
             for j in i["forums"]:
-                for g in j["childboards"]:
-                    g["link"] = url_merge(ref, g["link"])
-
-                j["link"] = url_merge(ref, j["link"])
-                for g in j["moderators"]:
-                    g["user_link"] = url_merge(ref, g["user_link"])
-
-                lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(ref, lastpost["link"])
-                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-
                 if j["posts"] == 0:
                     j["posts"] = j["posts2"]
                 if j["topics"] == 0:
@@ -129,18 +114,7 @@ class phpbb(ForumExtractor):
                 j.pop("posts2")
                 j.pop("topics2")
 
-                j["icon"] = url_merge(ref, j["icon"])
-
         threads = t["threads"]
-
-        for i in threads:
-            for j in i["threads"]:
-                j["link"] = url_merge(ref, j["link"])
-                j["user_link"] = url_merge(ref, j["user_link"])
-
-                lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(ref, lastpost["link"])
-                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
 
         return {
             "format_version": "phpbb-2+-forum",
