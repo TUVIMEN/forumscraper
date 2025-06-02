@@ -16,7 +16,7 @@
     } | ,
     .user div .poster; h4; [0] a l@[1] | "%Di" trim,
     .userid.u div .poster; h4; a href l@[1] | "%(href)v" / sed "s/^.*;u=//",
-    .avatar div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li .avatar; img src | "%(src)v",
+    .avatar.U div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li .avatar; img src | "%(src)Dv",
     .userinfo div .poster; { ul #B>msg_[0-9]*_extra_info, ul .user_info }; li -.avatar class; {
         .key * l@[0] | "%(class)v",
         .value * l@[0] | "%i"

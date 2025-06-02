@@ -14,7 +14,7 @@
             .user * self@ | "%Di" / trim,
             .userid.u * self@ | "%(href)v" / sed "s/.*;//;s/.*-//;s/\.html$//;s/^u//;s/^=//"
         },
-        .avatar [0] img .avatar src | "%(src)v"
+        .avatar.U [0] img .avatar src | "%(src)Dv"
     },
     .edited td #B>modified_[0-9]*; * c@[0] | "%i",
     .score span #B>gpbp_score_[0-9]* | "%i",

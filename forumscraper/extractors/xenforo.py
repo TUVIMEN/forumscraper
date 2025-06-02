@@ -3,10 +3,9 @@
 
 from pathlib import Path
 import re
-import json
 
 from ..defs import Outputs, reliq
-from ..utils import dict_add, url_merge, url_merge_r, conv_short_size
+from ..utils import dict_add, url_merge_r, conv_short_size
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 from .identify import identify_xenforo1, identify_xenforo2
 

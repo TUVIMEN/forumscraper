@@ -24,20 +24,20 @@
         .status [0] * ( .b>icon )( .board_icon ); [0] ( a )( img )( span ) title | "%(title)v",
         * .info child@; {
             [0] a href; {
-                .link * self@ | "%(href)v",
+                .link.s(0,0)|U * self@ | "%(href)Dv",
                 .name * self@ | "%Di" trim
             },
             .description [0] ( p -id -.moderators )( div .board_description ) child@ | "%i",
         },
         .childboards * .children; a; {
-            .link * self@ | "%(href)v",
+            .link.U * self@ | "%(href)Dv",
             .name * self@ | "%Di" trim,
             .status * self@ | "%(title)v" sed "s/ (.*//",
             .topics.u * self@ | "%(title)v" sed "s/.* (//; s/,.*//",
             .posts.u * self@ | "%(title)v" sed "s/.*,//"
         } | ,
         .moderators * .moderators; a href; {
-            .user_link * self@ | "%(href)v",
+            .user_link.s(0,0)|U * self@ | "%(href)Dv",
             .user [0] * self@ | "%Di" trim
         } | ,
         * .e>stats child@; { p child@, * self@ }; [0] * self@; {
@@ -50,22 +50,22 @@
             .lastpost * self@ -has@"[0] span .postby"; {
                 [0] a href; {
                     .user * self@ | "%Di" trim,
-                    .user_link * self@ | "%(href)v"
+                    .user_link.s(0,0)|U * self@ | "%(href)Dv"
                 },
                 [1] a href; {
                     .title * self@ | "%(title)Dv" / trim,
-                    .link * self@ | "%(href)v"
+                    .link.U * self@ | "%(href)Dv"
                 },
                 .date * self@ | "%t" tr "\n\t\r" trim sed "s/.*>//; s/([^ ]* ){3}//; s/^ *at //" "E"
             },
             .lastpost2 span [0] .postby; * rparent@; {
                 [0] a href; {
                     .title * self@ | "%(title)Dv" / trim,
-                    .link * self@ | "%(href)v"
+                    .link.U * self@ | "%(href)Dv"
                 },
                 [1] a href; {
                     .user * self@ | "%Di" trim,
-                    .user_link * self@ | "%(href)v"
+                    .user_link.s(0,0)|U * self@ | "%(href)Dv"
                 },
                 .date * self@ | "%t" trim sed "s/^at //"
             }
@@ -81,11 +81,11 @@
     * ( .subject )( .info ) child@; {
         [0] a href; {
             .title * self@ | "%Di" / trim,
-            .link * self@ | "%(href)v"
+            .link.s(0,0)|U * self@ | "%(href)Dv"
         },
         [1] a href; {
             .user * self@ | "%Dt" trim,
-            .user_link * self@ | "%(href)v"
+            .user_link.s(0,0)|U * self@ | "%(href)Dv"
         },
         .lastpage.u [-] a ( .navPages )( .nav_page ) c@[0] i@v>"All" | "%i",
         .icons.a {
@@ -96,7 +96,7 @@
     },
     td .starter child@; a; {
         .user2 [0] * self@ | "%Di" trim,
-        .user_link2 * self@ | "%(href)v"
+        .user_link2.s(0,0)|U * self@ | "%(href)Dv"
     },
     {
         td .stats child@,
@@ -109,10 +109,10 @@
     .views2.u td .views c@[0] child@ | "%i" tr ",",
     * .lastpost child@; {
         .lastpost [0] v>p child@; * rparent@; {
-            .link [0] a href | "%(href)v",
+            .link.U [0] a href | "%(href)Dv",
             [1] a href; {
                 .user * self@ | "%Di" trim,
-                .user_link * self@ | "%(href)v"
+                .user_link.s(0,0)|U * self@ | "%(href)Dv"
             },
             .date {
                 span .smalltext child@,
@@ -122,11 +122,11 @@
         .lastpost2 p child@; {
             [0] a href; {
                 .date * self@ | "%T" trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)Dv"
             },
             [1] a href; {
                 .user * self@ | "%Di" trim,
-                .user_link * self@ | "%(href)v"
+                .user_link.s(0,0)|U * self@ | "%(href)Dv"
             }
         }
     }
