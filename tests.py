@@ -631,7 +631,7 @@ class tester:
         for i in tests:
             try:
                 self.test(i)
-            except Exception as e:
+            except (FileExistsError,vcr.errors.CannotOverwriteExistingCassetteException) as e:
                 print(i[0], i[2], file=sys.stderr)
 
         os.chdir(pwd)
