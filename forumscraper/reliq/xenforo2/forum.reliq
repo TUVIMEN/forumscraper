@@ -1,7 +1,7 @@
 .categories div .block -b>data-widget- -.thNodes__nodeList -data-type=thread; {
     [0] * ( .block-header )( .section-header ); [0] * c@[0]; {
         .name * self@ | "%Di" / trim,
-        .link * self@ | "%(href)v"
+        .link.s(0,0)|U * self@ | "%(href)v"
     },
     .forums [0] div ( .block-body )( .node-list ); div .node l@[1:2]; {
         .icon [0] span .node-icon; {
@@ -11,7 +11,7 @@
         * .node-main; {
             * .node-title; [0] a; {
                 .name * self@ | "%Di" / trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)v"
             },
             .description div .node-description | "%i",
             .childboards [0] ol ( .node-subNodeFlatList )( .subNodeMenu ); a .subNodeLink; {
@@ -20,7 +20,7 @@
                     i | "%(class)v" sed "s/ subNodeLink-icon//; s/.* //"
                 } / sed "s/\a.*//",
                 .name * self@ | "%Dt" trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)v"
             } |
         },
         div ( .node-meta )( .node-stats ); {
@@ -35,16 +35,16 @@
         },
         .placeholder [0] * .node-extra-placeholder | "%i",
         .lastpost div .node-extra; {
-            .avatar div .node-extra-icon; [0] img | "%(src)v",
+            .avatar.U div .node-extra-icon; [0] img | "%(src)v",
             * .node-extra-title; [0] a; {
                 .title * self@ | "%(title)Dv" trim,
-                .link * self@ | "%(href)v",
+                .link.U * self@ | "%(href)v",
                 .label [0] span .label | "%i"
             },
             .date time .node-extra-date datetime | "%(datetime)v",
             * .node-extra-user; [0] a; {
                 .user [0] * c@[0] | "%Di" trim,
-                .user_link * self@ | "%(href)v"
+                .user_link.U * self@ | "%(href)v"
             }
         },
         .date2 [0] * .last-time; time datetime | "%(datetime)v"
@@ -52,7 +52,7 @@
 } | ,
 .threads div .structItem--thread; {
     .votes.u span .contentVote-score | "%i",
-    .avatar div .structItem-iconContainer; [0] img src | "%(src)v",
+    .avatar.U div .structItem-iconContainer; [0] img src | "%(src)v",
     div .structItem-cell--main; {
         .icons.a {
             ul .structItem-statuses; span; {
@@ -64,11 +64,11 @@
         .label span .label | "%t",
         * .structItem-title; [-] a -.labelLink; {
             .title * self@ | "%Di" trim,
-            .link * self@ | "%(href)v"
+            .link.U * self@ | "%(href)v"
         },
         [0] a .username; {
             .user * c@[0] | "%Di" trim,
-            .user_link * self@ | "%(href)v"
+            .user_link.U * self@ | "%(href)v"
         },
         .date [0] time datetime | "%(datetime)v",
         .lastpage.u * .structItem-pageJump; [-] a | "%i"
@@ -86,8 +86,8 @@
         .date [0] time datetime | "%(datetime)v",
         [0] a .username; {
             .user * c@[0] | "%Di" trim,
-            .user_link * self@ | "%(href)v"
+            .user_link.U * self@ | "%(href)v"
         },
     },
-    .lp-avatar div .structItem-cell--iconEnd; [0] img src | "%(src)v"
+    .lp-avatar.U div .structItem-cell--iconEnd; [0] img src | "%(src)v"
 } |

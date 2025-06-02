@@ -1,6 +1,6 @@
-.background div class=B>"memberProfileBanner memberTooltip-header.*" style=a>"url(" | "%(style)v" / sed "s#.*url(##;s#^//#https://#;s/?.*//;p;q" "n",
+.background.s(0,0)|U div class=B>"memberProfileBanner memberTooltip-header.*" style=a>"url(" | "%(style)v" / sed "s#.*url(##;s#^//#https://#;s/?.*//;p;q" "n",
 .location a href=b>/misc/location-info | "%i",
-.avatar img src | "%(src)v" / sed "s/?.*//; q",
+.avatar.s(0,0)|U img src | "%(src)v" / sed "s/?.*//; q",
 .title span .userTitle | "%Di" / trim,
 .banners.a * .userBanner; strong | "%i\n",
 .name h4 .memberTooltip-name; a; * c@[0] | "%Di" / trim,

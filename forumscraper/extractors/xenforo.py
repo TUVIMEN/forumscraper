@@ -42,19 +42,17 @@ class xenforo2(ForumExtractor):
             ]
 
         def get_search_user(self, rq, state, ref, first_delim, xfToken, settings):
-            user_url = rq.search(
-                r"""
-                {
+            user_url = rq.json(
+                r""" .url.U {
                     h4 class=b>message-name,
                     div .MessageCard__avatar
-                }; [0] a data-user-id href | "%(href)v"
-            """
-            )
+                }; [0] a data-user-id href | "%(href)v" """
+            )["url"]
             if len(user_url) > 0:
                 self.user.get(
                     "users",
                     "{}{}tooltip=true&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
-                        url_merge(ref, user_url), first_delim, xfToken
+                        user_url, first_delim, xfToken
                     ),
                     settings,
                     state,
@@ -71,13 +69,16 @@ class xenforo2(ForumExtractor):
 
         def get_reactions(self, rq, ref, first_delim, xfToken, settings, state):
             ret = []
-            reactions_url = rq.search(
-                r'{ a .reactionsBar-link href | "%(href)v\n", div #b>reactions-bar-; a .list-reacts href | "%(href)v\n" } / line [0] tr "\n"'
-            )
+            reactions_url = rq.json(
+                r""" .url.U {
+                        a .reactionsBar-link href,
+                        div #b>reactions-bar-; a .list-reacts href
+                    }; [0] @ | "%(href)v" """
+            )["url"]
 
             if len(reactions_url) > 0:
                 reactions_url = "{}{}_xfRequestUri=&_xfWithData=1&_xfToken={}&_xfResponseType=json".format(
-                    url_merge(ref, reactions_url), first_delim, xfToken
+                    reactions_url, first_delim, xfToken
                 )
 
                 obj = reliq(
@@ -86,7 +87,7 @@ class xenforo2(ForumExtractor):
                     ].translate(str.maketrans("", "", "\n\t"))
                 )
 
-                t = obj.json(Path('xenforo2/reactions.reliq'))
+                t = obj.json(Path("xenforo2/reactions.reliq"))
                 ret = t["reactions"]
 
                 self.state_add_url("reactions", reactions_url, state, settings)
@@ -99,14 +100,16 @@ class xenforo2(ForumExtractor):
                 url_first_delimiter = "&"
             ret = {"format_version": "xenforo-2-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(Path('xenforo2/thread.reliq'))
+            t = rq.json(Path("xenforo2/thread.reliq"))
             dict_add(ret, t)
 
             xfToken = self.get_xfToken(rq)
 
             posts = []
 
-            rq = reliq(rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")))
+            rq = reliq(
+                rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")), ref=rq.ref
+            )
 
             for rq, ref in self.next(ref, rq, settings, state, path, trim=True):
                 post_tags = rq.search(
@@ -120,16 +123,9 @@ class xenforo2(ForumExtractor):
                 ).split("\n")[:-1]
 
                 for i in post_tags:
-                    tag = reliq(i)
+                    tag = reliq(i, ref=ref)
 
-                    post = tag.json(Path('xenforo2/post.reliq'))
-
-                    post["user_link"] = url_merge_r(ref, post["user_link"])
-                    if post["user_avatar"][:1] == "/":
-                        post["user_avatar"] = re.sub(
-                            r"\?[0-9]+$", r"", post["user_avatar"]
-                        )
-                    post["user_avatar"] = url_merge_r(ref, post["user_avatar"])
+                    post = tag.json(Path("xenforo2/post.reliq"))
 
                     uext = post["user_extras"]
                     uext["pairs"] = uext["pairs1"] + uext["pairs2"] + uext["pairs3"]
@@ -204,12 +200,7 @@ class xenforo2(ForumExtractor):
 
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-2-user", "url": url, "id": int(i_id)}
-
-            t = rq.json(Path('xenforo2/user.reliq'))
-            t["background"] = url_merge_r(ref, t["background"])
-            t["avatar"] = url_merge_r(ref, t["avatar"])
-            dict_add(ret, t)
-
+            dict_add(ret, rq.json(Path("xenforo2/user.reliq")))
             return ret
 
     def __init__(self, session=None, **kwargs):
@@ -234,7 +225,7 @@ class xenforo2(ForumExtractor):
         )
         self.guesslist = guesslist
 
-        self.findroot_expr = reliq.expr(Path('xenforo2/findroot.reliq'))
+        self.findroot_expr = reliq.expr(Path("xenforo2/findroot.reliq"))
         self.findroot_board = True
         self.findroot_board_expr = re.compile(
             r"^(/[^\.-])?/((forum|foro|board)s?|index\.php|community|communaute|comunidad)/?$",
@@ -255,7 +246,7 @@ class xenforo2(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(Path('xenforo2/forum.reliq'))
+        t = rq.json(Path("xenforo2/forum.reliq"))
 
         categories = []
 
@@ -263,18 +254,8 @@ class xenforo2(ForumExtractor):
             if len(i["name"]) == 0 and len(i["forums"]) == 0:
                 continue
 
-            i["link"] = url_merge(ref, i["link"])
-
             for j in i["forums"]:
-                for g in j["childboards"]:
-                    g["link"] = url_merge(ref, g["link"])
-
-                j["link"] = url_merge(ref, j["link"])
-
                 lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(ref, lastpost["link"])
-                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-                lastpost["avatar"] = url_merge(ref, lastpost["avatar"])
                 if len(lastpost["date"]) == 0:
                     lastpost["date"] = j["date2"]
                 j.pop("date2")
@@ -292,10 +273,6 @@ class xenforo2(ForumExtractor):
         threads = t["threads"]
 
         for i in threads:
-            i["link"] = url_merge(ref, i["link"])
-            i["avatar"] = url_merge(ref, i["avatar"])
-            i["user_link"] = url_merge(ref, i["user_link"])
-
             if len(i["replies"]) == 0:
                 i["replies"] = i["replies2"]
                 i["views"] = i["views2"]
@@ -305,9 +282,7 @@ class xenforo2(ForumExtractor):
             i.pop("replies2")
             i.pop("views2")
 
-            lastpost = i["lastpost"]
-            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-            lastpost["avatar"] = url_merge(ref, i["lp-avatar"])
+            i["lastpost"]["avatar"] = i["lp-avatar"]
             i.pop("lp-avatar")
 
         return {
@@ -362,10 +337,12 @@ class xenforo1(ForumExtractor):
         def get_contents(self, rq, settings, state, url, ref, i_id, path):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": int(i_id)}
 
-            t = rq.json(Path('xenforo1/thread.reliq'))
+            t = rq.json(Path("xenforo1/thread.reliq"))
             dict_add(ret, t)
 
-            rq = reliq(rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")))
+            rq = reliq(
+                rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")), ref=rq.ref
+            )
             posts = []
 
             for rq, ref in self.next(ref, rq, settings, state, path, trim=True):
@@ -379,10 +356,10 @@ class xenforo1(ForumExtractor):
                     post["avatar"] = avatar
                     post["user_id"] = user_id
 
-                    t = messageUB.json(Path('xenforo1/post1.reliq'))
+                    t = messageUB.json(Path("xenforo1/post1.reliq"))
                     dict_add(post, t)
 
-                    t = i.json(Path('xenforo1/post2.reliq'))
+                    t = i.json(Path("xenforo1/post2.reliq"))
                     dict_add(post, t)
 
                     posts.append(post)
@@ -407,7 +384,7 @@ class xenforo1(ForumExtractor):
         )
         self.guesslist = guesslist
 
-        self.findroot_expr = reliq.expr(Path('xenforo1/findroot.reliq'))
+        self.findroot_expr = reliq.expr(Path("xenforo1/findroot.reliq"))
         self.findroot_board = True
         self.findroot_board_expr = None
 
@@ -426,39 +403,13 @@ class xenforo1(ForumExtractor):
         return self.process_forum_r(url, ref, rq, settings, state)
 
     def process_forum_r(self, url, ref, rq, settings, state):
-        t = rq.json(Path('xenforo1/forum.reliq'))
-
-        categories = t["categories"]
-
-        for i in categories:
-            i["link"] = url_merge(ref, i["link"])
-
-            for j in i["forums"]:
-                for g in j["childboards"]:
-                    g["link"] = url_merge(ref, g["link"])
-
-                j["link"] = url_merge(ref, j["link"])
-
-                lastpost = j["lastpost"]
-                lastpost["link"] = url_merge(ref, lastpost["link"])
-                lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
-
-                j["icon"] = url_merge(ref, j["icon"])
-
-        threads = t["threads"]
-
-        for i in threads:
-            i["link"] = url_merge(ref, i["link"])
-            i["user_link"] = url_merge(ref, i["user_link"])
-
-            lastpost = i["lastpost"]
-            lastpost["user_link"] = url_merge(ref, lastpost["user_link"])
+        t = rq.json(Path("xenforo1/forum.reliq"))
 
         return {
             "format_version": "xenforo-1-forum",
             "url": url,
-            "categories": categories,
-            "threads": threads,
+            "categories": t["categories"],
+            "threads": t["threads"],
         }
 
 

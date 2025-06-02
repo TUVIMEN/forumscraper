@@ -3,14 +3,14 @@
     * .MessageCard__user-info__name
 }; {
     .user [0] * c@[0] | "%Di" trim,
-    .user_link [0] a class href | "%(href)v",
+    .user_link.U [0] a class href | "%(href)v",
     .user_id.u [0] * data-user-id | "%(data-user-id)v"
 },
 
-.user_avatar {
+.user_avatar.s(0,0)|U {
     div .message-avatar,
     div .MessageCard__avatar
-}; img src | "%(src)v",
+}; [0] img src | "%(src)v" / sed "/^\//s/?[0-9]*$//",
 
 .user_title h5 .userTitle | "%i",
 

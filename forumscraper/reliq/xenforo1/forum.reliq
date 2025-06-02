@@ -2,7 +2,7 @@
     [0] div .nodeInfo child@; div .categoryText; {
         * .nodeTitle; a; {
             .name * self@ | "%Di" / trim,
-            .link * self@ | "%(href)v"
+            .link.U * self@ | "%(href)v"
         },
         .description * .nodeDescription | "%i",
     },
@@ -11,11 +11,11 @@
         * self@
     }; div .nodeInfo [0] child@; {
         .state span .nodeIcon title child@ | "%(title)v",
-        .icon span .nodeIcons; [0] img | "%(src)v",
+        .icon.U span .nodeIcons; [0] img | "%(src)v",
         div .nodeText child@; {
             * .nodeTitle; [0] a; {
                 .name * self@ | "%Di" / trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)v"
             },
             .description * #b>nodeDescription child@ | "%i",
             div .nodeStats; dd; {
@@ -26,17 +26,17 @@
         .feed div .nodeControls; a .feedIcon | "%(href)v",
         .childboards li .node .level-n; a; {
             .name * self@ | "%Di" / trim,
-            .link * self@ | "%(href)v"
+            .link.U * self@ | "%(href)v"
         } | ,
         .lastpost div .nodeLastPost; {
             * .lastThreadTitle; [0] a; {
                 .title * self@ | "%Di" / trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)v"
             },
             * .lastThreadMeta; {
                 * .lastThreadUser; [0] a; {
                     .user * self@ | "%Di" trim,
-                    .user_link * self@ | "%(href)v"
+                    .user_link.U * self@ | "%(href)v"
                 },
                 .date * .DateTime | "%(title)v\a%(data-time)v" sed "s/^\a//g; s/\a.*//;"
             }
@@ -51,12 +51,12 @@
             .label [0] a .prefixLink; * c@[0] | "%i",
             [0] a -.prefixLink; {
                 .title * self@ | "%Di" / trim,
-                .link * self@ | "%(href)v"
+                .link.U * self@ | "%(href)v"
             }
         },
         [0] a .username; {
             .user * self@; [0] * c@[0] | "%Di" trim,
-            .user_link * self@ | "%(href)v"
+            .user_link.s(0,0)|U * self@ | "%(href)v"
         },
         .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;",
         .lastpage.u * .itemPageNav; [-] a href | "%i"
@@ -68,7 +68,7 @@
     .lastpost div .lastPost child@; {
         [0] a .username; {
             .user * self@; * c@[0] | "%Di" / trim,
-            .user_link * self@ | "%(href)v"
+            .user_link.s(0,0)|U * self@ | "%(href)v"
         },
         .date * .DateTime | "%(title)v\a%(data-time)v\a%i" sed "s/^\a//g; s/\a.*//;"
     }
