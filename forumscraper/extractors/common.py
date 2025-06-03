@@ -70,9 +70,7 @@ def handle_error(self, exception, url, settings, for_pedantic=False):
     return
 
 
-def get_first_html(
-    extractor, url, settings, state, rq=None, ref=None, return_cookies=False
-):
+def get_first_html(extractor, url, settings, state, rq=None, return_cookies=False):
     if rq is None:
         return extractor.session.get_html(
             url, settings, state, extractor.trim, return_cookies
@@ -81,8 +79,7 @@ def get_first_html(
     if not isinstance(rq, reliq):
         rq = reliq(rq, ref=url)
 
-    ref = rq.ref
-    return (rq, ref)
+    return rq
 
 
 def state_add_url(typekey, url, state, settings):
@@ -141,10 +138,8 @@ class ItemExtractor:
     def handle_error(self, exception, url, settings, for_pedantic=False):
         return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(
-        self, url, settings, state, rq=None, ref=None, return_cookies=False
-    ):
-        return get_first_html(self, url, settings, state, rq, ref, return_cookies)
+    def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
+        return get_first_html(self, url, settings, state, rq, return_cookies)
 
     def get_improper_url(self, url, rq, settings, state):
         print('improper url - "{}"'.format(url), file=settings["logger"])
@@ -156,8 +151,8 @@ class ItemExtractor:
             if r is not None:
                 return r[1][i[1]]
 
-    def next(self, ref, rq, settings, state, path, **kwargs):
-        yield rq, ref
+    def next(self, rq, settings, state, path, **kwargs):
+        yield rq
 
         k = {"trim": self.trim}
         k.update(kwargs)
@@ -170,18 +165,18 @@ class ItemExtractor:
             ):
                 break
 
-            nexturl = self.get_next(ref, rq)
+            nexturl = self.get_next(rq)
             if nexturl is None:
                 break
 
             try:
-                rq, ref = self.session.get_html(nexturl, settings, state, **k)
+                rq = self.session.get_html(nexturl, settings, state, **k)
             except AlreadyVisitedError:
                 break
 
             write_html(path + "-" + str(page), rq, settings)
 
-            yield rq, ref
+            yield rq
 
             page += 1
 
@@ -209,11 +204,11 @@ class ItemExtractor:
             return state
 
         url = self.get_url(url)
-        rq, ref = self.get_first_html(url, settings, state, rq)
+        rq = self.get_first_html(url, settings, state, rq)
 
         write_html(path, rq, settings)
 
-        contents = self.get_contents(rq, settings, state, url, ref, i_id, path)
+        contents = self.get_contents(rq, settings, state, url, i_id, path)
         if contents is None:
             return
 
@@ -228,7 +223,7 @@ class ItemExtractor:
 
         return state
 
-    def get_contents(self, rq, settings, state, url, ref, i_id, path):
+    def get_contents(self, rq, settings, state, url, i_id, path):
         pass
 
 
@@ -341,10 +336,8 @@ class ForumExtractor:
     def handle_error(self, exception, url, settings, for_pedantic=False):
         return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(
-        self, url, settings, state, rq=None, ref=None, return_cookies=False
-    ):
-        return get_first_html(self, url, settings, state, rq, ref, return_cookies)
+    def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
+        return get_first_html(self, url, settings, state, rq, return_cookies)
 
     def _get_item(self, typekey, url, obj, rq=None, state=None, depth=0, **kwargs):
         settings = self.get_settings(kwargs)
@@ -364,23 +357,23 @@ class ForumExtractor:
     get_forum_next_page = None
     get_tag_next_page = None
 
-    def get_next(self, ref, rq):
+    def get_next(self, rq):
         url = self.get_next_page(rq)
         if len(url) == 0:
             return
         return reliq.decode(rq.ujoin(url))
 
-    def get_forum_next(self, ref, rq):
+    def get_forum_next(self, rq):
         if self.get_forum_next_page is None:
-            return self.get_next(ref, rq)
+            return self.get_next(rq)
         url = self.get_forum_next_page(rq)
         if len(url) == 0:
             return
         return reliq.decode(rq.ujoin(url))
 
-    def get_tag_next(self, ref, rq):
+    def get_tag_next(self, rq):
         if self.get_tag_next_page is None:
-            return self.get_next(ref, rq)
+            return self.get_next(rq)
         url = self.get_tag_next_page(rq)
         if len(url) == 0:
             return
@@ -392,7 +385,7 @@ class ForumExtractor:
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, settings)
 
-    def go_through_page_threads(self, ref, rq, settings, state, expr, depth):
+    def go_through_page_threads(self, rq, settings, state, expr, depth):
         if (
             Outputs.threads not in settings["output"]
             and Outputs.only_urls_threads not in settings["output"]
@@ -426,7 +419,7 @@ class ForumExtractor:
             for url in urls:
                 self.go_through_page_thread(url, settings, state, depth)
 
-    def go_through_page_forums(self, ref, rq, settings, state, expr, depth):
+    def go_through_page_forums(self, rq, settings, state, expr, depth):
         max_forums = settings["pages_forums_max"]
 
         for num, url in enumerate(rq.search(expr).split("\n")[:-1]):
@@ -460,7 +453,7 @@ class ForumExtractor:
         settings = self.get_settings(kwargs)
         state = self.create_state(state)
         try:
-            rq, ref = self.get_first_html(url, settings, state, rq)
+            rq = self.get_first_html(url, settings, state, rq)
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, settings)
 
@@ -468,10 +461,10 @@ class ForumExtractor:
         state_add_url(typekey, url, state, settings)
 
         if process_func:
-            process_func(url, ref, rq, settings, state)
+            process_func(url, rq, settings, state)
 
         if forums_expr:
-            self.go_through_page_forums(ref, rq, settings, state, forums_expr, depth)
+            self.go_through_page_forums(rq, settings, state, forums_expr, depth)
 
         if (
             threads_expr
@@ -484,9 +477,7 @@ class ForumExtractor:
             and Outputs.only_urls_forums not in settings["output"]
         ):
             while True:
-                self.go_through_page_threads(
-                    ref, rq, settings, state, threads_expr, depth
-                )
+                self.go_through_page_threads(rq, settings, state, threads_expr, depth)
 
                 if not func_next:
                     break
@@ -494,31 +485,31 @@ class ForumExtractor:
                 page += 1
                 if settings["pages_max"] > 0 and page >= settings["pages_max"]:
                     break
-                nexturl = func_next(ref, rq)
+                nexturl = func_next(rq)
                 if nexturl is None:
                     break
                 try:
-                    rq, ref = self.get_first_html(nexturl, settings, state)
+                    rq = self.get_first_html(nexturl, settings, state)
                 except self.common_exceptions as ex:
                     self.handle_error(ex, nexturl, settings)
                     break
 
                 if process_func:
-                    process_func(nexturl, ref, rq, settings, state)
+                    process_func(nexturl, rq, settings, state)
 
         return state
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         pass
 
-    def process_tag_r(self, url, ref, rq, settings, state):
+    def process_tag_r(self, url, rq, settings, state):
         pass
 
-    def process_board_r(self, url, ref, rq, settings, state):
+    def process_board_r(self, url, rq, settings, state):
         pass
 
     def process_page(
-        self, url, ref, rq, settings, state, prefix, typekey, process_func, otype
+        self, url, rq, settings, state, prefix, typekey, process_func, otype
     ):
         output = settings["output"]
         if otype not in output or (
@@ -536,7 +527,7 @@ class ForumExtractor:
                 return
             path = "{}-{}".format(prefix, path)
 
-        data = process_func(url, ref, rq, settings, state)
+        data = process_func(url, rq, settings, state)
 
         if Outputs.data in output:
             state["data"][typekey].append(data)
@@ -545,10 +536,9 @@ class ForumExtractor:
             write_html(path, rq, settings)
             state["files"][typekey].append(path)
 
-    def process_forum(self, url, ref, rq, settings, state):
+    def process_forum(self, url, rq, settings, state):
         return self.process_page(
             url,
-            ref,
             rq,
             settings,
             state,
@@ -558,10 +548,9 @@ class ForumExtractor:
             Outputs.forums,
         )
 
-    def process_tag(self, url, ref, rq, settings, state):
+    def process_tag(self, url, rq, settings, state):
         return self.process_page(
             url,
-            ref,
             rq,
             settings,
             state,
@@ -571,10 +560,9 @@ class ForumExtractor:
             Outputs.tags,
         )
 
-    def process_board(self, url, ref, rq, settings, state):
+    def process_board(self, url, rq, settings, state):
         return self.process_page(
             url,
-            ref,
             rq,
             settings,
             state,
@@ -685,7 +673,7 @@ class ForumExtractor:
             return func(url, rq=rq, state=state, **kwargs)
         return
 
-    def findroot_r(self, url, ref, rq, teststate, settings):
+    def findroot_r(self, url, rq, teststate, settings):
         rest = url_valid(url, base=True)
         if rest is None:
             return
@@ -725,11 +713,11 @@ class ForumExtractor:
         teststate = self.create_state(None)
 
         try:
-            rq, ref = self.get_first_html(url, settings, teststate, rq)
+            rq = self.get_first_html(url, settings, teststate, rq)
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, settings)
 
-        url = self.findroot_r(url, ref, rq, teststate, settings)
+        url = self.findroot_r(url, rq, teststate, settings)
         if url is None:
             return
 
@@ -805,9 +793,10 @@ class ForumExtractorIdentify(ForumExtractor):
             r = self.get_first_html(url, settings, state, rq, return_cookies=True)
             cookies = {}
             if rq is None:
-                cookies = r[2]
-            rq = r[0]
-            ref = r[1]
+                rq = r[0]
+                cookies = r[1]
+            else:
+                rq = r
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, settings)
 

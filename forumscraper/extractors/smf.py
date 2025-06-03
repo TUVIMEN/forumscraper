@@ -39,7 +39,7 @@ class smf1(ForumExtractor):
                 )
             ]
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "smf-1-thread", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("smf1/thread.reliq"))
@@ -47,7 +47,7 @@ class smf1(ForumExtractor):
 
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, path):
+            for rq in self.next(rq, settings, state, path):
                 posts += rq.json(Path("smf1/posts.reliq"))["posts"]
 
             for i in posts:
@@ -107,10 +107,10 @@ class smf1(ForumExtractor):
         """
         )
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         t = rq.json(Path("smf1/forum.reliq"))
 
         categories = t["categories"]
@@ -190,7 +190,7 @@ class smf2(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "smf-2-thread", "url": url, "id": int(i_id)}
 
             forumposts = rq.filter(r"div #forumposts")
@@ -226,7 +226,7 @@ class smf2(ForumExtractor):
 
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, path):
+            for rq in self.next(rq, settings, state, path):
                 t = rq.json(Path("smf2/posts.reliq"))
                 outt = []
                 for i in t["posts"]:
@@ -241,7 +241,7 @@ class smf2(ForumExtractor):
 
         def get_improper_url(self, url, rq, settings, state):
             if rq is None:
-                rq, ref = self.session.get_html(url, settings, state, self.trim)
+                rq = self.session.get_html(url, settings, state, self.trim)
 
             try:
                 i_id = str(int(rq.search('input name=sd_topic value | "%(value)v"')))
@@ -282,10 +282,10 @@ class smf2(ForumExtractor):
             r'div .pagelinks [0]; E>(a|span|strong) i@vB>"[a-zA-Z .]" l@[1] | "%(href)v %i\n" / sed "$q; /^ /{N;D;s/ .*//;p;q}" "n"'
         )[:-1]
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         t = rq.json(Path("smf2/forum.reliq"))
 
         categories = []

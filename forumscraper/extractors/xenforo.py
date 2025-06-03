@@ -40,7 +40,7 @@ class xenforo2(ForumExtractor):
                 )
             ]
 
-        def get_search_user(self, rq, state, ref, first_delim, xfToken, settings):
+        def get_search_user(self, rq, state, first_delim, xfToken, settings):
             user_url = rq.json(
                 r""" .url.U {
                     h4 class=b>message-name,
@@ -66,7 +66,7 @@ class xenforo2(ForumExtractor):
 
             return xfToken
 
-        def get_reactions(self, rq, ref, first_delim, xfToken, settings, state):
+        def get_reactions(self, rq, first_delim, xfToken, settings, state):
             ret = []
             reactions_url = rq.json(
                 r""" .url.U {
@@ -93,7 +93,7 @@ class xenforo2(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             url_first_delimiter = "?"
             if url.find("?") != -1:
                 url_first_delimiter = "&"
@@ -110,7 +110,7 @@ class xenforo2(ForumExtractor):
                 rq.get_data().translate(str.maketrans("", "", "\n\t\r\a")), ref=rq.ref
             )
 
-            for rq, ref in self.next(ref, rq, settings, state, path, trim=True):
+            for rq in self.next(rq, settings, state, path, trim=True):
                 post_tags = rq.search(
                     r"""
                         [0] div c@[2:] .california-article-post,
@@ -122,7 +122,7 @@ class xenforo2(ForumExtractor):
                 ).split("\n")[:-1]
 
                 for i in post_tags:
-                    tag = reliq(i, ref=ref)
+                    tag = reliq(i, ref=rq.ref)
 
                     post = tag.json(Path("xenforo2/post.reliq"))
 
@@ -140,7 +140,6 @@ class xenforo2(ForumExtractor):
                                 self.get_search_user(
                                     tag,
                                     state,
-                                    ref,
                                     url_first_delimiter,
                                     xfToken,
                                     settings,
@@ -157,7 +156,6 @@ class xenforo2(ForumExtractor):
                             if Outputs.reactions in settings["output"]:
                                 reactions = self.get_reactions(
                                     tag,
-                                    ref,
                                     url_first_delimiter,
                                     xfToken,
                                     settings,
@@ -190,14 +188,12 @@ class xenforo2(ForumExtractor):
             ]
             self.path_format = "m-{}"
 
-        def get_first_html(self, url, settings, state, rq=None, ref=None):
-            rq = reliq(
+        def get_first_html(self, url, settings, state, rq=None):
+            return reliq(
                 self.session.get_json(url, settings, state)["html"]["content"], ref=url
             )
-            ref = rq.ref
-            return (rq, ref)
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "xenforo-2-user", "url": url, "id": int(i_id)}
             dict_add(ret, rq.json(Path("xenforo2/user.reliq")))
             return ret
@@ -238,13 +234,13 @@ class xenforo2(ForumExtractor):
             return ""
         return url
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_tag_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_tag_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         t = rq.json(Path("xenforo2/forum.reliq"))
 
         categories = []
@@ -304,7 +300,7 @@ class xenforo1(ForumExtractor):
                 )
             ]
 
-        def get_avatar_and_userid(self, ref, messageUB):
+        def get_avatar_and_userid(self, messageUB):
             user_id = "0"
             avatar = messageUB.search(r'* class=b>avatar; [0] img src | "%(src)v"')
             if len(avatar) == 0:
@@ -320,7 +316,7 @@ class xenforo1(ForumExtractor):
                     user_id = r[1]
 
             avatar = re.sub(r"\?[0-9]+$", r"", avatar)
-            avatar = reliq.decode(reliq.urljoin(ref, avatar))
+            avatar = reliq.decode(messageUB.ujoin(avatar))
 
             if user_id == "0":
                 user_id = messageUB.search(
@@ -333,7 +329,7 @@ class xenforo1(ForumExtractor):
 
             return avatar, user_id
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "xenforo-1-thread", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("xenforo1/thread.reliq"))
@@ -344,14 +340,14 @@ class xenforo1(ForumExtractor):
             )
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, path, trim=True):
+            for rq in self.next(rq, settings, state, path, trim=True):
                 for i in rq.filter(
                     r"ol ( #messageList )( .messageList ); li #E>post-[0-9]* data-author l@[1]"
                 ).self():
                     post = {}
                     messageUB = i.filter(r"div class=b>messageUserBlock")
 
-                    avatar, user_id = self.get_avatar_and_userid(ref, messageUB)
+                    avatar, user_id = self.get_avatar_and_userid(messageUB)
                     post["avatar"] = avatar
                     post["user_id"] = user_id
 
@@ -398,10 +394,10 @@ class xenforo1(ForumExtractor):
     def get_tag(self, url, rq=None, state=None, depth=0, **kwargs):
         return self.get_forum(url, rq, state, depth, **kwargs)
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         t = rq.json(Path("xenforo1/forum.reliq"))
 
         return {

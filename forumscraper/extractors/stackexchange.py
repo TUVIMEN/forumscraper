@@ -28,7 +28,7 @@ class stackexchange(ForumExtractor):
             ]
             self.path_format = "m-{}"
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "stackexchange-user", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("stackexchange/user.reliq"))
@@ -65,13 +65,13 @@ class stackexchange(ForumExtractor):
             ]
             self.trim = True
 
-        def get_post_comments(self, rq, url, ref, postid, settings, state, path):
+        def get_post_comments(self, rq, url, postid, settings, state, path):
             n = rq.search(r'div #b>comments-link-; a .comments-link i@b>"Show " | "t"')
             if len(n) > 0:
                 nsettings = get_settings(
                     settings, headers={"x-Requested-With": "XMLHttpRequest"}
                 )
-                rq, ref = self.session.get_html(
+                rq = self.session.get_html(
                     "{}/posts/{}/comments".format(url_valid(url, base=True)[0], postid),
                     nsettings,
                     state,
@@ -82,15 +82,15 @@ class stackexchange(ForumExtractor):
 
             return comments
 
-        def get_post(self, rq, url, ref, settings, state, path):
+        def get_post(self, rq, url, settings, state, path):
             post = rq.json(Path("stackexchange/post.reliq"))
 
             post["comments"] = self.get_post_comments(
-                rq, url, ref, post["id"], settings, state, path
+                rq, url, post["id"], settings, state, path
             )
             return post
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {
                 "format_version": "stackexchange-thread",
                 "url": url,
@@ -105,16 +105,15 @@ class stackexchange(ForumExtractor):
                 self.get_post(
                     rq.filter("div #question").self()[0],
                     url,
-                    ref,
                     settings,
                     state,
                     path,
                 )
             )
 
-            for rq, ref in self.next(ref, rq, settings, state, path):
+            for rq in self.next(rq, settings, state, path):
                 for i in rq.filter(r"div #b>answer-").self():
-                    posts.append(self.get_post(i, url, ref, settings, state, path))
+                    posts.append(self.get_post(i, url, settings, state, path))
 
             ret["posts"] = posts
             return ret
@@ -338,10 +337,10 @@ class stackexchange(ForumExtractor):
     def get_forum_next_page(self, rq):
         return rq.search(r'div .pager; [0] a rel=next href | "%(href)v"')
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, rq, ref, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         threads = rq.json(Path("stackexchange/forum.reliq"))["threads"]
 
         return {

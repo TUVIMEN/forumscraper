@@ -23,7 +23,7 @@ class phpbb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "phpbb-2+-thread", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("phpbb/thread.reliq"))
@@ -31,7 +31,7 @@ class phpbb(ForumExtractor):
 
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, path):
+            for rq in self.next(rq, settings, state, path):
                 posts += rq.json(Path("phpbb/posts.reliq"))["posts"]
 
             for i in posts:
@@ -97,10 +97,10 @@ class phpbb(ForumExtractor):
             return ""
         return url
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         t = rq.json(Path("phpbb/forum.reliq"))
 
         categories = t["categories"]

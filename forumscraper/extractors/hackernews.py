@@ -10,15 +10,15 @@ from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_hackernews
 
 
-def get_comments(ref, rq):
+def get_comments(rq):
     return rq.json(Path("hackernews/comments.reliq"))["comments"]
 
 
-def get_post(ref, rq):
+def get_post(rq):
     return rq.json(Path("hackernews/post.reliq"))
 
 
-def get_page(ref, rq):
+def get_page(rq):
     threads = []
     posts_list = rq.search(r'[1] table -#hnmain; tr l@[1] | "%A\0"').split("\0")[:-1]
     size = len(posts_list)
@@ -26,7 +26,7 @@ def get_page(ref, rq):
     while i < size and size - i >= 3:
         inp = posts_list[i] + posts_list[i + 1] + posts_list[i + 2]
 
-        post = get_post(ref, reliq(inp, ref=ref))
+        post = get_post(reliq(inp, ref=rq.ref))
         threads.append(post)
 
         i += 3
@@ -34,22 +34,22 @@ def get_page(ref, rq):
     return threads
 
 
-def go_through(self, ref, rq, settings, state, path, func):
+def go_through(self, rq, settings, state, path, func):
     r = []
     page = 1
-    for rq, ref in self.next(ref, rq, settings, state, path):
+    for rq in self.next(rq, settings, state, path):
         write_html(path + "-" + str(page), rq, settings)
         page += 1
-        r += func(ref, rq)
+        r += func(rq)
     return r
 
 
-def get_all_pages(self, ref, rq, settings, state, path):
-    return go_through(self, ref, rq, settings, state, path, get_page)
+def get_all_pages(self, rq, settings, state, path):
+    return go_through(self, rq, settings, state, path, get_page)
 
 
-def get_all_comments(self, ref, rq, settings, state, path):
-    return go_through(self, ref, rq, settings, state, path, get_comments)
+def get_all_comments(self, rq, settings, state, path):
+    return go_through(self, rq, settings, state, path, get_comments)
 
 
 class hackernews(ForumExtractor):
@@ -69,11 +69,12 @@ class hackernews(ForumExtractor):
         def subitem(self, out, name, ref, settings, state, path, func):
             out[name + "-link"] = reliq.urljoin(ref, out[name + "-link"])
 
-            rq, ref = self.session.get_html(out[name + "-link"], settings, state, True)
-            out[name] = func(self, ref, rq, settings, state, path + "-" + name)
+            rq = self.session.get_html(out[name + "-link"], settings, state, True)
+            out[name] = func(self, rq, settings, state, path + "-" + name)
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "hackernews-user", "url": url, "id": i_id}
+            ref = rq.ref
 
             t = rq.json(Path("hackernews/user.reliq"))
 
@@ -96,15 +97,15 @@ class hackernews(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "hackernews-thread", "url": url, "id": i_id}
 
             fatitem = rq.filter(r"[0] table .fatitem")
-            t = get_post(ref, fatitem)
+            t = get_post(fatitem)
             dict_add(ret, t)
 
             ret["comments"] = get_all_comments(
-                self, ref, rq, settings, state, path + "-comments"
+                self, rq, settings, state, path + "-comments"
             )
             return ret
 
@@ -148,8 +149,8 @@ class hackernews(ForumExtractor):
     def get_next_page(self, rq):
         return rq.search(r'[0] a .morelink rel=next href | "%(href)v"')
 
-    def process_forum_r(self, url, ref, rq, settings, state):
-        threads = get_page(ref, rq)
+    def process_forum_r(self, url, rq, settings, state):
+        threads = get_page(rq)
 
         return {
             "format_version": "hackernews-forum",

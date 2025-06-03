@@ -31,9 +31,7 @@ class invision(ForumExtractor):
 
             return "{}{}do=hovercard".format(url, url_delim)
 
-        def get_first_html(
-            self, url, settings, state, rq=None, ref=None, return_cookies=False
-        ):
+        def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
             settings = get_settings(
                 settings, headers={"x-Requested-With": "XMLHttpRequest"}
             )
@@ -41,7 +39,7 @@ class invision(ForumExtractor):
                 url, settings, state, self.trim, return_cookies
             )
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
             t = rq.json(Path("invision/user.reliq"))
             dict_add(ret, t)
@@ -117,7 +115,7 @@ class invision(ForumExtractor):
                 if len(nexturl) == 0:
                     break
 
-                rq, ref = self.session.get_html(
+                rq = self.session.get_html(
                     nexturl,
                     nsettings,
                     state,
@@ -139,7 +137,7 @@ class invision(ForumExtractor):
 
             return ret
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("invision/thread.reliq"))
@@ -150,7 +148,7 @@ class invision(ForumExtractor):
 
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, path):
+            for rq in self.next(rq, settings, state, path):
                 for i in rq.filter(r"article #B>elComment_[0-9]*").self():
                     post = {}
 
@@ -247,10 +245,10 @@ class invision(ForumExtractor):
             r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"'
         )
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         t = rq.json(Path("invision/forum.reliq"))
 
         categories = t["categories"]

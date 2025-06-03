@@ -229,11 +229,10 @@ class Session(requests.Session):
             r = smarttrim(r)
 
         rq = reliq(r, ref=url)
-        ref = rq.ref
 
         if return_cookies:
-            return (rq, ref, resp.cookies.get_dict())
-        return (rq, ref)
+            return (rq, resp.cookies.get_dict())
+        return rq
 
     def get_json(self, url, settings, state):
         resp = self.get_req(url, settings, state)

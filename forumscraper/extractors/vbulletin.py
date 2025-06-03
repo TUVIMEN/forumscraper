@@ -27,7 +27,7 @@ class vbulletin(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "vbulletin-3+-thread", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("vbulletin/thread.reliq"))
@@ -35,7 +35,7 @@ class vbulletin(ForumExtractor):
 
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, path):
+            for rq in self.next(rq, settings, state, path):
                 t = rq.json(Path("vbulletin/posts.reliq"))
                 posts += t["posts"]
 
@@ -145,15 +145,15 @@ class vbulletin(ForumExtractor):
 
         return url
 
-    def process_board_r(self, url, ref, rq, settings, state):
-        return self.process_forum_r(url, ref, rq, settings, state)
+    def process_board_r(self, url, rq, settings, state):
+        return self.process_forum_r(url, rq, settings, state)
 
     def ifurl(self, url, rq):
         if url.find("/") == -1:
             return url
         return rq.ujoin(url)
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         t = rq.json(Path("vbulletin/forum.reliq"))
 
         categories = []

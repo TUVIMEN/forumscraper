@@ -23,7 +23,7 @@ class xmb(ForumExtractor):
             ]
             self.trim = True
 
-        def get_contents(self, rq, settings, state, url, ref, i_id, path):
+        def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "xmb-thread", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("xmb/thread.reliq"))
@@ -31,7 +31,7 @@ class xmb(ForumExtractor):
 
             posts = []
 
-            for rq, ref in self.next(ref, rq, settings, state, path):
+            for rq in self.next(rq, settings, state, path):
                 for i in rq.search(
                     r'tr -class bgcolor | "%A\a" / tr "\n\r\t" "   " tr "\a" "\n" sed "N;N;s/\n/\t/g"'
                 ).split("\n")[:-1]:
@@ -135,7 +135,7 @@ class xmb(ForumExtractor):
             return ""
         return url
 
-    def process_board_r(self, url, ref, rq, settings, state):
+    def process_board_r(self, url, rq, settings, state):
         t = rq.json(Path("xmb/board.reliq"))
 
         groups = []
@@ -184,7 +184,7 @@ class xmb(ForumExtractor):
 
         return {"format_version": "xmb-board", "url": url, "groups": groups}
 
-    def process_forum_r(self, url, ref, rq, settings, state):
+    def process_forum_r(self, url, rq, settings, state):
         threads = list(
             filter(
                 lambda x: len(x["link"]) > 0,
