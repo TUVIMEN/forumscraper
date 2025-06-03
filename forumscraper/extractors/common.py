@@ -21,7 +21,7 @@ common_exceptions = (
     AlreadyVisitedError,
 )
 
-BUNDLE_SIZE = 200
+BUNDLE_SIZE = 500
 
 
 def write_file(path, data, settings):
