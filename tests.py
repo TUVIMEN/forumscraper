@@ -2,6 +2,7 @@
 
 import difflib
 from cdifflib import CSequenceMatcher
+
 difflib.SequenceMatcher = CSequenceMatcher
 
 import sys
@@ -19,8 +20,9 @@ def strtosha256(string):
 
     return hashlib.sha256(string).hexdigest()
 
+
 def fdiff(l1, l2):
-    for i in itertools.batched(zip(l1,l2),20000):
+    for i in itertools.batched(zip(l1, l2), 20000):
         n1 = []
         n2 = []
         for i1, i2 in i:
@@ -631,10 +633,37 @@ class tester:
         for i in tests:
             try:
                 self.test(i)
-            except (FileExistsError,vcr.errors.CannotOverwriteExistingCassetteException) as e:
+            except vcr.errors.CannotOverwriteExistingCassetteException as e:
                 print(i[0], i[2], file=sys.stderr)
 
         os.chdir(pwd)
+
+    def test_r(self, data, dirname):
+        func = data[1]
+        url = data[2]
+        dirname2 = strtosha256(url)
+        pwd2 = os.getcwd()
+
+        try:
+            os.mkdir(dirname2)
+            os.chdir(dirname2)
+        except FileExistsError:
+            return
+
+        with open("!stdout", "w") as out:
+            with open("!stderr", "w") as err:
+                with vcr.use_cassette(
+                    self.cassettedir + "/" + dirname + "/" + dirname2,
+                    record_mode="none",  # none once all
+                ):
+                    func(url, out, err)
+
+        os.chdir(pwd2)
+        self.prettify_json(dirname2)
+        self.test_check(
+            self.correctdir + "/" + dirname + "/" + dirname2,
+            self.tempdir + "/" + dirname + "/" + dirname2,
+        )
 
     def test(self, data):
         pwd = os.getcwd()
@@ -648,30 +677,10 @@ class tester:
             pass
 
         os.chdir(dirname)
-
         exception = None
 
-        func = data[1]
-        url = data[2]
-        dirname2 = strtosha256(url)
-        pwd2 = os.getcwd()
         try:
-            os.mkdir(dirname2)
-            os.chdir(dirname2)
-            with open("!stdout", "w") as out:
-                with open("!stderr", "w") as err:
-                    with vcr.use_cassette(
-                        self.cassettedir + "/" + dirname + "/" + dirname2,
-                        record_mode="none",  # none once all
-                    ):
-                        func(url, out, err)
-
-            os.chdir(pwd2)
-            self.prettify_json(dirname2)
-            self.test_check(
-                self.correctdir + "/" + dirname + "/" + dirname2,
-                self.tempdir + "/" + dirname + "/" + dirname2,
-            )
+            self.test_r(data, dirname)
         except Exception as e:
             exception = e
 
@@ -725,7 +734,7 @@ class tester:
             self.print_error("{} is different".format(temp + "/" + i))
             l1 = c1.split("\n")
             l2 = c2.split("\n")
-            for line in fdiff(l1,l2):
+            for line in fdiff(l1, l2):
                 print(line)
 
 
