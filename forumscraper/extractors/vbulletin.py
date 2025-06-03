@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 from ..defs import reliq
-from ..utils import dict_add, url_merge
+from ..utils import dict_add
 from .common import ItemExtractor, ForumExtractor
 from .identify import identify_vbulletin
 
@@ -148,6 +148,11 @@ class vbulletin(ForumExtractor):
     def process_board_r(self, url, ref, rq, settings, state):
         return self.process_forum_r(url, ref, rq, settings, state)
 
+    def ifurl(self, url, rq):
+        if url.find("/") == -1:
+            return url
+        return rq.ujoin(url)
+
     def process_forum_r(self, url, ref, rq, settings, state):
         t = rq.json(Path("vbulletin/forum.reliq"))
 
@@ -170,12 +175,10 @@ class vbulletin(ForumExtractor):
                 if j["title"] == "" and j["link"] == "":
                     continue
 
-                if j["status"].find("/"):
-                    j["status"] = url_merge(ref, j["status"])
+                j["status"] = self.ifurl(j["status"], rq)
 
                 for k in j["childboards"]:
-                    if k["icon"].find("/"):
-                        k["icon"] = url_merge(ref, k["icon"])
+                    k["icon"] = self.ifurl(k["icon"], rq)
 
                 lastpost = j["lastpost"]
                 forums.append(j)
@@ -205,8 +208,7 @@ class vbulletin(ForumExtractor):
                 continue
 
             for j, icon in enumerate(i["detailicons"]):
-                if icon.find("/") != -1:
-                    i["detailicons"][j] = url_merge(ref, icon)
+                i["detailicons"][j] = self.ifurl(icon, rq)
 
             lastpost = i["lastpost"]
             if (

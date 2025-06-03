@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 from ..defs import Outputs, reliq
-from ..utils import dict_add, url_merge_r, conv_short_size
+from ..utils import dict_add, conv_short_size
 from .common import ItemExtractor, ForumExtractor, ForumExtractorIdentify
 from .identify import identify_xenforo1, identify_xenforo2
 
@@ -320,7 +320,7 @@ class xenforo1(ForumExtractor):
                     user_id = r[1]
 
             avatar = re.sub(r"\?[0-9]+$", r"", avatar)
-            avatar = url_merge_r(ref, avatar)
+            avatar = reliq.decode(reliq.urljoin(ref, avatar))
 
             if user_id == "0":
                 user_id = messageUB.search(

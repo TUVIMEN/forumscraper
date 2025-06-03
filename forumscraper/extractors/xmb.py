@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 from ..defs import reliq
-from ..utils import dict_add, url_merge
+from ..utils import dict_add
 from .common import ItemExtractor, ForumExtractor
 from .identify import identify_xmb
 
@@ -67,7 +67,9 @@ class xmb(ForumExtractor):
                             if g == "stars":
                                 post[g] = len(fields[j])
                             elif g == "avatar":
-                                post[g] = url_merge(ref, fields[j])
+                                post[g] = (
+                                    rq.ujoin(fields[j]) if len(fields[j]) > 0 else ""
+                                )
                             elif g == "posts":
                                 try:
                                     post[g] = int(fields[j])

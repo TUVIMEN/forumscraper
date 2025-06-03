@@ -114,7 +114,7 @@ class stackexchange(ForumExtractor):
 
             for rq, ref in self.next(ref, rq, settings, state, path):
                 for i in rq.filter(r"div #b>answer-").self():
-                    posts.append(self.get_post(i, url, ref, settings, state))
+                    posts.append(self.get_post(i, url, ref, settings, state, path))
 
             ret["posts"] = posts
             return ret

@@ -8,7 +8,7 @@ from threading import Lock
 
 from .defs import reliq
 from .exceptions import RequestError, AlreadyVisitedError
-from .utils import url_merge_r, smarttrim
+from .utils import smarttrim
 
 useragents = {
     "mozilla": [

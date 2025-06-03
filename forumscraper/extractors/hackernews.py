@@ -5,7 +5,7 @@ from pathlib import Path
 import re
 
 from ..defs import reliq
-from ..utils import dict_add, url_merge_r
+from ..utils import dict_add
 from .common import ItemExtractor, ForumExtractor, write_html
 from .identify import identify_hackernews
 
@@ -67,7 +67,7 @@ class hackernews(ForumExtractor):
             self.trim = True
 
         def subitem(self, out, name, ref, settings, state, path, func):
-            out[name + "-link"] = url_merge_r(ref, out[name + "-link"])
+            out[name + "-link"] = reliq.urljoin(ref, out[name + "-link"])
 
             rq, ref = self.session.get_html(out[name + "-link"], settings, state, True)
             out[name] = func(self, ref, rq, settings, state, path + "-" + name)

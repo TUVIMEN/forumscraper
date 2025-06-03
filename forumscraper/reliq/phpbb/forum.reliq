@@ -2,7 +2,7 @@
     .categories div .forabg; {
         [0] ul -.forums .topiclist; dt; { a, * self@ }; [0] * self@; {
             .name * self@ | "%Dt" / trim,
-            .link.U * self@ | "%(href)Dv"
+            .link.s(0,0)|U * self@ | "%(href)Dv"
         },
         .forums ul .forums .topiclist; li child@; dl child@; {
             .state {

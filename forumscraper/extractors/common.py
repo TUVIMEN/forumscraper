@@ -7,7 +7,7 @@ import re
 from concurrent.futures import ThreadPoolExecutor
 from itertools import batched
 
-from ..utils import strtosha256, get_settings, url_valid, url_merge
+from ..utils import strtosha256, get_settings, url_valid
 from ..net import Session
 from ..defs import Outputs, reliq
 from ..exceptions import *
@@ -365,17 +365,26 @@ class ForumExtractor:
     get_tag_next_page = None
 
     def get_next(self, ref, rq):
-        return url_merge(ref, self.get_next_page(rq))
+        url = self.get_next_page(rq)
+        if len(url) == 0:
+            return
+        return reliq.decode(rq.ujoin(url))
 
     def get_forum_next(self, ref, rq):
         if self.get_forum_next_page is None:
             return self.get_next(ref, rq)
-        return url_merge(ref, self.get_forum_next_page(rq))
+        url = self.get_forum_next_page(rq)
+        if len(url) == 0:
+            return
+        return reliq.decode(rq.ujoin(url))
 
     def get_tag_next(self, ref, rq):
         if self.get_tag_next_page is None:
             return self.get_next(ref, rq)
-        return url_merge(ref, self.get_tag_next_page(rq))
+        url = self.get_tag_next_page(rq)
+        if len(url) == 0:
+            return
+        return reliq.decode(rq.ujoin(url))
 
     def go_through_page_thread(self, url, settings, state, depth):
         try:
@@ -399,7 +408,7 @@ class ForumExtractor:
             urls = urls[:urls_len]
 
         urls_len = len(urls)
-        urls = list(map(lambda x: url_merge(ref, x), urls))
+        urls = list(map(lambda x: rq.ujoin(x).replace("&amp;", "&"), urls))
 
         if settings["max_workers"] > 1 and urls_len > 0:
             with ThreadPoolExecutor(max_workers=settings["max_workers"]) as executor:
@@ -424,7 +433,7 @@ class ForumExtractor:
             if max_forums > 0 and num >= max_forums:
                 break
 
-            url = url_merge(ref, url)
+            url = rq.ujoin(url).replace("&amp;", "&")
 
             if (
                 settings["pages_max_depth"] == 0
@@ -707,7 +716,9 @@ class ForumExtractor:
             return
 
         newurl = rq.search(self.findroot_expr)
-        return url_merge(ref, newurl)
+        if len(newurl) == 0:
+            return
+        return rq.ujoin(newurl)
 
     def findroot(self, url, rq=None, state=None, **kwargs):
         settings = self.get_settings(kwargs)

@@ -76,61 +76,6 @@ def url_valid(url, regex=None, base=False, matchwhole=False):
     return groups
 
 
-def url_merge(ref, url):
-    if url is None or len(url) == 0:
-        return
-
-    url = url.replace("&amp;", "&")
-    ref = ref.replace("&amp;", "&")
-
-    if ref[:2] == "//":
-        ref = "https:" + ref
-
-    refvalid = url_valid(ref, base=True)
-    refbase = None
-    refprotocol = "https"
-    if refvalid is not None:
-        refbase = refvalid[0]
-        refprotocol = refbase[: refbase.index(":")]
-
-    if url[:2] == "//":
-        return refprotocol + ":" + url
-    if url_valid(url) is not None or url[:11] == "data:image/":
-        return url
-
-    if ref is None or refvalid is None:
-        return
-
-    if ref[-3:] == "/./":
-        ref = ref[:-2]
-
-    if (url[:1] != "/" and ref[-1:] != "/") or url[:2] == "./":
-        if ref.count("/") > 2:
-            ref = re.sub(r"[^/]*$", r"", ref)
-        if url[:1] == ".":
-            url = url[2:]
-    elif ref[-1] != "/" or url[:1] == "/":
-        ref = refbase
-
-    if ref[-3:] == "/./":
-        ref = ref[:-3]
-    if ref[-1] == "/":
-        ref = ref[:-1]
-
-    if url[:1] == "/":
-        url = url[1:]
-
-    return "{}/{}".format(ref, url)
-
-
-def url_merge_r(ref, url):
-    '''Same as url_merge() but instead of returning None on failure returns ""'''
-    r = url_merge(ref, url)
-    if r is None:
-        return ""
-    return r
-
-
 def conv_short_size(string):
     letter = string[-1:]
     num = 0
