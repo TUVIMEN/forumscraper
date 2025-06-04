@@ -75,7 +75,8 @@ def identify_xmb(url, rq, cookies):
 def identify_invision(url, rq, cookies):
     return identify_forum(
         r"""
-        * Ei>(class|id)=iE>(el)?copyright i@iE>"(invision|IP\.Board)" | "t"
+        * Ei>(class|id)=iE>(el)?copyright i@iE>"(invision|IP\.Board)" | "t",
+        span translate=no c@[0] i@"Invision Community" | "t"
     """,
         str.startswith,
         "ips4_",

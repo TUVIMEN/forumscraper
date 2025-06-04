@@ -1,24 +1,44 @@
-.name h2 class=b>"ipsType_reset ipsType_"; a | "%Di" / trim,
-.background.U div .ipsCoverPhoto_container; img src | "%(src)v",
-.avatar.U img src .ipsUserPhoto | "%(src)v",
-.group p class="ipsType_reset ipsType_normal"; * c@[0] | "%i",
-
-.joined {
-    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Joined "; time datetime | "%(datetime)v",
-    div .cUserHovercard_data; li i@">Joined<"; time datetime | "%(datetime)v"
+.name {
+    h2 class=b>"ipsType_reset ipsType_" ||
+    [0] div .ipsTitle
+}; a | "%Di" / trim,
+.background.U div ( .ipsCoverPhoto_container )( .ipsCoverPhoto__container ); img src | "%(src)v",
+.avatar.U [0] * .ipsUserPhoto; img src | "%(src)v",
+.group {
+    p class="ipsType_reset ipsType_normal"; * c@[0] | "%i" ||
+    div .ipsPhotoPanel__secondary; * c@[0] i@>[1:] | "%Di"
 },
+.joined {
+    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Joined " ||
+    div i@f>Joined; * fssub@ ||
+    div .cUserHovercard_data; li i@">Joined<"
+}; [0] time datetime | "%(datetime)v",
 
 .lastseen {
-    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Last visited "; time datetime | "%(datetime)v",
-    div .cUserHovercard_data; li i@">Last visited<"; time datetime | "%(datetime)v"
-},
+    p class="ipsType_reset ipsType_medium ipsType_light" i@b>"Last visited " ||
+    div i@f>"Last visited"; * fssub@ ||
+    div .cUserHovercard_data; li i@">Last visited<"
+}; [0] time datetime | "%(datetime)v",
 
-.info dl; div l@[1]; {
-    .name dt | "%Di" / trim,
-    .value dd | "%i"
+.info {
+    dl; div l@[1] ||
+    div data-ips-hook=profileHoverStats; div child@
+}; {
+    .name {
+        dt ||
+        [1] div c@[0] i@>[1:]
+    }; @ | "%Di",
+    .value {
+        dd ||
+        [0] div c@[0] i@>[1:]
+    }; @ | "%i"
 } | ,
-div class=b>"ipsFlex ipsFlex-ai:center "; div class="ipsFlex ipsFlex-ai:center"; {
-    .rank img title | "%(title)v",
-    .rank_date time datetime | "%(datetime)v",
-},
-.badges.a div class=b>"ipsFlex ipsFlex-ai:center "; ul; li; img alt | "%(alt)v\n"
+.rank {
+    div class=b>"ipsFlex ipsFlex-ai:center "; div class="ipsFlex ipsFlex-ai:center"; img title ||
+    img title=b>"Rank: "
+}; @ | "%(title)v",
+.rank_date div class=b>"ipsFlex ipsFlex-ai:center "; div class="ipsFlex ipsFlex-ai:center"; time datetime | "%(datetime)v",
+.badges.a {
+    div class=b>"ipsFlex ipsFlex-ai:center "; ul; li; img alt ||
+    img .ipsCaterpillar__badge alt
+}; @ | "%(alt)v\n"

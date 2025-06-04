@@ -40,7 +40,7 @@ class invision(ForumExtractor):
             )
 
         def get_contents(self, rq, settings, state, url, i_id, path):
-            ret = {"format_version": "invision-4-user", "url": url, "id": int(i_id)}
+            ret = {"format_version": "invision-4+-user", "url": url, "id": int(i_id)}
             t = rq.json(Path("invision/user.reliq"))
             dict_add(ret, t)
             return ret
@@ -61,44 +61,6 @@ class invision(ForumExtractor):
             ]
             self.trim = True
 
-        def get_poll_answers(self, rq):
-            ret = []
-            for i in rq.filter(r"ul; li").self():
-                el = {}
-                el["option"] = i.search(r'div .ipsGrid_span4 | "%i"')
-                el["votes"] = i.search(
-                    r'div .ipsGrid_span1; * i@E>"^(<[^>]*>[^<]*</[^>]*>)?[^<]+$" | "%i" / sed "s/^<i.*<\/i> //"'
-                )
-                ret.append(el)
-            return ret
-
-        def get_poll_questions(self, rq):
-            ret = []
-            for i in rq.filter(r"ol .ipsList_reset .cPollList; li l@[1]").self():
-                el = {}
-                el["question"] = i.search(r'h3; span | "%i"')
-                el["answers"] = self.get_poll_answers(i)
-                ret.append(el)
-
-            return ret
-
-        def get_poll(self, rq):
-            ret = {}
-            controller = rq.filter(r"section data-controller=core.front.core.poll")
-
-            title = ""
-            questions = []
-
-            if controller:
-                title = controller.search(
-                    r'h2 l@[1]; span l@[1] | "%i" / sed "s/<.*//;s/&nbsp;//g;s/ *$//"'
-                )
-                questions = self.get_poll_questions(controller)
-
-            ret["title"] = title
-            ret["questions"] = questions
-            return ret
-
         def get_reactions_details(self, rq, settings, state, path):
             ret = []
             nexturl = rq.search(
@@ -111,50 +73,49 @@ class invision(ForumExtractor):
 
             page = 0
 
-            while True:
-                if len(nexturl) == 0:
-                    break
+            try:
+                while True:
+                    if len(nexturl) == 0:
+                        break
+                    nexturl = reliq.decode(rq.ujoin(nexturl))
 
-                rq = self.session.get_html(
-                    nexturl,
-                    nsettings,
-                    state,
-                    True,
-                )
-                write_html(path + str(page), rq, settings)
-                page += 1
+                    rq = self.session.get_html(
+                        nexturl,
+                        nsettings,
+                        state,
+                        True,
+                    )
+                    write_html(path + str(page), rq, settings)
+                    page += 1
 
-                t = rq.json(Path("invision/reactions.reliq"))
+                    t = rq.json(Path("invision/reactions.reliq"))
 
-                if len(ret) == 0:
-                    self.state_add_url("reactions", nexturl, state, settings)
+                    if len(ret) == 0:
+                        self.state_add_url("reactions", nexturl, state, settings)
 
-                ret += t["reactions"]
+                    ret += t["reactions"]
 
-                nexturl = rq.search(
-                    r'li .ipsPagination_next -.ipsPagination_inactive; [0] a href | "%(href)v" / sed "s/&amp;/&/; s/&reaction=.*$//;q"'
-                )
+                    nexturl = rq.search(
+                        r'li ( .ipsPagination_next )( .ipsPagination__next ) -.ipsPagination_inactive; [0] a href | "%(href)v" / sed "s/&amp;/&/; s/&reaction=.*$//;q"'
+                    )
+            except self.common_exceptions as ex:
+                self.handle_error(ex, rq, settings, True)
 
             return ret
 
         def get_contents(self, rq, settings, state, url, i_id, path):
-            ret = {"format_version": "invision-4-thread", "url": url, "id": int(i_id)}
+            ret = {"format_version": "invision-4+-thread", "url": url, "id": int(i_id)}
 
             t = rq.json(Path("invision/thread.reliq"))
             dict_add(ret, t)
 
-            ret["poll"] = self.get_poll(rq)
             dict_add(ret, rq.json(Path("invision/thread-recommended.reliq")))
 
             posts = []
 
             for rq in self.next(rq, settings, state, path):
                 for i in rq.filter(r"article #B>elComment_[0-9]*").self():
-                    post = {}
-
-                    user_link = post["user_link"] = i.json(
-                        r'.t.U aside; h3 class=b>"ipsType_sectionHead cAuthorPane_author "; a href | "%(href)v"'
-                    )["t"]
+                    post = i.json(Path("invision/post.reliq"))
 
                     user_link = post["user_link"]
                     if Outputs.users in settings["output"] and len(user_link) > 0:
@@ -163,34 +124,20 @@ class invision(ForumExtractor):
                         except self.common_exceptions as ex:
                             self.handle_error(ex, user_link, settings, True)
 
-                    dict_add(post, i.json(Path("invision/post.reliq")))
-
                     t = i.json(Path("invision/post-reactions.reliq"))
-                    t["reactions"] = []
-                    for j in t["reactions_temp"]:
-                        el = {}
-                        reaction = j.split("\t")
-                        el["name"] = reaction[0]
-                        el["count"] = 1
-                        try:
-                            el["count"] = int(reaction[1])
-                        except Exception:
-                            pass
-                        t["reactions"].append(el)
-                    t.pop("reactions_temp")
+                    for j in t["reactions"]:
+                        if j["count"] == 0:
+                            j["count"] = 1
                     dict_add(post, t)
 
                     reactions_details = []
                     if Outputs.reactions in settings["output"]:
-                        try:
-                            reactions_details = self.get_reactions_details(
-                                i,
-                                settings,
-                                state,
-                                path + "-reactions-" + str(post["id"]) + "-",
-                            )
-                        except self.common_exceptions as ex:
-                            self.handle_error(ex, i, settings, True)
+                        reactions_details = self.get_reactions_details(
+                            i,
+                            settings,
+                            state,
+                            path + "-reactions-" + str(post["id"]) + "-",
+                        )
                     post["reactions_details"] = reactions_details
 
                     posts.append(post)
@@ -211,11 +158,18 @@ class invision(ForumExtractor):
         self.thread.get_next = self.get_next
 
         self.board_forums_expr = reliq.expr(
-            r'li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n", div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n"'
+            r"""
+            li class=b>"cForumRow ipsDataItem "; div .ipsDataItem_main; h4; a href | "%(href)v\n",
+            div .ipsForumGrid; a .cForumGrid__hero-link href | "%(href)v\n",
+            section .ipsCategoryWithFeed__item; i-data .ipsCategoryWithFeed__meta; a .ipsLinkPanel | "%(href)v\n"
+            """
         )
         self.forum_forums_expr = self.board_forums_expr
         self.forum_threads_expr = reliq.expr(
-            r'ol data-role=tableRows; h4; a class="" href=e>"/" | "%(href)v\n"'
+            r"""
+            ol data-role=tableRows; h4; a class="" href=e>"/" | "%(href)v\n" ||
+            li .ipsData__item; a .ipsLinkPanel child@ | "%(href)v\n"
+            """
         )
         self.guesslist = [
             {
@@ -235,14 +189,11 @@ class invision(ForumExtractor):
             r"^(/[^\.-])?/((forum|foro|board)s?|index\.php|community|communaute|comunidad|ipb)/?$"
         )
 
-    def get_forum_next_page(self, rq):
-        return rq.search(
-            'ul .ipsPagination; li .ipsPagination_next -.ipsPagination_inactive; [0] a | "%(href)v"'
-        )
-
     def get_next_page(self, rq):
         return rq.search(
-            r'ul .ipsPagination [0]; li .ipsPagination_next -.ipsPagination_inactive; a | "%(href)v" / sed "s#/page/([0-9]+)/.*#/?page=\1#" "E"'
+            r"""
+            ul .ipsPagination; [0] li ( .ipsPagination_next )( .ipsPagination__next ) -.ipsPagination_inactive; a | "%(href)v" / sed "s/#.*//"
+            """
         )
 
     def process_board_r(self, url, rq, settings, state):

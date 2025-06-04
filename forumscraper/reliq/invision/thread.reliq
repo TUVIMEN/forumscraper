@@ -1,20 +1,51 @@
-div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; {
-    .title span class="ipsType_break ipsContained"; span -class | "%Di" trim,
-    .badges.a span title | "%(title)v\n"
-},
+.title {
+    div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container";
+        span class="ipsType_break ipsContained"; span -class ||
+    h1 data-ips-hook=title
+}; @ | "%Di" trim,
+.badges.a {
+    div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container";
+        span title ||
+    * .ipsPageHeader; span .ipsBadge title
+}; @  | "%(title)v\n",
 .rating.b ul .ipsRating_collective; li .ipsRating_on | "true",
-div .ipsPageHeader; {
-    .user_link.U a .ipsType_break href | "%(href)v",
-    .user a .ipsType_break href; * c@[0] | "%Di" trim,
+* .ipsPageHeader; {
+     [0] a ( .ipsType_break )( .ipsUsername ) href; {
+        .user_link.U @ | "%(href)v",
+        .user * c@[0] | "%Di" trim
+     },
     .user_avatar.U a .ipsUserPhoto; img src | "%(src)v",
     .user_followers.u a .ipsFollow; span .ipsCommentCount | "%i" / tr ",.",
 },
-.date div .ipsFlex-flex:11; time datetime | "%(datetime)v",
-.path.a nav class=b>"ipsBreadcrumb ipsBreadcrumb_top "; ul data-role="breadcrumbList"; li; a; span | "%Dt\n" / sed "s/ $//" trim,
+.date {
+    div .ipsFlex-flex:11 ||
+    * .ipsPageHeader
+}; time datetime | "%(datetime)v",
+
+.path.a [0] nav .ipsBreadcrumb;
+    ( ul data-role="breadcrumbList" )( ol itemtype=https://schema.org/BreadcrumbList );
+        li; a; span | "%Dt\n" / sed "s/ $//" trim,
 
 .tags.a {
-    div .ipsPageHeader; ul .ipsTags; a; span c@[0] | "%i",
-    div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; a .ipsTag_prefix rel=tag; span c@[0] | "%i",
-},
+    div .ipsPageHeader; ul .ipsTags; a
+    div #ipsLayout_mainArea; h1 class="ipsType_pageTitle ipsContained_container"; a .ipsTag_prefix rel=tag
+}; span c@[0] | "%i",
 
 .warning div .cTopicPostArea; span .ipsType_warning | "%i",
+
+.poll section data-controller=core.front.core.poll; {
+    .title h2 l@[1]; {
+        {
+            span .ipsBox__header-secondary &&
+                @ | "%Dt"
+        } ||
+        span l@[1] | "%i" / sed "s/<.*//;s/ *$//"
+    },
+    .questions ol ( .cPollList )( .ipsPollList ); li l@[1]; {
+        .question h3; [0] * c@[0] i@>[1:] | "%Di",
+        .answers ul; li; {
+            .option [0] div ( .ipsGrid_span4 )( .i-flex_11 ) | "%Dt",
+            .votes.u div ( .ipsGrid_span1 )( .i-flex_91 ) | "%DT"
+        } |
+    } |
+}

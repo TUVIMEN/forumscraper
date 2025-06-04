@@ -1,9 +1,12 @@
 .reactions ol; li; {
     .avatar.U a .ipsUserPhoto; img src | "%(src)v",
-    a .ipsType_break href; {
+    a ( .ipsType_break )( .ipsUsername ) href; {
         .user_link.U * l@[0] | "%(href)v",
         .user * l@[0] | "%Di" trim
     },
-    .reaction span .ipsType_light; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
+    .reaction {
+        span .ipsType_light ||
+        div .ipsPhotoPanel__secondary
+    }; img src | "%(src)v" / sed "s#.*/reactions/##;s/\..*//;s/^react_//",
     .date time datetime | "%(datetime)v"
 } |

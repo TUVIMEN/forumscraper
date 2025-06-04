@@ -496,6 +496,7 @@ tested_urls = {
             "https://processwire.com/talk/topic/5040-events-fieldtype-inputfield-how-to-make-a-table-fieldtypeinputfield/",
             "https://www.seeq.org/topic/1483-creating-a-formula-parameters-string/",
             "https://www.thehuntinglife.com/forums/topic/24462-hanging/",
+            "https://invisioncommunity.com/forums/topic/478170-invision-community-5-the-all-new-editor/",
         ],
         "stackexchange": [
             "https://serverfault.com/questions/9708/what-is-a-pem-file-and-how-does-it-differ-from-other-openssl-generated-key-file",

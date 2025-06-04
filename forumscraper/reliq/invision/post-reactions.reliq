@@ -3,5 +3,8 @@ ul .ipsReact_reactions; {
         .link.U * l@[0] | "%(href)v",
         .name * l@[0] | "%i"
     } | ,
-    .reactions_temp.a li .ipsReact_reactCount; span a@[0] / sed "s/<span><img .* alt=\"//; s/\".*//; N; s/\n/\t/; s/<span>//g; s/<\/span>//g"
+    .reactions li .ipsReact_reactCount; {
+        .name [0] img alt | "%(alt)v",
+        .count.u [0] span c@[0] i@>[1:] | "%i"
+    } |
 }
