@@ -1,5 +1,5 @@
 #!/bin/bash
-# by Dominik Stanisław Suchora <suchora.dominik7@gmail.com>
+# by Dominik Stanisław Suchora <hexderm@gmail.com>
 # License: GNU GPLv3
 
 IFS=$'\n'
