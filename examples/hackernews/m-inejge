@@ -5,13 +5,2015 @@
   "created-timestamp": "1651247020",
   "user": "inejge",
   "created-date": "April 29, 2022",
-  "karma": 182,
+  "karma": 352,
   "about": "",
   "submissions-link": "https://news.ycombinator.com/submitted?id=inejge",
   "comments-link": "https://news.ycombinator.com/threads?id=inejge",
   "favorites-link": "https://news.ycombinator.com/favorites?id=inejge",
   "submissions": [],
   "comments": [
+    {
+      "id": 44150400,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-06-01T12:31:43 1748781103",
+      "onstory": {
+        "name": "WTF,Kees?",
+        "link": "https://news.ycombinator.com/item?id=44149591"
+      },
+      "text": "According to a recent message from Kees Cook, it was the &quot;b4&quot; tool that produced a mangled tree[1]. Try following the reflog: at that level, wrangling git is akin to juggling flaming live chainsaws.<p>[1] <a href=\"https:&#x2F;&#x2F;lore.kernel.org&#x2F;all&#x2F;202505312300.95D7D917@keescook&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;lore.kernel.org&#x2F;all&#x2F;202505312300.95D7D917@keescook&#x2F;</a>"
+    },
+    {
+      "id": 44151381,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=quuxplusone",
+        "name": "quuxplusone"
+      },
+      "date": "2025-06-01T15:00:28 1748790028",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Specifically the &quot;b4 trailers&quot; command, somehow. I don&#x27;t have any special knowledge of b4, but it sounds as if a command that was expected to rewrite only the history of an under-review feature branch accidentally reached back too far and rewrote some of Kees&#x27; copy of master — without leaving a hint in the &quot;Committer&quot; field as it was conventionally supposed to.<p>Linus (rightly-ish) objected to this confusing breach of convention and did the contributor equivalent of a &quot;revert quickly, debug at leisure.&quot; Kees (rightly) dug into the puzzle, figured out the problem, and explained it to Linus&#x27;s (or at least Konstantin&#x27;s) satisfaction.<p><a href=\"https:&#x2F;&#x2F;b4.docs.kernel.org&#x2F;en&#x2F;latest&#x2F;contributor&#x2F;trailers.html\" rel=\"nofollow\">https:&#x2F;&#x2F;b4.docs.kernel.org&#x2F;en&#x2F;latest&#x2F;contributor&#x2F;trailers.ht...</a>"
+    },
+    {
+      "id": 44061058,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-05-22T11:42:56 1747914176",
+      "onstory": {
+        "name": "Rocky Linux 10 Will Support RISC-V",
+        "link": "https://news.ycombinator.com/item?id=44056104"
+      },
+      "text": "Re the last part: USL vs BSDi was filed in 1992 and settled in 1994, long before any sizeable vendor paid attention to Linux. (Version 1.0 of the Linux kernel was released at about the same time that lawsuit was settled.) So you shouldn&#x27;t use that argument as part of your rationale."
+    },
+    {
+      "id": 44061095,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pjmlp",
+        "name": "pjmlp"
+      },
+      "date": "2025-05-22T11:47:42 1747914462",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I should because perceptions take a very long time to change.<p>If you ask random dev on the street about .NET, there is an high probability they will answer it is Windows only and requires Visual Studio."
+    },
+    {
+      "id": 44068305,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=LeFantome",
+        "name": "LeFantome"
+      },
+      "date": "2025-05-22T23:36:17 1747956977",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "You do not believe that what happened from 1991 to 1995 explains anything about how we got here?<p>Red Hat was founded in 1993. When do you think they got the idea? When do you think companies like Red Hat decided to bet on Linux instead of BSD? Debian was founded in 1993 as well. When was that lawsuit settled again?<p>An awful lot of the Linux momentum that carries us to this very day appeared after the BSD lawsuit was filed and before it was settled.<p>What about the other “big and professional” competitor to Linux?<p>GNU HURD was started in 1990. The original plan was to base it off the BSD kernel. The Linux kernel appeared in 1991. BSD fell under legal threat in 1992. Debian appeared in 1993. RMS lost interest in HURD. None of these dates had much impact you don’t think?"
+    },
+    {
+      "id": 43971249,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-05-13T09:49:11 1747129751",
+      "onstory": {
+        "name": "Reviving a modular cargo bike design from the 1930...",
+        "link": "https://news.ycombinator.com/item?id=43963397"
+      },
+      "text": "&gt; The issue with this design is the front 3 geared hub. It says it would reduce maintenance needs. The derailleur and chain are often cheaper and require very little maintenance other than oiling and maybe cleaning.<p>Internally geared hubs are a mature technology and really require even less maintenance than a chain&#x2F;derailleur combo, being completely enclosed. Also, not every hub needs to be a fancy Rohloff, so even if it needs to be replaced in toto, it&#x27;s not bank-breaking."
+    },
+    {
+      "id": 43971724,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=CelestialMystic",
+        "name": "CelestialMystic"
+      },
+      "date": "2025-05-13T11:29:33 1747135773",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I&#x27;ve found the exact opposite when looking at this in the past. The last time I bothered looking there are sturmey archer designs which have an odd slop in the pedalling, shimano designs (which are ok) and Rohloff (super expensive).<p>Contrast that to chain, cassette and the entire wheel is probably cost less than a hub. A new chain and cassette can be found at any bike shop and they are inexpensive. The maintenance concerns regarding chains are derailleurs are <i>vastly</i> overstated by the proponents of such hubs.<p>I have built and repaired my own bicycles since I was a kid. I&#x27;ve found that anything remotely fancy becomes a PITA. There is a reason why most bicycles use Shimano or Shimano compatible kit, it is cheap, available anywhere and reliable."
+    },
+    {
+      "id": 43924293,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-05-08T08:42:09 1746693729",
+      "onstory": {
+        "name": "Stringly Typed",
+        "link": "https://news.ycombinator.com/item?id=43887489"
+      },
+      "text": "&gt; I think that JSON is overused (DER is better)<p>When I was younger and more enthusiastic about some aspects of network communications, I set out to understand ASN.1 by reading the specifications. That was when ISO and ITU-T were even more stingy with access to their standards&#x2F;recommendations, so it wasn&#x27;t easy to get them as someone with no connection to standards bodies, and also without a few hundred CHF to spare. Reading those specs is an art in itself, but one gets a hang of it after a while. It went pretty well until this part of X.208:<p><i>The resulting type and value of an instance of use of the new value notation is determined by the value (and the type of the value) finally assigned to the distinguished local reference identified by the keyword VALUE, according to the processing of the macrodefinition for the new type notation followed by that for the new value notation.</i><p>That&#x27;s where I burst out laughing and finally deeply understood why the ISO networking stack crashed and burned despite having some solid ideas.<p>All this is to point out that yes, DER is not bad at all, but the whole infrastructure it rests on is simply too alien to people outside of telecom space and those who have to deal with it by necessity because of its use in various security protocols."
+    },
+    {
+      "id": 43902306,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-05-06T06:26:34 1746512794",
+      "onstory": {
+        "name": "Possibly a Serious Possibility",
+        "link": "https://news.ycombinator.com/item?id=43898380"
+      },
+      "text": "They would have to use <i>ranges</i>, though, and I think that the non-numeric phrases flow better, which should aid comprehension."
+    },
+    {
+      "id": 43901998,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-05-06T05:11:46 1746508306",
+      "onstory": {
+        "name": "How are cyber criminals rolling in 2025?",
+        "link": "https://news.ycombinator.com/item?id=43896188"
+      },
+      "text": "&gt; Tried tapping that link on mobile, got a screen to view the corresponding post. Tapped it, and I got taken to the App Store.<p>It&#x27;s obnoxious, but if you really want to view the post you can switch the screenshot page to desktop mode, and the &quot;View post&quot; button shouldn&#x27;t redirect to the App Store. The result isn&#x27;t pretty but it&#x27;s readable in a pinch.<p>(They&#x27;re still not desperate enough to track the UA and detect the switch.)"
+    },
+    {
+      "id": 43887355,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-05-04T15:40:19 1746373219",
+      "onstory": {
+        "name": "Brian Eno's Theory of Democracy",
+        "link": "https://news.ycombinator.com/item?id=43884635"
+      },
+      "text": "I&#x27;m sure you can look up the dictionary definition like everyone else, and it won&#x27;t mention anything similar to &quot;democracy&quot;, but if you want one from a random internet person: it&#x27;s pandering to discontent and fear of some portion of the populace. The populist implies that he or she represents the interests of that populace and has solutions to their problems.<p>Of course it is never that easy."
+    },
+    {
+      "id": 43887490,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-04T16:01:07 1746374467",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; it&#x27;s pandering to discontent and fear of some portion of the populace. The populist implies that he or she represents the interests of that populace and has solutions to their problems.<p>That’s just democracy! Your definition seems to have an unstated premise: you think certain kinds of “fear and discontent” are legitimate, and others aren’t. But the whole point of democracy is that it’s a mechanism for the people to resolve questions like that.<p>What you’re really drawing is the distinction between republicanism and democracy. You want elites to decide what the important issues are and propose solutions, and voting to be limited to picking between those approved worldviews. That’s republicanism! That’s the system the founders created when we had states appoint electors and senators, and a limited franchise."
+    },
+    {
+      "id": 43888107,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-05-04T17:36:42 1746380202",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Your definition seems to have an unstated premise: you think certain kinds of “fear and discontent” are legitimate, and others aren’t.<p>I don&#x27;t. Fear and discontent exist, and I&#x27;m not interested in the degree of their justification here. The unstated part is my disdain for the populist&#x27;s overeagerness to leverage them, offering emotionally satisfying but often practically dubious or outrightly deleterious policies and actions."
+    },
+    {
+      "id": 43887954,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notahacker",
+        "name": "notahacker"
+      },
+      "date": "2025-05-04T17:12:57 1746378777",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; You want elites to decide what the important issues are and propose solutions, and voting to be limited to picking between those approved worldviews.<p>I&#x27;m not sure the OP said anything that implied they wanted this, but on the other hand it&#x27;s unambiguously true that many politicians characterised as &quot;populist&quot; <i>do</i> want this upon getting into power. It&#x27;s just that their justification for interfering with court cases or removing elected officials who disagree with them or banning opposition altogether is &quot;<i>they</i> represent the elites&#x2F;immigrants&#x2F;Jews but <i>I</i> am on your side&quot;, which distinguishes them from people justifying similar actions on the basis of national identity or religion or divine right or technocracy..."
+    },
+    {
+      "id": 43888232,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-04T17:54:31 1746381271",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; many politicians characterised as &quot;populist&quot; do want this upon getting into power<p>Your statement makes no sense. The elected politicians are the ones who are supposed to be deciding the political issues.<p>The problem is that, throughout the western world, judges and bureaucrats are not staying in their lane. The New York Times did a good podcast on how the immigration system we have is one that nobody ever campaigned on or voted for: <a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2024&#x2F;10&#x2F;29&#x2F;podcasts&#x2F;the-daily&#x2F;election-immigration.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2024&#x2F;10&#x2F;29&#x2F;podcasts&#x2F;the-daily&#x2F;electi...</a>. The immigration system has been created through litigation and bureaucratic action--e.g,, taking an asylum system enacted in response to Jews fleeing genocide and applying the eligibility criteria so broadly that it covers general unrest in a country, or even just crime and gang violence.<p>Don’t forget, the judicial system is quite consciously an anti-democratic check. judges were put there to make sure that voters don’t vote themselves other people‘s property. That’s a legitimate function, but you have to keep an eye on it. The more and more issues you have decided by judges the less and less democratic your system becomes."
+    },
+    {
+      "id": 43888440,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=yupitsme123",
+        "name": "yupitsme123"
+      },
+      "date": "2025-05-04T18:26:48 1746383208",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "This is true for other areas as well. Our healthcare, education, and tax systems for example aren&#x27;t what anyone proposed or ever would propose. They ended up that way for a variety of reasons and now we&#x27;re stuck with them because the only real solution is to tear them down and start from scratch."
+    },
+    {
+      "id": 43888890,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fn-mote",
+        "name": "fn-mote"
+      },
+      "date": "2025-05-04T19:29:31 1746386971",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; only real solution is to tear them down and start from scratch<p>The idea that tearing the political system down and starting from scratch will fix things is just as much of a fantasy as the idea that a greenfield rewrite of code will produce something with all of the desirable features of the original and twice as fast."
+    },
+    {
+      "id": 43890287,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lttlrck",
+        "name": "lttlrck"
+      },
+      "date": "2025-05-04T22:50:35 1746399035",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "The Second System problem. Unfortunately even very (legitimately!) smart people fall into the trap.<p>Though it&#x27;s true that they may know it&#x27;s a trap. Ulterior motives aplenty."
+    },
+    {
+      "id": 43918172,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=s1artibartfast",
+        "name": "s1artibartfast"
+      },
+      "date": "2025-05-07T17:04:57 1746637497",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "People fall for it because sometimes it is objectively true.<p>It is often not clear when that is."
+    },
+    {
+      "id": 43889044,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notahacker",
+        "name": "notahacker"
+      },
+      "date": "2025-05-04T19:49:06 1746388146",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Not sure why you&#x27;ve chosen to go off on a tangent about immigration to the United States in response to my post about populists of all stripes typically trying to remove all sorts of checks on their power, including the democratic ones in the guise of &quot;protecting&quot; the people from the enemy <i>du jour</i>.<p>But since you&#x27;ve decided to make this about the current US administration then yes, it&#x27;s a matter of fact that the current system is a republic with limited democratic participation in the decision making process. A situation in which a single individual holds all the power and permits bureaucrats like ICE to do what they wanted to any individual for any reason with noone else being able to intervene would <i>also</i> be a republic with limited democratic participation in the decision making process, though not one I would prefer, particularly not if I was a law-abiding citizen who understood how legal processes worked but had the sort of ancestry ICE and Trump seem a bit suspicious of...<p>No systems in the US look like what people campaigned on and voted for. What would policy look like in with true public votes on anything and everything? Well judging by approval ratings, Trump&#x27;s decision to singlehandedly cause a recession with his tariff policy is something the public overall do <i>not</i> back, no matter how much Trump claims that he&#x27;s acting for them and against globalist elites. Similarly, it seems that what Trump&#x27;s newly created bureaucracy is doing to other government departments doesn&#x27;t meet with wide approval, no matter how much the world&#x27;s richest man appointed to head after giving him lots of money it claims to be tackling elites and corruption. Trump is a populist, but like many other populists he and many of his actions are not at all <i>popular</i> at the moment: it&#x27;s a feature of the design of republics rather than the popular will that he remains in power nevertheless. Perhaps that&#x27;s why the executive&#x27;s power is supposed to be checked...<p>But yes, the one area in which his approval ratings stayed above water in <i>some</i> polls is in his handling of immigration. Whether this includes every decision the unelected bureaucracy that is ICE makes to select random non-citizens and citizens for detention or even deportation to to foreign concentration camps for wrongthink or wrong tattoos is another question; seems like public opinion sides with the courts rather than the admin on deporting a legal immigrant for no reason and then not bringing him back because that would mean admitting error. In a republic like the US it&#x27;s actually <i>not</i> the job of the official elected in the belief he&#x27;d get the price of eggs down to overrule courts, and it seems hollow to claim it&#x27;d be more democratic to skip the process of legislative change in favour of executive fiat when the public doesn&#x27;t agree with him on many of the details.<p>It would, of course, technically be more democratic to have people&#x27;s right to remain in the country based not upon law but upon the prevailing fashionability of their skin colour and surname with a wider public that got to vote on mass deportations to third countries whenever they felt like it. Even as someone with reason to be completely confident this wouldn&#x27;t jeopardise my right to remain in the country I was born in, I&#x27;d hesitate to say that supplanting citizenship law with a public popularity contest would be <i>better</i> though it would be more democratic. But this has nothing to do with what is going on in the US, which involves the president insisting his his yuge popular mandate places him so far above the law that bureaucrats whose actions he favours don&#x27;t have to follow it, never mind other populists like Maduro or Mao or Mussolini who didn&#x27;t even worry too much about the mandate bit."
+    },
+    {
+      "id": 43889392,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-04T20:39:27 1746391167",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I used that example because, across the developed world, immigration policy is <i>the issue</i> that reflects the disconnect between what the public wants and what anti-democratic checks on democracy have allowed.<p>We literally just had an election. <i>Both candidates</i> ran promising to close the border, and Trump additionally promised “mass deportations.” Immigration was literally the first two issues on his platform: <a href=\"https:&#x2F;&#x2F;www.donaldjtrump.com&#x2F;platform\" rel=\"nofollow\">https:&#x2F;&#x2F;www.donaldjtrump.com&#x2F;platform</a>. He won the popular vote. He’s got the mandate, and four years to implement it and see how the public feels then.<p>What we are seeing with the judicial and bureaucratic resistance to deportation is not the “rule of law.” In fact, the immigration laws are designed to facilitate deportations quickly and to punish those who facilitate or encourage illegal immigration. What you’re seeing is elites try to use the republic’s anti-democratic checks to impose their preferred immigration policies, according to their peculiar affinity for immigrants."
+    },
+    {
+      "id": 43890068,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=AnimalMuppet",
+        "name": "AnimalMuppet"
+      },
+      "date": "2025-05-04T22:15:28 1746396928",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "The judicial resistance to deportation because they didn&#x27;t follow the law on how to do deportation. That is, the judicial opposition is <i>exactly</i> the rule of law.<p>The courts are not saying that the administration can&#x27;t deport illegal aliens. They are saying that, in order to deport illegal aliens, <i>the administration has to follow the law</i>.<p>Do you have a problem with that? If so, what and why?"
+    },
+    {
+      "id": 43890477,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-04T23:23:35 1746401015",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "What does “the law” require, though? A number of these judges are liberals who adhere to the notion that the law can be found in “emanations from penumbras” of the constitutional text. But I saw little effort to look at the “emanations from penumbras” of the INA, which is a decidedly pro-deportation document.<p>And some of the actions have been simply lawless. For example, after the Supreme Court ruled that Judge Boasberg lacked jurisdiction in the deportation flights case, the proper course would have been to dismiss. Instead, he initiated contempt proceedings based on failure to follow an order that was void <i>ab initio</i>, citing case law that applies to private litigants but makes no sense in a case where a district court exceeds its jurisdiction to compel a co-equal branch of government to act. Sanity prevailed and the DC Circuit administratively stayed those contempt proceedings. Judge Howell, in one of the law firm EO cases, asserted that firms had a first amendment right to pursue “progressive employment policies”—even though the first amendment obviously doesn’t apply to race-conscious employment policies. Other courts are insisting that Trump can’t revoke temporary authorizations by executive fiat that Biden granted by executive fiat.<p>More generally, courts are abusing their injunction powers. Read <i>Marbury v. Madison</i> again. The court goes out of its way to avoid enjoining the secretary of state even to perform the “ministerial” task of delivering a letter the president had already signed. <i>Marbury</i> makes clear that, while courts have the power to declare the law, and overturn Congress’s laws, its power to compel the executive branch to act is extremely limited.<p>The Supreme Court correctly ruled in the deportation flights case that the administration must allow detainees to file habeas petitions in the districts where they’re detained. That’s a proper exercise of district courts’ jurisdiction to adjudicate alleged deprivations of <i>individual</i> rights. It’s not proper for the courts to try and use that authority to enjoin entire executive policies that offend a judge’s sensibilities."
+    },
+    {
+      "id": 43889989,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=onetimeusename",
+        "name": "onetimeusename"
+      },
+      "date": "2025-05-04T22:05:35 1746396335",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "This often gets forgotten but by all appearances, Alejandro Mayorkas, the DHS sec, facilitated mass migration illegally but avoided ever being called anti-democratic, authoritarian, or whatever else people are called for doing deportations. (So importations are more democratic than deportations I guess somehow??). No one gave him a mandate to do the CHNV program flying people in, to spend money building a highway in Panama, to grant parole to alleged asylum seekers, etc. It&#x27;s surprisingly missing from all this passionate debate about authoritarians, populism, and the end of the rule of law."
+    },
+    {
+      "id": 43890130,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notahacker",
+        "name": "notahacker"
+      },
+      "date": "2025-05-04T22:27:39 1746397659",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Mayorkas had exactly the same thin mandate as Trump appointees, and was also unpopular, but he wasn&#x27;t trying to claim his mandate was so strong that he could ignore courts and the constitution.<p>If Germany gave you a visa, would you consider it necessary to start a debate about whether such actions were authoritarian? How about if when you got there, they locked you up without trial?"
+    },
+    {
+      "id": 43891387,
+      "lvl": 8,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-05T02:14:46 1746411286",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "But he did! The CBO calculates 8.7 million immigrants in excess of normal levels under his watch. It’s a plainly visible policy change in charts: <a href=\"https:&#x2F;&#x2F;images.app.goo.gl&#x2F;9N5K5DQjcfcj542a8\" rel=\"nofollow\">https:&#x2F;&#x2F;images.app.goo.gl&#x2F;9N5K5DQjcfcj542a8</a>. Biden didn’t have the mandate to do that.<p>How did that happen? It was because Biden and Mayorkas did not “take Care that the Laws be faithfully executed.” He ignored laws that required him to keep immigrants out. He also interpreted the law in ways that were not “faithful” to Congressional intent. For example, he took a law that allows parole on a “case-by-case” basis, and gave blanket parole to hundreds of thousands. But then judges will say that these blanket protections must be revoked on a “case by case” basis.<p>People are prattling on about the Impoundment Act and whether Trump has statutory authority to reorganize executive departments. Meanwhile, Obama created an entire amnesty program (DACA) nowhere in the INA, after failing to get the same amnesty through Congress. All of this stuff about “the rule of law” is rank hypocrisy from people who don’t believe in rules or law."
+    },
+    {
+      "id": 43893125,
+      "lvl": 9,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notahacker",
+        "name": "notahacker"
+      },
+      "date": "2025-05-05T09:02:22 1746435742",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Biden didn’t have the mandate to do that.<p>Course he did, <i>by your own arguments</i> not only did he have precisely that mandate as the president that people voted for [on a manifesto of broadening pathways to citizenship], <i>but nobody else should have had any right to try to stop him</i>.<p>It&#x27;s interesting that you regard Biden&#x27;s administration pursuing a policy in their manifesto (but ceasing part of the parole-in-place programme as soon as the unelected judges of a state court ordered them to do so) to be a more egregious violation of the rule of law than Trump rocking up in El Salvador to sneer at the idea of abiding by a rare unanimous Supreme Court verdict. Much like your insistence that whereas Trump has a mandate to disregard court orders, Biden didn&#x27;t even have a mandate to undo executive orders on border control he said he was going to undo, the &quot;rank hypocrisy from people who don&#x27;t believe in rules of law&quot; displayed in this exchange is all yours..."
+    },
+    {
+      "id": 43895866,
+      "lvl": 10,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-05T15:03:28 1746457408",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Course he did, by your own arguments not only did he have precisely that mandate as the president that people voted for [on a manifesto of broadening pathways to citizenship], but nobody else should have had any right to try to stop him.<p>Sorry, I was unclear. I was mirroring the language in the post to which I was replying, which assumed that the margin of Biden’s win meant he didn’t have a mandate. I think Biden had a mandate to do most of what he did. My only quibble would be that Biden didn’t campaign on opening the border, but Trump clearly campaigned on mass deportations.<p>And yes, I view the introduction of millions of illegal immigrants as being the more egregious violation of the law than what Trump is doing. The former reflects millions of instances of the administration violating american law and americans’ right to determine the kind of society in which they want to live. The latter applies to a small number of individuals, and reflects mostly administrative flubs involving people who are undisputedly non-citizens."
+    },
+    {
+      "id": 43896208,
+      "lvl": 10,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=onetimeusename",
+        "name": "onetimeusename"
+      },
+      "date": "2025-05-05T15:35:25 1746459325",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I think letting in millions of people illegally was extremely serious and Biden did not campaign on that. Although Mayorkas always played it down so no one ever accused the two of being authoritarian. I don&#x27;t know if that&#x27;s because the media favored the de facto open borders or if it&#x27;s because Mayorkas was good at speaking in bureaucrat-ese so he was always incognito. I think there was an intentional plan to open the border and it wasn&#x27;t a charitable cause. I think we both know the purpose was ultimately to change the voter base to be more favorable, among other reasons. If that isn&#x27;t an authoritarian power move, I don&#x27;t know what is.<p>Now regarding Kilmar, probably yes his rights were violated as happens routinely. I am not sure I am going to lose sleep over it because millions of people came here in one of the largest human migration events in history and we&#x27;re still at this point where we can&#x27;t talk about that but instead we debate about whether this clerical error was the event that turned us into a fascist dictatorship. I think it&#x27;s all disingenuous. I don&#x27;t know if there&#x27;s a term for it in the law but our country created an extraordinary legal situation and there&#x27;s bound to be mistakes made and I think significant political bias is present among judges and lawyers in what should be a neutral court. Do they really care about rights or is this more about keeping immigrants here at any cost?<p>Actually in 2018 Trump deported an elderly guy who may have had dementia who was accused of being a Nazi war criminal, his name was Jakiw Palij you can look it up. There wasn&#x27;t strong evidence he was evading war crimes though and he wasn&#x27;t accepted as a citizen anywhere in Europe because of border changes. I suspect his rights were violated in some way but no one cared for obvious reasons. None of the lawyers you see now jumped to defend this guy. So might there be political concerns ahead of rights? absolutely."
+    },
+    {
+      "id": 43890007,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notahacker",
+        "name": "notahacker"
+      },
+      "date": "2025-05-04T22:08:29 1746396509",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I point to issue polling because I&#x27;m pointing out the obvious fact that much of what he and his appointees actually done <i>isn&#x27;t</i> the will of the public, no matter how much shouting about migration or egg prices during the election resonated with certain segments of it.<p>The fact that he has four years left to make appointments and executive orders and the public can&#x27;t do anything about is an implementation detail of a republic, just as anti-democratic as similar quirks meaning that other presidents&#x27; appointees are around to thwart him in certain areas. Most of those decisions have absolutely nothing to do with issues that got Trump elected, but the rules let him get his way on many of them anyway. Contra populism: democracy &#x2F;= the guy who got a plurality of the vote once getting his way on everything even when the rules and votes <i>aren&#x27;t</i> in his favour.<p>I do think your sequence of posts is as good an indication of the difference between populism and popularity as we&#x27;re ever likely to see though. Populism isn&#x27;t about making political arguments that are popular, it&#x27;s about making arguments of the form that if an ultraconservative Supreme Court of presidential appointees (three of them his) determines that part of Trump&#x27;s bureaucracy sending legal migrants to foreign concentration camps without even deigning to provide a reason might not be constitutional, it&#x27;s because &quot;elites try to use the republic’s anti-democratic checks to impose their preferred immigration policies, according to their peculiar affinity for immigrants....&quot; even when the best available evidence suggests the public widely supports the court in this instance. Trump won a vote so anyone not deferring to him is guilty of overreach."
+    },
+    {
+      "id": 43890245,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-04T22:43:16 1746398596",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; I point to issue polling because I&#x27;m pointing out the obvious fact that much of what he and his appointees actually done isn&#x27;t the will of the public<p>The reason we have elections and not issue polls is because voters balance the totality of the circumstances in reaching their decisions. People may or may not like this or that incident in the moment, but that doesn’t mean they disapprove of the overall arc of the policy. So, for example, polls show that virtually no Trump voters regret their vote and he’d probably win a rematch: <a href=\"https:&#x2F;&#x2F;emersoncollegepolling.com&#x2F;trump-100-days&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;emersoncollegepolling.com&#x2F;trump-100-days&#x2F;</a> (Emerson is a good pollster, its final 2024 polls nailed Trump’s actual share, and overestimated Harris only by 2). Issue polls taken in the moment also suffer from response bias—e.g. people who approve of the overall arc of Trump’s immigration policy are less likely to respond to polling about a flub than people who are outraged by the policy itself. (The 2024 Harris bounce should be a good lesson in response bias!)<p>And a rule based on second guessing election results based on issue polling would never be applied even handedly—judges are definitionally elites and such a rule would be applied to favor their preferences. Issue polling showed the ACA under water for quite some time. Roberts had ample basis for finding the statute unconstitutional—far less of a stretch than the expansive interpretations of asylum laws—but he admirably saved it. And I’d argue that, contrary to the issue polls, Obamas’s reelection ultimately bore out that the ACA had a mandate."
+    },
+    {
+      "id": 43892820,
+      "lvl": 8,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notahacker",
+        "name": "notahacker"
+      },
+      "date": "2025-05-05T08:02:15 1746432135",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; The reason we have elections and not issue polls is because voters balance the totality of the circumstances in reaching their decisions<p>No, the reason the United States places issues in the hands of a small elite of people elected for fixed terms and some of it in a single individual is a practical feature of the design of a republic which is obviously less democratic than alternatives, like having ballots on most issues or absolutely every implementation detail. It&#x27;s also a feature designed for practical implementation and less disruptive governance, but so is the separation of powers and rule of law (the &quot;anti-democratic&quot; separation of powers and rule of law having much stronger and more enduring support than actions of any individual president suggests that wasn&#x27;t a decision the Founding Fathers got wrong...). A rule based on letting the public decide exactly who got to stay in the country and who won each court case would obviously be more democratic than delegating that power to judges, but it would not function particularly well. A rule based on letting ICE elites rather than the judiciary rule on the rights and wrongs of particular immigration cases and giving the president the right to ignore people&#x27;s constitutional right to due process if they found it inconvenient would not be more democratic and would, I suspect, also not function very well. And suffice to say migration policy is not the only area where Trump is or was arguing that rules shouldn&#x27;t apply to him or that he should have more power.<p>Again, the difference between popular sovereignty and populism is quite well illustrated by your argument that if Trump&#x27;s deportation policy is underwater even in the poll you picked showing him with neutral favourability overall, the &quot;totality of the circumstances&quot; means that deportation decisions he approves and laws he chooses not to follow must be him enacting the will of the people, cheerfully disregarding details like the people explicitly wanting him to do something else and overwhelmingly endorsing the right of institutions ordering him to do something else to make those orders. The belief that the people should have some say in the decision making process is quite different from the belief that the people&#x27;s will is manifest in every action of some guy they elected on some issue that seemed salient."
+    },
+    {
+      "id": 43888737,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=notatoad",
+        "name": "notatoad"
+      },
+      "date": "2025-05-04T19:08:43 1746385723",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "the important part of populism isn&#x27;t the fear and discontent, it&#x27;s the pandering. some fear and discontent is valid, some isn&#x27;t, that&#x27;s not relevant to whether something is populist or not.<p>populism is telling people that there&#x27;s a nice easy clean solution to their fear and discontent, when in reality problems are complicated and difficult to solve without causing other equally valid problems."
+    },
+    {
+      "id": 43887429,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=leereeves",
+        "name": "leereeves"
+      },
+      "date": "2025-05-04T15:51:28 1746373888",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Everyone not already in power who wants to be elected tries to appeal to those who are unhappy with the current government.<p>How do you decide if they are &quot;pandering to discontent and fear of some portion of the populace&quot; or &quot;standing up for neglected people&quot;?"
+    },
+    {
+      "id": 43887677,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=detaro",
+        "name": "detaro"
+      },
+      "date": "2025-05-04T16:31:34 1746376294",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Having evidence that the fears are based in reality and proposed policies that would help said people is a point for the latter, obvious contradictions in those one for the former.<p>Proposed policies being realistic vs vague broad strokes that are unlikely to be legal to implement would be another indicative axis."
+    },
+    {
+      "id": 43888666,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hardlianotion",
+        "name": "hardlianotion"
+      },
+      "date": "2025-05-04T18:59:27 1746385167",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I suspect that having &quot;obvious contradictions&quot; in policies is an extremely high bar for modern political groupings generally - ie all political parties and their leaders are populist now."
+    },
+    {
+      "id": 43890168,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=detaro",
+        "name": "detaro"
+      },
+      "date": "2025-05-04T22:33:28 1746398008",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "It&#x27;s certainly not an uncommon trait, although there are still large differences in degree."
+    },
+    {
+      "id": 43887620,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=AnimalMuppet",
+        "name": "AnimalMuppet"
+      },
+      "date": "2025-05-04T16:22:38 1746375758",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I think that populism has an element of &quot;tear the system down&quot;, which is something that goes considerably further than the usual &quot;throw those bums out&quot;.<p>When Biden ran against Trump, he tried to appeal to voters who were unhappy with Trump, but nobody called him a populist. He was just a normal politician. Trump isn&#x27;t. Neither is Bernie Sanders.<p>How do you decide? I can&#x27;t give you a clear answer there. Still, there is a difference. (Maybe &quot;do they talk like a normal politician&quot;?) Most out-of-office politicians are on the Biden side; only a few are on the Trump&#x2F;Sanders side."
+    },
+    {
+      "id": 43887652,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=leereeves",
+        "name": "leereeves"
+      },
+      "date": "2025-05-04T16:28:41 1746376121",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "If by &quot;tear the system down&quot; you mean anti-establishment and anti-elite, I agree. That&#x27;s an essential component of populism.<p>I don&#x27;t think many people would say Biden was anti-establishment. In 2020, Trump hadn&#x27;t been in office long enough to change the establishment very much."
+    },
+    {
+      "id": 43888452,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rayiner",
+        "name": "rayiner"
+      },
+      "date": "2025-05-04T18:28:50 1746383330",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Most out-of-office politicians are on the Biden side; only a few are on the Trump&#x2F;Sanders side.<p>At least on the GOP side, it’s because they care only about cheap labor. Free trade to harness cheap labor abroad, and mass immigration to harness cheap labor for what can’t be outsourced."
+    },
+    {
+      "id": 43801141,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-26T05:20:41 1745644841",
+      "onstory": {
+        "name": "Parallel ./configure",
+        "link": "https://news.ycombinator.com/item?id=43799396"
+      },
+      "text": "&gt; …where x and y evaluate in parallel <i>without me having to do anything</i>.<p>I understand that yours is a very simple example, but a) such things are already parallelized even on a single thread thanks to all the internal CPU parallelism, b) one should always be mindful of Amdahl&#x27;s law, c) truly parallel solutions to various problems tend to be structurally different from serial ones <i>in unpredictable ways</i>, so there&#x27;s no single transformation, not even a single family of transformations."
+    },
+    {
+      "id": 43768576,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-23T04:19:26 1745381966",
+      "onstory": {
+        "name": "The complex origin story of domestic cats",
+        "link": "https://news.ycombinator.com/item?id=43764771"
+      },
+      "text": "Mammals have a strong nurturing instinct, which helps with raising progeny. (So do birds.) Strong enough that it can overflow to members of another species. No calculation or ethical predisposition required, though they would strengthen the resolve."
+    },
+    {
+      "id": 43701547,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-16T04:42:27 1744778547",
+      "onstory": {
+        "name": "CVE program faces swift end after DHS fails to ren...",
+        "link": "https://news.ycombinator.com/item?id=43700607"
+      },
+      "text": "&gt; I still find it wild that so many people are trying to frame these decisions through a political lens.<p>Why? The decisions are pretty well politically aligned with the ideology which detests the size and scope of the government (realistically, those aspects which the ideologues feel are not in their interest). What <i>is</i> unexpected is the swiftness and the brutality of action, but revolutions tend to be messy, and make no mistake, this is a revolution.<p>&gt; This is the actions of a foreign bad actor<p>Now <i>this</i> sounds like a coping strategy: everything is so preposterous it couldn&#x27;t possibly be homegrown. Foreign influence and underhanded actions are as old as human interactions, but IMO outright plants can&#x27;t succeed without a massive economic and power asymmetry between the adversaries."
+    },
+    {
+      "id": 43702167,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rat87",
+        "name": "rat87"
+      },
+      "date": "2025-04-16T06:33:47 1744785227",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "They are not. Trump is no libertarian or small government guy. The build the wall guy is the opposite of that. Even with stuff like social security he usually at least rhetorically claimed to be for more benifits (as long as it goes to &quot;real Americans&quot;) and he is all for increasing police and military spending. And generally spending more on stuff that gives him money. Plus giant tax increases (tarrifs). He doesn&#x27;t care much if government is dismembered as long as it owns the libs and gets rid of the public corruption prosecutors&#x2F;others who might stand up to him<p>Trump&#x27;s actions towards Putin are highly irrational. Maybe he&#x27;s being blackmailed, maybe he&#x27;s being bought, maybe he just has likes Putins style but there is a reason people suspect him despite it being unlikely in the general case."
+    },
+    {
+      "id": 43702961,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=King-Aaron",
+        "name": "King-Aaron"
+      },
+      "date": "2025-04-16T08:33:14 1744792394",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; He doesn&#x27;t care much if government is dismembered<p>This is exactly the process that conservatives take to privatise services into their own friends pockets. Destroy services until they&#x27;re ineffective and use it as an excuse to privatise it.<p>There&#x27;s no such thing as small government, only large sprawling private services that the government hands money to."
+    },
+    {
+      "id": 43701847,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=King-Aaron",
+        "name": "King-Aaron"
+      },
+      "date": "2025-04-16T05:37:38 1744781858",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "lol, coping strategy? I&#x27;m not American and have no reason to &#x27;cope&#x27; with anything. There is enough evidence to make a strong allegation about Trump being a Russian asset.<p>The entire world seems to be able to &#x27;cope&#x27; with that assessment."
+    },
+    {
+      "id": 43670056,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-13T04:17:02 1744517822",
+      "onstory": {
+        "name": "Anubis Works",
+        "link": "https://news.ycombinator.com/item?id=43668433"
+      },
+      "text": "&gt; Rate limits are far simpler, anyway!<p>Not when the bots are actively programmed to thwart them by using far-flung IP address carousels, request pacing, spoofed user agents and similar techniques. It&#x27;s open war these days."
+    },
+    {
+      "id": 43670360,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=parineum",
+        "name": "parineum"
+      },
+      "date": "2025-04-13T05:40:10 1744522810",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Request pacing sounds intentionally unabusive."
+    },
+    {
+      "id": 43670947,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=j16sdiz",
+        "name": "j16sdiz"
+      },
+      "date": "2025-04-13T07:56:36 1744530996",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "It is not bringing down your server, but they are taking 80%+ of your bandwidth budget. Does this count as abuse?"
+    },
+    {
+      "id": 43671288,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=immibis",
+        "name": "immibis"
+      },
+      "date": "2025-04-13T09:09:13 1744535353",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Are you at a hoster with extortionately expensive bandwidth, such as AWS, GCP, or Azure?"
+    },
+    {
+      "id": 43671160,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ithkuil",
+        "name": "ithkuil"
+      },
+      "date": "2025-04-13T08:43:08 1744533788",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Isn&#x27;t that what a rate limiter would address?"
+    },
+    {
+      "id": 43671256,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=mkl",
+        "name": "mkl"
+      },
+      "date": "2025-04-13T09:02:19 1744534939",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Not when the traffic is coming from 10s of thousands of IP addresses, with very few requests from each one: <a href=\"https:&#x2F;&#x2F;drewdevault.com&#x2F;2025&#x2F;03&#x2F;17&#x2F;2025-03-17-Stop-externalizing-your-costs-on-me.html\" rel=\"nofollow\">https:&#x2F;&#x2F;drewdevault.com&#x2F;2025&#x2F;03&#x2F;17&#x2F;2025-03-17-Stop-externali...</a>"
+    },
+    {
+      "id": 43671556,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=KronisLV",
+        "name": "KronisLV"
+      },
+      "date": "2025-04-13T09:57:28 1744538248",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "That very much reads like the rant of someone who is sick and tired of the state of things.<p>I’m afraid that it doesn’t change anything in of itself and any sorts of solutions to only allow the users that you’re okay with are what’s direly needed all across the web.<p>Though reading about the people trying to mine crypto on a CI solution, it feels that sometimes it won’t just be LLM scrapers that you need to protect against but any number of malicious people.<p>At that point, you might as well run an invite only community."
+    },
+    {
+      "id": 43671703,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bayindirh",
+        "name": "bayindirh"
+      },
+      "date": "2025-04-13T10:24:03 1744539843",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Source Hut implemented Anubis, and it works so well. I mostly never see the waiting screen. And after it whitelists me for a very long time, so I work without any limitations."
+    },
+    {
+      "id": 43671761,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=KronisLV",
+        "name": "KronisLV"
+      },
+      "date": "2025-04-13T10:35:55 1744540555",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "That’s great to hear and Anubis seems cool!<p>I just worry about the idea of running public&#x2F;free services on the web, due to the potential for misuse and bad actors, though making things paid also seems sensible, e.g. what was linked: <a href=\"https:&#x2F;&#x2F;man.sr.ht&#x2F;ops&#x2F;builds.sr.ht-migration.md\" rel=\"nofollow\">https:&#x2F;&#x2F;man.sr.ht&#x2F;ops&#x2F;builds.sr.ht-migration.md</a>"
+    },
+    {
+      "id": 43679698,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ithkuil",
+        "name": "ithkuil"
+      },
+      "date": "2025-04-14T10:03:24 1744625004",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "ok, but my answer was about was how to react to request pacing.<p>If the abuser is using request pacing to make less request then that&#x27;s making the abuser less abusive. If you&#x27;re still complaining that request pacing is not pacing the requests down enough because the pacing is designed to just not bring your server down and instead make you consume money, then you can counteract that just by tuning the rate limiting even further down.<p>The 10s of thousands distinct IP address is another (and perfectly valid) issue, but it was not the point I answered to."
+    },
+    {
+      "id": 43670904,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rollcat",
+        "name": "rollcat"
+      },
+      "date": "2025-04-13T07:47:54 1744530474",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "It&#x27;s called DDoS. DDoS <i>is</i> abusive."
+    },
+    {
+      "id": 43642471,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-10T10:18:31 1744280311",
+      "onstory": {
+        "name": "How University Students Use Claude",
+        "link": "https://news.ycombinator.com/item?id=43633383"
+      },
+      "text": "&gt; Spotify CEO stated on X that before asking for more headcount they have to justify not being able to do the job with an agent.<p>Spotify CEO is channeling The Two Bobs from Office Space: &quot;What are you actually doing here?&quot; Just in a nastier way, with a kind of prisoner&#x27;s dilemma on top. If you can get by with an agent, fine, you won&#x27;t bother him. If you can&#x27;t, why can&#x27;t you? Should we replace you with someone who can, or thinks they can?<p>Spotify CEO is not his employees&#x27; friend."
+    },
+    {
+      "id": 43607956,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-07T05:12:46 1744002766",
+      "onstory": {
+        "name": "The booming, high-stakes arms race of airline safe...",
+        "link": "https://news.ycombinator.com/item?id=43581549"
+      },
+      "text": "The interesting thing is, in a real emergency something often clicks, and people become <i>more</i> focused and organized than otherwise. The 2009 Hudson ditching is a celebrated example, but there were numerous others over the years. (More recently, the upside-down crash landing at Toronto.) IMO the key is to have well-trained and authoritative cabin crew, but any knowledge of emergency procedures also helps, and that&#x27;s where safety videos come into play.<p>The author of the article is a bit of a jittery flier (a <i>go-around</i> was their come-to-Jesus moment? come on), but fine, whatever makes people pay attention to basic safety information. It doesn&#x27;t need to be much: know where the emergency exits are, how to open them if necessary, and don&#x27;t take your cabin luggage, and you&#x27;ll already be ahead of most."
+    },
+    {
+      "id": 43592109,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-05T09:21:37 1743844897",
+      "onstory": {
+        "name": "Learn electricity and electronics fundamentals wit...",
+        "link": "https://news.ycombinator.com/item?id=43589776"
+      },
+      "text": "&gt; I was just blown away they send you all that material for free by simply applying.<p>It was a hangover from their days a quasi-socialist, monopolistic enterprise (&quot;We&#x27;re the Phone Company&quot;), when they could afford to be &quot;inefficient&quot; in that way -- scare quotes because it&#x27;s difficult to calculate the cost of preparation and dissemination against all the high-value careers the material may have inspired. These days, an accountant would glance at the cost and cut it out without thinking twice."
+    },
+    {
+      "id": 43594016,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=trod1234",
+        "name": "trod1234"
+      },
+      "date": "2025-04-05T15:02:11 1743865331",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "These days the cost would be funded by money printing, and there is no need to train because that is the job of university even when they don&#x27;t actually train people."
+    },
+    {
+      "id": 43571727,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-04-03T16:05:25 1743696325",
+      "onstory": {
+        "name": "Why I don't discuss politics with friends",
+        "link": "https://news.ycombinator.com/item?id=43559605"
+      },
+      "text": "One could do worse than using Eco&#x27;s <i>Ur-Fascism</i>[1] as the starting point. The man had personal experience and he could write (oh how he could write.) However, I&#x27;d expect that some would dismiss him as an inveterate lefty (he wasn&#x27;t), so we&#x27;re back on square one.<p>[1] <a href=\"https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;umberto-eco-ur-fascism&#x2F;umberto-eco-ur-fascism.lt&#x2F;mode&#x2F;2up?view=theater\" rel=\"nofollow\">https:&#x2F;&#x2F;archive.org&#x2F;details&#x2F;umberto-eco-ur-fascism&#x2F;umberto-e...</a>"
+    },
+    {
+      "id": 43525448,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-03-30T16:37:59 1743352679",
+      "onstory": {
+        "name": "Why a plane turned around when a passenger lost a ...",
+        "link": "https://news.ycombinator.com/item?id=43523765"
+      },
+      "text": "I can&#x27;t blame them, an in-air cabin fire is no joke. This[1] happened on the ground and destroyed the plane. Another very recent one[2] was in the air and thankfully extinguished. But I don&#x27;t see sodium batteries in portable devices any time soon: too bulky for the capacity. LFP, perhaps.<p>[1] <a href=\"https:&#x2F;&#x2F;avherald.com&#x2F;h?article=523644ed&amp;opt=0\" rel=\"nofollow\">https:&#x2F;&#x2F;avherald.com&#x2F;h?article=523644ed&amp;opt=0</a><p>[2] <a href=\"https:&#x2F;&#x2F;avherald.com&#x2F;h?article=525739ed&amp;opt=0\" rel=\"nofollow\">https:&#x2F;&#x2F;avherald.com&#x2F;h?article=525739ed&amp;opt=0</a>"
+    },
+    {
+      "id": 43522650,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-03-30T09:08:40 1743325720",
+      "onstory": {
+        "name": "'Catastrophic': Canadian bookings for U.S. travel ...",
+        "link": "https://news.ycombinator.com/item?id=43521244"
+      },
+      "text": "&gt; Annexing Canada is the US equivalent of Russia retaining control of Ukraine<p>Yes, if you disregard a few hundreds of years of history. The reverse, Canada absorbing the US and restoring the continuation of the British Empire, would be more similar, although not equivalent by a long shot."
+    },
+    {
+      "id": 43513726,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-03-29T08:14:10 1743236050",
+      "onstory": {
+        "name": "A note on the USB-to-PS/2 mouse adapter that came ...",
+        "link": "https://news.ycombinator.com/item?id=43499823"
+      },
+      "text": "Pics or it didn&#x27;t happen. (Seriously, I&#x27;d <i>love</i> to see that unholy train.)"
+    },
+    {
+      "id": 43446894,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-03-22T16:33:03 1742661183",
+      "onstory": {
+        "name": "When you deleted /lib on Linux while still connect...",
+        "link": "https://news.ycombinator.com/item?id=43444160"
+      },
+      "text": "The heroic version of the story is now almost 40 years old[1]. (One HN mention with the link to a HTMLized version is here[2].) In both cases, the upshot is that as long as you have a running shell with root privileges, at least one existing executable file on the filesystem, and the means to overwrite that file with arbitrary binary content, you can write a small program which can recreate a skeleton system structure and dig yourself out of the hole.<p>The reason why this keeps happening is that in regular UNIX root is omnipotent and the filesystem is ultimately unprotected. Immutable systems and restricted execution environments may make this a thing of the past.<p>[1] <a href=\"https:&#x2F;&#x2F;www.wolczko.com&#x2F;rm.txt\" rel=\"nofollow\">https:&#x2F;&#x2F;www.wolczko.com&#x2F;rm.txt</a> [2] <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=7892471\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=7892471</a>"
+    },
+    {
+      "id": 43388736,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-03-17T14:04:26 1742220266",
+      "onstory": {
+        "name": "HTTP/3 is everywhere but nowhere",
+        "link": "https://news.ycombinator.com/item?id=43360251"
+      },
+      "text": "&gt; <i>At the same time, neither QUIC nor HTTP&#x2F;3 are included in the standard libraries of any major languages including Node.js, Go, Rust, Python or Ruby.</i><p>.NET omission notwithstanding, one of the languages in the list is not like the others: Rust has a deliberately minimal standard library and doesn&#x27;t include HTTP at all. I don&#x27;t follow Rust HTTP&#x2F;3 efforts closely, but there are at least two actively developed libraries: quiche and quinn."
+    },
+    {
+      "id": 43388871,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Macha",
+        "name": "Macha"
+      },
+      "date": "2025-03-17T14:17:16 1742221036",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "The official Python stance on using the standard library HTTP client is also &quot;are you sure?&quot; and their stance on using the standard library HTTP server is &quot;don&#x27;t&quot;.<p><a href=\"https:&#x2F;&#x2F;docs.python.org&#x2F;3&#x2F;library&#x2F;http.client.html#module-http.client\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.python.org&#x2F;3&#x2F;library&#x2F;http.client.html#module-ht...</a><p><a href=\"https:&#x2F;&#x2F;docs.python.org&#x2F;3&#x2F;library&#x2F;http.server.html#module-http.server\" rel=\"nofollow\">https:&#x2F;&#x2F;docs.python.org&#x2F;3&#x2F;library&#x2F;http.server.html#module-ht...</a>"
+    },
+    {
+      "id": 43321589,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-03-10T15:20:40 1741620040",
+      "onstory": {
+        "name": "Planes are having their GPS hacked. Could new cloc...",
+        "link": "https://news.ycombinator.com/item?id=43289994"
+      },
+      "text": "Myanmar, alias Burma. They&#x27;re having a hot civil war since 2021. (They&#x27;ve had tensions and insurgencies for as long as they&#x27;ve been an independent state.)"
+    },
+    {
+      "id": 43307955,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-03-09T11:01:12 1741518072",
+      "onstory": {
+        "name": "Ask HN: Should there be new RPN calculators to rep...",
+        "link": "https://news.ycombinator.com/item?id=43306421"
+      },
+      "text": "Calculators, especially scientific and graphing calculators, are a niche product these days, almost exclusively limited to education and exam-taking. There is no impetus for changing the approved models, given the mountains of materials adapted to their use (TI actively worked with various educational bodies to promote the use of graphing calculators and helped prepare the curricula using their own.)<p>Don&#x27;t expect great changes in this area, although the impending death of the Dept. of Education might shake up things. Not for the better, I think."
+    },
+    {
+      "id": 43343997,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lo_zamoyski",
+        "name": "lo_zamoyski"
+      },
+      "date": "2025-03-12T15:01:07 1741791667",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; the Dept. of Education might shake up things. Not for the better, I think.<p>Given how mediocre and even harmful public education in the US is, especially relative to its (now waning) superpower status, how large the US is, as well as the promotion of weird ideologies by the DoE, I cannot help but welcome its death. In general, I welcome to end of all sorts of vast educational bureaucracies, including those that have occupied private universities and drain them of resources without providing any justifiable benefit.<p>I think this is where people don&#x27;t grasp that we didn&#x27;t always have the kind of overbearing, cabinet-level department of education we have today. This really only goes back to the early 80s. Meaning, opposing the DoE isn&#x27;t the same as opposing education. The principle of subsidiarity ought to be respected. Decentralization is good. It should be liberating.<p>So, in practice, I anticipate a greater diversity of curricula. There already exist competing views on pedagogy. This would allow greater flexibility and educational liberty, but also the opportunity to observe how well various pedagogical approaches work. It also introduces a certain accountability, because while you can blame mediocrity on a distant DoE today, the responsibility for education will lie closer to home when there is no DoE to blame.<p>Incidentally, people like Feynman ostensibly lamented that he expected physics to stagnate given what he saw as the homogenization of education. A similar principle could be said to apply here."
+    },
+    {
+      "id": 43349627,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=motorest",
+        "name": "motorest"
+      },
+      "date": "2025-03-13T01:49:48 1741830588",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; I think this is where people don&#x27;t grasp that we didn&#x27;t always have the kind of overbearing, cabinet-level department of education we have today. This really only goes back to the early 80s. Meaning, opposing the DoE isn&#x27;t the same as opposing education. The principle of subsidiarity ought to be respected. Decentralization is good. It should be liberating.<p>You dumped a lot of vague buzzwords but you said nothing of substance. You oppose DoE? Why, exactly? It&#x27;s not clear. If you cannot even express why exactly you oppose the DoE, what does decentralization mean, and why do you believe that to be liberating?<p>There seems to be a segment of the US population that was heavily indoctrinated into an irrational belief that having any guidance at the federal level is inherently a major problem.<p>In the meantime, back in reality, the main responsibility of the DoE is to fund scholarships and schools from districts that are unable to self-fund. That&#x27;s what you get rid of when you argue for getting rid of the DoE. Why is this liberating?"
+    },
+    {
+      "id": 43345175,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=scythmic_waves",
+        "name": "scythmic_waves"
+      },
+      "date": "2025-03-12T16:50:25 1741798225",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; as well as the promotion of weird ideologies by the DoE<p>What weird ideologies?"
+    },
+    {
+      "id": 43346797,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gperkins978",
+        "name": "gperkins978"
+      },
+      "date": "2025-03-12T19:27:30 1741807650",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "That rabbit hole will make you angry, then sad, then hopeless. I live in Chicago, on the South Side. The number of foolish fads in education have been forced on poor children for decades. It is shameful. Children should not be experimented on because their parents could not afford Catholic school or a house in the suburbs. Rich white people enjoy warping the minds of black children far too much. They never experiment with their own children, only ours. It is sickening.<p>An example: <a href=\"https:&#x2F;&#x2F;www.insidehighered.com&#x2F;news&#x2F;quick-takes&#x2F;2023&#x2F;09&#x2F;08&#x2F;controversial-reading-project-teachers-college-will-dissolve\" rel=\"nofollow\">https:&#x2F;&#x2F;www.insidehighered.com&#x2F;news&#x2F;quick-takes&#x2F;2023&#x2F;09&#x2F;08&#x2F;c...</a><p><a href=\"https:&#x2F;&#x2F;www.nytimes.com&#x2F;2022&#x2F;05&#x2F;22&#x2F;us&#x2F;reading-teaching-curriculum-phonics.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nytimes.com&#x2F;2022&#x2F;05&#x2F;22&#x2F;us&#x2F;reading-teaching-curri...</a>"
+    },
+    {
+      "id": 43351081,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tptacek",
+        "name": "tptacek"
+      },
+      "date": "2025-03-13T07:46:06 1741851966",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "These programs were in place in D97 in Oak Park, a wealthy and predominantly white suburb, too."
+    },
+    {
+      "id": 43348452,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=umbra07",
+        "name": "umbra07"
+      },
+      "date": "2025-03-12T22:39:47 1741819187",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I don&#x27;t see how the DOE promoted this woman&#x27;s style? It seems like cities and districts independently chose to adopt her methodology."
+    },
+    {
+      "id": 43343692,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=zokier",
+        "name": "zokier"
+      },
+      "date": "2025-03-12T14:33:48 1741790028",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Education seems to be moving to computer based systems like GeoGebra and Desmos. So the market for separate calculators is becoming even more niche, mostly just die-hard fans who&#x27;ll get stuff like SwissMicros devices"
+    },
+    {
+      "id": 43191832,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-27T06:17:05 1740637025",
+      "onstory": {
+        "name": "Jeff Bezos' revamp of 'Washington Post' opinions l...",
+        "link": "https://news.ycombinator.com/item?id=43188749"
+      },
+      "text": "<i>From 1932 to 1980 or so the government tried to break up big monopolies to encourage competition</i><p>Starting with FDR and ending with Reagan? I think that the history of US antitrust is more complicated. The first round of trust busting (Sherman Act, Standard Oil) was a generation before FDR, and the period you&#x27;ve highlighted had two great monopolies, AT&amp;T and IBM. I agree that the policy had been pretty much hands off between Microsoft and big tech."
+    },
+    {
+      "id": 43194480,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=PaulHoule",
+        "name": "PaulHoule"
+      },
+      "date": "2025-02-27T14:05:15 1740665115",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "You&#x27;re right about the chronology, it did start around 1900 or so."
+    },
+    {
+      "id": 43173258,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-25T15:36:54 1740497814",
+      "onstory": {
+        "name": "US Space Force reveals first look at secretive X-3...",
+        "link": "https://news.ycombinator.com/item?id=43141037"
+      },
+      "text": "<i>As an example this is used for the Russian GPS system so their satellites can sit in high earth latitudes for longer needing fewer satellites to cover Russia.</i><p>It&#x27;s used for communications satellites and is called the Molniya orbit[1]. Their GLONASS (positioning system) satellites use circular medium altitude orbits, but with a higher inclination (about 65 deg vs. GPS&#x27;s 55 deg).<p>[1] <a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Molniya_orbit\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Molniya_orbit</a>"
+    },
+    {
+      "id": 43171120,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-25T12:41:04 1740487264",
+      "onstory": {
+        "name": "Everyone at NSF overseeing the Platforms for Wirel...",
+        "link": "https://news.ycombinator.com/item?id=43166830"
+      },
+      "text": "<i>taken without consent; every constituent who voted for every representative who ratified the 16th amendment is now dead</i><p>Isn&#x27;t it nice when you get nerd sniped by complete nonsense? I wanted to see what amendments would get invalidated using the quoted line of reasoning, aside from the whole Bill of Rights. Using the date of ratification from Wikipedia and subtracting the voting age at the time gives you the absolute lower limit of the age of any voting constituent:<p><pre><code> Am Ratified VA Latest BD Age ----------------------------------- 1 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 2 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 3 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 4 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 5 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 6 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 7 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 8 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 9 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 10 12&#x2F;15&#x2F;1791 21 12&#x2F;15&#x2F;1770 254 11 02&#x2F;07&#x2F;1795 21 02&#x2F;07&#x2F;1774 251 12 06&#x2F;15&#x2F;1804 21 06&#x2F;15&#x2F;1783 241 13 12&#x2F;06&#x2F;1865 21 12&#x2F;06&#x2F;1844 180 14 07&#x2F;09&#x2F;1868 21 07&#x2F;09&#x2F;1847 177 15 02&#x2F;03&#x2F;1870 21 02&#x2F;03&#x2F;1849 176 16 02&#x2F;03&#x2F;1913 21 02&#x2F;03&#x2F;1892 133 17 04&#x2F;08&#x2F;1913 21 04&#x2F;08&#x2F;1892 132 18 01&#x2F;16&#x2F;1919 21 01&#x2F;16&#x2F;1898 127 19 08&#x2F;18&#x2F;1920 21 08&#x2F;18&#x2F;1899 125 20 01&#x2F;23&#x2F;1933 21 01&#x2F;23&#x2F;1912 113 21 12&#x2F;05&#x2F;1933 21 12&#x2F;05&#x2F;1912 112 22 02&#x2F;27&#x2F;1951 21 02&#x2F;27&#x2F;1930 95 23 03&#x2F;29&#x2F;1961 21 03&#x2F;29&#x2F;1940 84 24 01&#x2F;23&#x2F;1964 21 01&#x2F;23&#x2F;1943 82 25 02&#x2F;10&#x2F;1967 21 02&#x2F;10&#x2F;1946 79 26 07&#x2F;01&#x2F;1971 21 07&#x2F;01&#x2F;1950 74 27 05&#x2F;07&#x2F;1992 18 05&#x2F;07&#x2F;1974 50 </code></pre> Using the SSA cutoff date of 115 years, we see that the 20th and the 21st are a bit iffy, which isn&#x27;t so bad because the 21st is the repeal of the 18th, and the 20th is a bit technical, but: women&#x27;s suffrage is kaput! Slavery is OK again! Senators are to be appointed! Etc. At least term limits still apply, whew."
+    },
+    {
+      "id": 43099075,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-19T06:04:57 1739945097",
+      "onstory": {
+        "name": "A year of uv: pros, cons, and should you migrate",
+        "link": "https://news.ycombinator.com/item?id=43095157"
+      },
+      "text": "I don&#x27;t think it&#x27;s particularly problematic, uv the concurrency library and uv the Python tool cover such non-overlapping domains that opportunities for confusion are minimal.<p>(The principle is recognized in trademark law -- some may remember Apple the record label and Apple the computer company. They eventually clashed, but I don&#x27;t see either of the uv&#x27;s encroaching on the other&#x27;s territory.)"
+    },
+    {
+      "id": 43099427,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=sph",
+        "name": "sph"
+      },
+      "date": "2025-02-19T07:07:39 1739948859",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Sure, there are so few backend Node.js engineers. Let alone game engine developers and Blender users with their UV mapping tools. None of these people will ever encounter Python in their daily lives."
+    },
+    {
+      "id": 43099920,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wiseowise",
+        "name": "wiseowise"
+      },
+      "date": "2025-02-19T08:30:53 1739953853",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": ""
+    },
+    {
+      "id": 43100888,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hu3",
+        "name": "hu3"
+      },
+      "date": "2025-02-19T11:14:48 1739963688",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "That&#x27;s unnecessarily rude."
+    },
+    {
+      "id": 43100418,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=nonameiguess",
+        "name": "nonameiguess"
+      },
+      "date": "2025-02-19T09:53:13 1739958793",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I&#x27;m not sure that&#x27;s true. uvloop, built on libuv, is a pretty popular alternative event loop for async Python, much faster than the built-in. It certainly confused me at first to see a tool called &quot;uv&quot; that had nothing to do with that, because I&#x27;d been using libuv with Python for years before it came out."
+    },
+    {
+      "id": 43103895,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=motorest",
+        "name": "motorest"
+      },
+      "date": "2025-02-19T16:24:17 1739982257",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; I don&#x27;t think it&#x27;s particularly problematic, uv the concurrency library and uv the Python tool cover such non-overlapping domains that opportunities for confusion are minimal.<p>Google returns mixed results. You may assert it&#x27;s not problematic, but this is a source of noise that projects with distinct names don&#x27;t have."
+    },
+    {
+      "id": 43040351,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-13T19:42:10 1739475730",
+      "onstory": {
+        "name": "U.K. demand for a back door to Apple data threaten...",
+        "link": "https://news.ycombinator.com/item?id=43036434"
+      },
+      "text": "Several examples, including blank piece of paper: <a href=\"https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;uk-62883713\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.com&#x2F;news&#x2F;uk-62883713</a>"
+    },
+    {
+      "id": 43040432,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-13T19:49:00 1739476140",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Nothing actually happened to the guy with the blank sheet of paper (or at least, if it did, that’s not reported in the article).<p>Certainly you can find examples of the British police overpolicing protests, and that’s something that people rightly get angry about. It’s just that there’s a huge distance between that kind of thing (which happens pretty much everywhere from time to time - do US police forces have an exemplary record of policing protests?) and the kind of wild claims you can see in this discussion that the UK has become an Orwellian police state."
+    },
+    {
+      "id": 43041340,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=impossiblefork",
+        "name": "impossiblefork"
+      },
+      "date": "2025-02-13T21:04:53 1739480693",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Perhaps, but I am not comparing it to American forces. I&#x27;m Swedish and while I have some things to do with America, mostly indirectly, it&#x27;s not my centre of reference."
+    },
+    {
+      "id": 43057212,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-15T09:28:40 1739611720",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Sweden’s got its own fair share of problems at the moment too.<p>Arguments around citizenship. Problems with gun violence (which the UK and most of countries solved decades ago).<p>It’s not like you couldn’t draw a Mad Max parallel just by looking at the headlines in Swedish news."
+    },
+    {
+      "id": 43044736,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T04:08:36 1739506116",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; the kind of wild claims you can see in this discussion that the UK has become an Orwellian police state.<p>It feels like it&#x27;s always slowly getting closer to that. It certainly seems one of the least free developed or &#x27;allied&#x27; countries."
+    },
+    {
+      "id": 43046145,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-14T08:25:39 1739521539",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Every country is moving in that direction. Thats just how politics is shifting at the moment.<p>I’m not happy about it but you can’t really single the UK out for it."
+    },
+    {
+      "id": 43046171,
+      "lvl": 4,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T08:29:25 1739521765",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "It feels like the UK is in many ways leading the charge, though. The only other country that would be a contender is Australia. It was the UK for example that introduced that barbarian law that conceivably allows imprisoning people that genuinely forget the passwords to their encrypted volumes, and that was I think over a decade ago."
+    },
+    {
+      "id": 43046254,
+      "lvl": 5,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T08:44:25 1739522665",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "How many people have been imprisoned for that? If we’ve had a decade of being an Orwellian police state, it should be quite a few people, no?"
+    },
+    {
+      "id": 43046380,
+      "lvl": 6,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T09:04:33 1739523873",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "The fact that you have the law itself is pretty troubling.<p>And some of the protestors at the coronation of Charles were pretty blatant.<p>And all the examples of police showing up because of a tweet, often not even hateful just not falling in line sufficiently with rightthink."
+    },
+    {
+      "id": 43046648,
+      "lvl": 7,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T09:44:26 1739526266",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Lots of things are troubling. I am complaining about wild exaggerations, not saying that there is nothing to worry about or that the UK is perfect.<p>Unfortunately a lot of people are getting their news from Twitter, from accounts that are obsessed with painting a particular picture of the UK. Have you spent any time in the UK yourself? The impression of it that you’d get from reading HN is unrecognizable to anyone who lives here."
+    },
+    {
+      "id": 43046947,
+      "lvl": 8,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T10:27:25 1739528845",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I don&#x27;t disagree that there are wild exaggerations being made, my point was just that the UK seems further along the path than its peers.<p>&gt; Have you spent any time in the UK yourself? The impression of it that you’d get from reading HN is unrecognizable to anyone who lives here.<p>I lived in Scotland for a while and have been to London often enough. It&#x27;s it&#x27;s mostly just a normal country, but things can change slowly until all of a sudden it&#x27;s unavoidable. The cops showing up to peoples houses for opinions tweets is certainly frequent and concerning."
+    },
+    {
+      "id": 43047074,
+      "lvl": 9,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-14T10:48:22 1739530102",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "You say that but I’ve shared several examples of the same things happening in other countries like America too.<p>So I don’t think the UK is any further along in that regard.<p>There are other areas where the UK <i>is</i> further along though. Such as CCTV surveillance in London. There are also areas where the UK is far less Orwellian, for example our open-mindedness about abortion and gender identity.<p>The UK’s legal system isn’t just defined by what Musk tweets about. ;)"
+    },
+    {
+      "id": 43047256,
+      "lvl": 10,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T11:19:23 1739531963",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; You say that but I’ve shared several examples of the same things happening in other countries like America too.<p>You&#x27;ve shown some protestors getting arrested, but I don&#x27;t believe you can show any equivalent of cops acting as thought police for tweets.<p>&gt; for example our open-mindedness about abortion and gender identity.<p>Funny you say that, because there isn&#x27;t so much open-mindedness as a forced viewpoint. I&#x27;m trans, FWIW, but I don&#x27;t at all agree with sending cops to peoples houses because a ciswoman has doubts about accepting a transwoman completely as a woman.<p>I&#x27;d also say it&#x27;s other western countries being compared to here, and I don&#x27;t think the UK is particularly further ahead than other first world nations, aside from the US where it is very much a red&#x2F;blue state issue."
+    },
+    {
+      "id": 43057196,
+      "lvl": 11,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-15T09:26:01 1739611561",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; You&#x27;ve shown some protestors getting arrested, but I don&#x27;t believe you can show any equivalent of cops acting as thought police for tweets<p>I have elsewhere.<p>&gt; Funny you say that, because there isn&#x27;t so much open-mindedness as a forced viewpoint. I&#x27;m trans, FWIW, but I don&#x27;t at all agree with sending cops to peoples houses because a ciswoman has doubts about accepting a transwoman completely as a woman.<p>I wouldn’t say it’s a forced viewpoint here either.<p>Quite the opposite in fact, there’s a lot of really vocal people in the UK who publicly denounce transgender people."
+    },
+    {
+      "id": 43057271,
+      "lvl": 12,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-15T09:42:01 1739612521",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; I have elsewhere.<p>Could you relink them? I don&#x27;t see anything, and I don&#x27;t think you could show it is to the same extent as in the UK.<p>&gt; I wouldn’t say it’s a forced viewpoint here either.<p>Then why do cops keep showing up for wrongthink?"
+    },
+    {
+      "id": 43064138,
+      "lvl": 13,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-16T00:43:01 1739666581",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Could you relink them? I don&#x27;t see anything, and I don&#x27;t think you could show it is to the same extent as in the UK.<p>No. I’ve said my piece and I’m done.<p>And it isn’t even happening to extent you keep claiming. There’s been lots of evidence posted to prove that point.<p>&gt; Then why do cops keep showing up for wrongthink?<p>They don’t.<p>And I know you’ll follow up with some unverifiable linked to highly disreputable sources which are several years out of date.<p>So let’s just close this argument off by saying you think you know better than everyone else despite not living in the UK nor reading either up-to-date nor reputable sources.<p>And this is precisely why this meme of the UK policing thought persists: because people form an opinion based off silly headlines and then are too singleminded to listen to the full facts.<p>I honestly can’t be bothered any longer on this. I’ve been actively involved in politics around precisely these kinds of issues, but of course you know better than me because it fits your own narrative about how your own country can’t also be going down the shitter."
+    },
+    {
+      "id": 43064269,
+      "lvl": 14,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-16T01:04:57 1739667897",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; No. I’ve said my piece and I’m done.<p>You said this, but then continued to go out of your way to reply to another unrelated comment. Copying and pasting some links would have been less effort.<p>&gt; And it isn’t even happening to extent you keep claiming. There’s been lots of evidence posted to prove that point.<p>Actually my llast reply showed quite the opposite. The scale is much larger, about 2,500 incidents.<p>&gt; They don’t.<p>They do, at least 2500 times. See a recent reply for sources.<p>&gt; And I know you’ll follow up with some unverifiable linked to highly disreputable sources which are several years out of date. &gt; So let’s just close this argument off by saying you think you know better than everyone else despite not living in the UK nor reading either up-to-date nor reputable sources.<p>It&#x27;s a shame here to see you assuming bad faith. This reeks of tribalism, not objective argument.<p>The source I found was from the UK government, so I think that you preemptively dismiss that really shows who is being rational and objective and who is not.<p>&gt; So let’s just close this argument off by saying you think you know better than everyone else despite not living in the UK<p>You keep looking for reasons to dismiss my argument fro reasons other than merit of the argument. This is telling.<p>I lived in the UK for years, actually, and the evidence speaks for itself, no personal experience is necessary.<p>&gt; I honestly can’t be bothered any longer on this.<p>Maybe. You say and wrote this, yet you have a second reply you posted after this that I am about to respond to.<p>I won&#x27;t be surprised if I end up responding yet again."
+    },
+    {
+      "id": 43066532,
+      "lvl": 15,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-16T08:57:53 1739696273",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; It&#x27;s a shame here to see you assuming bad faith. This reeks of tribalism, not objective argument.<p>Because your comments are bad faith.<p>And I’ve addressed all your other nonsense already.<p>What you’re not grasping is the cultural differences between our two police forces.<p>In America, the police go relatively unchecked. They buy ex-military hardware, lie in interrogations, literally kill their own innocent citizens because of their skin colour, and at no point face any repercussions. So laws in the US need to be water tight to prevent abuse — and even then, they still get flouted by those who should be upholding them.<p>Whereas Europe have a hell of a lot more checks and balances for our police forces. Bad cops get struck off. Good cops cannot place charges without approval from a whole other department, and thus not emotionally connected to the case. If police lie or exaggerate in those reports then they’re up for a plethora of serious charges themselves. So UK law often feels more ripe for abuse but that’s because we have stronger processes in place to protect against abuse.<p>Coming back to your original point, you don’t know the seriousness of the comments shared. We’ve already given examples about how online comments can have real and damaging physical consequences. Such as organising riots. People in the US have been charged for doing just the same thing. In the UK the law is called “hate speech” but that’s doesn’t mean that people are being investigated just for saying “I hate x”. Just like how there are multiple different names for different types of reasons and severity of killing someone, “hate speech” is just a term that covers a wide plethora of circumstances. And if — and when — those “hate speech” laws are abused, the police are raked over the coals for overreach.<p>So when you claim “whataboutism” what’s actually happening is I’m demonstrating the cultural differences that you seem oblivious too.<p>When you claim “thought crimes” you’re completely missing the nuance in these cases.<p>And when you’re claiming the police are abusing their powers you’re being, at best, deeply ironic. At worst, deeply ignorant.<p>In fact this whole argument and your single mindedness can be entirely summed up as “deeply ignorant”.<p>So why do UK citizens defend this claim against “thought police”? Because it literally isn’t happening. It’s just some bullshit concocted by right wing media (the same people who talk about rigged elections, “out of control immigration” and other made up bullshit) and Americans who want to feel better about their own shitty police force."
+    },
+    {
+      "id": 43066735,
+      "lvl": 16,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-16T09:34:08 1739698448",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Because your comments are bad faith.<p>No, they are not. I thought you were done? Why are you still replying just to insult?<p>I&#x27;m sorry my view offends you, but unlike you I&#x27;m not <i>trying</i> to offend you, it&#x27;s my honest view and I thin the evidence supports it.<p>If you think I&#x27;m an idiot, fine, but could you maybe just stop replying at this point instead of violating HN guidelines just to let me know? I&#x27;m down to have a civil discussion, but that clearly isn&#x27;t happening at this point, and it isn&#x27;t because of me.<p>&gt; And I’ve addressed all your other nonsense already.<p>It&#x27;s not nonsense, and you haven&#x27;t addressed the desire not to handshake being reported, nor the 2500 or so incorrectly reported NCHIs.<p>---<p>You edited your comment to add a lot after I replied, so I&#x27;ll address it here.<p>&gt; What you’re not grasping is the cultural differences between our two police forces.<p>You forget I lived in the UK for a fairly long time. Also, while I live in the US, I&#x27;m not from the US.<p>&gt; In America, the police go relatively unchecked. They buy ex-military hardware, lie in interrogations, literally kill their own innocent citizens because of their skin colour, and at no point face any repercussions. So laws in the US need to be water tight to prevent abuse — and even then, they still get flouted by those who should be upholding them.<p>You&#x27;re generalizing a country far more than diverse than the UK here in terms of differences in smaller government reigons and their police forces. What you&#x27;ve said here is not universally true for the US by any means, just for certain states.<p>&gt; So UK law often feels more ripe for abuse but that’s because we have stronger processes in place to protect against abuse.<p>In this case, clearly not. The problem is not police abuse, it&#x27;s police showing up at all because someone didn&#x27;t want to shake hands or expressed a non-hateful thought on Twitter.<p>&gt; Coming back to your original point, you don’t know the seriousness of the comments shared.<p>We do, because the people that get harassed by the cops report them.<p>&gt; We’ve already given examples about how online comments can have real and damaging physical consequences.<p>Yes, they can, but that tends to be mobs or cyber bulling, outright insults. The cases that have been reported are not anything like that. If anything, it&#x27;s UK cops being used, manipulated and unwittingly used as weapons, which isn&#x27;t a much better look than if they are being malicious.<p>&gt; Such as organising riots. People in the US have been charged for doing just the same thing.<p>That doesn&#x27;t come under hate speech, but some other laws. Plenty of riots have nothing to do with hate speech, and the issue isn&#x27;t the same. There may be crossover sometimes, but not necessarily.<p>Therefore, people being arrested in the US for organizing riots is entirely irrelevant to what we are discussing.<p>&gt; In the UK the law is called “hate speech” but that’s doesn’t mean that people are being investigated just for saying “I hate x”.<p>Yes, it does, and that&#x27;s exactly the problem! There was literally an article in the Telegraph of that exact thing happening, twice!<p>How is this not blatant denial on your part?<p>&gt; So when you claim “whataboutism” what’s actually happening is I’m demonstrating the cultural differences that you seem oblivious too.<p>How incredibly disingenuous.<p>You mention cops killing black people, which has nothing to do with cultural differences unless you consider racism and lack of training in rural areas in red states cultural differences.<p>No, cultural differences is in no way a justification for your blatant whataboutism. A cop killing an unarmed black man in the US has NOTHING to do with cops showing up at peoples doors in the UK for sharing non hate thoughts online, holding up a blank piece of paper or refusing to shake hands. Honestly it&#x27;s a really crappy thing to try and reduce the killing of an innocent black man to any of those things just to try and save your crummy argument.<p>&gt; When you claim “thought crimes” you’re completely missing the nuance in these cases.<p>No, what&#x27;s happening here is you are giving the benefit of doubt to your government even when there are blatant examples that don&#x27;t warrant it. What is the nuance for the examples in the Telegraph article that would defend against the notion they were thought crimes?<p>&gt; And when you’re claiming the police are abusing their powers you’re being, at best, deeply ironic. At worst, deeply ignorant.<p>More insults. No, I&#x27;m being honest and objective, while you&#x27;re bending over backwards to be tribalistic like the worst examples of Americans, and then because you can&#x27;t actually support your point and I&#x27;m not conceding, resorting to insults and personal attacks.<p>You have no argument, and your attempts to defend your point trying to justify Orwellian actions in the UK by accusing me of cultural misunderstandings (which is funny since I bet I&#x27;ve spent more time in the UK than you&#x27;ve spent in the US) and and likening the UK incidents to the unarmed shooting of a black man are desperate and easily dismissed.<p>&gt; In fact this whole argument and your single mindedness can be entirely summed up as “deeply ignorant”.<p>NO, you&#x27;re simply being deeply arrogant and disingenuous. Your examples you&#x27;ve provided don&#x27;t map to the UK incidents, and when pressed you outwardly make excused to not provide them when asked, despite writing an essay to make the ridiculous argument you did above.<p>You keep accusing me of being ignorant, yet I&#x27;ve lived in the UK for about 5 years, how long did you spend in the US? And except the evidence supports my claims, while you need to reply on interpretations, speculation and bs claims of cultural misunderstandings.<p>&gt; So why do UK citizens defend this claim against “thought police”? Because it literally isn’t happening.<p>Some do, the patriots, others understand the issue and are out protesting against it fighting to keep or regain freedoms. That clearly isn&#x27;t you though. Why fight for an issue when you can deny it and whatbaoutism any attempt to point it out?"
+    },
+    {
+      "id": 43069759,
+      "lvl": 17,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-16T17:25:37 1739726737",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; whataboutism<p>You keep using that word but I don’t think you understand what it means.<p>In this conversation I’m making comparisons. Comparisons are important ways to gauge the effectiveness of policies.<p>What you’re doing is saying comparisons don’t matter because your argument only works if you look at it from a shallow view point.<p>And then you have the audacity to say everyone else is acting in bad faith apart from yourself.<p>&gt; That doesn&#x27;t come under hate speech, but some other laws. Plenty of riots have nothing to do with hate speech, and the issue isn&#x27;t the same. There may be crossover sometimes, but not necessarily.<p>Exactly. US police has the same powers and arrests people for the same things but those laws are named differently.<p>So what you’re banging on about is a misconception based purely on the naming of things."
+    },
+    {
+      "id": 43069969,
+      "lvl": 18,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-16T17:48:20 1739728100",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; You keep using that word but I don’t think you understand what it means.<p>I understand exactly what it means. You might not given how strenuous and unsuccessfully you&#x27;ve been trying to defend yourself against the accusation.<p>From Wikipedia: &quot;Whataboutism or whataboutery (as in &quot;what about ...?&quot;) is a pejorative for the strategy of responding to an accusation with a counter-accusation instead of a defense against the original accusation. &quot;<p>An example would be a British patriot attempting to defend the UK against claims of government overreach and potential thought crime policing by bringing up US cops shooting unarmed black men.<p>&gt; What you’re doing is saying comparisons don’t matter because your argument only works if you look at it from a shallow view point.<p>No, I&#x27;m saying you should defend against the claims made instead of deflecting.<p>&gt; And then you have the audacity to say everyone else is acting in bad faith apart from yourself.<p>Only the people I think are engaging in bad faith, although I don&#x27;t really think that about the other user, and think that far more intensely of you at the moment.<p>&gt; Exactly. US police has the same powers and arrests people for the same things but those laws are named differently.<p>This has to be a deliberation misinterpretation, no other explanation.<p>The laws are not named differently in the US, they are named differently in the UK as well. Laws about organizing riots are not hate speech laws in the UK or the US. Your comparison was nonsense.<p>&gt; So what you’re banging on about is a misconception based purely on the naming of things.<p>Not at all. You&#x27;ve completely lost track of what you&#x27;re talking about and don&#x27;t appear to understand the differences between the US and UK whatsoever, you&#x27;re reaching and thus your bizarre attempt to justify a whataboutism by claiming cultural differences to someone who has a better cultural overview of both countries than you do is failing in a rather embarrassing fashion.<p>I&#x27;ll remind you you said you were done several posts ago and refused to provide sources when asked because you were &#x27;done&#x27; and&#x2F;or it was too much work, yet you continue to put in more effort in your replies. It brings the credibility of your position into question for any objective readers.<p>You said you were done. Just be done. Walk away. Get on with your day, go enjoy a nice cup of tea. Let&#x27;s just agree to disagree, eh?"
+    },
+    {
+      "id": 43047066,
+      "lvl": 9,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T10:47:27 1739530047",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Are you not wildly exaggerating when you suggest that the ‘cops’ <i>frequently</i> show up at people’s houses based on things that they’ve tweeted? There aren’t even enough police officers in the UK for this to be feasible if they wanted to do it."
+    },
+    {
+      "id": 43047241,
+      "lvl": 10,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T11:16:21 1739531781",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I didn&#x27;t mean to imply that it&#x27;s happening any time anyone tweet something, but there have been an alarming number of cases of cops showing up at peoples houses for tweets they&#x27;ve made. A far greater number than anything happening in other western countries, which doesn&#x27;t even have anything close to compare it to.<p>Just to be clear, even 20 times is significant here, I think the actual number is much higher, but even a low number as 20 is concerning when the tweets don&#x27;t promote violence, terrorism, CSASM or anything illegal."
+    },
+    {
+      "id": 43047392,
+      "lvl": 11,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T11:45:48 1739533548",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "What exactly is it that you are saying has happened 20 times? Described in objective terms, not using vague and emotive language like “thought police”, etc etc."
+    },
+    {
+      "id": 43047667,
+      "lvl": 12,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T12:24:20 1739535860",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "People in the UK tweeted something online that didn&#x27;t break any laws.<p>Police showed up to question them.<p>Many of the tweets in question were around gender identity, but were not directly hateful let alone offensive to the point cops need be involved."
+    },
+    {
+      "id": 43047759,
+      "lvl": 13,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T12:39:20 1739536760",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "It’s still not clear where you’re getting the number 20 from or which incidents you’re talking about. But it sounds like these are cases of people being questioned by police and then…not getting arrested because they weren’t committing a crime. I’m not sure what is supposed to be concerning about that in the abstract. Maybe there’s something concerning about the specific incidents, but you don’t seem inclined to give any details about them."
+    },
+    {
+      "id": 43048017,
+      "lvl": 14,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T13:21:37 1739539297",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; It’s still not clear where you’re getting the number 20 from or which incidents you’re talking about.<p>Eh, I think it&#x27;s been abundantly clear enough that a quick search would fill in the blanks, but here is one such example: <a href=\"https:&#x2F;&#x2F;www.dailymail.co.uk&#x2F;news&#x2F;article-6636383&#x2F;Twitter-user-investigated-police-posting-poem-social-media-site.html\" rel=\"nofollow\">https:&#x2F;&#x2F;www.dailymail.co.uk&#x2F;news&#x2F;article-6636383&#x2F;Twitter-use...</a>, and it doesn&#x27;t matter that it&#x27;s from the DM in this case.<p>&gt; But it sounds like these are cases of people being questioned by police and then…not getting arrested because they weren’t committing a crime.<p>The problem is cops showing up at all for people sharing an opinion. The tweets were visible at cop HQ. Sending cops out reads like intimidation which is something cops do in authoritarian societies."
+    },
+    {
+      "id": 43048126,
+      "lvl": 15,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T13:39:29 1739540369",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Were you not aware of the subsequent court judgment in favor of the guy in the 2019 article? <a href=\"https:&#x2F;&#x2F;www.bbc.co.uk&#x2F;news&#x2F;uk-england-lincolnshire-59727118.amp\" rel=\"nofollow\">https:&#x2F;&#x2F;www.bbc.co.uk&#x2F;news&#x2F;uk-england-lincolnshire-59727118....</a> No country can prevent all police officers from doing stupid things at all times, but it’s painting a very one-sided picture to leave out this important context.<p>Incidentally, the Daily Mail is not a news source."
+    },
+    {
+      "id": 43048459,
+      "lvl": 16,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T14:13:04 1739542384",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Were you not aware of the subsequent court judgment in favor of the guy in the 2019 article?<p>It. Doesn&#x27;t. matter. The article linked is but <i>one</i> incident. There&#x27;s been plenty others, some involving public figures. Cops are literally acting like thought police and no, that isn&#x27;t hyperbole.<p>The problem that this occurs in the UK far more widespread than it does. I get you want to defend your country but I think you&#x27;re taking it a bit far here. Denying the issues out of a sense of patriotism is how they worsen.<p>&gt; Incidentally, the Daily Mail is not a news source.<p>As I said, the fact that it was a DM article is irrelevant here."
+    },
+    {
+      "id": 43048609,
+      "lvl": 17,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T14:25:47 1739543147",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Erm, it matters because the police were required to change their approach in light of that court judgment, as explained in the article that I linked. How can it possibly not matter that the checks and balances provided by the court of appeal succeeded in preventing future police action infringing on free speech? It’s because of this court decision that your Google search turned up a Daily Mail article from 2019 and not something more recent!<p>You’ll have to remind me of the Chapter of <i>1984</i> in which the actions of the Thought Police are reined in by a system of legal checks and balances…<p>&gt; Denying the issues out of a sense of patriotism is how they worsen.<p>You’re way off base here. Complaining about the UK is the UK’s national sport. I’m still bitter about Brexit and could write an essay about everything that’s wrong with this silly country. But it’s not a sinister Orwellian police state. If you want something genuinely sinister, look to the motivations of the people posting nonsense about the UK on Twitter."
+    },
+    {
+      "id": 43048984,
+      "lvl": 18,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T15:00:08 1739545208",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Erm, it matters because the police were required to change their approach in light of that court judgment, as explained in the article that I linked.<p>It&#x27;s a UK wide problem seemingly and has happened numerous times since the DM article incident, so clearly not. Maybe one little police dept did, but it&#x27;s a systemic problem or seems to be.<p>&gt; It’s because of this court decision that your Google search turned up a Daily Mail article from 2019 and not something more recent!<p>I pasted the first result I found. I&#x27;m not interested in finding every. single. incident so you can dispute it one by one to keep trying to defend the UK. You either acknowledge there is an issue or you don&#x27;t, for me, the numerous incidents of this happening are a problem, not just isolated incidents being blown out of proportion. You clearly disagree.<p>&gt; You’ll have to remind me of the Chapter of 1984 in which the actions of the Thought Police are reined in by a system of legal checks and balances…<p>Heh. There were building blocks before Big Brother was introduced, and it was no accident the story was set in the UK either.<p>&gt; But it’s not a sinister Orwellian police state.<p>I never said it was. My claim was that it&#x27;s closer to being so than any other first world country. Downplaying cops acting as literal thought police (in that they are <i>literally</i> policing thoughts) is a problem and despite your assertion that your willing to be critical of the UK (which I don&#x27;t doubt but don&#x27;t tae as absolute), reads to me like being patriotic to the point of denying the issues being discussed."
+    },
+    {
+      "id": 43049103,
+      "lvl": 19,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-14T15:11:01 1739545861",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Indeed, it is probably not a coincidence that George Orwell set his novel in the country that he&#x27;s from. I think you might be onto something there!<p>&gt; I&#x27;m not interested in finding every. single. incident so you can dispute it one by one to keep trying to defend the UK<p>When I Google, pretty much every instance of the police interviewing people about transphobic tweets (that aren&#x27;t actually hate speech) occurred before the court judgment I linked to. What you&#x27;re saying in effect is that you want to go with the vibes about the UK you get from Twitter but don&#x27;t want to look into the specifics and check their basis in fact.<p>If you think there are numerous instances of this happening following the court judgment, and that these instances are easy to find by Googling, then it should be easy to provide sources. I am willing to change my mind if you do that, but if you continue to just assert that this is happening frequently without providing evidence, then I won&#x27;t respond further. I personally was able to find exactly one incident by Googling (which I would not entirely trust the Telegraph to report accurately): <a href=\"https:&#x2F;&#x2F;www.telegraph.co.uk&#x2F;news&#x2F;2024&#x2F;11&#x2F;15&#x2F;police-drop-hate-crime-investigation-maya-forstater&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.telegraph.co.uk&#x2F;news&#x2F;2024&#x2F;11&#x2F;15&#x2F;police-drop-hate...</a>"
+    },
+    {
+      "id": 43049195,
+      "lvl": 20,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-14T15:19:14 1739546354",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; It is probably not a coincidence that George Orwell set his novel in the country that he&#x27;s from. I think you might be onto something there!<p>Not so much that it just happened to be where he was from but more that he saw issues in the government of the day, some of which still persist since they seem to be cultural.<p>&gt; When I Google, pretty much every instance of the police interviewing people about transphobic tweets (that aren&#x27;t actually hate speech) occurred before the court judgment I linked to. What you&#x27;re saying in effect is that you want to go with the vibes about the UK you get from Twitter but don&#x27;t want to look into the specifics and check their basis in fact.<p>I&#x27;m aware of several incidents happening after the DM article linked which was six years ago. I&#x27;m not particularly motivated to find incidents and link them here because I think you&#x27;re in a mode to dismiss anything found to try and defend against the notion the UK is less free than it&#x27;s peers. I apologize for not being able to take you at your word that that isn&#x27;t the case.<p>&gt; then I won&#x27;t respond further.<p>I appreciate that, and think that&#x27;s for the best for both of us. Cheers."
+    },
+    {
+      "id": 43061858,
+      "lvl": 14,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rpdillon",
+        "name": "rpdillon"
+      },
+      "date": "2025-02-15T20:11:38 1739650298",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Having the government show up at your door for non-threatening things you&#x27;ve written online is very concerning."
+    },
+    {
+      "id": 43079435,
+      "lvl": 15,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=foldr",
+        "name": "foldr"
+      },
+      "date": "2025-02-17T14:38:02 1739803082",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "There have been some instances of people being inappropriately contacted by the police over things they wrote online. I think that this has largely stopped following the court judgment that I mention downthread. I think there&#x27;s broad agreement here on what the police should and shouldn&#x27;t be doing. The issue is whether it&#x27;s actually accurate to paint a picture of the UK as a country where the police regularly harass people about their online postings. If people in the UK strike you as unduly unconcerned, consider the possibility that it&#x27;s because this isn&#x27;t actually happening to anything like the extent that some people on Twitter would like you to believe that it does.<p>By the way, you seem to be using &#x27;the government&#x27; in a very broad 90s internet libertarian sense. The police in the UK are operationally independent of the government of the day. As Wikipedia explains:<p>&gt; Police officers [in the UK] hold office and are not employees. Each officer is an independent legal official and not an &quot;agent of the police force, police authority or government&quot;. This allows the police their unique status and notionally provides the citizens of the UK a protection from any government that might wish unlawfully to use the police as an instrument against them."
+    },
+    {
+      "id": 43040546,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-13T19:59:19 1739476759",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "That’s not really the same as what’s being discussed though it’s still troubling.<p>Thankfully common sense prevailed and those people weren’t convicted. meanwhile in other “less Orwellian” counties people are getting charged for similar actions:<p><a href=\"https:&#x2F;&#x2F;www.nbcnews.com&#x2F;politics&#x2F;2024-election&#x2F;protester-interrupted-trump-rally-face-misdemeanor-charges-rcna169130\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nbcnews.com&#x2F;politics&#x2F;2024-election&#x2F;protester-int...</a><p>Where’s your freedom of speech there?<p>I’m not saying I agree with Met. But I also don’t agree it proves the UK are charging people for posting internet memes. Which was the original claim."
+    },
+    {
+      "id": 43040919,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-13T20:30:59 1739478659",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; That’s not really the same as what’s being discussed though it’s still troubling.<p>GP mentioned anti-royalist protester arrests and threats of arrest, you asked for a citation, I provided a link to a BBC article discussing those. How is it not &quot;what&#x27;s being discussed&quot;? (At least in the context of this subthread.)"
+    },
+    {
+      "id": 43046134,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hnlmorg",
+        "name": "hnlmorg"
+      },
+      "date": "2025-02-14T08:23:43 1739521423",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Fair point. But as I said, there was more to that story. And under relatively similar circumstances people are charged for protesting under similar laws in other countries too. Including ones that have freedom of speech written directly into their constitution.<p>So while I don’t agree with the UK arrests, it doesn’t prove that the UK is any more Orwellian than any other country."
+    },
+    {
+      "id": 43057519,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kennysoona",
+        "name": "kennysoona"
+      },
+      "date": "2025-02-15T10:38:35 1739615915",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&gt; Thankfully common sense prevailed and those people weren’t convicted. meanwhile in other “less Orwellian” counties people are getting charged for similar actions:<p>&gt; <a href=\"https:&#x2F;&#x2F;www.nbcnews.com&#x2F;politics&#x2F;2024-election&#x2F;protester-int\" rel=\"nofollow\">https:&#x2F;&#x2F;www.nbcnews.com&#x2F;politics&#x2F;2024-election&#x2F;protester-int</a>...<p>Jumping over a barricade and disrupting a speech doesn&#x27;t seem remotely comparable to holding up a blank piece of paper."
+    },
+    {
+      "id": 43014260,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-11T15:51:52 1739289112",
+      "onstory": {
+        "name": "Gulf of America name change in the U.S.",
+        "link": "https://news.ycombinator.com/item?id=43012079"
+      },
+      "text": "&gt; Denali is just the word for &#x27;tall&#x27; in some local dialect. It is not exactly pregnant with meaning.<p>Look up the etymology of Mont Blanc or the Himalayas -- not especially pregnant with meaning either. The point is that using the local name, if it existed, was a pretty well established principle in cartography, made more conspicuous when overlooked, as with Mt. Everest. And Denali."
+    },
+    {
+      "id": 43015190,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=DamnInteresting",
+        "name": "DamnInteresting"
+      },
+      "date": "2025-02-11T17:02:13 1739293333",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "The &#x27;Grand Teton&#x27; mountain in Wyoming is just a French phrase meaning &#x27;big boob&#x27;.[1] And &#x27;McKinley&#x27; was just some politician who had never even laid eyes on his namesake lump of rock.<p>[1] <a href=\"https:&#x2F;&#x2F;www.davehansenwhitewater.com&#x2F;how-the-tetons-got-their-name\" rel=\"nofollow\">https:&#x2F;&#x2F;www.davehansenwhitewater.com&#x2F;how-the-tetons-got-thei...</a>"
+    },
+    {
+      "id": 43020834,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=marcusverus",
+        "name": "marcusverus"
+      },
+      "date": "2025-02-12T01:46:06 1739324766",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "&quot;Mont Blanc&quot;? The descendants of the celtic peoples who originally populated the area would take issue with that moniker. They didn&#x27;t have a true written language back in the daye, but they did have a rune-like symbol for that mountain that looks just like unicode character U+1F4A9. Hopefully in time we will all refer to the mountain in a more respectful way."
+    },
+    {
+      "id": 42932879,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-02-04T14:38:53 1738679933",
+      "onstory": {
+        "name": "Dolní Vĕstonice Portrait Head: The oldest known hu...",
+        "link": "https://news.ycombinator.com/item?id=42926423"
+      },
+      "text": "(Not related to the sculpture, just a bit of pedantry.) I appreciate the attempt to render the name of the locality in the present-day local alphabet (Czech), but the diacritic above the &#x27;e&#x27; in &quot;Vĕstonice&quot; is wrong: the letter is &quot;letter e with breve&quot;, but should be &quot;letter e with caron&quot;, giving &quot;Věstonice&quot;."
+    },
+    {
+      "id": 42933227,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=0_____0",
+        "name": "0_____0"
+      },
+      "date": "2025-02-04T15:05:51 1738681551",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Here&#x27;s those two characters together for comparison. It took me a while to figure out what you were talking about because the two render so closely in smaller text.<p>breve&#x2F;carom<p>ĕ &#x2F; ě"
+    },
+    {
+      "id": 42933255,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=vanous",
+        "name": "vanous"
+      },
+      "date": "2025-02-04T15:08:20 1738681700",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Interestingly enough, searching for ě on the page finds the ĕ as well, but so does search for e..."
+    },
+    {
+      "id": 42933305,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bradrn",
+        "name": "bradrn"
+      },
+      "date": "2025-02-04T15:13:04 1738681984",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "At least in Firefox the search pane has a ‘Match Diacritics’ option. Turning it on causes it to match only the precise characters in the textbox. (It’s slightly misnamed, since it doesn’t just handle diacritics, but also cases like ⟨e⟩ vs ⟨ɛ⟩.)"
+    },
+    {
+      "id": 42936375,
+      "lvl": 3,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=layer8",
+        "name": "layer8"
+      },
+      "date": "2025-02-04T18:16:11 1738692971",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "The wonders of Unicode collation folding: <a href=\"http:&#x2F;&#x2F;www.unicode.org&#x2F;reports&#x2F;tr10&#x2F;#Collation_Folding\" rel=\"nofollow\">http:&#x2F;&#x2F;www.unicode.org&#x2F;reports&#x2F;tr10&#x2F;#Collation_Folding</a>"
+    },
+    {
+      "id": 42937114,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=thih9",
+        "name": "thih9"
+      },
+      "date": "2025-02-04T19:08:51 1738696131",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "It’s:<p><pre><code> ◡ ˅ e vs e</code></pre>"
+    },
+    {
+      "id": 42943229,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pxmpxm",
+        "name": "pxmpxm"
+      },
+      "date": "2025-02-05T03:11:32 1738725092",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "Huh what language uses the curvey one? The czech háček is essentially upside down ^ over the letter"
+    },
+    {
+      "id": 42828202,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-01-26T06:38:29 1737873509",
+      "onstory": {
+        "name": "DeepSeek-R1: Incentivizing Reasoning Capability in...",
+        "link": "https://news.ycombinator.com/item?id=42823568"
+      },
+      "text": "It was France:<p><a href=\"https:&#x2F;&#x2F;www.businessinsider.com&#x2F;french-california-high-speed-rail-north-africa-biden-trump-2022-10\" rel=\"nofollow\">https:&#x2F;&#x2F;www.businessinsider.com&#x2F;french-california-high-speed...</a><p>Doubly delicious since the French have a long and not very nice colonial history in North Africa, sowing long-lasting suspicion and grudges, and <i>still</i> found it easier to operate there."
+    },
+    {
+      "id": 42811048,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-01-24T06:43:45 1737701025",
+      "onstory": {
+        "name": "Hacking Subaru: Tracking and controlling cars via ...",
+        "link": "https://news.ycombinator.com/item?id=42803279"
+      },
+      "text": "I&#x27;ll try to dig up the criteria someday, if they&#x27;re written down, but I imagine that &quot;anything that triggered airbag inflation&quot; is a good approximation."
+    },
+    {
+      "id": 42800922,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-01-23T05:13:01 1737609181",
+      "onstory": {
+        "name": "Google Fiber is coming to Las Vegas",
+        "link": "https://news.ycombinator.com/item?id=42798293"
+      },
+      "text": "<i>Ireland is the most NIMBY, which is why its population is lower now than in the 1800s</i><p>Uh, are you sure that you haven&#x27;t disregarded the Great Libertarian Sociological Experiment of 1847 in your reasoning?"
+    },
+    {
+      "id": 42800986,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=defrost",
+        "name": "defrost"
+      },
+      "date": "2025-01-23T05:24:21 1737609861",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "<p><pre><code> “[The Famine] is a punishment from God for an idle, ungrateful, and rebellious country; an indolent and un-self-reliant people. The Irish are suffering from an affliction of God’s providence.” “The judgment of God sent the calamity to teach the Irish a lesson. That calamity must not be too much mitigated. The greater evil with which we have to contend is not the physical evil of the famine, but the moral evil of the selfish, perverse and turbulent character of the Irish people.” </code></pre> ~ Sir Charles Trevelyan, 1st Baronet, Assistant Secretary to Her Majesty’s Treasury, 1847 (Knighted, 1848, for overseeing famine relief)<p><a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;yvKTG8pE_70?t=526\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;yvKTG8pE_70?t=526</a>"
+    },
+    {
+      "id": 42803414,
+      "lvl": 2,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=rsynnott",
+        "name": "rsynnott"
+      },
+      "date": "2025-01-23T12:43:01 1737636181",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "I mean, I suppose when you make a really _catastrophic_ fuckup at work, saying &quot;God did it&quot; is... an option?"
+    },
+    {
+      "id": 42807778,
+      "lvl": 1,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=astrange",
+        "name": "astrange"
+      },
+      "date": "2025-01-23T20:32:50 1737664370",
+      "onstory": {
+        "name": "",
+        "link": ""
+      },
+      "text": "That was a long time ago. Also, it only recently recovered to the level from 1851."
+    },
+    {
+      "id": 42707969,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=inejge",
+        "name": "inejge"
+      },
+      "date": "2025-01-15T06:27:03 1736922423",
+      "onstory": {
+        "name": "Road signs to help people limit radiation exposure...",
+        "link": "https://news.ycombinator.com/item?id=42704491"
+      },
+      "text": "<i>[...] they mention supervised traffic, so presumably at some point people standing outside next to speeding traffic and radiation.</i><p>It can be supervised at entry&#x2F;exit points, which is what I infer from the text. A bit like the highway across East Germany to West Berlin during the Cold War."
+    },
     {
       "id": 42397546,
       "lvl": 0,
@@ -36,7 +2038,7 @@
       "date": "2024-12-12T12:05:56 1734005156",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Also, the OAuth RFC does not use &quot;MUST&quot; for 400 response and allows some freedom in this regard:<p>&gt; The authorization server responds with an HTTP 400 (Bad Request) status code (unless specified otherwise)<p><a href=\"https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc6749#section-5.2\" rel=\"nofollow\">https:&#x2F;&#x2F;datatracker.ietf.org&#x2F;doc&#x2F;html&#x2F;rfc6749#section-5.2</a>"
     },
@@ -50,7 +2052,7 @@
       "date": "2024-12-12T18:48:00 1734029280",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "That’s fair, I picked a bad example from the linked article. GitHub is actually pretty good. But if you’ve done any digging around LinkedIn&#x2F;twitter&#x2F;Reddit’s API, you’ll know that there are many many quirks that will pop up and cost you days of frustration. Quirks that are <i>not</i> inspired by any particular design philosophy, unless that philosophy is “let’s fuck with our users” lmao"
     },
@@ -78,7 +2080,7 @@
       "date": "2024-12-08T20:43:47 1733690627",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": ""
     },
@@ -92,7 +2094,7 @@
       "date": "2024-12-08T20:52:45 1733691165",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; The gleeful mockery is largely from anonymous accounts. I remember when the same type of thing was attributed to &quot;Russian bots&quot; after the 2016 election.<p>I worked in medical-adjacent areas for a decade. I dated a doctor, and I asked him what people feel in his hospital about that.<p>He said that basically NOBODY has any sympathy for this CEO. The most concern is at the level of &quot;we shouldn&#x27;t condone murders&quot;. And you don&#x27;t see even uglier statements because people are very much aware of medical ethics boards.<p>And that&#x27;s an opinion from a highly-paid medical professional."
     },
@@ -106,7 +2108,7 @@
       "date": "2024-12-08T20:59:10 1733691550",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": ""
     },
@@ -120,7 +2122,7 @@
       "date": "2024-12-08T21:47:54 1733694474",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Thompson is not responsible for the existence of the insurance industry<p>Surely he bears <i>some</i> responsibility for making UHC the worst to deal with and the having the highest rejection rate?<p>&gt; What I do see is a strong push by media ...<p>Why would the media push a narrative against any executive if it wasn&#x27;t already part of the zeitgeist? The media has consistently exhibited strong class solidarity in my experience.<p>&gt; Doctors well-know this, and they become doctors knowing this.<p>I&#x27;m sure you are aware that doctors are not a monolith. Gp is not making things up: I&#x27;ll second them with the less-than-sorrowful response elicited by the news of the CEOs demise among administrative staff in my circles (who know how the industry works and what role is performs)<p>&gt; The Media last sympathized with and incited murderous violence in the 2020 election period.<p>Gee, I wonder if the public discontent the media and politicians tapped into in 2020 has abated or gotten worse since. It appears you refuse to acknowledge that a huge fraction of the population is unhappy with the status quo across the world (see number of governments voted out). That America has a populist president-elect isn&#x27;t surprising"
     },
@@ -134,7 +2136,7 @@
       "date": "2024-12-08T22:47:16 1733698036",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt;Surely he bears some responsibility for making UHC the worst to deal with and the having the highest rejection rate?<p>If so, and barring subjectivity and narrative, then not responsibility with a penalty of death. Very obviously.<p>&gt;Why would the media push a narrative against any executive if it wasn&#x27;t already part of the zeitgeist? The media has consistently exhibited strong class solidarity in my experience.<p>Extrajudicial murder and domestic terrorism are part of the zeitgeist of most people? This is your claim?<p>This is some kind of new standard for a stupid statement. Aside from you being wrong in more than one aspect, I&#x27;m not going to debate your sense of media class loyalty. Which you are wrong about in a multifaceted manner.<p>The fact is that they are pushing the narrative. It&#x27;s in black and white.<p>&gt;I&#x27;m sure you are aware that doctors are not a monolith. Gp is not making things up: I&#x27;ll second them with the less-than-sorrowful response elicited by the news of the CEOs demise among administrative staff in my circles (who know how the industry works and what role is performs)<p>I didn&#x27;t say that they were. But they are largely, monolithically not insane, not murderer adjacent, and not domestic terrorist adjacent.<p>Your appeal to authority stories are either total bs or aberrations full of people that should probably be surveilled by law enforcement.<p>&gt;Gee, I wonder if the public discontent the media and politicians tapped into in 2020 has abated or gotten worse since. It appears you refuse to acknowledge that a huge fraction of the population is unhappy with the status quo across the world (see number of governments voted out). That America has a populist president-elect isn&#x27;t surprising<p>Trump supporters are not remotely supportive of this, barring fringe crazies and false identities.<p>The media didn&#x27;t &quot;tap into&quot; anything in 2020. They wound-up a vast quasi-criminal underclass and organized domestic terrorists for nine months, and over thirty murders of innocents, running up to an election for a candidate that they were on a war-footing against for the four years prior.<p>They gave tacit and even direct permission to riot, and political cover for the riots, which is all that these criminals need in any given timeframe to carry out domestic terrorism and extrajudicial murders.<p>Now they&#x27;re at it again, right after another election.<p>People who sympathize with this type of thing are, at the least, domestic terrorism adjacent. If not directly supportive.<p>You should be monitored."
     },
@@ -148,7 +2150,7 @@
       "date": "2024-12-08T23:19:44 1733699984",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Trump supporters are not remotely supportive of this<p>So, the guys who brought&#x2F;assembled gallows to the capital and were chanting &quot;Hang Mike Pence&quot; are not supportive of extrajudicial killings? We&#x27;re not on the same plane of existence, you and I.<p>&gt; People who sympathize with this type of thing are, at the least, domestic terrorism adjacent<p>I remember a chyron at a national convention stating &quot;We are all domestic terrorists&quot; - perhaps stoking that flame was not a great idea now, was it? What&#x27;s your take on those who refuse to take any action on mass shootings at schools?<p>&gt; You should be monitored.<p>You&#x27;d love that, wouldn&#x27;t you? The Stasi would be proud. Establishing a police state with dragnet surveillance is a <i>fantastic</i> tool for fighting disaffection and will surely improve morale."
     },
@@ -162,7 +2164,7 @@
       "date": "2024-12-08T21:17:23 1733692643",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I believe you might be in your own bubble.<p>Most people quite obviously don&#x27;t want to incite violence, but at the same time, doctors can&#x27;t get much sympathy for this particular CEO."
     },
@@ -176,7 +2178,7 @@
       "date": "2024-12-08T21:23:51 1733693031",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I&#x27;m not, and doctors are plenty sympathetic because most are plenty normal. You and your supposed friend are objectively deranged."
     },
@@ -190,7 +2192,7 @@
       "date": "2024-12-08T22:01:17 1733695277",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "You&#x27;re in a bubble. Four of my family members are in the medical business plus three friends. Two are doctors. Only one person has expressed sympathy and that was for the family. The rest were exactly as OP described: we don&#x27;t condone murders, they hope this person is brought to justice, but they don&#x27;t <i>feel</i> any sympathy. Emphasis on the the emotion there - no disgust, no sadness, no sympathy. Just a logical recognition that they don&#x27;t condone this."
     },
@@ -204,7 +2206,7 @@
       "date": "2024-12-08T21:39:57 1733693997",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Honestly, between Gaza, Israel, Ukraine, Yemen, Ethiopia, RDC&#x2F;rwanda, and the various weather event who killed thousands, my available empathy is gone. Nothing i can do. I gave money and time for a decade, nothing ever improve.<p>You know what i first thought when i heard this story? &quot;At least he didn&#x27;t shoot a hospital&quot;. You know what my second thought on this? &quot;I hope there is enough hero worshiping for this killer so that mass shooters try their hand at murdering CEO instead, at least it&#x27;s a single victim&quot; (that is also because 2 days prior, a friend i&#x27;ve met in a youth hostel a few years back was involved in a mass shooting around Chicago).<p>I won&#x27;t participate in the hero worship, i despise all killers. But still, am i the only one who had those thoughts?"
     },
@@ -218,7 +2220,7 @@
       "date": "2024-12-08T21:12:38 1733692358",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; There&#x27;s massive sympathy for Thompson.<p>From whom?<p>Other than LinkedIn posts from his fellow travellers in the health insurance industry, significant public expression of sympathy is hard to find."
     },
@@ -232,7 +2234,7 @@
       "date": "2024-12-08T21:15:52 1733692552",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt;From whom?<p>Everyone who doesn&#x27;t sympathize with violent political extremism.<p>In other words everyone who isn&#x27;t a bot, isn&#x27;t on any number of watchlists, isn&#x27;t terminally online, isn&#x27;t a drug addled crazy, or isn&#x27;t one of the media that exists to stir them up for political purpose."
     },
@@ -246,7 +2248,7 @@
       "date": "2024-12-08T21:40:21 1733694021",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Everyone<p>My parents are none of whom you listed yet they do not have &quot;massive sympathy&quot; for this CEO. Perhaps &quot;everyone&quot; is inaccurate?"
     },
@@ -260,7 +2262,7 @@
       "date": "2024-12-08T21:56:01 1733694961",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "So everyone who messaged you privately in support of your position?"
     },
@@ -274,7 +2276,7 @@
       "date": "2024-12-08T21:47:29 1733694449",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "where&#x27;s your evidence of this massive sympathy?<p>I bet even his own family isn&#x27;t too sad about this - most C-Levels I&#x27;ve worked with are grade A psychopaths whose family doesn&#x27;t care for them besides money<p>this guy is probably moderately responsible for a significant amount of needless suffering and death"
     },
@@ -302,7 +2304,7 @@
       "date": "2024-12-07T01:10:53 1733533853",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Thanks for clarifying. I suppose I could have Googled before posting. ;-)"
     },
@@ -330,7 +2332,7 @@
       "date": "2024-10-25T05:47:01 1729835221",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "never met that person. as someone that has long lived in cities with amazing transportation (sf is not one of those with good transportation) there are too many options and people always want whatever is best now, not routine.<p>you&#x27;re out drinking - which mode is last. you&#x27;re on the east side of X, which route is closest. you&#x27;re tired, does any route guauntee a seat. etc....<p>Berlin, London, Paris, Tokyo, Singapore, Kyoto, Osaka. All this way . there is no &quot;one train&quot;"
     },
@@ -344,7 +2346,7 @@
       "date": "2024-10-25T09:59:44 1729850384",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "<i>&gt; never met that person.</i><p>Hello! Now you have.<p>In many cities certain parts of the transit network follow a star &#x2F; hub-and-spoke layout. The station nearest to my house is on a spoke, and has trains going south and those going north. So for me, an in-home train display only really needs to show the next train in each direction.<p>And a lot of transit decisions are conditional on things the planning app doesn&#x27;t know. Am I comfortable riding a hire bike, appropriately dressed, and carrying a helmet? Do I already have a return ticket for the light rail making it the obvious choice? Am I the kind of person who enjoys a brisk 20 minute walk?<p>Combine that with the fact that the multimodal transit apps don&#x27;t understand fares, and I find it&#x27;s simpler to just start the taxi app if you need a taxi."
     },
@@ -358,7 +2360,7 @@
       "date": "2024-10-25T11:12:09 1729854729",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Combine that with the fact that the multimodal transit apps don&#x27;t understand fares<p>Kakao Maps will give you exact timing and fares for every mode except air<p>&gt; In many cities certain parts of the transit network follow a star &#x2F; hub-and-spoke layout<p>Yeah those who live on a spoke and mostly go back and forth that spoke are a minority because the farthter away from the center the more space between the spokes:)"
     },
@@ -372,7 +2374,7 @@
       "date": "2024-10-25T13:55:52 1729864552",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I feel like the OP is overcomplicating the solution, I don&#x27;t own a car and all commuting is basically either:<p>- bus&#x2F;train&#x2F;tram crosses my stop 5 times a day - its trivial to learn the 5 times<p>- bus&#x2F;train&#x2F;tram crosses my stop more than 5 times a day - i just show up at the stop and wait<p>Perhaps my point of view is like this because I&#x27;m in Europe, I can&#x27;t tell really."
     },
@@ -386,7 +2388,7 @@
       "date": "2024-10-25T21:22:26 1729891346",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Even though most times my train comes every 15 Minutes (and in other places even every 5), I still check for: Disruptions and I try to catch the train exactly. I often get on the platform a minute before the train departs and rarely miss it."
     },
@@ -400,7 +2402,7 @@
       "date": "2024-10-28T10:35:37 1730111737",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Are you sure you didn&#x27;t mean 5 times per <i>hour</i>? Turn up and go for a six times a <i>day</i> service seems a bit optimistic :-)"
     },
@@ -414,7 +2416,7 @@
       "date": "2024-10-25T18:23:08 1729880588",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I would find this slightly useful, I live in Madrid. For most of my trips I take the metro; I have two lines nearby, and they are frequent enough that I just show up. But there are a few parts of town that are just not well connected to my place by metro. If I want to go to Atocha, Cibeles or Piramides, the bus is better. But I have three buses that take me to each of those places, and they show up every 25 minutes. If I&#x27;m going there, I want to know which stop will have a bus soonest."
     },
@@ -428,7 +2430,7 @@
       "date": "2024-10-26T16:12:59 1729959179",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I also live in Madrid. Many years ago, wrote a bash script that downloaded the real time data for the bus stop nearest to home from the EMT website and read out loud the minutes for the next bus with festival. We had a keyboard next to the couch, many keys were shortcuts to execute commands like that one. So it was a matter of pushing a key and listening."
     },
@@ -456,7 +2458,7 @@
       "date": "2024-10-23T09:19:08 1729675148",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Thanks - it is too! I saw that when searching, but dismissed it as not what i remembered. Your comment made me take a closer look."
     },
@@ -484,7 +2486,7 @@
       "date": "2024-10-10T15:47:14 1728575234",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; staring at nothing would be suspicious in the situations where &quot;exit page&quot; is supposed to be used.<p>This is actually not true. Having a browser opened leads to the thought of &quot;let&#x27;s check the previous page&#x2F;browser history&quot; easier (since the browser is right there to remind you) than a situation of &quot;oh, I&#x27;ve just logged in&quot; or the activity of doing anything else leads to the thought of having to check a browser"
     },
@@ -498,7 +2500,7 @@
       "date": "2024-10-10T11:42:09 1728560529",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Anyone who is smart enough to use this weird triple shift key shortcut is intelligent enough to preload a different site in another tab and use the close tab shortcut. I would guess there is almost complete venn diagram overlap between people who can learn this weird shortcut and people who can deal with this threat in any other way using normal browser functions."
     },
@@ -512,7 +2514,7 @@
       "date": "2024-10-10T07:28:44 1728545324",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "First, you wouldn&#x27;t be staring at nothing, you&#x27;d be reopening the browser &#x2F; opening Solitaire or something<p>But also a better way would be to ask the user to open a second tab (or another app) so that it&#x27;s not the only tab&#x2F;app.<p>Still beats remembering a unique shortcut."
     },
@@ -526,7 +2528,7 @@
       "date": "2024-10-10T14:47:37 1728571657",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Time is of the essence when you&#x27;re hitting an escape shortcut. That&#x27;s why this component blanks the page immediately, then loads the decoy, there can be no delay even for the browser to tear down the page as it fetches the next. If you have enough time to just go and open Solitaire, you have no need for an escape button.<p>If you are with someone who cannot know what you are doing, who has appeared suddenly, you are quickly closing what you&#x27;re doing and, yes, you will be looking at a blank page without some sort of escape mechanism like this. And if it&#x27;s sudden and unexpected, you might not have been anticipating needing to pop open some decoys.<p>This seems like a complete misunderstanding of the situation."
     },
@@ -540,7 +2542,7 @@
       "date": "2024-10-10T15:43:44 1728575024",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "If time is of the essence, why are you wasting it requiring 3 key presses and a site load? It take longer to do that vs a single shortcut, and is more visible (pages don&#x27;t load immediately)<p>&gt; If you have enough time to just go and open Solitaire, you have no need for an escape button.<p>You don&#x27;t have enough time to complete that, you do that not to appear just staring at a blank screen. Activity of opening Solitaire is enough in itself.<p>&gt; who cannot know what you are doing,<p>which is easier achieved when the browser is closed vs. when a browser is opened, since in the latter case it&#x27;s easier to think about checking &quot;previous&quot; browser history<p>&gt; This seems like a complete misunderstanding of the situation.<p>Indeed, so much so that this overengineered-but-underthought solution has none of the supposed benefits under the conditions people come up with to defend it"
     },
@@ -554,7 +2556,7 @@
       "date": "2024-10-10T16:51:12 1728579072",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "At this point I have to assume that this is willful. You are continuing to ignore things that have been addressed by both myself in my last comment and the article. I invite you to read the article more deeply and look into the actual research backing these UI patterns if you are genuinely struggling to understand."
     },
@@ -568,7 +2570,7 @@
       "date": "2024-10-11T08:05:41 1728633941",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Likewise I assume you have no arguments left, so &quot;have to&quot; resort to the meta &quot;read more&quot; and imaginary research"
     },
@@ -582,7 +2584,7 @@
       "date": "2024-10-11T10:09:59 1728641399",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "And I&#x27;d advise against thinking that you that you have thought of things within 5 minutes that, inexplicably, researched, data-backed experts have missed so easily. That&#x27;s a mindset that does not lend itself to intellectual growth.<p>In almost all cases, it&#x27;s not just so obvious that the experts in a field are so misguided. It&#x27;s that there is complexity and depth that is not perceivable at a glance."
     },
@@ -596,7 +2598,7 @@
       "date": "2024-10-11T10:34:04 1728642844",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The army of &quot;researched, data-backed experts&quot; behind you is imaginary. So instead of repeating the same appeal to an imaginary authority I&#x27;d advise you cite a single good UI research study where a slower site-specific shortcut is better that a more common faster one when &quot;time is of the essence&quot; (and whatever else you think is based on &quot;expert research&quot;)"
     },
@@ -624,7 +2626,7 @@
       "date": "2024-09-13T07:44:15 1726213455",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The original Voyager line used silicon-on-sapphire chips, which are extremely energy efficient. My 1987 vintage HP-15C is only on its third set of batteries. When they changed to a conventional CMOS process and emulated the original CPU on top of an ARM microcontroller the power drain went up."
     },
@@ -638,7 +2640,7 @@
       "date": "2024-09-13T12:23:03 1726230183",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I still use my two vintage 15Cs for simple calculations on a regular basis, and change the batteries every decade or so.<p>To be fair, lack of self-discharge in the battery chemistry has a lot to do with the long battery life; you can actually drain the batteries fairly quickly with long-running calculations."
     },
@@ -652,7 +2654,7 @@
       "date": "2024-09-13T20:12:12 1726258332",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I&#x27;ve had other HPs (28C, 48SX, 48GX, 33S, 35S, 49G, 50G, Prime) but the 15C is the one I keep returning to, as anything more powerful really should be handled on a computer CAS like Mathics or Matlab-like environment like Octave instead."
     },
@@ -666,7 +2668,7 @@
       "date": "2024-09-13T15:01:52 1726239712",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "LR and CR cells don&#x27;t contain mercury and never have. The original 12c battery was a MR44. &#x27;L&#x27; is manganese alkaline, &#x27;C&#x27; is lithium, &#x27;M&#x27; is mercury."
     },
@@ -680,7 +2682,7 @@
       "date": "2024-09-13T16:37:25 1726245445",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "All those cells have a zinc anode, which used to be amalgamated with a small amount of mercury to prevent corrosion and leakage[1]. (Mercuric oxide batteries certainly contain even more.)<p>[1] <a href=\"https:&#x2F;&#x2F;www.epa.gov&#x2F;mercury&#x2F;mercury-batteries\" rel=\"nofollow\">https:&#x2F;&#x2F;www.epa.gov&#x2F;mercury&#x2F;mercury-batteries</a>"
     },
@@ -736,7 +2738,7 @@
       "date": "2024-07-21T05:52:11 1721541131",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "A customer should be able to test an update, whether a signature file or literally any kind of update, before rolling it out to production systems. Anything else is madness. Being &quot;vulnerable&quot; for an extra few hours carries less risk than auto-updates (of any kind) on production systems. As we&#x27;ve seen here. If you can point to hard evidence to the contrary, where many companies were saved just in time because of a signature update and would have been exploited if they&#x27;d waited a few hours, I&#x27;d love to read about it. It would have to have happened on a rather large scale for all of the instances combined to have had a larger positive impact than this single instance."
     },
@@ -750,7 +2752,7 @@
       "date": "2024-07-21T05:51:49 1721541109",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "But is there a need for quick global releases?<p>Is it realistic that there&#x27;s a threat actor that will be attacking every computer on the whole planet at once?<p>I can understand that it&#x27;s most practical to update <i>everyone</i> when pushing an update to protect <i>a few</i> actively under attack but I can also imagine policies where that isn&#x27;t how it&#x27;s done, while still getting urgent updates to those under attack."
     },
@@ -764,7 +2766,7 @@
       "date": "2024-07-21T07:19:15 1721546355",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Is there a need? Maybe, possibly, depends on circumstances.<p>Is this what people are paying CS for? Absolutely."
     },
@@ -778,7 +2780,7 @@
       "date": "2024-07-21T08:37:51 1721551071",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "After this I imagine there will be an option &quot;do you want updates immediately, or updates when released - n, or n+2, n+6, n+24, n+48 hrs?&quot;<p>Given the choice I bet there&#x27;s going to be surprisingly large number of orgs go &quot;we&#x27;ll take n+24hrs thanks&quot;"
     },
@@ -806,7 +2808,7 @@
       "date": "2024-07-14T15:30:08 1720971008",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "No. The _ability_ to exploit it &quot;en-masse&quot; didn&#x27;t exist 30 years ago. Random dell advertisement shows 16mb RAM (max 64mb), and 450mb HD. <a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;nostalgia&#x2F;comments&#x2F;49o9tm&#x2F;dell_optiplex_magazine_advertisement_from_1994&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;nostalgia&#x2F;comments&#x2F;49o9tm&#x2F;dell_opti...</a><p>Keep in mind, these are Mb, not Gb!<p>Nowadays with a raspberry pi and a 128gb SD card you can go to town on &quot;all location data for the last year for all American cell phones&quot;.<p>Back in 1994, even coordinating reliable central writes of all that location data would have been extraordinarily complicated, and there was not yet a panopticon appetite that would attempt the endeavor without a heavily funded psychopath behind it.<p>As &quot;we the industry&quot; have gotten more capable (and comfortable) processing huge quantities of data (eg: post map-reduce), and the hardware requirements have fallen to &quot;my cell phone could compute it in an hour&quot;, the risk has increased tremendously.<p>Same story with muskets, cannons and tanks vs AK-47&#x27;s. &quot;Gun Control&quot; in the musket era is materially different than an era of AK-47&#x27;s and drones. Same with data processing."
     },
@@ -820,7 +2822,7 @@
       "date": "2024-07-14T16:03:54 1720973034",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Well, in the musket era, private individuals owned ships with canons that could reach right into the middles of cities."
     },
@@ -862,7 +2864,7 @@
       "date": "2024-06-18T05:20:28 1718688028",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I could swear at one point you needed one, but I just half-setup opendkim and it generated one without me needing to make one by hand... when I get around to updating the DNS on my personal domains, I guess I&#x27;ll see how things turn out."
     },
@@ -932,7 +2934,7 @@
       "date": "2024-03-30T23:36:33 1711841793",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Transhab is kinda still around (or at least was until the pandemic), and even has a fully functional package hooked up to the ISS:<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;TransHab\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;TransHab</a><p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bigelow_Expandable_Activity_Module\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Bigelow_Expandable_Activity_Mo...</a><p>Image sequence of it inflating in space:<p><a href=\"https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:BEAM_module_expansion_series.jpg\" rel=\"nofollow\">https:&#x2F;&#x2F;commons.wikimedia.org&#x2F;wiki&#x2F;File:BEAM_module_expansio...</a>"
     },
@@ -946,7 +2948,7 @@
       "date": "2024-03-30T16:26:31 1711815991",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Was that the scheme that used the rocket engine with piston pumps?"
     },
@@ -960,7 +2962,7 @@
       "date": "2024-03-30T18:20:59 1711822859",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "An excellent bit of trivia!<p>As if spacecraft particulary Rocketships weren’t phallic enough already"
     },
@@ -996,13 +2998,13 @@
       "id": 39679339,
       "lvl": 1,
       "user": {
-        "link": "https://news.ycombinator.com/user?id=LinuxBender",
-        "name": "LinuxBender"
+        "link": "https://news.ycombinator.com/user?id=Bender",
+        "name": "Bender"
       },
       "date": "2024-03-12T13:38:52 1710250732",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Adding to this if I am not running my own nameservers I can not watch DNS requests to see how bots are evolving. I sometimes take evasive maneuvers to trip up the bots. Some ... <i>well most</i> ... would say I should be using Cloudflare for such things but I am not even going to write up a blog on why I will not. I run my own servers for anything I can and then my hobby is to play blue team with the bots and skiddies. I can&#x27;t do that with other peoples nameservers."
     },
@@ -1030,7 +3032,7 @@
       "date": "2024-03-05T00:37:11 1709599031",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Dammit how did I miss her!? She got handed the poisoned chalice by Cameron..."
     },
@@ -1044,7 +3046,7 @@
       "date": "2024-03-04T14:16:25 1709561785",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "lets face it both are forgettable"
     },
@@ -1058,7 +3060,7 @@
       "date": "2024-03-04T15:02:00 1709564520",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "You _want_ a forgetttable politician. I don&#x27;t really agree with Theresa May&#x27;s general politics, but she&#x27;s a competent politician who knows what the job entails.<p>Liz Truss was _definitely_ not forgettable."
     },
@@ -1072,7 +3074,7 @@
       "date": "2024-03-05T12:19:15 1709641155",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "they are both a memes, not noteworthy for anything but making UK slightly worse than when they started (like all tories). &#x27;I voted against brexit so here I come to implementing it&#x27; Theresa, and &#x27;I did not last longer than lettuce&#x27; Liz.<p>Maggie fucked UKs middle and lower class so spectacularly that she is actually remembered."
     },
@@ -1128,7 +3130,7 @@
       "date": "2024-02-16T18:04:21 1708106661",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Some, but not all [1]: &quot;... the remaining 17% reported using only nicotine-containing vaping products... It is believed that the non-THC&#x2F;CBD vapers who were diagnosed with EVALI were actually suffering from disparate vaping-associated lung diseases caused by different toxins within the aerosols or different host responses to the inhalants.&quot;<p>Note that many of the toxic chemicals referred to in this paper are normal components of nicotine vape juice, including but not limited to the flavorings, so the comparison to spiking Tylenol with cyanide is not particularly apt.<p>[1] <a href=\"https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC10228557&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.ncbi.nlm.nih.gov&#x2F;pmc&#x2F;articles&#x2F;PMC10228557&#x2F;</a>"
     },
@@ -1142,7 +3144,7 @@
       "date": "2024-02-16T19:05:46 1708110346",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The comparison to Tylenol spiking is perfectly apt if you consider the whole category of toxic adulterants as the noxious agent. (I know that THC&#x2F;vit-E wasn&#x27;t the totality of cases. You can only go so far without drowning in pedantry.) Moreover, it seems to have been a very North American phenomenon. Europe is quite vape-mad and you can count the number of vape-related lung injuries on one hand."
     },
@@ -1184,7 +3186,7 @@
       "date": "2024-02-12T22:46:02 1707777962",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "You pay for flexibility in multiple ways.<p>Private helicopters are only slightly safer than solo parachute jumps."
     },
@@ -1198,7 +3200,7 @@
       "date": "2024-02-13T16:12:19 1707840739",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "It&#x27;s really about flexibility. First class + airport lounges is pretty comfortable. But you&#x27;re still on someone else&#x27;s schedule."
     },
@@ -1240,7 +3242,7 @@
       "date": "2024-01-17T12:52:20 1705495940",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "There is self checkout in some lidl uk stores."
     },
@@ -1296,7 +3298,7 @@
       "date": "2023-12-05T17:58:18 1701799098",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Oh yeah, wrong terminology. My bad!"
     },
@@ -1324,7 +3326,7 @@
       "date": "2023-11-27T19:09:48 1701112188",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Make it part of PR reviews. These are org issues though, not AI issues."
     },
@@ -1352,7 +3354,7 @@
       "date": "2023-10-05T08:28:16 1696494496",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "you don&#x27;t mind so much when it is a 50$ phone, a bit more on a 1100$ one. Not that I understand why anyone would pay more than 250$ in a smartphone really."
     },
@@ -1366,7 +3368,7 @@
       "date": "2023-10-05T11:02:43 1696503763",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Well since even the average Android phone’s selling price is $285 the last time I checked, maybe it says more about your lack of insight than anything else?"
     },
@@ -1380,7 +3382,7 @@
       "date": "2023-10-05T11:47:09 1696506429",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I don&#x27;t know, I have had company issued high end phones and apart from better camera quality[1] these devices weren&#x27;t doing things significantly better than my personal 240$ smartphone.<p>Also, generally people spend an awful lot of money on things out of vanity and social pressure, regardless of their needs and if it is a good decision. Look at new cars prices and how most vehicles purchases are usually overkill for everyone. The most sold car in the US are the Ford F series , Chevy Silverado and Dodge Ram trucks before a number of high end SUV. Sure people are free to buy whatever they want but a Honda Fit would be enough for large majority of them and be a smarter financial decision[2]. They mostly do it because they can, not because they need.<p>[1] which has become fairly decent for anyone accross all ranges in the last few years.<p>[2] I am not sure it is still sold in the US but I could have chosen another example of a smaller and more affordable vehicle."
     },
@@ -1394,7 +3396,7 @@
       "date": "2023-10-05T13:51:01 1696513861",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Yes I’m sure 60% of Americans care about “social pressure” enough to buy a different phone. Trust me, my 80 year old mother doesn’t care about what TikTok influencers think.<p>Low end Android phones just plain suck when it comes to performance and battery life. Not to mention they rarely get operating system updates.<p>If you did force me to buy an Android phone, it would be the Pixel."
     },
@@ -1408,7 +3410,7 @@
       "date": "2023-10-05T14:22:25 1696515745",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Trust me, my 80 year old mother doesn’t care about what TikTok influencers think.<p>nor does she care about operating system updates."
     },
@@ -1422,7 +3424,7 @@
       "date": "2023-10-05T15:18:05 1696519085",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Actually she does. Once she saw that an old computer running an old version of Windows was no longer going to get updates, she stopped using it. She would be just as cautious about a phone that didn’t get updates"
     },
@@ -1450,7 +3452,7 @@
       "date": "2023-10-01T17:21:22 1696180882",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Also citation needed for a society &gt;= 500 years ago with life expectancy of 70 years, infant mortality excluded.<p>Sepsis, injuries, and diseases of adulthood should <i>not</i> be excluded, we&#x27;re talking about passing on of genes here."
     },
@@ -1464,7 +3466,7 @@
       "date": "2023-10-01T17:14:30 1696180470",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "That is all beside the point of whether or not evolutionary pressures would optimize for longevity or for &quot;good enough for passing on genes.&quot;"
     },
@@ -1548,7 +3550,7 @@
       "date": "2023-05-25T19:26:18 1685042778",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "2007&#x2F;2008 showed that there is incredible momentum in credit ratings, and that despite the &quot;rules&quot; there is a log scale relationship with rating, momentum, and risk.<p>The A&#x2F;B&#x2F;C rating system might be more of a disservice than a 0-100 scale."
     },
@@ -1562,7 +3564,7 @@
       "date": "2023-05-25T20:09:11 1685045351",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "A quantitative scale is too easily backtested, criticized and compared, which means it would threaten the moat that these agencies rely on."
     },
@@ -1576,7 +3578,7 @@
       "date": "2023-05-25T19:59:50 1685044790",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "How is bad governance by the US government an external event for US treasuries?"
     },
@@ -1618,7 +3620,7 @@
       "date": "2023-05-16T08:45:01 1684226701",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Eh, zero on failure, I suppose. The real write(2) syscall returns -1 on failure, and a non-negative value is the number of bytes actually written. But the general point still stands."
     },
@@ -1632,7 +3634,7 @@
       "date": "2023-05-16T09:15:14 1684228514",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "When I wrote my hypothetical example, I was imagining the return type to be a bool. My apologies for overloading &quot;write&quot;, a more representative example function name would have been something like &quot;FooWrite&quot;. I appreciate your follow-up!<p>I totally agree with you that folk writing code need to understand the semantics of what they&#x27;re building on top of. Humans and now AI models have a great capacity for generating tons source code without understanding the semantics, though."
     },
@@ -1688,7 +3690,7 @@
       "date": "2023-02-07T17:55:54 1675792554",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Ah, that makes sense ! 11.37 µSv&#x2F;hour is only about 28 times higher than background radiation."
     },
@@ -1716,7 +3718,7 @@
       "date": "2023-01-27T18:36:59 1674844619",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I expect nobody outside of the technician who ordered the shipment to understand any of those words."
     },
@@ -1758,7 +3760,7 @@
       "date": "2023-01-23T05:47:49 1674452869",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Later calculators (the HP 42 and 48 lines) would basically accommodate either mode of operation. You can perform a calculation immediately without pressing ENTER to put it on the stack, or you could put it on the stack with ENTER first and it&#x27;ll still do the same thing when you press an operator key.<p>I use an HP 48G+ frequently and I pretty much do both styles without any obvious rhyme or reason from my viewpoint. I just sometimes do one or the other."
     },
@@ -1772,7 +3774,7 @@
       "date": "2023-01-23T12:12:57 1674475977",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I think you mean 28, not 42 — the 42 is also &quot;classic&quot; 4-register RPN. And I’m writing this mostly to push for the excellent Free42 emulator, which runs on just about everything (Windows, macOS, Linux, Android, iOS), and also powers the DM42 hardware emulator mentioned above. Only problem with it is that emulated buttons on a touchscreen are nothing like the real thing; I keep missing keystrokes."
     },
@@ -1786,7 +3788,7 @@
       "date": "2023-01-23T13:50:20 1674481820",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I can confirm, the 28C actually shows the 4 (viewable) registries of the stack, numbered on the left as:<p>4:<p>3:<p>2:<p>1:<p>So, if you input 4 [ENTER], 3 [ENTER], 2 [ENTER], 1 [ENTER] you have:<p>4:4<p>3:3<p>2:2<p>1:1<p>But if you input 4 [ENTER], 3 [ENTER], 2 [ENTER], 1 you have:<p>3:4<p>2:3<p>1:2<p>1<p>if you then press +, you get 3 in both cases, which is the sum of the bottom two lines in the display.<p>Those are either the same as the &quot;old&quot; x and y registers or the sum of last input and the bottom register, same as the old x."
     },
@@ -1800,7 +3802,7 @@
       "date": "2023-01-23T17:19:41 1674494381",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Yes you are right, I did mean that :)"
     },
@@ -1856,7 +3858,7 @@
       "date": "2022-07-30T22:02:13 1659218533",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Can you explain more about what that means or suggest what to Google to learn more?"
     },
@@ -1870,7 +3872,7 @@
       "date": "2022-07-30T22:10:33 1659219033",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "There are two uranium isotopes present on earth, U-235 and U-238. U-235 is the fissile material which powers nuclear reactions in both nuclear bombs and nuclear power plants. The 5% number represents the fraction of uranium in the fuel which is U-235 instead of U-238. Anything above 20% or so is considered &quot;highly enriched&quot;, and nuclear bombs often have fuel which is 80-90% U-235."
     },
@@ -1884,7 +3886,7 @@
       "date": "2022-07-30T23:15:10 1659222910",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "And the reason <i>why</i> bombs have more of the U-235 is because is splits easier than U-238, so it&#x27;s easier to end up with a self sustaining chain reaction, where every U-235 that splits produces enough neutrons to split off two more U-235 atoms, which in turn splits 4, then 8, then 16 and so on - the chain reaction splits the whole lot all at once and you&#x27;ve got a bomb."
     },
@@ -1898,7 +3900,7 @@
       "date": "2022-07-31T03:30:09 1659238209",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "To add to what other commenters have said, apart from the weapons proliferation issues, enriching uranium is very expensive. U-235 only makes up about 0.72% of natural uranium, the rest of it being U-238. Running a reactor on low enriched uranium is much more cost effective, although reactor designs that can run on LEU can be less safe, like Chernobyls RBMK design."
     },
@@ -1954,7 +3956,7 @@
       "date": "2022-06-03T06:05:32 1654236332",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "That article appears to be written by a non-native English speaker. I don&#x27;t think I&#x27;ve ever heard anyone refer to a software package as &quot;a code.&quot;"
     },
@@ -1968,7 +3970,7 @@
       "date": "2022-06-03T08:48:54 1654246134",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "<i>I don&#x27;t think I&#x27;ve ever heard anyone refer to a software package as &quot;a code.&quot;</i><p>Then you probably haven&#x27;t been around physicists, or read enough physics-related material. A non-scholarly reference which can&#x27;t be easily checked online is George Dyson&#x27;s &quot;Project Orion,&quot; where Freeman Dyson (author&#x27;s father) is quoted as mentioning this or that &quot;code&quot; as significant for the design of various Orion parts. (That should be a native enough English speaker.) The time-frame is late 1950s to early 1960s."
     },
@@ -1982,7 +3984,7 @@
       "date": "2022-06-03T18:33:45 1654281225",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Actually I have been around physicists. In my experience they use “codes” for any amount of code. If A wrote some software, B might say “I’d like to use your codes.”<p>That reference you give doesn’t appear to be available online but I’ll take your word for it."
     },
@@ -1996,7 +3998,7 @@
       "date": "2022-06-01T22:18:09 1654121889",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "There are plenty of words in English that have the same singular and plural form."
     },
@@ -2030,6 +4032,34 @@
     }
   ],
   "favorites": [
+    {
+      "id": 43928118,
+      "link": "https://github.com/qpoint-io/qtap",
+      "title": "Show HN: Using eBPF to see through encryption without a proxy",
+      "score": 259,
+      "date": "2025-05-08T16:49:11 1746722951",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tylerflint",
+        "name": "tylerflint"
+      },
+      "comments_count": 78,
+      "comments_link": "https://news.ycombinator.com/item?id=43928118",
+      "text": ""
+    },
+    {
+      "id": 43419701,
+      "link": "https://www.feldera.com/blog/the-pain-that-is-github-actions",
+      "title": "The Pain That Is GitHub Actions",
+      "score": 704,
+      "date": "2025-03-20T03:37:31 1742441851",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=qianli_cs",
+        "name": "qianli_cs"
+      },
+      "comments_count": 562,
+      "comments_link": "https://news.ycombinator.com/item?id=43419701",
+      "text": ""
+    },
     {
       "id": 41586031,
       "link": "https://ssoready.com/blog/engineering/ruby-saml-pwned-by-xml-signature-wrapping-attacks/",

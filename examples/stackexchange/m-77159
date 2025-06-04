@@ -13,8 +13,8 @@
   ],
   "meta-profile": "",
   "network-profile": "https://stackexchange.com/users/816974/kernel",
-  "reputation": 8811,
-  "reached": 1300000,
+  "reputation": 8841,
+  "reached": 1400000,
   "answers": 0,
   "questions": 12,
   "communities-all": "",
@@ -58,7 +58,7 @@
       ]
     },
     {
-      "amount": 21,
+      "amount": 23,
       "name": "silver",
       "achievements": [
         {
@@ -82,7 +82,7 @@
           "link": "https://serverfault.com/help/badges/13/yearling?userid=77159",
           "action": "Active member for a year, earning at least 200 reputation",
           "name": "Yearling",
-          "amount": 13,
+          "amount": 14,
           "date": "Apr 5"
         }
       ]
@@ -129,7 +129,18 @@
       "posts-percent": 25,
       "answered": 0,
       "ansked": 3,
-      "asked-score": 812
+      "asked-score": 814
+    },
+    {
+      "link": "https://serverfault.com/search?q=user:77159+[linux-kernel]",
+      "name": "linux-kernel",
+      "badge": "",
+      "score": 0,
+      "posts": 1,
+      "posts-percent": 8,
+      "answered": 0,
+      "ansked": 1,
+      "asked-score": 0
     },
     {
       "link": "https://serverfault.com/search?q=user:77159+[netstat]",
@@ -162,22 +173,11 @@
       "posts-percent": 8,
       "answered": 0,
       "ansked": 1,
-      "asked-score": 47
+      "asked-score": 48
     },
     {
       "link": "https://serverfault.com/search?q=user:77159+[pattern-matching]",
       "name": "pattern-matching",
-      "badge": "",
-      "score": 0,
-      "posts": 1,
-      "posts-percent": 8,
-      "answered": 0,
-      "ansked": 1,
-      "asked-score": 2
-    },
-    {
-      "link": "https://serverfault.com/search?q=user:77159+[shell]",
-      "name": "shell",
       "badge": "",
       "score": 0,
       "posts": 1,
@@ -193,7 +193,7 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 800,
+      "votes": 802,
       "link": "https://serverfault.com/questions/264595/can-scp-copy-directories-recursively",
       "title": "Can scp copy directories recursively?",
       "date": "2011-04-29 04:24:45Z"
@@ -201,7 +201,7 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 47,
+      "votes": 48,
       "link": "https://serverfault.com/questions/312221/can-a-single-network-card-have-2-ip-addresses",
       "title": "Can a single network card have 2 IP addresses?",
       "date": "2011-09-16 15:06:39Z"

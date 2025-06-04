@@ -5,7 +5,7 @@
   "created-timestamp": "1400549769",
   "user": "MehdiHK",
   "created-date": "May 20, 2014",
-  "karma": 172,
+  "karma": 171,
   "about": "https:&#x2F;&#x2F;mehdikhan.dev&#x2F;<p>[ my public key: https:&#x2F;&#x2F;keybase.io&#x2F;mhasan; my proof: https:&#x2F;&#x2F;keybase.io&#x2F;mhasan&#x2F;sigs&#x2F;KBvQ00IEZLQoRwPf1IbPnoNDBPhGMB922CQ8nqjvIug ]",
   "submissions-link": "https://news.ycombinator.com/submitted?id=MehdiHK",
   "comments-link": "https://news.ycombinator.com/threads?id=MehdiHK",
@@ -36,7 +36,7 @@
         "name": "MehdiHK"
       },
       "comments_count": 0,
-      "comments_link": null,
+      "comments_link": "",
       "text": ""
     },
     {
@@ -50,7 +50,7 @@
         "name": "MehdiHK"
       },
       "comments_count": 0,
-      "comments_link": null,
+      "comments_link": "",
       "text": ""
     },
     {
@@ -69,6 +69,20 @@
     }
   ],
   "comments": [
+    {
+      "id": 43446974,
+      "lvl": 0,
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=MehdiHK",
+        "name": "MehdiHK"
+      },
+      "date": "2025-03-22T16:45:58 1742661958",
+      "onstory": {
+        "name": "The future of AI is Ruby on Rails",
+        "link": "https://news.ycombinator.com/item?id=43443974"
+      },
+      "text": "This.<p>I&#x27;d also add that code readability goes a long way too. Rust compiler has better checks than Go, but when LLMs make mistakes it&#x27;s a lot easier to identify and fix generated Go code than Rust.<p>So the balance between verbosity and readability is important too, in addition to soundness checks. Java and Go are both verbose, but Go is intentionally designed for readability.<p>And compile time as already mentioned. Go wins there too.<p>All of these help together to iterate faster with fast and often subtly wrong generated code. LLMs will continue to be less wrong as the available training samples increase over time. That&#x27;s something for the future to see what wins there."
+    },
     {
       "id": 41874134,
       "lvl": 0,
@@ -93,7 +107,7 @@
       "date": "2024-10-18T03:17:22 1729221442",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Telepresence mainly tunnels traffic from existing services within Kubernetes namespaces.<p>Kloudlite, on the other hand, orchestrates environments and managed services, connecting them to workspaces without exposing Kubernetes APIs to the end user.<p>From a networking perspective, Kloudlite offers technical advantages. It operates at OSI Layers 3 and 4 using a WireGuard network, while Telepresence functions primarily at Layer 7 and partly at Layer 4 using application proxies. Because Kloudlite works at Layer 3, it provides a higher level of abstraction for connecting services and devices.<p>You can link multiple clusters—including your local machine—within your team. All environments and services managed by Kloudlite become part of the same WireGuard network.<p>For example, you can create a shared database in a remote cloud cluster, clone environments and apps to a local cluster, and start development. Another developer on a different machine can easily switch to your environment and access the same services, enabling seamless collaboration. Since Kloudlite uses a WireGuard network, any device with a WireGuard client can connect to access these services."
     },
@@ -121,7 +135,7 @@
       "date": "2024-09-12T18:40:09 1726166409",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Good question! Scraping and ingestion continues to use dedicated compute.<p>Serverless helps with query performance. Queries can be parallelized with serverless functions, this especially helps with long range queries. As an added advantage, compute does not have to be pre-provisioned for queries.<p>Here&#x27;s an overview of how things fit together - <a href=\"https:&#x2F;&#x2F;oodle.ai&#x2F;product#magic-behind-oodle\" rel=\"nofollow\">https:&#x2F;&#x2F;oodle.ai&#x2F;product#magic-behind-oodle</a>"
     },
@@ -135,7 +149,7 @@
       "date": "2024-09-12T23:57:35 1726185455",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "That&#x27;s quite interesting. Thank you for the link."
     },
@@ -177,7 +191,7 @@
       "date": "2024-09-02T21:05:58 1725311158",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Windows is supported through <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim-wish</a>"
     },
@@ -191,7 +205,7 @@
       "date": "2024-09-02T21:29:25 1725312565",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Oh, didn&#x27;t realize that. How does it handle key input in Windows? Text Services Framework or something else?"
     },
@@ -205,7 +219,7 @@
       "date": "2024-09-02T21:37:01 1725313021",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The initial work was a prototype, we are currently working on the usage of text service for windows, and IBUS for Linux (mainly Wayland environment).<p>But the next release, will take a time, since we are not familiar with these technologies. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242</a>"
     },
@@ -219,7 +233,7 @@
       "date": "2024-09-03T00:06:01 1725321961",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "You could update the dependency &quot;enigo&quot; to the current version. I&#x27;ve implemented experimental support for Wayland. It can use Wayland protocols or libei. There will probably be bugs that&#x27;s why it&#x27;s hidden behind feature flags.<p>I&#x27;m the maintainer, so if you need anything, please let me know"
     },
@@ -233,7 +247,7 @@
       "date": "2024-09-03T00:29:59 1725323399",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Thanks, currently I am using Debian (Wayland) and it will be great to test this enigo feature."
     },
@@ -247,7 +261,7 @@
       "date": "2024-09-03T00:08:00 1725322080",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I didn&#x27;t look at the code but the Cargo.toml file says it&#x27;s using enigo as it&#x27;s dependency. You can use that to simulate input an Windows, macOS and Linux"
     },
@@ -303,7 +317,7 @@
       "date": "2023-08-16T22:36:24 1692225384",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Neat! I&#x27;m the solo developer of PhotoStructure.<p>Know that there&#x27;s a very active community of PhotoStructure users on Discord: <a href=\"https:&#x2F;&#x2F;photostructure.com&#x2F;go&#x2F;discord&#x2F;\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;photostructure.com&#x2F;go&#x2F;discord&#x2F;</a> -- although I opened it as just another support channel, it&#x27;s evolved to include discussions about future feature work, self-hosting, digital archival, privacy news, hardware, and photography, too.<p>I self-host <a href=\"https:&#x2F;&#x2F;forum.photostructure.com&#x2F;\" rel=\"nofollow noreferrer\">https:&#x2F;&#x2F;forum.photostructure.com&#x2F;</a> that uses Discourse, but it has 10-20x fewer posts on it than Discord.<p>OP: Make sure you get backups in place (and one offline) before trying any of the software suggested here--it reduces your risk from &quot;oh-no-what-have-I-done&quot; and &quot;what-in-the-actual-heck-is-this-app-doing-and-where-did-all-my-files-go&quot; to zero."
     },
@@ -331,7 +345,7 @@
       "date": "2023-05-07T14:02:18 1683468138",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Thanks for sharing. It looks very cool. May I ask which Trancy tools are you using and how is it going?<p>I just gave it a quick try and wasn&#x27;t impressed by the current state of things.<p>1a. The Language Reactor-style plugin. On YouTube, it seems to require that I disable AdBlock on the channels I want to watch. Why is that even a requirement?! I didn&#x27;t like the idea and gave up.<p>1b. On Netflix, the first film I tried (Weißbier im Blut) failed with &quot;no machine subtitles&quot; or something to that effect. The show does have subtitles, and LR works, so I am not sure what the problem is.<p>2. I asked it to proofread a paragraph from &quot;Die Schatzinsel&quot;. What I got back was a mix of German, English and gibberish (truncated for brevity):<p>&lt;trancy&gt;<p>At dabei first ru,h Iig always weiter thought ra &quot;uchthete dead. man Der&#x27;s Kap chestit&quot;än st mustarr bete the ihn same eine large We suitcaseile in the an front, room dann, sch andlug in er my wieder nightmares mit der, Fa I hadust associated auf den this T thought withisch the, one st-leggedarr sailorte. sch Butär by nowfer und, br weach had long schließlich since stopped mit paying einem sche any attentionuß tolichen the, lyrics geme ofinen the Fl songuch, in and die on this W eveningorte aus,: it &quot; wasR onlyuhe new, to Ihr Dr da. dr Livesüayben,.&quot;<p>andScore it seemed: to9 make&#x2F; no10 good<p>impressionIncorrect on him words because and he phrases: looked None quite<p>annoyedSuggestions before: continuing None his<p>conversationPol withishing the:<p>old- gardener Anfang Taylors about d aachte new rhe ich immerumat,ism....<p>&lt;&#x2F;trancy&gt;"
     },
@@ -415,7 +429,7 @@
       "date": "2021-06-09T01:15:11 1623201311",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "A CDK-style Terraform seems perfect. Seems a bit early days but I look forward to it gaining traction."
     },
@@ -471,7 +485,7 @@
       "date": "2021-03-08T22:12:44 1615241564",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Startup stock options are not encouraged at a policy level in most of the EU countries.<p><a href=\"https:&#x2F;&#x2F;www.notoptional.eu&#x2F;en&#x2F;country-ranking\" rel=\"nofollow\">https:&#x2F;&#x2F;www.notoptional.eu&#x2F;en&#x2F;country-ranking</a><p>No good stock options, not many getting rich after successful exits. Hence not many to fund the next good venture. A handful of VCs and some banks who had traditional money.<p>Most of the successful European companies look for an acquisition by a US company as an exit path. Silicon valley has an eco system of people who had successful exits funding the next startup. It is quite rare in Europe."
     },
@@ -485,7 +499,7 @@
       "date": "2021-03-08T21:15:27 1615238127",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I believe that this depends less on the country where you are working and more on the country of origin of your employer.<p>During the years, I have worked for 3 German companies and none of them offered any stock options.<p>On the other hand, while working for an Israeli company and for an US company, I have gained about the same amount from selling the vested stock options of those companies as from the salary, i.e., due to the stock options, the total compensation was eventually about double compared to the salary."
     },
@@ -639,7 +653,7 @@
       "date": "2020-01-21T08:08:04 1579594084",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Node does this as well AFAIK, IO operations are ran on a worker pool [1]<p>[1] <a href=\"https:&#x2F;&#x2F;blog.logrocket.com&#x2F;a-complete-guide-to-threads-in-node-js-4fa3898fe74f&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;blog.logrocket.com&#x2F;a-complete-guide-to-threads-in-no...</a>"
     },
@@ -653,7 +667,7 @@
       "date": "2020-01-21T09:50:13 1579600213",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I think it&#x27;s likely that in this context, &quot;ops&quot; refers to the low level runtime primitives Deno provides and implements in Rust. E.g. read bytes from a file. I doubt you could transparently multithread `await` without clashing with JS&#x27;s semantics."
     },
@@ -667,7 +681,7 @@
       "date": "2020-01-21T07:54:44 1579593284",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I guess it is about asyncing to a different isolate+thread, not multithreading a single one. Locking issues do not go away just because it is javascript, rust and 2020."
     },
@@ -681,7 +695,7 @@
       "date": "2020-01-21T05:23:58 1579584238",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "That&#x27;s how I read it. It might happen selectively based on some heuristic though (that would be my guess)."
     },
@@ -709,7 +723,7 @@
       "date": "2020-01-05T17:34:57 1578245697",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "While I really hope that Nest.js eventually succeeds and provides a reliable framework to write maintainable web applications, my experience with it has been, in a word, frustrating. I find the integration with remaining ecosystem (testing, databases, etc.) quite poor.<p>For context, these are my experiences from the last few months of using Nest.js in a project we&#x27;re working on at my company.<p>- It strongly encourages you to use TypeORM, which is just not production ready and has many (sometimes subtle) issues [1]<p>- Logging is often extremely bad. I&#x27;ve encountered issues where I made a mistake in my app bootstrapping code and there were no errors logged, but the application simply didn&#x27;t start. Then I had to play a very frustrating game of commenting out pieces of code until the application would start again<p>- Nest.js error classes (HttpException and those that inherit from it, such as BadRequestException) do not properly inherit from built-in Error, which means that when your tests fail, the only output you&#x27;ll get is &quot;Error: [Object object]&quot; printed to the console without a proper stack trace.<p>- We used their GraphQL module and when we tried to send a few MB of data to the client for initial state, memory usage would balloon to hundreds(!) of megabytes from a single request.<p>- Misconfiguring any part of GraphQL would again lead to an error being thrown somewhere inside their libraries, with a message like &quot;Cannot read propery &#x27;target&#x27; of undefined&quot; with no stack trace or any indication of where the problem might be<p>- Documentation is lacking and doesn&#x27;t do a proper job of documenting the features. Usually it&#x27;s just a hello-world style example without much depth<p>That&#x27;s just my experience, maybe I was just &quot;using it wrong&quot;. But it was definitely far from a smooth experience and lead me to waste countless hours trying to track down and fix obscure issues.<p>If you&#x27;re thinking about using Nest.js, I would recommend that you ditch TypeORM and use something else, I also wouldn&#x27;t recommend using GraphQL with Nest.<p>[1] <a href=\"https:&#x2F;&#x2F;github.com&#x2F;typeorm&#x2F;typeorm&#x2F;issues&#x2F;2065\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;typeorm&#x2F;typeorm&#x2F;issues&#x2F;2065</a>"
     },
@@ -723,7 +737,7 @@
       "date": "2020-01-05T20:37:23 1578256643",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I&#x27;ve never had a positive experience with Node.js and SQL databases in general to be honest. I don&#x27;t really see the point in using it outside of familiarity with JavaScript. Nest + TypeORM might be as good as it gets in the Node world right now, but pretty much every other major platform has better ORMs and better frameworks. Node might have better performance and concurrency options than some of the others, but it&#x27;s not the best at those either. It&#x27;s not really clear to me that it&#x27;s actually the best at <i>anything</i>. My preference is honestly just to avoid it. In my experience there is always a better tool."
     },
@@ -737,7 +751,7 @@
       "date": "2020-01-05T21:53:22 1578261202",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Personally I&#x27;ve had an ok experience with Objection.js, which is definitely better than TypeORM. But otherwise I agree.<p>I&#x27;m learning Elixir right now, which has some really high quality and well documented libraries and tooling, despite being a young language by itself."
     },
@@ -765,7 +779,7 @@
       "date": "2019-10-25T11:40:25 1572003625",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "There is a big difference between the changestream of many SQL and noSQL databases, and what RxDB does. Having a stream of changes is useful but not the whole solution. RxDB is capable of using single document changes of a stream and recalculate the new results of an existing query. This saves you not only much IO performance but makes developing much easier. See <a href=\"https:&#x2F;&#x2F;rxdb.info&#x2F;query-change-detection.html\" rel=\"nofollow\">https:&#x2F;&#x2F;rxdb.info&#x2F;query-change-detection.html</a>"
     },
@@ -779,7 +793,7 @@
       "date": "2019-10-25T11:50:43 1572004243",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Sure, that&#x27;s handy as an extra feature to get better performance, but I see that even in RxDB it&#x27;s currently in beta and turned off by default.<p>I suppose this could be the killer feature to warrant using a new database -- because otherwise, from a user point of view, the result is the same."
     },
@@ -807,7 +821,7 @@
       "date": "2019-10-10T15:04:30 1570719870",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "You are correct, and no I am not. Is your goal to build an application with IME support, or an entire IME?"
     },
@@ -821,7 +835,7 @@
       "date": "2019-10-11T11:16:51 1570792611",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "An entire IME."
     },
@@ -835,7 +849,7 @@
       "date": "2019-10-11T18:33:42 1570818822",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Ah I see.. sadly, I never really figured out a great way to support full COM interop in Go. It would be ideal if you could implement an interface and register it as a COM object, but I hadn’t hashed out exactly how."
     },
@@ -863,7 +877,7 @@
       "date": "2019-06-28T14:10:05 1561731005",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Well, they did just fire a bunch of people for complaining about working conditions, so it&#x27;s no surprise that they&#x27;re stumbling into other mistakes."
     },
@@ -919,7 +933,7 @@
       "date": "2019-04-07T07:11:44 1554621104",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I loved this and think the next Mass market IDE could be like VB6"
     },
@@ -975,7 +989,7 @@
       "date": "2019-01-24T20:31:17 1548361877",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I thought `npm ci` is more suited for ci machines, where it&#x27;s crucial that packages are pinned to specific versions. For local development, I just npm install. Perhaps with no-save option in order to avoid updating package-lock. Works fine."
     },
@@ -1003,7 +1017,7 @@
       "date": "2019-01-24T18:33:37 1548354817",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "tslint has no-namespace and no-enum to disallow the two things that create new runtime code"
     },
@@ -1031,7 +1045,7 @@
       "date": "2019-01-07T13:38:51 1546868331",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Seems a lot easier to register your own domain (useful for so many other things), point localhost.mydomain.com to 127.0.0.1 and run:<p><pre><code> sudo apt-get -yy install --no-install-recommends certbot mkdir -p le certbot --work-dir .&#x2F;le --logs-dir le --config-dir le -d localhost.mydomain.com --manual --preferred-challenges dns certonly </code></pre> Follow the instructions adding the TXT record, you have a valid cert in minutes."
     },
@@ -1045,7 +1059,7 @@
       "date": "2019-01-07T20:58:40 1546894720",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Yes you can. You control the DNS, just point that subdomain to 127.0.0.1."
     },
@@ -1101,7 +1115,7 @@
       "date": "2018-11-15T18:36:50 1542307010",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Not really. The tech used in noise-cancelling headphones is called ANC (active noise cancellation). It eliminates the noise coming to your ear from your surrounding environment.<p>In contrast, Krisp eliminates the noise going from your environment to the call participants and vice versa."
     },
@@ -1115,7 +1129,7 @@
       "date": "2018-11-15T20:01:03 1542312063",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "How would the application know what&#x27;s noises are being made in the environment around you?"
     },
@@ -1143,7 +1157,7 @@
       "date": "2018-10-16T15:03:22 1539702202",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "There is Free Pascal and lazarus, but I must admit that if I need a cross-platform tool today, I would make a webapp - not that it compares at all to Delphi, but it works everywhere."
     },
@@ -1213,7 +1227,7 @@
       "date": "2017-02-22T19:52:40 1487793160",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Avoid vendor locking.<p>It&#x27;s open source.<p>&gt; you can just strip all type annotations with Babel and move on.<p>Are you implying that this isn&#x27;t possible with TypeScript?"
     },
@@ -1227,7 +1241,7 @@
       "date": "2017-02-22T19:02:48 1487790168",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "TypeScript compiles to JS in a straightforward manner as well. If you wanted to move away from TS, you could simply have the TS compiler compile to ES6 and you&#x27;re done."
     },
@@ -1241,7 +1255,7 @@
       "date": "2017-02-22T19:16:45 1487791005",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "But that&#x27;d still be transpiled code, right? After getting rid of flow it will be exactly same minus the type annotations. Same cannot be said about typescript considering various language features and syntactic sugar TS offers. Will it run? Yes. Will it feel that it was written by me? That depends."
     },
@@ -1255,7 +1269,7 @@
       "date": "2017-02-22T19:49:07 1487792947",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Same cannot be said about typescript considering various language features and syntactic sugar TS offers<p>I think you&#x27;re vastly misinterpreting what TS is.<p>It&#x27;s not anything like CoffeeScript. It&#x27;s JS plus types and a few other features like Interfaces or advanced ECMAScript features when targetting older versions of the standard.<p>If you strip away types by exporting to your ECMAScript target of choice, you&#x27;ll get real JavaScript with the same style as it was written in TypeScript.<p>It&#x27;s exactly the same thing you&#x27;d get with Flow in that sense. The only additional code you&#x27;d get would be for polyfills, but a) those are minimal and b) those will only appear if you export to an older ECMAScript version than the one you wrote it in.<p>There is no vendor lock."
     },
@@ -1269,7 +1283,7 @@
       "date": "2017-02-22T21:30:57 1487799057",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "there are a few minor things like enums and decorators that will need to be compiled because they&#x27;re not standard and are not just types either (well, const enums are i think?, but the rest are not?).<p>That&#x27;s about it though."
     },
@@ -1283,7 +1297,7 @@
       "date": "2017-02-22T19:43:44 1487792624",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Your equivalence with transpiling coffeescript is false. TS doesn&#x27;t really have &quot;syntactic sugars&quot;. Just about everything in it(less the types of course) is pretty far along in the ES adoption process. There are a couple exceptions like decorators that are called out in a very visible manner.<p>If you target ES6 your code may look identical. Even much of the ES5 down leveling produced code that looks like a person wrote it.<p>I converted a 10k line coffeescript project(with async&#x2F;await !) to JS and then TypeScript. The similarities are so far apart they might as well be in different dimensions. But, if you don&#x27;t want to take a rando posters word for it, it&#x27;s pretty easy to make a little sample project and see if the output is to your liking."
     },
@@ -1297,7 +1311,7 @@
       "date": "2017-02-22T19:29:16 1487791756",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "With target esnext, it produces almost the same output with some spacing differences. Sans the annotations obviously."
     },
@@ -1311,7 +1325,7 @@
       "date": "2017-02-22T19:06:55 1487790415",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "That&#x27;s an objectively incorrect assertion if you&#x27;re applying that to TypeScript.<p>The same can be done to it that would be done to Flow: you can just either strip types manually, or just do a single export to your ECMAScripttarget of choice. It&#x27;ll be native JavaScript. Even the little shims&#x2F;polyfills it does (to support older ECMAScript versions if you wish to export to it) are optional and can be disabled."
     },
@@ -1325,7 +1339,7 @@
       "date": "2017-02-22T19:12:13 1487790733",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "TypeScript has `--target ESNext` this will strip out any TypeScript-specific type annotations, and leave you with standard-track-only JS code that looks identical to your input (modulo type annotations)."
     },
@@ -1339,7 +1353,7 @@
       "date": "2017-02-22T22:17:31 1487801851",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "If you&#x27;re afraid of vendor lock-in, but fine with comments then you can just put all of your typing information in jsdoc comments.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;Microsoft&#x2F;TypeScript&#x2F;wiki&#x2F;JSDoc-support-in-JavaScript\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;Microsoft&#x2F;TypeScript&#x2F;wiki&#x2F;JSDoc-support-i...</a>"
     },
@@ -1353,7 +1367,7 @@
       "date": "2017-02-23T00:56:50 1487811410",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "FYI we do have an issue open about TS <a href=\"https:&#x2F;&#x2F;github.com&#x2F;babel&#x2F;babylon&#x2F;issues&#x2F;320\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;babel&#x2F;babylon&#x2F;issues&#x2F;320</a> so that we could eventually support TS in Babel as a plugin and then create the same strip-types-plugin just like Flow."
     },
@@ -1367,7 +1381,7 @@
       "date": "2017-02-22T18:58:01 1487789881",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Also, you can progressively opt in to add typing information, while still getting most of the benefits without."
     },
@@ -1381,7 +1395,7 @@
       "date": "2017-02-22T19:08:02 1487790482",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The same can be done with TypeScript. Type inference has been added to it in 2015."
     },
@@ -1395,7 +1409,7 @@
       "date": "2017-02-22T19:47:00 1487792820",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Awesome, did not know this."
     },
@@ -1409,7 +1423,7 @@
       "date": "2017-02-22T21:29:22 1487798962",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "TypeScript type inference is minimal though and doesn&#x27;t go very far. It falls back to &quot;any&quot; very quickly (and if you use the noImplicitAny option, then you have to type almost everything).<p>It does a decent enough job at return types, but not a whole lot beyond that."
     },
@@ -1423,7 +1437,7 @@
       "date": "2017-02-22T22:02:11 1487800931",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Do you have a use case where something would be correctly inferred in Flow but not in TS?"
     },
@@ -1437,7 +1451,7 @@
       "date": "2017-02-22T22:20:41 1487802041",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The classic example is:<p><pre><code> function double(x) { return x * 2; } const result = double(&quot;foo&quot;); </code></pre> Which passes in TS, but fails in Flow. In TS, the &#x27;x&#x27; parameter to the double function is inferred as Any."
     },
@@ -1465,7 +1479,7 @@
       "date": "2017-02-03T20:01:49 1486152109",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I don&#x27;t see ES6 modules (import&#x2F;export keywords etc) in that list. Where is that feature hiding?"
     },
@@ -1479,7 +1493,7 @@
       "date": "2017-02-04T19:36:57 1486237017",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The loader spec hasn&#x27;t been completed yet so there is no way to load properly modules in es2015, es2016, or es2017 as far as I know."
     },
@@ -1493,7 +1507,7 @@
       "date": "2017-02-05T16:44:43 1486313083",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "But the syntax is in es2015. So that feature should be marked as NO in those tables."
     },
@@ -1521,7 +1535,7 @@
       "date": "2017-02-03T18:22:43 1486146163",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I&#x27;ve found that this works fine until you have a bug in your async function that is, after transformation, a promise and a generator away from your original function with no call stack available for debugging.<p>Edit: My experience is with babel&#x27;s generator version of async&#x2F;await, so other transformations may be easier to work with."
     },
@@ -1535,7 +1549,7 @@
       "date": "2017-02-03T15:57:43 1486137463",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Agree, except we use TypeScript as the transpiler. Async&#x2F;Await down to es5. Works like a dream."
     },
@@ -1563,7 +1577,7 @@
       "date": "2017-01-18T20:25:34 1484771134",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I don&#x27;t know what the status of Bookshelf is but I do note that there are still regular contributions to the project.<p>As a rule Ghost tries to have write permission to core dependencies including bookshelf so there is no danger of it or any other package threatening the future of the project.<p>Besides, the beauty of an open source stack is there&#x27;s always the ability to fork - worse comes to worst."
     },
@@ -1605,7 +1619,7 @@
       "date": "2016-08-24T16:50:41 1472057441",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Thanks for mentioning Grokking Algorithms. Looks great, and might be the first non-digital tech book I will have bought in years."
     },
@@ -1619,7 +1633,7 @@
       "date": "2016-08-24T17:10:27 1472058627",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "It deserves to be in the bookshelves. :)"
     },
@@ -1633,7 +1647,7 @@
       "date": "2016-08-24T16:05:57 1472054757",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "If videos are your thing this set of data structures videos is pretty good.<p><a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;playlist?list=PL2_aWCzGMAwI3W_JlcBbt...</a><p>Good database references here, guaranteed to learn something new.<p><a href=\"https:&#x2F;&#x2F;github.com&#x2F;rxin&#x2F;db-readings\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;rxin&#x2F;db-readings</a>"
     },
@@ -1647,7 +1661,7 @@
       "date": "2016-08-24T14:03:02 1472047382",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "sounds like you should ask for your money back, remember OP stands by everything he creates and if you dont like it he promises money back no questions asked"
     },
@@ -1661,7 +1675,7 @@
       "date": "2016-08-24T14:18:35 1472048315",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I did. The author kept his promise and refunded instantly."
     },
@@ -1675,7 +1689,7 @@
       "date": "2016-08-24T14:12:39 1472047959",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Wow, then you were definitely not the target audience!"
     },
@@ -1731,7 +1745,7 @@
       "date": "2016-07-25T07:37:50 1469432270",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "It&#x27;s sad that any of us has to have jobs. Can&#x27;t wait for the day all of the humans are served by Robots (Yes.. reading too many Asimov novels of late :) )"
     },
@@ -1745,7 +1759,7 @@
       "date": "2016-07-25T08:00:37 1469433637",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The economic and societal forces that require having a job will not, on their own, magically change over upon the arrival of better robots. Without those changes, all you&#x27;ve done is taken away somebody&#x27;s source of income."
     },
@@ -1759,7 +1773,7 @@
       "date": "2016-07-25T08:13:08 1469434388",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The question is will we iteratively destroy each job until 5% of the current workers still can afford an opulent living while the other 95% are crushed by misery and accusations of inadequacies, or will we, as a society, realize that we can suppress the need for work altogether and try to make the smoothest transition possible?<p>This is not a technical question but a political one. Seeing how most politicians paint unemployed as subhumans that barely deserve to live, I am not that optimistic :-&#x2F;"
     },
@@ -1773,7 +1787,7 @@
       "date": "2016-07-25T09:11:44 1469437904",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; The question is will we iteratively destroy each job until 5% of the current workers still can afford an opulent living while the other 95% are crushed by misery<p>If 95% are crushed by misery, where will the 5% get their money from? I&#x27;m guessing money will only be exchanged between the 5%, meaning the economy will be a lot different.<p>Also, what will keep the 95% from revolting? That amount of people will surely form a formidable army. What will save the 5%?<p>&gt; Seeing how most politicians paint unemployed as subhumans that barely deserve to live, I am not that optimistic :-&#x2F;<p>Changing the way we treat unemployed people is surely a necessary step forward, but it&#x27;s not black and white. There are people who don&#x27;t want to work because they&#x27;re lazy or incompetent. There are people who want to work and are very competent, but can&#x27;t find a suitable job. There are many types of people in between."
     },
@@ -1787,7 +1801,7 @@
       "date": "2016-07-25T10:27:27 1469442447",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; If 95% are crushed by misery, where will the 5% get their money from?<p>I am not sure I see the problem. The 95% need goods and food. They buy it from the 5%. The 5% decide of the amount of money they accept to redistribute to the 95%. That can go on for a while.<p>&gt; Also, what will keep the 95% from revolting?<p>Absolutely. But I am arguing that if your path toward a positive income has revolt as a necessary step, it is improvable. And even so, there is a risk:<p>&gt; What will save the 5%?<p>What makes you think that soldiers will be sparred from automation?<p>&gt; There are people who don&#x27;t want to work because they&#x27;re lazy or incompetent. There are people who want to work and are very competent, but can&#x27;t find a suitable job.<p>It sounds to me that society would then benefit by having the lazy or incompetent people kept out of the work pool and paid to <i>not</i> work instead of having to make themselves absolutely necessary.<p>If you have worked in any medium or big organization I am sure that you can think of people who would have actually saved their employer&#x27;s money by receiving a salary and not come to work."
     },
@@ -1801,7 +1815,7 @@
       "date": "2016-07-25T13:19:46 1469452786",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt;Also, what will keep the 95% from revolting?<p>Security robots!<p>More seriously, as robots do more and more, people will start to place a premium on having a human do the work where they notice the difference (so, not Amazon warehouses but probably the local Starbucks). With this factored in, 95% unemployment is unlikely until artificial general intelligence."
     },
@@ -1815,7 +1829,7 @@
       "date": "2016-07-25T13:47:06 1469454426",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Would <i>you</i> pay a premium for being served by a human? Do you pay a premium to have a driver, to have a maid, to have a chef, when you can do without?<p>I know I would not. If a machine gives me accurate medical advice, I wont go to the doctor. If a machine makes good burgers, I won&#x27;t pay a random student to flip burgers for me.<p>It would actually feel awkward and quite contemptful to ask a human to do the task of a robot."
     },
@@ -1829,7 +1843,7 @@
       "date": "2016-07-25T16:10:24 1469463024",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I&#x27;ll answer your specific questions first. Driver, no. Maid, no. (But keep in mind that robot maids&#x2F;janitors are considerably farther away than self-driving cars. Cleaning environments not specifically designed for it is really complicated and I expect humans to outperform robots at it for longer than at most other kinds of physical labor.) For a fancier meal than burgers, yes, I&#x27;d pay a premium to have a human chef cook it. Doctor, definitely not in most cases.<p>As for it being &quot;awkward and contemptful,&quot; I suspect you are imagining humans perform a task exactly as a robot would. That will be the minority of cases, because the economics are strongly against it in most. Instead, you&#x27;ll pay humans for their ability to customize their work or the products they produce in a way that isn&#x27;t economical to automate. (Burger flipping is doomed for this reason -- not much to differentiate humans form robots there.) Hence, chefs, plumbers, tailors, auto mechanics, specialist doctors, interior decorators, etc. will be assisted by &quot;weak&quot; AI but won&#x27;t be replaced by it."
     },
@@ -1843,7 +1857,7 @@
       "date": "2016-07-26T12:22:19 1469535739",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I have seen this kind of denial for more than 20 years now. I have seen people argue that driving could not be automated, that people would never accept an automated cashier, that webshops would never compete against physical shops.<p>The level of performance and customization that robots can achieve in every single of the task you quote is far superior to humans&#x27;. I expect none of your list items to present any technical problem in 10 years. Maybe plumber, give it 20."
     },
@@ -1857,7 +1871,7 @@
       "date": "2016-07-27T10:11:07 1469614267",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I think you do my argument a disservice by equating it to the general trend of people denying X can be automated until X is automated. It is more specific: I say that some jobs (roughly, those requiring an agent to rapidly gain an understanding of existing unstandardized systems) need AGI to automate to human satisfaction in a way that doesn&#x27;t require constant human supervision. It predicts, for instance, wide replacement of cashiers (which is already happening) and construction workers (which isn&#x27;t yet).<p>&gt;Maybe plumber, give it 20.<p>Perhaps we have different standards for &quot;automated.&quot; Do you expect remote operators standing by ready to take over for a plumberbot or giving it hints at least once per service operation on average in 2036? If so, I find that technically plausible. I also expect new buildings to be built for automated service.<p>If we are talking fully automated human-quality repair and improvement of legacy plumbing, do you to expect a long time to get from there to AGI?"
     },
@@ -1871,7 +1885,7 @@
       "date": "2016-07-28T10:15:54 1469700954",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; roughly, those requiring an agent to rapidly gain an understanding of existing unstandardized systems<p>So, basically, machine learning.<p>Look, the tech is not there yet for an automated plumber, which is why it does not exist yet. 20 years ago we did not have the tech for automated driving but it finally got there.<p>I see machine learning improve every year, These last few years have seen a huge rise of popularity of deep learning approaches. And since the DeepDream gizmo, we hear less people talking about how creativity can&#x27;t be automated.<p>Yes, in 20 years the tech will be here for a piece of software to figure out where the pipes must be in a house, make plans to test different hypothesis, plan a procedure of intervention, wiggle tubes together to make them fit without any other human instructions than &quot;this tap does not work, go fix it&quot;. I have some supicions on what the correct way to go is, and am fairly confident that some other ways exist and that we will find one that will work.<p>I can&#x27;t comment on AGI from this point. It really depends on your definitions. Some make AGI an unachievable goal. Under common and reasonnable definitions, yes, we will be close by then but we already are not very far.<p>And in my earlier comments I talk about 95% of unemployement just to cut some of the philosophical debate, but naturally I expect that we will reach 100% pretty quickly."
     },
@@ -1885,7 +1899,7 @@
       "date": "2016-07-25T08:52:19 1469436739",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I think it&#x27;s a question that this election (in the US) is addressing, but only on the periphery. We&#x27;re more likely to address the symptoms and misattribute them to other forces."
     },
@@ -1899,7 +1913,7 @@
       "date": "2016-07-25T09:18:06 1469438286",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Right now western societies could easily go on with 30 hour workweeks. It would reduce unemployment and people who are working would have more time for their families or to do voluntary stuff. Another idea is a basic income which allows a simple and good life. White old men in suits are part of the problem why there&#x27;s no real progress on these ideas and education is part of the solution."
     },
@@ -1913,7 +1927,7 @@
       "date": "2016-07-25T10:17:13 1469441833",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "My belief is that right now we give incentive to people to prevent the automation of their work. Were we to do the opposite (e.g. by promising a guaranteed life-time salary to every worker who got fired because of automation) it would not take 10 years to make the world work out of voluntary work alone."
     },
@@ -1927,7 +1941,7 @@
       "date": "2016-07-25T08:42:05 1469436125",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "And it&#x27;s interesting how the social democracies seem to have more of a plan on how to proceed than the purely capitalist nations."
     },
@@ -1941,7 +1955,7 @@
       "date": "2016-07-25T09:08:19 1469437699",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Which purely capitalist nations are you thinking of?"
     },
@@ -1955,7 +1969,7 @@
       "date": "2016-07-25T07:58:06 1469433486",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&quot;The chief aim of their constitution and government is that, whenever public needs permit, all citizens should be free, so far as possible, to withdraw their time and energy from the service of the body, and devote themselves to the freedom and culture of the mind. For that, they think, is the real happiness of life.&quot;"
     },
@@ -1969,7 +1983,7 @@
       "date": "2016-07-25T08:13:12 1469434392",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "hmm... human or context sensitive robot post?"
     },
@@ -1983,7 +1997,7 @@
       "date": "2016-07-25T08:11:21 1469434281",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I was about to write the same thing. He&#x27;s the last guy at the factory. Surrounded by other robots impatiently waiting on this slow human.<p>I used to think Amazon was great when they sold books. Now I&#x27;m not so sure.<p>but I suppose it&#x27;s too late. Once humans are removed, they can drop prices lower than anyone with humans could possibly provide. yikes."
     },
@@ -1997,7 +2011,7 @@
       "date": "2016-07-25T08:19:01 1469434741",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "So when Amazon replaced all those cashiers, cleaners and rest of retail personnel with a site they were great, but replacing a few warehouse jobs is sad?"
     },
@@ -2011,7 +2025,7 @@
       "date": "2016-07-25T08:31:46 1469435506",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "you make a good point, but it wasn&#x27;t so obvious back then what was happening. the world was still dialup."
     },
@@ -2025,7 +2039,7 @@
       "date": "2016-07-25T08:21:30 1469434890",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "increase the wages and ROI for robots will look more attractive"
     },
@@ -2039,7 +2053,7 @@
       "date": "2016-07-25T09:41:39 1469439699",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "On the long term issue of unemployment, instead of talking about how jobs were lost to robots, we should focus on how to make robots work for us, the rest of the population, not just Amazon. People should invest in these technologies so they get to share in the dividends.<p>Otherwise, there is a second path - vertically integrated communities, with their own farming, schooling, health and manufacturing, so that people have a job and provide for themselves."
     },
@@ -2095,7 +2109,7 @@
       "date": "2015-11-02T15:29:41 1446478181",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Cathedral and the Bazaar.<p><a href=\"http:&#x2F;&#x2F;www.catb.org&#x2F;~esr&#x2F;writings&#x2F;cathedral-bazaar&#x2F;\" rel=\"nofollow\">http:&#x2F;&#x2F;www.catb.org&#x2F;~esr&#x2F;writings&#x2F;cathedral-bazaar&#x2F;</a><p>The essay contrasts two different free software development models:<p>The Cathedral model, in which source code is available with each software release, but code developed between releases is restricted to an exclusive group of software developers. GNU Emacs and GCC were presented as examples.<p>The Bazaar model, in which the code is developed over the Internet in view of the public. Raymond credits Linus Torvalds, leader of the Linux kernel project, as the inventor of this process. Raymond also provides anecdotal accounts of his own implementation of this model for the Fetchmail project."
     },
@@ -2109,7 +2123,7 @@
       "date": "2015-11-02T13:15:45 1446470145",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "It is how some open source projects work (e.g. Android)."
     },
@@ -2151,7 +2165,7 @@
       "date": "2015-10-08T16:57:51 1444323471",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;OlegIlyenko&#x2F;sangria-auth-example\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;OlegIlyenko&#x2F;sangria-auth-example</a>"
     },
@@ -2165,7 +2179,7 @@
       "date": "2015-10-08T18:16:19 1444328179",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "<a href=\"https:&#x2F;&#x2F;github.com&#x2F;vslinko&#x2F;ripster\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;vslinko&#x2F;ripster</a>"
     },
@@ -2249,12 +2263,432 @@
       "date": "2014-05-20T18:04:56 1400609096",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Their incentives are explained on the frontpage <a href=\"http://www.drop-dropbox.com/\" rel=\"nofollow\">http:&#x2F;&#x2F;www.drop-dropbox.com&#x2F;</a>"
     }
   ],
   "favorites": [
+    {
+      "id": 41501496,
+      "link": "https://blog.cloudflare.com/pingora-saving-compute-1-percent-at-a-time/",
+      "title": "A good day to trie-hard: saving compute 1% at a time",
+      "score": 614,
+      "date": "2024-09-10T15:03:31 1725980611",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=eaufavor",
+        "name": "eaufavor"
+      },
+      "comments_count": 173,
+      "comments_link": "https://news.ycombinator.com/item?id=41501496",
+      "text": ""
+    },
+    {
+      "id": 44022736,
+      "link": "https://nghiant3223.github.io/2025/04/15/go-scheduler.html",
+      "title": "Understanding the Go Scheduler",
+      "score": 180,
+      "date": "2025-05-18T17:03:55 1747587835",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gnabgib",
+        "name": "gnabgib"
+      },
+      "comments_count": 26,
+      "comments_link": "https://news.ycombinator.com/item?id=44022736",
+      "text": ""
+    },
+    {
+      "id": 43931366,
+      "link": "https://www.gilesthomas.com/2025/05/llm-from-scratch-13-taking-stock-part-1-attention-heads-are-dumb",
+      "title": "Writing an LLM from scratch, part 13 – attention heads are dumb",
+      "score": 351,
+      "date": "2025-05-08T21:06:02 1746738362",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=gpjt",
+        "name": "gpjt"
+      },
+      "comments_count": 67,
+      "comments_link": "https://news.ycombinator.com/item?id=43931366",
+      "text": ""
+    },
+    {
+      "id": 43734706,
+      "link": "https://www.servethehome.com/synology-lost-the-plot-with-hard-drive-locking-move/",
+      "title": "Synology Lost the Plot with Hard Drive Locking Move",
+      "score": 653,
+      "date": "2025-04-19T06:48:21 1745045301",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=motiejus",
+        "name": "motiejus"
+      },
+      "comments_count": 403,
+      "comments_link": "https://news.ycombinator.com/item?id=43734706",
+      "text": ""
+    },
+    {
+      "id": 43644351,
+      "link": "https://koreo.dev/",
+      "title": "Show HN: Koreo – A platform engineering toolkit for Kubernetes",
+      "score": 120,
+      "date": "2025-04-10T14:48:20 1744296500",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=tylertreat",
+        "name": "tylertreat"
+      },
+      "comments_count": 44,
+      "comments_link": "https://news.ycombinator.com/item?id=43644351",
+      "text": ""
+    },
+    {
+      "id": 43562860,
+      "link": "https://github.com/luskaner/ageLANServer",
+      "title": "Web Server for AoE 1, 2 and 3 DE supporting LAN multiplayer 100% offline",
+      "score": 442,
+      "date": "2025-04-02T23:10:55 1743635455",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=apitman",
+        "name": "apitman"
+      },
+      "comments_count": 92,
+      "comments_link": "https://news.ycombinator.com/item?id=43562860",
+      "text": ""
+    },
+    {
+      "id": 43547309,
+      "link": "https://news.ycombinator.com/item?id=43547309",
+      "title": "Ask HN: Why hasn’t AMD made a viable CUDA alternative?",
+      "score": 194,
+      "date": "2025-04-01T14:37:54 1743518274",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=spacebanana7",
+        "name": "spacebanana7"
+      },
+      "comments_count": 187,
+      "comments_link": "https://news.ycombinator.com/item?id=43547309",
+      "text": ""
+    },
+    {
+      "id": 43451968,
+      "link": "https://rocm.blogs.amd.com/software-tools-optimization/aiter:-ai-tensor-engine-for-rocm™/README.html",
+      "title": "Aiter: AI Tensor Engine for ROCm",
+      "score": 179,
+      "date": "2025-03-23T10:11:53 1742724713",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hochmartinez",
+        "name": "hochmartinez"
+      },
+      "comments_count": 88,
+      "comments_link": "https://news.ycombinator.com/item?id=43451968",
+      "text": ""
+    },
+    {
+      "id": 43451435,
+      "link": "https://lilianweng.github.io/posts/2018-02-19-rl-overview/",
+      "title": "A (Long) Peek into Reinforcement Learning",
+      "score": 160,
+      "date": "2025-03-23T07:40:29 1742715629",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Brysonbw",
+        "name": "Brysonbw"
+      },
+      "comments_count": 16,
+      "comments_link": "https://news.ycombinator.com/item?id=43451435",
+      "text": ""
+    },
+    {
+      "id": 36872514,
+      "link": "https://timdettmers.com/2023/01/30/which-gpu-for-deep-learning/",
+      "title": "Which GPU(s) to Get for Deep Learning",
+      "score": 223,
+      "date": "2023-07-26T02:41:55 1690339315",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=snow_mac",
+        "name": "snow_mac"
+      },
+      "comments_count": 128,
+      "comments_link": "https://news.ycombinator.com/item?id=36872514",
+      "text": ""
+    },
+    {
+      "id": 39480545,
+      "link": "https://samsja.github.io/blogs/rig/part_1/",
+      "title": "Building a deep learning rig",
+      "score": 164,
+      "date": "2024-02-23T13:52:18 1708696338",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=dvcoolarun",
+        "name": "dvcoolarun"
+      },
+      "comments_count": 106,
+      "comments_link": "https://news.ycombinator.com/item?id=39480545",
+      "text": ""
+    },
+    {
+      "id": 40974193,
+      "link": "https://www.interdb.jp/dl/",
+      "title": "The Engineer’s Guide to Deep Learning: Understanding the Transformer Model",
+      "score": 258,
+      "date": "2024-07-16T07:01:06 1721113266",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=shxx",
+        "name": "shxx"
+      },
+      "comments_count": 29,
+      "comments_link": "https://news.ycombinator.com/item?id=40974193",
+      "text": ""
+    },
+    {
+      "id": 38834244,
+      "link": "https://arxiv.org/abs/2310.20360",
+      "title": "Mathematical Introduction to Deep Learning: Methods, Implementations, and Theory",
+      "score": 450,
+      "date": "2024-01-01T18:46:08 1704134768",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Anon84",
+        "name": "Anon84"
+      },
+      "comments_count": 154,
+      "comments_link": "https://news.ycombinator.com/item?id=38834244",
+      "text": ""
+    },
+    {
+      "id": 42619139,
+      "link": "https://techcrunch.com/2025/01/06/nvidias-project-digits-is-a-personal-ai-computer/",
+      "title": "Nvidia's Project Digits is a 'personal AI supercomputer'",
+      "score": 623,
+      "date": "2025-01-07T04:14:05 1736223245",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=magicalhippo",
+        "name": "magicalhippo"
+      },
+      "comments_count": 495,
+      "comments_link": "https://news.ycombinator.com/item?id=42619139",
+      "text": ""
+    },
+    {
+      "id": 43390400,
+      "link": "https://arxiv.org/abs/2503.02113",
+      "title": "Deep Learning Is Not So Mysterious or Different",
+      "score": 485,
+      "date": "2025-03-17T16:47:02 1742230022",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wuubuu",
+        "name": "wuubuu"
+      },
+      "comments_count": 126,
+      "comments_link": "https://news.ycombinator.com/item?id=43390400",
+      "text": ""
+    },
+    {
+      "id": 43381088,
+      "link": "https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/139379/1/42_161.pdf",
+      "title": "“QWERTY wasn't designed to solve type bar jamming” [pdf]",
+      "score": 103,
+      "date": "2025-03-16T18:34:37 1742150077",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=vishnuharidas",
+        "name": "vishnuharidas"
+      },
+      "comments_count": 60,
+      "comments_link": "https://news.ycombinator.com/item?id=43381088",
+      "text": ""
+    },
+    {
+      "id": 43317406,
+      "link": "https://www.phoronix.com/review/nvidia-rtx5090-llama-cpp",
+      "title": "Llama.cpp AI Performance with the GeForce RTX 5090 Review",
+      "score": 113,
+      "date": "2025-03-10T06:01:18 1741586478",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kristianp",
+        "name": "kristianp"
+      },
+      "comments_count": 78,
+      "comments_link": "https://news.ycombinator.com/item?id=43317406",
+      "text": ""
+    },
+    {
+      "id": 43320024,
+      "link": "https://glasskube.dev/blog/kubernetes-zero-downtime-deployments-aws-eks/",
+      "title": "Zero-Downtime Kubernetes Deployments on AWS with EKS",
+      "score": 203,
+      "date": "2025-03-10T12:48:32 1741610912",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pmig",
+        "name": "pmig"
+      },
+      "comments_count": 115,
+      "comments_link": "https://news.ycombinator.com/item?id=43320024",
+      "text": ""
+    },
+    {
+      "id": 43318624,
+      "link": "https://arxiv.org/abs/2502.05244",
+      "title": "Probabilistic Artificial Intelligence",
+      "score": 352,
+      "date": "2025-03-10T09:50:33 1741600233",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=pavanto",
+        "name": "pavanto"
+      },
+      "comments_count": 97,
+      "comments_link": "https://news.ycombinator.com/item?id=43318624",
+      "text": ""
+    },
+    {
+      "id": 43318798,
+      "link": "https://www.goeuropean.org/",
+      "title": "Go European: Discover European products and services",
+      "score": 688,
+      "date": "2025-03-10T10:15:47 1741601747",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=doener",
+        "name": "doener"
+      },
+      "comments_count": 383,
+      "comments_link": "https://news.ycombinator.com/item?id=43318798",
+      "text": ""
+    },
+    {
+      "id": 10572198,
+      "link": "http://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/",
+      "title": "Anyone Can Learn to Code an LSTM-RNN (Part 1: RNN)",
+      "score": 125,
+      "date": "2015-11-16T01:57:41 1447639061",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=williamtrask",
+        "name": "williamtrask"
+      },
+      "comments_count": 14,
+      "comments_link": "https://news.ycombinator.com/item?id=10572198",
+      "text": ""
+    },
+    {
+      "id": 25875506,
+      "link": "https://ai.googleblog.com/2021/01/improving-indian-language.html",
+      "title": "Improving Indian Language Transliterations in Google Maps",
+      "score": 3,
+      "date": "2021-01-22T19:50:45 1611345045",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=theafh",
+        "name": "theafh"
+      },
+      "comments_count": 0,
+      "comments_link": "",
+      "text": ""
+    },
+    {
+      "id": 14528070,
+      "link": "https://github.com/Kyubyong/neural_japanese_transliterator",
+      "title": "Show HN: Neural Japanese Transliteration",
+      "score": 115,
+      "date": "2017-06-10T16:59:49 1497113989",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kyubyong",
+        "name": "kyubyong"
+      },
+      "comments_count": 52,
+      "comments_link": "https://news.ycombinator.com/item?id=14528070",
+      "text": ""
+    },
+    {
+      "id": 43255311,
+      "link": "https://news.ycombinator.com/item?id=43255311",
+      "title": "Ask HN: Hacker Houses in Europe",
+      "score": 41,
+      "date": "2025-03-04T14:46:22 1741099582",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=alramalho",
+        "name": "alramalho"
+      },
+      "comments_count": 16,
+      "comments_link": "https://news.ycombinator.com/item?id=43255311",
+      "text": ""
+    },
+    {
+      "id": 43043671,
+      "link": "https://www.ocr4all.org/",
+      "title": "OCR4all",
+      "score": 436,
+      "date": "2025-02-14T01:34:05 1739496845",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=LorenDB",
+        "name": "LorenDB"
+      },
+      "comments_count": 124,
+      "comments_link": "https://news.ycombinator.com/item?id=43043671",
+      "text": ""
+    },
+    {
+      "id": 42965499,
+      "link": "https://grafana.com/blog/2025/02/06/why-observability-needs-finops-and-vice-versa-the-vantage-integration-with-grafana-cloud/",
+      "title": "Grafana: Why observability needs FinOps, and vice versa",
+      "score": 62,
+      "date": "2025-02-06T19:13:34 1738869214",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=StratusBen",
+        "name": "StratusBen"
+      },
+      "comments_count": 43,
+      "comments_link": "https://news.ycombinator.com/item?id=42965499",
+      "text": ""
+    },
+    {
+      "id": 42969993,
+      "link": "https://www.nbcnews.com/tech/innovation/indigenous-engineers-are-using-ai-preserve-culture-rcna176012",
+      "title": "Indigenous engineers are using AI to preserve their culture",
+      "score": 174,
+      "date": "2025-02-07T06:23:36 1738909416",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kiyanwang",
+        "name": "kiyanwang"
+      },
+      "comments_count": 92,
+      "comments_link": "https://news.ycombinator.com/item?id=42969993",
+      "text": ""
+    },
+    {
+      "id": 42919909,
+      "link": "https://github.com/monasticacademy/httptap",
+      "title": "Httptap: View HTTP/HTTPS requests made by any Linux program",
+      "score": 664,
+      "date": "2025-02-03T16:28:45 1738600125",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=alexflint",
+        "name": "alexflint"
+      },
+      "comments_count": 145,
+      "comments_link": "https://news.ycombinator.com/item?id=42919909",
+      "text": ""
+    },
+    {
+      "id": 42871040,
+      "link": "https://github.com/houmain/keymapper",
+      "title": "Keymapper: A cross-platform context-aware key remapper",
+      "score": 96,
+      "date": "2025-01-29T20:55:49 1738184149",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
+        "name": "todsacerdoti"
+      },
+      "comments_count": 33,
+      "comments_link": "https://news.ycombinator.com/item?id=42871040",
+      "text": ""
+    },
+    {
+      "id": 42788152,
+      "link": "https://news.ycombinator.com/item?id=42788152",
+      "title": "Ask HN: How do you discover new music?",
+      "score": 9,
+      "date": "2025-01-22T02:26:34 1737512794",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=processing",
+        "name": "processing"
+      },
+      "comments_count": 9,
+      "comments_link": "https://news.ycombinator.com/item?id=42788152",
+      "text": ""
+    },
     {
       "id": 42507016,
       "link": "https://news.ycombinator.com/item?id=42507016",
@@ -2273,13 +2707,13 @@
       "id": 42506506,
       "link": "https://news.ycombinator.com/item?id=42506506",
       "title": "Tell HN: I just updated my wife's Chrome, and uBlock is no longer supported",
-      "score": 327,
+      "score": 328,
       "date": "2024-12-25T02:49:29 1735094969",
       "user": {
         "link": "https://news.ycombinator.com/user?id=christophilus",
         "name": "christophilus"
       },
-      "comments_count": 337,
+      "comments_count": 339,
       "comments_link": "https://news.ycombinator.com/item?id=42506506",
       "text": ""
     },

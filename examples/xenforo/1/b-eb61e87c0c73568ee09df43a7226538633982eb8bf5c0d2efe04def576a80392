@@ -4,17 +4,17 @@
   "categories": [
     {
       "name": "",
-      "link": null,
+      "link": "",
       "description": "",
       "forums": [
         {
           "state": "Mensajes sin leer",
-          "icon": null,
+          "icon": "",
           "name": "Actividades y Concursos finalizados",
           "link": "https://fanficslandia.com/foro/actividades-y-concursos-finalizados.332/",
           "description": "Historial de las diversas actividad de FanficsLandia.",
-          "topics": 1218,
-          "posts": 55779,
+          "topics": 1225,
+          "posts": 56106,
           "feed": "",
           "childboards": [
             {
@@ -23,36 +23,36 @@
             }
           ],
           "lastpost": {
-            "title": "Teléfono Embrujado 2024",
-            "link": "https://fanficslandia.com/posts/1203964/",
-            "user": "Starluz",
-            "user_link": "https://fanficslandia.com/usuario/starluz.35029/",
-            "date": "22 Noviembre 2024 a las 4:55 PM"
+            "title": "Fanficslandia Pokémon League : Sinnoh V Kalos Edition",
+            "link": "https://fanficslandia.com/posts/1208241/",
+            "user": "Zereff",
+            "user_link": "https://fanficslandia.com/usuario/zereff.15152/",
+            "date": "6 Mayo 2025 a las 3:27 PM"
           }
         }
       ]
     },
     {
       "name": "",
-      "link": null,
+      "link": "",
       "description": "",
       "forums": [
         {
           "state": "Mensajes sin leer",
-          "icon": null,
+          "icon": "",
           "name": "Mafias",
           "link": "https://fanficslandia.com/foro/mafias.667/",
           "description": "",
-          "topics": 89,
-          "posts": 58364,
+          "topics": 91,
+          "posts": 59126,
           "feed": "",
           "childboards": [],
           "lastpost": {
-            "title": "Halloween Party Mafia (ETD) [La Mafia gana la partida]",
-            "link": "https://fanficslandia.com/posts/1203622/",
-            "user": "Yandros",
-            "user_link": "https://fanficslandia.com/usuario/yandros.34163/",
-            "date": "5 Noviembre 2024 a las 2:38 PM"
+            "title": "Misión de rescate del Kazekage [ganan los akatsuki]",
+            "link": "https://fanficslandia.com/posts/1205824/",
+            "user": "Hatsujaya",
+            "user_link": "https://fanficslandia.com/usuario/hatsujaya.33241/",
+            "date": "9 Febrero 2025 a las 9:42 PM"
           }
         }
       ]
@@ -60,19 +60,19 @@
   ],
   "threads": [
     {
-      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
+      "avatar": "data/avatars/s/19/19845.jpg?1748199477",
       "icons": [
         "sticky"
       ],
       "label": "Destacado",
       "title": "¡Adopta una actividad!",
       "link": "https://fanficslandia.com/tema/%C2%A1adopta-una-actividad.60747/",
-      "user": "Hygge",
-      "user_link": "https://fanficslandia.com/usuario/hygge.19845/",
+      "user": "Andysaster",
+      "user_link": "https://fanficslandia.com/usuario/andysaster.19845/",
       "date": "17 Octubre 2018",
       "lastpage": 2,
       "replies": 20,
-      "views": 20548,
+      "views": 22034,
       "lastpost": {
         "user": "Zireael",
         "user_link": "https://fanficslandia.com/usuario/zireael.13077/",
@@ -80,39 +80,39 @@
       }
     },
     {
-      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
+      "avatar": "data/avatars/s/19/19845.jpg?1748199477",
       "icons": [
         "sticky"
       ],
       "label": "Charla",
       "title": "Café creativo",
       "link": "https://fanficslandia.com/tema/caf%C3%A9-creativo.60748/",
-      "user": "Hygge",
-      "user_link": "https://fanficslandia.com/usuario/hygge.19845/",
+      "user": "Andysaster",
+      "user_link": "https://fanficslandia.com/usuario/andysaster.19845/",
       "date": "17 Octubre 2018",
       "lastpage": 3,
       "replies": 49,
-      "views": 33737,
+      "views": 36062,
       "lastpost": {
-        "user": "Hygge",
-        "user_link": "https://fanficslandia.com/usuario/hygge.19845/",
+        "user": "Andysaster",
+        "user_link": "https://fanficslandia.com/usuario/andysaster.19845/",
         "date": "24 Enero 2020 a las 9:02 AM"
       }
     },
     {
-      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
+      "avatar": "data/avatars/s/19/19845.jpg?1748199477",
       "icons": [
         "sticky"
       ],
       "label": "Destacado",
       "title": "Índice de actividades, juegos y concursos",
       "link": "https://fanficslandia.com/tema/%C3%8Dndice-de-actividades-juegos-y-concursos.60923/",
-      "user": "Hygge",
-      "user_link": "https://fanficslandia.com/usuario/hygge.19845/",
+      "user": "Andysaster",
+      "user_link": "https://fanficslandia.com/usuario/andysaster.19845/",
       "date": "5 Noviembre 2018",
       "lastpage": 0,
       "replies": 1,
-      "views": 11267,
+      "views": 12069,
       "lastpost": {
         "user": "Apolo",
         "user_link": "https://fanficslandia.com/usuario/apolo.13179/",
@@ -120,57 +120,75 @@
       }
     },
     {
-      "avatar": "data/avatars/s/15/15152.jpg?1731710111",
+      "avatar": "data/avatars/s/34/34144.jpg?1748475384",
       "icons": [],
       "label": "Juego",
-      "title": "Fanficslandia Pokémon League : Sinnoh V Kalos Edition",
-      "link": "https://fanficslandia.com/tema/fanficslandia-pok%C3%A9mon-league-sinnoh-v-kalos-edition.67577/",
-      "user": "Zereff",
-      "user_link": "https://fanficslandia.com/usuario/zereff.15152/",
-      "date": "31 Octubre 2024",
-      "lastpage": 4,
-      "replies": 65,
-      "views": 1996,
+      "title": "¡Chikitos y Chonkys! [Kat's LC Draft Spin Off]",
+      "link": "https://fanficslandia.com/tema/%C2%A1chikitos-y-chonkys-kats-lc-draft-spin-off.67676/",
+      "user": "Kcalbdelaperdicion",
+      "user_link": "https://fanficslandia.com/usuario/kcalbdelaperdicion.34144/",
+      "date": "6 Abril 2025",
+      "lastpage": 5,
+      "replies": 94,
+      "views": 3586,
       "lastpost": {
-        "user": "Santygrass",
-        "user_link": "https://fanficslandia.com/usuario/santygrass.33837/",
-        "date": "1736048881"
+        "user": "Kcalbdelaperdicion",
+        "user_link": "https://fanficslandia.com/usuario/kcalbdelaperdicion.34144/",
+        "date": "1748834981"
       }
     },
     {
-      "avatar": "data/avatars/s/15/15182.jpg?1688703471",
+      "avatar": "data/avatars/s/35/35029.jpg?1747234917",
       "icons": [],
       "label": "Juego",
-      "title": "Pokémon Chess, ¡Segunda Edición!",
-      "link": "https://fanficslandia.com/tema/pok%C3%A9mon-chess-%C2%A1segunda-edici%C3%B3n.67572/",
-      "user": "Lelouch",
-      "user_link": "https://fanficslandia.com/usuario/lelouch.15182/",
-      "date": "22 Octubre 2024",
-      "lastpage": 4,
-      "replies": 79,
-      "views": 2369,
+      "title": "東方 Touhou Youkai Battle!",
+      "link": "https://fanficslandia.com/tema/%E6%9D%B1%E6%96%B9-touhou-youkai-battle.67731/",
+      "user": "Starluz",
+      "user_link": "https://fanficslandia.com/usuario/starluz.35029/",
+      "date": "24 Mayo 2025",
+      "lastpage": 0,
+      "replies": 5,
+      "views": 303,
       "lastpost": {
-        "user": "Santygrass",
-        "user_link": "https://fanficslandia.com/usuario/santygrass.33837/",
-        "date": "27 Diciembre 2024 a las 6:03 PM"
+        "user": "Starluz",
+        "user_link": "https://fanficslandia.com/usuario/starluz.35029/",
+        "date": "1748557153"
       }
     },
     {
-      "avatar": "data/avatars/s/13/13077.jpg?1735449668",
+      "avatar": "data/avatars/s/35/35029.jpg?1747234917",
+      "icons": [],
+      "label": "Inscripciones",
+      "title": "TOUHOU YOUKAI BATTLE",
+      "link": "https://fanficslandia.com/tema/touhou-youkai-battle.67670/",
+      "user": "Starluz",
+      "user_link": "https://fanficslandia.com/usuario/starluz.35029/",
+      "date": "28 Marzo 2025",
+      "lastpage": 0,
+      "replies": 18,
+      "views": 1733,
+      "lastpost": {
+        "user": "Starluz",
+        "user_link": "https://fanficslandia.com/usuario/starluz.35029/",
+        "date": "24 Mayo 2025 a las 11:44 AM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/19/19845.jpg?1748199477",
       "icons": [],
       "label": "Actividad",
-      "title": "Seven Deadly Sins",
-      "link": "https://fanficslandia.com/tema/seven-deadly-sins.67546/",
-      "user": "Zireael",
-      "user_link": "https://fanficslandia.com/usuario/zireael.13077/",
-      "date": "9 Octubre 2024",
-      "lastpage": 0,
-      "replies": 13,
-      "views": 258,
+      "title": "Hitster: Temazos",
+      "link": "https://fanficslandia.com/tema/hitster-temazos.67668/",
+      "user": "Andysaster",
+      "user_link": "https://fanficslandia.com/usuario/andysaster.19845/",
+      "date": "26 Marzo 2025",
+      "lastpage": 2,
+      "replies": 37,
+      "views": 800,
       "lastpost": {
-        "user": "Amane",
-        "user_link": "https://fanficslandia.com/usuario/amane.20199/",
-        "date": "26 Octubre 2024 a las 7:29 AM"
+        "user": "Andysaster",
+        "user_link": "https://fanficslandia.com/usuario/andysaster.19845/",
+        "date": "5 Abril 2025 a las 10:23 AM"
       }
     },
     {
@@ -182,13 +200,13 @@
       "user": "Junho",
       "user_link": "https://fanficslandia.com/usuario/junho.4771/",
       "date": "5 Julio 2012",
-      "lastpage": 60,
-      "replies": 1198,
-      "views": 66785,
+      "lastpage": 61,
+      "replies": 1200,
+      "views": 70329,
       "lastpost": {
         "user": "Lunático Fantasma",
         "user_link": "https://fanficslandia.com/usuario/lun%C3%A1tico-fantasma.23714/",
-        "date": "25 Junio 2024 a las 3:11 PM"
+        "date": "20 Febrero 2025 a las 8:35 AM"
       }
     },
     {
@@ -202,7 +220,7 @@
       "date": "29 Septiembre 2022",
       "lastpage": 82,
       "replies": 1639,
-      "views": 62288,
+      "views": 66518,
       "lastpost": {
         "user": "Sonia de Arnau",
         "user_link": "https://fanficslandia.com/usuario/sonia-de-arnau.10945/",
@@ -210,17 +228,17 @@
       }
     },
     {
-      "avatar": "data/avatars/s/19/19845.jpg?1727985985",
+      "avatar": "data/avatars/s/19/19845.jpg?1748199477",
       "icons": [],
       "label": "Juego Abierto",
       "title": "¿Verdad o reto?",
       "link": "https://fanficslandia.com/tema/%C2%BFverdad-o-reto.60755/",
-      "user": "Hygge",
-      "user_link": "https://fanficslandia.com/usuario/hygge.19845/",
+      "user": "Andysaster",
+      "user_link": "https://fanficslandia.com/usuario/andysaster.19845/",
       "date": "17 Octubre 2018",
       "lastpage": 4,
       "replies": 69,
-      "views": 6316,
+      "views": 6721,
       "lastpost": {
         "user": "Sonia de Arnau",
         "user_link": "https://fanficslandia.com/usuario/sonia-de-arnau.10945/",

@@ -4,24 +4,24 @@
   "categories": [
     {
       "name": "Subforums",
-      "link": null,
+      "link": "",
       "forums": [
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "TechLinked/GameLinked Sources",
           "link": "https://linustechtips.com/forum/95-techlinkedgamelinked-sources/",
           "description": "Sources from TechLinked/GameLinked.",
-          "posts": 1200,
+          "posts": 1300,
           "followers": 0,
           "childboards": [],
           "lastpost": {
-            "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2384c462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EL%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-            "title": "RTX 5080 leaked, CES floodgates open, Meta deletes AI bots + more! - TechLinked January 3, 2025",
-            "link": "https://linustechtips.com/topic/1595047-rtx-5080-leaked-ces-floodgates-open-meta-deletes-ai-bots-more-techlinked-january-3-2025/",
-            "user": "Luchokoldo",
-            "user_link": "https://linustechtips.com/profile/261388-luchokoldo/",
-            "date": "2025-01-05T19:02:45Z"
+            "avatar": "https://pbs-prod.linustechtips.com/monthly_2019_04/RILEY.thumb.jpg.ae37e542df7794794add12d22c3e87a3.jpg",
+            "title": "Microsoft's USB-C Fix, Nvidia's Gaming APU, leaked 9060 XT review + more! - TechLinked June 2 2025",
+            "link": "https://linustechtips.com/topic/1613925-microsofts-usb-c-fix-nvidias-gaming-apu-leaked-9060-xt-review-more-techlinked-june-2-2025/",
+            "user": "RILEYISMYNAME",
+            "user_link": "https://linustechtips.com/profile/563922-rileyismyname/",
+            "date": "2025-06-03T03:56:28Z"
           }
         }
       ]
@@ -29,7 +29,7 @@
   ],
   "threads": [
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [
         "lock",
         "thumb-tack"
@@ -38,714 +38,607 @@
       "link": "https://linustechtips.com/topic/11724-posting-guidelines-read-before-posting/",
       "date": "2013-04-29T07:09:57Z",
       "user": "",
-      "user_link": null,
+      "user_link": "",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": null,
+      "group-indicator": "",
       "replies": 0,
-      "views": 144500,
+      "views": 146200,
       "snippet": "",
       "lastpost": {
         "avatar": "https://linustechtips.com/uploads/set_resources_4/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png",
         "user": "",
-        "user_link": null,
+        "user_link": "",
         "date": "2013-04-29T07:09:57Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "AMD RDNA 4 GPUs will allegedly be renamed!",
-      "link": "https://linustechtips.com/topic/1593443-amd-rdna-4-gpus-will-allegedly-be-renamed/",
-      "date": "2024-12-23T11:16:59Z",
-      "user": "Senzelian",
-      "user_link": "https://linustechtips.com/profile/177417-senzelian/",
-      "lastpage": 2,
+      "title": "\"9,000 Asus routers compromised by botnet attack...\"",
+      "link": "https://linustechtips.com/topic/1613470-9000-asus-routers-compromised-by-botnet-attack/",
+      "date": "2025-05-29T15:02:41Z",
+      "user": "jmwhite33",
+      "user_link": "https://linustechtips.com/profile/1186067-jmwhite33/",
+      "lastpage": 0,
       "tags": [],
-      "group-indicator": null,
-      "replies": 48,
-      "views": 2600,
+      "group-indicator": "",
+      "replies": 20,
+      "views": 559,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2016_03/7C6A5141_1024.jpg.e7a9b0c1c2d5732ce0b6e8ae5baf3249.thumb.jpg.9ab9cd02efaa97a73918e75fcbddcbb3.jpg",
-        "user": "porina",
-        "user_link": "https://linustechtips.com/profile/331257-porina/",
-        "date": "2025-01-06T11:37:06Z"
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2020_05/2000px-Pirate_Flag_svg.thumb.png.d98a0423523099b9634c6d6f38d0446e.png",
+        "user": "Donut417",
+        "user_link": "https://linustechtips.com/profile/209-donut417/",
+        "date": "2025-06-04T12:41:53Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "Honey founder new browser extension Pie adblock called out for using GPL 3 u-block origin and ad guard code",
-      "link": "https://linustechtips.com/topic/1595103-honey-founder-new-browser-extension-pie-adblock-called-out-for-using-gpl-3-u-block-origin-and-ad-guard-code/",
-      "date": "2025-01-04T15:01:42Z",
-      "user": "TheMoroney",
-      "user_link": "https://linustechtips.com/profile/513751-themoroney/",
+      "title": "Belgium introduces repairability index for some electronics, including laptops",
+      "link": "https://linustechtips.com/topic/1610710-belgium-introduces-repairability-index-for-some-electronics-including-laptops/",
+      "date": "2025-05-02T08:59:58Z",
+      "user": "AllTheMinions",
+      "user_link": "https://linustechtips.com/profile/537063-alltheminions/",
       "lastpage": 0,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 5,
-      "views": 338,
+      "tags": [
+        {
+          "name": "laptop",
+          "link": "https://linustechtips.com/tags/laptop/"
+        },
+        {
+          "name": "repairability",
+          "link": "https://linustechtips.com/tags/repairability/"
+        },
+        {
+          "name": "laptop",
+          "link": "https://linustechtips.com/tags/laptop/"
+        },
+        {
+          "name": "repairability",
+          "link": "https://linustechtips.com/tags/repairability/"
+        },
+        {
+          "name": "legislation",
+          "link": "https://linustechtips.com/tags/legislation/"
+        }
+      ],
+      "group-indicator": "",
+      "replies": 3,
+      "views": 326,
       "snippet": "",
       "lastpost": {
         "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_05/bacek125x125_WHITE.thumb.png.2b6b5cc414546454e608388eec1f7bf7.png",
         "user": "RejZoR",
         "user_link": "https://linustechtips.com/profile/588744-rejzor/",
-        "date": "2025-01-06T08:10:50Z"
+        "date": "2025-06-03T13:57:32Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "Intel B580 nerfed by overhead if you dont have a very good CPU",
-      "link": "https://linustechtips.com/topic/1595102-intel-b580-nerfed-by-overhead-if-you-dont-have-a-very-good-cpu/",
-      "date": "2025-01-04T14:49:13Z",
-      "user": "Salted Spinach",
-      "user_link": "https://linustechtips.com/profile/1134606-salted-spinach/",
-      "lastpage": 2,
-      "tags": [
-        {
-          "name": "battlemage",
-          "link": "https://linustechtips.com/tags/battlemage/"
-        },
-        {
-          "name": "graphics",
-          "link": "https://linustechtips.com/tags/graphics/"
-        },
-        {
-          "name": "battlemage",
-          "link": "https://linustechtips.com/tags/battlemage/"
-        },
-        {
-          "name": "graphics",
-          "link": "https://linustechtips.com/tags/graphics/"
-        },
-        {
-          "name": "card",
-          "link": "https://linustechtips.com/tags/card/"
-        },
-        {
-          "name": "gpu",
-          "link": "https://linustechtips.com/tags/gpu/"
-        },
-        {
-          "name": "intel",
-          "link": "https://linustechtips.com/tags/intel/"
-        },
-        {
-          "name": "overhead",
-          "link": "https://linustechtips.com/tags/overhead/"
-        }
-      ],
-      "group-indicator": null,
-      "replies": 29,
-      "views": 882,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2019_12/large.thumb.jpg.fa13bb2bbb2e6f5ae10b1989ceee53d9.jpg",
-        "user": "igormp",
-        "user_link": "https://linustechtips.com/profile/255230-igormp/",
-        "date": "2025-01-06T01:28:27Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "Apple continues to \"support principles of democracy in Russia\" by removing VPN services from the platform",
-      "link": "https://linustechtips.com/topic/1593991-apple-continues-to-support-principles-of-democracy-in-russia-by-removing-vpn-services-from-the-platform/",
-      "date": "2024-12-27T13:10:59Z",
-      "user": "tridy",
-      "user_link": "https://linustechtips.com/profile/477158-tridy/",
-      "lastpage": 2,
+      "title": "Some Non-Switch games like video apps wont work on Switch 2 (Hulu, Crunchyroll, InkyPen, Abema and Niconico)",
+      "link": "https://linustechtips.com/topic/1613590-some-non-switch-games-like-video-apps-wont-work-on-switch-2-hulu-crunchyroll-inkypen-abema-and-niconico/",
+      "date": "2025-05-30T13:55:10Z",
+      "user": "AlwaysBlaze",
+      "user_link": "https://linustechtips.com/profile/1188648-alwaysblaze/",
+      "lastpage": 0,
       "tags": [],
-      "group-indicator": null,
-      "replies": 43,
-      "views": 1100,
+      "group-indicator": "",
+      "replies": 20,
+      "views": 486,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2017_02/dizzy_90x90.thumb.jpg.0ff3111abfd2b2deee8470234e7f2ecc.jpg",
-        "user": "tridy",
-        "user_link": "https://linustechtips.com/profile/477158-tridy/",
-        "date": "2025-01-05T15:18:19Z"
+        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46276%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EA%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+        "user": "atxcyclist",
+        "user_link": "https://linustechtips.com/profile/334972-atxcyclist/",
+        "date": "2025-06-03T05:25:49Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "Gordon Mah Ung, one of the pillars of tech journalism, 1967-2024",
-      "link": "https://linustechtips.com/topic/1593546-gordon-mah-ung-one-of-the-pillars-of-tech-journalism-1967-2024/",
-      "date": "2024-12-24T06:33:10Z",
+      "title": "Microsoft Authenticator's Password Manager feature to be replaced by Microsoft Edge",
+      "link": "https://linustechtips.com/topic/1611137-microsoft-authenticators-password-manager-feature-to-be-replaced-by-microsoft-edge/",
+      "date": "2025-05-06T05:09:14Z",
       "user": "BlueChinchillaEatingDorito",
       "user_link": "https://linustechtips.com/profile/81453-bluechinchillaeatingdorito/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": null,
-      "replies": 8,
-      "views": 1000,
+      "group-indicator": "",
+      "replies": 14,
+      "views": 897,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2025_01/yc4HdHJ.jpg.340f69a30934d8591cee7feca42aef45.thumb.jpg.adcd2c8ba98c806b4b7c9ab9c90fb24f.jpg",
-        "user": "BlueChinchillaEatingDorito",
-        "user_link": "https://linustechtips.com/profile/81453-bluechinchillaeatingdorito/",
-        "date": "2025-01-04T05:51:33Z"
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2025_02/imported-photo-1170024.thumb.jpeg.90a82706675c9f15db640a5aef99042b.jpeg",
+        "user": "Hideki Ryuga",
+        "user_link": "https://linustechtips.com/profile/1170024-hideki-ryuga/",
+        "date": "2025-06-03T03:49:37Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
+      "icons": [],
+      "title": "Sealed ZOTAC RTX 5090 box contained backpacks, not GPU, MicroCenter reportedly finds 31 more cases",
+      "link": "https://linustechtips.com/topic/1613609-sealed-zotac-rtx-5090-box-contained-backpacks-not-gpu-microcenter-reportedly-finds-31-more-cases/",
+      "date": "2025-05-30T18:17:46Z",
+      "user": "AllyPuyo",
+      "user_link": "https://linustechtips.com/profile/899035-allypuyo/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 8,
+      "views": 418,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2024_05/ProfilePic2.thumb.png.a827b9830902de798bb52a7d5cb9f955.png",
+        "user": "Poinkachu",
+        "user_link": "https://linustechtips.com/profile/736410-poinkachu/",
+        "date": "2025-06-01T13:53:31Z"
+      }
+    },
+    {
+      "avatar": "",
       "icons": [
         "lock"
       ],
-      "title": "Wendover & Legal Eagle file class-action law suite against Honey-Paypal",
-      "link": "https://linustechtips.com/topic/1594743-wendover-legal-eagle-file-class-action-law-suite-against-honey-paypal/",
-      "date": "2025-01-02T04:10:11Z",
-      "user": "tagKnife",
-      "user_link": "https://linustechtips.com/profile/563903-tagknife/",
+      "title": "YouTube app may have some issues running on Nintendo Switch 2.",
+      "link": "https://linustechtips.com/topic/1613597-youtube-app-may-have-some-issues-running-on-nintendo-switch-2/",
+      "date": "2025-05-30T15:05:08Z",
+      "user": "AlwaysBlaze",
+      "user_link": "https://linustechtips.com/profile/1188648-alwaysblaze/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": null,
+      "group-indicator": "",
       "replies": 1,
-      "views": 462,
+      "views": 305,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2020_12/1180958376_Spotinktransparentbackground.png.7188f42b6ee7230b8b8a62f0e71d2e83.thumb.png.be48fc6c9e4e3ee63bef8efff3bffc99.png",
-        "user": "Spotty",
-        "user_link": "https://linustechtips.com/profile/519965-spotty/",
-        "date": "2025-01-02T04:19:32Z"
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2021_11/3.thumb.png.01e8499965655c30c76470d2deb999ff.png",
+        "user": "Skiiwee29",
+        "user_link": "https://linustechtips.com/profile/61122-skiiwee29/",
+        "date": "2025-05-30T15:16:54Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "ARM Cancels Qualcomm's Design License",
-      "link": "https://linustechtips.com/topic/1586532-arm-cancels-qualcomms-design-license/",
-      "date": "2024-10-23T07:36:56Z",
-      "user": "LAwLz",
-      "user_link": "https://linustechtips.com/profile/216-lawlz/",
-      "lastpage": 3,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 65,
-      "views": 3300,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%239ac462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "starsmine",
-        "user_link": "https://linustechtips.com/profile/92351-starsmine/",
-        "date": "2025-01-02T03:45:35Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "EU Commission registers the \"Stop Destroying Videogames\" citizen's initiative",
-      "link": "https://linustechtips.com/topic/1575586-eu-commission-registers-the-stop-destroying-videogames-citizens-initiative/",
-      "date": "2024-07-04T09:05:45Z",
-      "user": "Silverflame",
-      "user_link": "https://linustechtips.com/profile/513273-silverflame/",
-      "lastpage": 4,
-      "tags": [
-        {
-          "name": "eu",
-          "link": "https://linustechtips.com/tags/eu/"
-        },
-        {
-          "name": "video games",
-          "link": "https://linustechtips.com/tags/video%20games/"
-        },
-        {
-          "name": "eu",
-          "link": "https://linustechtips.com/tags/eu/"
-        },
-        {
-          "name": "video games",
-          "link": "https://linustechtips.com/tags/video%20games/"
-        },
-        {
-          "name": "drm",
-          "link": "https://linustechtips.com/tags/drm/"
-        }
-      ],
-      "group-indicator": null,
-      "replies": 75,
-      "views": 4800,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c490%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "mrglanet",
-        "user_link": "https://linustechtips.com/profile/1167300-mrglanet/",
-        "date": "2024-12-31T22:52:34Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "Arc Battlemage High End Cards Rumored for 2025",
-      "link": "https://linustechtips.com/topic/1594329-arc-battlemage-high-end-cards-rumored-for-2025/",
-      "date": "2024-12-29T23:16:59Z",
-      "user": "iGameShit",
-      "user_link": "https://linustechtips.com/profile/852314-igameshit/",
-      "lastpage": 2,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 31,
-      "views": 943,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%239ac462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "starsmine",
-        "user_link": "https://linustechtips.com/profile/92351-starsmine/",
-        "date": "2024-12-31T15:18:45Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "RTX 5090 alleged PCB pictured",
-      "link": "https://linustechtips.com/topic/1593675-rtx-5090-alleged-pcb-pictured/",
-      "date": "2024-12-25T07:50:37Z",
-      "user": "DuckDodgers",
-      "user_link": "https://linustechtips.com/profile/941-duckdodgers/",
-      "lastpage": 2,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 44,
-      "views": 1400,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_05/bacek125x125_WHITE.thumb.png.2b6b5cc414546454e608388eec1f7bf7.png",
-        "user": "RejZoR",
-        "user_link": "https://linustechtips.com/profile/588744-rejzor/",
-        "date": "2024-12-30T19:08:06Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "Why Intel Shareholders Are Demanding Fired CEO Pat Gelsinger To Return 3 Years Of Salary",
-      "link": "https://linustechtips.com/topic/1593591-why-intel-shareholders-are-demanding-fired-ceo-pat-gelsinger-to-return-3-years-of-salary/",
-      "date": "2024-12-24T14:14:58Z",
-      "user": "Haswellx86",
-      "user_link": "https://linustechtips.com/profile/900994-haswellx86/",
+      "title": "Is Arc Browser dying?",
+      "link": "https://linustechtips.com/topic/1613270-is-arc-browser-dying/",
+      "date": "2025-05-27T16:45:48Z",
+      "user": "EvoGamer",
+      "user_link": "https://linustechtips.com/profile/519372-evogamer/",
       "lastpage": 0,
       "tags": [],
-      "group-indicator": null,
-      "replies": 18,
-      "views": 1100,
+      "group-indicator": "",
+      "replies": 9,
+      "views": 476,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2016_03/7C6A5141_1024.jpg.e7a9b0c1c2d5732ce0b6e8ae5baf3249.thumb.jpg.9ab9cd02efaa97a73918e75fcbddcbb3.jpg",
-        "user": "porina",
-        "user_link": "https://linustechtips.com/profile/331257-porina/",
-        "date": "2024-12-28T11:38:43Z"
+        "avatar": "https://pbs-prod.linustechtips.com/profile/photo-thumb-141373.png",
+        "user": "rattacko123",
+        "user_link": "https://linustechtips.com/profile/141373-rattacko123/",
+        "date": "2025-05-30T14:06:17Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "MaxSun’s Arc B580 GPU with a pair of M.2 slots",
-      "link": "https://linustechtips.com/topic/1593010-maxsun%E2%80%99s-arc-b580-gpu-with-a-pair-of-m2-slots/",
-      "date": "2024-12-19T20:20:23Z",
-      "user": "DuckDodgers",
-      "user_link": "https://linustechtips.com/profile/941-duckdodgers/",
-      "lastpage": 2,
-      "tags": [
-        {
-          "name": "battlemage",
-          "link": "https://linustechtips.com/tags/battlemage/"
-        },
-        {
-          "name": "b580",
-          "link": "https://linustechtips.com/tags/b580/"
-        },
-        {
-          "name": "battlemage",
-          "link": "https://linustechtips.com/tags/battlemage/"
-        },
-        {
-          "name": "b580",
-          "link": "https://linustechtips.com/tags/b580/"
-        },
-        {
-          "name": "nvme",
-          "link": "https://linustechtips.com/tags/nvme/"
-        },
-        {
-          "name": "ssd",
-          "link": "https://linustechtips.com/tags/ssd/"
-        }
-      ],
-      "group-indicator": null,
-      "replies": 31,
-      "views": 1300,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2017_01/rsz_miata_with_pretty_background.thumb.jpg.5a449ae52cd4511199ef35941e784170.jpg",
-        "user": "bcredeur97",
-        "user_link": "https://linustechtips.com/profile/15957-bcredeur97/",
-        "date": "2024-12-24T21:39:21Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "Multiple German Discord users mysteriously banned without warning - Discord still attempting to restore banned accounts",
-      "link": "https://linustechtips.com/topic/1593098-multiple-german-discord-users-mysteriously-banned-without-warning-discord-still-attempting-to-restore-banned-accounts/",
-      "date": "2024-12-20T11:11:59Z",
-      "user": "KeradSnake",
-      "user_link": "https://linustechtips.com/profile/500911-keradsnake/",
+      "title": "Several Sega Forever mobile games unceremoniously delisted + End of Service announcement",
+      "link": "https://linustechtips.com/topic/1613588-several-sega-forever-mobile-games-unceremoniously-delisted-end-of-service-announcement/",
+      "date": "2025-05-30T13:42:06Z",
+      "user": "AlwaysBlaze",
+      "user_link": "https://linustechtips.com/profile/1188648-alwaysblaze/",
       "lastpage": 0,
-      "tags": [
-        {
-          "name": "discord",
-          "link": "https://linustechtips.com/tags/discord/"
-        },
-        {
-          "name": "germany",
-          "link": "https://linustechtips.com/tags/germany/"
-        }
-      ],
-      "group-indicator": null,
-      "replies": 3,
-      "views": 770,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2025_01/yc4HdHJ.jpg.340f69a30934d8591cee7feca42aef45.thumb.jpg.adcd2c8ba98c806b4b7c9ab9c90fb24f.jpg",
-        "user": "BlueChinchillaEatingDorito",
-        "user_link": "https://linustechtips.com/profile/81453-bluechinchillaeatingdorito/",
-        "date": "2024-12-24T07:26:48Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "AMD 9800X3D teardown shows 750 micrometers of \"structural support\"",
-      "link": "https://linustechtips.com/topic/1592857-amd-9800x3d-teardown-shows-750-micrometers-of-structural-support/",
-      "date": "2024-12-18T17:31:07Z",
-      "user": "sounds",
-      "user_link": "https://linustechtips.com/profile/700532-sounds/",
-      "lastpage": 0,
-      "tags": [
-        {
-          "name": "amd",
-          "link": "https://linustechtips.com/tags/amd/"
-        },
-        {
-          "name": "9800x3d",
-          "link": "https://linustechtips.com/tags/9800x3d/"
-        },
-        {
-          "name": "amd",
-          "link": "https://linustechtips.com/tags/amd/"
-        },
-        {
-          "name": "9800x3d",
-          "link": "https://linustechtips.com/tags/9800x3d/"
-        },
-        {
-          "name": "cpu",
-          "link": "https://linustechtips.com/tags/cpu/"
-        }
-      ],
-      "group-indicator": null,
-      "replies": 6,
-      "views": 685,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462b2%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EB%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "Bitter",
-        "user_link": "https://linustechtips.com/profile/576772-bitter/",
-        "date": "2024-12-21T05:28:10Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "The Game Awards stuff - Awards and anything revolving TGA",
-      "link": "https://linustechtips.com/topic/1592347-the-game-awards-stuff-awards-and-anything-revolving-tga/",
-      "date": "2024-12-13T19:33:31Z",
-      "user": "KeradSnake",
-      "user_link": "https://linustechtips.com/profile/500911-keradsnake/",
-      "lastpage": 2,
-      "tags": [
-        {
-          "name": "thegameawards",
-          "link": "https://linustechtips.com/tags/thegameawards/"
-        },
-        {
-          "name": "games",
-          "link": "https://linustechtips.com/tags/games/"
-        },
-        {
-          "name": "thegameawards",
-          "link": "https://linustechtips.com/tags/thegameawards/"
-        },
-        {
-          "name": "games",
-          "link": "https://linustechtips.com/tags/games/"
-        },
-        {
-          "name": "tga2024",
-          "link": "https://linustechtips.com/tags/tga2024/"
-        }
-      ],
-      "group-indicator": null,
-      "replies": 29,
-      "views": 1200,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2022_12/imported-photo-639888.thumb.jpeg.22f6410b6c0070de3d34eba7af02099c.jpeg",
-        "user": "Kisai",
-        "user_link": "https://linustechtips.com/profile/639888-kisai/",
-        "date": "2024-12-20T00:03:51Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "AMD confirms 9800X3D, price reductions on Zen 5",
-      "link": "https://linustechtips.com/topic/1586336-amd-confirms-9800x3d-price-reductions-on-zen-5/",
-      "date": "2024-10-21T14:13:38Z",
-      "user": "porina",
-      "user_link": "https://linustechtips.com/profile/331257-porina/",
-      "lastpage": 4,
       "tags": [],
-      "group-indicator": null,
-      "replies": 78,
-      "views": 4900,
+      "group-indicator": "",
+      "replies": 2,
+      "views": 304,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_05/HD-wallpaper-deadpool-logo-comics-deadpool-disney-hollywood-marvel-movies-red-superhero-x-man.thumb.jpg.28413c1e5a498bcc461ccad9c567e41b.jpg",
-        "user": "Deadpool2onBlu-Ray",
-        "user_link": "https://linustechtips.com/profile/326004-deadpool2onblu-ray/",
-        "date": "2024-12-19T14:09:56Z"
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2022_02/67DBF785-54D2-40E3-9B6C-8F1B3471DE6D.thumb.jpeg.81cfcdf1a7e856850a05ded11b4bc491.jpeg",
+        "user": "Needfuldoer",
+        "user_link": "https://linustechtips.com/profile/815491-needfuldoer/",
+        "date": "2025-05-30T13:47:32Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
+      "icons": [],
+      "title": "Unraid Increases Upgrade Prices for Old Licenses",
+      "link": "https://linustechtips.com/topic/1612479-unraid-increases-upgrade-prices-for-old-licenses/",
+      "date": "2025-05-19T20:17:25Z",
+      "user": "TsukinoYuuki",
+      "user_link": "https://linustechtips.com/profile/550888-tsukinoyuuki/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 4,
+      "views": 933,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2018_11/1245351651_LogoBlueandGreywithouttext2160xJPEG.thumb.jpg.fac4c40a1d5cb7943f91c51791b96fa3.jpg",
+        "user": "Mihle",
+        "user_link": "https://linustechtips.com/profile/36205-mihle/",
+        "date": "2025-05-29T12:45:26Z"
+      }
+    },
+    {
+      "avatar": "",
       "icons": [
-        "check"
+        "caret-right"
       ],
-      "title": "Australia - Retail Use of Facial Recognition Breaches Privacy Laws",
-      "link": "https://linustechtips.com/topic/1589409-australia-retail-use-of-facial-recognition-breaches-privacy-laws/",
-      "date": "2024-11-19T08:28:03Z",
-      "user": "JJ12415",
-      "user_link": "https://linustechtips.com/profile/1160780-jj12415/",
-      "lastpage": 2,
+      "title": "Switch 2 release date, price, etc. announced",
+      "link": "https://linustechtips.com/topic/1607612-switch-2-release-date-price-etc-announced/",
+      "date": "2025-04-02T15:37:40Z",
+      "user": "Ha-Satan",
+      "user_link": "https://linustechtips.com/profile/681419-ha-satan/",
+      "lastpage": 6,
       "tags": [],
-      "group-indicator": null,
-      "replies": 40,
-      "views": 1500,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/profile/photo-31362.gif",
-        "user": "mr moose",
-        "user_link": "https://linustechtips.com/profile/31362-mr-moose/",
-        "date": "2024-12-15T18:41:20Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "OpenAI's 12 Days of Shipmas",
-      "link": "https://linustechtips.com/topic/1591461-openais-12-days-of-shipmas/",
-      "date": "2024-12-05T22:16:44Z",
-      "user": "LAwLz",
-      "user_link": "https://linustechtips.com/profile/216-lawlz/",
-      "lastpage": 2,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 38,
-      "views": 2000,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2024_02/Holy_Dragon.thumb.jpg.9534f2ceafbc6ab795c36533115f25e4.jpg",
-        "user": "StDragon",
-        "user_link": "https://linustechtips.com/profile/711468-stdragon/",
-        "date": "2024-12-13T18:29:35Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "Spotify Bricking the Car Thing",
-      "link": "https://linustechtips.com/topic/1571314-spotify-bricking-the-car-thing/",
-      "date": "2024-05-23T18:24:02Z",
-      "user": "Talon Hackbarth",
-      "user_link": "https://linustechtips.com/profile/1148555-talon-hackbarth/",
-      "lastpage": 2,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 49,
-      "views": 3500,
-      "snippet": "",
-      "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_10/OIG.Ll8fAypAmEH5EK65eES8.thumb.jpg.527fb8aa755051ed26203d2a48c9f65a.jpg",
-        "user": "TetraSky",
-        "user_link": "https://linustechtips.com/profile/4931-tetrasky/",
-        "date": "2024-12-11T23:00:40Z"
-      }
-    },
-    {
-      "avatar": null,
-      "icons": [],
-      "title": "Minecraft Bans Guns... Illegally?",
-      "link": "https://linustechtips.com/topic/1591585-minecraft-bans-guns-illegally/",
-      "date": "2024-12-07T00:29:59Z",
-      "user": "Nimoy007",
-      "user_link": "https://linustechtips.com/profile/457911-nimoy007/",
-      "lastpage": 2,
-      "tags": [
-        {
-          "name": "mojang",
-          "link": "https://linustechtips.com/tags/mojang/"
-        },
-        {
-          "name": "minecraft",
-          "link": "https://linustechtips.com/tags/minecraft/"
-        },
-        {
-          "name": "mojang",
-          "link": "https://linustechtips.com/tags/mojang/"
-        },
-        {
-          "name": "minecraft",
-          "link": "https://linustechtips.com/tags/minecraft/"
-        },
-        {
-          "name": "kian",
-          "link": "https://linustechtips.com/tags/kian/"
-        },
-        {
-          "name": "guns",
-          "link": "https://linustechtips.com/tags/guns/"
-        },
-        {
-          "name": "lawsuit",
-          "link": "https://linustechtips.com/tags/lawsuit/"
-        }
-      ],
-      "group-indicator": null,
-      "replies": 25,
-      "views": 1600,
+      "group-indicator": "",
+      "replies": 127,
+      "views": 9400,
       "snippet": "",
       "lastpost": {
         "avatar": "https://pbs-prod.linustechtips.com/monthly_2021_04/223606761_Screenshotfrom2021-04-2823-46-58.thumb.png.6f6a6000f2ca620021b28bd01ec68053.png",
         "user": "jagdtigger",
         "user_link": "https://linustechtips.com/profile/254575-jagdtigger/",
-        "date": "2024-12-08T19:51:54Z"
+        "date": "2025-05-28T10:43:57Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "Intel CEO Pat Gelsinger Retires",
-      "link": "https://linustechtips.com/topic/1591065-intel-ceo-pat-gelsinger-retires/",
-      "date": "2024-12-02T15:45:55Z",
-      "user": "starsmine",
-      "user_link": "https://linustechtips.com/profile/92351-starsmine/",
+      "title": "AI avatar of victim testifies in court in Maricopa",
+      "link": "https://linustechtips.com/topic/1611683-ai-avatar-of-victim-testifies-in-court-in-maricopa/",
+      "date": "2025-05-11T17:14:19Z",
+      "user": "05032-Mendicant-Bias",
+      "user_link": "https://linustechtips.com/profile/754000-05032-mendicant-bias/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 19,
+      "views": 531,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_07/19ce8d45cdf0a85790b273147e6ec4a2.thumb.png.5da0337be1c6932532db38024cae1fda.png",
+        "user": "DoctorNick",
+        "user_link": "https://linustechtips.com/profile/9174-doctornick/",
+        "date": "2025-05-28T06:05:00Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "Skype is Shutting Down After Nearly 22 Years.",
+      "link": "https://linustechtips.com/topic/1603437-skype-is-shutting-down-after-nearly-22-years/",
+      "date": "2025-02-28T16:23:46Z",
+      "user": "GoStormPlays",
+      "user_link": "https://linustechtips.com/profile/1108039-gostormplays/",
+      "lastpage": 3,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 61,
+      "views": 4700,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_02/temp.thumb.png.22ef13137db7e28221dbf02cb3f6d0dc.png",
+        "user": "Issac Zachary",
+        "user_link": "https://linustechtips.com/profile/1070668-issac-zachary/",
+        "date": "2025-05-26T04:13:23Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "Intel Unveils New Pro GPUs, Designed for AI Workloads",
+      "link": "https://linustechtips.com/topic/1612450-intel-unveils-new-pro-gpus-designed-for-ai-workloads/",
+      "date": "2025-05-19T14:29:29Z",
+      "user": "SirShanova",
+      "user_link": "https://linustechtips.com/profile/1016696-sirshanova/",
       "lastpage": 2,
       "tags": [],
-      "group-indicator": null,
-      "replies": 36,
+      "group-indicator": "",
+      "replies": 25,
+      "views": 1400,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2017_11/5a19dc61b0c54_purpledove100px.thumb.gif.55dff58fade58f6aa0dc64fefa74f3f4.gif",
+        "user": "Dabombinable",
+        "user_link": "https://linustechtips.com/profile/155575-dabombinable/",
+        "date": "2025-05-25T11:01:03Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "Google deprecates old SafetyNet API in favor of Play Integrity API",
+      "link": "https://linustechtips.com/topic/1612681-google-deprecates-old-safetynet-api-in-favor-of-play-integrity-api/",
+      "date": "2025-05-21T17:06:28Z",
+      "user": "Robert Urrutia",
+      "user_link": "https://linustechtips.com/profile/602607-robert-urrutia/",
+      "lastpage": 0,
+      "tags": [
+        {
+          "name": "google",
+          "link": "https://linustechtips.com/tags/google/"
+        },
+        {
+          "name": "safetynet",
+          "link": "https://linustechtips.com/tags/safetynet/"
+        },
+        {
+          "name": "google",
+          "link": "https://linustechtips.com/tags/google/"
+        },
+        {
+          "name": "safetynet",
+          "link": "https://linustechtips.com/tags/safetynet/"
+        },
+        {
+          "name": "integrity",
+          "link": "https://linustechtips.com/tags/integrity/"
+        },
+        {
+          "name": "playstore",
+          "link": "https://linustechtips.com/tags/playstore/"
+        },
+        {
+          "name": "customrom",
+          "link": "https://linustechtips.com/tags/customrom/"
+        }
+      ],
+      "group-indicator": "",
+      "replies": 2,
+      "views": 358,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2020_03/avatar.thumb.jpg.58ca681929c28cce0eebd31447206fe8.jpg",
+        "user": "OhioYJ",
+        "user_link": "https://linustechtips.com/profile/629640-ohioyj/",
+        "date": "2025-05-21T18:43:30Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "Washington Governer Signs Right to Repair Bill",
+      "link": "https://linustechtips.com/topic/1612547-washington-governer-signs-right-to-repair-bill/",
+      "date": "2025-05-20T09:38:42Z",
+      "user": "JTuyen",
+      "user_link": "https://linustechtips.com/profile/394337-jtuyen/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 18,
+      "views": 335,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2025_04/ken.thumb.jpg.e889f203675baf4cc798ffda67b4d316.jpg",
+        "user": "Millios",
+        "user_link": "https://linustechtips.com/profile/1141600-millios/",
+        "date": "2025-05-21T11:35:06Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "23andme to be sold to Regeneron Pharmaceuticals: BBC",
+      "link": "https://linustechtips.com/topic/1612480-23andme-to-be-sold-to-regeneron-pharmaceuticals-bbc/",
+      "date": "2025-05-19T20:27:52Z",
+      "user": "Dzzope",
+      "user_link": "https://linustechtips.com/profile/199993-dzzope/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 1,
+      "views": 243,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2024_12/imported-photo-692382.thumb.png.b50e8112f5889b45d86fc9efe94f8634.png",
+        "user": "Dutch_Master",
+        "user_link": "https://linustechtips.com/profile/692382-dutch_master/",
+        "date": "2025-05-19T20:44:19Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [
+        "caret-right"
+      ],
+      "title": "Province of Quebec government imposes full ban of smartphones in grade and high school - starting next school year",
+      "link": "https://linustechtips.com/topic/1610670-province-of-quebec-government-imposes-full-ban-of-smartphones-in-grade-and-high-school-starting-next-school-year/",
+      "date": "2025-05-01T22:18:37Z",
+      "user": "Lebon14",
+      "user_link": "https://linustechtips.com/profile/618136-lebon14/",
+      "lastpage": 7,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 154,
+      "views": 3000,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2022_12/imported-photo-639888.thumb.jpeg.22f6410b6c0070de3d34eba7af02099c.jpeg",
+        "user": "Kisai",
+        "user_link": "https://linustechtips.com/profile/639888-kisai/",
+        "date": "2025-05-14T20:58:51Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "20 Years After GameStop buys EBGames, EBGames buys Gamestop",
+      "link": "https://linustechtips.com/topic/1611113-20-years-after-gamestop-buys-ebgames-ebgames-buys-gamestop/",
+      "date": "2025-05-05T23:32:58Z",
+      "user": "rcmaehl",
+      "user_link": "https://linustechtips.com/profile/509916-rcmaehl/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 15,
+      "views": 793,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2022_04/fatalframe-maidenofblmnkn5.png.4d0deb34f2f202e10718b175407c9d03.thumb.png.fc37ebdf8f0d796ed8ebe041a69966f4.png",
+        "user": "Mark Kaine",
+        "user_link": "https://linustechtips.com/profile/675016-mark-kaine/",
+        "date": "2025-05-08T23:31:46Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "Synology is implementing DRM for storage drives in some of their NAS Units!",
+      "link": "https://linustechtips.com/topic/1609619-synology-is-implementing-drm-for-storage-drives-in-some-of-their-nas-units/",
+      "date": "2025-04-21T21:16:52Z",
+      "user": "Gdfelt",
+      "user_link": "https://linustechtips.com/profile/1045498-gdfelt/",
+      "lastpage": 3,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 62,
       "views": 1700,
       "snippet": "",
       "lastpost": {
-        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%239ac462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-        "user": "starsmine",
-        "user_link": "https://linustechtips.com/profile/92351-starsmine/",
-        "date": "2024-12-07T16:35:46Z"
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2021_04/223606761_Screenshotfrom2021-04-2823-46-58.thumb.png.6f6a6000f2ca620021b28bd01ec68053.png",
+        "user": "jagdtigger",
+        "user_link": "https://linustechtips.com/profile/254575-jagdtigger/",
+        "date": "2025-05-08T11:14:45Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "Australia Blocked Internationally Purchased 4G/5G Phones As Part of 3G Shutdown - Started 28 October",
-      "link": "https://linustechtips.com/topic/1584614-australia-blocked-internationally-purchased-4g5g-phones-as-part-of-3g-shutdown-started-28-october/",
-      "date": "2024-10-05T14:01:27Z",
-      "user": "JamesDwho",
-      "user_link": "https://linustechtips.com/profile/215-jamesdwho/",
-      "lastpage": 4,
+      "title": "There's a hack for that [Apple wormable zero-click]",
+      "link": "https://linustechtips.com/topic/1610543-theres-a-hack-for-that-apple-wormable-zero-click/",
+      "date": "2025-04-30T18:49:58Z",
+      "user": "wanderingfool2",
+      "user_link": "https://linustechtips.com/profile/457429-wanderingfool2/",
+      "lastpage": 0,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 12,
+      "views": 769,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2024_02/Holy_Dragon.thumb.jpg.9534f2ceafbc6ab795c36533115f25e4.jpg",
+        "user": "StDragon",
+        "user_link": "https://linustechtips.com/profile/711468-stdragon/",
+        "date": "2025-05-05T23:40:06Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [],
+      "title": "RTX 4060 Usage on Steam Nearly Doubles, Making It the Most Popular Gaming Graphics Card",
+      "link": "https://linustechtips.com/topic/1604381-rtx-4060-usage-on-steam-nearly-doubles-making-it-the-most-popular-gaming-graphics-card/",
+      "date": "2025-03-07T18:20:29Z",
+      "user": "smalldude",
+      "user_link": "https://linustechtips.com/profile/1179340-smalldude/",
+      "lastpage": 0,
       "tags": [
         {
-          "name": "4g",
-          "link": "https://linustechtips.com/tags/4g/"
+          "name": "steam",
+          "link": "https://linustechtips.com/tags/steam/"
         },
         {
-          "name": "volte",
-          "link": "https://linustechtips.com/tags/volte/"
-        },
-        {
-          "name": "4g",
-          "link": "https://linustechtips.com/tags/4g/"
-        },
-        {
-          "name": "volte",
-          "link": "https://linustechtips.com/tags/volte/"
-        },
-        {
-          "name": "android",
-          "link": "https://linustechtips.com/tags/android/"
-        },
-        {
-          "name": "5g",
-          "link": "https://linustechtips.com/tags/5g/"
-        },
-        {
-          "name": "3g",
-          "link": "https://linustechtips.com/tags/3g/"
+          "name": "rtx 4060",
+          "link": "https://linustechtips.com/tags/rtx%204060/"
         }
       ],
-      "group-indicator": null,
-      "replies": 92,
-      "views": 6400,
+      "group-indicator": "",
+      "replies": 12,
+      "views": 1700,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_02/playmobaxe.thumb.jpg.0ea2f4f6f500a061d86f9ee3064cbb4c.jpg",
-        "user": "PDifolco",
-        "user_link": "https://linustechtips.com/profile/912837-pdifolco/",
-        "date": "2024-12-04T11:10:56Z"
+        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462aa%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EE%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+        "user": "ewitte",
+        "user_link": "https://linustechtips.com/profile/284352-ewitte/",
+        "date": "2025-05-01T19:52:33Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "\"Go buy new one,\" says D-link. Vulnerabilities in EoL D-link modems and routers will not be fixed",
-      "link": "https://linustechtips.com/topic/1590414-go-buy-new-one-says-d-link-vulnerabilities-in-eol-d-link-modems-and-routers-will-not-be-fixed/",
-      "date": "2024-11-27T05:59:35Z",
-      "user": "Sant_HH",
-      "user_link": "https://linustechtips.com/profile/928960-sant_hh/",
-      "lastpage": 3,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 74,
-      "views": 2600,
+      "title": "Oblivion Remastered “Shadow Drops”",
+      "link": "https://linustechtips.com/topic/1609769-oblivion-remastered-%E2%80%9Cshadow-drops%E2%80%9D/",
+      "date": "2025-04-23T12:45:31Z",
+      "user": "spacepickle",
+      "user_link": "https://linustechtips.com/profile/1176355-spacepickle/",
+      "lastpage": 0,
+      "tags": [
+        {
+          "name": "gaming",
+          "link": "https://linustechtips.com/tags/gaming/"
+        }
+      ],
+      "group-indicator": "",
+      "replies": 22,
+      "views": 1800,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2022_08/imported-photo-791250.thumb.png.02ed99bd4519b17a9cf857b81b532a98.png",
-        "user": "Obioban",
-        "user_link": "https://linustechtips.com/profile/791250-obioban/",
-        "date": "2024-12-03T20:46:38Z"
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_07/20230409_220125.thumb.jpg.875396c24ca5bd5626e09e51a21473b3.jpg",
+        "user": "Stahlmann",
+        "user_link": "https://linustechtips.com/profile/686887-stahlmann/",
+        "date": "2025-04-29T08:43:10Z"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [],
-      "title": "YouTube Ad Wars - Episode \"What did you expect?\": The Awakening of Premium Ads",
-      "link": "https://linustechtips.com/topic/1589019-youtube-ad-wars-episode-what-did-you-expect-the-awakening-of-premium-ads/",
-      "date": "2024-11-15T18:37:59Z",
-      "user": "Thaldor",
-      "user_link": "https://linustechtips.com/profile/27692-thaldor/",
-      "lastpage": 2,
-      "tags": [],
-      "group-indicator": null,
-      "replies": 49,
-      "views": 2700,
+      "title": "Discord CEO steps down",
+      "link": "https://linustechtips.com/topic/1609819-discord-ceo-steps-down/",
+      "date": "2025-04-23T23:35:18Z",
+      "user": "m4a2000",
+      "user_link": "https://linustechtips.com/profile/659897-m4a2000/",
+      "lastpage": 0,
+      "tags": [
+        {
+          "name": "discordapp",
+          "link": "https://linustechtips.com/tags/discordapp/"
+        },
+        {
+          "name": "ceo",
+          "link": "https://linustechtips.com/tags/ceo/"
+        },
+        {
+          "name": "tech news",
+          "link": "https://linustechtips.com/tags/tech%20news/"
+        }
+      ],
+      "group-indicator": "",
+      "replies": 12,
+      "views": 1000,
       "snippet": "",
       "lastpost": {
-        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_10/s.thumb.gif.f95372fb675ebc5af26b7c85da98db53.gif",
-        "user": "Sauron",
-        "user_link": "https://linustechtips.com/profile/42239-sauron/",
-        "date": "2024-12-03T15:17:42Z"
+        "avatar": "https://pbs-prod.linustechtips.com/monthly_2023_12/FnigeIconV3-MainPFP.thumb.png.c09bae0bb832a9e01b8540fe71fedbd2.png",
+        "user": "Fnige",
+        "user_link": "https://linustechtips.com/profile/558894-fnige/",
+        "date": "2025-04-27T07:31:24Z"
+      }
+    },
+    {
+      "avatar": "",
+      "icons": [
+        "caret-right"
+      ],
+      "title": "Nvidia announces 5060 and 5060 ti",
+      "link": "https://linustechtips.com/topic/1609019-nvidia-announces-5060-and-5060-ti/",
+      "date": "2025-04-15T13:31:35Z",
+      "user": "Ha-Satan",
+      "user_link": "https://linustechtips.com/profile/681419-ha-satan/",
+      "lastpage": 5,
+      "tags": [],
+      "group-indicator": "",
+      "replies": 100,
+      "views": 3500,
+      "snippet": "",
+      "lastpost": {
+        "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462aa%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EE%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+        "user": "ewitte",
+        "user_link": "https://linustechtips.com/profile/284352-ewitte/",
+        "date": "2025-04-24T20:31:40Z"
       }
     }
   ]

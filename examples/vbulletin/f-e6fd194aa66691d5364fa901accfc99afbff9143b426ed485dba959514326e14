@@ -4,32 +4,32 @@
   "categories": [
     {
       "name": "",
-      "link": null,
+      "link": "",
       "description": "",
       "forums": [
         {
-          "status": "//www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
+          "status": "https://www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
           "title": "UT99",
-          "link": "https://www.utzone.de/forum/forumdisplay.php?s=dfd538ea761b6ac0c340e18f73d98dc3&f=52",
+          "link": "https://www.utzone.de/forum/forumdisplay.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;f=52",
           "description": "",
           "viewing": 0,
           "childboards": [],
-          "topics": 233,
-          "posts": 386,
+          "topics": 235,
+          "posts": 391,
           "lastpost": {
-            "title": "New File Added: Red Gloves...",
-            "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&goto=newpost&t=4702",
+            "title": "Neuer Download: CTF-Gothic",
+            "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&goto=newpost&t=4721",
             "icon": "https://www.utzone.de/forum/images/icons/icon1.gif",
-            "date": "10:0021.09.2024 10:00",
+            "date": "20:0728.01.2025 20:07",
             "user": "ForenBot",
-            "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&f=52",
-            "avatar": null
+            "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&f=52",
+            "avatar": ""
           }
         },
         {
-          "status": "//www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
+          "status": "https://www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
           "title": "UT2003",
-          "link": "https://www.utzone.de/forum/forumdisplay.php?s=dfd538ea761b6ac0c340e18f73d98dc3&f=56",
+          "link": "https://www.utzone.de/forum/forumdisplay.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;f=56",
           "description": "",
           "viewing": 0,
           "childboards": [],
@@ -37,37 +37,37 @@
           "posts": 5,
           "lastpost": {
             "title": "Neuer Download: UT2003 Avatar...",
-            "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&goto=newpost&t=4425",
+            "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&goto=newpost&t=4425",
             "icon": "https://www.utzone.de/forum/images/icons/icon1.gif",
             "date": "13:5012.09.2020 13:50",
             "user": "ForenBot",
-            "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&f=56",
-            "avatar": null
+            "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&f=56",
+            "avatar": ""
           }
         },
         {
-          "status": "//www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
+          "status": "https://www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
           "title": "UT2004",
-          "link": "https://www.utzone.de/forum/forumdisplay.php?s=dfd538ea761b6ac0c340e18f73d98dc3&f=53",
+          "link": "https://www.utzone.de/forum/forumdisplay.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;f=53",
           "description": "",
           "viewing": 0,
           "childboards": [],
-          "topics": 528,
+          "topics": 531,
           "posts": 0,
           "lastpost": {
-            "title": "New File Added: Imperial...",
-            "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&goto=newpost&t=3173",
+            "title": "Neuer Download:...",
+            "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&goto=newpost&t=4724",
             "icon": "https://www.utzone.de/forum/images/icons/icon1.gif",
-            "date": "22:4127.08.2024 22:41",
+            "date": "18:1616.04.2025 18:16",
             "user": "ForenBot",
-            "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&f=53",
-            "avatar": null
+            "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&f=53",
+            "avatar": ""
           }
         },
         {
-          "status": "//www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
+          "status": "https://www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
           "title": "UT 3",
-          "link": "https://www.utzone.de/forum/forumdisplay.php?s=dfd538ea761b6ac0c340e18f73d98dc3&f=57",
+          "link": "https://www.utzone.de/forum/forumdisplay.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;f=57",
           "description": "",
           "viewing": 0,
           "childboards": [],
@@ -75,18 +75,18 @@
           "posts": 380,
           "lastpost": {
             "title": "New File Added: Rumpled Metal",
-            "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&goto=newpost&t=4490",
+            "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&goto=newpost&t=4490",
             "icon": "https://www.utzone.de/forum/images/icons/icon1.gif",
             "date": "22:1419.06.2021 22:14",
             "user": "ForenBot",
-            "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&f=57",
-            "avatar": null
+            "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&f=57",
+            "avatar": ""
           }
         },
         {
-          "status": "//www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
+          "status": "https://www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
           "title": "Beta",
-          "link": "https://www.utzone.de/forum/forumdisplay.php?s=dfd538ea761b6ac0c340e18f73d98dc3&f=71",
+          "link": "https://www.utzone.de/forum/forumdisplay.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;f=71",
           "description": "Beta-Map-Vorstellungen für alle UT´s",
           "viewing": 0,
           "childboards": [],
@@ -94,18 +94,18 @@
           "posts": 719,
           "lastpost": {
             "title": "Neuer Download: DM-Deck_2018",
-            "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&goto=newpost&t=4250",
+            "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&goto=newpost&t=4250",
             "icon": "https://www.utzone.de/forum/images/icons/icon1.gif",
             "date": "14:1212.02.2019 14:12",
             "user": "ForenBot",
-            "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&f=71",
-            "avatar": null
+            "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&f=71",
+            "avatar": ""
           }
         },
         {
-          "status": "//www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
+          "status": "https://www.utzone.de/forum/images/styles/unreal/statusicon/forum_old.png",
           "title": "UT (4)",
-          "link": "https://www.utzone.de/forum/forumdisplay.php?s=dfd538ea761b6ac0c340e18f73d98dc3&f=80",
+          "link": "https://www.utzone.de/forum/forumdisplay.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;f=80",
           "description": "",
           "viewing": 0,
           "childboards": [],
@@ -113,12 +113,12 @@
           "posts": 589,
           "lastpost": {
             "title": "New File Added:...",
-            "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&goto=newpost&t=4489",
+            "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&goto=newpost&t=4489",
             "icon": "https://www.utzone.de/forum/images/icons/icon1.gif",
             "date": "05:1819.06.2021 05:18",
             "user": "ForenBot",
-            "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&f=80",
-            "avatar": null
+            "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&f=80",
+            "avatar": ""
           }
         }
       ]
@@ -126,65 +126,65 @@
   ],
   "threads": [
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [
         "https://www.utzone.de/forum/images/styles/unreal/statusicon/thread_hot.gif"
       ],
       "prefix": "",
-      "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&t=3675",
+      "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;t=3675",
       "title": "Neuer Download: UT Screenshot Fixer",
       "user": "ForenBot",
-      "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&u=74",
+      "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&u=74",
       "date": "",
       "detailicons": [],
       "posts": 0,
-      "views": 4521,
+      "views": 5999,
       "reactions": 0,
       "rating": 0,
       "lastpage": 0,
       "lastpost": {
-        "avatar": null,
-        "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&t=3675",
+        "avatar": "",
+        "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&t=3675",
         "user": "ForenBot",
         "date": "11.09.2015 19:06",
-        "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&p=38234#post38234"
+        "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&p=38234#post38234"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [
         "https://www.utzone.de/forum/images/styles/unreal/statusicon/thread_hot.gif"
       ],
       "prefix": "",
-      "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&t=3299",
+      "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;t=3299",
       "title": "Neuer Download: Unreal Development Kit (UDK)",
       "user": "ForenBot",
-      "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&u=74",
+      "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&u=74",
       "date": "",
       "detailicons": [],
       "posts": 0,
-      "views": 6340,
+      "views": 7924,
       "reactions": 0,
       "rating": 0,
       "lastpage": 0,
       "lastpost": {
-        "avatar": null,
-        "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&find=lastposter&t=3299",
+        "avatar": "",
+        "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&find=lastposter&t=3299",
         "user": "ForenBot",
         "date": "04.03.2014 11:48",
-        "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&p=32555#post32555"
+        "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&p=32555#post32555"
       }
     },
     {
-      "avatar": null,
+      "avatar": "",
       "icons": [
         "https://www.utzone.de/forum/images/styles/unreal/statusicon/thread_moved.gif"
       ],
       "prefix": "",
-      "link": "https://www.utzone.de/forum/showthread.php?s=dfd538ea761b6ac0c340e18f73d98dc3&t=1801",
+      "link": "https://www.utzone.de/forum/showthread.php?s=5ef003d9640d4573fd537b3f3c03b788&amp;t=1801",
       "title": "DM-Utopia",
       "user": "wolf25",
-      "user_link": "https://www.utzone.de/forum/member.php?s=dfd538ea761b6ac0c340e18f73d98dc3&u=746",
+      "user_link": "https://www.utzone.de/forum/member.php?s=5ef003d9640d4573fd537b3f3c03b788&u=746",
       "date": "",
       "detailicons": [],
       "posts": 0,
@@ -193,11 +193,11 @@
       "rating": 0,
       "lastpage": 0,
       "lastpost": {
-        "avatar": null,
-        "user_link": null,
+        "avatar": "",
+        "user_link": "",
         "user": "",
         "date": "",
-        "link": null
+        "link": ""
       }
     }
   ]

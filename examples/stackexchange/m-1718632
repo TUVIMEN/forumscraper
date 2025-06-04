@@ -11,19 +11,19 @@
   "social": [],
   "meta-profile": "https://meta.stackoverflow.com/users/1718632/delphirules",
   "network-profile": "https://stackexchange.com/users/1903230/delphirules",
-  "reputation": 7282,
+  "reputation": 7548,
   "reached": 1500000,
-  "answers": 49,
-  "questions": 254,
+  "answers": 51,
+  "questions": 256,
   "communities-all": "https://stackexchange.com/users/1903230/delphirules?tab=accounts",
   "communities": [
     {
       "profile": "https://stackoverflow.com/users/1718632/",
-      "reputation": 7300
+      "reputation": 7500
     },
     {
       "profile": "https://superuser.com/users/476779/",
-      "reputation": 963
+      "reputation": 985
     },
     {
       "profile": "https://apple.stackexchange.com/users/123562/",
@@ -67,12 +67,12 @@
           "action": "Question with 10,000 views",
           "name": "Famous Question",
           "amount": 16,
-          "date": "Apr 6"
+          "date": "Apr 6, 2024"
         }
       ]
     },
     {
-      "amount": 68,
+      "amount": 70,
       "name": "silver",
       "achievements": [
         {
@@ -96,13 +96,13 @@
           "link": "https://stackoverflow.com/help/badges/21/good-question?userid=1718632",
           "action": "Question score of 25 or more",
           "name": "Good Question",
-          "amount": 2,
-          "date": "Jul 16, 2020"
+          "amount": 3,
+          "date": "Feb 12"
         }
       ]
     },
     {
-      "amount": 129,
+      "amount": 135,
       "name": "bronze",
       "achievements": [
         {
@@ -138,12 +138,12 @@
       "link": "https://stackoverflow.com/search?q=user:1718632+[delphi]",
       "name": "delphi",
       "badge": "",
-      "score": 79,
-      "posts": 164,
-      "posts-percent": 54,
-      "answered": 34,
-      "ansked": 130,
-      "asked-score": 102
+      "score": 83,
+      "posts": 169,
+      "posts-percent": 55,
+      "answered": 36,
+      "ansked": 133,
+      "asked-score": 108
     },
     {
       "link": "https://stackoverflow.com/search?q=user:1718632+[delphi-2007]",
@@ -151,10 +151,10 @@
       "badge": "",
       "score": 47,
       "posts": 38,
-      "posts-percent": 13,
+      "posts-percent": 12,
       "answered": 6,
       "ansked": 32,
-      "asked-score": 54
+      "asked-score": 55
     },
     {
       "link": "https://stackoverflow.com/search?q=user:1718632+[apache]",
@@ -195,7 +195,7 @@
       "badge": "",
       "score": 8,
       "posts": 29,
-      "posts-percent": 10,
+      "posts-percent": 9,
       "answered": 5,
       "ansked": 24,
       "asked-score": 4
@@ -207,7 +207,7 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 114,
+      "votes": 115,
       "link": "https://stackoverflow.com/questions/22506930/how-to-query-datetime-field-using-only-date-in-microsoft-sql-server",
       "title": "How to query DATETIME field using only date in Microsoft SQL Server?",
       "date": "2014-03-19 13:10:56Z"
@@ -223,10 +223,18 @@
     {
       "type": "answer",
       "answered": true,
-      "votes": 28,
+      "votes": 36,
       "link": "https://stackoverflow.com/questions/74851227/code-helper-process-by-vs-code-eating-my-cpu/74863147#74863147",
       "title": "Code Helper process by VS Code eating my cpu",
       "date": "2022-12-20 12:32:17Z"
+    },
+    {
+      "type": "question",
+      "answered": true,
+      "votes": 27,
+      "link": "https://stackoverflow.com/questions/74851227/code-helper-process-by-vs-code-eating-my-cpu",
+      "title": "Code Helper process by VS Code eating my cpu",
+      "date": "2022-12-19 13:29:22Z"
     },
     {
       "type": "question",
@@ -235,14 +243,6 @@
       "link": "https://stackoverflow.com/questions/52592548/unable-to-use-phpize-after-update-to-macos-mojave",
       "title": "Unable to use PHPIZE after update to MacOS Mojave",
       "date": "2018-10-01 13:45:34Z"
-    },
-    {
-      "type": "question",
-      "answered": true,
-      "votes": 23,
-      "link": "https://stackoverflow.com/questions/74851227/code-helper-process-by-vs-code-eating-my-cpu",
-      "title": "Code Helper process by VS Code eating my cpu",
-      "date": "2022-12-19 13:29:22Z"
     },
     {
       "type": "question",

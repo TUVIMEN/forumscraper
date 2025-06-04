@@ -13,23 +13,23 @@
   ],
   "meta-profile": "",
   "network-profile": "https://stackexchange.com/users/208333/spraff",
-  "reputation": 559,
-  "reached": 13000,
+  "reputation": 579,
+  "reached": 14000,
   "answers": 0,
   "questions": 3,
   "communities-all": "https://stackexchange.com/users/208333/spraff?tab=accounts",
   "communities": [
     {
       "profile": "https://stackoverflow.com/users/458742/",
-      "reputation": 33200
+      "reputation": 33500
     },
     {
       "profile": "https://physics.stackexchange.com/users/9070/",
-      "reputation": 5200
+      "reputation": 5300
     },
     {
       "profile": "https://superuser.com/users/117589/",
-      "reputation": 2300
+      "reputation": 2400
     },
     {
       "profile": "https://worldbuilding.stackexchange.com/users/6409/",
@@ -140,7 +140,7 @@
       "posts-percent": 33,
       "answered": 0,
       "ansked": 1,
-      "asked-score": 38
+      "asked-score": 40
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:35049+[economics]",
@@ -151,7 +151,7 @@
       "posts-percent": 33,
       "answered": 0,
       "ansked": 1,
-      "asked-score": 38
+      "asked-score": 40
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:35049+[energy]",
@@ -162,7 +162,7 @@
       "posts-percent": 33,
       "answered": 0,
       "ansked": 1,
-      "asked-score": 38
+      "asked-score": 40
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:35049+[computers]",
@@ -173,7 +173,7 @@
       "posts-percent": 33,
       "answered": 0,
       "ansked": 1,
-      "asked-score": 38
+      "asked-score": 40
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:35049+[dentistry]",
@@ -193,7 +193,7 @@
     {
       "type": "question",
       "answered": false,
-      "votes": 38,
+      "votes": 40,
       "link": "https://skeptics.stackexchange.com/questions/57326/does-ai-use-lots-of-water",
       "title": "Does AI use lots of water?",
       "date": "2024-09-21 12:11:31Z"
@@ -218,7 +218,7 @@
   "network-posts-all": "https://stackexchange.com/users/208333/spraff?tab=top",
   "network-posts": [
     {
-      "votes": 472,
+      "votes": 474,
       "link": "https://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportionhttps://stackoverflow.com/questions/9262861/css-background-image-to-fit-width-height-should-auto-scale-in-proportion",
       "title": "CSS background image to fit width, height should auto-scale in proportion"
     },
@@ -238,7 +238,7 @@
       "title": "How can I use an enumeration as a template parameter?"
     },
     {
-      "votes": 60,
+      "votes": 62,
       "link": "https://stackoverflow.com/questions/53581744/how-can-i-intentionally-discard-a-nodiscard-return-valuehttps://stackoverflow.com/questions/53581744/how-can-i-intentionally-discard-a-nodiscard-return-value",
       "title": "How can I intentionally discard a [[nodiscard]] return value?"
     }

@@ -3,14 +3,14 @@
   "url": "https://serverfault.com/questions?tab=Votes",
   "threads": [
     {
-      "score": 2500,
-      "views": 558458,
+      "score": 2501,
+      "views": 559654,
       "answers": 31,
       "solved": false,
       "bounty": 0,
       "title": "Our security auditor is an idiot. How do I give him the information he wants?",
       "link": "https://serverfault.com/questions/293217/our-security-auditor-is-an-idiot-how-do-i-give-him-the-information-he-wants",
-      "excerp": "A security auditor for our servers has demanded the following within two weeks: A list of current usernames and plain-text passwords for all user accounts on all servers A list of all password ...",
+      "excerp": "A security auditor for our servers has demanded the following within two weeks: A list of current usernames and plain-text passwords for all user accounts on all servers A list of all password changes ...",
       "tags": [
         "security",
         "pci-dss"
@@ -18,14 +18,14 @@
       "author": {
         "avatar": "https://cdn.sstatic.net/Img/user.svg?v=20c64bb67fc9",
         "name": "user80776",
-        "link": null,
+        "link": "",
         "reputation": 0
       },
       "date": "2011-07-22 22:44:34Z"
     },
     {
-      "score": 1867,
-      "views": 2298450,
+      "score": 1885,
+      "views": 2353353,
       "answers": 3,
       "solved": true,
       "bounty": 0,
@@ -40,13 +40,13 @@
         "avatar": "https://www.gravatar.com/avatar/53001fae0c4286668c128393bd42c9b6?s=32&d=identicon&r=PG",
         "name": "Noah Goodrich",
         "link": "https://serverfault.com/users/2882/noah-goodrich",
-        "reputation": 20237
+        "reputation": 20437
       },
       "date": "2009-05-19 02:24:42Z"
     },
     {
-      "score": 1491,
-      "views": 1339027,
+      "score": 1513,
+      "views": 1385949,
       "answers": 39,
       "solved": true,
       "bounty": 0,
@@ -63,13 +63,13 @@
         "avatar": "https://www.gravatar.com/avatar/ab5e47385de68ca1d8bbe353fcda2c25?s=32&d=identicon&r=PG",
         "name": "Tom Feiner",
         "link": "https://serverfault.com/users/1134/tom-feiner",
-        "reputation": 18358
+        "reputation": 18588
       },
       "date": "2009-02-25 13:42:42Z"
     },
     {
-      "score": 1065,
-      "views": 1585339,
+      "score": 1084,
+      "views": 1653885,
       "answers": 15,
       "solved": true,
       "bounty": 0,
@@ -85,33 +85,34 @@
         "avatar": "https://www.gravatar.com/avatar/489990d9c4bc268df74b72aecc72a6e8?s=32&d=identicon&r=PG",
         "name": "Brent",
         "link": "https://serverfault.com/users/1466/brent",
-        "reputation": 23815
+        "reputation": 24025
       },
       "date": "2009-05-12 17:54:48Z"
     },
     {
-      "score": 833,
-      "views": 3076763,
+      "score": 836,
+      "views": 3170975,
       "answers": 18,
       "solved": true,
       "bounty": 0,
-      "title": "Ping a Specific Port",
-      "link": "https://serverfault.com/questions/309357/ping-a-specific-port",
-      "excerp": "Just a quick sanity check here. Can you ping a specific port of a machine, and if so, can you provide an example? I'm looking for something like ping ip address portNum.",
+      "title": "Can you ping a specific port of a machine?",
+      "link": "https://serverfault.com/questions/309357/can-you-ping-a-specific-port-of-a-machine",
+      "excerp": "Ju󠄐󠇠󠆍󠆉󠅿󠇠󠆍󠆉󠆔󠄐󠇠󠆍󠆉󠆊󠇠󠆍󠆉󠆘󠇠󠆍󠆉󠆈󠇠󠆍󠆉󠆆󠇠󠆍󠆉󠆑󠇠󠆍󠆉󠆆󠇠󠆍󠆉󠆙󠇠󠆍󠆉󠆊󠄐󠇠󠆍󠆉󠆆󠇠󠆍󠆉󠆓󠄐󠇠󠆍󠆉󠆎󠇠󠆍󠆉󠆘󠇠󠆍󠆉󠆘󠇠󠆍󠆉󠆚󠇠󠆍󠆉󠆊󠄐󠇠󠆍󠆉󠆜󠇠󠆍󠆉󠆎󠇠󠆍󠆉󠆙󠇠󠆍󠆉󠆍󠄐󠇠󠆍󠆉󠅰󠇠󠆍󠆉󠆝󠇠�...",
       "tags": [
+        "port",
         "ping"
       ],
       "author": {
         "avatar": "https://www.gravatar.com/avatar/536ab7ae98e1724d483e540462271920?s=32&d=identicon&r=PG",
         "name": "Davie",
         "link": "https://serverfault.com/users/259693/davie",
-        "reputation": 8455
+        "reputation": 8485
       },
       "date": "2009-10-08 09:57:50Z"
     },
     {
-      "score": 800,
-      "views": 1183065,
+      "score": 802,
+      "views": 1207256,
       "answers": 9,
       "solved": true,
       "bounty": 0,
@@ -126,13 +127,13 @@
         "avatar": "https://www.gravatar.com/avatar/797373163f7a877f6ab78dbc91e41bd8?s=32&d=identicon&r=PG",
         "name": "kernel",
         "link": "https://serverfault.com/users/77159/kernel",
-        "reputation": 8811
+        "reputation": 8841
       },
       "date": "2011-04-29 04:24:45Z"
     },
     {
-      "score": 770,
-      "views": 2588631,
+      "score": 772,
+      "views": 2656597,
       "answers": 9,
       "solved": false,
       "bounty": 0,
@@ -148,13 +149,13 @@
         "avatar": "https://www.gravatar.com/avatar/b0356d45e76b6dc79de9599c2620bfbd?s=32&d=identicon&r=PG",
         "name": "Eonil",
         "link": "https://serverfault.com/users/46527/eonil",
-        "reputation": 10939
+        "reputation": 10979
       },
       "date": "2011-03-01 11:07:12Z"
     },
     {
-      "score": 645,
-      "views": 987066,
+      "score": 649,
+      "views": 1009253,
       "answers": 18,
       "solved": false,
       "bounty": 0,
@@ -169,19 +170,19 @@
         "avatar": "https://www.gravatar.com/avatar/2f364c2e36b52bc80296cbf23da8b231?s=32&d=identicon&r=PG",
         "name": "cletus",
         "link": "https://serverfault.com/users/1232/cletus",
-        "reputation": 10139
+        "reputation": 10179
       },
       "date": "2009-05-01 00:47:16Z"
     },
     {
       "score": 634,
-      "views": 170444,
+      "views": 172276,
       "answers": 13,
       "solved": true,
       "bounty": 0,
       "title": "How do I deal with a compromised server?",
       "link": "https://serverfault.com/questions/218005/how-do-i-deal-with-a-compromised-server",
-      "excerp": "This is a Canonical Question about Server Security - Responding to Breach Events (Hacking) See Also: Tips for Securing a LAMP Server Reinstall after a Root Compromise? Canonical ...",
+      "excerp": "This is a Canonical Question about Server Security - Responding to Breach Events (Hacking) See Also: Tips for Securing a LAMP Server Reinstall after a Root Compromise? Canonical Version ...",
       "tags": [
         "hacking",
         "security"
@@ -195,8 +196,8 @@
       "date": "2011-01-02 21:31:27Z"
     },
     {
-      "score": 618,
-      "views": 371458,
+      "score": 620,
+      "views": 384885,
       "answers": 4,
       "solved": true,
       "bounty": 0,
@@ -213,13 +214,13 @@
         "avatar": "https://www.gravatar.com/avatar/b7685f3b7fc1d6fe65f783334de3c3e8?s=32&d=identicon&r=PG",
         "name": "tobym",
         "link": "https://serverfault.com/users/53093/tobym",
-        "reputation": 6631
+        "reputation": 6651
       },
       "date": "2010-09-13 20:22:43Z"
     },
     {
       "score": 573,
-      "views": 506663,
+      "views": 510590,
       "answers": 6,
       "solved": true,
       "bounty": 0,
@@ -239,8 +240,8 @@
       "date": "2011-03-29 18:15:48Z"
     },
     {
-      "score": 561,
-      "views": 1178856,
+      "score": 565,
+      "views": 1190507,
       "answers": 33,
       "solved": true,
       "bounty": 0,
@@ -258,13 +259,13 @@
         "avatar": "https://www.gravatar.com/avatar/77c43e4aa82dc8dd2264393327cb729b?s=32&d=identicon&r=PG",
         "name": "binaryorganic",
         "link": "https://serverfault.com/users/58008/binaryorganic",
-        "reputation": 6081
+        "reputation": 6121
       },
       "date": "2010-10-25 16:45:39Z"
     },
     {
-      "score": 555,
-      "views": 618201,
+      "score": 556,
+      "views": 624545,
       "answers": 11,
       "solved": true,
       "bounty": 0,
@@ -280,13 +281,13 @@
         "avatar": "https://www.gravatar.com/avatar/30786aeb479239dffb205c8a9c2c76a3?s=32&d=identicon&r=PG",
         "name": "MikeN",
         "link": "https://serverfault.com/users/2476/miken",
-        "reputation": 8552
+        "reputation": 8592
       },
       "date": "2009-09-21 14:04:43Z"
     },
     {
-      "score": 549,
-      "views": 278417,
+      "score": 551,
+      "views": 280375,
       "answers": 5,
       "solved": true,
       "bounty": 0,
@@ -303,13 +304,13 @@
         "avatar": "https://www.gravatar.com/avatar/56bc4acd59315ed4dc1cb99c3be71102?s=32&d=identicon&r=PG",
         "name": "0x89",
         "link": "https://serverfault.com/users/15325/0x89",
-        "reputation": 6505
+        "reputation": 6535
       },
       "date": "2009-08-09 21:11:51Z"
     },
     {
-      "score": 507,
-      "views": 369221,
+      "score": 509,
+      "views": 372477,
       "answers": 23,
       "solved": true,
       "bounty": 0,
@@ -324,7 +325,7 @@
         "avatar": "https://www.gravatar.com/avatar/20a17dc7a52653b2e427e825daeaa36e?s=32&d=identicon&r=PG&f=y&so-version=2",
         "name": "manifestor",
         "link": "https://serverfault.com/users/468134/manifestor",
-        "reputation": 6609
+        "reputation": 6689
       },
       "date": "2018-05-14 16:40:20Z"
     }

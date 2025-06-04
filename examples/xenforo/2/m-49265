@@ -1,6 +1,6 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://rune-server.org/members/galkon.49265/?tooltip=true&_xfWithData=1&_xfToken=1736169490,fa02d4f1cd925f832b9205204eff7a70&_xfResponseType=json",
+  "url": "https://rune-server.org/members/galkon.49265/?tooltip=true&_xfWithData=1&_xfToken=1748988330,10b617713bc6233fb99366f5c184a9bf&_xfResponseType=json",
   "id": 49265,
   "background": "",
   "location": "",
@@ -15,20 +15,16 @@
       "value": "2007-11-14T00:42:00+0000"
     },
     {
-      "key": "Last seen",
-      "value": "2024-10-27T23:15:57+0000"
-    },
-    {
       "key": "Messages",
-      "value": "7,515"
+      "value": "7,517"
     },
     {
       "key": "Reputation score",
-      "value": "1,373,263 (89%)"
+      "value": "1,378,263 (89%)"
     },
     {
       "key": "Reaction score",
-      "value": "922"
+      "value": "927"
     },
     {
       "key": "Points",

@@ -1,17 +1,17 @@
 {
-  "format_version": "invision-4-user",
+  "format_version": "invision-4+-user",
   "url": "https://invisioncommunity.com/profile/555008-waccoecom/?do=hovercard",
   "id": 555008,
   "name": "waccoe.com",
-  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "background": "",
   "avatar": "https://media.invisioncic.com/a319035/monthly_2018_04/bTPJFVYr_400x400.thumb.jpg.92a4515b1e34b09ffff4e333310cb8e2.jpg",
   "group": "Clients",
-  "joined": "",
-  "lastseen": "",
+  "joined": "2015-12-09T16:23:16Z",
+  "lastseen": "2025-06-04T10:12:11Z",
   "info": [
     {
       "name": "Posts",
-      "value": "86"
+      "value": "97"
     },
     {
       "name": "Reputation",
@@ -22,7 +22,7 @@
       "value": "7"
     }
   ],
-  "rank": "Rank: Explorer (4/13)",
+  "rank": "Rank: Enthusiast (5/13)",
   "rank_date": "",
   "badges": [
     "Reacting Well",

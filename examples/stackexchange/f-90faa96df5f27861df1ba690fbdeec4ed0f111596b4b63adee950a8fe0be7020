@@ -3,8 +3,8 @@
   "url": "https://stackoverflow.com/questions?tab=votes&pagesize=50",
   "threads": [
     {
-      "score": 27394,
-      "views": 1918957,
+      "score": 27455,
+      "views": 1937927,
       "answers": 25,
       "solved": true,
       "bounty": 0,
@@ -22,14 +22,14 @@
         "avatar": "https://i.sstatic.net/FkjBe.png?s=32",
         "name": "GManNickG",
         "link": "https://stackoverflow.com/users/87234/gmannickg",
-        "reputation": 503415
+        "reputation": 505029
       },
       "date": "2012-06-27 13:51:36Z"
     },
     {
-      "score": 26841,
-      "views": 15444341,
-      "answers": 102,
+      "score": 27045,
+      "views": 16076455,
+      "answers": 103,
       "solved": true,
       "bounty": 0,
       "title": "How do I undo the most recent local commits in Git?",
@@ -42,7 +42,7 @@
         "undo"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/927358/revisions/users/63550",
         "reputation": 0
@@ -50,8 +50,8 @@
       "date": ""
     },
     {
-      "score": 20368,
-      "views": 12283545,
+      "score": 20365,
+      "views": 12802015,
       "answers": 41,
       "solved": true,
       "bounty": 0,
@@ -66,7 +66,7 @@
         "git-remote"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/2003505/revisions",
         "reputation": 0
@@ -74,9 +74,9 @@
       "date": ""
     },
     {
-      "score": 13937,
-      "views": 3622843,
-      "answers": 38,
+      "score": 13991,
+      "views": 3670830,
+      "answers": 37,
       "solved": true,
       "bounty": 0,
       "title": "What is the difference between 'git pull' and 'git fetch'?",
@@ -92,14 +92,14 @@
         "avatar": "https://www.gravatar.com/avatar/931970b8dc51b72e05e3a12b88612d61?s=32&d=identicon&r=PG",
         "name": "Pablo Fernandez",
         "link": "https://stackoverflow.com/users/6068/pablo-fernandez",
-        "reputation": 287060
+        "reputation": 288600
       },
       "date": "2008-11-15 09:51:09Z"
     },
     {
-      "score": 13024,
-      "views": 3415870,
-      "answers": 53,
+      "score": 13081,
+      "views": 3446805,
+      "answers": 52,
       "solved": true,
       "bounty": 0,
       "title": "What does the \"yield\" keyword do in Python?",
@@ -115,13 +115,13 @@
         "avatar": "https://i.sstatic.net/jcyI4.jpg?s=32",
         "name": "Alex. S.",
         "link": "https://stackoverflow.com/users/18300/alex-s",
-        "reputation": 146956
+        "reputation": 147686
       },
       "date": "2008-10-23 22:21:11Z"
     },
     {
-      "score": 12114,
-      "views": 13176740,
+      "score": 12193,
+      "views": 13398189,
       "answers": 50,
       "solved": true,
       "bounty": 0,
@@ -136,13 +136,13 @@
         "avatar": "https://www.gravatar.com/avatar/79e7cefc9e7deb0e0bf422baa1a38a2c?s=32&d=identicon&r=PG",
         "name": "Walker",
         "link": "https://stackoverflow.com/users/364969/walker",
-        "reputation": 134173
+        "reputation": 135011
       },
       "date": "2011-04-23 22:17:18Z"
     },
     {
-      "score": 11820,
-      "views": 5831929,
+      "score": 11928,
+      "views": 6070192,
       "answers": 41,
       "solved": true,
       "bounty": 0,
@@ -158,13 +158,13 @@
         "avatar": "https://www.gravatar.com/avatar/c145a12cd17d3b3ffff033681a694abe?s=32&d=identicon&r=PG",
         "name": "Forrest",
         "link": "https://stackoverflow.com/users/338204/forrest",
-        "reputation": 127343
+        "reputation": 128431
       },
       "date": "2011-07-06 03:20:36Z"
     },
     {
-      "score": 11621,
-      "views": 3951504,
+      "score": 11644,
+      "views": 3991909,
       "answers": 39,
       "solved": true,
       "bounty": 0,
@@ -180,13 +180,13 @@
         "avatar": "https://www.gravatar.com/avatar/f0af40756420859b5b63cbceb6d30505?s=32&d=identicon&r=PG",
         "name": "Oli",
         "link": "https://stackoverflow.com/users/12870/oli",
-        "reputation": 239580
+        "reputation": 240358
       },
       "date": "2009-01-25 15:25:19Z"
     },
     {
-      "score": 11478,
-      "views": 5937340,
+      "score": 11547,
+      "views": 6138287,
       "answers": 39,
       "solved": true,
       "bounty": 0,
@@ -203,13 +203,13 @@
         "avatar": "https://www.gravatar.com/avatar/0c29cc6ee1c170810ee1fd36fa7c2f95?s=32&d=identicon&r=PG",
         "name": "oz10",
         "link": "https://stackoverflow.com/users/14069/oz10",
-        "reputation": 158076
+        "reputation": 158982
       },
       "date": "2008-12-07 21:57:46Z"
     },
     {
-      "score": 10202,
-      "views": 1027355,
+      "score": 10233,
+      "views": 1034819,
       "answers": 26,
       "solved": true,
       "bounty": 0,
@@ -224,7 +224,7 @@
         "standards-compliance"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/1642028/revisions/users/87234",
         "reputation": 0
@@ -232,8 +232,8 @@
       "date": ""
     },
     {
-      "score": 9817,
-      "views": 9017006,
+      "score": 9892,
+      "views": 9261982,
       "answers": 55,
       "solved": true,
       "bounty": 0,
@@ -251,14 +251,14 @@
         "avatar": "https://i.sstatic.net/i1oB2.jpg?s=32",
         "name": "Jakub Troszok",
         "link": "https://stackoverflow.com/users/98046/jakub-troszok",
-        "reputation": 103493
+        "reputation": 104323
       },
       "date": "2009-07-14 14:58:15Z"
     },
     {
-      "score": 9662,
-      "views": 3768754,
-      "answers": 62,
+      "score": 9727,
+      "views": 3905927,
+      "answers": 63,
       "solved": true,
       "bounty": 0,
       "title": "Can comments be used in JSON?",
@@ -272,13 +272,13 @@
         "avatar": "https://www.gravatar.com/avatar/b478ef877842b1da9cdead7848572372?s=32&d=identicon&r=PG",
         "name": "Michael Gundlach",
         "link": "https://stackoverflow.com/users/4105/michael-gundlach",
-        "reputation": 109205
+        "reputation": 109891
       },
       "date": "2008-10-28 20:39:03Z"
     },
     {
-      "score": 9501,
-      "views": 1984311,
+      "score": 9537,
+      "views": 2006653,
       "answers": 30,
       "solved": true,
       "bounty": 0,
@@ -296,13 +296,13 @@
         "avatar": "https://www.gravatar.com/avatar/e3dcbde38b1f70c77b1db642f31a223d?s=32&d=identicon&r=PG",
         "name": "mattshane",
         "link": "https://stackoverflow.com/users/13161/mattshane",
-        "reputation": 95063
+        "reputation": 95423
       },
       "date": "2008-09-17 04:18:06Z"
     },
     {
-      "score": 8893,
-      "views": 792330,
+      "score": 8928,
+      "views": 798244,
       "answers": 9,
       "solved": true,
       "bounty": 0,
@@ -318,19 +318,19 @@
         "avatar": "https://i.sstatic.net/uoYDJ.png?s=32",
         "name": "user456584",
         "link": "https://stackoverflow.com/users/456584/user456584",
-        "reputation": 88785
+        "reputation": 89185
       },
       "date": "2011-11-29 22:54:22Z"
     },
     {
-      "score": 8781,
-      "views": 9172296,
+      "score": 8837,
+      "views": 9404085,
       "answers": 47,
       "solved": true,
       "bounty": 0,
-      "title": "How do I check out a remote Git branch?",
-      "link": "https://stackoverflow.com/questions/1783405/how-do-i-check-out-a-remote-git-branch",
-      "excerp": "Somebody pushed a branch called test with git push origin test to a shared repository. I can see the branch with git branch -r. How do I check out the remote test branch? I've tried: git checkout ...",
+      "title": "How to check out a remote Git branch?",
+      "link": "https://stackoverflow.com/questions/1783405/how-to-check-out-a-remote-git-branch",
+      "excerp": "How do I check out the remote test branch? I can see it with git branch -r. I tried: git checkout test, which does nothing git checkout origin/test gives * (no branch)",
       "tags": [
         "git",
         "git-checkout",
@@ -340,13 +340,13 @@
         "avatar": "https://www.gravatar.com/avatar/e736f7016a80c3807e7cace569024ab8?s=32&d=identicon&r=PG",
         "name": "Juri Glass",
         "link": "https://stackoverflow.com/users/179467/juri-glass",
-        "reputation": 91343
+        "reputation": 91913
       },
       "date": "2009-11-23 14:23:46Z"
     },
     {
-      "score": 8718,
-      "views": 3234710,
+      "score": 8740,
+      "views": 3248009,
       "answers": 67,
       "solved": true,
       "bounty": 0,
@@ -364,13 +364,13 @@
         "avatar": "https://www.gravatar.com/avatar/3ea9c684a2db319df788cecc6c98f9cd?s=32&d=identicon&r=PG",
         "name": "Philip Morton",
         "link": "https://stackoverflow.com/users/21709/philip-morton",
-        "reputation": 131759
+        "reputation": 132219
       },
       "date": "2008-10-07 13:03:18Z"
     },
     {
-      "score": 8517,
-      "views": 1224962,
+      "score": 8535,
+      "views": 1227855,
       "answers": 32,
       "solved": true,
       "bounty": 0,
@@ -387,14 +387,14 @@
         "avatar": "https://www.gravatar.com/avatar/34d142b034e7b194fc1708f3b20d9568?s=32&d=identicon&r=PG",
         "name": "Mark Rogers",
         "link": "https://stackoverflow.com/users/25847/mark-rogers",
-        "reputation": 97617
+        "reputation": 97827
       },
       "date": "2009-08-26 16:10:13Z"
     },
     {
-      "score": 8458,
-      "views": 2573780,
-      "answers": 36,
+      "score": 8533,
+      "views": 2655398,
+      "answers": 37,
       "solved": true,
       "bounty": 0,
       "title": "How do I make Git forget about a file that was tracked, but is now in .gitignore?",
@@ -409,13 +409,13 @@
         "avatar": "https://www.gravatar.com/avatar/c5380b957ff8ce5cb14cf2282ffeb720?s=32&d=identicon&r=PG",
         "name": "Ivan",
         "link": "https://stackoverflow.com/users/16957/ivan",
-        "reputation": 103669
+        "reputation": 104599
       },
       "date": "2009-08-13 19:23:22Z"
     },
     {
-      "score": 8332,
-      "views": 4816003,
+      "score": 8382,
+      "views": 4908678,
       "answers": 40,
       "solved": true,
       "bounty": 0,
@@ -433,13 +433,13 @@
         "avatar": "https://www.gravatar.com/avatar/eb5a95cb1be342c4089183cd8232a7f2?s=32&d=identicon&r=PG",
         "name": "Devoted",
         "link": "https://stackoverflow.com/users/51518/devoted",
-        "reputation": 183015
+        "reputation": 184163
       },
       "date": "2009-01-07 04:11:00Z"
     },
     {
-      "score": 8279,
-      "views": 3444725,
+      "score": 8335,
+      "views": 3569195,
       "answers": 43,
       "solved": true,
       "bounty": 0,
@@ -455,13 +455,13 @@
         "avatar": "https://www.gravatar.com/avatar/a92525f049e20db8f4ce3d62f3f0bb2b?s=32&d=identicon&r=PG",
         "name": "readonly",
         "link": "https://stackoverflow.com/users/4883/readonly",
-        "reputation": 354876
+        "reputation": 356954
       },
       "date": "2008-09-14 09:06:10Z"
     },
     {
-      "score": 8023,
-      "views": 3025731,
+      "score": 8086,
+      "views": 3078676,
       "answers": 32,
       "solved": true,
       "bounty": 0,
@@ -477,14 +477,14 @@
         "avatar": "https://www.gravatar.com/avatar/eb5a95cb1be342c4089183cd8232a7f2?s=32&d=identicon&r=PG",
         "name": "Devoted",
         "link": "https://stackoverflow.com/users/51518/devoted",
-        "reputation": 183015
+        "reputation": 184163
       },
       "date": "2008-12-27 08:32:18Z"
     },
     {
-      "score": 7747,
-      "views": 2776340,
-      "answers": 91,
+      "score": 7745,
+      "views": 2804711,
+      "answers": 87,
       "solved": false,
       "bounty": 0,
       "title": "Is Java \"pass-by-reference\" or \"pass-by-value\"?",
@@ -498,7 +498,7 @@
         "pass-by-value"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/40480/revisions/users/4315",
         "reputation": 0
@@ -506,8 +506,8 @@
       "date": ""
     },
     {
-      "score": 7697,
-      "views": 8024702,
+      "score": 7696,
+      "views": 8102024,
       "answers": 58,
       "solved": true,
       "bounty": 0,
@@ -523,60 +523,14 @@
         "avatar": "https://i.sstatic.net/7rqob.jpg?s=32",
         "name": "venkatachalam",
         "link": "https://stackoverflow.com/users/44984/venkatachalam",
-        "reputation": 102449
+        "reputation": 102447
       },
       "date": "2009-02-02 12:54:16Z"
     },
     {
-      "score": 7651,
-      "views": 1230332,
-      "answers": 42,
-      "solved": true,
-      "bounty": 0,
-      "title": "var functionName = function() {} vs function functionName() {}",
-      "link": "https://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname",
-      "excerp": "I've recently started maintaining someone else's JavaScript code. I'm fixing bugs, adding features and also trying to tidy up the code and make it more consistent. The previous developer used two ways ...",
-      "tags": [
-        "javascript",
-        "function",
-        "methods",
-        "syntax"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/2d71a937d0e784ea99153ce46afb9fb1?s=32&d=identicon&r=PG",
-        "name": "Richard Garside",
-        "link": "https://stackoverflow.com/users/31569/richard-garside",
-        "reputation": 89120
-      },
-      "date": "2008-12-03 11:31:07Z"
-    },
-    {
-      "score": 7641,
-      "views": 4059131,
-      "answers": 27,
-      "solved": true,
-      "bounty": 0,
-      "title": "How to modify existing, unpushed commit messages?",
-      "link": "https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages",
-      "excerp": "I wrote the wrong thing in a commit message. How can I change the message? The commit has not been pushed yet.",
-      "tags": [
-        "git",
-        "git-commit",
-        "git-rewrite-history",
-        "git-amend"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/9218dd1115bc620ec1ea79fd0368da8e?s=32&d=identicon&r=PG",
-        "name": "Laurie Young",
-        "link": "https://stackoverflow.com/users/7473/laurie-young",
-        "reputation": 138294
-      },
-      "date": "2008-10-07 15:44:47Z"
-    },
-    {
-      "score": 7622,
-      "views": 11550484,
-      "answers": 56,
+      "score": 7680,
+      "views": 11835387,
+      "answers": 57,
       "solved": true,
       "bounty": 0,
       "title": "Find all files containing a specific text (string) on Linux?",
@@ -593,13 +547,59 @@
         "avatar": "https://i.sstatic.net/LT4wS.png?s=32",
         "name": "Nathan",
         "link": "https://stackoverflow.com/users/954986/nathan",
-        "reputation": 78189
+        "reputation": 78969
       },
       "date": "2013-06-06 08:06:45Z"
     },
     {
-      "score": 7613,
-      "views": 1629503,
+      "score": 7666,
+      "views": 1234551,
+      "answers": 42,
+      "solved": true,
+      "bounty": 0,
+      "title": "var functionName = function() {} vs function functionName() {}",
+      "link": "https://stackoverflow.com/questions/336859/var-functionname-function-vs-function-functionname",
+      "excerp": "I've recently started maintaining someone else's JavaScript code. I'm fixing bugs, adding features and also trying to tidy up the code and make it more consistent. The previous developer used two ways ...",
+      "tags": [
+        "javascript",
+        "function",
+        "methods",
+        "syntax"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/2d71a937d0e784ea99153ce46afb9fb1?s=32&d=identicon&r=PG",
+        "name": "Richard Garside",
+        "link": "https://stackoverflow.com/users/31569/richard-garside",
+        "reputation": 89390
+      },
+      "date": "2008-12-03 11:31:07Z"
+    },
+    {
+      "score": 7641,
+      "views": 4198161,
+      "answers": 27,
+      "solved": true,
+      "bounty": 0,
+      "title": "How to modify existing, unpushed commit messages?",
+      "link": "https://stackoverflow.com/questions/179123/how-to-modify-existing-unpushed-commit-messages",
+      "excerp": "I wrote the wrong thing in a commit message. How can I change the message? The commit has not been pushed yet.",
+      "tags": [
+        "git",
+        "git-commit",
+        "git-rewrite-history",
+        "git-amend"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/9218dd1115bc620ec1ea79fd0368da8e?s=32&d=identicon&r=PG",
+        "name": "Laurie Young",
+        "link": "https://stackoverflow.com/users/7473/laurie-young",
+        "reputation": 138764
+      },
+      "date": "2008-10-07 15:44:47Z"
+    },
+    {
+      "score": 7611,
+      "views": 1632187,
       "answers": 86,
       "solved": true,
       "bounty": 0,
@@ -614,7 +614,7 @@
         "closures"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/111102/revisions/users/821057",
         "reputation": 0
@@ -623,7 +623,7 @@
     },
     {
       "score": 7608,
-      "views": 11869705,
+      "views": 12345267,
       "answers": 41,
       "solved": true,
       "bounty": 0,
@@ -645,8 +645,8 @@
       "date": "2010-11-06 16:58:14Z"
     },
     {
-      "score": 7590,
-      "views": 813255,
+      "score": 7602,
+      "views": 816658,
       "answers": 11,
       "solved": true,
       "bounty": 0,
@@ -662,13 +662,13 @@
         "avatar": "https://www.gravatar.com/avatar/88e5a9eb011a73ab970ddc8cfb05ff85?s=32&d=identicon&r=PG",
         "name": "Freewind",
         "link": "https://stackoverflow.com/users/342235/freewind",
-        "reputation": 198068
+        "reputation": 198708
       },
       "date": "2011-07-27 08:15:58Z"
     },
     {
-      "score": 7571,
-      "views": 1333957,
+      "score": 7586,
+      "views": 1345300,
       "answers": 67,
       "solved": true,
       "bounty": 0,
@@ -683,7 +683,7 @@
         "alias"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/7074/revisions/users/815724",
         "reputation": 0
@@ -691,8 +691,8 @@
       "date": ""
     },
     {
-      "score": 7552,
-      "views": 3305970,
+      "score": 7576,
+      "views": 3350622,
       "answers": 40,
       "solved": true,
       "bounty": 0,
@@ -708,13 +708,13 @@
         "avatar": "https://www.gravatar.com/avatar/8b141abc20af8ebe4667df467a73cc15?s=32&d=identicon&r=PG",
         "name": "johnstok",
         "link": "https://stackoverflow.com/users/27929/johnstok",
-        "reputation": 98160
+        "reputation": 98460
       },
       "date": "2008-10-16 10:57:45Z"
     },
     {
-      "score": 7457,
-      "views": 1214095,
+      "score": 7499,
+      "views": 1235306,
       "answers": 26,
       "solved": true,
       "bounty": 0,
@@ -732,13 +732,13 @@
         "avatar": "https://i.sstatic.net/CIFG8.png?s=32",
         "name": "Bite code",
         "link": "https://stackoverflow.com/users/9951/bite-code",
-        "reputation": 595743
+        "reputation": 598861
       },
       "date": "2008-09-19 06:10:46Z"
     },
     {
-      "score": 7406,
-      "views": 8224463,
+      "score": 7405,
+      "views": 8314680,
       "answers": 3,
       "solved": true,
       "bounty": 0,
@@ -752,7 +752,7 @@
         "string-matching"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/1789945/revisions/users/815724",
         "reputation": 0
@@ -760,8 +760,8 @@
       "date": ""
     },
     {
-      "score": 7259,
-      "views": 5792131,
+      "score": 7300,
+      "views": 5940762,
       "answers": 41,
       "solved": false,
       "bounty": 0,
@@ -777,14 +777,14 @@
         "avatar": "https://www.gravatar.com/avatar/1d502f7932af0a41d8ff6ab5d9cf3406?s=32&d=identicon&r=PG",
         "name": "spence91",
         "link": "https://stackoverflow.com/users/15616/spence91",
-        "reputation": 79921
+        "reputation": 80361
       },
       "date": "2008-09-17 12:55:00Z"
     },
     {
-      "score": 7059,
-      "views": 3503831,
-      "answers": 44,
+      "score": 7097,
+      "views": 3585006,
+      "answers": 45,
       "solved": true,
       "bounty": 0,
       "title": "How do I merge two dictionaries in a single expression in Python?",
@@ -799,58 +799,14 @@
         "avatar": "https://www.gravatar.com/avatar/b1f36e554be0e1ae19f9a74d6ece9107?s=32&d=identicon&r=PG",
         "name": "Carl Meyer",
         "link": "https://stackoverflow.com/users/3207/carl-meyer",
-        "reputation": 126411
+        "reputation": 127041
       },
       "date": "2008-09-02 07:44:30Z"
     },
     {
-      "score": 6721,
-      "views": 2146453,
-      "answers": 43,
-      "solved": true,
-      "bounty": 0,
-      "title": "How do I return the response from an asynchronous call?",
-      "link": "https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call",
-      "excerp": "How do I return the response/result from a function foo that makes an asynchronous request? I am trying to return the value from the callback, as well as assigning the result to a local variable ...",
-      "tags": [
-        "javascript",
-        "ajax",
-        "asynchronous"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/4P5DY.jpg?s=32",
-        "name": "Felix Kling",
-        "link": "https://stackoverflow.com/users/218196/felix-kling",
-        "reputation": 815676
-      },
-      "date": "2013-01-08 17:06:14Z"
-    },
-    {
-      "score": 6677,
-      "views": 1894900,
-      "answers": 24,
-      "solved": true,
-      "bounty": 0,
-      "title": "Move the most recent commit(s) to a new branch with Git",
-      "link": "https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git",
-      "excerp": "How do I move my recent commits on master to a new branch, and reset master to before those commits were made? e.g. From this: master A - B - C - D - E To this: newbranch C - D - E / ...",
-      "tags": [
-        "git",
-        "git-branch",
-        "branching-and-merging"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/393d9d6acd3ba4ed8ea921dd997d9144?s=32&d=identicon&r=PG",
-        "name": "Mark A. Nicolosi",
-        "link": "https://stackoverflow.com/users/1103052/mark-a-nicolosi",
-        "reputation": 85461
-      },
-      "date": "2009-10-27 03:07:34Z"
-    },
-    {
-      "score": 6655,
-      "views": 4760480,
-      "answers": 36,
+      "score": 6780,
+      "views": 5070333,
+      "answers": 37,
       "solved": true,
       "bounty": 0,
       "title": "How do I change the URI (URL) for a remote Git repository?",
@@ -865,37 +821,57 @@
         "avatar": "https://i.sstatic.net/CIFG8.png?s=32",
         "name": "Bite code",
         "link": "https://stackoverflow.com/users/9951/bite-code",
-        "reputation": 595743
+        "reputation": 598861
       },
       "date": "2010-03-12 12:48:47Z"
     },
     {
-      "score": 6413,
-      "views": 1514678,
-      "answers": 34,
+      "score": 6740,
+      "views": 2156499,
+      "answers": 44,
       "solved": true,
       "bounty": 0,
-      "title": "What is the difference between px, dip, dp, and sp?",
-      "link": "https://stackoverflow.com/questions/2025282/what-is-the-difference-between-px-dip-dp-and-sp",
-      "excerp": "What is the difference between the units of measure px, dip, dp, and sp?",
+      "title": "How do I return the response from an asynchronous call?",
+      "link": "https://stackoverflow.com/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call",
+      "excerp": "How do I return the response/result from a function foo that makes an asynchronous request? I am trying to return the value from the callback, as well as assigning the result to a local variable ...",
       "tags": [
-        "android",
-        "android-layout",
-        "user-interface",
-        "dimension",
-        "units-of-measurement"
+        "javascript",
+        "ajax",
+        "asynchronous"
       ],
       "author": {
-        "avatar": "https://www.gravatar.com/avatar/a246044d1113994fba38a67ce0205ed9?s=32&d=identicon&r=PG",
-        "name": "capecrawler",
-        "link": "https://stackoverflow.com/users/235885/capecrawler",
-        "reputation": 68163
+        "avatar": "https://i.sstatic.net/4P5DY.jpg?s=32",
+        "name": "Felix Kling",
+        "link": "https://stackoverflow.com/users/218196/felix-kling",
+        "reputation": 818374
       },
-      "date": "2010-01-08 03:23:46Z"
+      "date": "2013-01-08 17:06:14Z"
     },
     {
-      "score": 6412,
-      "views": 3550954,
+      "score": 6718,
+      "views": 1942337,
+      "answers": 25,
+      "solved": true,
+      "bounty": 0,
+      "title": "Move the most recent commit(s) to a new branch with Git",
+      "link": "https://stackoverflow.com/questions/1628563/move-the-most-recent-commits-to-a-new-branch-with-git",
+      "excerp": "How do I move my recent commits on master to a new branch, and reset master to before those commits were made? e.g. From this: master A - B - C - D - E To this: newbranch C - D - E / ...",
+      "tags": [
+        "git",
+        "git-branch",
+        "branching-and-merging"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/393d9d6acd3ba4ed8ea921dd997d9144?s=32&d=identicon&r=PG",
+        "name": "Mark A. Nicolosi",
+        "link": "https://stackoverflow.com/users/1103052/mark-a-nicolosi",
+        "reputation": 85881
+      },
+      "date": "2009-10-27 03:07:34Z"
+    },
+    {
+      "score": 6439,
+      "views": 3616029,
       "answers": 42,
       "solved": true,
       "bounty": 0,
@@ -912,13 +888,13 @@
         "avatar": "https://www.gravatar.com/avatar/145778821ba747dd30334c0703ebd57f?s=32&d=identicon&r=PG",
         "name": "alex",
         "link": "https://stackoverflow.com/users/19268/alex",
-        "reputation": 75885
+        "reputation": 76185
       },
       "date": "2009-03-10 14:25:20Z"
     },
     {
-      "score": 6387,
-      "views": 4345807,
+      "score": 6429,
+      "views": 4480241,
       "answers": 40,
       "solved": true,
       "bounty": 0,
@@ -934,36 +910,37 @@
         "avatar": "https://www.gravatar.com/avatar/a92525f049e20db8f4ce3d62f3f0bb2b?s=32&d=identicon&r=PG",
         "name": "readonly",
         "link": "https://stackoverflow.com/users/4883/readonly",
-        "reputation": 354876
+        "reputation": 356954
       },
       "date": "2008-09-09 19:33:59Z"
     },
     {
-      "score": 6356,
-      "views": 4474550,
-      "answers": 72,
+      "score": 6425,
+      "views": 1522832,
+      "answers": 35,
       "solved": true,
       "bounty": 0,
-      "title": "How do I include a JavaScript file in another JavaScript file?",
-      "link": "https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file",
-      "excerp": "How do I include a JavaScript file inside another JavaScript file, similar to @import in CSS?",
+      "title": "What is the difference between px, dip, dp, and sp?",
+      "link": "https://stackoverflow.com/questions/2025282/what-is-the-difference-between-px-dip-dp-and-sp",
+      "excerp": "What is the difference between the units of measure px, dip, dp, and sp?",
       "tags": [
-        "javascript",
-        "file",
-        "import",
-        "include"
+        "android",
+        "android-layout",
+        "user-interface",
+        "dimension",
+        "units-of-measurement"
       ],
       "author": {
-        "avatar": "https://www.gravatar.com/avatar/77f6618dd027eb4c6e4435d206dbd1c3?s=32&d=identicon&r=PG&f=y&so-version=2",
-        "name": "Alec Smart",
-        "link": "https://stackoverflow.com/users/426996/alec-smart",
-        "reputation": 95790
+        "avatar": "https://www.gravatar.com/avatar/a246044d1113994fba38a67ce0205ed9?s=32&d=identicon&r=PG",
+        "name": "capecrawler",
+        "link": "https://stackoverflow.com/users/235885/capecrawler",
+        "reputation": 68283
       },
-      "date": "2009-06-04 11:59:50Z"
+      "date": "2010-01-08 03:23:46Z"
     },
     {
-      "score": 6343,
-      "views": 2358030,
+      "score": 6381,
+      "views": 2388018,
       "answers": 38,
       "solved": true,
       "bounty": 0,
@@ -981,14 +958,37 @@
         "avatar": "https://www.gravatar.com/avatar/b33e8a75c925b361be8ff9568e35b26c?s=32&d=identicon&r=PG",
         "name": "TM.",
         "link": "https://stackoverflow.com/users/12983/tm",
-        "reputation": 110887
+        "reputation": 111397
       },
       "date": "2009-04-17 20:09:26Z"
     },
     {
-      "score": 6335,
-      "views": 2709230,
-      "answers": 78,
+      "score": 6375,
+      "views": 4510465,
+      "answers": 72,
+      "solved": true,
+      "bounty": 0,
+      "title": "How do I include a JavaScript file in another JavaScript file?",
+      "link": "https://stackoverflow.com/questions/950087/how-do-i-include-a-javascript-file-in-another-javascript-file",
+      "excerp": "How do I include a JavaScript file inside another JavaScript file, similar to @import in CSS?",
+      "tags": [
+        "javascript",
+        "file",
+        "import",
+        "include"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/77f6618dd027eb4c6e4435d206dbd1c3?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "Alec Smart",
+        "link": "https://stackoverflow.com/users/426996/alec-smart",
+        "reputation": 96120
+      },
+      "date": "2009-06-04 11:59:50Z"
+    },
+    {
+      "score": 6373,
+      "views": 2767725,
+      "answers": 81,
       "solved": true,
       "bounty": 0,
       "title": "How do I get the directory where a Bash script is located from within the script itself?",
@@ -999,7 +999,7 @@
         "directory"
       ],
       "author": {
-        "avatar": null,
+        "avatar": "",
         "name": "Community wiki",
         "link": "https://stackoverflow.com/posts/59895/revisions/users/63550",
         "reputation": 0
@@ -1007,8 +1007,8 @@
       "date": ""
     },
     {
-      "score": 6229,
-      "views": 4997629,
+      "score": 6261,
+      "views": 5110107,
       "answers": 66,
       "solved": true,
       "bounty": 0,
@@ -1026,14 +1026,14 @@
         "avatar": "https://www.gravatar.com/avatar/d386a6f2f3dda7bcf7f1e11c2171946b?s=32&d=identicon&r=PG",
         "name": "freshWoWer",
         "link": "https://stackoverflow.com/users/17085/freshwower",
-        "reputation": 64119
+        "reputation": 64449
       },
       "date": "2008-09-18 01:35:30Z"
     },
     {
-      "score": 6137,
-      "views": 2770925,
-      "answers": 45,
+      "score": 6156,
+      "views": 2797085,
+      "answers": 46,
       "solved": false,
       "bounty": 0,
       "title": "How to disable text selection highlighting",
@@ -1048,14 +1048,14 @@
       "author": {
         "avatar": "https://cdn.sstatic.net/Img/user.svg?v=20c64bb67fc9",
         "name": "anon",
-        "link": null,
+        "link": "",
         "reputation": 0
       },
       "date": "2009-05-05 20:29:18Z"
     },
     {
-      "score": 5874,
-      "views": 6802533,
+      "score": 5941,
+      "views": 7043393,
       "answers": 26,
       "solved": true,
       "bounty": 0,
@@ -1070,13 +1070,13 @@
         "avatar": "https://www.gravatar.com/avatar/da7a3c3efd21c067831e68c9c9c55636?s=32&d=identicon&r=PG",
         "name": "hap497",
         "link": "https://stackoverflow.com/users/128983/hap497",
-        "reputation": 162607
+        "reputation": 163995
       },
       "date": "2009-10-27 00:27:20Z"
     },
     {
-      "score": 5815,
-      "views": 3159733,
+      "score": 5857,
+      "views": 3231904,
       "answers": 37,
       "solved": true,
       "bounty": 0,
@@ -1093,13 +1093,13 @@
         "avatar": "https://i.sstatic.net/rOJJg.png?s=32",
         "name": "Hates_",
         "link": "https://stackoverflow.com/users/3410/hates",
-        "reputation": 68581
+        "reputation": 69021
       },
       "date": "2008-10-18 23:34:02Z"
     },
     {
-      "score": 5793,
-      "views": 1759279,
+      "score": 5820,
+      "views": 1789023,
       "answers": 19,
       "solved": true,
       "bounty": 0,
@@ -1115,33 +1115,33 @@
         "avatar": "https://www.gravatar.com/avatar/d45a34439ae17a079045a23df5131b91?s=32&d=identicon&r=PG",
         "name": "Sander Versluys",
         "link": "https://stackoverflow.com/users/2172/sander-versluys",
-        "reputation": 74357
+        "reputation": 74637
       },
       "date": "2009-01-06 16:14:30Z"
     },
     {
-      "score": 5766,
-      "views": 5426801,
-      "answers": 41,
+      "score": 5801,
+      "views": 6615504,
+      "answers": 20,
       "solved": true,
       "bounty": 0,
-      "title": "Loop (for each) over an array in JavaScript",
-      "link": "https://stackoverflow.com/questions/9329446/loop-for-each-over-an-array-in-javascript",
-      "excerp": "How can I loop through all the entries in an array using JavaScript?",
+      "title": "How do I push a new local branch to a remote Git repository and track it too?",
+      "link": "https://stackoverflow.com/questions/2765421/how-do-i-push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too",
+      "excerp": "How do I: Create a local branch from another branch (via git branch or git checkout -b). Push the local branch to the remote repository (i.e. publish), but make it trackable so that git pull and git ...",
       "tags": [
-        "javascript",
-        "arrays",
-        "loops",
-        "foreach",
-        "iteration"
+        "git",
+        "repository",
+        "git-branch",
+        "git-push",
+        "git-remote"
       ],
       "author": {
-        "avatar": "https://www.gravatar.com/avatar/35c44645d7729e6828f494f5e20d5909?s=32&d=identicon&r=PG",
-        "name": "Dante1986",
-        "link": "https://stackoverflow.com/users/1140876/dante1986",
-        "reputation": 59869
+        "avatar": "https://www.gravatar.com/avatar/3aa8157fa52c32beb1fbb37baa64023f?s=32&d=identicon&r=PG",
+        "name": "Roni Yaniv",
+        "link": "https://stackoverflow.com/users/222187/roni-yaniv",
+        "reputation": 60289
       },
-      "date": "2012-02-17 13:51:48Z"
+      "date": "2010-05-04 12:58:34Z"
     }
   ]
 }

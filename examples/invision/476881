@@ -1,9 +1,11 @@
 {
-  "format_version": "invision-4-thread",
+  "format_version": "invision-4+-thread",
   "url": "https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/",
   "id": 476881,
   "title": "IC5 - Allow Use of FontAwesome Kit",
-  "badges": [],
+  "badges": [
+    "Has poll"
+  ],
   "rating": false,
   "user_link": "https://invisioncommunity.com/profile/610072-foxtrek_64/",
   "user": "Foxtrek_64",
@@ -20,7 +22,29 @@
   "warning": "",
   "poll": {
     "title": "IC5 - Allow Use Of FontAwesome Kit",
-    "questions": []
+    "questions": [
+      {
+        "question": "1. Do you want to see the ability to use FontAwesome kits to enable FontAwesome Pro?",
+        "answers": [
+          {
+            "option": "Yes!",
+            "votes": 11
+          },
+          {
+            "option": "No, FontAwesome Free should be enough.",
+            "votes": 5
+          },
+          {
+            "option": "No, we should utilize FontAwesome Pro in other ways.",
+            "votes": 0
+          },
+          {
+            "option": "Other (please specify).",
+            "votes": 0
+          }
+        ]
+      }
+    ]
   },
   "recommended": {
     "id": 0,
@@ -37,26 +61,66 @@
   },
   "posts": [
     {
-      "user_link": "https://invisioncommunity.com/profile/610072-foxtrek_64/",
       "id": 2962475,
       "user": "Foxtrek_64",
+      "user_link": "https://invisioncommunity.com/profile/610072-foxtrek_64/",
       "user_avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362bcc4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EF%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
       "badges": [
         "Enthusiast"
       ],
       "group": "Clients",
       "group_icon": "",
-      "rank_title": "",
-      "rank_image": "",
+      "rank_title": "Rank: Enthusiast (5/13)",
+      "rank_image": "https://media.invisioncic.com/a319035/monthly_2021_04/23723388_6_Enthusiast.svg",
       "reputation_badge": "",
       "posts": "",
       "custom": "",
-      "user_info": [
-        "67 posts"
-      ],
-      "top_badges": [],
+      "user_info": [],
       "date": "2024-01-22T02:40:52Z",
+      "top_badges": [],
       "content": "<p> Hi all, </p> <p> Just making this post to help gauge interest in the ability to use FontAwesome kits and allow the use of FontAwesome Pro in IC5. This option would allow administrators to provide a kit url in the <abbr title=\"Admin Control Panel\">ACP</abbr> which would unlock the ability to use FontAwesome Pro. Currently, IC5 uses locally hosted FontAwesome 6 Free. </p>",
+      "signature": "",
+      "reactions_users": [
+        {
+          "link": "https://invisioncommunity.com/profile/566482-ernest_defoe/",
+          "name": "Ernest_Defoe"
+        }
+      ],
+      "reactions": [
+        {
+          "name": "Like",
+          "count": 1
+        }
+      ],
+      "reactions_details": [
+        {
+          "avatar": "https://media.invisioncic.com/a319035/monthly_2025_01/app-01.thumb.png.c52785fbb62f368bc57041a0e9ce87c7.png",
+          "user_link": "https://invisioncommunity.com/profile/566482-ernest_defoe/",
+          "user": "Ernest_Defoe",
+          "reaction": "like",
+          "date": "2025-04-13T15:46:27Z"
+        }
+      ]
+    },
+    {
+      "id": 2996876,
+      "user": "Ernest_Defoe",
+      "user_link": "https://invisioncommunity.com/profile/566482-ernest_defoe/",
+      "user_avatar": "https://media.invisioncic.com/a319035/monthly_2025_01/app-01.thumb.png.c52785fbb62f368bc57041a0e9ce87c7.png",
+      "badges": [
+        "Enthusiast"
+      ],
+      "group": "Clients",
+      "group_icon": "",
+      "rank_title": "Rank: Enthusiast (5/13)",
+      "rank_image": "https://media.invisioncic.com/a319035/monthly_2021_04/23723388_6_Enthusiast.svg",
+      "reputation_badge": "",
+      "posts": "",
+      "custom": "",
+      "user_info": [],
+      "date": "2025-04-13T15:46:24Z",
+      "top_badges": [],
+      "content": "<p>Those that voted for No, FontAwesome Free should be enough it's fine if you want to only use the free icons but some people may want to use some of the pro icons and the option to use Pro icons should be available. Just my opinion though. </p>",
       "signature": "",
       "reactions_users": [],
       "reactions": [],

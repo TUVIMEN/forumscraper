@@ -1,21 +1,21 @@
 {
-  "format_version": "invision-4-user",
+  "format_version": "invision-4+-user",
   "url": "https://invisioncommunity.com/profile/533135-kirill-gromov/?do=hovercard",
   "id": 533135,
   "name": "Kirill Gromov",
-  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "background": "",
   "avatar": "https://media.invisioncic.com/a319035/monthly_2019_05/1903201091_AdobeStock_117864033_1400x.progressive.jpeg_jpgv1489041398.thumb_e7bc3e0f89a43bea094e316184311b53.bc7267d3bd31a3c778f122bac4e5bcee",
   "group": "Clients",
-  "joined": "",
+  "joined": "2014-09-18T16:13:33Z",
   "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "602"
+      "value": "615"
     },
     {
       "name": "Reputation",
-      "value": "837"
+      "value": "858"
     },
     {
       "name": "Badges",
@@ -23,7 +23,7 @@
     }
   ],
   "rank": "Rank: Mentor (11/13)",
-  "rank_date": "2024-07-12T17:47:04Z",
+  "rank_date": "",
   "badges": [
     "Posting Machine",
     "Reacting Well",

@@ -4,7 +4,7 @@
   "categories": [
     {
       "name": "",
-      "link": null,
+      "link": "",
       "forums": [
         {
           "icon": "fa-comments",
@@ -23,13 +23,13 @@
           "views": 0,
           "placeholder": "",
           "lastpost": {
-            "avatar": "https://www.bigfootycontent.com/avatars/s/119/119419.jpg?1676641932",
-            "title": "GWS Giants 2024",
-            "link": "https://www.bigfooty.com/forum/threads/gws-giants-2024.1303460/post-86382099",
+            "avatar": "https://www.bigfootycontent.com/avatars/s/0/292.jpg?1613655206",
+            "title": "North Melbourne 2024",
+            "link": "https://www.bigfooty.com/forum/threads/north-melbourne-2024.1304886/post-86919266",
             "label": "Club Focus",
-            "date": "2024-12-28T13:36:56+1100",
-            "user": "captainMyCaptain",
-            "user_link": "https://www.bigfooty.com/forum/members/captainmycaptain.119419/"
+            "date": "2025-03-06T20:16:20+1100",
+            "user": "CURVE",
+            "user_link": "https://www.bigfooty.com/forum/members/curve.292/"
           }
         },
         {
@@ -39,17 +39,17 @@
           "description": "All your AFL draft news and talk with our Draft Experts",
           "childboards": [],
           "topics": 1700,
-          "posts": 194100,
+          "posts": 197400,
           "views": 0,
           "placeholder": "",
           "lastpost": {
-            "avatar": "https://www.bigfootycontent.com/avatars/s/30/30533.jpg?1724307088",
+            "avatar": "",
             "title": "U16s - 2027 AFL Draft General Discussion",
-            "link": "https://www.bigfooty.com/forum/threads/u16s-2027-afl-draft-general-discussion.1350415/post-86441241",
+            "link": "https://www.bigfooty.com/forum/threads/u16s-2027-afl-draft-general-discussion.1350415/post-88214536",
             "label": "Under Age",
-            "date": "2025-01-06T19:38:14+1100",
-            "user": "Davo-27",
-            "user_link": "https://www.bigfooty.com/forum/members/davo-27.30533/"
+            "date": "2025-06-03T22:16:27+1000",
+            "user": "EDFL follower",
+            "user_link": "https://www.bigfooty.com/forum/members/edfl-follower.39546/"
           }
         },
         {
@@ -58,18 +58,18 @@
           "link": "https://www.bigfooty.com/forum/forums/the-wash-up-past-seasons-moves.315/",
           "description": "Player moves from past season.",
           "childboards": [],
-          "topics": 4700,
-          "posts": 828000,
+          "topics": 7500,
+          "posts": 913100,
           "views": 0,
           "placeholder": "",
           "lastpost": {
-            "avatar": "https://www.bigfootycontent.com/avatars/s/34/34510.jpg?1551602876",
-            "title": "2006 - Redo the 2006 Draft",
-            "link": "https://www.bigfooty.com/forum/threads/2006-redo-the-2006-draft.649041/post-86411324",
+            "avatar": "https://www.bigfootycontent.com/avatars/s/226/226250.jpg?1743342094",
+            "title": "2019 - Revisit the 2019 AFL Draft",
+            "link": "https://www.bigfooty.com/forum/threads/2019-revisit-the-2019-afl-draft.1291843/post-88214132",
             "label": "Draft Review",
-            "date": "2025-01-02T19:06:35+1100",
-            "user": "goodie23",
-            "user_link": "https://www.bigfooty.com/forum/members/goodie23.34510/"
+            "date": "2025-06-03T21:20:18+1000",
+            "user": "LOLchie Schultz",
+            "user_link": "https://www.bigfooty.com/forum/members/lolchie-schultz.226250/"
           }
         }
       ]
@@ -91,7 +91,7 @@
       "date": "2019-07-07T19:19:32+1000",
       "lastpage": 0,
       "replies": 10,
-      "views": 35000,
+      "views": 36000,
       "lastpost": {
         "date": "2024-11-13T21:44:52+1100",
         "user": "Jeremias",
@@ -101,25 +101,24 @@
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/82/82330.jpg?1652099352",
+      "avatar": "https://www.bigfootycontent.com/avatars/s/168/168906.jpg?1695624824",
       "icons": [
-        "Locked",
         "Sticky"
       ],
-      "label": "Confirmed",
-      "title": "2024 Key Dates, Confirmed Trades & Free Agency Moves",
-      "link": "https://www.bigfooty.com/forum/threads/2024-key-dates-confirmed-trades-free-agency-moves.1387074/",
-      "user": "Taylor",
-      "user_link": "https://www.bigfooty.com/forum/members/taylor.82330/",
-      "date": "2024-09-09T13:10:24+1000",
-      "lastpage": 2,
-      "replies": 25,
-      "views": 8000,
+      "label": "Resource",
+      "title": "2025 Provisional AFL Draft Order (live based on current ladder)",
+      "link": "https://www.bigfooty.com/forum/threads/2025-provisional-afl-draft-order-live-based-on-current-ladder.1388116/",
+      "user": "Lore",
+      "user_link": "https://www.bigfooty.com/forum/members/lore.168906/",
+      "date": "2024-10-01T11:00:12+1000",
+      "lastpage": 4,
+      "replies": 97,
+      "views": 38000,
       "lastpost": {
-        "date": "2024-10-16T20:33:18+1100",
-        "user": "Taylor",
-        "user_link": "https://www.bigfooty.com/forum/members/taylor.82330/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/82/82330.jpg?1652099352"
+        "date": "2025-05-26T13:00:54+1000",
+        "user": "Lore",
+        "user_link": "https://www.bigfooty.com/forum/members/lore.168906/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/168/168906.jpg?1695624824"
       }
     },
     {
@@ -129,41 +128,19 @@
         "Sticky"
       ],
       "label": "Resource",
-      "title": "FUTURE PICKS - 2025 Provisional AFL Draft Order, based on 2024 H&A Ladder",
-      "link": "https://www.bigfooty.com/forum/threads/future-picks-2025-provisional-afl-draft-order-based-on-2024-h-a-ladder.1388116/",
+      "title": "FAQs: Rules, Regulations and Resources for Player Movements in the AFL",
+      "link": "https://www.bigfooty.com/forum/threads/faqs-rules-regulations-and-resources-for-player-movements-in-the-afl.1229400/",
       "user": "Lore",
       "user_link": "https://www.bigfooty.com/forum/members/lore.168906/",
-      "date": "2024-10-01T11:00:12+1000",
-      "lastpage": 3,
-      "replies": 53,
-      "views": 10000,
+      "date": "2019-09-27T14:50:39+1000",
+      "lastpage": 10,
+      "replies": 240,
+      "views": 144000,
       "lastpost": {
-        "date": "2024-12-12T20:47:45+1100",
-        "user": "Coach_Required",
-        "user_link": "https://www.bigfooty.com/forum/members/coach_required.55747/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/55/55747.jpg?1717334609"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/12/12453.jpg?1703663464",
-      "icons": [
-        "Sticky"
-      ],
-      "label": "Win Prizes",
-      "title": "2024 Official BigFooty Draft Tipping Competition",
-      "link": "https://www.bigfooty.com/forum/threads/2024-official-bigfooty-draft-tipping-competition.1389278/",
-      "user": "Jeremias",
-      "user_link": "https://www.bigfooty.com/forum/members/jeremias.12453/",
-      "date": "2024-11-05T20:58:41+1100",
-      "lastpage": 2,
-      "replies": 48,
-      "views": 4000,
-      "lastpost": {
-        "date": "2025-01-06T22:02:20+1100",
-        "user": "The Nostradamus",
-        "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299"
+        "date": "2025-01-26T07:18:33+1100",
+        "user": "dlanod",
+        "user_link": "https://www.bigfooty.com/forum/members/dlanod.30859/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/30/30859.jpg?1359795026"
       }
     },
     {
@@ -181,7 +158,7 @@
       "date": "2024-11-17T18:24:35+1100",
       "lastpage": 0,
       "replies": 0,
-      "views": 861,
+      "views": 1000,
       "lastpost": {
         "date": "2024-11-17T18:24:35+1100",
         "user": "Jeremias",
@@ -191,46 +168,162 @@
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/168/168906.jpg?1695624824",
-      "icons": [
-        "Sticky"
-      ],
-      "label": "Resource",
-      "title": "FAQs: Rules, Regulations and Resources for Player Movements in the AFL",
-      "link": "https://www.bigfooty.com/forum/threads/faqs-rules-regulations-and-resources-for-player-movements-in-the-afl.1229400/",
-      "user": "Lore",
-      "user_link": "https://www.bigfooty.com/forum/members/lore.168906/",
-      "date": "2019-09-27T14:50:39+1000",
-      "lastpage": 10,
-      "replies": 238,
-      "views": 114000,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/207/207148.jpg?1648025829",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Nasiah Wanganeen-Milera",
+      "link": "https://www.bigfooty.com/forum/threads/nasiah-wanganeen-milera.1392185/",
+      "user": "Cursedsword02",
+      "user_link": "https://www.bigfooty.com/forum/members/cursedsword02.207148/",
+      "date": "2025-02-23T19:00:45+1100",
+      "lastpage": 21,
+      "replies": 506,
+      "views": 33000,
       "lastpost": {
-        "date": "2024-11-04T07:36:17+1100",
-        "user": "eaglevision",
-        "user_link": "https://www.bigfooty.com/forum/members/eaglevision.219494/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/219/219494.jpg?1700660478"
+        "date": "2025-06-04T07:56:03+1000",
+        "user": "BrutThough",
+        "user_link": "https://www.bigfooty.com/forum/members/brutthough.105863/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/105/105863.jpg?1536807165"
       }
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/12/12453.jpg?1703663464",
-      "icons": [
-        "Sticky"
-      ],
-      "label": "Confirmed",
-      "title": "2024 Retirements & Delistings",
-      "link": "https://www.bigfooty.com/forum/threads/2024-retirements-delistings.1386439/",
-      "user": "Jeremias",
-      "user_link": "https://www.bigfooty.com/forum/members/jeremias.12453/",
-      "date": "2024-08-26T17:45:23+1000",
-      "lastpage": 0,
-      "replies": 18,
-      "views": 5000,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/62/62052.jpg?1572060101",
+      "icons": [],
+      "label": "Unrestricted Free Agent",
+      "title": "Sam Draper",
+      "link": "https://www.bigfooty.com/forum/threads/sam-draper.1384913/",
+      "user": "craffles",
+      "user_link": "https://www.bigfooty.com/forum/members/craffles.62052/",
+      "date": "2024-07-31T00:45:54+1000",
+      "lastpage": 9,
+      "replies": 213,
+      "views": 16000,
       "lastpost": {
-        "date": "2024-10-29T12:43:57+1100",
-        "user": "jaykay72",
-        "user_link": "https://www.bigfooty.com/forum/members/jaykay72.69772/",
-        "avatar": null
+        "date": "2025-06-04T07:18:35+1000",
+        "user": "Vindicater",
+        "user_link": "https://www.bigfooty.com/forum/members/vindicater.144859/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/144/144859.jpg?1373982243"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/215/215897.jpg?1725769921",
+      "icons": [],
+      "label": "Strategy",
+      "title": "Players who stayed after failed trade, and kicked on",
+      "link": "https://www.bigfooty.com/forum/threads/players-who-stayed-after-failed-trade-and-kicked-on.1388373/",
+      "user": "peetoo",
+      "user_link": "https://www.bigfooty.com/forum/members/peetoo.215897/",
+      "date": "2024-10-07T19:18:43+1100",
+      "lastpage": 3,
+      "replies": 58,
+      "views": 6000,
+      "lastpost": {
+        "date": "2025-06-04T07:16:00+1000",
+        "user": "Vindicater",
+        "user_link": "https://www.bigfooty.com/forum/members/vindicater.144859/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/144/144859.jpg?1373982243"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/28/28208.jpg?1604558325",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Harley Reid [OOC 2026]",
+      "link": "https://www.bigfooty.com/forum/threads/harley-reid-ooc-2026.1383246/",
+      "user": "Sphynx",
+      "user_link": "https://www.bigfooty.com/forum/members/sphynx.122707/",
+      "date": "2024-06-26T11:01:17+1000",
+      "lastpage": 216,
+      "replies": 5000,
+      "views": 253000,
+      "lastpost": {
+        "date": "2025-06-04T06:58:14+1000",
+        "user": "Xtreme",
+        "user_link": "https://www.bigfooty.com/forum/members/xtreme.28208/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/28/28208.jpg?1604558325"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/168/168906.jpg?1695624824",
+      "icons": [],
+      "label": "Club Focus",
+      "title": "Tasmania 2028 - The List Build",
+      "link": "https://www.bigfooty.com/forum/threads/tasmania-2028-the-list-build.1355279/",
+      "user": "Lore",
+      "user_link": "https://www.bigfooty.com/forum/members/lore.168906/",
+      "date": "2023-05-03T23:31:08+1000",
+      "lastpage": 12,
+      "replies": 296,
+      "views": 33000,
+      "lastpost": {
+        "date": "2025-06-04T00:34:15+1000",
+        "user": "craffles",
+        "user_link": "https://www.bigfooty.com/forum/members/craffles.62052/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/62/62052.jpg?1572060101"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/11/11616.jpg?1718027372",
+      "icons": [],
+      "label": "Opinion",
+      "title": "AFL Academy rules need to be refined",
+      "link": "https://www.bigfooty.com/forum/threads/afl-academy-rules-need-to-be-refined.1395937/",
+      "user": "blaisee",
+      "user_link": "https://www.bigfooty.com/forum/members/blaisee.11616/",
+      "date": "2025-05-15T13:54:38+1000",
+      "lastpage": 3,
+      "replies": 74,
+      "views": 2000,
+      "lastpost": {
+        "date": "2025-06-04T00:21:43+1000",
+        "user": "Elixuh",
+        "user_link": "https://www.bigfooty.com/forum/members/elixuh.126365/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/126/126365.jpg?1748959046"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Billy Frampton",
+      "link": "https://www.bigfooty.com/forum/threads/billy-frampton.1396878/",
+      "user": "The Nostradamus",
+      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
+      "date": "2025-06-03T08:33:21+1000",
+      "lastpage": 0,
+      "replies": 6,
+      "views": 205,
+      "lastpost": {
+        "date": "2025-06-03T22:51:25+1000",
+        "user": "Crow till I die",
+        "user_link": "https://www.bigfooty.com/forum/members/crow-till-i-die.182432/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/182/182432.jpg?1730878116"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/201/201379.jpg?1680250062",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Kysaiah Pickett [RFA 2027]",
+      "link": "https://www.bigfooty.com/forum/threads/kysaiah-pickett-rfa-2027.1385996/",
+      "user": "janty",
+      "user_link": "https://www.bigfooty.com/forum/members/janty.194701/",
+      "date": "2024-08-20T14:15:26+1000",
+      "lastpage": 117,
+      "replies": 3000,
+      "views": 138000,
+      "lastpost": {
+        "date": "2025-06-03T20:34:35+1000",
+        "user": "Hamann188",
+        "user_link": "https://www.bigfooty.com/forum/members/hamann188.201379/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/201/201379.jpg?1680250062"
       }
     },
     {
@@ -243,436 +336,74 @@
       "user": "The Nostradamus",
       "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
       "date": "2024-12-17T18:32:29+1100",
-      "lastpage": 6,
-      "replies": 144,
-      "views": 3000,
-      "lastpost": {
-        "date": "2025-01-07T00:21:08+1100",
-        "user": "THE_GUN",
-        "user_link": "https://www.bigfooty.com/forum/members/the_gun.53813/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/53/53813.jpg?1615738161"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/13/13474.jpg?1682938163",
-      "icons": [],
-      "label": "Speculation",
-      "title": "Kysaiah Pickett [RFA 2027]",
-      "link": "https://www.bigfooty.com/forum/threads/kysaiah-pickett-rfa-2027.1385996/",
-      "user": "janty",
-      "user_link": "https://www.bigfooty.com/forum/members/janty.194701/",
-      "date": "2024-08-20T14:15:26+1000",
-      "lastpage": 43,
+      "lastpage": 59,
       "replies": 1000,
-      "views": 50000,
+      "views": 53000,
       "lastpost": {
-        "date": "2025-01-06T23:03:40+1100",
-        "user": "Trav 20",
-        "user_link": "https://www.bigfooty.com/forum/members/trav-20.13474/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/13/13474.jpg?1682938163"
+        "date": "2025-06-03T20:34:04+1000",
+        "user": "MightySaintas",
+        "user_link": "https://www.bigfooty.com/forum/members/mightysaintas.222609/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/222/222609.jpg?1711603950"
       }
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/183/183177.jpg?1665567708",
+      "avatar": "https://www.bigfootycontent.com/avatars/s/120/120338.jpg?1681644246",
       "icons": [],
       "label": "Speculation",
-      "title": "Leek Aleer",
-      "link": "https://www.bigfooty.com/forum/threads/leek-aleer.1386382/",
-      "user": "9874123",
-      "user_link": "https://www.bigfooty.com/forum/members/9874123.183177/",
-      "date": "2024-08-25T23:44:29+1000",
+      "title": "Luke Jackson [OOC 2029]",
+      "link": "https://www.bigfooty.com/forum/threads/luke-jackson-ooc-2029.1392425/",
+      "user": "XhazzafootyX",
+      "user_link": "https://www.bigfooty.com/forum/members/xhazzafootyx.120338/",
+      "date": "2025-03-02T19:09:55+1100",
+      "lastpage": 20,
+      "replies": 475,
+      "views": 26000,
+      "lastpost": {
+        "date": "2025-06-03T20:21:01+1000",
+        "user": "Mr Cheese",
+        "user_link": "https://www.bigfooty.com/forum/members/mr-cheese.202378/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/202/202378.jpg?1585107171"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/143/143830.jpg?1638005051",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Sam Walsh [RFA 2026]",
+      "link": "https://www.bigfooty.com/forum/threads/sam-walsh-rfa-2026.1396569/",
+      "user": "Chaisa",
+      "user_link": "https://www.bigfooty.com/forum/members/chaisa.143830/",
+      "date": "2025-05-28T12:59:18+1000",
       "lastpage": 3,
-      "replies": 50,
-      "views": 5000,
-      "lastpost": {
-        "date": "2025-01-06T22:12:11+1100",
-        "user": "rye",
-        "user_link": "https://www.bigfooty.com/forum/members/rye.213018/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/213/213018.jpg?1718807085"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": null,
-      "icons": [],
-      "label": "Speculation",
-      "title": "Chad Warner",
-      "link": "https://www.bigfooty.com/forum/threads/chad-warner.1381903/",
-      "user": "Dockeroo",
-      "user_link": "https://www.bigfooty.com/forum/members/dockeroo.200516/",
-      "date": "2024-05-27T11:15:28+1000",
-      "lastpage": 68,
-      "replies": 2000,
-      "views": 94000,
-      "lastpost": {
-        "date": "2025-01-06T17:43:33+1100",
-        "user": "eastfreo75",
-        "user_link": "https://www.bigfooty.com/forum/members/eastfreo75.113386/",
-        "avatar": null
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/215/215897.jpg?1725769921",
-      "icons": [],
-      "label": "",
-      "title": "Players who stayed after failed trade, and kicked on",
-      "link": "https://www.bigfooty.com/forum/threads/players-who-stayed-after-failed-trade-and-kicked-on.1388373/",
-      "user": "peetoo",
-      "user_link": "https://www.bigfooty.com/forum/members/peetoo.215897/",
-      "date": "2024-10-07T19:18:43+1100",
-      "lastpage": 0,
-      "replies": 20,
+      "replies": 54,
       "views": 2000,
       "lastpost": {
-        "date": "2025-01-06T08:40:20+1100",
-        "user": "Bald",
-        "user_link": "https://www.bigfooty.com/forum/members/bald.171762/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/171/171762.jpg?1710986440"
+        "date": "2025-06-03T18:55:33+1000",
+        "user": "Triniboy",
+        "user_link": "https://www.bigfooty.com/forum/members/triniboy.125328/",
+        "avatar": ""
       }
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/14/14847.jpg?1349422681",
-      "icons": [],
-      "label": "",
-      "title": "AFL Culture needs to grow up re: players waiting till end-of-season to reveal that they are planning to move out",
-      "link": "https://www.bigfooty.com/forum/threads/afl-culture-needs-to-grow-up-re-players-waiting-till-end-of-season-to-reveal-that-they-are-planning-to-move-out.1387127/",
-      "user": "iameviljez",
-      "user_link": "https://www.bigfooty.com/forum/members/iameviljez.14847/",
-      "date": "2024-09-10T12:43:30+1000",
-      "lastpage": 2,
-      "replies": 32,
-      "views": 1000,
-      "lastpost": {
-        "date": "2025-01-05T12:57:54+1100",
-        "user": "piesaregreat",
-        "user_link": "https://www.bigfooty.com/forum/members/piesaregreat.84459/",
-        "avatar": null
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/45/45811.jpg?1694919142",
-      "icons": [],
-      "label": "Speculation",
-      "title": "Harley Reid [OOC 2026]",
-      "link": "https://www.bigfooty.com/forum/threads/harley-reid-ooc-2026.1383246/",
-      "user": "Sphynx",
-      "user_link": "https://www.bigfooty.com/forum/members/sphynx.122707/",
-      "date": "2024-06-26T11:01:17+1000",
-      "lastpage": 43,
-      "replies": 1000,
-      "views": 66000,
-      "lastpost": {
-        "date": "2025-01-05T10:50:02+1100",
-        "user": "Obeanie1",
-        "user_link": "https://www.bigfooty.com/forum/members/obeanie1.45811/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/45/45811.jpg?1694919142"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/57/57408.jpg?1723003698",
+      "avatar": "https://www.bigfootycontent.com/avatars/s/207/207148.jpg?1648025829",
       "icons": [],
       "label": "Restricted Free Agent",
-      "title": "Luke Davies-Uniacke",
-      "link": "https://www.bigfooty.com/forum/threads/luke-davies-uniacke.1380137/",
-      "user": "croweater 41",
-      "user_link": "https://www.bigfooty.com/forum/members/croweater-41.57408/",
-      "date": "2024-04-23T17:06:46+1000",
-      "lastpage": 27,
-      "replies": 660,
-      "views": 49000,
-      "lastpost": {
-        "date": "2025-01-05T10:13:18+1100",
-        "user": "Chip Scab1",
-        "user_link": "https://www.bigfooty.com/forum/members/chip-scab1.226524/",
-        "avatar": null
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/40/40057.jpg?1361960996",
-      "icons": [],
-      "label": "Review",
-      "title": "Winners and losers - trade week 2024",
-      "link": "https://www.bigfooty.com/forum/threads/winners-and-losers-trade-week-2024.1388720/",
-      "user": "Gavin Excell",
-      "user_link": "https://www.bigfooty.com/forum/members/gavin-excell.40057/",
-      "date": "2024-10-16T19:17:33+1100",
-      "lastpage": 17,
-      "replies": 416,
-      "views": 32000,
-      "lastpost": {
-        "date": "2025-01-05T07:59:26+1100",
-        "user": "Vindicater",
-        "user_link": "https://www.bigfooty.com/forum/members/vindicater.144859/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/144/144859.jpg?1373982243"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/24/24652.jpg?1645266577",
-      "icons": [],
-      "label": "Restricted Free Agent",
-      "title": "Andrew Brayshaw",
-      "link": "https://www.bigfooty.com/forum/threads/andrew-brayshaw.1389066/",
-      "user": "Strapping Young Lad",
-      "user_link": "https://www.bigfooty.com/forum/members/strapping-young-lad.24652/",
-      "date": "2024-10-28T16:35:26+1100",
-      "lastpage": 3,
-      "replies": 73,
-      "views": 5000,
-      "lastpost": {
-        "date": "2025-01-04T16:27:46+1100",
-        "user": "RanaNaved",
-        "user_link": "https://www.bigfooty.com/forum/members/rananaved.195136/",
-        "avatar": null
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/153/153715.jpg?1631968775",
-      "icons": [],
-      "label": "Club Focus",
-      "title": "Richmond 2024",
-      "link": "https://www.bigfooty.com/forum/threads/richmond-2024.1377271/",
-      "user": "Ticky009",
-      "user_link": "https://www.bigfooty.com/forum/members/ticky009.153715/",
-      "date": "2024-02-22T22:59:33+1100",
-      "lastpage": 51,
-      "replies": 1000,
-      "views": 59000,
-      "lastpost": {
-        "date": "2025-01-04T09:48:42+1100",
-        "user": "dktm",
-        "user_link": "https://www.bigfooty.com/forum/members/dktm.86463/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/86/86463.jpg?1365261853"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/12/12453.jpg?1703663464",
-      "icons": [],
-      "label": "Mod. Notice",
-      "title": "Merry Christmas",
-      "link": "https://www.bigfooty.com/forum/threads/merry-christmas.1390751/",
-      "user": "Jeremias",
-      "user_link": "https://www.bigfooty.com/forum/members/jeremias.12453/",
-      "date": "2024-12-25T14:14:37+1100",
-      "lastpage": 0,
-      "replies": 3,
-      "views": 222,
-      "lastpost": {
-        "date": "2025-01-03T21:06:52+1100",
-        "user": "RanaNaved",
-        "user_link": "https://www.bigfooty.com/forum/members/rananaved.195136/",
-        "avatar": null
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/104/104865.jpg?1728461254",
-      "icons": [],
-      "label": "Speculation",
-      "title": "Deven Robertson",
-      "link": "https://www.bigfooty.com/forum/threads/deven-robertson.1385732/",
-      "user": "Johnny Bananas",
-      "user_link": "https://www.bigfooty.com/forum/members/johnny-bananas.104865/",
-      "date": "2024-08-16T12:33:26+1000",
-      "lastpage": 13,
-      "replies": 319,
-      "views": 19000,
-      "lastpost": {
-        "date": "2025-01-02T19:46:40+1100",
-        "user": "GoEaglesGoSGIO",
-        "user_link": "https://www.bigfooty.com/forum/members/goeaglesgosgio.202269/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/202/202269.jpg?1724881155"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/126/126055.jpg?1462065252",
-      "icons": [
-        "Poll"
-      ],
-      "label": "Opinion",
-      "title": "Does WA underperform in producing AFL talent?",
-      "link": "https://www.bigfooty.com/forum/threads/does-wa-underperform-in-producing-afl-talent.1357878/",
-      "user": "Cleric",
-      "user_link": "https://www.bigfooty.com/forum/members/cleric.126055/",
-      "date": "2023-05-20T12:34:10+1000",
-      "lastpage": 3,
-      "replies": 74,
-      "views": 4000,
-      "lastpost": {
-        "date": "2025-01-01T22:34:21+1100",
-        "user": "briztoon",
-        "user_link": "https://www.bigfooty.com/forum/members/briztoon.168593/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/168/168593.jpg?1590063209"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/168/168906.jpg?1695624824",
-      "icons": [],
-      "label": "Speculation",
-      "title": "Xavier O'Halloran",
-      "link": "https://www.bigfooty.com/forum/threads/xavier-ohalloran.1387814/",
-      "user": "Lore",
-      "user_link": "https://www.bigfooty.com/forum/members/lore.168906/",
-      "date": "2024-09-25T13:21:14+1000",
-      "lastpage": 2,
-      "replies": 31,
-      "views": 2000,
-      "lastpost": {
-        "date": "2025-01-01T19:47:50+1100",
-        "user": "Vindicater",
-        "user_link": "https://www.bigfooty.com/forum/members/vindicater.144859/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/144/144859.jpg?1373982243"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/153/153715.jpg?1631968775",
-      "icons": [],
-      "label": "Club Focus",
-      "title": "North Melbourne 2024",
-      "link": "https://www.bigfooty.com/forum/threads/north-melbourne-2024.1377280/",
-      "user": "Ticky009",
-      "user_link": "https://www.bigfooty.com/forum/members/ticky009.153715/",
-      "date": "2024-02-22T23:25:10+1100",
-      "lastpage": 26,
-      "replies": 633,
-      "views": 38000,
-      "lastpost": {
-        "date": "2024-12-31T08:35:50+1100",
-        "user": "Dinkers",
-        "user_link": "https://www.bigfooty.com/forum/members/dinkers.228688/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/228/228688.jpg?1732783028"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/17/17320.jpg?1710832668",
-      "icons": [],
-      "label": "Unrestricted Free Agent",
-      "title": "Reilly O’Brien",
-      "link": "https://www.bigfooty.com/forum/threads/reilly-o%E2%80%99brien.1383166/",
-      "user": "Lingsface",
-      "user_link": "https://www.bigfooty.com/forum/members/lingsface.17320/",
-      "date": "2024-06-23T21:57:06+1000",
+      "title": "Brandon Starcevich",
+      "link": "https://www.bigfooty.com/forum/threads/brandon-starcevich.1391872/",
+      "user": "Cursedsword02",
+      "user_link": "https://www.bigfooty.com/forum/members/cursedsword02.207148/",
+      "date": "2025-02-13T13:26:40+1100",
       "lastpage": 4,
       "replies": 76,
       "views": 5000,
       "lastpost": {
-        "date": "2024-12-30T01:39:40+1100",
-        "user": "Freomaniac",
-        "user_link": "https://www.bigfooty.com/forum/members/freomaniac.40895/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/40/40895.jpg?1400248878"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
-      "icons": [],
-      "label": "Speculation",
-      "title": "Finn Callaghan",
-      "link": "https://www.bigfooty.com/forum/threads/finn-callaghan.1390765/",
-      "user": "The Nostradamus",
-      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
-      "date": "2024-12-26T15:21:08+1100",
-      "lastpage": 0,
-      "replies": 9,
-      "views": 635,
-      "lastpost": {
-        "date": "2024-12-28T23:28:09+1100",
-        "user": "Pure_Ownage",
-        "user_link": "https://www.bigfooty.com/forum/members/pure_ownage.72541/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/72/72541.jpg?1434287544"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/208/208073.jpg?1677310636",
-      "icons": [],
-      "label": "Unrestricted Free Agent",
-      "title": "DFA - Jai Culley",
-      "link": "https://www.bigfooty.com/forum/threads/dfa-jai-culley.1388835/",
-      "user": "BringFevBack2021",
-      "user_link": "https://www.bigfooty.com/forum/members/bringfevback2021.208073/",
-      "date": "2024-10-18T18:29:12+1100",
-      "lastpage": 0,
-      "replies": 20,
-      "views": 2000,
-      "lastpost": {
-        "date": "2024-12-26T16:59:41+1100",
-        "user": "Vindicater",
-        "user_link": "https://www.bigfooty.com/forum/members/vindicater.144859/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/144/144859.jpg?1373982243"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/219/219494.jpg?1700660478",
-      "icons": [],
-      "label": "Restricted Free Agent",
-      "title": "Kane Farrell",
-      "link": "https://www.bigfooty.com/forum/threads/kane-farrell.1390370/",
-      "user": "eaglevision",
-      "user_link": "https://www.bigfooty.com/forum/members/eaglevision.219494/",
-      "date": "2024-12-08T17:01:28+1100",
-      "lastpage": 0,
-      "replies": 8,
-      "views": 623,
-      "lastpost": {
-        "date": "2024-12-25T18:19:15+1100",
-        "user": "markm106",
-        "user_link": "https://www.bigfooty.com/forum/members/markm106.23929/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/23/23929.jpg?1632895977"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/62/62052.jpg?1572060101",
-      "icons": [],
-      "label": "Restricted Free Agent",
-      "title": "Sam Draper",
-      "link": "https://www.bigfooty.com/forum/threads/sam-draper.1384913/",
-      "user": "craffles",
-      "user_link": "https://www.bigfooty.com/forum/members/craffles.62052/",
-      "date": "2024-07-31T00:45:54+1000",
-      "lastpage": 2,
-      "replies": 42,
-      "views": 3000,
-      "lastpost": {
-        "date": "2024-12-22T11:53:48+1100",
-        "user": "Golumless",
-        "user_link": "https://www.bigfooty.com/forum/members/golumless.144727/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/144/144727.jpg?1606182530"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/46/46197.jpg?1711613075",
-      "icons": [],
-      "label": "Speculation",
-      "title": "Sam de Koning",
-      "link": "https://www.bigfooty.com/forum/threads/sam-de-koning.1387526/",
-      "user": "swuzzlebubble",
-      "user_link": "https://www.bigfooty.com/forum/members/swuzzlebubble.46197/",
-      "date": "2024-09-20T08:34:35+1000",
-      "lastpage": 8,
-      "replies": 189,
-      "views": 12000,
-      "lastpost": {
-        "date": "2024-12-21T12:19:58+1100",
-        "user": "Drunkcat",
-        "user_link": "https://www.bigfooty.com/forum/members/drunkcat.191669/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/191/191669.jpg?1686640807"
+        "date": "2025-06-03T18:41:56+1000",
+        "user": "JasRulz63",
+        "user_link": "https://www.bigfooty.com/forum/members/jasrulz63.42430/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/42/42430.jpg?1440236895"
       }
     },
     {
@@ -685,31 +416,133 @@
       "user": "paradux",
       "user_link": "https://www.bigfooty.com/forum/members/paradux.161630/",
       "date": "2024-07-10T09:52:14+1000",
-      "lastpage": 11,
-      "replies": 262,
-      "views": 16000,
+      "lastpage": 56,
+      "replies": 1000,
+      "views": 74000,
       "lastpost": {
-        "date": "2024-12-20T22:02:09+1100",
-        "user": "Pure_Ownage",
-        "user_link": "https://www.bigfooty.com/forum/members/pure_ownage.72541/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/72/72541.jpg?1434287544"
+        "date": "2025-06-03T18:40:34+1000",
+        "user": "blueiris",
+        "user_link": "https://www.bigfooty.com/forum/members/blueiris.103930/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/103/103930.jpg?1732130493"
       }
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/153/153715.jpg?1631968775",
+      "avatar": "https://www.bigfootycontent.com/avatars/s/126/126055.jpg?1462065252",
       "icons": [],
-      "label": "Club Focus",
-      "title": "Collingwood 2024",
-      "link": "https://www.bigfooty.com/forum/threads/collingwood-2024.1377278/",
-      "user": "Ticky009",
-      "user_link": "https://www.bigfooty.com/forum/members/ticky009.153715/",
-      "date": "2024-02-22T23:20:14+1100",
-      "lastpage": 9,
-      "replies": 215,
-      "views": 14000,
+      "label": "Speculation",
+      "title": "Luke Pedlar [OOC 2026]",
+      "link": "https://www.bigfooty.com/forum/threads/luke-pedlar-ooc-2026.1395827/",
+      "user": "Cleric",
+      "user_link": "https://www.bigfooty.com/forum/members/cleric.126055/",
+      "date": "2025-05-12T15:48:10+1000",
+      "lastpage": 0,
+      "replies": 15,
+      "views": 1000,
       "lastpost": {
-        "date": "2024-12-20T13:26:51+1100",
+        "date": "2025-06-03T10:29:27+1000",
+        "user": "Danger in Texas",
+        "user_link": "https://www.bigfooty.com/forum/members/danger-in-texas.117987/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/117/117987.jpg?1735839328"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/19/19751.jpg?1744361603",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Matt Rowell",
+      "link": "https://www.bigfooty.com/forum/threads/matt-rowell.1391439/",
+      "user": "fpm84",
+      "user_link": "https://www.bigfooty.com/forum/members/fpm84.19751/",
+      "date": "2025-01-27T18:49:37+1100",
+      "lastpage": 7,
+      "replies": 173,
+      "views": 17000,
+      "lastpost": {
+        "date": "2025-06-03T09:14:06+1000",
+        "user": "Eric Shin",
+        "user_link": "https://www.bigfooty.com/forum/members/eric-shin.215434/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/215/215434.jpg?1729563364"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/126/126055.jpg?1462065252",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Darcy Cameron [OOC 2026]",
+      "link": "https://www.bigfooty.com/forum/threads/darcy-cameron-ooc-2026.1392511/",
+      "user": "Cleric",
+      "user_link": "https://www.bigfooty.com/forum/members/cleric.126055/",
+      "date": "2025-03-04T17:51:32+1100",
+      "lastpage": 12,
+      "replies": 294,
+      "views": 11000,
+      "lastpost": {
+        "date": "2025-06-02T22:11:10+1000",
+        "user": "THE_GUN",
+        "user_link": "https://www.bigfooty.com/forum/members/the_gun.53813/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/53/53813.jpg?1615738161"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
+      "icons": [
+        "Redirect"
+      ],
+      "label": "",
+      "title": "Wayne Milera [signed 3 year deal]",
+      "link": "https://www.bigfooty.com/forum/threads/wayne-milera-signed-3-year-deal.1396818/",
+      "user": "The Nostradamus",
+      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
+      "date": "2025-05-03T17:25:15+1000",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 0,
+      "lastpost": {
+        "date": "",
+        "user": "",
+        "user_link": "",
+        "avatar": ""
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/73/73753.jpg?1564646969",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Callum Brown",
+      "link": "https://www.bigfooty.com/forum/threads/callum-brown.1395243/",
+      "user": "lionshine",
+      "user_link": "https://www.bigfooty.com/forum/members/lionshine.73753/",
+      "date": "2025-04-28T22:30:31+1000",
+      "lastpage": 0,
+      "replies": 15,
+      "views": 1000,
+      "lastpost": {
+        "date": "2025-06-02T14:26:19+1000",
+        "user": "LukeParkerno1",
+        "user_link": "https://www.bigfooty.com/forum/members/lukeparkerno1.20211/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/20/20211.jpg?1538915106"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Lloyd Meek",
+      "link": "https://www.bigfooty.com/forum/threads/lloyd-meek.1393826/",
+      "user": "The Nostradamus",
+      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
+      "date": "2025-04-01T11:41:06+1100",
+      "lastpage": 2,
+      "replies": 47,
+      "views": 3000,
+      "lastpost": {
+        "date": "2025-06-02T07:58:46+1000",
         "user": "Vindicater",
         "user_link": "https://www.bigfooty.com/forum/members/vindicater.144859/",
         "avatar": "https://www.bigfootycontent.com/avatars/s/144/144859.jpg?1373982243"
@@ -717,62 +550,204 @@
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/209/209595.jpg?1728988323",
+      "avatar": "https://www.bigfootycontent.com/avatars/s/126/126055.jpg?1462065252",
       "icons": [],
       "label": "Speculation",
-      "title": "Brodie Kemp",
-      "link": "https://www.bigfooty.com/forum/threads/brodie-kemp.1388628/",
-      "user": "bradfisher14",
-      "user_link": "https://www.bigfooty.com/forum/members/bradfisher14.209595/",
-      "date": "2024-10-15T14:16:08+1100",
+      "title": "Sam Berry [OOC 2026]",
+      "link": "https://www.bigfooty.com/forum/threads/sam-berry-ooc-2026.1396448/",
+      "user": "Cleric",
+      "user_link": "https://www.bigfooty.com/forum/members/cleric.126055/",
+      "date": "2025-05-26T11:13:07+1000",
+      "lastpage": 0,
+      "replies": 15,
+      "views": 748,
+      "lastpost": {
+        "date": "2025-06-01T20:32:16+1000",
+        "user": "Kane McGoodwin",
+        "user_link": "https://www.bigfooty.com/forum/members/kane-mcgoodwin.1399/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/1/1399.jpg?1338816106"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
+      "icons": [],
+      "label": "Unrestricted Free Agent",
+      "title": "Jack Silvagni",
+      "link": "https://www.bigfooty.com/forum/threads/jack-silvagni.1393651/",
+      "user": "The Nostradamus",
+      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
+      "date": "2025-03-29T11:05:28+1100",
       "lastpage": 4,
-      "replies": 90,
-      "views": 5000,
+      "replies": 97,
+      "views": 4000,
       "lastpost": {
-        "date": "2024-12-18T21:19:01+1100",
-        "user": "MITSUHIRATO",
-        "user_link": "https://www.bigfooty.com/forum/members/mitsuhirato.190613/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/190/190613.jpg?1729339101"
+        "date": "2025-06-01T18:24:46+1000",
+        "user": "Unfazed",
+        "user_link": "https://www.bigfooty.com/forum/members/unfazed.167146/",
+        "avatar": ""
       }
     },
     {
       "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/211/211748.jpg?1695731587",
-      "icons": [],
-      "label": "News",
-      "title": "AFL to overhaul the draft, discuss changes to Academy and FS bid matching",
-      "link": "https://www.bigfooty.com/forum/threads/afl-to-overhaul-the-draft-discuss-changes-to-academy-and-fs-bid-matching.1360939/",
-      "user": "FB19",
-      "user_link": "https://www.bigfooty.com/forum/members/fb19.211748/",
-      "date": "2023-06-08T16:09:22+1000",
-      "lastpage": 186,
-      "replies": 5000,
-      "views": 194000,
-      "lastpost": {
-        "date": "2024-12-18T18:18:20+1100",
-        "user": "threenewpadlocks",
-        "user_link": "https://www.bigfooty.com/forum/members/threenewpadlocks.135170/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/135/135170.jpg?1398499868"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/202/202269.jpg?1724881155",
+      "avatar": "https://www.bigfootycontent.com/avatars/s/35/35127.jpg?1338816228",
       "icons": [],
       "label": "Speculation",
-      "title": "Nathan Krueger",
-      "link": "https://www.bigfooty.com/forum/threads/nathan-krueger.1388008/",
-      "user": "GoEaglesGoSGIO",
-      "user_link": "https://www.bigfooty.com/forum/members/goeaglesgosgio.202269/",
-      "date": "2024-09-29T11:54:35+1000",
-      "lastpage": 2,
-      "replies": 36,
-      "views": 3000,
+      "title": "Leek Aleer",
+      "link": "https://www.bigfooty.com/forum/threads/leek-aleer.1396874/",
+      "user": "RanaNaved",
+      "user_link": "https://www.bigfooty.com/forum/members/rananaved.195136/",
+      "date": "2025-01-03T20:53:29+1100",
+      "lastpage": 3,
+      "replies": 70,
+      "views": 138,
       "lastpost": {
-        "date": "2024-12-16T19:15:16+1100",
-        "user": "STPer18",
-        "user_link": "https://www.bigfooty.com/forum/members/stper18.179001/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/179/179001.jpg?1706929112"
+        "date": "2025-06-01T18:06:34+1000",
+        "user": "Atomboy",
+        "user_link": "https://www.bigfooty.com/forum/members/atomboy.35127/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/35/35127.jpg?1338816228"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/126/126055.jpg?1462065252",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Zak Butters [RFA 2026]",
+      "link": "https://www.bigfooty.com/forum/threads/zak-butters-rfa-2026.1392004/",
+      "user": "Cleric",
+      "user_link": "https://www.bigfooty.com/forum/members/cleric.126055/",
+      "date": "2025-02-18T09:06:58+1100",
+      "lastpage": 23,
+      "replies": 564,
+      "views": 48000,
+      "lastpost": {
+        "date": "2025-05-31T15:06:54+1000",
+        "user": "Traveling_Power",
+        "user_link": "https://www.bigfooty.com/forum/members/traveling_power.151626/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/151/151626.jpg?1697935746"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/153/153715.jpg?1631968775",
+      "icons": [],
+      "label": "Club Focus",
+      "title": "Essendon 2024",
+      "link": "https://www.bigfooty.com/forum/threads/essendon-2024.1377281/",
+      "user": "Ticky009",
+      "user_link": "https://www.bigfooty.com/forum/members/ticky009.153715/",
+      "date": "2024-02-22T23:28:41+1100",
+      "lastpage": 12,
+      "replies": 276,
+      "views": 17000,
+      "lastpost": {
+        "date": "2025-05-31T13:30:52+1000",
+        "user": "Yoda_",
+        "user_link": "https://www.bigfooty.com/forum/members/yoda_.41055/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/41/41055.jpg?1725068723"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/92/92248.jpg?1364809297",
+      "icons": [
+        "Redirect"
+      ],
+      "label": "",
+      "title": "Tom Atkins [extended to 2027]",
+      "link": "https://www.bigfooty.com/forum/threads/tom-atkins-extended-to-2027.1396819/",
+      "user": "MisterMarcus",
+      "user_link": "https://www.bigfooty.com/forum/members/mistermarcus.92248/",
+      "date": "2025-04-16T15:19:28+1000",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 0,
+      "lastpost": {
+        "date": "",
+        "user": "",
+        "user_link": "",
+        "avatar": ""
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Ben Hobbs",
+      "link": "https://www.bigfooty.com/forum/threads/ben-hobbs.1396872/",
+      "user": "The Nostradamus",
+      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
+      "date": "2025-03-04T18:57:03+1100",
+      "lastpage": 2,
+      "replies": 37,
+      "views": 52,
+      "lastpost": {
+        "date": "2025-05-30T15:07:22+1000",
+        "user": "Ambrosia",
+        "user_link": "https://www.bigfooty.com/forum/members/ambrosia.97144/",
+        "avatar": ""
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/49/49150.jpg?1743940933",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Buku Khamis [OOC 2026]",
+      "link": "https://www.bigfooty.com/forum/threads/buku-khamis-ooc-2026.1395762/",
+      "user": "JHF1870",
+      "user_link": "https://www.bigfooty.com/forum/members/jhf1870.49150/",
+      "date": "2025-05-11T13:36:35+1000",
+      "lastpage": 0,
+      "replies": 4,
+      "views": 613,
+      "lastpost": {
+        "date": "2025-05-30T10:56:24+1000",
+        "user": "JHF1870",
+        "user_link": "https://www.bigfooty.com/forum/members/jhf1870.49150/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/49/49150.jpg?1743940933"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
+      "icons": [],
+      "label": "Speculation",
+      "title": "Ollie Dempsey",
+      "link": "https://www.bigfooty.com/forum/threads/ollie-dempsey.1393062/",
+      "user": "The Nostradamus",
+      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
+      "date": "2025-03-17T12:00:48+1100",
+      "lastpage": 2,
+      "replies": 25,
+      "views": 2000,
+      "lastpost": {
+        "date": "2025-05-30T10:30:45+1000",
+        "user": "dazbroncos",
+        "user_link": "https://www.bigfooty.com/forum/members/dazbroncos.106132/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/106/106132.jpg?1524373592"
+      }
+    },
+    {
+      "votes": 0,
+      "avatar": "https://www.bigfootycontent.com/avatars/s/106/106991.jpg?1732517299",
+      "icons": [],
+      "label": "Restricted Free Agent",
+      "title": "James Worpel",
+      "link": "https://www.bigfooty.com/forum/threads/james-worpel.1392225/",
+      "user": "The Nostradamus",
+      "user_link": "https://www.bigfooty.com/forum/members/the-nostradamus.106991/",
+      "date": "2025-02-24T17:19:58+1100",
+      "lastpage": 5,
+      "replies": 118,
+      "views": 8000,
+      "lastpost": {
+        "date": "2025-05-28T07:13:25+1000",
+        "user": "Vindicater",
+        "user_link": "https://www.bigfooty.com/forum/members/vindicater.144859/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/144/144859.jpg?1373982243"
       }
     },
     {
@@ -785,54 +760,14 @@
       "user": "Adz2332",
       "user_link": "https://www.bigfooty.com/forum/members/adz2332.104839/",
       "date": "2024-08-02T09:49:22+1000",
-      "lastpage": 3,
-      "replies": 74,
-      "views": 5000,
+      "lastpage": 5,
+      "replies": 124,
+      "views": 13000,
       "lastpost": {
-        "date": "2024-12-16T16:13:28+1100",
-        "user": "Chip Scab1",
-        "user_link": "https://www.bigfooty.com/forum/members/chip-scab1.226524/",
-        "avatar": null
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/206/206418.jpg?1652274252",
-      "icons": [],
-      "label": "Restricted Free Agent",
-      "title": "Marcus Bontempelli",
-      "link": "https://www.bigfooty.com/forum/threads/marcus-bontempelli.1390169/",
-      "user": "Orange Agent",
-      "user_link": "https://www.bigfooty.com/forum/members/orange-agent.176877/",
-      "date": "2024-11-28T17:47:38+1100",
-      "lastpage": 0,
-      "replies": 8,
-      "views": 875,
-      "lastpost": {
-        "date": "2024-12-16T14:15:09+1100",
-        "user": "BulldogMuscle",
-        "user_link": "https://www.bigfooty.com/forum/members/bulldogmuscle.206418/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/206/206418.jpg?1652274252"
-      }
-    },
-    {
-      "votes": 0,
-      "avatar": "https://www.bigfootycontent.com/avatars/s/168/168906.jpg?1695624824",
-      "icons": [],
-      "label": "",
-      "title": "Future Picks: Who should you barrack against?",
-      "link": "https://www.bigfooty.com/forum/threads/future-picks-who-should-you-barrack-against.1235612/",
-      "user": "Lore",
-      "user_link": "https://www.bigfooty.com/forum/members/lore.168906/",
-      "date": "2020-02-06T15:39:44+1100",
-      "lastpage": 2,
-      "replies": 38,
-      "views": 3000,
-      "lastpost": {
-        "date": "2024-12-16T11:30:28+1100",
-        "user": "tiger_tough",
-        "user_link": "https://www.bigfooty.com/forum/members/tiger_tough.72469/",
-        "avatar": "https://www.bigfootycontent.com/avatars/s/72/72469.jpg?1712141783"
+        "date": "2025-05-27T07:54:05+1000",
+        "user": "WalshistheGOAT",
+        "user_link": "https://www.bigfooty.com/forum/members/walshisthegoat.195861/",
+        "avatar": "https://www.bigfootycontent.com/avatars/s/195/195861.jpg?1630260783"
       }
     }
   ]

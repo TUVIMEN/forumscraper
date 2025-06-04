@@ -5,7 +5,7 @@
   "threads": [
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777180",
       "title": "Welcome, 2025! (How was your 2024?)D",
@@ -13,16 +13,16 @@
       "user": "flushedpancake",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=flushedpancake",
       "replies": 0,
-      "views": 22,
+      "views": 1013,
       "lastpost": {
         "date": "1-1-2025 at 04:49 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "flushedpancake"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777162",
       "title": "Oracle&#039;s MySQL actually handles UNIX_TIMESTAMP better than MariaDB!D",
@@ -30,16 +30,16 @@
       "user": "flushedpancake",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=flushedpancake",
       "replies": 4,
-      "views": 469,
+      "views": 796,
       "lastpost": {
         "date": "1-1-2025 at 04:46 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "flushedpancake"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777174",
       "title": "new youtube bbcode testD",
@@ -47,10 +47,10 @@
       "user": "flushedpancake",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=flushedpancake",
       "replies": 0,
-      "views": 130,
+      "views": 512,
       "lastpost": {
         "date": "11-4-2024 at 05:22 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "flushedpancake"
       }
     },
@@ -64,16 +64,16 @@
       "user": "Segen",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=Segen",
       "replies": 1,
-      "views": 163,
+      "views": 452,
       "lastpost": {
         "date": "8-28-2024 at 02:56 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "flushedpancake"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777153",
       "title": "What are we doing now?D",
@@ -81,16 +81,16 @@
       "user": "flushedpancake",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=flushedpancake",
       "replies": 9,
-      "views": 1091,
+      "views": 1459,
       "lastpost": {
         "date": "5-12-2024 at 10:46 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "flushedpancake"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777128",
       "title": "XMB 2?D",
@@ -98,16 +98,16 @@
       "user": "vanderaj",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=vanderaj",
       "replies": 10,
-      "views": 10875,
+      "views": 38259,
       "lastpost": {
         "date": "7-19-2023 at 10:53 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "Mouser"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777139",
       "title": "hellooooD",
@@ -115,16 +115,16 @@
       "user": "dmkapital3",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=dmkapital3",
       "replies": 2,
-      "views": 492,
+      "views": 794,
       "lastpost": {
         "date": "6-16-2023 at 04:09 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "dmkapital3"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777142",
       "title": "helloD",
@@ -132,16 +132,16 @@
       "user": "dmkapital3",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=dmkapital3",
       "replies": 0,
-      "views": 421,
+      "views": 735,
       "lastpost": {
         "date": "6-16-2023 at 12:23 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "dmkapital3"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777124",
       "title": "How does that work at all?D",
@@ -149,16 +149,16 @@
       "user": "TheOutlaw",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=TheOutlaw",
       "replies": 1,
-      "views": 1916,
+      "views": 2234,
       "lastpost": {
         "date": "4-20-2022 at 01:59 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "lottos"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777117",
       "title": "what happened to XMB?D",
@@ -166,16 +166,16 @@
       "user": "miroslavglavic",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=miroslavglavic",
       "replies": 2,
-      "views": 1146,
+      "views": 1469,
       "lastpost": {
         "date": "2-12-2022 at 06:22 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "miqrogroove"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777107",
       "title": "Xmb News....D",
@@ -183,16 +183,16 @@
       "user": "viola",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=viola",
       "replies": 3,
-      "views": 1615,
+      "views": 1942,
       "lastpost": {
         "date": "5-2-2021 at 02:09 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "miqrogroove"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777101",
       "title": "Suggestions for database back-up software?D",
@@ -200,16 +200,16 @@
       "user": "Carolyn",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=Carolyn",
       "replies": 2,
-      "views": 1933,
+      "views": 2236,
       "lastpost": {
         "date": "3-31-2021 at 05:29 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "bfgadmin"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777091",
       "title": "Hey GuysD",
@@ -217,16 +217,16 @@
       "user": "nickpledge",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=nickpledge",
       "replies": 1,
-      "views": 1056,
+      "views": 1359,
       "lastpost": {
         "date": "11-30-2020 at 08:13 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "bfgadmin"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/hot_folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777048",
       "title": "Continued DevelopmentD",
@@ -234,16 +234,16 @@
       "user": "LordOfSpoon",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=LordOfSpoon",
       "replies": 41,
-      "views": 5530,
+      "views": 6179,
       "lastpost": {
         "date": "10-19-2020 at 04:23 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "miqrogroove"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777000",
       "title": "What would you like to see in XMB 2.0?D",
@@ -251,16 +251,16 @@
       "user": "Scarlet",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=Scarlet",
       "replies": 1,
-      "views": 1979,
+      "views": 2308,
       "lastpost": {
         "date": "9-20-2020 at 12:31 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "Magnumxe"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/hot_folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=776963",
       "title": "It&#039;s been a good ride with xmb to say the least.D",
@@ -268,16 +268,16 @@
       "user": "Mr B",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=Mr%20B",
       "replies": 70,
-      "views": 14853,
+      "views": 16876,
       "lastpost": {
         "date": "9-19-2020 at 02:38 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "miqrogroove"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777054",
       "title": "Coronavirus cure, short termD",
@@ -285,16 +285,16 @@
       "user": "covid-19",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=covid-19",
       "replies": 1,
-      "views": 1156,
+      "views": 1479,
       "lastpost": {
         "date": "5-7-2020 at 01:06 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "bfgadmin"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777053",
       "title": "Making your own coronavirus maskD",
@@ -302,16 +302,16 @@
       "user": "covid-19",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=covid-19",
       "replies": 0,
-      "views": 1024,
+      "views": 1355,
       "lastpost": {
         "date": "3-26-2020 at 08:36 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "covid-19"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777052",
       "title": "laid off due to coronavirusD",
@@ -319,16 +319,16 @@
       "user": "covid-19",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=covid-19",
       "replies": 0,
-      "views": 1007,
+      "views": 1326,
       "lastpost": {
         "date": "3-25-2020 at 12:05 AM",
-        "user_link": null,
+        "user_link": "",
         "user": "covid-19"
       }
     },
     {
       "state": "https://forums.xmbforum2.com/images/davis/folder.gif",
-      "icon": null,
+      "icon": "",
       "sticky": false,
       "link": "https://forums.xmbforum2.com/viewthread.php?tid=777020",
       "title": "vbulletin img bbcode resizeD",
@@ -336,10 +336,10 @@
       "user": "lottos",
       "user_link": "https://forums.xmbforum2.com/member.php?action=viewpro&member=lottos",
       "replies": 1,
-      "views": 1929,
+      "views": 2245,
       "lastpost": {
         "date": "3-24-2018 at 11:00 PM",
-        "user_link": null,
+        "user_link": "",
         "user": "Dana"
       }
     }

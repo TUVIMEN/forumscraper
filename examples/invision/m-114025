@@ -1,31 +1,31 @@
 {
-  "format_version": "invision-4-user",
+  "format_version": "invision-4+-user",
   "url": "https://invisioncommunity.com/profile/114025-adriano-faria/?do=hovercard",
   "id": 114025,
   "name": "Adriano Faria",
-  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "background": "",
   "avatar": "https://media.invisioncic.com/a319035/monthly_2023_08/laptop-2620118.thumb.jpg.cab32094f033e627dfa560b3294da79c.jpg",
   "group": "Clients",
-  "joined": "",
+  "joined": "2007-04-11T16:17:24Z",
   "lastseen": "",
   "info": [
     {
       "name": "Posts",
-      "value": "32k"
+      "value": "32.2k"
     },
     {
       "name": "Reputation",
-      "value": "16.1k"
+      "value": "16.3k"
     },
     {
       "name": "Badges",
-      "value": "29"
+      "value": "30"
     }
   ],
   "rank": "Rank: Grand Master (13/13)",
   "rank_date": "",
   "badges": [
-    "Helpful",
+    "First to break Invision Community 5",
     "Helpful",
     "Helpful",
     "Helpful",

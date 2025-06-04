@@ -4,62 +4,62 @@
   "categories": [
     {
       "name": "Linki - szybki dostęp",
-      "link": "https://fungi.pl/forum/viewforum.php?f=73&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=73&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_link",
           "name": "Strona Główna portalu NaGrzyby.pl",
-          "link": "https://fungi.pl/forum/viewforum.php?f=71&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=71&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
           "posts": 0,
-          "redirects": 449438,
+          "redirects": 459030,
           "lastpost": {
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "title": "",
-            "link": null,
+            "link": "",
             "date": ""
           }
         },
         {
           "state": "forum_link",
           "name": "Nowa Galeria",
-          "link": "https://fungi.pl/forum/viewforum.php?f=91&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=91&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
           "posts": 0,
-          "redirects": 110065,
+          "redirects": 117862,
           "lastpost": {
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "title": "",
-            "link": null,
+            "link": "",
             "date": ""
           }
         },
         {
           "state": "forum_link",
           "name": "Stara Galeria",
-          "link": "https://fungi.pl/forum/viewforum.php?f=72&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=72&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
           "posts": 0,
-          "redirects": 182788,
+          "redirects": 188735,
           "lastpost": {
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "title": "",
-            "link": null,
+            "link": "",
             "date": ""
           }
         }
@@ -67,89 +67,89 @@
     },
     {
       "name": "Grzyby",
-      "link": "https://fungi.pl/forum/viewforum.php?f=62&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=62&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_read",
           "name": "Pomoc w rozpoznaniu",
-          "link": "https://fungi.pl/forum/viewforum.php?f=14&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=14&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 33723,
+          "posts": 33726,
           "redirects": 0,
           "lastpost": {
-            "user": "GrzybowyWariat",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11576&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user": "marekmuchomor1970",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=12011&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Pytanie do grzyboznawcy",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=14&p=604421&sid=1abaa5745f551661772ade06ae7fc0eb#p604421",
-            "date": "środa, 1 stycznia 2025, 21:20"
+            "link": "https://fungi.pl/forum/viewtopic.php?f=14&p=604899&sid=4acb8e402c2167ccecadd61049056a07#p604899",
+            "date": "środa, 7 maja 2025, 00:59"
           }
         },
         {
           "state": "forum_read",
           "name": "Występowanie grzybów",
-          "link": "https://fungi.pl/forum/viewforum.php?f=13&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=13&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 27794,
+          "posts": 27799,
           "redirects": 0,
           "lastpost": {
-            "user": "MaeRoth",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11561&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "Czy są grzyby w okolicach Jastrowia???",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=13&p=604384&sid=1abaa5745f551661772ade06ae7fc0eb#p604384",
-            "date": "środa, 25 grudnia 2024, 11:00"
+            "user": "Mellow",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=12027&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Boczniaki a hubba",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=13&p=604957&sid=4acb8e402c2167ccecadd61049056a07#p604957",
+            "date": "piątek, 16 maja 2025, 11:10"
           }
         },
         {
           "state": "forum_read",
           "name": "Grzybki - Nasze Galerie",
-          "link": "https://fungi.pl/forum/viewforum.php?f=1&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=1&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 87550,
+          "posts": 87549,
           "redirects": 0,
           "lastpost": {
             "user": "Włóczykij",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "Fotorelacje z grzybobrań 2023",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=1&p=604323&sid=1abaa5745f551661772ade06ae7fc0eb#p604323",
-            "date": "czwartek, 12 grudnia 2024, 14:55"
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Dziś w bukowym lesie",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=1&p=604589&sid=4acb8e402c2167ccecadd61049056a07#p604589",
+            "date": "środa, 19 lutego 2025, 16:17"
           }
         },
         {
           "state": "forum_read",
           "name": "Kulinaria",
-          "link": "https://fungi.pl/forum/viewforum.php?f=15&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=15&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 16601,
+          "posts": 16607,
           "redirects": 0,
           "lastpost": {
-            "user": "aniakaminska",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11372&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "Dania z suszonych grzybów",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=15&p=604179&sid=1abaa5745f551661772ade06ae7fc0eb#p604179",
-            "date": "niedziela, 24 listopada 2024, 12:30"
+            "user": "Margolcia",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=3998&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Biała zawiesina w marynowanych grzybach - co poszło nie tak?",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=15&p=604817&sid=4acb8e402c2167ccecadd61049056a07#p604817",
+            "date": "niedziela, 6 kwietnia 2025, 18:18"
           }
         },
         {
           "state": "forum_read",
           "name": "Bazy wypadowe dla grzybiarzy",
-          "link": "https://fungi.pl/forum/viewforum.php?f=30&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=30&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -158,74 +158,74 @@
           "redirects": 0,
           "lastpost": {
             "user": "Morganara",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10723&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10723&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Gdzie na grzyby w woj śląskim?",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=30&p=603579&sid=1abaa5745f551661772ade06ae7fc0eb#p603579",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=30&p=603579&sid=4acb8e402c2167ccecadd61049056a07#p603579",
             "date": "środa, 28 lutego 2024, 16:43"
           }
         },
         {
           "state": "forum_read",
           "name": "Wyposażenie grzybiarza",
-          "link": "https://fungi.pl/forum/viewforum.php?f=52&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=52&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 4696,
+          "posts": 4702,
           "redirects": 0,
           "lastpost": {
-            "user": "aliacacia",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11009&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "Wyposażenie na grzyby dla początkującego",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=52&p=604107&sid=1abaa5745f551661772ade06ae7fc0eb#p604107",
-            "date": "środa, 13 listopada 2024, 10:29"
+            "user": "Mellow",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=12027&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Atlas grzybów na prezent",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=52&p=604958&sid=4acb8e402c2167ccecadd61049056a07#p604958",
+            "date": "piątek, 16 maja 2025, 11:11"
           }
         },
         {
           "state": "forum_read",
           "name": "Publikacje nt. grzybów",
-          "link": "https://fungi.pl/forum/viewforum.php?f=54&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=54&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 5054,
+          "posts": 5056,
           "redirects": 0,
           "lastpost": {
-            "user": "Magdalen51",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10037&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "LINKI, LINKI...",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=54&p=602232&sid=1abaa5745f551661772ade06ae7fc0eb#p602232",
-            "date": "poniedziałek, 17 października 2022, 08:29"
+            "user": "Michalina12",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=9058&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Lasy Państwowe",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=54&p=604904&sid=4acb8e402c2167ccecadd61049056a07#p604904",
+            "date": "piątek, 9 maja 2025, 12:53"
           }
         },
         {
           "state": "forum_read",
           "name": "Poradnik",
-          "link": "https://fungi.pl/forum/viewforum.php?f=55&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=55&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 2743,
+          "posts": 2749,
           "redirects": 0,
           "lastpost": {
-            "user": "Asiula",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11584&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user": "grzybomat",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11459&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Uprawa shiitake w domu",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=55&p=604423&sid=1abaa5745f551661772ade06ae7fc0eb#p604423",
-            "date": "czwartek, 2 stycznia 2025, 21:44"
+            "link": "https://fungi.pl/forum/viewtopic.php?f=55&p=604900&sid=4acb8e402c2167ccecadd61049056a07#p604900",
+            "date": "środa, 7 maja 2025, 09:25"
           }
         },
         {
           "state": "forum_read",
           "name": "Handel",
-          "link": "https://fungi.pl/forum/viewforum.php?f=28&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=28&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -234,9 +234,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "Waldek3i",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10670&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10670&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Sanepid i grzyby",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=28&p=603392&sid=1abaa5745f551661772ade06ae7fc0eb#p603392",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=28&p=603392&sid=4acb8e402c2167ccecadd61049056a07#p603392",
             "date": "czwartek, 15 lutego 2024, 13:38"
           }
         }
@@ -244,19 +244,19 @@
     },
     {
       "name": "Konkursy, zagadki i ankiety",
-      "link": "https://fungi.pl/forum/viewforum.php?f=68&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=68&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_read_subforum",
           "name": "Zagadki",
-          "link": "https://fungi.pl/forum/viewforum.php?f=34&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=34&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [
             {
               "state": "Nie ma nieprzeczytanych postów",
               "name": "Komentarze do zagadek",
-              "link": "https://fungi.pl/forum/viewforum.php?f=35&sid=1abaa5745f551661772ade06ae7fc0eb"
+              "link": "https://fungi.pl/forum/viewforum.php?f=35&sid=4acb8e402c2167ccecadd61049056a07"
             }
           ],
           "moderators": [],
@@ -265,17 +265,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "Włóczykij",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Aktualności i komunikaty.",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=35&p=603913&sid=1abaa5745f551661772ade06ae7fc0eb#p603913",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=35&p=603913&sid=4acb8e402c2167ccecadd61049056a07#p603913",
             "date": "środa, 8 maja 2024, 16:13"
           }
         },
         {
           "state": "forum_read",
           "name": "Konkursy fotograficzne",
-          "link": "https://fungi.pl/forum/viewforum.php?f=41&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=41&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -284,17 +284,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "Nadir",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=3506&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=3506&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "NOWY Regulamin Konkursu Fotograficznego na Zdjęcie Miesiąca i Zdjęcie Roku",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=41&p=589265&sid=1abaa5745f551661772ade06ae7fc0eb#p589265",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=41&p=589265&sid=4acb8e402c2167ccecadd61049056a07#p589265",
             "date": "poniedziałek, 25 czerwca 2018, 23:57"
           }
         },
         {
           "state": "forum_read",
           "name": "Ankiety",
-          "link": "https://fungi.pl/forum/viewforum.php?f=40&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=40&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -303,9 +303,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "monisiek99",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10519&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10519&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Jak to z tymi relacjami?",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=40&p=602992&sid=1abaa5745f551661772ade06ae7fc0eb#p602992",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=40&p=602992&sid=4acb8e402c2167ccecadd61049056a07#p602992",
             "date": "sobota, 21 października 2023, 10:46"
           }
         }
@@ -313,13 +313,13 @@
     },
     {
       "name": "Atlas grzybów na forum",
-      "link": "https://fungi.pl/forum/viewforum.php?f=64&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=64&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_read",
           "name": "Forumowy Atlas Grzybów",
-          "link": "https://fungi.pl/forum/viewforum.php?f=59&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=59&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -328,9 +328,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "szkrabina",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=8956&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=8956&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Lejkówka zielonawa [ Lejkówka wonna ] Clitocybe odora",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=59&p=601259&sid=1abaa5745f551661772ade06ae7fc0eb#p601259",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=59&p=601259&sid=4acb8e402c2167ccecadd61049056a07#p601259",
             "date": "niedziela, 5 września 2021, 16:29"
           }
         }
@@ -338,13 +338,13 @@
     },
     {
       "name": "Oto Polska i Świat",
-      "link": "https://fungi.pl/forum/viewforum.php?f=65&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=65&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_read",
           "name": "Fauna i flora",
-          "link": "https://fungi.pl/forum/viewforum.php?f=42&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=42&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -353,17 +353,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "Magda171983",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10536&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10536&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Świat zwierząt w obiektywie",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=42&p=603041&sid=1abaa5745f551661772ade06ae7fc0eb#p603041",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=42&p=603041&sid=4acb8e402c2167ccecadd61049056a07#p603041",
             "date": "środa, 1 listopada 2023, 09:07"
           }
         },
         {
           "state": "forum_read",
           "name": "Ciekawe miejsca",
-          "link": "https://fungi.pl/forum/viewforum.php?f=43&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=43&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -372,17 +372,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "simoneraineop",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11537&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11537&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Niejasne, ciekawe miejsca do odwiedzenia w Polsce?",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=43&p=604331&sid=1abaa5745f551661772ade06ae7fc0eb#p604331",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=43&p=604331&sid=4acb8e402c2167ccecadd61049056a07#p604331",
             "date": "środa, 18 grudnia 2024, 05:56"
           }
         },
         {
           "state": "forum_read",
           "name": "Pory roku",
-          "link": "https://fungi.pl/forum/viewforum.php?f=44&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=44&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -391,9 +391,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "emilos66",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=4701&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=4701&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Woda + mróz = lodowe dziwolągi",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=44&p=602430&sid=1abaa5745f551661772ade06ae7fc0eb#p602430",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=44&p=602430&sid=4acb8e402c2167ccecadd61049056a07#p602430",
             "date": "wtorek, 7 lutego 2023, 20:01"
           }
         }
@@ -401,76 +401,76 @@
     },
     {
       "name": "Hyde Park",
-      "link": "https://fungi.pl/forum/viewforum.php?f=67&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=67&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_read",
           "name": "Tablica ogłoszeń",
-          "link": "https://fungi.pl/forum/viewforum.php?f=50&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=50&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 29792,
+          "posts": 29795,
           "redirects": 0,
           "lastpost": {
-            "user": "FabiolaMarchant",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10706&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "Ottova Encyklopedie hub",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=50&p=603511&sid=1abaa5745f551661772ade06ae7fc0eb#p603511",
-            "date": "piątek, 23 lutego 2024, 09:32"
+            "user": "declinetan",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11858&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Jesień w Ekocentrum ICPPC",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=50&p=604687&sid=4acb8e402c2167ccecadd61049056a07#p604687",
+            "date": "czwartek, 13 marca 2025, 04:01"
           }
         },
         {
           "state": "forum_read",
           "name": "Na luzie",
-          "link": "https://fungi.pl/forum/viewforum.php?f=58&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=58&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 31829,
+          "posts": 31827,
           "redirects": 0,
           "lastpost": {
-            "user": "rodsmiths",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11594&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "Grzybowy humor, fotomontaże, zdjęcia, śmieszne teksty",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=58&p=604451&sid=1abaa5745f551661772ade06ae7fc0eb#p604451",
-            "date": "poniedziałek, 6 stycznia 2025, 13:10"
+            "user": "emilos66",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=4701&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Dział filmowy",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=58&p=604924&sid=4acb8e402c2167ccecadd61049056a07#p604924",
+            "date": "poniedziałek, 12 maja 2025, 09:31"
           }
         },
         {
           "state": "forum_read",
           "name": "Ciekawostki",
-          "link": "https://fungi.pl/forum/viewforum.php?f=48&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=48&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 3945,
+          "posts": 3947,
           "redirects": 0,
           "lastpost": {
-            "user": "AmanitaMuscaria",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10165&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user": "nsectplot",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11686&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Grzyboznawcy na inaturalist?",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=48&p=603890&sid=1abaa5745f551661772ade06ae7fc0eb#p603890",
-            "date": "poniedziałek, 29 kwietnia 2024, 00:06"
+            "link": "https://fungi.pl/forum/viewtopic.php?f=48&p=604567&sid=4acb8e402c2167ccecadd61049056a07#p604567",
+            "date": "wtorek, 4 lutego 2025, 09:18"
           }
         }
       ]
     },
     {
       "name": "Darz Grzyb - Sprawy klubowe",
-      "link": "https://fungi.pl/forum/viewforum.php?f=61&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=61&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_read",
           "name": "Sprawy organizacyjne",
-          "link": "https://fungi.pl/forum/viewforum.php?f=56&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=56&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -479,17 +479,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "Włóczykij",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Dla klubowiczów i sympatyków portalu",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=56&p=603844&sid=1abaa5745f551661772ade06ae7fc0eb#p603844",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=56&p=603844&sid=4acb8e402c2167ccecadd61049056a07#p603844",
             "date": "czwartek, 11 kwietnia 2024, 21:57"
           }
         },
         {
           "state": "forum_read",
           "name": "Imprezy, wyjazdy, grzybobrania",
-          "link": "https://fungi.pl/forum/viewforum.php?f=39&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=39&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -498,9 +498,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "otiscavin",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10602&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=10602&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Wielkie Wrześniowe Grzybobranie w Zawiatach - 2019",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=39&p=603983&sid=1abaa5745f551661772ade06ae7fc0eb#p603983",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=39&p=603983&sid=4acb8e402c2167ccecadd61049056a07#p603983",
             "date": "poniedziałek, 20 maja 2024, 03:33"
           }
         }
@@ -508,13 +508,13 @@
     },
     {
       "name": "Pomoc i sprawy techniczne",
-      "link": "https://fungi.pl/forum/viewforum.php?f=66&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=66&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_read",
           "name": "Samouczki",
-          "link": "https://fungi.pl/forum/viewforum.php?f=80&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=80&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -523,17 +523,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "Dare",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=3980&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=3980&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Korzystanie z obrazkowego atlasu grzybów",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=80&p=520081&sid=1abaa5745f551661772ade06ae7fc0eb#p520081",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=80&p=520081&sid=4acb8e402c2167ccecadd61049056a07#p520081",
             "date": "piątek, 25 września 2015, 01:17"
           }
         },
         {
           "state": "forum_read",
           "name": "Forum - pomoc",
-          "link": "https://fungi.pl/forum/viewforum.php?f=45&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=45&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -542,36 +542,36 @@
           "redirects": 0,
           "lastpost": {
             "user": "Kubaka2424",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11449&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=11449&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Biznes grzybowy shiitake",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=45&p=604232&sid=1abaa5745f551661772ade06ae7fc0eb#p604232",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=45&p=604232&sid=4acb8e402c2167ccecadd61049056a07#p604232",
             "date": "czwartek, 28 listopada 2024, 20:06"
           }
         },
         {
           "state": "forum_read",
           "name": "Portal - pomoc",
-          "link": "https://fungi.pl/forum/viewforum.php?f=46&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=46&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
-          "posts": 7528,
+          "posts": 7529,
           "redirects": 0,
           "lastpost": {
-            "user": "gonzo",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=2191&sid=1abaa5745f551661772ade06ae7fc0eb",
-            "title": "Nius i inne problemy na stronie",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=46&p=598381&sid=1abaa5745f551661772ade06ae7fc0eb#p598381",
-            "date": "sobota, 30 maja 2020, 21:26"
+            "user": "armorerratic",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=12051&sid=4acb8e402c2167ccecadd61049056a07",
+            "title": "Dylemat",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=46&p=604973&sid=4acb8e402c2167ccecadd61049056a07#p604973",
+            "date": "poniedziałek, 26 maja 2025, 05:55"
           }
         },
         {
           "state": "forum_read",
           "name": "Galeria - pomoc",
-          "link": "https://fungi.pl/forum/viewforum.php?f=81&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=81&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -580,17 +580,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "buzisylwek",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=4280&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=4280&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Nowa galeria - fotki.nagrzyby.pl",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=81&p=602330&sid=1abaa5745f551661772ade06ae7fc0eb#p602330",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=81&p=602330&sid=4acb8e402c2167ccecadd61049056a07#p602330",
             "date": "sobota, 12 listopada 2022, 19:10"
           }
         },
         {
           "state": "forum_read",
           "name": "Fotografia - pomoc",
-          "link": "https://fungi.pl/forum/viewforum.php?f=47&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=47&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -599,17 +599,17 @@
           "redirects": 0,
           "lastpost": {
             "user": "Włóczykij",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=1476&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Have you taken a workshop or course in photography?",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=47&p=602069&sid=1abaa5745f551661772ade06ae7fc0eb#p602069",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=47&p=602069&sid=4acb8e402c2167ccecadd61049056a07#p602069",
             "date": "czwartek, 1 września 2022, 11:31"
           }
         },
         {
           "state": "forum_read",
           "name": "Aktualności i komunikaty",
-          "link": "https://fungi.pl/forum/viewforum.php?f=85&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=85&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
@@ -618,9 +618,9 @@
           "redirects": 0,
           "lastpost": {
             "user": "Zenit",
-            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=2&sid=1abaa5745f551661772ade06ae7fc0eb",
+            "user_link": "https://fungi.pl/forum/memberlist.php?mode=viewprofile&u=2&sid=4acb8e402c2167ccecadd61049056a07",
             "title": "Wyświetl najnowszy post",
-            "link": "https://fungi.pl/forum/viewtopic.php?f=85&p=584184&sid=1abaa5745f551661772ade06ae7fc0eb#p584184",
+            "link": "https://fungi.pl/forum/viewtopic.php?f=85&p=584184&sid=4acb8e402c2167ccecadd61049056a07#p584184",
             "date": "środa, 6 grudnia 2017, 23:03"
           }
         }
@@ -628,24 +628,24 @@
     },
     {
       "name": "Zaprzyjaźnione fora",
-      "link": "https://fungi.pl/forum/viewforum.php?f=69&sid=1abaa5745f551661772ade06ae7fc0eb",
+      "link": "https://fungi.pl/forum/viewforum.php?f=69&sid=4acb8e402c2167ccecadd61049056a07",
       "forums": [
         {
           "state": "forum_link",
           "name": "forum.biolog.pl",
-          "link": "https://fungi.pl/forum/viewforum.php?f=36&sid=1abaa5745f551661772ade06ae7fc0eb",
-          "icon": null,
+          "link": "https://fungi.pl/forum/viewforum.php?f=36&sid=4acb8e402c2167ccecadd61049056a07",
+          "icon": "",
           "description": "",
           "childboards": [],
           "moderators": [],
           "topics": 0,
           "posts": 0,
-          "redirects": 218020,
+          "redirects": 227101,
           "lastpost": {
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "title": "",
-            "link": null,
+            "link": "",
             "date": ""
           }
         }

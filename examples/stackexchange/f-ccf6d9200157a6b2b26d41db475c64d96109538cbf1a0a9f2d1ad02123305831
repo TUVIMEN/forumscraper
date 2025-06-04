@@ -4,331 +4,336 @@
   "threads": [
     {
       "score": 3,
-      "views": 378,
+      "views": 681,
       "answers": 0,
       "solved": false,
       "bounty": 0,
-      "title": "Has the Gaza population increased in 2024, and if so, by how much?",
-      "link": "https://skeptics.stackexchange.com/questions/57590/has-the-gaza-population-increased-in-2024-and-if-so-by-how-much",
-      "excerp": "An X account of visegrad24 made a post citing The World Factbook claiming that Gaza population increased by 2.02% or 43,000 people since October 7th 2023. (an archived version if the site doesn't ...",
+      "title": "Do sex differences in hormone cycles make 9-5 workdays better suited to men?",
+      "link": "https://skeptics.stackexchange.com/questions/58960/do-sex-differences-in-hormone-cycles-make-9-5-workdays-better-suited-to-men",
+      "excerp": "Some people claim that men and women typically have different hormonal cycles, and that the 9-5 workday was designed for, and is better suited for, men. For example: Why the 9-5 workday was built for ...",
       "tags": [
-        "israel-hamas-war",
-        "population",
-        "gaza"
+        "gender",
+        "work",
+        "sexism",
+        "sex",
+        "hormone"
       ],
       "author": {
-        "avatar": "https://www.gravatar.com/avatar/de8aac1719788d288b5d7c6ea2c774b8?s=32&d=identicon&r=PG",
-        "name": "HanMah",
-        "link": "https://skeptics.stackexchange.com/users/58849/hanmah",
-        "reputation": 795
+        "avatar": "https://i.sstatic.net/3h515.jpg?s=32",
+        "name": "Ooker",
+        "link": "https://skeptics.stackexchange.com/users/28910/ooker",
+        "reputation": 369
       },
-      "date": "2025-01-02 06:29:00Z"
+      "date": "2025-05-31 05:39:47Z"
+    },
+    {
+      "score": 8,
+      "views": 292,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Did Joseph P. Kennedy run a pump-and-dump scheme, before he was appointed SEC chairman?",
+      "link": "https://skeptics.stackexchange.com/questions/58957/did-joseph-p-kennedy-run-a-pump-and-dump-scheme-before-he-was-appointed-sec-ch",
+      "excerp": "An article by Eric Schwartzman in Fast Company claims: Distorting public perception is hardly a new phenomenon. But in the old days, it was a highly manual process. Just months before the 1929 stock ...",
+      "tags": [
+        "united-states",
+        "history"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/9rISOaKN.png?s=32",
+        "name": "future of civ6n is ass3d",
+        "link": "https://skeptics.stackexchange.com/users/29579/future-of-civ6n-is-ass3d",
+        "reputation": 65662
+      },
+      "date": "2025-05-29 17:35:19Z"
     },
     {
       "score": 3,
-      "views": 697,
-      "answers": 0,
-      "solved": false,
-      "bounty": 100,
-      "title": "Is extrasensory perception (ESP) statistically robust?",
-      "link": "https://skeptics.stackexchange.com/questions/57584/is-extrasensory-perception-esp-statistically-robust",
-      "excerp": "The claim comes from this notable source: What is the state-of-the-evidence for psi? Published by Parapsychological Association on Friday, February 11, 2011 Last Updated: Tuesday, November 24, 2015 ...",
-      "tags": [
-        "statistics",
-        "esp",
-        "science"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/7f48c7a44fa38eeb1582cc60acfd983d?s=32&d=identicon&r=PG&f=y&so-version=2",
-        "name": "user80226",
-        "link": "https://skeptics.stackexchange.com/users/79951/user80226",
-        "reputation": 31
-      },
-      "date": "2024-12-31 19:06:11Z"
-    },
-    {
-      "score": 2,
-      "views": 254,
+      "views": 347,
       "answers": 0,
       "solved": false,
       "bounty": 0,
-      "title": "Does a large rock in a Viking boat burial symbolize a vulva?",
-      "link": "https://skeptics.stackexchange.com/questions/57583/does-a-large-rock-in-a-viking-boat-burial-symbolize-a-vulva",
-      "excerp": "A 9th Century gravesite from Fitjar, Norway is making the news today because it included some women with jewellery, and because the mast of a boat is &quot;symbolized&quot; with a rock. ... When the ...",
+      "title": "Did the religious doctrine of Predestination trigger chronic nightmares in many New England children before the 19th century?",
+      "link": "https://skeptics.stackexchange.com/questions/58952/did-the-religious-doctrine-of-predestination-trigger-chronic-nightmares-in-many",
+      "excerp": "Author Susan Cain, in her 2022 pop psychology book Bittersweet, provides the following unsourced observation (p. 123-124): Our tyranny of positivity, stems, in part from underappreciated historical ...",
       "tags": [
-        "archaeology",
-        "norway",
-        "vikings"
+        "united-states",
+        "psychology",
+        "public-health",
+        "christianity",
+        "psychiatry"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/255c7474b350b0e2630fc7093e077a7f?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "Robert Columbia",
+        "link": "https://skeptics.stackexchange.com/users/36598/robert-columbia",
+        "reputation": 4035
+      },
+      "date": "2025-05-24 14:37:51Z"
+    },
+    {
+      "score": 15,
+      "views": 828,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Will 95% of adults over 30 never sprint again?",
+      "link": "https://skeptics.stackexchange.com/questions/58951/will-95-of-adults-over-30-never-sprint-again",
+      "excerp": "This claim is widely shared on Social Media: jwlevitt on Instagram: “95% of adults over 30 will never sprint again the rest of their lives.” Heather Schulz on Facebook Studies have shown that 95% ...",
+      "tags": [
+        "physical-fitness",
+        "age"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/83d6f8b9d5f0c71ace3438d80db30c48?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "John Polo",
+        "link": "https://skeptics.stackexchange.com/users/88117/john-polo",
+        "reputation": 261
+      },
+      "date": "2025-05-23 19:46:36Z"
+    },
+    {
+      "score": 5,
+      "views": 418,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Did Allies confiscate 150 000 tonnes of secret files from Nazi Germany after WWII?",
+      "link": "https://skeptics.stackexchange.com/questions/58950/did-allies-confiscate-150-000-tonnes-of-secret-files-from-nazi-germany-after-wwi",
+      "excerp": "Recently I found an about an article about Germany's intellectual property theft during the National Socialist Government era. I checked many of the claims and they seem to be true, but there are few ...",
+      "tags": [
+        "technology",
+        "world-war-ii",
+        "nazi-germany",
+        "science"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/962b42d9e339532fc014724639418533?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "Bobo",
+        "link": "https://skeptics.stackexchange.com/users/88089/bobo",
+        "reputation": 111
+      },
+      "date": "2025-05-23 14:23:49Z"
+    },
+    {
+      "score": 6,
+      "views": 424,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Did the German Nazi government create rockets capable of speeds of 8,000 km/h?",
+      "link": "https://skeptics.stackexchange.com/questions/58948/did-the-german-nazi-government-create-rockets-capable-of-speeds-of-8-000-km-h",
+      "excerp": "Recently, I found an article about Germany's intellectual property theft during the National Socialist Government era. I checked many of the claims and they seem to be true, but there are few I didn't ...",
+      "tags": [
+        "technology",
+        "world-war-ii",
+        "nazi-germany"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/962b42d9e339532fc014724639418533?s=32&d=identicon&r=PG&f=y&so-version=2",
+        "name": "Bobo",
+        "link": "https://skeptics.stackexchange.com/users/88089/bobo",
+        "reputation": 111
+      },
+      "date": "2025-05-22 23:34:13Z"
+    },
+    {
+      "score": 22,
+      "views": 6246,
+      "answers": 2,
+      "solved": true,
+      "bounty": 0,
+      "title": "Was the Space Shuttle built to steal other nations' satellites from orbit?",
+      "link": "https://skeptics.stackexchange.com/questions/57940/was-the-space-shuttle-built-to-steal-other-nations-satellites-from-orbit",
+      "excerp": "Various locations on the internet claim that the Space Shuttle design was driven by a need to be able to conduct a mission that would steal another country's satellites from orbit, usually the USSR. ...",
+      "tags": [
+        "military",
+        "space-flight",
+        "nasa",
+        "space"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/YzROW.jpg?s=32",
+        "name": "Starship",
+        "link": "https://skeptics.stackexchange.com/users/67679/starship",
+        "reputation": 1562
+      },
+      "date": "2025-05-21 01:02:35Z"
+    },
+    {
+      "score": 25,
+      "views": 5292,
+      "answers": 2,
+      "solved": false,
+      "bounty": 0,
+      "title": "Does it cost $100k per person per day to detain migrants at Guantanamo Bay?",
+      "link": "https://skeptics.stackexchange.com/questions/57939/does-it-cost-100k-per-person-per-day-to-detain-migrants-at-guantanamo-bay",
+      "excerp": "I just came across this article from Reuters. Senator Gary Peters stated that it costs $100,000 per person per day to detain migrants at Gauntanamo Bay. &quot;We're spending $100,000 a day to keep ...",
+      "tags": [
+        "politics"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/4c1ac20b2c1749a9f63b61f2561422a6?s=32&d=identicon&r=PG",
+        "name": "Daniel Shapero",
+        "link": "https://skeptics.stackexchange.com/users/87006/daniel-shapero",
+        "reputation": 351
+      },
+      "date": "2025-05-21 00:53:55Z"
+    },
+    {
+      "score": 1,
+      "views": 150,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Is the UN letting Ethiopian and Eritrean war criminals off the hook for political reasons, like an EU migrant deal? [closed]",
+      "link": "https://skeptics.stackexchange.com/questions/57936/is-the-un-letting-ethiopian-and-eritrean-war-criminals-off-the-hook-for-politica",
+      "excerp": "Reading about the recent humanitarian crisis in Tigray, I got stuck on these paragraphs from the Dutch public broadcasting corporation: Why then does the UN stop investigating the atrocities? That ...",
+      "tags": [
+        "tigray",
+        "war-crimes"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/nKJut.jpg?s=32",
+        "name": "digitalheir",
+        "link": "https://skeptics.stackexchange.com/users/16986/digitalheir",
+        "reputation": 352
+      },
+      "date": "2025-05-19 12:36:52Z"
+    },
+    {
+      "score": 4,
+      "views": 535,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Did chess champion Paul Morphy say \"the ability to play chess well is the sign of a wasted life\"?",
+      "link": "https://skeptics.stackexchange.com/questions/57931/did-chess-champion-paul-morphy-say-the-ability-to-play-chess-well-is-the-sign-o",
+      "excerp": "There are a number of unofficial sources on the internet (see, for example, here, here, and here) saying that the 19th-century chess champion Paul Morphy said the following: The ability to play chess ...",
+      "tags": [
+        "history",
+        "quotes",
+        "chess",
+        "lifestyle"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/frqZy.jpg?s=32",
+        "name": "FD_bfa",
+        "link": "https://skeptics.stackexchange.com/users/85058/fd-bfa",
+        "reputation": 797
+      },
+      "date": "2025-05-17 16:10:10Z"
+    },
+    {
+      "score": 12,
+      "views": 7416,
+      "answers": 2,
+      "solved": false,
+      "bounty": 0,
+      "title": "Did Pope Leo XIV say this quote addressed to \"those who no longer believe, no longer hope, no longer pray, because they think God has left\"?",
+      "link": "https://skeptics.stackexchange.com/questions/57927/did-pope-leo-xiv-say-this-quote-addressed-to-those-who-no-longer-believe-no-lo",
+      "excerp": "There is a quote that is being attributed to Pope Leo XIV. I'm unable to track down any more information. The postings are suspiciously similar, including the phrase &quot;I like him already:&quot; at ...",
+      "tags": [
+        "quotes",
+        "catholic-church",
+        "pope"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/Sqgx6.jpg?s=32",
+        "name": "DJClayworth",
+        "link": "https://skeptics.stackexchange.com/users/165/djclayworth",
+        "reputation": 58431
+      },
+      "date": "2025-05-15 19:50:50Z"
+    },
+    {
+      "score": 11,
+      "views": 2537,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Is Stanisław Ulam's quote about nonlinear systems apocryphal?",
+      "link": "https://skeptics.stackexchange.com/questions/57925/is-stanis%c5%82aw-ulams-quote-about-nonlinear-systems-apocryphal",
+      "excerp": "A wonderful quote often attributed (e.g. on the Wikipedia page about nonlinear systems) to scientist Stanisław Ulam is the following: Using a term like nonlinear science is like referring to the bulk ...",
+      "tags": [
+        "quotes",
+        "physics"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/Z1qtP.png?s=32",
+        "name": "jub0bs",
+        "link": "https://skeptics.stackexchange.com/users/15623/jub0bs",
+        "reputation": 213
+      },
+      "date": "2025-05-15 14:31:38Z"
+    },
+    {
+      "score": 20,
+      "views": 9950,
+      "answers": 2,
+      "solved": true,
+      "bounty": 0,
+      "title": "Does a cat have the same IQ as a two year old child?",
+      "link": "https://skeptics.stackexchange.com/questions/57913/does-a-cat-have-the-same-iq-as-a-two-year-old-child",
+      "excerp": "The Wikipedia page on Cat Intelligence (since changed) says the following: According to several feline behaviorists and child psychologists, an adult cat's IQ is comparable to that of a two- to three-...",
+      "tags": [
+        "zoology",
+        "children",
+        "intelligence",
+        "ethology",
+        "behavior"
+      ],
+      "author": {
+        "avatar": "https://i.sstatic.net/frqZy.jpg?s=32",
+        "name": "FD_bfa",
+        "link": "https://skeptics.stackexchange.com/users/85058/fd-bfa",
+        "reputation": 797
+      },
+      "date": "2025-05-11 03:07:03Z"
+    },
+    {
+      "score": 16,
+      "views": 3463,
+      "answers": 2,
+      "solved": true,
+      "bounty": 0,
+      "title": "Did Catholic bishops swear to \"persecute and oppose\" papal rebels as claimed by Josiah Strong?",
+      "link": "https://skeptics.stackexchange.com/questions/57912/did-catholic-bishops-swear-to-persecute-and-oppose-papal-rebels-as-claimed-by",
+      "excerp": "In Josiah Strong's influential 1885 book Our Country: Its Possible Future and Its Present Crisis, he makes the following claim: Every cardinal, archbishop and bishop in the Catholic church takes an ...",
+      "tags": [
+        "history",
+        "quotes",
+        "religion",
+        "catholicism"
+      ],
+      "author": {
+        "avatar": "https://www.gravatar.com/avatar/534eac1a4a53f48183effd35b7efffb0?s=32&d=identicon&r=PG",
+        "name": "Jayson Virissimo",
+        "link": "https://skeptics.stackexchange.com/users/14928/jayson-virissimo",
+        "reputation": 3307
+      },
+      "date": "2025-05-11 00:33:54Z"
+    },
+    {
+      "score": 4,
+      "views": 393,
+      "answers": 0,
+      "solved": false,
+      "bounty": 0,
+      "title": "Does recycling plastic reduce microplastic emissions?",
+      "link": "https://skeptics.stackexchange.com/questions/57908/does-recycling-plastic-reduce-microplastic-emissions",
+      "excerp": "A recent Yahoo! news report, the reporter, Zachary Craley, ends with [emphasis mine]: On an individual level, ensuring plastic products are properly recycled and reducing plastic use can prevent ...",
+      "tags": [
+        "pollution",
+        "recycling"
       ],
       "author": {
         "avatar": "https://www.gravatar.com/avatar/4b3328677cc9d5235a6848e230de7f9f?s=32&d=identicon&r=PG&f=y&so-version=2",
         "name": "Mike Serfas",
         "link": "https://skeptics.stackexchange.com/users/56809/mike-serfas",
-        "reputation": 427
+        "reputation": 477
       },
-      "date": "2024-12-31 13:30:41Z"
-    },
-    {
-      "score": 2,
-      "views": 74,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Is Bangladesh seeking short range ballistic missile from Pakistan?",
-      "link": "https://skeptics.stackexchange.com/questions/57582/is-bangladesh-seeking-short-range-ballistic-missile-from-pakistan",
-      "excerp": "IDRW: bangladesh seeks pakistani srbms for deterrence against India, intel reports confirm Bangladesh seeks short-range ballistic missiles from Pakistan According to a report quoted by defense ...",
-      "tags": [
-        "pakistan",
-        "bangladesh"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/f19a3ac761df525d20390cf126e6219e?s=32&d=identicon&r=PG&f=y&so-version=2",
-        "name": "user366312",
-        "link": "https://skeptics.stackexchange.com/users/48358/user366312",
-        "reputation": 1706
-      },
-      "date": "2024-12-31 12:10:40Z"
-    },
-    {
-      "score": 37,
-      "views": 6977,
-      "answers": 2,
-      "solved": false,
-      "bounty": 0,
-      "title": "Did Wikipedia spend $50m USD on diversity, equity, and inclusion (DEI) initiatives over the 2023-24 fiscal year?",
-      "link": "https://skeptics.stackexchange.com/questions/57579/did-wikipedia-spend-50m-usd-on-diversity-equity-and-inclusion-dei-initiativ",
-      "excerp": "The Libs of TikTok X account posted a snippet of &quot;Wikipedia’s annual budget report from 2023—2024&quot; as seen below. They make the claim: they spent over $50 million of their total $177 ...",
-      "tags": [
-        "safety",
-        "equality"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/711cfc0bb87dee45a7a000c00eec67b1?s=32&d=identicon&r=PG&f=y&so-version=2",
-        "name": "pinegulf",
-        "link": "https://skeptics.stackexchange.com/users/56721/pinegulf",
-        "reputation": 9280
-      },
-      "date": "2024-12-30 06:54:06Z"
-    },
-    {
-      "score": 5,
-      "views": 376,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Does running an NLP model generate 300 tonnes of CO₂?",
-      "link": "https://skeptics.stackexchange.com/questions/57576/does-running-an-nlp-model-generate-300-tonnes-of-co%e2%82%82",
-      "excerp": "The AI critic Kate Crawford writes in her book The Atlas of AI: With a focus on trying to understand the carbon footprint of natural language processing (NLP) models, they began to sketch out ...",
-      "tags": [
-        "environment",
-        "technology",
-        "ai"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/Md55lopB.jpg?s=32",
-        "name": "viuser",
-        "link": "https://skeptics.stackexchange.com/users/30550/viuser",
-        "reputation": 235
-      },
-      "date": "2024-12-28 01:11:48Z"
-    },
-    {
-      "score": 2,
-      "views": 281,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Do people in GT cars experience twice the amount of g-forces than astronauts on lift-off?",
-      "link": "https://skeptics.stackexchange.com/questions/57575/do-people-in-gt-cars-experience-twice-the-amount-of-g-forces-than-astronauts-on",
-      "excerp": "In the 2023 movie Gran Turismo, when the winners of the application competition are first in GT Academy, Jack Salter says, When you’re in a race, the g-forces will be twice what an astronaut ...",
-      "tags": [
-        "quotes",
-        "road-vehicles",
-        "space-flight"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/V0QnEDXt.jpg?s=32",
-        "name": "DaemonsMercy",
-        "link": "https://skeptics.stackexchange.com/users/74236/daemonsmercy",
-        "reputation": 129
-      },
-      "date": "2024-12-27 20:55:48Z"
-    },
-    {
-      "score": 5,
-      "views": 240,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Is there a significant Iranian component to Ashkenazi Jewish genetics or not?",
-      "link": "https://skeptics.stackexchange.com/questions/57567/is-there-a-significant-iranian-component-to-ashkenazi-jewish-genetics-or-not",
-      "excerp": "In the study The Origins of Ashkenaz, Ashkenazic Jews, and Yiddish, 467 modern Ashkenazi Jews were compared with ancient individuals from Eastern Europe, Anatolia, the Levant, and Iran using a ...",
-      "tags": [
-        "history",
-        "biology",
-        "jews"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/c81fd69c80f36f7b332692490886ca90?s=32&d=identicon&r=PG&f=y&so-version=2",
-        "name": "gottfriedsam6",
-        "link": "https://skeptics.stackexchange.com/users/78751/gottfriedsam6",
-        "reputation": 15
-      },
-      "date": "2024-12-18 21:41:05Z"
-    },
-    {
-      "score": 2,
-      "views": 279,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Did the Western Powers decline overtures from the Soviet Union to fight Hitler? [closed]",
-      "link": "https://skeptics.stackexchange.com/questions/57564/did-the-western-powers-decline-overtures-from-the-soviet-union-to-fight-hitler",
-      "excerp": "In this lecture by Michael Parenti, he claims (starting from 07:31) that England, the United States, and France declined an alliance overtures from the Soviet Union against the German Reich so &quot;...",
-      "tags": [
-        "history",
-        "soviet-union",
-        "nazi-germany"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/QsFpE6Sn.png?s=32",
-        "name": "Levinas",
-        "link": "https://skeptics.stackexchange.com/users/69248/levinas",
-        "reputation": 974
-      },
-      "date": "2024-12-16 23:40:26Z"
-    },
-    {
-      "score": 29,
-      "views": 5155,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Do pet cats kept indoors live 10 years longer than indoor-outdoor pet cats?",
-      "link": "https://skeptics.stackexchange.com/questions/57558/do-pet-cats-kept-indoors-live-10-years-longer-than-indoor-outdoor-pet-cats",
-      "excerp": "I recently encountered the surprising claim that letting your cat go outdoors will shorten its lifespan by 10 years. I am wondering about the difference in lifespan between an indoor-only cat, and a ...",
-      "tags": [
-        "zoology",
-        "mortality"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/03453e531de27df5d16eedf2d06bfe50?s=32&d=identicon&r=PG&f=y&so-version=2",
-        "name": "causative",
-        "link": "https://skeptics.stackexchange.com/users/79180/causative",
-        "reputation": 661
-      },
-      "date": "2024-12-13 19:39:34Z"
-    },
-    {
-      "score": 46,
-      "views": 4502,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Did the Japanese military use the Kagoshima dialect to protect their communications during WW2?",
-      "link": "https://skeptics.stackexchange.com/questions/57552/did-the-japanese-military-use-the-kagoshima-dialect-to-protect-their-communicati",
-      "excerp": "During WW2, the US military made good use of many code talkers who spoke in languages the enemy was highly unlikely to understand, most famously Navajo. Discussions about this often mention that the ...",
-      "tags": [
-        "language",
-        "world-war-ii",
-        "japan"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/b7qJk.gif?s=32",
-        "name": "lambshaanxy",
-        "link": "https://skeptics.stackexchange.com/users/15184/lambshaanxy",
-        "reputation": 1926
-      },
-      "date": "2024-12-12 11:58:53Z"
-    },
-    {
-      "score": 1,
-      "views": 488,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Is United Healthcare the fourth largest company by market capitalization in the USA?",
-      "link": "https://skeptics.stackexchange.com/questions/57548/is-united-healthcare-the-fourth-largest-company-by-market-capitalization-in-the",
-      "excerp": "As published by Ken Klippenstein, in _&quot;Exclusive: Luigi's Manifesto&quot; United [Healthcare] is the [indecipherable] largest company in the US by market cap, behind only Apple, Google, Walmart. ...",
-      "tags": [
-        "united-states",
-        "healthcare"
-      ],
-      "author": {
-        "avatar": "https://www.gravatar.com/avatar/605442f85418d858e2ce1e1aea2092bb?s=32&d=identicon&r=PG",
-        "name": "Evan Carroll",
-        "link": "https://skeptics.stackexchange.com/users/3835/evan-carroll",
-        "reputation": 30836
-      },
-      "date": "2024-12-11 17:06:22Z"
-    },
-    {
-      "score": 15,
-      "views": 3909,
-      "answers": 2,
-      "solved": true,
-      "bounty": 0,
-      "title": "Are pigs effective intermediate hosts of new viruses, due to being susceptible to human and avian influenza viruses?",
-      "link": "https://skeptics.stackexchange.com/questions/57539/are-pigs-effective-intermediate-hosts-of-new-viruses-due-to-being-susceptible-t",
-      "excerp": "I've read the claim that pigs are &quot;melting pot of flu viruses&quot; on a few places on the Internet, some of them not apparently related to veganism or vegetarianism. For example, Swine influenza ...",
-      "tags": [
-        "genetics",
-        "epidemiology",
-        "virus",
-        "flu"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/TvFIm.jpg?s=32",
-        "name": "FlatAssembler",
-        "link": "https://skeptics.stackexchange.com/users/56242/flatassembler",
-        "reputation": 373
-      },
-      "date": "2024-12-10 15:50:12Z"
-    },
-    {
-      "score": 7,
-      "views": 222,
-      "answers": 0,
-      "solved": false,
-      "bounty": 0,
-      "title": "Did medieval European artists mix pigments or did they frown upon doing so for superstitious reasons?",
-      "link": "https://skeptics.stackexchange.com/questions/57531/did-medieval-european-artists-mix-pigments-or-did-they-frown-upon-doing-so-for-s",
-      "excerp": "Wikipedia claims that medieval European artists didn't typically mix colored pigments &quot;due to suspicion of alchemy&quot;, but this claim feels odd, so I wanted to reach out to some experts to ...",
-      "tags": [
-        "history",
-        "art",
-        "colors",
-        "superstition"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/ThNhZ.jpg?s=32",
-        "name": "Antal Spector-Zabusky",
-        "link": "https://skeptics.stackexchange.com/users/47419/antal-spector-zabusky",
-        "reputation": 901
-      },
-      "date": "2024-12-07 08:13:55Z"
-    },
-    {
-      "score": 13,
-      "views": 3116,
-      "answers": 2,
-      "solved": false,
-      "bounty": 0,
-      "title": "Do all the Li-ion batteries in the world have just enough power to meet peak demand in the U.S.?",
-      "link": "https://skeptics.stackexchange.com/questions/57525/do-all-the-li-ion-batteries-in-the-world-have-just-enough-power-to-meet-peak-dem",
-      "excerp": "From the December 2, 2024 article &quot;Batteries are a missing piece in Illinois’ clean energy transition. Engineers and lawmakers are racing to add them to the power grid.&quot; in the Chicago ...",
-      "tags": [
-        "united-states",
-        "energy",
-        "battery"
-      ],
-      "author": {
-        "avatar": "https://i.sstatic.net/5IZqv.jpg?s=32",
-        "name": "LShaver",
-        "link": "https://skeptics.stackexchange.com/users/38403/lshaver",
-        "reputation": 10365
-      },
-      "date": "2024-12-05 16:10:06Z"
+      "date": "2025-05-09 22:35:51Z"
     }
   ]
 }

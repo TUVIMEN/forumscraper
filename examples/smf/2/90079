@@ -3,7 +3,7 @@
   "url": "https://www.chemicalforums.com/index.php?topic=90079.0",
   "id": 90079,
   "title": "Methane Stoichiometry",
-  "viewed": 14617,
+  "viewed": 15085,
   "path": [
     "Chemical Forums",
     "Chemistry Forums for Students",
@@ -228,11 +228,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27921"
+          "value": "Posts: 27951"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1820/-412"
+          "value": "Mole Snacks: +1821/-412"
         },
         {
           "key": "gender",
@@ -325,7 +325,7 @@
     {
       "postid": 322890,
       "date": "February 13, 2017, 01:35:55 PM",
-      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=5a6e1229f3d024ab0cd3420291b6df40&amp;topic=90079.msg322886#msg322886\">Quote from: Vultux on February 13, 2017, 12:18:27 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Not really, my teacher is horrible at teaching so I have to learn everything for Chemistry online by myself. Read it and I&#039;m guessing I have to set a ratio of Oxygen to Methane gas which would be 2/4 then do something?<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Use the ratio to find number of moles of oxygen needed to burn the methane. Then follow AWK&#039;s advice.",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSIONID235=cb2fce592f33fb08f7ec413cc246e9bf&amp;topic=90079.msg322886#msg322886\">Quote from: Vultux on February 13, 2017, 12:18:27 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Not really, my teacher is horrible at teaching so I have to learn everything for Chemistry online by myself. Read it and I&#039;m guessing I have to set a ratio of Oxygen to Methane gas which would be 2/4 then do something?<br /></blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Use the ratio to find number of moles of oxygen needed to burn the methane. Then follow AWK&#039;s advice.",
       "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
@@ -351,11 +351,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27921"
+          "value": "Posts: 27951"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1820/-412"
+          "value": "Mole Snacks: +1821/-412"
         },
         {
           "key": "gender",
@@ -448,7 +448,7 @@
     {
       "postid": 322923,
       "date": "February 14, 2017, 03:58:54 AM",
-      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=5a6e1229f3d024ab0cd3420291b6df40&amp;topic=90079.msg322904#msg322904\">Quote from: Vultux on February 13, 2017, 07:44:16 PM</a></div></div><blockquote class=\"bbc_standard_quote\">So it would be (1.40*10<sup>-4</sup>)/2</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Look at the reaction equation - every mole of methane needs TWO moles of oxygen. If so, 1.40*10<sup>-4</sup> moles of methane need how many?<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">then what? Do I multiply by Avagadros to get volume?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Avogadro&#039;s number tells you how many molecules are in the mole, not what volume they occupy.<br /><br />Do you know how to deal with units? Avogadro&#039;s number has units of <br /><br />[tex]\\frac{number~of~molecules}{mole}[/tex]<br />Number of moles has - not surprisingly - units of just [itex]mole[/itex]. When you multiply the two, you get<br />[tex]mole\\times\\frac{number~of~molecules}{mole}[/tex]<br />Mole cancels out and the result is [itex]number~of~molecules[/itex].<br /><br />Do you know what is a volume occupied by 1 mole of a gas at STP? Or do you know the ideal gas equation? If not, google these things.",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSIONID235=cb2fce592f33fb08f7ec413cc246e9bf&amp;topic=90079.msg322904#msg322904\">Quote from: Vultux on February 13, 2017, 07:44:16 PM</a></div></div><blockquote class=\"bbc_standard_quote\">So it would be (1.40*10<sup>-4</sup>)/2</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Look at the reaction equation - every mole of methane needs TWO moles of oxygen. If so, 1.40*10<sup>-4</sup> moles of methane need how many?<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">then what? Do I multiply by Avagadros to get volume?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />No. Avogadro&#039;s number tells you how many molecules are in the mole, not what volume they occupy.<br /><br />Do you know how to deal with units? Avogadro&#039;s number has units of <br /><br />[tex]\\frac{number~of~molecules}{mole}[/tex]<br />Number of moles has - not surprisingly - units of just [itex]mole[/itex]. When you multiply the two, you get<br />[tex]mole\\times\\frac{number~of~molecules}{mole}[/tex]<br />Mole cancels out and the result is [itex]number~of~molecules[/itex].<br /><br />Do you know what is a volume occupied by 1 mole of a gas at STP? Or do you know the ideal gas equation? If not, google these things.",
       "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
@@ -474,11 +474,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27921"
+          "value": "Posts: 27951"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1820/-412"
+          "value": "Mole Snacks: +1821/-412"
         },
         {
           "key": "gender",
@@ -530,7 +530,7 @@
     {
       "postid": 322961,
       "date": "February 14, 2017, 06:24:06 PM",
-      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSID=5a6e1229f3d024ab0cd3420291b6df40&amp;topic=90079.msg322957#msg322957\">Quote from: Vultux on February 14, 2017, 04:46:26 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Would it be 2.8*10<sup>-4</sup> moles of Oxygen? and then multiply that 22.4?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes.<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">Sorry if I&#039;m being retarded and dumb, It&#039;s just that my teacher taught us conversions the first week during school and it&#039;s been a while.</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I strongly suggest you get back to conversions then, as you will need them all the time.",
+      "body": "<div class=\"quoteheader\"><div class=\"topslice_quote\"><a href=\"https://www.chemicalforums.com/index.php?PHPSESSIONID235=cb2fce592f33fb08f7ec413cc246e9bf&amp;topic=90079.msg322957#msg322957\">Quote from: Vultux on February 14, 2017, 04:46:26 PM</a></div></div><blockquote class=\"bbc_standard_quote\">Would it be 2.8*10<sup>-4</sup> moles of Oxygen? and then multiply that 22.4?</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />Yes.<br /><br /><div class=\"quoteheader\"><div class=\"topslice_quote\">Quote</div></div><blockquote class=\"bbc_standard_quote\">Sorry if I&#039;m being retarded and dumb, It&#039;s just that my teacher taught us conversions the first week during school and it&#039;s been a while.</blockquote><div class=\"quotefooter\"><div class=\"botslice_quote\"></div></div><br />I strongly suggest you get back to conversions then, as you will need them all the time.",
       "signature": "<a href=\"https://www.chembuddy.com\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">Chembuddy</a> chemical calculators - stoichiometry, pH, concentration, buffer preparation, <a href=\"http://www.titrations.info\" class=\"bbc_link\" target=\"_blank\" rel=\"noopener noreferrer\">titrations.info</a>",
       "edited": "",
       "attachments": [],
@@ -556,11 +556,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27921"
+          "value": "Posts: 27951"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1820/-412"
+          "value": "Mole Snacks: +1821/-412"
         },
         {
           "key": "gender",
@@ -638,11 +638,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27921"
+          "value": "Posts: 27951"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1820/-412"
+          "value": "Mole Snacks: +1821/-412"
         },
         {
           "key": "gender",
@@ -794,11 +794,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27921"
+          "value": "Posts: 27951"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1820/-412"
+          "value": "Mole Snacks: +1821/-412"
         },
         {
           "key": "gender",
@@ -876,11 +876,11 @@
         },
         {
           "key": "postcount",
-          "value": "Posts: 27921"
+          "value": "Posts: 27951"
         },
         {
           "key": "karma",
-          "value": "Mole Snacks: +1820/-412"
+          "value": "Mole Snacks: +1821/-412"
         },
         {
           "key": "gender",

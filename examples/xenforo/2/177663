@@ -2,7 +2,7 @@
   "format_version": "xenforo-2-thread",
   "url": "https://www.overtake.gg/threads/prosimu-racing-and-motion-simulator-since-2009.177663/",
   "id": 177663,
-  "title": "Authorised Vendor ProSimu - racing and motion simulator since 2009",
+  "title": "Authorised Vendor ProSimu - racing and motion simulator since 2009",
   "user_id": 220956,
   "user": "ProSimu",
   "date": "2020-01-17T19:58:02+0000",
@@ -25,7 +25,52 @@
   ],
   "poll": {
     "title": "",
-    "answers": []
+    "answers": [
+      {
+        "option": "Sabre",
+        "votes": 13
+      },
+      {
+        "option": "KT Racing",
+        "votes": 61
+      },
+      {
+        "option": "Milestone",
+        "votes": 87
+      },
+      {
+        "option": "The Last Garage",
+        "votes": 11
+      },
+      {
+        "option": "BeamNG",
+        "votes": 135
+      },
+      {
+        "option": "iRacing",
+        "votes": 107
+      },
+      {
+        "option": "Straight4 Studios",
+        "votes": 8
+      },
+      {
+        "option": "Bugbear Entertainment",
+        "votes": 25
+      },
+      {
+        "option": "Motorsport Games / Studio 397",
+        "votes": 61
+      },
+      {
+        "option": "Kunos Simulazioni",
+        "votes": 98
+      },
+      {
+        "option": "Reiza Studios",
+        "votes": 67
+      }
+    ]
   },
   "posts": [
     {
@@ -128,7 +173,9 @@
       "user_id": 1174512,
       "user_avatar": "",
       "user_title": "",
-      "user_banners": [],
+      "user_banners": [
+        "Premium"
+      ],
       "user_extras": {
         "stars": [],
         "bar": [],
@@ -261,7 +308,9 @@
       "user_id": 1174512,
       "user_avatar": "",
       "user_title": "",
-      "user_banners": [],
+      "user_banners": [
+        "Premium"
+      ],
       "user_extras": {
         "stars": [],
         "bar": [],
@@ -927,7 +976,7 @@
       },
       "id": 3361803,
       "date": "2021-03-17T18:40:33+0000",
-      "text": "They have an upgrade listet in their shop.<br /> <br /> <div class=\"bbCodeBlock bbCodeBlock--unfurl js-unfurl fauxBlockLink\" data-unfurl=\"true\" data-result-id=\"31199\" data-url=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" data-host=\"www.prosimu.com\" data-pending=\"false\"> <div class=\"contentRow\"> <div class=\"contentRow-main\"> <h3 class=\"contentRow-header js-unfurl-title\"> <a href=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" class=\"link link--external fauxBlockLink-blockLink\" target=\"_blank\" rel=\"nofollow ugc noopener\" data-proxy-href=\"/proxy.php?link=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605&amp;hash=e4c2fafd4099ce7d2c57c5aa1fa84c41\"> PROSIMU The Motion Racing Simulator Specialist </a> </h3> <div class=\"contentRow-snippet js-unfurl-desc\">Located in the Le Mans track, ProSimu is a creator and manufacturer of motion simulators and actuators for all types of users since 2009. From professional pilot, simracer, enthusiast or even beginner, ProSimu will have THE solution for you! With PROSIMU PRS ACTUATORS, demand the best, and...</div> <div class=\"contentRow-minor contentRow-minor--hideLinks\"> <span class=\"js-unfurl-favicon\"> <img src=\"/proxy.php?image=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605%2F..%2Fwafx_res%2FImages%2F0-180-favicon.png&amp;hash=ed95dd3982dc2bfd0af8d410ecd23a78&amp;return_error=1\" alt=\"www.prosimu.com\" class=\"bbCodeBlockUnfurl-icon\" data-onerror=\"hide-parent\"/> </span> www.prosimu.com </div> </div> </div> </div>",
+      "text": "They have an upgrade listet in their shop.<br /> <br /> <div class=\"bbCodeBlock bbCodeBlock--unfurl is-pending is-recrawl js-unfurl fauxBlockLink\" data-unfurl=\"true\" data-result-id=\"31199\" data-url=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" data-host=\"www.prosimu.com\" data-pending=\"true\"> <div class=\"contentRow\"> <div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\"> <span class=\"fa-2x u-muted\"> <i class=\"fa--xf fal fa-spinner fa-pulse\" aria-hidden=\"true\"></i> </span> </div> <div class=\"contentRow-main\"> <h3 class=\"contentRow-header js-unfurl-title\"> <a href=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" class=\"link link--external fauxBlockLink-blockLink\" target=\"_blank\" rel=\"nofollow ugc noopener\" data-proxy-href=\"/proxy.php?link=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605&amp;hash=e4c2fafd4099ce7d2c57c5aa1fa84c41\"> PROSIMU The Motion Racing Simulator Specialist </a> </h3> <div class=\"contentRow-snippet js-unfurl-desc\">Located in the Le Mans track, ProSimu is a creator and manufacturer of motion simulators and actuators for all types of users since 2009. From professional pilot, simracer, enthusiast or even beginner, ProSimu will have THE solution for you! With PROSIMU PRS ACTUATORS, demand the best, and...</div> <div class=\"contentRow-minor contentRow-minor--hideLinks\"> <span class=\"js-unfurl-favicon\"> <img src=\"/proxy.php?image=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605%2F..%2Fwafx_res%2FImages%2F0-180-favicon.png&amp;hash=ed95dd3982dc2bfd0af8d410ecd23a78&amp;return_error=1\" alt=\"www.prosimu.com\" class=\"bbCodeBlockUnfurl-icon\" data-onerror=\"hide-parent\"/> </span> www.prosimu.com </div> </div> </div> </div>",
       "attachments": [],
       "signature": "",
       "reactions": [
@@ -953,7 +1002,7 @@
       },
       "id": 3362024,
       "date": "2021-03-17T23:30:30+0000",
-      "text": "<blockquote data-attributes=\"member: 1185706\" data-quote=\"Jajohnsen\" data-source=\"post: 3361803\" class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"> <div class=\"bbCodeBlock-title\"> <a href=\"/goto/post?id=3361803\" class=\"bbCodeBlock-sourceJump\" rel=\"nofollow\" data-xf-click=\"attribution\" data-content-selector=\"#post-3361803\">Jajohnsen said:</a> </div> <div class=\"bbCodeBlock-content\"> <div class=\"bbCodeBlock-expandContent js-expandContent \"> They have an upgrade listet in their shop.<br /> <br /> <div class=\"bbCodeBlock bbCodeBlock--unfurl js-unfurl fauxBlockLink\" data-unfurl=\"true\" data-result-id=\"31199\" data-url=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" data-host=\"www.prosimu.com\" data-pending=\"false\"> <div class=\"contentRow\"> <div class=\"contentRow-main\"> <h3 class=\"contentRow-header js-unfurl-title\"> <a href=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" class=\"link link--external fauxBlockLink-blockLink\" target=\"_blank\" rel=\"nofollow ugc noopener\" data-proxy-href=\"/proxy.php?link=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605&amp;hash=e4c2fafd4099ce7d2c57c5aa1fa84c41\"> PROSIMU The Motion Racing Simulator Specialist </a> </h3> <div class=\"contentRow-snippet js-unfurl-desc\">Located in the Le Mans track, ProSimu is a creator and manufacturer of motion simulators and actuators for all types of users since 2009. From professional pilot, simracer, enthusiast or even beginner, ProSimu will have THE solution for you! With PROSIMU PRS ACTUATORS, demand the best, and...</div> <div class=\"contentRow-minor contentRow-minor--hideLinks\"> <span class=\"js-unfurl-favicon\"> <img src=\"/proxy.php?image=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605%2F..%2Fwafx_res%2FImages%2F0-180-favicon.png&amp;hash=ed95dd3982dc2bfd0af8d410ecd23a78&amp;return_error=1\" alt=\"www.prosimu.com\" class=\"bbCodeBlockUnfurl-icon\" data-onerror=\"hide-parent\"/> </span> www.prosimu.com </div> </div> </div> </div> </div> <div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div> </div> </blockquote>Oh nice, I didn&#039;t see that before!",
+      "text": "<blockquote data-attributes=\"member: 1185706\" data-quote=\"Jajohnsen\" data-source=\"post: 3361803\" class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"> <div class=\"bbCodeBlock-title\"> <a href=\"/goto/post?id=3361803\" class=\"bbCodeBlock-sourceJump\" rel=\"nofollow\" data-xf-click=\"attribution\" data-content-selector=\"#post-3361803\">Jajohnsen said:</a> </div> <div class=\"bbCodeBlock-content\"> <div class=\"bbCodeBlock-expandContent js-expandContent \"> They have an upgrade listet in their shop.<br /> <br /> <div class=\"bbCodeBlock bbCodeBlock--unfurl is-pending is-recrawl js-unfurl fauxBlockLink\" data-unfurl=\"true\" data-result-id=\"31199\" data-url=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" data-host=\"www.prosimu.com\" data-pending=\"true\"> <div class=\"contentRow\"> <div class=\"contentRow-figure contentRow-figure--fixedSmall js-unfurl-figure\"> <span class=\"fa-2x u-muted\"> <i class=\"fa--xf fal fa-spinner fa-pulse\" aria-hidden=\"true\"></i> </span> </div> <div class=\"contentRow-main\"> <h3 class=\"contentRow-header js-unfurl-title\"> <a href=\"https://www.prosimu.com/shop.html?store-page=Upgrade-P5MP-to-P7MP-p278022605\" class=\"link link--external fauxBlockLink-blockLink\" target=\"_blank\" rel=\"nofollow ugc noopener\" data-proxy-href=\"/proxy.php?link=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605&amp;hash=e4c2fafd4099ce7d2c57c5aa1fa84c41\"> PROSIMU The Motion Racing Simulator Specialist </a> </h3> <div class=\"contentRow-snippet js-unfurl-desc\">Located in the Le Mans track, ProSimu is a creator and manufacturer of motion simulators and actuators for all types of users since 2009. From professional pilot, simracer, enthusiast or even beginner, ProSimu will have THE solution for you! With PROSIMU PRS ACTUATORS, demand the best, and...</div> <div class=\"contentRow-minor contentRow-minor--hideLinks\"> <span class=\"js-unfurl-favicon\"> <img src=\"/proxy.php?image=https%3A%2F%2Fwww.prosimu.com%2Fshop.html%3Fstore-page%3DUpgrade-P5MP-to-P7MP-p278022605%2F..%2Fwafx_res%2FImages%2F0-180-favicon.png&amp;hash=ed95dd3982dc2bfd0af8d410ecd23a78&amp;return_error=1\" alt=\"www.prosimu.com\" class=\"bbCodeBlockUnfurl-icon\" data-onerror=\"hide-parent\"/> </span> www.prosimu.com </div> </div> </div> </div> </div> <div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div> </div> </blockquote>Oh nice, I didn&#039;t see that before!",
       "attachments": [],
       "signature": "",
       "reactions": []
@@ -1308,7 +1357,14 @@
       "text": "<blockquote data-attributes=\"member: 220956\" data-quote=\"ProSimu\" data-source=\"post: 3710872\" class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"> <div class=\"bbCodeBlock-title\"> <a href=\"/goto/post?id=3710872\" class=\"bbCodeBlock-sourceJump\" rel=\"nofollow\" data-xf-click=\"attribution\" data-content-selector=\"#post-3710872\">ProSimu said:</a> </div> <div class=\"bbCodeBlock-content\"> <div class=\"bbCodeBlock-expandContent js-expandContent \"> Hi,<br /> <br /> It was an old option that we just remove.<br /> <br /> In your case, you will need 2 USB port.<br /> <br /> Thanks<br /> <br /> Patrick </div> <div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div> </div> </blockquote>Merci pour ces infos <br /> <br /> Order placed, my ass can&#039;t wait to enjoy the heave <img class=\"smilie smilie--emoji\" loading=\"lazy\" alt=\"↕️\" title=\"Up-down arrow :arrow_up_down:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/8.0/png/unicode/64/2195.png\" data-shortname=\":arrow_up_down:\" />",
       "attachments": [],
       "signature": "",
-      "reactions": []
+      "reactions": [
+        {
+          "user_id": 220956,
+          "user": "ProSimu",
+          "date": "2025-04-15T00:27:14+0100",
+          "reaction": "Like"
+        }
+      ]
     },
     {
       "user": "Tomilein11",
@@ -1325,6 +1381,28 @@
       "id": 3781646,
       "date": "2024-07-10T13:38:27+0100",
       "text": "Is it possible to test the 5m Prosimu somwhere in germany?",
+      "attachments": [],
+      "signature": "",
+      "reactions": []
+    },
+    {
+      "user": "ProSimu",
+      "user_link": "https://www.overtake.gg/members/prosimu.220956/",
+      "user_id": 220956,
+      "user_avatar": "https://overtake-data.community.forum/avatars/m/220/220956.jpg?1562003980",
+      "user_title": "",
+      "user_banners": [
+        "Authorised Vendor",
+        "Premium"
+      ],
+      "user_extras": {
+        "stars": [],
+        "bar": [],
+        "pairs": []
+      },
+      "id": 3839095,
+      "date": "2025-04-15T00:26:58+0100",
+      "text": "<blockquote data-attributes=\"member: 4342924\" data-quote=\"Tomilein11\" data-source=\"post: 3781646\" class=\"bbCodeBlock bbCodeBlock--expandable bbCodeBlock--quote js-expandWatch\"> <div class=\"bbCodeBlock-title\"> <a href=\"/goto/post?id=3781646\" class=\"bbCodeBlock-sourceJump\" rel=\"nofollow\" data-xf-click=\"attribution\" data-content-selector=\"#post-3781646\">Tomilein11 said:</a> </div> <div class=\"bbCodeBlock-content\"> <div class=\"bbCodeBlock-expandContent js-expandContent \"> Is it possible to test the 5m Prosimu somwhere in germany? </div> <div class=\"bbCodeBlock-expandLink js-expandLink\"><a role=\"button\" tabindex=\"0\">Click to expand...</a></div> </div> </blockquote>We was a little bit busy <img class=\"smilie smilie--emoji\" loading=\"lazy\" alt=\"😁\" title=\"Beaming face with smiling eyes :grin:\" src=\"https://cdn.jsdelivr.net/joypixels/assets/8.0/png/unicode/64/1f601.png\" data-shortname=\":grin:\" />- So you have 5 Stripes at Stuttgart <a href=\"https://5stripes.de/vr-lounge-stuttgart/vr-experience/\" target=\"_blank\" class=\"link link--external\" data-proxy-href=\"/proxy.php?link=https%3A%2F%2F5stripes.de%2Fvr-lounge-stuttgart%2Fvr-experience%2F&amp;hash=ac2a039c4b8c539312f0069feba67f18\" rel=\"nofollow ugc noopener\">https://5stripes.de/vr-lounge-stuttgart/vr-experience/</a><br /> <br /> We are also in Le Mans (France) and Ottawa (Canada) where you could test all our motion simulator/training simulator from 2 to 8 actuators : quality, performance and service !",
       "attachments": [],
       "signature": "",
       "reactions": []

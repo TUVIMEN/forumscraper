@@ -4,12 +4,12 @@
   "categories": [
     {
       "name": "",
-      "link": null,
+      "link": "",
       "description": "",
       "forums": [
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "nucastle soundcloud group player",
           "link": "https://www.nucastle.co.uk/pages/nucastle-soundcloud-player/",
           "description": "",
@@ -19,9 +19,9 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         }
@@ -42,7 +42,7 @@
       "date": "Apr 6, 2011",
       "lastpage": 6,
       "replies": 119,
-      "views": 40358,
+      "views": 45481,
       "lastpost": {
         "user": "Willa",
         "user_link": "https://www.nucastle.co.uk/members/willa.1680/",
@@ -62,7 +62,7 @@
       "date": "Jun 11, 2012",
       "lastpage": 0,
       "replies": 0,
-      "views": 3233,
+      "views": 3651,
       "lastpost": {
         "user": "UMT",
         "user_link": "https://www.nucastle.co.uk/members/umt.2424/",
@@ -87,7 +87,7 @@
       "views": 0,
       "lastpost": {
         "user": "",
-        "user_link": null,
+        "user_link": "",
         "date": ""
       }
     },
@@ -104,7 +104,7 @@
       "date": "Dec 17, 2007",
       "lastpage": 0,
       "replies": 10,
-      "views": 7295,
+      "views": 7671,
       "lastpost": {
         "user": "Granty",
         "user_link": "https://www.nucastle.co.uk/members/granty.1360/",
@@ -124,11 +124,47 @@
       "date": "Aug 27, 2009",
       "lastpage": 0,
       "replies": 8,
-      "views": 5220,
+      "views": 5799,
       "lastpost": {
         "user": "Damocles",
         "user_link": "https://www.nucastle.co.uk/members/damocles.194/",
         "date": "Aug 28, 2009 at 3:05 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/1/1821.jpg?1294035132",
+      "icons": [],
+      "label": "Release",
+      "title": "Digital Stride - Magical Adventure [SpaceWarp Recs] Out Now!",
+      "link": "https://www.nucastle.co.uk/threads/digital-stride-magical-adventure-spacewarp-recs-out-now.76868/",
+      "user": "Psylicious",
+      "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
+      "date": "May 22, 2025",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 210,
+      "lastpost": {
+        "user": "Psylicious",
+        "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
+        "date": "May 22, 2025 at 12:15 PM"
+      }
+    },
+    {
+      "avatar": "data/avatars/s/1/1821.jpg?1294035132",
+      "icons": [],
+      "label": "Release",
+      "title": "GIREI compiled by RIGEL [SpaceWarp Recs] Out Now!",
+      "link": "https://www.nucastle.co.uk/threads/girei-compiled-by-rigel-spacewarp-recs-out-now.76865/",
+      "user": "Psylicious",
+      "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
+      "date": "Mar 15, 2025",
+      "lastpage": 0,
+      "replies": 0,
+      "views": 653,
+      "lastpost": {
+        "user": "Psylicious",
+        "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
+        "date": "Mar 15, 2025 at 3:40 PM"
       }
     },
     {
@@ -142,7 +178,7 @@
       "date": "Dec 28, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 39,
+      "views": 603,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -160,7 +196,7 @@
       "date": "Nov 2, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 311,
+      "views": 658,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -178,7 +214,7 @@
       "date": "Oct 13, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 234,
+      "views": 646,
       "lastpost": {
         "user": "Alan Ruddick",
         "user_link": "https://www.nucastle.co.uk/members/alan-ruddick.2691/",
@@ -196,7 +232,7 @@
       "date": "May 23, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 1054,
+      "views": 1443,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -214,7 +250,7 @@
       "date": "May 13, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 451,
+      "views": 811,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -232,7 +268,7 @@
       "date": "May 12, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 385,
+      "views": 700,
       "lastpost": {
         "user": "Cliffy Burrows",
         "user_link": "https://www.nucastle.co.uk/members/cliffy-burrows.1391/",
@@ -250,7 +286,7 @@
       "date": "Mar 2, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 1410,
+      "views": 1864,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -268,7 +304,7 @@
       "date": "Jan 18, 2024",
       "lastpage": 0,
       "replies": 0,
-      "views": 706,
+      "views": 1076,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -286,7 +322,7 @@
       "date": "Dec 7, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 719,
+      "views": 1068,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -304,7 +340,7 @@
       "date": "Nov 15, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 793,
+      "views": 1207,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -322,7 +358,7 @@
       "date": "Aug 22, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 1756,
+      "views": 2180,
       "lastpost": {
         "user": "Cliffy Burrows",
         "user_link": "https://www.nucastle.co.uk/members/cliffy-burrows.1391/",
@@ -340,7 +376,7 @@
       "date": "Jun 8, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 779,
+      "views": 1173,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -358,7 +394,7 @@
       "date": "May 13, 2023",
       "lastpage": 0,
       "replies": 1,
-      "views": 727,
+      "views": 1117,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -376,7 +412,7 @@
       "date": "May 2, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 642,
+      "views": 1045,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -394,7 +430,7 @@
       "date": "Feb 24, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 840,
+      "views": 1220,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -412,7 +448,7 @@
       "date": "Feb 19, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 698,
+      "views": 1040,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -430,7 +466,7 @@
       "date": "Feb 16, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 647,
+      "views": 975,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -448,7 +484,7 @@
       "date": "Jan 28, 2023",
       "lastpage": 0,
       "replies": 0,
-      "views": 820,
+      "views": 1141,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -466,7 +502,7 @@
       "date": "Dec 19, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 753,
+      "views": 1112,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -484,7 +520,7 @@
       "date": "Nov 28, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 814,
+      "views": 1229,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -502,7 +538,7 @@
       "date": "Nov 28, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 811,
+      "views": 1165,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -520,7 +556,7 @@
       "date": "Oct 2, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 1064,
+      "views": 1449,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -538,7 +574,7 @@
       "date": "Jul 14, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 977,
+      "views": 1293,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -556,7 +592,7 @@
       "date": "Jul 5, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 924,
+      "views": 1325,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -574,7 +610,7 @@
       "date": "Apr 11, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 1089,
+      "views": 1480,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -592,7 +628,7 @@
       "date": "Apr 11, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 863,
+      "views": 1204,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -610,7 +646,7 @@
       "date": "Feb 26, 2022",
       "lastpage": 0,
       "replies": 0,
-      "views": 1097,
+      "views": 1398,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
@@ -628,47 +664,11 @@
       "date": "Dec 4, 2021",
       "lastpage": 0,
       "replies": 0,
-      "views": 1190,
+      "views": 1542,
       "lastpost": {
         "user": "Psylicious",
         "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
         "date": "Dec 4, 2021 at 5:15 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/1/1821.jpg?1294035132",
-      "icons": [],
-      "label": "Release",
-      "title": "Be Psychedelic – Polish Scene Vol 2",
-      "link": "https://www.nucastle.co.uk/threads/be-psychedelic-%E2%80%93-polish-scene-vol-2.76830/",
-      "user": "Psylicious",
-      "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
-      "date": "Dec 4, 2021",
-      "lastpage": 0,
-      "replies": 0,
-      "views": 938,
-      "lastpost": {
-        "user": "Psylicious",
-        "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
-        "date": "Dec 4, 2021 at 5:14 PM"
-      }
-    },
-    {
-      "avatar": "data/avatars/s/1/1821.jpg?1294035132",
-      "icons": [],
-      "label": "Release",
-      "title": "Out Now! Robert Vadney - Nightmare",
-      "link": "https://www.nucastle.co.uk/threads/out-now-robert-vadney-nightmare.76829/",
-      "user": "Psylicious",
-      "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
-      "date": "Nov 5, 2021",
-      "lastpage": 0,
-      "replies": 0,
-      "views": 956,
-      "lastpost": {
-        "user": "Psylicious",
-        "user_link": "https://www.nucastle.co.uk/members/psylicious.1821/",
-        "date": "Nov 5, 2021 at 11:46 AM"
       }
     }
   ]

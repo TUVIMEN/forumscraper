@@ -14,6 +14,7 @@ fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/478369-invi
 fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/476881-ic5-allow-use-of-fontawesome-kit/'
 fsc -d examples/invision 'https://linustechtips.com/topic/1197477-policygenius-thoughts/'
 fsc -d examples/invision 'https://processwire.com/talk/topic/3553-handling-categories-on-a-product-catalogue/'
+fsc -d examples/invision 'https://invisioncommunity.com/forums/topic/478170-invision-community-5-the-all-new-editor/'
 
 fscb -d examples/invision 'https://invisioncommunity.com/forums/forum/497-technical-problems/'
 fscb -d examples/invision 'https://linustechtips.com/forum/13-tech-news/'

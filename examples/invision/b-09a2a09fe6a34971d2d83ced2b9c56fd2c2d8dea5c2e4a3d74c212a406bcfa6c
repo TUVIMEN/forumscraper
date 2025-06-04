@@ -8,7 +8,7 @@
       "forums": [
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Informacje i ogłoszenia",
           "link": "https://forum.invisionize.pl/forum/3-informacje-i-og%C5%82oszenia/",
           "description": "Nowości z IPS na temat IPB/IPS4/IC5 oraz ogłoszenia dot. forum.",
@@ -22,16 +22,16 @@
           ],
           "lastpost": {
             "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46c62%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EN%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-            "title": "[INVISION COMMUNITY INSIDER] CDN and Firewall Transition",
-            "link": "https://forum.invisionize.pl/topic/55677-invision-community-insider-cdn-and-firewall-transition/",
+            "title": "[Wydanie] 4.7.21 Beta 1",
+            "link": "https://forum.invisionize.pl/topic/55752-wydanie-4721-beta-1/",
             "user": "NewsBot",
             "user_link": "https://forum.invisionize.pl/profile/81-newsbot/",
-            "date": "2024-12-15T18:14:07Z"
+            "date": "2025-05-20T15:35:35Z"
           }
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Propozycje, uwagi, opinie",
           "link": "https://forum.invisionize.pl/forum/4-propozycje-uwagi-opinie/",
           "description": "Propozycje zmian, błędów, uwagi i opinie dotyczące naszego forum należy pisać w tym dziale.",
@@ -55,7 +55,7 @@
       "forums": [
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Rozmowy o IPS Community",
           "link": "https://forum.invisionize.pl/forum/88-rozmowy-o-ips-community/",
           "description": "Dział przeznaczony na ogólne rozmowy związane z produktami IPSu. Licencje, aktualizacje itd. Dział ten nie służy do zadawania pytań odnośnie problemów oraz innych aspektów związanych z IP.Board/IPS4/IC5. Jeśli Twój temat lub post jest związany z jakimś działem tematycznym to należy go tam umieścić.",
@@ -64,20 +64,20 @@
           "childboards": [],
           "lastpost": {
             "avatar": "https://forum.invisionize.pl/uploads/monthly_2017_10/_intermedia_dark.thumb.png.df4fefcb223086afdf4482aa8168ef43.png",
-            "title": "Zakup licencji i odnowienia",
-            "link": "https://forum.invisionize.pl/topic/55685-zakup-licencji-i-odnowienia/",
+            "title": "Pytanie o IPS dla zupełnie nowej społeczności",
+            "link": "https://forum.invisionize.pl/topic/55747-pytanie-o-ips-dla-zupe%C5%82nie-nowej-spo%C5%82eczno%C5%9Bci/",
             "user": "DawPi",
             "user_link": "https://forum.invisionize.pl/profile/1-dawpi/",
-            "date": "2024-12-27T18:35:09Z"
+            "date": "2025-05-16T08:50:19Z"
           }
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "IC5",
           "link": "https://forum.invisionize.pl/forum/252-ic5/",
           "description": "",
-          "posts": 29,
+          "posts": 168,
           "followers": 0,
           "childboards": [
             {
@@ -98,17 +98,17 @@
             }
           ],
           "lastpost": {
-            "avatar": "https://forum.invisionize.pl/uploads/monthly_2017_10/_intermedia_dark.thumb.png.df4fefcb223086afdf4482aa8168ef43.png",
-            "title": "Jak wylistować nazwy tematów, autora i linki całego działu na forum?",
-            "link": "https://forum.invisionize.pl/topic/55688-jak-wylistowa%C4%87-nazwy-temat%C3%B3w-autora-i-linki-ca%C5%82ego-dzia%C5%82u-na-forum/",
-            "user": "DawPi",
-            "user_link": "https://forum.invisionize.pl/profile/1-dawpi/",
-            "date": "2025-01-02T16:21:07Z"
+            "avatar": "https://forum.invisionize.pl/uploads/monthly_2024_11/cat.thumb.png.f6513ce40a1cebc302ccb8f1f6386862.png",
+            "title": "Toggle Sidebar Widgets",
+            "link": "https://forum.invisionize.pl/topic/55756-toggle-sidebar-widgets/",
+            "user": "Split",
+            "user_link": "https://forum.invisionize.pl/profile/14891-split/",
+            "date": "2025-06-03T20:01:59Z"
           }
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "IPS4",
           "link": "https://forum.invisionize.pl/forum/215-ips4/",
           "description": "",
@@ -137,17 +137,17 @@
             }
           ],
           "lastpost": {
-            "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c4bc62%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-            "title": "Urodziny w kalendarzu",
-            "link": "https://forum.invisionize.pl/topic/55690-urodziny-w-kalendarzu/",
-            "user": "Misiek1979",
-            "user_link": "https://forum.invisionize.pl/profile/34232-misiek1979/",
-            "date": "2025-01-06T13:44:15Z"
+            "avatar": "https://forum.invisionize.pl/uploads/monthly_2017_10/_intermedia_dark.thumb.png.df4fefcb223086afdf4482aa8168ef43.png",
+            "title": "Losowe zdjecie z download na stronie głównej.",
+            "link": "https://forum.invisionize.pl/topic/55755-losowe-zdjecie-z-download-na-stronie-g%C5%82%C3%B3wnej/",
+            "user": "DawPi",
+            "user_link": "https://forum.invisionize.pl/profile/1-dawpi/",
+            "date": "2025-06-03T15:14:54Z"
           }
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Programowanie / tworzenie styli",
           "link": "https://forum.invisionize.pl/forum/45-programowanie-tworzenie-styli/",
           "description": "Dział dla osób, którym nie wystarczają podstawowe funkcje IPS4/IC5 i chcą dodać swoje lub po prostu poznać skrypt od środka oraz dla osób mających pytania/problemy związane z integracją bądź konwersją. Dział przeznaczony również dla osób tworzących style do IPS4/IC5.",
@@ -160,17 +160,17 @@
             }
           ],
           "lastpost": {
-            "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%236462c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EI%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-            "title": "Insert dla kilku ID",
-            "link": "https://forum.invisionize.pl/topic/55675-insert-dla-kilku-id/",
-            "user": "inzonek",
-            "user_link": "https://forum.invisionize.pl/profile/28018-inzonek/",
-            "date": "2024-12-13T18:41:01Z"
+            "avatar": "https://forum.invisionize.pl/uploads/monthly_2017_10/_intermedia_dark.thumb.png.df4fefcb223086afdf4482aa8168ef43.png",
+            "title": "Logo z obrazem w tle",
+            "link": "https://forum.invisionize.pl/topic/55697-logo-z-obrazem-w-tle/",
+            "user": "DawPi",
+            "user_link": "https://forum.invisionize.pl/profile/1-dawpi/",
+            "date": "2025-01-14T17:26:20Z"
           }
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Spolszczenia",
           "link": "https://forum.invisionize.pl/forum/31-spolszczenia/",
           "description": "Wszelkie spolszczenia forum IP.Board/IPS4/IC5, dodatków do pakietu oraz modyfikacji.",
@@ -184,16 +184,16 @@
           ],
           "lastpost": {
             "avatar": "https://forum.invisionize.pl/uploads/monthly_2017_10/_intermedia_dark.thumb.png.df4fefcb223086afdf4482aa8168ef43.png",
-            "title": "Frazy podczas przenoszenia członków do innej grupy",
-            "link": "https://forum.invisionize.pl/topic/55658-frazy-podczas-przenoszenia-cz%C5%82onk%C3%B3w-do-innej-grupy/",
+            "title": "Błąd wyświetlania reakcji w profilu z powodu tłumaczenia",
+            "link": "https://forum.invisionize.pl/topic/55727-b%C5%82%C4%85d-wy%C5%9Bwietlania-reakcji-w-profilu-z-powodu-t%C5%82umaczenia/",
             "user": "DawPi",
             "user_link": "https://forum.invisionize.pl/profile/1-dawpi/",
-            "date": "2024-11-18T15:21:59Z"
+            "date": "2025-03-20T13:33:04Z"
           }
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Poprzednie wersje",
           "link": "https://forum.invisionize.pl/forum/204-poprzednie-wersje/",
           "description": "Dział poświęcony poprzednim wersjom IP.Board.",
@@ -232,7 +232,7 @@
         },
         {
           "status": "redirect",
-          "icon": null,
+          "icon": "",
           "title": "System Indywidualnej Pomocy",
           "link": "https://forum.invisionize.pl/forum/42-system-indywidualnej-pomocy/",
           "description": "Skorzystaj z dedykowanej pomocy. Cenisz profesjonalizm i jakość wykonania? Skorzystaj z naszej pomocy.",
@@ -240,11 +240,11 @@
           "followers": 0,
           "childboards": [],
           "lastpost": {
-            "avatar": null,
+            "avatar": "",
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         }
@@ -256,7 +256,7 @@
       "forums": [
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Giełda",
           "link": "https://forum.invisionize.pl/forum/15-gie%C5%82da/",
           "description": "Chcesz coś zamówić, masz problem z zainstalowaniem modyfikacji, chcesz coś sprzedać, kupić, zlecić napisanie modyfikacji lub indywidualnego szablonu? Napisz ogłoszenie w tym dziale.",
@@ -264,17 +264,17 @@
           "followers": 0,
           "childboards": [],
           "lastpost": {
-            "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%236272c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
-            "title": "Sprzedam licencję IPB",
-            "link": "https://forum.invisionize.pl/topic/55678-sprzedam-licencj%C4%99-ipb/",
-            "user": "mateuszwl2",
-            "user_link": "https://forum.invisionize.pl/profile/35009-mateuszwl2/",
-            "date": "2024-12-16T07:09:24Z"
+            "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c4a1%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ED%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
+            "title": "Sprzedam Blog: TechDrop.pl",
+            "link": "https://forum.invisionize.pl/topic/55521-sprzedam-blog-techdroppl/",
+            "user": "dj3ryk",
+            "user_link": "https://forum.invisionize.pl/profile/33101-dj3ryk/",
+            "date": "2025-01-13T17:23:11Z"
           }
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Web & Hosting & Grafika",
           "link": "https://forum.invisionize.pl/forum/73-web-hosting-grafika/",
           "description": "Tworzenie stron, html, php, css, js, serwery, plany hostingowe, promocje itd.",
@@ -292,7 +292,7 @@
         },
         {
           "status": "normal",
-          "icon": null,
+          "icon": "",
           "title": "Hyde Park",
           "link": "https://forum.invisionize.pl/forum/16-hyde-park/",
           "description": "Luźne rozmowy, nie związane z forum.",
@@ -305,12 +305,12 @@
             }
           ],
           "lastpost": {
-            "avatar": "https://forum.invisionize.pl/uploads/monthly_2023_04/avek_Easy-Resize.com(1).thumb.jpg.1c88cdc5f571136df223d0d7b2ac01d5.jpg",
-            "title": "Youtube",
-            "link": "https://forum.invisionize.pl/topic/55651-youtube/",
-            "user": "Duke",
-            "user_link": "https://forum.invisionize.pl/profile/1887-duke/",
-            "date": "2024-11-12T18:11:28Z"
+            "avatar": "https://forum.invisionize.pl/uploads/monthly_2017_10/_intermedia_dark.thumb.png.df4fefcb223086afdf4482aa8168ef43.png",
+            "title": "Test Kima",
+            "link": "https://forum.invisionize.pl/topic/39193-test-kima/",
+            "user": "DawPi",
+            "user_link": "https://forum.invisionize.pl/profile/1-dawpi/",
+            "date": "2025-02-27T15:42:11Z"
           }
         }
       ]

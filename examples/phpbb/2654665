@@ -24,7 +24,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -47,7 +47,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">4135</a>"
         },
         {
           "key": "Joined",
@@ -66,7 +66,7 @@
     {
       "postid": 16019809,
       "date": "Tue Jul 02, 2024 11:42 am",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019773&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019773\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=38117a7264d5bbfb93a167d768685f3a\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019773&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019773\" aria-label=\"View quoted post\" data-post-id=\"16019773\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:49 am</span></cite> Normally sessions table is being cleaned in a timely manner by the cron job. So, if it's not happening, then the cron job is probably not running for some reason. </div></blockquote> Ok that makes a lot of sense! Is there a name of the cron job or how to check for the process?<br> Thank you!",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019773&amp;sid=724840411b7e5874067907f11253ec50#p16019773\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=724840411b7e5874067907f11253ec50\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019773&amp;sid=724840411b7e5874067907f11253ec50#p16019773\" aria-label=\"View quoted post\" data-post-id=\"16019773\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:49 am</span></cite> Normally sessions table is being cleaned in a timely manner by the cron job. So, if it's not happening, then the cron job is probably not running for some reason. </div></blockquote> Ok that makes a lot of sense! Is there a name of the cron job or how to check for the process?<br> Thank you!",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -78,7 +78,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -101,7 +101,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -112,7 +112,7 @@
     {
       "postid": 16019842,
       "date": "Tue Jul 02, 2024 2:23 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019773&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019773\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=38117a7264d5bbfb93a167d768685f3a\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019773&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019773\" aria-label=\"View quoted post\" data-post-id=\"16019773\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:49 am</span></cite> Normally sessions table is being cleaned in a timely manner by the cron job. So, if it's not happening, then the cron job is probably not running for some reason. </div></blockquote> Update, I decided to try to have my system (via Cloudpanel) run the cron job instead of phpbb itself by setting the <br> ACP -&gt; Server Settings -&gt; Run periodic tasks from system cron set to \"No:<br> and then adding the \"/forum/bin/bin/phpbbcli.php cron:run\" to a cron job in CloudPanel to run every 5 minutes.<br> <br> Let me know if this doesn't sound like a good idea / or I'm doing something incorrect.<br> Fingers crossed this helps!",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019773&amp;sid=724840411b7e5874067907f11253ec50#p16019773\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=724840411b7e5874067907f11253ec50\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019773&amp;sid=724840411b7e5874067907f11253ec50#p16019773\" aria-label=\"View quoted post\" data-post-id=\"16019773\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:49 am</span></cite> Normally sessions table is being cleaned in a timely manner by the cron job. So, if it's not happening, then the cron job is probably not running for some reason. </div></blockquote> Update, I decided to try to have my system (via Cloudpanel) run the cron job instead of phpbb itself by setting the <br> ACP -&gt; Server Settings -&gt; Run periodic tasks from system cron set to \"No:<br> and then adding the \"/forum/bin/bin/phpbbcli.php cron:run\" to a cron job in CloudPanel to run every 5 minutes.<br> <br> Let me know if this doesn't sound like a good idea / or I'm doing something incorrect.<br> Fingers crossed this helps!",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -124,7 +124,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -147,7 +147,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">4135</a>"
         },
         {
           "key": "Joined",
@@ -166,7 +166,7 @@
     {
       "postid": 16019854,
       "date": "Tue Jul 02, 2024 3:04 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> Run periodic tasks from system cron set to \"No: </div></blockquote> <br> The text directions for that is not clear since it uses off/on for the comment and yes/no for the setting. <br> <br> You need to set it to yes to use system cron, if it's set to no phpBB runs it.<br> <br> One easy way to tell if it's being run is if you have a forum with prune activated.",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> Run periodic tasks from system cron set to \"No: </div></blockquote> <br> The text directions for that is not clear since it uses off/on for the comment and yes/no for the setting. <br> <br> You need to set it to yes to use system cron, if it's set to no phpBB runs it.<br> <br> One easy way to tell if it's being run is if you have a forum with prune activated.",
       "signature": "“Results! Why, man, I have gotten a lot of results! I have found several thousand things that won’t work.”<br> <br> <em class=\"text-italics\">Attributed</em> - Thomas Edison",
       "avatar": "https://www.phpbb.com/community/download/file.php?avatar=156933_1526464247.gif",
       "user": "thecoalman",
@@ -178,7 +178,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">6490</a>"
+          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">6893</a>"
         },
         {
           "key": "Joined",
@@ -197,7 +197,7 @@
     {
       "postid": 16019875,
       "date": "Tue Jul 02, 2024 4:11 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019851&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019851\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=38117a7264d5bbfb93a167d768685f3a\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019851&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019851\" aria-label=\"View quoted post\" data-post-id=\"16019851\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:58 pm</span></cite> Well, if some cron job is erroring in background and therefore is locked for some reason, it will hang anyway so it's unlikely system cron will help.<br> You can try looking into webserver's error log to try finding any cron-related records.<br> <br> Also there was nice extension called Cron Status <a href=\"https://www.phpbb.com/customise/db/extension/cronstatus/\" class=\"postlink\">https://www.phpbb.com/customise/db/exte ... ronstatus/</a> but that validated version is not compatible with phpBB 3.3. There's non-validated development fork made for myself <a href=\"https://github.com/rxu/cronstatus\" class=\"postlink\">here</a> which works with 3.3 but it's not recommended to use such extensions on production.<br> Although the extension lists all cron jobs and indicates locked/problematic ones. </div></blockquote> Thank you for the ideas and sharing the extension!<br> I checked in my nginx error log and didn't see anything cron-related -- just some errors about images on my Wordpress blog that are referenced, but missing.<br> <br> I installed the extension, but upon enabling it, it gave me this error (I could only resolve it by disabling the extension)<br> Note: I put in \"[forumroot] in the place of my full file structure.<br> <br> phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit phpBB.com for support.<br> <br> Exception: The file \"[forumroot]/ext/boardtools/cronstatus/config/services.yml\" does not contain valid YAML: The reserved indicator \"@\" cannot start a plain scalar; you need to quote the scalar at line 5 (near \"- @config\").<br> #0 [forumroot]/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php(117): Symfony\\Component\\DependencyInjection\\Loader\\YamlFileLoader-&gt;loadFile()<br> #1 [forumroot]/phpbb/extension/di/extension_base.php(99): Symfony\\Component\\DependencyInjection\\Loader\\YamlFileLoader-&gt;load()<br> #2 [forumroot]/phpbb/extension/di/extension_base.php(63): phpbb\\extension\\di\\extension_base-&gt;load_services()<br> #3 [forumroot]/vendor/symfony/dependency-injection/Compiler/MergeExtensionConfigurationPass.php(71): phpbb\\extension\\di\\extension_base-&gt;load()<br> #4 [forumroot]/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php(39): Symfony\\Component\\DependencyInjection\\Compiler\\MergeExtensionConfigurationPass-&gt;process()<br> #5 [forumroot]/vendor/symfony/dependency-injection/Compiler/Compiler.php(140): Symfony\\Component\\HttpKernel\\DependencyInjection\\MergeExtensionConfigurationPass-&gt;process()<br> #6 [forumroot]/vendor/symfony/dependency-injection/ContainerBuilder.php(789): Symfony\\Component\\DependencyInjection\\Compiler\\Compiler-&gt;compile()<br> #7 [forumroot]/phpbb/di/container_builder.php(223): Symfony\\Component\\DependencyInjection\\ContainerBuilder-&gt;compile()<br> #8 [forumroot]/common.php(125): phpbb\\di\\container_builder-&gt;get_container()<br> #9 [forumroot]/adm/index.php(23): require('/home/racketboy...')<br> #10 {main}",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019851&amp;sid=724840411b7e5874067907f11253ec50#p16019851\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=724840411b7e5874067907f11253ec50\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019851&amp;sid=724840411b7e5874067907f11253ec50#p16019851\" aria-label=\"View quoted post\" data-post-id=\"16019851\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:58 pm</span></cite> Well, if some cron job is erroring in background and therefore is locked for some reason, it will hang anyway so it's unlikely system cron will help.<br> You can try looking into webserver's error log to try finding any cron-related records.<br> <br> Also there was nice extension called Cron Status <a href=\"https://www.phpbb.com/customise/db/extension/cronstatus/\" class=\"postlink\">https://www.phpbb.com/customise/db/exte ... ronstatus/</a> but that validated version is not compatible with phpBB 3.3. There's non-validated development fork made for myself <a href=\"https://github.com/rxu/cronstatus\" class=\"postlink\">here</a> which works with 3.3 but it's not recommended to use such extensions on production.<br> Although the extension lists all cron jobs and indicates locked/problematic ones. </div></blockquote> Thank you for the ideas and sharing the extension!<br> I checked in my nginx error log and didn't see anything cron-related -- just some errors about images on my Wordpress blog that are referenced, but missing.<br> <br> I installed the extension, but upon enabling it, it gave me this error (I could only resolve it by disabling the extension)<br> Note: I put in \"[forumroot] in the place of my full file structure.<br> <br> phpBB encountered an error building the container due to an installed extension. For this reason, all extensions have been temporarily disabled. Please try purging your forum cache. All extensions will automatically be re-enabled once the container error is resolved. If this error continues, please visit phpBB.com for support.<br> <br> Exception: The file \"[forumroot]/ext/boardtools/cronstatus/config/services.yml\" does not contain valid YAML: The reserved indicator \"@\" cannot start a plain scalar; you need to quote the scalar at line 5 (near \"- @config\").<br> #0 [forumroot]/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php(117): Symfony\\Component\\DependencyInjection\\Loader\\YamlFileLoader-&gt;loadFile()<br> #1 [forumroot]/phpbb/extension/di/extension_base.php(99): Symfony\\Component\\DependencyInjection\\Loader\\YamlFileLoader-&gt;load()<br> #2 [forumroot]/phpbb/extension/di/extension_base.php(63): phpbb\\extension\\di\\extension_base-&gt;load_services()<br> #3 [forumroot]/vendor/symfony/dependency-injection/Compiler/MergeExtensionConfigurationPass.php(71): phpbb\\extension\\di\\extension_base-&gt;load()<br> #4 [forumroot]/vendor/symfony/http-kernel/DependencyInjection/MergeExtensionConfigurationPass.php(39): Symfony\\Component\\DependencyInjection\\Compiler\\MergeExtensionConfigurationPass-&gt;process()<br> #5 [forumroot]/vendor/symfony/dependency-injection/Compiler/Compiler.php(140): Symfony\\Component\\HttpKernel\\DependencyInjection\\MergeExtensionConfigurationPass-&gt;process()<br> #6 [forumroot]/vendor/symfony/dependency-injection/ContainerBuilder.php(789): Symfony\\Component\\DependencyInjection\\Compiler\\Compiler-&gt;compile()<br> #7 [forumroot]/phpbb/di/container_builder.php(223): Symfony\\Component\\DependencyInjection\\ContainerBuilder-&gt;compile()<br> #8 [forumroot]/common.php(125): phpbb\\di\\container_builder-&gt;get_container()<br> #9 [forumroot]/adm/index.php(23): require('/home/racketboy...')<br> #10 {main}",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -209,7 +209,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -220,7 +220,7 @@
     {
       "postid": 16019878,
       "date": "Tue Jul 02, 2024 4:13 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019854&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019854\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=156933&amp;sid=38117a7264d5bbfb93a167d768685f3a\">thecoalman</a> wrote: <a href=\"./viewtopic.php?p=16019854&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019854\" aria-label=\"View quoted post\" data-post-id=\"16019854\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 3:04 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> Run periodic tasks from system cron set to \"No: </div></blockquote> <br> The text directions for that is not clear since it uses off/on for the comment and yes/no for the setting. <br> <br> You need to set it to yes to use system cron, if it's set to no phpBB runs it.<br> <br> One easy way to tell if it's being run is if you have a forum with prune activated. </div></blockquote> Yes, it is rather unclear -- in fact, I actually mis-typed my status -- I have it set to \"Yes\" in an attempt to have CloudPanel schedule the Cron task.<br> Thanks for clarifying/helping me clarify.<br> <br> Side note: I'm not sure what you're referring to about having \"prune activated\".",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019854&amp;sid=724840411b7e5874067907f11253ec50#p16019854\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=156933&amp;sid=724840411b7e5874067907f11253ec50\">thecoalman</a> wrote: <a href=\"./viewtopic.php?p=16019854&amp;sid=724840411b7e5874067907f11253ec50#p16019854\" aria-label=\"View quoted post\" data-post-id=\"16019854\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 3:04 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> Run periodic tasks from system cron set to \"No: </div></blockquote> <br> The text directions for that is not clear since it uses off/on for the comment and yes/no for the setting. <br> <br> You need to set it to yes to use system cron, if it's set to no phpBB runs it.<br> <br> One easy way to tell if it's being run is if you have a forum with prune activated. </div></blockquote> Yes, it is rather unclear -- in fact, I actually mis-typed my status -- I have it set to \"Yes\" in an attempt to have CloudPanel schedule the Cron task.<br> Thanks for clarifying/helping me clarify.<br> <br> Side note: I'm not sure what you're referring to about having \"prune activated\".",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -232,7 +232,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -243,7 +243,7 @@
     {
       "postid": 16019881,
       "date": "Tue Jul 02, 2024 4:20 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> <br> and then adding the \"/forum/bin/bin/phpbbcli.php cron:run\" to a cron job in CloudPanel to run every 5 minutes.<br> </div></blockquote> One other thing the command should look something like this, you'll need to edit paths. <br> <div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">/usr/local/bin/php /full/server/path/to/forum/bin/phpbbcli.php cron:run </code></pre></div> For time being just set it to no and let phpBB handle it until you get things sorted. <br> <br> <blockquote class=\"uncited\"><div>Side note: I'm not sure what you're referring to about having \"prune activated\".</div></blockquote> One of the settings for forums is auto prune where it will prune old topics. For example most forums have a private trash forum, you can set it prune old topics after 365 days or whatever amount of days you want. Pruning is activated by the cron task. <br> <br> <blockquote class=\"uncited\"><div>I installed the extension, but upon enabling it, it gave me this error</div></blockquote> Support for extensions is given in the extensions discussion area, start a topic there for that issue.",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> <br> and then adding the \"/forum/bin/bin/phpbbcli.php cron:run\" to a cron job in CloudPanel to run every 5 minutes.<br> </div></blockquote> One other thing the command should look something like this, you'll need to edit paths. <br> <div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">/usr/local/bin/php /full/server/path/to/forum/bin/phpbbcli.php cron:run </code></pre></div> For time being just set it to no and let phpBB handle it until you get things sorted. <br> <br> <blockquote class=\"uncited\"><div>Side note: I'm not sure what you're referring to about having \"prune activated\".</div></blockquote> One of the settings for forums is auto prune where it will prune old topics. For example most forums have a private trash forum, you can set it prune old topics after 365 days or whatever amount of days you want. Pruning is activated by the cron task. <br> <br> <blockquote class=\"uncited\"><div>I installed the extension, but upon enabling it, it gave me this error</div></blockquote> Support for extensions is given in the extensions discussion area, start a topic there for that issue.",
       "signature": "“Results! Why, man, I have gotten a lot of results! I have found several thousand things that won’t work.”<br> <br> <em class=\"text-italics\">Attributed</em> - Thomas Edison",
       "avatar": "https://www.phpbb.com/community/download/file.php?avatar=156933_1526464247.gif",
       "user": "thecoalman",
@@ -255,7 +255,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">6490</a>"
+          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">6893</a>"
         },
         {
           "key": "Joined",
@@ -274,7 +274,7 @@
     {
       "postid": 16019884,
       "date": "Tue Jul 02, 2024 4:25 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019881&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019881\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=156933&amp;sid=38117a7264d5bbfb93a167d768685f3a\">thecoalman</a> wrote: <a href=\"./viewtopic.php?p=16019881&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019881\" aria-label=\"View quoted post\" data-post-id=\"16019881\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:20 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> <br> and then adding the \"/forum/bin/bin/phpbbcli.php cron:run\" to a cron job in CloudPanel to run every 5 minutes.<br> </div></blockquote> One other thing the command should look something like this, you'll need to edit paths. <br> <div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">/usr/local/bin/php /full/server/path/to/forum/bin/phpbbcli.php cron:run </code></pre></div> For time being just set it to no and let phpBB handle it until you get things sorted. </div></blockquote> Well, I'm worried the cron isn't getting called by phpbb properly based on this comment on one of my other bug threads...<br> <a href=\"https://www.phpbb.com/community/viewtopic.php?p=16010872#p16010872\" class=\"postlink\">viewtopic.php?p=16010872#p16010872</a><br> <br> But, yeah, I actually have a longer path in the setup -- I should have noted that -- thanks!",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019881&amp;sid=724840411b7e5874067907f11253ec50#p16019881\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=156933&amp;sid=724840411b7e5874067907f11253ec50\">thecoalman</a> wrote: <a href=\"./viewtopic.php?p=16019881&amp;sid=724840411b7e5874067907f11253ec50#p16019881\" aria-label=\"View quoted post\" data-post-id=\"16019881\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:20 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019842&amp;sid=724840411b7e5874067907f11253ec50#p16019842\" aria-label=\"View quoted post\" data-post-id=\"16019842\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 2:23 pm</span></cite> <br> and then adding the \"/forum/bin/bin/phpbbcli.php cron:run\" to a cron job in CloudPanel to run every 5 minutes.<br> </div></blockquote> One other thing the command should look something like this, you'll need to edit paths. <br> <div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">/usr/local/bin/php /full/server/path/to/forum/bin/phpbbcli.php cron:run </code></pre></div> For time being just set it to no and let phpBB handle it until you get things sorted. </div></blockquote> Well, I'm worried the cron isn't getting called by phpbb properly based on this comment on one of my other bug threads...<br> <a href=\"https://www.phpbb.com/community/viewtopic.php?p=16010872#p16010872\" class=\"postlink\">viewtopic.php?p=16010872#p16010872</a><br> <br> But, yeah, I actually have a longer path in the setup -- I should have noted that -- thanks!",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -286,7 +286,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -297,7 +297,7 @@
     {
       "postid": 16019887,
       "date": "Tue Jul 02, 2024 4:26 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> nginx error log </div></blockquote> It should be rather PHP error log.<br> <blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> I installed the extension, but upon enabling it, it gave me this error (I could only resolve it by disabling the extension) </div></blockquote> Yeah, as I said above it's incompatible with phpBB 3.3. Just the non-validated fork is.",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> nginx error log </div></blockquote> It should be rather PHP error log.<br> <blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> I installed the extension, but upon enabling it, it gave me this error (I could only resolve it by disabling the extension) </div></blockquote> Yeah, as I said above it's incompatible with phpBB 3.3. Just the non-validated fork is.",
       "signature": "",
       "avatar": "",
       "user": "rxu",
@@ -309,7 +309,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">4135</a>"
         },
         {
           "key": "Joined",
@@ -328,7 +328,7 @@
     {
       "postid": 16019893,
       "date": "Tue Jul 02, 2024 4:43 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019887&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019887\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=38117a7264d5bbfb93a167d768685f3a\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019887&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019887\" aria-label=\"View quoted post\" data-post-id=\"16019887\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:26 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> nginx error log </div></blockquote> It should be rather PHP error log.<br> <blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> I installed the extension, but upon enabling it, it gave me this error (I could only resolve it by disabling the extension) </div></blockquote> Yeah, as I said above it's incompatible with phpBB 3.3. Just the non-validated fork is. </div></blockquote> <br> Ok -- the only non-Wordpress error I had in the PHP error log was one for that extension issue above.<br> <br> And, I should have specified, it was indeed the non-validated fork that I tried.",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019887&amp;sid=724840411b7e5874067907f11253ec50#p16019887\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=724840411b7e5874067907f11253ec50\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019887&amp;sid=724840411b7e5874067907f11253ec50#p16019887\" aria-label=\"View quoted post\" data-post-id=\"16019887\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:26 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> nginx error log </div></blockquote> It should be rather PHP error log.<br> <blockquote cite=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019875&amp;sid=724840411b7e5874067907f11253ec50#p16019875\" aria-label=\"View quoted post\" data-post-id=\"16019875\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:11 pm</span></cite> I installed the extension, but upon enabling it, it gave me this error (I could only resolve it by disabling the extension) </div></blockquote> Yeah, as I said above it's incompatible with phpBB 3.3. Just the non-validated fork is. </div></blockquote> <br> Ok -- the only non-Wordpress error I had in the PHP error log was one for that extension issue above.<br> <br> And, I should have specified, it was indeed the non-validated fork that I tried.",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -340,7 +340,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -351,7 +351,7 @@
     {
       "postid": 16019899,
       "date": "Tue Jul 02, 2024 4:52 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019893&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019893\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019893&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019893\" aria-label=\"View quoted post\" data-post-id=\"16019893\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:43 pm</span></cite> it was indeed the non-validated fork that I tried. </div></blockquote> Sorry, that was wrong branch. The correct one is <a href=\"https://github.com/rxu/cronstatus/archive/refs/heads/3.3-compat.zip\" class=\"postlink\">here</a>.",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019893&amp;sid=724840411b7e5874067907f11253ec50#p16019893\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019893&amp;sid=724840411b7e5874067907f11253ec50#p16019893\" aria-label=\"View quoted post\" data-post-id=\"16019893\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:43 pm</span></cite> it was indeed the non-validated fork that I tried. </div></blockquote> Sorry, that was wrong branch. The correct one is <a href=\"https://github.com/rxu/cronstatus/archive/refs/heads/3.3-compat.zip\" class=\"postlink\">here</a>.",
       "signature": "",
       "avatar": "",
       "user": "rxu",
@@ -363,7 +363,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">4135</a>"
         },
         {
           "key": "Joined",
@@ -382,7 +382,7 @@
     {
       "postid": 16019905,
       "date": "Tue Jul 02, 2024 5:03 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019899&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019899\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=38117a7264d5bbfb93a167d768685f3a\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019899&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019899\" aria-label=\"View quoted post\" data-post-id=\"16019899\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:52 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019893&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019893\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=38117a7264d5bbfb93a167d768685f3a\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019893&amp;sid=38117a7264d5bbfb93a167d768685f3a#p16019893\" aria-label=\"View quoted post\" data-post-id=\"16019893\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:43 pm</span></cite> it was indeed the non-validated fork that I tried. </div></blockquote> Sorry, that was wrong branch. The correct one is <a href=\"https://github.com/rxu/cronstatus/archive/refs/heads/3.3-compat.zip\" class=\"postlink\">here</a>. </div></blockquote> Oh thank you! That installation went much better!<br> But I assume I need to have the other setting turned to \"No\" to have phpbb manage the cron instead of CloudPanel for the Cron Status message to show up?<br> I don't currently have a Cron Status section on my ACP Maintenance tab...",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019899&amp;sid=724840411b7e5874067907f11253ec50#p16019899\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389&amp;sid=724840411b7e5874067907f11253ec50\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019899&amp;sid=724840411b7e5874067907f11253ec50#p16019899\" aria-label=\"View quoted post\" data-post-id=\"16019899\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:52 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019893&amp;sid=724840411b7e5874067907f11253ec50#p16019893\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922&amp;sid=724840411b7e5874067907f11253ec50\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019893&amp;sid=724840411b7e5874067907f11253ec50#p16019893\" aria-label=\"View quoted post\" data-post-id=\"16019893\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:43 pm</span></cite> it was indeed the non-validated fork that I tried. </div></blockquote> Sorry, that was wrong branch. The correct one is <a href=\"https://github.com/rxu/cronstatus/archive/refs/heads/3.3-compat.zip\" class=\"postlink\">here</a>. </div></blockquote> Oh thank you! That installation went much better!<br> But I assume I need to have the other setting turned to \"No\" to have phpbb manage the cron instead of CloudPanel for the Cron Status message to show up?<br> I don't currently have a Cron Status section on my ACP Maintenance tab...",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -394,7 +394,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=38117a7264d5bbfb93a167d768685f3a\">32</a>"
+          "value": "<a href=\"./search.php?author_id=2235922&amp;sr=posts&amp;sid=724840411b7e5874067907f11253ec50\">32</a>"
         },
         {
           "key": "Joined",
@@ -417,7 +417,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">4135</a>"
         },
         {
           "key": "Joined",
@@ -429,14 +429,14 @@
         },
         {
           "key": "Contact",
-          "value": "<div class=\"dropdown-container dropdown-left\"><a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"><i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span></a><div class=\"dropdown\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><div class=\"dropdown-contents contact-icons\"><div><a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"><span class=\"contact-icon phpbb_website-icon\">Website</span></a></div></div></div></div>"
+          "value": "<div class=\"dropdown-container dropdown-left\"> <a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"> <i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span> </a> <div class=\"dropdown\"> <div class=\"pointer\"><div class=\"pointer-inner\"></div></div> <div class=\"dropdown-contents contact-icons\"> <div> <a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"> <span class=\"contact-icon phpbb_website-icon\">Website</span> </a> </div> </div> </div> </div>"
         }
       ]
     },
     {
       "postid": 16019923,
       "date": "Tue Jul 02, 2024 5:25 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019911#p16019911\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019911#p16019911\" aria-label=\"View quoted post\" data-post-id=\"16019911\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:09 pm</span></cite>\nI don't think so, the module should be there. Try reinstalling it probably, or finding it via the ACP module management.\n</div></blockquote>\n\nThis might be a related to a different thing (like the other bug thread I linked to before), but I do have these weird things in the side column.   Clicking on them each gives a \"General Error\" message page.<br>\n<br>\n(Nothing new on my PHP error log though)<br>\n\n<div class=\"inline-attachment\">\n\t\t\t\n\t\t\t\t<dl class=\"thumbnail\">\n\t\t\t<dt><a href=\"./download/file.php?id=280954&amp;mode=view\"><img src=\"./download/file.php?id=280954&amp;t=1\" class=\"postimage\" alt=\"ACP_index.png\" title=\"ACP_index.png (19.53 KiB) Viewed 496 times\" /></a></dt>\n\t\t\t\t\t</dl>\n\t\t\n\t\t\n\t\t\n\t\t\t</div>",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019911#p16019911\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019911#p16019911\" aria-label=\"View quoted post\" data-post-id=\"16019911\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:09 pm</span></cite> I don't think so, the module should be there. Try reinstalling it probably, or finding it via the ACP module management. </div></blockquote> This might be a related to a different thing (like the other bug thread I linked to before), but I do have these weird things in the side column. Clicking on them each gives a \"General Error\" message page.<br> <br> (Nothing new on my PHP error log though)<br> <div class=\"inline-attachment\"> <dl class=\"thumbnail\"> <dt><a href=\"./download/file.php?id=280954&amp;mode=view\"><img src=\"./download/file.php?id=280954&amp;t=1\" class=\"postimage\" alt=\"ACP_index.png\" title=\"ACP_index.png (19.53 KiB) Viewed 571 times\" /></a></dt> </dl> </div>",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -459,7 +459,7 @@
     {
       "postid": 16019932,
       "date": "Tue Jul 02, 2024 5:54 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019911#p16019911\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019911#p16019911\" aria-label=\"View quoted post\" data-post-id=\"16019911\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:09 pm</span></cite>\nI don't think so, the module should be there. Try reinstalling it probably, or finding it via the ACP module management.\n</div></blockquote>\n\nAh!  Disable and Re-Enable worked -- here's what it shows now<br>\n\n<div class=\"inline-attachment\">\n\t\t\t\n\t\t\t\t<dl class=\"thumbnail\">\n\t\t\t<dt><a href=\"./download/file.php?id=280957&amp;mode=view\"><img src=\"./download/file.php?id=280957&amp;t=1\" class=\"postimage\" alt=\"Cron_Status.png\" title=\"Cron_Status.png (277.65 KiB) Viewed 485 times\" /></a></dt>\n\t\t\t\t\t</dl>\n\t\t\n\t\t\n\t\t\n\t\t\t</div>",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019911#p16019911\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019911#p16019911\" aria-label=\"View quoted post\" data-post-id=\"16019911\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:09 pm</span></cite> I don't think so, the module should be there. Try reinstalling it probably, or finding it via the ACP module management. </div></blockquote> Ah! Disable and Re-Enable worked -- here's what it shows now<br> <div class=\"inline-attachment\"> <dl class=\"thumbnail\"> <dt><a href=\"./download/file.php?id=280957&amp;mode=view\"><img src=\"./download/file.php?id=280957&amp;t=1\" class=\"postimage\" alt=\"Cron_Status.png\" title=\"Cron_Status.png (277.65 KiB) Viewed 560 times\" /></a></dt> </dl> </div>",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -482,7 +482,7 @@
     {
       "postid": 16019935,
       "date": "Tue Jul 02, 2024 6:07 pm",
-      "content": "Well, it tells that most of cron tasks didn't run since April 10-14. What happened to the board those days?<br>\nCron is style-dependent so if f.e. this code is missing from <code class=\"inline\">overall_footer.html</code> it won't run.<br>\n\n<div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">&lt;div&gt;\n\t&lt;a id=\"bottom\" class=\"anchor\" accesskey=\"z\"&gt;&lt;/a&gt;\n\t{% if not S_IS_BOT %}{{ RUN_CRON_TASK }}{% endif %}\n&lt;/div&gt;\n</code></pre></div>",
+      "content": "Well, it tells that most of cron tasks didn't run since April 10-14. What happened to the board those days?<br> Cron is style-dependent so if f.e. this code is missing from <code class=\"inline\">overall_footer.html</code> it won't run.<br> <div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">&lt;div&gt; &lt;a id=\"bottom\" class=\"anchor\" accesskey=\"z\"&gt;&lt;/a&gt; {% if not S_IS_BOT %}{{ RUN_CRON_TASK }}{% endif %} &lt;/div&gt; </code></pre></div>",
       "signature": "",
       "avatar": "",
       "user": "rxu",
@@ -494,7 +494,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">4135</a>"
         },
         {
           "key": "Joined",
@@ -506,15 +506,15 @@
         },
         {
           "key": "Contact",
-          "value": "<div class=\"dropdown-container dropdown-left\"><a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"><i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span></a><div class=\"dropdown\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><div class=\"dropdown-contents contact-icons\"><div><a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"><span class=\"contact-icon phpbb_website-icon\">Website</span></a></div></div></div></div>"
+          "value": "<div class=\"dropdown-container dropdown-left\"> <a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"> <i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span> </a> <div class=\"dropdown\"> <div class=\"pointer\"><div class=\"pointer-inner\"></div></div> <div class=\"dropdown-contents contact-icons\"> <div> <a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"> <span class=\"contact-icon phpbb_website-icon\">Website</span> </a> </div> </div> </div> </div>"
         }
       ]
     },
     {
       "postid": 16019938,
       "date": "Tue Jul 02, 2024 6:09 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019884#p16019884\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019884#p16019884\" aria-label=\"View quoted post\" data-post-id=\"16019884\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:25 pm</span></cite>\n<br>\n<a href=\"https://www.phpbb.com/community/viewtopic.php?p=16010872#p16010872\" class=\"postlink\">viewtopic.php?p=16010872#p16010872</a>\n</div></blockquote>\n\nI would solve this first, unfortunately there is not a lot people on here familiar with NGINX. <br>\n\n<blockquote cite=\"./viewtopic.php?p=16019893#p16019893\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019893#p16019893\" aria-label=\"View quoted post\" data-post-id=\"16019893\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:43 pm</span></cite>\nthe only non-Wordpress erro\n</div></blockquote>\n\nWordPress will attempt to handle all requests, you need to make sure it's not interfering with requests to yourdomain.com/forum/* I believe they have .htaccess rule to prevent that but NGINX doesn't use .htaccess<br>\n\n<blockquote cite=\"./viewtopic.php?p=16019923#p16019923\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019923#p16019923\" aria-label=\"View quoted post\" data-post-id=\"16019923\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:25 pm</span></cite>\nbut I do have these weird things in the side column\n</div></blockquote>\n\nIs there an extension for that listed as installed? That is usually because you deleted the files for extension before uninstalling it. To fully remove an extension disable it &gt;&gt; delete data &gt;&gt; delete files . You'll need to upload the files if they are missing to do  this.",
-      "signature": "“Results! Why, man, I have gotten a lot of results! I have found several thousand things that won’t work.”<br>\n<br>\n<em class=\"text-italics\">Attributed</em> - Thomas Edison",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019884#p16019884\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019884#p16019884\" aria-label=\"View quoted post\" data-post-id=\"16019884\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:25 pm</span></cite> <br> <a href=\"https://www.phpbb.com/community/viewtopic.php?p=16010872#p16010872\" class=\"postlink\">viewtopic.php?p=16010872#p16010872</a> </div></blockquote> I would solve this first, unfortunately there is not a lot people on here familiar with NGINX. <br> <blockquote cite=\"./viewtopic.php?p=16019893#p16019893\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019893#p16019893\" aria-label=\"View quoted post\" data-post-id=\"16019893\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 4:43 pm</span></cite> the only non-Wordpress erro </div></blockquote> WordPress will attempt to handle all requests, you need to make sure it's not interfering with requests to yourdomain.com/forum/* I believe they have .htaccess rule to prevent that but NGINX doesn't use .htaccess<br> <blockquote cite=\"./viewtopic.php?p=16019923#p16019923\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019923#p16019923\" aria-label=\"View quoted post\" data-post-id=\"16019923\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 5:25 pm</span></cite> but I do have these weird things in the side column </div></blockquote> Is there an extension for that listed as installed? That is usually because you deleted the files for extension before uninstalling it. To fully remove an extension disable it &gt;&gt; delete data &gt;&gt; delete files . You'll need to upload the files if they are missing to do this.",
+      "signature": "“Results! Why, man, I have gotten a lot of results! I have found several thousand things that won’t work.”<br> <br> <em class=\"text-italics\">Attributed</em> - Thomas Edison",
       "avatar": "https://www.phpbb.com/community/download/file.php?avatar=156933_1526464247.gif",
       "user": "thecoalman",
       "userid": 156933,
@@ -525,7 +525,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts\">6490</a>"
+          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts\">6893</a>"
         },
         {
           "key": "Joined",
@@ -537,14 +537,14 @@
         },
         {
           "key": "Contact",
-          "value": "<div class=\"dropdown-container dropdown-left\"><a href=\"#\" class=\"dropdown-trigger\" title=\"Contact thecoalman\"><i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact thecoalman</span></a><div class=\"dropdown\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><div class=\"dropdown-contents contact-icons\"><div><a href=\"https://coalpail.com\" title=\"Website\" class=\"last-cell\"><span class=\"contact-icon phpbb_website-icon\">Website</span></a></div></div></div></div>"
+          "value": "<div class=\"dropdown-container dropdown-left\"> <a href=\"#\" class=\"dropdown-trigger\" title=\"Contact thecoalman\"> <i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact thecoalman</span> </a> <div class=\"dropdown\"> <div class=\"pointer\"><div class=\"pointer-inner\"></div></div> <div class=\"dropdown-contents contact-icons\"> <div> <a href=\"https://coalpail.com\" title=\"Website\" class=\"last-cell\"> <span class=\"contact-icon phpbb_website-icon\">Website</span> </a> </div> </div> </div> </div>"
         }
       ]
     },
     {
       "postid": 16019944,
       "date": "Tue Jul 02, 2024 6:17 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019935#p16019935\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019935#p16019935\" aria-label=\"View quoted post\" data-post-id=\"16019935\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:07 pm</span></cite>\nWell, it tells that most of cron tasks didn't run since April 10-14. What happened to the board those days?<br>\nCron is style-dependent so if f.e. this code is missing from <code class=\"inline\">overall_footer.html</code> it won't run.<br>\n\n<div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">&lt;div&gt;\n\t&lt;a id=\"bottom\" class=\"anchor\" accesskey=\"z\"&gt;&lt;/a&gt;\n\t{% if not S_IS_BOT %}{{ RUN_CRON_TASK }}{% endif %}\n&lt;/div&gt;\n</code></pre></div>\n</div></blockquote>\n\nApril 14 was right around when I migrated the forum to the new server and upgraded to 3.3",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019935#p16019935\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019935#p16019935\" aria-label=\"View quoted post\" data-post-id=\"16019935\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:07 pm</span></cite> Well, it tells that most of cron tasks didn't run since April 10-14. What happened to the board those days?<br> Cron is style-dependent so if f.e. this code is missing from <code class=\"inline\">overall_footer.html</code> it won't run.<br> <div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">&lt;div&gt; &lt;a id=\"bottom\" class=\"anchor\" accesskey=\"z\"&gt;&lt;/a&gt; {% if not S_IS_BOT %}{{ RUN_CRON_TASK }}{% endif %} &lt;/div&gt; </code></pre></div> </div></blockquote> April 14 was right around when I migrated the forum to the new server and upgraded to 3.3",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -567,7 +567,7 @@
     {
       "postid": 16019947,
       "date": "Tue Jul 02, 2024 6:18 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019935#p16019935\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019935#p16019935\" aria-label=\"View quoted post\" data-post-id=\"16019935\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:07 pm</span></cite>\nWell, it tells that most of cron tasks didn't run since April 10-14. What happened to the board those days?<br>\nCron is style-dependent so if f.e. this code is missing from <code class=\"inline\">overall_footer.html</code> it won't run.<br>\n\n<div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">&lt;div&gt;\n\t&lt;a id=\"bottom\" class=\"anchor\" accesskey=\"z\"&gt;&lt;/a&gt;\n\t{% if not S_IS_BOT %}{{ RUN_CRON_TASK }}{% endif %}\n&lt;/div&gt;\n</code></pre></div>\n</div></blockquote>\nIs the footer part dependent on a Style?",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019935#p16019935\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019935#p16019935\" aria-label=\"View quoted post\" data-post-id=\"16019935\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:07 pm</span></cite> Well, it tells that most of cron tasks didn't run since April 10-14. What happened to the board those days?<br> Cron is style-dependent so if f.e. this code is missing from <code class=\"inline\">overall_footer.html</code> it won't run.<br> <div class=\"codebox\"><p>Code: <a href=\"#\" onclick=\"selectCode(this); return false;\">Select all</a></p><pre><code class=\"\">&lt;div&gt; &lt;a id=\"bottom\" class=\"anchor\" accesskey=\"z\"&gt;&lt;/a&gt; {% if not S_IS_BOT %}{{ RUN_CRON_TASK }}{% endif %} &lt;/div&gt; </code></pre></div> </div></blockquote> Is the footer part dependent on a Style?",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -590,7 +590,7 @@
     {
       "postid": 16019953,
       "date": "Tue Jul 02, 2024 6:22 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019947#p16019947\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019947#p16019947\" aria-label=\"View quoted post\" data-post-id=\"16019947\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:18 pm</span></cite>\nIs the footer part dependent on a Style?\n</div></blockquote>\n\nIt can be, yes. You can try switching your account to prosilver, browsing the board around and check if some crons were run then.<br>\n<br>\nEDIT: sure, that's for the case system cron is off <img class=\"smilies\" src=\"./images/smilies/icon_e_smile.gif\" width=\"15\" height=\"17\" alt=\":)\" title=\"Smile\">",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019947#p16019947\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019947#p16019947\" aria-label=\"View quoted post\" data-post-id=\"16019947\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:18 pm</span></cite> Is the footer part dependent on a Style? </div></blockquote> It can be, yes. You can try switching your account to prosilver, browsing the board around and check if some crons were run then.<br> <br> EDIT: sure, that's for the case system cron is off <img class=\"smilies\" src=\"./images/smilies/icon_e_smile.gif\" width=\"15\" height=\"17\" alt=\":)\" title=\"Smile\">",
       "signature": "",
       "avatar": "",
       "user": "rxu",
@@ -602,7 +602,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">4135</a>"
         },
         {
           "key": "Joined",
@@ -614,14 +614,14 @@
         },
         {
           "key": "Contact",
-          "value": "<div class=\"dropdown-container dropdown-left\"><a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"><i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span></a><div class=\"dropdown\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><div class=\"dropdown-contents contact-icons\"><div><a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"><span class=\"contact-icon phpbb_website-icon\">Website</span></a></div></div></div></div>"
+          "value": "<div class=\"dropdown-container dropdown-left\"> <a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"> <i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span> </a> <div class=\"dropdown\"> <div class=\"pointer\"><div class=\"pointer-inner\"></div></div> <div class=\"dropdown-contents contact-icons\"> <div> <a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"> <span class=\"contact-icon phpbb_website-icon\">Website</span> </a> </div> </div> </div> </div>"
         }
       ]
     },
     {
       "postid": 16019971,
       "date": "Tue Jul 02, 2024 7:33 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019953#p16019953\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019953#p16019953\" aria-label=\"View quoted post\" data-post-id=\"16019953\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:22 pm</span></cite>\n<blockquote cite=\"./viewtopic.php?p=16019947#p16019947\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019947#p16019947\" aria-label=\"View quoted post\" data-post-id=\"16019947\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:18 pm</span></cite>\nIs the footer part dependent on a Style?\n</div></blockquote>\n\nIt can be, yes. You can try switching your account to prosilver, browsing the board around and check if some crons were run then.<br>\n<br>\nEDIT: sure, that's for the case system cron is off <img class=\"smilies\" src=\"./images/smilies/icon_e_smile.gif\" width=\"15\" height=\"17\" alt=\":)\" title=\"Smile\">\n</div></blockquote>\n\nOK thank you.   I've browsed around now with stock ProSilver (our default theme inherits ProSilver, for what it's worth)<br>\nHow long should I wait before I should see if it shows up on the report as updated?<br>\nAlso: curious why having CloudPanel run the cron wouldn't resolve this.... unless it runs into an issue -- but in the case of an issue, wouldn't an error be somewhere?",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019953#p16019953\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019953#p16019953\" aria-label=\"View quoted post\" data-post-id=\"16019953\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:22 pm</span></cite> <blockquote cite=\"./viewtopic.php?p=16019947#p16019947\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=2235922\">racketnick</a> wrote: <a href=\"./viewtopic.php?p=16019947#p16019947\" aria-label=\"View quoted post\" data-post-id=\"16019947\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Tue Jul 02, 2024 6:18 pm</span></cite> Is the footer part dependent on a Style? </div></blockquote> It can be, yes. You can try switching your account to prosilver, browsing the board around and check if some crons were run then.<br> <br> EDIT: sure, that's for the case system cron is off <img class=\"smilies\" src=\"./images/smilies/icon_e_smile.gif\" width=\"15\" height=\"17\" alt=\":)\" title=\"Smile\"> </div></blockquote> OK thank you. I've browsed around now with stock ProSilver (our default theme inherits ProSilver, for what it's worth)<br> How long should I wait before I should see if it shows up on the report as updated?<br> Also: curious why having CloudPanel run the cron wouldn't resolve this.... unless it runs into an issue -- but in the case of an issue, wouldn't an error be somewhere?",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -644,7 +644,7 @@
     {
       "postid": 16019977,
       "date": "Tue Jul 02, 2024 7:47 pm",
-      "content": "I should also mention that I just recently tried hitting the \"Run\" link for both cron.task.core.tidy_sessions and cron.task.core.tidy_search.<br>\nThey both showed a \"running\" status for a bit, but the \"Last Task Date\" hasn't been updated for either.<br>\nI also checked in the phpbb ACP error log and there's nothing listed.",
+      "content": "I should also mention that I just recently tried hitting the \"Run\" link for both cron.task.core.tidy_sessions and cron.task.core.tidy_search.<br> They both showed a \"running\" status for a bit, but the \"Last Task Date\" hasn't been updated for either.<br> I also checked in the phpbb ACP error log and there's nothing listed.",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -667,7 +667,7 @@
     {
       "postid": 16019989,
       "date": "Wed Jul 03, 2024 1:35 am",
-      "content": "As thecoalman have mentioned above, most likely you'd need to solve nginx issue 1st as far as cron URL looks like f.e. <code class=\"inline\">/app.php/cron/cron.task.core.tidy_search</code>, so if there's no correct redirection set it may return HTTP 404 Not found (you can also check that in webserver's access log).<br>\nBut yes, if there're no PHP errors then in theory system cron would work.",
+      "content": "As thecoalman have mentioned above, most likely you'd need to solve nginx issue 1st as far as cron URL looks like f.e. <code class=\"inline\">/app.php/cron/cron.task.core.tidy_search</code>, so if there's no correct redirection set it may return HTTP 404 Not found (you can also check that in webserver's access log).<br> But yes, if there're no PHP errors then in theory system cron would work.",
       "signature": "",
       "avatar": "",
       "user": "rxu",
@@ -679,7 +679,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">3975</a>"
+          "value": "<a href=\"./search.php?author_id=279389&amp;sr=posts\">4135</a>"
         },
         {
           "key": "Joined",
@@ -691,7 +691,7 @@
         },
         {
           "key": "Contact",
-          "value": "<div class=\"dropdown-container dropdown-left\"><a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"><i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span></a><div class=\"dropdown\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><div class=\"dropdown-contents contact-icons\"><div><a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"><span class=\"contact-icon phpbb_website-icon\">Website</span></a></div></div></div></div>"
+          "value": "<div class=\"dropdown-container dropdown-left\"> <a href=\"#\" class=\"dropdown-trigger\" title=\"Contact rxu\"> <i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact rxu</span> </a> <div class=\"dropdown\"> <div class=\"pointer\"><div class=\"pointer-inner\"></div></div> <div class=\"dropdown-contents contact-icons\"> <div> <a href=\"https://www.phpbbguru.net\" title=\"Website\" class=\"last-cell\"> <span class=\"contact-icon phpbb_website-icon\">Website</span> </a> </div> </div> </div> </div>"
         }
       ]
     },
@@ -710,7 +710,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=719195&amp;sr=posts\">26878</a>"
+          "value": "<a href=\"./search.php?author_id=719195&amp;sr=posts\">26930</a>"
         },
         {
           "key": "Joined",
@@ -718,14 +718,14 @@
         },
         {
           "key": "Contact",
-          "value": "<div class=\"dropdown-container dropdown-left\"><a href=\"#\" class=\"dropdown-trigger\" title=\"Contact Mick\"><i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact Mick</span></a><div class=\"dropdown\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><div class=\"dropdown-contents contact-icons\"><div><a href=\"https://uniteuk.createaforum.com/index.php\" title=\"Website\" class=\"last-cell\"><span class=\"contact-icon phpbb_website-icon\">Website</span></a></div></div></div></div>"
+          "value": "<div class=\"dropdown-container dropdown-left\"> <a href=\"#\" class=\"dropdown-trigger\" title=\"Contact Mick\"> <i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact Mick</span> </a> <div class=\"dropdown\"> <div class=\"pointer\"><div class=\"pointer-inner\"></div></div> <div class=\"dropdown-contents contact-icons\"> <div> <a href=\"https://uniteuk.createaforum.com/index.php\" title=\"Website\" class=\"last-cell\"> <span class=\"contact-icon phpbb_website-icon\">Website</span> </a> </div> </div> </div> </div>"
         }
       ]
     },
     {
       "postid": 16020238,
       "date": "Thu Jul 04, 2024 9:19 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16020004#p16020004\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=719195\">Mick</a> wrote: <a href=\"./viewtopic.php?p=16020004#p16020004\" aria-label=\"View quoted post\" data-post-id=\"16020004\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Wed Jul 03, 2024 6:41 am</span></cite>\nOut of curiosity did you use <a href=\"https://github.com/phpbb/phpbb/blob/3.3.x/phpBB/docs/nginx.sample.conf\" class=\"postlink\">https://github.com/phpbb/phpbb/blob/3.3 ... ample.conf</a> which is the same as the one in /docs?\n</div></blockquote>\n\nSo I did use the same one, but I never got clarification on how I should format the URL/domain.<br>\nMy domain root contains Wordpress and then the phpbb install is in the domain.com/forum directory.<br>\n<br>\nThoughts?",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16020004#p16020004\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=719195\">Mick</a> wrote: <a href=\"./viewtopic.php?p=16020004#p16020004\" aria-label=\"View quoted post\" data-post-id=\"16020004\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Wed Jul 03, 2024 6:41 am</span></cite> Out of curiosity did you use <a href=\"https://github.com/phpbb/phpbb/blob/3.3.x/phpBB/docs/nginx.sample.conf\" class=\"postlink\">https://github.com/phpbb/phpbb/blob/3.3 ... ample.conf</a> which is the same as the one in /docs? </div></blockquote> So I did use the same one, but I never got clarification on how I should format the URL/domain.<br> My domain root contains Wordpress and then the phpbb install is in the domain.com/forum directory.<br> <br> Thoughts?",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -748,7 +748,7 @@
     {
       "postid": 16020241,
       "date": "Thu Jul 04, 2024 9:22 pm",
-      "content": "<blockquote cite=\"./viewtopic.php?p=16019989#p16019989\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019989#p16019989\" aria-label=\"View quoted post\" data-post-id=\"16019989\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Wed Jul 03, 2024 1:35 am</span></cite>\nAs thecoalman have mentioned above, most likely you'd need to solve nginx issue 1st as far as cron URL looks like f.e. <code class=\"inline\">/app.php/cron/cron.task.core.tidy_search</code>, so if there's no correct redirection set it may return HTTP 404 Not found (you can also check that in webserver's access log).<br>\nBut yes, if there're no PHP errors then in theory system cron would work.\n</div></blockquote>\n\nSo, if I go to <a href=\"https://racketboy.com/forum/app.php/cron/cron.task.core.tidy_search\" class=\"postlink\">https://racketboy.com/forum/app.php/cro ... idy_search</a> I do get a 404<br>\n(I feel like I get a lot of 404s from things that get passed to app.php<br>\nHowever, there is no entry in the error log from this...",
+      "content": "<blockquote cite=\"./viewtopic.php?p=16019989#p16019989\"><div><cite><a href=\"./memberlist.php?mode=viewprofile&amp;u=279389\">rxu</a> wrote: <a href=\"./viewtopic.php?p=16019989#p16019989\" aria-label=\"View quoted post\" data-post-id=\"16019989\" onclick=\"if(document.getElementById(hash.substr(1)))href=hash\"><i class=\"icon fa-arrow-circle-up fa-fw\" aria-hidden=\"true\"></i></a><span class=\"responsive-hide\">Wed Jul 03, 2024 1:35 am</span></cite> As thecoalman have mentioned above, most likely you'd need to solve nginx issue 1st as far as cron URL looks like f.e. <code class=\"inline\">/app.php/cron/cron.task.core.tidy_search</code>, so if there's no correct redirection set it may return HTTP 404 Not found (you can also check that in webserver's access log).<br> But yes, if there're no PHP errors then in theory system cron would work. </div></blockquote> So, if I go to <a href=\"https://racketboy.com/forum/app.php/cron/cron.task.core.tidy_search\" class=\"postlink\">https://racketboy.com/forum/app.php/cro ... idy_search</a> I do get a 404<br> (I feel like I get a lot of 404s from things that get passed to app.php<br> However, there is no entry in the error log from this...",
       "signature": "",
       "avatar": "",
       "user": "racketnick",
@@ -771,8 +771,8 @@
     {
       "postid": 16020244,
       "date": "Thu Jul 04, 2024 10:01 pm",
-      "content": "404's would be in the access log, WordPress may be logging it too. As you can see that error page is Wordpress error page. First thing you need to do is have Wordpress ignore the path yourdomain.com/forum/ How you do that with NGINX and Wordpress I don't know. Wordpress site is best resource for that. If Wordpress is ignoring the request for that path it would be handled by phpBB or the server. If phpBB is handling the request there should not be error. If you get to the point the server is handling it with server error page then you need to move onto figuring out why the request is not being rewritten to phpBB. <br>\n<br>\nAll of these issues are going to be related to NGINX configuration compunded with the Wordpress install. As I already mentioned there is not a lot of people here familiar with NGINX. My understanding is with correct configuration it has outstanding performance for serving static content common on Wordpress, not so much for phpBB. The cons are less options, no .htacess files and less support. If you yourself are not familiar with the product you might want to consider switching to Apache server so you can get wider support for issues like this.",
-      "signature": "“Results! Why, man, I have gotten a lot of results! I have found several thousand things that won’t work.”<br>\n<br>\n<em class=\"text-italics\">Attributed</em> - Thomas Edison",
+      "content": "404's would be in the access log, WordPress may be logging it too. As you can see that error page is Wordpress error page. First thing you need to do is have Wordpress ignore the path yourdomain.com/forum/ How you do that with NGINX and Wordpress I don't know. Wordpress site is best resource for that. If Wordpress is ignoring the request for that path it would be handled by phpBB or the server. If phpBB is handling the request there should not be error. If you get to the point the server is handling it with server error page then you need to move onto figuring out why the request is not being rewritten to phpBB. <br> <br> All of these issues are going to be related to NGINX configuration compunded with the Wordpress install. As I already mentioned there is not a lot of people here familiar with NGINX. My understanding is with correct configuration it has outstanding performance for serving static content common on Wordpress, not so much for phpBB. The cons are less options, no .htacess files and less support. If you yourself are not familiar with the product you might want to consider switching to Apache server so you can get wider support for issues like this.",
+      "signature": "“Results! Why, man, I have gotten a lot of results! I have found several thousand things that won’t work.”<br> <br> <em class=\"text-italics\">Attributed</em> - Thomas Edison",
       "avatar": "https://www.phpbb.com/community/download/file.php?avatar=156933_1526464247.gif",
       "user": "thecoalman",
       "userid": 156933,
@@ -783,7 +783,7 @@
         },
         {
           "key": "Posts",
-          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts\">6490</a>"
+          "value": "<a href=\"./search.php?author_id=156933&amp;sr=posts\">6893</a>"
         },
         {
           "key": "Joined",
@@ -795,7 +795,7 @@
         },
         {
           "key": "Contact",
-          "value": "<div class=\"dropdown-container dropdown-left\"><a href=\"#\" class=\"dropdown-trigger\" title=\"Contact thecoalman\"><i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact thecoalman</span></a><div class=\"dropdown\"><div class=\"pointer\"><div class=\"pointer-inner\"></div></div><div class=\"dropdown-contents contact-icons\"><div><a href=\"https://coalpail.com\" title=\"Website\" class=\"last-cell\"><span class=\"contact-icon phpbb_website-icon\">Website</span></a></div></div></div></div>"
+          "value": "<div class=\"dropdown-container dropdown-left\"> <a href=\"#\" class=\"dropdown-trigger\" title=\"Contact thecoalman\"> <i class=\"icon fa-commenting-o fa-fw icon-lg\" aria-hidden=\"true\"></i><span class=\"sr-only\">Contact thecoalman</span> </a> <div class=\"dropdown\"> <div class=\"pointer\"><div class=\"pointer-inner\"></div></div> <div class=\"dropdown-contents contact-icons\"> <div> <a href=\"https://coalpail.com\" title=\"Website\" class=\"last-cell\"> <span class=\"contact-icon phpbb_website-icon\">Website</span> </a> </div> </div> </div> </div>"
         }
       ]
     }

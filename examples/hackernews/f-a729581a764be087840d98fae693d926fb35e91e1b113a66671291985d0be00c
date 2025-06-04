@@ -3,423 +3,423 @@
   "url": "https://news.ycombinator.com/front",
   "threads": [
     {
-      "id": 42599189,
-      "link": "https://uwaterloo.ca/news/media/no-more-needles-tracking-blood-sugar-your-wrist",
-      "title": "Researchers design wearable tech that can sense glucose levels more accurately",
-      "score": 371,
-      "date": "2025-01-05T02:12:13 1736043133",
+      "id": 44163063,
+      "link": "https://fly.io/blog/youre-all-nuts/",
+      "title": "My AI skeptic friends are all nuts",
+      "score": 2131,
+      "date": "2025-06-02T21:09:53 1748898593",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=ndrwnaguib",
-        "name": "ndrwnaguib"
+        "link": "https://news.ycombinator.com/user?id=tabletcorry",
+        "name": "tabletcorry"
       },
-      "comments_count": 152,
-      "comments_link": "https://news.ycombinator.com/item?id=42599189",
+      "comments_count": 2558,
+      "comments_link": "https://news.ycombinator.com/item?id=44163063",
       "text": ""
     },
     {
-      "id": 42566748,
-      "link": "https://academic.oup.com/mnrasl/article/537/1/L55/7926647",
-      "title": "Supernovae evidence for foundational change to cosmological models",
-      "score": 151,
-      "date": "2025-01-01T15:53:42 1735746822",
+      "id": 44155746,
+      "link": "https://www.jeetmehta.com/posts/thrive-in-obscurity",
+      "title": "How to post when no one is reading",
+      "score": 616,
+      "date": "2025-06-02T04:01:00 1748836860",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=JumpCrisscross",
-        "name": "JumpCrisscross"
+        "link": "https://news.ycombinator.com/user?id=j4mehta",
+        "name": "j4mehta"
       },
-      "comments_count": 87,
-      "comments_link": "https://news.ycombinator.com/item?id=42566748",
+      "comments_count": 243,
+      "comments_link": "https://news.ycombinator.com/item?id=44155746",
       "text": ""
     },
     {
-      "id": 42578201,
-      "link": "https://www.jeffgeerling.com/blog/2024/documenting-1115-ft-radio-tower-climb",
-      "title": "Documenting an 1115 ft radio tower climb",
-      "score": 203,
-      "date": "2025-01-02T20:02:18 1735848138",
+      "id": 44159166,
+      "link": "https://github.com/cloudflare/workers-oauth-provider/",
+      "title": "Cloudlflare builds OAuth with Claude and publishes all the prompts",
+      "score": 785,
+      "date": "2025-06-02T14:24:54 1748874294",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=geerlingguy",
-        "name": "geerlingguy"
+        "link": "https://news.ycombinator.com/user?id=gregorywegory",
+        "name": "gregorywegory"
       },
-      "comments_count": 78,
-      "comments_link": "https://news.ycombinator.com/item?id=42578201",
+      "comments_count": 481,
+      "comments_link": "https://news.ycombinator.com/item?id=44159166",
       "text": ""
     },
     {
-      "id": 42601549,
-      "link": "https://altayakkus.substack.com/p/you-wouldnt-download-an-ai",
-      "title": "Extracting AI models from mobile apps",
-      "score": 402,
-      "date": "2025-01-05T13:19:18 1736083158",
+      "id": 44157177,
+      "link": "https://github.com/kanbn/kan",
+      "title": "Show HN: Kan.bn – An open-source alterative to Trello",
+      "score": 474,
+      "date": "2025-06-02T09:47:48 1748857668",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=smoser",
-        "name": "smoser"
+        "link": "https://news.ycombinator.com/user?id=henryball",
+        "name": "henryball"
       },
-      "comments_count": 202,
-      "comments_link": "https://news.ycombinator.com/item?id=42601549",
+      "comments_count": 210,
+      "comments_link": "https://news.ycombinator.com/item?id=44157177",
       "text": ""
     },
     {
-      "id": 42600349,
-      "link": "https://psi3.ru/blog/swl01u/",
-      "title": "Remote code execution via MIDI messages",
-      "score": 390,
-      "date": "2025-01-05T07:40:48 1736062848",
+      "id": 44159528,
+      "link": "https://news.ycombinator.com/item?id=44159528",
+      "title": "Ask HN: Who is hiring? (June 2025)",
+      "score": 359,
+      "date": "2025-06-02T15:01:18 1748876478",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=portasynthinca3",
-        "name": "portasynthinca3"
+        "link": "https://news.ycombinator.com/user?id=whoishiring",
+        "name": "whoishiring"
       },
-      "comments_count": 58,
-      "comments_link": "https://news.ycombinator.com/item?id=42600349",
+      "comments_count": 391,
+      "comments_link": "https://news.ycombinator.com/item?id=44159528",
       "text": ""
     },
     {
-      "id": 42598458,
-      "link": "https://news.ua.edu/2024/10/ua-chemical-engineer-plastic-recycling/",
-      "title": "University of Alabama Engineer Pioneers New Process for Recycling Plastics",
+      "id": 44155247,
+      "link": "https://esoteric.codes/blog/published-for-the-first-time-the-original-intercal72-compiler-code",
+      "title": "The Princeton INTERCAL Compiler's source code",
+      "score": 141,
+      "date": "2025-06-02T01:54:33 1748829273",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=surprisetalk",
+        "name": "surprisetalk"
+      },
+      "comments_count": 38,
+      "comments_link": "https://news.ycombinator.com/item?id=44155247",
+      "text": ""
+    },
+    {
+      "id": 44159758,
+      "link": "https://github.com/lixiasky/vanta",
+      "title": "Show HN: A toy version of Wireshark (student project)",
+      "score": 253,
+      "date": "2025-06-02T15:20:13 1748877613",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=lixiasky",
+        "name": "lixiasky"
+      },
+      "comments_count": 70,
+      "comments_link": "https://news.ycombinator.com/item?id=44159758",
+      "text": ""
+    },
+    {
+      "id": 44127653,
+      "link": "https://github.com/onlook-dev/onlook",
+      "title": "Show HN: Onlook – Open-source, visual-first Cursor for designers",
+      "score": 400,
+      "date": "2025-05-29T16:31:15 1748536275",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=hoakiet98",
+        "name": "hoakiet98"
+      },
+      "comments_count": 80,
+      "comments_link": "https://news.ycombinator.com/item?id=44127653",
+      "text": ""
+    },
+    {
+      "id": 44156935,
+      "link": "https://betterthanrandom.substack.com/p/if-you-are-useful-it-doesnt-mean",
+      "title": "If you are useful, it doesn't mean you are valued",
+      "score": 796,
+      "date": "2025-06-02T08:59:37 1748854777",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=weltview",
+        "name": "weltview"
+      },
+      "comments_count": 349,
+      "comments_link": "https://news.ycombinator.com/item?id=44156935",
+      "text": ""
+    },
+    {
+      "id": 44142259,
+      "link": "https://milofultz.com/2025-05-27-i-made-a-chair.html",
+      "title": "I made a chair",
+      "score": 343,
+      "date": "2025-05-31T06:24:01 1748672641",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=surprisetalk",
+        "name": "surprisetalk"
+      },
+      "comments_count": 137,
+      "comments_link": "https://news.ycombinator.com/item?id=44142259",
+      "text": ""
+    },
+    {
+      "id": 44158353,
+      "link": "https://news.ycombinator.com/item?id=44158353",
+      "title": "Ask HN: How do I learn robotics in 2025?",
+      "score": 367,
+      "date": "2025-06-02T12:58:10 1748869090",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=srijansriv",
+        "name": "srijansriv"
+      },
+      "comments_count": 93,
+      "comments_link": "https://news.ycombinator.com/item?id=44158353",
+      "text": ""
+    },
+    {
+      "id": 44162363,
+      "link": "https://absurd.website",
+      "title": "Show HN: I build one absurd web project every month",
+      "score": 266,
+      "date": "2025-06-02T19:52:46 1748893966",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=absurdwebsite",
+        "name": "absurdwebsite"
+      },
+      "comments_count": 63,
+      "comments_link": "https://news.ycombinator.com/item?id=44162363",
+      "text": ""
+    },
+    {
+      "id": 44160073,
+      "link": "https://huggingface.co/dleemiller/Penny-1.7B",
+      "title": "Show HN: Penny-1.7B Irish Penny Journal style transfer",
+      "score": 146,
+      "date": "2025-06-02T15:49:08 1748879348",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=deepsquirrelnet",
+        "name": "deepsquirrelnet"
+      },
+      "comments_count": 72,
+      "comments_link": "https://news.ycombinator.com/item?id=44160073",
+      "text": ""
+    },
+    {
+      "id": 44163618,
+      "link": "https://dafny.org/blog/2023/12/15/teaching-program-verification-in-dafny-at-amazon/",
+      "title": "Teaching Program Verification in Dafny at Amazon (2023)",
+      "score": 55,
+      "date": "2025-06-02T22:03:50 1748901830",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Jtsummers",
+        "name": "Jtsummers"
+      },
+      "comments_count": 19,
+      "comments_link": "https://news.ycombinator.com/item?id=44163618",
+      "text": ""
+    },
+    {
+      "id": 44153732,
+      "link": "https://notsocommonthoughts.com/blog/ai-and-judgement/",
+      "title": "The rise of judgement over technical skill",
+      "score": 255,
+      "date": "2025-06-01T21:02:17 1748811737",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=kohlhofer",
+        "name": "kohlhofer"
+      },
+      "comments_count": 159,
+      "comments_link": "https://news.ycombinator.com/item?id=44153732",
+      "text": ""
+    },
+    {
+      "id": 44163428,
+      "link": "https://www.tokyoweekender.com/entertainment/tech-trends/japanese-scientists-develop-artificial-blood/",
+      "title": "Japanese scientists develop artificial blood compatible with all blood types",
+      "score": 258,
+      "date": "2025-06-02T21:44:37 1748900677",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Geekette",
+        "name": "Geekette"
+      },
+      "comments_count": 54,
+      "comments_link": "https://news.ycombinator.com/item?id=44163428",
+      "text": ""
+    },
+    {
+      "id": 44125793,
+      "link": "https://www.heidisql.com/forum.php?t=44068",
+      "title": "HeidiSQL Available Also for Linux",
+      "score": 162,
+      "date": "2025-05-29T13:16:00 1748524560",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Daril",
+        "name": "Daril"
+      },
+      "comments_count": 49,
+      "comments_link": "https://news.ycombinator.com/item?id=44125793",
+      "text": ""
+    },
+    {
+      "id": 44131324,
+      "link": "https://www.galois.com/articles/what-works-and-doesnt-selling-formal-methods",
+      "title": "What works (and doesn't) selling formal methods",
+      "score": 140,
+      "date": "2025-05-29T23:21:48 1748560908",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=azhenley",
+        "name": "azhenley"
+      },
+      "comments_count": 69,
+      "comments_link": "https://news.ycombinator.com/item?id=44131324",
+      "text": ""
+    },
+    {
+      "id": 44159525,
+      "link": "https://news.ycombinator.com/item?id=44159525",
+      "title": "Ask HN: Who wants to be hired? (June 2025)",
+      "score": 122,
+      "date": "2025-06-02T15:01:18 1748876478",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whoishiring",
+        "name": "whoishiring"
+      },
+      "comments_count": 335,
+      "comments_link": "https://news.ycombinator.com/item?id=44159525",
+      "text": ""
+    },
+    {
+      "id": 44157077,
+      "link": "https://arxiv.org/abs/2505.24760",
+      "title": "ReasoningGym: Reasoning Environments for RL with Verifiable Rewards",
+      "score": 98,
+      "date": "2025-06-02T09:27:26 1748856446",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=t55",
+        "name": "t55"
+      },
+      "comments_count": 27,
+      "comments_link": "https://news.ycombinator.com/item?id=44157077",
+      "text": ""
+    },
+    {
+      "id": 44161894,
+      "link": "https://blog.noahhw.dev/posts/cve-2025-31200/",
+      "title": "CVE 2025 31200",
+      "score": 122,
+      "date": "2025-06-02T18:58:47 1748890727",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
+        "name": "todsacerdoti"
+      },
+      "comments_count": 27,
+      "comments_link": "https://news.ycombinator.com/item?id=44161894",
+      "text": ""
+    },
+    {
+      "id": 44125334,
+      "link": "https://easytier.cn/en/",
+      "title": "EasyTier – P2P mesh VPN written in Rust using Tokio",
+      "score": 148,
+      "date": "2025-05-29T12:25:19 1748521519",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=wucke13",
+        "name": "wucke13"
+      },
+      "comments_count": 50,
+      "comments_link": "https://news.ycombinator.com/item?id=44125334",
+      "text": ""
+    },
+    {
+      "id": 44160358,
+      "link": "https://www.arcol.io/",
+      "title": "Arcol simplifies building design with browser-based modeling",
+      "score": 55,
+      "date": "2025-06-02T16:16:11 1748880971",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=joeld42",
+        "name": "joeld42"
+      },
+      "comments_count": 27,
+      "comments_link": "https://news.ycombinator.com/item?id=44160358",
+      "text": ""
+    },
+    {
+      "id": 44162327,
+      "link": "http://balaji-amg.surge.sh/blog/typing-118-wpm-brain-rewiring",
+      "title": "Typing 118 WPM broke my brain in the right ways",
       "score": 163,
-      "date": "2025-01-04T23:30:37 1736033437",
+      "date": "2025-06-02T19:48:36 1748893716",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=thunderbong",
-        "name": "thunderbong"
+        "link": "https://news.ycombinator.com/user?id=b0a04gl",
+        "name": "b0a04gl"
       },
-      "comments_count": 192,
-      "comments_link": "https://news.ycombinator.com/item?id=42598458",
+      "comments_count": 209,
+      "comments_link": "https://news.ycombinator.com/item?id=44162327",
       "text": ""
     },
     {
-      "id": 42601847,
-      "link": "https://nmn.gl/blog/ai-senior-developer",
-      "title": "A messy experiment that changed how I think about AI code analysis",
-      "score": 421,
-      "date": "2025-01-05T14:15:19 1736086519",
+      "id": 44146339,
+      "link": "https://blog.gingerbeardman.com/2025/05/31/intelligent-agent-technology-open-sesame-1993/",
+      "title": "Intelligent Agent Technology: Open Sesame! (1993)",
+      "score": 50,
+      "date": "2025-05-31T19:09:09 1748718549",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=namanyayg",
-        "name": "namanyayg"
+        "link": "https://news.ycombinator.com/user?id=msephton",
+        "name": "msephton"
       },
-      "comments_count": 216,
-      "comments_link": "https://news.ycombinator.com/item?id=42601847",
+      "comments_count": 6,
+      "comments_link": "https://news.ycombinator.com/item?id=44146339",
       "text": ""
     },
     {
-      "id": 42599102,
-      "link": "http://rachelbythebay.com/w/2025/01/04/cruft/",
-      "title": "Web page annoyances that I don't inflict on you",
-      "score": 491,
-      "date": "2025-01-05T01:54:53 1736042093",
+      "id": 44159318,
+      "link": "https://serge-sans-paille.github.io/pythran-stories/a-hidden-weakness.html",
+      "title": "A Hidden Weakness",
+      "score": 35,
+      "date": "2025-06-02T14:39:18 1748875158",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
-        "name": "todsacerdoti"
-      },
-      "comments_count": 264,
-      "comments_link": "https://news.ycombinator.com/item?id=42599102",
-      "text": ""
-    },
-    {
-      "id": 42600586,
-      "link": "https://yoavsbg.github.io/css-flexbox-playground/",
-      "title": "Show HN: Struggle with CSS Flexbox? This Playground Is for You",
-      "score": 297,
-      "date": "2025-01-05T09:02:01 1736067721",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=yoav_sbg",
-        "name": "yoav_sbg"
-      },
-      "comments_count": 105,
-      "comments_link": "https://news.ycombinator.com/item?id=42600586",
-      "text": ""
-    },
-    {
-      "id": 42569880,
-      "link": "https://www.sfgate.com/local/article/peggy-caserta-obituary-sf-bell-bottom-jeans-19976707.php",
-      "title": "Counterculture legend who invented bell-bottom jeans dies at 84",
-      "score": 116,
-      "date": "2025-01-01T22:35:41 1735770941",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=anigbrowl",
-        "name": "anigbrowl"
-      },
-      "comments_count": 36,
-      "comments_link": "https://news.ycombinator.com/item?id=42569880",
-      "text": ""
-    },
-    {
-      "id": 42600846,
-      "link": "https://tailscale.com/blog/how-nat-traversal-works",
-      "title": "How NAT Traversal Works (2020)",
-      "score": 381,
-      "date": "2025-01-05T10:15:58 1736072158",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=hhthrowaway1230",
-        "name": "hhthrowaway1230"
-      },
-      "comments_count": 74,
-      "comments_link": "https://news.ycombinator.com/item?id=42600846",
-      "text": ""
-    },
-    {
-      "id": 42600595,
-      "link": "https://imgur.com/gallery/KZ4u3c4",
-      "title": "I made $100K from a dick joke",
-      "score": 428,
-      "date": "2025-01-05T09:03:28 1736067808",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=imglorp",
-        "name": "imglorp"
-      },
-      "comments_count": 198,
-      "comments_link": "https://news.ycombinator.com/item?id=42600595",
-      "text": ""
-    },
-    {
-      "id": 42599599,
-      "link": "https://amanvir.com/guten",
-      "title": "Guten: A Tiny Newspaper Printer",
-      "score": 256,
-      "date": "2025-01-05T03:47:12 1736048832",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=thunderbong",
-        "name": "thunderbong"
-      },
-      "comments_count": 104,
-      "comments_link": "https://news.ycombinator.com/item?id=42599599",
-      "text": ""
-    },
-    {
-      "id": 42582044,
-      "link": "https://blog.sequinstream.com/using-watermarks-to-coordinate-change-data-capture-in-postgres/",
-      "title": "Using watermarks to coordinate change data capture in Postgres",
-      "score": 87,
-      "date": "2025-01-03T03:28:26 1735874906",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=misonic",
-        "name": "misonic"
-      },
-      "comments_count": 0,
-      "comments_link": null,
-      "text": ""
-    },
-    {
-      "id": 42604350,
-      "link": "http://www.righto.com/2025/01/pentium-floating-point-ROM.html",
-      "title": "Reverse Engineering the Constants in the Pentium FPU",
-      "score": 126,
-      "date": "2025-01-05T19:34:18 1736105658",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=mef",
-        "name": "mef"
-      },
-      "comments_count": 18,
-      "comments_link": "https://news.ycombinator.com/item?id=42604350",
-      "text": ""
-    },
-    {
-      "id": 42573388,
-      "link": "https://mystmd.org/guide",
-      "title": "Myst Markdown – Markdown for technical/scientific document",
-      "score": 187,
-      "date": "2025-01-02T10:48:35 1735814915",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=gmgn",
-        "name": "gmgn"
-      },
-      "comments_count": 33,
-      "comments_link": "https://news.ycombinator.com/item?id=42573388",
-      "text": ""
-    },
-    {
-      "id": 42605201,
-      "link": "https://github.com/srsran",
-      "title": "SrsRAN: Open-Source 4G/5G",
-      "score": 157,
-      "date": "2025-01-05T21:27:25 1736112445",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=gballan",
-        "name": "gballan"
-      },
-      "comments_count": 47,
-      "comments_link": "https://news.ycombinator.com/item?id=42605201",
-      "text": ""
-    },
-    {
-      "id": 42600276,
-      "link": "https://www.inferable.ai/blog/posts/postgres-nodejs-longpolling.mdx",
-      "title": "Back to basics: Why we chose long-polling over websockets",
-      "score": 240,
-      "date": "2025-01-05T07:14:30 1736061270",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=lunarcave",
-        "name": "lunarcave"
-      },
-      "comments_count": 157,
-      "comments_link": "https://news.ycombinator.com/item?id=42600276",
-      "text": ""
-    },
-    {
-      "id": 42601681,
-      "link": "https://www.lesswrong.com/posts/GCHyDKfPXa5qsG2cP/human-study-on-ai-spear-phishing-campaigns",
-      "title": "Human study on AI spear phishing campaigns",
-      "score": 189,
-      "date": "2025-01-05T13:40:43 1736084443",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=DalasNoin",
-        "name": "DalasNoin"
-      },
-      "comments_count": 107,
-      "comments_link": "https://news.ycombinator.com/item?id=42601681",
-      "text": ""
-    },
-    {
-      "id": 42575111,
-      "link": "https://spectrum.ieee.org/nanoimprint-lithography",
-      "title": "Nanoimprint Lithography Aims to Take on EUV",
-      "score": 116,
-      "date": "2025-01-02T15:14:54 1735830894",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=pseudolus",
-        "name": "pseudolus"
-      },
-      "comments_count": 76,
-      "comments_link": "https://news.ycombinator.com/item?id=42575111",
-      "text": ""
-    },
-    {
-      "id": 42597283,
-      "link": "https://labwc.github.io/",
-      "title": "Labwc: Wlroots-based window-stacking compositor for Wayland, inspired by openbox",
-      "score": 65,
-      "date": "2025-01-04T20:02:29 1736020949",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=NeutralForest",
-        "name": "NeutralForest"
-      },
-      "comments_count": 13,
-      "comments_link": "https://news.ycombinator.com/item?id=42597283",
-      "text": ""
-    },
-    {
-      "id": 42580397,
-      "link": "https://sfconservancy.org/blog/2021/jun/30/who-should-own-foss-copyrights/",
-      "title": "It Matters Who Owns Your Copylefted Copyrights (2021)",
-      "score": 124,
-      "date": "2025-01-02T23:50:29 1735861829",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=pabs3",
-        "name": "pabs3"
-      },
-      "comments_count": 195,
-      "comments_link": "https://news.ycombinator.com/item?id=42580397",
-      "text": ""
-    },
-    {
-      "id": 42602603,
-      "link": "https://blog.mggross.com/intercepting-syscalls/",
-      "title": "Reliable system call interception",
-      "score": 80,
-      "date": "2025-01-05T15:58:05 1736092685",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=todsacerdoti",
-        "name": "todsacerdoti"
+        "link": "https://news.ycombinator.com/user?id=serge-ss-paille",
+        "name": "serge-ss-paille"
       },
       "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=42602603",
+      "comments_link": "https://news.ycombinator.com/item?id=44159318",
       "text": ""
     },
     {
-      "id": 42599696,
-      "link": "https://blurbusters.com/blur-busters-open-source-display-initative-refresh-cycle-shaders/",
-      "title": "Blur Busters Open Source Display Initiative – Refresh Cycle Shaders",
-      "score": 84,
-      "date": "2025-01-05T04:09:21 1736050161",
+      "id": 44155761,
+      "link": "https://www.newyorker.com/magazine/2025/06/09/the-phoenician-scheme-movie-review",
+      "title": "Is “The Phoenician Scheme” Wes Anderson's Most Emotional Film?",
+      "score": 86,
+      "date": "2025-06-02T04:05:26 1748837126",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=NavinF",
-        "name": "NavinF"
+        "link": "https://news.ycombinator.com/user?id=prismatic",
+        "name": "prismatic"
       },
-      "comments_count": 35,
-      "comments_link": "https://news.ycombinator.com/item?id=42599696",
+      "comments_count": 122,
+      "comments_link": "https://news.ycombinator.com/item?id=44155761",
       "text": ""
     },
     {
-      "id": 42599261,
-      "link": "http://oldvcr.blogspot.com/2025/01/refurb-weekend-atari-stacy.html",
-      "title": "Refurb Weekend: Atari Stacy",
-      "score": 75,
-      "date": "2025-01-05T02:26:19 1736043979",
+      "id": 44142359,
+      "link": "https://nibblestew.blogspot.com/2025/05/writing-your-own-c-standard-library.html",
+      "title": "Writing your own C++ standard library part 2",
+      "score": 77,
+      "date": "2025-05-31T06:46:41 1748674001",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=goldenskye",
-        "name": "goldenskye"
+        "link": "https://news.ycombinator.com/user?id=signa11",
+        "name": "signa11"
       },
-      "comments_count": 8,
-      "comments_link": "https://news.ycombinator.com/item?id=42599261",
+      "comments_count": 68,
+      "comments_link": "https://news.ycombinator.com/item?id=44142359",
       "text": ""
     },
     {
-      "id": 42564243,
-      "link": "https://www.cnn.com/2024/12/30/science/comb-jellies-fuse-single-organism/index.html",
-      "title": "The comb jelly can fuse with another (including nervous and digestive systems)",
-      "score": 98,
-      "date": "2025-01-01T05:57:48 1735711068",
+      "id": 44155635,
+      "link": "https://github.com/howerj/lfsr-vhdl",
+      "title": "LFSR CPU Running Forth",
+      "score": 73,
+      "date": "2025-06-02T03:35:07 1748835307",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=alok-g",
-        "name": "alok-g"
+        "link": "https://news.ycombinator.com/user?id=izabera",
+        "name": "izabera"
       },
-      "comments_count": 24,
-      "comments_link": "https://news.ycombinator.com/item?id=42564243",
+      "comments_count": 15,
+      "comments_link": "https://news.ycombinator.com/item?id=44155635",
       "text": ""
     },
     {
-      "id": 42603585,
-      "link": "https://content.akamai.com/index.php/email/emailWebview?email=NjQyLVNLTi00NDkAAAGWBQgHSPFMp0ow2aF67IAbDOB0c1pNppYjWH8ZCkGxrVi4pDs7pT_120NiLvARghhVOBbaIJqps_3Ii2OZlixo3IPjhpR79JsTe-0&trk=comments_comments-list_comment-text",
-      "title": "Akamai to shut down its CDN operations in China",
-      "score": 306,
-      "date": "2025-01-05T18:02:20 1736100140",
+      "id": 44159798,
+      "link": "https://maxliani.wordpress.com/2025/03/01/mesh-edge-construction/",
+      "title": "Mesh Edge Construction",
+      "score": 43,
+      "date": "2025-06-02T15:23:01 1748877781",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=nunodio",
-        "name": "nunodio"
+        "link": "https://news.ycombinator.com/user?id=atomlib",
+        "name": "atomlib"
       },
-      "comments_count": 138,
-      "comments_link": "https://news.ycombinator.com/item?id=42603585",
-      "text": ""
-    },
-    {
-      "id": 42599971,
-      "link": "https://www.tomshardware.com/raspberry-pi/it-looks-like-the-raspberry-pi-rp2350-hacking-challenge-has-been-beaten-hacker-gains-access-to-the-otp-secret-by-glitching-the-risc-v-cores-to-enable-debugging",
-      "title": "Hacker gains access to the RP2350 OTP secret by glitching the RISC-V cores",
-      "score": 197,
-      "date": "2025-01-05T05:24:25 1736054665",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=EvgeniyZh",
-        "name": "EvgeniyZh"
-      },
-      "comments_count": 28,
-      "comments_link": "https://news.ycombinator.com/item?id=42599971",
-      "text": ""
-    },
-    {
-      "id": 42585447,
-      "link": "https://www.geoffreylitt.com/wildcard/",
-      "title": "Wildcard: Customize HN using a spreadsheet view (2020)",
-      "score": 111,
-      "date": "2025-01-03T13:26:54 1735910814",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=vortex_ape",
-        "name": "vortex_ape"
-      },
-      "comments_count": 11,
-      "comments_link": "https://news.ycombinator.com/item?id=42585447",
-      "text": ""
-    },
-    {
-      "id": 42567900,
-      "link": "https://tokio.rs/blog/2025-01-01-announcing-axum-0-8-0",
-      "title": "Axum 0.8",
-      "score": 163,
-      "date": "2025-01-01T18:18:48 1735755528",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=minimaxir",
-        "name": "minimaxir"
-      },
-      "comments_count": 52,
-      "comments_link": "https://news.ycombinator.com/item?id=42567900",
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=44159798",
       "text": ""
     }
   ]

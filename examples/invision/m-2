@@ -1,21 +1,21 @@
 {
-  "format_version": "invision-4-user",
+  "format_version": "invision-4+-user",
   "url": "https://processwire.com/talk/profile/2-ryan/?do=hovercard",
   "id": 2,
   "name": "ryan",
   "background": "https://processwire-forums.s3.us-west-2.amazonaws.com/set_resources_6/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
   "avatar": "https://processwire-forums.s3.us-west-2.amazonaws.com/monthly_2020_08/DSC02892.thumb.jpg.94a84dfb0e3c2581ef2efd8888dea16a.jpg",
   "group": "Administrators",
-  "joined": "",
-  "lastseen": "",
+  "joined": "2010-12-16T13:34:59Z",
+  "lastseen": "2025-06-03T19:07:31Z",
   "info": [
     {
       "name": "Posts",
-      "value": "16.8k"
+      "value": "17k"
     },
     {
       "name": "Reputation",
-      "value": "26.5k"
+      "value": "27.2k"
     },
     {
       "name": "Badges",

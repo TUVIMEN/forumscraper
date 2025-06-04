@@ -3,8 +3,8 @@
   "url": "https://forum.wendishresearch.org/",
   "groups": [
     {
-      "name": " ",
-      "link": "https://forum.wendishresearch.org/javascript:tickertoggle();",
+      "name": null,
+      "link": null,
       "forums": [
         {
           "state": "https://forum.wendishresearch.org/images/davis/folder.gif",
@@ -367,7 +367,7 @@
             "date": "",
             "user": "",
             "user_link": null,
-            "link": null
+            "link": ""
           }
         },
         {

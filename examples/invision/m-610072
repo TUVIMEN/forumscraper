@@ -1,13 +1,13 @@
 {
-  "format_version": "invision-4-user",
+  "format_version": "invision-4+-user",
   "url": "https://invisioncommunity.com/profile/610072-foxtrek_64/?do=hovercard",
   "id": 610072,
   "name": "Foxtrek_64",
-  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "background": "",
   "avatar": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362bcc4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EF%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E",
   "group": "Clients",
-  "joined": "",
-  "lastseen": "",
+  "joined": "2020-08-16T07:51:18Z",
+  "lastseen": "2024-12-19T17:36:15Z",
   "info": [
     {
       "name": "Posts",
@@ -15,7 +15,7 @@
     },
     {
       "name": "Reputation",
-      "value": "13"
+      "value": "14"
     },
     {
       "name": "Badges",
@@ -23,7 +23,7 @@
     }
   ],
   "rank": "Rank: Enthusiast (5/13)",
-  "rank_date": "2024-01-09T15:37:52Z",
+  "rank_date": "",
   "badges": [
     "Helpful",
     "Reacting Well",

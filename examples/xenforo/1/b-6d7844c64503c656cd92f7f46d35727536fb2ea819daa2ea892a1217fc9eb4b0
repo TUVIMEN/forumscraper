@@ -4,17 +4,17 @@
   "categories": [
     {
       "name": "Search Engines",
-      "link": "https://forums.digitalpoint.com/.#search-engines.4",
+      "link": "https://forums.digitalpoint.com/#search-engines.4",
       "description": "",
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Google",
           "link": "https://forums.digitalpoint.com/forums/google.5/",
           "description": "THE search engine. This is for discussion about Google as a company, <strong>not</strong> for discussion of individual sites (SEO, PageRank for a site or \"why a site ranks where it does\" questions) or Google search results.",
-          "topics": 115478,
-          "posts": 1424842,
+          "topics": 115493,
+          "posts": 1425007,
           "feed": "forums/google.5/index.rss",
           "childboards": [
             {
@@ -79,21 +79,21 @@
             }
           ],
           "lastpost": {
-            "title": "Structured Data for Service selling",
-            "link": "https://forums.digitalpoint.com/posts/19767532/",
-            "user": "sarahk",
-            "user_link": "https://www.digitalpoint.com/members/sarahk.29/",
-            "date": "1736124476"
+            "title": "Google Search at affordable prices.",
+            "link": "https://forums.digitalpoint.com/posts/19774148/",
+            "user": "andrzejalatk",
+            "user_link": "https://www.digitalpoint.com/members/andrzejalatk.1105870/",
+            "date": "1748947969"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Yahoo",
           "link": "https://forums.digitalpoint.com/forums/yahoo.6/",
           "description": "For anything related to Yahoo as a company or their search engine. This is not for anything regarding the Yahoo Directory or questions about why you rank somewhere specific in the Yahoo search engine.",
-          "topics": 8260,
-          "posts": 108601,
+          "topics": 8261,
+          "posts": 108617,
           "feed": "forums/yahoo.6/index.rss",
           "childboards": [
             {
@@ -110,21 +110,21 @@
             }
           ],
           "lastpost": {
-            "title": "Why is Yahoo purple?",
-            "link": "https://forums.digitalpoint.com/posts/19766453/",
-            "user": "Laraparker",
-            "user_link": "https://www.digitalpoint.com/members/laraparker.1092527/",
-            "date": "Dec 3, 2024 at 2:34 PM"
+            "title": "How to choose best VPN services",
+            "link": "https://forums.digitalpoint.com/posts/19773126/",
+            "user": "affwebsite",
+            "user_link": "https://www.digitalpoint.com/members/affwebsite.1033322/",
+            "date": "May 5, 2025 at 9:25 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Bing",
           "link": "https://forums.digitalpoint.com/forums/bing.43/",
           "description": "For discussion of Microsoft (as a company) and their search engine that powers the Bing search.",
           "topics": 4089,
-          "posts": 69701,
+          "posts": 69739,
           "feed": "forums/bing.43/index.rss",
           "childboards": [
             {
@@ -133,39 +133,39 @@
             }
           ],
           "lastpost": {
-            "title": "Bing for e-commerce webites",
-            "link": "https://forums.digitalpoint.com/posts/19766620/",
-            "user": "dakhla automotive sarl",
-            "user_link": "https://www.digitalpoint.com/members/dakhla-automotive-sarl.1093013/",
-            "date": "Dec 9, 2024 at 10:17 AM"
+            "title": "Chat GPT",
+            "link": "https://forums.digitalpoint.com/posts/19773933/",
+            "user": "JoeSpirit",
+            "user_link": "https://www.digitalpoint.com/members/joespirit.889504/",
+            "date": "May 27, 2025 at 12:07 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "All Other Search Engines",
           "link": "https://forums.digitalpoint.com/forums/all-other-search-engines.26/",
           "description": "Any search engine without their own forum, can be discussed here.",
-          "topics": 4091,
-          "posts": 65927,
+          "topics": 4092,
+          "posts": 65937,
           "feed": "forums/all-other-search-engines.26/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "Phone number and website link in Youtube video 'Description'?",
-            "link": "https://forums.digitalpoint.com/posts/19765242/",
-            "user": "innzaa",
-            "user_link": "https://www.digitalpoint.com/members/innzaa.1090553/",
-            "date": "Oct 31, 2024 at 11:31 PM"
+            "title": "0 impression",
+            "link": "https://forums.digitalpoint.com/posts/19773428/",
+            "user": "Amony11",
+            "user_link": "https://www.digitalpoint.com/members/amony11.923582/",
+            "date": "May 15, 2025 at 12:09 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Directories",
           "link": "https://forums.digitalpoint.com/forums/directories.25/",
           "description": "Directories (such as DMOZ/ODP, Google Directory, Yahoo Directory, etc.) can be discussed here. This is only for sites that are <strong>only</strong> directories, not sites that have a directory somewhere within them.",
-          "topics": 43650,
-          "posts": 554199,
+          "topics": 43653,
+          "posts": 554225,
           "feed": "forums/directories.25/index.rss",
           "childboards": [
             {
@@ -178,64 +178,64 @@
             }
           ],
           "lastpost": {
-            "title": "4000+ Active High PR Free Directories List",
-            "link": "https://forums.digitalpoint.com/posts/19767122/",
-            "user": "Vaienkas Olimeas",
-            "user_link": "https://www.digitalpoint.com/members/vaienkas-olimeas.1093749/",
-            "date": "Dec 22, 2024 at 7:21 AM"
+            "title": "Worth of spending time and money to submit to directories?",
+            "link": "https://forums.digitalpoint.com/posts/19773678/",
+            "user": "Sumit_Singh",
+            "user_link": "https://www.digitalpoint.com/members/sumit_singh.901464/",
+            "date": "May 19, 2025 at 11:17 PM"
           }
         }
       ]
     },
     {
       "name": "Business & Marketing",
-      "link": "https://forums.digitalpoint.com/.#business-marketing.11",
+      "link": "https://forums.digitalpoint.com/#business-marketing.11",
       "description": "",
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "General Business",
           "link": "https://forums.digitalpoint.com/forums/general-business.33/",
           "description": "General forum for business related issues that don't belong in the other business sections.",
-          "topics": 30588,
-          "posts": 292213,
+          "topics": 30607,
+          "posts": 292388,
           "feed": "forums/general-business.33/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "Cashback Website",
-            "link": "https://forums.digitalpoint.com/posts/19767375/",
-            "user": "FatCat",
-            "user_link": "https://www.digitalpoint.com/members/fatcat.328658/",
-            "date": "1735768671"
+            "title": "Are you using a virtual credit card? Which one’s been the best for you?",
+            "link": "https://forums.digitalpoint.com/posts/19774143/",
+            "user": "nora111",
+            "user_link": "https://www.digitalpoint.com/members/nora111.1105090/",
+            "date": "1748941492"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "General Marketing",
           "link": "https://forums.digitalpoint.com/forums/general-marketing.21/",
           "description": "General category for marketing related topics.",
-          "topics": 48120,
-          "posts": 444311,
+          "topics": 48141,
+          "posts": 444440,
           "feed": "forums/general-marketing.21/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "What are the best tips for marketing a SaaS Project?",
-            "link": "https://forums.digitalpoint.com/posts/19767512/",
-            "user": "Save Files",
-            "user_link": "https://www.digitalpoint.com/members/save-files.1094420/",
-            "date": "1736028785"
+            "title": "Which is the best method of marketing?",
+            "link": "https://forums.digitalpoint.com/posts/19774109/",
+            "user": "TB3",
+            "user_link": "https://www.digitalpoint.com/members/tb3.1102446/",
+            "date": "1748873882"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Search Engine Optimization",
           "link": "https://forums.digitalpoint.com/forums/search-engine-optimization.12/",
           "description": "General search engine optimization discussion.",
-          "topics": 78144,
-          "posts": 783948,
+          "topics": 78172,
+          "posts": 784157,
           "feed": "forums/search-engine-optimization.12/index.rss",
           "childboards": [
             {
@@ -248,21 +248,21 @@
             }
           ],
           "lastpost": {
-            "title": "How to reduce website Spam Score?",
-            "link": "https://forums.digitalpoint.com/posts/19767513/",
-            "user": "Agent000",
-            "user_link": "https://www.digitalpoint.com/members/agent000.269375/",
-            "date": "1736038027"
+            "title": "What’s Working for SEO in 2025? My Experience With Local Services in the Middle East",
+            "link": "https://forums.digitalpoint.com/posts/19774172/",
+            "user": "MGwebmaster",
+            "user_link": "https://www.digitalpoint.com/members/mgwebmaster.155648/",
+            "date": "1748987316"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Payment Processing",
           "link": "https://forums.digitalpoint.com/forums/payment-processing.101/",
           "description": "This area is designated for discussion of topics related to payment processing (merchant accounts, etc.)",
-          "topics": 20729,
-          "posts": 217303,
+          "topics": 20733,
+          "posts": 217351,
           "feed": "forums/payment-processing.101/index.rss",
           "childboards": [
             {
@@ -271,21 +271,21 @@
             }
           ],
           "lastpost": {
-            "title": "❇️ Start Processing Payments in just 1 Day | Try A-Pay",
-            "link": "https://forums.digitalpoint.com/posts/19766977/",
-            "user": "A-Pay",
-            "user_link": "https://www.digitalpoint.com/members/a-pay.1084711/",
-            "date": "Dec 19, 2024 at 2:29 AM"
+            "title": "Focused on High-Risk? So Are We — Meet BazPay",
+            "link": "https://forums.digitalpoint.com/posts/19774162/",
+            "user": "BazPAY",
+            "user_link": "https://www.digitalpoint.com/members/bazpay.1026911/",
+            "date": "1748971548"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Social Networks",
           "link": "https://forums.digitalpoint.com/forums/social-networks.118/",
           "description": "Discussion about how to utilize social networks as a marketing tool. This is NOT for requests to join social networks or communities.",
-          "topics": 16527,
-          "posts": 161541,
+          "topics": 16535,
+          "posts": 161628,
           "feed": "forums/social-networks.118/index.rss",
           "childboards": [
             {
@@ -310,57 +310,57 @@
             }
           ],
           "lastpost": {
-            "title": "What are your best Instagram tips?",
-            "link": "https://forums.digitalpoint.com/posts/19767537/",
-            "user": "rebecca_tucker",
-            "user_link": "https://www.digitalpoint.com/members/rebecca_tucker.1094631/",
-            "date": "1736158794"
+            "title": "TELEGRAM MASS DM (1K - 35 USD) - Telegram : @ContactTelegramSolutions",
+            "link": "https://forums.digitalpoint.com/posts/19774159/",
+            "user": "JustTShop",
+            "user_link": "https://www.digitalpoint.com/members/justtshop.1103925/",
+            "date": "1748961897"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Link Development",
           "link": "https://forums.digitalpoint.com/forums/link-development.13/",
           "description": "Discuss how you can build links for your website(s). This is <strong>not</strong> for link exchange requests.",
-          "topics": 25126,
-          "posts": 269216,
+          "topics": 25131,
+          "posts": 269244,
           "feed": "forums/link-development.13/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "most effective external link-building methods",
-            "link": "https://forums.digitalpoint.com/posts/19767434/",
-            "user": "Save Files",
-            "user_link": "https://www.digitalpoint.com/members/save-files.1094420/",
-            "date": "1735836685"
+            "title": "Backlinks checker",
+            "link": "https://forums.digitalpoint.com/posts/19773553/",
+            "user": "Artisan",
+            "user_link": "https://www.digitalpoint.com/members/artisan.67093/",
+            "date": "May 17, 2025 at 3:27 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Legal Issues",
           "link": "https://forums.digitalpoint.com/forums/legal-issues.44/",
           "description": "Dedicated to the discussion of legal issues that businesses (or individuals) deal with (including but not limited to trademark, copyright, patent, slander, libel, etc.)",
-          "topics": 8994,
-          "posts": 78469,
+          "topics": 8995,
+          "posts": 78473,
           "feed": "forums/legal-issues.44/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "My DoorDash account was unexpectedly deactivated, and I'm unsure why.",
-            "link": "https://forums.digitalpoint.com/posts/19766830/",
-            "user": "Petergoff",
-            "user_link": "https://www.digitalpoint.com/members/petergoff.1032605/",
-            "date": "Dec 16, 2024 at 12:30 PM"
+            "title": "Accessibility - stricter laws",
+            "link": "https://forums.digitalpoint.com/posts/19769554/",
+            "user": "baspiron",
+            "user_link": "https://www.digitalpoint.com/members/baspiron.1097657/",
+            "date": "Feb 20, 2025 at 7:37 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Domain Names",
           "link": "https://forums.digitalpoint.com/forums/domain-names.45/",
           "description": "For discussion related to registration, transfers, reselling, etc.",
-          "topics": 50050,
-          "posts": 294999,
+          "topics": 50059,
+          "posts": 295033,
           "feed": "forums/domain-names.45/index.rss",
           "childboards": [
             {
@@ -369,21 +369,21 @@
             }
           ],
           "lastpost": {
-            "title": "To .com or another extension?",
-            "link": "https://forums.digitalpoint.com/posts/19767452/",
-            "user": "nicenic",
-            "user_link": "https://www.digitalpoint.com/members/nicenic.747518/",
-            "date": "1735874198"
+            "title": "Coinbtc(.net) what iş the value of it",
+            "link": "https://forums.digitalpoint.com/posts/19774018/",
+            "user": "Wbmaan",
+            "user_link": "https://www.digitalpoint.com/members/wbmaan.1105524/",
+            "date": "1748506006"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Copywriting",
           "link": "https://forums.digitalpoint.com/forums/copywriting.86/",
           "description": "For copywriters writing original content, and related issues content writers face. This is NOT the place for discussion about CMS or autogenerated content techniques. If you are offering or looking for copywriting services, please use <a href=\"/forums/content-creation.102/\">the Content Creation forum</a>.",
-          "topics": 4106,
-          "posts": 57812,
+          "topics": 4109,
+          "posts": 57847,
           "feed": "forums/copywriting.86/index.rss",
           "childboards": [
             {
@@ -392,39 +392,39 @@
             }
           ],
           "lastpost": {
-            "title": "Tools for checking the uniqueness of the text",
-            "link": "https://forums.digitalpoint.com/posts/19767180/",
-            "user": "MivoCloud",
-            "user_link": "https://www.digitalpoint.com/members/mivocloud.1090065/",
-            "date": "Dec 24, 2024 at 7:12 AM"
+            "title": "Wanting to start copywriting",
+            "link": "https://forums.digitalpoint.com/posts/19773514/",
+            "user": "Artfundi",
+            "user_link": "https://www.digitalpoint.com/members/artfundi.1104649/",
+            "date": "May 16, 2025 at 7:11 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "eCommerce",
           "link": "https://forums.digitalpoint.com/forums/ecommerce.115/",
           "description": "Area for discussion on eCommerce and shopping carts for your business.",
-          "topics": 4377,
-          "posts": 32295,
+          "topics": 4392,
+          "posts": 32376,
           "feed": "forums/ecommerce.115/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "What were you struggling with being newbie in e-com?",
-            "link": "https://forums.digitalpoint.com/posts/19766682/",
-            "user": "pallavitechgeek",
-            "user_link": "https://www.digitalpoint.com/members/pallavitechgeek.1087911/",
-            "date": "Dec 10, 2024 at 10:04 PM"
+            "title": "What to Look for in a E-Commerce Web Development Service?",
+            "link": "https://forums.digitalpoint.com/posts/19774151/",
+            "user": "jessicaherron9",
+            "user_link": "https://www.digitalpoint.com/members/jessicaherron9.977510/",
+            "date": "1748949586"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Pay Per Click Advertising",
           "link": "https://forums.digitalpoint.com/forums/pay-per-click-advertising.20/",
           "description": "PPC marketing discussion. If you are discussing a specific pay per click network that there is a sub-forum for, please put your threads in the appropriate sub-forum.",
-          "topics": 37552,
-          "posts": 302079,
+          "topics": 37569,
+          "posts": 302054,
           "feed": "forums/pay-per-click-advertising.20/index.rss",
           "childboards": [
             {
@@ -445,21 +445,21 @@
             }
           ],
           "lastpost": {
-            "title": "Playmatic.video - In-Stream/Banners, HOT GEOs Africa, LatAm, Europe etc... [High CPM]",
-            "link": "https://forums.digitalpoint.com/posts/19767508/",
-            "user": "Save Files",
-            "user_link": "https://www.digitalpoint.com/members/save-files.1094420/",
-            "date": "1736028393"
+            "title": "HilltopAds Network - The Best Solution for Advertisers & Publishers | [Official Thread]",
+            "link": "https://forums.digitalpoint.com/posts/19774154/",
+            "user": "HilltopAds_network",
+            "user_link": "https://www.digitalpoint.com/members/hilltopads_network.1087363/",
+            "date": "1748952247"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Affiliate Programs",
           "link": "https://forums.digitalpoint.com/forums/affiliate-programs.22/",
           "description": "Discussion for affiliate programs. Offers from affiliate programs are allowed as long as the user making the offer is an active member of this forum.",
-          "topics": 57885,
-          "posts": 584145,
+          "topics": 57890,
+          "posts": 584208,
           "feed": "forums/affiliate-programs.22/index.rss",
           "childboards": [
             {
@@ -492,28 +492,28 @@
             }
           ],
           "lastpost": {
-            "title": "Qwikad.com Affiliate Program",
-            "link": "https://forums.digitalpoint.com/posts/19764749/",
-            "user": "qwikad.com",
-            "user_link": "https://www.digitalpoint.com/members/qwikad-com.687111/",
-            "date": "1735640666"
+            "title": "[Affiliate Opportunity] 20% Lifetime Commission – Product Photo Editing",
+            "link": "https://forums.digitalpoint.com/posts/19774035/",
+            "user": "bijutoha",
+            "user_link": "https://www.digitalpoint.com/members/bijutoha.728637/",
+            "date": "1748522252"
           }
         }
       ]
     },
     {
       "name": "Design",
-      "link": "https://forums.digitalpoint.com/.#design.15",
+      "link": "https://forums.digitalpoint.com/#design.15",
       "description": "",
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "HTML & Website Design",
           "link": "https://forums.digitalpoint.com/forums/html-website-design.16/",
           "description": "Place to talk about website design and get help with HTML, CSS, DHTML, etc.",
-          "topics": 44698,
-          "posts": 256431,
+          "topics": 44703,
+          "posts": 256478,
           "feed": "forums/html-website-design.16/index.rss",
           "childboards": [
             {
@@ -522,21 +522,21 @@
             }
           ],
           "lastpost": {
-            "title": "Increase the margin",
-            "link": "https://forums.digitalpoint.com/posts/19766579/",
-            "user": "mayazir",
-            "user_link": "https://www.digitalpoint.com/members/mayazir.939167/",
-            "date": "Dec 7, 2024 at 6:44 AM"
+            "title": "Is this site a WordPress theme or a custom design?",
+            "link": "https://forums.digitalpoint.com/posts/19773755/",
+            "user": "MomentumWave",
+            "user_link": "https://www.digitalpoint.com/members/momentumwave.1104101/",
+            "date": "May 22, 2025 at 4:33 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Graphics & Multimedia",
           "link": "https://forums.digitalpoint.com/forums/graphics-multimedia.55/",
           "description": "For anything related to graphics, video, sound, etc.",
-          "topics": 13100,
-          "posts": 91414,
+          "topics": 13102,
+          "posts": 91426,
           "feed": "forums/graphics-multimedia.55/index.rss",
           "childboards": [
             {
@@ -549,21 +549,21 @@
             }
           ],
           "lastpost": {
-            "title": "Need to create a colorful font",
-            "link": "https://forums.digitalpoint.com/posts/19767373/",
-            "user": "mayazir",
-            "user_link": "https://www.digitalpoint.com/members/mayazir.939167/",
-            "date": "1735755731"
+            "title": "Zoom in-Window and Stream Lines",
+            "link": "https://forums.digitalpoint.com/posts/19774156/",
+            "user": "Clipping Path",
+            "user_link": "https://www.digitalpoint.com/members/clipping-path.769238/",
+            "date": "1748959818"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Content Management",
           "link": "https://forums.digitalpoint.com/forums/content-management.51/",
           "description": "Topics include content management systems (includes the sub-forum about blogging).",
           "topics": 49115,
-          "posts": 279613,
+          "posts": 279624,
           "feed": "forums/content-management.51/index.rss",
           "childboards": [
             {
@@ -597,27 +597,27 @@
           ],
           "lastpost": {
             "title": "\"Need Guidance for Improving WordPress Website Design",
-            "link": "https://forums.digitalpoint.com/posts/19767539/",
-            "user": "AliHassan.01",
-            "user_link": "https://www.digitalpoint.com/members/alihassan-01.1092413/",
-            "date": "1736163065"
+            "link": "https://forums.digitalpoint.com/posts/19772922/",
+            "user": "farooqwani",
+            "user_link": "https://www.digitalpoint.com/members/farooqwani.241960/",
+            "date": "Apr 29, 2025 at 10:29 AM"
           }
         }
       ]
     },
     {
       "name": "Development",
-      "link": "https://forums.digitalpoint.com/.#development.9",
+      "link": "https://forums.digitalpoint.com/#development.9",
       "description": "",
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Programming",
           "link": "https://forums.digitalpoint.com/forums/programming.17/",
           "description": "Anything related to programming... PHP, PERL, ASP, ColdFusion, C++, etc.",
-          "topics": 63092,
-          "posts": 292792,
+          "topics": 63096,
+          "posts": 292823,
           "feed": "forums/programming.17/index.rss",
           "childboards": [
             {
@@ -646,21 +646,21 @@
             }
           ],
           "lastpost": {
-            "title": "How do I establish an open connection to an open web browser in C#?",
-            "link": "https://forums.digitalpoint.com/posts/19767290/",
-            "user": "GreenHost.Cloud",
-            "user_link": "https://www.digitalpoint.com/members/greenhost-cloud.1059111/",
-            "date": "Dec 28, 2024 at 8:34 AM"
+            "title": "Does foreach() work within for()?",
+            "link": "https://forums.digitalpoint.com/posts/19774008/",
+            "user": "debitcard",
+            "user_link": "https://www.digitalpoint.com/members/debitcard.458565/",
+            "date": "1748498443"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Site & Server Administration",
           "link": "https://forums.digitalpoint.com/forums/site-server-administration.18/",
           "description": "Need help with server administration? Things like mod_rewrite, .htaccess, Apache configuration and log analysis are discussed here.",
-          "topics": 42862,
-          "posts": 273785,
+          "topics": 42898,
+          "posts": 274071,
           "feed": "forums/site-server-administration.18/index.rss",
           "childboards": [
             {
@@ -749,21 +749,21 @@
             }
           ],
           "lastpost": {
-            "title": "i need reseller hosting server",
-            "link": "https://forums.digitalpoint.com/posts/19767507/",
-            "user": "Save Files",
-            "user_link": "https://www.digitalpoint.com/members/save-files.1094420/",
-            "date": "1736028347"
+            "title": "How to use AI for SEO promotion? Do you have any better methods or experiences to share?",
+            "link": "https://forums.digitalpoint.com/posts/19774102/",
+            "user": "qwikad.com",
+            "user_link": "https://www.digitalpoint.com/members/qwikad-com.687111/",
+            "date": "1748922011"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Databases",
           "link": "https://forums.digitalpoint.com/forums/databases.57/",
           "description": "Dedicated to database and SQL related topics (MySQL, PostgreSQL, Oracle, SQL Server, etc.).",
-          "topics": 6546,
-          "posts": 30646,
+          "topics": 6548,
+          "posts": 30650,
           "feed": "forums/databases.57/index.rss",
           "childboards": [
             {
@@ -772,28 +772,28 @@
             }
           ],
           "lastpost": {
-            "title": "MySQL calculator tools",
-            "link": "https://forums.digitalpoint.com/posts/19766468/",
-            "user": "JamesDonny",
-            "user_link": "https://www.digitalpoint.com/members/jamesdonny.1092561/",
-            "date": "Dec 4, 2024 at 2:33 AM"
+            "title": "Any ERD tool for MySQL?",
+            "link": "https://forums.digitalpoint.com/posts/19772367/",
+            "user": "GreenHost.Cloud",
+            "user_link": "https://www.digitalpoint.com/members/greenhost-cloud.1059111/",
+            "date": "Apr 20, 2025 at 1:14 AM"
           }
         }
       ]
     },
     {
       "name": "Buy, Sell or Trade",
-      "link": "https://forums.digitalpoint.com/.#buy-sell-or-trade.32",
+      "link": "https://forums.digitalpoint.com/#buy-sell-or-trade.32",
       "description": "",
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Sites",
           "link": "https://forums.digitalpoint.com/forums/sites.52/",
           "description": "If you are buying or selling an entire website, this is the place to do it. This is for domains <strong>with</strong> content (not just domains).",
-          "topics": 149501,
-          "posts": 973601,
+          "topics": 149512,
+          "posts": 973633,
           "feed": "forums/sites.52/index.rss",
           "childboards": [
             {
@@ -802,21 +802,21 @@
             }
           ],
           "lastpost": {
-            "title": "More than 4000 original photos of American pitbull terrier dogs, dogmans and history pictures",
-            "link": "https://forums.digitalpoint.com/posts/19764966/",
-            "user": "bcb",
-            "user_link": "https://www.digitalpoint.com/members/bcb.143306/",
-            "date": "1736077122"
+            "title": "CoolTeamNames.com AdSense approved",
+            "link": "https://forums.digitalpoint.com/posts/19773988/",
+            "user": "senecacollege",
+            "user_link": "https://www.digitalpoint.com/members/senecacollege.126848/",
+            "date": "1748446593"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Domains",
           "link": "https://forums.digitalpoint.com/forums/domains.59/",
           "description": "Selling a domain or looking for a domain? This is the place. This is <strong>not</strong> for <a href=\"/forums/appraisals.61/\">domain appraisals</a>.",
-          "topics": 182657,
-          "posts": 611104,
+          "topics": 182664,
+          "posts": 611116,
           "feed": "forums/domains.59/index.rss",
           "childboards": [
             {
@@ -825,52 +825,52 @@
             }
           ],
           "lastpost": {
-            "title": "Web hosting portal",
-            "link": "https://forums.digitalpoint.com/posts/19767527/",
-            "user": "bcb",
-            "user_link": "https://www.digitalpoint.com/members/bcb.143306/",
-            "date": "1736078110"
+            "title": "MegaNews.cc for SALE",
+            "link": "https://forums.digitalpoint.com/posts/19773002/",
+            "user": "suganux",
+            "user_link": "https://www.digitalpoint.com/members/suganux.187304/",
+            "date": "May 2, 2025 at 3:25 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Design Contests",
           "link": "https://forums.digitalpoint.com/forums/design-contests.94/",
           "description": "This would be the place to hold design contests (logos, t-shirts, icons, business cards, etc).",
-          "topics": 39527,
-          "posts": 782906,
+          "topics": 39594,
+          "posts": 785327,
           "feed": "forums/design-contests.94/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "$100 - Restaurant/Cafe - Logo - 3 days",
-            "link": "https://forums.digitalpoint.com/posts/19767522/",
-            "user": "jnjnnino",
-            "user_link": "https://www.digitalpoint.com/members/jnjnnino.236104/",
-            "date": "1736072469"
+            "title": "Logo design contest for",
+            "link": "https://forums.digitalpoint.com/posts/19774171/",
+            "user": "MikeRon",
+            "user_link": "https://www.digitalpoint.com/members/mikeron.964156/",
+            "date": "1748983711"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Advertising",
           "link": "https://forums.digitalpoint.com/forums/advertising.90/",
           "description": "This area can be used for advertising (both buying and selling).",
-          "topics": 25121,
-          "posts": 107678,
+          "topics": 25124,
+          "posts": 107693,
           "feed": "forums/advertising.90/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "Advertising for Freelancer/Marketplace Community",
-            "link": "https://forums.digitalpoint.com/posts/19766751/",
-            "user": "ForgottenCreature",
-            "user_link": "https://www.digitalpoint.com/members/forgottencreature.7026/",
-            "date": "Dec 12, 2024 at 6:02 PM"
+            "title": "Sellng Ad Space on My Blog",
+            "link": "https://forums.digitalpoint.com/posts/19774031/",
+            "user": "luke walker",
+            "user_link": "https://www.digitalpoint.com/members/luke-walker.1103994/",
+            "date": "1748515277"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Secondhand Licenses",
           "link": "https://forums.digitalpoint.com/forums/secondhand-licenses.148/",
           "description": "Are where you can buy and sell used server software licenses/scripts.",
@@ -888,12 +888,12 @@
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Services",
           "link": "https://forums.digitalpoint.com/forums/services.60/",
           "description": "If you are looking for (or offering) services, this is the forum to use. This includes job listings, etc.",
-          "topics": 280586,
-          "posts": 1501767,
+          "topics": 280642,
+          "posts": 1501930,
           "feed": "forums/services.60/index.rss",
           "childboards": [
             {
@@ -918,16 +918,16 @@
             }
           ],
           "lastpost": {
-            "title": "High-quality articles for ONLY $1/100 words (NO AI)",
-            "link": "https://forums.digitalpoint.com/posts/19767540/",
-            "user": "deltamas",
-            "user_link": "https://www.digitalpoint.com/members/deltamas.414228/",
-            "date": "1736165743"
+            "title": "Uptime Monitoring & Server Monitoring - Minimize your downtime by being the first to know about it!",
+            "link": "https://forums.digitalpoint.com/posts/19734247/",
+            "user": "Duster200",
+            "user_link": "https://www.digitalpoint.com/members/duster200.1007214/",
+            "date": "1748965061"
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "Plug-ins/Add-ons",
           "link": "https://marketplace.digitalpoint.com/plug-ins-add-ons.1/category",
           "description": "Marketplace for platforms supporting addon/plug-in architectures.",
@@ -937,15 +937,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "Templates/Styles",
           "link": "https://marketplace.digitalpoint.com/templates-styles.2/category",
           "description": "Styles and templates for various content management systems.",
@@ -955,15 +955,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "Scripts",
           "link": "https://marketplace.digitalpoint.com/scripts.3/category",
           "description": "This is where you can buy stand-alone scripts that you can install on your website",
@@ -973,15 +973,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "Designs",
           "link": "https://marketplace.digitalpoint.com/designs.26/category",
           "description": "Area to sell pre-made graphic work (both vector and raster based).",
@@ -991,15 +991,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "eBooks",
           "link": "https://marketplace.digitalpoint.com/ebooks.4/category",
           "description": "Area to sell digital books in PDF format.",
@@ -1009,15 +1009,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "Articles",
           "link": "https://marketplace.digitalpoint.com/articles",
           "description": "A place to buy and sell original articles.",
@@ -1027,9 +1027,9 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         }
@@ -1037,35 +1037,35 @@
     },
     {
       "name": "The Digital Point",
-      "link": "https://forums.digitalpoint.com/.#the-digital-point.1",
+      "link": "https://forums.digitalpoint.com/#the-digital-point.1",
       "description": "",
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Introductions",
           "link": "https://forums.digitalpoint.com/forums/introductions.2/",
           "description": "Introduce yourself to the world!",
-          "topics": 38868,
-          "posts": 239060,
+          "topics": 38882,
+          "posts": 239154,
           "feed": "forums/introductions.2/index.rss",
           "childboards": [],
           "lastpost": {
-            "title": "Diving In to Connect and Contribute!",
-            "link": "https://forums.digitalpoint.com/posts/19767175/",
-            "user": "Alish Fridmann",
-            "user_link": "https://www.digitalpoint.com/members/alish-fridmann.1081291/",
-            "date": "Dec 24, 2024 at 2:16 AM"
+            "title": "Back After a Long Time – Hello Again!",
+            "link": "https://forums.digitalpoint.com/posts/19774163/",
+            "user": "Spoiltdiva",
+            "user_link": "https://www.digitalpoint.com/members/spoiltdiva.563144/",
+            "date": "1748972505"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "General Chat",
           "link": "https://forums.digitalpoint.com/forums/general-chat.19/",
           "description": "Anything your heart desires can be posted here (assuming of course there's not already a different area for it).",
-          "topics": 100687,
-          "posts": 1934985,
+          "topics": 100714,
+          "posts": 1935279,
           "feed": "forums/general-chat.19/index.rss",
           "childboards": [
             {
@@ -1090,21 +1090,21 @@
             }
           ],
           "lastpost": {
-            "title": "Best Affiliate Programs for Beginners in 2025",
-            "link": "https://forums.digitalpoint.com/posts/19767535/",
-            "user": "RockOn4",
-            "user_link": "https://www.digitalpoint.com/members/rockon4.981707/",
-            "date": "1736156919"
+            "title": "How many PLLs?",
+            "link": "https://forums.digitalpoint.com/posts/19774053/",
+            "user": "vodafone",
+            "user_link": "https://www.digitalpoint.com/members/vodafone.94206/",
+            "date": "1748562530"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Products & Tools",
           "link": "https://forums.digitalpoint.com/forums/products-tools.14/",
           "description": "For anything related to products and tools that don't have their own dedicated section.",
-          "topics": 15526,
-          "posts": 102307,
+          "topics": 15528,
+          "posts": 102318,
           "feed": "forums/products-tools.14/index.rss",
           "childboards": [
             {
@@ -1141,21 +1141,21 @@
             }
           ],
           "lastpost": {
-            "title": "Best Tool to Convert OST Files to PST",
-            "link": "https://forums.digitalpoint.com/posts/19767387/",
-            "user": "ahmed aro",
-            "user_link": "https://www.digitalpoint.com/members/ahmed-aro.879330/",
-            "date": "1735792685"
+            "title": "What is Keyword Tracker for?",
+            "link": "https://forums.digitalpoint.com/posts/19772389/",
+            "user": "Yostymaloney",
+            "user_link": "https://www.digitalpoint.com/members/yostymaloney.1101563/",
+            "date": "Apr 20, 2025 at 10:08 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Reviews",
           "link": "https://forums.digitalpoint.com/forums/reviews.91/",
           "description": "For anything that is specific to you and requires someone to go look at whatever it is.",
-          "topics": 62238,
-          "posts": 566709,
+          "topics": 62259,
+          "posts": 566805,
           "feed": "forums/reviews.91/index.rss",
           "childboards": [
             {
@@ -1172,21 +1172,21 @@
             }
           ],
           "lastpost": {
-            "title": "Plz Review my Page Updates",
-            "link": "https://forums.digitalpoint.com/posts/19767511/",
-            "user": "Save Files",
-            "user_link": "https://www.digitalpoint.com/members/save-files.1094420/",
-            "date": "1736028624"
+            "title": "Help Us Improve Temploop.net – We’d Love Your Feedback!",
+            "link": "https://forums.digitalpoint.com/posts/19773909/",
+            "user": "twistgripper",
+            "user_link": "https://www.digitalpoint.com/members/twistgripper.1030100/",
+            "date": "May 26, 2025 at 10:48 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Support & Feedback",
           "link": "https://forums.digitalpoint.com/forums/support-feedback.3/",
           "description": "Something you do or don't like? Let us know. This is also the place for questions regarding this forum.",
-          "topics": 18004,
-          "posts": 153797,
+          "topics": 18013,
+          "posts": 153825,
           "feed": "forums/support-feedback.3/index.rss",
           "childboards": [
             {
@@ -1203,16 +1203,16 @@
             }
           ],
           "lastpost": {
-            "title": "Can't bump/relist my site selling listing",
-            "link": "https://forums.digitalpoint.com/posts/19767481/",
-            "user": "VHRSeller",
-            "user_link": "https://www.digitalpoint.com/members/vhrseller.935314/",
-            "date": "1735930794"
+            "title": "How To Sell Bots?",
+            "link": "https://forums.digitalpoint.com/posts/19773903/",
+            "user": "sarahk",
+            "user_link": "https://www.digitalpoint.com/members/sarahk.29/",
+            "date": "May 26, 2025 at 7:26 PM"
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "The Underground",
           "link": "https://forums.digitalpoint.com/forums/the-underground.28/",
           "description": "This forum is only accessible by registered users.",
@@ -1222,15 +1222,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "Area 51",
           "link": "https://forums.digitalpoint.com/forums/area-51.127/",
           "description": "This is a private forum for premium members only (secret alien experiments happen here). You can become a premium member by visiting <a href=\"/account/upgrades\">this page</a>.",
@@ -1249,9 +1249,9 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         }

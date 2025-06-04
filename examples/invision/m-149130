@@ -1,21 +1,21 @@
 {
-  "format_version": "invision-4-user",
+  "format_version": "invision-4+-user",
   "url": "https://invisioncommunity.com/profile/149130-alexj/?do=hovercard",
   "id": 149130,
   "name": "AlexJ",
-  "background": "https://media.invisioncic.com/a319035/set_resources_23/84c1e40ea0e759e3f1505eb1788ddf3c_pattern.png",
+  "background": "",
   "avatar": "https://media.invisioncic.com/a319035/monthly_2023_02/large.8466462590_bd62f13e8e_o.jpg.8f3e477af0736c7c5211275770fed7ef.thumb.jpg.ac44917bbd02f969d037933c94bb5db1.jpg",
-  "group": "Members",
-  "joined": "",
-  "lastseen": "",
+  "group": "Clients",
+  "joined": "2009-10-13T01:00:39Z",
+  "lastseen": "2025-06-01T04:15:58Z",
   "info": [
     {
       "name": "Posts",
-      "value": "4.2k"
+      "value": "4.3k"
     },
     {
       "name": "Reputation",
-      "value": "728"
+      "value": "736"
     },
     {
       "name": "Badges",

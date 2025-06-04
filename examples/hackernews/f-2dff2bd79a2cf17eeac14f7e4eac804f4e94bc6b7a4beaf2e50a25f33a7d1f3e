@@ -3,423 +3,423 @@
   "url": "https://news.ycombinator.com/ask",
   "threads": [
     {
-      "id": 42610632,
-      "link": "https://news.ycombinator.com/item?id=42610632",
-      "title": "Ask HN: How to correctly search for jobs on LinkedIn?",
-      "score": 2,
-      "date": "2025-01-06T14:05:30 1736172330",
+      "id": 44173581,
+      "link": "https://news.ycombinator.com/item?id=44173581",
+      "title": "Ask HN: Options for One-Handed Typing",
+      "score": 42,
+      "date": "2025-06-03T19:17:50 1748978270",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=psim1",
-        "name": "psim1"
-      },
-      "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=42610632",
-      "text": ""
-    },
-    {
-      "id": 42602900,
-      "link": "https://news.ycombinator.com/item?id=42602900",
-      "title": "Ask HN: Spending Tracking Tools",
-      "score": 57,
-      "date": "2025-01-05T16:35:07 1736094907",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=dyeje",
-        "name": "dyeje"
-      },
-      "comments_count": 75,
-      "comments_link": "https://news.ycombinator.com/item?id=42602900",
-      "text": ""
-    },
-    {
-      "id": 42604529,
-      "link": "https://news.ycombinator.com/item?id=42604529",
-      "title": "Ask HN: Favorite blog in 2024?",
-      "score": 174,
-      "date": "2025-01-05T19:58:39 1736107119",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=s-a-p",
-        "name": "s-a-p"
-      },
-      "comments_count": 71,
-      "comments_link": "https://news.ycombinator.com/item?id=42604529",
-      "text": ""
-    },
-    {
-      "id": 42609272,
-      "link": "https://news.ycombinator.com/item?id=42609272",
-      "title": "Ask HN: How do you remotely monitor cognitive performance in the eldery?",
-      "score": 3,
-      "date": "2025-01-06T10:15:28 1736158528",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=nobodywillobsrv",
-        "name": "nobodywillobsrv"
-      },
-      "comments_count": 5,
-      "comments_link": "https://news.ycombinator.com/item?id=42609272",
-      "text": ""
-    },
-    {
-      "id": 42607269,
-      "link": "https://news.ycombinator.com/item?id=42607269",
-      "title": "Ask HN: An invoicing platform specifically for Freelancers",
-      "score": 6,
-      "date": "2025-01-06T03:15:40 1736133340",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=wdunkley",
-        "name": "wdunkley"
-      },
-      "comments_count": 8,
-      "comments_link": "https://news.ycombinator.com/item?id=42607269",
-      "text": ""
-    },
-    {
-      "id": 42610236,
-      "link": "https://news.ycombinator.com/item?id=42610236",
-      "title": "Ask HN: Have you considered outsourcing your side projects?",
-      "score": 7,
-      "date": "2025-01-06T13:07:16 1736168836",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=croqueton",
-        "name": "croqueton"
-      },
-      "comments_count": 3,
-      "comments_link": "https://news.ycombinator.com/item?id=42610236",
-      "text": ""
-    },
-    {
-      "id": 42609010,
-      "link": "https://news.ycombinator.com/item?id=42609010",
-      "title": "Ask HN: What are some (weird) ways you're using ChatGPT?",
-      "score": 8,
-      "date": "2025-01-06T09:17:59 1736155079",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=pknerd",
-        "name": "pknerd"
-      },
-      "comments_count": 17,
-      "comments_link": "https://news.ycombinator.com/item?id=42609010",
-      "text": ""
-    },
-    {
-      "id": 42573232,
-      "link": "https://news.ycombinator.com/item?id=42573232",
-      "title": "Ask HN: How are you using LLMs for traversing decompiler output?",
-      "score": 100,
-      "date": "2025-01-02T10:16:26 1735812986",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=mjbale116",
-        "name": "mjbale116"
-      },
-      "comments_count": 42,
-      "comments_link": "https://news.ycombinator.com/item?id=42573232",
-      "text": ""
-    },
-    {
-      "id": 42557947,
-      "link": "https://news.ycombinator.com/item?id=42557947",
-      "title": "Ask HN: How to learn marketing and sales as a solo entrepreneur?",
-      "score": 481,
-      "date": "2024-12-31T11:01:13 1735642873",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=yu3zhou4",
-        "name": "yu3zhou4"
-      },
-      "comments_count": 195,
-      "comments_link": "https://news.ycombinator.com/item?id=42557947",
-      "text": ""
-    },
-    {
-      "id": 42606542,
-      "link": "https://news.ycombinator.com/item?id=42606542",
-      "title": "Ask HN: Why do/don't you use C?",
-      "score": 9,
-      "date": "2025-01-06T01:06:50 1736125610",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=purple-leafy",
-        "name": "purple-leafy"
-      },
-      "comments_count": 17,
-      "comments_link": "https://news.ycombinator.com/item?id=42606542",
-      "text": ""
-    },
-    {
-      "id": 42575537,
-      "link": "https://news.ycombinator.com/item?id=42575537",
-      "title": "Ask HN: Who is hiring? (January 2025)",
-      "score": 323,
-      "date": "2025-01-02T16:00:09 1735833609",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=whoishiring",
-        "name": "whoishiring"
-      },
-      "comments_count": 350,
-      "comments_link": "https://news.ycombinator.com/item?id=42575537",
-      "text": ""
-    },
-    {
-      "id": 42577076,
-      "link": "https://news.ycombinator.com/item?id=42577076",
-      "title": "Tell HN: Impassable Cloudflare challenges are ruining my browsing experience",
-      "score": 508,
-      "date": "2025-01-02T18:19:48 1735841988",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=blakeashleyjr",
-        "name": "blakeashleyjr"
-      },
-      "comments_count": 296,
-      "comments_link": "https://news.ycombinator.com/item?id=42577076",
-      "text": ""
-    },
-    {
-      "id": 42605454,
-      "link": "https://news.ycombinator.com/item?id=42605454",
-      "title": "Ask HN: Is it a bad idea to make an email domain with an uncommon TLD?",
-      "score": 26,
-      "date": "2025-01-05T22:06:59 1736114819",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=hackerbabz",
-        "name": "hackerbabz"
-      },
-      "comments_count": 82,
-      "comments_link": "https://news.ycombinator.com/item?id=42605454",
-      "text": ""
-    },
-    {
-      "id": 42549145,
-      "link": "https://news.ycombinator.com/item?id=42549145",
-      "title": "Ask HN: What's Your Morning Routine?",
-      "score": 131,
-      "date": "2024-12-30T13:37:39 1735565859",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=seltzerboys",
-        "name": "seltzerboys"
-      },
-      "comments_count": 194,
-      "comments_link": "https://news.ycombinator.com/item?id=42549145",
-      "text": ""
-    },
-    {
-      "id": 42603116,
-      "link": "https://news.ycombinator.com/item?id=42603116",
-      "title": "Ask HN: What do you look for in a work monitor?",
-      "score": 4,
-      "date": "2025-01-05T17:02:16 1736096536",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=AbstractH24",
-        "name": "AbstractH24"
-      },
-      "comments_count": 4,
-      "comments_link": "https://news.ycombinator.com/item?id=42603116",
-      "text": ""
-    },
-    {
-      "id": 42575535,
-      "link": "https://news.ycombinator.com/item?id=42575535",
-      "title": "Ask HN: Who wants to be hired? (January 2025)",
-      "score": 126,
-      "date": "2025-01-02T16:00:09 1735833609",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=whoishiring",
-        "name": "whoishiring"
-      },
-      "comments_count": 324,
-      "comments_link": "https://news.ycombinator.com/item?id=42575535",
-      "text": ""
-    },
-    {
-      "id": 42604013,
-      "link": "https://news.ycombinator.com/item?id=42604013",
-      "title": "Ask HN: My 12 year-old nephew just got diagnosed with ADHD, any advice?",
-      "score": 19,
-      "date": "2025-01-05T18:55:14 1736103314",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=elgatolopez",
-        "name": "elgatolopez"
-      },
-      "comments_count": 67,
-      "comments_link": "https://news.ycombinator.com/item?id=42604013",
-      "text": ""
-    },
-    {
-      "id": 42600893,
-      "link": "https://news.ycombinator.com/item?id=42600893",
-      "title": "CTO / cofounder exit deal after 1.5y at 600k revenue without SHA",
-      "score": 45,
-      "date": "2025-01-05T10:28:30 1736072910",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=biphasic",
-        "name": "biphasic"
-      },
-      "comments_count": 66,
-      "comments_link": "https://news.ycombinator.com/item?id=42600893",
-      "text": ""
-    },
-    {
-      "id": 42551900,
-      "link": "https://news.ycombinator.com/item?id=42551900",
-      "title": "Tell HN: John Friel my father, internet pioneer and creator of QModem, has died",
-      "score": 1081,
-      "date": "2024-12-30T18:11:47 1735582307",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=AaronFriel",
-        "name": "AaronFriel"
-      },
-      "comments_count": 97,
-      "comments_link": "https://news.ycombinator.com/item?id=42551900",
-      "text": ""
-    },
-    {
-      "id": 42604765,
-      "link": "https://news.ycombinator.com/item?id=42604765",
-      "title": "Ask HN: Why don't companies make applicants pay a fee to apply to a job?",
-      "score": 5,
-      "date": "2025-01-05T20:29:40 1736108980",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=doomroot",
-        "name": "doomroot"
-      },
-      "comments_count": 26,
-      "comments_link": "https://news.ycombinator.com/item?id=42604765",
-      "text": ""
-    },
-    {
-      "id": 42562750,
-      "link": "https://news.ycombinator.com/item?id=42562750",
-      "title": "Happy New Year 2025",
-      "score": 1207,
-      "date": "2024-12-31T23:48:36 1735688916",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=martynvandijke",
-        "name": "martynvandijke"
-      },
-      "comments_count": 258,
-      "comments_link": "https://news.ycombinator.com/item?id=42562750",
-      "text": ""
-    },
-    {
-      "id": 42604516,
-      "link": "https://news.ycombinator.com/item?id=42604516",
-      "title": "Tell HN: The Quiet Collapse of US Defense Research Infrastructure",
-      "score": 14,
-      "date": "2025-01-05T19:57:46 1736107066",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=ipunchghosts",
-        "name": "ipunchghosts"
-      },
-      "comments_count": 11,
-      "comments_link": "https://news.ycombinator.com/item?id=42604516",
-      "text": ""
-    },
-    {
-      "id": 42600831,
-      "link": "https://news.ycombinator.com/item?id=42600831",
-      "title": "Ask HN: Why haven't we progressed in Consumer Robots?",
-      "score": 12,
-      "date": "2025-01-05T10:13:13 1736071993",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=halamadrid",
-        "name": "halamadrid"
-      },
-      "comments_count": 9,
-      "comments_link": "https://news.ycombinator.com/item?id=42600831",
-      "text": ""
-    },
-    {
-      "id": 42601619,
-      "link": "https://news.ycombinator.com/item?id=42601619",
-      "title": "Fully Featured Invoicing Platform for Freelancers",
-      "score": 4,
-      "date": "2025-01-05T13:30:35 1736083835",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=wdunkley",
-        "name": "wdunkley"
-      },
-      "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=42601619",
-      "text": ""
-    },
-    {
-      "id": 42588692,
-      "link": "https://news.ycombinator.com/item?id=42588692",
-      "title": "Who Is Using Rustls?",
-      "score": 16,
-      "date": "2025-01-03T19:29:08 1735932548",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=SGran",
-        "name": "SGran"
-      },
-      "comments_count": 0,
-      "comments_link": null,
-      "text": ""
-    },
-    {
-      "id": 42548480,
-      "link": "https://news.ycombinator.com/item?id=42548480",
-      "title": "Is there such a thing as \"private, interactive databases\" for SaaS's",
-      "score": 19,
-      "date": "2024-12-30T11:49:03 1735559343",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=alliewithane",
-        "name": "alliewithane"
-      },
-      "comments_count": 37,
-      "comments_link": "https://news.ycombinator.com/item?id=42548480",
-      "text": ""
-    },
-    {
-      "id": 42576434,
-      "link": "https://news.ycombinator.com/item?id=42576434",
-      "title": "Ask HN: How is your job search going?",
-      "score": 45,
-      "date": "2025-01-02T17:27:02 1735838822",
-      "user": {
-        "link": "https://news.ycombinator.com/user?id=notpushkin",
-        "name": "notpushkin"
+        "link": "https://news.ycombinator.com/user?id=Townley",
+        "name": "Townley"
       },
       "comments_count": 49,
-      "comments_link": "https://news.ycombinator.com/item?id=42576434",
+      "comments_link": "https://news.ycombinator.com/item?id=44173581",
       "text": ""
     },
     {
-      "id": 42573875,
-      "link": "https://news.ycombinator.com/item?id=42573875",
-      "title": "Ask HN: Where to Work After 40?",
-      "score": 301,
-      "date": "2025-01-02T12:33:04 1735821184",
+      "id": 44172465,
+      "link": "https://news.ycombinator.com/item?id=44172465",
+      "title": "Ask HN: What's with the repeated job posts on \"Who's hiring\"?",
+      "score": 33,
+      "date": "2025-06-03T17:30:50 1748971850",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=asim",
-        "name": "asim"
+        "link": "https://news.ycombinator.com/user?id=rafavento",
+        "name": "rafavento"
       },
-      "comments_count": 270,
-      "comments_link": "https://news.ycombinator.com/item?id=42573875",
+      "comments_count": 12,
+      "comments_link": "https://news.ycombinator.com/item?id=44172465",
       "text": ""
     },
     {
-      "id": 42600098,
-      "link": "https://news.ycombinator.com/item?id=42600098",
-      "title": "Ask HN: Succees in system design interviews without hands-on experience?",
-      "score": 2,
-      "date": "2025-01-05T06:11:43 1736057503",
+      "id": 44159528,
+      "link": "https://news.ycombinator.com/item?id=44159528",
+      "title": "Ask HN: Who is hiring? (June 2025)",
+      "score": 359,
+      "date": "2025-06-02T15:01:18 1748876478",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=maheshs",
-        "name": "maheshs"
+        "link": "https://news.ycombinator.com/user?id=whoishiring",
+        "name": "whoishiring"
       },
-      "comments_count": 2,
-      "comments_link": "https://news.ycombinator.com/item?id=42600098",
+      "comments_count": 391,
+      "comments_link": "https://news.ycombinator.com/item?id=44159528",
       "text": ""
     },
     {
-      "id": 42599932,
-      "link": "https://news.ycombinator.com/item?id=42599932",
-      "title": "Ask HN: Use data from chest HR strap with Fitbit/etc. algorithms?",
+      "id": 44158353,
+      "link": "https://news.ycombinator.com/item?id=44158353",
+      "title": "Ask HN: How do I learn robotics in 2025?",
+      "score": 367,
+      "date": "2025-06-02T12:58:10 1748869090",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=srijansriv",
+        "name": "srijansriv"
+      },
+      "comments_count": 93,
+      "comments_link": "https://news.ycombinator.com/item?id=44158353",
+      "text": ""
+    },
+    {
+      "id": 44170619,
+      "link": "https://news.ycombinator.com/item?id=44170619",
+      "title": "Reaching my first 100 users without money or audience (at 10K users now)",
+      "score": 18,
+      "date": "2025-06-03T14:38:53 1748961533",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=felixheikka",
+        "name": "felixheikka"
+      },
+      "comments_count": 3,
+      "comments_link": "https://news.ycombinator.com/item?id=44170619",
+      "text": ""
+    },
+    {
+      "id": 44173684,
+      "link": "https://news.ycombinator.com/item?id=44173684",
+      "title": "Ask HN: Resources for building AI agents for software development?",
       "score": 4,
-      "date": "2025-01-05T05:13:43 1736054023",
+      "date": "2025-06-03T19:27:09 1748978829",
       "user": {
-        "link": "https://news.ycombinator.com/user?id=apatheticonion",
-        "name": "apatheticonion"
+        "link": "https://news.ycombinator.com/user?id=nadis",
+        "name": "nadis"
+      },
+      "comments_count": 3,
+      "comments_link": "https://news.ycombinator.com/item?id=44173684",
+      "text": ""
+    },
+    {
+      "id": 44142224,
+      "link": "https://news.ycombinator.com/item?id=44142224",
+      "title": "Ask HN: How do I learn practical electronic repair?",
+      "score": 152,
+      "date": "2025-05-31T06:14:47 1748672087",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=juanse",
+        "name": "juanse"
+      },
+      "comments_count": 98,
+      "comments_link": "https://news.ycombinator.com/item?id=44142224",
+      "text": ""
+    },
+    {
+      "id": 44173353,
+      "link": "https://news.ycombinator.com/item?id=44173353",
+      "title": "Ask HN: Most (Writing) Tools Are AI-Enabled, Not AI-First. What's Still Missing?",
+      "score": 3,
+      "date": "2025-06-03T18:55:47 1748976947",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=Danao",
+        "name": "Danao"
       },
       "comments_count": 1,
-      "comments_link": "https://news.ycombinator.com/item?id=42599932",
+      "comments_link": "https://news.ycombinator.com/item?id=44173353",
+      "text": ""
+    },
+    {
+      "id": 44159525,
+      "link": "https://news.ycombinator.com/item?id=44159525",
+      "title": "Ask HN: Who wants to be hired? (June 2025)",
+      "score": 122,
+      "date": "2025-06-02T15:01:18 1748876478",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=whoishiring",
+        "name": "whoishiring"
+      },
+      "comments_count": 335,
+      "comments_link": "https://news.ycombinator.com/item?id=44159525",
+      "text": ""
+    },
+    {
+      "id": 44173039,
+      "link": "https://news.ycombinator.com/item?id=44173039",
+      "title": "Ask HN: How do you struggle with/optimize for deep,sustained focus?",
+      "score": 5,
+      "date": "2025-06-03T18:24:43 1748975083",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jenever",
+        "name": "jenever"
+      },
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=44173039",
+      "text": ""
+    },
+    {
+      "id": 44144473,
+      "link": "https://news.ycombinator.com/item?id=44144473",
+      "title": "Ask HN: Anyone making a living from a paid API?",
+      "score": 239,
+      "date": "2025-05-31T14:23:49 1748701429",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=meander_water",
+        "name": "meander_water"
+      },
+      "comments_count": 169,
+      "comments_link": "https://news.ycombinator.com/item?id=44144473",
+      "text": ""
+    },
+    {
+      "id": 44169521,
+      "link": "https://news.ycombinator.com/item?id=44169521",
+      "title": "Opening up my SaaS's API turned out to be one of the smartest growth decisions",
+      "score": 4,
+      "date": "2025-06-03T12:58:02 1748955482",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=usamaejaz",
+        "name": "usamaejaz"
+      },
+      "comments_count": 0,
+      "comments_link": "",
+      "text": ""
+    },
+    {
+      "id": 44173396,
+      "link": "https://news.ycombinator.com/item?id=44173396",
+      "title": "Ask HN: Those making $500/month on side projects in 2025 – Show and tell",
+      "score": 12,
+      "date": "2025-06-03T18:58:50 1748977130",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=fazkan",
+        "name": "fazkan"
+      },
+      "comments_count": 4,
+      "comments_link": "https://news.ycombinator.com/item?id=44173396",
+      "text": ""
+    },
+    {
+      "id": 44152012,
+      "link": "https://news.ycombinator.com/item?id=44152012",
+      "title": "Ask HN: How are parents who program teaching their kids today?",
+      "score": 96,
+      "date": "2025-06-01T16:27:54 1748795274",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=laze00",
+        "name": "laze00"
+      },
+      "comments_count": 91,
+      "comments_link": "https://news.ycombinator.com/item?id=44152012",
+      "text": ""
+    },
+    {
+      "id": 44134896,
+      "link": "https://news.ycombinator.com/item?id=44134896",
+      "title": "Ask HN: What is the best LLM for consumer grade hardware?",
+      "score": 237,
+      "date": "2025-05-30T11:02:19 1748602939",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=VladVladikoff",
+        "name": "VladVladikoff"
+      },
+      "comments_count": 180,
+      "comments_link": "https://news.ycombinator.com/item?id=44134896",
+      "text": ""
+    },
+    {
+      "id": 44171789,
+      "link": "https://news.ycombinator.com/item?id=44171789",
+      "title": "Ask HN: Who is using C?",
+      "score": 6,
+      "date": "2025-06-03T16:28:28 1748968108",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=00taffe",
+        "name": "00taffe"
+      },
+      "comments_count": 7,
+      "comments_link": "https://news.ycombinator.com/item?id=44171789",
+      "text": ""
+    },
+    {
+      "id": 44158209,
+      "link": "https://news.ycombinator.com/item?id=44158209",
+      "title": "Google DMARC Policy Changes?",
+      "score": 32,
+      "date": "2025-06-02T12:39:55 1748867995",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=flajr",
+        "name": "flajr"
+      },
+      "comments_count": 9,
+      "comments_link": "https://news.ycombinator.com/item?id=44158209",
+      "text": ""
+    },
+    {
+      "id": 44159332,
+      "link": "https://news.ycombinator.com/item?id=44159332",
+      "title": "Ask HN: Cursor is productive for an hour, then burns my application down",
+      "score": 7,
+      "date": "2025-06-02T14:41:09 1748875269",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=campervans",
+        "name": "campervans"
+      },
+      "comments_count": 5,
+      "comments_link": "https://news.ycombinator.com/item?id=44159332",
+      "text": ""
+    },
+    {
+      "id": 44162470,
+      "link": "https://news.ycombinator.com/item?id=44162470",
+      "title": "Ask HN: Is offering a one-time payment stupid?",
+      "score": 9,
+      "date": "2025-06-02T20:04:26 1748894666",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=bigscrankus",
+        "name": "bigscrankus"
+      },
+      "comments_count": 30,
+      "comments_link": "https://news.ycombinator.com/item?id=44162470",
+      "text": ""
+    },
+    {
+      "id": 44160270,
+      "link": "https://news.ycombinator.com/item?id=44160270",
+      "title": "Ask HN: What is your current LLM-assisted coding tool?",
+      "score": 6,
+      "date": "2025-06-02T16:06:17 1748880377",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=HiPHInch",
+        "name": "HiPHInch"
+      },
+      "comments_count": 3,
+      "comments_link": "https://news.ycombinator.com/item?id=44160270",
+      "text": ""
+    },
+    {
+      "id": 44157007,
+      "link": "https://news.ycombinator.com/item?id=44157007",
+      "title": "Built an AI tool to visualize large codebases - would love feedback",
+      "score": 13,
+      "date": "2025-06-02T09:12:42 1748855562",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ilia_khatko",
+        "name": "ilia_khatko"
+      },
+      "comments_count": 8,
+      "comments_link": "https://news.ycombinator.com/item?id=44157007",
+      "text": ""
+    },
+    {
+      "id": 44156757,
+      "link": "https://news.ycombinator.com/item?id=44156757",
+      "title": "Understanding physical attacks on Android phones",
+      "score": 5,
+      "date": "2025-06-02T08:31:50 1748853110",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=alokq",
+        "name": "alokq"
+      },
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=44156757",
+      "text": ""
+    },
+    {
+      "id": 44162596,
+      "link": "https://news.ycombinator.com/item?id=44162596",
+      "title": "Ask HN: How do startups create fancy websites?",
+      "score": 5,
+      "date": "2025-06-02T20:18:01 1748895481",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=ciwolex",
+        "name": "ciwolex"
+      },
+      "comments_count": 5,
+      "comments_link": "https://news.ycombinator.com/item?id=44162596",
+      "text": ""
+    },
+    {
+      "id": 44162406,
+      "link": "https://news.ycombinator.com/item?id=44162406",
+      "title": "Ask HN: Should science ensure NDEs are pleasant without damaging the brain?",
+      "score": 2,
+      "date": "2025-06-02T19:58:10 1748894290",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=amichail",
+        "name": "amichail"
+      },
+      "comments_count": 3,
+      "comments_link": "https://news.ycombinator.com/item?id=44162406",
+      "text": ""
+    },
+    {
+      "id": 44162008,
+      "link": "https://news.ycombinator.com/item?id=44162008",
+      "title": "My \"tiny\" Product Hunt alternative made $5.6k in revenue last month",
+      "score": 4,
+      "date": "2025-06-02T19:11:45 1748891505",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=jaisalrathee",
+        "name": "jaisalrathee"
+      },
+      "comments_count": 2,
+      "comments_link": "https://news.ycombinator.com/item?id=44162008",
+      "text": ""
+    },
+    {
+      "id": 44161953,
+      "link": "https://news.ycombinator.com/item?id=44161953",
+      "title": "Ask HN: Local AI for Handwriting Transcription?",
+      "score": 4,
+      "date": "2025-06-02T19:05:08 1748891108",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=i4i",
+        "name": "i4i"
+      },
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=44161953",
+      "text": ""
+    },
+    {
+      "id": 44154882,
+      "link": "https://news.ycombinator.com/item?id=44154882",
+      "title": "Ask HN: What should you ask to understand a new team and company?",
+      "score": 8,
+      "date": "2025-06-02T00:29:07 1748824147",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=laura2013",
+        "name": "laura2013"
+      },
+      "comments_count": 6,
+      "comments_link": "https://news.ycombinator.com/item?id=44154882",
+      "text": ""
+    },
+    {
+      "id": 44167507,
+      "link": "https://news.ycombinator.com/item?id=44167507",
+      "title": "Ask HN: Bing Search API will be retired soon. What alternatives do you use?",
+      "score": 2,
+      "date": "2025-06-03T07:51:17 1748937077",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=druskacik",
+        "name": "druskacik"
+      },
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=44167507",
+      "text": ""
+    },
+    {
+      "id": 44148193,
+      "link": "https://news.ycombinator.com/item?id=44148193",
+      "title": "Ask HN: Why reinvent front-end frameworks and static site builders?",
+      "score": 7,
+      "date": "2025-06-01T02:10:57 1748743857",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=keepamovin",
+        "name": "keepamovin"
+      },
+      "comments_count": 13,
+      "comments_link": "https://news.ycombinator.com/item?id=44148193",
+      "text": ""
+    },
+    {
+      "id": 44153571,
+      "link": "https://news.ycombinator.com/item?id=44153571",
+      "title": "CQRS and Event Sourcing for the Rest of Us",
+      "score": 6,
+      "date": "2025-06-01T20:31:39 1748809899",
+      "user": {
+        "link": "https://news.ycombinator.com/user?id=odinellefsen",
+        "name": "odinellefsen"
+      },
+      "comments_count": 1,
+      "comments_link": "https://news.ycombinator.com/item?id=44153571",
       "text": ""
     }
   ]

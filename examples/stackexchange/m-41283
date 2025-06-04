@@ -6,7 +6,7 @@
   "user": "Keshav Srinivasan",
   "unregistered": false,
   "created": "2017-07-25 21:23:15Z",
-  "lastseen": "this week",
+  "lastseen": "more than a month ago",
   "location": "",
   "social": [],
   "meta-profile": "https://skeptics.meta.stackexchange.com/users/41283/keshav-srinivasan",
@@ -14,7 +14,7 @@
   "reputation": 4385,
   "reached": 80000,
   "answers": 3,
-  "questions": 35,
+  "questions": 34,
   "communities-all": "https://stackexchange.com/users/2614901/keshav-srinivasan?tab=accounts",
   "communities": [
     {
@@ -94,7 +94,7 @@
       ]
     },
     {
-      "amount": 39,
+      "amount": 40,
       "name": "bronze",
       "achievements": [
         {
@@ -131,10 +131,10 @@
       "name": "united-states",
       "badge": "",
       "score": 14,
-      "posts": 36,
+      "posts": 35,
       "posts-percent": 95,
       "answered": 3,
-      "ansked": 33,
+      "ansked": 32,
       "asked-score": 380
     },
     {
@@ -142,11 +142,11 @@
       "name": "politics",
       "badge": "",
       "score": 14,
-      "posts": 35,
+      "posts": 34,
       "posts-percent": 92,
       "answered": 3,
-      "ansked": 32,
-      "asked-score": 362
+      "ansked": 31,
+      "asked-score": 363
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:41283+[hillary-clinton]",
@@ -165,21 +165,21 @@
       "badge": "",
       "score": 3,
       "posts": 16,
-      "posts-percent": 42,
+      "posts-percent": 43,
       "answered": 2,
       "ansked": 14,
-      "asked-score": 130
+      "asked-score": 131
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:41283+[criminology]",
       "name": "criminology",
       "badge": "",
       "score": 2,
-      "posts": 3,
-      "posts-percent": 8,
+      "posts": 2,
+      "posts-percent": 5,
       "answered": 1,
-      "ansked": 2,
-      "asked-score": 2
+      "ansked": 1,
+      "asked-score": 1
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:41283+[law]",
@@ -190,7 +190,7 @@
       "posts-percent": 24,
       "answered": 1,
       "ansked": 8,
-      "asked-score": 120
+      "asked-score": 121
     }
   ],
   "posts-answers-all": "https://skeptics.stackexchange.com/users/41283?tab=answers",
@@ -207,7 +207,7 @@
     {
       "type": "question",
       "answered": false,
-      "votes": 48,
+      "votes": 49,
       "link": "https://skeptics.stackexchange.com/questions/41889/was-paul-manafort-exonerated-for-the-crimes-he-s-now-charged-with",
       "title": "Was Paul Manafort exonerated for the crimes he’s now charged with?",
       "date": "2018-08-02 04:16:18Z"
@@ -215,7 +215,7 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 47,
+      "votes": 46,
       "link": "https://skeptics.stackexchange.com/questions/43490/did-president-obama-state-he-was-close-to-starting-a-war-with-north-korea",
       "title": "Did President Obama state he was close to starting a war with North Korea?",
       "date": "2019-02-17 16:04:36Z"
@@ -285,7 +285,7 @@
       "title": "Does the $\\frac{4}{3}$ problem of classical electromagnetism remain in quantum mechanics?"
     },
     {
-      "votes": 106,
+      "votes": 107,
       "link": "https://mathoverflow.net/questions/311280/what-is-the-definition-of-the-function-t-used-in-atiyahs-attempted-proof-of-thehttps://mathoverflow.net/questions/311280/what-is-the-definition-of-the-function-t-used-in-atiyahs-attempted-proof-of-the",
       "title": "What is the definition of the function T used in Atiyah's attempted proof of the Riemann Hypothesis?"
     },
@@ -300,7 +300,7 @@
       "title": "What exactly happens at end of Kali Yuga? Will the world be destroyed?"
     },
     {
-      "votes": 63,
+      "votes": 61,
       "link": "https://hinduism.stackexchange.com/questions/916/does-hinduism-forbid-sexual-intercourse-before-marriage/924#924https://hinduism.stackexchange.com/questions/916/does-hinduism-forbid-sexual-intercourse-before-marriage/924#924",
       "title": "Does Hinduism forbid sexual intercourse before marriage?"
     }

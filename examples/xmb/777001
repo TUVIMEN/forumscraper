@@ -10,14 +10,14 @@
   ],
   "posts": [
     {
-      "body": "<font class=\"subject\"> <strong>[Resolved] XMB 1.9.12.4.BETA<br /></strong> </font> <br /> <br /> <div class=\"mediumtxt\"><strong>Full Board URL:</strong> <a href='http://forums.xmbforum2.com' onclick='window.open(this.href); return false;'>http://forums.xmbforum2.com</a><br /> <strong>XMB Version:</strong> 1.9.11<br /> <br /> See documentation inside the package for upgrade and installation instructions.<br /> <br /> Changelog:<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.4.BETA<br /> Released: 09/16/2017<br /> <br /> File(s) Affected: ./include/functions.inc.php<br /> <br /> Discovered by: Jenny Lee<br /> <br /> Description: phpShorthandValue function throws \"A non well formed numeric value encountered\" in PHP version 7.<br /> <br /> Fix:<br /> <br /> 1. Open ./include/functions.inc.php<br /> <br /> 2. Comment out: (just in case we need this function back)<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> function phpShorthandValue($ininame) { $rawstring = trim(ini_get($ininame)); $rchr = strtoupper(substr($rawstring, -1)); switch ($rchr) { case 'G': $rawstring *= 1073741824; break; case 'M': $rawstring *= 1048576; break; case 'K': $rawstring *= 1024; break; default: $rawstring = intval($rawstring); break; } return $rawstring; } </code></td></tr></table><br /> 3: Should look like:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> /* function phpShorthandValue($ininame) { $rawstring = trim(ini_get($ininame)); $rchr = strtoupper(substr($rawstring, -1)); switch ($rchr) { case 'G': $rawstring *= 1073741824; break; case 'M': $rawstring *= 1048576; break; case 'K': $rawstring *= 1024; break; default: $rawstring = intval($rawstring); break; } return $rawstring; } */ </code></td></tr></table><br /> 4. Add below:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> /** * Fixes error output \"A non well formed numeric value encountered\" * * Fix by: Jenny Lee */ function phpShorthandValue($ininame) { $rawstring = trim(ini_get($ininame)); if(empty($rawstring))return 0; $rchr = strtolower(substr($rawstring, -1)); $rchr2 = strtolower(substr($rawstring, -2)); $rawstring = (int)$rawstring; if(in_array($rchr2,['gb','mb','kb'])) { $rchr = $rchr2; } switch ($rchr) { case 'gb': case 'g': $rawstring *= 1073741824; break; case 'mb': case 'm': $rawstring *= 1048576; break; case 'kb': case 'k': $rawstring *= 1024; break; default: $rawstring = intval($rawstring); break; } return $rawstring; } </code></td></tr></table><br /> 5. Save functions.inc.php<br /> <br /> <br /> Author(s): Jenny Lee<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.3.BETA<br /> Released: 09/15/2017<br /> <br /> File(s) Affected: ./js/header.js, memcp.php<br /> <br /> Description: User Control Panel does not allow for https:// in avatar urls.<br /> <br /> Discovered by: Scarlet<br /> <br /> Fix:<br /> <br /> 1. Open ./js/header.js<br /> <br /> 2. Around line 77 find:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (input.value.substring(0, 7) == 'http://' || input.value.substring(0, 6) == 'ftp://') {</code></td></tr></table><br /> <br /> 3. Replace with:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (input.value.substring(0, 7) == 'http://' || input.value.substring(0, 8) == 'https://' || input.value.substring(0, 6) == 'ftp://') {</code></td></tr></table><br /> <br /> 4. Open memcp.php<br /> <br /> 5. Find:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (preg_match('#^(http|ftp)://[:a-z\\\\./_\\-0-9%~]+(\\?[a-z=0-9&amp;_\\-;~]*)?$#Smi', $rawavatar) == 0) {</code></td></tr></table><br /> <br /> 6. Replace with:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (preg_match('#^(http|https|ftp)://[:a-z\\\\./_\\-0-9%~]+(\\?[a-z=0-9&amp;_\\-;~]*)?$#Smi', $rawavatar) == 0) {</code></td></tr></table><br /> <br /> 7. Save memcp.php<br /> <br /> 8. Clear browser cache.<br /> <br /> <br /> Author(s): Xian &amp; Scarlet<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.2.BETA<br /> Released: 09/13/2017<br /> <br /> File(s) Affected: ./db/mysqli.php<br /> <br /> Description: No posts were displaying in \"Today's Posts\" module.<br /> <br /> Discovered by: Xian<br /> <br /> Fix:<br /> <br /> Created a function:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> /** * Replaces mysql_result * * You cannot use mysql_result() as of PHP 7 * This function replaces that function. * By Xian */ function mysqli_result($res,$row=0,$col=0){ $numrows = mysqli_num_rows($res); if ($numrows &amp;&amp; $row &lt;= ($numrows-1) &amp;&amp; $row &gt;=0){ mysqli_data_seek($res,$row); $resrow = (is_numeric($col)) ? mysqli_fetch_row($res) : mysqli_fetch_assoc($res); if (isset($resrow[$col])){ return $resrow[$col]; } } return false; } </code></td></tr></table><br /> <br /> to replace: mysql_result() which was depracated in PHP version 7.<br /> <br /> <br /> Author(s): Xian<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.BETA<br /> Released: 09/12/2017<br /> <br /> File(s) Affected: ./db/mysqli.php, ./install/index.php, ./include/schema.inc.php<br /> <br /> Description: XMB was no longer compatible with PHP version 7+<br /> <br /> Fix: Made added a patched mysqli.php file to work with PHP verion 7. Patched installer script to work with PHP version 7.<br /> <br /> <br /> Author(s): Xian<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Codebase:<br /> 1.9.11 Patch 13<br /> <br /> <br /> <br /> Attachment: <a href=\"https://forums.xmbforum2.com/files/23141/XMB-1.9.12.4.BETA.zip\" onclick=\"window.open(this.href); return false;\">XMB-1.9.12.4.BETA.zip</a> (1.4MB)<br /><font class=\"smalltxt\">This file has been downloaded 80 times</font></div>",
+      "body": "<font class=\"subject\"> <strong>[Resolved] XMB 1.9.12.4.BETA<br /></strong> </font> <br /> <br /> <div class=\"mediumtxt\"><strong>Full Board URL:</strong> <a href='http://forums.xmbforum2.com' onclick='window.open(this.href); return false;'>http://forums.xmbforum2.com</a><br /> <strong>XMB Version:</strong> 1.9.11<br /> <br /> See documentation inside the package for upgrade and installation instructions.<br /> <br /> Changelog:<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.4.BETA<br /> Released: 09/16/2017<br /> <br /> File(s) Affected: ./include/functions.inc.php<br /> <br /> Discovered by: Jenny Lee<br /> <br /> Description: phpShorthandValue function throws \"A non well formed numeric value encountered\" in PHP version 7.<br /> <br /> Fix:<br /> <br /> 1. Open ./include/functions.inc.php<br /> <br /> 2. Comment out: (just in case we need this function back)<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> function phpShorthandValue($ininame) { $rawstring = trim(ini_get($ininame)); $rchr = strtoupper(substr($rawstring, -1)); switch ($rchr) { case 'G': $rawstring *= 1073741824; break; case 'M': $rawstring *= 1048576; break; case 'K': $rawstring *= 1024; break; default: $rawstring = intval($rawstring); break; } return $rawstring; } </code></td></tr></table><br /> 3: Should look like:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> /* function phpShorthandValue($ininame) { $rawstring = trim(ini_get($ininame)); $rchr = strtoupper(substr($rawstring, -1)); switch ($rchr) { case 'G': $rawstring *= 1073741824; break; case 'M': $rawstring *= 1048576; break; case 'K': $rawstring *= 1024; break; default: $rawstring = intval($rawstring); break; } return $rawstring; } */ </code></td></tr></table><br /> 4. Add below:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> /** * Fixes error output \"A non well formed numeric value encountered\" * * Fix by: Jenny Lee */ function phpShorthandValue($ininame) { $rawstring = trim(ini_get($ininame)); if(empty($rawstring))return 0; $rchr = strtolower(substr($rawstring, -1)); $rchr2 = strtolower(substr($rawstring, -2)); $rawstring = (int)$rawstring; if(in_array($rchr2,['gb','mb','kb'])) { $rchr = $rchr2; } switch ($rchr) { case 'gb': case 'g': $rawstring *= 1073741824; break; case 'mb': case 'm': $rawstring *= 1048576; break; case 'kb': case 'k': $rawstring *= 1024; break; default: $rawstring = intval($rawstring); break; } return $rawstring; } </code></td></tr></table><br /> 5. Save functions.inc.php<br /> <br /> <br /> Author(s): Jenny Lee<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.3.BETA<br /> Released: 09/15/2017<br /> <br /> File(s) Affected: ./js/header.js, memcp.php<br /> <br /> Description: User Control Panel does not allow for https:// in avatar urls.<br /> <br /> Discovered by: Scarlet<br /> <br /> Fix:<br /> <br /> 1. Open ./js/header.js<br /> <br /> 2. Around line 77 find:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (input.value.substring(0, 7) == 'http://' || input.value.substring(0, 6) == 'ftp://') {</code></td></tr></table><br /> <br /> 3. Replace with:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (input.value.substring(0, 7) == 'http://' || input.value.substring(0, 8) == 'https://' || input.value.substring(0, 6) == 'ftp://') {</code></td></tr></table><br /> <br /> 4. Open memcp.php<br /> <br /> 5. Find:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (preg_match('#^(http|ftp)://[:a-z\\\\./_\\-0-9%~]+(\\?[a-z=0-9&amp;_\\-;~]*)?$#Smi', $rawavatar) == 0) {</code></td></tr></table><br /> <br /> 6. Replace with:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code>if (preg_match('#^(http|https|ftp)://[:a-z\\\\./_\\-0-9%~]+(\\?[a-z=0-9&amp;_\\-;~]*)?$#Smi', $rawavatar) == 0) {</code></td></tr></table><br /> <br /> 7. Save memcp.php<br /> <br /> 8. Clear browser cache.<br /> <br /> <br /> Author(s): Xian &amp; Scarlet<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.2.BETA<br /> Released: 09/13/2017<br /> <br /> File(s) Affected: ./db/mysqli.php<br /> <br /> Description: No posts were displaying in \"Today's Posts\" module.<br /> <br /> Discovered by: Xian<br /> <br /> Fix:<br /> <br /> Created a function:<br /> <table align=\"center\" class=\"code\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"code\">Code:</td></tr><tr><td class=\"codemessage\"><code> /** * Replaces mysql_result * * You cannot use mysql_result() as of PHP 7 * This function replaces that function. * By Xian */ function mysqli_result($res,$row=0,$col=0){ $numrows = mysqli_num_rows($res); if ($numrows &amp;&amp; $row &lt;= ($numrows-1) &amp;&amp; $row &gt;=0){ mysqli_data_seek($res,$row); $resrow = (is_numeric($col)) ? mysqli_fetch_row($res) : mysqli_fetch_assoc($res); if (isset($resrow[$col])){ return $resrow[$col]; } } return false; } </code></td></tr></table><br /> <br /> to replace: mysql_result() which was depracated in PHP version 7.<br /> <br /> <br /> Author(s): Xian<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Version: XMB 1.9.12.BETA<br /> Released: 09/12/2017<br /> <br /> File(s) Affected: ./db/mysqli.php, ./install/index.php, ./include/schema.inc.php<br /> <br /> Description: XMB was no longer compatible with PHP version 7+<br /> <br /> Fix: Made added a patched mysqli.php file to work with PHP verion 7. Patched installer script to work with PHP version 7.<br /> <br /> <br /> Author(s): Xian<br /> <br /> ----------------------------------------------------------------------------------------------------<br /> <br /> Codebase:<br /> 1.9.11 Patch 13<br /> <br /> <br /> <br /> Attachment: <a href=\"https://forums.xmbforum2.com/files/23141/XMB-1.9.12.4.BETA.zip\" onclick=\"window.open(this.href); return false;\">XMB-1.9.12.4.BETA.zip</a> (1.4MB)<br /><font class=\"smalltxt\">This file has been downloaded 89 times</font></div>",
       "homepage": "",
       "date": "9-17-2017 at 02:07 AM",
       "user": "Xian",
       "postid": 1375703,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 50 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 56 ",
       "posts": "9-12-2017 ",
       "registered": "Los Angeles, California ",
       "location": "  w00h00!"
@@ -30,7 +30,7 @@
       "postid": 1375718,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -43,7 +43,7 @@
       "postid": 1375720,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
@@ -56,7 +56,7 @@
       "postid": 1375721,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 50 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 56 ",
       "posts": "9-12-2017 ",
       "registered": "Los Angeles, California ",
       "location": "  w00h00!"
@@ -69,7 +69,7 @@
       "postid": 1375724,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -82,7 +82,7 @@
       "postid": 1375725,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -95,7 +95,7 @@
       "postid": 1375726,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -108,7 +108,7 @@
       "postid": 1375727,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -121,7 +121,7 @@
       "postid": 1375728,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -134,7 +134,7 @@
       "postid": 1375729,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -147,7 +147,7 @@
       "postid": 1375730,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -160,7 +160,7 @@
       "postid": 1375731,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -173,7 +173,7 @@
       "postid": 1375732,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -186,7 +186,7 @@
       "postid": 1375733,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -199,7 +199,7 @@
       "postid": 1375734,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -212,7 +212,7 @@
       "postid": 1375735,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -225,7 +225,7 @@
       "postid": 1375736,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -238,7 +238,7 @@
       "postid": 1375737,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -251,7 +251,7 @@
       "postid": 1375738,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -264,7 +264,7 @@
       "postid": 1375742,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
@@ -277,7 +277,7 @@
       "postid": 1375744,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -290,7 +290,7 @@
       "postid": 1375745,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -303,7 +303,7 @@
       "postid": 1375746,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -316,7 +316,7 @@
       "postid": 1375747,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -329,7 +329,7 @@
       "postid": 1375748,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -342,7 +342,7 @@
       "postid": 1375749,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -355,7 +355,7 @@
       "postid": 1375750,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -368,7 +368,7 @@
       "postid": 1375751,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -381,7 +381,7 @@
       "postid": 1375756,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -394,7 +394,7 @@
       "postid": 1375779,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -407,7 +407,7 @@
       "postid": 1375781,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -420,7 +420,7 @@
       "postid": 1375784,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 36 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 36 ",
       "posts": "7-21-2017 ",
       "registered": "England, UK ",
       "location": "  Meh. <img src='./images/smilies/tongue.gif' style='border:none' alt=':P' />"
@@ -433,7 +433,7 @@
       "postid": 1375788,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
@@ -446,7 +446,7 @@
       "postid": 1375789,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 60 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 60 ",
       "posts": "9-15-2017 ",
       "registered": "England ",
       "location": "  Excited for XMB&#039;s resurrection!"
@@ -459,7 +459,7 @@
       "postid": 1375824,
       "rank": " Member",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 50 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 56 ",
       "posts": "9-12-2017 ",
       "registered": "Los Angeles, California ",
       "location": "  w00h00!"
@@ -472,20 +472,20 @@
       "postid": 1375825,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
     },
     {
-      "body": "<font class=\"subject\"> <strong></strong> </font> <br /> <br /> <div class=\"mediumtxt\">Fixed:<br /> PHP7+ | MySQLi<br /> Attachment<br /> Captcha<br /> Poll<br /> Stats<br /> Today<br /> Https Avatar (by Xian &amp; Scarlet)<br /> Security pacth and some bugs.<br /> <br /> Test it <img src='./images/smilies/smile.gif' style='border:none' alt=':)' /><br /><br />Attachment: <a href=\"https://forums.xmbforum2.com/files/23152/XMB-1.9.11.13.zip\" onclick=\"window.open(this.href); return false;\">XMB-1.9.11.13.zip</a> (1.3MB)<br /><font class=\"smalltxt\">This file has been downloaded 64 times</font><br /><br /><br /> <br /> <br /> <br /> <div class=\"sig\"><div style=\"text-align: center;\"><span style=\"color: red;\"><span style='font-size: 15px;'><strong>You Never Walk Alone</strong></span></span></div></div> </div>",
+      "body": "<font class=\"subject\"> <strong></strong> </font> <br /> <br /> <div class=\"mediumtxt\">Fixed:<br /> PHP7+ | MySQLi<br /> Attachment<br /> Captcha<br /> Poll<br /> Stats<br /> Today<br /> Https Avatar (by Xian &amp; Scarlet)<br /> Security pacth and some bugs.<br /> <br /> Test it <img src='./images/smilies/smile.gif' style='border:none' alt=':)' /><br /><br />Attachment: <a href=\"https://forums.xmbforum2.com/files/23152/XMB-1.9.11.13.zip\" onclick=\"window.open(this.href); return false;\">XMB-1.9.11.13.zip</a> (1.3MB)<br /><font class=\"smalltxt\">This file has been downloaded 69 times</font><br /><br /><br /> <br /> <br /> <br /> <div class=\"sig\"><div style=\"text-align: center;\"><span style=\"color: red;\"><span style='font-size: 15px;'><strong>You Never Walk Alone</strong></span></span></div></div> </div>",
       "homepage": "",
       "date": "10-28-2017 at 11:21 PM",
       "user": "Daniel Gouveia",
       "postid": 1375831,
       "rank": " XMB International Support",
       "stars": 8,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 64 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 64 ",
       "posts": "4-10-2007 ",
       "registered": "Portugal, Braga ",
       "location": "  |Catch Me If You Can|"
@@ -498,7 +498,7 @@
       "postid": 1375833,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
@@ -511,20 +511,20 @@
       "postid": 1375834,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
     },
     {
-      "body": "<font class=\"subject\"> <strong></strong> </font> <br /> <br /> <div class=\"mediumtxt\"> <table align=\"center\" class=\"quote\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"quote\">Quote: <a href=\"viewthread.php?tid=777001&amp;goto=search&amp;pid=1375834\" rel=\"nofollow\">Originally posted by lottos &nbsp;<img src=\"images/davis/lastpost.gif\" border=\"0\" alt=\"\" style=\"vertical-align: middle;\" /></a></td></tr><tr><td class=\"quotemessage\">Tested with php 7.2 alpha<br /> <br /> Minor issues:<br /> <br /> update year in text in installer:<br /> The XMB Group Â© 2001-201<strong>1</strong><br /> <br /> remove text from installer: <br /> <strong>Sponsored by iEntry</strong><br /> <br /> footer template shows 2012<br /> </td></tr></table><br /> <br /> Fixed:<br /> Â»Â Installer<br /> Â»Â Insert Raw SQL<br /> Â»Â Analyze Tables<br /> Â»Â Check Tables<br /> Â»Â Optimize Tables<br /> Â»Â Repair Tables<br /> <br /> <br /> Upgrade add.<br /> <br /> <br /><br />Attachment: <a href=\"https://forums.xmbforum2.com/files/23153/XMB-1.9.11.14.zip\" onclick=\"window.open(this.href); return false;\">XMB-1.9.11.14.zip</a> (1.3MB)<br /><font class=\"smalltxt\">This file has been downloaded 74 times</font><br /><br /><br /> <br /> <br /> <br /> <div class=\"sig\"><div style=\"text-align: center;\"><span style=\"color: red;\"><span style='font-size: 15px;'><strong>You Never Walk Alone</strong></span></span></div></div> </div>",
+      "body": "<font class=\"subject\"> <strong></strong> </font> <br /> <br /> <div class=\"mediumtxt\"> <table align=\"center\" class=\"quote\" cellspacing=\"0\" cellpadding=\"0\"><tr><td class=\"quote\">Quote: <a href=\"viewthread.php?tid=777001&amp;goto=search&amp;pid=1375834\" rel=\"nofollow\">Originally posted by lottos &nbsp;<img src=\"images/davis/lastpost.gif\" border=\"0\" alt=\"\" style=\"vertical-align: middle;\" /></a></td></tr><tr><td class=\"quotemessage\">Tested with php 7.2 alpha<br /> <br /> Minor issues:<br /> <br /> update year in text in installer:<br /> The XMB Group Â© 2001-201<strong>1</strong><br /> <br /> remove text from installer: <br /> <strong>Sponsored by iEntry</strong><br /> <br /> footer template shows 2012<br /> </td></tr></table><br /> <br /> Fixed:<br /> Â»Â Installer<br /> Â»Â Insert Raw SQL<br /> Â»Â Analyze Tables<br /> Â»Â Check Tables<br /> Â»Â Optimize Tables<br /> Â»Â Repair Tables<br /> <br /> <br /> Upgrade add.<br /> <br /> <br /><br />Attachment: <a href=\"https://forums.xmbforum2.com/files/23153/XMB-1.9.11.14.zip\" onclick=\"window.open(this.href); return false;\">XMB-1.9.11.14.zip</a> (1.3MB)<br /><font class=\"smalltxt\">This file has been downloaded 80 times</font><br /><br /><br /> <br /> <br /> <br /> <div class=\"sig\"><div style=\"text-align: center;\"><span style=\"color: red;\"><span style='font-size: 15px;'><strong>You Never Walk Alone</strong></span></span></div></div> </div>",
       "homepage": "",
       "date": "10-30-2017 at 01:41 PM",
       "user": "Daniel Gouveia",
       "postid": 1375835,
       "rank": " XMB International Support",
       "stars": 8,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 64 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 64 ",
       "posts": "4-10-2007 ",
       "registered": "Portugal, Braga ",
       "location": "  |Catch Me If You Can|"
@@ -537,7 +537,7 @@
       "postid": 1375841,
       "rank": " XMB 1.9.12 Lead Developer",
       "stars": 10,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> <img src=\"https://hot.miqrogroove.com/avs/snake-river\" alt=\"Avatar\" border=\"0\" /> </div> 476 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> <img src=\"https:/hot.miqrogroove.com/avs/snake-river\" alt=\"Avatar\" border=\"0\" /> </div> 519 ",
       "posts": "10-1-2002 ",
       "registered": "",
       "location": "  Past Three O&#039;Clock"
@@ -550,7 +550,7 @@
       "postid": 1375844,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
@@ -563,7 +563,7 @@
       "postid": 1375860,
       "rank": " XMB 1.9.12 Lead Developer",
       "stars": 10,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> <img src=\"https://hot.miqrogroove.com/avs/snake-river\" alt=\"Avatar\" border=\"0\" /> </div> 476 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> <img src=\"https:/hot.miqrogroove.com/avs/snake-river\" alt=\"Avatar\" border=\"0\" /> </div> 519 ",
       "posts": "10-1-2002 ",
       "registered": "",
       "location": "  Past Three O&#039;Clock"
@@ -575,8 +575,8 @@
       "user": "kuba1",
       "postid": 1375862,
       "rank": " XMB Project Manager",
-      "stars": 10,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 161 ",
+      "stars": 8,
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 161 ",
       "posts": "12-16-2007 ",
       "registered": "Here on this forum ;) ",
       "location": "  No Mood"
@@ -589,7 +589,7 @@
       "postid": 1375863,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
@@ -602,7 +602,7 @@
       "postid": 1375864,
       "rank": " XMB 1.9.12 Lead Developer",
       "stars": 10,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> <img src=\"https://hot.miqrogroove.com/avs/snake-river\" alt=\"Avatar\" border=\"0\" /> </div> 476 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> <img src=\"https:/hot.miqrogroove.com/avs/snake-river\" alt=\"Avatar\" border=\"0\" /> </div> 519 ",
       "posts": "10-1-2002 ",
       "registered": "",
       "location": "  Past Three O&#039;Clock"
@@ -615,7 +615,7 @@
       "postid": 1375865,
       "rank": " Administrator",
       "stars": 9,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 479 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 482 ",
       "posts": "6-3-2002 ",
       "registered": "",
       "location": "  pass me a TimTam"
@@ -628,7 +628,7 @@
       "postid": 1375943,
       "rank": " XMB Contributor",
       "stars": 4,
-      "avatar": "https://forums.xmbforum2.com/ <div align=\"center\"> </div> 30 ",
+      "avatar": "https://forums.xmbforum2.com/<div align=\"center\"> </div> 31 ",
       "posts": "2-12-2002 ",
       "registered": "Illinois ",
       "location": "  Great <img src='./images/smilies/smile.gif' style='border:none' alt=':)' />"

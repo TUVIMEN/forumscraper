@@ -14,15 +14,15 @@
   ],
   "meta-profile": "https://skeptics.meta.stackexchange.com/users/56721/pinegulf",
   "network-profile": "https://stackexchange.com/users/8523095/pinegulf",
-  "reputation": 9280,
-  "reached": 307000,
+  "reputation": 10572,
+  "reached": 353000,
   "answers": 14,
-  "questions": 34,
+  "questions": 37,
   "communities-all": "https://stackexchange.com/users/8523095/pinegulf?tab=accounts",
   "communities": [
     {
       "profile": "https://skeptics.stackexchange.com/users/56721/",
-      "reputation": 9300
+      "reputation": 10600
     },
     {
       "profile": "https://stackoverflow.com/users/6389268/",
@@ -45,7 +45,7 @@
   "badges-all": "https://skeptics.stackexchange.com/users/56721/pinegulf?tab=badges",
   "badges": [
     {
-      "amount": 6,
+      "amount": 8,
       "name": "gold",
       "achievements": [
         {
@@ -53,13 +53,13 @@
           "link": "https://skeptics.stackexchange.com/help/badges/28/famous-question?userid=56721",
           "action": "Question with 10,000 views",
           "name": "Famous Question",
-          "amount": 6,
-          "date": "Dec 10"
+          "amount": 8,
+          "date": "Apr 15"
         }
       ]
     },
     {
-      "amount": 44,
+      "amount": 50,
       "name": "silver",
       "achievements": [
         {
@@ -89,7 +89,7 @@
       ]
     },
     {
-      "amount": 70,
+      "amount": 81,
       "name": "bronze",
       "achievements": [
         {
@@ -126,22 +126,22 @@
       "name": "public-health",
       "badge": "",
       "score": 125,
-      "posts": 4,
-      "posts-percent": 8,
+      "posts": 5,
+      "posts-percent": 10,
       "answered": 2,
-      "ansked": 2,
-      "asked-score": 9
+      "ansked": 3,
+      "asked-score": 27
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:56721+[united-states]",
       "name": "united-states",
       "badge": "",
-      "score": 104,
-      "posts": 11,
-      "posts-percent": 23,
+      "score": 105,
+      "posts": 12,
+      "posts-percent": 24,
       "answered": 3,
-      "ansked": 8,
-      "asked-score": 164
+      "ansked": 9,
+      "asked-score": 216
     },
     {
       "link": "https://skeptics.stackexchange.com/search?q=user:56721+[psychology]",
@@ -158,7 +158,7 @@
       "link": "https://skeptics.stackexchange.com/search?q=user:56721+[education]",
       "name": "education",
       "badge": "",
-      "score": 49,
+      "score": 50,
       "posts": 5,
       "posts-percent": 10,
       "answered": 1,
@@ -174,18 +174,18 @@
       "posts-percent": 6,
       "answered": 1,
       "ansked": 2,
-      "asked-score": 18
+      "asked-score": 17
     },
     {
-      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[racism]",
-      "name": "racism",
+      "link": "https://skeptics.stackexchange.com/search?q=user:56721+[children]",
+      "name": "children",
       "badge": "",
       "score": 0,
-      "posts": 5,
-      "posts-percent": 10,
+      "posts": 4,
+      "posts-percent": 8,
       "answered": 0,
-      "ansked": 5,
-      "asked-score": 97
+      "ansked": 4,
+      "asked-score": 24
     }
   ],
   "posts-answers-all": "https://skeptics.stackexchange.com/users/56721?tab=answers",
@@ -208,6 +208,14 @@
       "date": "2024-09-30 17:43:47Z"
     },
     {
+      "type": "question",
+      "answered": true,
+      "votes": 52,
+      "link": "https://skeptics.stackexchange.com/questions/57680/is-the-whitehouse-list-of-wasteful-usaid-expenditures-accurate",
+      "title": "Is the Whitehouse list of \"wasteful\" USAID expenditures accurate?",
+      "date": "2025-02-10 08:35:35Z"
+    },
+    {
       "type": "answer",
       "answered": true,
       "votes": 50,
@@ -218,7 +226,7 @@
     {
       "type": "answer",
       "answered": false,
-      "votes": 49,
+      "votes": 50,
       "link": "https://skeptics.stackexchange.com/questions/57479/are-21-of-american-adults-illiterate/57480#57480",
       "title": "Are 21% of American adults illiterate?",
       "date": "2024-11-12 11:10:07Z"
@@ -234,7 +242,7 @@
     {
       "type": "answer",
       "answered": true,
-      "votes": 43,
+      "votes": 42,
       "link": "https://skeptics.stackexchange.com/questions/53012/did-dr-fauci-say-that-face-masks-dont-work-against-covid-19/53016#53016",
       "title": "Did Dr. Fauci say that face masks don't work against COVID-19?",
       "date": "2022-02-09 08:05:57Z"
@@ -242,7 +250,7 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 38,
+      "votes": 39,
       "link": "https://skeptics.stackexchange.com/questions/52361/was-there-recent-book-burning-in-canada",
       "title": "Was there recent book burning in Canada?",
       "date": "2021-09-20 09:47:26Z"
@@ -250,23 +258,15 @@
     {
       "type": "question",
       "answered": true,
-      "votes": 37,
-      "link": "https://skeptics.stackexchange.com/questions/52441/did-a-black-history-month-website-call-white-people-genetically-defective-des",
-      "title": "Did a 'Black History Month website' call white people ‘genetically defective descendants of albino mutants’?",
-      "date": "2021-10-05 08:21:52Z"
-    },
-    {
-      "type": "question",
-      "answered": true,
-      "votes": 37,
+      "votes": 39,
       "link": "https://skeptics.stackexchange.com/questions/54123/were-over-3-000-persons-arrested-in-britain-for-social-media-posts-in-2018",
       "title": "Were over 3,000 persons arrested in Britain for social media posts in 2018?",
       "date": "2022-12-15 11:17:59Z"
     },
     {
       "type": "question",
-      "answered": false,
-      "votes": 37,
+      "answered": true,
+      "votes": 39,
       "link": "https://skeptics.stackexchange.com/questions/57579/did-wikipedia-spend-50m-usd-on-diversity-equity-and-inclusion-dei-initiativ",
       "title": "Did Wikipedia spend $50m USD on diversity, equity, and inclusion (DEI) initiatives over the 2023-24 fiscal year?",
       "date": "2024-12-30 06:54:06Z"

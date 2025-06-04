@@ -93,7 +93,7 @@
       "date": "2024-09-03T06:08:17 1725343697",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; `afrim` is not just an IME. It can be used as a library to develop another IME. It&#x27;s an important point that I neglected in the README.<p>That&#x27;s all good, but I am very curious about the use-case that motivated the creation of this project."
     },
@@ -121,7 +121,7 @@
       "date": "2024-09-03T02:59:01 1725332341",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Can&#x27;t wait for you to get started with the oldest languages on the planet, as spoken by the oldest people on Earth, the Khoisan languages. Hope that is in the pipeline, as the Khoi and San is almost eradicated in all of Africa and many of their languages are now extinct.<p>Khoekhoe is a nice start.<p>I think people will lose their minds if they see how it is written.<p>Fun fact - The Khoisan gave all the Bantu languages that have it, the click sound.<p>There are a lot of different clicks in the Khoisan languages. So many that they need exclamation marks and every other symbol on the keyboard to accommodate them."
     },
@@ -135,7 +135,7 @@
       "date": "2024-09-03T16:43:08 1725381788",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; <i>the oldest languages on the planet, as spoken by the oldest people</i><p>Begging your pardon, this is a nonsensical thing to say. One people are not older than another, and nor are their languages.<p>As it happens, the Khoisan show greater genetic divergence from the rest of the human race, indicating that as a population they have been relatively more isolated, for longer. This does <i>not in any sense</i> imply that they are in some way basal, such that it would be intelligible to call them older than other branches of the family tree.<p>This same objection applies to characterizing their languages in that way, we have no way of knowing if their languages are less or more prone to mutation than any other. We have rather less to work with, in fact, as the absence of literacy in their societies until modern times leaves us with no evidence at all. But it would be <i>astonishing</i> if their languages had no drift to them, and even &quot;less drift&quot; is a major and unsupportable claim, and these are the only ways in which it would be intelligible to say that those languages are older than another."
     },
@@ -149,7 +149,7 @@
       "date": "2024-09-03T12:27:17 1725366437",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Khoekhoe is one of the languages I referred to in my GP.<p>I&#x27;ve seen it written in ascii, is there an alternative alphabet?"
     },
@@ -191,7 +191,7 @@
       "date": "2024-09-02T21:29:25 1725312565",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Oh, didn&#x27;t realize that. How does it handle key input in Windows? Text Services Framework or something else?"
     },
@@ -205,7 +205,7 @@
       "date": "2024-09-02T21:37:01 1725313021",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "The initial work was a prototype, we are currently working on the usage of text service for windows, and IBUS for Linux (mainly Wayland environment).<p>But the next release, will take a time, since we are not familiar with these technologies. <a href=\"https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242\">https:&#x2F;&#x2F;github.com&#x2F;pythonbrad&#x2F;afrim&#x2F;issues&#x2F;242</a>"
     },
@@ -219,7 +219,7 @@
       "date": "2024-09-03T00:06:01 1725321961",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "You could update the dependency &quot;enigo&quot; to the current version. I&#x27;ve implemented experimental support for Wayland. It can use Wayland protocols or libei. There will probably be bugs that&#x27;s why it&#x27;s hidden behind feature flags.<p>I&#x27;m the maintainer, so if you need anything, please let me know"
     },
@@ -233,7 +233,7 @@
       "date": "2024-09-03T00:29:59 1725323399",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "Thanks, currently I am using Debian (Wayland) and it will be great to test this enigo feature."
     },
@@ -247,7 +247,7 @@
       "date": "2024-09-03T00:08:00 1725322080",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "I didn&#x27;t look at the code but the Cargo.toml file says it&#x27;s using enigo as it&#x27;s dependency. You can use that to simulate input an Windows, macOS and Linux"
     },
@@ -275,7 +275,7 @@
       "date": "2024-09-03T01:27:54 1725326874",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "&gt; Cameroonian dialect are written using the GACL who is similar to the IPA.<p>What exactly is the GACL? Trying to find information on it returns this HN comment as the top result, and a bunch of language-unrelated results after that."
     },
@@ -289,7 +289,7 @@
       "date": "2024-09-03T01:48:19 1725328099",
       "onstory": {
         "name": "",
-        "link": null
+        "link": ""
       },
       "text": "From another comment, it&#x27;s the General Alphabet of Cameroon Languages.<p><a href=\"https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;General_Alphabet_of_Cameroon_Languages\" rel=\"nofollow\">https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;General_Alphabet_of_Cameroon_L...</a>"
     },

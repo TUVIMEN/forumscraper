@@ -8,75 +8,75 @@
       "forums": [
         {
           "status": "New Posts",
-          "link": "https://coppermine-gallery.com/forum/index.php/board,135.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+          "link": "https://coppermine-gallery.com/forum/index.php/board,135.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
           "name": "cpg1.6.x Support",
           "description": "Support for cpg1.6.x - please post in the appropriate sub-categories.",
           "childboards": [
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,136.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,136.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 bridging",
               "status": "No New Posts",
               "topics": 11,
               "posts": 99
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,138.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,138.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 email",
               "status": "No New Posts",
               "topics": 7,
               "posts": 43
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,139.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,139.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 install",
               "status": "No New Posts",
-              "topics": 69,
-              "posts": 292
+              "topics": 71,
+              "posts": 301
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,140.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,140.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 miscellaneous",
               "status": "No New Posts",
-              "topics": 356,
-              "posts": 512
+              "topics": 359,
+              "posts": 521
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,141.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,141.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 permissions",
               "status": "No New Posts",
-              "topics": 38,
-              "posts": 217
+              "topics": 39,
+              "posts": 220
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,142.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,142.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 plugins",
               "status": "No New Posts",
               "topics": 85,
-              "posts": 333
+              "posts": 334
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,144.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,144.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 themes (visuals)",
               "status": "No New Posts",
               "topics": 89,
-              "posts": 470
+              "posts": 471
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,147.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,147.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 upgrading",
               "status": "No New Posts",
-              "topics": 86,
-              "posts": 460
+              "topics": 87,
+              "posts": 464
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,148.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,148.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 upload",
               "status": "No New Posts",
               "topics": 54,
               "posts": 255
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,149.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,149.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.6 language",
               "status": "No New Posts",
               "topics": 17,
@@ -84,88 +84,88 @@
             }
           ],
           "moderators": [],
-          "posts": 3768,
-          "topics": 812,
+          "posts": 3795,
+          "topics": 819,
           "lastpost": {
-            "title": "Re: Constant E_STRICT is deprecated in ..include/debugger.inc.php on line 95",
-            "link": "https://coppermine-gallery.com/forum/index.php/topic,80828.msg390711.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b#new",
-            "user": "406man",
-            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=1du158sg5o7ru8i83okonfal9b&action=profile;u=104548",
-            "date": "06:05:42 PM"
+            "title": "Re: Fresh Install with Installer Stub Not Working",
+            "link": "https://coppermine-gallery.com/forum/index.php/topic,80836.msg390744.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu#new",
+            "user": "ron4mac",
+            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=nt0ph8tnkai4a90u4eev637efu&action=profile;u=133858",
+            "date": "April 19, 2025, 02:16:23 PM"
           },
           "redirects": 0
         },
         {
           "status": "New Posts",
-          "link": "https://coppermine-gallery.com/forum/index.php/board,90.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+          "link": "https://coppermine-gallery.com/forum/index.php/board,90.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
           "name": "cpg1.5.x Support",
           "description": "Support for cpg1.5.x - please post in the appropriate sub-categories.",
           "childboards": [
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,112.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,112.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 bridging",
               "status": "No New Posts",
               "topics": 311,
               "posts": 626
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,114.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,114.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 email",
               "status": "No New Posts",
               "topics": 84,
               "posts": 524
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,109.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,109.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 install",
               "status": "No New Posts",
               "topics": 329,
               "posts": 283
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,115.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,115.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 miscellaneous",
               "status": "No New Posts",
               "topics": 2,
               "posts": 728
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,111.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,111.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 permissions",
               "status": "No New Posts",
               "topics": 341,
               "posts": 758
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,97.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,97.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 plugins",
               "status": "No New Posts",
               "topics": 495,
               "posts": 583
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,94.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,94.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 themes (visuals)",
               "status": "No New Posts",
               "topics": 1,
               "posts": 412
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,116.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,116.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 upgrading",
               "status": "No New Posts",
               "topics": 425,
               "posts": 504
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,110.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,110.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 upload",
               "status": "No New Posts",
               "topics": 562,
               "posts": 38
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,117.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,117.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "cpg1.5 language",
               "status": "No New Posts",
               "topics": 85,
@@ -177,42 +177,42 @@
           "topics": 6199,
           "lastpost": {
             "title": "Re: CPMfetch for 1.5.6",
-            "link": "https://coppermine-gallery.com/forum/index.php/topic,65412.msg390635.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b#new",
+            "link": "https://coppermine-gallery.com/forum/index.php/topic,65412.msg390635.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu#new",
             "user": "406man",
-            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=1du158sg5o7ru8i83okonfal9b&action=profile;u=104548",
+            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=nt0ph8tnkai4a90u4eev637efu&action=profile;u=104548",
             "date": "August 10, 2024, 10:36:02 AM"
           },
           "redirects": 0
         },
         {
           "status": "New Posts",
-          "link": "https://coppermine-gallery.com/forum/index.php/board,37.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+          "link": "https://coppermine-gallery.com/forum/index.php/board,37.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
           "name": "Language Specific Support",
           "description": "If you need support in any other language than English, this is the place to go.",
           "childboards": [
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,121.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,121.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "Français (French)",
               "status": "No New Posts",
               "topics": 29,
               "posts": 175
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,125.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,125.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "Deutsch (German)",
               "status": "No New Posts",
               "topics": 1,
               "posts": 26
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,123.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
-              "name": "Сусслйй (Russian)",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,123.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
+              "name": "Русский (Russian)",
               "status": "No New Posts",
               "topics": 0,
               "posts": 0
             },
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,134.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,134.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "Closed boards",
               "status": "No New Posts",
               "topics": 0,
@@ -224,16 +224,16 @@
           "topics": 35,
           "lastpost": {
             "title": "Re: Fonctionnement de ce forum",
-            "link": "https://coppermine-gallery.com/forum/index.php/topic,62492.msg386298.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b#new",
+            "link": "https://coppermine-gallery.com/forum/index.php/topic,62492.msg386298.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu#new",
             "user": "belgium",
-            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=1du158sg5o7ru8i83okonfal9b&action=profile;u=176619",
+            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=nt0ph8tnkai4a90u4eev637efu&action=profile;u=176619",
             "date": "March 09, 2019, 12:18:58 PM"
           },
           "redirects": 0
         },
         {
           "status": "New Posts",
-          "link": "https://coppermine-gallery.com/forum/index.php/board,30.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+          "link": "https://coppermine-gallery.com/forum/index.php/board,30.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
           "name": "Looking for Freelancers / Paid help",
           "description": "You're looking for help and you're ready to pay? Post here, but read the sticky thread first!",
           "childboards": [],
@@ -242,9 +242,9 @@
           "topics": 1123,
           "lastpost": {
             "title": "Albums always expanded/visible on the home page",
-            "link": "https://coppermine-gallery.com/forum/index.php/topic,80664.msg390078.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b#new",
+            "link": "https://coppermine-gallery.com/forum/index.php/topic,80664.msg390078.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu#new",
             "user": "MSH411",
-            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=1du158sg5o7ru8i83okonfal9b&action=profile;u=176252",
+            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=nt0ph8tnkai4a90u4eev637efu&action=profile;u=176252",
             "date": "January 26, 2023, 04:42:10 AM"
           },
           "redirects": 0
@@ -257,7 +257,7 @@
       "forums": [
         {
           "status": "New Posts",
-          "link": "https://coppermine-gallery.com/forum/index.php/board,58.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+          "link": "https://coppermine-gallery.com/forum/index.php/board,58.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
           "name": "Announcements",
           "description": "Announcements and News related to coppermine.",
           "childboards": [],
@@ -266,39 +266,39 @@
           "topics": 91,
           "lastpost": {
             "title": "Re: Help, the Coppermine project needs you.",
-            "link": "https://coppermine-gallery.com/forum/index.php/topic,66475.msg388121.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b#new",
+            "link": "https://coppermine-gallery.com/forum/index.php/topic,66475.msg388121.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu#new",
             "user": "BusAmerica",
-            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=1du158sg5o7ru8i83okonfal9b&action=profile;u=79933",
+            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=nt0ph8tnkai4a90u4eev637efu&action=profile;u=79933",
             "date": "May 14, 2020, 07:08:08 AM"
           },
           "redirects": 0
         },
         {
           "status": "New Posts",
-          "link": "https://coppermine-gallery.com/forum/index.php/board,12.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+          "link": "https://coppermine-gallery.com/forum/index.php/board,12.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
           "name": "General discussion (no support!)",
           "description": "General discussion for everything that's coppermine-related. Do NOT post support or feature requests here, they should go into the proper boards.<br>Edit 2007-04-11: Locked this sub-board; regular users can't start new threads here.",
           "childboards": [],
           "moderators": [],
-          "posts": 7169,
+          "posts": 7170,
           "topics": 1304,
           "lastpost": {
-            "title": "Re: Coppermine Plugin for Wordpress",
-            "link": "https://coppermine-gallery.com/forum/index.php/topic,79813.msg390690.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b#new",
-            "user": "406man",
-            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=1du158sg5o7ru8i83okonfal9b&action=profile;u=104548",
-            "date": "November 03, 2024, 09:55:25 AM"
+            "title": "Re: Development Environment for Coppermine",
+            "link": "https://coppermine-gallery.com/forum/index.php/topic,80721.msg390747.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu#new",
+            "user": "bobbinalong",
+            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=nt0ph8tnkai4a90u4eev637efu&action=profile;u=177052",
+            "date": "May 15, 2025, 07:46:47 AM"
           },
           "redirects": 0
         },
         {
           "status": "New Posts",
-          "link": "https://coppermine-gallery.com/forum/index.php/board,7.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+          "link": "https://coppermine-gallery.com/forum/index.php/board,7.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
           "name": "Feature requests",
           "description": "would you like an additional feature for future versions of coppermine? This is the place to post your feature requests. Please make sure the feature you request isn't already there. Please do not post support requests here.",
           "childboards": [
             {
-              "link": "https://coppermine-gallery.com/forum/index.php/board,43.0.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b",
+              "link": "https://coppermine-gallery.com/forum/index.php/board,43.0.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu",
               "name": "Scheduled for cpg1.5.x",
               "status": "No New Posts",
               "topics": 83,
@@ -306,14 +306,14 @@
             }
           ],
           "moderators": [],
-          "posts": 8411,
+          "posts": 8412,
           "topics": 2186,
           "lastpost": {
-            "title": "Batch filename edit",
-            "link": "https://coppermine-gallery.com/forum/index.php/topic,80645.msg390005.html?PHPSESSID=1du158sg5o7ru8i83okonfal9b#new",
-            "user": "smokeandmirrors",
-            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=1du158sg5o7ru8i83okonfal9b&action=profile;u=177698",
-            "date": "December 13, 2022, 11:16:04 PM"
+            "title": "Re: search within comments",
+            "link": "https://coppermine-gallery.com/forum/index.php/topic,46694.msg390721.html?PHPSESSID=nt0ph8tnkai4a90u4eev637efu#new",
+            "user": "statek",
+            "user_link": "https://coppermine-gallery.com/forum/index.php?PHPSESSID=nt0ph8tnkai4a90u4eev637efu&action=profile;u=167987",
+            "date": "January 31, 2025, 06:47:22 PM"
           },
           "redirects": 0
         }

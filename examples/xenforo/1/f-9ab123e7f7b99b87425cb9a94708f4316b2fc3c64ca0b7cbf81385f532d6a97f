@@ -9,12 +9,12 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "UEFA and Europe",
           "link": "https://www.bigsoccer.com/forums/uefa-and-europe.3/",
           "description": "",
-          "topics": 4280,
-          "posts": 186201,
+          "topics": 4285,
+          "posts": 186281,
           "feed": "",
           "childboards": [
             {
@@ -208,38 +208,38 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735820132"
+            "user_link": "",
+            "date": "1748882833"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "AFC: Tournaments",
           "link": "https://www.bigsoccer.com/forums/afc-tournaments.1442/",
           "description": "",
           "topics": 518,
-          "posts": 60115,
+          "posts": 60189,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 30, 2024 at 11:01 PM"
+            "user_link": "",
+            "date": "May 5, 2025 at 3:40 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "CONMEBOL",
           "link": "https://www.bigsoccer.com/forums/conmebol.26/",
           "description": "",
-          "topics": 2752,
-          "posts": 157920,
+          "topics": 2754,
+          "posts": 158101,
           "feed": "",
           "childboards": [
             {
@@ -333,20 +333,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 3, 2024 at 2:11 PM"
+            "user_link": "",
+            "date": "1748979166"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "CONCACAF",
           "link": "https://www.bigsoccer.com/forums/concacaf.23/",
           "description": "",
-          "topics": 3939,
-          "posts": 266610,
+          "topics": 3941,
+          "posts": 266884,
           "feed": "",
           "childboards": [
             {
@@ -416,38 +416,38 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735964529"
+            "user_link": "",
+            "date": "1748987354"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "CAF: Tournaments",
           "link": "https://www.bigsoccer.com/forums/caf-tournaments.1676/",
           "description": "",
           "topics": 17,
-          "posts": 1133,
+          "posts": 1146,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 30, 2024 at 3:10 AM"
+            "user_link": "",
+            "date": "Mar 30, 2025 at 1:55 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "FIFA and Tournaments",
           "link": "https://www.bigsoccer.com/forums/fifa-and-tournaments.262/",
           "description": "",
-          "topics": 6400,
-          "posts": 500612,
+          "topics": 6403,
+          "posts": 502600,
           "feed": "",
           "childboards": [
             {
@@ -841,10 +841,10 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735962431"
+            "user_link": "",
+            "date": "1748987962"
           }
         }
       ]
@@ -856,7 +856,7 @@
       "forums": [
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "First Time Here?",
           "link": "https://www.bigsoccer.com/link-forums/first-time-here.1182/",
           "description": "Click here if this is your first visit to BigSoccer!",
@@ -866,56 +866,56 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Introductions Board",
           "link": "https://www.bigsoccer.com/forums/introductions-board.969/",
           "description": "",
           "topics": 1861,
-          "posts": 12623,
+          "posts": 12636,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Nov 5, 2024 at 6:16 PM"
+            "user_link": "",
+            "date": "May 23, 2025 at 12:23 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "BigSoccer Polls",
           "link": "https://www.bigsoccer.com/forums/bigsoccer-polls.930/",
           "description": "",
           "topics": 552,
-          "posts": 31618,
+          "posts": 31624,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Jun 13, 2024 at 4:51 AM"
+            "user_link": "",
+            "date": "1748538783"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "The Beautiful Game",
           "link": "https://www.bigsoccer.com/forums/the-beautiful-game.24/",
           "description": "",
-          "topics": 9820,
-          "posts": 505153,
+          "topics": 9880,
+          "posts": 513656,
           "feed": "",
           "childboards": [
             {
@@ -929,15 +929,15 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736164350"
+            "user_link": "",
+            "date": "1748986963"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Player News & Rumors",
           "link": "https://www.bigsoccer.com/forums/player-news-rumors.1234/",
           "description": "",
@@ -947,20 +947,20 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Apr 4, 2024 at 9:53 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Business and Media",
           "link": "https://www.bigsoccer.com/forums/business-and-media.12/",
           "description": "",
           "topics": 6957,
-          "posts": 166671,
+          "posts": 167132,
           "feed": "",
           "childboards": [
             {
@@ -974,51 +974,51 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736129730"
+            "user_link": "",
+            "date": "1748886153"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Statistics and Analysis",
           "link": "https://www.bigsoccer.com/forums/statistics-and-analysis.806/",
           "description": "",
           "topics": 710,
-          "posts": 7478,
+          "posts": 7480,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Jul 28, 2024 at 4:49 PM"
+            "user_link": "",
+            "date": "Apr 27, 2025 at 10:17 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Soccer Videos",
           "link": "https://www.bigsoccer.com/forums/soccer-videos.1112/",
           "description": "",
-          "topics": 5700,
-          "posts": 13006,
+          "topics": 5703,
+          "posts": 13014,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Nov 16, 2024 at 3:00 PM"
+            "user_link": "",
+            "date": "1748947641"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Games",
           "link": "https://www.bigsoccer.com/forums/games.29/",
           "description": "",
@@ -1065,28 +1065,28 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Nov 12, 2024 at 9:26 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Collectors",
           "link": "https://www.bigsoccer.com/forums/collectors.273/",
           "description": "",
-          "topics": 1170,
-          "posts": 9960,
+          "topics": 1174,
+          "posts": 10125,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736140577"
+            "user_link": "",
+            "date": "1748872847"
           }
         }
       ]
@@ -1098,30 +1098,30 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Player",
           "link": "https://www.bigsoccer.com/forums/player.960/",
           "description": "",
-          "topics": 2385,
-          "posts": 28034,
+          "topics": 2386,
+          "posts": 28035,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Jul 23, 2024 at 10:57 AM"
+            "user_link": "",
+            "date": "Feb 5, 2025 at 12:21 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Referee",
           "link": "https://www.bigsoccer.com/forums/referee.44/",
           "description": "",
-          "topics": 9414,
-          "posts": 317862,
+          "topics": 9451,
+          "posts": 320844,
           "feed": "",
           "childboards": [
             {
@@ -1139,28 +1139,28 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736142396"
+            "user_link": "",
+            "date": "1748984614"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Coach",
           "link": "https://www.bigsoccer.com/forums/coach.40/",
           "description": "",
           "topics": 1875,
-          "posts": 33457,
+          "posts": 33458,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Nov 28, 2024 at 9:48 PM"
+            "user_link": "",
+            "date": "Mar 26, 2025 at 5:58 PM"
           }
         }
       ]
@@ -1172,25 +1172,25 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Soccer Boots",
           "link": "https://www.bigsoccer.com/forums/soccer-boots.1296/",
           "description": "",
           "topics": 4883,
-          "posts": 212209,
+          "posts": 212208,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Nov 16, 2024 at 10:26 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Apparel & Training Gear",
           "link": "https://www.bigsoccer.com/forums/apparel-training-gear.1297/",
           "description": "",
@@ -1200,33 +1200,33 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Mar 4, 2024 at 5:05 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "SwapShop",
           "link": "https://www.bigsoccer.com/forums/swapshop.1250/",
           "description": "",
-          "topics": 4055,
-          "posts": 22678,
+          "topics": 4054,
+          "posts": 22676,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Mar 20, 2023 at 6:55 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Equipment and Gear Off Topic",
           "link": "https://www.bigsoccer.com/forums/equipment-and-gear-off-topic.1292/",
           "description": "",
@@ -1236,28 +1236,28 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Jun 13, 2022 at 4:53 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Ebay Auctions",
           "link": "https://www.bigsoccer.com/forums/ebay-auctions.1320/",
           "description": "",
-          "topics": 600874,
-          "posts": 601337,
+          "topics": 600883,
+          "posts": 601346,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 22, 2024 at 10:15 AM"
+            "user_link": "",
+            "date": "May 22, 2025 at 4:11 AM"
           }
         }
       ]
@@ -1269,48 +1269,48 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "England",
           "link": "https://www.bigsoccer.com/forums/england.98/",
           "description": "",
-          "topics": 2061,
-          "posts": 291626,
+          "topics": 2063,
+          "posts": 301006,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736167374"
+            "user_link": "",
+            "date": "1748987957"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Cups & Competitions",
           "link": "https://www.bigsoccer.com/forums/cups-competitions.100/",
           "description": "",
           "topics": 324,
-          "posts": 3991,
+          "posts": 3990,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Jul 29, 2024 at 7:32 AM"
+            "user_link": "",
+            "date": "Mar 10, 2025 at 11:11 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Premier League",
           "link": "https://www.bigsoccer.com/forums/premier-league.1251/",
           "description": "",
-          "topics": 42537,
-          "posts": 3302137,
+          "topics": 42706,
+          "posts": 3324235,
           "feed": "",
           "childboards": [
             {
@@ -1512,20 +1512,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736169257"
+            "user_link": "",
+            "date": "1748987670"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "League Championship",
           "link": "https://www.bigsoccer.com/forums/league-championship.1252/",
           "description": "",
-          "topics": 4189,
-          "posts": 55312,
+          "topics": 4190,
+          "posts": 55442,
           "feed": "",
           "childboards": [
             {
@@ -1599,20 +1599,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736121963"
+            "user_link": "",
+            "date": "May 27, 2025 at 4:36 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Games & Fantasy",
           "link": "https://www.bigsoccer.com/forums/games-fantasy.535/",
           "description": "",
-          "topics": 900,
-          "posts": 77428,
+          "topics": 902,
+          "posts": 77939,
           "feed": "",
           "childboards": [
             {
@@ -1622,20 +1622,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736129109"
+            "user_link": "",
+            "date": "1748979818"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Other Divisions",
           "link": "https://www.bigsoccer.com/forums/other-divisions.99/",
           "description": "",
           "topics": 1128,
-          "posts": 13838,
+          "posts": 13859,
           "feed": "",
           "childboards": [
             {
@@ -1645,10 +1645,10 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Sep 17, 2024 at 8:47 AM"
+            "user_link": "",
+            "date": "May 11, 2025 at 11:36 AM"
           }
         }
       ]
@@ -1660,7 +1660,7 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Bosnia & Herzegovina",
           "link": "https://www.bigsoccer.com/forums/bosnia-herzegovina.1492/",
           "description": "",
@@ -1679,20 +1679,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Jun 23, 2023 at 4:06 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "France",
           "link": "https://www.bigsoccer.com/forums/france.47/",
           "description": "",
           "topics": 3224,
-          "posts": 99425,
+          "posts": 99431,
           "feed": "",
           "childboards": [
             {
@@ -1730,20 +1730,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Sep 27, 2024 at 2:32 PM"
+            "user_link": "",
+            "date": "1748971917"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Germany",
           "link": "https://www.bigsoccer.com/forums/germany.33/",
           "description": "",
-          "topics": 7737,
-          "posts": 1006275,
+          "topics": 7767,
+          "posts": 1008921,
           "feed": "",
           "childboards": [
             {
@@ -1809,20 +1809,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736163295"
+            "user_link": "",
+            "date": "1748984539"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Italy",
           "link": "https://www.bigsoccer.com/forums/italy.32/",
           "description": "",
-          "topics": 370259,
-          "posts": 1563362,
+          "topics": 370296,
+          "posts": 1570794,
           "feed": "",
           "childboards": [
             {
@@ -1920,15 +1920,15 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736168373"
+            "user_link": "",
+            "date": "1748987394"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Ireland",
           "link": "https://www.bigsoccer.com/forums/ireland.179/",
           "description": "",
@@ -1943,38 +1943,38 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Sep 25, 2024 at 9:39 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "The Netherlands",
           "link": "https://www.bigsoccer.com/forums/the-netherlands.168/",
           "description": "",
-          "topics": 2766,
-          "posts": 209530,
+          "topics": 2771,
+          "posts": 211577,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736157437"
+            "user_link": "",
+            "date": "1748985652"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Portugal",
           "link": "https://www.bigsoccer.com/forums/portugal.178/",
           "description": "",
-          "topics": 10079,
-          "posts": 412320,
+          "topics": 10089,
+          "posts": 414568,
           "feed": "",
           "childboards": [
             {
@@ -2032,20 +2032,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736163555"
+            "user_link": "",
+            "date": "1748985263"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Spain",
           "link": "https://www.bigsoccer.com/forums/spain.28/",
           "description": "",
-          "topics": 10612,
-          "posts": 1758677,
+          "topics": 10657,
+          "posts": 1794797,
           "feed": "",
           "childboards": [
             {
@@ -2131,20 +2131,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736168641"
+            "user_link": "",
+            "date": "1748987812"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Scotland",
           "link": "https://www.bigsoccer.com/forums/scotland.37/",
           "description": "",
           "topics": 82432,
-          "posts": 122855,
+          "posts": 122858,
           "feed": "",
           "childboards": [
             {
@@ -2154,20 +2154,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 23, 2024 at 3:10 PM"
+            "user_link": "",
+            "date": "May 2, 2025 at 7:35 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "More Europe...",
           "link": "https://www.bigsoccer.com/forums/more-europe.1075/",
           "description": "",
-          "topics": 4575,
-          "posts": 88828,
+          "topics": 4577,
+          "posts": 88846,
           "feed": "",
           "childboards": [
             {
@@ -2213,20 +2213,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 16, 2024 at 8:35 PM"
+            "user_link": "",
+            "date": "Apr 6, 2025 at 10:29 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Central & Eastern Europe",
           "link": "https://www.bigsoccer.com/forums/central-eastern-europe.42/",
           "description": "",
           "topics": 3194,
-          "posts": 159445,
+          "posts": 159514,
           "feed": "",
           "childboards": [
             {
@@ -2260,10 +2260,10 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736093485"
+            "user_link": "",
+            "date": "1748918983"
           }
         }
       ]
@@ -2275,30 +2275,30 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Soccer in the USA",
           "link": "https://www.bigsoccer.com/forums/soccer-in-the-usa.779/",
           "description": "",
-          "topics": 3122,
-          "posts": 153842,
+          "topics": 3133,
+          "posts": 154337,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735942995"
+            "user_link": "",
+            "date": "1748738497"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "USA Men",
           "link": "https://www.bigsoccer.com/forums/usa-men.131/",
           "description": "",
-          "topics": 37656,
-          "posts": 2887414,
+          "topics": 37719,
+          "posts": 2906757,
           "feed": "",
           "childboards": [
             {
@@ -2780,20 +2780,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736167741"
+            "user_link": "",
+            "date": "1748988021"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Major League Soccer",
           "link": "https://www.bigsoccer.com/forums/major-league-soccer.958/",
           "description": "",
-          "topics": 184607,
-          "posts": 8681279,
+          "topics": 185350,
+          "posts": 8737000,
           "feed": "",
           "childboards": [
             {
@@ -3045,6 +3045,10 @@
               "link": "https://www.bigsoccer.com/forums/salt-lake-supporters-clubs.987/"
             },
             {
+              "name": "San Diego FC",
+              "link": "https://www.bigsoccer.com/forums/san-diego-fc.1720/"
+            },
+            {
               "name": "San Jose Earthquakes",
               "link": "https://www.bigsoccer.com/forums/san-jose-earthquakes.20/"
             },
@@ -3413,6 +3417,10 @@
               "link": "https://www.bigsoccer.com/forums/salt-lake-supporters-clubs.987/"
             },
             {
+              "name": "San Diego FC",
+              "link": "https://www.bigsoccer.com/forums/san-diego-fc.1720/"
+            },
+            {
               "name": "San Jose Earthquakes",
               "link": "https://www.bigsoccer.com/forums/san-jose-earthquakes.20/"
             },
@@ -3595,38 +3603,38 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736167656"
+            "user_link": "",
+            "date": "1748987926"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "US Open Cup",
           "link": "https://www.bigsoccer.com/forums/us-open-cup.86/",
           "description": "",
           "topics": 447,
-          "posts": 12312,
+          "posts": 12369,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 23, 2024 at 1:37 AM"
+            "user_link": "",
+            "date": "May 23, 2025 at 6:52 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "NASL",
           "link": "https://www.bigsoccer.com/forums/nasl.1438/",
           "description": "",
           "topics": 1495,
-          "posts": 84144,
+          "posts": 84237,
           "feed": "",
           "childboards": [
             {
@@ -3704,20 +3712,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736030559"
+            "user_link": "",
+            "date": "May 5, 2025 at 4:02 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "United Soccer Leagues",
           "link": "https://www.bigsoccer.com/forums/united-soccer-leagues.10/",
           "description": "",
-          "topics": 6634,
-          "posts": 162053,
+          "topics": 6642,
+          "posts": 162834,
           "feed": "",
           "childboards": [
             {
@@ -3819,20 +3827,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735932049"
+            "user_link": "",
+            "date": "1748959154"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Yanks Abroad",
           "link": "https://www.bigsoccer.com/forums/yanks-abroad.41/",
           "description": "",
-          "topics": 20377,
-          "posts": 1256175,
+          "topics": 20433,
+          "posts": 1270838,
           "feed": "",
           "childboards": [
             {
@@ -3962,20 +3970,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736166002"
+            "user_link": "",
+            "date": "1748987603"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "College & Amateur Soccer",
           "link": "https://www.bigsoccer.com/forums/college-amateur-soccer.43/",
           "description": "",
-          "topics": 5463,
-          "posts": 149032,
+          "topics": 5471,
+          "posts": 149242,
           "feed": "",
           "childboards": [
             {
@@ -3993,38 +4001,38 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 27, 2024 at 3:09 PM"
+            "user_link": "",
+            "date": "1748890981"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Pro Indoor Soccer",
           "link": "https://www.bigsoccer.com/forums/pro-indoor-soccer.39/",
           "description": "",
-          "topics": 4837,
-          "posts": 100571,
+          "topics": 4842,
+          "posts": 100711,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736114193"
+            "user_link": "",
+            "date": "1748526062"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Youth & HS Soccer",
           "link": "https://www.bigsoccer.com/forums/youth-hs-soccer.83/",
           "description": "",
-          "topics": 3055,
-          "posts": 72719,
+          "topics": 3082,
+          "posts": 74217,
           "feed": "",
           "childboards": [
             {
@@ -4038,10 +4046,10 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735997794"
+            "user_link": "",
+            "date": "1748981663"
           }
         }
       ]
@@ -4053,12 +4061,12 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Argentina",
           "link": "https://www.bigsoccer.com/forums/argentina.784/",
           "description": "",
-          "topics": 40242,
-          "posts": 236132,
+          "topics": 40243,
+          "posts": 237653,
           "feed": "",
           "childboards": [
             {
@@ -4096,15 +4104,15 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736168588"
+            "user_link": "",
+            "date": "1748986264"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Bolivia",
           "link": "https://www.bigsoccer.com/forums/bolivia.1245/",
           "description": "",
@@ -4114,20 +4122,20 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Sep 25, 2024 at 12:18 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Brazil",
           "link": "https://www.bigsoccer.com/forums/brazil.48/",
           "description": "",
-          "topics": 2436,
-          "posts": 180839,
+          "topics": 2442,
+          "posts": 181406,
           "feed": "",
           "childboards": [
             {
@@ -4141,38 +4149,38 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736038555"
+            "user_link": "",
+            "date": "1748979040"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Canada",
           "link": "https://www.bigsoccer.com/forums/canada.67/",
           "description": "",
-          "topics": 2021,
-          "posts": 40063,
+          "topics": 2025,
+          "posts": 40094,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 2, 2024 at 9:59 PM"
+            "user_link": "",
+            "date": "1748907461"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Chile",
           "link": "https://www.bigsoccer.com/forums/chile.1156/",
           "description": "",
           "topics": 782,
-          "posts": 75314,
+          "posts": 75319,
           "feed": "",
           "childboards": [
             {
@@ -4186,20 +4194,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 13, 2024 at 6:42 PM"
+            "user_link": "",
+            "date": "May 23, 2025 at 4:15 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Colombia",
           "link": "https://www.bigsoccer.com/forums/colombia.972/",
           "description": "",
-          "topics": 12637,
-          "posts": 382348,
+          "topics": 12645,
+          "posts": 388659,
           "feed": "",
           "childboards": [
             {
@@ -4221,20 +4229,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736162201"
+            "user_link": "",
+            "date": "1748988141"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Ecuador",
           "link": "https://www.bigsoccer.com/forums/ecuador.1044/",
           "description": "",
           "topics": 614,
-          "posts": 63259,
+          "posts": 63502,
           "feed": "",
           "childboards": [
             {
@@ -4252,20 +4260,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736015116"
+            "user_link": "",
+            "date": "1748980708"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Mexico",
           "link": "https://www.bigsoccer.com/forums/mexico.53/",
           "description": "",
-          "topics": 8262,
-          "posts": 1381921,
+          "topics": 8280,
+          "posts": 1385375,
           "feed": "",
           "childboards": [
             {
@@ -4399,20 +4407,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736130529"
+            "user_link": "",
+            "date": "1748988005"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Peru",
           "link": "https://www.bigsoccer.com/forums/peru.1023/",
           "description": "",
           "topics": 1804,
-          "posts": 311349,
+          "posts": 311624,
           "feed": "",
           "childboards": [
             {
@@ -4462,15 +4470,15 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736027781"
+            "user_link": "",
+            "date": "1748884737"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Uruguay",
           "link": "https://www.bigsoccer.com/forums/uruguay.1448/",
           "description": "",
@@ -4480,15 +4488,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Aug 29, 2024 at 3:52 PM"
           }
         },
         {
           "state": "",
-          "icon": null,
+          "icon": "",
           "name": "USA",
           "link": "https://www.bigsoccer.com/link-forums/usa.1159/",
           "description": "",
@@ -4498,9 +4506,9 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": ""
           }
         }
@@ -4513,66 +4521,66 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Asian Football Confederation",
           "link": "https://www.bigsoccer.com/forums/asian-football-confederation.1082/",
           "description": "",
           "topics": 3074,
-          "posts": 129461,
+          "posts": 129620,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736083147"
+            "user_link": "",
+            "date": "1748967304"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Africa",
           "link": "https://www.bigsoccer.com/forums/africa.11/",
           "description": "",
           "topics": 1515,
-          "posts": 19646,
+          "posts": 19656,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Oct 14, 2024 at 12:45 AM"
+            "user_link": "",
+            "date": "May 22, 2025 at 9:02 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Oceania",
           "link": "https://www.bigsoccer.com/forums/oceania.250/",
           "description": "",
-          "topics": 452,
-          "posts": 4907,
+          "topics": 453,
+          "posts": 4924,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Nov 28, 2024 at 11:56 AM"
+            "user_link": "",
+            "date": "May 26, 2025 at 11:33 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Australia",
           "link": "https://www.bigsoccer.com/forums/australia.1067/",
           "description": "",
           "topics": 1401,
-          "posts": 46094,
+          "posts": 46097,
           "feed": "",
           "childboards": [
             {
@@ -4586,15 +4594,15 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 21, 2024 at 6:58 PM"
+            "user_link": "",
+            "date": "May 22, 2025 at 8:59 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "China",
           "link": "https://www.bigsoccer.com/forums/china.1069/",
           "description": "",
@@ -4604,15 +4612,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Oct 7, 2021 at 4:21 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Iraq",
           "link": "https://www.bigsoccer.com/forums/iraq.1318/",
           "description": "",
@@ -4622,38 +4630,38 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Feb 26, 2024 at 1:24 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Iran",
           "link": "https://www.bigsoccer.com/forums/iran.995/",
           "description": "",
           "topics": 1209,
-          "posts": 22032,
+          "posts": 22038,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 19, 2024 at 8:13 PM"
+            "user_link": "",
+            "date": "May 11, 2025 at 9:15 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Japan",
           "link": "https://www.bigsoccer.com/forums/japan.1068/",
           "description": "",
-          "topics": 1282,
-          "posts": 256136,
+          "topics": 1286,
+          "posts": 259113,
           "feed": "",
           "childboards": [
             {
@@ -4667,20 +4675,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736163719"
+            "user_link": "",
+            "date": "1748985241"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Korea",
           "link": "https://www.bigsoccer.com/forums/korea.252/",
           "description": "",
-          "topics": 4289,
-          "posts": 503426,
+          "topics": 4296,
+          "posts": 503579,
           "feed": "",
           "childboards": [
             {
@@ -4694,15 +4702,15 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736019238"
+            "user_link": "",
+            "date": "1748856739"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Saudi Arabia",
           "link": "https://www.bigsoccer.com/forums/saudi-arabia.1072/",
           "description": "",
@@ -4712,9 +4720,9 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Nov 10, 2024 at 11:43 AM"
           }
         }
@@ -4727,12 +4735,12 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Women's International",
           "link": "https://www.bigsoccer.com/forums/womens-international.152/",
           "description": "",
-          "topics": 2364,
-          "posts": 155651,
+          "topics": 2373,
+          "posts": 157196,
           "feed": "",
           "childboards": [
             {
@@ -4826,15 +4834,15 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735997184"
+            "user_link": "",
+            "date": "1748987366"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Women's Fans and More",
           "link": "https://www.bigsoccer.com/forums/womens-fans-and-more.38/",
           "description": "",
@@ -4844,38 +4852,38 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Nov 4, 2024 at 6:47 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "USA Women: News and Analysis",
           "link": "https://www.bigsoccer.com/forums/usa-women-news-and-analysis.36/",
           "description": "",
-          "topics": 2564,
-          "posts": 178673,
+          "topics": 2578,
+          "posts": 180198,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736159439"
+            "user_link": "",
+            "date": "1748987746"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "NWSL",
           "link": "https://www.bigsoccer.com/forums/nwsl.68/",
           "description": "",
-          "topics": 7026,
-          "posts": 190688,
+          "topics": 7032,
+          "posts": 191090,
           "feed": "",
           "childboards": [
             {
@@ -4993,69 +5001,69 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736016874"
+            "user_link": "",
+            "date": "1748900599"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Germany Mädels: NT and Frauen-Bundesliga",
           "link": "https://www.bigsoccer.com/forums/germany-m%C3%A4dels-nt-and-frauen-bundesliga.1624/",
           "description": "",
           "topics": 15,
-          "posts": 20715,
+          "posts": 21587,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1735830339"
+            "user_link": "",
+            "date": "1748985156"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Women's College",
           "link": "https://www.bigsoccer.com/forums/womens-college.66/",
           "description": "",
-          "topics": 2148,
-          "posts": 126755,
+          "topics": 2161,
+          "posts": 127973,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736130805"
+            "user_link": "",
+            "date": "1748962863"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "US Women's Lower Divisions",
           "link": "https://www.bigsoccer.com/forums/us-womens-lower-divisions.69/",
           "description": "",
           "topics": 531,
-          "posts": 6634,
+          "posts": 6676,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 18, 2024 at 4:14 PM"
+            "user_link": "",
+            "date": "1748753445"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Women's Rivalry Forum",
           "link": "https://www.bigsoccer.com/forums/womens-rivalry-forum.150/",
           "description": "",
@@ -5065,9 +5073,9 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Aug 5, 2024 at 6:55 AM"
           }
         }
@@ -5080,7 +5088,7 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Art & Architecture",
           "link": "https://www.bigsoccer.com/forums/art-architecture.1197/",
           "description": "",
@@ -5090,15 +5098,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Jun 25, 2024 at 12:54 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Health & Fitness",
           "link": "https://www.bigsoccer.com/forums/health-fitness.1496/",
           "description": "",
@@ -5108,15 +5116,15 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "May 14, 2024 at 6:05 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Automotive",
           "link": "https://www.bigsoccer.com/forums/automotive.1091/",
           "description": "",
@@ -5126,128 +5134,128 @@
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
+            "user_link": "",
             "date": "Nov 11, 2024 at 10:24 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Books",
           "link": "https://www.bigsoccer.com/forums/books.699/",
           "description": "",
           "topics": 1061,
-          "posts": 27839,
+          "posts": 28034,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736091670"
+            "user_link": "",
+            "date": "1748985978"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Education and Academia",
           "link": "https://www.bigsoccer.com/forums/education-and-academia.953/",
           "description": "",
-          "topics": 489,
-          "posts": 7186,
+          "topics": 490,
+          "posts": 7190,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 26, 2024 at 10:03 PM"
+            "user_link": "",
+            "date": "May 23, 2025 at 1:53 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Finance, Investing & Economy",
           "link": "https://www.bigsoccer.com/forums/finance-investing-economy.1015/",
           "description": "",
-          "topics": 297,
-          "posts": 3735,
+          "topics": 298,
+          "posts": 3739,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Nov 8, 2024 at 3:28 PM"
+            "user_link": "",
+            "date": "Feb 27, 2025 at 8:29 PM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Food & Travel",
           "link": "https://www.bigsoccer.com/forums/food-travel.692/",
           "description": "",
-          "topics": 1632,
-          "posts": 40889,
+          "topics": 1621,
+          "posts": 40595,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Oct 24, 2024 at 11:57 AM"
+            "user_link": "",
+            "date": "May 21, 2025 at 7:54 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Movies, TV and Music",
           "link": "https://www.bigsoccer.com/forums/movies-tv-and-music.80/",
           "description": "",
-          "topics": 7151,
-          "posts": 335609,
+          "topics": 7154,
+          "posts": 336921,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736124113"
+            "user_link": "",
+            "date": "1748987498"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Parenting & Family",
           "link": "https://www.bigsoccer.com/forums/parenting-family.1184/",
           "description": "",
           "topics": 145,
-          "posts": 3231,
+          "posts": 3232,
           "feed": "",
           "childboards": [],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Nov 26, 2022 at 8:41 AM"
+            "user_link": "",
+            "date": "Apr 30, 2025 at 9:33 AM"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Politics & Current Events",
           "link": "https://www.bigsoccer.com/forums/politics-current-events.159/",
           "description": "",
-          "topics": 21647,
-          "posts": 1919137,
+          "topics": 21686,
+          "posts": 1966002,
           "feed": "",
           "childboards": [
             {
@@ -5277,20 +5285,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736169231"
+            "user_link": "",
+            "date": "1748988168"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Technology",
           "link": "https://www.bigsoccer.com/forums/technology.703/",
           "description": "",
-          "topics": 2440,
-          "posts": 36393,
+          "topics": 2442,
+          "posts": 36406,
           "feed": "",
           "childboards": [
             {
@@ -5300,20 +5308,20 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736057481"
+            "user_link": "",
+            "date": "1748811821"
           }
         },
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Sports",
           "link": "https://www.bigsoccer.com/forums/sports.82/",
           "description": "",
-          "topics": 5339,
-          "posts": 215622,
+          "topics": 5352,
+          "posts": 216220,
           "feed": "",
           "childboards": [
             {
@@ -5371,10 +5379,10 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "1736135366"
+            "user_link": "",
+            "date": "1748981586"
           }
         }
       ]
@@ -5386,12 +5394,12 @@
       "forums": [
         {
           "state": "Unread messages",
-          "icon": null,
+          "icon": "",
           "name": "Customer Service",
           "link": "https://www.bigsoccer.com/forums/customer-service.5/",
           "description": "",
-          "topics": 3823,
-          "posts": 49966,
+          "topics": 3829,
+          "posts": 50033,
           "feed": "",
           "childboards": [
             {
@@ -5417,10 +5425,10 @@
           ],
           "lastpost": {
             "title": "",
-            "link": null,
+            "link": "",
             "user": "",
-            "user_link": null,
-            "date": "Dec 27, 2024 at 6:54 PM"
+            "user_link": "",
+            "date": "1748885784"
           }
         }
       ]

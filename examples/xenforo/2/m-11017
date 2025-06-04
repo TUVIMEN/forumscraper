@@ -1,6 +1,6 @@
 {
   "format_version": "xenforo-2-user",
-  "url": "https://forum.modelarstwo.info/members/robertmuszka.11017/?tooltip=true&_xfWithData=1&_xfToken=1736169654,30d08675e172ade6b28924c4340e0e67&_xfResponseType=json",
+  "url": "https://forum.modelarstwo.info/members/robertmuszka.11017/?tooltip=true&_xfWithData=1&_xfToken=1748988199,2d33890230965196fd0e48bd3db5fe28&_xfResponseType=json",
   "id": 11017,
   "background": "",
   "location": "Sompolno",
@@ -8,8 +8,7 @@
   "title": "Znany użytkownik",
   "banners": [
     "FREMO Polska",
-    "H0e",
-    "T M M"
+    "H0e"
   ],
   "name": "robertmuszka",
   "forum": "",
@@ -20,11 +19,11 @@
     },
     {
       "key": "Wpisy",
-      "value": "1.985"
+      "value": "2.059"
     },
     {
       "key": "Oceny",
-      "value": "1.702"
+      "value": "1.750"
     },
     {
       "key": "Punkty",
