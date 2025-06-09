@@ -1,6 +1,6 @@
 import sys
 
-from treerequests import args_session, reliq as reliq_tree
+from treerequests import args_session
 import requests
 
 from .defs import reliq, Outputs, __version__
@@ -72,18 +72,9 @@ def main():
         "compress_func": args.compression,
     }
 
-    ses = args_session(
-        args,
-        requests,
-        requests.Session,
-        lambda x, y: reliq_tree(x, y, obj=reliq),
-        retry_wait=60,
-        verify=True,
-        allow_redirects=False,
-        timeout=120,
-    )
+    ex = Extractor(**settings)
+    args_session(ex.session, args)
 
-    ex = Extractor(session=ses, **settings)
     func_name = "guess"
     func = getattr(ex, func_name)
 
