@@ -81,9 +81,9 @@ class xenforo2(ForumExtractor):
                 )
 
                 obj = reliq(
-                    self.session.get_json(reactions_url, settings, state)["html"][
-                        "content"
-                    ].translate(str.maketrans("", "", "\n\t"))
+                    self.session.get_json(reactions_url, **settings["requests"])[
+                        "html"
+                    ]["content"].translate(str.maketrans("", "", "\n\t"))
                 )
 
                 t = obj.json(Path("xenforo2/reactions.reliq"))
@@ -188,9 +188,10 @@ class xenforo2(ForumExtractor):
             ]
             self.path_format = "m-{}"
 
-        def get_first_html(self, url, settings, state, rq=None):
+        def get_first_html(self, url, rq=None, **kwargs):
             return reliq(
-                self.session.get_json(url, settings, state)["html"]["content"], ref=url
+                self.session.get_json(url, **kwargs)["html"]["content"],
+                ref=url,
             )
 
         def get_contents(self, rq, settings, state, url, i_id, path):

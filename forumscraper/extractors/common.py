@@ -6,9 +6,12 @@ import json
 import re
 from concurrent.futures import ThreadPoolExecutor
 from itertools import batched
+import copy
+
+import treerequests
+import requests
 
 from ..utils import strtosha256, get_settings, url_valid
-from ..net import Session
 from ..defs import Outputs, reliq
 from ..exceptions import *
 
@@ -17,8 +20,8 @@ common_exceptions = (
     ValueError,
     IndexError,
     KeyError,
-    RequestError,
-    AlreadyVisitedError,
+    requests.RequestException,
+    treerequests.AlreadyVisitedError,
 )
 
 BUNDLE_SIZE = 500
@@ -46,7 +49,7 @@ def write_html(path, rq, settings):
 
 
 def handle_error(self, exception, url, settings, for_pedantic=False):
-    if isinstance(exception, AlreadyVisitedError):
+    if isinstance(exception, treerequests.AlreadyVisitedError):
         return None
 
     undisturbed = settings["undisturbed"]
@@ -64,17 +67,17 @@ def handle_error(self, exception, url, settings, for_pedantic=False):
             print(msg, file=failed)
 
     if not undisturbed and (failed is None or pedantic):
-        if isinstance(exception, RequestError):
+        if isinstance(exception, requests.RequestException):
             raise RequestError(msg)
         raise exception
     return
 
 
-def get_first_html(extractor, url, settings, state, rq=None, return_cookies=False):
+def get_first_html(extractor, url, rq=None, **kwargs):
     if rq is None:
-        return extractor.session.get_html(
-            url, settings, state, extractor.trim, return_cookies
-        )
+        if kwargs.get("trim") is None:
+            kwargs["trim"] = extractor.trim
+        return extractor.session.get_html(url, **kwargs)
 
     if not isinstance(rq, reliq):
         rq = reliq(rq, ref=url)
@@ -85,6 +88,24 @@ def get_first_html(extractor, url, settings, state, rq=None, return_cookies=Fals
 def state_add_url(typekey, url, state, settings):
     if settings["output"] | Outputs.save_urls:
         state["urls"][typekey].append(url)
+
+
+def create_logger(dest):
+    if dest is None:
+        return
+
+    def log(args):
+        if len(args) == 3:
+            val = args[1]
+            if isinstance(dest, list):
+                dest.append(val)
+            else:
+                dest.write(val)
+                dest.write("\n")
+        else:
+            assert 0
+
+    return log
 
 
 def item_file_check_r(url, path_format, i_id, output, force):
@@ -138,8 +159,8 @@ class ItemExtractor:
     def handle_error(self, exception, url, settings, for_pedantic=False):
         return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
-        return get_first_html(self, url, settings, state, rq, return_cookies)
+    def get_first_html(self, url, rq=None, **kwargs):
+        return get_first_html(self, url, rq=rq, **kwargs)
 
     def get_improper_url(self, url, rq, settings, state):
         print('improper url - "{}"'.format(url), file=settings["logger"])
@@ -154,8 +175,9 @@ class ItemExtractor:
     def next(self, rq, settings, state, path, **kwargs):
         yield rq
 
-        k = {"trim": self.trim}
-        k.update(kwargs)
+        rsettings = copy.copy(settings["requests"])
+        rsettings.update({"trim": self.trim})
+        rsettings.update(kwargs)
         page = 1
 
         while self.get_next:
@@ -170,8 +192,8 @@ class ItemExtractor:
                 break
 
             try:
-                rq = self.session.get_html(nexturl, settings, state, **k)
-            except AlreadyVisitedError:
+                rq = self.session.get_html(nexturl, **rsettings)
+            except treerequests.AlreadyVisitedError:
                 break
 
             write_html(path + "-" + str(page), rq, settings)
@@ -204,7 +226,7 @@ class ItemExtractor:
             return state
 
         url = self.get_url(url)
-        rq = self.get_first_html(url, settings, state, rq)
+        rq = self.get_first_html(url, rq=rq, **settings["requests"])
 
         write_html(path, rq, settings)
 
@@ -257,31 +279,35 @@ class ForumExtractor:
             "max_workers": 1,
             "undisturbed": False,
             "pedantic": False,
-            # requests settings
-            "force": False,
-            "verify": True,
-            "allow_redirects": False,
-            "timeout": 120,
-            "proxies": {},
-            "headers": {},
-            "cookies": {},
             # net settings
-            "user-agent": None,
-            "wait": 0,
-            "wait_random": 0,
+            "compress_func": None,
+            "force": False,
             "logger": None,
             "failed": None,
-            "retries": 3,
-            "retry_wait": 60,
-            "force": False,
-            "compress_func": None,
+            # requests settings
+            "requests": {
+                "retries": 3,
+                "retry_wait": 60,
+                "verify": True,
+                "allow_redirects": False,
+                "timeout": 120,
+                "visited": True,
+            },
         }
         self.settings = self.get_settings(kwargs)
 
         if session:
+            session["visited"] = True
             self.session = session
         else:
-            self.session = Session(**self.settings)
+            self.session = treerequests.Session(
+                requests,
+                requests.Session,
+                lambda x, y: treerequests.reliq(x, y, obj=reliq),
+                **self.settings["requests"],
+            )
+
+        self.session["logger"] = create_logger(self.settings["logger"])
 
         self.findroot_expr = None
         self.findroot_board = False
@@ -296,13 +322,9 @@ class ForumExtractor:
         ):
             ret["force"] = True
 
-        if ret["user-agent"] is not None:
-            ret["headers"].update({"User-Agent": ret["user-agent"]})
-
         return ret
 
-    @staticmethod
-    def create_state(state):
+    def create_state(self, state):
         if state:
             return state
         return {
@@ -328,7 +350,7 @@ class ForumExtractor:
                 "threads": [],
                 "users": [],
             },
-            "visited": set(),
+            "visited": self.session.visited,
             "scraper": None,
             "scraper-method": None,
         }
@@ -336,8 +358,8 @@ class ForumExtractor:
     def handle_error(self, exception, url, settings, for_pedantic=False):
         return handle_error(self, exception, url, settings, for_pedantic)
 
-    def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
-        return get_first_html(self, url, settings, state, rq, return_cookies)
+    def get_first_html(self, url, rq=None, **kwargs):
+        return get_first_html(self, url, rq=rq, **kwargs)
 
     def _get_item(self, typekey, url, obj, rq=None, state=None, depth=0, **kwargs):
         settings = self.get_settings(kwargs)
@@ -434,7 +456,7 @@ class ForumExtractor:
             ):
                 try:
                     self.get_forum(url, None, state, depth + 1, **settings)
-                except (RequestError, AlreadyVisitedError):
+                except (requests.RequestException, treerequests.AlreadyVisitedError):
                     continue
 
     def go_through_pages(
@@ -453,7 +475,7 @@ class ForumExtractor:
         settings = self.get_settings(kwargs)
         state = self.create_state(state)
         try:
-            rq = self.get_first_html(url, settings, state, rq)
+            rq = self.get_first_html(url, rq=rq, **settings["requests"])
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, settings)
 
@@ -489,7 +511,7 @@ class ForumExtractor:
                 if nexturl is None:
                     break
                 try:
-                    rq = self.get_first_html(nexturl, settings, state)
+                    rq = self.get_first_html(nexturl, **settings["requests"])
                 except self.common_exceptions as ex:
                     self.handle_error(ex, nexturl, settings)
                     break
@@ -713,7 +735,7 @@ class ForumExtractor:
         teststate = self.create_state(None)
 
         try:
-            rq = self.get_first_html(url, settings, teststate, rq)
+            rq = self.get_first_html(url, rq=rq, **settings["requests"])
         except self.common_exceptions as ex:
             return self.handle_error(ex, url, settings)
 
@@ -790,11 +812,11 @@ class ForumExtractorIdentify(ForumExtractor):
         state = self.create_state(state)
 
         try:
-            r = self.get_first_html(url, settings, state, rq, return_cookies=True)
+            r = self.get_first_html(url, rq=rq, response=True, **settings["requests"])
             cookies = {}
             if rq is None:
                 rq = r[0]
-                cookies = r[1]
+                cookies = r[1].cookies.get_dict()
             else:
                 rq = r
         except self.common_exceptions as ex:

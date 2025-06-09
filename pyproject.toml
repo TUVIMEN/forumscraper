@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "forumscraper"
-version = "0.1.17"
+version = "0.1.18"
 description = "A forum scraper library"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -14,7 +14,7 @@ authors = [
   {name = "Dominik Stanisław Suchora", email = "hexderm@gmail.com" }
 ]
 
-dependencies = ['requests','reliq']
+dependencies = ['requests','reliq','treerequests']
 
 classifiers = [
   "Development Status :: 4 - Beta",

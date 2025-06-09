@@ -3,6 +3,7 @@
 
 from pathlib import Path
 import re
+import copy
 
 from ..defs import reliq
 from ..utils import dict_add
@@ -241,7 +242,9 @@ class smf2(ForumExtractor):
 
         def get_improper_url(self, url, rq, settings, state):
             if rq is None:
-                rq = self.session.get_html(url, settings, state, self.trim)
+                rsettings = copy.copy(settings["requests"])
+                rsettings["trim"] = self.trim
+                rq = self.session.get_html(url, **rsettings)
 
             try:
                 i_id = str(int(rq.search('input name=sd_topic value | "%(value)v"')))

@@ -3,6 +3,7 @@
 
 from pathlib import Path
 import re
+import copy
 
 from ..defs import reliq
 from ..utils import (
@@ -68,13 +69,14 @@ class stackexchange(ForumExtractor):
         def get_post_comments(self, rq, url, postid, settings, state, path):
             n = rq.search(r'div #b>comments-link-; a .comments-link i@b>"Show " | "t"')
             if len(n) > 0:
-                nsettings = get_settings(
-                    settings, headers={"x-Requested-With": "XMLHttpRequest"}
-                )
+                rsettings = copy.copy(settings["requests"])
+                if rsettings.get("headers") is None:
+                    rsettings["headers"] = {}
+                rsettings["headers"].update({"x-Requested-With": "XMLHttpRequest"})
+
                 rq = self.session.get_html(
                     "{}/posts/{}/comments".format(url_valid(url, base=True)[0], postid),
-                    nsettings,
-                    state,
+                    **rsettings,
                 )
                 write_html(path + "-comments-" + str(postid), rq, settings)
 

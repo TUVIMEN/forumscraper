@@ -6,6 +6,8 @@ import gzip
 import bz2
 import lzma
 
+from treerequests import args_section
+
 from .utils import (
     url_valid,
     conv_curl_header_to_requests,
@@ -288,82 +290,6 @@ def argparser():
         help="set max number of threads to be processed in every page",
     )
 
-    request_set = parser.add_argument_group("Request settings")
-    request_set.add_argument(
-        "-w",
-        "--wait",
-        metavar="SECONDS",
-        type=float,
-        help="Sets waiting time for each request to SECONDS",
-    )
-    request_set.add_argument(
-        "-W",
-        "--wait-random",
-        metavar="MILISECONDS",
-        type=int,
-        help="Sets random waiting time for each request to be at max MILISECONDS",
-    )
-    request_set.add_argument(
-        "-r",
-        "--retries",
-        metavar="NUM",
-        type=int,
-        help="Sets number of retries for failed request to NUM",
-    )
-    request_set.add_argument(
-        "--retry-wait",
-        metavar="SECONDS",
-        type=float,
-        help="Sets interval between each retry",
-    )
-    request_set.add_argument(
-        "-m",
-        "--timeout",
-        metavar="SECONDS",
-        type=float,
-        help="Sets request timeout",
-    )
-    request_set.add_argument(
-        "-k",
-        "--insecure",
-        action="store_false",
-        help="Ignore ssl errors",
-    )
-    request_set.add_argument(
-        "-A",
-        "--user-agent",
-        metavar="UA",
-        type=str,
-        help="Sets custom user agent",
-    )
-    request_set.add_argument(
-        "-L",
-        "--location",
-        action="store_true",
-        help="Allow for redirections, can be dangerous if credentials are passed in headers",
-    )
-    request_set.add_argument(
-        "-x",
-        "--proxies",
-        metavar="DICT",
-        type=lambda x: dict(ast.literal_eval(x)),
-        help='Set requests proxies dictionary, e.g. -x \'{"http":"127.0.0.1:8080","ftp":"0.0.0.0"}\'',
-    )
-    request_set.add_argument(
-        "-H",
-        "--header",
-        metavar="HEADER",
-        type=valid_header,
-        action="append",
-        help="Set header, can be used multiple times e.g. -H 'User: Admin' -H 'Pass: 12345'",
-    )
-    request_set.add_argument(
-        "-b",
-        "--cookie",
-        metavar="COOKIE",
-        type=valid_cookie,
-        action="append",
-        help="Set cookie, can be used multiple times e.g. -b 'auth=8f82ab' -b 'PHPSESSID=qw3r8an829'",
-    )
+    args_section(parser)
 
     return parser

@@ -3,6 +3,7 @@
 
 from pathlib import Path
 import re
+import copy
 
 from ..defs import Outputs, reliq
 from ..utils import dict_add, get_settings, conv_short_size
@@ -31,13 +32,12 @@ class invision(ForumExtractor):
 
             return "{}{}do=hovercard".format(url, url_delim)
 
-        def get_first_html(self, url, settings, state, rq=None, return_cookies=False):
-            settings = get_settings(
-                settings, headers={"x-Requested-With": "XMLHttpRequest"}
-            )
-            return self.session.get_html(
-                url, settings, state, self.trim, return_cookies
-            )
+        def get_first_html(self, url, rq=None, **kwargs):
+            if kwargs.get("headers") is None:
+                kwargs["headers"] = {}
+            kwargs["headers"] = {"x-Requested-With": "XMLHttpRequest"}
+            kwargs["trim"] = self.trim
+            return self.session.get_html(url, **kwargs)
 
         def get_contents(self, rq, settings, state, url, i_id, path):
             ret = {"format_version": "invision-4+-user", "url": url, "id": int(i_id)}
@@ -67,9 +67,11 @@ class invision(ForumExtractor):
                 r'ul .ipsReact_reactions; li .ipsReact_reactCount; [0] a href | "%(href)v" / sed "s/&amp;/\&/g; s/&reaction=.*$//;q" "E"'
             )
 
-            nsettings = get_settings(
-                settings, headers={"x-Requested-With": "XMLHttpRequest"}
-            )
+            rsettings = copy.copy(settings["requests"])
+            if rsettings.get("headers") is None:
+                rsettings["headers"] = {}
+            rsettings["headers"].update({"x-Requested-With": "XMLHttpRequest"})
+            rsettings["trim"] = True
 
             page = 0
 
@@ -79,12 +81,7 @@ class invision(ForumExtractor):
                         break
                     nexturl = reliq.decode(rq.ujoin(nexturl))
 
-                    rq = self.session.get_html(
-                        nexturl,
-                        nsettings,
-                        state,
-                        True,
-                    )
+                    rq = self.session.get_html(nexturl, **rsettings)
                     write_html(path + str(page), rq, settings)
                     page += 1
 

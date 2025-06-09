@@ -429,8 +429,8 @@ tested_urls = {
             "https://forums.mangadex.org/threads/scanlator-community-survey-all-scanlators-welcome.1069275/",
         ],
         "smf.v1": [
-            "http://750mm.pl/index.php?topic=4849.0",
             "https://www.saberforum.com/index.php?topic=47627.0",
+            "http://750mm.pl/index.php?topic=4849.0",
             "https://3inchforum.nl/index.php/topic,946.0.html",
             "https://bitcointalk.org/index.php?topic=5439960.0",
             "https://councilofexmuslims.com/index.php?topic=16018.0",
@@ -774,16 +774,14 @@ def testurl(create_ex, attr, print_func=None):
         ex = create_ex(
             logger=out,
             failed=err,
-            timeout=5,
-            # timeout=60,
-            retries=0,
-            # wait=1.2,
-            allow_redirects=True,
-            # wait_random=1000,
-            # retries=2,
-            verify=False,
-            # wait=1,
-            # wait_random=2000,
+            requests={
+                # "timeout": 60,
+                # "retries": 2,
+                # "wait": 1.2,
+                # "wait_random": 1000,
+                "allow_redirects": True,
+                "verify": False,
+            },
         )
 
         r = getattrs(ex, attr)

@@ -3,6 +3,7 @@
 
 from pathlib import Path
 import re
+import copy
 
 from ..defs import reliq
 from ..utils import dict_add
@@ -69,7 +70,10 @@ class hackernews(ForumExtractor):
         def subitem(self, out, name, ref, settings, state, path, func):
             out[name + "-link"] = reliq.urljoin(ref, out[name + "-link"])
 
-            rq = self.session.get_html(out[name + "-link"], settings, state, True)
+            rsettings = copy.copy(settings["requests"])
+            rsettings["trim"] = True
+
+            rq = self.session.get_html(out[name + "-link"], **rsettings)
             out[name] = func(self, rq, settings, state, path + "-" + name)
 
         def get_contents(self, rq, settings, state, url, i_id, path):

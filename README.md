@@ -8,7 +8,7 @@ forumscraper aims to be an universal, automatic and extensive scraper for forums
 
 # Supported forums
 
-- Invision Power Board (only 4.x version)
+- Invision Power Board (only 4.x and 5.x versions)
 - PhpBB (currently excluding 1.x version)
 - Simple Machines Forum
 - XenForo
@@ -79,7 +79,7 @@ Get some help (you might discover that many options are abbreviated to single le
 
 ### Request options
 
-Download `URL` with waiting `0.8` seconds and randomly waiting up to `400` miliseconds for each request
+Download `URL` with waiting `0.8` seconds and randomly waiting up to `400` milliseconds for each request
 
     forumscraper --wait 0.8 --wait-random 400 URL
 
@@ -352,7 +352,7 @@ The get functions and `guess` return `None` in case of failure or `dict` defined
             'threads': [],
             'users': []
         },
-        'visited': set(),
+        "visited": set(),
         "scraper": None,
         "scraper-method": None,
     }
@@ -392,20 +392,13 @@ Disabling `users` and `reactions` greatly speeds up getting `xenforo` and `invis
 
 `logger` logs only urls that are downloaded.
 
-`failed` logs failures in format:
-
-```
-RESOURCE_URL failed STATUS_CODE FAILED_URL
-RESOURCE_URL failed completely STATUS_CODE FAILED_URL
-```
-
-Resource fails completely only because of `STATUS_CODE` e.g. `404`.
+`failed` logs failures.
 
 `undisturbed=False` if set, scraper doesn't care about standard errors.
 
 `pedantic=False` if set, scraper fails because of errors in scraping resources related to currently scraped e.g. if getting users of reactions fails.
 
-`force=False` if set, scraper overwrites files, but will still refuse to scrape urls found in `visited` field of state, if you are passing state between functions and you want to redownload them you will have to set it to empty set e.g. `state['visited'] = set()` before every function call.
+`force=False` if set, scraper overwrites files, but will still refuse to scrape urls found in `visited` field of state, if you are passing state between functions and you want to redownload them you will have to set it to empty set e.g. `state['visited'].clear()` after every function call.
 
 `max_workers=1` set number of threads used for scraping.
 
@@ -427,7 +420,7 @@ Resource fails completely only because of `STATUS_CODE` e.g. `404`.
 
 `wait=0` waiting time for each request.
 
-`wait_random=0` random waiting time up to specified miliseconds.
+`wait_random=0` random waiting time up to specified milliseconds.
 
 `retries=3` number of retries attempted in case of failure.
 

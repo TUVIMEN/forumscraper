@@ -1,12 +1,14 @@
 import sys
 
-from .defs import Outputs, __version__
+from treerequests import args_session, reliq as reliq_tree
+import requests
+
+from .defs import reliq, Outputs, __version__
 from .extractors.extractor import *
 from .args import argparser
 
 __all__ = [
     "Outputs",
-    "net",
     "ForumExtractor",
     "ForumExtractorIdentify",
     "ItemExtractor",
@@ -27,10 +29,6 @@ __all__ = [
 
 def main():
     args = argparser().parse_args(sys.argv[1:] if sys.argv[1:] else ["-h"])
-
-    disturbed = {"undisturbed": True, "pedantic": False}
-    if args.pedantic:
-        disturbed = {"undisturbed": False, "pedantic": True}
 
     output = args.names | Outputs.threads
 
@@ -58,53 +56,34 @@ def main():
         )
         return
 
-    headers = {}
-    cookies = {}
-    if args.cookie is not None:
-        for i in args.cookie:
-            cookies.update(i)
-
-    if args.header is not None:
-        for i in args.header:
-            headers.update(i)
-        cookie = headers.get("Cookie")
-        if cookie is not None:
-            headers.pop("Cookie")
-            for i in cookie.split(";"):
-                pair = i.split("=")
-                name = pair[0].strip()
-                val = None
-                if len(pair) > 1:
-                    val = pair[1].strip()
-                cookies.update({name: val})
-
     settings = {
         "output": output,
         "max_workers": args.threads,
         "logger": args.log,
         "failed": args.failed,
         "force": args.force,
-        **disturbed,
+        "undisturbed": not args.pedantic,
+        "pedantic": args.pedantic,
         "html": args.html,
         "thread_pages_max": args.thread_pages_max,
         "pages_max": args.pages_max,
         "pages_max_depth": args.pages_max_depth,
         "pages_threads_max": args.pages_threads_max,
-        "wait": args.wait,
-        "wait_random": args.wait_random,
-        "retries": args.retries,
-        "retry_wait": args.retry_wait,
-        "timeout": args.timeout,
-        "allow_redirects": args.location,
-        "user-agent": args.user_agent,
-        "verify": args.insecure,
-        "proxies": args.proxies,
-        "headers": headers,
-        "cookies": cookies,
         "compress_func": args.compression,
     }
 
-    ex = Extractor(**settings)
+    ses = args_session(
+        args,
+        requests,
+        requests.Session,
+        lambda x, y: reliq_tree(x, y, obj=reliq),
+        retry_wait=60,
+        verify=True,
+        allow_redirects=False,
+        timeout=120,
+    )
+
+    ex = Extractor(session=ses, **settings)
     func_name = "guess"
     func = getattr(ex, func_name)
 
