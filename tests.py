@@ -778,7 +778,7 @@ def testurl(create_ex, attr, print_func=None):
                 # "timeout": 60,
                 # "retries": 2,
                 # "wait": 1.2,
-                # "wait_random": 1000,
+                # "wait_random": 1,
                 "allow_redirects": True,
                 "verify": False,
             },

@@ -79,9 +79,9 @@ Get some help (you might discover that many options are abbreviated to single le
 
 ### Request options
 
-Download `URL` with waiting `0.8` seconds and randomly waiting up to `400` milliseconds for each request
+Download `URL` with waiting `0.8` seconds and randomly waiting up to `0.4` seconds for each request
 
-    forumscraper --wait 0.8 --wait-random 400 URL
+    forumscraper --wait 0.8 --wait-random 0.4 URL
 
 Download `URL` using `5` retries and waiting `120` seconds between them
 
@@ -195,7 +195,7 @@ xen = xenforo2(
     retries=3,
     retry_wait=10,
     wait=0.4,
-    wait_random=400,
+    wait_random=0.4,
     max_workers=8,
     output=outputs.write_by_id | outputs.threads,
 )
@@ -228,7 +228,7 @@ xen = xenforo2(
     retries=3,
     retry_wait=10,
     wait=0.4,
-    wait_random=400,
+    wait_random=0.4,
     max_workers=8,
     output=outputs.write_by_hash | outputs.threads,
     undisturbed=true,
@@ -420,7 +420,7 @@ Disabling `users` and `reactions` greatly speeds up getting `xenforo` and `invis
 
 `wait=0` waiting time for each request.
 
-`wait_random=0` random waiting time up to specified milliseconds.
+`wait_random=0` random waiting time up to specified seconds.
 
 `retries=3` number of retries attempted in case of failure.
 
