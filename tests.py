@@ -776,7 +776,7 @@ def testurl(create_ex, attr, print_func=None):
             failed=err,
             requests={
                 # "timeout": 60,
-                # "retries": 2,
+                # "retry": 2,
                 # "wait": 1.2,
                 # "wait_random": 1,
                 "allow_redirects": True,

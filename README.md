@@ -85,9 +85,9 @@ Download `URL` with waiting `0.8` seconds and randomly waiting up to `0.4` secon
 
 Download `URL` using `5` retries and waiting `120` seconds between them
 
-    forumscraper --retries 5 --retry-wait 120 URL
+    forumscraper --retry 5 --retry-delay 120 URL
 
-By default when encountered a non fatal failure (e.g. status code 301 and not 404) forumscraper tries 3 times waiting 60 seconds before the next attempt, setting `--retries 0` would disable retries and it's a valid (if not better) method assuming that one handles the `--failures` option correctly.
+By default when encountered a non fatal failure (e.g. status code 301 and not 404) forumscraper tries 3 times waiting 60 seconds before the next attempt, setting `--retry 0` would disable retries and it's a valid (if not better) method assuming that one handles the `--failures` option correctly.
 
 Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom user-agent
 
@@ -95,7 +95,7 @@ Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom u
 
 `--location` Allow for redirections.
 
-`--proxies DICT` (where `DICT` is python stringified dictionary) are directly passed to requests library, e.g. `--proxies '{"http":"127.0.0.1:8080","ftp":"0.0.0.0"}'`.
+`--proxy PROXY` Use the specified proxy.
 
 `--header "Key: Value"` very similar to `curl` `--header` option, can be specified multiple times e.g. `--header 'User: Admin' --header 'Pass: 12345'`. Similar to `curl` `Cookie` header will be parsed like `Cookie: key1=value1; key2=value2` and will be changed to cookies.
 
@@ -147,13 +147,15 @@ import os
 import sys
 from forumscraper import extractor, outputs, xenforo2
 
-ex = extractor(timeout=90)
+ex = extractor(requests={"timeout": 90})
 
 thread = ex.guess(
     "https://xenforo.com/community/threads/forum-data-breach.180995/",
     output=outputs.data | outputs.threads | outputs.users,
-    timeout=60,
-    retries=0,
+    requests={
+        "timeout": 60,
+        "retry": 0,
+    }
 )  # automatically identify forum and type of page and save results
 thread["data"]["threads"][0]  # access the result
 thread["data"]["users"]  # found users are also saved into an array
@@ -161,7 +163,7 @@ thread["data"]["users"]  # found users are also saved into an array
 forum = ex.get_forum(
     "https://xenforo.com/community/forums/off-topic.7/",
     output=outputs.data | outputs.urls | outputs.threads,
-    retries=0,
+    requests={ "retry": 0 }
 )  # get list of all threads and  urls from forum
 forum["data"]["threads"]  # access the results
 forum["urls"]["threads"]  # list of urls to found threads
@@ -191,13 +193,15 @@ os.mkdir("xenforo")
 os.chdir("xenforo")
 
 xen = xenforo2(
-    timeout=30,
-    retries=3,
-    retry_wait=10,
-    wait=0.4,
-    wait_random=0.4,
     max_workers=8,
     output=outputs.write_by_id | outputs.threads,
+    requests={
+        "timeout": 30,
+        "retry": 3,
+        "retry_delay": 10,
+        "wait": 0.4,
+        "wait_random": 0.4
+    }
 )
 # specifies global config, writes output in files by their id (beginning with m- in case of users) in current directory
 # ex.xenforo.v2 is an initialized instance of xenforo2 with the same settings as ex
@@ -208,7 +212,7 @@ files = xen.guess(
     "https://xenforo.com/community/",
     logger=sys.stdout,
     failed=failures,
-    undisturbed=true,
+    undisturbed=true
 )
 # failed=failures writes all the failed requests to be saved in failures array or file
 
@@ -224,14 +228,16 @@ files["files"]["users"]  # lists of created files
 # if the instance is ForumExtractorIdentify, before checking if the files already exist based on url the page has to be downloaded to be indentified. because of that any getters from this class return results with 'scraper' field pointing to the indentified scraper type, and further requests should be done through that object.
 
 xen = xenforo2(
-    timeout=30,
-    retries=3,
-    retry_wait=10,
-    wait=0.4,
-    wait_random=0.4,
-    max_workers=8,
     output=outputs.write_by_hash | outputs.threads,
     undisturbed=true,
+    requests={
+        "timeout": 30,
+        "retry": 3,
+        "retry_delay": 10,
+        "wait": 0.4,
+        "wait_random": 0.4,
+        "max_workers": 8
+    }
 )
 # specifies global config, writes output in files by sha256 hash of their url in current directory
 
@@ -404,6 +410,22 @@ Disabling `users` and `reactions` greatly speeds up getting `xenforo` and `invis
 
 `compress_func=None` set compression function that will be called when writing to files, function should accept data in `bytes` as the first argument, e.g. `gzip.compress`.
 
+`html=False` save html files.
+
+`thread_pages_max=0` if greater than `0` limits number of pages traversed in threads.
+
+`pages_max=0` limits number of pages traversed in each forum, tag or board.
+
+`pages_max_depth=0` sets recursion limit for forums, tags and boards.
+
+`pages_forums_max=0` limits number of forums that are processed from every page in forum or board.
+
+`pages_threads_max=0` limits number of threads that are processed from every page in forum or tag.
+
+#### requests
+
+`requests` is a dictionary passed to [treerequests](https://github.com/TUVIMEN/treerequests) library, the following are just a few of possible options:
+
 `verify=True` if set to `False` ignore ssl errors.
 
 `timeout=120` request timeout.
@@ -422,18 +444,6 @@ Disabling `users` and `reactions` greatly speeds up getting `xenforo` and `invis
 
 `wait_random=0` random waiting time up to specified seconds.
 
-`retries=3` number of retries attempted in case of failure.
+`retry=3` number of retries attempted in case of failure.
 
-`retry_wait=60` waiting time between retries.
-
-`html=False` save html files.
-
-`thread_pages_max=0` if greater than `0` limits number of pages traversed in threads.
-
-`pages_max=0` limits number of pages traversed in each forum, tag or board.
-
-`pages_max_depth=0` sets recursion limit for forums, tags and boards.
-
-`pages_forums_max=0` limits number of forums that are processed from every page in forum or board.
-
-`pages_threads_max=0` limits number of threads that are processed from every page in forum or tag.
+`retry_delay=60` waiting time between retries.

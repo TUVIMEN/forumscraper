@@ -286,8 +286,8 @@ class ForumExtractor:
             "failed": None,
             # requests settings
             "requests": {
-                "retries": 3,
-                "retry_wait": 60,
+                "retry": 3,
+                "retry_delay": 60,
                 "verify": True,
                 "allow_redirects": False,
                 "timeout": 120,
