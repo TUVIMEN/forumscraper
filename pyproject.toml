@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "forumscraper"
-version = "0.1.20"
+version = "0.1.21"
 description = "A forum scraper library"
 readme = "README.md"
 requires-python = ">=3.8"
@@ -36,8 +36,11 @@ classifiers = [
 [project.urls]
 "Homepage" = "https://github.com/TUVIMEN/forumscraper"
 
-[tool.setuptools]
-packages = ["forumscraper","forumscraper.extractors"]
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+"*" = ["*.py","*.reliq"]
 
 [project.scripts]
 forumscraper = "forumscraper.__init__:main"

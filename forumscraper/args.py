@@ -20,7 +20,7 @@ from .extractors.extractor import *
 def valid_directory(directory):
     try:
         return os.chdir(directory)
-    except:
+    except Exception:
         raise argparse.ArgumentTypeError(
             'couldn\'t change directory to "{}"'.format(directory)
         )
