@@ -47,7 +47,7 @@ Failures are generally ignored but setting `--pedantic` flag stops the execution
 
 Download `URL`s into `DIR` using `8` threads and log failures into `failures.txt` (note that this option is specified before the `--directory` option, otherwise it would create it in the specified directory if relative path is used)
 
-    forumscraper  --failures failures.txt --threads 8 --directory DIR URL1 URL2 URL3
+    forumscraper  --failed failures.txt --threads 8 --directory DIR URL1 URL2 URL3
 
 Download `URL`s with different scrapers
 
@@ -87,7 +87,7 @@ Download `URL` using `5` retries and waiting `120` seconds between them
 
     forumscraper --retry 5 --retry-delay 120 URL
 
-By default when encountered a non fatal failure (e.g. status code 301 and not 404) forumscraper tries 3 times waiting 60 seconds before the next attempt, setting `--retry 0` would disable retries and it's a valid (if not better) method assuming that one handles the `--failures` option correctly.
+By default when encountered a non fatal failure (e.g. status code 301 and not 404) forumscraper tries 3 times waiting 60 seconds before the next attempt, setting `--retry 0` would disable retries and it's a valid (if not better) method assuming that one handles the `--failed` option correctly.
 
 Download `URL` ignoring ssl errors with timeout set to `60` seconds and custom user-agent
 
